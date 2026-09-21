@@ -1,0 +1,94 @@
+{
+  "id": "de_kids_beginner_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Meine Familie und Tiere",
+  "title_cz": "Moje rodina a zvířata",
+  "vocabulary": [
+    {
+      "word": "die Mutter",
+      "translation_cz": "maminka",
+      "example": "Das ist meine Mutter.",
+      "example_cz": "Tohle je moje maminka.",
+      "tts_text": "Das ist meine Mutter."
+    },
+    {
+      "word": "der Vater",
+      "translation_cz": "tatínek",
+      "example": "Mein Vater ist groß.",
+      "example_cz": "Můj tatínek je vysoký.",
+      "tts_text": "Mein Vater ist groß."
+    },
+    {
+      "word": "die Schwester",
+      "translation_cz": "sestra",
+      "example": "Ich habe eine Schwester.",
+      "example_cz": "Mám jednu sestru.",
+      "tts_text": "Ich habe eine Schwester."
+    },
+    {
+      "word": "der Bruder",
+      "translation_cz": "bratr",
+      "example": "Mein Bruder ist lustig.",
+      "example_cz": "Můj bratr je vtipný.",
+      "tts_text": "Mein Bruder ist lustig."
+    },
+    {
+      "word": "der Hund",
+      "translation_cz": "pes",
+      "example": "Der Hund ist braun.",
+      "example_cz": "Ten pes je hnědý.",
+      "tts_text": "Der Hund ist braun."
+    },
+    {
+      "word": "die Katze",
+      "translation_cz": "kočka",
+      "example": "Die Katze ist klein.",
+      "example_cz": "Ta kočka je malá.",
+      "tts_text": "Die Katze ist klein."
+    },
+    {
+      "word": "glücklich",
+      "translation_cz": "šťastný",
+      "example": "Ich bin glücklich.",
+      "example_cz": "Jsem šťastný.",
+      "tts_text": "Ich bin glücklich."
+    },
+    {
+      "word": "groß",
+      "translation_cz": "velký",
+      "example": "Der Hund ist groß.",
+      "example_cz": "Ten pes je velký.",
+      "tts_text": "Der Hund ist groß."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Mutter",
+      "options": ["maminka", "tatínek", "sestra"],
+      "correct": "maminka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein ___ ist lustig.",
+      "answer": "Bruder",
+      "hint_cz": "bratr"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {"target": "der Hund", "cz": "pes"},
+        {"target": "die Katze", "cz": "kočka"},
+        {"target": "glücklich", "cz": "šťastný"},
+        {"target": "groß", "cz": "velký"}
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe eine Schwester.",
+      "tts_text": "Ich habe eine Schwester."
+    }
+  ]
+}

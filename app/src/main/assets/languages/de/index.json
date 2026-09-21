@@ -1,0 +1,19 @@
+{
+  "language": "de",
+  "lessons": [
+    {
+      "id": "de_kids_beginner_01",
+      "file": "lesson_kids_beginner_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Moje rodina a zvířata"
+    },
+    {
+      "id": "de_adult_corporate_beginner_01",
+      "file": "lesson_adult_corporate_beginner_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "První den v kanceláři"
+    }
+  ]
+}

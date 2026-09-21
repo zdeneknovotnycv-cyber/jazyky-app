@@ -1,0 +1,166 @@
+{
+  "id": "en_adult_corporate_beginner_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "First Day at the Office",
+  "title_cz": "První den v kanceláři",
+  "vocabulary": [
+    {
+      "word": "meeting",
+      "translation_cz": "schůzka / meeting",
+      "example": "The meeting starts at nine.",
+      "example_cz": "Schůzka začíná v devět.",
+      "tts_text": "The meeting starts at nine."
+    },
+    {
+      "word": "deadline",
+      "translation_cz": "termín",
+      "example": "The deadline is on Friday.",
+      "example_cz": "Termín je v pátek.",
+      "tts_text": "The deadline is on Friday."
+    },
+    {
+      "word": "colleague",
+      "translation_cz": "kolega",
+      "example": "This is my colleague, Peter.",
+      "example_cz": "Toto je můj kolega Petr.",
+      "tts_text": "This is my colleague, Peter."
+    },
+    {
+      "word": "report",
+      "translation_cz": "zpráva / report",
+      "example": "Please send me the report.",
+      "example_cz": "Pošlete mi prosím report.",
+      "tts_text": "Please send me the report."
+    },
+    {
+      "word": "schedule",
+      "translation_cz": "harmonogram",
+      "example": "Can we schedule a call?",
+      "example_cz": "Můžeme si naplánovat hovor?",
+      "tts_text": "Can we schedule a call?"
+    },
+    {
+      "word": "attach",
+      "translation_cz": "přiložit",
+      "example": "I attached the file to the email.",
+      "example_cz": "Přiložil jsem soubor k e-mailu.",
+      "tts_text": "I attached the file to the email."
+    },
+    {
+      "word": "available",
+      "translation_cz": "k dispozici",
+      "example": "Are you available tomorrow?",
+      "example_cz": "Jste zítra k dispozici?",
+      "tts_text": "Are you available tomorrow?"
+    },
+    {
+      "word": "issue",
+      "translation_cz": "problém",
+      "example": "We have an issue with the server.",
+      "example_cz": "Máme problém se serverem.",
+      "tts_text": "We have an issue with the server."
+    },
+    {
+      "word": "presentation",
+      "translation_cz": "prezentace",
+      "example": "I will give a presentation tomorrow.",
+      "example_cz": "Zítra budu mít prezentaci.",
+      "tts_text": "I will give a presentation tomorrow."
+    },
+    {
+      "word": "reply",
+      "translation_cz": "odpovědět",
+      "example": "Please reply to my email.",
+      "example_cz": "Odpovězte prosím na můj e-mail.",
+      "tts_text": "Please reply to my email."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_intro_meeting",
+      "title": "Introducing yourself in a meeting",
+      "title_cz": "Představení na schůzce",
+      "lines": [
+        {"speaker": "A", "text": "Good morning, everyone. Let's start the meeting.", "text_cz": "Dobré ráno všem. Začněme schůzku."},
+        {"speaker": "B", "text": "Good morning. I'm the new colleague from the IT department.", "text_cz": "Dobré ráno. Jsem nový kolega z IT oddělení."},
+        {"speaker": "A", "text": "Nice to meet you. Can you send us your report by Friday?", "text_cz": "Těší mě. Můžete nám poslat svůj report do pátku?"},
+        {"speaker": "B", "text": "Yes, I'll attach it to an email today.", "text_cz": "Ano, dnes ho přiložím k e-mailu."}
+      ]
+    },
+    {
+      "id": "conv_phone_call",
+      "title": "A phone call with a client",
+      "title_cz": "Telefonát s klientem",
+      "lines": [
+        {"speaker": "A", "text": "Hello, this is Jana from the sales department.", "text_cz": "Dobrý den, tady Jana z obchodního oddělení."},
+        {"speaker": "B", "text": "Hello Jana, thank you for calling.", "text_cz": "Dobrý den Jano, děkuji za zavolání."},
+        {"speaker": "A", "text": "I'm calling about the deadline for the project.", "text_cz": "Volám kvůli termínu projektu."},
+        {"speaker": "B", "text": "One moment, please. I need to check my schedule.", "text_cz": "Moment, prosím. Musím se podívat do harmonogramu."},
+        {"speaker": "A", "text": "No problem. I can also send you an email.", "text_cz": "Žádný problém. Můžu vám poslat i e-mail."}
+      ]
+    },
+    {
+      "id": "conv_email",
+      "title": "Writing a short business email",
+      "title_cz": "Napsání krátkého pracovního e-mailu",
+      "lines": [
+        {"speaker": "A", "text": "Dear team, please find the report attached.", "text_cz": "Vážený týme, v příloze naleznete report."},
+        {"speaker": "B", "text": "Thank you for the update.", "text_cz": "Děkuji za aktualizaci."},
+        {"speaker": "A", "text": "Let me know if you have any questions.", "text_cz": "Dejte mi vědět, pokud máte nějaké otázky."},
+        {"speaker": "B", "text": "I will reply by tomorrow.", "text_cz": "Odpovím do zítřka."}
+      ]
+    },
+    {
+      "id": "conv_presentation",
+      "title": "Starting a presentation",
+      "title_cz": "Zahájení prezentace",
+      "lines": [
+        {"speaker": "A", "text": "Thank you all for coming today.", "text_cz": "Děkuji vám všem, že jste dnes přišli."},
+        {"speaker": "A", "text": "I will give a short presentation about our new project.", "text_cz": "Budu mít krátkou prezentaci o našem novém projektu."},
+        {"speaker": "B", "text": "Can we ask questions at the end?", "text_cz": "Můžeme se na konci zeptat na otázky?"},
+        {"speaker": "A", "text": "Yes, of course. There is time for questions after the presentation.", "text_cz": "Ano, samozřejmě. Po prezentaci je čas na otázky."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "deadline",
+      "options": ["termín", "kolega", "schůzka"],
+      "correct": "termín"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Are you ___ tomorrow?",
+      "answer": "available",
+      "hint_cz": "k dispozici"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {"target": "meeting", "cz": "schůzka"},
+        {"target": "report", "cz": "zpráva"},
+        {"target": "issue", "cz": "problém"},
+        {"target": "colleague", "cz": "kolega"}
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Can we schedule a call?",
+      "tts_text": "Can we schedule a call?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I will give a ___ tomorrow.",
+      "answer": "presentation",
+      "hint_cz": "prezentace"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please reply to my email.",
+      "tts_text": "Please reply to my email."
+    }
+  ]
+}

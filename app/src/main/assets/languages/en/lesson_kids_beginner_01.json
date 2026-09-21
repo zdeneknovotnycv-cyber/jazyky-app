@@ -1,0 +1,94 @@
+{
+  "id": "en_kids_beginner_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "My Family and Animals",
+  "title_cz": "Moje rodina a zvířata",
+  "vocabulary": [
+    {
+      "word": "mother",
+      "translation_cz": "maminka",
+      "example": "This is my mother.",
+      "example_cz": "Tohle je moje maminka.",
+      "tts_text": "This is my mother."
+    },
+    {
+      "word": "father",
+      "translation_cz": "tatínek",
+      "example": "My father is tall.",
+      "example_cz": "Můj tatínek je vysoký.",
+      "tts_text": "My father is tall."
+    },
+    {
+      "word": "sister",
+      "translation_cz": "sestra",
+      "example": "I have one sister.",
+      "example_cz": "Mám jednu sestru.",
+      "tts_text": "I have one sister."
+    },
+    {
+      "word": "brother",
+      "translation_cz": "bratr",
+      "example": "My brother is funny.",
+      "example_cz": "Můj bratr je vtipný.",
+      "tts_text": "My brother is funny."
+    },
+    {
+      "word": "dog",
+      "translation_cz": "pes",
+      "example": "The dog is brown.",
+      "example_cz": "Ten pes je hnědý.",
+      "tts_text": "The dog is brown."
+    },
+    {
+      "word": "cat",
+      "translation_cz": "kočka",
+      "example": "The cat is small.",
+      "example_cz": "Ta kočka je malá.",
+      "tts_text": "The cat is small."
+    },
+    {
+      "word": "happy",
+      "translation_cz": "šťastný",
+      "example": "I am happy.",
+      "example_cz": "Jsem šťastný.",
+      "tts_text": "I am happy."
+    },
+    {
+      "word": "big",
+      "translation_cz": "velký",
+      "example": "The dog is big.",
+      "example_cz": "Ten pes je velký.",
+      "tts_text": "The dog is big."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "mother",
+      "options": ["maminka", "tatínek", "sestra"],
+      "correct": "maminka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My ___ is funny.",
+      "answer": "brother",
+      "hint_cz": "bratr"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {"target": "dog", "cz": "pes"},
+        {"target": "cat", "cz": "kočka"},
+        {"target": "happy", "cz": "šťastný"},
+        {"target": "big", "cz": "velký"}
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I have one sister.",
+      "tts_text": "I have one sister."
+    }
+  ]
+}
