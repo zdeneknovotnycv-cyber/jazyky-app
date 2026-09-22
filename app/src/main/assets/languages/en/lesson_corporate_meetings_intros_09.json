@@ -10,13 +10,15 @@
       "word": "follow up",
       "translation_cz": "navázat / kontaktovat znovu",
       "example": "I'm following up on our meeting yesterday.",
-      "example_cz": "Navazuji na naši včerejší schůzku."
+      "example_cz": "Navazuji na naši včerejší schůzku.",
+      "tts_text": "I'm following up on our meeting yesterday."
     },
     {
       "word": "as discussed",
       "translation_cz": "jak jsme probírali",
       "example": "As discussed, I'm attaching the report.",
-      "example_cz": "Jak jsme probírali, přikládám report."
+      "example_cz": "Jak jsme probírali, přikládám report.",
+      "tts_text": "As discussed, I'm attaching the report."
     },
     {
       "word": "confirm",

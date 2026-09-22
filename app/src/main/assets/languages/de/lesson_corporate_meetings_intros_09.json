@@ -10,13 +10,15 @@
       "word": "nachfassen",
       "translation_cz": "navázat / kontaktovat znovu",
       "example": "Ich fasse bezüglich unseres gestrigen Meetings nach.",
-      "example_cz": "Navazuji na naši včerejší schůzku."
+      "example_cz": "Navazuji na naši včerejší schůzku.",
+      "tts_text": "Ich fasse bezüglich unseres gestrigen Meetings nach."
     },
     {
       "word": "wie besprochen",
       "translation_cz": "jak jsme probírali",
       "example": "Wie besprochen, hänge ich den Bericht an.",
-      "example_cz": "Jak jsme probírali, přikládám report."
+      "example_cz": "Jak jsme probírali, přikládám report.",
+      "tts_text": "Wie besprochen, hänge ich den Bericht an."
     },
     {
       "word": "bestätigen",

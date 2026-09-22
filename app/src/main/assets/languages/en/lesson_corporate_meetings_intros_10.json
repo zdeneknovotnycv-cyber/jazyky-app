@@ -17,7 +17,8 @@
       "word": "status update",
       "translation_cz": "aktuální stav",
       "example": "Let's start with a quick status update.",
-      "example_cz": "Začněme rychlým shrnutím aktuálního stavu."
+      "example_cz": "Začněme rychlým shrnutím aktuálního stavu.",
+      "tts_text": "Let's start with a quick status update."
     },
     {
       "word": "standing meeting",
@@ -30,7 +31,8 @@
       "word": "round of updates",
       "translation_cz": "kolečko aktualit",
       "example": "Let's do a quick round of updates.",
-      "example_cz": "Uděláme rychlé kolečko aktualit."
+      "example_cz": "Uděláme rychlé kolečko aktualit.",
+      "tts_text": "Let's do a quick round of updates."
     },
     {
       "word": "blocker",

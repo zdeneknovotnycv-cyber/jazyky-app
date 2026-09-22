@@ -17,7 +17,8 @@
       "word": "action item",
       "translation_cz": "úkol k realizaci",
       "example": "We have three action items from today.",
-      "example_cz": "Z dnešní schůzky máme tři úkoly."
+      "example_cz": "Z dnešní schůzky máme tři úkoly.",
+      "tts_text": "We have three action items from today."
     },
     {
       "word": "summarize",

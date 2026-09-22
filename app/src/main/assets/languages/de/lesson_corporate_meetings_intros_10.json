@@ -17,7 +17,8 @@
       "word": "der Statusbericht",
       "translation_cz": "aktuální stav",
       "example": "Beginnen wir mit einem kurzen Statusbericht.",
-      "example_cz": "Začněme rychlým shrnutím aktuálního stavu."
+      "example_cz": "Začněme rychlým shrnutím aktuálního stavu.",
+      "tts_text": "Beginnen wir mit einem kurzen Statusbericht."
     },
     {
       "word": "das feste Meeting",
@@ -30,7 +31,8 @@
       "word": "die Update-Runde",
       "translation_cz": "kolečko aktualit",
       "example": "Machen wir eine kurze Update-Runde.",
-      "example_cz": "Uděláme rychlé kolečko aktualit."
+      "example_cz": "Uděláme rychlé kolečko aktualit.",
+      "tts_text": "Machen wir eine kurze Update-Runde."
     },
     {
       "word": "das Hindernis",
