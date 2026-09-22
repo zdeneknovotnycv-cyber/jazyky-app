@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_sports_hobbies_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Schwimmen",
+  "title_cz": "Plavání",
+  "vocabulary": [
+    {
+      "word": "schwimmen",
+      "translation_cz": "plavat",
+      "example": "Ich kann gut schwimmen.",
+      "example_cz": "Umím dobře plavat.",
+      "tts_text": "Ich kann gut schwimmen."
+    },
+    {
+      "word": "das Schwimmbad",
+      "translation_cz": "bazén",
+      "example": "Wir gehen samstags ins Schwimmbad.",
+      "example_cz": "V sobotu chodíme do bazénu.",
+      "tts_text": "Wir gehen samstags ins Schwimmbad."
+    },
+    {
+      "word": "das Wasser",
+      "translation_cz": "voda",
+      "example": "Das Wasser ist kalt.",
+      "example_cz": "Voda je studená.",
+      "tts_text": "Das Wasser ist kalt."
+    },
+    {
+      "word": "tauchen",
+      "translation_cz": "skočit do vody",
+      "example": "Ich tauche ins Becken.",
+      "example_cz": "Skáču do bazénu.",
+      "tts_text": "Ich tauche ins Becken."
+    },
+    {
+      "word": "schweben",
+      "translation_cz": "plavat na vodě, nadnášet se",
+      "example": "Ich kann auf dem Rücken schweben.",
+      "example_cz": "Umím se nadnášet na zádech.",
+      "tts_text": "Ich kann auf dem Rücken schweben."
+    },
+    {
+      "word": "der Schwimmkurs",
+      "translation_cz": "plavecký kurz",
+      "example": "Ich habe montags Schwimmkurs.",
+      "example_cz": "V pondělí mám plavecký kurz.",
+      "tts_text": "Ich habe montags Schwimmkurs."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "schwimmen",
+      "options": [
+        "plavat",
+        "voda",
+        "bazén"
+      ],
+      "correct": "plavat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir gehen samstags ins ___.",
+      "answer": "Schwimmbad",
+      "hint_cz": "bazénu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Wasser",
+          "cz": "voda"
+        },
+        {
+          "target": "tauchen",
+          "cz": "skočit do vody"
+        },
+        {
+          "target": "schweben",
+          "cz": "plavat na vodě, nadnášet se"
+        },
+        {
+          "target": "der Schwimmkurs",
+          "cz": "plavecký kurz"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich kann gut schwimmen.",
+      "tts_text": "Ich kann gut schwimmen."
+    }
+  ]
+}

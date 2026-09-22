@@ -1,0 +1,162 @@
+{
+  "id": "en_adult_corporate_it_support_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Setting Up a New Laptop",
+  "title_cz": "Nastavení nového notebooku",
+  "vocabulary": [
+    {
+      "word": "new laptop",
+      "translation_cz": "nový notebook",
+      "example": "I just received my new laptop from IT.",
+      "example_cz": "Právě jsem od IT dostal nový notebook.",
+      "tts_text": "I just received my new laptop from IT."
+    },
+    {
+      "word": "set up",
+      "translation_cz": "nastavit",
+      "example": "Can you help me set up my new laptop?",
+      "example_cz": "Můžete mi pomoct nastavit nový notebook?",
+      "tts_text": "Can you help me set up my new laptop?"
+    },
+    {
+      "word": "account",
+      "translation_cz": "účet",
+      "example": "First, let's log into your company account.",
+      "example_cz": "Nejdřív se přihlásíme do vašeho firemního účtu.",
+      "tts_text": "First, let's log into your company account."
+    },
+    {
+      "word": "connect to Wi-Fi",
+      "translation_cz": "připojit se k Wi-Fi",
+      "example": "Please connect to Wi-Fi using the office network.",
+      "example_cz": "Připojte se prosím k Wi-Fi pomocí firemní sítě.",
+      "tts_text": "Please connect to Wi-Fi using the office network."
+    },
+    {
+      "word": "install applications",
+      "translation_cz": "nainstalovat aplikace",
+      "example": "We need to install applications like email and video calls.",
+      "example_cz": "Musíme nainstalovat aplikace jako e-mail a videohovory.",
+      "tts_text": "We need to install applications like email and video calls."
+    },
+    {
+      "word": "transfer files",
+      "translation_cz": "přenést soubory",
+      "example": "Do you want to transfer files from your old laptop?",
+      "example_cz": "Chcete přenést soubory ze starého notebooku?",
+      "tts_text": "Do you want to transfer files from your old laptop?"
+    },
+    {
+      "word": "email client",
+      "translation_cz": "e-mailový klient",
+      "example": "Let's set up your email client first.",
+      "example_cz": "Nastavme si nejdřív váš e-mailový klient.",
+      "tts_text": "Let's set up your email client first."
+    },
+    {
+      "word": "ready to use",
+      "translation_cz": "připraven k použití",
+      "example": "Your laptop is now ready to use.",
+      "example_cz": "Váš notebook je nyní připraven k použití.",
+      "tts_text": "Your laptop is now ready to use."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_new_laptop",
+      "title": "Setting up a new work laptop",
+      "title_cz": "Nastavení nového pracovního notebooku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I just received my new laptop. Can you help me set it up?",
+          "text_cz": "Právě jsem dostal nový notebook. Můžete mi pomoct ho nastavit?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. First, let's connect to Wi-Fi and log into your company account.",
+          "text_cz": "Jistě. Nejdřív se připojíme k Wi-Fi a přihlásíme se do vašeho firemního účtu."
+        },
+        {
+          "speaker": "A",
+          "text": "Okay, I'm connected. What's next?",
+          "text_cz": "Dobře, jsem připojen. Co dál?"
+        },
+        {
+          "speaker": "B",
+          "text": "Now let's install applications like email and video calls, and set up your email client.",
+          "text_cz": "Teď nainstalujeme aplikace jako e-mail a videohovory a nastavíme váš e-mailový klient."
+        }
+      ]
+    },
+    {
+      "id": "conv_transfer_files",
+      "title": "Transferring old files",
+      "title_cz": "Přenos starých souborů",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Do I need to transfer files from my old laptop?",
+          "text_cz": "Potřebuji přenést soubory ze starého notebooku?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, please back them up, and we'll copy them to your new laptop.",
+          "text_cz": "Ano, zálohujte je prosím a my je zkopírujeme do vašeho nového notebooku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "connect to Wi-Fi",
+      "options": [
+        "připojit se k Wi-Fi",
+        "přenést soubory",
+        "nainstalovat aplikace"
+      ],
+      "correct": "připojit se k Wi-Fi"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can you help me ___ up my new laptop?",
+      "answer": "set",
+      "hint_cz": "nastavit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "account",
+          "cz": "účet"
+        },
+        {
+          "target": "email client",
+          "cz": "e-mailový klient"
+        },
+        {
+          "target": "transfer files",
+          "cz": "přenést soubory"
+        },
+        {
+          "target": "ready to use",
+          "cz": "připraven k použití"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I just received my new laptop from IT.",
+      "tts_text": "I just received my new laptop from IT."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Your laptop is now ___ to use.",
+      "answer": "ready",
+      "hint_cz": "připraven"
+    }
+  ]
+}

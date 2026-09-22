@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_numbers_colors_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Numbers 1-10",
+  "title_cz": "Čísla 1 až 10",
+  "vocabulary": [
+    {
+      "word": "eins",
+      "translation_cz": "jedna",
+      "example": "Ich habe einen Apfel.",
+      "example_cz": "Mám jedno jablko.",
+      "tts_text": "Ich habe einen Apfel."
+    },
+    {
+      "word": "zwei",
+      "translation_cz": "dva",
+      "example": "Ich habe zwei Augen.",
+      "example_cz": "Mám dvě oči.",
+      "tts_text": "Ich habe zwei Augen."
+    },
+    {
+      "word": "drei",
+      "translation_cz": "tři",
+      "example": "Ich sehe drei Vögel.",
+      "example_cz": "Vidím tři ptáky.",
+      "tts_text": "Ich sehe drei Vögel."
+    },
+    {
+      "word": "fünf",
+      "translation_cz": "pět",
+      "example": "Ich habe fünf Finger.",
+      "example_cz": "Mám pět prstů.",
+      "tts_text": "Ich habe fünf Finger."
+    },
+    {
+      "word": "sieben",
+      "translation_cz": "sedm",
+      "example": "Eine Woche hat sieben Tage.",
+      "example_cz": "Týden má sedm dní.",
+      "tts_text": "Eine Woche hat sieben Tage."
+    },
+    {
+      "word": "neun",
+      "translation_cz": "devět",
+      "example": "Der Bus hat neun freie Plätze.",
+      "example_cz": "Autobus má devět volných míst.",
+      "tts_text": "Der Bus hat neun freie Plätze."
+    },
+    {
+      "word": "zehn",
+      "translation_cz": "deset",
+      "example": "Ich kann bis zehn zählen.",
+      "example_cz": "Umím počítat do deseti.",
+      "tts_text": "Ich kann bis zehn zählen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sieben",
+      "options": [
+        "sedm",
+        "pět",
+        "tři"
+      ],
+      "correct": "sedm"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich kann bis ___ zählen.",
+      "answer": "zehn",
+      "hint_cz": "deseti"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "eins",
+          "cz": "jedna"
+        },
+        {
+          "target": "zwei",
+          "cz": "dva"
+        },
+        {
+          "target": "drei",
+          "cz": "tři"
+        },
+        {
+          "target": "fünf",
+          "cz": "pět"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Eine Woche hat sieben Tage.",
+      "tts_text": "Eine Woche hat sieben Tage."
+    }
+  ]
+}

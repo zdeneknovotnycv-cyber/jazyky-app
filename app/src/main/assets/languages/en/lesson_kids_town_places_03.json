@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_town_places_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The bakery",
+  "title_cz": "Pekárna",
+  "vocabulary": [
+    {
+      "word": "bakery",
+      "translation_cz": "pekárna",
+      "example": "We buy bread at the bakery.",
+      "example_cz": "Kupujeme chleba v pekárně.",
+      "tts_text": "We buy bread at the bakery."
+    },
+    {
+      "word": "bread",
+      "translation_cz": "chleba",
+      "example": "The bread smells wonderful.",
+      "example_cz": "Chleba krásně voní.",
+      "tts_text": "The bread smells wonderful."
+    },
+    {
+      "word": "croissant",
+      "translation_cz": "croissant",
+      "example": "I want a croissant for breakfast.",
+      "example_cz": "Chci croissant k snídani.",
+      "tts_text": "I want a croissant for breakfast."
+    },
+    {
+      "word": "baker",
+      "translation_cz": "pekař",
+      "example": "The baker bakes early in the morning.",
+      "example_cz": "Pekař peče brzy ráno.",
+      "tts_text": "The baker bakes early in the morning."
+    },
+    {
+      "word": "cake",
+      "translation_cz": "dort",
+      "example": "We order a birthday cake.",
+      "example_cz": "Objednáváme narozeninový dort.",
+      "tts_text": "We order a birthday cake."
+    },
+    {
+      "word": "oven",
+      "translation_cz": "pec",
+      "example": "The bread bakes in the oven.",
+      "example_cz": "Chleba se peče v peci.",
+      "tts_text": "The bread bakes in the oven."
+    },
+    {
+      "word": "fresh",
+      "translation_cz": "čerstvý",
+      "example": "The bread is fresh every morning.",
+      "example_cz": "Chleba je každé ráno čerstvý.",
+      "tts_text": "The bread is fresh every morning."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "bakery",
+      "options": [
+        "pekárna",
+        "park",
+        "škola"
+      ],
+      "correct": "pekárna"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ smells wonderful.",
+      "answer": "bread",
+      "hint_cz": "chleba"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bread",
+          "cz": "chleba"
+        },
+        {
+          "target": "croissant",
+          "cz": "croissant"
+        },
+        {
+          "target": "baker",
+          "cz": "pekař"
+        },
+        {
+          "target": "cake",
+          "cz": "dort"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I want a croissant for breakfast.",
+      "tts_text": "I want a croissant for breakfast."
+    }
+  ]
+}

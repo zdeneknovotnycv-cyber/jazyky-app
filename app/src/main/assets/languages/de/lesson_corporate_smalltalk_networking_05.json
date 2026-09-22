@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_smalltalk_networking_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über das Wetter bei der Arbeit sprechen",
+  "title_cz": "Povídání o počasí v práci",
+  "vocabulary": [
+    {
+      "word": "Wie ist das Wetter?",
+      "translation_cz": "Jaké je počasí?",
+      "example": "Wie ist das Wetter draußen?",
+      "example_cz": "Jaké je venku počasí?",
+      "tts_text": "Wie ist das Wetter draußen?"
+    },
+    {
+      "word": "Es ist eiskalt",
+      "translation_cz": "Je mrznoucí zima",
+      "example": "Es ist heute eiskalt.",
+      "example_cz": "Dnes je mrznoucí zima.",
+      "tts_text": "Es ist heute eiskalt."
+    },
+    {
+      "word": "sonnig",
+      "translation_cz": "slunečno",
+      "example": "Heute ist es sonnig und warm.",
+      "example_cz": "Dnes je slunečno a teplo.",
+      "tts_text": "Heute ist es sonnig und warm."
+    },
+    {
+      "word": "einen Regenschirm mitnehmen",
+      "translation_cz": "vzít si deštník",
+      "example": "Du solltest einen Regenschirm mitnehmen.",
+      "example_cz": "Měl bys vzít deštník.",
+      "tts_text": "Du solltest einen Regenschirm mitnehmen."
+    },
+    {
+      "word": "die Wettervorhersage",
+      "translation_cz": "předpověď",
+      "example": "Die Wettervorhersage sagt Regen an.",
+      "example_cz": "Předpověď říká, že bude pršet.",
+      "tts_text": "Die Wettervorhersage sagt Regen an."
+    },
+    {
+      "word": "Es schüttet",
+      "translation_cz": "Lije jako z konve",
+      "example": "Es schüttet gerade draußen.",
+      "example_cz": "Právě teď venku lije jako z konve.",
+      "tts_text": "Es schüttet gerade draußen."
+    },
+    {
+      "word": "perfektes Wetter für",
+      "translation_cz": "ideální počasí na",
+      "example": "Es ist perfektes Wetter für einen Spaziergang.",
+      "example_cz": "Je to ideální počasí na procházku.",
+      "tts_text": "Es ist perfektes Wetter für einen Spaziergang."
+    },
+    {
+      "word": "kühl",
+      "translation_cz": "chladno",
+      "example": "Es ist heute Morgen etwas kühl.",
+      "example_cz": "Dnes ráno je trochu chladno.",
+      "tts_text": "Es ist heute Morgen etwas kühl."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_wetter",
+      "title": "Small Talk über das Wetter",
+      "title_cz": "Řeč o počasí",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wie ist das Wetter draußen?",
+          "text_cz": "Jaké je venku počasí?"
+        },
+        {
+          "speaker": "B",
+          "text": "Es schüttet gerade. Hast du einen Regenschirm mitgenommen?",
+          "text_cz": "Právě teď lije jako z konve. Vzal sis deštník?"
+        },
+        {
+          "speaker": "A",
+          "text": "Nein, habe ich nicht. Die Wettervorhersage sagte, es würde sonnig.",
+          "text_cz": "Ne, nevzal. Předpověď říkala, že bude slunečno."
+        },
+        {
+          "speaker": "B",
+          "text": "Naja, es ist auch eiskalt. Kein perfektes Wetter für ein Mittagessen draußen.",
+          "text_cz": "No, a k tomu ještě mrzne. Není to ideální počasí na oběd venku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Wettervorhersage",
+      "options": [
+        "předpověď",
+        "deštník",
+        "slunečno"
+      ],
+      "correct": "předpověď"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Du solltest einen ___ mitnehmen.",
+      "answer": "Regenschirm",
+      "hint_cz": "deštník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es ___ gerade draußen.",
+      "answer": "schüttet",
+      "hint_cz": "lije"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sonnig",
+          "cz": "slunečno"
+        },
+        {
+          "target": "kühl",
+          "cz": "chladno"
+        },
+        {
+          "target": "die Wettervorhersage",
+          "cz": "předpověď"
+        },
+        {
+          "target": "Es ist eiskalt",
+          "cz": "Je mrznoucí zima"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wie ist das Wetter?",
+      "tts_text": "Wie ist das Wetter?"
+    }
+  ]
+}

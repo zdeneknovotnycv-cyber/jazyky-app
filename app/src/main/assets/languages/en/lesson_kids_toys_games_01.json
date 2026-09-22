@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_toys_games_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Favorite Toys",
+  "title_cz": "Oblíbené hračky",
+  "vocabulary": [
+    {
+      "word": "toy",
+      "translation_cz": "hračka",
+      "example": "This is my favorite toy.",
+      "example_cz": "Toto je moje oblíbená hračka.",
+      "tts_text": "This is my favorite toy."
+    },
+    {
+      "word": "teddy bear",
+      "translation_cz": "plyšový medvídek",
+      "example": "I sleep with my teddy bear.",
+      "example_cz": "Spím se svým plyšovým medvídkem.",
+      "tts_text": "I sleep with my teddy bear."
+    },
+    {
+      "word": "ball",
+      "translation_cz": "míč",
+      "example": "I play with a ball.",
+      "example_cz": "Hraji si s míčem.",
+      "tts_text": "I play with a ball."
+    },
+    {
+      "word": "car",
+      "translation_cz": "autíčko",
+      "example": "My toy car is red.",
+      "example_cz": "Moje autíčko je červené.",
+      "tts_text": "My toy car is red."
+    },
+    {
+      "word": "robot",
+      "translation_cz": "robot",
+      "example": "The robot can walk.",
+      "example_cz": "Robot umí chodit.",
+      "tts_text": "The robot can walk."
+    },
+    {
+      "word": "play",
+      "translation_cz": "hrát si",
+      "example": "I like to play with toys.",
+      "example_cz": "Rád si hraji s hračkami.",
+      "tts_text": "I like to play with toys."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "teddy bear",
+      "options": [
+        "plyšový medvídek",
+        "míč",
+        "robot"
+      ],
+      "correct": "plyšový medvídek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I play with a ___.",
+      "answer": "ball",
+      "hint_cz": "míčem"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "toy",
+          "cz": "hračka"
+        },
+        {
+          "target": "car",
+          "cz": "autíčko"
+        },
+        {
+          "target": "robot",
+          "cz": "robot"
+        },
+        {
+          "target": "play",
+          "cz": "hrát si"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "This is my favorite toy.",
+      "tts_text": "This is my favorite toy."
+    }
+  ]
+}

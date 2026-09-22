@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_daily_routine_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Badezeit",
+  "title_cz": "Koupání",
+  "vocabulary": [
+    {
+      "word": "das Bad",
+      "translation_cz": "koupel",
+      "example": "Ich nehme abends ein Bad.",
+      "example_cz": "Večer se koupu.",
+      "tts_text": "Ich nehme abends ein Bad."
+    },
+    {
+      "word": "die Seife",
+      "translation_cz": "mýdlo",
+      "example": "Ich wasche meine Hände mit Seife.",
+      "example_cz": "Myju si ruce mýdlem.",
+      "tts_text": "Ich wasche meine Hände mit Seife."
+    },
+    {
+      "word": "das Handtuch",
+      "translation_cz": "ručník",
+      "example": "Ich trockne mich mit einem Handtuch ab.",
+      "example_cz": "Utírám se ručníkem.",
+      "tts_text": "Ich trockne mich mit einem Handtuch ab."
+    },
+    {
+      "word": "warmes Wasser",
+      "translation_cz": "teplá voda",
+      "example": "Ich mag warmes Wasser im Bad.",
+      "example_cz": "Mám rád teplou vodu v koupeli.",
+      "tts_text": "Ich mag warmes Wasser im Bad."
+    },
+    {
+      "word": "das Shampoo",
+      "translation_cz": "šampon",
+      "example": "Ich wasche meine Haare mit Shampoo.",
+      "example_cz": "Myju si vlasy šamponem.",
+      "tts_text": "Ich wasche meine Haare mit Shampoo."
+    },
+    {
+      "word": "die Gummiente",
+      "translation_cz": "gumová kachnička",
+      "example": "Meine Gummiente schwimmt im Wasser.",
+      "example_cz": "Moje gumová kachnička plave ve vodě.",
+      "tts_text": "Meine Gummiente schwimmt im Wasser."
+    },
+    {
+      "word": "sauber",
+      "translation_cz": "čistý",
+      "example": "Nach dem Bad fühle ich mich sauber.",
+      "example_cz": "Po koupeli se cítím čistý.",
+      "tts_text": "Nach dem Bad fühle ich mich sauber."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Bad",
+      "options": [
+        "koupel",
+        "mýdlo",
+        "ručník"
+      ],
+      "correct": "koupel"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich wasche meine Hände mit ___.",
+      "answer": "Seife",
+      "hint_cz": "mýdlo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Handtuch",
+          "cz": "ručník"
+        },
+        {
+          "target": "warmes Wasser",
+          "cz": "teplá voda"
+        },
+        {
+          "target": "das Shampoo",
+          "cz": "šampon"
+        },
+        {
+          "target": "die Gummiente",
+          "cz": "gumová kachnička"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Nach dem Bad fühle ich mich sauber.",
+      "tts_text": "Nach dem Bad fühle ich mich sauber."
+    }
+  ]
+}

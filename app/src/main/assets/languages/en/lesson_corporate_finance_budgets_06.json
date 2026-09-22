@@ -1,0 +1,46 @@
+{
+  "id": "en_corporate_finance_budgets_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Cost-Cutting Discussion",
+  "title_cz": "Rozhovor o snižování nákladů",
+  "vocabulary": [
+    {"word": "cost-cutting", "translation_cz": "snižování nákladů", "example": "We need to focus on cost-cutting this year.", "example_cz": "Letos se musíme zaměřit na snižování nákladů.", "tts_text": "We need to focus on cost-cutting this year."},
+    {"word": "reduce spending", "translation_cz": "snížit výdaje", "example": "We plan to reduce spending on travel.", "example_cz": "Plánujeme snížit výdaje na cestování.", "tts_text": "We plan to reduce spending on travel."},
+    {"word": "efficiency", "translation_cz": "efektivita", "example": "New software will improve our efficiency.", "example_cz": "Nový software zlepší naši efektivitu.", "tts_text": "New software will improve our efficiency."},
+    {"word": "unnecessary costs", "translation_cz": "zbytečné náklady", "example": "We should eliminate unnecessary costs.", "example_cz": "Měli bychom eliminovat zbytečné náklady.", "tts_text": "We should eliminate unnecessary costs."},
+    {"word": "supplier contract", "translation_cz": "smlouva s dodavatelem", "example": "We renegotiated the supplier contract.", "example_cz": "Znovu jsme vyjednali smlouvu s dodavatelem.", "tts_text": "We renegotiated the supplier contract."},
+    {"word": "streamline processes", "translation_cz": "zefektivnit procesy", "example": "We aim to streamline processes across departments.", "example_cz": "Naším cílem je zefektivnit procesy napříč odděleními.", "tts_text": "We aim to streamline processes across departments."},
+    {"word": "savings", "translation_cz": "úspory", "example": "This change will bring significant savings.", "example_cz": "Tato změna přinese výrazné úspory.", "tts_text": "This change will bring significant savings."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_cost_cutting",
+      "title": "Discussing cost-cutting measures",
+      "title_cz": "Rozhovor o opatřeních ke snížení nákladů",
+      "lines": [
+        {"speaker": "A", "text": "We need to find ways to reduce spending this quarter.", "text_cz": "Musíme najít způsoby, jak toto čtvrtletí snížit výdaje."},
+        {"speaker": "B", "text": "We could start by cutting unnecessary costs like unused subscriptions.", "text_cz": "Mohli bychom začít eliminací zbytečných nákladů, jako jsou nevyužité předplatné."},
+        {"speaker": "A", "text": "Good point. Let's also review our supplier contracts.", "text_cz": "Dobrý postřeh. Projděme si také naše smlouvy s dodavateli."},
+        {"speaker": "B", "text": "That could lead to real savings without affecting quality.", "text_cz": "To by mohlo přinést skutečné úspory, aniž by to ovlivnilo kvalitu."}
+      ]
+    },
+    {
+      "id": "conv_efficiency",
+      "title": "Improving efficiency",
+      "title_cz": "Zlepšení efektivity",
+      "lines": [
+        {"speaker": "A", "text": "How can we streamline our processes?", "text_cz": "Jak můžeme zefektivnit naše procesy?"},
+        {"speaker": "B", "text": "New automation software should improve efficiency significantly.", "text_cz": "Nový automatizační software by měl výrazně zlepšit efektivitu."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "savings", "options": ["úspory", "náklady", "efektivita"], "correct": "úspory"},
+    {"type": "fill_gap", "sentence": "We should eliminate ___ costs.", "answer": "unnecessary", "hint_cz": "zbytečné"},
+    {"type": "match_pairs", "pairs": [{"target": "efficiency", "cz": "efektivita"}, {"target": "supplier contract", "cz": "smlouva s dodavatelem"}, {"target": "cost-cutting", "cz": "snižování nákladů"}, {"target": "savings", "cz": "úspory"}]},
+    {"type": "speak_and_check", "target_phrase": "We plan to reduce spending on travel.", "tts_text": "We plan to reduce spending on travel."},
+    {"type": "fill_gap", "sentence": "We aim to ___ processes across departments.", "answer": "streamline", "hint_cz": "zefektivnit"}
+  ]
+}

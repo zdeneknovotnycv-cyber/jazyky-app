@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_daily_routine_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "After school activities",
+  "title_cz": "Odpolední aktivity po škole",
+  "vocabulary": [
+    {
+      "word": "after school",
+      "translation_cz": "po škole",
+      "example": "I play soccer after school.",
+      "example_cz": "Po škole hraju fotbal.",
+      "tts_text": "I play soccer after school."
+    },
+    {
+      "word": "swimming lesson",
+      "translation_cz": "plavecký kurz",
+      "example": "I have a swimming lesson today.",
+      "example_cz": "Dnes mám plavecký kurz.",
+      "tts_text": "I have a swimming lesson today."
+    },
+    {
+      "word": "music class",
+      "translation_cz": "hudební kroužek",
+      "example": "I go to music class on Monday.",
+      "example_cz": "V pondělí chodím na hudební kroužek.",
+      "tts_text": "I go to music class on Monday."
+    },
+    {
+      "word": "club",
+      "translation_cz": "kroužek",
+      "example": "I am in an art club.",
+      "example_cz": "Chodím do výtvarného kroužku.",
+      "tts_text": "I am in an art club."
+    },
+    {
+      "word": "friend",
+      "translation_cz": "kamarád",
+      "example": "I meet my friend in the park.",
+      "example_cz": "Potkávám se s kamarádem v parku.",
+      "tts_text": "I meet my friend in the park."
+    },
+    {
+      "word": "tired",
+      "translation_cz": "unavený",
+      "example": "I feel tired after practice.",
+      "example_cz": "Po tréninku jsem unavený.",
+      "tts_text": "I feel tired after practice."
+    },
+    {
+      "word": "snack",
+      "translation_cz": "svačina",
+      "example": "I eat a snack after school.",
+      "example_cz": "Po škole si dávám svačinu.",
+      "tts_text": "I eat a snack after school."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "after school",
+      "options": [
+        "po škole",
+        "plavecký kurz",
+        "hudební kroužek"
+      ],
+      "correct": "po škole"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I have a ___ today.",
+      "answer": "swimming lesson",
+      "hint_cz": "plavecký kurz"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "music class",
+          "cz": "hudební kroužek"
+        },
+        {
+          "target": "club",
+          "cz": "kroužek"
+        },
+        {
+          "target": "friend",
+          "cz": "kamarád"
+        },
+        {
+          "target": "tired",
+          "cz": "unavený"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I eat a snack after school.",
+      "tts_text": "I eat a snack after school."
+    }
+  ]
+}

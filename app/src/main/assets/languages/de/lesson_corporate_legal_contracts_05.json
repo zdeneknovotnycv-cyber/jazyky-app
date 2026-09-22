@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_legal_contracts_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine rechtliche Prüfung anfordern",
+  "title_cz": "Žádost o právní kontrolu",
+  "vocabulary": [
+    {
+      "word": "die Rechtsabteilung",
+      "translation_cz": "právní oddělení",
+      "example": "Bitte senden Sie das an die Rechtsabteilung.",
+      "example_cz": "Prosím zašlete toto právnímu oddělení.",
+      "tts_text": "Bitte senden Sie das an die Rechtsabteilung."
+    },
+    {
+      "word": "das prüfen lassen",
+      "translation_cz": "nechat toto zkontrolovat",
+      "example": "Wir müssen das prüfen lassen.",
+      "example_cz": "Musíme to nechat zkontrolovat.",
+      "tts_text": "Wir müssen das prüfen lassen."
+    },
+    {
+      "word": "die Risikobewertung",
+      "translation_cz": "posouzení rizik",
+      "example": "Die Rechtsabteilung macht eine Risikobewertung.",
+      "example_cz": "Právní oddělení provede posouzení rizik.",
+      "tts_text": "Die Rechtsabteilung macht eine Risikobewertung."
+    },
+    {
+      "word": "bevor wir fortfahren",
+      "translation_cz": "než budeme pokračovat",
+      "example": "Warten wir auf die Freigabe, bevor wir fortfahren.",
+      "example_cz": "Počkejme na schválení, než budeme pokračovat.",
+      "tts_text": "Warten wir auf die Freigabe, bevor wir fortfahren."
+    },
+    {
+      "word": "Bedenken melden",
+      "translation_cz": "upozornit na obavy",
+      "example": "Bitte melden Sie alle Bedenken, die Sie finden.",
+      "example_cz": "Prosím upozorněte na jakékoli obavy, které najdete.",
+      "tts_text": "Bitte melden Sie alle Bedenken, die Sie finden."
+    },
+    {
+      "word": "die Bearbeitungszeit",
+      "translation_cz": "doba vyřízení",
+      "example": "Wie lang ist die Bearbeitungszeit für die Prüfung?",
+      "example_cz": "Jaká je doba vyřízení kontroly?",
+      "tts_text": "Wie lang ist die Bearbeitungszeit für die Prüfung?"
+    },
+    {
+      "word": "rechtlich einwandfrei",
+      "translation_cz": "právně v pořádku",
+      "example": "Wir wollen sicherstellen, dass es rechtlich einwandfrei ist.",
+      "example_cz": "Chceme se ujistit, že je to právně v pořádku.",
+      "tts_text": "Wir wollen sicherstellen, dass es rechtlich einwandfrei ist."
+    },
+    {
+      "word": "die Freigabe erhalten",
+      "translation_cz": "získat schválení",
+      "example": "Wir brauchen die Freigabe der Rechtsabteilung.",
+      "example_cz": "Musíme získat schválení od právního oddělení.",
+      "tts_text": "Wir brauchen die Freigabe der Rechtsabteilung."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_05",
+      "title": "Eine rechtliche Prüfung anfordern",
+      "title_cz": "Žádost o právní kontrolu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Können Sie diesen Vertrag von der Rechtsabteilung prüfen lassen?",
+          "text_cz": "Můžete nechat tuto smlouvu zkontrolovat právním oddělením?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar. Welche Bearbeitungszeit brauchen Sie?",
+          "text_cz": "Jasně. Jakou dobu vyřízení potřebujete?"
+        },
+        {
+          "speaker": "A",
+          "text": "Bis Freitag, wenn möglich. Wir können ohne ihre Freigabe nicht fortfahren.",
+          "text_cz": "Pokud možno do pátku. Bez jejich schválení nemůžeme pokračovat."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich bitte sie, Bedenken schnell zu melden.",
+          "text_cz": "Požádám je, aby rychle upozornili na jakékoli obavy."
+        },
+        {
+          "speaker": "A",
+          "text": "Wir wollen nur sicherstellen, dass es rechtlich einwandfrei ist.",
+          "text_cz": "Jen chceme mít jistotu, že je to právně v pořádku."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich fordere auch eine Risikobewertung an.",
+          "text_cz": "Vyžádám si také posouzení rizik."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Rechtsabteilung",
+      "options": [
+        "právní oddělení",
+        "nechat toto zkontrolovat",
+        "posouzení rizik"
+      ],
+      "correct": "právní oddělení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Warten wir auf die Freigabe, ___.",
+      "answer": "bevor wir fortfahren",
+      "hint_cz": "než budeme pokračovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Rechtsabteilung",
+          "cz": "právní oddělení"
+        },
+        {
+          "target": "das prüfen lassen",
+          "cz": "nechat toto zkontrolovat"
+        },
+        {
+          "target": "die Risikobewertung",
+          "cz": "posouzení rizik"
+        },
+        {
+          "target": "bevor wir fortfahren",
+          "cz": "než budeme pokračovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte melden Sie alle Bedenken, die Sie finden.",
+      "tts_text": "Bitte melden Sie alle Bedenken, die Sie finden."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wie lang ist ___ für die Prüfung?",
+      "answer": "die Bearbeitungszeit",
+      "hint_cz": "doba vyřízení"
+    }
+  ]
+}

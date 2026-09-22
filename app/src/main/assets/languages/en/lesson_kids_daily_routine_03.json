@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_daily_routine_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Breakfast routine",
+  "title_cz": "Snídaňový rituál",
+  "vocabulary": [
+    {
+      "word": "breakfast",
+      "translation_cz": "snídaně",
+      "example": "I eat breakfast in the kitchen.",
+      "example_cz": "Snídám v kuchyni.",
+      "tts_text": "I eat breakfast in the kitchen."
+    },
+    {
+      "word": "cereal",
+      "translation_cz": "cereálie",
+      "example": "I like cereal with milk.",
+      "example_cz": "Mám rád cereálie s mlékem.",
+      "tts_text": "I like cereal with milk."
+    },
+    {
+      "word": "toast",
+      "translation_cz": "topinka",
+      "example": "My sister eats toast with jam.",
+      "example_cz": "Moje sestra jí topinku s marmeládou.",
+      "tts_text": "My sister eats toast with jam."
+    },
+    {
+      "word": "milk",
+      "translation_cz": "mléko",
+      "example": "I drink a glass of milk.",
+      "example_cz": "Piju sklenici mléka.",
+      "tts_text": "I drink a glass of milk."
+    },
+    {
+      "word": "egg",
+      "translation_cz": "vejce",
+      "example": "Dad cooks an egg for breakfast.",
+      "example_cz": "Táta k snídani uvaří vejce.",
+      "tts_text": "Dad cooks an egg for breakfast."
+    },
+    {
+      "word": "hungry",
+      "translation_cz": "hladový",
+      "example": "I am hungry in the morning.",
+      "example_cz": "Ráno mám hlad.",
+      "tts_text": "I am hungry in the morning."
+    },
+    {
+      "word": "table",
+      "translation_cz": "stůl",
+      "example": "We sit at the table together.",
+      "example_cz": "Sedíme spolu u stolu.",
+      "tts_text": "We sit at the table together."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "breakfast",
+      "options": [
+        "snídaně",
+        "cereálie",
+        "topinka"
+      ],
+      "correct": "snídaně"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I like ___ with milk.",
+      "answer": "cereal",
+      "hint_cz": "cereálie"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "toast",
+          "cz": "topinka"
+        },
+        {
+          "target": "milk",
+          "cz": "mléko"
+        },
+        {
+          "target": "egg",
+          "cz": "vejce"
+        },
+        {
+          "target": "hungry",
+          "cz": "hladový"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We sit at the table together.",
+      "tts_text": "We sit at the table together."
+    }
+  ]
+}

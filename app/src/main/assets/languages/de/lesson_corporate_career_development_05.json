@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_career_development_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Lebenslauf aktualisieren",
+  "title_cz": "Příprava aktualizace životopisu",
+  "vocabulary": [
+    {
+      "word": "der Lebenslauf",
+      "translation_cz": "životopis",
+      "example": "Ich muss dieses Wochenende meinen Lebenslauf aktualisieren.",
+      "example_cz": "Musím si o víkendu aktualizovat životopis.",
+      "tts_text": "Ich muss dieses Wochenende meinen Lebenslauf aktualisieren."
+    },
+    {
+      "word": "aktualisieren",
+      "translation_cz": "aktualizovat",
+      "example": "Lass uns deinen Lebenslauf mit dem neuen Projekt aktualisieren.",
+      "example_cz": "Pojďme aktualizovat tvůj životopis o nový projekt.",
+      "tts_text": "Lass uns deinen Lebenslauf mit dem neuen Projekt aktualisieren."
+    },
+    {
+      "word": "die Berufserfahrung",
+      "translation_cz": "pracovní zkušenosti",
+      "example": "Liste deine Berufserfahrung in umgekehrter Reihenfolge auf.",
+      "example_cz": "Uveď svoje pracovní zkušenosti v opačném pořadí.",
+      "tts_text": "Liste deine Berufserfahrung in umgekehrter Reihenfolge auf."
+    },
+    {
+      "word": "die Erfolge",
+      "translation_cz": "úspěchy / dosažené výsledky",
+      "example": "Führe deine wichtigsten Erfolge für jede Position auf.",
+      "example_cz": "U každé pozice uveď svoje klíčové úspěchy.",
+      "tts_text": "Führe deine wichtigsten Erfolge für jede Position auf."
+    },
+    {
+      "word": "der Fähigkeitenbereich",
+      "translation_cz": "sekce dovedností",
+      "example": "Füge das im Fähigkeitenbereich hinzu.",
+      "example_cz": "Přidej to do sekce dovedností.",
+      "tts_text": "Füge das im Fähigkeitenbereich hinzu."
+    },
+    {
+      "word": "anpassen",
+      "translation_cz": "přizpůsobit",
+      "example": "Du solltest deinen Lebenslauf an jede Stelle anpassen.",
+      "example_cz": "Životopis bys měl přizpůsobit každé pozici.",
+      "tts_text": "Du solltest deinen Lebenslauf an jede Stelle anpassen."
+    },
+    {
+      "word": "kurz und prägnant halten",
+      "translation_cz": "udržet stručné",
+      "example": "Versuche, ihn kurz und prägnant zu halten, ein bis zwei Seiten.",
+      "example_cz": "Snaž se to udržet stručné, jednu nebo dvě strany.",
+      "tts_text": "Versuche, ihn kurz und prägnant zu halten, ein bis zwei Seiten."
+    },
+    {
+      "word": "Korrektur lesen",
+      "translation_cz": "zkontrolovat pravopis",
+      "example": "Lies immer Korrektur, bevor du ihn abschickst.",
+      "example_cz": "Vždy si to před odesláním zkontroluj.",
+      "tts_text": "Lies immer Korrektur, bevor du ihn abschickst."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_cv_update",
+      "title": "Einen aktualisierten Lebenslauf vorbereiten",
+      "title_cz": "Příprava aktualizovaného životopisu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich muss dieses Wochenende meinen Lebenslauf für eine neue Bewerbung aktualisieren.",
+          "text_cz": "Musím si o víkendu aktualizovat životopis kvůli nové přihlášce."
+        },
+        {
+          "speaker": "B",
+          "text": "Gute Idee. Denk daran, deine aktuelle Berufserfahrung hinzuzufügen.",
+          "text_cz": "Dobrý nápad. Nezapomeň přidat svoje nedávné pracovní zkušenosti."
+        },
+        {
+          "speaker": "A",
+          "text": "Stimmt, und ich sollte auch meine wichtigsten Erfolge im Fähigkeitenbereich angeben.",
+          "text_cz": "Máš pravdu, a měl bych uvést i klíčové úspěchy v sekci dovedností."
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, und versuch, ihn an die Stelle anzupassen und kurz zu halten.",
+          "text_cz": "Ano, a zkus ho přizpůsobit dané pozici a udržet ho stručný."
+        },
+        {
+          "speaker": "A",
+          "text": "Guter Punkt. Ich werde sorgfältig Korrektur lesen, bevor ich ihn abschicke.",
+          "text_cz": "Dobrý postřeh. Před odesláním si ho pečlivě zkontroluji."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Erfolge",
+      "options": [
+        "úspěchy / dosažené výsledky",
+        "životopis",
+        "sekce dovedností"
+      ],
+      "correct": "úspěchy / dosažené výsledky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lies immer ___, bevor du ihn abschickst.",
+      "answer": "Korrektur",
+      "hint_cz": "zkontroluj"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Berufserfahrung",
+          "cz": "pracovní zkušenosti"
+        },
+        {
+          "target": "der Fähigkeitenbereich",
+          "cz": "sekce dovedností"
+        },
+        {
+          "target": "anpassen",
+          "cz": "přizpůsobit"
+        },
+        {
+          "target": "kurz und prägnant halten",
+          "cz": "udržet stručné"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Versuche, ihn kurz und prägnant zu halten.",
+      "tts_text": "Versuche, ihn kurz und prägnant zu halten."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Du solltest deinen Lebenslauf an jede Stelle ___.",
+      "answer": "anpassen",
+      "hint_cz": "přizpůsobit"
+    }
+  ]
+}

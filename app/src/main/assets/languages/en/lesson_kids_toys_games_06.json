@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_toys_games_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Dolls and Action Figures",
+  "title_cz": "Panenky a akční figurky",
+  "vocabulary": [
+    {
+      "word": "doll",
+      "translation_cz": "panenka",
+      "example": "My doll has long hair.",
+      "example_cz": "Moje panenka má dlouhé vlasy.",
+      "tts_text": "My doll has long hair."
+    },
+    {
+      "word": "action figure",
+      "translation_cz": "akční figurka",
+      "example": "My brother collects action figures.",
+      "example_cz": "Můj bratr sbírá akční figurky.",
+      "tts_text": "My brother collects action figures."
+    },
+    {
+      "word": "superhero",
+      "translation_cz": "superhrdina",
+      "example": "This figure is my favorite superhero.",
+      "example_cz": "Tato figurka je můj oblíbený superhrdina.",
+      "tts_text": "This figure is my favorite superhero."
+    },
+    {
+      "word": "dollhouse",
+      "translation_cz": "domeček pro panenky",
+      "example": "The dollhouse has three rooms.",
+      "example_cz": "Domeček pro panenky má tři pokoje.",
+      "tts_text": "The dollhouse has three rooms."
+    },
+    {
+      "word": "dress up",
+      "translation_cz": "obléknout",
+      "example": "I dress up my doll.",
+      "example_cz": "Oblékám svou panenku.",
+      "tts_text": "I dress up my doll."
+    },
+    {
+      "word": "hero",
+      "translation_cz": "hrdina",
+      "example": "The hero saves the day.",
+      "example_cz": "Hrdina zachrání den.",
+      "tts_text": "The hero saves the day."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "doll",
+      "options": [
+        "panenka",
+        "akční figurka",
+        "superhrdina"
+      ],
+      "correct": "panenka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My brother collects action ___.",
+      "answer": "figures",
+      "hint_cz": "figurky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "action figure",
+          "cz": "akční figurka"
+        },
+        {
+          "target": "superhero",
+          "cz": "superhrdina"
+        },
+        {
+          "target": "dollhouse",
+          "cz": "domeček pro panenky"
+        },
+        {
+          "target": "hero",
+          "cz": "hrdina"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My doll has long hair.",
+      "tts_text": "My doll has long hair."
+    }
+  ]
+}

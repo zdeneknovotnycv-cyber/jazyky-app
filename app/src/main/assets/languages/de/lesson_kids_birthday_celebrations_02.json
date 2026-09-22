@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_birthday_celebrations_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Weihnachten",
+  "title_cz": "Vánoce",
+  "vocabulary": [
+    {
+      "word": "Weihnachten",
+      "translation_cz": "Vánoce",
+      "example": "Weihnachten ist mein Lieblingsfest.",
+      "example_cz": "Vánoce jsou moje oblíbené svátky.",
+      "tts_text": "Weihnachten ist mein Lieblingsfest."
+    },
+    {
+      "word": "der Weihnachtsbaum",
+      "translation_cz": "vánoční stromek",
+      "example": "Wir schmücken den Weihnachtsbaum.",
+      "example_cz": "Zdobíme vánoční stromek.",
+      "tts_text": "Wir schmücken den Weihnachtsbaum."
+    },
+    {
+      "word": "das Geschenk",
+      "translation_cz": "dárek",
+      "example": "Ich öffne ein Geschenk unter dem Baum.",
+      "example_cz": "Otevírám dárek pod stromečkem.",
+      "tts_text": "Ich öffne ein Geschenk unter dem Baum."
+    },
+    {
+      "word": "der Schnee",
+      "translation_cz": "sníh",
+      "example": "Weißer Schnee fällt draußen.",
+      "example_cz": "Venku padá bílý sníh.",
+      "tts_text": "Weißer Schnee fällt draußen."
+    },
+    {
+      "word": "das Weihnachtslied",
+      "translation_cz": "koleda",
+      "example": "Wir singen ein Weihnachtslied.",
+      "example_cz": "Zpíváme vánoční koledu.",
+      "tts_text": "Wir singen ein Weihnachtslied."
+    },
+    {
+      "word": "die Kerze",
+      "translation_cz": "svíčka",
+      "example": "Eine Kerze brennt auf dem Tisch.",
+      "example_cz": "Na stole hoří svíčka.",
+      "tts_text": "Eine Kerze brennt auf dem Tisch."
+    },
+    {
+      "word": "das Familientreffen",
+      "translation_cz": "setkání rodiny",
+      "example": "Weihnachten ist ein Familientreffen.",
+      "example_cz": "Vánoce jsou setkání rodiny.",
+      "tts_text": "Weihnachten ist ein Familientreffen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Weihnachten",
+      "options": [
+        "Vánoce",
+        "vánoční stromek",
+        "dárek"
+      ],
+      "correct": "Vánoce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir schmücken den ___.",
+      "answer": "Weihnachtsbaum",
+      "hint_cz": "vánoční stromek"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Geschenk",
+          "cz": "dárek"
+        },
+        {
+          "target": "der Schnee",
+          "cz": "sníh"
+        },
+        {
+          "target": "das Weihnachtslied",
+          "cz": "koleda"
+        },
+        {
+          "target": "die Kerze",
+          "cz": "svíčka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Weihnachten ist ein Familientreffen.",
+      "tts_text": "Weihnachten ist ein Familientreffen."
+    }
+  ]
+}

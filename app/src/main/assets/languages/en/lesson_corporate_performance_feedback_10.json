@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_performance_feedback_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing a raise",
+  "title_cz": "Diskuse o navýšení platu",
+  "vocabulary": [
+    {
+      "word": "salary raise",
+      "translation_cz": "navýšení platu",
+      "example": "I would like to discuss a salary raise.",
+      "example_cz": "Rád bych probral navýšení platu.",
+      "tts_text": "I would like to discuss a salary raise."
+    },
+    {
+      "word": "market rate",
+      "translation_cz": "tržní sazba",
+      "example": "My salary is below the market rate for this role.",
+      "example_cz": "Můj plat je pod tržní sazbou pro tuto roli.",
+      "tts_text": "My salary is below the market rate for this role."
+    },
+    {
+      "word": "performance results",
+      "translation_cz": "výsledky výkonu",
+      "example": "My performance results support this request.",
+      "example_cz": "Moje výsledky výkonu tento požadavek podporují.",
+      "tts_text": "My performance results support this request."
+    },
+    {
+      "word": "budget constraints",
+      "translation_cz": "rozpočtová omezení",
+      "example": "There are some budget constraints this year.",
+      "example_cz": "Letos jsou určitá rozpočtová omezení.",
+      "tts_text": "There are some budget constraints this year."
+    },
+    {
+      "word": "negotiate",
+      "translation_cz": "vyjednávat",
+      "example": "It's normal to negotiate your salary.",
+      "example_cz": "Je normální vyjednávat o platu.",
+      "tts_text": "It's normal to negotiate your salary."
+    },
+    {
+      "word": "annual review cycle",
+      "translation_cz": "roční hodnoticí cyklus",
+      "example": "Raises are usually discussed in the annual review cycle.",
+      "example_cz": "Navýšení se obvykle probírají v ročním hodnoticím cyklu.",
+      "tts_text": "Raises are usually discussed in the annual review cycle."
+    },
+    {
+      "word": "compensation package",
+      "translation_cz": "mzdový balíček",
+      "example": "Let's look at your whole compensation package.",
+      "example_cz": "Podívejme se na celý tvůj mzdový balíček.",
+      "tts_text": "Let's look at your whole compensation package."
+    },
+    {
+      "word": "come back to this",
+      "translation_cz": "vrátit se k tomu",
+      "example": "Let's come back to this next month.",
+      "example_cz": "Vraťme se k tomu příští měsíc.",
+      "tts_text": "Let's come back to this next month."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_10",
+      "title": "Asking for a raise",
+      "title_cz": "Žádost o navýšení platu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'd like to discuss a salary raise, if possible.",
+          "text_cz": "Rád bych probral navýšení platu, pokud je to možné."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, tell me why you think it's justified.",
+          "text_cz": "Jasně, řekni mi, proč si myslíš, že je to oprávněné."
+        },
+        {
+          "speaker": "A",
+          "text": "My performance results this year support the request.",
+          "text_cz": "Moje letošní výsledky výkonu tento požadavek podporují."
+        },
+        {
+          "speaker": "B",
+          "text": "I understand, but we have some budget constraints. Let's come back to this next month.",
+          "text_cz": "Chápu, ale máme určitá rozpočtová omezení. Vraťme se k tomu příští měsíc."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "salary raise",
+      "options": [
+        "navýšení platu",
+        "tržní sazba",
+        "výsledky výkonu"
+      ],
+      "correct": "navýšení platu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My salary is below the market ___ for this role.",
+      "answer": "rate",
+      "hint_cz": "sazbou"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "salary raise",
+          "cz": "navýšení platu"
+        },
+        {
+          "target": "market rate",
+          "cz": "tržní sazba"
+        },
+        {
+          "target": "performance results",
+          "cz": "výsledky výkonu"
+        },
+        {
+          "target": "budget constraints",
+          "cz": "rozpočtová omezení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I would like to discuss a salary raise.",
+      "tts_text": "I would like to discuss a salary raise."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "There are some budget ___ this year.",
+      "answer": "constraints",
+      "hint_cz": "omezení"
+    }
+  ]
+}

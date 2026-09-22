@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_weather_seasons_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Was Man Bei Welchem Wetter Anzieht",
+  "title_cz": "Co si obléknout podle počasí",
+  "vocabulary": [
+    {
+      "word": "die Jacke",
+      "translation_cz": "bunda",
+      "example": "Zieh eine Jacke an, es ist kalt.",
+      "example_cz": "Vezmi si bundu, je zima.",
+      "tts_text": "Zieh eine Jacke an, es ist kalt."
+    },
+    {
+      "word": "die Mütze",
+      "translation_cz": "čepice",
+      "example": "Setz deine Mütze auf.",
+      "example_cz": "Nasaď si čepici.",
+      "tts_text": "Setz deine Mütze auf."
+    },
+    {
+      "word": "die Handschuhe",
+      "translation_cz": "rukavice",
+      "example": "Im Winter brauche ich meine Handschuhe.",
+      "example_cz": "V zimě potřebuji rukavice.",
+      "tts_text": "Im Winter brauche ich meine Handschuhe."
+    },
+    {
+      "word": "die Sonnenbrille",
+      "translation_cz": "sluneční brýle",
+      "example": "Ich trage eine Sonnenbrille, wenn es sonnig ist.",
+      "example_cz": "Když je slunečno, nosím sluneční brýle.",
+      "tts_text": "Ich trage eine Sonnenbrille, wenn es sonnig ist."
+    },
+    {
+      "word": "die kurze Hose",
+      "translation_cz": "kraťasy",
+      "example": "Im Sommer trage ich eine kurze Hose.",
+      "example_cz": "V létě nosím kraťasy.",
+      "tts_text": "Im Sommer trage ich eine kurze Hose."
+    },
+    {
+      "word": "der Regenmantel",
+      "translation_cz": "pláštěnka",
+      "example": "Zieh deinen Regenmantel an, es regnet.",
+      "example_cz": "Obleč si pláštěnku, prší.",
+      "tts_text": "Zieh deinen Regenmantel an, es regnet."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Handschuhe",
+      "options": [
+        "rukavice",
+        "čepice",
+        "bunda"
+      ],
+      "correct": "rukavice"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Zieh eine ___ an, es ist kalt.",
+      "answer": "Jacke",
+      "hint_cz": "bunda"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Mütze",
+          "cz": "čepice"
+        },
+        {
+          "target": "die Sonnenbrille",
+          "cz": "sluneční brýle"
+        },
+        {
+          "target": "die kurze Hose",
+          "cz": "kraťasy"
+        },
+        {
+          "target": "der Regenmantel",
+          "cz": "pláštěnka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Setz deine Mütze auf.",
+      "tts_text": "Setz deine Mütze auf."
+    }
+  ]
+}

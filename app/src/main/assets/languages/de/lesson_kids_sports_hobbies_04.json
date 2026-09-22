@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_sports_hobbies_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Tanzen",
+  "title_cz": "Tanec",
+  "vocabulary": [
+    {
+      "word": "tanzen",
+      "translation_cz": "tanec / tančit",
+      "example": "Ich tanze gern zur Musik.",
+      "example_cz": "Ráda tančím na hudbu.",
+      "tts_text": "Ich tanze gern zur Musik."
+    },
+    {
+      "word": "die Musik",
+      "translation_cz": "hudba",
+      "example": "Die Musik ist schnell.",
+      "example_cz": "Hudba je rychlá.",
+      "tts_text": "Die Musik ist schnell."
+    },
+    {
+      "word": "sich bewegen",
+      "translation_cz": "pohybovat se",
+      "example": "Wir bewegen unsere Arme und Beine.",
+      "example_cz": "Pohybujeme rukama a nohama.",
+      "tts_text": "Wir bewegen unsere Arme und Beine."
+    },
+    {
+      "word": "der Tanzkurs",
+      "translation_cz": "taneční kroužek",
+      "example": "Ich gehe mittwochs in den Tanzkurs.",
+      "example_cz": "Ve středu chodím na taneční kroužek.",
+      "tts_text": "Ich gehe mittwochs in den Tanzkurs."
+    },
+    {
+      "word": "der Rhythmus",
+      "translation_cz": "rytmus",
+      "example": "Folge dem Rhythmus des Liedes.",
+      "example_cz": "Řiď se rytmem písničky.",
+      "tts_text": "Folge dem Rhythmus des Liedes."
+    },
+    {
+      "word": "sich drehen",
+      "translation_cz": "otočit se",
+      "example": "Ich drehe mich, wenn ich tanze.",
+      "example_cz": "Když tančím, otáčím se dokola.",
+      "tts_text": "Ich drehe mich, wenn ich tanze."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Musik",
+      "options": [
+        "hudba",
+        "tanec / tančit",
+        "rytmus"
+      ],
+      "correct": "hudba"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich tanze gern zur ___.",
+      "answer": "Musik",
+      "hint_cz": "hudbu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sich bewegen",
+          "cz": "pohybovat se"
+        },
+        {
+          "target": "der Tanzkurs",
+          "cz": "taneční kroužek"
+        },
+        {
+          "target": "der Rhythmus",
+          "cz": "rytmus"
+        },
+        {
+          "target": "sich drehen",
+          "cz": "otočit se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich tanze gern zur Musik.",
+      "tts_text": "Ich tanze gern zur Musik."
+    }
+  ]
+}

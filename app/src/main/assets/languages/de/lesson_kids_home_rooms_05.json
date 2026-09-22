@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_home_rooms_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Living Room and TV",
+  "title_cz": "Obývací pokoj a televize",
+  "vocabulary": [
+    {
+      "word": "das Sofa",
+      "translation_cz": "gauč",
+      "example": "Wir sitzen auf dem Sofa.",
+      "example_cz": "Sedíme na gauči.",
+      "tts_text": "Wir sitzen auf dem Sofa."
+    },
+    {
+      "word": "der Fernseher",
+      "translation_cz": "televize",
+      "example": "Wir schauen zusammen fern.",
+      "example_cz": "Sledujeme spolu televizi.",
+      "tts_text": "Wir schauen zusammen fern."
+    },
+    {
+      "word": "die Fernbedienung",
+      "translation_cz": "dálkový ovladač",
+      "example": "Wo ist die Fernbedienung?",
+      "example_cz": "Kde je dálkový ovladač?",
+      "tts_text": "Wo ist die Fernbedienung?"
+    },
+    {
+      "word": "der Zeichentrickfilm",
+      "translation_cz": "kreslený seriál",
+      "example": "Ich schaue gern Zeichentrickfilme.",
+      "example_cz": "Rád sleduji kreslené seriály.",
+      "tts_text": "Ich schaue gern Zeichentrickfilme."
+    },
+    {
+      "word": "der Teppich",
+      "translation_cz": "koberec",
+      "example": "Der Teppich ist weich.",
+      "example_cz": "Koberec je měkký.",
+      "tts_text": "Der Teppich ist weich."
+    },
+    {
+      "word": "die Vorhänge",
+      "translation_cz": "závěsy",
+      "example": "Die Vorhänge sind gelb.",
+      "example_cz": "Závěsy jsou žluté.",
+      "tts_text": "Die Vorhänge sind gelb."
+    },
+    {
+      "word": "einschalten",
+      "translation_cz": "zapnout",
+      "example": "Schalte bitte den Fernseher ein.",
+      "example_cz": "Zapni prosím televizi.",
+      "tts_text": "Schalte bitte den Fernseher ein."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Sofa",
+      "options": [
+        "gauč",
+        "koberec",
+        "závěsy"
+      ],
+      "correct": "gauč"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wo ist die ___?",
+      "answer": "Fernbedienung",
+      "hint_cz": "ovladač"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Fernseher",
+          "cz": "televize"
+        },
+        {
+          "target": "der Zeichentrickfilm",
+          "cz": "kreslený seriál"
+        },
+        {
+          "target": "der Teppich",
+          "cz": "koberec"
+        },
+        {
+          "target": "einschalten",
+          "cz": "zapnout"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir schauen zusammen fern.",
+      "tts_text": "Wir schauen zusammen fern."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_negotiation_sales_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über Konditionen verhandeln",
+  "title_cz": "Vyjednávání podmínek",
+  "vocabulary": [
+    {
+      "word": "die Geschäftsbedingungen",
+      "translation_cz": "obchodní podmínky",
+      "example": "Bitte prüfen Sie die Geschäftsbedingungen sorgfältig.",
+      "example_cz": "Pečlivě si prosím prostudujte obchodní podmínky.",
+      "tts_text": "Bitte prüfen Sie die Geschäftsbedingungen sorgfältig."
+    },
+    {
+      "word": "die Lieferzeit",
+      "translation_cz": "dodací lhůta",
+      "example": "Können Sie die Lieferzeit verkürzen?",
+      "example_cz": "Můžete zkrátit dodací lhůtu?",
+      "tts_text": "Können Sie die Lieferzeit verkürzen?"
+    },
+    {
+      "word": "die Flexibilität",
+      "translation_cz": "flexibilita",
+      "example": "Wir können etwas Flexibilität bei der Vertragslaufzeit anbieten.",
+      "example_cz": "Můžeme nabídnout jistou flexibilitu ohledně délky smlouvy.",
+      "tts_text": "Wir können etwas Flexibilität bei der Vertragslaufzeit anbieten."
+    },
+    {
+      "word": "das Gegenangebot",
+      "translation_cz": "protinávrh",
+      "example": "Wir haben ein Gegenangebot vom Kunden erhalten.",
+      "example_cz": "Obdrželi jsme protinávrh od klienta.",
+      "tts_text": "Wir haben ein Gegenangebot vom Kunden erhalten."
+    },
+    {
+      "word": "der Kompromiss",
+      "translation_cz": "kompromis",
+      "example": "Beide Seiten müssen einen Kompromiss finden.",
+      "example_cz": "Obě strany musí najít kompromis.",
+      "tts_text": "Beide Seiten müssen einen Kompromiss finden."
+    },
+    {
+      "word": "die Exklusivrechte",
+      "translation_cz": "výhradní práva",
+      "example": "Wir bitten um Exklusivrechte in dieser Region.",
+      "example_cz": "Žádáme o výhradní práva v tomto regionu.",
+      "tts_text": "Wir bitten um Exklusivrechte in dieser Region."
+    },
+    {
+      "word": "die Verlängerungsklausel",
+      "translation_cz": "doložka o obnovení",
+      "example": "Die Verlängerungsklausel greift automatisch, sofern nicht gekündigt wird.",
+      "example_cz": "Doložka o obnovení je automatická, pokud nedojde ke zrušení.",
+      "tts_text": "Die Verlängerungsklausel greift automatisch, sofern nicht gekündigt wird."
+    },
+    {
+      "word": "für beide Seiten vorteilhaft",
+      "translation_cz": "vzájemně výhodný",
+      "example": "Wir suchen eine für beide Seiten vorteilhafte Vereinbarung.",
+      "example_cz": "Hledáme vzájemně výhodnou dohodu.",
+      "tts_text": "Wir suchen eine für beide Seiten vorteilhafte Vereinbarung."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_negotiate_terms",
+      "title": "Über Lieferbedingungen verhandeln",
+      "title_cz": "Vyjednávání dodacích podmínek",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Können Sie die Lieferzeit im Vertrag verkürzen?",
+          "text_cz": "Můžete ve smlouvě zkrátit dodací lhůtu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Wir können etwas Flexibilität bieten, aber nicht ohne ein Gegenangebot beim Preis.",
+          "text_cz": "Můžeme nabídnout jistou flexibilitu, ale ne bez protinávrhu na cenu."
+        },
+        {
+          "speaker": "A",
+          "text": "Lassen Sie uns einen Kompromiss finden, der für beide Seiten funktioniert.",
+          "text_cz": "Najděme kompromis, který bude fungovat pro obě strany."
+        },
+        {
+          "speaker": "B",
+          "text": "Einverstanden, wir wollen auch eine für beide Seiten vorteilhafte Vereinbarung.",
+          "text_cz": "Souhlasím, chceme také vzájemně výhodnou dohodu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Geschäftsbedingungen",
+      "options": [
+        "obchodní podmínky",
+        "flexibilita",
+        "protinávrh"
+      ],
+      "correct": "obchodní podmínky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Können Sie ___ verkürzen?",
+      "answer": "die Lieferzeit",
+      "hint_cz": "dodací lhůta"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Beide Seiten müssen einen Kompromiss finden.",
+      "answer": "der Kompromiss",
+      "hint_cz": "kompromis"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Exklusivrechte",
+          "cz": "výhradní práva"
+        },
+        {
+          "target": "die Verlängerungsklausel",
+          "cz": "doložka o obnovení"
+        },
+        {
+          "target": "für beide Seiten vorteilhaft",
+          "cz": "vzájemně výhodný"
+        },
+        {
+          "target": "die Flexibilität",
+          "cz": "flexibilita"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Können Sie die Lieferzeit im Vertrag verkürzen?",
+      "tts_text": "Können Sie die Lieferzeit im Vertrag verkürzen?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir können etwas Flexibilität bieten, aber nicht ohne ein Gegenangebot beim Preis.",
+      "tts_text": "Wir können etwas Flexibilität bieten, aber nicht ohne ein Gegenangebot beim Preis."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_weather_seasons_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Autumn and Leaves",
+  "title_cz": "Podzim a listí",
+  "vocabulary": [
+    {
+      "word": "autumn",
+      "translation_cz": "podzim",
+      "example": "Autumn is colorful.",
+      "example_cz": "Podzim je barevný.",
+      "tts_text": "Autumn is colorful."
+    },
+    {
+      "word": "leaf",
+      "translation_cz": "list (ze stromu)",
+      "example": "A leaf fell on the ground.",
+      "example_cz": "List spadl na zem.",
+      "tts_text": "A leaf fell on the ground."
+    },
+    {
+      "word": "wind",
+      "translation_cz": "vítr",
+      "example": "The wind is blowing.",
+      "example_cz": "Fouká vítr.",
+      "tts_text": "The wind is blowing."
+    },
+    {
+      "word": "mushroom",
+      "translation_cz": "houba",
+      "example": "We pick mushrooms in autumn.",
+      "example_cz": "Na podzim sbíráme houby.",
+      "tts_text": "We pick mushrooms in autumn."
+    },
+    {
+      "word": "orange",
+      "translation_cz": "oranžový",
+      "example": "The leaves turn orange.",
+      "example_cz": "Listy zežloutnou do oranžova.",
+      "tts_text": "The leaves turn orange."
+    },
+    {
+      "word": "umbrella",
+      "translation_cz": "deštník",
+      "example": "Bring an umbrella, it might rain.",
+      "example_cz": "Vezmi si deštník, mohlo by pršet.",
+      "tts_text": "Bring an umbrella, it might rain."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "leaf",
+      "options": [
+        "list (ze stromu)",
+        "vítr",
+        "houba"
+      ],
+      "correct": "list (ze stromu)"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is blowing.",
+      "answer": "wind",
+      "hint_cz": "vítr"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "autumn",
+          "cz": "podzim"
+        },
+        {
+          "target": "mushroom",
+          "cz": "houba"
+        },
+        {
+          "target": "orange",
+          "cz": "oranžový"
+        },
+        {
+          "target": "umbrella",
+          "cz": "deštník"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "A leaf fell on the ground.",
+      "tts_text": "A leaf fell on the ground."
+    }
+  ]
+}

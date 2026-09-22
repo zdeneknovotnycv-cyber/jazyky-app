@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_daily_routine_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Waking up",
+  "title_cz": "Ranní vstávání",
+  "vocabulary": [
+    {
+      "word": "wake up",
+      "translation_cz": "probudit se",
+      "example": "I wake up at seven o'clock.",
+      "example_cz": "Probouzím se v sedm hodin.",
+      "tts_text": "I wake up at seven o'clock."
+    },
+    {
+      "word": "alarm clock",
+      "translation_cz": "budík",
+      "example": "The alarm clock rings loudly.",
+      "example_cz": "Budík hlasitě zvoní.",
+      "tts_text": "The alarm clock rings loudly."
+    },
+    {
+      "word": "stretch",
+      "translation_cz": "protáhnout se",
+      "example": "I stretch my arms in bed.",
+      "example_cz": "Protahuji si ruce v posteli.",
+      "tts_text": "I stretch my arms in bed."
+    },
+    {
+      "word": "get up",
+      "translation_cz": "vstát",
+      "example": "I get up slowly every morning.",
+      "example_cz": "Každé ráno vstávám pomalu.",
+      "tts_text": "I get up slowly every morning."
+    },
+    {
+      "word": "yawn",
+      "translation_cz": "zívnout",
+      "example": "I yawn when I am sleepy.",
+      "example_cz": "Zívám, když jsem ospalý.",
+      "tts_text": "I yawn when I am sleepy."
+    },
+    {
+      "word": "sleepy",
+      "translation_cz": "ospalý",
+      "example": "I feel sleepy in the morning.",
+      "example_cz": "Ráno se cítím ospalý.",
+      "tts_text": "I feel sleepy in the morning."
+    },
+    {
+      "word": "make the bed",
+      "translation_cz": "ustlat postel",
+      "example": "I make the bed after I get up.",
+      "example_cz": "Po vstávání si ustelu postel.",
+      "tts_text": "I make the bed after I get up."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "wake up",
+      "options": [
+        "probudit se",
+        "budík",
+        "protáhnout se"
+      ],
+      "correct": "probudit se"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ rings loudly.",
+      "answer": "alarm clock",
+      "hint_cz": "budík"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "stretch",
+          "cz": "protáhnout se"
+        },
+        {
+          "target": "get up",
+          "cz": "vstát"
+        },
+        {
+          "target": "yawn",
+          "cz": "zívnout"
+        },
+        {
+          "target": "sleepy",
+          "cz": "ospalý"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I make the bed after I get up.",
+      "tts_text": "I make the bed after I get up."
+    }
+  ]
+}

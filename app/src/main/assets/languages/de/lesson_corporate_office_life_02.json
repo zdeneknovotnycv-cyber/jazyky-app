@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_office_life_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Schreibtisch buchen (Hot-Desking)",
+  "title_cz": "Rezervace stolu (hot-desking)",
+  "vocabulary": [
+    {
+      "word": "Hot-Desking",
+      "translation_cz": "hot-desking (sdílené stoly)",
+      "example": "Unser Büro nutzt jetzt Hot-Desking.",
+      "example_cz": "Naše kancelář teď používá hot-desking.",
+      "tts_text": "Unser Büro nutzt jetzt Hot-Desking."
+    },
+    {
+      "word": "einen Schreibtisch buchen",
+      "translation_cz": "rezervovat stůl",
+      "example": "Du musst den Schreibtisch im Voraus buchen.",
+      "example_cz": "Musíš si stůl rezervovat předem.",
+      "tts_text": "Du musst den Schreibtisch im Voraus buchen."
+    },
+    {
+      "word": "verfügbar",
+      "translation_cz": "volný, dostupný",
+      "example": "Ist Tisch zwölf morgen verfügbar?",
+      "example_cz": "Je stůl číslo dvanáct zítra volný?",
+      "tts_text": "Ist Tisch zwölf morgen verfügbar?"
+    },
+    {
+      "word": "der Grundriss",
+      "translation_cz": "plánek podlaží",
+      "example": "Schau im Grundriss nach freien Plätzen.",
+      "example_cz": "Podívej se do plánku podlaží na volná místa.",
+      "tts_text": "Schau im Grundriss nach freien Plätzen."
+    },
+    {
+      "word": "die Buchungs-App",
+      "translation_cz": "rezervační aplikace",
+      "example": "Nutz die Buchungs-App, um einen Platz zu reservieren.",
+      "example_cz": "Použij rezervační aplikaci k rezervaci místa.",
+      "tts_text": "Nutz die Buchungs-App, um einen Platz zu reservieren."
+    },
+    {
+      "word": "gemeinsamer Arbeitsplatz",
+      "translation_cz": "sdílený pracovní prostor",
+      "example": "Wir arbeiten drei Tage die Woche im gemeinsamen Arbeitsplatz.",
+      "example_cz": "Pracujeme tři dny v týdnu ve sdíleném prostoru.",
+      "tts_text": "Wir arbeiten drei Tage die Woche im gemeinsamen Arbeitsplatz."
+    },
+    {
+      "word": "eine Buchung stornieren",
+      "translation_cz": "zrušit rezervaci",
+      "example": "Bitte storniere deine Buchung, wenn du nicht kommst.",
+      "example_cz": "Prosím zruš rezervaci, pokud nepřijdeš.",
+      "tts_text": "Bitte storniere deine Buchung, wenn du nicht kommst."
+    },
+    {
+      "word": "einchecken",
+      "translation_cz": "přihlásit se (na místě)",
+      "example": "Vergiss nicht, bei deiner Ankunft einzuchecken.",
+      "example_cz": "Nezapomeň se po příchodu přihlásit.",
+      "tts_text": "Vergiss nicht, bei deiner Ankunft einzuchecken."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_02",
+      "title": "Einen Hot Desk reservieren",
+      "title_cz": "Rezervace hot-desku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hast du für morgen einen Schreibtisch gebucht?",
+          "text_cz": "Zarezervoval sis zítra stůl?"
+        },
+        {
+          "speaker": "B",
+          "text": "Noch nicht. Ist etwas am Fenster verfügbar?",
+          "text_cz": "Ještě ne. Je něco volného u okna?"
+        },
+        {
+          "speaker": "A",
+          "text": "Schau im Grundriss in der Buchungs-App nach.",
+          "text_cz": "Podívej se do plánku podlaží v rezervační aplikaci."
+        },
+        {
+          "speaker": "B",
+          "text": "Super, ich buche ihn jetzt und checke bei der Ankunft ein.",
+          "text_cz": "Skvělé, hned si to zarezervuji a po příchodu se přihlásím."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Hot-Desking",
+      "options": [
+        "hot-desking (sdílené stoly)",
+        "rezervovat stůl",
+        "volný, dostupný"
+      ],
+      "correct": "hot-desking (sdílené stoly)"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Du musst den Schreibtisch im Voraus ___.",
+      "answer": "buchen",
+      "hint_cz": "rezervovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Hot-Desking",
+          "cz": "hot-desking (sdílené stoly)"
+        },
+        {
+          "target": "einen Schreibtisch buchen",
+          "cz": "rezervovat stůl"
+        },
+        {
+          "target": "verfügbar",
+          "cz": "volný, dostupný"
+        },
+        {
+          "target": "der Grundriss",
+          "cz": "plánek podlaží"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ist Tisch zwölf morgen verfügbar?",
+      "tts_text": "Ist Tisch zwölf morgen verfügbar?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte ___ deine Buchung, wenn du nicht kommst.",
+      "answer": "storniere",
+      "hint_cz": "zruš"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_reports_presentations_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Mit Lampenfieber bei Präsentationen umgehen",
+  "title_cz": "Zvládání trémy při prezentaci",
+  "vocabulary": [
+    {
+      "word": "nervös",
+      "translation_cz": "nervózní",
+      "example": "Es ist normal, sich vor einer Präsentation nervös zu fühlen.",
+      "example_cz": "Je normální cítit se před prezentací nervózní.",
+      "tts_text": "Es ist normal, sich vor einer Präsentation nervös zu fühlen."
+    },
+    {
+      "word": "tief durchatmen",
+      "translation_cz": "zhluboka se nadechnout",
+      "example": "Atmen Sie tief durch, bevor Sie beginnen.",
+      "example_cz": "Než začnete, zhluboka se nadechněte.",
+      "tts_text": "Atmen Sie tief durch, bevor Sie beginnen."
+    },
+    {
+      "word": "üben",
+      "translation_cz": "cvičit / procvičovat",
+      "example": "Ich habe diese Präsentation viele Male geübt.",
+      "example_cz": "Tuto prezentaci jsem si mnohokrát procvičil.",
+      "tts_text": "Ich habe diese Präsentation viele Male geübt."
+    },
+    {
+      "word": "ruhig bleiben",
+      "translation_cz": "zůstat klidný",
+      "example": "Versuchen Sie ruhig zu bleiben, auch wenn Sie einen Fehler machen.",
+      "example_cz": "Snažte se zůstat klidní, i když uděláte chybu.",
+      "tts_text": "Versuchen Sie ruhig zu bleiben, auch wenn Sie einen Fehler machen."
+    },
+    {
+      "word": "der Blickkontakt",
+      "translation_cz": "oční kontakt",
+      "example": "Halten Sie Blickkontakt mit dem Publikum.",
+      "example_cz": "Udržujte oční kontakt s publikem.",
+      "tts_text": "Halten Sie Blickkontakt mit dem Publikum."
+    },
+    {
+      "word": "das Tempo halten",
+      "translation_cz": "rozvrhnout si tempo",
+      "example": "Halten Sie Ihr Tempo und sprechen Sie nicht zu schnell.",
+      "example_cz": "Rozvrhněte si tempo a nemluvte příliš rychle.",
+      "tts_text": "Halten Sie Ihr Tempo und sprechen Sie nicht zu schnell."
+    },
+    {
+      "word": "der Fehler",
+      "translation_cz": "chyba",
+      "example": "Wenn Sie einen Fehler machen, machen Sie einfach ruhig weiter.",
+      "example_cz": "Pokud uděláte chybu, klidně pokračujte.",
+      "tts_text": "Wenn Sie einen Fehler machen, machen Sie einfach ruhig weiter."
+    },
+    {
+      "word": "Selbstvertrauen aufbauen",
+      "translation_cz": "získat sebedůvěru",
+      "example": "Übung hilft Ihnen, Selbstvertrauen aufzubauen.",
+      "example_cz": "Cvičení vám pomáhá získat sebedůvěru.",
+      "tts_text": "Übung hilft Ihnen, Selbstvertrauen aufzubauen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_nerves_advice",
+      "title": "Rat vor einer Präsentation geben",
+      "title_cz": "Rada před prezentací",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich bin wegen dieser Präsentation wirklich nervös.",
+          "text_cz": "Jsem z té prezentace opravdu nervózní."
+        },
+        {
+          "speaker": "B",
+          "text": "Das ist normal. Atme tief durch und denk daran, dass du viel geübt hast.",
+          "text_cz": "To je normální. Zhluboka se nadechni a vzpomeň si, žes to hodně procvičoval."
+        },
+        {
+          "speaker": "A",
+          "text": "Was, wenn ich einen Fehler mache?",
+          "text_cz": "Co když udělám chybu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Bleib einfach ruhig und mach weiter. Halte Blickkontakt und dein Tempo.",
+          "text_cz": "Prostě zůstaň klidný a pokračuj. Udržuj oční kontakt a rozvrhni si tempo."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "nervös",
+      "options": [
+        "nervózní",
+        "cvičit / procvičovat",
+        "zůstat klidný"
+      ],
+      "correct": "nervózní"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Atmen Sie tief durch, bevor Sie beginnen.",
+      "answer": "tief durchatmen",
+      "hint_cz": "zhluboka se nadechnout"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Halten Sie Blickkontakt mit dem Publikum.",
+      "answer": "der Blickkontakt",
+      "hint_cz": "oční kontakt"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Tempo halten",
+          "cz": "rozvrhnout si tempo"
+        },
+        {
+          "target": "der Fehler",
+          "cz": "chyba"
+        },
+        {
+          "target": "Selbstvertrauen aufbauen",
+          "cz": "získat sebedůvěru"
+        },
+        {
+          "target": "üben",
+          "cz": "cvičit / procvičovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich bin wegen dieser Präsentation wirklich nervös.",
+      "tts_text": "Ich bin wegen dieser Präsentation wirklich nervös."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das ist normal. Atme tief durch und denk daran, dass du viel geübt hast.",
+      "tts_text": "Das ist normal. Atme tief durch und denk daran, dass du viel geübt hast."
+    }
+  ]
+}

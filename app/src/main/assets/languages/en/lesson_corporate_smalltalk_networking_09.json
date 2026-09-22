@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_smalltalk_networking_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Saying goodbye to a colleague",
+  "title_cz": "Rozloučení s kolegou",
+  "vocabulary": [
+    {
+      "word": "It was great working with you",
+      "translation_cz": "Bylo skvělé s tebou pracovat",
+      "example": "It was great working with you.",
+      "example_cz": "Bylo skvělé s tebou pracovat.",
+      "tts_text": "It was great working with you."
+    },
+    {
+      "word": "last day",
+      "translation_cz": "poslední den",
+      "example": "Today is my last day here.",
+      "example_cz": "Dnes je můj poslední den tady.",
+      "tts_text": "Today is my last day here."
+    },
+    {
+      "word": "stay in touch",
+      "translation_cz": "zůstat v kontaktu",
+      "example": "Let's stay in touch.",
+      "example_cz": "Zůstaňme v kontaktu.",
+      "tts_text": "Let's stay in touch."
+    },
+    {
+      "word": "Good luck with everything",
+      "translation_cz": "Hodně štěstí ve všem",
+      "example": "Good luck with everything!",
+      "example_cz": "Hodně štěstí ve všem!",
+      "tts_text": "Good luck with everything!"
+    },
+    {
+      "word": "We'll miss you",
+      "translation_cz": "Budeme ti chybět... / Bude nám chybět",
+      "example": "We'll miss you around here.",
+      "example_cz": "Budeš nám tady chybět.",
+      "tts_text": "We'll miss you around here."
+    },
+    {
+      "word": "new opportunity",
+      "translation_cz": "nová příležitost",
+      "example": "Congratulations on your new opportunity.",
+      "example_cz": "Gratuluji k nové příležitosti.",
+      "tts_text": "Congratulations on your new opportunity."
+    },
+    {
+      "word": "farewell party",
+      "translation_cz": "rozlučková party",
+      "example": "We organized a small farewell party.",
+      "example_cz": "Uspořádali jsme malou rozlučkovou party.",
+      "tts_text": "We organized a small farewell party."
+    },
+    {
+      "word": "keep in touch on LinkedIn",
+      "translation_cz": "zůstat v kontaktu na LinkedInu",
+      "example": "Let's keep in touch on LinkedIn.",
+      "example_cz": "Zůstaňme v kontaktu na LinkedInu.",
+      "tts_text": "Let's keep in touch on LinkedIn."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_farewell_colleague",
+      "title": "Saying goodbye to a colleague",
+      "title_cz": "Loučení s kolegou",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Today is my last day here.",
+          "text_cz": "Dnes je můj poslední den tady."
+        },
+        {
+          "speaker": "B",
+          "text": "We'll miss you around here. It was great working with you.",
+          "text_cz": "Budeš nám tady chybět. Bylo skvělé s tebou pracovat."
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you. Let's stay in touch on LinkedIn.",
+          "text_cz": "Děkuji. Zůstaňme v kontaktu na LinkedInu."
+        },
+        {
+          "speaker": "B",
+          "text": "Of course. Good luck with your new opportunity!",
+          "text_cz": "Jistě. Hodně štěstí v tvé nové příležitosti!"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "farewell party",
+      "options": [
+        "rozlučková party",
+        "poslední den",
+        "nová příležitost"
+      ],
+      "correct": "rozlučková party"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Today is my ___ day here.",
+      "answer": "last",
+      "hint_cz": "poslední"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We'll ___ you around here.",
+      "answer": "miss",
+      "hint_cz": "chybět"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "stay in touch",
+          "cz": "zůstat v kontaktu"
+        },
+        {
+          "target": "new opportunity",
+          "cz": "nová příležitost"
+        },
+        {
+          "target": "last day",
+          "cz": "poslední den"
+        },
+        {
+          "target": "Good luck with everything",
+          "cz": "Hodně štěstí ve všem"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It was great working with you.",
+      "tts_text": "It was great working with you."
+    }
+  ]
+}

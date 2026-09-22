@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_meetings_intros_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Recurring team meetings",
+  "title_cz": "Pravidelné týmové schůzky",
+  "vocabulary": [
+    {
+      "word": "weekly meeting",
+      "translation_cz": "týdenní schůzka",
+      "example": "We have a weekly meeting every Monday.",
+      "example_cz": "Máme týdenní schůzku každé pondělí.",
+      "tts_text": "We have a weekly meeting every Monday."
+    },
+    {
+      "word": "status update",
+      "translation_cz": "aktuální stav",
+      "example": "Let's start with a quick status update.",
+      "example_cz": "Začněme rychlým shrnutím aktuálního stavu."
+    },
+    {
+      "word": "standing meeting",
+      "translation_cz": "pravidelná schůzka",
+      "example": "This is a standing meeting for the whole team.",
+      "example_cz": "Toto je pravidelná schůzka pro celý tým.",
+      "tts_text": "This is a standing meeting for the whole team."
+    },
+    {
+      "word": "round of updates",
+      "translation_cz": "kolečko aktualit",
+      "example": "Let's do a quick round of updates.",
+      "example_cz": "Uděláme rychlé kolečko aktualit."
+    },
+    {
+      "word": "blocker",
+      "translation_cz": "překážka",
+      "example": "Does anyone have a blocker this week?",
+      "example_cz": "Má někdo tento týden nějakou překážku?",
+      "tts_text": "Does anyone have a blocker this week?"
+    },
+    {
+      "word": "consistent",
+      "translation_cz": "pravidelný / konzistentní",
+      "example": "It's good to have consistent meetings.",
+      "example_cz": "Je dobré mít pravidelné schůzky.",
+      "tts_text": "It's good to have consistent meetings."
+    },
+    {
+      "word": "skip a meeting",
+      "translation_cz": "vynechat schůzku",
+      "example": "Can we skip a meeting this week?",
+      "example_cz": "Můžeme tento týden vynechat schůzku?",
+      "tts_text": "Can we skip a meeting this week?"
+    },
+    {
+      "word": "same time next week",
+      "translation_cz": "ve stejný čas příští týden",
+      "example": "See you at the same time next week.",
+      "example_cz": "Uvidíme se ve stejný čas příští týden.",
+      "tts_text": "See you at the same time next week."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_recurring",
+      "title": "Weekly team status meeting",
+      "title_cz": "Týdenní schůzka týmu ke stavu projektu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Welcome to our weekly meeting. Let's do a quick round of updates.",
+          "text_cz": "Vítejte na naší týdenní schůzce. Uděláme rychlé kolečko aktualit."
+        },
+        {
+          "speaker": "B",
+          "text": "From my side, everything is on track, no blockers.",
+          "text_cz": "Z mé strany je vše v pořádku, žádné překážky."
+        },
+        {
+          "speaker": "A",
+          "text": "Great. It's good to keep this standing meeting consistent every Monday.",
+          "text_cz": "Skvělé. Je dobré udržovat tuto pravidelnou schůzku každé pondělí."
+        },
+        {
+          "speaker": "B",
+          "text": "Agreed. See you at the same time next week.",
+          "text_cz": "Souhlasím. Uvidíme se ve stejný čas příští týden."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "blocker",
+      "options": [
+        "překážka",
+        "stav",
+        "kolečko"
+      ],
+      "correct": "překážka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Does anyone have a ___ this week?",
+      "answer": "blocker",
+      "hint_cz": "překážka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "weekly meeting",
+          "cz": "týdenní schůzka"
+        },
+        {
+          "target": "status update",
+          "cz": "aktuální stav"
+        },
+        {
+          "target": "consistent",
+          "cz": "pravidelný"
+        },
+        {
+          "target": "skip a meeting",
+          "cz": "vynechat schůzku"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "See you at the same time next week.",
+      "tts_text": "See you at the same time next week."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's do a quick round of ___.",
+      "answer": "updates",
+      "hint_cz": "aktualit"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_teamwork_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Die Arbeitsbelastung teilen",
+  "title_cz": "Sdílení pracovní zátěže",
+  "vocabulary": [
+    {
+      "word": "die Arbeitsbelastung",
+      "translation_cz": "pracovní zátěž",
+      "example": "Unsere Arbeitsbelastung ist diesen Monat gestiegen.",
+      "example_cz": "Naše pracovní zátěž se tento měsíc zvýšila.",
+      "tts_text": "Unsere Arbeitsbelastung ist diesen Monat gestiegen."
+    },
+    {
+      "word": "die Aufgaben aufteilen",
+      "translation_cz": "rozdělit úkoly",
+      "example": "Lass uns die Aufgaben untereinander aufteilen.",
+      "example_cz": "Pojďme si rozdělit úkoly mezi sebou.",
+      "tts_text": "Lass uns die Aufgaben untereinander aufteilen."
+    },
+    {
+      "word": "der faire Anteil",
+      "translation_cz": "spravedlivý podíl",
+      "example": "Jeder sollte seinen fairen Anteil leisten.",
+      "example_cz": "Každý by měl udělat svůj spravedlivý podíl.",
+      "tts_text": "Jeder sollte seinen fairen Anteil leisten."
+    },
+    {
+      "word": "überlastet",
+      "translation_cz": "přetížený",
+      "example": "Ich fühle mich diese Woche etwas überlastet.",
+      "example_cz": "Tento týden se cítím trochu přetížený.",
+      "tts_text": "Ich fühle mich diese Woche etwas überlastet."
+    },
+    {
+      "word": "die Arbeit ausbalancieren",
+      "translation_cz": "vyvážit práci",
+      "example": "Wir müssen die Arbeit gleichmäßiger ausbalancieren.",
+      "example_cz": "Musíme práci vyvážit rovnoměrněji.",
+      "tts_text": "Wir müssen die Arbeit gleichmäßiger ausbalancieren."
+    },
+    {
+      "word": "mir etwas abnehmen",
+      "translation_cz": "odlehčit mi",
+      "example": "Könntest du mir ein paar Aufgaben abnehmen?",
+      "example_cz": "Mohl bys mi odlehčit od pár úkolů?",
+      "tts_text": "Könntest du mir ein paar Aufgaben abnehmen?"
+    },
+    {
+      "word": "umverteilen",
+      "translation_cz": "přerozdělit",
+      "example": "Lass uns die Aufgaben fair umverteilen.",
+      "example_cz": "Pojďme spravedlivě přerozdělit úkoly.",
+      "tts_text": "Lass uns die Aufgaben fair umverteilen."
+    },
+    {
+      "word": "machbar",
+      "translation_cz": "zvladatelný",
+      "example": "So ist die Arbeitsbelastung machbar.",
+      "example_cz": "Takhle je ta pracovní zátěž zvladatelná.",
+      "tts_text": "So ist die Arbeitsbelastung machbar."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_sharing_workload",
+      "title": "Die Arbeitsbelastung im Team teilen",
+      "title_cz": "Sdílení pracovní zátěže v týmu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ehrlich gesagt fühle ich mich diese Woche etwas überlastet.",
+          "text_cz": "Upřímně, tento týden se cítím trochu přetížený."
+        },
+        {
+          "speaker": "B",
+          "text": "Das habe ich bemerkt. Lass uns die Aufgaben untereinander aufteilen.",
+          "text_cz": "Všiml jsem si. Pojďme si rozdělit úkoly mezi sebou."
+        },
+        {
+          "speaker": "A",
+          "text": "Das würde sehr helfen. Könntest du mir ein paar Aufgaben abnehmen?",
+          "text_cz": "To by hodně pomohlo. Mohl bys mi odlehčit od pár úkolů?"
+        },
+        {
+          "speaker": "B",
+          "text": "Natürlich. Lass uns die Aufgaben umverteilen, damit es für alle machbar ist.",
+          "text_cz": "Jasně. Pojďme úkoly přerozdělit, aby to bylo zvladatelné pro všechny."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "überlastet",
+      "options": [
+        "přetížený",
+        "zvladatelný",
+        "spravedlivý podíl"
+      ],
+      "correct": "přetížený"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lass uns die Aufgaben ___ aufteilen.",
+      "answer": "untereinander",
+      "hint_cz": "mezi sebou"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Arbeitsbelastung",
+          "cz": "pracovní zátěž"
+        },
+        {
+          "target": "der faire Anteil",
+          "cz": "spravedlivý podíl"
+        },
+        {
+          "target": "umverteilen",
+          "cz": "přerozdělit"
+        },
+        {
+          "target": "machbar",
+          "cz": "zvladatelný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Könntest du mir ein paar Aufgaben abnehmen?",
+      "tts_text": "Könntest du mir ein paar Aufgaben abnehmen?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir müssen die Arbeit gleichmäßiger ___.",
+      "answer": "ausbalancieren",
+      "hint_cz": "vyvážit"
+    }
+  ]
+}

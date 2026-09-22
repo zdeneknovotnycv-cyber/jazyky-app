@@ -1,0 +1,46 @@
+{
+  "id": "de_corporate_finance_budgets_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Währungen und Wechselkurse bei der Arbeit",
+  "title_cz": "Měny a směnné kurzy v práci",
+  "vocabulary": [
+    {"word": "der Wechselkurs", "translation_cz": "směnný kurz", "example": "Wie hoch ist heute der Wechselkurs für Dollar?", "example_cz": "Jaký je dnešní směnný kurz dolaru?", "tts_text": "Wie hoch ist heute der Wechselkurs für Dollar?"},
+    {"word": "die Währung", "translation_cz": "měna", "example": "Wir stellen Kunden Rechnungen in der lokalen Währung aus.", "example_cz": "Klientům fakturujeme v místní měně.", "tts_text": "Wir stellen Kunden Rechnungen in der lokalen Währung aus."},
+    {"word": "umrechnen", "translation_cz": "převést", "example": "Bitte rechnen Sie diesen Betrag in Euro um.", "example_cz": "Prosím převeďte tuto částku na eura.", "tts_text": "Bitte rechnen Sie diesen Betrag in Euro um."},
+    {"word": "die Auslandsüberweisung", "translation_cz": "zahraniční převod", "example": "Die Bank berechnet eine Gebühr für Auslandsüberweisungen.", "example_cz": "Banka účtuje poplatek za zahraniční převody.", "tts_text": "Die Bank berechnet eine Gebühr für Auslandsüberweisungen."},
+    {"word": "die Schwankung", "translation_cz": "kolísání", "example": "Währungsschwankungen beeinflussen unsere Kosten.", "example_cz": "Kolísání měny ovlivňuje naše náklady.", "tts_text": "Währungsschwankungen beeinflussen unsere Kosten."},
+    {"word": "der Wechselkursverlust", "translation_cz": "kurzová ztráta", "example": "Wir haben einen kleinen Wechselkursverlust verzeichnet.", "example_cz": "Zaznamenali jsme malou kurzovou ztrátu.", "tts_text": "Wir haben einen kleinen Wechselkursverlust verzeichnet."},
+    {"word": "der feste Kurs", "translation_cz": "pevný kurz", "example": "Der Vertrag verwendet einen festen Wechselkurs.", "example_cz": "Smlouva používá pevný směnný kurz.", "tts_text": "Der Vertrag verwendet einen festen Wechselkurs."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_exchange_rate",
+      "title": "Den Wechselkurs prüfen",
+      "title_cz": "Kontrola směnného kurzu",
+      "lines": [
+        {"speaker": "A", "text": "Wissen Sie zufällig den heutigen Wechselkurs für Dollar?", "text_cz": "Nevíte náhodou dnešní směnný kurz dolaru?"},
+        {"speaker": "B", "text": "Ja, er liegt bei etwa dreiundzwanzig Kronen pro Dollar.", "text_cz": "Ano, je to zhruba dvacet tři korun za dolar."},
+        {"speaker": "A", "text": "Bitte rechnen Sie diesen Rechnungsbetrag dann in Euro um.", "text_cz": "Prosím převeďte tedy tuto částku faktury na eura."},
+        {"speaker": "B", "text": "Klar, ich verwende für die Berechnung den aktuellen Kurs.", "text_cz": "Jistě, pro výpočet použiji aktuální kurz."}
+      ]
+    },
+    {
+      "id": "conv_fluctuation",
+      "title": "Über Währungsschwankungen sprechen",
+      "title_cz": "Rozhovor o kolísání měny",
+      "lines": [
+        {"speaker": "A", "text": "Währungsschwankungen haben unsere Kosten diesen Monat erhöht.", "text_cz": "Kolísání měny nám tento měsíc zvýšilo náklady."},
+        {"speaker": "B", "text": "Sollten wir für zukünftige Verträge einen festen Kurs in Betracht ziehen?", "text_cz": "Měli bychom pro budoucí smlouvy zvážit pevný kurz?"}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "die Währung", "options": ["měna", "kurz", "poplatek"], "correct": "měna"},
+    {"type": "fill_gap", "sentence": "Bitte rechnen Sie diesen Betrag in Euro ___.", "answer": "um", "hint_cz": "převést"},
+    {"type": "match_pairs", "pairs": [{"target": "der Wechselkurs", "cz": "směnný kurz"}, {"target": "die Schwankung", "cz": "kolísání"}, {"target": "der feste Kurs", "cz": "pevný kurz"}, {"target": "die Auslandsüberweisung", "cz": "zahraniční převod"}]},
+    {"type": "speak_and_check", "target_phrase": "Die Bank berechnet eine Gebühr für Auslandsüberweisungen.", "tts_text": "Die Bank berechnet eine Gebühr für Auslandsüberweisungen."},
+    {"type": "fill_gap", "sentence": "Wir haben einen kleinen Wechselkurs___ verzeichnet.", "answer": "verlust", "hint_cz": "ztráta"}
+  ]
+}

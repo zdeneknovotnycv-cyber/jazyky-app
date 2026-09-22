@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_town_places_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The zoo",
+  "title_cz": "Zoo",
+  "vocabulary": [
+    {
+      "word": "zoo",
+      "translation_cz": "zoo",
+      "example": "We visit the zoo on Sunday.",
+      "example_cz": "V neděli navštívíme zoo.",
+      "tts_text": "We visit the zoo on Sunday."
+    },
+    {
+      "word": "lion",
+      "translation_cz": "lev",
+      "example": "The lion sleeps in the sun.",
+      "example_cz": "Lev spí na slunci.",
+      "tts_text": "The lion sleeps in the sun."
+    },
+    {
+      "word": "elephant",
+      "translation_cz": "slon",
+      "example": "The elephant is very big.",
+      "example_cz": "Slon je velmi velký.",
+      "tts_text": "The elephant is very big."
+    },
+    {
+      "word": "cage",
+      "translation_cz": "klec",
+      "example": "The bird lives in a cage.",
+      "example_cz": "Pták žije v kleci.",
+      "tts_text": "The bird lives in a cage."
+    },
+    {
+      "word": "feed",
+      "translation_cz": "krmit",
+      "example": "We watch the keeper feed the animals.",
+      "example_cz": "Sledujeme, jak ošetřovatel krmí zvířata.",
+      "tts_text": "We watch the keeper feed the animals."
+    },
+    {
+      "word": "monkey",
+      "translation_cz": "opice",
+      "example": "The monkey jumps from tree to tree.",
+      "example_cz": "Opice skáče ze stromu na strom.",
+      "tts_text": "The monkey jumps from tree to tree."
+    },
+    {
+      "word": "ticket",
+      "translation_cz": "vstupenka",
+      "example": "We buy a ticket at the gate.",
+      "example_cz": "Kupujeme vstupenku u brány.",
+      "tts_text": "We buy a ticket at the gate."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "zoo",
+      "options": [
+        "zoo",
+        "park",
+        "škola"
+      ],
+      "correct": "zoo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ sleeps in the sun.",
+      "answer": "lion",
+      "hint_cz": "lev"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "lion",
+          "cz": "lev"
+        },
+        {
+          "target": "elephant",
+          "cz": "slon"
+        },
+        {
+          "target": "cage",
+          "cz": "klec"
+        },
+        {
+          "target": "feed",
+          "cz": "krmit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The elephant is very big.",
+      "tts_text": "The elephant is very big."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_meetings_intros_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Setting a meeting agenda",
+  "title_cz": "Sestavení programu jednání",
+  "vocabulary": [
+    {
+      "word": "agenda item",
+      "translation_cz": "bod programu",
+      "example": "The first agenda item is the budget review.",
+      "example_cz": "Prvním bodem programu je revize rozpočtu.",
+      "tts_text": "The first agenda item is the budget review."
+    },
+    {
+      "word": "circulate",
+      "translation_cz": "rozeslat",
+      "example": "I'll circulate the agenda before the meeting.",
+      "example_cz": "Program jednání rozešlu před schůzkou.",
+      "tts_text": "I'll circulate the agenda before the meeting."
+    },
+    {
+      "word": "prioritize",
+      "translation_cz": "upřednostnit",
+      "example": "We need to prioritize the most urgent topics.",
+      "example_cz": "Musíme upřednostnit nejnaléhavější témata.",
+      "tts_text": "We need to prioritize the most urgent topics."
+    },
+    {
+      "word": "allocate time",
+      "translation_cz": "vyhradit čas",
+      "example": "Let's allocate ten minutes per topic.",
+      "example_cz": "Vyhraďme deset minut na téma.",
+      "tts_text": "Let's allocate ten minutes per topic."
+    },
+    {
+      "word": "topic",
+      "translation_cz": "téma",
+      "example": "How many topics do we have today?",
+      "example_cz": "Kolik témat máme dnes?",
+      "tts_text": "How many topics do we have today?"
+    },
+    {
+      "word": "add to the agenda",
+      "translation_cz": "přidat do programu",
+      "example": "Can we add this to the agenda?",
+      "example_cz": "Můžeme to přidat do programu?",
+      "tts_text": "Can we add this to the agenda?"
+    },
+    {
+      "word": "in advance",
+      "translation_cz": "předem",
+      "example": "Please send comments in advance.",
+      "example_cz": "Připomínky pošlete prosím předem.",
+      "tts_text": "Please send comments in advance."
+    },
+    {
+      "word": "finalize",
+      "translation_cz": "dokončit / uzavřít",
+      "example": "Let's finalize the agenda today.",
+      "example_cz": "Pojďme dnes uzavřít program jednání.",
+      "tts_text": "Let's finalize the agenda today."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_set_agenda",
+      "title": "Preparing the meeting agenda",
+      "title_cz": "Příprava programu jednání",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Can we add the budget review to the agenda?",
+          "text_cz": "Můžeme přidat revizi rozpočtu do programu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. Let's allocate fifteen minutes for that topic.",
+          "text_cz": "Jasně. Vyhraďme na to téma patnáct minut."
+        },
+        {
+          "speaker": "A",
+          "text": "We should prioritize it since it's urgent.",
+          "text_cz": "Měli bychom to upřednostnit, protože je to naléhavé."
+        },
+        {
+          "speaker": "B",
+          "text": "Agreed. I'll circulate the final agenda in advance.",
+          "text_cz": "Souhlasím. Finální program rozešlu předem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "prioritize",
+      "options": [
+        "upřednostnit",
+        "rozeslat",
+        "dokončit"
+      ],
+      "correct": "upřednostnit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'll ___ the agenda before the meeting.",
+      "answer": "circulate",
+      "hint_cz": "rozeslat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "topic",
+          "cz": "téma"
+        },
+        {
+          "target": "in advance",
+          "cz": "předem"
+        },
+        {
+          "target": "finalize",
+          "cz": "dokončit"
+        },
+        {
+          "target": "allocate time",
+          "cz": "vyhradit čas"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's finalize the agenda today.",
+      "tts_text": "Let's finalize the agenda today."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can we add this to the ___?",
+      "answer": "agenda",
+      "hint_cz": "program"
+    }
+  ]
+}

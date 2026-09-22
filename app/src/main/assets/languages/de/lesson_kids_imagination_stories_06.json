@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_imagination_stories_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ein Piratenschiff",
+  "title_cz": "Pirátská loď",
+  "vocabulary": [
+    {
+      "word": "der Pirat",
+      "translation_cz": "pirát",
+      "example": "Ich segle mit einer mutigen Piratencrew.",
+      "example_cz": "Plavím se se statečnou pirátskou posádkou.",
+      "tts_text": "Ich segle mit einer mutigen Piratencrew."
+    },
+    {
+      "word": "das Schiff",
+      "translation_cz": "loď",
+      "example": "Unser Schiff segelt über den Ozean.",
+      "example_cz": "Naše loď pluje přes oceán.",
+      "tts_text": "Unser Schiff segelt über den Ozean."
+    },
+    {
+      "word": "die Schatzkarte",
+      "translation_cz": "mapa pokladu",
+      "example": "Ich halte eine alte Schatzkarte.",
+      "example_cz": "Držím starou mapu pokladu.",
+      "tts_text": "Ich halte eine alte Schatzkarte."
+    },
+    {
+      "word": "die Insel",
+      "translation_cz": "ostrov",
+      "example": "Wir finden eine kleine Insel.",
+      "example_cz": "Nacházíme malý ostrov.",
+      "tts_text": "Wir finden eine kleine Insel."
+    },
+    {
+      "word": "das Schwert",
+      "translation_cz": "meč",
+      "example": "Der Pirat trägt ein glänzendes Schwert.",
+      "example_cz": "Pirát nese lesklý meč.",
+      "tts_text": "Der Pirat trägt ein glänzendes Schwert."
+    },
+    {
+      "word": "die Flagge",
+      "translation_cz": "vlajka",
+      "example": "Eine schwarze Flagge weht am Mast.",
+      "example_cz": "Na stěžni vlaje černá vlajka.",
+      "tts_text": "Eine schwarze Flagge weht am Mast."
+    },
+    {
+      "word": "die Truhe",
+      "translation_cz": "truhla",
+      "example": "Wir öffnen eine Schatztruhe.",
+      "example_cz": "Otevíráme truhlu s pokladem.",
+      "tts_text": "Wir öffnen eine Schatztruhe."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Pirat",
+      "options": [
+        "pirát",
+        "loď",
+        "mapa pokladu"
+      ],
+      "correct": "pirát"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Unser ___ segelt über den Ozean.",
+      "answer": "Schiff",
+      "hint_cz": "loď"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Schatzkarte",
+          "cz": "mapa pokladu"
+        },
+        {
+          "target": "die Insel",
+          "cz": "ostrov"
+        },
+        {
+          "target": "das Schwert",
+          "cz": "meč"
+        },
+        {
+          "target": "die Flagge",
+          "cz": "vlajka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir öffnen eine Schatztruhe.",
+      "tts_text": "Wir öffnen eine Schatztruhe."
+    }
+  ]
+}

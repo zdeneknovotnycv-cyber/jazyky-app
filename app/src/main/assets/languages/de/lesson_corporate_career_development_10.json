@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_career_development_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Die nächsten Karriereschritte planen",
+  "title_cz": "Plánování dalších kariérních kroků",
+  "vocabulary": [
+    {
+      "word": "der nächste Schritt",
+      "translation_cz": "další krok",
+      "example": "Was ist dein nächster Schritt nach diesem Projekt?",
+      "example_cz": "Jaký je tvůj další krok po tomto projektu?",
+      "tts_text": "Was ist dein nächster Schritt nach diesem Projekt?"
+    },
+    {
+      "word": "die Beförderung",
+      "translation_cz": "povýšení",
+      "example": "Ich hoffe dieses Jahr auf eine Beförderung.",
+      "example_cz": "Doufám letos v povýšení.",
+      "tts_text": "Ich hoffe dieses Jahr auf eine Beförderung."
+    },
+    {
+      "word": "der Karriereweg",
+      "translation_cz": "kariérní dráha",
+      "example": "Lass uns gemeinsam deinen Karriereweg besprechen.",
+      "example_cz": "Pojďme společně probrat tvou kariérní dráhu.",
+      "tts_text": "Lass uns gemeinsam deinen Karriereweg besprechen."
+    },
+    {
+      "word": "einen Zeitplan festlegen",
+      "translation_cz": "stanovit časový plán",
+      "example": "Wir sollten einen Zeitplan für deine Ziele festlegen.",
+      "example_cz": "Měli bychom stanovit časový plán pro tvé cíle.",
+      "tts_text": "Wir sollten einen Zeitplan für deine Ziele festlegen."
+    },
+    {
+      "word": "die Kompetenzlücke",
+      "translation_cz": "mezera v dovednostech",
+      "example": "Es gibt eine Kompetenzlücke, die wir angehen sollten.",
+      "example_cz": "Je tu mezera v dovednostech, kterou bychom měli řešit.",
+      "tts_text": "Es gibt eine Kompetenzlücke, die wir angehen sollten."
+    },
+    {
+      "word": "der Aktionsplan",
+      "translation_cz": "akční plán",
+      "example": "Lass uns gemeinsam einen Aktionsplan erstellen.",
+      "example_cz": "Pojďme společně vytvořit akční plán.",
+      "tts_text": "Lass uns gemeinsam einen Aktionsplan erstellen."
+    },
+    {
+      "word": "sich mit dem Vorgesetzten austauschen",
+      "translation_cz": "promluvit si s manažerem",
+      "example": "Ich werde mich nächste Woche mit meinem Vorgesetzten austauschen.",
+      "example_cz": "Příští týden si promluvím se svým manažerem.",
+      "tts_text": "Ich werde mich nächste Woche mit meinem Vorgesetzten austauschen."
+    },
+    {
+      "word": "die langfristige Vision",
+      "translation_cz": "dlouhodobá vize",
+      "example": "Hast du eine langfristige Vision für deine Karriere?",
+      "example_cz": "Máš pro svou kariéru dlouhodobou vizi?",
+      "tts_text": "Hast du eine langfristige Vision für deine Karriere?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_next_steps",
+      "title": "Die nächsten Karriereschritte planen",
+      "title_cz": "Plánování dalších kariérních kroků",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Was ist dein nächster Schritt, nachdem du dieses Projekt abgeschlossen hast?",
+          "text_cz": "Jaký je tvůj další krok po dokončení tohoto projektu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich hoffe dieses Jahr auf eine Beförderung, also lass uns meinen Karriereweg besprechen.",
+          "text_cz": "Doufám letos v povýšení, tak pojďme probrat mou kariérní dráhu."
+        },
+        {
+          "speaker": "A",
+          "text": "Gut. Mir ist eine kleine Kompetenzlücke in der Datenanalyse aufgefallen, die wir angehen sollten.",
+          "text_cz": "Dobře. Všiml jsem si malé mezery v dovednostech v analýze dat, kterou bychom měli řešit."
+        },
+        {
+          "speaker": "B",
+          "text": "Einverstanden. Könnten wir einen Zeitplan festlegen und einen Aktionsplan erstellen?",
+          "text_cz": "Souhlasím. Mohli bychom stanovit časový plán a vytvořit akční plán?"
+        },
+        {
+          "speaker": "A",
+          "text": "Klar, und in drei Monaten tauschen wir uns wieder mit deinem Vorgesetzten aus.",
+          "text_cz": "Jasně, a znovu si za tři měsíce promluvíme s tvým manažerem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Beförderung",
+      "options": [
+        "povýšení",
+        "akční plán",
+        "mezera v dovednostech"
+      ],
+      "correct": "povýšení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lass uns gemeinsam einen ___ erstellen.",
+      "answer": "Aktionsplan",
+      "hint_cz": "akční plán"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Karriereweg",
+          "cz": "kariérní dráha"
+        },
+        {
+          "target": "die Kompetenzlücke",
+          "cz": "mezera v dovednostech"
+        },
+        {
+          "target": "die langfristige Vision",
+          "cz": "dlouhodobá vize"
+        },
+        {
+          "target": "der nächste Schritt",
+          "cz": "další krok"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Hast du eine langfristige Vision für deine Karriere?",
+      "tts_text": "Hast du eine langfristige Vision für deine Karriere?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir sollten einen Zeitplan für deine Ziele ___.",
+      "answer": "festlegen",
+      "hint_cz": "stanovit"
+    }
+  ]
+}

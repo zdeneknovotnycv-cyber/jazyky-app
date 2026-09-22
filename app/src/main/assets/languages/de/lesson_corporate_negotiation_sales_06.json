@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_negotiation_sales_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Mit einem Kunden nachfassen",
+  "title_cz": "Následná komunikace s klientem",
+  "vocabulary": [
+    {
+      "word": "sich melden",
+      "translation_cz": "ozvat se / zjistit stav",
+      "example": "Ich melde mich nur wegen unseres letzten Gesprächs.",
+      "example_cz": "Jen se ozývám ohledně naší poslední konverzace.",
+      "tts_text": "Ich melde mich nur wegen unseres letzten Gesprächs."
+    },
+    {
+      "word": "sich abstimmen",
+      "translation_cz": "spojit se / dát vědět",
+      "example": "Lassen Sie uns nächste Woche abstimmen.",
+      "example_cz": "Spojme se příští týden.",
+      "tts_text": "Lassen Sie uns nächste Woche abstimmen."
+    },
+    {
+      "word": "auf den neuesten Stand bringen",
+      "translation_cz": "informovat vás",
+      "example": "Ich wollte Sie über den Lieferstatus auf den neuesten Stand bringen.",
+      "example_cz": "Chtěl jsem vás informovat o stavu doručení.",
+      "tts_text": "Ich wollte Sie über den Lieferstatus auf den neuesten Stand bringen."
+    },
+    {
+      "word": "irgendein Feedback",
+      "translation_cz": "nějaká zpětná vazba",
+      "example": "Haben Sie irgendein Feedback zu unserem Angebot?",
+      "example_cz": "Máte nějakou zpětnou vazbu k naší nabídce?",
+      "tts_text": "Haben Sie irgendein Feedback zu unserem Angebot?"
+    },
+    {
+      "word": "in Kontakt bleiben",
+      "translation_cz": "zůstat v kontaktu",
+      "example": "Bleiben wir in den nächsten Wochen in Kontakt.",
+      "example_cz": "Zůstaňme v kontaktu během několika příštích týdnů.",
+      "tts_text": "Bleiben wir in den nächsten Wochen in Kontakt."
+    },
+    {
+      "word": "die sanfte Erinnerung",
+      "translation_cz": "jemné připomenutí",
+      "example": "Das ist nur eine sanfte Erinnerung an das Angebot.",
+      "example_cz": "Toto je jen jemné připomenutí ohledně nabídky.",
+      "tts_text": "Das ist nur eine sanfte Erinnerung an das Angebot."
+    },
+    {
+      "word": "das nächste Gespräch",
+      "translation_cz": "další rozhovor",
+      "example": "Ich freue mich auf unser nächstes Gespräch.",
+      "example_cz": "Těším se na náš další rozhovor.",
+      "tts_text": "Ich freue mich auf unser nächstes Gespräch."
+    },
+    {
+      "word": "die Beziehung pflegen",
+      "translation_cz": "udržovat vztah",
+      "example": "Es ist wichtig, die Beziehung zum Kunden zu pflegen.",
+      "example_cz": "Je důležité udržovat vztah s klientem.",
+      "tts_text": "Es ist wichtig, die Beziehung zum Kunden zu pflegen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_followup_client",
+      "title": "Nach einem Angebot nachfassen",
+      "title_cz": "Následná komunikace po nabídce",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hallo, ich melde mich nur wegen unseres Angebots von letzter Woche.",
+          "text_cz": "Dobrý den, jen se ozývám ohledně naší nabídky z minulého týdne."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke für die Nachricht, wir prüfen es noch intern.",
+          "text_cz": "Díky za oslovení, stále to interně posuzujeme."
+        },
+        {
+          "speaker": "A",
+          "text": "Kein Problem, stimmen wir uns nächste Woche wieder ab. Gibt es schon Feedback?",
+          "text_cz": "Žádný problém, spojme se znovu příští týden. Máte prozatím nějakou zpětnou vazbu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Dem Team gefällt es, wir brauchen nur noch die endgültige Freigabe.",
+          "text_cz": "Tým se to líbí, jen potřebujeme konečné schválení."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sich melden",
+      "options": [
+        "ozvat se / zjistit stav",
+        "informovat vás",
+        "nějaká zpětná vazba"
+      ],
+      "correct": "ozvat se / zjistit stav"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lassen Sie uns nächste Woche abstimmen.",
+      "answer": "sich abstimmen",
+      "hint_cz": "spojit se / dát vědět"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bleiben wir in den nächsten Wochen in Kontakt.",
+      "answer": "in Kontakt bleiben",
+      "hint_cz": "zůstat v kontaktu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die sanfte Erinnerung",
+          "cz": "jemné připomenutí"
+        },
+        {
+          "target": "das nächste Gespräch",
+          "cz": "další rozhovor"
+        },
+        {
+          "target": "die Beziehung pflegen",
+          "cz": "udržovat vztah"
+        },
+        {
+          "target": "auf den neuesten Stand bringen",
+          "cz": "informovat vás"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Hallo, ich melde mich nur wegen unseres Angebots von letzter Woche.",
+      "tts_text": "Hallo, ich melde mich nur wegen unseres Angebots von letzter Woche."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Danke für die Nachricht, wir prüfen es noch intern.",
+      "tts_text": "Danke für die Nachricht, wir prüfen es noch intern."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_office_life_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Etikette in der Bürokantine/Küche",
+  "title_cz": "Etiketa v kancelářské kuchyňce",
+  "vocabulary": [
+    {
+      "word": "nach sich selbst aufräumen",
+      "translation_cz": "uklidit po sobě",
+      "example": "Bitte räum in der Küche nach dir selbst auf.",
+      "example_cz": "Prosím ukliď po sobě v kuchyňce.",
+      "tts_text": "Bitte räum in der Küche nach dir selbst auf."
+    },
+    {
+      "word": "die Spülmaschine",
+      "translation_cz": "myčka na nádobí",
+      "example": "Stell deine Tasse in die Spülmaschine.",
+      "example_cz": "Dej si hrnek do myčky.",
+      "tts_text": "Stell deine Tasse in die Spülmaschine."
+    },
+    {
+      "word": "dein Essen beschriften",
+      "translation_cz": "označit si jídlo",
+      "example": "Bitte beschrifte dein Essen im Kühlschrank.",
+      "example_cz": "Prosím označ si jídlo v lednici.",
+      "tts_text": "Bitte beschrifte dein Essen im Kühlschrank."
+    },
+    {
+      "word": "der gemeinsame Kühlschrank",
+      "translation_cz": "společná lednička",
+      "example": "Lass kein altes Essen im gemeinsamen Kühlschrank.",
+      "example_cz": "Nenechávej staré jídlo ve společné ledničce.",
+      "tts_text": "Lass kein altes Essen im gemeinsamen Kühlschrank."
+    },
+    {
+      "word": "die Mikrowelle",
+      "translation_cz": "mikrovlnná trouba",
+      "example": "Jemand hat Reis in der Mikrowelle vergessen.",
+      "example_cz": "Někdo nechal rýži v mikrovlnce.",
+      "tts_text": "Jemand hat Reis in der Mikrowelle vergessen."
+    },
+    {
+      "word": "wegwerfen",
+      "translation_cz": "vyhodit",
+      "example": "Bitte wirf deine Reste weg.",
+      "example_cz": "Prosím vyhoď zbytky jídla.",
+      "tts_text": "Bitte wirf deine Reste weg."
+    },
+    {
+      "word": "die Kaffeemaschine",
+      "translation_cz": "kávovar",
+      "example": "Die Kaffeemaschine braucht neues Wasser.",
+      "example_cz": "Kávovar potřebuje novou vodu.",
+      "tts_text": "Die Kaffeemaschine braucht neues Wasser."
+    },
+    {
+      "word": "es ordentlich halten",
+      "translation_cz": "udržovat pořádek",
+      "example": "Lasst uns hier alle versuchen, es ordentlich zu halten.",
+      "example_cz": "Zkusme si tady všichni udržovat pořádek.",
+      "tts_text": "Lasst uns hier alle versuchen, es ordentlich zu halten."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_03",
+      "title": "Eine Erinnerung zur Küche",
+      "title_cz": "Připomínka ohledně kuchyňky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Jemand hat wieder schmutziges Geschirr in der Spüle gelassen.",
+          "text_cz": "Někdo zase nechal špinavé nádobí v dřezu."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich weiß, bitte räumt alle nach euch selbst auf.",
+          "text_cz": "Já vím, prosím uklízejte po sobě, všichni."
+        },
+        {
+          "speaker": "A",
+          "text": "Und denkt daran, euer Essen im gemeinsamen Kühlschrank zu beschriften.",
+          "text_cz": "A pamatujte, ať si označujete jídlo ve společné ledničce."
+        },
+        {
+          "speaker": "B",
+          "text": "Gute Idee. Ich schicke dem Team eine Erinnerung.",
+          "text_cz": "Dobrý nápad. Pošlu týmu připomínku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "nach sich selbst aufräumen",
+      "options": [
+        "uklidit po sobě",
+        "myčka na nádobí",
+        "označit si jídlo"
+      ],
+      "correct": "uklidit po sobě"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte räum nach dir selbst ___.",
+      "answer": "auf",
+      "hint_cz": "uklidit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "nach sich selbst aufräumen",
+          "cz": "uklidit po sobě"
+        },
+        {
+          "target": "die Spülmaschine",
+          "cz": "myčka na nádobí"
+        },
+        {
+          "target": "dein Essen beschriften",
+          "cz": "označit si jídlo"
+        },
+        {
+          "target": "der gemeinsame Kühlschrank",
+          "cz": "společná lednička"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte räum in der Küche nach dir selbst auf.",
+      "tts_text": "Bitte räum in der Küche nach dir selbst auf."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte ___ dein Essen im Kühlschrank.",
+      "answer": "beschrifte",
+      "hint_cz": "označ"
+    }
+  ]
+}

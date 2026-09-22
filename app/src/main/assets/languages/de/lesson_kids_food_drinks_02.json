@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_food_drinks_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Lunch Foods",
+  "title_cz": "Oběd",
+  "vocabulary": [
+    {
+      "word": "das Mittagessen",
+      "translation_cz": "oběd",
+      "example": "Wir essen in der Schule zu Mittag.",
+      "example_cz": "Obědváme ve škole.",
+      "tts_text": "Wir essen in der Schule zu Mittag."
+    },
+    {
+      "word": "die Suppe",
+      "translation_cz": "polévka",
+      "example": "Ich mag Tomatensuppe.",
+      "example_cz": "Mám rád rajčatovou polévku.",
+      "tts_text": "Ich mag Tomatensuppe."
+    },
+    {
+      "word": "das Sandwich",
+      "translation_cz": "sendvič",
+      "example": "Ich habe ein Käsesandwich.",
+      "example_cz": "Mám sýrový sendvič.",
+      "tts_text": "Ich habe ein Käsesandwich."
+    },
+    {
+      "word": "der Reis",
+      "translation_cz": "rýže",
+      "example": "Ich esse Reis mit Hähnchen.",
+      "example_cz": "Jím rýži s kuřetem.",
+      "tts_text": "Ich esse Reis mit Hähnchen."
+    },
+    {
+      "word": "das Hähnchen",
+      "translation_cz": "kuře",
+      "example": "Hähnchen ist mein Lieblingsmittagessen.",
+      "example_cz": "Kuře je můj oblíbený oběd.",
+      "tts_text": "Hähnchen ist mein Lieblingsmittagessen."
+    },
+    {
+      "word": "der Salat",
+      "translation_cz": "salát",
+      "example": "Ich esse Salat zum Mittagessen.",
+      "example_cz": "K obědu jím salát.",
+      "tts_text": "Ich esse Salat zum Mittagessen."
+    },
+    {
+      "word": "die Nudeln",
+      "translation_cz": "těstoviny",
+      "example": "Nudeln sind einfach zu kochen.",
+      "example_cz": "Těstoviny se snadno dělají.",
+      "tts_text": "Nudeln sind einfach zu kochen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Mittagessen",
+      "options": [
+        "oběd",
+        "snídaně",
+        "svačina"
+      ],
+      "correct": "oběd"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich mag Tomaten___.",
+      "answer": "suppe",
+      "hint_cz": "polévka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Sandwich",
+          "cz": "sendvič"
+        },
+        {
+          "target": "der Reis",
+          "cz": "rýže"
+        },
+        {
+          "target": "das Hähnchen",
+          "cz": "kuře"
+        },
+        {
+          "target": "die Nudeln",
+          "cz": "těstoviny"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir essen in der Schule zu Mittag.",
+      "tts_text": "Wir essen in der Schule zu Mittag."
+    }
+  ]
+}

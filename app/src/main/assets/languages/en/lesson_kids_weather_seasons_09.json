@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_weather_seasons_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Hot and Cold",
+  "title_cz": "Horko a zima",
+  "vocabulary": [
+    {
+      "word": "hot",
+      "translation_cz": "horko",
+      "example": "It is very hot today.",
+      "example_cz": "Dnes je velké horko.",
+      "tts_text": "It is very hot today."
+    },
+    {
+      "word": "cold",
+      "translation_cz": "zima (chladno)",
+      "example": "It is cold in winter.",
+      "example_cz": "V zimě je zima.",
+      "tts_text": "It is cold in winter."
+    },
+    {
+      "word": "warm",
+      "translation_cz": "teplo",
+      "example": "The water is warm.",
+      "example_cz": "Voda je teplá.",
+      "tts_text": "The water is warm."
+    },
+    {
+      "word": "cool",
+      "translation_cz": "chladno (příjemně)",
+      "example": "The evening is cool.",
+      "example_cz": "Večer je příjemně chladno.",
+      "tts_text": "The evening is cool."
+    },
+    {
+      "word": "freezing",
+      "translation_cz": "mrazivo",
+      "example": "It is freezing outside.",
+      "example_cz": "Venku je mrazivo.",
+      "tts_text": "It is freezing outside."
+    },
+    {
+      "word": "thermometer",
+      "translation_cz": "teploměr",
+      "example": "The thermometer shows zero degrees.",
+      "example_cz": "Teploměr ukazuje nula stupňů.",
+      "tts_text": "The thermometer shows zero degrees."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "cold",
+      "options": [
+        "zima (chladno)",
+        "horko",
+        "teplo"
+      ],
+      "correct": "zima (chladno)"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "It is very ___ today.",
+      "answer": "hot",
+      "hint_cz": "horko"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "warm",
+          "cz": "teplo"
+        },
+        {
+          "target": "cool",
+          "cz": "chladno (příjemně)"
+        },
+        {
+          "target": "freezing",
+          "cz": "mrazivo"
+        },
+        {
+          "target": "thermometer",
+          "cz": "teploměr"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It is very hot today.",
+      "tts_text": "It is very hot today."
+    }
+  ]
+}

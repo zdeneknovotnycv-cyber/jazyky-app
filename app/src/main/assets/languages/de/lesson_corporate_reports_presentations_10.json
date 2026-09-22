@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_reports_presentations_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Präsentation abschließen",
+  "title_cz": "Zakončení prezentace",
+  "vocabulary": [
+    {
+      "word": "danke für Ihre Aufmerksamkeit",
+      "translation_cz": "děkuji za pozornost",
+      "example": "Danke für Ihre Aufmerksamkeit heute.",
+      "example_cz": "Děkuji vám dnes za pozornost.",
+      "tts_text": "Danke für Ihre Aufmerksamkeit heute."
+    },
+    {
+      "word": "zusammenfassen",
+      "translation_cz": "shrnout / zakončit",
+      "example": "Lassen Sie mich die Hauptpunkte zusammenfassen.",
+      "example_cz": "Dovolte mi shrnout hlavní body.",
+      "tts_text": "Lassen Sie mich die Hauptpunkte zusammenfassen."
+    },
+    {
+      "word": "die abschließenden Gedanken",
+      "translation_cz": "závěrečné myšlenky",
+      "example": "Hier sind meine abschließenden Gedanken zu diesem Thema.",
+      "example_cz": "Zde jsou mé závěrečné myšlenky k tomuto tématu.",
+      "tts_text": "Hier sind meine abschließenden Gedanken zu diesem Thema."
+    },
+    {
+      "word": "die Kontaktdaten",
+      "translation_cz": "kontaktní údaje",
+      "example": "Meine Kontaktdaten stehen auf der letzten Folie.",
+      "example_cz": "Mé kontaktní údaje jsou na posledním slidu.",
+      "tts_text": "Meine Kontaktdaten stehen auf der letzten Folie."
+    },
+    {
+      "word": "der Handlungsaufruf",
+      "translation_cz": "výzva k akci",
+      "example": "Mein Handlungsaufruf ist, das Budget heute zu genehmigen.",
+      "example_cz": "Mou výzvou k akci je dnes schválit rozpočet.",
+      "tts_text": "Mein Handlungsaufruf ist, das Budget heute zu genehmigen."
+    },
+    {
+      "word": "das Feedback",
+      "translation_cz": "zpětná vazba",
+      "example": "Ich freue mich über jedes Feedback.",
+      "example_cz": "Uvítám jakoukoliv zpětnou vazbu.",
+      "tts_text": "Ich freue mich über jedes Feedback."
+    },
+    {
+      "word": "die nächsten Schritte",
+      "translation_cz": "další kroky",
+      "example": "Lassen Sie uns die nächsten Schritte vereinbaren.",
+      "example_cz": "Domluvme se na dalších krocích.",
+      "tts_text": "Lassen Sie uns die nächsten Schritte vereinbaren."
+    },
+    {
+      "word": "Ihre Zeit schätzen",
+      "translation_cz": "ocenit váš čas",
+      "example": "Ich schätze Ihre Zeit heute wirklich.",
+      "example_cz": "Opravdu si vážím vašeho dnešního času.",
+      "tts_text": "Ich schätze Ihre Zeit heute wirklich."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_closing_presentation",
+      "title": "Eine Präsentation abschließen",
+      "title_cz": "Zakončení prezentace",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Lassen Sie mich die Hauptpunkte zusammenfassen, bevor wir fertig sind.",
+          "text_cz": "Dovolte mi shrnout hlavní body, než skončíme."
+        },
+        {
+          "speaker": "B",
+          "text": "Bitte, und was ist der nächste Schritt für uns?",
+          "text_cz": "Prosím, a jaký je pro nás další krok?"
+        },
+        {
+          "speaker": "A",
+          "text": "Mein Handlungsaufruf ist, das Budget bis Freitag zu genehmigen. Danke für Ihre Aufmerksamkeit.",
+          "text_cz": "Mou výzvou k akci je schválit rozpočet do pátku. Děkuji za pozornost."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke, wir schätzen Ihre Zeit und die klare Präsentation.",
+          "text_cz": "Děkujeme, vážíme si vašeho času a jasné prezentace."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "danke für Ihre Aufmerksamkeit",
+      "options": [
+        "děkuji za pozornost",
+        "závěrečné myšlenky",
+        "kontaktní údaje"
+      ],
+      "correct": "děkuji za pozornost"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lassen Sie mich die Hauptpunkte ___.",
+      "answer": "zusammenfassen",
+      "hint_cz": "shrnout / zakončit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein Handlungsaufruf ist, das Budget heute zu genehmigen.",
+      "answer": "der Handlungsaufruf",
+      "hint_cz": "výzva k akci"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Feedback",
+          "cz": "zpětná vazba"
+        },
+        {
+          "target": "die nächsten Schritte",
+          "cz": "další kroky"
+        },
+        {
+          "target": "Ihre Zeit schätzen",
+          "cz": "ocenit váš čas"
+        },
+        {
+          "target": "die abschließenden Gedanken",
+          "cz": "závěrečné myšlenky"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lassen Sie mich die Hauptpunkte zusammenfassen, bevor wir fertig sind.",
+      "tts_text": "Lassen Sie mich die Hauptpunkte zusammenfassen, bevor wir fertig sind."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte, und was ist der nächste Schritt für uns?",
+      "tts_text": "Bitte, und was ist der nächste Schritt für uns?"
+    }
+  ]
+}

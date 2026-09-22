@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_home_rooms_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Apartment vs. House",
+  "title_cz": "Byt versus dům",
+  "vocabulary": [
+    {
+      "word": "apartment",
+      "translation_cz": "byt",
+      "example": "We live in an apartment.",
+      "example_cz": "Bydlíme v bytě.",
+      "tts_text": "We live in an apartment."
+    },
+    {
+      "word": "house",
+      "translation_cz": "dům",
+      "example": "My friend lives in a house.",
+      "example_cz": "Můj kamarád bydlí v domě.",
+      "tts_text": "My friend lives in a house."
+    },
+    {
+      "word": "floor",
+      "translation_cz": "patro",
+      "example": "Our apartment is on the third floor.",
+      "example_cz": "Náš byt je ve třetím patře.",
+      "tts_text": "Our apartment is on the third floor."
+    },
+    {
+      "word": "elevator",
+      "translation_cz": "výtah",
+      "example": "We take the elevator up.",
+      "example_cz": "Jezdíme nahoru výtahem.",
+      "tts_text": "We take the elevator up."
+    },
+    {
+      "word": "balcony",
+      "translation_cz": "balkon",
+      "example": "We have flowers on the balcony.",
+      "example_cz": "Na balkoně máme květiny.",
+      "tts_text": "We have flowers on the balcony."
+    },
+    {
+      "word": "yard",
+      "translation_cz": "dvorek / zahrada",
+      "example": "A house often has a yard.",
+      "example_cz": "Dům má často dvorek.",
+      "tts_text": "A house often has a yard."
+    },
+    {
+      "word": "stairs",
+      "translation_cz": "schody",
+      "example": "We use the stairs sometimes.",
+      "example_cz": "Někdy používáme schody.",
+      "tts_text": "We use the stairs sometimes."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "apartment",
+      "options": [
+        "byt",
+        "dům",
+        "výtah"
+      ],
+      "correct": "byt"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We take the ___ up.",
+      "answer": "elevator",
+      "hint_cz": "výtah"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "floor",
+          "cz": "patro"
+        },
+        {
+          "target": "balcony",
+          "cz": "balkon"
+        },
+        {
+          "target": "yard",
+          "cz": "dvorek / zahrada"
+        },
+        {
+          "target": "stairs",
+          "cz": "schody"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We live in an apartment.",
+      "tts_text": "We live in an apartment."
+    }
+  ]
+}

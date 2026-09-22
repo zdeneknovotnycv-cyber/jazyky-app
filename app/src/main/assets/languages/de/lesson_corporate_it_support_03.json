@@ -1,0 +1,162 @@
+{
+  "id": "de_adult_corporate_it_support_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Passwort zurücksetzen",
+  "title_cz": "Žádost o obnovení hesla",
+  "vocabulary": [
+    {
+      "word": "das Passwort",
+      "translation_cz": "heslo",
+      "example": "Ich habe mein Passwort vergessen.",
+      "example_cz": "Zapomněl jsem své heslo.",
+      "tts_text": "Ich habe mein Passwort vergessen."
+    },
+    {
+      "word": "zurücksetzen",
+      "translation_cz": "obnovit / resetovat",
+      "example": "Können Sie bitte mein Passwort zurücksetzen?",
+      "example_cz": "Můžete mi prosím obnovit heslo?",
+      "tts_text": "Können Sie bitte mein Passwort zurücksetzen?"
+    },
+    {
+      "word": "ausgesperrt sein",
+      "translation_cz": "být uzamčen mimo účet",
+      "example": "Ich bin aus meinem Konto ausgesperrt.",
+      "example_cz": "Jsem uzamčen mimo svůj účet.",
+      "tts_text": "Ich bin aus meinem Konto ausgesperrt."
+    },
+    {
+      "word": "der Benutzername",
+      "translation_cz": "uživatelské jméno",
+      "example": "Bitte bestätigen Sie zuerst Ihren Benutzernamen.",
+      "example_cz": "Nejprve prosím potvrďte své uživatelské jméno.",
+      "tts_text": "Bitte bestätigen Sie zuerst Ihren Benutzernamen."
+    },
+    {
+      "word": "der Bestätigungscode",
+      "translation_cz": "ověřovací kód",
+      "example": "Sie erhalten einen Bestätigungscode per E-Mail.",
+      "example_cz": "Obdržíte ověřovací kód e-mailem.",
+      "tts_text": "Sie erhalten einen Bestätigungscode per E-Mail."
+    },
+    {
+      "word": "das temporäre Passwort",
+      "translation_cz": "dočasné heslo",
+      "example": "Verwenden Sie dieses temporäre Passwort zum Anmelden.",
+      "example_cz": "Použijte toto dočasné heslo pro přihlášení.",
+      "tts_text": "Verwenden Sie dieses temporäre Passwort zum Anmelden."
+    },
+    {
+      "word": "die Sicherheitsfrage",
+      "translation_cz": "bezpečnostní otázka",
+      "example": "Bitte beantworten Sie Ihre Sicherheitsfrage.",
+      "example_cz": "Odpovězte prosím na svou bezpečnostní otázku.",
+      "tts_text": "Bitte beantworten Sie Ihre Sicherheitsfrage."
+    },
+    {
+      "word": "das Passwort ändern",
+      "translation_cz": "změnit heslo",
+      "example": "Sie müssen Ihr Passwort nach der ersten Anmeldung ändern.",
+      "example_cz": "Po prvním přihlášení si musíte změnit heslo.",
+      "tts_text": "Sie müssen Ihr Passwort nach der ersten Anmeldung ändern."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_password_reset",
+      "title": "Ein Passwort zurücksetzen lassen",
+      "title_cz": "Žádost o obnovení hesla",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hallo, ich habe mein Passwort vergessen und bin aus meinem Konto ausgesperrt.",
+          "text_cz": "Dobrý den, zapomněl jsem heslo a jsem uzamčen mimo svůj účet."
+        },
+        {
+          "speaker": "B",
+          "text": "Kein Problem. Können Sie bitte Ihren Benutzernamen bestätigen?",
+          "text_cz": "Žádný problém. Můžete prosím potvrdit své uživatelské jméno?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, er lautet jana.novak.",
+          "text_cz": "Ano, je to jana.novak."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke. Ich sende Ihnen jetzt einen Bestätigungscode per E-Mail.",
+          "text_cz": "Děkuji. Nyní vám posílám ověřovací kód na e-mail."
+        }
+      ]
+    },
+    {
+      "id": "conv_temp_password",
+      "title": "Ein temporäres Passwort erhalten",
+      "title_cz": "Získání dočasného hesla",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich habe das temporäre Passwort erhalten, aber es funktioniert nicht.",
+          "text_cz": "Dostal jsem dočasné heslo, ale nefunguje."
+        },
+        {
+          "speaker": "B",
+          "text": "Bitte achten Sie darauf, dass beim Kopieren keine Leerzeichen entstehen.",
+          "text_cz": "Ujistěte se prosím, že při kopírování nejsou žádné mezery navíc."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "ausgesperrt sein",
+      "options": [
+        "být uzamčen mimo účet",
+        "heslo",
+        "ověřovací kód"
+      ],
+      "correct": "být uzamčen mimo účet"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Können Sie bitte mein Passwort ___?",
+      "answer": "zurücksetzen",
+      "hint_cz": "obnovit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Benutzername",
+          "cz": "uživatelské jméno"
+        },
+        {
+          "target": "der Bestätigungscode",
+          "cz": "ověřovací kód"
+        },
+        {
+          "target": "das temporäre Passwort",
+          "cz": "dočasné heslo"
+        },
+        {
+          "target": "die Sicherheitsfrage",
+          "cz": "bezpečnostní otázka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe mein Passwort vergessen.",
+      "tts_text": "Ich habe mein Passwort vergessen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Sie müssen Ihr Passwort nach der ersten Anmeldung ___.",
+      "answer": "ändern",
+      "hint_cz": "změnit"
+    }
+  ]
+}

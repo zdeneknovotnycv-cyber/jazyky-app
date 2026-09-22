@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_sports_hobbies_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Bicycle Riding",
+  "title_cz": "Jízda na kole",
+  "vocabulary": [
+    {
+      "word": "bicycle",
+      "translation_cz": "kolo",
+      "example": "I ride my bicycle to the park.",
+      "example_cz": "Jezdím na kole do parku.",
+      "tts_text": "I ride my bicycle to the park."
+    },
+    {
+      "word": "helmet",
+      "translation_cz": "helma",
+      "example": "Always wear a helmet.",
+      "example_cz": "Vždy nos helmu.",
+      "tts_text": "Always wear a helmet."
+    },
+    {
+      "word": "pedal",
+      "translation_cz": "šlapat",
+      "example": "I pedal fast down the hill.",
+      "example_cz": "Z kopce šlapu rychle.",
+      "tts_text": "I pedal fast down the hill."
+    },
+    {
+      "word": "wheel",
+      "translation_cz": "kolo (na dopravním prostředku)",
+      "example": "The front wheel is broken.",
+      "example_cz": "Přední kolo je rozbité.",
+      "tts_text": "The front wheel is broken."
+    },
+    {
+      "word": "fall off",
+      "translation_cz": "spadnout",
+      "example": "I fell off my bike once.",
+      "example_cz": "Jednou jsem spadl z kola.",
+      "tts_text": "I fell off my bike once."
+    },
+    {
+      "word": "training wheels",
+      "translation_cz": "postranní kolečka",
+      "example": "I don't need training wheels anymore.",
+      "example_cz": "Postranní kolečka už nepotřebuji.",
+      "tts_text": "I don't need training wheels anymore."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "helmet",
+      "options": [
+        "helma",
+        "kolo",
+        "šlapat"
+      ],
+      "correct": "helma"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Always wear a ___.",
+      "answer": "helmet",
+      "hint_cz": "helmu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bicycle",
+          "cz": "kolo"
+        },
+        {
+          "target": "pedal",
+          "cz": "šlapat"
+        },
+        {
+          "target": "wheel",
+          "cz": "kolo (na dopravním prostředku)"
+        },
+        {
+          "target": "fall off",
+          "cz": "spadnout"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I ride my bicycle to the park.",
+      "tts_text": "I ride my bicycle to the park."
+    }
+  ]
+}

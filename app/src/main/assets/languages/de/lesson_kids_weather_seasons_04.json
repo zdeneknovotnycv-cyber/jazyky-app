@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_weather_seasons_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Sommer und der Strand",
+  "title_cz": "Léto a pláž",
+  "vocabulary": [
+    {
+      "word": "der Strand",
+      "translation_cz": "pláž",
+      "example": "Wir spielen am Strand.",
+      "example_cz": "Hrajeme si na pláži.",
+      "tts_text": "Wir spielen am Strand."
+    },
+    {
+      "word": "das Meer",
+      "translation_cz": "moře",
+      "example": "Das Meer ist blau.",
+      "example_cz": "Moře je modré.",
+      "tts_text": "Das Meer ist blau."
+    },
+    {
+      "word": "der Badeanzug",
+      "translation_cz": "plavky",
+      "example": "Ich trage meinen Badeanzug am Strand.",
+      "example_cz": "Na pláži nosím plavky.",
+      "tts_text": "Ich trage meinen Badeanzug am Strand."
+    },
+    {
+      "word": "der Sand",
+      "translation_cz": "písek",
+      "example": "Der Sand ist warm.",
+      "example_cz": "Písek je teplý.",
+      "tts_text": "Der Sand ist warm."
+    },
+    {
+      "word": "heiß",
+      "translation_cz": "horko",
+      "example": "Im Sommer ist es heiß.",
+      "example_cz": "V létě je horko.",
+      "tts_text": "Im Sommer ist es heiß."
+    },
+    {
+      "word": "das Eis",
+      "translation_cz": "zmrzlina",
+      "example": "Im Sommer esse ich Eis.",
+      "example_cz": "V létě jím zmrzlinu.",
+      "tts_text": "Im Sommer esse ich Eis."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Strand",
+      "options": [
+        "pláž",
+        "moře",
+        "písek"
+      ],
+      "correct": "pláž"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Im Sommer ist es ___.",
+      "answer": "heiß",
+      "hint_cz": "horko"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Meer",
+          "cz": "moře"
+        },
+        {
+          "target": "der Badeanzug",
+          "cz": "plavky"
+        },
+        {
+          "target": "der Sand",
+          "cz": "písek"
+        },
+        {
+          "target": "das Eis",
+          "cz": "zmrzlina"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir spielen am Strand.",
+      "tts_text": "Wir spielen am Strand."
+    }
+  ]
+}

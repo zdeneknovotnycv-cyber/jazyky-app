@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_numbers_colors_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Shapes",
+  "title_cz": "Tvary",
+  "vocabulary": [
+    {
+      "word": "der Kreis",
+      "translation_cz": "kruh",
+      "example": "Der Ball ist ein Kreis.",
+      "example_cz": "Míč je kruh.",
+      "tts_text": "Der Ball ist ein Kreis."
+    },
+    {
+      "word": "das Quadrat",
+      "translation_cz": "čtverec",
+      "example": "Das Fenster ist ein Quadrat.",
+      "example_cz": "Okno je čtverec.",
+      "tts_text": "Das Fenster ist ein Quadrat."
+    },
+    {
+      "word": "das Dreieck",
+      "translation_cz": "trojúhelník",
+      "example": "Das Dach sieht aus wie ein Dreieck.",
+      "example_cz": "Střecha vypadá jako trojúhelník.",
+      "tts_text": "Das Dach sieht aus wie ein Dreieck."
+    },
+    {
+      "word": "das Rechteck",
+      "translation_cz": "obdélník",
+      "example": "Die Tür ist ein Rechteck.",
+      "example_cz": "Dveře jsou obdélník.",
+      "tts_text": "Die Tür ist ein Rechteck."
+    },
+    {
+      "word": "der Stern",
+      "translation_cz": "hvězda",
+      "example": "Ich habe einen Stern gemalt.",
+      "example_cz": "Nakreslil jsem hvězdu.",
+      "tts_text": "Ich habe einen Stern gemalt."
+    },
+    {
+      "word": "das Herz",
+      "translation_cz": "srdce",
+      "example": "Ich habe ein Herz für Mama gemalt.",
+      "example_cz": "Nakreslil jsem srdce pro mámu.",
+      "tts_text": "Ich habe ein Herz für Mama gemalt."
+    },
+    {
+      "word": "die Form",
+      "translation_cz": "tvar",
+      "example": "Welche Form ist das?",
+      "example_cz": "Jaký je to tvar?",
+      "tts_text": "Welche Form ist das?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Dreieck",
+      "options": [
+        "trojúhelník",
+        "kruh",
+        "čtverec"
+      ],
+      "correct": "trojúhelník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der Ball ist ein ___.",
+      "answer": "Kreis",
+      "hint_cz": "kruh"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Quadrat",
+          "cz": "čtverec"
+        },
+        {
+          "target": "das Rechteck",
+          "cz": "obdélník"
+        },
+        {
+          "target": "der Stern",
+          "cz": "hvězda"
+        },
+        {
+          "target": "das Herz",
+          "cz": "srdce"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Welche Form ist das?",
+      "tts_text": "Welche Form ist das?"
+    }
+  ]
+}

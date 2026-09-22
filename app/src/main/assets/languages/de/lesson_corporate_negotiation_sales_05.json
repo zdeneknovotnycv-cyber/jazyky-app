@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_negotiation_sales_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Geschäft abschließen",
+  "title_cz": "Uzavření obchodu",
+  "vocabulary": [
+    {
+      "word": "das Geschäft abschließen",
+      "translation_cz": "uzavřít obchod",
+      "example": "Lassen Sie uns das Geschäft heute abschließen.",
+      "example_cz": "Uzavřeme obchod ještě dnes.",
+      "tts_text": "Lassen Sie uns das Geschäft heute abschließen."
+    },
+    {
+      "word": "den Vertrag unterschreiben",
+      "translation_cz": "podepsat smlouvu",
+      "example": "Wann können Sie den Vertrag unterschreiben?",
+      "example_cz": "Kdy můžete podepsat smlouvu?",
+      "tts_text": "Wann können Sie den Vertrag unterschreiben?"
+    },
+    {
+      "word": "weitermachen",
+      "translation_cz": "postoupit dál",
+      "example": "Sind Sie bereit weiterzumachen?",
+      "example_cz": "Jste připraveni postoupit dál?",
+      "tts_text": "Sind Sie bereit weiterzumachen?"
+    },
+    {
+      "word": "die endgültige Genehmigung",
+      "translation_cz": "konečné schválení",
+      "example": "Wir brauchen nur noch die endgültige Genehmigung unseres Vorstands.",
+      "example_cz": "Potřebujeme jen konečné schválení naší rady.",
+      "tts_text": "Wir brauchen nur noch die endgültige Genehmigung unseres Vorstands."
+    },
+    {
+      "word": "die Verpflichtung",
+      "translation_cz": "závazek",
+      "example": "Das zeigt eine starke Verpflichtung auf beiden Seiten.",
+      "example_cz": "To ukazuje silný závazek na obou stranách.",
+      "tts_text": "Das zeigt eine starke Verpflichtung auf beiden Seiten."
+    },
+    {
+      "word": "die Bedingungen sind vereinbart",
+      "translation_cz": "podmínky jsou dohodnuty",
+      "example": "Ich glaube, die Bedingungen sind jetzt vereinbart.",
+      "example_cz": "Věřím, že podmínky jsou nyní dohodnuty.",
+      "tts_text": "Ich glaube, die Bedingungen sind jetzt vereinbart."
+    },
+    {
+      "word": "die offizielle Bestellung",
+      "translation_cz": "oficiální objednávka",
+      "example": "Bitte bestätigen Sie die offizielle Bestellung per E-Mail.",
+      "example_cz": "Potvrďte prosím oficiální objednávku e-mailem.",
+      "tts_text": "Bitte bestätigen Sie die offizielle Bestellung per E-Mail."
+    },
+    {
+      "word": "Glückwunsch zum Geschäft",
+      "translation_cz": "gratulace k obchodu",
+      "example": "Glückwunsch zum Geschäft, wir freuen uns auf die Zusammenarbeit.",
+      "example_cz": "Gratulace k obchodu, těšíme se na spolupráci.",
+      "tts_text": "Glückwunsch zum Geschäft, wir freuen uns auf die Zusammenarbeit."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_closing_deal",
+      "title": "Die Verhandlung abschließen",
+      "title_cz": "Uzavření jednání",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich glaube, die Bedingungen sind jetzt vereinbart. Sind Sie bereit weiterzumachen?",
+          "text_cz": "Věřím, že podmínky jsou nyní dohodnuté. Jste připraveni postoupit dál?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, wir brauchen nur noch die endgültige Genehmigung unseres Vorstands, aber das ist Formsache.",
+          "text_cz": "Ano, potřebujeme jen konečné schválení naší rady, ale to je formalita."
+        },
+        {
+          "speaker": "A",
+          "text": "Super, bitte bestätigen Sie die offizielle Bestellung per E-Mail und wir senden den Vertrag.",
+          "text_cz": "Skvělé, potvrďte prosím oficiální objednávku e-mailem a my pošleme smlouvu."
+        },
+        {
+          "speaker": "B",
+          "text": "Perfekt, danke.",
+          "text_cz": "Perfektní, děkujeme."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Geschäft abschließen",
+      "options": [
+        "uzavřít obchod",
+        "postoupit dál",
+        "konečné schválení"
+      ],
+      "correct": "uzavřít obchod"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wann können Sie ___?",
+      "answer": "den Vertrag unterschreiben",
+      "hint_cz": "podepsat smlouvu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das zeigt eine starke Verpflichtung auf beiden Seiten.",
+      "answer": "die Verpflichtung",
+      "hint_cz": "závazek"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Bedingungen sind vereinbart",
+          "cz": "podmínky jsou dohodnuty"
+        },
+        {
+          "target": "die offizielle Bestellung",
+          "cz": "oficiální objednávka"
+        },
+        {
+          "target": "Glückwunsch zum Geschäft",
+          "cz": "gratulace k obchodu"
+        },
+        {
+          "target": "weitermachen",
+          "cz": "postoupit dál"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich glaube, die Bedingungen sind jetzt vereinbart. Sind Sie bereit weiterzumachen?",
+      "tts_text": "Ich glaube, die Bedingungen sind jetzt vereinbart. Sind Sie bereit weiterzumachen?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ja, wir brauchen nur noch die endgültige Genehmigung unseres Vorstands, aber das ist Formsache.",
+      "tts_text": "Ja, wir brauchen nur noch die endgültige Genehmigung unseres Vorstands, aber das ist Formsache."
+    }
+  ]
+}

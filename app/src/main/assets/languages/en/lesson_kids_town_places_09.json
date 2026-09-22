@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_town_places_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "My neighborhood",
+  "title_cz": "Moje čtvrť",
+  "vocabulary": [
+    {
+      "word": "neighborhood",
+      "translation_cz": "čtvrť",
+      "example": "I know everyone in my neighborhood.",
+      "example_cz": "Znám všechny ve své čtvrti.",
+      "tts_text": "I know everyone in my neighborhood."
+    },
+    {
+      "word": "neighbor",
+      "translation_cz": "soused",
+      "example": "My neighbor has a big dog.",
+      "example_cz": "Můj soused má velkého psa.",
+      "tts_text": "My neighbor has a big dog."
+    },
+    {
+      "word": "street",
+      "translation_cz": "ulice",
+      "example": "I live on a quiet street.",
+      "example_cz": "Bydlím v tiché ulici.",
+      "tts_text": "I live on a quiet street."
+    },
+    {
+      "word": "building",
+      "translation_cz": "budova",
+      "example": "That building is very tall.",
+      "example_cz": "Ta budova je velmi vysoká.",
+      "tts_text": "That building is very tall."
+    },
+    {
+      "word": "corner shop",
+      "translation_cz": "obchůdek na rohu",
+      "example": "I buy candy at the corner shop.",
+      "example_cz": "Kupuji si bonbony v obchůdku na rohu.",
+      "tts_text": "I buy candy at the corner shop."
+    },
+    {
+      "word": "square",
+      "translation_cz": "náměstí",
+      "example": "Children play in the square.",
+      "example_cz": "Děti si hrají na náměstí.",
+      "tts_text": "Children play in the square."
+    },
+    {
+      "word": "familiar",
+      "translation_cz": "známý",
+      "example": "Everything here feels familiar.",
+      "example_cz": "Tady je mi všechno známé.",
+      "tts_text": "Everything here feels familiar."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "neighborhood",
+      "options": [
+        "čtvrť",
+        "park",
+        "škola"
+      ],
+      "correct": "čtvrť"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My ___ has a big dog.",
+      "answer": "neighbor",
+      "hint_cz": "soused"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "neighbor",
+          "cz": "soused"
+        },
+        {
+          "target": "street",
+          "cz": "ulice"
+        },
+        {
+          "target": "building",
+          "cz": "budova"
+        },
+        {
+          "target": "corner shop",
+          "cz": "obchůdek na rohu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I live on a quiet street.",
+      "tts_text": "I live on a quiet street."
+    }
+  ]
+}

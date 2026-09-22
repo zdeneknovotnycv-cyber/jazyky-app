@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_customer_service_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Following up with a customer",
+  "title_cz": "Následné kontaktování zákazníka",
+  "vocabulary": [
+    {
+      "word": "I'm following up on",
+      "translation_cz": "Navazuji na",
+      "example": "I'm following up on your recent request.",
+      "example_cz": "Navazuji na váš nedávný požadavek.",
+      "tts_text": "I'm following up on your recent request."
+    },
+    {
+      "word": "Just checking in",
+      "translation_cz": "Jen kontroluji, jestli je vše v pořádku",
+      "example": "Just checking in to see how everything is going.",
+      "example_cz": "Jen kontroluji, jak vše probíhá.",
+      "tts_text": "Just checking in to see how everything is going."
+    },
+    {
+      "word": "Did everything arrive as expected?",
+      "translation_cz": "Dorazilo vše, jak jste očekávali?",
+      "example": "Did everything arrive as expected?",
+      "example_cz": "Dorazilo vše, jak jste očekávali?",
+      "tts_text": "Did everything arrive as expected?"
+    },
+    {
+      "word": "Is there anything else I can help with?",
+      "translation_cz": "Mohu vám ještě s něčím pomoci?",
+      "example": "Is there anything else I can help you with?",
+      "example_cz": "Mohu vám ještě s něčím pomoci?",
+      "tts_text": "Is there anything else I can help you with?"
+    },
+    {
+      "word": "resolved to your satisfaction",
+      "translation_cz": "vyřešeno k vaší spokojenosti",
+      "example": "I hope the issue was resolved to your satisfaction.",
+      "example_cz": "Doufám, že problém byl vyřešen k vaší spokojenosti.",
+      "tts_text": "I hope the issue was resolved to your satisfaction."
+    },
+    {
+      "word": "reach out",
+      "translation_cz": "ozvat se, kontaktovat",
+      "example": "Please reach out if you have more questions.",
+      "example_cz": "Ozvěte se, prosím, pokud máte další otázky.",
+      "tts_text": "Please reach out if you have more questions."
+    },
+    {
+      "word": "status update",
+      "translation_cz": "aktualizace stavu",
+      "example": "I'm calling to give you a status update.",
+      "example_cz": "Volám, abych vám podal aktualizaci stavu.",
+      "tts_text": "I'm calling to give you a status update."
+    },
+    {
+      "word": "appreciate your business",
+      "translation_cz": "vážíme si vašeho obchodu",
+      "example": "We really appreciate your business.",
+      "example_cz": "Opravdu si vážíme vašeho obchodu.",
+      "tts_text": "We really appreciate your business."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_09",
+      "title": "Following up after a resolved issue",
+      "title_cz": "Následné kontaktování po vyřešení problému",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hello, I'm following up on your recent order. Did everything arrive as expected?",
+          "text_cz": "Dobrý den, navazuji na vaši nedávnou objednávku. Dorazilo vše, jak jste očekávali?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, thank you, everything is fine now.",
+          "text_cz": "Ano, děkuji, teď je vše v pořádku."
+        },
+        {
+          "speaker": "A",
+          "text": "Great, I'm glad the issue was resolved to your satisfaction. Is there anything else I can help with?",
+          "text_cz": "Skvělé, jsem rád, že problém byl vyřešen k vaší spokojenosti. Mohu vám ještě s něčím pomoci?"
+        },
+        {
+          "speaker": "B",
+          "text": "No, that's all. Thank you for checking in.",
+          "text_cz": "Ne, to je vše. Děkuji, že jste se ozvali."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Just checking in",
+      "options": [
+        "Jen kontroluji, jestli je vše v pořádku",
+        "Ozvat se",
+        "Aktualizace stavu"
+      ],
+      "correct": "Jen kontroluji, jestli je vše v pořádku"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Did everything arrive as ___?",
+      "answer": "expected",
+      "hint_cz": "očekáváno"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "reach out",
+          "cz": "ozvat se, kontaktovat"
+        },
+        {
+          "target": "status update",
+          "cz": "aktualizace stavu"
+        },
+        {
+          "target": "appreciate your business",
+          "cz": "vážíme si vašeho obchodu"
+        },
+        {
+          "target": "resolved to your satisfaction",
+          "cz": "vyřešeno k vaší spokojenosti"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'm following up on your recent request.",
+      "tts_text": "I'm following up on your recent request."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please ___ out if you have more questions.",
+      "answer": "reach",
+      "hint_cz": "ozvěte se"
+    }
+  ]
+}

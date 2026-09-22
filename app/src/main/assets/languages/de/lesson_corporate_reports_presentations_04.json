@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_reports_presentations_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Fragen nach einer Präsentation beantworten",
+  "title_cz": "Odpovídání na otázky po prezentaci",
+  "vocabulary": [
+    {
+      "word": "die Frage",
+      "translation_cz": "otázka",
+      "example": "Das ist eine großartige Frage, danke.",
+      "example_cz": "To je skvělá otázka, děkuji.",
+      "tts_text": "Das ist eine großartige Frage, danke."
+    },
+    {
+      "word": "klären",
+      "translation_cz": "vyjasnit",
+      "example": "Könnten Sie klären, was Sie meinen?",
+      "example_cz": "Mohl byste vyjasnit, co tím myslíte?",
+      "tts_text": "Könnten Sie klären, was Sie meinen?"
+    },
+    {
+      "word": "ein guter Punkt",
+      "translation_cz": "dobrá poznámka",
+      "example": "Das ist ein guter Punkt, lassen Sie mich darauf eingehen.",
+      "example_cz": "To je dobrá poznámka, dovolte mi se k ní vyjádřit.",
+      "tts_text": "Das ist ein guter Punkt, lassen Sie mich darauf eingehen."
+    },
+    {
+      "word": "nachfassen",
+      "translation_cz": "navázat / doplnit",
+      "example": "Ich kann per E-Mail mit weiteren Details nachfassen.",
+      "example_cz": "Mohu doplnit další podrobnosti e-mailem.",
+      "tts_text": "Ich kann per E-Mail mit weiteren Details nachfassen."
+    },
+    {
+      "word": "darauf zurückkommen",
+      "translation_cz": "vrátit se k tomu / odpovědět později",
+      "example": "Ich kenne die genaue Zahl nicht, aber ich komme darauf zurück.",
+      "example_cz": "Přesné číslo neznám, ale vrátím se k tomu.",
+      "tts_text": "Ich kenne die genaue Zahl nicht, aber ich komme darauf zurück."
+    },
+    {
+      "word": "umformulieren",
+      "translation_cz": "přeformulovat",
+      "example": "Lassen Sie mich die Frage umformulieren, um sicherzugehen.",
+      "example_cz": "Dovolte mi otázku přeformulovat, abych se ujistil, že jí rozumím.",
+      "tts_text": "Lassen Sie mich die Frage umformulieren, um sicherzugehen."
+    },
+    {
+      "word": "auf ein Anliegen eingehen",
+      "translation_cz": "reagovat na obavu",
+      "example": "Ich möchte auf dieses Anliegen direkt eingehen.",
+      "example_cz": "Rád bych na tuto obavu přímo reagoval.",
+      "tts_text": "Ich möchte auf dieses Anliegen direkt eingehen."
+    },
+    {
+      "word": "die Fragerunde eröffnen",
+      "translation_cz": "prostor pro otázky",
+      "example": "Jetzt möchte ich die Fragerunde eröffnen.",
+      "example_cz": "Nyní bych rád otevřel prostor pro otázky.",
+      "tts_text": "Jetzt möchte ich die Fragerunde eröffnen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_qa_session",
+      "title": "Fragerunde nach der Präsentation",
+      "title_cz": "Diskuze po prezentaci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Jetzt möchte ich die Fragerunde eröffnen.",
+          "text_cz": "Nyní bych rád otevřel prostor pro otázky."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke. Könnten Sie klären, wie das Budget berechnet wurde?",
+          "text_cz": "Děkuji. Mohl byste vyjasnit, jak byl rozpočet vypočítán?"
+        },
+        {
+          "speaker": "A",
+          "text": "Das ist eine großartige Frage. Lassen Sie mich sie umformulieren, um sicherzugehen, dass ich sie richtig verstehe.",
+          "text_cz": "To je skvělá otázka. Dovolte mi ji přeformulovat, abych se ujistil, že jí rozumím správně."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, bitte.",
+          "text_cz": "Jistě, pokračujte."
+        },
+        {
+          "speaker": "A",
+          "text": "Ich habe die genaue Aufschlüsselung jetzt nicht hier, aber ich komme per E-Mail darauf zurück.",
+          "text_cz": "Přesný rozpis tu teď nemám, ale vrátím se k tomu e-mailem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Frage",
+      "options": [
+        "otázka",
+        "dobrá poznámka",
+        "navázat / doplnit"
+      ],
+      "correct": "otázka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Könnten Sie ___, was Sie meinen?",
+      "answer": "klären",
+      "hint_cz": "vyjasnit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich kenne die genaue Zahl nicht, aber ich komme darauf zurück.",
+      "answer": "darauf zurückkommen",
+      "hint_cz": "vrátit se k tomu / odpovědět později"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "umformulieren",
+          "cz": "přeformulovat"
+        },
+        {
+          "target": "auf ein Anliegen eingehen",
+          "cz": "reagovat na obavu"
+        },
+        {
+          "target": "die Fragerunde eröffnen",
+          "cz": "prostor pro otázky"
+        },
+        {
+          "target": "ein guter Punkt",
+          "cz": "dobrá poznámka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Jetzt möchte ich die Fragerunde eröffnen.",
+      "tts_text": "Jetzt möchte ich die Fragerunde eröffnen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Danke. Könnten Sie klären, wie das Budget berechnet wurde?",
+      "tts_text": "Danke. Könnten Sie klären, wie das Budget berechnet wurde?"
+    }
+  ]
+}

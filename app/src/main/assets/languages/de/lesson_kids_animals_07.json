@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_animals_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Sea Animals",
+  "title_cz": "Mořská zvířata",
+  "vocabulary": [
+    {
+      "word": "der Fisch",
+      "translation_cz": "ryba",
+      "example": "Der Fisch schwimmt im Meer.",
+      "example_cz": "Ryba plave v moři.",
+      "tts_text": "Der Fisch schwimmt im Meer."
+    },
+    {
+      "word": "der Hai",
+      "translation_cz": "žralok",
+      "example": "Der Hai hat scharfe Zähne.",
+      "example_cz": "Žralok má ostré zuby.",
+      "tts_text": "Der Hai hat scharfe Zähne."
+    },
+    {
+      "word": "der Delfin",
+      "translation_cz": "delfín",
+      "example": "Der Delfin ist sehr klug.",
+      "example_cz": "Delfín je velmi chytrý.",
+      "tts_text": "Der Delfin ist sehr klug."
+    },
+    {
+      "word": "der Wal",
+      "translation_cz": "velryba",
+      "example": "Der Wal ist das größte Tier.",
+      "example_cz": "Velryba je největší zvíře.",
+      "tts_text": "Der Wal ist das größte Tier."
+    },
+    {
+      "word": "der Oktopus",
+      "translation_cz": "chobotnice",
+      "example": "Der Oktopus hat acht Arme.",
+      "example_cz": "Chobotnice má osm chapadel.",
+      "tts_text": "Der Oktopus hat acht Arme."
+    },
+    {
+      "word": "die Krabbe",
+      "translation_cz": "krab",
+      "example": "Die Krabbe geht seitwärts.",
+      "example_cz": "Krab chodí bokem.",
+      "tts_text": "Die Krabbe geht seitwärts."
+    },
+    {
+      "word": "der Seestern",
+      "translation_cz": "hvězdice",
+      "example": "Der Seestern lebt am Meeresboden.",
+      "example_cz": "Hvězdice žije na dně moře.",
+      "tts_text": "Der Seestern lebt am Meeresboden."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Wal",
+      "options": [
+        "velryba",
+        "žralok",
+        "delfín"
+      ],
+      "correct": "velryba"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der ___ hat scharfe Zähne.",
+      "answer": "Hai",
+      "hint_cz": "žralok"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Delfin",
+          "cz": "delfín"
+        },
+        {
+          "target": "der Oktopus",
+          "cz": "chobotnice"
+        },
+        {
+          "target": "die Krabbe",
+          "cz": "krab"
+        },
+        {
+          "target": "der Seestern",
+          "cz": "hvězdice"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Delfin ist sehr klug.",
+      "tts_text": "Der Delfin ist sehr klug."
+    }
+  ]
+}

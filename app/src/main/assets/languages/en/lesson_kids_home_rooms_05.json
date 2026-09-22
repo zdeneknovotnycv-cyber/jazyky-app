@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_home_rooms_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Living Room and TV",
+  "title_cz": "Obývací pokoj a televize",
+  "vocabulary": [
+    {
+      "word": "sofa",
+      "translation_cz": "gauč",
+      "example": "We sit on the sofa.",
+      "example_cz": "Sedíme na gauči.",
+      "tts_text": "We sit on the sofa."
+    },
+    {
+      "word": "television",
+      "translation_cz": "televize",
+      "example": "We watch television together.",
+      "example_cz": "Sledujeme spolu televizi.",
+      "tts_text": "We watch television together."
+    },
+    {
+      "word": "remote control",
+      "translation_cz": "dálkový ovladač",
+      "example": "Where is the remote control?",
+      "example_cz": "Kde je dálkový ovladač?",
+      "tts_text": "Where is the remote control?"
+    },
+    {
+      "word": "cartoon",
+      "translation_cz": "kreslený seriál",
+      "example": "I like watching cartoons.",
+      "example_cz": "Rád sleduji kreslené seriály.",
+      "tts_text": "I like watching cartoons."
+    },
+    {
+      "word": "carpet",
+      "translation_cz": "koberec",
+      "example": "The carpet is soft.",
+      "example_cz": "Koberec je měkký.",
+      "tts_text": "The carpet is soft."
+    },
+    {
+      "word": "curtains",
+      "translation_cz": "závěsy",
+      "example": "The curtains are yellow.",
+      "example_cz": "Závěsy jsou žluté.",
+      "tts_text": "The curtains are yellow."
+    },
+    {
+      "word": "turn on",
+      "translation_cz": "zapnout",
+      "example": "Please turn on the TV.",
+      "example_cz": "Zapni prosím televizi.",
+      "tts_text": "Please turn on the TV."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sofa",
+      "options": [
+        "gauč",
+        "koberec",
+        "závěsy"
+      ],
+      "correct": "gauč"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Where is the remote ___?",
+      "answer": "control",
+      "hint_cz": "ovladač"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "television",
+          "cz": "televize"
+        },
+        {
+          "target": "cartoon",
+          "cz": "kreslený seriál"
+        },
+        {
+          "target": "carpet",
+          "cz": "koberec"
+        },
+        {
+          "target": "turn on",
+          "cz": "zapnout"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We watch television together.",
+      "tts_text": "We watch television together."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "de_adult_corporate_it_support_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Fehler erklären",
+  "title_cz": "Vysvětlení chyby (bugu)",
+  "vocabulary": [
+    {
+      "word": "der Fehler",
+      "translation_cz": "chyba (v programu)",
+      "example": "Ich habe einen Fehler in der neuen Version der App gefunden.",
+      "example_cz": "Našel jsem chybu v nové verzi aplikace.",
+      "tts_text": "Ich habe einen Fehler in der neuen Version der App gefunden."
+    },
+    {
+      "word": "reproduzieren",
+      "translation_cz": "zopakovat (chybu)",
+      "example": "Können Sie den Fehler auf Ihrem Computer reproduzieren?",
+      "example_cz": "Dokážete tu chybu zopakovat na svém počítači?",
+      "tts_text": "Können Sie den Fehler auf Ihrem Computer reproduzieren?"
+    },
+    {
+      "word": "die Schritte zur Reproduktion",
+      "translation_cz": "kroky k zopakování",
+      "example": "Bitte nennen Sie die genauen Schritte zur Reproduktion des Problems.",
+      "example_cz": "Uveďte prosím přesné kroky k zopakování problému.",
+      "tts_text": "Bitte nennen Sie die genauen Schritte zur Reproduktion des Problems."
+    },
+    {
+      "word": "das erwartete Ergebnis",
+      "translation_cz": "očekávaný výsledek",
+      "example": "Das erwartete Ergebnis ist eine Bestätigungsnachricht.",
+      "example_cz": "Očekávaný výsledek je potvrzovací zpráva.",
+      "tts_text": "Das erwartete Ergebnis ist eine Bestätigungsnachricht."
+    },
+    {
+      "word": "das tatsächliche Ergebnis",
+      "translation_cz": "skutečný výsledek",
+      "example": "Das tatsächliche Ergebnis ist, dass die Seite einfach leer bleibt.",
+      "example_cz": "Skutečný výsledek je, že se stránka jen zobrazí prázdná.",
+      "tts_text": "Das tatsächliche Ergebnis ist, dass die Seite einfach leer bleibt."
+    },
+    {
+      "word": "der Screenshot",
+      "translation_cz": "snímek obrazovky",
+      "example": "Ich habe einen Screenshot des Fehlers angehängt.",
+      "example_cz": "Přiložil jsem snímek obrazovky s chybou.",
+      "tts_text": "Ich habe einen Screenshot des Fehlers angehängt."
+    },
+    {
+      "word": "der Browser",
+      "translation_cz": "prohlížeč",
+      "example": "Welchen Browser haben Sie verwendet, als es passiert ist?",
+      "example_cz": "Jaký prohlížeč jste používal, když se to stalo?",
+      "tts_text": "Welchen Browser haben Sie verwendet, als es passiert ist?"
+    },
+    {
+      "word": "die Fehlerbehebung",
+      "translation_cz": "oprava",
+      "example": "Die Entwickler arbeiten an einer Fehlerbehebung.",
+      "example_cz": "Vývojáři pracují na opravě.",
+      "tts_text": "Die Entwickler arbeiten an einer Fehlerbehebung."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_explain_bug",
+      "title": "Einen Fehler der IT erklären",
+      "title_cz": "Vysvětlení chyby IT oddělení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich habe einen Fehler im Berichtstool gefunden. Es stürzt ab, wenn ich einen Bericht exportiere.",
+          "text_cz": "Našel jsem chybu v nástroji pro reporty. Padá, když exportuji report."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay, können Sie mir die genauen Schritte zur Reproduktion nennen?",
+          "text_cz": "Dobře, můžete mi říct přesné kroky k zopakování?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ich öffne den Bericht, klicke auf 'Exportieren' und wähle PDF. Dann schließt es sich einfach.",
+          "text_cz": "Otevřu report, kliknu na 'export' a vyberu PDF. Pak se to prostě zavře."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke. Könnten Sie auch einen Screenshot schicken und mir sagen, welchen Browser Sie benutzen?",
+          "text_cz": "Děkuji. Mohl byste ještě poslat snímek obrazovky a říct, jaký prohlížeč používáte?"
+        }
+      ]
+    },
+    {
+      "id": "conv_expected_actual",
+      "title": "Erwartetes vs. tatsächliches Ergebnis",
+      "title_cz": "Očekávaný vs. skutečný výsledek",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Das erwartete Ergebnis ist eine heruntergeladene Datei, aber das tatsächliche Ergebnis ist eine Fehlerseite.",
+          "text_cz": "Očekávaný výsledek je stažený soubor, ale skutečný výsledek je chybová stránka."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden, ich leite das zur Fehlerbehebung an die Entwickler weiter.",
+          "text_cz": "Rozumím, předám to vývojářům k opravě."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "reproduzieren",
+      "options": [
+        "zopakovat",
+        "oprava",
+        "prohlížeč"
+      ],
+      "correct": "zopakovat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich habe einen ___ in der neuen Version der App gefunden.",
+      "answer": "Fehler",
+      "hint_cz": "chybu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das erwartete Ergebnis",
+          "cz": "očekávaný výsledek"
+        },
+        {
+          "target": "das tatsächliche Ergebnis",
+          "cz": "skutečný výsledek"
+        },
+        {
+          "target": "der Screenshot",
+          "cz": "snímek obrazovky"
+        },
+        {
+          "target": "die Fehlerbehebung",
+          "cz": "oprava"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Können Sie den Fehler auf Ihrem Computer reproduzieren?",
+      "tts_text": "Können Sie den Fehler auf Ihrem Computer reproduzieren?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Entwickler arbeiten an einer ___.",
+      "answer": "Fehlerbehebung",
+      "hint_cz": "opravě"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_weather_seasons_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Gewitter",
+  "title_cz": "Bouřky",
+  "vocabulary": [
+    {
+      "word": "das Gewitter",
+      "translation_cz": "bouřka",
+      "example": "Draußen ist ein Gewitter.",
+      "example_cz": "Venku je bouřka.",
+      "tts_text": "Draußen ist ein Gewitter."
+    },
+    {
+      "word": "der Donner",
+      "translation_cz": "hrom",
+      "example": "Letzte Nacht habe ich Donner gehört.",
+      "example_cz": "Včera v noci jsem slyšel hrom.",
+      "tts_text": "Letzte Nacht habe ich Donner gehört."
+    },
+    {
+      "word": "der Blitz",
+      "translation_cz": "blesk",
+      "example": "Der Blitz war sehr hell.",
+      "example_cz": "Blesk byl velmi jasný.",
+      "tts_text": "Der Blitz war sehr hell."
+    },
+    {
+      "word": "ängstlich",
+      "translation_cz": "vystrašený",
+      "example": "Bei einem Gewitter fühle ich mich ängstlich.",
+      "example_cz": "Během bouřky se cítím vystrašený.",
+      "tts_text": "Bei einem Gewitter fühle ich mich ängstlich."
+    },
+    {
+      "word": "drinnen bleiben",
+      "translation_cz": "zůstat uvnitř",
+      "example": "Bei einem Gewitter bleiben wir drinnen.",
+      "example_cz": "Během bouřky zůstáváme uvnitř.",
+      "tts_text": "Bei einem Gewitter bleiben wir drinnen."
+    },
+    {
+      "word": "der Sturm",
+      "translation_cz": "bouře",
+      "example": "Der Sturm ist schnell vorübergezogen.",
+      "example_cz": "Bouře rychle přešla.",
+      "tts_text": "Der Sturm ist schnell vorübergezogen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Donner",
+      "options": [
+        "hrom",
+        "blesk",
+        "bouřka"
+      ],
+      "correct": "hrom"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Draußen ist ein ___.",
+      "answer": "Gewitter",
+      "hint_cz": "bouřka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Blitz",
+          "cz": "blesk"
+        },
+        {
+          "target": "ängstlich",
+          "cz": "vystrašený"
+        },
+        {
+          "target": "drinnen bleiben",
+          "cz": "zůstat uvnitř"
+        },
+        {
+          "target": "der Sturm",
+          "cz": "bouře"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Draußen ist ein Gewitter.",
+      "tts_text": "Draußen ist ein Gewitter."
+    }
+  ]
+}

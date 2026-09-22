@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_scheduling_calendars_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Doppelt gebuchter Kalender",
+  "title_cz": "Dva termíny ve stejném čase",
+  "vocabulary": [
+    {
+      "word": "ich habe einen Terminkonflikt",
+      "translation_cz": "mám kolizi v termínech",
+      "example": "Ich habe zu dieser Zeit einen Terminkonflikt.",
+      "example_cz": "Mám v tu dobu kolizi v termínech.",
+      "tts_text": "Ich habe zu dieser Zeit einen Terminkonflikt."
+    },
+    {
+      "word": "ich bin doppelt gebucht",
+      "translation_cz": "mám dva termíny na stejný čas",
+      "example": "Ich bin am Donnerstagvormittag doppelt gebucht.",
+      "example_cz": "Mám ve čtvrtek dopoledne dva termíny na stejný čas.",
+      "tts_text": "Ich bin am Donnerstagvormittag doppelt gebucht."
+    },
+    {
+      "word": "welches hat Priorität?",
+      "translation_cz": "který má přednost?",
+      "example": "Welches Meeting hat Ihrer Meinung nach Priorität?",
+      "example_cz": "Která schůzka má podle vás přednost?",
+      "tts_text": "Welches Meeting hat Ihrer Meinung nach Priorität?"
+    },
+    {
+      "word": "ich versuche, für einen Teil dabei zu sein",
+      "translation_cz": "zkusím se připojit alespoň na část",
+      "example": "Ich versuche, für einen Teil dabei zu sein und dann früher zu gehen.",
+      "example_cz": "Zkusím se připojit alespoň na část a odejít dříve.",
+      "tts_text": "Ich versuche, für einen Teil dabei zu sein und dann früher zu gehen."
+    },
+    {
+      "word": "kann stattdessen jemand anderes teilnehmen?",
+      "translation_cz": "může se zúčastnit místo mě někdo jiný?",
+      "example": "Kann stattdessen jemand anderes an dem Meeting teilnehmen?",
+      "example_cz": "Může se zúčastnit místo mě někdo jiný?",
+      "tts_text": "Kann stattdessen jemand anderes an dem Meeting teilnehmen?"
+    },
+    {
+      "word": "ich werde mich entschuldigen",
+      "translation_cz": "omluvím se",
+      "example": "Ich werde mich für dieses Meeting entschuldigen.",
+      "example_cz": "Omluvím se za tuto schůzku.",
+      "tts_text": "Ich werde mich für dieses Meeting entschuldigen."
+    },
+    {
+      "word": "vermeiden wir das nächste Mal Überschneidungen",
+      "translation_cz": "příště se vyhněme překrývání",
+      "example": "Vermeiden wir das nächste Mal Überschneidungen bei den Meetings.",
+      "example_cz": "Příště se vyhněme překrývajícím se schůzkám.",
+      "tts_text": "Vermeiden wir das nächste Mal Überschneidungen bei den Meetings."
+    },
+    {
+      "word": "prüfen Sie es, bevor Sie annehmen",
+      "translation_cz": "zkontrolujte to před přijetím",
+      "example": "Bitte prüfen Sie Ihren Kalender, bevor Sie annehmen.",
+      "example_cz": "Zkontrolujte prosím svůj kalendář před přijetím pozvánky.",
+      "tts_text": "Bitte prüfen Sie Ihren Kalender, bevor Sie annehmen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_doppelt_gebucht",
+      "title": "Einen doppelt gebuchten Termin lösen",
+      "title_cz": "Řešení dvou termínů ve stejném čase",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Es tut mir leid, ich bin am Donnerstagvormittag doppelt gebucht.",
+          "text_cz": "Omlouvám se, mám ve čtvrtek dopoledne dva termíny na stejný čas."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstehe. Welches Meeting hat Ihrer Meinung nach Priorität?",
+          "text_cz": "Chápu. Která schůzka má podle vás přednost?"
+        },
+        {
+          "speaker": "A",
+          "text": "Der Kundenanruf ist dringender. Kann stattdessen jemand anderes an unserem Meeting teilnehmen?",
+          "text_cz": "Hovor s klientem je naléhavější. Může se zúčastnit naší schůzky místo mě někdo jiný?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, ich frage David. Ich versuche auch, für einen Teil dabei zu sein.",
+          "text_cz": "Jistě, zeptám se Davida. Zkusím se také připojit alespoň na část."
+        },
+        {
+          "speaker": "A",
+          "text": "Danke. Vermeiden wir das nächste Mal Überschneidungen bei den Meetings.",
+          "text_cz": "Děkuji. Příště se vyhněme překrývajícím se schůzkám."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Ich bin am Donnerstagvormittag doppelt gebucht.",
+      "options": [
+        "Mám ve čtvrtek dopoledne dva termíny na stejný čas.",
+        "Který má přednost?",
+        "Omluvím se."
+      ],
+      "correct": "Mám ve čtvrtek dopoledne dva termíny na stejný čas."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich habe zu dieser Zeit einen ___.",
+      "answer": "Terminkonflikt",
+      "hint_cz": "kolize v termínech"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "welches hat Priorität?", "cz": "který má přednost?" },
+        { "target": "ich werde mich entschuldigen", "cz": "omluvím se" },
+        { "target": "prüfen Sie es, bevor Sie annehmen", "cz": "zkontrolujte to před přijetím" },
+        { "target": "kann stattdessen jemand anderes teilnehmen?", "cz": "může se zúčastnit místo mě někdo jiný?" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich versuche, für einen Teil dabei zu sein und dann früher zu gehen.",
+      "tts_text": "Ich versuche, für einen Teil dabei zu sein und dann früher zu gehen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Vermeiden wir das nächste Mal ___ bei den Meetings.",
+      "answer": "Überschneidungen",
+      "hint_cz": "překrývání"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte prüfen Sie Ihren Kalender, bevor Sie annehmen.",
+      "tts_text": "Bitte prüfen Sie Ihren Kalender, bevor Sie annehmen."
+    }
+  ]
+}

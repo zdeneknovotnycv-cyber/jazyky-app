@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_animals_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Animals at the Zoo",
+  "title_cz": "Zvířata v zoo",
+  "vocabulary": [
+    {
+      "word": "zoo",
+      "translation_cz": "zoo",
+      "example": "We are going to the zoo.",
+      "example_cz": "Jdeme do zoo.",
+      "tts_text": "We are going to the zoo."
+    },
+    {
+      "word": "giraffe",
+      "translation_cz": "žirafa",
+      "example": "The giraffe has a long neck.",
+      "example_cz": "Žirafa má dlouhý krk.",
+      "tts_text": "The giraffe has a long neck."
+    },
+    {
+      "word": "zebra",
+      "translation_cz": "zebra",
+      "example": "The zebra has black and white stripes.",
+      "example_cz": "Zebra má černobílé pruhy.",
+      "tts_text": "The zebra has black and white stripes."
+    },
+    {
+      "word": "panda",
+      "translation_cz": "panda",
+      "example": "The panda eats bamboo.",
+      "example_cz": "Panda jí bambus.",
+      "tts_text": "The panda eats bamboo."
+    },
+    {
+      "word": "crocodile",
+      "translation_cz": "krokodýl",
+      "example": "The crocodile lives in the river.",
+      "example_cz": "Krokodýl žije v řece.",
+      "tts_text": "The crocodile lives in the river."
+    },
+    {
+      "word": "cage",
+      "translation_cz": "klec",
+      "example": "The bird is in a cage.",
+      "example_cz": "Pták je v kleci.",
+      "tts_text": "The bird is in a cage."
+    },
+    {
+      "word": "keeper",
+      "translation_cz": "ošetřovatel",
+      "example": "The keeper feeds the animals.",
+      "example_cz": "Ošetřovatel krmí zvířata.",
+      "tts_text": "The keeper feeds the animals."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "panda",
+      "options": [
+        "panda",
+        "zebra",
+        "žirafa"
+      ],
+      "correct": "panda"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ has a long neck.",
+      "answer": "giraffe",
+      "hint_cz": "žirafa"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "zoo",
+          "cz": "zoo"
+        },
+        {
+          "target": "zebra",
+          "cz": "zebra"
+        },
+        {
+          "target": "crocodile",
+          "cz": "krokodýl"
+        },
+        {
+          "target": "keeper",
+          "cz": "ošetřovatel"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The panda eats bamboo.",
+      "tts_text": "The panda eats bamboo."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_problem_solving_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Escalating an issue",
+  "title_cz": "Eskalace problému",
+  "vocabulary": [
+    {
+      "word": "escalate",
+      "translation_cz": "eskalovat",
+      "example": "I need to escalate this issue.",
+      "example_cz": "Musím tento problém eskalovat.",
+      "tts_text": "I need to escalate this issue."
+    },
+    {
+      "word": "beyond my authority",
+      "translation_cz": "mimo mou pravomoc",
+      "example": "This decision is beyond my authority.",
+      "example_cz": "Toto rozhodnutí je mimo mou pravomoc.",
+      "tts_text": "This decision is beyond my authority."
+    },
+    {
+      "word": "involve someone",
+      "translation_cz": "zapojit někoho",
+      "example": "We should involve the department head.",
+      "example_cz": "Měli bychom zapojit vedoucího oddělení.",
+      "tts_text": "We should involve the department head."
+    },
+    {
+      "word": "chain of command",
+      "translation_cz": "hierarchie velení",
+      "example": "Let's follow the chain of command.",
+      "example_cz": "Dodržujme hierarchii velení.",
+      "tts_text": "Let's follow the chain of command."
+    },
+    {
+      "word": "critical",
+      "translation_cz": "kritický",
+      "example": "The situation is critical.",
+      "example_cz": "Situace je kritická.",
+      "tts_text": "The situation is critical."
+    },
+    {
+      "word": "raise this with",
+      "translation_cz": "vznést to u",
+      "example": "I will raise this with senior management.",
+      "example_cz": "Vznesu to u vrcholového vedení.",
+      "tts_text": "I will raise this with senior management."
+    },
+    {
+      "word": "next steps",
+      "translation_cz": "další kroky",
+      "example": "What are the next steps?",
+      "example_cz": "Jaké jsou další kroky?",
+      "tts_text": "What are the next steps?"
+    },
+    {
+      "word": "keep me updated",
+      "translation_cz": "informujte mě",
+      "example": "Please keep me updated.",
+      "example_cz": "Prosím informujte mě o vývoji.",
+      "tts_text": "Please keep me updated."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_05",
+      "title": "Escalating an issue",
+      "title_cz": "Eskalace problému",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "This problem is critical, and it's beyond my authority.",
+          "text_cz": "Tento problém je kritický a je mimo mou pravomoc."
+        },
+        {
+          "speaker": "B",
+          "text": "I agree, we should escalate it.",
+          "text_cz": "Souhlasím, měli bychom to eskalovat."
+        },
+        {
+          "speaker": "A",
+          "text": "I'll raise this with senior management today.",
+          "text_cz": "Dnes to vznesu u vrcholového vedení."
+        },
+        {
+          "speaker": "B",
+          "text": "Good. Let's also involve IT, following the chain of command.",
+          "text_cz": "Dobře. Zapojme také IT, podle hierarchie velení."
+        },
+        {
+          "speaker": "A",
+          "text": "What are the next steps?",
+          "text_cz": "Jaké jsou další kroky?"
+        },
+        {
+          "speaker": "B",
+          "text": "I'll set up a meeting. Keep me updated.",
+          "text_cz": "Zařídím schůzku. Informujte mě o vývoji."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "escalate",
+      "options": [
+        "eskalovat",
+        "mimo mou pravomoc",
+        "zapojit někoho"
+      ],
+      "correct": "eskalovat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's follow the ___.",
+      "answer": "chain of command",
+      "hint_cz": "hierarchie velení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "escalate",
+          "cz": "eskalovat"
+        },
+        {
+          "target": "beyond my authority",
+          "cz": "mimo mou pravomoc"
+        },
+        {
+          "target": "involve someone",
+          "cz": "zapojit někoho"
+        },
+        {
+          "target": "chain of command",
+          "cz": "hierarchie velení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The situation is critical.",
+      "tts_text": "The situation is critical."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I will ___ senior management.",
+      "answer": "raise this with",
+      "hint_cz": "vznést to u"
+    }
+  ]
+}

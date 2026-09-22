@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_business_travel_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Expense report after travel",
+  "title_cz": "Vyúčtování cestovních nákladů",
+  "vocabulary": [
+    {
+      "word": "expense report",
+      "translation_cz": "vyúčtování nákladů",
+      "example": "Please submit your expense report by Friday.",
+      "example_cz": "Prosím odevzdejte vyúčtování nákladů do pátku.",
+      "tts_text": "Please submit your expense report by Friday."
+    },
+    {
+      "word": "receipt",
+      "translation_cz": "účtenka",
+      "example": "Keep every receipt from your trip.",
+      "example_cz": "Uschovejte si každou účtenku z cesty.",
+      "tts_text": "Keep every receipt from your trip."
+    },
+    {
+      "word": "reimburse",
+      "translation_cz": "proplatit",
+      "example": "The company will reimburse your travel costs.",
+      "example_cz": "Firma vám proplatí náklady na cestu.",
+      "tts_text": "The company will reimburse your travel costs."
+    },
+    {
+      "word": "per diem",
+      "translation_cz": "diety",
+      "example": "You'll get a per diem for meals.",
+      "example_cz": "Dostanete diety na stravu.",
+      "tts_text": "You'll get a per diem for meals."
+    },
+    {
+      "word": "submit a claim",
+      "translation_cz": "podat žádost o proplacení",
+      "example": "Please submit a claim within two weeks.",
+      "example_cz": "Podejte prosím žádost o proplacení do dvou týdnů.",
+      "tts_text": "Please submit a claim within two weeks."
+    },
+    {
+      "word": "approved expenses",
+      "translation_cz": "schválené výdaje",
+      "example": "Only approved expenses will be paid.",
+      "example_cz": "Proplaceny budou pouze schválené výdaje.",
+      "tts_text": "Only approved expenses will be paid."
+    },
+    {
+      "word": "attach the invoice",
+      "translation_cz": "přiložit fakturu",
+      "example": "Please attach the invoice to your report.",
+      "example_cz": "Prosím přiložte fakturu k vyúčtování.",
+      "tts_text": "Please attach the invoice to your report."
+    },
+    {
+      "word": "accounting department",
+      "translation_cz": "účetní oddělení",
+      "example": "Send the form to the accounting department.",
+      "example_cz": "Zašlete formulář na účetní oddělení.",
+      "tts_text": "Send the form to the accounting department."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_expense_report",
+      "title": "Submitting an expense report",
+      "title_cz": "Podání vyúčtování nákladů",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you submitted your expense report yet?",
+          "text_cz": "Odevzdal jsi už vyúčtování nákladů?"
+        },
+        {
+          "speaker": "B",
+          "text": "Not yet. I need to attach the invoice for the hotel first.",
+          "text_cz": "Ještě ne. Nejdřív musím přiložit fakturu za hotel."
+        },
+        {
+          "speaker": "A",
+          "text": "Remember to keep every receipt and submit a claim within two weeks.",
+          "text_cz": "Nezapomeň si uschovat každou účtenku a podat žádost o proplacení do dvou týdnů."
+        },
+        {
+          "speaker": "B",
+          "text": "Got it. Will the company reimburse the taxi as well?",
+          "text_cz": "Rozumím. Firma proplatí i taxi?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, as long as it's an approved expense.",
+          "text_cz": "Ano, pokud je to schválený výdaj."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "expense report",
+      "options": [
+        "vyúčtování nákladů",
+        "diety",
+        "faktura"
+      ],
+      "correct": "vyúčtování nákladů"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please keep every ___ from your trip.",
+      "answer": "receipt",
+      "hint_cz": "účtenku"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The company will ___ your travel costs.",
+      "answer": "reimburse",
+      "hint_cz": "proplatit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "per diem",
+          "cz": "diety"
+        },
+        {
+          "target": "approved expenses",
+          "cz": "schválené výdaje"
+        },
+        {
+          "target": "accounting department",
+          "cz": "účetní oddělení"
+        },
+        {
+          "target": "submit a claim",
+          "cz": "podat žádost o proplacení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please submit your expense report by Friday.",
+      "tts_text": "Please submit your expense report by Friday."
+    }
+  ]
+}

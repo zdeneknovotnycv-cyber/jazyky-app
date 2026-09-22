@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_performance_feedback_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über eine Beförderung sprechen",
+  "title_cz": "Diskuse o povýšení",
+  "vocabulary": [
+    {
+      "word": "die Beförderung",
+      "translation_cz": "povýšení",
+      "example": "Ich möchte über eine mögliche Beförderung sprechen.",
+      "example_cz": "Rád bych probral možné povýšení.",
+      "tts_text": "Ich möchte über eine mögliche Beförderung sprechen."
+    },
+    {
+      "word": "die nächste Stufe",
+      "translation_cz": "další úroveň",
+      "example": "Was brauche ich, um die nächste Stufe zu erreichen?",
+      "example_cz": "Co potřebuji, abych dosáhl další úrovně?",
+      "tts_text": "Was brauche ich, um die nächste Stufe zu erreichen?"
+    },
+    {
+      "word": "die Arbeitsaufgaben",
+      "translation_cz": "pracovní povinnosti",
+      "example": "Die neue Rolle hat mehr Arbeitsaufgaben.",
+      "example_cz": "Nová role má více pracovních povinností.",
+      "tts_text": "Die neue Rolle hat mehr Arbeitsaufgaben."
+    },
+    {
+      "word": "die Erfolgsbilanz",
+      "translation_cz": "výsledky, historie",
+      "example": "Du hast dieses Jahr eine starke Erfolgsbilanz.",
+      "example_cz": "Máš letos silné výsledky.",
+      "tts_text": "Du hast dieses Jahr eine starke Erfolgsbilanz."
+    },
+    {
+      "word": "die Bereitschaft",
+      "translation_cz": "připravenost",
+      "example": "Lass uns über deine Bereitschaft für die Rolle sprechen.",
+      "example_cz": "Pojďme probrat tvou připravenost na tuto roli.",
+      "tts_text": "Lass uns über deine Bereitschaft für die Rolle sprechen."
+    },
+    {
+      "word": "der Zeitplan",
+      "translation_cz": "časový harmonogram",
+      "example": "Was ist ein realistischer Zeitplan dafür?",
+      "example_cz": "Jaký je pro to reálný časový harmonogram?",
+      "tts_text": "Was ist ein realistischer Zeitplan dafür?"
+    },
+    {
+      "word": "die Zunahme an Verantwortung",
+      "translation_cz": "zvýšení odpovědnosti",
+      "example": "Eine Beförderung bedeutet meist eine Zunahme an Verantwortung.",
+      "example_cz": "Povýšení obvykle znamená zvýšení odpovědnosti.",
+      "tts_text": "Eine Beförderung bedeutet meist eine Zunahme an Verantwortung."
+    },
+    {
+      "word": "der HR-Prozess",
+      "translation_cz": "HR proces",
+      "example": "Die Beförderung muss durch den HR-Prozess gehen.",
+      "example_cz": "Povýšení musí projít HR procesem.",
+      "tts_text": "Die Beförderung muss durch den HR-Prozess gehen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_05",
+      "title": "Über den Karrierefortschritt sprechen",
+      "title_cz": "Rozhovor o kariérním postupu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich möchte dieses Jahr über eine mögliche Beförderung sprechen.",
+          "text_cz": "Rád bych letos probral možné povýšení."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, du hast eine starke Erfolgsbilanz. Reden wir über die nächste Stufe.",
+          "text_cz": "Jasně, máš silné výsledky. Pojďme probrat další úroveň."
+        },
+        {
+          "speaker": "A",
+          "text": "Welche Arbeitsaufgaben kämen damit?",
+          "text_cz": "Jaké pracovní povinnosti by s tím přišly?"
+        },
+        {
+          "speaker": "B",
+          "text": "Mehr Projektverantwortung, und es geht durch den HR-Prozess.",
+          "text_cz": "Více odpovědnosti za projekty a jde to přes HR proces."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Beförderung",
+      "options": [
+        "povýšení",
+        "další úroveň",
+        "pracovní povinnosti"
+      ],
+      "correct": "povýšení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Du hast dieses Jahr eine starke ___.",
+      "answer": "Erfolgsbilanz",
+      "hint_cz": "výsledky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Beförderung",
+          "cz": "povýšení"
+        },
+        {
+          "target": "die nächste Stufe",
+          "cz": "další úroveň"
+        },
+        {
+          "target": "die Arbeitsaufgaben",
+          "cz": "pracovní povinnosti"
+        },
+        {
+          "target": "die Erfolgsbilanz",
+          "cz": "výsledky, historie"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich möchte über eine mögliche Beförderung sprechen.",
+      "tts_text": "Ich möchte über eine mögliche Beförderung sprechen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Beförderung muss durch den ___ gehen.",
+      "answer": "HR-Prozess",
+      "hint_cz": "HR proces"
+    }
+  ]
+}

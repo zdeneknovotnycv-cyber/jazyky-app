@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_home_rooms_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Moving to a New Home",
+  "title_cz": "Stěhování do nového domova",
+  "vocabulary": [
+    {
+      "word": "move",
+      "translation_cz": "stěhovat se",
+      "example": "We are moving to a new house.",
+      "example_cz": "Stěhujeme se do nového domu.",
+      "tts_text": "We are moving to a new house."
+    },
+    {
+      "word": "box",
+      "translation_cz": "krabice",
+      "example": "We pack our things in boxes.",
+      "example_cz": "Balíme věci do krabic.",
+      "tts_text": "We pack our things in boxes."
+    },
+    {
+      "word": "new home",
+      "translation_cz": "nový domov",
+      "example": "I like our new home.",
+      "example_cz": "Líbí se mi náš nový domov.",
+      "tts_text": "I like our new home."
+    },
+    {
+      "word": "truck",
+      "translation_cz": "náklaďák",
+      "example": "The truck carries our furniture.",
+      "example_cz": "Náklaďák veze náš nábytek.",
+      "tts_text": "The truck carries our furniture."
+    },
+    {
+      "word": "unpack",
+      "translation_cz": "vybalovat",
+      "example": "We unpack the boxes.",
+      "example_cz": "Vybalujeme krabice.",
+      "tts_text": "We unpack the boxes."
+    },
+    {
+      "word": "new room",
+      "translation_cz": "nový pokoj",
+      "example": "I have a new room now.",
+      "example_cz": "Teď mám nový pokoj.",
+      "tts_text": "I have a new room now."
+    },
+    {
+      "word": "say goodbye",
+      "translation_cz": "rozloučit se",
+      "example": "I say goodbye to my old house.",
+      "example_cz": "Loučím se se svým starým domem.",
+      "tts_text": "I say goodbye to my old house."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "box",
+      "options": [
+        "krabice",
+        "náklaďák",
+        "pokoj"
+      ],
+      "correct": "krabice"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We are ___ to a new house.",
+      "answer": "moving",
+      "hint_cz": "stěhovat se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "new home",
+          "cz": "nový domov"
+        },
+        {
+          "target": "truck",
+          "cz": "náklaďák"
+        },
+        {
+          "target": "unpack",
+          "cz": "vybalovat"
+        },
+        {
+          "target": "say goodbye",
+          "cz": "rozloučit se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I like our new home.",
+      "tts_text": "I like our new home."
+    }
+  ]
+}

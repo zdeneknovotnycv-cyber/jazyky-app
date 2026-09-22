@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_office_life_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Bürobedarf bestellen",
+  "title_cz": "Žádost o kancelářské potřeby",
+  "vocabulary": [
+    {
+      "word": "Büromaterial",
+      "translation_cz": "kancelářské potřeby",
+      "example": "Uns geht das Büromaterial aus.",
+      "example_cz": "Docházejí nám kancelářské potřeby.",
+      "tts_text": "Uns geht das Büromaterial aus."
+    },
+    {
+      "word": "Druckerpapier",
+      "translation_cz": "papír do tiskárny",
+      "example": "Kannst du mehr Druckerpapier bestellen?",
+      "example_cz": "Mohl bys objednat víc papíru do tiskárny?",
+      "tts_text": "Kannst du mehr Druckerpapier bestellen?"
+    },
+    {
+      "word": "der Hefter",
+      "translation_cz": "sešívačka",
+      "example": "Mein Hefter ist kaputt.",
+      "example_cz": "Moje sešívačka je rozbitá.",
+      "tts_text": "Mein Hefter ist kaputt."
+    },
+    {
+      "word": "ausgehen",
+      "translation_cz": "dojít (zásoby)",
+      "example": "Uns gehen wieder die Stifte aus.",
+      "example_cz": "Zase nám dochází propisky.",
+      "tts_text": "Uns gehen wieder die Stifte aus."
+    },
+    {
+      "word": "das Bestellformular",
+      "translation_cz": "objednávkový formulář",
+      "example": "Bitte füll das Bestellformular aus.",
+      "example_cz": "Prosím vyplň objednávkový formulář.",
+      "tts_text": "Bitte füll das Bestellformular aus."
+    },
+    {
+      "word": "die Lieferung",
+      "translation_cz": "doručení",
+      "example": "Die Lieferung dauert normalerweise zwei Tage.",
+      "example_cz": "Doručení obvykle trvá dva dny.",
+      "tts_text": "Die Lieferung dauert normalerweise zwei Tage."
+    },
+    {
+      "word": "das Lager",
+      "translation_cz": "sklad",
+      "example": "Das neue Material ist im Lager.",
+      "example_cz": "Nový materiál je ve skladu.",
+      "tts_text": "Das neue Material ist im Lager."
+    },
+    {
+      "word": "dringende Anfrage",
+      "translation_cz": "naléhavý požadavek",
+      "example": "Das ist eine dringende Anfrage, wir brauchen es heute.",
+      "example_cz": "Toto je naléhavý požadavek, potřebujeme to dnes.",
+      "tts_text": "Das ist eine dringende Anfrage, wir brauchen es heute."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_01",
+      "title": "Mehr Material anfordern",
+      "title_cz": "Žádost o další potřeby",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hallo, haben wir noch Notizbücher?",
+          "text_cz": "Ahoj, máme ještě sešity?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich glaube, die sind uns letzte Woche ausgegangen.",
+          "text_cz": "Myslím, že nám došly minulý týden."
+        },
+        {
+          "speaker": "A",
+          "text": "Kannst du das Bestellformular für mehr ausfüllen?",
+          "text_cz": "Mohl bys vyplnit objednávkový formulář na další?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, ich schicke heute eine dringende Anfrage an die Büroleitung.",
+          "text_cz": "Jasně, dnes pošlu naléhavý požadavek vedení kanceláře."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Büromaterial",
+      "options": [
+        "kancelářské potřeby",
+        "papír do tiskárny",
+        "sešívačka"
+      ],
+      "correct": "kancelářské potřeby"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Uns geht das Druckerpapier ___.",
+      "answer": "aus",
+      "hint_cz": "docházet"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Büromaterial",
+          "cz": "kancelářské potřeby"
+        },
+        {
+          "target": "Druckerpapier",
+          "cz": "papír do tiskárny"
+        },
+        {
+          "target": "der Hefter",
+          "cz": "sešívačka"
+        },
+        {
+          "target": "ausgehen",
+          "cz": "dojít (zásoby)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Kannst du bitte mehr Druckerpapier bestellen?",
+      "tts_text": "Kannst du bitte mehr Druckerpapier bestellen?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte füll das ___ aus.",
+      "answer": "Bestellformular",
+      "hint_cz": "objednávkový formulář"
+    }
+  ]
+}

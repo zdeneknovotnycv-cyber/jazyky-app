@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_scheduling_calendars_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Termin verschieben",
+  "title_cz": "Přeložení schůzky na jiný termín",
+  "vocabulary": [
+    {
+      "word": "ich muss unseren Termin verschieben",
+      "translation_cz": "potřebuji přeložit naši schůzku",
+      "example": "Es tut mir leid, ich muss unseren Termin verschieben.",
+      "example_cz": "Omlouvám se, potřebuji přeložit naši schůzku.",
+      "tts_text": "Es tut mir leid, ich muss unseren Termin verschieben."
+    },
+    {
+      "word": "es ist eine dringende Angelegenheit aufgetaucht",
+      "translation_cz": "vyskytla se naléhavá záležitost",
+      "example": "Heute Morgen ist eine dringende Angelegenheit aufgetaucht.",
+      "example_cz": "Dnes ráno se vyskytla naléhavá záležitost.",
+      "tts_text": "Heute Morgen ist eine dringende Angelegenheit aufgetaucht."
+    },
+    {
+      "word": "könnten wir ihn auf nächste Woche verschieben?",
+      "translation_cz": "mohli bychom to přesunout na příští týden?",
+      "example": "Könnten wir ihn stattdessen auf nächste Woche verschieben?",
+      "example_cz": "Mohli bychom to místo toho přesunout na příští týden?",
+      "tts_text": "Könnten wir ihn stattdessen auf nächste Woche verschieben?"
+    },
+    {
+      "word": "ich verstehe das vollkommen",
+      "translation_cz": "naprosto to chápu",
+      "example": "Ich verstehe das vollkommen, so etwas passiert.",
+      "example_cz": "Naprosto to chápu, tyhle věci se stávají.",
+      "tts_text": "Ich verstehe das vollkommen, so etwas passiert."
+    },
+    {
+      "word": "welcher Tag passt Ihnen besser?",
+      "translation_cz": "jaký den vám lépe vyhovuje?",
+      "example": "Kein Problem, welcher Tag passt Ihnen besser?",
+      "example_cz": "Žádný problém, jaký den vám lépe vyhovuje?",
+      "tts_text": "Kein Problem, welcher Tag passt Ihnen besser?"
+    },
+    {
+      "word": "peilen wir Donnerstag an",
+      "translation_cz": "zaměřme se na čtvrtek",
+      "example": "Peilen wir Donnerstag zur gleichen Zeit an.",
+      "example_cz": "Zaměřme se na čtvrtek ve stejný čas.",
+      "tts_text": "Peilen wir Donnerstag zur gleichen Zeit an."
+    },
+    {
+      "word": "ich aktualisiere den Kalendereintrag",
+      "translation_cz": "aktualizuji záznam v kalendáři",
+      "example": "Ich aktualisiere den Kalendereintrag sofort.",
+      "example_cz": "Hned aktualizuji záznam v kalendáři.",
+      "tts_text": "Ich aktualisiere den Kalendereintrag sofort."
+    },
+    {
+      "word": "danke für Ihre Flexibilität",
+      "translation_cz": "děkuji za vaši flexibilitu",
+      "example": "Danke für Ihre Flexibilität in dieser Sache.",
+      "example_cz": "Děkuji za vaši flexibilitu v této věci.",
+      "tts_text": "Danke für Ihre Flexibilität in dieser Sache."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_termin_verschieben",
+      "title": "Einen Termin auf einen späteren Tag verschieben",
+      "title_cz": "Přesunutí schůzky na pozdější termín",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Es tut mir leid, ich muss unseren Termin verschieben. Es ist eine dringende Angelegenheit aufgetaucht.",
+          "text_cz": "Omlouvám se, potřebuji přeložit naši schůzku. Vyskytla se naléhavá záležitost."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich verstehe das vollkommen. Welcher Tag passt Ihnen besser?",
+          "text_cz": "Naprosto to chápu. Jaký den vám lépe vyhovuje?"
+        },
+        {
+          "speaker": "A",
+          "text": "Könnten wir ihn stattdessen auf nächste Woche verschieben? Peilen wir Donnerstag an.",
+          "text_cz": "Mohli bychom to místo toho přesunout na příští týden? Zaměřme se na čtvrtek."
+        },
+        {
+          "speaker": "B",
+          "text": "Donnerstag passt mir. Ich aktualisiere den Kalendereintrag sofort.",
+          "text_cz": "Čtvrtek mi vyhovuje. Hned aktualizuji záznam v kalendáři."
+        },
+        {
+          "speaker": "A",
+          "text": "Danke für Ihre Flexibilität in dieser Sache.",
+          "text_cz": "Děkuji za vaši flexibilitu v této věci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Ich muss unseren Termin verschieben.",
+      "options": [
+        "Potřebuji přeložit naši schůzku.",
+        "Naprosto to chápu.",
+        "Zaměřme se na čtvrtek."
+      ],
+      "correct": "Potřebuji přeložit naši schůzku."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Heute Morgen ist eine dringende Angelegenheit ___.",
+      "answer": "aufgetaucht",
+      "hint_cz": "vyskytla se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "welcher Tag passt Ihnen besser?", "cz": "jaký den vám lépe vyhovuje?" },
+        { "target": "peilen wir Donnerstag an", "cz": "zaměřme se na čtvrtek" },
+        { "target": "ich aktualisiere den Kalendereintrag", "cz": "aktualizuji záznam v kalendáři" },
+        { "target": "danke für Ihre Flexibilität", "cz": "děkuji za vaši flexibilitu" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Könnten wir ihn stattdessen auf nächste Woche verschieben?",
+      "tts_text": "Könnten wir ihn stattdessen auf nächste Woche verschieben?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich verstehe das ___, so etwas passiert.",
+      "answer": "vollkommen",
+      "hint_cz": "chápu"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich aktualisiere den Kalendereintrag sofort.",
+      "tts_text": "Ich aktualisiere den Kalendereintrag sofort."
+    }
+  ]
+}

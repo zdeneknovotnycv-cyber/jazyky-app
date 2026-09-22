@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_project_management_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Grundlagen des Projektbudgets",
+  "title_cz": "Základy rozpočtu projektu",
+  "vocabulary": [
+    {
+      "word": "das Budget",
+      "translation_cz": "rozpočet",
+      "example": "Das Budget für dieses Projekt ist begrenzt.",
+      "example_cz": "Rozpočet na tento projekt je omezený.",
+      "tts_text": "Das Budget für dieses Projekt ist begrenzt."
+    },
+    {
+      "word": "die Kostenüberschreitung",
+      "translation_cz": "překročení nákladů",
+      "example": "Wir müssen eine Kostenüberschreitung vermeiden.",
+      "example_cz": "Musíme se vyhnout překročení nákladů.",
+      "tts_text": "Wir müssen eine Kostenüberschreitung vermeiden."
+    },
+    {
+      "word": "die Schätzung",
+      "translation_cz": "odhad",
+      "example": "Kannst du mir eine grobe Kostenschätzung geben?",
+      "example_cz": "Můžete mi dát hrubý odhad nákladů?",
+      "tts_text": "Kannst du mir eine grobe Kostenschätzung geben?"
+    },
+    {
+      "word": "zuweisen",
+      "translation_cz": "vyčlenit",
+      "example": "Wir haben mehr Mittel für Tests zugewiesen.",
+      "example_cz": "Vyčlenili jsme více prostředků na testování.",
+      "tts_text": "Wir haben mehr Mittel für Tests zugewiesen."
+    },
+    {
+      "word": "die Ausgabe",
+      "translation_cz": "výdaj",
+      "example": "Jede Ausgabe muss genehmigt werden.",
+      "example_cz": "Každý výdaj musí být schválen.",
+      "tts_text": "Jede Ausgabe muss genehmigt werden."
+    },
+    {
+      "word": "unter dem Budget",
+      "translation_cz": "pod rozpočtem",
+      "example": "Wir haben die Phase unter dem Budget abgeschlossen.",
+      "example_cz": "Fázi jsme dokončili pod rozpočtem.",
+      "tts_text": "Wir haben die Phase unter dem Budget abgeschlossen."
+    },
+    {
+      "word": "genehmigen",
+      "translation_cz": "schválit",
+      "example": "Das Finanzteam muss das genehmigen.",
+      "example_cz": "Finanční tým to musí schválit.",
+      "tts_text": "Das Finanzteam muss das genehmigen."
+    },
+    {
+      "word": "die Prognose",
+      "translation_cz": "prognóza",
+      "example": "Die Kostenprognose sieht realistisch aus.",
+      "example_cz": "Prognóza nákladů vypadá reálně.",
+      "tts_text": "Die Kostenprognose sieht realistisch aus."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_budget_check",
+      "title": "Das Projektbudget prüfen",
+      "title_cz": "Kontrola rozpočtu projektu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wie sieht das Budget für dieses Quartal aus?",
+          "text_cz": "Jak vypadá rozpočet pro toto čtvrtletí?"
+        },
+        {
+          "speaker": "B",
+          "text": "Wir haben die letzte Phase unter dem Budget abgeschlossen, das sind gute Neuigkeiten.",
+          "text_cz": "Poslední fázi jsme dokončili pod rozpočtem, což je dobrá zpráva."
+        },
+        {
+          "speaker": "A",
+          "text": "Super. Müssen wir für die nächste Phase mehr Mittel zuweisen?",
+          "text_cz": "Skvělé. Musíme vyčlenit více prostředků na další fázi?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, besonders für Tests. Ich sende die Schätzung zur Genehmigung.",
+          "text_cz": "Ano, hlavně na testování. Pošlu odhad ke schválení."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Budget",
+      "options": [
+        "rozpočet",
+        "odhad",
+        "vyčlenit"
+      ],
+      "correct": "rozpočet"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir müssen eine Kostenüberschreitung vermeiden.",
+      "answer": "die Kostenüberschreitung",
+      "hint_cz": "překročení nákladů"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Jede Ausgabe muss genehmigt werden.",
+      "answer": "die Ausgabe",
+      "hint_cz": "výdaj"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "unter dem Budget",
+          "cz": "pod rozpočtem"
+        },
+        {
+          "target": "genehmigen",
+          "cz": "schválit"
+        },
+        {
+          "target": "die Prognose",
+          "cz": "prognóza"
+        },
+        {
+          "target": "die Schätzung",
+          "cz": "odhad"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wie sieht das Budget für dieses Quartal aus?",
+      "tts_text": "Wie sieht das Budget für dieses Quartal aus?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir haben die letzte Phase unter dem Budget abgeschlossen, das sind gute Neuigkeiten.",
+      "tts_text": "Wir haben die letzte Phase unter dem Budget abgeschlossen, das sind gute Neuigkeiten."
+    }
+  ]
+}

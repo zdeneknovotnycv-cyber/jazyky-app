@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_family_people_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Baby Siblings",
+  "title_cz": "Miminko v rodině",
+  "vocabulary": [
+    {
+      "word": "das Brüderchen",
+      "translation_cz": "bratříček",
+      "example": "Ich habe ein Brüderchen.",
+      "example_cz": "Mám bratříčka.",
+      "tts_text": "Ich habe ein Brüderchen."
+    },
+    {
+      "word": "das Schwesterchen",
+      "translation_cz": "sestřička",
+      "example": "Mein Schwesterchen weint.",
+      "example_cz": "Moje sestřička pláče.",
+      "tts_text": "Mein Schwesterchen weint."
+    },
+    {
+      "word": "weinen",
+      "translation_cz": "plakat",
+      "example": "Das Baby weint nachts.",
+      "example_cz": "Miminko v noci pláče.",
+      "tts_text": "Das Baby weint nachts."
+    },
+    {
+      "word": "das Kinderbett",
+      "translation_cz": "postýlka",
+      "example": "Das Baby schläft im Kinderbett.",
+      "example_cz": "Miminko spí v postýlce.",
+      "tts_text": "Das Baby schläft im Kinderbett."
+    },
+    {
+      "word": "die Flasche",
+      "translation_cz": "lahvička",
+      "example": "Das Baby trinkt aus der Flasche.",
+      "example_cz": "Miminko pije z lahvičky.",
+      "tts_text": "Das Baby trinkt aus der Flasche."
+    },
+    {
+      "word": "der Kinderwagen",
+      "translation_cz": "kočárek",
+      "example": "Wir schieben den Kinderwagen im Park.",
+      "example_cz": "V parku tlačíme kočárek.",
+      "tts_text": "Wir schieben den Kinderwagen im Park."
+    },
+    {
+      "word": "helfen",
+      "translation_cz": "pomáhat",
+      "example": "Ich helfe meiner Mutter mit dem Baby.",
+      "example_cz": "Pomáhám mamince s miminkem.",
+      "tts_text": "Ich helfe meiner Mutter mit dem Baby."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Brüderchen",
+      "options": [
+        "bratříček",
+        "dědeček",
+        "soused"
+      ],
+      "correct": "bratříček"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das Baby schläft im ___.",
+      "answer": "Kinderbett",
+      "hint_cz": "postýlka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "weinen",
+          "cz": "plakat"
+        },
+        {
+          "target": "die Flasche",
+          "cz": "lahvička"
+        },
+        {
+          "target": "der Kinderwagen",
+          "cz": "kočárek"
+        },
+        {
+          "target": "helfen",
+          "cz": "pomáhat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich helfe meiner Mutter mit dem Baby.",
+      "tts_text": "Ich helfe meiner Mutter mit dem Baby."
+    }
+  ]
+}

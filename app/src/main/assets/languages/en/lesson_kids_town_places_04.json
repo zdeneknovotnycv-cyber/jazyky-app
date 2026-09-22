@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_town_places_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The playground",
+  "title_cz": "Dětské hřiště",
+  "vocabulary": [
+    {
+      "word": "playground",
+      "translation_cz": "dětské hřiště",
+      "example": "We play at the playground.",
+      "example_cz": "Hrajeme si na hřišti.",
+      "tts_text": "We play at the playground."
+    },
+    {
+      "word": "slide",
+      "translation_cz": "skluzavka",
+      "example": "I go down the slide.",
+      "example_cz": "Jezdím dolů po skluzavce.",
+      "tts_text": "I go down the slide."
+    },
+    {
+      "word": "sandbox",
+      "translation_cz": "pískoviště",
+      "example": "We build castles in the sandbox.",
+      "example_cz": "Stavíme hrady v pískovišti.",
+      "tts_text": "We build castles in the sandbox."
+    },
+    {
+      "word": "climb",
+      "translation_cz": "lézt",
+      "example": "I like to climb the frame.",
+      "example_cz": "Rád lezu po prolézačce.",
+      "tts_text": "I like to climb the frame."
+    },
+    {
+      "word": "seesaw",
+      "translation_cz": "houpačka (na obě strany)",
+      "example": "We go up and down on the seesaw.",
+      "example_cz": "Houpeme se na houpačce nahoru a dolů.",
+      "tts_text": "We go up and down on the seesaw."
+    },
+    {
+      "word": "friend",
+      "translation_cz": "kamarád",
+      "example": "I play with my friend.",
+      "example_cz": "Hraji si s kamarádem.",
+      "tts_text": "I play with my friend."
+    },
+    {
+      "word": "have fun",
+      "translation_cz": "bavit se",
+      "example": "We have fun at the playground.",
+      "example_cz": "Bavíme se na hřišti.",
+      "tts_text": "We have fun at the playground."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "playground",
+      "options": [
+        "dětské hřiště",
+        "park",
+        "škola"
+      ],
+      "correct": "dětské hřiště"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I go down the ___.",
+      "answer": "slide",
+      "hint_cz": "skluzavka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "slide",
+          "cz": "skluzavka"
+        },
+        {
+          "target": "sandbox",
+          "cz": "pískoviště"
+        },
+        {
+          "target": "climb",
+          "cz": "lézt"
+        },
+        {
+          "target": "seesaw",
+          "cz": "houpačka (na obě strany)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We build castles in the sandbox.",
+      "tts_text": "We build castles in the sandbox."
+    }
+  ]
+}

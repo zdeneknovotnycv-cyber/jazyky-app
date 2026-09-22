@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_marketing_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Kundenfeedback für das Marketing",
+  "title_cz": "Zpětná vazba zákazníků pro marketing",
+  "vocabulary": [
+    {
+      "word": "Feedback sammeln",
+      "translation_cz": "shromažďovat zpětnou vazbu",
+      "example": "Wir sammeln Feedback über kurze Umfragen.",
+      "example_cz": "Zpětnou vazbu shromažďujeme prostřednictvím krátkých dotazníků.",
+      "tts_text": "Wir sammeln Feedback über kurze Umfragen."
+    },
+    {
+      "word": "Kundeneinblicke",
+      "translation_cz": "poznatky o zákaznících",
+      "example": "Diese Kundeneinblicke werden unsere nächste Kampagne prägen.",
+      "example_cz": "Tyto poznatky o zákaznících ovlivní naši další kampaň.",
+      "tts_text": "Diese Kundeneinblicke werden unsere nächste Kampagne prägen."
+    },
+    {
+      "word": "Zufriedenheitswert",
+      "translation_cz": "skóre spokojenosti",
+      "example": "Unser Zufriedenheitswert hat sich dieses Quartal verbessert.",
+      "example_cz": "Naše skóre spokojenosti se toto čtvrtletí zlepšilo.",
+      "tts_text": "Unser Zufriedenheitswert hat sich dieses Quartal verbessert."
+    },
+    {
+      "word": "Schwachstelle",
+      "translation_cz": "problémové místo",
+      "example": "Langsame Lieferung ist eine häufige Schwachstelle für Kunden.",
+      "example_cz": "Pomalé doručení je pro zákazníky časté problémové místo.",
+      "tts_text": "Langsame Lieferung ist eine häufige Schwachstelle für Kunden."
+    },
+    {
+      "word": "Kundenstimme",
+      "translation_cz": "reference, ohlas",
+      "example": "Wir können diese Kundenstimme in unserer Werbung verwenden.",
+      "example_cz": "Tento ohlas můžeme použít v naší reklamě.",
+      "tts_text": "Wir können diese Kundenstimme in unserer Werbung verwenden."
+    },
+    {
+      "word": "Fallstudie",
+      "translation_cz": "případová studie",
+      "example": "Lasst uns basierend auf diesem Feedback eine Fallstudie schreiben.",
+      "example_cz": "Pojďme napsat případovou studii na základě této zpětné vazby.",
+      "tts_text": "Lasst uns basierend auf diesem Feedback eine Fallstudie schreiben."
+    },
+    {
+      "word": "Net Promoter Score",
+      "translation_cz": "index čisté spokojenosti",
+      "example": "Unser Net Promoter Score ist nach dem Update gestiegen.",
+      "example_cz": "Náš index čisté spokojenosti po aktualizaci vzrostl.",
+      "tts_text": "Unser Net Promoter Score ist nach dem Update gestiegen."
+    },
+    {
+      "word": "die Daten analysieren",
+      "translation_cz": "analyzovat data",
+      "example": "Wir müssen die Daten analysieren, bevor wir entscheiden.",
+      "example_cz": "Před rozhodnutím musíme analyzovat data.",
+      "tts_text": "Wir müssen die Daten analysieren, bevor wir entscheiden."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_04",
+      "title": "Kundenfeedback mit dem Marketingteam besprechen",
+      "title_cz": "Kontrola zpětné vazby zákazníků s marketingovým týmem",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wir haben Feedback aus der Umfrage vom letzten Monat gesammelt. Unser Zufriedenheitswert hat sich verbessert.",
+          "text_cz": "Shromáždili jsme zpětnou vazbu z minulého dotazníku. Naše skóre spokojenosti se zlepšilo."
+        },
+        {
+          "speaker": "B",
+          "text": "Toll, was waren die wichtigsten Kundeneinblicke?",
+          "text_cz": "Skvělé, jaké byly hlavní poznatky o zákaznících?"
+        },
+        {
+          "speaker": "A",
+          "text": "Langsame Lieferung ist noch immer eine Schwachstelle. Aber wir haben eine tolle Kundenstimme für die Werbung bekommen.",
+          "text_cz": "Pomalé doručení je stále problémové místo. Ale dostali jsme skvělý ohlas, který můžeme použít v reklamě."
+        },
+        {
+          "speaker": "B",
+          "text": "Perfekt, lasst uns die Daten weiter analysieren und eine Fallstudie schreiben.",
+          "text_cz": "Perfektní, pojďme data dále analyzovat a napsat případovou studii."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Kundeneinblicke",
+      "options": [
+        "poznatky o zákaznících",
+        "problémové místo",
+        "reference, ohlas"
+      ],
+      "correct": "poznatky o zákaznících"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir ___ Feedback über kurze Umfragen.",
+      "answer": "sammeln",
+      "hint_cz": "shromažďujeme"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Zufriedenheitswert",
+          "cz": "skóre spokojenosti"
+        },
+        {
+          "target": "Schwachstelle",
+          "cz": "problémové místo"
+        },
+        {
+          "target": "Kundenstimme",
+          "cz": "reference, ohlas"
+        },
+        {
+          "target": "Fallstudie",
+          "cz": "případová studie"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Diese Kundeneinblicke werden unsere nächste Kampagne prägen.",
+      "tts_text": "Diese Kundeneinblicke werden unsere nächste Kampagne prägen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir müssen die Daten ___, bevor wir entscheiden.",
+      "answer": "analysieren",
+      "hint_cz": "analyzovat"
+    }
+  ]
+}

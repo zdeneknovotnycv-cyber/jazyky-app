@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_scheduling_calendars_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Recurring appointments",
+  "title_cz": "Opakující se schůzky",
+  "vocabulary": [
+    {
+      "word": "weekly meeting",
+      "translation_cz": "týdenní schůzka",
+      "example": "Let's set up a weekly meeting every Monday.",
+      "example_cz": "Zavedeme týdenní schůzku každé pondělí.",
+      "tts_text": "Let's set up a weekly meeting every Monday."
+    },
+    {
+      "word": "it repeats every two weeks",
+      "translation_cz": "opakuje se to každé dva týdny",
+      "example": "This appointment repeats every two weeks.",
+      "example_cz": "Tato schůzka se opakuje každé dva týdny.",
+      "tts_text": "This appointment repeats every two weeks."
+    },
+    {
+      "word": "skip this occurrence",
+      "translation_cz": "vynechat tento termín",
+      "example": "Can we skip this occurrence and continue next time?",
+      "example_cz": "Můžeme vynechat tento termín a pokračovat příště?",
+      "tts_text": "Can we skip this occurrence and continue next time?"
+    },
+    {
+      "word": "set up a recurring event",
+      "translation_cz": "vytvořit opakující se událost",
+      "example": "I'll set up a recurring event in the calendar.",
+      "example_cz": "Vytvořím opakující se událost v kalendáři.",
+      "tts_text": "I'll set up a recurring event in the calendar."
+    },
+    {
+      "word": "every first Monday of the month",
+      "translation_cz": "každé první pondělí v měsíci",
+      "example": "The team meets every first Monday of the month.",
+      "example_cz": "Tým se schází každé první pondělí v měsíci.",
+      "tts_text": "The team meets every first Monday of the month."
+    },
+    {
+      "word": "until the end of the year",
+      "translation_cz": "do konce roku",
+      "example": "The recurring meeting runs until the end of the year.",
+      "example_cz": "Opakující se schůzka běží do konce roku.",
+      "tts_text": "The recurring meeting runs until the end of the year."
+    },
+    {
+      "word": "cancel the whole series",
+      "translation_cz": "zrušit celou sérii",
+      "example": "Do you want to cancel the whole series or just one meeting?",
+      "example_cz": "Chcete zrušit celou sérii, nebo jen jednu schůzku?",
+      "tts_text": "Do you want to cancel the whole series or just one meeting?"
+    },
+    {
+      "word": "same time, same place",
+      "translation_cz": "stejný čas, stejné místo",
+      "example": "It's always the same time, same place.",
+      "example_cz": "Vždy je to stejný čas, stejné místo.",
+      "tts_text": "It's always the same time, same place."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_recurring_appointments",
+      "title": "Setting up a recurring team meeting",
+      "title_cz": "Vytvoření opakující se týmové schůzky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let's set up a weekly meeting every Monday for the team.",
+          "text_cz": "Zavedeme týdenní schůzku každé pondělí pro tým."
+        },
+        {
+          "speaker": "B",
+          "text": "Good idea. I'll set up a recurring event in the calendar.",
+          "text_cz": "Dobrý nápad. Vytvořím opakující se událost v kalendáři."
+        },
+        {
+          "speaker": "A",
+          "text": "It should run until the end of the year, same time, same place.",
+          "text_cz": "Měla by běžet do konce roku, stejný čas, stejné místo."
+        },
+        {
+          "speaker": "B",
+          "text": "Understood. Should we skip this occurrence because of the holiday?",
+          "text_cz": "Rozumím. Máme vynechat tento termín kvůli svátku?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, please skip it and start again the following Monday.",
+          "text_cz": "Ano, prosím vynechte ho a začněte znovu následující pondělí."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Let's set up a weekly meeting every Monday.",
+      "options": [
+        "Zavedeme týdenní schůzku každé pondělí.",
+        "Vynechme tento termín.",
+        "Zrušte celou sérii."
+      ],
+      "correct": "Zavedeme týdenní schůzku každé pondělí."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This appointment ___ every two weeks.",
+      "answer": "repeats",
+      "hint_cz": "opakuje se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "skip this occurrence", "cz": "vynechat tento termín" },
+        { "target": "cancel the whole series", "cz": "zrušit celou sérii" },
+        { "target": "until the end of the year", "cz": "do konce roku" },
+        { "target": "same time, same place", "cz": "stejný čas, stejné místo" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'll set up a recurring event in the calendar.",
+      "tts_text": "I'll set up a recurring event in the calendar."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The team meets every first Monday of the ___.",
+      "answer": "month",
+      "hint_cz": "měsíc"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Do you want to cancel the whole series or just one meeting?",
+      "tts_text": "Do you want to cancel the whole series or just one meeting?"
+    }
+  ]
+}

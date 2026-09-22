@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_home_rooms_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The Garden",
+  "title_cz": "Zahrada",
+  "vocabulary": [
+    {
+      "word": "garden",
+      "translation_cz": "zahrada",
+      "example": "We play in the garden.",
+      "example_cz": "Hrajeme si na zahradě.",
+      "tts_text": "We play in the garden."
+    },
+    {
+      "word": "grass",
+      "translation_cz": "tráva",
+      "example": "The grass is green.",
+      "example_cz": "Tráva je zelená.",
+      "tts_text": "The grass is green."
+    },
+    {
+      "word": "flower",
+      "translation_cz": "květina",
+      "example": "I water the flowers.",
+      "example_cz": "Zalévám květiny.",
+      "tts_text": "I water the flowers."
+    },
+    {
+      "word": "tree",
+      "translation_cz": "strom",
+      "example": "There is a big tree in the garden.",
+      "example_cz": "Na zahradě je velký strom.",
+      "tts_text": "There is a big tree in the garden."
+    },
+    {
+      "word": "swing",
+      "translation_cz": "houpačka",
+      "example": "I love the swing.",
+      "example_cz": "Mám ráda houpačku.",
+      "tts_text": "I love the swing."
+    },
+    {
+      "word": "fence",
+      "translation_cz": "plot",
+      "example": "The fence is white.",
+      "example_cz": "Plot je bílý.",
+      "tts_text": "The fence is white."
+    },
+    {
+      "word": "dig",
+      "translation_cz": "kopat / hrabat",
+      "example": "I dig in the garden with a shovel.",
+      "example_cz": "Na zahradě kopu lopatkou.",
+      "tts_text": "I dig in the garden with a shovel."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "garden",
+      "options": [
+        "zahrada",
+        "tráva",
+        "plot"
+      ],
+      "correct": "zahrada"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is green.",
+      "answer": "grass",
+      "hint_cz": "tráva"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "flower",
+          "cz": "květina"
+        },
+        {
+          "target": "tree",
+          "cz": "strom"
+        },
+        {
+          "target": "swing",
+          "cz": "houpačka"
+        },
+        {
+          "target": "fence",
+          "cz": "plot"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We play in the garden.",
+      "tts_text": "We play in the garden."
+    }
+  ]
+}

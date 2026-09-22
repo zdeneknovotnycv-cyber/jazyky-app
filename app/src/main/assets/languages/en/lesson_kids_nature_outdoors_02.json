@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_nature_outdoors_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Flowers and plants",
+  "title_cz": "Květiny a rostliny",
+  "vocabulary": [
+    {
+      "word": "flower",
+      "translation_cz": "květina",
+      "example": "This flower smells so nice.",
+      "example_cz": "Tahle květina tak krásně voní.",
+      "tts_text": "This flower smells so nice."
+    },
+    {
+      "word": "plant",
+      "translation_cz": "rostlina",
+      "example": "We water the plant every day.",
+      "example_cz": "Zaléváme rostlinu každý den.",
+      "tts_text": "We water the plant every day."
+    },
+    {
+      "word": "petal",
+      "translation_cz": "okvětní lístek",
+      "example": "A yellow petal falls off.",
+      "example_cz": "Odpadává žlutý okvětní lístek.",
+      "tts_text": "A yellow petal falls off."
+    },
+    {
+      "word": "seed",
+      "translation_cz": "semínko",
+      "example": "We plant a seed in the soil.",
+      "example_cz": "Zasazujeme semínko do půdy.",
+      "tts_text": "We plant a seed in the soil."
+    },
+    {
+      "word": "grow",
+      "translation_cz": "růst",
+      "example": "The plant grows very fast.",
+      "example_cz": "Rostlina roste velmi rychle.",
+      "tts_text": "The plant grows very fast."
+    },
+    {
+      "word": "bee",
+      "translation_cz": "včela",
+      "example": "A bee lands on the flower.",
+      "example_cz": "Na květinu přistane včela.",
+      "tts_text": "A bee lands on the flower."
+    },
+    {
+      "word": "garden",
+      "translation_cz": "zahrada",
+      "example": "We grow flowers in the garden.",
+      "example_cz": "Pěstujeme květiny na zahradě.",
+      "tts_text": "We grow flowers in the garden."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "flower",
+      "options": [
+        "květina",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "květina"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We water the ___ every day.",
+      "answer": "plant",
+      "hint_cz": "rostlina"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "plant",
+          "cz": "rostlina"
+        },
+        {
+          "target": "petal",
+          "cz": "okvětní lístek"
+        },
+        {
+          "target": "seed",
+          "cz": "semínko"
+        },
+        {
+          "target": "grow",
+          "cz": "růst"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "This flower smells so nice.",
+      "tts_text": "This flower smells so nice."
+    }
+  ]
+}

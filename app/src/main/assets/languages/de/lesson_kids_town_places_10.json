@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_town_places_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Der Zoo",
+  "title_cz": "Zoo",
+  "vocabulary": [
+    {
+      "word": "der Zoo",
+      "translation_cz": "zoo",
+      "example": "Wir besuchen am Sonntag den Zoo.",
+      "example_cz": "V neděli navštívíme zoo.",
+      "tts_text": "Wir besuchen am Sonntag den Zoo."
+    },
+    {
+      "word": "der Löwe",
+      "translation_cz": "lev",
+      "example": "Der Löwe schläft in der Sonne.",
+      "example_cz": "Lev spí na slunci.",
+      "tts_text": "Der Löwe schläft in der Sonne."
+    },
+    {
+      "word": "der Elefant",
+      "translation_cz": "slon",
+      "example": "Der Elefant ist sehr groß.",
+      "example_cz": "Slon je velmi velký.",
+      "tts_text": "Der Elefant ist sehr groß."
+    },
+    {
+      "word": "der Käfig",
+      "translation_cz": "klec",
+      "example": "Der Vogel lebt in einem Käfig.",
+      "example_cz": "Pták žije v kleci.",
+      "tts_text": "Der Vogel lebt in einem Käfig."
+    },
+    {
+      "word": "füttern",
+      "translation_cz": "krmit",
+      "example": "Wir schauen zu, wie der Pfleger die Tiere füttert.",
+      "example_cz": "Sledujeme, jak ošetřovatel krmí zvířata.",
+      "tts_text": "Wir schauen zu, wie der Pfleger die Tiere füttert."
+    },
+    {
+      "word": "der Affe",
+      "translation_cz": "opice",
+      "example": "Der Affe springt von Baum zu Baum.",
+      "example_cz": "Opice skáče ze stromu na strom.",
+      "tts_text": "Der Affe springt von Baum zu Baum."
+    },
+    {
+      "word": "die Eintrittskarte",
+      "translation_cz": "vstupenka",
+      "example": "Wir kaufen eine Eintrittskarte am Eingang.",
+      "example_cz": "Kupujeme vstupenku u brány.",
+      "tts_text": "Wir kaufen eine Eintrittskarte am Eingang."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Zoo",
+      "options": [
+        "zoo",
+        "park",
+        "škola"
+      ],
+      "correct": "zoo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der ___ schläft in der Sonne.",
+      "answer": "der Löwe",
+      "hint_cz": "lev"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Löwe",
+          "cz": "lev"
+        },
+        {
+          "target": "der Elefant",
+          "cz": "slon"
+        },
+        {
+          "target": "der Käfig",
+          "cz": "klec"
+        },
+        {
+          "target": "füttern",
+          "cz": "krmit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Elefant ist sehr groß.",
+      "tts_text": "Der Elefant ist sehr groß."
+    }
+  ]
+}

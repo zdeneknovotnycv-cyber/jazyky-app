@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_numbers_colors_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Basic Colors",
+  "title_cz": "Základní barvy",
+  "vocabulary": [
+    {
+      "word": "red",
+      "translation_cz": "červená",
+      "example": "The apple is red.",
+      "example_cz": "Jablko je červené.",
+      "tts_text": "The apple is red."
+    },
+    {
+      "word": "blue",
+      "translation_cz": "modrá",
+      "example": "The sky is blue.",
+      "example_cz": "Obloha je modrá.",
+      "tts_text": "The sky is blue."
+    },
+    {
+      "word": "yellow",
+      "translation_cz": "žlutá",
+      "example": "The sun is yellow.",
+      "example_cz": "Slunce je žluté.",
+      "tts_text": "The sun is yellow."
+    },
+    {
+      "word": "green",
+      "translation_cz": "zelená",
+      "example": "The grass is green.",
+      "example_cz": "Tráva je zelená.",
+      "tts_text": "The grass is green."
+    },
+    {
+      "word": "orange",
+      "translation_cz": "oranžová",
+      "example": "The orange is orange.",
+      "example_cz": "Pomeranč je oranžový.",
+      "tts_text": "The orange is orange."
+    },
+    {
+      "word": "purple",
+      "translation_cz": "fialová",
+      "example": "My bag is purple.",
+      "example_cz": "Moje taška je fialová.",
+      "tts_text": "My bag is purple."
+    },
+    {
+      "word": "pink",
+      "translation_cz": "růžová",
+      "example": "Her dress is pink.",
+      "example_cz": "Její šaty jsou růžové.",
+      "tts_text": "Her dress is pink."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "purple",
+      "options": [
+        "fialová",
+        "zelená",
+        "oranžová"
+      ],
+      "correct": "fialová"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The apple is ___.",
+      "answer": "red",
+      "hint_cz": "červené"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "blue",
+          "cz": "modrá"
+        },
+        {
+          "target": "yellow",
+          "cz": "žlutá"
+        },
+        {
+          "target": "green",
+          "cz": "zelená"
+        },
+        {
+          "target": "pink",
+          "cz": "růžová"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The sky is blue.",
+      "tts_text": "The sky is blue."
+    }
+  ]
+}

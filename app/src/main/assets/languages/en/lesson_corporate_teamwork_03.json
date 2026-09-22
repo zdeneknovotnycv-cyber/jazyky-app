@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_teamwork_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Sharing workload",
+  "title_cz": "Sdílení pracovní zátěže",
+  "vocabulary": [
+    {
+      "word": "workload",
+      "translation_cz": "pracovní zátěž",
+      "example": "Our workload has increased this month.",
+      "example_cz": "Naše pracovní zátěž se tento měsíc zvýšila.",
+      "tts_text": "Our workload has increased this month."
+    },
+    {
+      "word": "to split the tasks",
+      "translation_cz": "rozdělit úkoly",
+      "example": "Let's split the tasks between us.",
+      "example_cz": "Pojďme si rozdělit úkoly mezi sebou.",
+      "tts_text": "Let's split the tasks between us."
+    },
+    {
+      "word": "fair share",
+      "translation_cz": "spravedlivý podíl",
+      "example": "Everyone should do their fair share.",
+      "example_cz": "Každý by měl udělat svůj spravedlivý podíl.",
+      "tts_text": "Everyone should do their fair share."
+    },
+    {
+      "word": "overloaded",
+      "translation_cz": "přetížený",
+      "example": "I feel a bit overloaded this week.",
+      "example_cz": "Tento týden se cítím trochu přetížený.",
+      "tts_text": "I feel a bit overloaded this week."
+    },
+    {
+      "word": "to balance the work",
+      "translation_cz": "vyvážit práci",
+      "example": "We need to balance the work more evenly.",
+      "example_cz": "Musíme práci vyvážit rovnoměrněji.",
+      "tts_text": "We need to balance the work more evenly."
+    },
+    {
+      "word": "take some off my plate",
+      "translation_cz": "odlehčit mi",
+      "example": "Could you take some tasks off my plate?",
+      "example_cz": "Mohl bys mi odlehčit od pár úkolů?",
+      "tts_text": "Could you take some tasks off my plate?"
+    },
+    {
+      "word": "to redistribute",
+      "translation_cz": "přerozdělit",
+      "example": "Let's redistribute the tasks fairly.",
+      "example_cz": "Pojďme spravedlivě přerozdělit úkoly.",
+      "tts_text": "Let's redistribute the tasks fairly."
+    },
+    {
+      "word": "manageable",
+      "translation_cz": "zvladatelný",
+      "example": "This way, the workload is manageable.",
+      "example_cz": "Takhle je ta pracovní zátěž zvladatelná.",
+      "tts_text": "This way, the workload is manageable."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_sharing_workload",
+      "title": "Sharing the team's workload",
+      "title_cz": "Sdílení pracovní zátěže v týmu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I feel a bit overloaded this week, to be honest.",
+          "text_cz": "Upřímně, tento týden se cítím trochu přetížený."
+        },
+        {
+          "speaker": "B",
+          "text": "I noticed. Let's split the tasks between us.",
+          "text_cz": "Všiml jsem si. Pojďme si rozdělit úkoly mezi sebou."
+        },
+        {
+          "speaker": "A",
+          "text": "That would help a lot. Could you take some tasks off my plate?",
+          "text_cz": "To by hodně pomohlo. Mohl bys mi odlehčit od pár úkolů?"
+        },
+        {
+          "speaker": "B",
+          "text": "Of course. Let's redistribute the tasks so it's manageable for everyone.",
+          "text_cz": "Jasně. Pojďme úkoly přerozdělit, aby to bylo zvladatelné pro všechny."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "overloaded",
+      "options": [
+        "přetížený",
+        "zvladatelný",
+        "spravedlivý podíl"
+      ],
+      "correct": "přetížený"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's ___ the tasks between us.",
+      "answer": "split",
+      "hint_cz": "rozdělit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "workload",
+          "cz": "pracovní zátěž"
+        },
+        {
+          "target": "fair share",
+          "cz": "spravedlivý podíl"
+        },
+        {
+          "target": "to redistribute",
+          "cz": "přerozdělit"
+        },
+        {
+          "target": "manageable",
+          "cz": "zvladatelný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Could you take some tasks off my plate?",
+      "tts_text": "Could you take some tasks off my plate?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We need to ___ the work more evenly.",
+      "answer": "balance",
+      "hint_cz": "vyvážit"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_legal_contracts_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Non-disclosure agreement basics",
+  "title_cz": "Základy dohody o mlčenlivosti",
+  "vocabulary": [
+    {
+      "word": "confidential information",
+      "translation_cz": "důvěrné informace",
+      "example": "Please protect all confidential information.",
+      "example_cz": "Prosím chraňte veškeré důvěrné informace.",
+      "tts_text": "Please protect all confidential information."
+    },
+    {
+      "word": "non-disclosure agreement (NDA)",
+      "translation_cz": "dohoda o mlčenlivosti",
+      "example": "We need to sign an NDA first.",
+      "example_cz": "Nejdřív musíme podepsat dohodu o mlčenlivosti.",
+      "tts_text": "We need to sign an NDA first."
+    },
+    {
+      "word": "disclose",
+      "translation_cz": "zveřejnit / sdělit",
+      "example": "Do not disclose this to third parties.",
+      "example_cz": "Nesdělujte to třetím stranám.",
+      "tts_text": "Do not disclose this to third parties."
+    },
+    {
+      "word": "trade secret",
+      "translation_cz": "obchodní tajemství",
+      "example": "This formula is a trade secret.",
+      "example_cz": "Tento vzorec je obchodní tajemství.",
+      "tts_text": "This formula is a trade secret."
+    },
+    {
+      "word": "third party",
+      "translation_cz": "třetí strana",
+      "example": "The information cannot be shared with any third party.",
+      "example_cz": "Informace nesmí být sdíleny s žádnou třetí stranou.",
+      "tts_text": "The information cannot be shared with any third party."
+    },
+    {
+      "word": "breach of confidentiality",
+      "translation_cz": "porušení mlčenlivosti",
+      "example": "That would be a breach of confidentiality.",
+      "example_cz": "To by bylo porušení mlčenlivosti.",
+      "tts_text": "That would be a breach of confidentiality."
+    },
+    {
+      "word": "duration of the agreement",
+      "translation_cz": "doba trvání dohody",
+      "example": "What is the duration of the agreement?",
+      "example_cz": "Jaká je doba trvání dohody?",
+      "tts_text": "What is the duration of the agreement?"
+    },
+    {
+      "word": "sign under NDA",
+      "translation_cz": "podepsat pod dohodou o mlčenlivosti",
+      "example": "We signed under NDA before the meeting.",
+      "example_cz": "Podepsali jsme dohodu o mlčenlivosti před schůzkou.",
+      "tts_text": "We signed under NDA before the meeting."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_02",
+      "title": "Signing an NDA",
+      "title_cz": "Podpis dohody o mlčenlivosti",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Before we start, we need to sign an NDA.",
+          "text_cz": "Než začneme, musíme podepsat dohodu o mlčenlivosti."
+        },
+        {
+          "speaker": "B",
+          "text": "No problem. What confidential information is covered?",
+          "text_cz": "Žádný problém. Jaké důvěrné informace jsou zahrnuty?"
+        },
+        {
+          "speaker": "A",
+          "text": "All technical details and trade secrets discussed today.",
+          "text_cz": "Všechny technické detaily a obchodní tajemství probíraná dnes."
+        },
+        {
+          "speaker": "B",
+          "text": "Understood. I won't disclose anything to a third party.",
+          "text_cz": "Rozumím. Nic nesdělím žádné třetí straně."
+        },
+        {
+          "speaker": "A",
+          "text": "Good. What's the duration of the agreement?",
+          "text_cz": "Dobře. Jaká je doba trvání dohody?"
+        },
+        {
+          "speaker": "B",
+          "text": "Two years after signing, I believe.",
+          "text_cz": "Myslím, že dva roky od podpisu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "confidential information",
+      "options": [
+        "důvěrné informace",
+        "dohoda o mlčenlivosti",
+        "zveřejnit / sdělit"
+      ],
+      "correct": "důvěrné informace"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This formula is a ___.",
+      "answer": "trade secret",
+      "hint_cz": "obchodní tajemství"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "confidential information",
+          "cz": "důvěrné informace"
+        },
+        {
+          "target": "non-disclosure agreement (NDA)",
+          "cz": "dohoda o mlčenlivosti"
+        },
+        {
+          "target": "disclose",
+          "cz": "zveřejnit / sdělit"
+        },
+        {
+          "target": "trade secret",
+          "cz": "obchodní tajemství"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The information cannot be shared with any third party.",
+      "tts_text": "The information cannot be shared with any third party."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "That would be a ___.",
+      "answer": "breach of confidentiality",
+      "hint_cz": "porušení mlčenlivosti"
+    }
+  ]
+}

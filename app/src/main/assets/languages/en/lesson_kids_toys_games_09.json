@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_toys_games_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Birthday Presents",
+  "title_cz": "Narozeninové dárky",
+  "vocabulary": [
+    {
+      "word": "present",
+      "translation_cz": "dárek",
+      "example": "I got a nice present.",
+      "example_cz": "Dostal jsem hezký dárek.",
+      "tts_text": "I got a nice present."
+    },
+    {
+      "word": "wrap",
+      "translation_cz": "zabalit",
+      "example": "Mom wraps the present.",
+      "example_cz": "Máma balí dárek.",
+      "tts_text": "Mom wraps the present."
+    },
+    {
+      "word": "open",
+      "translation_cz": "otevřít",
+      "example": "Can I open my present now?",
+      "example_cz": "Můžu si teď otevřít dárek?",
+      "tts_text": "Can I open my present now?"
+    },
+    {
+      "word": "surprise",
+      "translation_cz": "překvapení",
+      "example": "It's a big surprise!",
+      "example_cz": "To je velké překvapení!",
+      "tts_text": "It's a big surprise!"
+    },
+    {
+      "word": "Thank you!",
+      "translation_cz": "Děkuji!",
+      "example": "Thank you for the present!",
+      "example_cz": "Děkuji za dárek!",
+      "tts_text": "Thank you for the present!"
+    },
+    {
+      "word": "ribbon",
+      "translation_cz": "stuha",
+      "example": "The ribbon is pink.",
+      "example_cz": "Stuha je růžová.",
+      "tts_text": "The ribbon is pink."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "present",
+      "options": [
+        "dárek",
+        "překvapení",
+        "stuha"
+      ],
+      "correct": "dárek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can I ___ my present now?",
+      "answer": "open",
+      "hint_cz": "otevřít"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "wrap",
+          "cz": "zabalit"
+        },
+        {
+          "target": "surprise",
+          "cz": "překvapení"
+        },
+        {
+          "target": "Thank you!",
+          "cz": "Děkuji!"
+        },
+        {
+          "target": "ribbon",
+          "cz": "stuha"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Thank you for the present!",
+      "tts_text": "Thank you for the present!"
+    }
+  ]
+}

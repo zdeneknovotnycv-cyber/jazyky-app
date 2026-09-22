@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_toys_games_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Spiele Draußen",
+  "title_cz": "Hry venku",
+  "vocabulary": [
+    {
+      "word": "Verstecken",
+      "translation_cz": "schovávaná",
+      "example": "Lass uns Verstecken spielen.",
+      "example_cz": "Pojďme si hrát na schovávanou.",
+      "tts_text": "Lass uns Verstecken spielen."
+    },
+    {
+      "word": "Fangen",
+      "translation_cz": "honička",
+      "example": "Wir spielen Fangen im Park.",
+      "example_cz": "Hrajeme honičku v parku.",
+      "tts_text": "Wir spielen Fangen im Park."
+    },
+    {
+      "word": "das Seilspringen",
+      "translation_cz": "skákací guma / švihadlo",
+      "example": "Ich springe gern Seil.",
+      "example_cz": "Ráda skáču přes švihadlo.",
+      "tts_text": "Ich springe gern Seil."
+    },
+    {
+      "word": "die Schaukel",
+      "translation_cz": "houpačka",
+      "example": "Ich liebe die Schaukel.",
+      "example_cz": "Mám ráda houpačku.",
+      "tts_text": "Ich liebe die Schaukel."
+    },
+    {
+      "word": "die Rutsche",
+      "translation_cz": "skluzavka",
+      "example": "Die Rutsche ist schnell.",
+      "example_cz": "Skluzavka je rychlá.",
+      "tts_text": "Die Rutsche ist schnell."
+    },
+    {
+      "word": "rennen",
+      "translation_cz": "běhat",
+      "example": "Wir rennen und spielen draußen.",
+      "example_cz": "Venku běháme a hrajeme si.",
+      "tts_text": "Wir rennen und spielen draußen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Fangen",
+      "options": [
+        "honička",
+        "schovávaná",
+        "houpačka"
+      ],
+      "correct": "honička"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lass uns ___ spielen.",
+      "answer": "Verstecken",
+      "hint_cz": "schovávanou"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Seilspringen",
+          "cz": "skákací guma / švihadlo"
+        },
+        {
+          "target": "die Schaukel",
+          "cz": "houpačka"
+        },
+        {
+          "target": "die Rutsche",
+          "cz": "skluzavka"
+        },
+        {
+          "target": "rennen",
+          "cz": "běhat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lass uns Verstecken spielen.",
+      "tts_text": "Lass uns Verstecken spielen."
+    }
+  ]
+}

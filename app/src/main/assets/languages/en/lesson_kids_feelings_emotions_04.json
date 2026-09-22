@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_feelings_emotions_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Excited",
+  "title_cz": "Nadšený",
+  "vocabulary": [
+    {
+      "word": "excited",
+      "translation_cz": "nadšený",
+      "example": "I am so excited for my birthday!",
+      "example_cz": "Jsem tak nadšený z narozenin!",
+      "tts_text": "I am so excited for my birthday!"
+    },
+    {
+      "word": "can't wait",
+      "translation_cz": "nemoct se dočkat",
+      "example": "I can't wait for the trip.",
+      "example_cz": "Nemůžu se dočkat výletu.",
+      "tts_text": "I can't wait for the trip."
+    },
+    {
+      "word": "jump for joy",
+      "translation_cz": "skákat radostí",
+      "example": "I jump for joy when I hear the news.",
+      "example_cz": "Skáču radostí, když slyším tu zprávu.",
+      "tts_text": "I jump for joy when I hear the news."
+    },
+    {
+      "word": "surprise party",
+      "translation_cz": "překvapivá oslava",
+      "example": "We planned a surprise party.",
+      "example_cz": "Naplánovali jsme překvapivou oslavu.",
+      "tts_text": "We planned a surprise party."
+    },
+    {
+      "word": "thrilled",
+      "translation_cz": "nadšený (velmi)",
+      "example": "She is thrilled about the new puppy.",
+      "example_cz": "Je nadšená z nového štěněte.",
+      "tts_text": "She is thrilled about the new puppy."
+    },
+    {
+      "word": "energy",
+      "translation_cz": "energie",
+      "example": "I have so much energy today.",
+      "example_cz": "Dnes mám tolik energie.",
+      "tts_text": "I have so much energy today."
+    },
+    {
+      "word": "fun",
+      "translation_cz": "zábava",
+      "example": "This is going to be so much fun!",
+      "example_cz": "To bude taková zábava!",
+      "tts_text": "This is going to be so much fun!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "excited",
+      "options": [
+        "nadšený",
+        "smutný",
+        "radost"
+      ],
+      "correct": "nadšený"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am so ___ for my birthday!",
+      "answer": "excited",
+      "hint_cz": "nadšený"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "can't wait",
+          "cz": "nemoct se dočkat"
+        },
+        {
+          "target": "jump for joy",
+          "cz": "skákat radostí"
+        },
+        {
+          "target": "surprise party",
+          "cz": "překvapivá oslava"
+        },
+        {
+          "target": "thrilled",
+          "cz": "nadšený (velmi)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I can't wait for the trip.",
+      "tts_text": "I can't wait for the trip."
+    }
+  ]
+}

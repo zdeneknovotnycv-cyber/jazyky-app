@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_nature_outdoors_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "A walk in nature",
+  "title_cz": "Procházka v přírodě",
+  "vocabulary": [
+    {
+      "word": "walk",
+      "translation_cz": "procházka",
+      "example": "We go for a walk in nature.",
+      "example_cz": "Jdeme na procházku do přírody.",
+      "tts_text": "We go for a walk in nature."
+    },
+    {
+      "word": "nature",
+      "translation_cz": "příroda",
+      "example": "I love spending time in nature.",
+      "example_cz": "Rád trávím čas v přírodě.",
+      "tts_text": "I love spending time in nature."
+    },
+    {
+      "word": "fresh air",
+      "translation_cz": "čerstvý vzduch",
+      "example": "The fresh air feels great.",
+      "example_cz": "Čerstvý vzduch je příjemný.",
+      "tts_text": "The fresh air feels great."
+    },
+    {
+      "word": "footprint",
+      "translation_cz": "stopa",
+      "example": "We find a footprint in the mud.",
+      "example_cz": "Najdeme stopu v bahně.",
+      "tts_text": "We find a footprint in the mud."
+    },
+    {
+      "word": "listen",
+      "translation_cz": "poslouchat",
+      "example": "We listen to the birds sing.",
+      "example_cz": "Posloucháme zpěv ptáků.",
+      "tts_text": "We listen to the birds sing."
+    },
+    {
+      "word": "collect",
+      "translation_cz": "sbírat",
+      "example": "I collect pretty stones.",
+      "example_cz": "Sbírám hezké kamínky.",
+      "tts_text": "I collect pretty stones."
+    },
+    {
+      "word": "quiet",
+      "translation_cz": "klidný",
+      "example": "It is quiet and peaceful here.",
+      "example_cz": "Tady je klid a pohoda.",
+      "tts_text": "It is quiet and peaceful here."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "walk",
+      "options": [
+        "procházka",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "procházka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We go for a ___ in nature.",
+      "answer": "walk",
+      "hint_cz": "procházka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "nature",
+          "cz": "příroda"
+        },
+        {
+          "target": "fresh air",
+          "cz": "čerstvý vzduch"
+        },
+        {
+          "target": "footprint",
+          "cz": "stopa"
+        },
+        {
+          "target": "listen",
+          "cz": "poslouchat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I love spending time in nature.",
+      "tts_text": "I love spending time in nature."
+    }
+  ]
+}

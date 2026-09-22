@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_teamwork_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Team introduction for new members",
+  "title_cz": "Představení týmu novým členům",
+  "vocabulary": [
+    {
+      "word": "Welcome to the team!",
+      "translation_cz": "Vítej v týmu!",
+      "example": "Welcome to the team, we're happy to have you.",
+      "example_cz": "Vítej v týmu, jsme rádi, že tu jsi.",
+      "tts_text": "Welcome to the team, we're happy to have you."
+    },
+    {
+      "word": "to introduce yourself",
+      "translation_cz": "představit se",
+      "example": "Would you like to introduce yourself?",
+      "example_cz": "Chtěl bys se představit?",
+      "tts_text": "Would you like to introduce yourself?"
+    },
+    {
+      "word": "role",
+      "translation_cz": "role / pozice",
+      "example": "What is your role in the team?",
+      "example_cz": "Jaká je tvoje role v týmu?",
+      "tts_text": "What is your role in the team?"
+    },
+    {
+      "word": "onboarding",
+      "translation_cz": "zaškolení",
+      "example": "Your onboarding starts on Monday.",
+      "example_cz": "Tvoje zaškolení začíná v pondělí.",
+      "tts_text": "Your onboarding starts on Monday."
+    },
+    {
+      "word": "to feel at home",
+      "translation_cz": "cítit se jako doma",
+      "example": "We hope you'll feel at home here soon.",
+      "example_cz": "Doufáme, že se tu brzy budeš cítit jako doma.",
+      "tts_text": "We hope you'll feel at home here soon."
+    },
+    {
+      "word": "to reach out",
+      "translation_cz": "ozvat se",
+      "example": "Feel free to reach out if you need anything.",
+      "example_cz": "Klidně se ozvi, pokud budeš něco potřebovat.",
+      "tts_text": "Feel free to reach out if you need anything."
+    },
+    {
+      "word": "team member",
+      "translation_cz": "člen týmu",
+      "example": "Meet Petr, our newest team member.",
+      "example_cz": "Seznamte se s Petrem, naším nejnovějším členem týmu.",
+      "tts_text": "Meet Petr, our newest team member."
+    },
+    {
+      "word": "to get settled in",
+      "translation_cz": "zabydlet se",
+      "example": "It takes a few weeks to get settled in.",
+      "example_cz": "Trvá pár týdnů, než se člověk zabydlí.",
+      "tts_text": "It takes a few weeks to get settled in."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_team_introduction",
+      "title": "Introducing a new team member",
+      "title_cz": "Představení nového člena týmu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Everyone, meet Petr, our newest team member. Welcome to the team!",
+          "text_cz": "Všichni, seznamte se s Petrem, naším nejnovějším členem týmu. Vítej v týmu!"
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you! I'm happy to be here. Would you like me to introduce myself?",
+          "text_cz": "Děkuji! Jsem rád, že tu můžu být. Chtěli byste, abych se představil?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, please. What was your role at your previous company?",
+          "text_cz": "Ano, prosím. Jaká byla tvoje role v předchozí firmě?"
+        },
+        {
+          "speaker": "B",
+          "text": "I worked as a project coordinator. I'm looking forward to getting settled in.",
+          "text_cz": "Pracoval jsem jako koordinátor projektů. Těším se, až se tu zabydlím."
+        },
+        {
+          "speaker": "A",
+          "text": "Great. Your onboarding starts today, and feel free to reach out if you need anything.",
+          "text_cz": "Skvěle. Tvoje zaškolení začíná dnes, a klidně se ozvi, kdybys něco potřeboval."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "onboarding",
+      "options": [
+        "zaškolení",
+        "role",
+        "zabydlet se"
+      ],
+      "correct": "zaškolení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Would you like to ___ yourself?",
+      "answer": "introduce",
+      "hint_cz": "představit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "team member",
+          "cz": "člen týmu"
+        },
+        {
+          "target": "to reach out",
+          "cz": "ozvat se"
+        },
+        {
+          "target": "to feel at home",
+          "cz": "cítit se jako doma"
+        },
+        {
+          "target": "role",
+          "cz": "role"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Welcome to the team!",
+      "tts_text": "Welcome to the team!"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "It takes a few weeks to get ___ in.",
+      "answer": "settled",
+      "hint_cz": "zabydlet se"
+    }
+  ]
+}

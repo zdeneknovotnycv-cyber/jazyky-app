@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_legal_contracts_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über einen Termin im Vertrag sprechen",
+  "title_cz": "Termín ve smlouvě",
+  "vocabulary": [
+    {
+      "word": "das Lieferdatum",
+      "translation_cz": "termín dodání",
+      "example": "Das Lieferdatum steht in Abschnitt drei.",
+      "example_cz": "Termín dodání je uveden v části tři.",
+      "tts_text": "Das Lieferdatum steht in Abschnitt drei."
+    },
+    {
+      "word": "die Fristverlängerung",
+      "translation_cz": "prodloužení",
+      "example": "Können wir eine Fristverlängerung beantragen?",
+      "example_cz": "Můžeme požádat o prodloužení?",
+      "tts_text": "Können wir eine Fristverlängerung beantragen?"
+    },
+    {
+      "word": "die Vertragsstrafe",
+      "translation_cz": "sankční doložka",
+      "example": "Es gibt eine Vertragsstrafe für verspätete Lieferung.",
+      "example_cz": "Existuje sankční doložka za pozdní dodání.",
+      "tts_text": "Es gibt eine Vertragsstrafe für verspätete Lieferung."
+    },
+    {
+      "word": "die Frist einhalten",
+      "translation_cz": "dodržet termín",
+      "example": "Wir werden die Frist einhalten.",
+      "example_cz": "Termín dodržíme.",
+      "tts_text": "Wir werden die Frist einhalten."
+    },
+    {
+      "word": "die Nachfrist",
+      "translation_cz": "dodatečná lhůta",
+      "example": "Gibt es eine Nachfrist?",
+      "example_cz": "Existuje dodatečná lhůta?",
+      "tts_text": "Gibt es eine Nachfrist?"
+    },
+    {
+      "word": "gegen den Vertrag verstoßen",
+      "translation_cz": "v porušení smlouvy",
+      "example": "Eine verspätete Lieferung würde gegen den Vertrag verstoßen.",
+      "example_cz": "Pozdní dodání by znamenalo porušení smlouvy.",
+      "tts_text": "Eine verspätete Lieferung würde gegen den Vertrag verstoßen."
+    },
+    {
+      "word": "der vereinbarte Zeitplan",
+      "translation_cz": "dohodnutý harmonogram",
+      "example": "Halten wir uns an den vereinbarten Zeitplan.",
+      "example_cz": "Držme se dohodnutého harmonogramu.",
+      "tts_text": "Halten wir uns an den vereinbarten Zeitplan."
+    },
+    {
+      "word": "im Voraus informieren",
+      "translation_cz": "informovat předem",
+      "example": "Bitte informieren Sie uns im Voraus über jede Verzögerung.",
+      "example_cz": "Prosím informujte nás předem o jakémkoli zpoždění.",
+      "tts_text": "Bitte informieren Sie uns im Voraus über jede Verzögerung."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_06",
+      "title": "Ein Termin im Vertrag",
+      "title_cz": "Termín ve smlouvě",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Das Lieferdatum im Vertrag ist nächsten Montag. Können wir die Frist einhalten?",
+          "text_cz": "Termín dodání ve smlouvě je příští pondělí. Dokážeme ho dodržet?"
+        },
+        {
+          "speaker": "B",
+          "text": "Das wird knapp. Gibt es eine Nachfrist?",
+          "text_cz": "Bude to napjaté. Existuje dodatečná lhůta?"
+        },
+        {
+          "speaker": "A",
+          "text": "Eine kurze, aber eine verspätete Lieferung könnte gegen den Vertrag verstoßen.",
+          "text_cz": "Krátká, ale pozdní dodání by mohlo znamenat porušení smlouvy."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden. Gibt es eine Vertragsstrafe?",
+          "text_cz": "Rozumím. Existuje sankční doložka?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, also informieren Sie uns bitte im Voraus, falls es ein Problem gibt.",
+          "text_cz": "Ano, takže nás prosím předem informujte, pokud nastane problém."
+        },
+        {
+          "speaker": "B",
+          "text": "Wir halten uns an den vereinbarten Zeitplan.",
+          "text_cz": "Budeme se držet dohodnutého harmonogramu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Lieferdatum",
+      "options": [
+        "termín dodání",
+        "prodloužení",
+        "sankční doložka"
+      ],
+      "correct": "termín dodání"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir werden ___.",
+      "answer": "die Frist einhalten",
+      "hint_cz": "dodržet termín"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Lieferdatum",
+          "cz": "termín dodání"
+        },
+        {
+          "target": "die Fristverlängerung",
+          "cz": "prodloužení"
+        },
+        {
+          "target": "die Vertragsstrafe",
+          "cz": "sankční doložka"
+        },
+        {
+          "target": "die Frist einhalten",
+          "cz": "dodržet termín"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Gibt es eine Nachfrist?",
+      "tts_text": "Gibt es eine Nachfrist?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Eine verspätete Lieferung würde ___.",
+      "answer": "gegen den Vertrag verstoßen",
+      "hint_cz": "v porušení smlouvy"
+    }
+  ]
+}

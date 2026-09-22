@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_time_days_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Morgen, Nachmittag, Abend",
+  "title_cz": "Ráno, odpoledne, večer",
+  "vocabulary": [
+    {
+      "word": "der Morgen",
+      "translation_cz": "ráno",
+      "example": "Am Morgen frühstücke ich.",
+      "example_cz": "Ráno snídám.",
+      "tts_text": "Am Morgen frühstücke ich."
+    },
+    {
+      "word": "der Nachmittag",
+      "translation_cz": "odpoledne",
+      "example": "Am Nachmittag spielen wir draußen.",
+      "example_cz": "Odpoledne si hrajeme venku.",
+      "tts_text": "Am Nachmittag spielen wir draußen."
+    },
+    {
+      "word": "der Abend",
+      "translation_cz": "večer",
+      "example": "Am Abend schauen wir fern.",
+      "example_cz": "Večer se díváme na televizi.",
+      "tts_text": "Am Abend schauen wir fern."
+    },
+    {
+      "word": "die Nacht",
+      "translation_cz": "noc",
+      "example": "In der Nacht schlafe ich.",
+      "example_cz": "V noci spím.",
+      "tts_text": "In der Nacht schlafe ich."
+    },
+    {
+      "word": "Guten Morgen!",
+      "translation_cz": "Dobré ráno!",
+      "example": "Guten Morgen, Mama!",
+      "example_cz": "Dobré ráno, mami!",
+      "tts_text": "Guten Morgen, Mama!"
+    },
+    {
+      "word": "Gute Nacht!",
+      "translation_cz": "Dobrou noc!",
+      "example": "Gute Nacht, schlaf gut!",
+      "example_cz": "Dobrou noc, hezky se vyspi!",
+      "tts_text": "Gute Nacht, schlaf gut!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Abend",
+      "options": [
+        "večer",
+        "ráno",
+        "noc"
+      ],
+      "correct": "večer"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Am ___ frühstücke ich.",
+      "answer": "Morgen",
+      "hint_cz": "ráno"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Nachmittag",
+          "cz": "odpoledne"
+        },
+        {
+          "target": "die Nacht",
+          "cz": "noc"
+        },
+        {
+          "target": "Guten Morgen!",
+          "cz": "Dobré ráno!"
+        },
+        {
+          "target": "Gute Nacht!",
+          "cz": "Dobrou noc!"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Am Abend schauen wir fern.",
+      "tts_text": "Am Abend schauen wir fern."
+    }
+  ]
+}

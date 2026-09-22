@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_email_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Auf eine E-Mail antworten",
+  "title_cz": "Odpovídání na e-mail",
+  "vocabulary": [
+    {
+      "word": "vielen Dank für Ihre E-Mail",
+      "translation_cz": "děkuji za váš e-mail",
+      "example": "Vielen Dank für Ihre E-Mail von gestern.",
+      "example_cz": "Děkuji za váš včerejší e-mail.",
+      "tts_text": "Vielen Dank für Ihre E-Mail von gestern."
+    },
+    {
+      "word": "als Antwort auf",
+      "translation_cz": "v reakci na",
+      "example": "Als Antwort auf Ihre Frage, ja, wir können helfen.",
+      "example_cz": "V reakci na váš dotaz, ano, můžeme pomoci.",
+      "tts_text": "Als Antwort auf Ihre Frage, ja, wir können helfen."
+    },
+    {
+      "word": "wie gewünscht",
+      "translation_cz": "jak jste žádal/a",
+      "example": "Wie gewünscht, habe ich die Datei angehängt.",
+      "example_cz": "Jak jste žádal, přiložil jsem soubor.",
+      "tts_text": "Wie gewünscht, habe ich die Datei angehängt."
+    },
+    {
+      "word": "Ihre Frage beantworten",
+      "translation_cz": "odpovědět na váš dotaz",
+      "example": "Lassen Sie mich Ihre Frage direkt beantworten.",
+      "example_cz": "Dovolte mi přímo odpovědět na váš dotaz.",
+      "tts_text": "Lassen Sie mich Ihre Frage direkt beantworten."
+    },
+    {
+      "word": "sich wieder melden",
+      "translation_cz": "ozvat se vám",
+      "example": "Ich melde mich bis Freitag wieder bei Ihnen.",
+      "example_cz": "Ozvu se vám do pátku.",
+      "tts_text": "Ich melde mich bis Freitag wieder bei Ihnen."
+    },
+    {
+      "word": "weitere Informationen",
+      "translation_cz": "další informace",
+      "example": "Bitte lassen Sie mich wissen, falls Sie weitere Informationen benötigen.",
+      "example_cz": "Dejte mi vědět, pokud potřebujete další informace.",
+      "tts_text": "Bitte lassen Sie mich wissen, falls Sie weitere Informationen benötigen."
+    },
+    {
+      "word": "umgehend",
+      "translation_cz": "neprodleně",
+      "example": "Ich antworte umgehend.",
+      "example_cz": "Odpovím neprodleně.",
+      "tts_text": "Ich antworte umgehend."
+    },
+    {
+      "word": "Ihre Geduld schätzen",
+      "translation_cz": "vážím si vaší trpělivosti",
+      "example": "Ich schätze Ihre Geduld in dieser Angelegenheit.",
+      "example_cz": "Vážím si vaší trpělivosti v této záležitosti.",
+      "tts_text": "Ich schätze Ihre Geduld in dieser Angelegenheit."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_reply_email",
+      "title": "Antwort mit den angeforderten Informationen",
+      "title_cz": "Odpověď s požadovanými informacemi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Vielen Dank für Ihre E-Mail. Wie gewünscht, habe ich die aktualisierte Datei angehängt.",
+          "text_cz": "Děkuji za váš e-mail. Jak jste žádal, přiložil jsem aktualizovaný soubor."
+        },
+        {
+          "speaker": "A",
+          "text": "Als Antwort auf Ihre Frage, der Preis beinhaltet den Versand.",
+          "text_cz": "V reakci na váš dotaz, cena zahrnuje dopravu."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke, das beantwortet meine Frage. Brauchen Sie noch etwas von mir?",
+          "text_cz": "Díky, to zodpovídá mou otázku. Potřebujete ode mě ještě něco?"
+        },
+        {
+          "speaker": "A",
+          "text": "Nein, das ist erst einmal alles. Ich schätze Ihre Geduld.",
+          "text_cz": "Ne, to je pro teď všechno. Vážím si vaší trpělivosti."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "wie gewünscht",
+      "options": [
+        "jak jste žádal",
+        "neprodleně",
+        "další informace"
+      ],
+      "correct": "jak jste žádal"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich melde mich bis Freitag wieder bei ___.",
+      "answer": "Ihnen",
+      "hint_cz": "ozvu se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "umgehend",
+          "cz": "neprodleně"
+        },
+        {
+          "target": "weitere Informationen",
+          "cz": "další informace"
+        },
+        {
+          "target": "als Antwort auf",
+          "cz": "v reakci na"
+        },
+        {
+          "target": "Ihre Geduld schätzen",
+          "cz": "vážím si vaší trpělivosti"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Vielen Dank für Ihre E-Mail von gestern.",
+      "tts_text": "Vielen Dank für Ihre E-Mail von gestern."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lassen Sie mich Ihre Frage direkt ___.",
+      "answer": "beantworten",
+      "hint_cz": "odpovědět"
+    }
+  ]
+}

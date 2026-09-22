@@ -1,0 +1,167 @@
+{
+  "id": "en_adult_corporate_project_management_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Project Deadlines",
+  "title_cz": "Termíny projektu",
+  "vocabulary": [
+    {
+      "word": "deadline",
+      "translation_cz": "termín",
+      "example": "We can't miss this deadline.",
+      "example_cz": "Tento termín nesmíme zmeškat.",
+      "tts_text": "We can't miss this deadline."
+    },
+    {
+      "word": "extension",
+      "translation_cz": "prodloužení",
+      "example": "Can we request an extension?",
+      "example_cz": "Můžeme požádat o prodloužení?",
+      "tts_text": "Can we request an extension?"
+    },
+    {
+      "word": "on schedule",
+      "translation_cz": "podle plánu",
+      "example": "The project is still on schedule.",
+      "example_cz": "Projekt stále běží podle plánu.",
+      "tts_text": "The project is still on schedule."
+    },
+    {
+      "word": "behind schedule",
+      "translation_cz": "opožděný",
+      "example": "Unfortunately, we are behind schedule.",
+      "example_cz": "Bohužel jsme oproti plánu pozadu.",
+      "tts_text": "Unfortunately, we are behind schedule."
+    },
+    {
+      "word": "delay",
+      "translation_cz": "zpoždění",
+      "example": "The delay was caused by a supplier issue.",
+      "example_cz": "Zpoždění bylo způsobeno problémem s dodavatelem.",
+      "tts_text": "The delay was caused by a supplier issue."
+    },
+    {
+      "word": "final deadline",
+      "translation_cz": "konečný termín",
+      "example": "The final deadline cannot be moved.",
+      "example_cz": "Konečný termín nelze posunout.",
+      "tts_text": "The final deadline cannot be moved."
+    },
+    {
+      "word": "buffer time",
+      "translation_cz": "časová rezerva",
+      "example": "We should add some buffer time.",
+      "example_cz": "Měli bychom přidat nějakou časovou rezervu.",
+      "tts_text": "We should add some buffer time."
+    },
+    {
+      "word": "submit",
+      "translation_cz": "odevzdat",
+      "example": "Please submit the report before the deadline.",
+      "example_cz": "Odevzdejte prosím zprávu před termínem.",
+      "tts_text": "Please submit the report before the deadline."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_deadline_risk",
+      "title": "Discussing a delayed deadline",
+      "title_cz": "Diskuze o opožděném termínu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm afraid we are behind schedule on this task.",
+          "text_cz": "Obávám se, že jsme u tohoto úkolu pozadu za plánem."
+        },
+        {
+          "speaker": "B",
+          "text": "What caused the delay?",
+          "text_cz": "Co způsobilo to zpoždění?"
+        },
+        {
+          "speaker": "A",
+          "text": "A supplier issue. Can we request an extension?",
+          "text_cz": "Problém s dodavatelem. Můžeme požádat o prodloužení?"
+        },
+        {
+          "speaker": "B",
+          "text": "I'll ask the client, but the final deadline is hard to move.",
+          "text_cz": "Zeptám se klienta, ale konečný termín se posouvá těžko."
+        }
+      ]
+    },
+    {
+      "id": "conv_deadline_buffer",
+      "title": "Planning buffer time",
+      "title_cz": "Plánování časové rezervy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "We should add some buffer time to the plan.",
+          "text_cz": "Měli bychom do plánu přidat nějakou časovou rezervu."
+        },
+        {
+          "speaker": "B",
+          "text": "Good idea, so we submit before the deadline, not on the last day.",
+          "text_cz": "Dobrý nápad, ať odevzdáme před termínem, ne na poslední chvíli."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "deadline",
+      "options": [
+        "termín",
+        "podle plánu",
+        "opožděný"
+      ],
+      "correct": "termín"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can we request an ___?",
+      "answer": "extension",
+      "hint_cz": "prodloužení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ was caused by a supplier issue.",
+      "answer": "delay",
+      "hint_cz": "zpoždění"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "final deadline",
+          "cz": "konečný termín"
+        },
+        {
+          "target": "buffer time",
+          "cz": "časová rezerva"
+        },
+        {
+          "target": "submit",
+          "cz": "odevzdat"
+        },
+        {
+          "target": "on schedule",
+          "cz": "podle plánu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'm afraid we are behind schedule on this task.",
+      "tts_text": "I'm afraid we are behind schedule on this task."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "What caused the delay?",
+      "tts_text": "What caused the delay?"
+    }
+  ]
+}

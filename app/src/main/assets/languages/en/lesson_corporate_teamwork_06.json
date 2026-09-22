@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_teamwork_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Team building activity",
+  "title_cz": "Aktivita na budování týmu",
+  "vocabulary": [
+    {
+      "word": "team building",
+      "translation_cz": "budování týmu",
+      "example": "We're organizing a team building day.",
+      "example_cz": "Pořádáme den na budování týmu.",
+      "tts_text": "We're organizing a team building day."
+    },
+    {
+      "word": "to get to know each other",
+      "translation_cz": "poznat se navzájem",
+      "example": "It's a great chance to get to know each other.",
+      "example_cz": "Je to skvělá příležitost se navzájem poznat.",
+      "tts_text": "It's a great chance to get to know each other."
+    },
+    {
+      "word": "icebreaker",
+      "translation_cz": "seznamovací hra",
+      "example": "Let's start with a quick icebreaker.",
+      "example_cz": "Začněme rychlou seznamovací hrou.",
+      "tts_text": "Let's start with a quick icebreaker."
+    },
+    {
+      "word": "to bond",
+      "translation_cz": "stmelit se",
+      "example": "Activities like this help the team bond.",
+      "example_cz": "Podobné aktivity pomáhají týmu se stmelit.",
+      "tts_text": "Activities like this help the team bond."
+    },
+    {
+      "word": "to volunteer",
+      "translation_cz": "přihlásit se dobrovolně",
+      "example": "Would anyone like to volunteer first?",
+      "example_cz": "Chtěl by se někdo přihlásit jako první?",
+      "tts_text": "Would anyone like to volunteer first?"
+    },
+    {
+      "word": "outdoor activity",
+      "translation_cz": "venkovní aktivita",
+      "example": "We planned an outdoor activity this year.",
+      "example_cz": "Letos jsme naplánovali venkovní aktivitu.",
+      "tts_text": "We planned an outdoor activity this year."
+    },
+    {
+      "word": "morale",
+      "translation_cz": "morálka / nálada v týmu",
+      "example": "Team building improves morale a lot.",
+      "example_cz": "Budování týmu hodně zlepšuje morálku.",
+      "tts_text": "Team building improves morale a lot."
+    },
+    {
+      "word": "fun and games",
+      "translation_cz": "zábava a hry",
+      "example": "Today is all about fun and games.",
+      "example_cz": "Dnešek je celý o zábavě a hrách.",
+      "tts_text": "Today is all about fun and games."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_team_building",
+      "title": "Planning a team building day",
+      "title_cz": "Plánování dne budování týmu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "We're organizing a team building day next Friday.",
+          "text_cz": "Příští pátek pořádáme den na budování týmu."
+        },
+        {
+          "speaker": "B",
+          "text": "Nice! What kind of activities are planned?",
+          "text_cz": "Pěkné! Jaké aktivity jsou naplánované?"
+        },
+        {
+          "speaker": "A",
+          "text": "An outdoor activity in the morning and some games in the afternoon. Today is all about fun and games.",
+          "text_cz": "Dopoledne venkovní aktivita a odpoledne pár her. Dnešek je celý o zábavě a hrách."
+        },
+        {
+          "speaker": "B",
+          "text": "Sounds great, it's a good chance to get to know each other better.",
+          "text_cz": "Zní to skvěle, je to dobrá příležitost se navzájem lépe poznat."
+        },
+        {
+          "speaker": "A",
+          "text": "Exactly, and it should really boost team morale.",
+          "text_cz": "Přesně tak, a mělo by to hodně zvýšit morálku týmu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "icebreaker",
+      "options": [
+        "seznamovací hra",
+        "morálka",
+        "zábava a hry"
+      ],
+      "correct": "seznamovací hra"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's start with a quick ___.",
+      "answer": "icebreaker",
+      "hint_cz": "seznamovací hra"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "team building",
+          "cz": "budování týmu"
+        },
+        {
+          "target": "to bond",
+          "cz": "stmelit se"
+        },
+        {
+          "target": "to volunteer",
+          "cz": "přihlásit se dobrovolně"
+        },
+        {
+          "target": "morale",
+          "cz": "morálka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Would anyone like to volunteer first?",
+      "tts_text": "Would anyone like to volunteer first?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Activities like this help the team ___.",
+      "answer": "bond",
+      "hint_cz": "stmelit se"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_legal_contracts_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Contract renewal discussion",
+  "title_cz": "Jednání o obnovení smlouvy",
+  "vocabulary": [
+    {
+      "word": "renew the contract",
+      "translation_cz": "obnovit smlouvu",
+      "example": "Would you like to renew the contract?",
+      "example_cz": "Chtěli byste smlouvu obnovit?",
+      "tts_text": "Would you like to renew the contract?"
+    },
+    {
+      "word": "expire",
+      "translation_cz": "vypršet",
+      "example": "The current contract expires next month.",
+      "example_cz": "Současná smlouva vyprší příští měsíc.",
+      "tts_text": "The current contract expires next month."
+    },
+    {
+      "word": "renewal terms",
+      "translation_cz": "podmínky obnovení",
+      "example": "Let's discuss the renewal terms.",
+      "example_cz": "Pojďme probrat podmínky obnovení.",
+      "tts_text": "Let's discuss the renewal terms."
+    },
+    {
+      "word": "adjust the price",
+      "translation_cz": "upravit cenu",
+      "example": "We'd like to adjust the price slightly.",
+      "example_cz": "Chtěli bychom mírně upravit cenu.",
+      "tts_text": "We'd like to adjust the price slightly."
+    },
+    {
+      "word": "long-term partnership",
+      "translation_cz": "dlouhodobé partnerství",
+      "example": "We value this long-term partnership.",
+      "example_cz": "Vážíme si tohoto dlouhodobého partnerství.",
+      "tts_text": "We value this long-term partnership."
+    },
+    {
+      "word": "notice period",
+      "translation_cz": "výpovědní lhůta",
+      "example": "The notice period is 30 days.",
+      "example_cz": "Výpovědní lhůta je 30 dní.",
+      "tts_text": "The notice period is 30 days."
+    },
+    {
+      "word": "extend the agreement",
+      "translation_cz": "prodloužit dohodu",
+      "example": "We'd like to extend the agreement by a year.",
+      "example_cz": "Chtěli bychom dohodu prodloužit o rok.",
+      "tts_text": "We'd like to extend the agreement by a year."
+    },
+    {
+      "word": "review the conditions",
+      "translation_cz": "zkontrolovat podmínky",
+      "example": "Let's review the conditions before renewing.",
+      "example_cz": "Pojďme před obnovením zkontrolovat podmínky.",
+      "tts_text": "Let's review the conditions before renewing."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_10",
+      "title": "Contract renewal",
+      "title_cz": "Obnovení smlouvy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Our contract expires next month. Would you like to renew it?",
+          "text_cz": "Naše smlouva vyprší příští měsíc. Chtěli byste ji obnovit?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, we value this long-term partnership. Let's discuss the renewal terms.",
+          "text_cz": "Ano, vážíme si tohoto dlouhodobého partnerství. Pojďme probrat podmínky obnovení."
+        },
+        {
+          "speaker": "A",
+          "text": "We'd like to adjust the price slightly for next year.",
+          "text_cz": "Chtěli bychom pro příští rok mírně upravit cenu."
+        },
+        {
+          "speaker": "B",
+          "text": "That's fine, let's review the conditions together.",
+          "text_cz": "To je v pořádku, pojďme si podmínky společně zkontrolovat."
+        },
+        {
+          "speaker": "A",
+          "text": "Also, what's the notice period if either side wants to end it?",
+          "text_cz": "A jaká je výpovědní lhůta, pokud by některá strana chtěla smlouvu ukončit?"
+        },
+        {
+          "speaker": "B",
+          "text": "30 days. Shall we extend the agreement for two years?",
+          "text_cz": "30 dní. Máme dohodu prodloužit o dva roky?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "renew the contract",
+      "options": [
+        "obnovit smlouvu",
+        "vypršet",
+        "podmínky obnovení"
+      ],
+      "correct": "obnovit smlouvu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We'd like to ___ slightly.",
+      "answer": "adjust the price",
+      "hint_cz": "upravit cenu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "renew the contract",
+          "cz": "obnovit smlouvu"
+        },
+        {
+          "target": "expire",
+          "cz": "vypršet"
+        },
+        {
+          "target": "renewal terms",
+          "cz": "podmínky obnovení"
+        },
+        {
+          "target": "adjust the price",
+          "cz": "upravit cenu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We value this long-term partnership.",
+      "tts_text": "We value this long-term partnership."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is 30 days.",
+      "answer": "notice period",
+      "hint_cz": "výpovědní lhůta"
+    }
+  ]
+}

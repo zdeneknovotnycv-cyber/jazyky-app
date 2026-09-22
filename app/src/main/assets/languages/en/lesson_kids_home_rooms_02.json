@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_home_rooms_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Furniture in the Bedroom",
+  "title_cz": "Nábytek v ložnici",
+  "vocabulary": [
+    {
+      "word": "bed",
+      "translation_cz": "postel",
+      "example": "My bed is soft.",
+      "example_cz": "Moje postel je měkká.",
+      "tts_text": "My bed is soft."
+    },
+    {
+      "word": "wardrobe",
+      "translation_cz": "skříň",
+      "example": "My clothes are in the wardrobe.",
+      "example_cz": "Moje oblečení je ve skříni.",
+      "tts_text": "My clothes are in the wardrobe."
+    },
+    {
+      "word": "pillow",
+      "translation_cz": "polštář",
+      "example": "I have a big pillow.",
+      "example_cz": "Mám velký polštář.",
+      "tts_text": "I have a big pillow."
+    },
+    {
+      "word": "blanket",
+      "translation_cz": "deka",
+      "example": "The blanket is warm.",
+      "example_cz": "Deka je teplá.",
+      "tts_text": "The blanket is warm."
+    },
+    {
+      "word": "desk",
+      "translation_cz": "psací stůl",
+      "example": "I do homework at my desk.",
+      "example_cz": "Úkoly dělám u psacího stolu.",
+      "tts_text": "I do homework at my desk."
+    },
+    {
+      "word": "lamp",
+      "translation_cz": "lampa",
+      "example": "I turn on the lamp at night.",
+      "example_cz": "V noci rozsvěcím lampu.",
+      "tts_text": "I turn on the lamp at night."
+    },
+    {
+      "word": "shelf",
+      "translation_cz": "polička",
+      "example": "My books are on the shelf.",
+      "example_cz": "Moje knížky jsou na poličce.",
+      "tts_text": "My books are on the shelf."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "bed",
+      "options": [
+        "postel",
+        "skříň",
+        "polička"
+      ],
+      "correct": "postel"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My clothes are in the ___.",
+      "answer": "wardrobe",
+      "hint_cz": "skříň"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "pillow",
+          "cz": "polštář"
+        },
+        {
+          "target": "blanket",
+          "cz": "deka"
+        },
+        {
+          "target": "desk",
+          "cz": "psací stůl"
+        },
+        {
+          "target": "lamp",
+          "cz": "lampa"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My bed is soft.",
+      "tts_text": "My bed is soft."
+    }
+  ]
+}

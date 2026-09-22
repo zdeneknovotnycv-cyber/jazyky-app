@@ -1,0 +1,47 @@
+{
+  "id": "en_corporate_finance_budgets_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Approving an Expense",
+  "title_cz": "Schválení výdaje",
+  "vocabulary": [
+    {"word": "expense", "translation_cz": "výdaj", "example": "Please submit this expense for approval.", "example_cz": "Zašlete prosím tento výdaj ke schválení.", "tts_text": "Please submit this expense for approval."},
+    {"word": "approval", "translation_cz": "schválení", "example": "I need your approval before I proceed.", "example_cz": "Potřebuji vaše schválení, než budu pokračovat.", "tts_text": "I need your approval before I proceed."},
+    {"word": "receipt", "translation_cz": "účtenka / doklad", "example": "Please attach the receipt to your claim.", "example_cz": "Přiložte prosím doklad ke svému nároku.", "tts_text": "Please attach the receipt to your claim."},
+    {"word": "reimbursement", "translation_cz": "proplacení", "example": "You will receive reimbursement within a week.", "example_cz": "Proplacení obdržíte do týdne.", "tts_text": "You will receive reimbursement within a week."},
+    {"word": "spending limit", "translation_cz": "limit výdajů", "example": "This falls within the department's spending limit.", "example_cz": "Toto spadá do limitu výdajů oddělení.", "tts_text": "This falls within the department's spending limit."},
+    {"word": "authorize", "translation_cz": "schválit / autorizovat", "example": "Only the manager can authorize this expense.", "example_cz": "Tento výdaj může autorizovat pouze manažer.", "tts_text": "Only the manager can authorize this expense."},
+    {"word": "cost center", "translation_cz": "nákladové středisko", "example": "Which cost center should this be charged to?", "example_cz": "Na jaké nákladové středisko to má být účtováno?", "tts_text": "Which cost center should this be charged to?"},
+    {"word": "justification", "translation_cz": "odůvodnění", "example": "Please add a brief justification for the purchase.", "example_cz": "Přidejte prosím krátké odůvodnění nákupu.", "tts_text": "Please add a brief justification for the purchase."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_expense_approval",
+      "title": "Requesting approval for an expense",
+      "title_cz": "Žádost o schválení výdaje",
+      "lines": [
+        {"speaker": "A", "text": "I need your approval for this software purchase.", "text_cz": "Potřebuji vaše schválení na nákup tohoto softwaru."},
+        {"speaker": "B", "text": "Sure, do you have the receipt and justification?", "text_cz": "Jistě, máte doklad a odůvodnění?"},
+        {"speaker": "A", "text": "Yes, both are attached to the request.", "text_cz": "Ano, obojí je přiloženo k žádosti."},
+        {"speaker": "B", "text": "It's within our spending limit, so I'll authorize it now.", "text_cz": "Je to v rámci našeho limitu výdajů, takže to teď autorizuji."}
+      ]
+    },
+    {
+      "id": "conv_reimbursement",
+      "title": "Discussing reimbursement",
+      "title_cz": "Rozhovor o proplacení",
+      "lines": [
+        {"speaker": "A", "text": "When can I expect reimbursement for my travel expenses?", "text_cz": "Kdy mohu očekávat proplacení svých cestovních výdajů?"},
+        {"speaker": "B", "text": "Once we confirm the cost center, it usually takes a week.", "text_cz": "Jakmile potvrdíme nákladové středisko, obvykle to trvá týden."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "reimbursement", "options": ["proplacení", "výdaj", "schválení"], "correct": "proplacení"},
+    {"type": "fill_gap", "sentence": "Please attach the ___ to your claim.", "answer": "receipt", "hint_cz": "doklad"},
+    {"type": "match_pairs", "pairs": [{"target": "expense", "cz": "výdaj"}, {"target": "authorize", "cz": "autorizovat"}, {"target": "cost center", "cz": "nákladové středisko"}, {"target": "justification", "cz": "odůvodnění"}]},
+    {"type": "speak_and_check", "target_phrase": "Only the manager can authorize this expense.", "tts_text": "Only the manager can authorize this expense."},
+    {"type": "fill_gap", "sentence": "This falls within the department's spending ___.", "answer": "limit", "hint_cz": "limit"}
+  ]
+}

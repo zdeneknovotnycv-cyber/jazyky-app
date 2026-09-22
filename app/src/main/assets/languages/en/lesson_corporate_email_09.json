@@ -1,0 +1,138 @@
+{
+  "id": "en_adult_corporate_email_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Apologizing by email",
+  "title_cz": "Omluva e-mailem",
+  "vocabulary": [
+    {
+      "word": "I apologize for",
+      "translation_cz": "omlouvám se za",
+      "example": "I apologize for the delay in my response.",
+      "example_cz": "Omlouvám se za zpoždění mé odpovědi.",
+      "tts_text": "I apologize for the delay in my response."
+    },
+    {
+      "word": "inconvenience",
+      "translation_cz": "nepříjemnost / potíže",
+      "example": "I'm sorry for the inconvenience this caused.",
+      "example_cz": "Omlouvám se za potíže, které to způsobilo.",
+      "tts_text": "I'm sorry for the inconvenience this caused."
+    },
+    {
+      "word": "my mistake",
+      "translation_cz": "moje chyba",
+      "example": "This was my mistake, and I'll fix it right away.",
+      "example_cz": "Byla to moje chyba a hned to napravím.",
+      "tts_text": "This was my mistake, and I'll fix it right away."
+    },
+    {
+      "word": "take full responsibility",
+      "translation_cz": "přijmout plnou odpovědnost",
+      "example": "I take full responsibility for the error.",
+      "example_cz": "Přijímám plnou odpovědnost za tu chybu.",
+      "tts_text": "I take full responsibility for the error."
+    },
+    {
+      "word": "rectify",
+      "translation_cz": "napravit",
+      "example": "We will rectify the situation immediately.",
+      "example_cz": "Situaci okamžitě napravíme.",
+      "tts_text": "We will rectify the situation immediately."
+    },
+    {
+      "word": "unintentional",
+      "translation_cz": "nezáměrný",
+      "example": "The error was unintentional.",
+      "example_cz": "Chyba byla nezáměrná.",
+      "tts_text": "The error was unintentional."
+    },
+    {
+      "word": "assure you",
+      "translation_cz": "ujistit vás",
+      "example": "I can assure you it won't happen again.",
+      "example_cz": "Mohu vás ujistit, že se to už nestane.",
+      "tts_text": "I can assure you it won't happen again."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_apology_email",
+      "title": "Apologizing for a billing error",
+      "title_cz": "Omluva za chybu ve fakturaci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I apologize for the error in your last invoice.",
+          "text_cz": "Omlouvám se za chybu ve vaší poslední faktuře."
+        },
+        {
+          "speaker": "A",
+          "text": "This was my mistake, and I take full responsibility for it.",
+          "text_cz": "Byla to moje chyba a přijímám za ni plnou odpovědnost."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you for letting me know. What happens next?",
+          "text_cz": "Děkuji, že jste mě informoval. Co bude dál?"
+        },
+        {
+          "speaker": "A",
+          "text": "We will rectify the situation today and I can assure you it won't happen again.",
+          "text_cz": "Situaci dnes napravíme a mohu vás ujistit, že se to už nestane."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "inconvenience",
+      "options": [
+        "nepříjemnost",
+        "chyba",
+        "odpovědnost"
+      ],
+      "correct": "nepříjemnost"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ full responsibility for the error.",
+      "answer": "take",
+      "hint_cz": "přijímám"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "my mistake",
+          "cz": "moje chyba"
+        },
+        {
+          "target": "rectify",
+          "cz": "napravit"
+        },
+        {
+          "target": "unintentional",
+          "cz": "nezáměrný"
+        },
+        {
+          "target": "assure you",
+          "cz": "ujistit vás"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I apologize for the delay in my response.",
+      "tts_text": "I apologize for the delay in my response."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We will ___ the situation immediately.",
+      "answer": "rectify",
+      "hint_cz": "napravit"
+    }
+  ]
+}

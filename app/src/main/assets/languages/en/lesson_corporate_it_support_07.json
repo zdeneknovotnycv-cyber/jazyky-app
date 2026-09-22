@@ -1,0 +1,162 @@
+{
+  "id": "en_adult_corporate_it_support_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "VPN and Remote Access",
+  "title_cz": "VPN a vzdálený přístup",
+  "vocabulary": [
+    {
+      "word": "VPN",
+      "translation_cz": "VPN (virtuální privátní síť)",
+      "example": "You need to connect to the VPN to access company files.",
+      "example_cz": "Pro přístup k firemním souborům se musíte připojit k VPN.",
+      "tts_text": "You need to connect to the VPN to access company files."
+    },
+    {
+      "word": "remote access",
+      "translation_cz": "vzdálený přístup",
+      "example": "Remote access lets you work from home safely.",
+      "example_cz": "Vzdálený přístup vám umožňuje bezpečně pracovat z domova.",
+      "tts_text": "Remote access lets you work from home safely."
+    },
+    {
+      "word": "log in remotely",
+      "translation_cz": "přihlásit se vzdáleně",
+      "example": "You can log in remotely from any location.",
+      "example_cz": "Můžete se přihlásit vzdáleně z jakéhokoli místa.",
+      "tts_text": "You can log in remotely from any location."
+    },
+    {
+      "word": "secure connection",
+      "translation_cz": "zabezpečené připojení",
+      "example": "The VPN creates a secure connection to our network.",
+      "example_cz": "VPN vytváří zabezpečené připojení k naší síti.",
+      "tts_text": "The VPN creates a secure connection to our network."
+    },
+    {
+      "word": "two-factor authentication",
+      "translation_cz": "dvoufaktorové ověření",
+      "example": "Please enable two-factor authentication for the VPN.",
+      "example_cz": "Zapněte prosím dvoufaktorové ověření pro VPN.",
+      "tts_text": "Please enable two-factor authentication for the VPN."
+    },
+    {
+      "word": "disconnect",
+      "translation_cz": "odpojit se",
+      "example": "Don't forget to disconnect when you finish working.",
+      "example_cz": "Nezapomeňte se odpojit, až dokončíte práci.",
+      "tts_text": "Don't forget to disconnect when you finish working."
+    },
+    {
+      "word": "token",
+      "translation_cz": "token",
+      "example": "You'll need a security token to log in.",
+      "example_cz": "K přihlášení budete potřebovat bezpečnostní token.",
+      "tts_text": "You'll need a security token to log in."
+    },
+    {
+      "word": "access rights",
+      "translation_cz": "přístupová práva",
+      "example": "Your access rights depend on your department.",
+      "example_cz": "Vaše přístupová práva závisí na vašem oddělení.",
+      "tts_text": "Your access rights depend on your department."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_vpn_setup",
+      "title": "Setting up VPN access",
+      "title_cz": "Nastavení přístupu k VPN",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I need remote access to work from home tomorrow. How do I connect?",
+          "text_cz": "Zítra potřebuji vzdálený přístup, abych mohl pracovat z domova. Jak se připojím?"
+        },
+        {
+          "speaker": "B",
+          "text": "You need to install the VPN client and log in with your company account.",
+          "text_cz": "Musíte si nainstalovat VPN klienta a přihlásit se svým firemním účtem."
+        },
+        {
+          "speaker": "A",
+          "text": "Do I also need two-factor authentication?",
+          "text_cz": "Potřebuji také dvoufaktorové ověření?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, it creates a more secure connection. I'll send you the token setup instructions.",
+          "text_cz": "Ano, vytváří to zabezpečenější připojení. Pošlu vám instrukce k nastavení tokenu."
+        }
+      ]
+    },
+    {
+      "id": "conv_vpn_disconnect",
+      "title": "Reminder to disconnect",
+      "title_cz": "Připomínka k odpojení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Should I stay connected to the VPN all day?",
+          "text_cz": "Mám zůstat připojený k VPN celý den?"
+        },
+        {
+          "speaker": "B",
+          "text": "No, please disconnect when you finish working for security reasons.",
+          "text_cz": "Ne, z bezpečnostních důvodů se prosím odpojte, jakmile dokončíte práci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "secure connection",
+      "options": [
+        "zabezpečené připojení",
+        "přístupová práva",
+        "token"
+      ],
+      "correct": "zabezpečené připojení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You need to connect to the ___ to access company files.",
+      "answer": "VPN",
+      "hint_cz": "VPN"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "remote access",
+          "cz": "vzdálený přístup"
+        },
+        {
+          "target": "two-factor authentication",
+          "cz": "dvoufaktorové ověření"
+        },
+        {
+          "target": "disconnect",
+          "cz": "odpojit se"
+        },
+        {
+          "target": "access rights",
+          "cz": "přístupová práva"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Remote access lets you work from home safely.",
+      "tts_text": "Remote access lets you work from home safely."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You'll need a security ___ to log in.",
+      "answer": "token",
+      "hint_cz": "token"
+    }
+  ]
+}

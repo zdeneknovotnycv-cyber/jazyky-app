@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_business_travel_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Im Hotel einchecken",
+  "title_cz": "Ubytování v hotelu",
+  "vocabulary": [
+    {
+      "word": "Ich habe eine Reservierung",
+      "translation_cz": "Mám rezervaci",
+      "example": "Ich habe eine Reservierung unter dem Firmennamen.",
+      "example_cz": "Mám rezervaci na jméno firmy.",
+      "tts_text": "Ich habe eine Reservierung unter dem Firmennamen."
+    },
+    {
+      "word": "die Check-in-Zeit",
+      "translation_cz": "čas ubytování",
+      "example": "Wie ist Ihre Check-in-Zeit?",
+      "example_cz": "V kolik je u vás check-in?",
+      "tts_text": "Wie ist Ihre Check-in-Zeit?"
+    },
+    {
+      "word": "Könnte ich Ihren Ausweis sehen?",
+      "translation_cz": "Mohu vidět váš doklad totožnosti?",
+      "example": "Könnte ich bitte Ihren Ausweis sehen?",
+      "example_cz": "Mohu prosím vidět váš doklad totožnosti?",
+      "tts_text": "Könnte ich bitte Ihren Ausweis sehen?"
+    },
+    {
+      "word": "ein Zimmer mit Schreibtisch",
+      "translation_cz": "pokoj s pracovním stolem",
+      "example": "Ich brauche ein Zimmer mit Schreibtisch zum Arbeiten.",
+      "example_cz": "Potřebuji pokoj s pracovním stolem na práci.",
+      "tts_text": "Ich brauche ein Zimmer mit Schreibtisch zum Arbeiten."
+    },
+    {
+      "word": "das WLAN-Passwort",
+      "translation_cz": "heslo k Wi-Fi",
+      "example": "Könnten Sie mir das WLAN-Passwort geben?",
+      "example_cz": "Mohli byste mi dát heslo k Wi-Fi?",
+      "tts_text": "Könnten Sie mir das WLAN-Passwort geben?"
+    },
+    {
+      "word": "der Weckruf",
+      "translation_cz": "buzení",
+      "example": "Könnte ich einen Weckruf um 6 Uhr bekommen?",
+      "example_cz": "Mohl bych požádat o buzení v 6 hodin?",
+      "tts_text": "Könnte ich einen Weckruf um 6 Uhr bekommen?"
+    },
+    {
+      "word": "die Check-out-Zeit",
+      "translation_cz": "čas odhlášení",
+      "example": "Wann ist die Check-out-Zeit?",
+      "example_cz": "V kolik hodin je odhlášení?",
+      "tts_text": "Wann ist die Check-out-Zeit?"
+    },
+    {
+      "word": "auf das Firmenkonto abrechnen",
+      "translation_cz": "účtovat na firmu",
+      "example": "Bitte rechnen Sie es auf das Firmenkonto ab.",
+      "example_cz": "Prosím účtujte to na firemní účet.",
+      "tts_text": "Bitte rechnen Sie es auf das Firmenkonto ab."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_hotel_einchecken",
+      "title": "Im Hotel für die Geschäftsreise einchecken",
+      "title_cz": "Ubytování v hotelu na služební cestě",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Guten Abend, ich habe eine Reservierung unter dem Firmennamen.",
+          "text_cz": "Dobrý večer, mám rezervaci na jméno firmy."
+        },
+        {
+          "speaker": "B",
+          "text": "Natürlich. Könnte ich bitte Ihren Ausweis sehen?",
+          "text_cz": "Samozřejmě. Mohu prosím vidět váš doklad totožnosti?"
+        },
+        {
+          "speaker": "A",
+          "text": "Hier bitte. Könnte ich außerdem ein Zimmer mit Schreibtisch bekommen?",
+          "text_cz": "Tady je. Mohl bych také dostat pokoj s pracovním stolem?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sicher. Hier ist das WLAN-Passwort und Ihre Schlüsselkarte.",
+          "text_cz": "Jistě. Tady je heslo k Wi-Fi a vaše klíčová karta."
+        },
+        {
+          "speaker": "A",
+          "text": "Danke. Bitte rechnen Sie es auf das Firmenkonto ab.",
+          "text_cz": "Děkuji. Prosím účtujte to na firemní účet."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Ich habe eine Reservierung",
+      "options": [
+        "Mám rezervaci",
+        "Heslo k Wi-Fi",
+        "Čas odhlášení"
+      ],
+      "correct": "Mám rezervaci"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Könnte ich bitte Ihren ___ sehen?",
+      "answer": "Ausweis",
+      "hint_cz": "doklad totožnosti"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wann ist die ___-Zeit?",
+      "answer": "Check-out",
+      "hint_cz": "odhlášení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "ein Zimmer mit Schreibtisch",
+          "cz": "pokoj s pracovním stolem"
+        },
+        {
+          "target": "der Weckruf",
+          "cz": "buzení"
+        },
+        {
+          "target": "auf das Firmenkonto abrechnen",
+          "cz": "účtovat na firmu"
+        },
+        {
+          "target": "die Check-in-Zeit",
+          "cz": "čas ubytování"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe eine Reservierung unter dem Firmennamen.",
+      "tts_text": "Ich habe eine Reservierung unter dem Firmennamen."
+    }
+  ]
+}

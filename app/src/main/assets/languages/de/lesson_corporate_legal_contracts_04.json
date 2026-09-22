@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_legal_contracts_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Dokument unterschreiben",
+  "title_cz": "Podpis dokumentu",
+  "vocabulary": [
+    {
+      "word": "hier unterschreiben",
+      "translation_cz": "podepište zde",
+      "example": "Bitte unterschreiben Sie hier und setzen Sie das Datum.",
+      "example_cz": "Prosím podepište zde a uveďte datum.",
+      "tts_text": "Bitte unterschreiben Sie hier und setzen Sie das Datum."
+    },
+    {
+      "word": "jede Seite paraphieren",
+      "translation_cz": "parafovat každou stránku",
+      "example": "Bitte paraphieren Sie jede Seite.",
+      "example_cz": "Prosím parafujte každou stránku.",
+      "tts_text": "Bitte paraphieren Sie jede Seite."
+    },
+    {
+      "word": "der Zeuge",
+      "translation_cz": "svědek",
+      "example": "Wir brauchen einen Zeugen für diese Unterschrift.",
+      "example_cz": "Pro tento podpis potřebujeme svědka.",
+      "tts_text": "Wir brauchen einen Zeugen für diese Unterschrift."
+    },
+    {
+      "word": "rechtsgültig",
+      "translation_cz": "právně platný",
+      "example": "Das Dokument ist nach der Unterschrift rechtsgültig.",
+      "example_cz": "Dokument je po podpisu právně platný.",
+      "tts_text": "Das Dokument ist nach der Unterschrift rechtsgültig."
+    },
+    {
+      "word": "die elektronische Unterschrift",
+      "translation_cz": "elektronický podpis",
+      "example": "Wir akzeptieren eine elektronische Unterschrift.",
+      "example_cz": "Přijímáme elektronický podpis.",
+      "tts_text": "Wir akzeptieren eine elektronische Unterschrift."
+    },
+    {
+      "word": "das Unterschriftsdatum",
+      "translation_cz": "datum podpisu",
+      "example": "Bitte fügen Sie das Unterschriftsdatum hinzu.",
+      "example_cz": "Prosím doplňte datum podpisu.",
+      "tts_text": "Bitte fügen Sie das Unterschriftsdatum hinzu."
+    },
+    {
+      "word": "im Namen von jemandem unterschreiben",
+      "translation_cz": "podepsat jménem",
+      "example": "Ich unterschreibe im Namen der Firma.",
+      "example_cz": "Podepisuji jménem společnosti.",
+      "tts_text": "Ich unterschreibe im Namen der Firma."
+    },
+    {
+      "word": "die Ausfertigung",
+      "translation_cz": "vyhotovení / kopie smlouvy",
+      "example": "Jede Partei behält eine Ausfertigung.",
+      "example_cz": "Každá strana si ponechá jedno vyhotovení.",
+      "tts_text": "Jede Partei behält eine Ausfertigung."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_04",
+      "title": "Ein Dokument unterschreiben",
+      "title_cz": "Podpis dokumentu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Bitte unterschreiben Sie hier und paraphieren Sie jede Seite.",
+          "text_cz": "Prosím podepište zde a parafujte každou stránku."
+        },
+        {
+          "speaker": "B",
+          "text": "Brauchen Sie dafür einen Zeugen?",
+          "text_cz": "Potřebujete k tomu svědka?"
+        },
+        {
+          "speaker": "A",
+          "text": "Nicht nötig, eine elektronische Unterschrift ist rechtsgültig.",
+          "text_cz": "Není to nutné, elektronický podpis je právně platný."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich unterschreibe im Namen der Firma. Soll ich das Unterschriftsdatum hinzufügen?",
+          "text_cz": "Podepisuji jménem společnosti. Mám doplnit datum podpisu?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, bitte. Jede Partei behält eine Ausfertigung.",
+          "text_cz": "Ano, prosím. Každá strana si ponechá jedno vyhotovení."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden, alles erledigt.",
+          "text_cz": "Rozumím, hotovo."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "hier unterschreiben",
+      "options": [
+        "podepište zde",
+        "parafovat každou stránku",
+        "svědek"
+      ],
+      "correct": "podepište zde"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das Dokument ist nach der Unterschrift ___.",
+      "answer": "rechtsgültig",
+      "hint_cz": "právně platný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "hier unterschreiben",
+          "cz": "podepište zde"
+        },
+        {
+          "target": "jede Seite paraphieren",
+          "cz": "parafovat každou stránku"
+        },
+        {
+          "target": "der Zeuge",
+          "cz": "svědek"
+        },
+        {
+          "target": "rechtsgültig",
+          "cz": "právně platný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir akzeptieren eine elektronische Unterschrift.",
+      "tts_text": "Wir akzeptieren eine elektronische Unterschrift."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte fügen Sie ___ hinzu.",
+      "answer": "das Unterschriftsdatum",
+      "hint_cz": "datum podpisu"
+    }
+  ]
+}

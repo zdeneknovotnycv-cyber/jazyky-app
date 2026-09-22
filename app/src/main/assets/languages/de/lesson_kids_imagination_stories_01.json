@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_imagination_stories_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ein Ausflug ins Weltall",
+  "title_cz": "Výlet do vesmíru",
+  "vocabulary": [
+    {
+      "word": "das Raumschiff",
+      "translation_cz": "raketa, vesmírná loď",
+      "example": "Ich fliege mit einem Raumschiff zum Mond.",
+      "example_cz": "Letím raketou na Měsíc.",
+      "tts_text": "Ich fliege mit einem Raumschiff zum Mond."
+    },
+    {
+      "word": "der Astronaut",
+      "translation_cz": "kosmonaut",
+      "example": "Ein Astronaut trägt einen großen Helm.",
+      "example_cz": "Kosmonaut má na sobě velkou přilbu.",
+      "tts_text": "Ein Astronaut trägt einen großen Helm."
+    },
+    {
+      "word": "der Stern",
+      "translation_cz": "hvězda",
+      "example": "Ich sehe einen hellen Stern in der Ferne.",
+      "example_cz": "Vidím v dálce jasnou hvězdu.",
+      "tts_text": "Ich sehe einen hellen Stern in der Ferne."
+    },
+    {
+      "word": "der Planet",
+      "translation_cz": "planeta",
+      "example": "Wir landen auf einem roten Planeten.",
+      "example_cz": "Přistáváme na červené planetě.",
+      "tts_text": "Wir landen auf einem roten Planeten."
+    },
+    {
+      "word": "schweben",
+      "translation_cz": "vznášet se",
+      "example": "Ich schwebe im Raumschiff.",
+      "example_cz": "Vznáším se v lodi.",
+      "tts_text": "Ich schwebe im Raumschiff."
+    },
+    {
+      "word": "der Mond",
+      "translation_cz": "měsíc",
+      "example": "Der Mond sieht aus der Nähe riesig aus.",
+      "example_cz": "Měsíc vypadá zblízka obrovský.",
+      "tts_text": "Der Mond sieht aus der Nähe riesig aus."
+    },
+    {
+      "word": "der Außerirdische",
+      "translation_cz": "mimozemšťan",
+      "example": "Ich treffe einen freundlichen Außerirdischen.",
+      "example_cz": "Potkávám přátelského mimozemšťana.",
+      "tts_text": "Ich treffe einen freundlichen Außerirdischen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Raumschiff",
+      "options": [
+        "raketa, vesmírná loď",
+        "kosmonaut",
+        "hvězda"
+      ],
+      "correct": "raketa, vesmírná loď"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ein ___ trägt einen großen Helm.",
+      "answer": "Astronaut",
+      "hint_cz": "kosmonaut"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Stern",
+          "cz": "hvězda"
+        },
+        {
+          "target": "der Planet",
+          "cz": "planeta"
+        },
+        {
+          "target": "schweben",
+          "cz": "vznášet se"
+        },
+        {
+          "target": "der Mond",
+          "cz": "měsíc"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich treffe einen freundlichen Außerirdischen.",
+      "tts_text": "Ich treffe einen freundlichen Außerirdischen."
+    }
+  ]
+}

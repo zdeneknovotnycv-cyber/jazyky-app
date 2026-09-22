@@ -1,0 +1,46 @@
+{
+  "id": "de_corporate_it_support_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "IT-Hilfe anfordern",
+  "title_cz": "Žádost o pomoc IT oddělení",
+  "vocabulary": [
+    {"word": "die IT-Abteilung", "translation_cz": "IT oddělení", "example": "Ich habe die IT-Abteilung wegen meines Druckers kontaktiert.", "example_cz": "Kontaktoval jsem IT oddělení kvůli tiskárně.", "tts_text": "Ich habe die IT-Abteilung wegen meines Druckers kontaktiert."},
+    {"word": "das Support-Ticket", "translation_cz": "tiket podpory", "example": "Ich habe heute Morgen ein Support-Ticket erstellt.", "example_cz": "Dnes ráno jsem vytvořil tiket podpory.", "tts_text": "Ich habe heute Morgen ein Support-Ticket erstellt."},
+    {"word": "die Fernunterstützung", "translation_cz": "vzdálená pomoc", "example": "Können Sie mir Fernunterstützung für dieses Problem anbieten?", "example_cz": "Můžete mi poskytnout vzdálenou pomoc s tímto problémem?", "tts_text": "Können Sie mir Fernunterstützung für dieses Problem anbieten?"},
+    {"word": "die Priorität", "translation_cz": "priorita", "example": "Dieses Problem hat für unser Team hohe Priorität.", "example_cz": "Tento problém má pro náš tým vysokou prioritu.", "tts_text": "Dieses Problem hat für unser Team hohe Priorität."},
+    {"word": "lösen", "translation_cz": "vyřešit", "example": "Wir werden das Problem so schnell wie möglich lösen.", "example_cz": "Problém vyřešíme co nejdříve.", "tts_text": "Wir werden das Problem so schnell wie möglich lösen."},
+    {"word": "die Bildschirmfreigabe", "translation_cz": "sdílení obrazovky", "example": "Könnten wir eine Bildschirmfreigabe nutzen, um das gemeinsam anzuschauen?", "example_cz": "Mohli bychom použít sdílení obrazovky, abychom se na to podívali společně?", "tts_text": "Könnten wir eine Bildschirmfreigabe nutzen, um das gemeinsam anzuschauen?"},
+    {"word": "die Reaktionszeit", "translation_cz": "reakční doba", "example": "Unsere durchschnittliche Reaktionszeit beträgt zwei Stunden.", "example_cz": "Naše průměrná reakční doba je dvě hodiny.", "tts_text": "Unsere durchschnittliche Reaktionszeit beträgt zwei Stunden."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_request_help",
+      "title": "Hilfe von der IT anfordern",
+      "title_cz": "Žádost o pomoc od IT",
+      "lines": [
+        {"speaker": "A", "text": "Ich brauche Hilfe von der IT-Abteilung, mein Drucker funktioniert nicht.", "text_cz": "Potřebuji pomoc od IT oddělení, moje tiskárna nefunguje."},
+        {"speaker": "B", "text": "Klar, ich erstelle sofort ein Support-Ticket für Sie.", "text_cz": "Jistě, hned vám vytvořím tiket podpory."},
+        {"speaker": "A", "text": "Könnten Sie mir auch Fernunterstützung anbieten?", "text_cz": "Mohli byste mi také poskytnout vzdálenou pomoc?"},
+        {"speaker": "B", "text": "Ja, richten wir eine Bildschirmfreigabe ein, um es gemeinsam zu prüfen.", "text_cz": "Ano, nastavme si sdílení obrazovky, abychom se na to podívali společně."}
+      ]
+    },
+    {
+      "id": "conv_priority",
+      "title": "Über Priorität sprechen",
+      "title_cz": "Rozhovor o prioritě",
+      "lines": [
+        {"speaker": "A", "text": "Dieses Problem blockiert mein ganzes Team, kann es hohe Priorität bekommen?", "text_cz": "Tento problém blokuje celý můj tým, může to mít vysokou prioritu?"},
+        {"speaker": "B", "text": "Auf jeden Fall, wir lösen es innerhalb der Stunde.", "text_cz": "Samozřejmě, vyřešíme to do hodiny."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "lösen", "options": ["vyřešit", "priorita", "tiket"], "correct": "vyřešit"},
+    {"type": "fill_gap", "sentence": "Ich habe heute Morgen ein Support-___ erstellt.", "answer": "Ticket", "hint_cz": "tiket"},
+    {"type": "match_pairs", "pairs": [{"target": "die Fernunterstützung", "cz": "vzdálená pomoc"}, {"target": "die Priorität", "cz": "priorita"}, {"target": "die Bildschirmfreigabe", "cz": "sdílení obrazovky"}, {"target": "die Reaktionszeit", "cz": "reakční doba"}]},
+    {"type": "speak_and_check", "target_phrase": "Wir werden das Problem so schnell wie möglich lösen.", "tts_text": "Wir werden das Problem so schnell wie möglich lösen."},
+    {"type": "fill_gap", "sentence": "Unsere durchschnittliche ___ beträgt zwei Stunden.", "answer": "Reaktionszeit", "hint_cz": "reakční doba"}
+  ]
+}

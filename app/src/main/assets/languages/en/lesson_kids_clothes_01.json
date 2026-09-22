@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_clothes_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Everyday Clothes",
+  "title_cz": "Běžné oblečení",
+  "vocabulary": [
+    {
+      "word": "T-shirt",
+      "translation_cz": "tričko",
+      "example": "I am wearing a blue T-shirt.",
+      "example_cz": "Mám na sobě modré tričko.",
+      "tts_text": "I am wearing a blue T-shirt."
+    },
+    {
+      "word": "trousers",
+      "translation_cz": "kalhoty",
+      "example": "My trousers are new.",
+      "example_cz": "Mé kalhoty jsou nové.",
+      "tts_text": "My trousers are new."
+    },
+    {
+      "word": "sweater",
+      "translation_cz": "svetr",
+      "example": "The sweater is warm.",
+      "example_cz": "Svetr je teplý.",
+      "tts_text": "The sweater is warm."
+    },
+    {
+      "word": "dress",
+      "translation_cz": "šaty",
+      "example": "She is wearing a nice dress.",
+      "example_cz": "Má na sobě pěkné šaty.",
+      "tts_text": "She is wearing a nice dress."
+    },
+    {
+      "word": "socks",
+      "translation_cz": "ponožky",
+      "example": "My socks are green.",
+      "example_cz": "Mé ponožky jsou zelené.",
+      "tts_text": "My socks are green."
+    },
+    {
+      "word": "jacket",
+      "translation_cz": "bunda",
+      "example": "I put on my jacket.",
+      "example_cz": "Obleču si bundu.",
+      "tts_text": "I put on my jacket."
+    },
+    {
+      "word": "clothes",
+      "translation_cz": "oblečení",
+      "example": "I like my new clothes.",
+      "example_cz": "Mám ráda své nové oblečení.",
+      "tts_text": "I like my new clothes."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sweater",
+      "options": [
+        "svetr",
+        "tričko",
+        "bunda"
+      ],
+      "correct": "svetr"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am wearing a blue ___.",
+      "answer": "T-shirt",
+      "hint_cz": "tričko"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "trousers",
+          "cz": "kalhoty"
+        },
+        {
+          "target": "dress",
+          "cz": "šaty"
+        },
+        {
+          "target": "socks",
+          "cz": "ponožky"
+        },
+        {
+          "target": "jacket",
+          "cz": "bunda"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I put on my jacket.",
+      "tts_text": "I put on my jacket."
+    }
+  ]
+}

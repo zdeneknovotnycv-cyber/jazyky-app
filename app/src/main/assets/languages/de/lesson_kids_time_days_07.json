@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_time_days_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Mein Tagesablauf",
+  "title_cz": "Můj denní program",
+  "vocabulary": [
+    {
+      "word": "aufwachen",
+      "translation_cz": "vstávat",
+      "example": "Ich wache um sieben Uhr auf.",
+      "example_cz": "Vstávám v sedm hodin.",
+      "tts_text": "Ich wache um sieben Uhr auf."
+    },
+    {
+      "word": "zur Schule gehen",
+      "translation_cz": "jít do školy",
+      "example": "Ich fahre mit dem Bus zur Schule.",
+      "example_cz": "Do školy jezdím autobusem.",
+      "tts_text": "Ich fahre mit dem Bus zur Schule."
+    },
+    {
+      "word": "zu Mittag essen",
+      "translation_cz": "obědvat",
+      "example": "Wir essen um zwölf Uhr zu Mittag.",
+      "example_cz": "Obědváme v poledne.",
+      "tts_text": "Wir essen um zwölf Uhr zu Mittag."
+    },
+    {
+      "word": "Hausaufgaben machen",
+      "translation_cz": "dělat domácí úkoly",
+      "example": "Ich mache nach der Schule Hausaufgaben.",
+      "example_cz": "Po škole dělám domácí úkoly.",
+      "tts_text": "Ich mache nach der Schule Hausaufgaben."
+    },
+    {
+      "word": "ins Bett gehen",
+      "translation_cz": "jít spát",
+      "example": "Ich gehe um halb neun ins Bett.",
+      "example_cz": "Chodím spát v půl deváté.",
+      "tts_text": "Ich gehe um halb neun ins Bett."
+    },
+    {
+      "word": "der Tagesablauf",
+      "translation_cz": "rozvrh",
+      "example": "Mein Tagesablauf ist voll.",
+      "example_cz": "Můj denní program je nabitý.",
+      "tts_text": "Mein Tagesablauf ist voll."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "aufwachen",
+      "options": [
+        "vstávat",
+        "obědvat",
+        "jít spát"
+      ],
+      "correct": "vstávat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ um sieben Uhr auf.",
+      "answer": "wache",
+      "hint_cz": "vstávám"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "zur Schule gehen",
+          "cz": "jít do školy"
+        },
+        {
+          "target": "zu Mittag essen",
+          "cz": "obědvat"
+        },
+        {
+          "target": "Hausaufgaben machen",
+          "cz": "dělat domácí úkoly"
+        },
+        {
+          "target": "ins Bett gehen",
+          "cz": "jít spát"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich wache um sieben Uhr auf.",
+      "tts_text": "Ich wache um sieben Uhr auf."
+    }
+  ]
+}

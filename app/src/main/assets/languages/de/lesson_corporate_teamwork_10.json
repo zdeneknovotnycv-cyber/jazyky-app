@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_teamwork_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein neues Teammitglied vorstellen",
+  "title_cz": "Představení týmu novým členům",
+  "vocabulary": [
+    {
+      "word": "Willkommen im Team!",
+      "translation_cz": "Vítej v týmu!",
+      "example": "Willkommen im Team, wir freuen uns, dich zu haben.",
+      "example_cz": "Vítej v týmu, jsme rádi, že tu jsi.",
+      "tts_text": "Willkommen im Team, wir freuen uns, dich zu haben."
+    },
+    {
+      "word": "sich vorstellen",
+      "translation_cz": "představit se",
+      "example": "Möchtest du dich vorstellen?",
+      "example_cz": "Chtěl bys se představit?",
+      "tts_text": "Möchtest du dich vorstellen?"
+    },
+    {
+      "word": "die Rolle",
+      "translation_cz": "role / pozice",
+      "example": "Was ist deine Rolle im Team?",
+      "example_cz": "Jaká je tvoje role v týmu?",
+      "tts_text": "Was ist deine Rolle im Team?"
+    },
+    {
+      "word": "die Einarbeitung",
+      "translation_cz": "zaškolení",
+      "example": "Deine Einarbeitung beginnt am Montag.",
+      "example_cz": "Tvoje zaškolení začíná v pondělí.",
+      "tts_text": "Deine Einarbeitung beginnt am Montag."
+    },
+    {
+      "word": "sich wie zu Hause fühlen",
+      "translation_cz": "cítit se jako doma",
+      "example": "Wir hoffen, du fühlst dich hier bald wie zu Hause.",
+      "example_cz": "Doufáme, že se tu brzy budeš cítit jako doma.",
+      "tts_text": "Wir hoffen, du fühlst dich hier bald wie zu Hause."
+    },
+    {
+      "word": "sich melden",
+      "translation_cz": "ozvat se",
+      "example": "Melde dich gerne, wenn du etwas brauchst.",
+      "example_cz": "Klidně se ozvi, pokud budeš něco potřebovat.",
+      "tts_text": "Melde dich gerne, wenn du etwas brauchst."
+    },
+    {
+      "word": "das Teammitglied",
+      "translation_cz": "člen týmu",
+      "example": "Das ist Petr, unser neuestes Teammitglied.",
+      "example_cz": "Seznamte se s Petrem, naším nejnovějším členem týmu.",
+      "tts_text": "Das ist Petr, unser neuestes Teammitglied."
+    },
+    {
+      "word": "sich einleben",
+      "translation_cz": "zabydlet se",
+      "example": "Es dauert ein paar Wochen, sich einzuleben.",
+      "example_cz": "Trvá pár týdnů, než se člověk zabydlí.",
+      "tts_text": "Es dauert ein paar Wochen, sich einzuleben."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_team_introduction",
+      "title": "Ein neues Teammitglied vorstellen",
+      "title_cz": "Představení nového člena týmu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Leute, das ist Petr, unser neuestes Teammitglied. Willkommen im Team!",
+          "text_cz": "Všichni, seznamte se s Petrem, naším nejnovějším členem týmu. Vítej v týmu!"
+        },
+        {
+          "speaker": "B",
+          "text": "Danke! Ich freue mich, hier zu sein. Möchtet ihr, dass ich mich vorstelle?",
+          "text_cz": "Děkuji! Jsem rád, že tu můžu být. Chtěli byste, abych se představil?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, gerne. Was war deine Rolle bei deiner vorherigen Firma?",
+          "text_cz": "Ano, prosím. Jaká byla tvoje role v předchozí firmě?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich habe als Projektkoordinator gearbeitet. Ich freue mich darauf, mich einzuleben.",
+          "text_cz": "Pracoval jsem jako koordinátor projektů. Těším se, až se tu zabydlím."
+        },
+        {
+          "speaker": "A",
+          "text": "Super. Deine Einarbeitung beginnt heute, und melde dich gerne, wenn du etwas brauchst.",
+          "text_cz": "Skvěle. Tvoje zaškolení začíná dnes, a klidně se ozvi, kdybys něco potřeboval."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Einarbeitung",
+      "options": [
+        "zaškolení",
+        "role",
+        "zabydlet se"
+      ],
+      "correct": "zaškolení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Möchtest du dich ___?",
+      "answer": "vorstellen",
+      "hint_cz": "představit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Teammitglied",
+          "cz": "člen týmu"
+        },
+        {
+          "target": "sich melden",
+          "cz": "ozvat se"
+        },
+        {
+          "target": "sich wie zu Hause fühlen",
+          "cz": "cítit se jako doma"
+        },
+        {
+          "target": "die Rolle",
+          "cz": "role"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Willkommen im Team!",
+      "tts_text": "Willkommen im Team!"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es dauert ein paar Wochen, sich ___.",
+      "answer": "einzuleben",
+      "hint_cz": "zabydlet se"
+    }
+  ]
+}

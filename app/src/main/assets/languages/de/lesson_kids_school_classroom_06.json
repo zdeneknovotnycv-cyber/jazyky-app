@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_school_classroom_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The Playground",
+  "title_cz": "Hřiště",
+  "vocabulary": [
+    {
+      "word": "der Spielplatz",
+      "translation_cz": "hřiště",
+      "example": "Wir spielen auf dem Spielplatz.",
+      "example_cz": "Hrajeme si na hřišti.",
+      "tts_text": "Wir spielen auf dem Spielplatz."
+    },
+    {
+      "word": "die Schaukel",
+      "translation_cz": "houpačka",
+      "example": "Die Schaukel mag ich am liebsten.",
+      "example_cz": "Nejraději mám houpačku.",
+      "tts_text": "Die Schaukel mag ich am liebsten."
+    },
+    {
+      "word": "die Rutsche",
+      "translation_cz": "skluzavka",
+      "example": "Die Rutsche ist schnell.",
+      "example_cz": "Skluzavka je rychlá.",
+      "tts_text": "Die Rutsche ist schnell."
+    },
+    {
+      "word": "rennen",
+      "translation_cz": "běhat",
+      "example": "Wir rennen und spielen Fangen.",
+      "example_cz": "Běháme a hrajeme honičku.",
+      "tts_text": "Wir rennen und spielen Fangen."
+    },
+    {
+      "word": "der Ball",
+      "translation_cz": "míč",
+      "example": "Wir treten den Ball.",
+      "example_cz": "Kopeme do míče.",
+      "tts_text": "Wir treten den Ball."
+    },
+    {
+      "word": "der Sandkasten",
+      "translation_cz": "pískoviště",
+      "example": "Die Kinder spielen im Sandkasten.",
+      "example_cz": "Děti si hrají na pískovišti.",
+      "tts_text": "Die Kinder spielen im Sandkasten."
+    },
+    {
+      "word": "die Freunde",
+      "translation_cz": "kamarádi",
+      "example": "Ich spiele mit meinen Freunden.",
+      "example_cz": "Hraju si se svými kamarády.",
+      "tts_text": "Ich spiele mit meinen Freunden."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Rutsche",
+      "options": [
+        "skluzavka",
+        "houpačka",
+        "míč"
+      ],
+      "correct": "skluzavka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir treten den ___.",
+      "answer": "Ball",
+      "hint_cz": "míč"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Spielplatz",
+          "cz": "hřiště"
+        },
+        {
+          "target": "die Schaukel",
+          "cz": "houpačka"
+        },
+        {
+          "target": "rennen",
+          "cz": "běhat"
+        },
+        {
+          "target": "der Sandkasten",
+          "cz": "pískoviště"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich spiele mit meinen Freunden.",
+      "tts_text": "Ich spiele mit meinen Freunden."
+    }
+  ]
+}

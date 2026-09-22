@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_smalltalk_networking_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über die Wochenendpläne sprechen",
+  "title_cz": "Povídání o plánech na víkend",
+  "vocabulary": [
+    {
+      "word": "Hast du Pläne fürs Wochenende?",
+      "translation_cz": "Máš nějaké plány na víkend?",
+      "example": "Hast du Pläne fürs Wochenende?",
+      "example_cz": "Máš nějaké plány na víkend?",
+      "tts_text": "Hast du Pläne fürs Wochenende?"
+    },
+    {
+      "word": "Ich werde meine Eltern besuchen",
+      "translation_cz": "Jedu navštívit rodiče",
+      "example": "Ich werde meine Eltern besuchen.",
+      "example_cz": "Jedu navštívit rodiče.",
+      "tts_text": "Ich werde meine Eltern besuchen."
+    },
+    {
+      "word": "noch nichts geplant",
+      "translation_cz": "zatím nic naplánováno",
+      "example": "Ich habe noch nichts geplant.",
+      "example_cz": "Zatím nemám nic naplánováno.",
+      "tts_text": "Ich habe noch nichts geplant."
+    },
+    {
+      "word": "wandern gehen",
+      "translation_cz": "vyrazit na túru",
+      "example": "Wir gehen am Samstag wandern.",
+      "example_cz": "V sobotu vyrážíme na túru.",
+      "tts_text": "Wir gehen am Samstag wandern."
+    },
+    {
+      "word": "zu Hause bleiben",
+      "translation_cz": "zůstat doma",
+      "example": "Vielleicht bleibe ich dieses Wochenende einfach zu Hause.",
+      "example_cz": "Možná o víkendu prostě zůstanu doma.",
+      "tts_text": "Vielleicht bleibe ich dieses Wochenende einfach zu Hause."
+    },
+    {
+      "word": "sich mit Freunden treffen",
+      "translation_cz": "sejít se s přáteli",
+      "example": "Ich treffe mich am Sonntag mit Freunden.",
+      "example_cz": "V neděli se scházím s přáteli.",
+      "tts_text": "Ich treffe mich am Sonntag mit Freunden."
+    },
+    {
+      "word": "Schönes Wochenende",
+      "translation_cz": "Měj se hezky o víkendu",
+      "example": "Schönes Wochenende!",
+      "example_cz": "Měj se hezky o víkendu!",
+      "tts_text": "Schönes Wochenende!"
+    },
+    {
+      "word": "meine Batterien aufladen",
+      "translation_cz": "nabít si baterky",
+      "example": "Ich möchte einfach meine Batterien aufladen.",
+      "example_cz": "Chci si prostě nabít baterky.",
+      "tts_text": "Ich möchte einfach meine Batterien aufladen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_wochenendplaene",
+      "title": "Wochenendpläne besprechen",
+      "title_cz": "Diskuze o plánech na víkend",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hast du Pläne fürs Wochenende?",
+          "text_cz": "Máš nějaké plány na víkend?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, ich werde meine Eltern besuchen. Und du?",
+          "text_cz": "Ano, jedu navštívit rodiče. A ty?"
+        },
+        {
+          "speaker": "A",
+          "text": "Noch nichts geplant, vielleicht bleibe ich zu Hause und lade meine Batterien auf.",
+          "text_cz": "Zatím nic naplánováno, možná prostě zůstanu doma a nabiju si baterky."
+        },
+        {
+          "speaker": "B",
+          "text": "Klingt entspannt. Schönes Wochenende!",
+          "text_cz": "Zní to odpočinkově. Měj se hezky o víkendu!"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "meine Batterien aufladen",
+      "options": [
+        "nabít si baterky",
+        "sejít se s přáteli",
+        "zůstat doma"
+      ],
+      "correct": "nabít si baterky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich werde meine Eltern ___.",
+      "answer": "besuchen",
+      "hint_cz": "navštívit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "___ Wochenende!",
+      "answer": "Schönes",
+      "hint_cz": "hezký víkend"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "wandern gehen",
+          "cz": "vyrazit na túru"
+        },
+        {
+          "target": "zu Hause bleiben",
+          "cz": "zůstat doma"
+        },
+        {
+          "target": "sich mit Freunden treffen",
+          "cz": "sejít se s přáteli"
+        },
+        {
+          "target": "noch nichts geplant",
+          "cz": "zatím nic naplánováno"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Hast du Pläne fürs Wochenende?",
+      "tts_text": "Hast du Pläne fürs Wochenende?"
+    }
+  ]
+}

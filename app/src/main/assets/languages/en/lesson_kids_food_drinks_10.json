@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_food_drinks_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Likes and Dislikes about Food",
+  "title_cz": "Co mám a nemám rád na jídle",
+  "vocabulary": [
+    {
+      "word": "I like",
+      "translation_cz": "mám rád",
+      "example": "I like pizza.",
+      "example_cz": "Mám rád pizzu.",
+      "tts_text": "I like pizza."
+    },
+    {
+      "word": "I don't like",
+      "translation_cz": "nemám rád",
+      "example": "I don't like fish.",
+      "example_cz": "Nemám rád rybu.",
+      "tts_text": "I don't like fish."
+    },
+    {
+      "word": "favorite food",
+      "translation_cz": "oblíbené jídlo",
+      "example": "My favorite food is pasta.",
+      "example_cz": "Moje oblíbené jídlo jsou těstoviny.",
+      "tts_text": "My favorite food is pasta."
+    },
+    {
+      "word": "delicious",
+      "translation_cz": "výborný",
+      "example": "This soup is delicious.",
+      "example_cz": "Tahle polévka je výborná.",
+      "tts_text": "This soup is delicious."
+    },
+    {
+      "word": "yucky",
+      "translation_cz": "hnusné (jídlo)",
+      "example": "This tastes yucky.",
+      "example_cz": "Tohle chutná hnusně.",
+      "tts_text": "This tastes yucky."
+    },
+    {
+      "word": "try",
+      "translation_cz": "vyzkoušet",
+      "example": "I want to try new food.",
+      "example_cz": "Chci vyzkoušet nové jídlo.",
+      "tts_text": "I want to try new food."
+    },
+    {
+      "word": "hungry",
+      "translation_cz": "hladový",
+      "example": "I am hungry now.",
+      "example_cz": "Teď mám hlad.",
+      "tts_text": "I am hungry now."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "I like",
+      "options": [
+        "mám rád",
+        "nemám rád",
+        "hladový"
+      ],
+      "correct": "mám rád"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This soup is ___.",
+      "answer": "delicious",
+      "hint_cz": "výborná"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "favorite food",
+          "cz": "oblíbené jídlo"
+        },
+        {
+          "target": "yucky",
+          "cz": "hnusné (jídlo)"
+        },
+        {
+          "target": "try",
+          "cz": "vyzkoušet"
+        },
+        {
+          "target": "hungry",
+          "cz": "hladový"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My favorite food is pasta.",
+      "tts_text": "My favorite food is pasta."
+    }
+  ]
+}

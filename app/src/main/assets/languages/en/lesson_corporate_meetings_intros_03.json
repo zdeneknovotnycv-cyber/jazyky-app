@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_meetings_intros_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Starting a meeting",
+  "title_cz": "Zahájení schůzky",
+  "vocabulary": [
+    {
+      "word": "let's get started",
+      "translation_cz": "začněme",
+      "example": "Let's get started, everyone.",
+      "example_cz": "Začněme, prosím všichni.",
+      "tts_text": "Let's get started, everyone."
+    },
+    {
+      "word": "agenda",
+      "translation_cz": "program jednání",
+      "example": "Here is today's agenda.",
+      "example_cz": "Zde je dnešní program jednání.",
+      "tts_text": "Here is today's agenda."
+    },
+    {
+      "word": "attendee",
+      "translation_cz": "účastník",
+      "example": "All attendees are here.",
+      "example_cz": "Všichni účastníci jsou přítomni.",
+      "tts_text": "All attendees are here."
+    },
+    {
+      "word": "purpose",
+      "translation_cz": "účel",
+      "example": "The purpose of this meeting is to discuss the budget.",
+      "example_cz": "Účelem této schůzky je probrat rozpočet.",
+      "tts_text": "The purpose of this meeting is to discuss the budget."
+    },
+    {
+      "word": "minutes",
+      "translation_cz": "zápis z jednání",
+      "example": "Who will take the minutes today?",
+      "example_cz": "Kdo dnes udělá zápis z jednání?",
+      "tts_text": "Who will take the minutes today?"
+    },
+    {
+      "word": "go over",
+      "translation_cz": "projít (bod)",
+      "example": "Let's go over the first item.",
+      "example_cz": "Pojďme projít první bod.",
+      "tts_text": "Let's go over the first item."
+    },
+    {
+      "word": "welcome",
+      "translation_cz": "přivítat",
+      "example": "I'd like to welcome everyone.",
+      "example_cz": "Rád bych všechny přivítal.",
+      "tts_text": "I'd like to welcome everyone."
+    },
+    {
+      "word": "time limit",
+      "translation_cz": "časový limit",
+      "example": "We have a time limit of one hour.",
+      "example_cz": "Máme časový limit jedné hodiny.",
+      "tts_text": "We have a time limit of one hour."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_start_meeting",
+      "title": "Opening a team meeting",
+      "title_cz": "Zahájení týmové schůzky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good morning, everyone. Let's get started.",
+          "text_cz": "Dobré ráno všem. Začněme."
+        },
+        {
+          "speaker": "A",
+          "text": "I'd like to welcome our new attendee, Sarah, from the design team.",
+          "text_cz": "Rád bych přivítal naši novou účastnici Sáru z designového týmu."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you. What's on today's agenda?",
+          "text_cz": "Děkuji. Co je na dnešním programu jednání?"
+        },
+        {
+          "speaker": "A",
+          "text": "We have three items. Let's go over the first one, the project timeline.",
+          "text_cz": "Máme tři body. Projděme si první, časový plán projektu."
+        },
+        {
+          "speaker": "B",
+          "text": "Sounds good. Who is taking the minutes today?",
+          "text_cz": "Zní dobře. Kdo dnes dělá zápis?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "agenda",
+      "options": [
+        "program jednání",
+        "účastník",
+        "zápis"
+      ],
+      "correct": "program jednání"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Who will take the ___ today?",
+      "answer": "minutes",
+      "hint_cz": "zápis"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "welcome",
+          "cz": "přivítat"
+        },
+        {
+          "target": "attendee",
+          "cz": "účastník"
+        },
+        {
+          "target": "purpose",
+          "cz": "účel"
+        },
+        {
+          "target": "time limit",
+          "cz": "časový limit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's get started, everyone.",
+      "tts_text": "Let's get started, everyone."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's ___ over the first item.",
+      "answer": "go",
+      "hint_cz": "projít"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'd like to welcome everyone.",
+      "tts_text": "I'd like to welcome everyone."
+    }
+  ]
+}

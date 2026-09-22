@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_imagination_stories_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "A pirate ship",
+  "title_cz": "Pirátská loď",
+  "vocabulary": [
+    {
+      "word": "pirate",
+      "translation_cz": "pirát",
+      "example": "I sail with a brave pirate crew.",
+      "example_cz": "Plavím se se statečnou pirátskou posádkou.",
+      "tts_text": "I sail with a brave pirate crew."
+    },
+    {
+      "word": "ship",
+      "translation_cz": "loď",
+      "example": "Our ship sails across the ocean.",
+      "example_cz": "Naše loď pluje přes oceán.",
+      "tts_text": "Our ship sails across the ocean."
+    },
+    {
+      "word": "treasure map",
+      "translation_cz": "mapa pokladu",
+      "example": "I hold an old treasure map.",
+      "example_cz": "Držím starou mapu pokladu.",
+      "tts_text": "I hold an old treasure map."
+    },
+    {
+      "word": "island",
+      "translation_cz": "ostrov",
+      "example": "We find a small island.",
+      "example_cz": "Nacházíme malý ostrov.",
+      "tts_text": "We find a small island."
+    },
+    {
+      "word": "sword",
+      "translation_cz": "meč",
+      "example": "The pirate carries a shiny sword.",
+      "example_cz": "Pirát nese lesklý meč.",
+      "tts_text": "The pirate carries a shiny sword."
+    },
+    {
+      "word": "flag",
+      "translation_cz": "vlajka",
+      "example": "A black flag waves on the mast.",
+      "example_cz": "Na stěžni vlaje černá vlajka.",
+      "tts_text": "A black flag waves on the mast."
+    },
+    {
+      "word": "chest",
+      "translation_cz": "truhla",
+      "example": "We open a treasure chest.",
+      "example_cz": "Otevíráme truhlu s pokladem.",
+      "tts_text": "We open a treasure chest."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "pirate",
+      "options": [
+        "pirát",
+        "loď",
+        "mapa pokladu"
+      ],
+      "correct": "pirát"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Our ___ sails across the ocean.",
+      "answer": "ship",
+      "hint_cz": "loď"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "treasure map",
+          "cz": "mapa pokladu"
+        },
+        {
+          "target": "island",
+          "cz": "ostrov"
+        },
+        {
+          "target": "sword",
+          "cz": "meč"
+        },
+        {
+          "target": "flag",
+          "cz": "vlajka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We open a treasure chest.",
+      "tts_text": "We open a treasure chest."
+    }
+  ]
+}

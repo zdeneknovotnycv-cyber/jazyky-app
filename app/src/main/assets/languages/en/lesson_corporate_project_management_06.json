@@ -1,0 +1,162 @@
+{
+  "id": "en_adult_corporate_project_management_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Project Milestones",
+  "title_cz": "Milníky projektu",
+  "vocabulary": [
+    {
+      "word": "milestone",
+      "translation_cz": "milník",
+      "example": "We reached an important milestone today.",
+      "example_cz": "Dnes jsme dosáhli důležitého milníku.",
+      "tts_text": "We reached an important milestone today."
+    },
+    {
+      "word": "phase",
+      "translation_cz": "fáze",
+      "example": "The next phase begins in October.",
+      "example_cz": "Další fáze začíná v říjnu.",
+      "tts_text": "The next phase begins in October."
+    },
+    {
+      "word": "achieve",
+      "translation_cz": "dosáhnout",
+      "example": "We achieved our target ahead of schedule.",
+      "example_cz": "Dosáhli jsme cíle před plánovaným termínem.",
+      "tts_text": "We achieved our target ahead of schedule."
+    },
+    {
+      "word": "roadmap",
+      "translation_cz": "plán postupu",
+      "example": "The roadmap shows all major milestones.",
+      "example_cz": "Plán postupu ukazuje všechny hlavní milníky.",
+      "tts_text": "The roadmap shows all major milestones."
+    },
+    {
+      "word": "checkpoint",
+      "translation_cz": "kontrolní bod",
+      "example": "Let's set a checkpoint at the end of the month.",
+      "example_cz": "Nastavme kontrolní bod na konci měsíce.",
+      "tts_text": "Let's set a checkpoint at the end of the month."
+    },
+    {
+      "word": "launch date",
+      "translation_cz": "datum spuštění",
+      "example": "The launch date has been confirmed.",
+      "example_cz": "Datum spuštění bylo potvrzeno.",
+      "tts_text": "The launch date has been confirmed."
+    },
+    {
+      "word": "celebrate",
+      "translation_cz": "oslavit",
+      "example": "Let's celebrate this milestone with the team.",
+      "example_cz": "Oslavme tento milník s týmem.",
+      "tts_text": "Let's celebrate this milestone with the team."
+    },
+    {
+      "word": "track progress",
+      "translation_cz": "sledovat postup",
+      "example": "We track progress against the roadmap weekly.",
+      "example_cz": "Postup sledujeme oproti plánu postupu každý týden.",
+      "tts_text": "We track progress against the roadmap weekly."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_milestone_reached",
+      "title": "Reaching a milestone",
+      "title_cz": "Dosažení milníku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "We reached an important milestone today.",
+          "text_cz": "Dnes jsme dosáhli důležitého milníku."
+        },
+        {
+          "speaker": "B",
+          "text": "That's great! Did we achieve it ahead of schedule?",
+          "text_cz": "To je skvělé! Dosáhli jsme toho před plánem?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, we're ahead. Let's celebrate this with the team.",
+          "text_cz": "Ano, jsme napřed. Oslavme to s týmem."
+        }
+      ]
+    },
+    {
+      "id": "conv_milestone_roadmap",
+      "title": "Reviewing the roadmap",
+      "title_cz": "Kontrola plánu postupu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Can you show me the roadmap for the next phase?",
+          "text_cz": "Můžete mi ukázat plán postupu pro další fázi?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, and we set a checkpoint at the end of the month to track progress.",
+          "text_cz": "Jasně, a nastavili jsme kontrolní bod na konci měsíce, abychom sledovali postup."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "milestone",
+      "options": [
+        "milník",
+        "dosáhnout",
+        "plán postupu"
+      ],
+      "correct": "milník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The next ___ begins in October.",
+      "answer": "phase",
+      "hint_cz": "fáze"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's set a ___ at the end of the month.",
+      "answer": "checkpoint",
+      "hint_cz": "kontrolní bod"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "launch date",
+          "cz": "datum spuštění"
+        },
+        {
+          "target": "celebrate",
+          "cz": "oslavit"
+        },
+        {
+          "target": "track progress",
+          "cz": "sledovat postup"
+        },
+        {
+          "target": "achieve",
+          "cz": "dosáhnout"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We reached an important milestone today.",
+      "tts_text": "We reached an important milestone today."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "That's great! Did we achieve it ahead of schedule?",
+      "tts_text": "That's great! Did we achieve it ahead of schedule?"
+    }
+  ]
+}

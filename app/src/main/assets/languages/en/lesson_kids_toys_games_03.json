@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_toys_games_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Outdoor Games",
+  "title_cz": "Hry venku",
+  "vocabulary": [
+    {
+      "word": "hide and seek",
+      "translation_cz": "schovávaná",
+      "example": "Let's play hide and seek.",
+      "example_cz": "Pojďme si hrát na schovávanou.",
+      "tts_text": "Let's play hide and seek."
+    },
+    {
+      "word": "tag",
+      "translation_cz": "honička",
+      "example": "We play tag in the park.",
+      "example_cz": "Hrajeme honičku v parku.",
+      "tts_text": "We play tag in the park."
+    },
+    {
+      "word": "jump rope",
+      "translation_cz": "skákací guma / švihadlo",
+      "example": "I like to jump rope.",
+      "example_cz": "Ráda skáču přes švihadlo.",
+      "tts_text": "I like to jump rope."
+    },
+    {
+      "word": "swing",
+      "translation_cz": "houpačka",
+      "example": "I love the swing.",
+      "example_cz": "Mám ráda houpačku.",
+      "tts_text": "I love the swing."
+    },
+    {
+      "word": "slide",
+      "translation_cz": "skluzavka",
+      "example": "The slide is fast.",
+      "example_cz": "Skluzavka je rychlá.",
+      "tts_text": "The slide is fast."
+    },
+    {
+      "word": "run",
+      "translation_cz": "běhat",
+      "example": "We run and play outside.",
+      "example_cz": "Venku běháme a hrajeme si.",
+      "tts_text": "We run and play outside."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "tag",
+      "options": [
+        "honička",
+        "schovávaná",
+        "houpačka"
+      ],
+      "correct": "honička"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's play ___ and seek.",
+      "answer": "hide",
+      "hint_cz": "schovávanou"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "jump rope",
+          "cz": "skákací guma / švihadlo"
+        },
+        {
+          "target": "swing",
+          "cz": "houpačka"
+        },
+        {
+          "target": "slide",
+          "cz": "skluzavka"
+        },
+        {
+          "target": "run",
+          "cz": "běhat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's play hide and seek.",
+      "tts_text": "Let's play hide and seek."
+    }
+  ]
+}

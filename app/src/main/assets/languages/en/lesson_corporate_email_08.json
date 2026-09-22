@@ -1,0 +1,138 @@
+{
+  "id": "en_adult_corporate_email_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Following up on an unanswered email",
+  "title_cz": "Připomenutí nezodpovězeného e-mailu",
+  "vocabulary": [
+    {
+      "word": "just following up",
+      "translation_cz": "jen se ozývám znovu",
+      "example": "Just following up on my previous email.",
+      "example_cz": "Jen se ozývám znovu ohledně mého předchozího e-mailu.",
+      "tts_text": "Just following up on my previous email."
+    },
+    {
+      "word": "haven't heard back",
+      "translation_cz": "neozval/a jste se mi",
+      "example": "I haven't heard back from you yet.",
+      "example_cz": "Zatím jste se mi neozval/a.",
+      "tts_text": "I haven't heard back from you yet."
+    },
+    {
+      "word": "gentle reminder",
+      "translation_cz": "přátelské připomenutí",
+      "example": "This is a gentle reminder about my request.",
+      "example_cz": "Toto je přátelské připomenutí mé žádosti.",
+      "tts_text": "This is a gentle reminder about my request."
+    },
+    {
+      "word": "in case you missed it",
+      "translation_cz": "pro případ, že vám to uniklo",
+      "example": "In case you missed it, I've attached the file again.",
+      "example_cz": "Pro případ, že vám to uniklo, přikládám soubor znovu.",
+      "tts_text": "In case you missed it, I've attached the file again."
+    },
+    {
+      "word": "time-sensitive",
+      "translation_cz": "časově citlivé",
+      "example": "This matter is time-sensitive.",
+      "example_cz": "Tato záležitost je časově citlivá.",
+      "tts_text": "This matter is time-sensitive."
+    },
+    {
+      "word": "kindly respond",
+      "translation_cz": "prosím odpovězte",
+      "example": "Could you kindly respond by tomorrow?",
+      "example_cz": "Mohl byste prosím odpovědět do zítřka?",
+      "tts_text": "Could you kindly respond by tomorrow?"
+    },
+    {
+      "word": "still waiting for",
+      "translation_cz": "stále čekám na",
+      "example": "I'm still waiting for your confirmation.",
+      "example_cz": "Stále čekám na vaše potvrzení.",
+      "tts_text": "I'm still waiting for your confirmation."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_followup_email",
+      "title": "Sending a polite reminder",
+      "title_cz": "Zdvořilé připomenutí",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Just following up on my previous email about the contract.",
+          "text_cz": "Jen se ozývám znovu ohledně mého předchozího e-mailu ke smlouvě."
+        },
+        {
+          "speaker": "A",
+          "text": "I haven't heard back from you yet, and the matter is time-sensitive.",
+          "text_cz": "Zatím jste se mi neozval, a záležitost je časově citlivá."
+        },
+        {
+          "speaker": "B",
+          "text": "Sorry for the delay. I'm still reviewing it and will respond today.",
+          "text_cz": "Omlouvám se za zpoždění. Stále to procházím a dnes odpovím."
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you, I'm still waiting for your confirmation to proceed.",
+          "text_cz": "Děkuji, stále čekám na vaše potvrzení, abychom mohli pokračovat."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "time-sensitive",
+      "options": [
+        "časově citlivé",
+        "stále čekám",
+        "zavádějící"
+      ],
+      "correct": "časově citlivé"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I haven't heard ___ from you yet.",
+      "answer": "back",
+      "hint_cz": "ozval se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "gentle reminder",
+          "cz": "přátelské připomenutí"
+        },
+        {
+          "target": "kindly respond",
+          "cz": "prosím odpovězte"
+        },
+        {
+          "target": "still waiting for",
+          "cz": "stále čekám na"
+        },
+        {
+          "target": "in case you missed it",
+          "cz": "pro případ, že vám to uniklo"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Just following up on my previous email.",
+      "tts_text": "Just following up on my previous email."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Could you kindly ___ by tomorrow?",
+      "answer": "respond",
+      "hint_cz": "odpovědět"
+    }
+  ]
+}

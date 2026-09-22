@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_negotiation_sales_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Following Up with a Client",
+  "title_cz": "Následná komunikace s klientem",
+  "vocabulary": [
+    {
+      "word": "check in",
+      "translation_cz": "ozvat se / zjistit stav",
+      "example": "I'm just checking in on our last conversation.",
+      "example_cz": "Jen se ozývám ohledně naší poslední konverzace.",
+      "tts_text": "I'm just checking in on our last conversation."
+    },
+    {
+      "word": "touch base",
+      "translation_cz": "spojit se / dát vědět",
+      "example": "Let's touch base next week.",
+      "example_cz": "Spojme se příští týden.",
+      "tts_text": "Let's touch base next week."
+    },
+    {
+      "word": "update you",
+      "translation_cz": "informovat vás",
+      "example": "I wanted to update you on the delivery status.",
+      "example_cz": "Chtěl jsem vás informovat o stavu doručení.",
+      "tts_text": "I wanted to update you on the delivery status."
+    },
+    {
+      "word": "any feedback",
+      "translation_cz": "nějaká zpětná vazba",
+      "example": "Do you have any feedback on our proposal?",
+      "example_cz": "Máte nějakou zpětnou vazbu k naší nabídce?",
+      "tts_text": "Do you have any feedback on our proposal?"
+    },
+    {
+      "word": "stay in touch",
+      "translation_cz": "zůstat v kontaktu",
+      "example": "Let's stay in touch over the next few weeks.",
+      "example_cz": "Zůstaňme v kontaktu během několika příštích týdnů.",
+      "tts_text": "Let's stay in touch over the next few weeks."
+    },
+    {
+      "word": "gentle reminder",
+      "translation_cz": "jemné připomenutí",
+      "example": "This is just a gentle reminder about the offer.",
+      "example_cz": "Toto je jen jemné připomenutí ohledně nabídky.",
+      "tts_text": "This is just a gentle reminder about the offer."
+    },
+    {
+      "word": "next conversation",
+      "translation_cz": "další rozhovor",
+      "example": "I look forward to our next conversation.",
+      "example_cz": "Těším se na náš další rozhovor.",
+      "tts_text": "I look forward to our next conversation."
+    },
+    {
+      "word": "maintain the relationship",
+      "translation_cz": "udržovat vztah",
+      "example": "It's important to maintain the relationship with the client.",
+      "example_cz": "Je důležité udržovat vztah s klientem.",
+      "tts_text": "It's important to maintain the relationship with the client."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_followup_client",
+      "title": "Following up after a proposal",
+      "title_cz": "Následná komunikace po nabídce",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi, I'm just checking in on our proposal from last week.",
+          "text_cz": "Dobrý den, jen se ozývám ohledně naší nabídky z minulého týdne."
+        },
+        {
+          "speaker": "B",
+          "text": "Thanks for reaching out, we're still reviewing it internally.",
+          "text_cz": "Díky za oslovení, stále to interně posuzujeme."
+        },
+        {
+          "speaker": "A",
+          "text": "No problem, let's touch base again next week. Any feedback so far?",
+          "text_cz": "Žádný problém, spojme se znovu příští týden. Máte prozatím nějakou zpětnou vazbu?"
+        },
+        {
+          "speaker": "B",
+          "text": "The team likes it, we just need final sign-off.",
+          "text_cz": "Tým se to líbí, jen potřebujeme konečné schválení."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "check in",
+      "options": [
+        "ozvat se / zjistit stav",
+        "informovat vás",
+        "nějaká zpětná vazba"
+      ],
+      "correct": "ozvat se / zjistit stav"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's ___ next week.",
+      "answer": "touch base",
+      "hint_cz": "spojit se / dát vědět"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's ___ over the next few weeks.",
+      "answer": "stay in touch",
+      "hint_cz": "zůstat v kontaktu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "gentle reminder",
+          "cz": "jemné připomenutí"
+        },
+        {
+          "target": "next conversation",
+          "cz": "další rozhovor"
+        },
+        {
+          "target": "maintain the relationship",
+          "cz": "udržovat vztah"
+        },
+        {
+          "target": "update you",
+          "cz": "informovat vás"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Hi, I'm just checking in on our proposal from last week.",
+      "tts_text": "Hi, I'm just checking in on our proposal from last week."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Thanks for reaching out, we're still reviewing it internally.",
+      "tts_text": "Thanks for reaching out, we're still reviewing it internally."
+    }
+  ]
+}

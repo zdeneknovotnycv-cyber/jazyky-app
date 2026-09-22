@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_school_classroom_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "School Trips",
+  "title_cz": "Školní výlety",
+  "vocabulary": [
+    {
+      "word": "der Schulausflug",
+      "translation_cz": "školní výlet",
+      "example": "Wir haben morgen einen Schulausflug.",
+      "example_cz": "Zítra máme školní výlet.",
+      "tts_text": "Wir haben morgen einen Schulausflug."
+    },
+    {
+      "word": "der Bus",
+      "translation_cz": "autobus",
+      "example": "Wir fahren mit dem Bus.",
+      "example_cz": "Cestujeme autobusem.",
+      "tts_text": "Wir fahren mit dem Bus."
+    },
+    {
+      "word": "das Museum",
+      "translation_cz": "muzeum",
+      "example": "Wir besuchen ein Museum.",
+      "example_cz": "Navštívíme muzeum.",
+      "tts_text": "Wir besuchen ein Museum."
+    },
+    {
+      "word": "der Reiseführer",
+      "translation_cz": "průvodce",
+      "example": "Der Reiseführer zeigt uns alles.",
+      "example_cz": "Průvodce nás provede.",
+      "tts_text": "Der Reiseführer zeigt uns alles."
+    },
+    {
+      "word": "die Karte",
+      "translation_cz": "mapa",
+      "example": "Ich halte die Karte.",
+      "example_cz": "Držím mapu.",
+      "tts_text": "Ich halte die Karte."
+    },
+    {
+      "word": "aufgeregt",
+      "translation_cz": "nadšený",
+      "example": "Ich bin aufgeregt wegen des Ausflugs.",
+      "example_cz": "Jsem nadšený z výletu.",
+      "tts_text": "Ich bin aufgeregt wegen des Ausflugs."
+    },
+    {
+      "word": "das Picknick",
+      "translation_cz": "piknik",
+      "example": "Wir machen ein Picknick im Park.",
+      "example_cz": "Máme piknik v parku.",
+      "tts_text": "Wir machen ein Picknick im Park."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Museum",
+      "options": [
+        "muzeum",
+        "autobus",
+        "mapa"
+      ],
+      "correct": "muzeum"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir fahren mit dem ___.",
+      "answer": "Bus",
+      "hint_cz": "autobusem"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Schulausflug",
+          "cz": "školní výlet"
+        },
+        {
+          "target": "der Reiseführer",
+          "cz": "průvodce"
+        },
+        {
+          "target": "die Karte",
+          "cz": "mapa"
+        },
+        {
+          "target": "das Picknick",
+          "cz": "piknik"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich bin aufgeregt wegen des Ausflugs.",
+      "tts_text": "Ich bin aufgeregt wegen des Ausflugs."
+    }
+  ]
+}

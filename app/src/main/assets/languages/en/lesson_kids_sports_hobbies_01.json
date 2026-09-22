@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_sports_hobbies_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Football",
+  "title_cz": "Fotbal",
+  "vocabulary": [
+    {
+      "word": "football",
+      "translation_cz": "fotbal",
+      "example": "I play football with my friends.",
+      "example_cz": "Hraji fotbal se svými kamarády.",
+      "tts_text": "I play football with my friends."
+    },
+    {
+      "word": "ball",
+      "translation_cz": "míč",
+      "example": "Kick the ball to me.",
+      "example_cz": "Kopni mi míč.",
+      "tts_text": "Kick the ball to me."
+    },
+    {
+      "word": "goal",
+      "translation_cz": "gól",
+      "example": "He scored a goal!",
+      "example_cz": "Vstřelil gól!",
+      "tts_text": "He scored a goal!"
+    },
+    {
+      "word": "team",
+      "translation_cz": "tým",
+      "example": "We are on the same team.",
+      "example_cz": "Jsme ve stejném týmu.",
+      "tts_text": "We are on the same team."
+    },
+    {
+      "word": "player",
+      "translation_cz": "hráč",
+      "example": "My favorite player is very fast.",
+      "example_cz": "Můj oblíbený hráč je velmi rychlý.",
+      "tts_text": "My favorite player is very fast."
+    },
+    {
+      "word": "win",
+      "translation_cz": "vyhrát",
+      "example": "Our team wants to win.",
+      "example_cz": "Náš tým chce vyhrát.",
+      "tts_text": "Our team wants to win."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "goal",
+      "options": [
+        "gól",
+        "míč",
+        "hráč"
+      ],
+      "correct": "gól"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Kick the ___ to me.",
+      "answer": "ball",
+      "hint_cz": "míč"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "football",
+          "cz": "fotbal"
+        },
+        {
+          "target": "team",
+          "cz": "tým"
+        },
+        {
+          "target": "player",
+          "cz": "hráč"
+        },
+        {
+          "target": "win",
+          "cz": "vyhrát"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "He scored a goal!",
+      "tts_text": "He scored a goal!"
+    }
+  ]
+}

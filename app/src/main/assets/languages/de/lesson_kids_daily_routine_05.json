@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_daily_routine_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Hausaufgabenzeit",
+  "title_cz": "Čas na domácí úkoly",
+  "vocabulary": [
+    {
+      "word": "die Hausaufgabe",
+      "translation_cz": "domácí úkol",
+      "example": "Ich mache meine Hausaufgabe am Schreibtisch.",
+      "example_cz": "Dělám domácí úkol u psacího stolu.",
+      "tts_text": "Ich mache meine Hausaufgabe am Schreibtisch."
+    },
+    {
+      "word": "der Bleistift",
+      "translation_cz": "tužka",
+      "example": "Ich schreibe mit einem Bleistift.",
+      "example_cz": "Píšu tužkou.",
+      "tts_text": "Ich schreibe mit einem Bleistift."
+    },
+    {
+      "word": "das Heft",
+      "translation_cz": "sešit",
+      "example": "Ich öffne mein Heft.",
+      "example_cz": "Otevírám si sešit.",
+      "tts_text": "Ich öffne mein Heft."
+    },
+    {
+      "word": "schwierig",
+      "translation_cz": "těžký",
+      "example": "Diese Matheaufgabe ist schwierig.",
+      "example_cz": "Tento matematický příklad je těžký.",
+      "tts_text": "Diese Matheaufgabe ist schwierig."
+    },
+    {
+      "word": "die Hilfe",
+      "translation_cz": "pomoc",
+      "example": "Mein Papa hilft mir bei den Hausaufgaben.",
+      "example_cz": "Táta mi pomáhá s úkolem.",
+      "tts_text": "Mein Papa hilft mir bei den Hausaufgaben."
+    },
+    {
+      "word": "fertig machen",
+      "translation_cz": "dokončit",
+      "example": "Ich mache meine Hausaufgabe vor dem Abendessen fertig.",
+      "example_cz": "Úkol dokončím před večeří.",
+      "tts_text": "Ich mache meine Hausaufgabe vor dem Abendessen fertig."
+    },
+    {
+      "word": "sich konzentrieren",
+      "translation_cz": "soustředit se",
+      "example": "Ich versuche, mich zu konzentrieren.",
+      "example_cz": "Snažím se soustředit na práci.",
+      "tts_text": "Ich versuche, mich zu konzentrieren."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Hausaufgabe",
+      "options": [
+        "domácí úkol",
+        "tužka",
+        "sešit"
+      ],
+      "correct": "domácí úkol"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich schreibe mit einem ___.",
+      "answer": "Bleistift",
+      "hint_cz": "tužka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Heft",
+          "cz": "sešit"
+        },
+        {
+          "target": "schwierig",
+          "cz": "těžký"
+        },
+        {
+          "target": "die Hilfe",
+          "cz": "pomoc"
+        },
+        {
+          "target": "fertig machen",
+          "cz": "dokončit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich versuche, mich zu konzentrieren.",
+      "tts_text": "Ich versuche, mich zu konzentrieren."
+    }
+  ]
+}

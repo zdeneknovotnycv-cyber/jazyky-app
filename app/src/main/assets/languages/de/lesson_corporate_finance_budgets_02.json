@@ -1,0 +1,47 @@
+{
+  "id": "de_corporate_finance_budgets_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Ausgabe genehmigen",
+  "title_cz": "Schválení výdaje",
+  "vocabulary": [
+    {"word": "die Ausgabe", "translation_cz": "výdaj", "example": "Bitte reichen Sie diese Ausgabe zur Genehmigung ein.", "example_cz": "Zašlete prosím tento výdaj ke schválení.", "tts_text": "Bitte reichen Sie diese Ausgabe zur Genehmigung ein."},
+    {"word": "die Genehmigung", "translation_cz": "schválení", "example": "Ich brauche Ihre Genehmigung, bevor ich fortfahre.", "example_cz": "Potřebuji vaše schválení, než budu pokračovat.", "tts_text": "Ich brauche Ihre Genehmigung, bevor ich fortfahre."},
+    {"word": "die Quittung", "translation_cz": "účtenka / doklad", "example": "Bitte fügen Sie die Quittung Ihrem Antrag bei.", "example_cz": "Přiložte prosím doklad ke svému nároku.", "tts_text": "Bitte fügen Sie die Quittung Ihrem Antrag bei."},
+    {"word": "die Erstattung", "translation_cz": "proplacení", "example": "Sie erhalten die Erstattung innerhalb einer Woche.", "example_cz": "Proplacení obdržíte do týdne.", "tts_text": "Sie erhalten die Erstattung innerhalb einer Woche."},
+    {"word": "das Ausgabenlimit", "translation_cz": "limit výdajů", "example": "Das liegt innerhalb des Ausgabenlimits der Abteilung.", "example_cz": "Toto spadá do limitu výdajů oddělení.", "tts_text": "Das liegt innerhalb des Ausgabenlimits der Abteilung."},
+    {"word": "genehmigen", "translation_cz": "schválit / autorizovat", "example": "Nur der Manager kann diese Ausgabe genehmigen.", "example_cz": "Tento výdaj může schválit pouze manažer.", "tts_text": "Nur der Manager kann diese Ausgabe genehmigen."},
+    {"word": "die Kostenstelle", "translation_cz": "nákladové středisko", "example": "Welcher Kostenstelle soll das belastet werden?", "example_cz": "Na jaké nákladové středisko to má být účtováno?", "tts_text": "Welcher Kostenstelle soll das belastet werden?"},
+    {"word": "die Begründung", "translation_cz": "odůvodnění", "example": "Bitte fügen Sie eine kurze Begründung für den Kauf hinzu.", "example_cz": "Přidejte prosím krátké odůvodnění nákupu.", "tts_text": "Bitte fügen Sie eine kurze Begründung für den Kauf hinzu."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_expense_approval",
+      "title": "Um Genehmigung einer Ausgabe bitten",
+      "title_cz": "Žádost o schválení výdaje",
+      "lines": [
+        {"speaker": "A", "text": "Ich brauche Ihre Genehmigung für diesen Softwarekauf.", "text_cz": "Potřebuji vaše schválení na nákup tohoto softwaru."},
+        {"speaker": "B", "text": "Klar, haben Sie die Quittung und die Begründung?", "text_cz": "Jistě, máte doklad a odůvodnění?"},
+        {"speaker": "A", "text": "Ja, beides ist dem Antrag beigefügt.", "text_cz": "Ano, obojí je přiloženo k žádosti."},
+        {"speaker": "B", "text": "Das liegt innerhalb unseres Ausgabenlimits, also genehmige ich es jetzt.", "text_cz": "Je to v rámci našeho limitu výdajů, takže to teď schvaluji."}
+      ]
+    },
+    {
+      "id": "conv_reimbursement",
+      "title": "Über die Erstattung sprechen",
+      "title_cz": "Rozhovor o proplacení",
+      "lines": [
+        {"speaker": "A", "text": "Wann kann ich mit der Erstattung meiner Reisekosten rechnen?", "text_cz": "Kdy mohu očekávat proplacení svých cestovních výdajů?"},
+        {"speaker": "B", "text": "Sobald wir die Kostenstelle bestätigt haben, dauert es meist eine Woche.", "text_cz": "Jakmile potvrdíme nákladové středisko, obvykle to trvá týden."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "die Erstattung", "options": ["proplacení", "výdaj", "schválení"], "correct": "proplacení"},
+    {"type": "fill_gap", "sentence": "Bitte fügen Sie die ___ Ihrem Antrag bei.", "answer": "Quittung", "hint_cz": "doklad"},
+    {"type": "match_pairs", "pairs": [{"target": "die Ausgabe", "cz": "výdaj"}, {"target": "genehmigen", "cz": "autorizovat"}, {"target": "die Kostenstelle", "cz": "nákladové středisko"}, {"target": "die Begründung", "cz": "odůvodnění"}]},
+    {"type": "speak_and_check", "target_phrase": "Nur der Manager kann diese Ausgabe genehmigen.", "tts_text": "Nur der Manager kann diese Ausgabe genehmigen."},
+    {"type": "fill_gap", "sentence": "Das liegt innerhalb des Ausgaben___ der Abteilung.", "answer": "limits", "hint_cz": "limit"}
+  ]
+}

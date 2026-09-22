@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_body_health_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Washing and Hygiene",
+  "title_cz": "Mytí a hygiena",
+  "vocabulary": [
+    {
+      "word": "Hände waschen",
+      "translation_cz": "mýt si ruce",
+      "example": "Ich wasche meine Hände vor dem Essen.",
+      "example_cz": "Myji si ruce před jídlem.",
+      "tts_text": "Ich wasche meine Hände vor dem Essen."
+    },
+    {
+      "word": "die Seife",
+      "translation_cz": "mýdlo",
+      "example": "Ich benutze Seife und Wasser.",
+      "example_cz": "Používám mýdlo a vodu.",
+      "tts_text": "Ich benutze Seife und Wasser."
+    },
+    {
+      "word": "duschen",
+      "translation_cz": "sprchovat se",
+      "example": "Ich dusche jeden Tag.",
+      "example_cz": "Sprchuji se každý den.",
+      "tts_text": "Ich dusche jeden Tag."
+    },
+    {
+      "word": "das Handtuch",
+      "translation_cz": "ručník",
+      "example": "Ich trockne mich mit einem Handtuch ab.",
+      "example_cz": "Osušuji se ručníkem.",
+      "tts_text": "Ich trockne mich mit einem Handtuch ab."
+    },
+    {
+      "word": "die Haare kämmen",
+      "translation_cz": "česat si vlasy",
+      "example": "Ich kämme meine Haare am Morgen.",
+      "example_cz": "Ráno si česám vlasy.",
+      "tts_text": "Ich kämme meine Haare am Morgen."
+    },
+    {
+      "word": "sauber",
+      "translation_cz": "čistý",
+      "example": "Meine Hände sind jetzt sauber.",
+      "example_cz": "Moje ruce jsou teď čisté.",
+      "tts_text": "Meine Hände sind jetzt sauber."
+    },
+    {
+      "word": "Zähne putzen",
+      "translation_cz": "čistit si zuby",
+      "example": "Ich putze zweimal am Tag meine Zähne.",
+      "example_cz": "Zuby si čistím dvakrát denně.",
+      "tts_text": "Ich putze zweimal am Tag meine Zähne."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Seife",
+      "options": [
+        "mýdlo",
+        "ručník",
+        "kartáček"
+      ],
+      "correct": "mýdlo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ jeden Tag.",
+      "answer": "dusche",
+      "hint_cz": "sprchuji se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Handtuch",
+          "cz": "ručník"
+        },
+        {
+          "target": "die Haare kämmen",
+          "cz": "česat si vlasy"
+        },
+        {
+          "target": "sauber",
+          "cz": "čistý"
+        },
+        {
+          "target": "Zähne putzen",
+          "cz": "čistit si zuby"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich wasche meine Hände vor dem Essen.",
+      "tts_text": "Ich wasche meine Hände vor dem Essen."
+    }
+  ]
+}

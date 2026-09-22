@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_toys_games_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Building Blocks",
+  "title_cz": "Stavebnice",
+  "vocabulary": [
+    {
+      "word": "building blocks",
+      "translation_cz": "stavebnice",
+      "example": "I build a tower with building blocks.",
+      "example_cz": "Ze stavebnice stavím věž.",
+      "tts_text": "I build a tower with building blocks."
+    },
+    {
+      "word": "tower",
+      "translation_cz": "věž",
+      "example": "My tower is very tall.",
+      "example_cz": "Moje věž je velmi vysoká.",
+      "tts_text": "My tower is very tall."
+    },
+    {
+      "word": "build",
+      "translation_cz": "stavět",
+      "example": "Let's build a house.",
+      "example_cz": "Pojďme postavit dům.",
+      "tts_text": "Let's build a house."
+    },
+    {
+      "word": "brick",
+      "translation_cz": "kostička",
+      "example": "This brick is blue.",
+      "example_cz": "Tato kostička je modrá.",
+      "tts_text": "This brick is blue."
+    },
+    {
+      "word": "fall down",
+      "translation_cz": "spadnout",
+      "example": "The tower fell down.",
+      "example_cz": "Věž spadla.",
+      "tts_text": "The tower fell down."
+    },
+    {
+      "word": "castle",
+      "translation_cz": "hrad",
+      "example": "I built a big castle.",
+      "example_cz": "Postavil jsem velký hrad.",
+      "tts_text": "I built a big castle."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "tower",
+      "options": [
+        "věž",
+        "hrad",
+        "kostička"
+      ],
+      "correct": "věž"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's ___ a house.",
+      "answer": "build",
+      "hint_cz": "postavit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "building blocks",
+          "cz": "stavebnice"
+        },
+        {
+          "target": "brick",
+          "cz": "kostička"
+        },
+        {
+          "target": "fall down",
+          "cz": "spadnout"
+        },
+        {
+          "target": "castle",
+          "cz": "hrad"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I build a tower with building blocks.",
+      "tts_text": "I build a tower with building blocks."
+    }
+  ]
+}

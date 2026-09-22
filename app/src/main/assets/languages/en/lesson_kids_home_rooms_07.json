@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_home_rooms_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Cleaning the House",
+  "title_cz": "Uklízení domu",
+  "vocabulary": [
+    {
+      "word": "clean",
+      "translation_cz": "uklízet",
+      "example": "We clean the house on Saturday.",
+      "example_cz": "V sobotu uklízíme dům.",
+      "tts_text": "We clean the house on Saturday."
+    },
+    {
+      "word": "vacuum cleaner",
+      "translation_cz": "vysavač",
+      "example": "Mom uses the vacuum cleaner.",
+      "example_cz": "Maminka používá vysavač.",
+      "tts_text": "Mom uses the vacuum cleaner."
+    },
+    {
+      "word": "broom",
+      "translation_cz": "koště",
+      "example": "I sweep with a broom.",
+      "example_cz": "Zametám koštětem.",
+      "tts_text": "I sweep with a broom."
+    },
+    {
+      "word": "tidy up",
+      "translation_cz": "uklidit / poklidit",
+      "example": "I tidy up my room.",
+      "example_cz": "Uklízím si pokoj.",
+      "tts_text": "I tidy up my room."
+    },
+    {
+      "word": "dust",
+      "translation_cz": "prach",
+      "example": "There is a lot of dust.",
+      "example_cz": "Je tu hodně prachu.",
+      "tts_text": "There is a lot of dust."
+    },
+    {
+      "word": "trash",
+      "translation_cz": "odpadky",
+      "example": "I take out the trash.",
+      "example_cz": "Vynáším odpadky.",
+      "tts_text": "I take out the trash."
+    },
+    {
+      "word": "wash the dishes",
+      "translation_cz": "mýt nádobí",
+      "example": "Dad washes the dishes.",
+      "example_cz": "Tatínek myje nádobí.",
+      "tts_text": "Dad washes the dishes."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "vacuum cleaner",
+      "options": [
+        "vysavač",
+        "koště",
+        "odpadky"
+      ],
+      "correct": "vysavač"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ up my room.",
+      "answer": "tidy",
+      "hint_cz": "uklízet"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "broom",
+          "cz": "koště"
+        },
+        {
+          "target": "dust",
+          "cz": "prach"
+        },
+        {
+          "target": "trash",
+          "cz": "odpadky"
+        },
+        {
+          "target": "wash the dishes",
+          "cz": "mýt nádobí"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We clean the house on Saturday.",
+      "tts_text": "We clean the house on Saturday."
+    }
+  ]
+}

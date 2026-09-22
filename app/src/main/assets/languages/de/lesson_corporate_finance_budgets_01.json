@@ -1,0 +1,49 @@
+{
+  "id": "de_corporate_finance_budgets_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über das Budget sprechen",
+  "title_cz": "Rozhovor o rozpočtu",
+  "vocabulary": [
+    {"word": "das Budget", "translation_cz": "rozpočet", "example": "Wir müssen das Marketingbudget überprüfen.", "example_cz": "Musíme zkontrolovat marketingový rozpočet.", "tts_text": "Wir müssen das Marketingbudget überprüfen."},
+    {"word": "Mittel zuweisen", "translation_cz": "přidělit finanční prostředky", "example": "Wir planen, mehr Mittel für die Forschung zuzuweisen.", "example_cz": "Plánujeme přidělit více finančních prostředků na výzkum.", "tts_text": "Wir planen, mehr Mittel für die Forschung zuzuweisen."},
+    {"word": "das Budget überschreiten", "translation_cz": "utratit více než plánováno", "example": "Wir haben dieses Quartal das Werbebudget überschritten.", "example_cz": "Toto čtvrtletí jsme překročili rozpočet na reklamu.", "tts_text": "Wir haben dieses Quartal das Werbebudget überschritten."},
+    {"word": "unter dem Budget", "translation_cz": "pod rozpočtem", "example": "Das Projekt wurde unter dem Budget abgeschlossen.", "example_cz": "Projekt skončil pod rozpočtem.", "tts_text": "Das Projekt wurde unter dem Budget abgeschlossen."},
+    {"word": "die Prognose", "translation_cz": "prognóza", "example": "Unsere finanzielle Prognose sieht positiv aus.", "example_cz": "Naše finanční prognóza vypadá pozitivně.", "tts_text": "Unsere finanzielle Prognose sieht positiv aus."},
+    {"word": "die Kostenschätzung", "translation_cz": "odhad nákladů", "example": "Bitte erstellen Sie eine Kostenschätzung für das Projekt.", "example_cz": "Připravte prosím odhad nákladů na projekt.", "tts_text": "Bitte erstellen Sie eine Kostenschätzung für das Projekt."},
+    {"word": "das Geschäftsjahr", "translation_cz": "fiskální rok", "example": "Das neue Budget beginnt im nächsten Geschäftsjahr.", "example_cz": "Nový rozpočet začíná v příštím fiskálním roce.", "tts_text": "Das neue Budget beginnt im nächsten Geschäftsjahr."},
+    {"word": "der Umsatz", "translation_cz": "výnosy / tržby", "example": "Der Umsatz ist um zehn Prozent gestiegen.", "example_cz": "Tržby vzrostly o deset procent.", "tts_text": "Der Umsatz ist um zehn Prozent gestiegen."},
+    {"word": "die Ausgaben", "translation_cz": "výdaje", "example": "Wir müssen unsere monatlichen Ausgaben senken.", "example_cz": "Musíme snížit naše měsíční výdaje.", "tts_text": "Wir müssen unsere monatlichen Ausgaben senken."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_budget_review",
+      "title": "Das Abteilungsbudget überprüfen",
+      "title_cz": "Kontrola oddělení rozpočtu",
+      "lines": [
+        {"speaker": "A", "text": "Lassen Sie uns das Marketingbudget für dieses Quartal überprüfen.", "text_cz": "Pojďme zkontrolovat marketingový rozpočet pro toto čtvrtletí."},
+        {"speaker": "B", "text": "Wir haben das Werbebudget leicht überschritten.", "text_cz": "Rozpočet na reklamu jsme mírně překročili."},
+        {"speaker": "A", "text": "Das ist in Ordnung, da das Projekt insgesamt unter dem Budget blieb.", "text_cz": "To je v pořádku, protože projekt celkově skončil pod rozpočtem."},
+        {"speaker": "B", "text": "Ich aktualisiere die Prognose für das nächste Quartal.", "text_cz": "Aktualizuji prognózu pro příští čtvrtletí."}
+      ]
+    },
+    {
+      "id": "conv_allocate_funds",
+      "title": "Mittel für ein neues Projekt zuweisen",
+      "title_cz": "Přidělení prostředků na nový projekt",
+      "lines": [
+        {"speaker": "A", "text": "Können wir zusätzliche Mittel für das neue Projekt zuweisen?", "text_cz": "Můžeme přidělit dodatečné finanční prostředky na nový projekt?"},
+        {"speaker": "B", "text": "Das hängt von unseren aktuellen Ausgaben im Vergleich zum Umsatz ab.", "text_cz": "Záleží to na našich aktuálních výdajích v porovnání s tržbami."},
+        {"speaker": "A", "text": "Ich erstelle bis Freitag eine Kostenschätzung.", "text_cz": "Do pátku připravím odhad nákladů."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "das Budget", "options": ["rozpočet", "výnosy", "prognóza"], "correct": "rozpočet"},
+    {"type": "fill_gap", "sentence": "Das Projekt wurde unter dem ___ abgeschlossen.", "answer": "Budget", "hint_cz": "rozpočet"},
+    {"type": "match_pairs", "pairs": [{"target": "der Umsatz", "cz": "výnosy"}, {"target": "die Ausgaben", "cz": "výdaje"}, {"target": "die Prognose", "cz": "prognóza"}, {"target": "das Geschäftsjahr", "cz": "fiskální rok"}]},
+    {"type": "speak_and_check", "target_phrase": "Bitte erstellen Sie eine Kostenschätzung für das Projekt.", "tts_text": "Bitte erstellen Sie eine Kostenschätzung für das Projekt."},
+    {"type": "fill_gap", "sentence": "Wir planen, mehr Mittel für die Forschung ___.", "answer": "zuzuweisen", "hint_cz": "přidělit"}
+  ]
+}

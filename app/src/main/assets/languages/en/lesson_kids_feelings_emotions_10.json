@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_feelings_emotions_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Talking about feelings",
+  "title_cz": "Mluvení o pocitech",
+  "vocabulary": [
+    {
+      "word": "feel",
+      "translation_cz": "cítit se",
+      "example": "How do you feel today?",
+      "example_cz": "Jak se dnes cítíš?",
+      "tts_text": "How do you feel today?"
+    },
+    {
+      "word": "talk about it",
+      "translation_cz": "mluvit o tom",
+      "example": "It helps to talk about it.",
+      "example_cz": "Pomáhá o tom mluvit.",
+      "tts_text": "It helps to talk about it."
+    },
+    {
+      "word": "listen",
+      "translation_cz": "naslouchat",
+      "example": "I listen when my friend is sad.",
+      "example_cz": "Naslouchám, když je můj kamarád smutný.",
+      "tts_text": "I listen when my friend is sad."
+    },
+    {
+      "word": "understand",
+      "translation_cz": "rozumět",
+      "example": "I try to understand your feelings.",
+      "example_cz": "Snažím se rozumět tvým pocitům.",
+      "tts_text": "I try to understand your feelings."
+    },
+    {
+      "word": "honest",
+      "translation_cz": "upřímný",
+      "example": "It's good to be honest about feelings.",
+      "example_cz": "Je dobré být upřímný ohledně pocitů.",
+      "tts_text": "It's good to be honest about feelings."
+    },
+    {
+      "word": "comfort",
+      "translation_cz": "utěšit",
+      "example": "I comfort my sister when she cries.",
+      "example_cz": "Utěšuji sestru, když pláče.",
+      "tts_text": "I comfort my sister when she cries."
+    },
+    {
+      "word": "better",
+      "translation_cz": "lépe",
+      "example": "I feel better after talking.",
+      "example_cz": "Po rozhovoru se cítím lépe.",
+      "tts_text": "I feel better after talking."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "feel",
+      "options": [
+        "cítit se",
+        "smutný",
+        "radost"
+      ],
+      "correct": "cítit se"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I try to ___ your feelings.",
+      "answer": "understand",
+      "hint_cz": "rozumět"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "talk about it",
+          "cz": "mluvit o tom"
+        },
+        {
+          "target": "listen",
+          "cz": "naslouchat"
+        },
+        {
+          "target": "understand",
+          "cz": "rozumět"
+        },
+        {
+          "target": "honest",
+          "cz": "upřímný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It helps to talk about it.",
+      "tts_text": "It helps to talk about it."
+    }
+  ]
+}

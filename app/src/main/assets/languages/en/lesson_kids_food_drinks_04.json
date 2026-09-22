@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_food_drinks_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Fruits",
+  "title_cz": "Ovoce",
+  "vocabulary": [
+    {
+      "word": "apple",
+      "translation_cz": "jablko",
+      "example": "I eat an apple every day.",
+      "example_cz": "Jím jablko každý den.",
+      "tts_text": "I eat an apple every day."
+    },
+    {
+      "word": "banana",
+      "translation_cz": "banán",
+      "example": "The banana is yellow.",
+      "example_cz": "Banán je žlutý.",
+      "tts_text": "The banana is yellow."
+    },
+    {
+      "word": "orange",
+      "translation_cz": "pomeranč",
+      "example": "The orange is sweet.",
+      "example_cz": "Pomeranč je sladký.",
+      "tts_text": "The orange is sweet."
+    },
+    {
+      "word": "strawberry",
+      "translation_cz": "jahoda",
+      "example": "I like strawberries in summer.",
+      "example_cz": "V létě mám rád jahody.",
+      "tts_text": "I like strawberries in summer."
+    },
+    {
+      "word": "grapes",
+      "translation_cz": "hrozny",
+      "example": "We buy grapes at the market.",
+      "example_cz": "Kupujeme hrozny na trhu.",
+      "tts_text": "We buy grapes at the market."
+    },
+    {
+      "word": "pear",
+      "translation_cz": "hruška",
+      "example": "The pear is juicy.",
+      "example_cz": "Hruška je šťavnatá.",
+      "tts_text": "The pear is juicy."
+    },
+    {
+      "word": "fruit salad",
+      "translation_cz": "ovocný salát",
+      "example": "We make a fruit salad together.",
+      "example_cz": "Společně děláme ovocný salát.",
+      "tts_text": "We make a fruit salad together."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "apple",
+      "options": [
+        "jablko",
+        "banán",
+        "hruška"
+      ],
+      "correct": "jablko"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is yellow.",
+      "answer": "banana",
+      "hint_cz": "banán"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "orange",
+          "cz": "pomeranč"
+        },
+        {
+          "target": "strawberry",
+          "cz": "jahoda"
+        },
+        {
+          "target": "grapes",
+          "cz": "hrozny"
+        },
+        {
+          "target": "pear",
+          "cz": "hruška"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I eat an apple every day.",
+      "tts_text": "I eat an apple every day."
+    }
+  ]
+}

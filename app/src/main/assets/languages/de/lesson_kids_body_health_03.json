@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_body_health_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Feeling Sick",
+  "title_cz": "Když je mi špatně",
+  "vocabulary": [
+    {
+      "word": "krank",
+      "translation_cz": "nemocný",
+      "example": "Ich fühle mich heute krank.",
+      "example_cz": "Dnes je mi špatně.",
+      "tts_text": "Ich fühle mich heute krank."
+    },
+    {
+      "word": "das Fieber",
+      "translation_cz": "horečka",
+      "example": "Ich habe Fieber.",
+      "example_cz": "Mám horečku.",
+      "tts_text": "Ich habe Fieber."
+    },
+    {
+      "word": "die Kopfschmerzen",
+      "translation_cz": "bolení hlavy",
+      "example": "Ich habe Kopfschmerzen.",
+      "example_cz": "Bolí mě hlava.",
+      "tts_text": "Ich habe Kopfschmerzen."
+    },
+    {
+      "word": "husten",
+      "translation_cz": "kašlat",
+      "example": "Ich huste viel.",
+      "example_cz": "Hodně kašlu.",
+      "tts_text": "Ich huste viel."
+    },
+    {
+      "word": "die Bauchschmerzen",
+      "translation_cz": "bolení bříška",
+      "example": "Ich habe Bauchschmerzen.",
+      "example_cz": "Bolí mě bříško.",
+      "tts_text": "Ich habe Bauchschmerzen."
+    },
+    {
+      "word": "müde",
+      "translation_cz": "unavený",
+      "example": "Ich bin sehr müde.",
+      "example_cz": "Jsem hodně unavený.",
+      "tts_text": "Ich bin sehr müde."
+    },
+    {
+      "word": "sich ausruhen",
+      "translation_cz": "odpočívat",
+      "example": "Ich muss mich im Bett ausruhen.",
+      "example_cz": "Potřebuji odpočívat v posteli.",
+      "tts_text": "Ich muss mich im Bett ausruhen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "krank",
+      "options": [
+        "nemocný",
+        "šťastný",
+        "unavený"
+      ],
+      "correct": "nemocný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich habe ___.",
+      "answer": "Fieber",
+      "hint_cz": "horečka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Kopfschmerzen",
+          "cz": "bolení hlavy"
+        },
+        {
+          "target": "husten",
+          "cz": "kašlat"
+        },
+        {
+          "target": "die Bauchschmerzen",
+          "cz": "bolení bříška"
+        },
+        {
+          "target": "sich ausruhen",
+          "cz": "odpočívat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich fühle mich heute krank.",
+      "tts_text": "Ich fühle mich heute krank."
+    }
+  ]
+}

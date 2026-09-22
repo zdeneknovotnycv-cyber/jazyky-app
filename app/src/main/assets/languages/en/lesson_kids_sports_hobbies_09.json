@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_sports_hobbies_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Team Sports",
+  "title_cz": "Kolektivní sporty",
+  "vocabulary": [
+    {
+      "word": "team sport",
+      "translation_cz": "kolektivní sport",
+      "example": "Football is a team sport.",
+      "example_cz": "Fotbal je kolektivní sport.",
+      "tts_text": "Football is a team sport."
+    },
+    {
+      "word": "teammate",
+      "translation_cz": "spoluhráč",
+      "example": "My teammate passed me the ball.",
+      "example_cz": "Můj spoluhráč mi přihrál míč.",
+      "tts_text": "My teammate passed me the ball."
+    },
+    {
+      "word": "coach",
+      "translation_cz": "trenér",
+      "example": "Our coach is very kind.",
+      "example_cz": "Náš trenér je velmi hodný.",
+      "tts_text": "Our coach is very kind."
+    },
+    {
+      "word": "practice",
+      "translation_cz": "trénink",
+      "example": "We have practice on Tuesdays.",
+      "example_cz": "V úterý máme trénink.",
+      "tts_text": "We have practice on Tuesdays."
+    },
+    {
+      "word": "cheer",
+      "translation_cz": "fandit",
+      "example": "We cheer for our team.",
+      "example_cz": "Fandíme svému týmu.",
+      "tts_text": "We cheer for our team."
+    },
+    {
+      "word": "match",
+      "translation_cz": "zápas",
+      "example": "The match starts at four.",
+      "example_cz": "Zápas začíná ve čtyři.",
+      "tts_text": "The match starts at four."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "coach",
+      "options": [
+        "trenér",
+        "spoluhráč",
+        "zápas"
+      ],
+      "correct": "trenér"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We have ___ on Tuesdays.",
+      "answer": "practice",
+      "hint_cz": "trénink"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "team sport",
+          "cz": "kolektivní sport"
+        },
+        {
+          "target": "teammate",
+          "cz": "spoluhráč"
+        },
+        {
+          "target": "cheer",
+          "cz": "fandit"
+        },
+        {
+          "target": "match",
+          "cz": "zápas"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Our coach is very kind.",
+      "tts_text": "Our coach is very kind."
+    }
+  ]
+}

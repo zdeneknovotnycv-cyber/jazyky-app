@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_family_people_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Baby Siblings",
+  "title_cz": "Miminko v rodině",
+  "vocabulary": [
+    {
+      "word": "baby brother",
+      "translation_cz": "bratříček",
+      "example": "I have a baby brother.",
+      "example_cz": "Mám bratříčka.",
+      "tts_text": "I have a baby brother."
+    },
+    {
+      "word": "baby sister",
+      "translation_cz": "sestřička",
+      "example": "My baby sister is crying.",
+      "example_cz": "Moje sestřička pláče.",
+      "tts_text": "My baby sister is crying."
+    },
+    {
+      "word": "cry",
+      "translation_cz": "plakat",
+      "example": "The baby cries at night.",
+      "example_cz": "Miminko v noci pláče.",
+      "tts_text": "The baby cries at night."
+    },
+    {
+      "word": "crib",
+      "translation_cz": "postýlka",
+      "example": "The baby sleeps in a crib.",
+      "example_cz": "Miminko spí v postýlce.",
+      "tts_text": "The baby sleeps in a crib."
+    },
+    {
+      "word": "bottle",
+      "translation_cz": "lahvička",
+      "example": "The baby drinks from a bottle.",
+      "example_cz": "Miminko pije z lahvičky.",
+      "tts_text": "The baby drinks from a bottle."
+    },
+    {
+      "word": "stroller",
+      "translation_cz": "kočárek",
+      "example": "We push the stroller in the park.",
+      "example_cz": "V parku tlačíme kočárek.",
+      "tts_text": "We push the stroller in the park."
+    },
+    {
+      "word": "help",
+      "translation_cz": "pomáhat",
+      "example": "I help my mom with the baby.",
+      "example_cz": "Pomáhám mamince s miminkem.",
+      "tts_text": "I help my mom with the baby."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "baby brother",
+      "options": [
+        "bratříček",
+        "dědeček",
+        "soused"
+      ],
+      "correct": "bratříček"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The baby sleeps in a ___.",
+      "answer": "crib",
+      "hint_cz": "postýlka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "cry",
+          "cz": "plakat"
+        },
+        {
+          "target": "bottle",
+          "cz": "lahvička"
+        },
+        {
+          "target": "stroller",
+          "cz": "kočárek"
+        },
+        {
+          "target": "help",
+          "cz": "pomáhat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I help my mom with the baby.",
+      "tts_text": "I help my mom with the baby."
+    }
+  ]
+}

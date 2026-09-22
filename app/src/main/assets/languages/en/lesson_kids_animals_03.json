@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_animals_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Wild Animals",
+  "title_cz": "Divoká zvířata",
+  "vocabulary": [
+    {
+      "word": "lion",
+      "translation_cz": "lev",
+      "example": "The lion is very strong.",
+      "example_cz": "Lev je velmi silný.",
+      "tts_text": "The lion is very strong."
+    },
+    {
+      "word": "tiger",
+      "translation_cz": "tygr",
+      "example": "The tiger has stripes.",
+      "example_cz": "Tygr má pruhy.",
+      "tts_text": "The tiger has stripes."
+    },
+    {
+      "word": "elephant",
+      "translation_cz": "slon",
+      "example": "The elephant is huge.",
+      "example_cz": "Slon je obrovský.",
+      "tts_text": "The elephant is huge."
+    },
+    {
+      "word": "bear",
+      "translation_cz": "medvěd",
+      "example": "The bear sleeps in winter.",
+      "example_cz": "Medvěd spí v zimě.",
+      "tts_text": "The bear sleeps in winter."
+    },
+    {
+      "word": "wolf",
+      "translation_cz": "vlk",
+      "example": "The wolf lives in the forest.",
+      "example_cz": "Vlk žije v lese.",
+      "tts_text": "The wolf lives in the forest."
+    },
+    {
+      "word": "fox",
+      "translation_cz": "liška",
+      "example": "The fox is clever.",
+      "example_cz": "Liška je chytrá.",
+      "tts_text": "The fox is clever."
+    },
+    {
+      "word": "monkey",
+      "translation_cz": "opice",
+      "example": "The monkey climbs trees.",
+      "example_cz": "Opice leze po stromech.",
+      "tts_text": "The monkey climbs trees."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "elephant",
+      "options": [
+        "slon",
+        "lev",
+        "medvěd"
+      ],
+      "correct": "slon"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ sleeps in winter.",
+      "answer": "bear",
+      "hint_cz": "medvěd"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "lion",
+          "cz": "lev"
+        },
+        {
+          "target": "tiger",
+          "cz": "tygr"
+        },
+        {
+          "target": "wolf",
+          "cz": "vlk"
+        },
+        {
+          "target": "fox",
+          "cz": "liška"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The monkey climbs trees.",
+      "tts_text": "The monkey climbs trees."
+    }
+  ]
+}

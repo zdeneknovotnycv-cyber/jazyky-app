@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_business_travel_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Meeting a client abroad",
+  "title_cz": "Schůzka s klientem v zahraničí",
+  "vocabulary": [
+    {
+      "word": "Welcome to our office",
+      "translation_cz": "Vítejte v naší kanceláři",
+      "example": "Welcome to our office, we're glad you came.",
+      "example_cz": "Vítejte v naší kanceláři, jsme rádi, že jste přijeli.",
+      "tts_text": "Welcome to our office, we're glad you came."
+    },
+    {
+      "word": "How was your trip?",
+      "translation_cz": "Jaká byla vaše cesta?",
+      "example": "How was your trip here?",
+      "example_cz": "Jaká byla vaše cesta sem?",
+      "tts_text": "How was your trip here?"
+    },
+    {
+      "word": "get down to business",
+      "translation_cz": "přejít k věci",
+      "example": "Shall we get down to business?",
+      "example_cz": "Přejdeme k věci?",
+      "tts_text": "Shall we get down to business?"
+    },
+    {
+      "word": "sign the contract",
+      "translation_cz": "podepsat smlouvu",
+      "example": "We're ready to sign the contract.",
+      "example_cz": "Jsme připraveni podepsat smlouvu.",
+      "tts_text": "We're ready to sign the contract."
+    },
+    {
+      "word": "local partner",
+      "translation_cz": "místní partner",
+      "example": "Our local partner will join us shortly.",
+      "example_cz": "Náš místní partner se k nám za chvíli připojí.",
+      "tts_text": "Our local partner will join us shortly."
+    },
+    {
+      "word": "cultural differences",
+      "translation_cz": "kulturní rozdíly",
+      "example": "It's important to respect cultural differences.",
+      "example_cz": "Je důležité respektovat kulturní rozdíly.",
+      "tts_text": "It's important to respect cultural differences."
+    },
+    {
+      "word": "interpreter",
+      "translation_cz": "tlumočník",
+      "example": "We arranged an interpreter for the meeting.",
+      "example_cz": "Zajistili jsme na schůzku tlumočníka.",
+      "tts_text": "We arranged an interpreter for the meeting."
+    },
+    {
+      "word": "follow-up meeting",
+      "translation_cz": "navazující schůzka",
+      "example": "Let's schedule a follow-up meeting next month.",
+      "example_cz": "Naplánujme navazující schůzku příští měsíc.",
+      "tts_text": "Let's schedule a follow-up meeting next month."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_client_abroad",
+      "title": "Meeting a client abroad",
+      "title_cz": "Schůzka s klientem v zahraničí",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Welcome to our office. How was your trip?",
+          "text_cz": "Vítejte v naší kanceláři. Jaká byla vaše cesta?"
+        },
+        {
+          "speaker": "B",
+          "text": "It was smooth, thank you. Shall we get down to business?",
+          "text_cz": "Byla klidná, děkuji. Přejdeme k věci?"
+        },
+        {
+          "speaker": "A",
+          "text": "Of course. Our local partner will join us shortly.",
+          "text_cz": "Samozřejmě. Náš místní partner se k nám za chvíli připojí."
+        },
+        {
+          "speaker": "B",
+          "text": "Good. I hope we can sign the contract today.",
+          "text_cz": "Dobře. Doufám, že dnes podepíšeme smlouvu."
+        },
+        {
+          "speaker": "A",
+          "text": "Let's also schedule a follow-up meeting next month.",
+          "text_cz": "Naplánujme také navazující schůzku na příští měsíc."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sign the contract",
+      "options": [
+        "podepsat smlouvu",
+        "místní partner",
+        "tlumočník"
+      ],
+      "correct": "podepsat smlouvu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "How was your ___ here?",
+      "answer": "trip",
+      "hint_cz": "cesta"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Shall we get down to ___?",
+      "answer": "business",
+      "hint_cz": "věci"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "local partner",
+          "cz": "místní partner"
+        },
+        {
+          "target": "cultural differences",
+          "cz": "kulturní rozdíly"
+        },
+        {
+          "target": "interpreter",
+          "cz": "tlumočník"
+        },
+        {
+          "target": "follow-up meeting",
+          "cz": "navazující schůzka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Welcome to our office.",
+      "tts_text": "Welcome to our office."
+    }
+  ]
+}

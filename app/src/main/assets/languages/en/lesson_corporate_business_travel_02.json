@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_business_travel_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "At the airport for business",
+  "title_cz": "Na letišti služebně",
+  "vocabulary": [
+    {
+      "word": "check in",
+      "translation_cz": "odbavit se",
+      "example": "I need to check in for my flight.",
+      "example_cz": "Musím se odbavit na svůj let.",
+      "tts_text": "I need to check in for my flight."
+    },
+    {
+      "word": "boarding pass",
+      "translation_cz": "palubní vstupenka",
+      "example": "Here is my boarding pass.",
+      "example_cz": "Tady je moje palubní vstupenka.",
+      "tts_text": "Here is my boarding pass."
+    },
+    {
+      "word": "security check",
+      "translation_cz": "bezpečnostní kontrola",
+      "example": "The security check took quite long.",
+      "example_cz": "Bezpečnostní kontrola trvala docela dlouho.",
+      "tts_text": "The security check took quite long."
+    },
+    {
+      "word": "departure gate",
+      "translation_cz": "odletový gate",
+      "example": "Our departure gate is number 12.",
+      "example_cz": "Náš odletový gate je číslo 12.",
+      "tts_text": "Our departure gate is number 12."
+    },
+    {
+      "word": "carry-on luggage",
+      "translation_cz": "příruční zavazadlo",
+      "example": "I only have carry-on luggage.",
+      "example_cz": "Mám jen příruční zavazadlo.",
+      "tts_text": "I only have carry-on luggage."
+    },
+    {
+      "word": "business lounge",
+      "translation_cz": "business lounge",
+      "example": "Let's wait in the business lounge.",
+      "example_cz": "Počkejme v business lounge.",
+      "tts_text": "Let's wait in the business lounge."
+    },
+    {
+      "word": "final call",
+      "translation_cz": "poslední výzva k nástupu",
+      "example": "This is the final call for our flight.",
+      "example_cz": "Toto je poslední výzva k nástupu na náš let.",
+      "tts_text": "This is the final call for our flight."
+    },
+    {
+      "word": "connecting flight",
+      "translation_cz": "navazující let",
+      "example": "I have a connecting flight in Frankfurt.",
+      "example_cz": "Mám navazující let ve Frankfurtu.",
+      "tts_text": "I have a connecting flight in Frankfurt."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_airport_business",
+      "title": "At the airport before a business flight",
+      "title_cz": "Na letišti před služebním letem",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you checked in for the flight yet?",
+          "text_cz": "Odbavil jsi se už na let?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, here is my boarding pass. The security check took quite long.",
+          "text_cz": "Ano, tady je moje palubní vstupenka. Bezpečnostní kontrola trvala docela dlouho."
+        },
+        {
+          "speaker": "A",
+          "text": "Let's wait in the business lounge until boarding.",
+          "text_cz": "Počkejme v business lounge, dokud nezačne nástup."
+        },
+        {
+          "speaker": "B",
+          "text": "Good idea. Our departure gate is number 12.",
+          "text_cz": "Dobrý nápad. Náš odletový gate je číslo 12."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "boarding pass",
+      "options": [
+        "palubní vstupenka",
+        "odletový gate",
+        "bezpečnostní kontrola"
+      ],
+      "correct": "palubní vstupenka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Here is my ___ pass.",
+      "answer": "boarding",
+      "hint_cz": "palubní"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Our departure ___ is number 12.",
+      "answer": "gate",
+      "hint_cz": "gate"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "check in",
+          "cz": "odbavit se"
+        },
+        {
+          "target": "carry-on luggage",
+          "cz": "příruční zavazadlo"
+        },
+        {
+          "target": "connecting flight",
+          "cz": "navazující let"
+        },
+        {
+          "target": "final call",
+          "cz": "poslední výzva k nástupu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I need to check in for my flight.",
+      "tts_text": "I need to check in for my flight."
+    }
+  ]
+}

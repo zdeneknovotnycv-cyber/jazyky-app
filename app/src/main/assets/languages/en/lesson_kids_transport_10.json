@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_transport_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Public transport for kids",
+  "title_cz": "Hromadná doprava pro děti",
+  "vocabulary": [
+    {
+      "word": "tram",
+      "translation_cz": "tramvaj",
+      "example": "The tram stops near my house.",
+      "example_cz": "Tramvaj zastavuje blízko mého domu.",
+      "tts_text": "The tram stops near my house."
+    },
+    {
+      "word": "subway",
+      "translation_cz": "metro",
+      "example": "We ride the subway downtown.",
+      "example_cz": "Jezdíme metrem do centra.",
+      "tts_text": "We ride the subway downtown."
+    },
+    {
+      "word": "stop",
+      "translation_cz": "zastávka",
+      "example": "This is my stop.",
+      "example_cz": "To je moje zastávka.",
+      "tts_text": "This is my stop."
+    },
+    {
+      "word": "ticket machine",
+      "translation_cz": "automat na jízdenky",
+      "example": "Mom buys tickets at the ticket machine.",
+      "example_cz": "Máma kupuje jízdenky v automatu.",
+      "tts_text": "Mom buys tickets at the ticket machine."
+    },
+    {
+      "word": "map",
+      "translation_cz": "jízdní řád",
+      "example": "We check the map for our route.",
+      "example_cz": "Podíváme se do jízdního řádu na naši trasu.",
+      "tts_text": "We check the map for our route."
+    },
+    {
+      "word": "give up a seat",
+      "translation_cz": "uvolnit místo",
+      "example": "I give up my seat for an old man.",
+      "example_cz": "Uvolním své místo starému pánovi.",
+      "tts_text": "I give up my seat for an old man."
+    },
+    {
+      "word": "quiet",
+      "translation_cz": "tiše",
+      "example": "We are quiet on the tram.",
+      "example_cz": "V tramvaji jsme tiše.",
+      "tts_text": "We are quiet on the tram."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "tram",
+      "options": [
+        "tramvaj",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "tramvaj"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This is my ___.",
+      "answer": "stop",
+      "hint_cz": "zastávka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "subway",
+          "cz": "metro"
+        },
+        {
+          "target": "stop",
+          "cz": "zastávka"
+        },
+        {
+          "target": "ticket machine",
+          "cz": "automat na jízdenky"
+        },
+        {
+          "target": "map",
+          "cz": "jízdní řád"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I give up my seat for an old man.",
+      "tts_text": "I give up my seat for an old man."
+    }
+  ]
+}

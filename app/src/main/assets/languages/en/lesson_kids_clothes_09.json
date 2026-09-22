@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_clothes_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Costumes and Dress-Up",
+  "title_cz": "Kostýmy a převleky",
+  "vocabulary": [
+    {
+      "word": "costume",
+      "translation_cz": "kostým",
+      "example": "I wear a princess costume.",
+      "example_cz": "Nosím kostým princezny.",
+      "tts_text": "I wear a princess costume."
+    },
+    {
+      "word": "mask",
+      "translation_cz": "maska",
+      "example": "My mask is scary.",
+      "example_cz": "Moje maska je strašidelná.",
+      "tts_text": "My mask is scary."
+    },
+    {
+      "word": "cape",
+      "translation_cz": "plášť",
+      "example": "The superhero has a cape.",
+      "example_cz": "Superhrdina má plášť.",
+      "tts_text": "The superhero has a cape."
+    },
+    {
+      "word": "crown",
+      "translation_cz": "korunka",
+      "example": "The princess wears a crown.",
+      "example_cz": "Princezna nosí korunku.",
+      "tts_text": "The princess wears a crown."
+    },
+    {
+      "word": "wig",
+      "translation_cz": "paruka",
+      "example": "The clown wears a colorful wig.",
+      "example_cz": "Klaun nosí barevnou paruku.",
+      "tts_text": "The clown wears a colorful wig."
+    },
+    {
+      "word": "pretend",
+      "translation_cz": "předstírat",
+      "example": "I pretend to be a pirate.",
+      "example_cz": "Předstírám, že jsem pirát.",
+      "tts_text": "I pretend to be a pirate."
+    },
+    {
+      "word": "dress-up party",
+      "translation_cz": "kostýmní párty",
+      "example": "We have a dress-up party.",
+      "example_cz": "Máme kostýmní párty.",
+      "tts_text": "We have a dress-up party."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "crown",
+      "options": [
+        "korunka",
+        "maska",
+        "paruka"
+      ],
+      "correct": "korunka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The superhero has a ___.",
+      "answer": "cape",
+      "hint_cz": "plášť"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "costume",
+          "cz": "kostým"
+        },
+        {
+          "target": "mask",
+          "cz": "maska"
+        },
+        {
+          "target": "wig",
+          "cz": "paruka"
+        },
+        {
+          "target": "dress-up party",
+          "cz": "kostýmní párty"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I pretend to be a pirate.",
+      "tts_text": "I pretend to be a pirate."
+    }
+  ]
+}

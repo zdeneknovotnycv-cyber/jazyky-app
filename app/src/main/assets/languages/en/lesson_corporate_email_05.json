@@ -1,0 +1,138 @@
+{
+  "id": "en_adult_corporate_email_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "CC and BCC explained",
+  "title_cz": "Vysvětlení kopie (CC) a skryté kopie (BCC)",
+  "vocabulary": [
+    {
+      "word": "CC (carbon copy)",
+      "translation_cz": "kopie (CC)",
+      "example": "I've put your manager in CC.",
+      "example_cz": "Vašeho manažera jsem dal do kopie.",
+      "tts_text": "I've put your manager in CC."
+    },
+    {
+      "word": "BCC (blind carbon copy)",
+      "translation_cz": "skrytá kopie (BCC)",
+      "example": "Add the client's assistant in BCC.",
+      "example_cz": "Přidejte asistenta klienta do skryté kopie.",
+      "tts_text": "Add the client's assistant in BCC."
+    },
+    {
+      "word": "recipient",
+      "translation_cz": "příjemce",
+      "example": "Please check the recipient list.",
+      "example_cz": "Zkontrolujte prosím seznam příjemců.",
+      "tts_text": "Please check the recipient list."
+    },
+    {
+      "word": "keep someone informed",
+      "translation_cz": "informovat někoho",
+      "example": "I'm keeping the team informed with a CC.",
+      "example_cz": "Tým informuji pomocí kopie.",
+      "tts_text": "I'm keeping the team informed with a CC."
+    },
+    {
+      "word": "visible to everyone",
+      "translation_cz": "viditelné pro všechny",
+      "example": "CC addresses are visible to everyone.",
+      "example_cz": "Adresy v kopii jsou viditelné pro všechny.",
+      "tts_text": "CC addresses are visible to everyone."
+    },
+    {
+      "word": "hidden",
+      "translation_cz": "skrytý",
+      "example": "BCC addresses are hidden from other recipients.",
+      "example_cz": "Adresy ve skryté kopii jsou pro ostatní příjemce skryté.",
+      "tts_text": "BCC addresses are hidden from other recipients."
+    },
+    {
+      "word": "main recipient",
+      "translation_cz": "hlavní příjemce",
+      "example": "The main recipient is in the 'To' field.",
+      "example_cz": "Hlavní příjemce je v poli 'Komu'.",
+      "tts_text": "The main recipient is in the 'To' field."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_cc_bcc",
+      "title": "Explaining CC and BCC to a new colleague",
+      "title_cz": "Vysvětlení CC a BCC novému kolegovi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Should I put the manager in CC or BCC?",
+          "text_cz": "Mám dát manažera do kopie nebo skryté kopie?"
+        },
+        {
+          "speaker": "B",
+          "text": "Use CC, since CC addresses are visible to everyone and we want him kept informed openly.",
+          "text_cz": "Použij kopii, protože adresy v kopii jsou viditelné pro všechny a chceme ho otevřeně informovat."
+        },
+        {
+          "speaker": "A",
+          "text": "And what about the client's assistant?",
+          "text_cz": "A co asistent klienta?"
+        },
+        {
+          "speaker": "B",
+          "text": "Add her in BCC, since BCC addresses are hidden from other recipients.",
+          "text_cz": "Přidej ji do skryté kopie, protože ty adresy jsou pro ostatní příjemce skryté."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "recipient",
+      "options": [
+        "příjemce",
+        "kopie",
+        "skrytý"
+      ],
+      "correct": "příjemce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "CC addresses are visible ___ everyone.",
+      "answer": "to",
+      "hint_cz": "pro"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "hidden",
+          "cz": "skrytý"
+        },
+        {
+          "target": "main recipient",
+          "cz": "hlavní příjemce"
+        },
+        {
+          "target": "keep someone informed",
+          "cz": "informovat někoho"
+        },
+        {
+          "target": "BCC (blind carbon copy)",
+          "cz": "skrytá kopie (BCC)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I've put your manager in CC.",
+      "tts_text": "I've put your manager in CC."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "BCC addresses are ___ from other recipients.",
+      "answer": "hidden",
+      "hint_cz": "skryté"
+    }
+  ]
+}

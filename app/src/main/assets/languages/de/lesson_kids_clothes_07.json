@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_clothes_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "School Uniform",
+  "title_cz": "Školní uniforma",
+  "vocabulary": [
+    {
+      "word": "die Schuluniform",
+      "translation_cz": "uniforma",
+      "example": "Ich trage eine Schuluniform.",
+      "example_cz": "Nosím školní uniformu.",
+      "tts_text": "Ich trage eine Schuluniform."
+    },
+    {
+      "word": "das Hemd",
+      "translation_cz": "košile",
+      "example": "Das Hemd ist weiß.",
+      "example_cz": "Košile je bílá.",
+      "tts_text": "Das Hemd ist weiß."
+    },
+    {
+      "word": "die Krawatte",
+      "translation_cz": "kravata",
+      "example": "Er trägt eine kleine Krawatte.",
+      "example_cz": "Nosí malou kravatu.",
+      "tts_text": "Er trägt eine kleine Krawatte."
+    },
+    {
+      "word": "der Rock",
+      "translation_cz": "sukně",
+      "example": "Die Mädchen tragen einen blauen Rock.",
+      "example_cz": "Dívky nosí modrou sukni.",
+      "tts_text": "Die Mädchen tragen einen blauen Rock."
+    },
+    {
+      "word": "das Abzeichen",
+      "translation_cz": "odznak",
+      "example": "Unser Abzeichen zeigt den Schulnamen.",
+      "example_cz": "Náš odznak má název školy.",
+      "tts_text": "Unser Abzeichen zeigt den Schulnamen."
+    },
+    {
+      "word": "ordentlich",
+      "translation_cz": "upravený",
+      "example": "Meine Uniform ist immer ordentlich.",
+      "example_cz": "Moje uniforma je vždy upravená.",
+      "tts_text": "Meine Uniform ist immer ordentlich."
+    },
+    {
+      "word": "tragen",
+      "translation_cz": "nosit",
+      "example": "Wir tragen jeden Tag unsere Uniform.",
+      "example_cz": "Nosíme uniformu každý den.",
+      "tts_text": "Wir tragen jeden Tag unsere Uniform."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Abzeichen",
+      "options": [
+        "odznak",
+        "kravata",
+        "sukně"
+      ],
+      "correct": "odznak"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Er trägt eine kleine ___.",
+      "answer": "Krawatte",
+      "hint_cz": "kravatu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Hemd",
+          "cz": "košile"
+        },
+        {
+          "target": "der Rock",
+          "cz": "sukně"
+        },
+        {
+          "target": "ordentlich",
+          "cz": "upravený"
+        },
+        {
+          "target": "tragen",
+          "cz": "nosit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Meine Uniform ist immer ordentlich.",
+      "tts_text": "Meine Uniform ist immer ordentlich."
+    }
+  ]
+}

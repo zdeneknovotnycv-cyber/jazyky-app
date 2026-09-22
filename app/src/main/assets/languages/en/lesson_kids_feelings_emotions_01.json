@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_feelings_emotions_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Happy and sad",
+  "title_cz": "Šťastný a smutný",
+  "vocabulary": [
+    {
+      "word": "happy",
+      "translation_cz": "šťastný",
+      "example": "I am happy today.",
+      "example_cz": "Dnes jsem šťastný.",
+      "tts_text": "I am happy today."
+    },
+    {
+      "word": "sad",
+      "translation_cz": "smutný",
+      "example": "She looks sad.",
+      "example_cz": "Vypadá smutně.",
+      "tts_text": "She looks sad."
+    },
+    {
+      "word": "smile",
+      "translation_cz": "úsměv",
+      "example": "He has a big smile.",
+      "example_cz": "Má velký úsměv.",
+      "tts_text": "He has a big smile."
+    },
+    {
+      "word": "cry",
+      "translation_cz": "plakat",
+      "example": "The baby starts to cry.",
+      "example_cz": "Miminko začíná plakat.",
+      "tts_text": "The baby starts to cry."
+    },
+    {
+      "word": "laugh",
+      "translation_cz": "smát se",
+      "example": "We laugh at the funny movie.",
+      "example_cz": "Smějeme se vtipnému filmu.",
+      "tts_text": "We laugh at the funny movie."
+    },
+    {
+      "word": "feeling",
+      "translation_cz": "pocit",
+      "example": "It is okay to share your feeling.",
+      "example_cz": "Je v pořádku sdílet svůj pocit.",
+      "tts_text": "It is okay to share your feeling."
+    },
+    {
+      "word": "hug",
+      "translation_cz": "obejmutí",
+      "example": "A hug makes me happy.",
+      "example_cz": "Obejmutí mě udělá šťastným.",
+      "tts_text": "A hug makes me happy."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "happy",
+      "options": [
+        "šťastný",
+        "smutný",
+        "radost"
+      ],
+      "correct": "šťastný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am ___ today.",
+      "answer": "happy",
+      "hint_cz": "šťastný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sad",
+          "cz": "smutný"
+        },
+        {
+          "target": "smile",
+          "cz": "úsměv"
+        },
+        {
+          "target": "cry",
+          "cz": "plakat"
+        },
+        {
+          "target": "laugh",
+          "cz": "smát se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "He has a big smile.",
+      "tts_text": "He has a big smile."
+    }
+  ]
+}

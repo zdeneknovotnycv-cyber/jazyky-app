@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_birthday_celebrations_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Halloween (simple)",
+  "title_cz": "Halloween (jednoduše)",
+  "vocabulary": [
+    {
+      "word": "Halloween",
+      "translation_cz": "Halloween",
+      "example": "We dress up for Halloween.",
+      "example_cz": "Na Halloween se převlékáme.",
+      "tts_text": "We dress up for Halloween."
+    },
+    {
+      "word": "costume",
+      "translation_cz": "kostým",
+      "example": "I wear a scary costume.",
+      "example_cz": "Mám na sobě strašidelný kostým.",
+      "tts_text": "I wear a scary costume."
+    },
+    {
+      "word": "pumpkin",
+      "translation_cz": "dýně",
+      "example": "We carve a pumpkin.",
+      "example_cz": "Vyřezáváme dýni.",
+      "tts_text": "We carve a pumpkin."
+    },
+    {
+      "word": "ghost",
+      "translation_cz": "duch",
+      "example": "A ghost costume is funny.",
+      "example_cz": "Kostým ducha je vtipný.",
+      "tts_text": "A ghost costume is funny."
+    },
+    {
+      "word": "candy",
+      "translation_cz": "bonbon, sladkost",
+      "example": "I collect candy in a bag.",
+      "example_cz": "Sbírám bonbóny do sáčku.",
+      "tts_text": "I collect candy in a bag."
+    },
+    {
+      "word": "trick or treat",
+      "translation_cz": "trik, nebo pamlsek",
+      "example": "We say trick or treat at the door.",
+      "example_cz": "U dveří říkáme trik, nebo pamlsek.",
+      "tts_text": "We say trick or treat at the door."
+    },
+    {
+      "word": "dark",
+      "translation_cz": "tma",
+      "example": "It gets dark early in autumn.",
+      "example_cz": "Na podzim se brzy stmívá.",
+      "tts_text": "It gets dark early in autumn."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Halloween",
+      "options": [
+        "Halloween",
+        "kostým",
+        "dýně"
+      ],
+      "correct": "Halloween"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I wear a scary ___.",
+      "answer": "costume",
+      "hint_cz": "kostým"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "pumpkin",
+          "cz": "dýně"
+        },
+        {
+          "target": "ghost",
+          "cz": "duch"
+        },
+        {
+          "target": "candy",
+          "cz": "bonbon, sladkost"
+        },
+        {
+          "target": "trick or treat",
+          "cz": "trik, nebo pamlsek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It gets dark early in autumn.",
+      "tts_text": "It gets dark early in autumn."
+    }
+  ]
+}

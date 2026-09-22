@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_marketing_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Markenrichtlinien",
+  "title_cz": "Pravidla značky",
+  "vocabulary": [
+    {
+      "word": "Markenidentität",
+      "translation_cz": "identita značky",
+      "example": "Unsere Markenidentität umfasst das Logo und die Farben.",
+      "example_cz": "Naše identita značky zahrnuje logo a barvy.",
+      "tts_text": "Unsere Markenidentität umfasst das Logo und die Farben."
+    },
+    {
+      "word": "Logonutzung",
+      "translation_cz": "použití loga",
+      "example": "Bitte halten Sie sich an die Regeln zur Logonutzung.",
+      "example_cz": "Dodržujte prosím pravidla pro použití loga.",
+      "tts_text": "Bitte halten Sie sich an die Regeln zur Logonutzung."
+    },
+    {
+      "word": "Farbpalette",
+      "translation_cz": "barevná paleta",
+      "example": "Verwenden Sie nur unsere genehmigte Farbpalette.",
+      "example_cz": "Používejte pouze naši schválenou barevnou paletu.",
+      "tts_text": "Verwenden Sie nur unsere genehmigte Farbpalette."
+    },
+    {
+      "word": "Tonalität",
+      "translation_cz": "tón komunikace",
+      "example": "Unsere Tonalität sollte freundlich, aber professionell sein.",
+      "example_cz": "Náš tón komunikace by měl být přátelský, ale profesionální.",
+      "tts_text": "Unsere Tonalität sollte freundlich, aber professionell sein."
+    },
+    {
+      "word": "Konsistenz",
+      "translation_cz": "konzistence",
+      "example": "Konsistenz über alle Kanäle hinweg ist wichtig.",
+      "example_cz": "Konzistence napříč všemi kanály je důležitá.",
+      "tts_text": "Konsistenz über alle Kanäle hinweg ist wichtig."
+    },
+    {
+      "word": "Markenrichtlinien-Dokument",
+      "translation_cz": "dokument s pravidly značky",
+      "example": "Die Regeln finden Sie im Markenrichtlinien-Dokument.",
+      "example_cz": "Pravidla najdete v dokumentu s pravidly značky.",
+      "tts_text": "Die Regeln finden Sie im Markenrichtlinien-Dokument."
+    },
+    {
+      "word": "Typografie",
+      "translation_cz": "typografie",
+      "example": "Unsere Typografie verwendet eine einfache, moderne Schrift.",
+      "example_cz": "Naše typografie používá jednoduché, moderní písmo.",
+      "tts_text": "Unsere Typografie verwendet eine einfache, moderne Schrift."
+    },
+    {
+      "word": "visuelle Identität",
+      "translation_cz": "vizuální identita",
+      "example": "Die visuelle Identität muss überall gleich bleiben.",
+      "example_cz": "Vizuální identita musí zůstat všude stejná.",
+      "tts_text": "Die visuelle Identität muss überall gleich bleiben."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_03",
+      "title": "Die Markenrichtlinien mit einem neuen Kollegen durchgehen",
+      "title_cz": "Kontrola pravidel značky s novým kolegou",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hast du das Markenrichtlinien-Dokument schon gelesen?",
+          "text_cz": "Přečetl jsi už dokument s pravidly značky?"
+        },
+        {
+          "speaker": "B",
+          "text": "Noch nicht ganz. Was ist bei unserer Markenidentität am wichtigsten?",
+          "text_cz": "Ne úplně. Co je nejdůležitější na naší identitě značky?"
+        },
+        {
+          "speaker": "A",
+          "text": "Konsistenz. Verwende immer die genehmigte Farbpalette und halte dich an die Regeln zur Logonutzung.",
+          "text_cz": "Konzistence. Vždy používej schválenou barevnou paletu a dodržuj pravidla pro použití loga."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden. Und was ist mit unserer Tonalität?",
+          "text_cz": "Rozumím. A co náš tón komunikace?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Markenidentität",
+      "options": [
+        "identita značky",
+        "barevná paleta",
+        "typografie"
+      ],
+      "correct": "identita značky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Verwenden Sie nur unsere genehmigte Farb___.",
+      "answer": "palette",
+      "hint_cz": "paletu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Tonalität",
+          "cz": "tón komunikace"
+        },
+        {
+          "target": "Konsistenz",
+          "cz": "konzistence"
+        },
+        {
+          "target": "Typografie",
+          "cz": "typografie"
+        },
+        {
+          "target": "visuelle Identität",
+          "cz": "vizuální identita"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Konsistenz über alle Kanäle hinweg ist wichtig.",
+      "tts_text": "Konsistenz über alle Kanäle hinweg ist wichtig."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte halten Sie sich an die Regeln zur Logo___.",
+      "answer": "nutzung",
+      "hint_cz": "použití"
+    }
+  ]
+}

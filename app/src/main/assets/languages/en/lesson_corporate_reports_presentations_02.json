@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_reports_presentations_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Presenting Data and Charts",
+  "title_cz": "Prezentace dat a grafů",
+  "vocabulary": [
+    {
+      "word": "chart",
+      "translation_cz": "graf",
+      "example": "This chart shows our sales growth.",
+      "example_cz": "Tento graf ukazuje růst našich prodejů.",
+      "tts_text": "This chart shows our sales growth."
+    },
+    {
+      "word": "trend",
+      "translation_cz": "trend",
+      "example": "As you can see, the trend is positive.",
+      "example_cz": "Jak vidíte, trend je pozitivní.",
+      "tts_text": "As you can see, the trend is positive."
+    },
+    {
+      "word": "increase",
+      "translation_cz": "nárůst",
+      "example": "We saw a fifteen percent increase last quarter.",
+      "example_cz": "V minulém čtvrtletí jsme zaznamenali patnáctiprocentní nárůst.",
+      "tts_text": "We saw a fifteen percent increase last quarter."
+    },
+    {
+      "word": "decrease",
+      "translation_cz": "pokles",
+      "example": "There was a slight decrease in Q2.",
+      "example_cz": "Ve druhém čtvrtletí došlo k mírnému poklesu.",
+      "tts_text": "There was a slight decrease in Q2."
+    },
+    {
+      "word": "axis",
+      "translation_cz": "osa",
+      "example": "The horizontal axis shows the months.",
+      "example_cz": "Vodorovná osa ukazuje měsíce.",
+      "tts_text": "The horizontal axis shows the months."
+    },
+    {
+      "word": "data point",
+      "translation_cz": "datový bod",
+      "example": "Each data point represents one month.",
+      "example_cz": "Každý datový bod představuje jeden měsíc.",
+      "tts_text": "Each data point represents one month."
+    },
+    {
+      "word": "compare",
+      "translation_cz": "porovnat",
+      "example": "Let's compare this year with the last one.",
+      "example_cz": "Porovnejme letošní rok s minulým.",
+      "tts_text": "Let's compare this year with the last one."
+    },
+    {
+      "word": "highlight",
+      "translation_cz": "zdůraznit",
+      "example": "I want to highlight this important figure.",
+      "example_cz": "Chci zdůraznit toto důležité číslo.",
+      "tts_text": "I want to highlight this important figure."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_data_chart",
+      "title": "Explaining a sales chart",
+      "title_cz": "Vysvětlení grafu prodejů",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "This chart shows our sales growth over the year.",
+          "text_cz": "Tento graf ukazuje růst našich prodejů za rok."
+        },
+        {
+          "speaker": "B",
+          "text": "I see a decrease around March. What happened?",
+          "text_cz": "Vidím pokles kolem března. Co se stalo?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, but the overall trend is positive, with a fifteen percent increase since January.",
+          "text_cz": "Ano, ale celkový trend je pozitivní, s patnáctiprocentním nárůstem od ledna."
+        },
+        {
+          "speaker": "B",
+          "text": "Can you highlight the data point for June?",
+          "text_cz": "Můžete zdůraznit datový bod za červen?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "chart",
+      "options": [
+        "graf",
+        "nárůst",
+        "pokles"
+      ],
+      "correct": "graf"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "As you can see, the ___ is positive.",
+      "answer": "trend",
+      "hint_cz": "trend"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The horizontal ___ shows the months.",
+      "answer": "axis",
+      "hint_cz": "osa"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "data point",
+          "cz": "datový bod"
+        },
+        {
+          "target": "compare",
+          "cz": "porovnat"
+        },
+        {
+          "target": "highlight",
+          "cz": "zdůraznit"
+        },
+        {
+          "target": "increase",
+          "cz": "nárůst"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "This chart shows our sales growth over the year.",
+      "tts_text": "This chart shows our sales growth over the year."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I see a decrease around March. What happened?",
+      "tts_text": "I see a decrease around March. What happened?"
+    }
+  ]
+}

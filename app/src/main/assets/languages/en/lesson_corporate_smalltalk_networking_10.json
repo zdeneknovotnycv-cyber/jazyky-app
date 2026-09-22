@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_smalltalk_networking_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Office party small talk",
+  "title_cz": "Konverzace na firemním večírku",
+  "vocabulary": [
+    {
+      "word": "Are you enjoying the party?",
+      "translation_cz": "Bavíš se na večírku?",
+      "example": "Are you enjoying the party so far?",
+      "example_cz": "Bavíš se zatím na večírku?",
+      "tts_text": "Are you enjoying the party so far?"
+    },
+    {
+      "word": "great atmosphere",
+      "translation_cz": "skvělá atmosféra",
+      "example": "There's a great atmosphere tonight.",
+      "example_cz": "Dnes večer je tu skvělá atmosféra.",
+      "tts_text": "There's a great atmosphere tonight."
+    },
+    {
+      "word": "Have you tried the food?",
+      "translation_cz": "Zkusil jsi to jídlo?",
+      "example": "Have you tried the food yet?",
+      "example_cz": "Už jsi zkusil to jídlo?",
+      "tts_text": "Have you tried the food yet?"
+    },
+    {
+      "word": "It's nice to relax outside work",
+      "translation_cz": "Je fajn si odpočinout mimo práci",
+      "example": "It's nice to relax outside work sometimes.",
+      "example_cz": "Občas je fajn si odpočinout mimo práci.",
+      "tts_text": "It's nice to relax outside work sometimes."
+    },
+    {
+      "word": "Who organized this?",
+      "translation_cz": "Kdo tohle zorganizoval?",
+      "example": "Who organized this event?",
+      "example_cz": "Kdo tuhle akci zorganizoval?",
+      "tts_text": "Who organized this event?"
+    },
+    {
+      "word": "dance floor",
+      "translation_cz": "taneční parket",
+      "example": "The dance floor is already full.",
+      "example_cz": "Taneční parket je už plný.",
+      "tts_text": "The dance floor is already full."
+    },
+    {
+      "word": "raise a toast",
+      "translation_cz": "připít si na zdraví",
+      "example": "Let's raise a toast to the whole team.",
+      "example_cz": "Připijme si na celý tým.",
+      "tts_text": "Let's raise a toast to the whole team."
+    },
+    {
+      "word": "It's been a great year",
+      "translation_cz": "Byl to skvělý rok",
+      "example": "It's been a great year for our company.",
+      "example_cz": "Byl to skvělý rok pro naši firmu.",
+      "tts_text": "It's been a great year for our company."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_party",
+      "title": "Chatting at the office party",
+      "title_cz": "Povídání na firemním večírku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Are you enjoying the party so far?",
+          "text_cz": "Bavíš se zatím na večírku?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, there's a great atmosphere tonight. Have you tried the food?",
+          "text_cz": "Ano, dnes je tu skvělá atmosféra. Zkusil jsi to jídlo?"
+        },
+        {
+          "speaker": "A",
+          "text": "Not yet. It's nice to relax outside work for once.",
+          "text_cz": "Ještě ne. Je fajn si pro jednou odpočinout mimo práci."
+        },
+        {
+          "speaker": "B",
+          "text": "Definitely. Let's raise a toast, it's been a great year.",
+          "text_cz": "Rozhodně. Připijme si, byl to skvělý rok."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "raise a toast",
+      "options": [
+        "připít si na zdraví",
+        "taneční parket",
+        "skvělá atmosféra"
+      ],
+      "correct": "připít si na zdraví"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "There's a great ___ tonight.",
+      "answer": "atmosphere",
+      "hint_cz": "atmosféra"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Have you ___ the food yet?",
+      "answer": "tried",
+      "hint_cz": "zkusil"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "dance floor",
+          "cz": "taneční parket"
+        },
+        {
+          "target": "great atmosphere",
+          "cz": "skvělá atmosféra"
+        },
+        {
+          "target": "raise a toast",
+          "cz": "připít si na zdraví"
+        },
+        {
+          "target": "Who organized this?",
+          "cz": "Kdo tohle zorganizoval?"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Are you enjoying the party?",
+      "tts_text": "Are you enjoying the party?"
+    }
+  ]
+}

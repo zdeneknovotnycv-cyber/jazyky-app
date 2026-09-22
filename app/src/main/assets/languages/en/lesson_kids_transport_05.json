@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_transport_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Airplanes",
+  "title_cz": "Letadla",
+  "vocabulary": [
+    {
+      "word": "airplane",
+      "translation_cz": "letadlo",
+      "example": "The airplane flies in the sky.",
+      "example_cz": "Letadlo letí na obloze.",
+      "tts_text": "The airplane flies in the sky."
+    },
+    {
+      "word": "airport",
+      "translation_cz": "letiště",
+      "example": "We wait at the airport.",
+      "example_cz": "Čekáme na letišti.",
+      "tts_text": "We wait at the airport."
+    },
+    {
+      "word": "pilot",
+      "translation_cz": "pilot",
+      "example": "The pilot flies the airplane.",
+      "example_cz": "Pilot řídí letadlo.",
+      "tts_text": "The pilot flies the airplane."
+    },
+    {
+      "word": "wing",
+      "translation_cz": "křídlo",
+      "example": "The airplane has two wings.",
+      "example_cz": "Letadlo má dvě křídla.",
+      "tts_text": "The airplane has two wings."
+    },
+    {
+      "word": "suitcase",
+      "translation_cz": "kufr",
+      "example": "I pack my suitcase for the trip.",
+      "example_cz": "Balím si kufr na cestu.",
+      "tts_text": "I pack my suitcase for the trip."
+    },
+    {
+      "word": "take off",
+      "translation_cz": "vzlétnout",
+      "example": "The airplane takes off from the runway.",
+      "example_cz": "Letadlo vzlétá z ranveje.",
+      "tts_text": "The airplane takes off from the runway."
+    },
+    {
+      "word": "land",
+      "translation_cz": "přistát",
+      "example": "The airplane will land soon.",
+      "example_cz": "Letadlo brzy přistane.",
+      "tts_text": "The airplane will land soon."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "airplane",
+      "options": [
+        "letadlo",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "letadlo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ flies in the sky.",
+      "answer": "airplane",
+      "hint_cz": "letadlo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "airport",
+          "cz": "letiště"
+        },
+        {
+          "target": "pilot",
+          "cz": "pilot"
+        },
+        {
+          "target": "wing",
+          "cz": "křídlo"
+        },
+        {
+          "target": "suitcase",
+          "cz": "kufr"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The pilot flies the airplane.",
+      "tts_text": "The pilot flies the airplane."
+    }
+  ]
+}

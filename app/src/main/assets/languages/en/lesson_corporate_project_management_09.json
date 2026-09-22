@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_project_management_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Sprint Planning (Agile)",
+  "title_cz": "Plánování sprintu (agilní metody)",
+  "vocabulary": [
+    {
+      "word": "sprint",
+      "translation_cz": "sprint",
+      "example": "This sprint lasts two weeks.",
+      "example_cz": "Tento sprint trvá dva týdny.",
+      "tts_text": "This sprint lasts two weeks."
+    },
+    {
+      "word": "backlog grooming",
+      "translation_cz": "zpřehlednění zásobníku",
+      "example": "We do backlog grooming every Thursday.",
+      "example_cz": "Zpřehlednění zásobníku děláme každý čtvrtek.",
+      "tts_text": "We do backlog grooming every Thursday."
+    },
+    {
+      "word": "story point",
+      "translation_cz": "bod příběhu",
+      "example": "This task is worth three story points.",
+      "example_cz": "Tento úkol má hodnotu tří bodů příběhu.",
+      "tts_text": "This task is worth three story points."
+    },
+    {
+      "word": "daily standup",
+      "translation_cz": "denní standup",
+      "example": "Let's keep the daily standup short.",
+      "example_cz": "Udržme denní standup krátký.",
+      "tts_text": "Let's keep the daily standup short."
+    },
+    {
+      "word": "sprint goal",
+      "translation_cz": "cíl sprintu",
+      "example": "What is the sprint goal this time?",
+      "example_cz": "Jaký je tentokrát cíl sprintu?",
+      "tts_text": "What is the sprint goal this time?"
+    },
+    {
+      "word": "velocity",
+      "translation_cz": "rychlost týmu",
+      "example": "Our team velocity has improved.",
+      "example_cz": "Rychlost našeho týmu se zlepšila.",
+      "tts_text": "Our team velocity has improved."
+    },
+    {
+      "word": "retrospective",
+      "translation_cz": "retrospektiva",
+      "example": "We'll discuss it in the retrospective.",
+      "example_cz": "Probereme to na retrospektivě.",
+      "tts_text": "We'll discuss it in the retrospective."
+    },
+    {
+      "word": "burndown chart",
+      "translation_cz": "graf vyhoření",
+      "example": "The burndown chart shows we are on track.",
+      "example_cz": "Graf vyhoření ukazuje, že jsme v pořádku.",
+      "tts_text": "The burndown chart shows we are on track."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_sprint_planning",
+      "title": "Planning a new sprint",
+      "title_cz": "Plánování nového sprintu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let's start sprint planning. What's the sprint goal?",
+          "text_cz": "Začněme plánování sprintu. Jaký je cíl sprintu?"
+        },
+        {
+          "speaker": "B",
+          "text": "To finish the checkout feature, roughly twenty story points.",
+          "text_cz": "Dokončit funkci pokladny, zhruba dvacet bodů příběhu."
+        },
+        {
+          "speaker": "A",
+          "text": "Sounds good, our velocity has improved lately.",
+          "text_cz": "Zní to dobře, naše rychlost se poslední dobou zlepšila."
+        },
+        {
+          "speaker": "B",
+          "text": "Right, and we'll review it all in the retrospective.",
+          "text_cz": "Přesně, a vše probereme na retrospektivě."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sprint",
+      "options": [
+        "sprint",
+        "bod příběhu",
+        "denní standup"
+      ],
+      "correct": "sprint"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We do ___ every Thursday.",
+      "answer": "backlog grooming",
+      "hint_cz": "zpřehlednění zásobníku"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What is the ___ this time?",
+      "answer": "sprint goal",
+      "hint_cz": "cíl sprintu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "velocity",
+          "cz": "rychlost týmu"
+        },
+        {
+          "target": "retrospective",
+          "cz": "retrospektiva"
+        },
+        {
+          "target": "burndown chart",
+          "cz": "graf vyhoření"
+        },
+        {
+          "target": "story point",
+          "cz": "bod příběhu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's start sprint planning. What's the sprint goal?",
+      "tts_text": "Let's start sprint planning. What's the sprint goal?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "To finish the checkout feature, roughly twenty story points.",
+      "tts_text": "To finish the checkout feature, roughly twenty story points."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_family_people_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Extended Family",
+  "title_cz": "Širší rodina",
+  "vocabulary": [
+    {
+      "word": "die Großmutter",
+      "translation_cz": "babička",
+      "example": "Meine Großmutter backt Kekse.",
+      "example_cz": "Moje babička peče sušenky.",
+      "tts_text": "Meine Großmutter backt Kekse."
+    },
+    {
+      "word": "der Großvater",
+      "translation_cz": "dědeček",
+      "example": "Mein Großvater erzählt Geschichten.",
+      "example_cz": "Můj dědeček vypráví příběhy.",
+      "tts_text": "Mein Großvater erzählt Geschichten."
+    },
+    {
+      "word": "der Cousin / die Cousine",
+      "translation_cz": "bratranec / sestřenice",
+      "example": "Mein Cousin ist so alt wie ich.",
+      "example_cz": "Můj bratranec je stejně starý jako já.",
+      "tts_text": "Mein Cousin ist so alt wie ich."
+    },
+    {
+      "word": "die Tante",
+      "translation_cz": "teta",
+      "example": "Meine Tante wohnt in der Nähe.",
+      "example_cz": "Moje teta bydlí blízko nás.",
+      "tts_text": "Meine Tante wohnt in der Nähe."
+    },
+    {
+      "word": "der Onkel",
+      "translation_cz": "strýc",
+      "example": "Mein Onkel hat ein Auto.",
+      "example_cz": "Můj strýc má auto.",
+      "tts_text": "Mein Onkel hat ein Auto."
+    },
+    {
+      "word": "die Großeltern",
+      "translation_cz": "prarodiče",
+      "example": "Ich besuche meine Großeltern am Sonntag.",
+      "example_cz": "V neděli navštěvuji své prarodiče.",
+      "tts_text": "Ich besuche meine Großeltern am Sonntag."
+    },
+    {
+      "word": "die Verwandten",
+      "translation_cz": "příbuzní",
+      "example": "Alle meine Verwandten kamen zur Feier.",
+      "example_cz": "Na oslavu přišli všichni moji příbuzní.",
+      "tts_text": "Alle meine Verwandten kamen zur Feier."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Großmutter",
+      "options": [
+        "babička",
+        "teta",
+        "sestřenice"
+      ],
+      "correct": "babička"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein ___ erzählt Geschichten.",
+      "answer": "Großvater",
+      "hint_cz": "dědeček"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Tante",
+          "cz": "teta"
+        },
+        {
+          "target": "der Onkel",
+          "cz": "strýc"
+        },
+        {
+          "target": "der Cousin",
+          "cz": "bratranec"
+        },
+        {
+          "target": "die Verwandten",
+          "cz": "příbuzní"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Meine Großmutter backt Kekse.",
+      "tts_text": "Meine Großmutter backt Kekse."
+    }
+  ]
+}

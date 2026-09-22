@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_project_management_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Aufgabenpriorisierung",
+  "title_cz": "Prioritizace úkolů",
+  "vocabulary": [
+    {
+      "word": "priorisieren",
+      "translation_cz": "stanovit prioritu",
+      "example": "Wir müssen die dringendsten Aufgaben priorisieren.",
+      "example_cz": "Musíme stanovit prioritu nejnaléhavějším úkolům.",
+      "tts_text": "Wir müssen die dringendsten Aufgaben priorisieren."
+    },
+    {
+      "word": "dringend",
+      "translation_cz": "naléhavý",
+      "example": "Diese Anfrage ist dringend.",
+      "example_cz": "Tento požadavek je naléhavý.",
+      "tts_text": "Diese Anfrage ist dringend."
+    },
+    {
+      "word": "wichtig",
+      "translation_cz": "důležitý",
+      "example": "Nicht alles Dringende ist wichtig.",
+      "example_cz": "Ne všechno naléhavé je důležité.",
+      "tts_text": "Nicht alles Dringende ist wichtig."
+    },
+    {
+      "word": "das Backlog",
+      "translation_cz": "zásobník úkolů",
+      "example": "Verschieben wir es ins Backlog.",
+      "example_cz": "Přesuňme to do zásobníku úkolů.",
+      "tts_text": "Verschieben wir es ins Backlog."
+    },
+    {
+      "word": "niedrige Priorität",
+      "translation_cz": "nízká priorita",
+      "example": "Diese Aufgabe hat vorerst niedrige Priorität.",
+      "example_cz": "Tento úkol má prozatím nízkou prioritu.",
+      "tts_text": "Diese Aufgabe hat vorerst niedrige Priorität."
+    },
+    {
+      "word": "der kritische Pfad",
+      "translation_cz": "kritická cesta",
+      "example": "Diese Aufgabe liegt auf dem kritischen Pfad.",
+      "example_cz": "Tento úkol je na kritické cestě.",
+      "tts_text": "Diese Aufgabe liegt auf dem kritischen Pfad."
+    },
+    {
+      "word": "der Kompromiss",
+      "translation_cz": "kompromis",
+      "example": "Wir müssen immer Kompromisse eingehen.",
+      "example_cz": "Vždy musíme dělat kompromisy.",
+      "tts_text": "Wir müssen immer Kompromisse eingehen."
+    },
+    {
+      "word": "sich konzentrieren",
+      "translation_cz": "soustředit se",
+      "example": "Konzentrieren wir uns auf die drei wichtigsten Aufgaben.",
+      "example_cz": "Soustřeďme se na tři nejdůležitější úkoly.",
+      "tts_text": "Konzentrieren wir uns auf die drei wichtigsten Aufgaben."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_priority_meeting",
+      "title": "Das Backlog priorisieren",
+      "title_cz": "Stanovení priorit v zásobníku úkolů",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wir haben zu viele Aufgaben. Lasst uns priorisieren.",
+          "text_cz": "Máme příliš mnoho úkolů. Stanovme si priority."
+        },
+        {
+          "speaker": "B",
+          "text": "Diese ist dringend, aber ist sie wirklich wichtig?",
+          "text_cz": "Tento je naléhavý, ale je opravdu důležitý?"
+        },
+        {
+          "speaker": "A",
+          "text": "Nicht wirklich, verschieben wir sie ins Backlog und konzentrieren uns auf den kritischen Pfad.",
+          "text_cz": "Ne úplně, přesuňme ho do zásobníku a soustřeďme se na kritickou cestu."
+        },
+        {
+          "speaker": "B",
+          "text": "Einverstanden. Wir müssen ein paar Kompromisse eingehen.",
+          "text_cz": "Souhlasím. Budeme muset udělat nějaké kompromisy."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "priorisieren",
+      "options": [
+        "stanovit prioritu",
+        "důležitý",
+        "zásobník úkolů"
+      ],
+      "correct": "stanovit prioritu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Diese Anfrage ist ___.",
+      "answer": "dringend",
+      "hint_cz": "naléhavý"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Diese Aufgabe hat vorerst ___.",
+      "answer": "niedrige Priorität",
+      "hint_cz": "nízká priorita"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der kritische Pfad",
+          "cz": "kritická cesta"
+        },
+        {
+          "target": "der Kompromiss",
+          "cz": "kompromis"
+        },
+        {
+          "target": "sich konzentrieren",
+          "cz": "soustředit se"
+        },
+        {
+          "target": "wichtig",
+          "cz": "důležitý"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir haben zu viele Aufgaben. Lasst uns priorisieren.",
+      "tts_text": "Wir haben zu viele Aufgaben. Lasst uns priorisieren."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Diese ist dringend, aber ist sie wirklich wichtig?",
+      "tts_text": "Diese ist dringend, aber ist sie wirklich wichtig?"
+    }
+  ]
+}

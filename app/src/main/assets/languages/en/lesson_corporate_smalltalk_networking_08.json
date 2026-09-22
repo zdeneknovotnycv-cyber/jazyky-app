@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_smalltalk_networking_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Welcoming a new colleague",
+  "title_cz": "Přivítání nového kolegy",
+  "vocabulary": [
+    {
+      "word": "Welcome to the team",
+      "translation_cz": "Vítej v týmu",
+      "example": "Welcome to the team!",
+      "example_cz": "Vítej v týmu!",
+      "tts_text": "Welcome to the team!"
+    },
+    {
+      "word": "show you around",
+      "translation_cz": "provést tě po firmě",
+      "example": "Let me show you around the office.",
+      "example_cz": "Nech mě tě provést po kanceláři.",
+      "tts_text": "Let me show you around the office."
+    },
+    {
+      "word": "first day",
+      "translation_cz": "první den",
+      "example": "How is your first day going?",
+      "example_cz": "Jak ti jde první den?",
+      "tts_text": "How is your first day going?"
+    },
+    {
+      "word": "If you have any questions",
+      "translation_cz": "Pokud budeš mít nějaké dotazy",
+      "example": "If you have any questions, just ask.",
+      "example_cz": "Pokud budeš mít nějaké dotazy, klidně se zeptej.",
+      "tts_text": "If you have any questions, just ask."
+    },
+    {
+      "word": "settle in",
+      "translation_cz": "zabydlet se",
+      "example": "I hope you settle in quickly.",
+      "example_cz": "Doufám, že se rychle zabydlíš.",
+      "tts_text": "I hope you settle in quickly."
+    },
+    {
+      "word": "team member",
+      "translation_cz": "člen týmu",
+      "example": "You're now an official team member.",
+      "example_cz": "Teď jsi oficiálním členem týmu.",
+      "tts_text": "You're now an official team member."
+    },
+    {
+      "word": "get to know each other",
+      "translation_cz": "poznat se navzájem",
+      "example": "We'll have time to get to know each other.",
+      "example_cz": "Budeme mít čas se navzájem poznat.",
+      "tts_text": "We'll have time to get to know each other."
+    },
+    {
+      "word": "Feel free to ask",
+      "translation_cz": "Neváhej se zeptat",
+      "example": "Feel free to ask me anything.",
+      "example_cz": "Neváhej se mě na cokoliv zeptat.",
+      "tts_text": "Feel free to ask me anything."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_welcome_colleague",
+      "title": "Welcoming a new colleague",
+      "title_cz": "Přivítání nového kolegy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Welcome to the team! How is your first day going?",
+          "text_cz": "Vítej v týmu! Jak ti jde první den?"
+        },
+        {
+          "speaker": "B",
+          "text": "Great, thank you. Everyone is very friendly.",
+          "text_cz": "Skvěle, děkuji. Všichni jsou moc milí."
+        },
+        {
+          "speaker": "A",
+          "text": "Let me show you around the office. If you have any questions, just ask.",
+          "text_cz": "Nech mě tě provést po kanceláři. Pokud budeš mít nějaké dotazy, klidně se zeptej."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you, I hope I settle in quickly.",
+          "text_cz": "Děkuji, doufám, že se rychle zabydlím."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Welcome to the team",
+      "options": [
+        "Vítej v týmu",
+        "První den",
+        "Zabydlet se"
+      ],
+      "correct": "Vítej v týmu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let me show you ___ the office.",
+      "answer": "around",
+      "hint_cz": "po"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "If you have any ___, just ask.",
+      "answer": "questions",
+      "hint_cz": "dotazy"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "first day",
+          "cz": "první den"
+        },
+        {
+          "target": "settle in",
+          "cz": "zabydlet se"
+        },
+        {
+          "target": "team member",
+          "cz": "člen týmu"
+        },
+        {
+          "target": "get to know each other",
+          "cz": "poznat se navzájem"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Welcome to the team!",
+      "tts_text": "Welcome to the team!"
+    }
+  ]
+}

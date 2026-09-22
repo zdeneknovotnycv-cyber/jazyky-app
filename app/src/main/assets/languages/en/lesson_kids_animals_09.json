@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_animals_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Taking Care of a Pet",
+  "title_cz": "Péče o mazlíčka",
+  "vocabulary": [
+    {
+      "word": "feed",
+      "translation_cz": "krmit",
+      "example": "I feed my dog every day.",
+      "example_cz": "Krmím psa každý den.",
+      "tts_text": "I feed my dog every day."
+    },
+    {
+      "word": "water bowl",
+      "translation_cz": "miska na vodu",
+      "example": "The cat has a water bowl.",
+      "example_cz": "Kočka má misku na vodu.",
+      "tts_text": "The cat has a water bowl."
+    },
+    {
+      "word": "walk",
+      "translation_cz": "venčit",
+      "example": "We walk the dog in the park.",
+      "example_cz": "Venčíme psa v parku.",
+      "tts_text": "We walk the dog in the park."
+    },
+    {
+      "word": "brush",
+      "translation_cz": "kartáčovat",
+      "example": "I brush my cat's fur.",
+      "example_cz": "Kartáčuji kočce srst.",
+      "tts_text": "I brush my cat's fur."
+    },
+    {
+      "word": "vet",
+      "translation_cz": "veterinář",
+      "example": "The vet checks the pet.",
+      "example_cz": "Veterinář kontroluje mazlíčka.",
+      "tts_text": "The vet checks the pet."
+    },
+    {
+      "word": "clean",
+      "translation_cz": "čistit",
+      "example": "We clean the cage every week.",
+      "example_cz": "Čistíme klec každý týden.",
+      "tts_text": "We clean the cage every week."
+    },
+    {
+      "word": "love",
+      "translation_cz": "milovat",
+      "example": "I love my pet very much.",
+      "example_cz": "Miluji svého mazlíčka.",
+      "tts_text": "I love my pet very much."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "vet",
+      "options": [
+        "veterinář",
+        "krmit",
+        "venčit"
+      ],
+      "correct": "veterinář"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ my dog every day.",
+      "answer": "feed",
+      "hint_cz": "krmím"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "water bowl",
+          "cz": "miska na vodu"
+        },
+        {
+          "target": "walk",
+          "cz": "venčit"
+        },
+        {
+          "target": "brush",
+          "cz": "kartáčovat"
+        },
+        {
+          "target": "clean",
+          "cz": "čistit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I love my pet very much.",
+      "tts_text": "I love my pet very much."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "en_adult_corporate_meetings_intros_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ending a meeting",
+  "title_cz": "Ukončení schůzky",
+  "vocabulary": [
+    {
+      "word": "wrap up",
+      "translation_cz": "uzavřít / shrnout",
+      "example": "Let's wrap up the meeting now.",
+      "example_cz": "Pojďme teď schůzku uzavřít.",
+      "tts_text": "Let's wrap up the meeting now."
+    },
+    {
+      "word": "action item",
+      "translation_cz": "úkol k realizaci",
+      "example": "We have three action items from today.",
+      "example_cz": "Z dnešní schůzky máme tři úkoly."
+    },
+    {
+      "word": "summarize",
+      "translation_cz": "shrnout",
+      "example": "Let me summarize what we discussed.",
+      "example_cz": "Dovolte mi shrnout, co jsme probrali.",
+      "tts_text": "Let me summarize what we discussed."
+    },
+    {
+      "word": "next steps",
+      "translation_cz": "další kroky",
+      "example": "What are the next steps?",
+      "example_cz": "Jaké jsou další kroky?",
+      "tts_text": "What are the next steps?"
+    },
+    {
+      "word": "thank you for your time",
+      "translation_cz": "děkuji za váš čas",
+      "example": "Thank you for your time today.",
+      "example_cz": "Děkuji vám dnes za váš čas.",
+      "tts_text": "Thank you for your time today."
+    },
+    {
+      "word": "before we finish",
+      "translation_cz": "než skončíme",
+      "example": "Before we finish, any final questions?",
+      "example_cz": "Než skončíme, má ještě někdo dotaz?",
+      "tts_text": "Before we finish, any final questions?"
+    },
+    {
+      "word": "assign",
+      "translation_cz": "přidělit",
+      "example": "I will assign the tasks by email.",
+      "example_cz": "Úkoly přidělím e-mailem.",
+      "tts_text": "I will assign the tasks by email."
+    },
+    {
+      "word": "see you next time",
+      "translation_cz": "uvidíme se příště",
+      "example": "See you next time. Have a good day.",
+      "example_cz": "Uvidíme se příště. Mějte se hezky.",
+      "tts_text": "See you next time. Have a good day."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_end_meeting",
+      "title": "Closing a meeting",
+      "title_cz": "Ukončení schůzky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Before we finish, let me summarize what we discussed today.",
+          "text_cz": "Než skončíme, dovolte mi shrnout, co jsme dnes probrali."
+        },
+        {
+          "speaker": "A",
+          "text": "We have three action items: the report, the budget, and the client call.",
+          "text_cz": "Máme tři úkoly: report, rozpočet a hovor s klientem."
+        },
+        {
+          "speaker": "B",
+          "text": "Sounds clear. What are the next steps for me?",
+          "text_cz": "Jasné. Jaké jsou pro mě další kroky?"
+        },
+        {
+          "speaker": "A",
+          "text": "I will assign the tasks by email this afternoon. Thank you for your time.",
+          "text_cz": "Úkoly přidělím e-mailem dnes odpoledne. Děkuji vám za váš čas."
+        },
+        {
+          "speaker": "B",
+          "text": "Thanks, see you next time.",
+          "text_cz": "Díky, uvidíme se příště."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "action item",
+      "options": [
+        "úkol k realizaci",
+        "program jednání",
+        "zápis"
+      ],
+      "correct": "úkol k realizaci"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What are the next ___?",
+      "answer": "steps",
+      "hint_cz": "kroky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "wrap up",
+          "cz": "uzavřít"
+        },
+        {
+          "target": "summarize",
+          "cz": "shrnout"
+        },
+        {
+          "target": "assign",
+          "cz": "přidělit"
+        },
+        {
+          "target": "next steps",
+          "cz": "další kroky"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Thank you for your time today.",
+      "tts_text": "Thank you for your time today."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's ___ up the meeting now.",
+      "answer": "wrap",
+      "hint_cz": "uzavřít"
+    }
+  ]
+}

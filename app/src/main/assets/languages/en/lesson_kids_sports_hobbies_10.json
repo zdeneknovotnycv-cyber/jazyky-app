@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_sports_hobbies_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "My Favorite Hobby",
+  "title_cz": "Můj oblíbený koníček",
+  "vocabulary": [
+    {
+      "word": "hobby",
+      "translation_cz": "koníček",
+      "example": "My hobby is painting.",
+      "example_cz": "Můj koníček je malování.",
+      "tts_text": "My hobby is painting."
+    },
+    {
+      "word": "favorite",
+      "translation_cz": "oblíbený",
+      "example": "What is your favorite hobby?",
+      "example_cz": "Jaký je tvůj oblíbený koníček?",
+      "tts_text": "What is your favorite hobby?"
+    },
+    {
+      "word": "free time",
+      "translation_cz": "volný čas",
+      "example": "I paint in my free time.",
+      "example_cz": "Ve volném čase maluji.",
+      "tts_text": "I paint in my free time."
+    },
+    {
+      "word": "enjoy",
+      "translation_cz": "bavit se, mít radost",
+      "example": "I really enjoy dancing.",
+      "example_cz": "Tanec mě opravdu baví.",
+      "tts_text": "I really enjoy dancing."
+    },
+    {
+      "word": "collect",
+      "translation_cz": "sbírat",
+      "example": "I collect stamps.",
+      "example_cz": "Sbírám známky.",
+      "tts_text": "I collect stamps."
+    },
+    {
+      "word": "interesting",
+      "translation_cz": "zajímavý",
+      "example": "My hobby is very interesting.",
+      "example_cz": "Můj koníček je velmi zajímavý.",
+      "tts_text": "My hobby is very interesting."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "hobby",
+      "options": [
+        "koníček",
+        "volný čas",
+        "sbírat"
+      ],
+      "correct": "koníček"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What is your favorite ___?",
+      "answer": "hobby",
+      "hint_cz": "koníček"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "favorite",
+          "cz": "oblíbený"
+        },
+        {
+          "target": "free time",
+          "cz": "volný čas"
+        },
+        {
+          "target": "enjoy",
+          "cz": "bavit se, mít radost"
+        },
+        {
+          "target": "collect",
+          "cz": "sbírat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My hobby is painting.",
+      "tts_text": "My hobby is painting."
+    }
+  ]
+}

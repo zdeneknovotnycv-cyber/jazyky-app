@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_nature_outdoors_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Rivers and lakes",
+  "title_cz": "Řeky a jezera",
+  "vocabulary": [
+    {
+      "word": "river",
+      "translation_cz": "řeka",
+      "example": "The river flows through the town.",
+      "example_cz": "Řeka protéká městem.",
+      "tts_text": "The river flows through the town."
+    },
+    {
+      "word": "lake",
+      "translation_cz": "jezero",
+      "example": "We swim in the lake.",
+      "example_cz": "Plaveme v jezeře.",
+      "tts_text": "We swim in the lake."
+    },
+    {
+      "word": "bridge",
+      "translation_cz": "most",
+      "example": "We cross the bridge over the river.",
+      "example_cz": "Přecházíme most přes řeku.",
+      "tts_text": "We cross the bridge over the river."
+    },
+    {
+      "word": "fish",
+      "translation_cz": "ryba",
+      "example": "A fish swims in the river.",
+      "example_cz": "V řece plave ryba.",
+      "tts_text": "A fish swims in the river."
+    },
+    {
+      "word": "boat trip",
+      "translation_cz": "projížďka na lodi",
+      "example": "We take a boat trip on the lake.",
+      "example_cz": "Vydáme se na projížďku lodí po jezeře.",
+      "tts_text": "We take a boat trip on the lake."
+    },
+    {
+      "word": "frog",
+      "translation_cz": "žába",
+      "example": "A frog jumps into the lake.",
+      "example_cz": "Žába skáče do jezera.",
+      "tts_text": "A frog jumps into the lake."
+    },
+    {
+      "word": "clear water",
+      "translation_cz": "čirá voda",
+      "example": "The lake has clear water.",
+      "example_cz": "Jezero má čirou vodu.",
+      "tts_text": "The lake has clear water."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "river",
+      "options": [
+        "řeka",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "řeka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ flows through the town.",
+      "answer": "river",
+      "hint_cz": "řeka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "lake",
+          "cz": "jezero"
+        },
+        {
+          "target": "bridge",
+          "cz": "most"
+        },
+        {
+          "target": "fish",
+          "cz": "ryba"
+        },
+        {
+          "target": "boat trip",
+          "cz": "projížďka na lodi"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We swim in the lake.",
+      "tts_text": "We swim in the lake."
+    }
+  ]
+}

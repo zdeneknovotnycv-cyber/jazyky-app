@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_teamwork_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Cross-department collaboration",
+  "title_cz": "Spolupráce napříč odděleními",
+  "vocabulary": [
+    {
+      "word": "department",
+      "translation_cz": "oddělení",
+      "example": "The marketing department needs our input.",
+      "example_cz": "Marketingové oddělení potřebuje náš vstup.",
+      "tts_text": "The marketing department needs our input."
+    },
+    {
+      "word": "to align",
+      "translation_cz": "sladit",
+      "example": "We need to align our goals with sales.",
+      "example_cz": "Musíme sladit naše cíle s prodejem.",
+      "tts_text": "We need to align our goals with sales."
+    },
+    {
+      "word": "stakeholder",
+      "translation_cz": "zainteresovaná strana",
+      "example": "All stakeholders should be informed.",
+      "example_cz": "Všechny zainteresované strany by měly být informovány.",
+      "tts_text": "All stakeholders should be informed."
+    },
+    {
+      "word": "to sync up",
+      "translation_cz": "domluvit se / sladit se",
+      "example": "Let's sync up with IT before launch.",
+      "example_cz": "Domluvme se s IT ještě před spuštěním.",
+      "tts_text": "Let's sync up with IT before launch."
+    },
+    {
+      "word": "cross-functional",
+      "translation_cz": "napříč odděleními",
+      "example": "This is a cross-functional project.",
+      "example_cz": "Tohle je projekt napříč odděleními.",
+      "tts_text": "This is a cross-functional project."
+    },
+    {
+      "word": "to loop in",
+      "translation_cz": "zapojit do komunikace",
+      "example": "Could you loop in the finance team?",
+      "example_cz": "Mohl bys zapojit finanční tým?",
+      "tts_text": "Could you loop in the finance team?"
+    },
+    {
+      "word": "shared goal",
+      "translation_cz": "společný cíl",
+      "example": "We all have a shared goal here.",
+      "example_cz": "Všichni tu máme společný cíl.",
+      "tts_text": "We all have a shared goal here."
+    },
+    {
+      "word": "bottleneck",
+      "translation_cz": "úzké místo / zádrhel",
+      "example": "The approval process is a bottleneck.",
+      "example_cz": "Schvalovací proces je úzké místo.",
+      "tts_text": "The approval process is a bottleneck."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_cross_department",
+      "title": "Coordinating with another department",
+      "title_cz": "Koordinace s jiným oddělením",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "This is a cross-functional project, so let's sync up with IT before launch.",
+          "text_cz": "Tohle je projekt napříč odděleními, tak se ještě před spuštěním domluvme s IT."
+        },
+        {
+          "speaker": "B",
+          "text": "Good idea. Could you loop in the finance team as well?",
+          "text_cz": "Dobrý nápad. Mohl bys zapojit i finanční tým?"
+        },
+        {
+          "speaker": "A",
+          "text": "Sure. We all have a shared goal, so we need to align our timelines.",
+          "text_cz": "Jasně. Všichni máme společný cíl, tak musíme sladit naše termíny."
+        },
+        {
+          "speaker": "B",
+          "text": "Agreed. The approval process has been a bottleneck lately.",
+          "text_cz": "Souhlasím. Schvalovací proces byl v poslední době úzkým místem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "cross-functional",
+      "options": [
+        "napříč odděleními",
+        "úzké místo",
+        "společný cíl"
+      ],
+      "correct": "napříč odděleními"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's ___ up with IT before launch.",
+      "answer": "sync",
+      "hint_cz": "domluvit se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "department",
+          "cz": "oddělení"
+        },
+        {
+          "target": "stakeholder",
+          "cz": "zainteresovaná strana"
+        },
+        {
+          "target": "bottleneck",
+          "cz": "úzké místo"
+        },
+        {
+          "target": "to loop in",
+          "cz": "zapojit do komunikace"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We all have a shared goal here.",
+      "tts_text": "We all have a shared goal here."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We need to ___ our goals with sales.",
+      "answer": "align",
+      "hint_cz": "sladit"
+    }
+  ]
+}

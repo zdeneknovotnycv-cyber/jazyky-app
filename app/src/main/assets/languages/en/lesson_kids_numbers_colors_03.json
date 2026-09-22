@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_numbers_colors_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Counting Objects",
+  "title_cz": "Počítání předmětů",
+  "vocabulary": [
+    {
+      "word": "count",
+      "translation_cz": "počítat",
+      "example": "Let's count the apples.",
+      "example_cz": "Pojďme počítat jablka.",
+      "tts_text": "Let's count the apples."
+    },
+    {
+      "word": "how many",
+      "translation_cz": "kolik",
+      "example": "How many balls do you have?",
+      "example_cz": "Kolik máš míčů?",
+      "tts_text": "How many balls do you have?"
+    },
+    {
+      "word": "apples",
+      "translation_cz": "jablka",
+      "example": "There are four apples.",
+      "example_cz": "Jsou tam čtyři jablka.",
+      "tts_text": "There are four apples."
+    },
+    {
+      "word": "toys",
+      "translation_cz": "hračky",
+      "example": "I have many toys.",
+      "example_cz": "Mám hodně hraček.",
+      "tts_text": "I have many toys."
+    },
+    {
+      "word": "all",
+      "translation_cz": "všechny",
+      "example": "I counted all the books.",
+      "example_cz": "Spočítal jsem všechny knihy.",
+      "tts_text": "I counted all the books."
+    },
+    {
+      "word": "none",
+      "translation_cz": "žádný",
+      "example": "There are none left.",
+      "example_cz": "Nezbyl žádný.",
+      "tts_text": "There are none left."
+    },
+    {
+      "word": "more",
+      "translation_cz": "víc",
+      "example": "I want more candies.",
+      "example_cz": "Chci víc bonbonů.",
+      "tts_text": "I want more candies."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "toys",
+      "options": [
+        "hračky",
+        "jablka",
+        "všechny"
+      ],
+      "correct": "hračky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "There are four ___.",
+      "answer": "apples",
+      "hint_cz": "jablka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "count",
+          "cz": "počítat"
+        },
+        {
+          "target": "how many",
+          "cz": "kolik"
+        },
+        {
+          "target": "all",
+          "cz": "všechny"
+        },
+        {
+          "target": "none",
+          "cz": "žádný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I want more candies.",
+      "tts_text": "I want more candies."
+    }
+  ]
+}

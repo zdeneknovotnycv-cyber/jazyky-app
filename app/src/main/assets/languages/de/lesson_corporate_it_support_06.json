@@ -1,0 +1,162 @@
+{
+  "id": "de_adult_corporate_it_support_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen neuen Laptop einrichten",
+  "title_cz": "Nastavení nového notebooku",
+  "vocabulary": [
+    {
+      "word": "der neue Laptop",
+      "translation_cz": "nový notebook",
+      "example": "Ich habe gerade meinen neuen Laptop von der IT bekommen.",
+      "example_cz": "Právě jsem od IT dostal nový notebook.",
+      "tts_text": "Ich habe gerade meinen neuen Laptop von der IT bekommen."
+    },
+    {
+      "word": "einrichten",
+      "translation_cz": "nastavit",
+      "example": "Können Sie mir helfen, meinen neuen Laptop einzurichten?",
+      "example_cz": "Můžete mi pomoct nastavit nový notebook?",
+      "tts_text": "Können Sie mir helfen, meinen neuen Laptop einzurichten?"
+    },
+    {
+      "word": "das Konto",
+      "translation_cz": "účet",
+      "example": "Zuerst melden wir uns bei Ihrem Firmenkonto an.",
+      "example_cz": "Nejdřív se přihlásíme do vašeho firemního účtu.",
+      "tts_text": "Zuerst melden wir uns bei Ihrem Firmenkonto an."
+    },
+    {
+      "word": "sich mit dem WLAN verbinden",
+      "translation_cz": "připojit se k Wi-Fi",
+      "example": "Bitte verbinden Sie sich mit dem WLAN des Büros.",
+      "example_cz": "Připojte se prosím k Wi-Fi pomocí firemní sítě.",
+      "tts_text": "Bitte verbinden Sie sich mit dem WLAN des Büros."
+    },
+    {
+      "word": "Anwendungen installieren",
+      "translation_cz": "nainstalovat aplikace",
+      "example": "Wir müssen Anwendungen wie E-Mail und Videoanrufe installieren.",
+      "example_cz": "Musíme nainstalovat aplikace jako e-mail a videohovory.",
+      "tts_text": "Wir müssen Anwendungen wie E-Mail und Videoanrufe installieren."
+    },
+    {
+      "word": "Dateien übertragen",
+      "translation_cz": "přenést soubory",
+      "example": "Möchten Sie Dateien von Ihrem alten Laptop übertragen?",
+      "example_cz": "Chcete přenést soubory ze starého notebooku?",
+      "tts_text": "Möchten Sie Dateien von Ihrem alten Laptop übertragen?"
+    },
+    {
+      "word": "das E-Mail-Programm",
+      "translation_cz": "e-mailový klient",
+      "example": "Richten wir zuerst Ihr E-Mail-Programm ein.",
+      "example_cz": "Nastavme si nejdřív váš e-mailový klient.",
+      "tts_text": "Richten wir zuerst Ihr E-Mail-Programm ein."
+    },
+    {
+      "word": "einsatzbereit",
+      "translation_cz": "připraven k použití",
+      "example": "Ihr Laptop ist jetzt einsatzbereit.",
+      "example_cz": "Váš notebook je nyní připraven k použití.",
+      "tts_text": "Ihr Laptop ist jetzt einsatzbereit."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_new_laptop",
+      "title": "Einen neuen Arbeitslaptop einrichten",
+      "title_cz": "Nastavení nového pracovního notebooku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich habe gerade meinen neuen Laptop bekommen. Können Sie mir helfen, ihn einzurichten?",
+          "text_cz": "Právě jsem dostal nový notebook. Můžete mi pomoct ho nastavit?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar. Zuerst verbinden wir uns mit dem WLAN und melden uns bei Ihrem Firmenkonto an.",
+          "text_cz": "Jistě. Nejdřív se připojíme k Wi-Fi a přihlásíme se do vašeho firemního účtu."
+        },
+        {
+          "speaker": "A",
+          "text": "Okay, ich bin verbunden. Was kommt als Nächstes?",
+          "text_cz": "Dobře, jsem připojen. Co dál?"
+        },
+        {
+          "speaker": "B",
+          "text": "Jetzt installieren wir Anwendungen wie E-Mail und Videoanrufe und richten Ihr E-Mail-Programm ein.",
+          "text_cz": "Teď nainstalujeme aplikace jako e-mail a videohovory a nastavíme váš e-mailový klient."
+        }
+      ]
+    },
+    {
+      "id": "conv_transfer_files",
+      "title": "Alte Dateien übertragen",
+      "title_cz": "Přenos starých souborů",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Muss ich Dateien von meinem alten Laptop übertragen?",
+          "text_cz": "Potřebuji přenést soubory ze starého notebooku?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, sichern Sie sie bitte, und wir kopieren sie auf Ihren neuen Laptop.",
+          "text_cz": "Ano, zálohujte je prosím a my je zkopírujeme do vašeho nového notebooku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sich mit dem WLAN verbinden",
+      "options": [
+        "připojit se k Wi-Fi",
+        "přenést soubory",
+        "nainstalovat aplikace"
+      ],
+      "correct": "připojit se k Wi-Fi"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Können Sie mir helfen, meinen neuen Laptop ___?",
+      "answer": "einzurichten",
+      "hint_cz": "nastavit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Konto",
+          "cz": "účet"
+        },
+        {
+          "target": "das E-Mail-Programm",
+          "cz": "e-mailový klient"
+        },
+        {
+          "target": "Dateien übertragen",
+          "cz": "přenést soubory"
+        },
+        {
+          "target": "einsatzbereit",
+          "cz": "připraven k použití"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe gerade meinen neuen Laptop von der IT bekommen.",
+      "tts_text": "Ich habe gerade meinen neuen Laptop von der IT bekommen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ihr Laptop ist jetzt ___.",
+      "answer": "einsatzbereit",
+      "hint_cz": "připraven k použití"
+    }
+  ]
+}

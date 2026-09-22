@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_animals_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Birds",
+  "title_cz": "Ptáci",
+  "vocabulary": [
+    {
+      "word": "der Vogel",
+      "translation_cz": "pták",
+      "example": "Der Vogel kann fliegen.",
+      "example_cz": "Pták umí létat.",
+      "tts_text": "Der Vogel kann fliegen."
+    },
+    {
+      "word": "die Eule",
+      "translation_cz": "sova",
+      "example": "Die Eule schläft am Tag.",
+      "example_cz": "Sova spí přes den.",
+      "tts_text": "Die Eule schläft am Tag."
+    },
+    {
+      "word": "der Papagei",
+      "translation_cz": "papoušek",
+      "example": "Der Papagei kann sprechen.",
+      "example_cz": "Papoušek umí mluvit.",
+      "tts_text": "Der Papagei kann sprechen."
+    },
+    {
+      "word": "der Adler",
+      "translation_cz": "orel",
+      "example": "Der Adler fliegt sehr hoch.",
+      "example_cz": "Orel létá velmi vysoko.",
+      "tts_text": "Der Adler fliegt sehr hoch."
+    },
+    {
+      "word": "der Pinguin",
+      "translation_cz": "tučňák",
+      "example": "Der Pinguin kann nicht fliegen.",
+      "example_cz": "Tučňák neumí létat.",
+      "tts_text": "Der Pinguin kann nicht fliegen."
+    },
+    {
+      "word": "das Nest",
+      "translation_cz": "hnízdo",
+      "example": "Der Vogel hat ein Nest gebaut.",
+      "example_cz": "Pták postavil hnízdo.",
+      "tts_text": "Der Vogel hat ein Nest gebaut."
+    },
+    {
+      "word": "der Flügel",
+      "translation_cz": "křídlo",
+      "example": "Der Vogel hat zwei Flügel.",
+      "example_cz": "Pták má dvě křídla.",
+      "tts_text": "Der Vogel hat zwei Flügel."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Pinguin",
+      "options": [
+        "tučňák",
+        "sova",
+        "orel"
+      ],
+      "correct": "tučňák"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der ___ kann sprechen.",
+      "answer": "Papagei",
+      "hint_cz": "papoušek"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Eule",
+          "cz": "sova"
+        },
+        {
+          "target": "der Adler",
+          "cz": "orel"
+        },
+        {
+          "target": "das Nest",
+          "cz": "hnízdo"
+        },
+        {
+          "target": "der Flügel",
+          "cz": "křídlo"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Pinguin kann nicht fliegen.",
+      "tts_text": "Der Pinguin kann nicht fliegen."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_animals_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Farm Animals",
+  "title_cz": "Zvířata na farmě",
+  "vocabulary": [
+    {
+      "word": "cow",
+      "translation_cz": "kráva",
+      "example": "The cow gives milk.",
+      "example_cz": "Kráva dává mléko.",
+      "tts_text": "The cow gives milk."
+    },
+    {
+      "word": "horse",
+      "translation_cz": "kůň",
+      "example": "The horse runs fast.",
+      "example_cz": "Kůň běhá rychle.",
+      "tts_text": "The horse runs fast."
+    },
+    {
+      "word": "pig",
+      "translation_cz": "prase",
+      "example": "The pig is pink.",
+      "example_cz": "Prase je růžové.",
+      "tts_text": "The pig is pink."
+    },
+    {
+      "word": "sheep",
+      "translation_cz": "ovce",
+      "example": "The sheep has soft wool.",
+      "example_cz": "Ovce má měkkou vlnu.",
+      "tts_text": "The sheep has soft wool."
+    },
+    {
+      "word": "chicken",
+      "translation_cz": "slepice",
+      "example": "The chicken lays eggs.",
+      "example_cz": "Slepice snáší vejce.",
+      "tts_text": "The chicken lays eggs."
+    },
+    {
+      "word": "duck",
+      "translation_cz": "kachna",
+      "example": "The duck swims in the pond.",
+      "example_cz": "Kachna plave v rybníku.",
+      "tts_text": "The duck swims in the pond."
+    },
+    {
+      "word": "farm",
+      "translation_cz": "farma",
+      "example": "We visited a farm.",
+      "example_cz": "Navštívili jsme farmu.",
+      "tts_text": "We visited a farm."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "pig",
+      "options": [
+        "prase",
+        "kráva",
+        "kůň"
+      ],
+      "correct": "prase"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ gives milk.",
+      "answer": "cow",
+      "hint_cz": "kráva"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sheep",
+          "cz": "ovce"
+        },
+        {
+          "target": "chicken",
+          "cz": "slepice"
+        },
+        {
+          "target": "duck",
+          "cz": "kachna"
+        },
+        {
+          "target": "farm",
+          "cz": "farma"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The pig is pink.",
+      "tts_text": "The pig is pink."
+    }
+  ]
+}

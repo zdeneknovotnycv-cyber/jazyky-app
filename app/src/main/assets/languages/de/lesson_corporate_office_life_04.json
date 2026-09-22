@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_office_life_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Anweisungen für die Feueralarmübung",
+  "title_cz": "Instrukce pro požární cvičení",
+  "vocabulary": [
+    {
+      "word": "die Feueralarmübung",
+      "translation_cz": "požární cvičení",
+      "example": "Wir haben heute Nachmittag eine Feueralarmübung.",
+      "example_cz": "Dnes odpoledne máme požární cvičení.",
+      "tts_text": "Wir haben heute Nachmittag eine Feueralarmübung."
+    },
+    {
+      "word": "der Feueralarm",
+      "translation_cz": "požární poplach",
+      "example": "Der Feueralarm ertönt um zwei Uhr.",
+      "example_cz": "Požární poplach zazní ve dvě hodiny.",
+      "tts_text": "Der Feueralarm ertönt um zwei Uhr."
+    },
+    {
+      "word": "das Gebäude evakuieren",
+      "translation_cz": "vyklidit budovu",
+      "example": "Alle müssen das Gebäude ruhig evakuieren.",
+      "example_cz": "Všichni musí klidně vyklidit budovu.",
+      "tts_text": "Alle müssen das Gebäude ruhig evakuieren."
+    },
+    {
+      "word": "der Notausgang",
+      "translation_cz": "nouzový východ",
+      "example": "Der Notausgang ist neben der Treppe.",
+      "example_cz": "Nouzový východ je vedle schodiště.",
+      "tts_text": "Der Notausgang ist neben der Treppe."
+    },
+    {
+      "word": "der Sammelplatz",
+      "translation_cz": "shromaždiště",
+      "example": "Geht zum Sammelplatz auf dem Parkplatz.",
+      "example_cz": "Jděte na shromaždiště na parkovišti.",
+      "tts_text": "Geht zum Sammelplatz auf dem Parkplatz."
+    },
+    {
+      "word": "den Aufzug nicht benutzen",
+      "translation_cz": "nepoužívejte výtah",
+      "example": "Benutzt bei der Übung nicht den Aufzug.",
+      "example_cz": "Během cvičení nepoužívejte výtah.",
+      "tts_text": "Benutzt bei der Übung nicht den Aufzug."
+    },
+    {
+      "word": "ruhig bleiben",
+      "translation_cz": "zachovejte klid",
+      "example": "Bitte bleibt ruhig und geht zum Ausgang.",
+      "example_cz": "Prosím zachovejte klid a jděte k východu.",
+      "tts_text": "Bitte bleibt ruhig und geht zum Ausgang."
+    },
+    {
+      "word": "die Anwesenheitskontrolle",
+      "translation_cz": "sečtení lidí",
+      "example": "Der Brandschutzhelfer macht draußen eine Anwesenheitskontrolle.",
+      "example_cz": "Požární hlídka venku sečte lidi.",
+      "tts_text": "Der Brandschutzhelfer macht draußen eine Anwesenheitskontrolle."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_04",
+      "title": "Vorbereitung auf die Feueralarmübung",
+      "title_cz": "Příprava na požární cvičení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hast du gehört? Wir haben um zwei Uhr eine Feueralarmübung.",
+          "text_cz": "Slyšel jsi to? Ve dvě máme požární cvičení."
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, wenn der Feueralarm ertönt, evakuieren wir das Gebäude.",
+          "text_cz": "Ano, když zazní poplach, vyklidíme budovu."
+        },
+        {
+          "speaker": "A",
+          "text": "Denk dran, benutz nicht den Aufzug, sondern die Treppe.",
+          "text_cz": "Pamatuj, nepoužívej výtah, použij schody."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden, und wir treffen uns am Sammelplatz auf dem Parkplatz.",
+          "text_cz": "Rozumím, sejdeme se na shromaždišti na parkovišti."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Feueralarmübung",
+      "options": [
+        "požární cvičení",
+        "požární poplach",
+        "vyklidit budovu"
+      ],
+      "correct": "požární cvičení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte ___ das Gebäude ruhig.",
+      "answer": "evakuiert",
+      "hint_cz": "vyklidit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Feueralarmübung",
+          "cz": "požární cvičení"
+        },
+        {
+          "target": "der Feueralarm",
+          "cz": "požární poplach"
+        },
+        {
+          "target": "das Gebäude evakuieren",
+          "cz": "vyklidit budovu"
+        },
+        {
+          "target": "der Notausgang",
+          "cz": "nouzový východ"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte bleibt ruhig und geht zum Notausgang.",
+      "tts_text": "Bitte bleibt ruhig und geht zum Notausgang."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Geht zum ___ auf dem Parkplatz.",
+      "answer": "Sammelplatz",
+      "hint_cz": "shromaždiště"
+    }
+  ]
+}

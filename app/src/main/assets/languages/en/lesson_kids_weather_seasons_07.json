@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_weather_seasons_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Weather Forecast",
+  "title_cz": "Předpověď počasí",
+  "vocabulary": [
+    {
+      "word": "weather forecast",
+      "translation_cz": "předpověď počasí",
+      "example": "Let's check the weather forecast.",
+      "example_cz": "Podívejme se na předpověď počasí.",
+      "tts_text": "Let's check the weather forecast."
+    },
+    {
+      "word": "tomorrow it will rain",
+      "translation_cz": "zítra bude pršet",
+      "example": "Tomorrow it will rain a lot.",
+      "example_cz": "Zítra bude hodně pršet.",
+      "tts_text": "Tomorrow it will rain a lot."
+    },
+    {
+      "word": "temperature",
+      "translation_cz": "teplota",
+      "example": "The temperature is ten degrees.",
+      "example_cz": "Teplota je deset stupňů.",
+      "tts_text": "The temperature is ten degrees."
+    },
+    {
+      "word": "degree",
+      "translation_cz": "stupeň",
+      "example": "It's twenty degrees today.",
+      "example_cz": "Dnes je dvacet stupňů.",
+      "tts_text": "It's twenty degrees today."
+    },
+    {
+      "word": "windy",
+      "translation_cz": "větrno",
+      "example": "It will be windy tomorrow.",
+      "example_cz": "Zítra bude větrno.",
+      "tts_text": "It will be windy tomorrow."
+    },
+    {
+      "word": "cloudy",
+      "translation_cz": "zataženo",
+      "example": "The sky is cloudy today.",
+      "example_cz": "Dnes je zataženo.",
+      "tts_text": "The sky is cloudy today."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "temperature",
+      "options": [
+        "teplota",
+        "stupeň",
+        "větrno"
+      ],
+      "correct": "teplota"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "It's twenty ___ today.",
+      "answer": "degrees",
+      "hint_cz": "stupňů"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "weather forecast",
+          "cz": "předpověď počasí"
+        },
+        {
+          "target": "windy",
+          "cz": "větrno"
+        },
+        {
+          "target": "cloudy",
+          "cz": "zataženo"
+        },
+        {
+          "target": "tomorrow it will rain",
+          "cz": "zítra bude pršet"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's check the weather forecast.",
+      "tts_text": "Let's check the weather forecast."
+    }
+  ]
+}

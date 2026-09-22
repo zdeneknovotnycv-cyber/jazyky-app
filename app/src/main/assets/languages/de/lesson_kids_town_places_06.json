@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_town_places_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Die Post",
+  "title_cz": "Pošta",
+  "vocabulary": [
+    {
+      "word": "die Post",
+      "translation_cz": "pošta",
+      "example": "Wir schicken einen Brief bei der Post.",
+      "example_cz": "Posíláme dopis na poště.",
+      "tts_text": "Wir schicken einen Brief bei der Post."
+    },
+    {
+      "word": "der Brief",
+      "translation_cz": "dopis",
+      "example": "Ich schreibe einen Brief an meine Oma.",
+      "example_cz": "Píšu dopis babičce.",
+      "tts_text": "Ich schreibe einen Brief an meine Oma."
+    },
+    {
+      "word": "die Briefmarke",
+      "translation_cz": "známka",
+      "example": "Ich klebe eine Briefmarke auf den Umschlag.",
+      "example_cz": "Nalepím známku na obálku.",
+      "tts_text": "Ich klebe eine Briefmarke auf den Umschlag."
+    },
+    {
+      "word": "das Paket",
+      "translation_cz": "balík",
+      "example": "Wir schicken ein Paket an meinen Cousin.",
+      "example_cz": "Posíláme balík mému bratranci.",
+      "tts_text": "Wir schicken ein Paket an meinen Cousin."
+    },
+    {
+      "word": "der Briefkasten",
+      "translation_cz": "poštovní schránka",
+      "example": "Ich stecke den Brief in den Briefkasten.",
+      "example_cz": "Vhodím dopis do poštovní schránky.",
+      "tts_text": "Ich stecke den Brief in den Briefkasten."
+    },
+    {
+      "word": "der Postbote",
+      "translation_cz": "pošťák",
+      "example": "Der Postbote bringt unsere Post.",
+      "example_cz": "Pošťák nám nosí poštu.",
+      "tts_text": "Der Postbote bringt unsere Post."
+    },
+    {
+      "word": "die Adresse",
+      "translation_cz": "adresa",
+      "example": "Ich schreibe die Adresse deutlich.",
+      "example_cz": "Píšu adresu čitelně.",
+      "tts_text": "Ich schreibe die Adresse deutlich."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Post",
+      "options": [
+        "pošta",
+        "park",
+        "škola"
+      ],
+      "correct": "pošta"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich schreibe einen ___ an meine Oma.",
+      "answer": "der Brief",
+      "hint_cz": "dopis"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Brief",
+          "cz": "dopis"
+        },
+        {
+          "target": "die Briefmarke",
+          "cz": "známka"
+        },
+        {
+          "target": "das Paket",
+          "cz": "balík"
+        },
+        {
+          "target": "der Briefkasten",
+          "cz": "poštovní schránka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich klebe eine Briefmarke auf den Umschlag.",
+      "tts_text": "Ich klebe eine Briefmarke auf den Umschlag."
+    }
+  ]
+}

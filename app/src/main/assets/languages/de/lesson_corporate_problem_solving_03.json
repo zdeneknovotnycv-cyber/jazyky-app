@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_problem_solving_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über einen verpassten Termin sprechen",
+  "title_cz": "Řešení nedodrženého termínu",
+  "vocabulary": [
+    {
+      "word": "im Verzug",
+      "translation_cz": "pozadu za plánem",
+      "example": "Wir sind mit dieser Aufgabe im Verzug.",
+      "example_cz": "Jsme pozadu za plánem u tohoto úkolu.",
+      "tts_text": "Wir sind mit dieser Aufgabe im Verzug."
+    },
+    {
+      "word": "ich fürchte",
+      "translation_cz": "obávám se",
+      "example": "Ich fürchte, wir haben den Termin verpasst.",
+      "example_cz": "Obávám se, že jsme nestihli termín.",
+      "tts_text": "Ich fürchte, wir haben den Termin verpasst."
+    },
+    {
+      "word": "mehr Zeit",
+      "translation_cz": "více času",
+      "example": "Wir brauchen mehr Zeit, um fertig zu werden.",
+      "example_cz": "Potřebujeme více času na dokončení.",
+      "tts_text": "Wir brauchen mehr Zeit, um fertig zu werden."
+    },
+    {
+      "word": "unerwartete Verzögerung",
+      "translation_cz": "neočekávané zpoždění",
+      "example": "Es gab eine unerwartete Verzögerung.",
+      "example_cz": "Došlo k neočekávanému zpoždění.",
+      "tts_text": "Es gab eine unerwartete Verzögerung."
+    },
+    {
+      "word": "neuer Termin",
+      "translation_cz": "upravený termín",
+      "example": "Können wir uns auf einen neuen Termin einigen?",
+      "example_cz": "Můžeme se dohodnout na upraveném termínu?",
+      "tts_text": "Können wir uns auf einen neuen Termin einigen?"
+    },
+    {
+      "word": "aufholen",
+      "translation_cz": "dohnat",
+      "example": "Wir werden bis Freitag aufholen.",
+      "example_cz": "Do pátku to doženeme.",
+      "tts_text": "Wir werden bis Freitag aufholen."
+    },
+    {
+      "word": "sich für die Verzögerung entschuldigen",
+      "translation_cz": "omluvit se za zpoždění",
+      "example": "Ich entschuldige mich für die Verzögerung.",
+      "example_cz": "Omlouvám se za zpoždění.",
+      "tts_text": "Ich entschuldige mich für die Verzögerung."
+    },
+    {
+      "word": "Priorität",
+      "translation_cz": "priorita",
+      "example": "Diese Aufgabe hat jetzt oberste Priorität.",
+      "example_cz": "Tento úkol je teď naší nejvyšší prioritou.",
+      "tts_text": "Diese Aufgabe hat jetzt oberste Priorität."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_03",
+      "title": "Ein verpasster Termin",
+      "title_cz": "Nedodržený termín",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich fürchte, wir sind mit dem Projekt im Verzug.",
+          "text_cz": "Obávám se, že jsme s projektem pozadu za plánem."
+        },
+        {
+          "speaker": "B",
+          "text": "Was ist passiert?",
+          "text_cz": "Co se stalo?"
+        },
+        {
+          "speaker": "A",
+          "text": "Es gab eine unerwartete Verzögerung beim Lieferanten.",
+          "text_cz": "Došlo k neočekávanému zpoždění u dodavatele."
+        },
+        {
+          "speaker": "B",
+          "text": "Können Sie bis nächste Woche aufholen?",
+          "text_cz": "Dokážete to dohnat do příštího týdne?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, aber ich möchte einen neuen Termin am Freitag vorschlagen. Ich entschuldige mich für die Verzögerung.",
+          "text_cz": "Ano, ale rád bych navrhl upravený termín na pátek. Omlouvám se za zpoždění."
+        },
+        {
+          "speaker": "B",
+          "text": "Das ist in Ordnung. Das hat jetzt oberste Priorität für uns beide.",
+          "text_cz": "To je v pořádku. Tohle je teď naše nejvyšší priorita."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "im Verzug",
+      "options": [
+        "pozadu za plánem",
+        "obávám se",
+        "více času"
+      ],
+      "correct": "pozadu za plánem"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es gab eine ___.",
+      "answer": "unerwartete Verzögerung",
+      "hint_cz": "neočekávané zpoždění"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "im Verzug",
+          "cz": "pozadu za plánem"
+        },
+        {
+          "target": "ich fürchte",
+          "cz": "obávám se"
+        },
+        {
+          "target": "mehr Zeit",
+          "cz": "více času"
+        },
+        {
+          "target": "unerwartete Verzögerung",
+          "cz": "neočekávané zpoždění"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Können wir uns auf einen neuen Termin einigen?",
+      "tts_text": "Können wir uns auf einen neuen Termin einigen?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir werden bis Freitag ___.",
+      "answer": "aufholen",
+      "hint_cz": "dohnat"
+    }
+  ]
+}

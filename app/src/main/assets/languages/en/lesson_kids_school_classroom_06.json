@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_school_classroom_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The Playground",
+  "title_cz": "Hřiště",
+  "vocabulary": [
+    {
+      "word": "playground",
+      "translation_cz": "hřiště",
+      "example": "We play on the playground.",
+      "example_cz": "Hrajeme si na hřišti.",
+      "tts_text": "We play on the playground."
+    },
+    {
+      "word": "swing",
+      "translation_cz": "houpačka",
+      "example": "I like the swing best.",
+      "example_cz": "Nejraději mám houpačku.",
+      "tts_text": "I like the swing best."
+    },
+    {
+      "word": "slide",
+      "translation_cz": "skluzavka",
+      "example": "The slide is fast.",
+      "example_cz": "Skluzavka je rychlá.",
+      "tts_text": "The slide is fast."
+    },
+    {
+      "word": "run",
+      "translation_cz": "běhat",
+      "example": "We run and play tag.",
+      "example_cz": "Běháme a hrajeme honičku.",
+      "tts_text": "We run and play tag."
+    },
+    {
+      "word": "ball",
+      "translation_cz": "míč",
+      "example": "We kick the ball.",
+      "example_cz": "Kopeme do míče.",
+      "tts_text": "We kick the ball."
+    },
+    {
+      "word": "sandbox",
+      "translation_cz": "pískoviště",
+      "example": "The kids play in the sandbox.",
+      "example_cz": "Děti si hrají na pískovišti.",
+      "tts_text": "The kids play in the sandbox."
+    },
+    {
+      "word": "friends",
+      "translation_cz": "kamarádi",
+      "example": "I play with my friends.",
+      "example_cz": "Hraju si se svými kamarády.",
+      "tts_text": "I play with my friends."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "slide",
+      "options": [
+        "skluzavka",
+        "houpačka",
+        "míč"
+      ],
+      "correct": "skluzavka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We kick the ___.",
+      "answer": "ball",
+      "hint_cz": "míč"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "playground",
+          "cz": "hřiště"
+        },
+        {
+          "target": "swing",
+          "cz": "houpačka"
+        },
+        {
+          "target": "run",
+          "cz": "běhat"
+        },
+        {
+          "target": "sandbox",
+          "cz": "pískoviště"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I play with my friends.",
+      "tts_text": "I play with my friends."
+    }
+  ]
+}

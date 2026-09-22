@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_smalltalk_networking_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Exchanging business cards",
+  "title_cz": "Výměna vizitek",
+  "vocabulary": [
+    {
+      "word": "business card",
+      "translation_cz": "vizitka",
+      "example": "Here is my business card.",
+      "example_cz": "Tady je moje vizitka.",
+      "tts_text": "Here is my business card."
+    },
+    {
+      "word": "May I offer you my card?",
+      "translation_cz": "Můžu vám nabídnout svou vizitku?",
+      "example": "May I offer you my card?",
+      "example_cz": "Můžu vám nabídnout svou vizitku?",
+      "tts_text": "May I offer you my card?"
+    },
+    {
+      "word": "job title",
+      "translation_cz": "pracovní pozice",
+      "example": "My job title is Sales Manager.",
+      "example_cz": "Moje pracovní pozice je manažer prodeje.",
+      "tts_text": "My job title is Sales Manager."
+    },
+    {
+      "word": "Let me give you my number",
+      "translation_cz": "Dám vám na sebe číslo",
+      "example": "Let me give you my number as well.",
+      "example_cz": "Dám vám také na sebe číslo.",
+      "tts_text": "Let me give you my number as well."
+    },
+    {
+      "word": "company",
+      "translation_cz": "společnost",
+      "example": "I represent a logistics company.",
+      "example_cz": "Zastupuji logistickou společnost.",
+      "tts_text": "I represent a logistics company."
+    },
+    {
+      "word": "feel free to contact me",
+      "translation_cz": "neváhejte mě kontaktovat",
+      "example": "Feel free to contact me anytime.",
+      "example_cz": "Neváhejte mě kdykoliv kontaktovat.",
+      "tts_text": "Feel free to contact me anytime."
+    },
+    {
+      "word": "It was a pleasure",
+      "translation_cz": "Bylo mi potěšením",
+      "example": "It was a pleasure talking to you.",
+      "example_cz": "Bylo mi potěšením s vámi mluvit.",
+      "tts_text": "It was a pleasure talking to you."
+    },
+    {
+      "word": "keep in mind",
+      "translation_cz": "mít na paměti",
+      "example": "Please keep my offer in mind.",
+      "example_cz": "Mějte prosím na paměti moji nabídku.",
+      "tts_text": "Please keep my offer in mind."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_business_cards",
+      "title": "Swapping business cards",
+      "title_cz": "Výměna vizitek",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Here is my business card.",
+          "text_cz": "Tady je moje vizitka."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you. May I offer you mine as well?",
+          "text_cz": "Děkuji. Můžu vám také nabídnout tu svou?"
+        },
+        {
+          "speaker": "A",
+          "text": "Of course. What's your job title?",
+          "text_cz": "Samozřejmě. Jaká je vaše pracovní pozice?"
+        },
+        {
+          "speaker": "B",
+          "text": "I'm the Sales Manager at my company. Feel free to contact me anytime.",
+          "text_cz": "Jsem manažer prodeje ve své společnosti. Neváhejte mě kdykoliv kontaktovat."
+        },
+        {
+          "speaker": "A",
+          "text": "Great, it was a pleasure meeting you.",
+          "text_cz": "Skvělé, bylo mi potěšením vás poznat."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "business card",
+      "options": [
+        "vizitka",
+        "pracovní pozice",
+        "společnost"
+      ],
+      "correct": "vizitka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Here is my business ___.",
+      "answer": "card",
+      "hint_cz": "vizitka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Feel free to ___ me anytime.",
+      "answer": "contact",
+      "hint_cz": "kontaktovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "job title",
+          "cz": "pracovní pozice"
+        },
+        {
+          "target": "company",
+          "cz": "společnost"
+        },
+        {
+          "target": "It was a pleasure",
+          "cz": "Bylo mi potěšením"
+        },
+        {
+          "target": "keep in mind",
+          "cz": "mít na paměti"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "May I offer you my card?",
+      "tts_text": "May I offer you my card?"
+    }
+  ]
+}

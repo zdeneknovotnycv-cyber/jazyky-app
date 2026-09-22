@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_birthday_celebrations_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Silvester und Neujahr",
+  "title_cz": "Nový rok",
+  "vocabulary": [
+    {
+      "word": "das Neujahr",
+      "translation_cz": "Nový rok",
+      "example": "Wir feiern das Neujahr um Mitternacht.",
+      "example_cz": "Nový rok slavíme o půlnoci.",
+      "tts_text": "Wir feiern das Neujahr um Mitternacht."
+    },
+    {
+      "word": "das Feuerwerk",
+      "translation_cz": "ohňostroj",
+      "example": "Wir schauen das Feuerwerk am Himmel an.",
+      "example_cz": "Díváme se na ohňostroj na obloze.",
+      "tts_text": "Wir schauen das Feuerwerk am Himmel an."
+    },
+    {
+      "word": "der Countdown",
+      "translation_cz": "odpočítávání",
+      "example": "Wir machen einen Countdown bis Mitternacht.",
+      "example_cz": "Odpočítáváme do půlnoci.",
+      "tts_text": "Wir machen einen Countdown bis Mitternacht."
+    },
+    {
+      "word": "der Wunsch",
+      "translation_cz": "přání",
+      "example": "Ich habe einen Wunsch für das neue Jahr.",
+      "example_cz": "Přeji si přání do nového roku.",
+      "tts_text": "Ich habe einen Wunsch für das neue Jahr."
+    },
+    {
+      "word": "die Uhr",
+      "translation_cz": "hodiny",
+      "example": "Wir schauen um Mitternacht auf die Uhr.",
+      "example_cz": "O půlnoci se díváme na hodiny.",
+      "tts_text": "Wir schauen um Mitternacht auf die Uhr."
+    },
+    {
+      "word": "anstoßen",
+      "translation_cz": "připíjet si",
+      "example": "Wir stoßen mit Saft an.",
+      "example_cz": "Připíjíme si džusem.",
+      "tts_text": "Wir stoßen mit Saft an."
+    },
+    {
+      "word": "das Konfetti",
+      "translation_cz": "konfety",
+      "example": "Konfetti fällt auf den Boden.",
+      "example_cz": "Konfety padají na zem.",
+      "tts_text": "Konfetti fällt auf den Boden."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Neujahr",
+      "options": [
+        "Nový rok",
+        "ohňostroj",
+        "odpočítávání"
+      ],
+      "correct": "Nový rok"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir schauen das ___ am Himmel an.",
+      "answer": "Feuerwerk",
+      "hint_cz": "ohňostroj"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Countdown",
+          "cz": "odpočítávání"
+        },
+        {
+          "target": "der Wunsch",
+          "cz": "přání"
+        },
+        {
+          "target": "die Uhr",
+          "cz": "hodiny"
+        },
+        {
+          "target": "anstoßen",
+          "cz": "připíjet si"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Konfetti fällt auf den Boden.",
+      "tts_text": "Konfetti fällt auf den Boden."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "en_corporate_finance_budgets_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Explaining a Financial Report",
+  "title_cz": "Vysvětlení finanční zprávy",
+  "vocabulary": [
+    {"word": "financial report", "translation_cz": "finanční zpráva", "example": "I'll walk you through the financial report.", "example_cz": "Provedu vás finanční zprávou.", "tts_text": "I'll walk you through the financial report."},
+    {"word": "balance sheet", "translation_cz": "rozvaha", "example": "The balance sheet shows our total assets.", "example_cz": "Rozvaha ukazuje naše celková aktiva.", "tts_text": "The balance sheet shows our total assets."},
+    {"word": "cash flow", "translation_cz": "peněžní tok", "example": "Our cash flow improved this month.", "example_cz": "Náš peněžní tok se tento měsíc zlepšil.", "tts_text": "Our cash flow improved this month."},
+    {"word": "assets", "translation_cz": "aktiva", "example": "Total assets increased due to new equipment.", "example_cz": "Celková aktiva vzrostla díky novému vybavení.", "tts_text": "Total assets increased due to new equipment."},
+    {"word": "liabilities", "translation_cz": "závazky", "example": "Liabilities remained stable this quarter.", "example_cz": "Závazky zůstaly toto čtvrtletí stabilní.", "tts_text": "Liabilities remained stable this quarter."},
+    {"word": "profit and loss statement", "translation_cz": "výkaz zisku a ztráty", "example": "The profit and loss statement is on page two.", "example_cz": "Výkaz zisku a ztráty je na straně dvě.", "tts_text": "The profit and loss statement is on page two."},
+    {"word": "figures", "translation_cz": "čísla / údaje", "example": "These figures reflect the last quarter.", "example_cz": "Tato čísla odrážejí poslední čtvrtletí.", "tts_text": "These figures reflect the last quarter."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_explain_report",
+      "title": "Walking through the report",
+      "title_cz": "Procházka finanční zprávou",
+      "lines": [
+        {"speaker": "A", "text": "Let me walk you through the financial report.", "text_cz": "Dovolte mi provést vás finanční zprávou."},
+        {"speaker": "B", "text": "Please start with the balance sheet.", "text_cz": "Začněte prosím rozvahou."},
+        {"speaker": "A", "text": "Sure. Total assets increased, while liabilities stayed stable.", "text_cz": "Jistě. Celková aktiva vzrostla, zatímco závazky zůstaly stabilní."},
+        {"speaker": "B", "text": "And how does the cash flow look?", "text_cz": "A jak vypadá peněžní tok?"},
+        {"speaker": "A", "text": "It improved compared to last quarter.", "text_cz": "Ve srovnání s minulým čtvrtletím se zlepšil."}
+      ]
+    },
+    {
+      "id": "conv_profit_loss",
+      "title": "Reviewing the profit and loss statement",
+      "title_cz": "Kontrola výkazu zisku a ztráty",
+      "lines": [
+        {"speaker": "A", "text": "Can you check the figures on the profit and loss statement?", "text_cz": "Můžete zkontrolovat čísla ve výkazu zisku a ztráty?"},
+        {"speaker": "B", "text": "Yes, they look consistent with our forecast.", "text_cz": "Ano, odpovídají naší prognóze."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "assets", "options": ["aktiva", "závazky", "zpráva"], "correct": "aktiva"},
+    {"type": "fill_gap", "sentence": "The ___ sheet shows our total assets.", "answer": "balance", "hint_cz": "rozvaha"},
+    {"type": "match_pairs", "pairs": [{"target": "cash flow", "cz": "peněžní tok"}, {"target": "liabilities", "cz": "závazky"}, {"target": "figures", "cz": "čísla"}, {"target": "financial report", "cz": "finanční zpráva"}]},
+    {"type": "speak_and_check", "target_phrase": "Our cash flow improved this month.", "tts_text": "Our cash flow improved this month."},
+    {"type": "fill_gap", "sentence": "The profit and loss ___ is on page two.", "answer": "statement", "hint_cz": "výkaz"}
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_smalltalk_networking_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Talking about weekend plans",
+  "title_cz": "Povídání o plánech na víkend",
+  "vocabulary": [
+    {
+      "word": "Any plans for the weekend?",
+      "translation_cz": "Máš nějaké plány na víkend?",
+      "example": "Any plans for the weekend?",
+      "example_cz": "Máš nějaké plány na víkend?",
+      "tts_text": "Any plans for the weekend?"
+    },
+    {
+      "word": "I'm going to visit",
+      "translation_cz": "Jedu navštívit",
+      "example": "I'm going to visit my parents.",
+      "example_cz": "Jedu navštívit rodiče.",
+      "tts_text": "I'm going to visit my parents."
+    },
+    {
+      "word": "nothing planned yet",
+      "translation_cz": "zatím nic naplánováno",
+      "example": "I have nothing planned yet.",
+      "example_cz": "Zatím nemám nic naplánováno.",
+      "tts_text": "I have nothing planned yet."
+    },
+    {
+      "word": "go for a hike",
+      "translation_cz": "vyrazit na túru",
+      "example": "We're going for a hike on Saturday.",
+      "example_cz": "V sobotu vyrážíme na túru.",
+      "tts_text": "We're going for a hike on Saturday."
+    },
+    {
+      "word": "stay in",
+      "translation_cz": "zůstat doma",
+      "example": "I might just stay in this weekend.",
+      "example_cz": "Možná o víkendu prostě zůstanu doma.",
+      "tts_text": "I might just stay in this weekend."
+    },
+    {
+      "word": "meet up with friends",
+      "translation_cz": "sejít se s přáteli",
+      "example": "I'm meeting up with friends on Sunday.",
+      "example_cz": "V neděli se scházím s přáteli.",
+      "tts_text": "I'm meeting up with friends on Sunday."
+    },
+    {
+      "word": "Have a great weekend",
+      "translation_cz": "Měj se hezky o víkendu",
+      "example": "Have a great weekend!",
+      "example_cz": "Měj se hezky o víkendu!",
+      "tts_text": "Have a great weekend!"
+    },
+    {
+      "word": "recharge my batteries",
+      "translation_cz": "nabít si baterky",
+      "example": "I just want to recharge my batteries.",
+      "example_cz": "Chci si prostě nabít baterky.",
+      "tts_text": "I just want to recharge my batteries."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_weekend_plans",
+      "title": "Discussing weekend plans",
+      "title_cz": "Diskuze o plánech na víkend",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Any plans for the weekend?",
+          "text_cz": "Máš nějaké plány na víkend?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, I'm going to visit my parents. What about you?",
+          "text_cz": "Ano, jedu navštívit rodiče. A ty?"
+        },
+        {
+          "speaker": "A",
+          "text": "Nothing planned yet, maybe I'll just stay in and recharge my batteries.",
+          "text_cz": "Zatím nic naplánováno, možná prostě zůstanu doma a nabiju si baterky."
+        },
+        {
+          "speaker": "B",
+          "text": "Sounds relaxing. Have a great weekend!",
+          "text_cz": "Zní to odpočinkově. Měj se hezky o víkendu!"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "recharge my batteries",
+      "options": [
+        "nabít si baterky",
+        "sejít se s přáteli",
+        "zůstat doma"
+      ],
+      "correct": "nabít si baterky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'm going ___ visit my parents.",
+      "answer": "to",
+      "hint_cz": "navštívit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Have a great ___!",
+      "answer": "weekend",
+      "hint_cz": "víkend"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "go for a hike",
+          "cz": "vyrazit na túru"
+        },
+        {
+          "target": "stay in",
+          "cz": "zůstat doma"
+        },
+        {
+          "target": "meet up with friends",
+          "cz": "sejít se s přáteli"
+        },
+        {
+          "target": "nothing planned yet",
+          "cz": "zatím nic naplánováno"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Any plans for the weekend?",
+      "tts_text": "Any plans for the weekend?"
+    }
+  ]
+}

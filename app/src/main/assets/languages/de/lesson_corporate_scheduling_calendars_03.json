@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_scheduling_calendars_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Termin vorschlagen",
+  "title_cz": "Navržení termínu schůzky",
+  "vocabulary": [
+    {
+      "word": "würde Mittwoch für Sie passen?",
+      "translation_cz": "vyhovovala by vám středa?",
+      "example": "Würde Mittwoch um zehn Uhr für Sie passen?",
+      "example_cz": "Vyhovovala by vám středa v deset?",
+      "tts_text": "Würde Mittwoch um zehn Uhr für Sie passen?"
+    },
+    {
+      "word": "ich möchte vorschlagen",
+      "translation_cz": "rád bych navrhl",
+      "example": "Ich möchte nächsten Montag für das Meeting vorschlagen.",
+      "example_cz": "Rád bych navrhl příští pondělí na schůzku.",
+      "tts_text": "Ich möchte nächsten Montag für das Meeting vorschlagen."
+    },
+    {
+      "word": "passt das in Ihren Zeitplan?",
+      "translation_cz": "hodí se to do vašeho rozvrhu?",
+      "example": "Passt das diese Woche in Ihren Zeitplan?",
+      "example_cz": "Hodí se to do vašeho rozvrhu tento týden?",
+      "tts_text": "Passt das diese Woche in Ihren Zeitplan?"
+    },
+    {
+      "word": "ich bevorzuge eher",
+      "translation_cz": "mírně preferuji",
+      "example": "Ich bevorzuge eher den Vormittag.",
+      "example_cz": "Mírně preferuji dopoledne.",
+      "tts_text": "Ich bevorzuge eher den Vormittag."
+    },
+    {
+      "word": "beide Zeiten passen mir",
+      "translation_cz": "oba časy mi vyhovují",
+      "example": "Beide Zeiten passen mir, entscheiden Sie.",
+      "example_cz": "Oba časy mi vyhovují, rozhodněte vy.",
+      "tts_text": "Beide Zeiten passen mir, entscheiden Sie."
+    },
+    {
+      "word": "legen wir diesen Termin fest",
+      "translation_cz": "domluvme se pevně na tomto čase",
+      "example": "Gut, legen wir diesen Termin fest.",
+      "example_cz": "Skvělé, domluvme se pevně na tomto čase.",
+      "tts_text": "Gut, legen wir diesen Termin fest."
+    },
+    {
+      "word": "ich sende die Einladung in Kürze",
+      "translation_cz": "brzy pošlu pozvánku",
+      "example": "Ich sende die Einladung in Kürze nach diesem Gespräch.",
+      "example_cz": "Brzy po tomto hovoru pošlu pozvánku.",
+      "tts_text": "Ich sende die Einladung in Kürze nach diesem Gespräch."
+    },
+    {
+      "word": "es sei denn, etwas ändert sich",
+      "translation_cz": "pokud se něco nezmění",
+      "example": "Das sollte funktionieren, es sei denn, etwas ändert sich.",
+      "example_cz": "To by mělo fungovat, pokud se něco nezmění.",
+      "tts_text": "Das sollte funktionieren, es sei denn, etwas ändert sich."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_termin_vorschlagen",
+      "title": "Einen Termin für das Meeting vereinbaren",
+      "title_cz": "Domlouvání termínu schůzky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich möchte nächsten Mittwoch für das Meeting vorschlagen. Würde das für Sie passen?",
+          "text_cz": "Rád bych navrhl příští středu na schůzku. Vyhovovalo by vám to?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich schaue nach. Passt zehn Uhr morgens in Ihren Zeitplan?",
+          "text_cz": "Nechte mě to zkontrolovat. Hodí se vám deset dopoledne?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ich bevorzuge auch eher den Vormittag, also passt zehn Uhr gut.",
+          "text_cz": "Také mírně preferuji dopoledne, takže deset je v pořádku."
+        },
+        {
+          "speaker": "B",
+          "text": "Gut, legen wir diesen Termin fest.",
+          "text_cz": "Skvělé, domluvme se pevně na tomto čase."
+        },
+        {
+          "speaker": "A",
+          "text": "Perfekt, ich sende die Einladung in Kürze.",
+          "text_cz": "Výborně, brzy pošlu pozvánku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Würde Mittwoch um zehn Uhr für Sie passen?",
+      "options": [
+        "Vyhovovala by vám středa v deset?",
+        "Brzy pošlu pozvánku.",
+        "Oba časy mi vyhovují."
+      ],
+      "correct": "Vyhovovala by vám středa v deset?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich möchte nächsten Montag für das Meeting ___.",
+      "answer": "vorschlagen",
+      "hint_cz": "navrhnout"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "passt das in Ihren Zeitplan?", "cz": "hodí se to do vašeho rozvrhu?" },
+        { "target": "beide Zeiten passen mir", "cz": "oba časy mi vyhovují" },
+        { "target": "legen wir diesen Termin fest", "cz": "domluvme se pevně na tomto čase" },
+        { "target": "es sei denn, etwas ändert sich", "cz": "pokud se něco nezmění" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich bevorzuge eher den Vormittag.",
+      "tts_text": "Ich bevorzuge eher den Vormittag."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich sende die Einladung in ___ nach diesem Gespräch.",
+      "answer": "Kürze",
+      "hint_cz": "brzy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das sollte funktionieren, es sei denn, etwas ändert sich.",
+      "tts_text": "Das sollte funktionieren, es sei denn, etwas ändert sich."
+    }
+  ]
+}

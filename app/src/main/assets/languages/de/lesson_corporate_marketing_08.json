@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_marketing_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Marketingergebnisse analysieren",
+  "title_cz": "Analýza marketingových výsledků",
+  "vocabulary": [
+    {
+      "word": "Konversionsrate",
+      "translation_cz": "míra konverze",
+      "example": "Unsere Konversionsrate hat sich nach der neuen Landingpage verbessert.",
+      "example_cz": "Naše míra konverze se po nové vstupní stránce zlepšila.",
+      "tts_text": "Unsere Konversionsrate hat sich nach der neuen Landingpage verbessert."
+    },
+    {
+      "word": "Leistungskennzahl",
+      "translation_cz": "klíčový ukazatel výkonnosti",
+      "example": "Website-Traffic ist für uns eine wichtige Leistungskennzahl.",
+      "example_cz": "Návštěvnost webu je pro nás klíčovým ukazatelem výkonnosti.",
+      "tts_text": "Website-Traffic ist für uns eine wichtige Leistungskennzahl."
+    },
+    {
+      "word": "datenbasierte Entscheidung",
+      "translation_cz": "rozhodnutí založené na datech",
+      "example": "Wir versuchen immer, datenbasierte Entscheidungen zu treffen.",
+      "example_cz": "Vždy se snažíme dělat rozhodnutí založená na datech.",
+      "tts_text": "Wir versuchen immer, datenbasierte Entscheidungen zu treffen."
+    },
+    {
+      "word": "Absprungrate",
+      "translation_cz": "míra opuštění",
+      "example": "Die Absprungrate auf dieser Seite ist zu hoch.",
+      "example_cz": "Míra opuštění na té stránce je příliš vysoká.",
+      "tts_text": "Die Absprungrate auf dieser Seite ist zu hoch."
+    },
+    {
+      "word": "A/B-Test",
+      "translation_cz": "A/B testování",
+      "example": "Wir haben einen A/B-Test verwendet, um zwei Überschriften zu vergleichen.",
+      "example_cz": "Použili jsme A/B testování k porovnání dvou nadpisů.",
+      "tts_text": "Wir haben einen A/B-Test verwendet, um zwei Überschriften zu vergleichen."
+    },
+    {
+      "word": "die Ergebnisse berichten",
+      "translation_cz": "reportovat výsledky",
+      "example": "Ich werde die Ergebnisse im Meeting berichten.",
+      "example_cz": "Výsledky nareportuji na schůzce.",
+      "tts_text": "Ich werde die Ergebnisse im Meeting berichten."
+    },
+    {
+      "word": "unterdurchschnittlich abschneiden",
+      "translation_cz": "podávat slabší výkon",
+      "example": "Dieser Kanal schneidet im Vergleich zu anderen unterdurchschnittlich ab.",
+      "example_cz": "Tento kanál podává slabší výkon ve srovnání s ostatními.",
+      "tts_text": "Dieser Kanal schneidet im Vergleich zu anderen unterdurchschnittlich ab."
+    },
+    {
+      "word": "Erkenntnisse",
+      "translation_cz": "poznatky, přehledy",
+      "example": "Diese Erkenntnisse helfen uns, die nächste Kampagne zu planen.",
+      "example_cz": "Tyto poznatky nám pomohou naplánovat další kampaň.",
+      "tts_text": "Diese Erkenntnisse helfen uns, die nächste Kampagne zu planen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_08",
+      "title": "Die Kampagnenleistung des letzten Monats überprüfen",
+      "title_cz": "Kontrola výkonu kampaně za minulý měsíc",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Unsere Konversionsrate hat sich nach der neuen Landingpage verbessert.",
+          "text_cz": "Naše míra konverze se po nové vstupní stránce zlepšila."
+        },
+        {
+          "speaker": "B",
+          "text": "Das ist toll. Und die Absprungrate?",
+          "text_cz": "To je skvělé. A co míra opuštění?"
+        },
+        {
+          "speaker": "A",
+          "text": "Sie ist auch gesunken. Der A/B-Test hat uns wirklich geholfen, eine datenbasierte Entscheidung zu treffen.",
+          "text_cz": "Také klesla. A/B testování nám opravdu pomohlo udělat rozhodnutí založené na datech."
+        },
+        {
+          "speaker": "B",
+          "text": "Gut, lasst uns die Ergebnisse im Freitagsmeeting berichten.",
+          "text_cz": "Dobře, pojďme výsledky nareportovat na páteční schůzce."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Konversionsrate",
+      "options": [
+        "míra konverze",
+        "míra opuštění",
+        "poznatky, přehledy"
+      ],
+      "correct": "míra konverze"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir versuchen immer, ___ Entscheidungen zu treffen.",
+      "answer": "datenbasierte",
+      "hint_cz": "založená na datech"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Leistungskennzahl",
+          "cz": "klíčový ukazatel výkonnosti"
+        },
+        {
+          "target": "Absprungrate",
+          "cz": "míra opuštění"
+        },
+        {
+          "target": "A/B-Test",
+          "cz": "A/B testování"
+        },
+        {
+          "target": "unterdurchschnittlich abschneiden",
+          "cz": "podávat slabší výkon"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich werde die Ergebnisse im Meeting berichten.",
+      "tts_text": "Ich werde die Ergebnisse im Meeting berichten."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Diese ___ helfen uns, die nächste Kampagne zu planen.",
+      "answer": "Erkenntnisse",
+      "hint_cz": "poznatky"
+    }
+  ]
+}

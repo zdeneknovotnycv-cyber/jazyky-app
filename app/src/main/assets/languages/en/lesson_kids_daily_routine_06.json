@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_daily_routine_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Playtime",
+  "title_cz": "Čas na hraní",
+  "vocabulary": [
+    {
+      "word": "play",
+      "translation_cz": "hrát si",
+      "example": "I play with my toys.",
+      "example_cz": "Hraju si se svými hračkami.",
+      "tts_text": "I play with my toys."
+    },
+    {
+      "word": "toy",
+      "translation_cz": "hračka",
+      "example": "My favorite toy is a robot.",
+      "example_cz": "Moje oblíbená hračka je robot.",
+      "tts_text": "My favorite toy is a robot."
+    },
+    {
+      "word": "outside",
+      "translation_cz": "venku",
+      "example": "We play outside in the garden.",
+      "example_cz": "Hrajeme si venku na zahradě.",
+      "tts_text": "We play outside in the garden."
+    },
+    {
+      "word": "ball",
+      "translation_cz": "míč",
+      "example": "I kick the ball with my brother.",
+      "example_cz": "Kopu do míče s bratrem.",
+      "tts_text": "I kick the ball with my brother."
+    },
+    {
+      "word": "swing",
+      "translation_cz": "houpačka",
+      "example": "I love the swing at the park.",
+      "example_cz": "Mám rád houpačku v parku.",
+      "tts_text": "I love the swing at the park."
+    },
+    {
+      "word": "fun",
+      "translation_cz": "zábava",
+      "example": "Playtime is always fun.",
+      "example_cz": "Čas na hraní je vždy zábava.",
+      "tts_text": "Playtime is always fun."
+    },
+    {
+      "word": "share",
+      "translation_cz": "půjčit, sdílet",
+      "example": "I share my toys with friends.",
+      "example_cz": "Půjčuji své hračky kamarádům.",
+      "tts_text": "I share my toys with friends."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "play",
+      "options": [
+        "hrát si",
+        "hračka",
+        "venku"
+      ],
+      "correct": "hrát si"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My favorite ___ is a robot.",
+      "answer": "toy",
+      "hint_cz": "hračka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "outside",
+          "cz": "venku"
+        },
+        {
+          "target": "ball",
+          "cz": "míč"
+        },
+        {
+          "target": "swing",
+          "cz": "houpačka"
+        },
+        {
+          "target": "fun",
+          "cz": "zábava"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I share my toys with friends.",
+      "tts_text": "I share my toys with friends."
+    }
+  ]
+}

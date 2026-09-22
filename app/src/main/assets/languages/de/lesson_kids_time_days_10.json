@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_time_days_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Uhren",
+  "title_cz": "Hodiny a hodinky",
+  "vocabulary": [
+    {
+      "word": "die Wanduhr",
+      "translation_cz": "hodiny (na zdi)",
+      "example": "Die Wanduhr hängt an der Wand.",
+      "example_cz": "Hodiny visí na zdi.",
+      "tts_text": "Die Wanduhr hängt an der Wand."
+    },
+    {
+      "word": "die Armbanduhr",
+      "translation_cz": "hodinky",
+      "example": "Ich trage eine Armbanduhr am Handgelenk.",
+      "example_cz": "Nosím hodinky na zápěstí.",
+      "tts_text": "Ich trage eine Armbanduhr am Handgelenk."
+    },
+    {
+      "word": "der Stundenzeiger",
+      "translation_cz": "hodinová ručička",
+      "example": "Der Stundenzeiger ist kurz.",
+      "example_cz": "Hodinová ručička je krátká.",
+      "tts_text": "Der Stundenzeiger ist kurz."
+    },
+    {
+      "word": "der Minutenzeiger",
+      "translation_cz": "minutová ručička",
+      "example": "Der Minutenzeiger ist lang.",
+      "example_cz": "Minutová ručička je dlouhá.",
+      "tts_text": "Der Minutenzeiger ist lang."
+    },
+    {
+      "word": "der Wecker",
+      "translation_cz": "budík",
+      "example": "Mein Wecker klingelt um sieben.",
+      "example_cz": "Můj budík zvoní v sedm.",
+      "tts_text": "Mein Wecker klingelt um sieben."
+    },
+    {
+      "word": "Tick-Tack",
+      "translation_cz": "tik-tak",
+      "example": "Die Uhr macht Tick-Tack.",
+      "example_cz": "Hodiny dělají tik-tak.",
+      "tts_text": "Die Uhr macht Tick-Tack."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Armbanduhr",
+      "options": [
+        "hodinky",
+        "budík",
+        "hodiny"
+      ],
+      "correct": "hodinky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein ___ klingelt um sieben.",
+      "answer": "Wecker",
+      "hint_cz": "budík"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Wanduhr",
+          "cz": "hodiny (na zdi)"
+        },
+        {
+          "target": "der Stundenzeiger",
+          "cz": "hodinová ručička"
+        },
+        {
+          "target": "der Minutenzeiger",
+          "cz": "minutová ručička"
+        },
+        {
+          "target": "Tick-Tack",
+          "cz": "tik-tak"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich trage eine Armbanduhr am Handgelenk.",
+      "tts_text": "Ich trage eine Armbanduhr am Handgelenk."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_school_classroom_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Classroom Objects",
+  "title_cz": "Věci ve třídě",
+  "vocabulary": [
+    {
+      "word": "die Schulbank",
+      "translation_cz": "lavice",
+      "example": "Ich sitze an meiner Schulbank.",
+      "example_cz": "Sedím ve své lavici.",
+      "tts_text": "Ich sitze an meiner Schulbank."
+    },
+    {
+      "word": "der Stuhl",
+      "translation_cz": "židle",
+      "example": "Der Stuhl steht neben der Schulbank.",
+      "example_cz": "Židle je vedle lavice.",
+      "tts_text": "Der Stuhl steht neben der Schulbank."
+    },
+    {
+      "word": "das Buch",
+      "translation_cz": "kniha",
+      "example": "Ich öffne mein Buch.",
+      "example_cz": "Otevírám svoji knihu.",
+      "tts_text": "Ich öffne mein Buch."
+    },
+    {
+      "word": "der Bleistift",
+      "translation_cz": "tužka",
+      "example": "Mein Bleistift ist spitz.",
+      "example_cz": "Moje tužka je ostrá.",
+      "tts_text": "Mein Bleistift ist spitz."
+    },
+    {
+      "word": "die Tafel",
+      "translation_cz": "tabule",
+      "example": "Die Lehrerin schreibt an die Tafel.",
+      "example_cz": "Učitelka píše na tabuli.",
+      "tts_text": "Die Lehrerin schreibt an die Tafel."
+    },
+    {
+      "word": "die Schultasche",
+      "translation_cz": "taška",
+      "example": "Meine Schultasche ist schwer.",
+      "example_cz": "Moje školní taška je těžká.",
+      "tts_text": "Meine Schultasche ist schwer."
+    },
+    {
+      "word": "der Radiergummi",
+      "translation_cz": "guma",
+      "example": "Ich benutze einen Radiergummi, um Fehler zu korrigieren.",
+      "example_cz": "Používám gumu na opravu chyb.",
+      "tts_text": "Ich benutze einen Radiergummi, um Fehler zu korrigieren."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Tafel",
+      "options": [
+        "tabule",
+        "lavice",
+        "taška"
+      ],
+      "correct": "tabule"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Lehrerin schreibt an die ___.",
+      "answer": "Tafel",
+      "hint_cz": "tabuli"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Schulbank",
+          "cz": "lavice"
+        },
+        {
+          "target": "der Stuhl",
+          "cz": "židle"
+        },
+        {
+          "target": "das Buch",
+          "cz": "kniha"
+        },
+        {
+          "target": "der Bleistift",
+          "cz": "tužka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Mein Bleistift ist spitz.",
+      "tts_text": "Mein Bleistift ist spitz."
+    }
+  ]
+}

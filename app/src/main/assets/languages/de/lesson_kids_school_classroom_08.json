@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_school_classroom_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Exams and Tests",
+  "title_cz": "Zkoušky a testy",
+  "vocabulary": [
+    {
+      "word": "der Test",
+      "translation_cz": "test",
+      "example": "Wir schreiben heute einen Test.",
+      "example_cz": "Dnes píšeme test.",
+      "tts_text": "Wir schreiben heute einen Test."
+    },
+    {
+      "word": "lernen",
+      "translation_cz": "učit se",
+      "example": "Ich lerne für den Test.",
+      "example_cz": "Učím se na test.",
+      "tts_text": "Ich lerne für den Test."
+    },
+    {
+      "word": "die Frage",
+      "translation_cz": "otázka",
+      "example": "Diese Frage ist leicht.",
+      "example_cz": "Tato otázka je snadná.",
+      "tts_text": "Diese Frage ist leicht."
+    },
+    {
+      "word": "die Antwort",
+      "translation_cz": "odpověď",
+      "example": "Meine Antwort ist richtig.",
+      "example_cz": "Moje odpověď je správná.",
+      "tts_text": "Meine Antwort ist richtig."
+    },
+    {
+      "word": "nervös",
+      "translation_cz": "nervózní",
+      "example": "Ich bin ein bisschen nervös.",
+      "example_cz": "Jsem trochu nervózní.",
+      "tts_text": "Ich bin ein bisschen nervös."
+    },
+    {
+      "word": "die Note",
+      "translation_cz": "známka",
+      "example": "Ich habe eine gute Note bekommen.",
+      "example_cz": "Dostal jsem dobrou známku.",
+      "tts_text": "Ich habe eine gute Note bekommen."
+    },
+    {
+      "word": "bestehen",
+      "translation_cz": "uspět",
+      "example": "Ich hoffe, ich bestehe den Test.",
+      "example_cz": "Doufám, že u testu uspěju.",
+      "tts_text": "Ich hoffe, ich bestehe den Test."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Note",
+      "options": [
+        "známka",
+        "otázka",
+        "odpověď"
+      ],
+      "correct": "známka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bin ein bisschen ___.",
+      "answer": "nervös",
+      "hint_cz": "nervózní"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Test",
+          "cz": "test"
+        },
+        {
+          "target": "lernen",
+          "cz": "učit se"
+        },
+        {
+          "target": "die Frage",
+          "cz": "otázka"
+        },
+        {
+          "target": "die Antwort",
+          "cz": "odpověď"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich hoffe, ich bestehe den Test.",
+      "tts_text": "Ich hoffe, ich bestehe den Test."
+    }
+  ]
+}

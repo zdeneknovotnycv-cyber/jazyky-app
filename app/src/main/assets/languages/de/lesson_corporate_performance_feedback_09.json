@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_performance_feedback_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Grundlagen des 360-Grad-Feedbacks",
+  "title_cz": "Základy 360stupňového hodnocení",
+  "vocabulary": [
+    {
+      "word": "das 360-Grad-Feedback",
+      "translation_cz": "360stupňové hodnocení",
+      "example": "Unsere Firma führt jedes Jahr ein 360-Grad-Feedback durch.",
+      "example_cz": "Naše firma provádí každoročně 360stupňové hodnocení.",
+      "tts_text": "Unsere Firma führt jedes Jahr ein 360-Grad-Feedback durch."
+    },
+    {
+      "word": "mehrere Perspektiven",
+      "translation_cz": "více pohledů",
+      "example": "Es sammelt Feedback aus mehreren Perspektiven.",
+      "example_cz": "Shromažďuje zpětnou vazbu z více pohledů.",
+      "tts_text": "Es sammelt Feedback aus mehreren Perspektiven."
+    },
+    {
+      "word": "die direkt unterstellten Mitarbeiter",
+      "translation_cz": "podřízení",
+      "example": "Direkt unterstellte Mitarbeiter geben auch Feedback an ihren Vorgesetzten.",
+      "example_cz": "Podřízení také dávají zpětnou vazbu svému manažerovi.",
+      "tts_text": "Direkt unterstellte Mitarbeiter geben auch Feedback an ihren Vorgesetzten."
+    },
+    {
+      "word": "vertraulich",
+      "translation_cz": "důvěrné",
+      "example": "Alle Antworten im Feedback sind vertraulich.",
+      "example_cz": "Všechny odpovědi v hodnocení jsou důvěrné.",
+      "tts_text": "Alle Antworten im Feedback sind vertraulich."
+    },
+    {
+      "word": "der zusammenfassende Bericht",
+      "translation_cz": "souhrnná zpráva",
+      "example": "Du erhältst nach dem Feedback einen zusammenfassenden Bericht.",
+      "example_cz": "Po hodnocení dostaneš souhrnnou zprávu.",
+      "tts_text": "Du erhältst nach dem Feedback einen zusammenfassenden Bericht."
+    },
+    {
+      "word": "die blinden Flecken",
+      "translation_cz": "slepá místa",
+      "example": "Das Feedback kann blinde Flecken aufdecken, die dir nicht bewusst waren.",
+      "example_cz": "Hodnocení může odhalit slepá místa, kterých sis nevšiml.",
+      "tts_text": "Das Feedback kann blinde Flecken aufdecken, die dir nicht bewusst waren."
+    },
+    {
+      "word": "der abteilungsübergreifende Kollege",
+      "translation_cz": "kolega z jiného oddělení",
+      "example": "Ein abteilungsübergreifender Kollege bewertet auch deine Teamarbeit.",
+      "example_cz": "Kolega z jiného oddělení také hodnotí tvou týmovou práci.",
+      "tts_text": "Ein abteilungsübergreifender Kollege bewertet auch deine Teamarbeit."
+    },
+    {
+      "word": "die Bewertungsskala",
+      "translation_cz": "hodnoticí škála",
+      "example": "Die Bewertungsskala geht von eins bis fünf.",
+      "example_cz": "Hodnoticí škála jde od jedné do pěti.",
+      "tts_text": "Die Bewertungsskala geht von eins bis fünf."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_09",
+      "title": "Über ein 360-Grad-Feedback sprechen",
+      "title_cz": "Rozhovor o 360stupňovém hodnocení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hast du dein 360-Grad-Feedback schon abgeschlossen?",
+          "text_cz": "Už jsi dokončil své 360stupňové hodnocení?"
+        },
+        {
+          "speaker": "B",
+          "text": "Fast, es ist interessant, mehrere Perspektiven zu bekommen.",
+          "text_cz": "Skoro, je zajímavé získat více pohledů."
+        },
+        {
+          "speaker": "A",
+          "text": "Denk dran, alle Antworten sind vertraulich.",
+          "text_cz": "Pamatuj, všechny odpovědi jsou důvěrné."
+        },
+        {
+          "speaker": "B",
+          "text": "Gut, und ich habe gehört, wir bekommen danach einen zusammenfassenden Bericht.",
+          "text_cz": "Dobře, a slyšel jsem, že pak dostaneme souhrnnou zprávu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das 360-Grad-Feedback",
+      "options": [
+        "360stupňové hodnocení",
+        "více pohledů",
+        "podřízení"
+      ],
+      "correct": "360stupňové hodnocení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es sammelt Feedback aus mehreren ___.",
+      "answer": "Perspektiven",
+      "hint_cz": "pohledů"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das 360-Grad-Feedback",
+          "cz": "360stupňové hodnocení"
+        },
+        {
+          "target": "mehrere Perspektiven",
+          "cz": "více pohledů"
+        },
+        {
+          "target": "die direkt unterstellten Mitarbeiter",
+          "cz": "podřízení"
+        },
+        {
+          "target": "vertraulich",
+          "cz": "důvěrné"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Unsere Firma führt jedes Jahr ein 360-Grad-Feedback durch.",
+      "tts_text": "Unsere Firma führt jedes Jahr ein 360-Grad-Feedback durch."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Alle Antworten im Feedback sind ___.",
+      "answer": "vertraulich",
+      "hint_cz": "důvěrné"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_performance_feedback_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Giving positive feedback",
+  "title_cz": "Poskytování pozitivní zpětné vazby",
+  "vocabulary": [
+    {
+      "word": "great job",
+      "translation_cz": "skvělá práce",
+      "example": "Great job on the presentation yesterday.",
+      "example_cz": "Skvělá práce s prezentací včera.",
+      "tts_text": "Great job on the presentation yesterday."
+    },
+    {
+      "word": "I really appreciate",
+      "translation_cz": "opravdu si vážím",
+      "example": "I really appreciate your effort on this project.",
+      "example_cz": "Opravdu si vážím tvého úsilí na tomto projektu.",
+      "tts_text": "I really appreciate your effort on this project."
+    },
+    {
+      "word": "well done",
+      "translation_cz": "výborně",
+      "example": "Well done on closing that deal.",
+      "example_cz": "Výborně, žes uzavřel tu dohodu.",
+      "tts_text": "Well done on closing that deal."
+    },
+    {
+      "word": "strength",
+      "translation_cz": "silná stránka",
+      "example": "Communication is one of your strengths.",
+      "example_cz": "Komunikace je jednou z tvých silných stránek.",
+      "tts_text": "Communication is one of your strengths."
+    },
+    {
+      "word": "stand out",
+      "translation_cz": "vyniknout",
+      "example": "Your report really stood out this month.",
+      "example_cz": "Tvá zpráva tento měsíc opravdu vynikla.",
+      "tts_text": "Your report really stood out this month."
+    },
+    {
+      "word": "keep up the good work",
+      "translation_cz": "pokračuj v dobré práci",
+      "example": "Keep up the good work, the team notices.",
+      "example_cz": "Pokračuj v dobré práci, tým si toho všímá.",
+      "tts_text": "Keep up the good work, the team notices."
+    },
+    {
+      "word": "impressed",
+      "translation_cz": "ohromený",
+      "example": "I was impressed by how you handled the client.",
+      "example_cz": "Byl jsem ohromený, jak jsi zvládl toho klienta.",
+      "tts_text": "I was impressed by how you handled the client."
+    },
+    {
+      "word": "positive impact",
+      "translation_cz": "pozitivní dopad",
+      "example": "Your idea had a positive impact on the whole team.",
+      "example_cz": "Tvůj nápad měl pozitivní dopad na celý tým.",
+      "tts_text": "Your idea had a positive impact on the whole team."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_01",
+      "title": "Praising a colleague's presentation",
+      "title_cz": "Chválíme prezentaci kolegy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I wanted to say great job on the presentation yesterday.",
+          "text_cz": "Chtěl jsem říct, skvělá práce s prezentací včera."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you, I was a bit nervous about it.",
+          "text_cz": "Děkuji, byl jsem z toho trochu nervózní."
+        },
+        {
+          "speaker": "A",
+          "text": "You couldn't tell. I was really impressed.",
+          "text_cz": "To na tobě nebylo vidět. Byl jsem opravdu ohromený."
+        },
+        {
+          "speaker": "B",
+          "text": "That means a lot, thank you for the feedback.",
+          "text_cz": "To pro mě hodně znamená, díky za zpětnou vazbu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "great job",
+      "options": [
+        "skvělá práce",
+        "opravdu si vážím",
+        "výborně"
+      ],
+      "correct": "skvělá práce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I really ___ your effort on this project.",
+      "answer": "appreciate",
+      "hint_cz": "vážím si"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "great job",
+          "cz": "skvělá práce"
+        },
+        {
+          "target": "I really appreciate",
+          "cz": "opravdu si vážím"
+        },
+        {
+          "target": "well done",
+          "cz": "výborně"
+        },
+        {
+          "target": "strength",
+          "cz": "silná stránka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Great job on the presentation yesterday.",
+      "tts_text": "Great job on the presentation yesterday."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Communication is one of your ___.",
+      "answer": "strengths",
+      "hint_cz": "silných stránek"
+    }
+  ]
+}

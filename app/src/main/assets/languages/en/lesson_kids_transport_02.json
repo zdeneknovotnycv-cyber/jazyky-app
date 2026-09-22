@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_transport_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Buses",
+  "title_cz": "Autobusy",
+  "vocabulary": [
+    {
+      "word": "bus",
+      "translation_cz": "autobus",
+      "example": "We take the bus to school.",
+      "example_cz": "Jezdíme autobusem do školy.",
+      "tts_text": "We take the bus to school."
+    },
+    {
+      "word": "bus stop",
+      "translation_cz": "autobusová zastávka",
+      "example": "I wait at the bus stop.",
+      "example_cz": "Čekám na autobusové zastávce.",
+      "tts_text": "I wait at the bus stop."
+    },
+    {
+      "word": "ticket",
+      "translation_cz": "jízdenka",
+      "example": "I buy a ticket for the bus.",
+      "example_cz": "Kupuji si jízdenku na autobus.",
+      "tts_text": "I buy a ticket for the bus."
+    },
+    {
+      "word": "driver",
+      "translation_cz": "řidič autobusu",
+      "example": "The bus driver says hello.",
+      "example_cz": "Řidič autobusu zdraví.",
+      "tts_text": "The bus driver says hello."
+    },
+    {
+      "word": "seat",
+      "translation_cz": "sedadlo",
+      "example": "I sit in a seat by the window.",
+      "example_cz": "Sedím na sedadle u okna.",
+      "tts_text": "I sit in a seat by the window."
+    },
+    {
+      "word": "get on",
+      "translation_cz": "nastoupit",
+      "example": "We get on the bus quickly.",
+      "example_cz": "Rychle nastupujeme do autobusu.",
+      "tts_text": "We get on the bus quickly."
+    },
+    {
+      "word": "get off",
+      "translation_cz": "vystoupit",
+      "example": "I get off at the next stop.",
+      "example_cz": "Vystupuji na příští zastávce.",
+      "tts_text": "I get off at the next stop."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "bus",
+      "options": [
+        "autobus",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "autobus"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We take the ___ to school.",
+      "answer": "bus",
+      "hint_cz": "autobus"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bus stop",
+          "cz": "autobusová zastávka"
+        },
+        {
+          "target": "ticket",
+          "cz": "jízdenka"
+        },
+        {
+          "target": "driver",
+          "cz": "řidič autobusu"
+        },
+        {
+          "target": "seat",
+          "cz": "sedadlo"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I wait at the bus stop.",
+      "tts_text": "I wait at the bus stop."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_meetings_intros_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Introducing a colleague",
+  "title_cz": "Představení kolegy",
+  "vocabulary": [
+    {
+      "word": "this is",
+      "translation_cz": "toto je",
+      "example": "This is my colleague, Mark.",
+      "example_cz": "Toto je můj kolega Mark.",
+      "tts_text": "This is my colleague, Mark."
+    },
+    {
+      "word": "expert",
+      "translation_cz": "odborník",
+      "example": "He's our expert in data analysis.",
+      "example_cz": "Je náš odborník na analýzu dat.",
+      "tts_text": "He's our expert in data analysis."
+    },
+    {
+      "word": "work closely with",
+      "translation_cz": "úzce spolupracovat s",
+      "example": "I work closely with Mark on this project.",
+      "example_cz": "S Markem na tomto projektu úzce spolupracuji.",
+      "tts_text": "I work closely with Mark on this project."
+    },
+    {
+      "word": "in charge of",
+      "translation_cz": "mít na starosti",
+      "example": "She's in charge of the logistics team.",
+      "example_cz": "Má na starosti tým logistiky.",
+      "tts_text": "She's in charge of the logistics team."
+    },
+    {
+      "word": "recently joined",
+      "translation_cz": "nedávno nastoupil",
+      "example": "He recently joined our company.",
+      "example_cz": "Nedávno nastoupil do naší firmy.",
+      "tts_text": "He recently joined our company."
+    },
+    {
+      "word": "specialize in",
+      "translation_cz": "specializovat se na",
+      "example": "She specializes in customer relations.",
+      "example_cz": "Specializuje se na vztahy se zákazníky.",
+      "tts_text": "She specializes in customer relations."
+    },
+    {
+      "word": "team lead",
+      "translation_cz": "vedoucí týmu",
+      "example": "He is the team lead for development.",
+      "example_cz": "Je vedoucí vývojářského týmu.",
+      "tts_text": "He is the team lead for development."
+    },
+    {
+      "word": "feel free to ask",
+      "translation_cz": "neváhejte se zeptat",
+      "example": "Feel free to ask her any questions.",
+      "example_cz": "Neváhejte se jí na cokoliv zeptat.",
+      "tts_text": "Feel free to ask her any questions."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_intro_colleague",
+      "title": "Introducing a colleague to a client",
+      "title_cz": "Představení kolegy klientovi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "This is my colleague, Peter. He's our expert in data analysis.",
+          "text_cz": "Toto je můj kolega Petr. Je náš odborník na analýzu dat."
+        },
+        {
+          "speaker": "B",
+          "text": "Nice to meet you, Peter. What exactly do you work on?",
+          "text_cz": "Těší mě, Petře. Na čem přesně pracujete?"
+        },
+        {
+          "speaker": "C",
+          "text": "I work closely with the sales team and I'm in charge of reporting.",
+          "text_cz": "Úzce spolupracuji s obchodním týmem a mám na starosti reporting."
+        },
+        {
+          "speaker": "B",
+          "text": "Great, feel free to reach out if I have any questions.",
+          "text_cz": "Skvělé, klidně se ozvu, pokud budu mít otázky."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "expert",
+      "options": [
+        "odborník",
+        "kolega",
+        "vedoucí"
+      ],
+      "correct": "odborník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "He's ___ of the logistics team.",
+      "answer": "in charge",
+      "hint_cz": "má na starosti"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "this is",
+          "cz": "toto je"
+        },
+        {
+          "target": "specialize in",
+          "cz": "specializovat se na"
+        },
+        {
+          "target": "team lead",
+          "cz": "vedoucí týmu"
+        },
+        {
+          "target": "recently joined",
+          "cz": "nedávno nastoupil"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Feel free to ask her any questions.",
+      "tts_text": "Feel free to ask her any questions."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ closely with Mark on this project.",
+      "answer": "work",
+      "hint_cz": "spolupracuji"
+    }
+  ]
+}

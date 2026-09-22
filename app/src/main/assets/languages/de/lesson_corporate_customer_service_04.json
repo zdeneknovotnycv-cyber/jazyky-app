@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_customer_service_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Verzögerung erklären",
+  "title_cz": "Vysvětlení zpoždění",
+  "vocabulary": [
+    {
+      "word": "aufgrund unvorhergesehener Umstände",
+      "translation_cz": "kvůli nepředvídaným okolnostem",
+      "example": "Aufgrund unvorhergesehener Umstände ist die Sendung verzögert.",
+      "example_cz": "Kvůli nepředvídaným okolnostem je zásilka zpožděna.",
+      "tts_text": "Aufgrund unvorhergesehener Umstände ist die Sendung verzögert."
+    },
+    {
+      "word": "voraussichtliche Lieferzeit",
+      "translation_cz": "odhadovaný čas doručení",
+      "example": "Die voraussichtliche Lieferzeit ist jetzt Freitag.",
+      "example_cz": "Odhadovaný čas doručení je nyní pátek.",
+      "tts_text": "Die voraussichtliche Lieferzeit ist jetzt Freitag."
+    },
+    {
+      "word": "Probleme in der Lieferkette",
+      "translation_cz": "problém v dodavatelském řetězci",
+      "example": "Wir haben derzeit Probleme in der Lieferkette.",
+      "example_cz": "Momentálně máme problém v dodavatelském řetězci.",
+      "tts_text": "Wir haben derzeit Probleme in der Lieferkette."
+    },
+    {
+      "word": "wir schätzen Ihre Geduld",
+      "translation_cz": "vážíme si vaší trpělivosti",
+      "example": "Wir schätzen Ihre Geduld während dieser Verzögerung.",
+      "example_cz": "Vážíme si vaší trpělivosti během tohoto zpoždění.",
+      "tts_text": "Wir schätzen Ihre Geduld während dieser Verzögerung."
+    },
+    {
+      "word": "Sie informieren",
+      "translation_cz": "informovat vás",
+      "example": "Wir werden Sie informieren, sobald wir mehr wissen.",
+      "example_cz": "Budeme vás informovat, jakmile budeme vědět více.",
+      "tts_text": "Wir werden Sie informieren, sobald wir mehr wissen."
+    },
+    {
+      "word": "im Verzug",
+      "translation_cz": "ve skluzu, opožděn",
+      "example": "Leider sind wir im Verzug.",
+      "example_cz": "Bohužel jsme ve skluzu.",
+      "tts_text": "Leider sind wir im Verzug."
+    },
+    {
+      "word": "Ihre Bestellung verfolgen",
+      "translation_cz": "sledovat vaši objednávku",
+      "example": "Sie können Ihre Bestellung über diesen Link verfolgen.",
+      "example_cz": "Vaši objednávku můžete sledovat pomocí tohoto odkazu.",
+      "tts_text": "Sie können Ihre Bestellung über diesen Link verfolgen."
+    },
+    {
+      "word": "so schnell wie möglich",
+      "translation_cz": "co nejdříve",
+      "example": "Wir versenden es so schnell wie möglich.",
+      "example_cz": "Odešleme to co nejdříve.",
+      "tts_text": "Wir versenden es so schnell wie möglich."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_04",
+      "title": "Einem Kunden eine Versandverzögerung erklären",
+      "title_cz": "Vysvětlení zpoždění zásilky zákazníkovi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich rufe wegen meiner Bestellung an. Warum ist sie verspätet?",
+          "text_cz": "Volám ohledně své objednávky. Proč má zpoždění?"
+        },
+        {
+          "speaker": "B",
+          "text": "Aufgrund unvorhergesehener Umstände haben wir Probleme in der Lieferkette.",
+          "text_cz": "Kvůli nepředvídaným okolnostem máme problém v dodavatelském řetězci."
+        },
+        {
+          "speaker": "A",
+          "text": "Verstehe. Was ist die neue voraussichtliche Lieferzeit?",
+          "text_cz": "Chápu. Jaký je nový odhadovaný čas doručení?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sie sollte bis Freitag ankommen. Wir schätzen Ihre Geduld.",
+          "text_cz": "Mělo by to dorazit do pátku. Vážíme si vaší trpělivosti."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "wir schätzen Ihre Geduld",
+      "options": [
+        "vážíme si vaší trpělivosti",
+        "sledovat vaši objednávku",
+        "co nejdříve"
+      ],
+      "correct": "vážíme si vaší trpělivosti"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die voraussichtliche ___ ist jetzt Freitag.",
+      "answer": "Lieferzeit",
+      "hint_cz": "doba doručení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Probleme in der Lieferkette",
+          "cz": "problém v dodavatelském řetězci"
+        },
+        {
+          "target": "im Verzug",
+          "cz": "ve skluzu, opožděn"
+        },
+        {
+          "target": "Ihre Bestellung verfolgen",
+          "cz": "sledovat vaši objednávku"
+        },
+        {
+          "target": "Sie informieren",
+          "cz": "informovat vás"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir werden Sie informieren, sobald wir mehr wissen.",
+      "tts_text": "Wir werden Sie informieren, sobald wir mehr wissen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir versenden es so schnell wie ___.",
+      "answer": "möglich",
+      "hint_cz": "možné"
+    }
+  ]
+}

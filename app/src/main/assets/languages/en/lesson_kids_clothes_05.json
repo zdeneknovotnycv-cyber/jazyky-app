@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_clothes_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Getting Dressed",
+  "title_cz": "Oblékání",
+  "vocabulary": [
+    {
+      "word": "get dressed",
+      "translation_cz": "obléknout se",
+      "example": "I get dressed every morning.",
+      "example_cz": "Každé ráno se obléknu.",
+      "tts_text": "I get dressed every morning."
+    },
+    {
+      "word": "put on",
+      "translation_cz": "obléct si",
+      "example": "I put on my shirt.",
+      "example_cz": "Obleču si košili.",
+      "tts_text": "I put on my shirt."
+    },
+    {
+      "word": "take off",
+      "translation_cz": "svléknout si",
+      "example": "I take off my shoes at home.",
+      "example_cz": "Doma si svléknu boty.",
+      "tts_text": "I take off my shoes at home."
+    },
+    {
+      "word": "button",
+      "translation_cz": "knoflík",
+      "example": "This button is small.",
+      "example_cz": "Tento knoflík je malý.",
+      "tts_text": "This button is small."
+    },
+    {
+      "word": "zip",
+      "translation_cz": "zip",
+      "example": "Please zip up your jacket.",
+      "example_cz": "Zapni si bundu na zip.",
+      "tts_text": "Please zip up your jacket."
+    },
+    {
+      "word": "mirror",
+      "translation_cz": "zrcadlo",
+      "example": "I look in the mirror.",
+      "example_cz": "Dívám se do zrcadla.",
+      "tts_text": "I look in the mirror."
+    },
+    {
+      "word": "ready",
+      "translation_cz": "připravený",
+      "example": "I am ready for school.",
+      "example_cz": "Jsem připraven do školy.",
+      "tts_text": "I am ready for school."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "take off",
+      "options": [
+        "svléknout si",
+        "obléct si",
+        "zip"
+      ],
+      "correct": "svléknout si"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ my shirt.",
+      "answer": "put on",
+      "hint_cz": "obleču si"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "button",
+          "cz": "knoflík"
+        },
+        {
+          "target": "zip",
+          "cz": "zip"
+        },
+        {
+          "target": "mirror",
+          "cz": "zrcadlo"
+        },
+        {
+          "target": "ready",
+          "cz": "připravený"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I look in the mirror.",
+      "tts_text": "I look in the mirror."
+    }
+  ]
+}

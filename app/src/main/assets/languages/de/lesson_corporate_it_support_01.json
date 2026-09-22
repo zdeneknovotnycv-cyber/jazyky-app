@@ -1,0 +1,47 @@
+{
+  "id": "de_corporate_it_support_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein technisches Problem melden",
+  "title_cz": "Nahlášení technického problému",
+  "vocabulary": [
+    {"word": "das technische Problem", "translation_cz": "technický problém", "example": "Ich habe ein technisches Problem mit meinem Laptop.", "example_cz": "Mám technický problém s notebookem.", "tts_text": "Ich habe ein technisches Problem mit meinem Laptop."},
+    {"word": "abstürzen", "translation_cz": "spadnout (o programu)", "example": "Die Anwendung stürzt ständig ab.", "example_cz": "Aplikace pořád padá.", "tts_text": "Die Anwendung stürzt ständig ab."},
+    {"word": "die Fehlermeldung", "translation_cz": "chybová hláška", "example": "Ich habe eine Fehlermeldung auf dem Bildschirm bekommen.", "example_cz": "Zobrazila se mi na obrazovce chybová hláška.", "tts_text": "Ich habe eine Fehlermeldung auf dem Bildschirm bekommen."},
+    {"word": "einfrieren", "translation_cz": "zaseknout se", "example": "Mein Bildschirm ist während des Videoanrufs eingefroren.", "example_cz": "Obrazovka se mi zasekla během videohovoru.", "tts_text": "Mein Bildschirm ist während des Videoanrufs eingefroren."},
+    {"word": "neu starten", "translation_cz": "restartovat", "example": "Haben Sie versucht, den Computer neu zu starten?", "example_cz": "Zkusil jste restartovat počítač?", "tts_text": "Haben Sie versucht, den Computer neu zu starten?"},
+    {"word": "das Ticket", "translation_cz": "tiket / hlášení", "example": "Ich habe ein Ticket im IT-System eröffnet.", "example_cz": "Otevřel jsem tiket v IT systému.", "tts_text": "Ich habe ein Ticket im IT-System eröffnet."},
+    {"word": "reagiert nicht", "translation_cz": "nereaguje", "example": "Das Programm reagiert überhaupt nicht.", "example_cz": "Program vůbec nereaguje.", "tts_text": "Das Programm reagiert überhaupt nicht."},
+    {"word": "die langsame Verbindung", "translation_cz": "pomalé připojení", "example": "Ich habe heute eine sehr langsame Internetverbindung.", "example_cz": "Dnes mám velmi pomalé připojení k internetu.", "tts_text": "Ich habe heute eine sehr langsame Internetverbindung."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_report_problem",
+      "title": "Ein Laptop-Problem melden",
+      "title_cz": "Nahlášení problému s notebookem",
+      "lines": [
+        {"speaker": "A", "text": "Ich habe ein technisches Problem mit meinem Laptop. Er friert ständig ein.", "text_cz": "Mám technický problém s notebookem. Pořád se mi zasekává."},
+        {"speaker": "B", "text": "Haben Sie versucht, ihn neu zu starten?", "text_cz": "Zkusil jste ho restartovat?"},
+        {"speaker": "A", "text": "Ja, aber ich bekomme immer noch dieselbe Fehlermeldung.", "text_cz": "Ano, ale pořád se mi objevuje stejná chybová hláška."},
+        {"speaker": "B", "text": "Okay, ich eröffne ein Ticket und jemand meldet sich bald bei Ihnen.", "text_cz": "Dobře, otevřu tiket a někdo se vám brzy ozve."}
+      ]
+    },
+    {
+      "id": "conv_slow_connection",
+      "title": "Eine langsame Verbindung melden",
+      "title_cz": "Nahlášení pomalého připojení",
+      "lines": [
+        {"speaker": "A", "text": "Ich habe heute Morgen eine sehr langsame Verbindung.", "text_cz": "Dnes ráno mám velmi pomalé připojení."},
+        {"speaker": "B", "text": "Wir wissen davon, das Netzwerkteam prüft es bereits.", "text_cz": "Víme o tom, síťový tým už to prověřuje."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "abstürzen", "options": ["spadnout", "restartovat", "tiket"], "correct": "spadnout"},
+    {"type": "fill_gap", "sentence": "Mein Bildschirm ist während des Videoanrufs ___.", "answer": "eingefroren", "hint_cz": "zaseklo se"},
+    {"type": "match_pairs", "pairs": [{"target": "die Fehlermeldung", "cz": "chybová hláška"}, {"target": "das Ticket", "cz": "tiket"}, {"target": "neu starten", "cz": "restartovat"}, {"target": "reagiert nicht", "cz": "nereaguje"}]},
+    {"type": "speak_and_check", "target_phrase": "Ich habe ein technisches Problem mit meinem Laptop.", "tts_text": "Ich habe ein technisches Problem mit meinem Laptop."},
+    {"type": "fill_gap", "sentence": "Ich habe heute eine sehr langsame Internet___.", "answer": "verbindung", "hint_cz": "připojení"}
+  ]
+}

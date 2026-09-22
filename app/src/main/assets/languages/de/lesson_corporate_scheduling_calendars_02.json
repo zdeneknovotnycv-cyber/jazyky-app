@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_scheduling_calendars_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Verfügbarkeit prüfen",
+  "title_cz": "Ověřování dostupnosti termínu",
+  "vocabulary": [
+    {
+      "word": "Haben Sie am Dienstag Zeit?",
+      "translation_cz": "Máte v úterý volno?",
+      "example": "Haben Sie am Dienstagnachmittag Zeit?",
+      "example_cz": "Máte v úterý odpoledne volno?",
+      "tts_text": "Haben Sie am Dienstagnachmittag Zeit?"
+    },
+    {
+      "word": "ich schaue in meinen Kalender",
+      "translation_cz": "podívám se do kalendáře",
+      "example": "Einen Moment, ich schaue in meinen Kalender.",
+      "example_cz": "Moment, podívám se do kalendáře.",
+      "tts_text": "Einen Moment, ich schaue in meinen Kalender."
+    },
+    {
+      "word": "ich bin an diesem Tag voll ausgebucht",
+      "translation_cz": "ten den mám úplně obsazeno",
+      "example": "Es tut mir leid, ich bin an diesem Tag voll ausgebucht.",
+      "example_cz": "Bohužel, ten den mám úplně obsazeno.",
+      "tts_text": "Es tut mir leid, ich bin an diesem Tag voll ausgebucht."
+    },
+    {
+      "word": "ich habe einen freien Termin um",
+      "translation_cz": "mám volné okénko v",
+      "example": "Ich habe einen freien Termin um elf Uhr.",
+      "example_cz": "Mám volné okénko v jedenáct hodin.",
+      "tts_text": "Ich habe einen freien Termin um elf Uhr."
+    },
+    {
+      "word": "passt Ihnen das?",
+      "translation_cz": "vyhovuje vám to?",
+      "example": "Ich bin um drei Uhr frei, passt Ihnen das?",
+      "example_cz": "Mám volno ve tři, vyhovuje vám to?",
+      "tts_text": "Ich bin um drei Uhr frei, passt Ihnen das?"
+    },
+    {
+      "word": "jederzeit nächste Woche passt mir",
+      "translation_cz": "kdykoliv příští týden mi vyhovuje",
+      "example": "Jederzeit nächste Woche passt mir gut.",
+      "example_cz": "Kdykoliv příští týden mi vyhovuje.",
+      "tts_text": "Jederzeit nächste Woche passt mir gut."
+    },
+    {
+      "word": "ich habe dann ein anderes Meeting",
+      "translation_cz": "tehdy mám jinou schůzku",
+      "example": "Ich habe dann ein anderes Meeting, könnten wir es später versuchen?",
+      "example_cz": "Tehdy mám jinou schůzku, mohli bychom zkusit později?",
+      "tts_text": "Ich habe dann ein anderes Meeting, könnten wir es später versuchen?"
+    },
+    {
+      "word": "wie wäre es stattdessen mit dem Vormittag?",
+      "translation_cz": "co takhle místo toho ráno?",
+      "example": "Wie wäre es stattdessen mit dem Vormittag, gegen neun?",
+      "example_cz": "Co takhle místo toho ráno, kolem deváté?",
+      "tts_text": "Wie wäre es stattdessen mit dem Vormittag, gegen neun?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_verfuegbarkeit_pruefen",
+      "title": "Herausfinden, wann ein Kollege Zeit hat",
+      "title_cz": "Zjišťování, kdy má kolega volno",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Haben Sie am Dienstagnachmittag Zeit für ein kurzes Meeting?",
+          "text_cz": "Máte v úterý odpoledne volno na krátkou schůzku?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich schaue in meinen Kalender. Ich bin an diesem Tag voll ausgebucht.",
+          "text_cz": "Podívám se do kalendáře. Ten den mám úplně obsazeno."
+        },
+        {
+          "speaker": "A",
+          "text": "Wie wäre es stattdessen mit dem Vormittag, gegen neun?",
+          "text_cz": "Co takhle místo toho ráno, kolem deváté?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich habe einen freien Termin um halb zehn, passt Ihnen das?",
+          "text_cz": "Mám volné okénko v půl desáté, vyhovuje vám to?"
+        },
+        {
+          "speaker": "A",
+          "text": "Perfekt, das passt sehr gut.",
+          "text_cz": "Skvělé, to skvěle vyhovuje."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Ich schaue in meinen Kalender.",
+      "options": [
+        "Podívám se do kalendáře.",
+        "Máte v úterý volno?",
+        "Ten den mám úplně obsazeno."
+      ],
+      "correct": "Podívám se do kalendáře."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es tut mir leid, ich bin an diesem Tag voll ___.",
+      "answer": "ausgebucht",
+      "hint_cz": "obsazeno"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "ich habe einen freien Termin um", "cz": "mám volné okénko v" },
+        { "target": "passt Ihnen das?", "cz": "vyhovuje vám to?" },
+        { "target": "jederzeit nächste Woche passt mir", "cz": "kdykoliv příští týden mi vyhovuje" },
+        { "target": "ich habe dann ein anderes Meeting", "cz": "tehdy mám jinou schůzku" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Haben Sie am Dienstagnachmittag Zeit?",
+      "tts_text": "Haben Sie am Dienstagnachmittag Zeit?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wie wäre es ___ mit dem Vormittag, gegen neun?",
+      "answer": "stattdessen",
+      "hint_cz": "místo toho"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Jederzeit nächste Woche passt mir gut.",
+      "tts_text": "Jederzeit nächste Woche passt mir gut."
+    }
+  ]
+}

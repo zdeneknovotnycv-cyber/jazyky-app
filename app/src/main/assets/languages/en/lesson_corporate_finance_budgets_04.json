@@ -1,0 +1,46 @@
+{
+  "id": "en_corporate_finance_budgets_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Late Payment Reminder",
+  "title_cz": "Upomínka o pozdní platbě",
+  "vocabulary": [
+    {"word": "overdue", "translation_cz": "po splatnosti", "example": "Your invoice is now ten days overdue.", "example_cz": "Vaše faktura je nyní deset dní po splatnosti.", "tts_text": "Your invoice is now ten days overdue."},
+    {"word": "payment reminder", "translation_cz": "upomínka", "example": "This is a friendly payment reminder.", "example_cz": "Toto je přátelská upomínka k platbě.", "tts_text": "This is a friendly payment reminder."},
+    {"word": "outstanding balance", "translation_cz": "nesplacený zůstatek", "example": "Please settle the outstanding balance as soon as possible.", "example_cz": "Uhraďte prosím co nejdříve nesplacený zůstatek.", "tts_text": "Please settle the outstanding balance as soon as possible."},
+    {"word": "late fee", "translation_cz": "penále za pozdní platbu", "example": "A late fee may apply after thirty days.", "example_cz": "Po třiceti dnech může být účtováno penále za pozdní platbu.", "tts_text": "A late fee may apply after thirty days."},
+    {"word": "settle the invoice", "translation_cz": "vyrovnat fakturu", "example": "We kindly ask you to settle the invoice this week.", "example_cz": "Žádáme vás, abyste tento týden vyrovnal fakturu.", "tts_text": "We kindly ask you to settle the invoice this week."},
+    {"word": "grace period", "translation_cz": "dodatečná lhůta", "example": "We can offer a short grace period.", "example_cz": "Můžeme nabídnout krátkou dodatečnou lhůtu.", "tts_text": "We can offer a short grace period."},
+    {"word": "proof of payment", "translation_cz": "doklad o platbě", "example": "Please send proof of payment once transferred.", "example_cz": "Po provedení platby prosím zašlete doklad o platbě.", "tts_text": "Please send proof of payment once transferred."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_late_payment",
+      "title": "Sending a payment reminder",
+      "title_cz": "Zaslání upomínky",
+      "lines": [
+        {"speaker": "A", "text": "I'm calling about invoice number 245, which is overdue.", "text_cz": "Volám ohledně faktury číslo 245, která je po splatnosti."},
+        {"speaker": "B", "text": "I'm sorry, we must have missed it. What's the outstanding balance?", "text_cz": "Omlouvám se, asi nám to uniklo. Jaký je nesplacený zůstatek?"},
+        {"speaker": "A", "text": "Eight hundred euros. Could you settle it this week?", "text_cz": "Osm set eur. Mohli byste to vyrovnat tento týden?"},
+        {"speaker": "B", "text": "Yes, we'll transfer it tomorrow and send proof of payment.", "text_cz": "Ano, zítra to převedeme a zašleme doklad o platbě."}
+      ]
+    },
+    {
+      "id": "conv_grace_period",
+      "title": "Asking for a grace period",
+      "title_cz": "Žádost o dodatečnou lhůtu",
+      "lines": [
+        {"speaker": "A", "text": "Could we get a short grace period before the late fee applies?", "text_cz": "Mohli bychom dostat krátkou dodatečnou lhůtu, než se uplatní penále?"},
+        {"speaker": "B", "text": "Yes, we can extend it by five days.", "text_cz": "Ano, můžeme ji prodloužit o pět dní."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "overdue", "options": ["po splatnosti", "upomínka", "penále"], "correct": "po splatnosti"},
+    {"type": "fill_gap", "sentence": "Please settle the outstanding ___ as soon as possible.", "answer": "balance", "hint_cz": "zůstatek"},
+    {"type": "match_pairs", "pairs": [{"target": "late fee", "cz": "penále za pozdní platbu"}, {"target": "grace period", "cz": "dodatečná lhůta"}, {"target": "proof of payment", "cz": "doklad o platbě"}, {"target": "payment reminder", "cz": "upomínka"}]},
+    {"type": "speak_and_check", "target_phrase": "This is a friendly payment reminder.", "tts_text": "This is a friendly payment reminder."},
+    {"type": "fill_gap", "sentence": "We kindly ask you to ___ the invoice this week.", "answer": "settle", "hint_cz": "vyrovnat"}
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_performance_feedback_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Grundlagen der Selbsteinschätzung",
+  "title_cz": "Základy sebehodnocení",
+  "vocabulary": [
+    {
+      "word": "die Selbsteinschätzung",
+      "translation_cz": "sebehodnocení",
+      "example": "Bitte reich deine Selbsteinschätzung bis Freitag ein.",
+      "example_cz": "Prosím dokonči své sebehodnocení do pátku.",
+      "tts_text": "Bitte reich deine Selbsteinschätzung bis Freitag ein."
+    },
+    {
+      "word": "die Erfolge",
+      "translation_cz": "úspěchy",
+      "example": "List deine wichtigsten Erfolge dieses Jahr auf.",
+      "example_cz": "Vyjmenuj své hlavní úspěchy za tento rok.",
+      "tts_text": "List deine wichtigsten Erfolge dieses Jahr auf."
+    },
+    {
+      "word": "die bewältigten Herausforderungen",
+      "translation_cz": "výzvy, kterým jsem čelil",
+      "example": "Beschreib die Herausforderungen während des Projekts.",
+      "example_cz": "Popiš výzvy, kterým jsi čelil během projektu.",
+      "tts_text": "Beschreib die Herausforderungen während des Projekts."
+    },
+    {
+      "word": "die ehrliche Einschätzung",
+      "translation_cz": "upřímné zhodnocení",
+      "example": "Gib eine ehrliche Einschätzung deiner Leistung.",
+      "example_cz": "Podej upřímné zhodnocení svého výkonu.",
+      "tts_text": "Gib eine ehrliche Einschätzung deiner Leistung."
+    },
+    {
+      "word": "sich selbst bewerten",
+      "translation_cz": "ohodnoť sám sebe",
+      "example": "Bewerte dich selbst von eins bis fünf bei Teamarbeit.",
+      "example_cz": "Ohodnoť sám sebe od jedné do pěti v týmové práci.",
+      "tts_text": "Bewerte dich selbst von eins bis fünf bei Teamarbeit."
+    },
+    {
+      "word": "die gelernten Lektionen",
+      "translation_cz": "poučení",
+      "example": "Welche gelernten Lektionen würdest du teilen?",
+      "example_cz": "Jaké poučení bys sdílel?",
+      "tts_text": "Welche gelernten Lektionen würdest du teilen?"
+    },
+    {
+      "word": "die entwickelten Fähigkeiten",
+      "translation_cz": "rozvinuté dovednosti",
+      "example": "Nenn die Fähigkeiten, die du dieses Quartal entwickelt hast.",
+      "example_cz": "Zmíň dovednosti, které jsi tento kvartál rozvinul.",
+      "tts_text": "Nenn die Fähigkeiten, die du dieses Quartal entwickelt hast."
+    },
+    {
+      "word": "die unterstützenden Belege",
+      "translation_cz": "podpůrné důkazy",
+      "example": "Füg unterstützende Belege für deine Erfolge hinzu.",
+      "example_cz": "Přidej podpůrné důkazy ke svým úspěchům.",
+      "tts_text": "Füg unterstützende Belege für deine Erfolge hinzu."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_06",
+      "title": "Eine Selbsteinschätzung schreiben",
+      "title_cz": "Psaní sebehodnocení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hast du schon mit deiner Selbsteinschätzung angefangen?",
+          "text_cz": "Už jsi začal se svým sebehodnocením?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, ich liste meine wichtigsten Erfolge dieses Jahr auf.",
+          "text_cz": "Ano, vypisuji si své hlavní úspěchy za tento rok."
+        },
+        {
+          "speaker": "A",
+          "text": "Vergiss nicht die Herausforderungen beim Launch.",
+          "text_cz": "Nezapomeň na výzvy během spuštění."
+        },
+        {
+          "speaker": "B",
+          "text": "Stimmt, ich füge auch unterstützende Belege hinzu.",
+          "text_cz": "Přesně tak, přidám také nějaké podpůrné důkazy."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Selbsteinschätzung",
+      "options": [
+        "sebehodnocení",
+        "úspěchy",
+        "výzvy, kterým jsem čelil"
+      ],
+      "correct": "sebehodnocení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "List deine wichtigsten ___ dieses Jahr auf.",
+      "answer": "Erfolge",
+      "hint_cz": "úspěchy"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Selbsteinschätzung",
+          "cz": "sebehodnocení"
+        },
+        {
+          "target": "die Erfolge",
+          "cz": "úspěchy"
+        },
+        {
+          "target": "die bewältigten Herausforderungen",
+          "cz": "výzvy, kterým jsem čelil"
+        },
+        {
+          "target": "die ehrliche Einschätzung",
+          "cz": "upřímné zhodnocení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte reich deine Selbsteinschätzung bis Freitag ein.",
+      "tts_text": "Bitte reich deine Selbsteinschätzung bis Freitag ein."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Gib eine ehrliche ___ deiner Leistung.",
+      "answer": "Einschätzung",
+      "hint_cz": "zhodnocení"
+    }
+  ]
+}

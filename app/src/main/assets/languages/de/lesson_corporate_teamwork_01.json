@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_teamwork_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Aufgabe delegieren",
+  "title_cz": "Delegování úkolu",
+  "vocabulary": [
+    {
+      "word": "delegieren",
+      "translation_cz": "delegovat / pověřit úkolem",
+      "example": "Ich möchte dir diese Aufgabe delegieren.",
+      "example_cz": "Rád bych ti delegoval tento úkol.",
+      "tts_text": "Ich möchte dir diese Aufgabe delegieren."
+    },
+    {
+      "word": "übernehmen",
+      "translation_cz": "převzít",
+      "example": "Könntest du den Kundenbericht übernehmen?",
+      "example_cz": "Mohl bys převzít zprávu pro klienta?",
+      "tts_text": "Könntest du den Kundenbericht übernehmen?"
+    },
+    {
+      "word": "bis zur Frist",
+      "translation_cz": "do termínu",
+      "example": "Bitte werde bis Freitag damit fertig.",
+      "example_cz": "Prosím dokonči to do termínu v pátek.",
+      "tts_text": "Bitte werde bis Freitag damit fertig."
+    },
+    {
+      "word": "die Ansprechperson",
+      "translation_cz": "kontaktní osoba",
+      "example": "Ich bin deine Ansprechperson für dieses Projekt.",
+      "example_cz": "Budu tvou kontaktní osobou pro tento projekt.",
+      "tts_text": "Ich bin deine Ansprechperson für dieses Projekt."
+    },
+    {
+      "word": "auf dem Laufenden halten",
+      "translation_cz": "informovat mě o",
+      "example": "Bitte halte mich morgen über deinen Fortschritt auf dem Laufenden.",
+      "example_cz": "Prosím informuj mě zítra o svém pokroku.",
+      "tts_text": "Bitte halte mich morgen über deinen Fortschritt auf dem Laufenden."
+    },
+    {
+      "word": "frag ruhig nach",
+      "translation_cz": "klidně se zeptej",
+      "example": "Frag ruhig nach, wenn etwas unklar ist.",
+      "example_cz": "Klidně se zeptej, pokud je něco nejasné.",
+      "tts_text": "Frag ruhig nach, wenn etwas unklar ist."
+    },
+    {
+      "word": "priorisieren",
+      "translation_cz": "stanovit priority",
+      "example": "Wir müssen die dringendsten Aufgaben priorisieren.",
+      "example_cz": "Musíme stanovit priority nejnaléhavějších úkolů.",
+      "tts_text": "Wir müssen die dringendsten Aufgaben priorisieren."
+    },
+    {
+      "word": "weitergeben",
+      "translation_cz": "předat",
+      "example": "Ich gebe dir die Unterlagen heute Nachmittag weiter.",
+      "example_cz": "Dnes odpoledne ti předám soubory.",
+      "tts_text": "Ich gebe dir die Unterlagen heute Nachmittag weiter."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_delegating_task",
+      "title": "Eine Aufgabe an einen Kollegen delegieren",
+      "title_cz": "Delegování úkolu kolegovi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich möchte dir diese Woche den Kundenbericht delegieren.",
+          "text_cz": "Rád bych ti tento týden delegoval zprávu pro klienta."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, kein Problem. Bis wann ist die Frist?",
+          "text_cz": "Jasně, žádný problém. Kdy je termín?"
+        },
+        {
+          "speaker": "A",
+          "text": "Bitte werde bis Freitag damit fertig. Ich bin deine Ansprechperson, falls du Fragen hast.",
+          "text_cz": "Prosím dokonči to do pátku. Budu tvá kontaktní osoba, kdyby ses na něco chtěl zeptat."
+        },
+        {
+          "speaker": "B",
+          "text": "Super, danke. Kannst du mir die Unterlagen jetzt schicken?",
+          "text_cz": "Skvělé, díky. Můžeš mi teď poslat ty soubory?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ich gebe dir die Unterlagen heute Nachmittag weiter. Frag ruhig nach, wenn etwas unklar ist.",
+          "text_cz": "Dnes odpoledne ti předám soubory. Klidně se zeptej, kdyby něco nebylo jasné."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "delegieren",
+      "options": [
+        "delegovat / pověřit úkolem",
+        "převzít",
+        "předat"
+      ],
+      "correct": "delegovat / pověřit úkolem"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte werde ___ Freitag damit fertig.",
+      "answer": "bis",
+      "hint_cz": "do"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "übernehmen",
+          "cz": "převzít"
+        },
+        {
+          "target": "die Ansprechperson",
+          "cz": "kontaktní osoba"
+        },
+        {
+          "target": "priorisieren",
+          "cz": "stanovit priority"
+        },
+        {
+          "target": "weitergeben",
+          "cz": "předat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Frag ruhig nach, wenn etwas unklar ist.",
+      "tts_text": "Frag ruhig nach, wenn etwas unklar ist."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte halte mich morgen über deinen Fortschritt auf dem ___.",
+      "answer": "Laufenden",
+      "hint_cz": "informuj mě"
+    }
+  ]
+}

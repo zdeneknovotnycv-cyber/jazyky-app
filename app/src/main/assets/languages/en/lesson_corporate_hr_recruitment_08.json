@@ -1,0 +1,47 @@
+{
+  "id": "en_corporate_hr_recruitment_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Giving Notice",
+  "title_cz": "Podání výpovědi",
+  "vocabulary": [
+    {"word": "resignation", "translation_cz": "výpověď", "example": "I would like to submit my resignation.", "example_cz": "Rád bych podal výpověď.", "tts_text": "I would like to submit my resignation."},
+    {"word": "notice period", "translation_cz": "výpovědní lhůta", "example": "My notice period is one month.", "example_cz": "Moje výpovědní lhůta je jeden měsíc.", "tts_text": "My notice period is one month."},
+    {"word": "last working day", "translation_cz": "poslední pracovní den", "example": "My last working day will be the 30th.", "example_cz": "Můj poslední pracovní den bude třicátého.", "tts_text": "My last working day will be the 30th."},
+    {"word": "handover", "translation_cz": "předání agendy", "example": "I will prepare a proper handover document.", "example_cz": "Připravím řádný dokument pro předání agendy.", "tts_text": "I will prepare a proper handover document."},
+    {"word": "new opportunity", "translation_cz": "nová příležitost", "example": "I accepted a new opportunity elsewhere.", "example_cz": "Přijal jsem novou pracovní příležitost jinde.", "tts_text": "I accepted a new opportunity elsewhere."},
+    {"word": "exit interview", "translation_cz": "výstupní pohovor", "example": "HR will schedule an exit interview with you.", "example_cz": "HR s vámi naplánuje výstupní pohovor.", "tts_text": "HR will schedule an exit interview with you."},
+    {"word": "reference letter", "translation_cz": "doporučující dopis", "example": "Could you provide a reference letter?", "example_cz": "Mohl byste mi poskytnout doporučující dopis?", "tts_text": "Could you provide a reference letter?"}
+  ],
+  "conversations": [
+    {
+      "id": "conv_giving_notice",
+      "title": "Handing in your resignation",
+      "title_cz": "Podání výpovědi",
+      "lines": [
+        {"speaker": "A", "text": "I wanted to let you know that I'm handing in my resignation.", "text_cz": "Chtěl jsem vám dát vědět, že podávám výpověď."},
+        {"speaker": "B", "text": "I'm sorry to hear that. What's your last working day?", "text_cz": "To je mi líto. Jaký bude váš poslední pracovní den?"},
+        {"speaker": "A", "text": "According to my notice period, it will be the end of next month.", "text_cz": "Podle mé výpovědní lhůty to bude konec příštího měsíce."},
+        {"speaker": "B", "text": "Understood. Let's plan a proper handover.", "text_cz": "Rozumím. Naplánujme řádné předání agendy."}
+      ]
+    },
+    {
+      "id": "conv_exit_interview",
+      "title": "Scheduling an exit interview",
+      "title_cz": "Naplánování výstupního pohovoru",
+      "lines": [
+        {"speaker": "A", "text": "HR would like to schedule an exit interview before you leave.", "text_cz": "HR by s vámi rádo naplánovalo výstupní pohovor před odchodem."},
+        {"speaker": "B", "text": "Sure. Could you also provide a reference letter?", "text_cz": "Jistě. Mohli byste mi také poskytnout doporučující dopis?"},
+        {"speaker": "A", "text": "Of course, we'll prepare it before your last day.", "text_cz": "Samozřejmě, připravíme ho před vaším posledním dnem."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "resignation", "options": ["výpověď", "příležitost", "pohovor"], "correct": "výpověď"},
+    {"type": "fill_gap", "sentence": "My ___ period is one month.", "answer": "notice", "hint_cz": "výpovědní lhůta"},
+    {"type": "match_pairs", "pairs": [{"target": "handover", "cz": "předání agendy"}, {"target": "exit interview", "cz": "výstupní pohovor"}, {"target": "reference letter", "cz": "doporučující dopis"}, {"target": "last working day", "cz": "poslední pracovní den"}]},
+    {"type": "speak_and_check", "target_phrase": "I would like to submit my resignation.", "tts_text": "I would like to submit my resignation."},
+    {"type": "fill_gap", "sentence": "I accepted a new ___ elsewhere.", "answer": "opportunity", "hint_cz": "příležitost"}
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_school_classroom_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Teachers and Classmates",
+  "title_cz": "Učitelé a spolužáci",
+  "vocabulary": [
+    {
+      "word": "der Lehrer / die Lehrerin",
+      "translation_cz": "učitel/učitelka",
+      "example": "Meine Lehrerin ist nett.",
+      "example_cz": "Moje učitelka je hodná.",
+      "tts_text": "Meine Lehrerin ist nett."
+    },
+    {
+      "word": "der Mitschüler",
+      "translation_cz": "spolužák",
+      "example": "Mein Mitschüler sitzt neben mir.",
+      "example_cz": "Můj spolužák sedí vedle mě.",
+      "tts_text": "Mein Mitschüler sitzt neben mir."
+    },
+    {
+      "word": "der Freund / die Freundin",
+      "translation_cz": "kamarád",
+      "example": "Sie ist meine beste Freundin.",
+      "example_cz": "Je moje nejlepší kamarádka.",
+      "tts_text": "Sie ist meine beste Freundin."
+    },
+    {
+      "word": "der Schulleiter",
+      "translation_cz": "ředitel",
+      "example": "Der Schulleiter ist sehr groß.",
+      "example_cz": "Ředitel je velmi vysoký.",
+      "tts_text": "Der Schulleiter ist sehr groß."
+    },
+    {
+      "word": "die Hand heben",
+      "translation_cz": "zvednout ruku",
+      "example": "Ich hebe die Hand, um zu antworten.",
+      "example_cz": "Zvedám ruku, abych odpověděl.",
+      "tts_text": "Ich hebe die Hand, um zu antworten."
+    },
+    {
+      "word": "zuhören",
+      "translation_cz": "poslouchat",
+      "example": "Wir hören der Lehrerin zu.",
+      "example_cz": "Posloucháme učitelku.",
+      "tts_text": "Wir hören der Lehrerin zu."
+    },
+    {
+      "word": "helfen",
+      "translation_cz": "pomáhat",
+      "example": "Mein Mitschüler hilft mir bei Mathe.",
+      "example_cz": "Můj spolužák mi pomáhá s matematikou.",
+      "tts_text": "Mein Mitschüler hilft mir bei Mathe."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Schulleiter",
+      "options": [
+        "ředitel",
+        "spolužák",
+        "kamarád"
+      ],
+      "correct": "ředitel"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich hebe die ___, um zu antworten.",
+      "answer": "Hand",
+      "hint_cz": "ruku"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Lehrer / die Lehrerin",
+          "cz": "učitel/učitelka"
+        },
+        {
+          "target": "der Mitschüler",
+          "cz": "spolužák"
+        },
+        {
+          "target": "der Freund / die Freundin",
+          "cz": "kamarád"
+        },
+        {
+          "target": "zuhören",
+          "cz": "poslouchat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Mein Mitschüler hilft mir bei Mathe.",
+      "tts_text": "Mein Mitschüler hilft mir bei Mathe."
+    }
+  ]
+}

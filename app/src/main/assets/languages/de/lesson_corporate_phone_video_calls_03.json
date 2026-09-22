@@ -1,0 +1,138 @@
+{
+  "id": "de_adult_corporate_phone_video_calls_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Nachricht auf der Mailbox hinterlassen",
+  "title_cz": "Nechání vzkazu v hlasové schránce",
+  "vocabulary": [
+    {
+      "word": "Sie sind mit der Mailbox von... verbunden",
+      "translation_cz": "Dovolali jste se do hlasové schránky...",
+      "example": "Sie sind mit der Mailbox von Petra Nova verbunden.",
+      "example_cz": "Dovolali jste se do hlasové schránky Petry Nové.",
+      "tts_text": "Sie sind mit der Mailbox von Petra Nova verbunden."
+    },
+    {
+      "word": "Bitte hinterlassen Sie eine Nachricht nach dem Ton",
+      "translation_cz": "Zanechte prosím vzkaz po zaznění tónu",
+      "example": "Bitte hinterlassen Sie eine Nachricht nach dem Ton.",
+      "example_cz": "Zanechte prosím vzkaz po zaznění tónu.",
+      "tts_text": "Bitte hinterlassen Sie eine Nachricht nach dem Ton."
+    },
+    {
+      "word": "es tut mir leid, dass ich Ihren Anruf verpasst habe",
+      "translation_cz": "je mi líto, že jsem zmeškal váš hovor",
+      "example": "Hallo, es tut mir leid, dass ich Ihren Anruf verpasst habe.",
+      "example_cz": "Dobrý den, je mi líto, že jsem zmeškal váš hovor.",
+      "tts_text": "Hallo, es tut mir leid, dass ich Ihren Anruf verpasst habe."
+    },
+    {
+      "word": "die Rückrufnummer",
+      "translation_cz": "telefonní číslo pro zpětné zavolání",
+      "example": "Meine Rückrufnummer ist null-sieben-sieben, eins-zwei-drei.",
+      "example_cz": "Moje číslo pro zpětné zavolání je nula sedm sedm, jedna dva tři.",
+      "tts_text": "Meine Rückrufnummer ist null-sieben-sieben, eins-zwei-drei."
+    },
+    {
+      "word": "so bald wie möglich",
+      "translation_cz": "co nejdříve",
+      "example": "Bitte rufen Sie mich so bald wie möglich zurück.",
+      "example_cz": "Zavolejte mi prosím zpět co nejdříve.",
+      "tts_text": "Bitte rufen Sie mich so bald wie möglich zurück."
+    },
+    {
+      "word": "es geht um",
+      "translation_cz": "jedná se o",
+      "example": "Es geht um den Vertrag, den wir besprochen haben.",
+      "example_cz": "Jedná se o smlouvu, kterou jsme probírali.",
+      "tts_text": "Es geht um den Vertrag, den wir besprochen haben."
+    },
+    {
+      "word": "rufen Sie mich gerne zurück",
+      "translation_cz": "klidně mi zavolejte zpět",
+      "example": "Rufen Sie mich gerne heute jederzeit zurück.",
+      "example_cz": "Klidně mi dnes kdykoliv zavolejte zpět.",
+      "tts_text": "Rufen Sie mich gerne heute jederzeit zurück."
+    },
+    {
+      "word": "danke, bis dann",
+      "translation_cz": "díky, zatím nashle",
+      "example": "Danke, bis dann.",
+      "example_cz": "Díky, zatím nashle.",
+      "tts_text": "Danke, bis dann."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_mailbox_nachricht",
+      "title": "Eine Nachricht auf die Mailbox sprechen",
+      "title_cz": "Nahrání vzkazu na hlasovou schránku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Sie sind mit der Mailbox von Petra Nova verbunden. Bitte hinterlassen Sie eine Nachricht nach dem Ton.",
+          "text_cz": "Dovolali jste se do hlasové schránky Petry Nové. Zanechte prosím vzkaz po zaznění tónu."
+        },
+        {
+          "speaker": "B",
+          "text": "Hallo Petra, hier ist Tomas von ABC Trading. Es tut mir leid, dass ich Ihren Anruf verpasst habe.",
+          "text_cz": "Dobrý den Petro, tady je Tomáš z ABC Trading. Je mi líto, že jsem zmeškal váš hovor."
+        },
+        {
+          "speaker": "B",
+          "text": "Es geht um den Vertrag, den wir besprochen haben. Könnten Sie mich so bald wie möglich zurückrufen?",
+          "text_cz": "Jedná se o smlouvu, kterou jsme probírali. Mohla byste mi zavolat zpět co nejdříve?"
+        },
+        {
+          "speaker": "B",
+          "text": "Meine Rückrufnummer ist null-sieben-sieben, eins-zwei-drei. Danke, bis dann.",
+          "text_cz": "Moje číslo je nula sedm sedm, jedna dva tři. Díky, zatím nashle."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Bitte hinterlassen Sie eine Nachricht nach dem Ton.",
+      "options": [
+        "Zanechte prosím vzkaz po zaznění tónu.",
+        "Klidně mi zavolejte zpět.",
+        "Jedná se o smlouvu."
+      ],
+      "correct": "Zanechte prosím vzkaz po zaznění tónu."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es tut mir leid, dass ich Ihren Anruf ___ habe.",
+      "answer": "verpasst",
+      "hint_cz": "zmeškal"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "die Rückrufnummer", "cz": "číslo pro zpětné zavolání" },
+        { "target": "so bald wie möglich", "cz": "co nejdříve" },
+        { "target": "es geht um", "cz": "jedná se o" },
+        { "target": "rufen Sie mich gerne zurück", "cz": "klidně mi zavolejte zpět" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte rufen Sie mich so bald wie möglich zurück.",
+      "tts_text": "Bitte rufen Sie mich so bald wie möglich zurück."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Rufen Sie mich gerne heute jederzeit ___.",
+      "answer": "zurück",
+      "hint_cz": "zpět"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Es geht um den Vertrag, den wir besprochen haben.",
+      "tts_text": "Es geht um den Vertrag, den wir besprochen haben."
+    }
+  ]
+}

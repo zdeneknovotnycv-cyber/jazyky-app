@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_smalltalk_networking_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Netzwerken auf einer Konferenz",
+  "title_cz": "Networking na konferenci",
+  "vocabulary": [
+    {
+      "word": "Freut mich, Sie kennenzulernen",
+      "translation_cz": "Těší mě",
+      "example": "Freut mich, Sie kennenzulernen, ich bin Tomas.",
+      "example_cz": "Těší mě, já jsem Tomáš.",
+      "tts_text": "Freut mich, Sie kennenzulernen, ich bin Tomas."
+    },
+    {
+      "word": "Was führt Sie hierher?",
+      "translation_cz": "Co vás sem přivádí?",
+      "example": "Und was führt Sie zu dieser Konferenz?",
+      "example_cz": "Tak co vás přivádí na tuhle konferenci?",
+      "tts_text": "Und was führt Sie zu dieser Konferenz?"
+    },
+    {
+      "word": "die Grundsatzrede",
+      "translation_cz": "hlavní projev",
+      "example": "Die Grundsatzrede war wirklich inspirierend.",
+      "example_cz": "Hlavní projev byl opravdu inspirativní.",
+      "tts_text": "Die Grundsatzrede war wirklich inspirierend."
+    },
+    {
+      "word": "in Kontakt bleiben",
+      "translation_cz": "zůstat v kontaktu",
+      "example": "Lass uns nach der Veranstaltung in Kontakt bleiben.",
+      "example_cz": "Zůstaňme v kontaktu i po akci.",
+      "tts_text": "Lass uns nach der Veranstaltung in Kontakt bleiben."
+    },
+    {
+      "word": "das Arbeitsfeld",
+      "translation_cz": "obor činnosti",
+      "example": "In welchem Arbeitsfeld sind Sie tätig?",
+      "example_cz": "V jakém oboru pracujete?",
+      "tts_text": "In welchem Arbeitsfeld sind Sie tätig?"
+    },
+    {
+      "word": "an einer Sitzung teilnehmen",
+      "translation_cz": "zúčastnit se přednášky",
+      "example": "Ich habe heute Morgen an einer tollen Sitzung teilgenommen.",
+      "example_cz": "Dnes ráno jsem se zúčastnil skvělé přednášky.",
+      "tts_text": "Ich habe heute Morgen an einer tollen Sitzung teilgenommen."
+    },
+    {
+      "word": "die Podiumsdiskussion",
+      "translation_cz": "panelová diskuze",
+      "example": "Die Podiumsdiskussion behandelte KI-Trends.",
+      "example_cz": "Panelová diskuze se týkala trendů v AI.",
+      "tts_text": "Die Podiumsdiskussion behandelte KI-Trends."
+    },
+    {
+      "word": "Kontakte austauschen",
+      "translation_cz": "vyměnit si kontakty",
+      "example": "Sollen wir Kontakte austauschen?",
+      "example_cz": "Vyměníme si kontakty?",
+      "tts_text": "Sollen wir Kontakte austauschen?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_konferenz_networking",
+      "title": "Jemanden auf einer Konferenz kennenlernen",
+      "title_cz": "Seznámení na konferenci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hallo, freut mich, Sie kennenzulernen. Ich bin Anna.",
+          "text_cz": "Ahoj, těší mě. Jsem Anna."
+        },
+        {
+          "speaker": "B",
+          "text": "Freut mich auch. Was führt Sie hierher?",
+          "text_cz": "Mě taky těší. Co vás sem přivádí?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ich arbeite im Marketing. In welchem Arbeitsfeld sind Sie tätig?",
+          "text_cz": "Pracuji v marketingu. V jakém oboru pracujete vy?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich bin in der Softwareentwicklung. Die Grundsatzrede war inspirierend, oder?",
+          "text_cz": "Já v softwarovém vývoji. Ten hlavní projev byl inspirativní, že?"
+        },
+        {
+          "speaker": "A",
+          "text": "Auf jeden Fall. Sollen wir Kontakte austauschen?",
+          "text_cz": "Rozhodně. Vyměníme si kontakty?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, lass uns in Kontakt bleiben.",
+          "text_cz": "Jasně, zůstaňme v kontaktu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Grundsatzrede",
+      "options": [
+        "hlavní projev",
+        "panelová diskuze",
+        "obor činnosti"
+      ],
+      "correct": "hlavní projev"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Was ___ Sie hierher?",
+      "answer": "führt",
+      "hint_cz": "přivádí"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Sollen wir Kontakte ___?",
+      "answer": "austauschen",
+      "hint_cz": "vyměnit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "in Kontakt bleiben",
+          "cz": "zůstat v kontaktu"
+        },
+        {
+          "target": "das Arbeitsfeld",
+          "cz": "obor činnosti"
+        },
+        {
+          "target": "die Podiumsdiskussion",
+          "cz": "panelová diskuze"
+        },
+        {
+          "target": "an einer Sitzung teilnehmen",
+          "cz": "zúčastnit se přednášky"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Freut mich, Sie kennenzulernen.",
+      "tts_text": "Freut mich, Sie kennenzulernen."
+    }
+  ]
+}

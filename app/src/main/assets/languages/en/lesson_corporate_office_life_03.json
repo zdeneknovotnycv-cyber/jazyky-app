@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_office_life_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Office kitchen etiquette",
+  "title_cz": "Etiketa v kancelářské kuchyňce",
+  "vocabulary": [
+    {
+      "word": "clean up after yourself",
+      "translation_cz": "uklidit po sobě",
+      "example": "Please clean up after yourself in the kitchen.",
+      "example_cz": "Prosím ukliď po sobě v kuchyňce.",
+      "tts_text": "Please clean up after yourself in the kitchen."
+    },
+    {
+      "word": "dishwasher",
+      "translation_cz": "myčka na nádobí",
+      "example": "Put your mug in the dishwasher.",
+      "example_cz": "Dej si hrnek do myčky.",
+      "tts_text": "Put your mug in the dishwasher."
+    },
+    {
+      "word": "label your food",
+      "translation_cz": "označit si jídlo",
+      "example": "Please label your food in the fridge.",
+      "example_cz": "Prosím označ si jídlo v lednici.",
+      "tts_text": "Please label your food in the fridge."
+    },
+    {
+      "word": "shared fridge",
+      "translation_cz": "společná lednička",
+      "example": "Don't leave old food in the shared fridge.",
+      "example_cz": "Nenechávej staré jídlo ve společné ledničce.",
+      "tts_text": "Don't leave old food in the shared fridge."
+    },
+    {
+      "word": "microwave",
+      "translation_cz": "mikrovlnná trouba",
+      "example": "Someone left rice in the microwave.",
+      "example_cz": "Někdo nechal rýži v mikrovlnce.",
+      "tts_text": "Someone left rice in the microwave."
+    },
+    {
+      "word": "throw away",
+      "translation_cz": "vyhodit",
+      "example": "Please throw away your leftovers.",
+      "example_cz": "Prosím vyhoď zbytky jídla.",
+      "tts_text": "Please throw away your leftovers."
+    },
+    {
+      "word": "coffee machine",
+      "translation_cz": "kávovar",
+      "example": "The coffee machine needs new water.",
+      "example_cz": "Kávovar potřebuje novou vodu.",
+      "tts_text": "The coffee machine needs new water."
+    },
+    {
+      "word": "keep it tidy",
+      "translation_cz": "udržovat pořádek",
+      "example": "Let's all try to keep it tidy here.",
+      "example_cz": "Zkusme si tady všichni udržovat pořádek.",
+      "tts_text": "Let's all try to keep it tidy here."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_03",
+      "title": "A reminder about the kitchen",
+      "title_cz": "Připomínka ohledně kuchyňky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Someone left dirty dishes in the sink again.",
+          "text_cz": "Někdo zase nechal špinavé nádobí v dřezu."
+        },
+        {
+          "speaker": "B",
+          "text": "I know, please clean up after yourself, everyone.",
+          "text_cz": "Já vím, prosím uklízejte po sobě, všichni."
+        },
+        {
+          "speaker": "A",
+          "text": "Also, remember to label your food in the shared fridge.",
+          "text_cz": "A taky pamatujte, ať si označujete jídlo ve společné ledničce."
+        },
+        {
+          "speaker": "B",
+          "text": "Good idea. I'll send a reminder to the team.",
+          "text_cz": "Dobrý nápad. Pošlu týmu připomínku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "clean up after yourself",
+      "options": [
+        "uklidit po sobě",
+        "myčka na nádobí",
+        "označit si jídlo"
+      ],
+      "correct": "uklidit po sobě"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please clean ___ after yourself.",
+      "answer": "up",
+      "hint_cz": "uklidit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "clean up after yourself",
+          "cz": "uklidit po sobě"
+        },
+        {
+          "target": "dishwasher",
+          "cz": "myčka na nádobí"
+        },
+        {
+          "target": "label your food",
+          "cz": "označit si jídlo"
+        },
+        {
+          "target": "shared fridge",
+          "cz": "společná lednička"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please clean up after yourself in the kitchen.",
+      "tts_text": "Please clean up after yourself in the kitchen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please ___ your food in the fridge.",
+      "answer": "label",
+      "hint_cz": "označit"
+    }
+  ]
+}

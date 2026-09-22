@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_time_days_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Morning, Afternoon, Evening",
+  "title_cz": "Ráno, odpoledne, večer",
+  "vocabulary": [
+    {
+      "word": "morning",
+      "translation_cz": "ráno",
+      "example": "I eat breakfast in the morning.",
+      "example_cz": "Ráno snídám.",
+      "tts_text": "I eat breakfast in the morning."
+    },
+    {
+      "word": "afternoon",
+      "translation_cz": "odpoledne",
+      "example": "We play outside in the afternoon.",
+      "example_cz": "Odpoledne si hrajeme venku.",
+      "tts_text": "We play outside in the afternoon."
+    },
+    {
+      "word": "evening",
+      "translation_cz": "večer",
+      "example": "We watch TV in the evening.",
+      "example_cz": "Večer se díváme na televizi.",
+      "tts_text": "We watch TV in the evening."
+    },
+    {
+      "word": "night",
+      "translation_cz": "noc",
+      "example": "I sleep at night.",
+      "example_cz": "V noci spím.",
+      "tts_text": "I sleep at night."
+    },
+    {
+      "word": "Good morning!",
+      "translation_cz": "Dobré ráno!",
+      "example": "Good morning, Mom!",
+      "example_cz": "Dobré ráno, mami!",
+      "tts_text": "Good morning, Mom!"
+    },
+    {
+      "word": "Good night!",
+      "translation_cz": "Dobrou noc!",
+      "example": "Good night, sleep well!",
+      "example_cz": "Dobrou noc, hezky se vyspi!",
+      "tts_text": "Good night, sleep well!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "evening",
+      "options": [
+        "večer",
+        "ráno",
+        "noc"
+      ],
+      "correct": "večer"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I eat breakfast in the ___.",
+      "answer": "morning",
+      "hint_cz": "ráno"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "afternoon",
+          "cz": "odpoledne"
+        },
+        {
+          "target": "night",
+          "cz": "noc"
+        },
+        {
+          "target": "Good morning!",
+          "cz": "Dobré ráno!"
+        },
+        {
+          "target": "Good night!",
+          "cz": "Dobrou noc!"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We watch TV in the evening.",
+      "tts_text": "We watch TV in the evening."
+    }
+  ]
+}

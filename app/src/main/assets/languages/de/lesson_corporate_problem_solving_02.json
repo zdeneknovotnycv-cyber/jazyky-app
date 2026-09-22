@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_problem_solving_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Lösung vorschlagen",
+  "title_cz": "Návrh řešení",
+  "vocabulary": [
+    {
+      "word": "ich habe eine Idee",
+      "translation_cz": "mám nápad",
+      "example": "Ich habe eine Idee, die helfen könnte.",
+      "example_cz": "Mám nápad, který by mohl pomoct.",
+      "tts_text": "Ich habe eine Idee, die helfen könnte."
+    },
+    {
+      "word": "was, wenn wir",
+      "translation_cz": "co kdybychom",
+      "example": "Was, wenn wir den Prozess ändern?",
+      "example_cz": "Co kdybychom změnili postup?",
+      "tts_text": "Was, wenn wir den Prozess ändern?"
+    },
+    {
+      "word": "das würde lösen",
+      "translation_cz": "tohle by vyřešilo",
+      "example": "Das würde das Problem schnell lösen.",
+      "example_cz": "Tohle by problém rychle vyřešilo.",
+      "tts_text": "Das würde das Problem schnell lösen."
+    },
+    {
+      "word": "langfristig",
+      "translation_cz": "z dlouhodobého hlediska",
+      "example": "Das spart langfristig Zeit.",
+      "example_cz": "Z dlouhodobého hlediska to ušetří čas.",
+      "tts_text": "Das spart langfristig Zeit."
+    },
+    {
+      "word": "versuchen wir es",
+      "translation_cz": "zkusme",
+      "example": "Versuchen wir einen neuen Ansatz.",
+      "example_cz": "Zkusme nový přístup.",
+      "tts_text": "Versuchen wir einen neuen Ansatz."
+    },
+    {
+      "word": "machbar",
+      "translation_cz": "proveditelné",
+      "example": "Ist diese Lösung machbar?",
+      "example_cz": "Je toto řešení proveditelné?",
+      "tts_text": "Ist diese Lösung machbar?"
+    },
+    {
+      "word": "Vor- und Nachteile",
+      "translation_cz": "výhody a nevýhody",
+      "example": "Lassen Sie uns die Vor- und Nachteile abwägen.",
+      "example_cz": "Zvažme výhody a nevýhody.",
+      "tts_text": "Lassen Sie uns die Vor- und Nachteile abwägen."
+    },
+    {
+      "word": "ich schlage vor",
+      "translation_cz": "navrhuji",
+      "example": "Ich schlage vor, wir testen es zuerst.",
+      "example_cz": "Navrhuji, abychom to nejdřív otestovali.",
+      "tts_text": "Ich schlage vor, wir testen es zuerst."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_02",
+      "title": "Eine Lösung vorschlagen",
+      "title_cz": "Návrh řešení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich habe eine Idee für das Problem mit dem Bericht.",
+          "text_cz": "Mám nápad na problém s reportováním."
+        },
+        {
+          "speaker": "B",
+          "text": "Erzählen Sie, ich höre zu.",
+          "text_cz": "Povídej, poslouchám."
+        },
+        {
+          "speaker": "A",
+          "text": "Was, wenn wir den wöchentlichen Bericht automatisieren?",
+          "text_cz": "Co kdybychom automatizovali týdenní report?"
+        },
+        {
+          "speaker": "B",
+          "text": "Das klingt machbar. Was sind die Vor- und Nachteile?",
+          "text_cz": "To zní proveditelně. Jaké jsou výhody a nevýhody?"
+        },
+        {
+          "speaker": "A",
+          "text": "Es würde langfristig Zeit sparen, aber wir müssen es zuerst einrichten.",
+          "text_cz": "Z dlouhodobého hlediska by to ušetřilo čas, ale nejdřív to musíme nastavit."
+        },
+        {
+          "speaker": "B",
+          "text": "Versuchen wir es nächste Woche.",
+          "text_cz": "Zkusme to příští týden."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "ich habe eine Idee",
+      "options": [
+        "mám nápad",
+        "co kdybychom",
+        "tohle by vyřešilo"
+      ],
+      "correct": "mám nápad"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das spart ___ Zeit.",
+      "answer": "langfristig",
+      "hint_cz": "z dlouhodobého hlediska"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "ich habe eine Idee",
+          "cz": "mám nápad"
+        },
+        {
+          "target": "was, wenn wir",
+          "cz": "co kdybychom"
+        },
+        {
+          "target": "das würde lösen",
+          "cz": "tohle by vyřešilo"
+        },
+        {
+          "target": "langfristig",
+          "cz": "z dlouhodobého hlediska"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Versuchen wir einen neuen Ansatz.",
+      "tts_text": "Versuchen wir einen neuen Ansatz."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ist diese Lösung ___?",
+      "answer": "machbar",
+      "hint_cz": "proveditelné"
+    }
+  ]
+}

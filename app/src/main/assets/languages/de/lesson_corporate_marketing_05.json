@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_marketing_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über ein Website-Update sprechen",
+  "title_cz": "Diskuze o aktualizaci webu",
+  "vocabulary": [
+    {
+      "word": "Nutzererfahrung",
+      "translation_cz": "uživatelský zážitek",
+      "example": "Wir wollen die Nutzererfahrung verbessern.",
+      "example_cz": "Chceme zlepšit uživatelský zážitek.",
+      "tts_text": "Wir wollen die Nutzererfahrung verbessern."
+    },
+    {
+      "word": "Landingpage",
+      "translation_cz": "vstupní stránka",
+      "example": "Die neue Landingpage lädt viel schneller.",
+      "example_cz": "Nová vstupní stránka se načítá mnohem rychleji.",
+      "tts_text": "Die neue Landingpage lädt viel schneller."
+    },
+    {
+      "word": "neu gestalten",
+      "translation_cz": "předělat, redesign",
+      "example": "Wir haben beschlossen, die Startseite neu zu gestalten.",
+      "example_cz": "Rozhodli jsme se předělat domovskou stránku.",
+      "tts_text": "Wir haben beschlossen, die Startseite neu zu gestalten."
+    },
+    {
+      "word": "mobilfreundlich",
+      "translation_cz": "přizpůsobený mobilům",
+      "example": "Die Website muss mobilfreundlich sein.",
+      "example_cz": "Web musí být přizpůsobený mobilům.",
+      "tts_text": "Die Website muss mobilfreundlich sein."
+    },
+    {
+      "word": "Navigationsmenü",
+      "translation_cz": "navigační menu",
+      "example": "Lasst uns das Navigationsmenü vereinfachen.",
+      "example_cz": "Pojďme zjednodušit navigační menu.",
+      "tts_text": "Lasst uns das Navigationsmenü vereinfachen."
+    },
+    {
+      "word": "Ladegeschwindigkeit",
+      "translation_cz": "rychlost načítání",
+      "example": "Die Ladegeschwindigkeit beeinflusst unser Ranking.",
+      "example_cz": "Rychlost načítání ovlivňuje naše umístění ve výsledcích.",
+      "tts_text": "Die Ladegeschwindigkeit beeinflusst unser Ranking."
+    },
+    {
+      "word": "den Inhalt aktualisieren",
+      "translation_cz": "aktualizovat obsah",
+      "example": "Wir müssen den Inhalt der Über-uns-Seite aktualisieren.",
+      "example_cz": "Musíme aktualizovat obsah na stránce O nás.",
+      "tts_text": "Wir müssen den Inhalt der Über-uns-Seite aktualisieren."
+    },
+    {
+      "word": "live gehen",
+      "translation_cz": "spustit ostrý provoz",
+      "example": "Die neue Website geht am Montag live.",
+      "example_cz": "Nový web se spustí do ostrého provozu v pondělí.",
+      "tts_text": "Die neue Website geht am Montag live."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_05",
+      "title": "Einen Website-Relaunch planen",
+      "title_cz": "Plánování redesignu webu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wir wollen die Nutzererfahrung auf unserer Website verbessern.",
+          "text_cz": "Chceme zlepšit uživatelský zážitek na našem webu."
+        },
+        {
+          "speaker": "B",
+          "text": "Stimmt. Das Navigationsmenü ist verwirrend und die Ladegeschwindigkeit ist langsam.",
+          "text_cz": "Souhlasím. Navigační menu je matoucí a rychlost načítání je pomalá."
+        },
+        {
+          "speaker": "A",
+          "text": "Lasst uns zuerst die Landingpage neu gestalten und sicherstellen, dass sie mobilfreundlich ist.",
+          "text_cz": "Pojďme nejdřív předělat vstupní stránku a ujistit se, že je přizpůsobená mobilům."
+        },
+        {
+          "speaker": "B",
+          "text": "Klingt gut. Wann können wir mit der neuen Version live gehen?",
+          "text_cz": "Zní to dobře. Kdy můžeme spustit novou verzi do ostrého provozu?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Nutzererfahrung",
+      "options": [
+        "uživatelský zážitek",
+        "navigační menu",
+        "rychlost načítání"
+      ],
+      "correct": "uživatelský zážitek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Website muss ___ sein.",
+      "answer": "mobilfreundlich",
+      "hint_cz": "přizpůsobený mobilům"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Landingpage",
+          "cz": "vstupní stránka"
+        },
+        {
+          "target": "neu gestalten",
+          "cz": "předělat, redesign"
+        },
+        {
+          "target": "Ladegeschwindigkeit",
+          "cz": "rychlost načítání"
+        },
+        {
+          "target": "live gehen",
+          "cz": "spustit ostrý provoz"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir wollen die Nutzererfahrung verbessern.",
+      "tts_text": "Wir wollen die Nutzererfahrung verbessern."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir müssen den ___ der Über-uns-Seite aktualisieren.",
+      "answer": "Inhalt",
+      "hint_cz": "obsah"
+    }
+  ]
+}

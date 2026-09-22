@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_school_classroom_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The School Day",
+  "title_cz": "Školní den",
+  "vocabulary": [
+    {
+      "word": "class starts",
+      "translation_cz": "vyučování začíná",
+      "example": "Class starts at eight.",
+      "example_cz": "Vyučování začíná v osm hodin.",
+      "tts_text": "Class starts at eight."
+    },
+    {
+      "word": "break",
+      "translation_cz": "přestávka",
+      "example": "We play during break.",
+      "example_cz": "O přestávce si hrajeme.",
+      "tts_text": "We play during break."
+    },
+    {
+      "word": "lesson",
+      "translation_cz": "hodina",
+      "example": "The math lesson is long.",
+      "example_cz": "Hodina matematiky je dlouhá.",
+      "tts_text": "The math lesson is long."
+    },
+    {
+      "word": "bell",
+      "translation_cz": "zvonek",
+      "example": "The bell rings loudly.",
+      "example_cz": "Zvonek hlasitě zvoní.",
+      "tts_text": "The bell rings loudly."
+    },
+    {
+      "word": "timetable",
+      "translation_cz": "rozvrh",
+      "example": "I check my timetable.",
+      "example_cz": "Kontroluji svůj rozvrh.",
+      "tts_text": "I check my timetable."
+    },
+    {
+      "word": "finish",
+      "translation_cz": "skončit",
+      "example": "School finishes at three.",
+      "example_cz": "Škola končí ve tři hodiny.",
+      "tts_text": "School finishes at three."
+    },
+    {
+      "word": "go home",
+      "translation_cz": "jít domů",
+      "example": "We go home after school.",
+      "example_cz": "Po škole jdeme domů.",
+      "tts_text": "We go home after school."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "bell",
+      "options": [
+        "zvonek",
+        "hodina",
+        "rozvrh"
+      ],
+      "correct": "zvonek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "School ___ at three.",
+      "answer": "finishes",
+      "hint_cz": "končí"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "break",
+          "cz": "přestávka"
+        },
+        {
+          "target": "lesson",
+          "cz": "hodina"
+        },
+        {
+          "target": "timetable",
+          "cz": "rozvrh"
+        },
+        {
+          "target": "go home",
+          "cz": "jít domů"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The bell rings loudly.",
+      "tts_text": "The bell rings loudly."
+    }
+  ]
+}

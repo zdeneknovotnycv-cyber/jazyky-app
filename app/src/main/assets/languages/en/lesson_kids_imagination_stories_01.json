@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_imagination_stories_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "A trip to space",
+  "title_cz": "Výlet do vesmíru",
+  "vocabulary": [
+    {
+      "word": "spaceship",
+      "translation_cz": "raketa, vesmírná loď",
+      "example": "I fly in a spaceship to the moon.",
+      "example_cz": "Letím raketou na Měsíc.",
+      "tts_text": "I fly in a spaceship to the moon."
+    },
+    {
+      "word": "astronaut",
+      "translation_cz": "kosmonaut",
+      "example": "An astronaut wears a big helmet.",
+      "example_cz": "Kosmonaut má na sobě velkou přilbu.",
+      "tts_text": "An astronaut wears a big helmet."
+    },
+    {
+      "word": "star",
+      "translation_cz": "hvězda",
+      "example": "I see a bright star far away.",
+      "example_cz": "Vidím v dálce jasnou hvězdu.",
+      "tts_text": "I see a bright star far away."
+    },
+    {
+      "word": "planet",
+      "translation_cz": "planeta",
+      "example": "We land on a red planet.",
+      "example_cz": "Přistáváme na červené planetě.",
+      "tts_text": "We land on a red planet."
+    },
+    {
+      "word": "float",
+      "translation_cz": "vznášet se",
+      "example": "I float in the spaceship.",
+      "example_cz": "Vznáším se v lodi.",
+      "tts_text": "I float in the spaceship."
+    },
+    {
+      "word": "moon",
+      "translation_cz": "měsíc",
+      "example": "The moon looks huge from up close.",
+      "example_cz": "Měsíc vypadá zblízka obrovský.",
+      "tts_text": "The moon looks huge from up close."
+    },
+    {
+      "word": "alien",
+      "translation_cz": "mimozemšťan",
+      "example": "I meet a friendly alien.",
+      "example_cz": "Potkávám přátelského mimozemšťana.",
+      "tts_text": "I meet a friendly alien."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "spaceship",
+      "options": [
+        "raketa, vesmírná loď",
+        "kosmonaut",
+        "hvězda"
+      ],
+      "correct": "raketa, vesmírná loď"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "An ___ wears a big helmet.",
+      "answer": "astronaut",
+      "hint_cz": "kosmonaut"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "star",
+          "cz": "hvězda"
+        },
+        {
+          "target": "planet",
+          "cz": "planeta"
+        },
+        {
+          "target": "float",
+          "cz": "vznášet se"
+        },
+        {
+          "target": "moon",
+          "cz": "měsíc"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I meet a friendly alien.",
+      "tts_text": "I meet a friendly alien."
+    }
+  ]
+}

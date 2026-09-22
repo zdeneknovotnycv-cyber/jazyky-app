@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_daily_routine_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Aktivitäten nach der Schule",
+  "title_cz": "Odpolední aktivity po škole",
+  "vocabulary": [
+    {
+      "word": "nach der Schule",
+      "translation_cz": "po škole",
+      "example": "Ich spiele nach der Schule Fußball.",
+      "example_cz": "Po škole hraju fotbal.",
+      "tts_text": "Ich spiele nach der Schule Fußball."
+    },
+    {
+      "word": "die Schwimmstunde",
+      "translation_cz": "plavecký kurz",
+      "example": "Ich habe heute eine Schwimmstunde.",
+      "example_cz": "Dnes mám plavecký kurz.",
+      "tts_text": "Ich habe heute eine Schwimmstunde."
+    },
+    {
+      "word": "der Musikunterricht",
+      "translation_cz": "hudební kroužek",
+      "example": "Ich habe montags Musikunterricht.",
+      "example_cz": "V pondělí chodím na hudební kroužek.",
+      "tts_text": "Ich habe montags Musikunterricht."
+    },
+    {
+      "word": "der Klub",
+      "translation_cz": "kroužek",
+      "example": "Ich bin in einem Kunstklub.",
+      "example_cz": "Chodím do výtvarného kroužku.",
+      "tts_text": "Ich bin in einem Kunstklub."
+    },
+    {
+      "word": "der Freund",
+      "translation_cz": "kamarád",
+      "example": "Ich treffe meinen Freund im Park.",
+      "example_cz": "Potkávám se s kamarádem v parku.",
+      "tts_text": "Ich treffe meinen Freund im Park."
+    },
+    {
+      "word": "müde",
+      "translation_cz": "unavený",
+      "example": "Ich bin nach dem Training müde.",
+      "example_cz": "Po tréninku jsem unavený.",
+      "tts_text": "Ich bin nach dem Training müde."
+    },
+    {
+      "word": "der Snack",
+      "translation_cz": "svačina",
+      "example": "Ich esse einen Snack nach der Schule.",
+      "example_cz": "Po škole si dávám svačinu.",
+      "tts_text": "Ich esse einen Snack nach der Schule."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "nach der Schule",
+      "options": [
+        "po škole",
+        "plavecký kurz",
+        "hudební kroužek"
+      ],
+      "correct": "po škole"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich habe heute eine ___.",
+      "answer": "Schwimmstunde",
+      "hint_cz": "plavecký kurz"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Musikunterricht",
+          "cz": "hudební kroužek"
+        },
+        {
+          "target": "der Klub",
+          "cz": "kroužek"
+        },
+        {
+          "target": "der Freund",
+          "cz": "kamarád"
+        },
+        {
+          "target": "müde",
+          "cz": "unavený"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich esse einen Snack nach der Schule.",
+      "tts_text": "Ich esse einen Snack nach der Schule."
+    }
+  ]
+}

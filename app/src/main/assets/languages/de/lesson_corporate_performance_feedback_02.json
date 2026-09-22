@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_performance_feedback_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Konstruktive Kritik geben",
+  "title_cz": "Poskytování konstruktivní kritiky",
+  "vocabulary": [
+    {
+      "word": "konstruktives Feedback",
+      "translation_cz": "konstruktivní zpětná vazba",
+      "example": "Ich möchte dir konstruktives Feedback geben.",
+      "example_cz": "Rád bych ti dal konstruktivní zpětnou vazbu.",
+      "tts_text": "Ich möchte dir konstruktives Feedback geben."
+    },
+    {
+      "word": "der Verbesserungsbereich",
+      "translation_cz": "oblast ke zlepšení",
+      "example": "Zeitmanagement ist ein Verbesserungsbereich.",
+      "example_cz": "Time management je oblast ke zlepšení.",
+      "tts_text": "Zeitmanagement ist ein Verbesserungsbereich."
+    },
+    {
+      "word": "könnte besser sein",
+      "translation_cz": "mohlo by být lepší",
+      "example": "Der Bericht könnte besser strukturiert sein.",
+      "example_cz": "Zpráva by mohla být lépe strukturovaná.",
+      "tts_text": "Der Bericht könnte besser strukturiert sein."
+    },
+    {
+      "word": "ich schlage vor",
+      "translation_cz": "navrhuji",
+      "example": "Ich schlage vor, die Zahlen nächstes Mal zu überprüfen.",
+      "example_cz": "Navrhuji příště zkontrolovat čísla.",
+      "tts_text": "Ich schlage vor, die Zahlen nächstes Mal zu überprüfen."
+    },
+    {
+      "word": "nächstes Mal",
+      "translation_cz": "příště",
+      "example": "Bitte schick den Entwurf nächstes Mal früher.",
+      "example_cz": "Příště prosím pošli návrh dříve.",
+      "tts_text": "Bitte schick den Entwurf nächstes Mal früher."
+    },
+    {
+      "word": "ohne defensiv zu reagieren",
+      "translation_cz": "bez obranné reakce",
+      "example": "Versuch zuzuhören, ohne defensiv zu reagieren.",
+      "example_cz": "Zkus poslouchat bez obranné reakce.",
+      "tts_text": "Versuch zuzuhören, ohne defensiv zu reagieren."
+    },
+    {
+      "word": "das konkrete Beispiel",
+      "translation_cz": "konkrétní příklad",
+      "example": "Lass mich dir ein konkretes Beispiel geben.",
+      "example_cz": "Dovol mi uvést konkrétní příklad.",
+      "tts_text": "Lass mich dir ein konkretes Beispiel geben."
+    },
+    {
+      "word": "in Zukunft",
+      "translation_cz": "do budoucna",
+      "example": "In Zukunft sollten wir Fristen gemeinsam planen.",
+      "example_cz": "Do budoucna bychom měli termíny plánovat společně.",
+      "tts_text": "In Zukunft sollten wir Fristen gemeinsam planen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_02",
+      "title": "Feedback zu einem Bericht geben",
+      "title_cz": "Zpětná vazba na zprávu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich möchte dir konstruktives Feedback zum Bericht geben.",
+          "text_cz": "Rád bych ti dal konstruktivní zpětnou vazbu na zprávu."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, nur zu, ich will mich verbessern.",
+          "text_cz": "Jasně, do toho, chci se zlepšit."
+        },
+        {
+          "speaker": "A",
+          "text": "Die Struktur könnte besser sein, und einige Zahlen fehlten.",
+          "text_cz": "Struktura by mohla být lepší a chyběla některá čísla."
+        },
+        {
+          "speaker": "B",
+          "text": "Das stimmt, nächstes Mal überprüfe ich es vor dem Senden.",
+          "text_cz": "To sedí, příště to před odesláním zkontroluji."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "konstruktives Feedback",
+      "options": [
+        "konstruktivní zpětná vazba",
+        "oblast ke zlepšení",
+        "mohlo by být lepší"
+      ],
+      "correct": "konstruktivní zpětná vazba"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Zeitmanagement ist ein ___ für Verbesserung.",
+      "answer": "Bereich",
+      "hint_cz": "oblast"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "konstruktives Feedback",
+          "cz": "konstruktivní zpětná vazba"
+        },
+        {
+          "target": "der Verbesserungsbereich",
+          "cz": "oblast ke zlepšení"
+        },
+        {
+          "target": "könnte besser sein",
+          "cz": "mohlo by být lepší"
+        },
+        {
+          "target": "ich schlage vor",
+          "cz": "navrhuji"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich möchte dir konstruktives Feedback geben.",
+      "tts_text": "Ich möchte dir konstruktives Feedback geben."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der Bericht ___ besser strukturiert sein.",
+      "answer": "könnte",
+      "hint_cz": "mohl by"
+    }
+  ]
+}

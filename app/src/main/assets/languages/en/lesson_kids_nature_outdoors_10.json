@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_nature_outdoors_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Recycling and nature",
+  "title_cz": "Recyklace a příroda",
+  "vocabulary": [
+    {
+      "word": "recycle",
+      "translation_cz": "recyklovat",
+      "example": "We recycle paper and plastic.",
+      "example_cz": "Recyklujeme papír a plast.",
+      "tts_text": "We recycle paper and plastic."
+    },
+    {
+      "word": "trash can",
+      "translation_cz": "popelnice",
+      "example": "I put the bottle in the trash can.",
+      "example_cz": "Dávám lahev do popelnice.",
+      "tts_text": "I put the bottle in the trash can."
+    },
+    {
+      "word": "plastic",
+      "translation_cz": "plast",
+      "example": "Plastic is bad for the sea.",
+      "example_cz": "Plast škodí moři.",
+      "tts_text": "Plastic is bad for the sea."
+    },
+    {
+      "word": "paper",
+      "translation_cz": "papír",
+      "example": "We sort paper into a blue bin.",
+      "example_cz": "Papír třídíme do modrého kontejneru.",
+      "tts_text": "We sort paper into a blue bin."
+    },
+    {
+      "word": "protect",
+      "translation_cz": "chránit",
+      "example": "We must protect nature.",
+      "example_cz": "Musíme chránit přírodu.",
+      "tts_text": "We must protect nature."
+    },
+    {
+      "word": "clean",
+      "translation_cz": "čistý",
+      "example": "We keep the forest clean.",
+      "example_cz": "Udržujeme les čistý.",
+      "tts_text": "We keep the forest clean."
+    },
+    {
+      "word": "planet",
+      "translation_cz": "planeta",
+      "example": "We take care of our planet.",
+      "example_cz": "Staráme se o naši planetu.",
+      "tts_text": "We take care of our planet."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "recycle",
+      "options": [
+        "recyklovat",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "recyklovat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We ___ paper and plastic.",
+      "answer": "recycle",
+      "hint_cz": "recyklovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "trash can",
+          "cz": "popelnice"
+        },
+        {
+          "target": "plastic",
+          "cz": "plast"
+        },
+        {
+          "target": "paper",
+          "cz": "papír"
+        },
+        {
+          "target": "protect",
+          "cz": "chránit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We must protect nature.",
+      "tts_text": "We must protect nature."
+    }
+  ]
+}

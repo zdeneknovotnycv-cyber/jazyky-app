@@ -1,0 +1,138 @@
+{
+  "id": "en_adult_corporate_meetings_intros_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Joining a meeting late",
+  "title_cz": "Pozdní příchod na schůzku",
+  "vocabulary": [
+    {
+      "word": "I'm sorry I'm late",
+      "translation_cz": "omlouvám se za pozdní příchod",
+      "example": "I'm sorry I'm late, the traffic was bad.",
+      "example_cz": "Omlouvám se za pozdní příchod, byla hrozná doprava.",
+      "tts_text": "I'm sorry I'm late, the traffic was bad."
+    },
+    {
+      "word": "catch me up",
+      "translation_cz": "doplnit mě / uvést do obrazu",
+      "example": "Can someone catch me up quickly?",
+      "example_cz": "Může mě někdo rychle uvést do obrazu?",
+      "tts_text": "Can someone catch me up quickly?"
+    },
+    {
+      "word": "apologize",
+      "translation_cz": "omluvit se",
+      "example": "I want to apologize for being late.",
+      "example_cz": "Chci se omluvit za pozdní příchod.",
+      "tts_text": "I want to apologize for being late."
+    },
+    {
+      "word": "miss",
+      "translation_cz": "zmeškat",
+      "example": "Did I miss anything important?",
+      "example_cz": "Zmeškal jsem něco důležitého?",
+      "tts_text": "Did I miss anything important?"
+    },
+    {
+      "word": "take a seat",
+      "translation_cz": "posadit se",
+      "example": "Please take a seat, we just started.",
+      "example_cz": "Posaďte se prosím, právě jsme začali.",
+      "tts_text": "Please take a seat, we just started."
+    },
+    {
+      "word": "unforeseen",
+      "translation_cz": "nepředvídaný",
+      "example": "There was an unforeseen problem on the way.",
+      "example_cz": "Cestou nastal nepředvídaný problém.",
+      "tts_text": "There was an unforeseen problem on the way."
+    },
+    {
+      "word": "recap",
+      "translation_cz": "shrnutí",
+      "example": "Let me give you a quick recap.",
+      "example_cz": "Dám vám rychlé shrnutí.",
+      "tts_text": "Let me give you a quick recap."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_late_meeting",
+      "title": "Arriving late to a meeting",
+      "title_cz": "Pozdní příchod na schůzku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm sorry I'm late, there was an unforeseen problem with my train.",
+          "text_cz": "Omlouvám se za pozdní příchod, nastal nepředvídaný problém s vlakem."
+        },
+        {
+          "speaker": "B",
+          "text": "No worries, please take a seat.",
+          "text_cz": "Žádný problém, posaďte se prosím."
+        },
+        {
+          "speaker": "A",
+          "text": "Did I miss anything important? Can someone catch me up?",
+          "text_cz": "Zmeškal jsem něco důležitého? Může mě někdo uvést do obrazu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, let me give you a quick recap of the first point.",
+          "text_cz": "Jasně, dám vám rychlé shrnutí prvního bodu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "apologize",
+      "options": [
+        "omluvit se",
+        "zmeškat",
+        "posadit se"
+      ],
+      "correct": "omluvit se"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Did I ___ anything important?",
+      "answer": "miss",
+      "hint_cz": "zmeškat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "take a seat",
+          "cz": "posadit se"
+        },
+        {
+          "target": "recap",
+          "cz": "shrnutí"
+        },
+        {
+          "target": "unforeseen",
+          "cz": "nepředvídaný"
+        },
+        {
+          "target": "catch me up",
+          "cz": "uvést do obrazu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'm sorry I'm late, the traffic was bad.",
+      "tts_text": "I'm sorry I'm late, the traffic was bad."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can someone catch me ___ quickly?",
+      "answer": "up",
+      "hint_cz": "uvést do obrazu"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "en_corporate_hr_recruitment_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Workplace Policies",
+  "title_cz": "Pracovní pravidla",
+  "vocabulary": [
+    {"word": "policy", "translation_cz": "pravidlo / směrnice", "example": "Please review the new remote work policy.", "example_cz": "Přečtěte si prosím novou směrnici o práci na dálku.", "tts_text": "Please review the new remote work policy."},
+    {"word": "dress code", "translation_cz": "dress code", "example": "Our dress code is business casual.", "example_cz": "Náš dress code je business casual.", "tts_text": "Our dress code is business casual."},
+    {"word": "working hours", "translation_cz": "pracovní doba", "example": "Working hours are from nine to five.", "example_cz": "Pracovní doba je od devíti do pěti.", "tts_text": "Working hours are from nine to five."},
+    {"word": "code of conduct", "translation_cz": "etický kodex", "example": "All employees must follow the code of conduct.", "example_cz": "Všichni zaměstnanci musí dodržovat etický kodex.", "tts_text": "All employees must follow the code of conduct."},
+    {"word": "confidentiality", "translation_cz": "mlčenlivost", "example": "Confidentiality is required for client data.", "example_cz": "U dat klientů je vyžadována mlčenlivost.", "tts_text": "Confidentiality is required for client data."},
+    {"word": "compliance", "translation_cz": "dodržování předpisů", "example": "Compliance training is mandatory for everyone.", "example_cz": "Školení o dodržování předpisů je povinné pro všechny.", "tts_text": "Compliance training is mandatory for everyone."},
+    {"word": "harassment policy", "translation_cz": "pravidla proti obtěžování", "example": "Our harassment policy applies to all staff.", "example_cz": "Naše pravidla proti obtěžování platí pro všechny zaměstnance.", "tts_text": "Our harassment policy applies to all staff."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_policy_intro",
+      "title": "Explaining workplace policies",
+      "title_cz": "Vysvětlení pracovních pravidel",
+      "lines": [
+        {"speaker": "A", "text": "Let's go over a few workplace policies.", "text_cz": "Projděme si pár pracovních pravidel."},
+        {"speaker": "B", "text": "Okay. What are our official working hours?", "text_cz": "Dobře. Jaká je naše oficiální pracovní doba?"},
+        {"speaker": "A", "text": "Nine to five, with flexibility for remote days.", "text_cz": "Od devíti do pěti, s flexibilitou pro dny práce na dálku."},
+        {"speaker": "B", "text": "And is there a specific dress code?", "text_cz": "A je nějaký konkrétní dress code?"},
+        {"speaker": "A", "text": "Yes, business casual on regular days.", "text_cz": "Ano, v běžné dny business casual."}
+      ]
+    },
+    {
+      "id": "conv_compliance_training",
+      "title": "Discussing compliance training",
+      "title_cz": "Rozhovor o školení dodržování předpisů",
+      "lines": [
+        {"speaker": "A", "text": "Everyone must complete compliance training this month.", "text_cz": "Každý musí do konce tohoto měsíce absolvovat školení o dodržování předpisů."},
+        {"speaker": "B", "text": "Does it also cover confidentiality rules?", "text_cz": "Zahrnuje to i pravidla mlčenlivosti?"},
+        {"speaker": "A", "text": "Yes, and the code of conduct as well.", "text_cz": "Ano, a také etický kodex."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "confidentiality", "options": ["mlčenlivost", "dress code", "pracovní doba"], "correct": "mlčenlivost"},
+    {"type": "fill_gap", "sentence": "Our ___ is business casual.", "answer": "dress code", "hint_cz": "dress code"},
+    {"type": "match_pairs", "pairs": [{"target": "policy", "cz": "směrnice"}, {"target": "compliance", "cz": "dodržování předpisů"}, {"target": "code of conduct", "cz": "etický kodex"}, {"target": "working hours", "cz": "pracovní doba"}]},
+    {"type": "speak_and_check", "target_phrase": "All employees must follow the code of conduct.", "tts_text": "All employees must follow the code of conduct."},
+    {"type": "fill_gap", "sentence": "___ training is mandatory for everyone.", "answer": "Compliance", "hint_cz": "dodržování předpisů"}
+  ]
+}

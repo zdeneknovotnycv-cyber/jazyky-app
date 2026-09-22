@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_meetings_intros_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Nachfassen nach einem Meeting",
+  "title_cz": "Následná komunikace po schůzce",
+  "vocabulary": [
+    {
+      "word": "nachfassen",
+      "translation_cz": "navázat / kontaktovat znovu",
+      "example": "Ich fasse bezüglich unseres gestrigen Meetings nach.",
+      "example_cz": "Navazuji na naši včerejší schůzku."
+    },
+    {
+      "word": "wie besprochen",
+      "translation_cz": "jak jsme probírali",
+      "example": "Wie besprochen, hänge ich den Bericht an.",
+      "example_cz": "Jak jsme probírali, přikládám report."
+    },
+    {
+      "word": "bestätigen",
+      "translation_cz": "potvrdit",
+      "example": "Bitte bestätigen Sie die nächsten Schritte.",
+      "example_cz": "Potvrďte prosím další kroky.",
+      "tts_text": "Bitte bestätigen Sie die nächsten Schritte."
+    },
+    {
+      "word": "offene Punkte",
+      "translation_cz": "otevřené body",
+      "example": "Es gibt noch ein paar offene Punkte zu klären.",
+      "example_cz": "Zbývá uzavřít několik otevřených bodů.",
+      "tts_text": "Es gibt noch ein paar offene Punkte zu klären."
+    },
+    {
+      "word": "eine Zusammenfassung senden",
+      "translation_cz": "poslat shrnutí",
+      "example": "Ich sende eine Zusammenfassung unseres Gesprächs.",
+      "example_cz": "Pošlu shrnutí naší diskuze.",
+      "tts_text": "Ich sende eine Zusammenfassung unseres Gesprächs."
+    },
+    {
+      "word": "der Zeitplan",
+      "translation_cz": "časový plán",
+      "example": "Wie ist der Zeitplan für diese Aufgabe?",
+      "example_cz": "Jaký je časový plán pro tento úkol?",
+      "tts_text": "Wie ist der Zeitplan für diese Aufgabe?"
+    },
+    {
+      "word": "schätzen",
+      "translation_cz": "ocenit",
+      "example": "Ich schätze Ihren Beitrag zu diesem Thema.",
+      "example_cz": "Vážím si vašeho vstupu v této věci.",
+      "tts_text": "Ich schätze Ihren Beitrag zu diesem Thema."
+    },
+    {
+      "word": "sich wieder abstimmen",
+      "translation_cz": "ozvat se / spojit se",
+      "example": "Lasst uns uns nächste Woche wieder abstimmen.",
+      "example_cz": "Ozvěme si příští týden znovu.",
+      "tts_text": "Lasst uns uns nächste Woche wieder abstimmen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_followup",
+      "title": "Eine Nachfass-E-Mail senden",
+      "title_cz": "Odeslání navazujícího e-mailu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hallo Tomas, ich fasse bezüglich unseres gestrigen Meetings nach.",
+          "text_cz": "Ahoj Tomáši, navazuji na naši včerejší schůzku."
+        },
+        {
+          "speaker": "A",
+          "text": "Wie besprochen, hänge ich den Bericht und eine Zusammenfassung der nächsten Schritte an.",
+          "text_cz": "Jak jsme probírali, přikládám report a shrnutí dalších kroků."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke. Kannst du auch den Zeitplan für die offenen Punkte bestätigen?",
+          "text_cz": "Děkuji. Můžeš také potvrdit časový plán pro otevřené body?"
+        },
+        {
+          "speaker": "A",
+          "text": "Klar, lass uns am Freitag wieder abstimmen.",
+          "text_cz": "Jasně, ozvěme si znovu v pátek."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "bestätigen",
+      "options": [
+        "potvrdit",
+        "ocenit",
+        "navázat"
+      ],
+      "correct": "potvrdit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wie ___, hänge ich den Bericht an.",
+      "answer": "besprochen",
+      "hint_cz": "probíráno"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "offene Punkte",
+          "cz": "otevřené body"
+        },
+        {
+          "target": "der Zeitplan",
+          "cz": "časový plán"
+        },
+        {
+          "target": "sich wieder abstimmen",
+          "cz": "ozvat se"
+        },
+        {
+          "target": "schätzen",
+          "cz": "ocenit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich fasse bezüglich unseres gestrigen Meetings nach.",
+      "tts_text": "Ich fasse bezüglich unseres gestrigen Meetings nach."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lasst uns nächste Woche wieder ___.",
+      "answer": "abstimmen",
+      "hint_cz": "ozvat se"
+    }
+  ]
+}

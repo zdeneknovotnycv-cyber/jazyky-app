@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_business_travel_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Travel itinerary discussion",
+  "title_cz": "Diskuze o cestovním plánu",
+  "vocabulary": [
+    {
+      "word": "go over the itinerary",
+      "translation_cz": "projít cestovní plán",
+      "example": "Let's go over the itinerary together.",
+      "example_cz": "Pojďme si společně projít cestovní plán.",
+      "tts_text": "Let's go over the itinerary together."
+    },
+    {
+      "word": "layover",
+      "translation_cz": "mezipřistání",
+      "example": "We have a two-hour layover in Vienna.",
+      "example_cz": "Máme dvouhodinové mezipřistání ve Vídni.",
+      "tts_text": "We have a two-hour layover in Vienna."
+    },
+    {
+      "word": "transfer time",
+      "translation_cz": "čas na přestup",
+      "example": "Is there enough transfer time?",
+      "example_cz": "Je tam dost času na přestup?",
+      "tts_text": "Is there enough transfer time?"
+    },
+    {
+      "word": "arrival time",
+      "translation_cz": "čas příletu",
+      "example": "What's our arrival time in Prague?",
+      "example_cz": "Jaký je náš čas příletu do Prahy?",
+      "tts_text": "What's our arrival time in Prague?"
+    },
+    {
+      "word": "scheduled meeting",
+      "translation_cz": "naplánovaná schůzka",
+      "example": "We have a scheduled meeting right after arrival.",
+      "example_cz": "Hned po příletu máme naplánovanou schůzku.",
+      "tts_text": "We have a scheduled meeting right after arrival."
+    },
+    {
+      "word": "free time",
+      "translation_cz": "volný čas",
+      "example": "Do we have any free time on Thursday?",
+      "example_cz": "Máme ve čtvrtek nějaký volný čas?",
+      "tts_text": "Do we have any free time on Thursday?"
+    },
+    {
+      "word": "update the schedule",
+      "translation_cz": "aktualizovat harmonogram",
+      "example": "We may need to update the schedule.",
+      "example_cz": "Možná budeme muset aktualizovat harmonogram.",
+      "tts_text": "We may need to update the schedule."
+    },
+    {
+      "word": "double-check the details",
+      "translation_cz": "zkontrolovat detaily",
+      "example": "Please double-check all the details.",
+      "example_cz": "Prosím zkontrolujte všechny detaily.",
+      "tts_text": "Please double-check all the details."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_itinerary_discussion",
+      "title": "Discussing the travel itinerary",
+      "title_cz": "Diskuze o cestovním plánu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let's go over the itinerary together.",
+          "text_cz": "Pojďme si společně projít cestovní plán."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. We have a two-hour layover in Vienna. Is that enough transfer time?",
+          "text_cz": "Jistě. Máme dvouhodinové mezipřistání ve Vídni. Je to dost času na přestup?"
+        },
+        {
+          "speaker": "A",
+          "text": "It should be fine. What's our arrival time in Prague?",
+          "text_cz": "Mělo by to stačit. Jaký je náš čas příletu do Prahy?"
+        },
+        {
+          "speaker": "B",
+          "text": "Around 6 PM. We have a scheduled meeting right after arrival.",
+          "text_cz": "Kolem 18 hodiny. Hned po příletu máme naplánovanou schůzku."
+        },
+        {
+          "speaker": "A",
+          "text": "Okay, let's double-check the details before we leave.",
+          "text_cz": "Dobře, zkontrolujme detaily, než odjedeme."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "layover",
+      "options": [
+        "mezipřistání",
+        "volný čas",
+        "harmonogram"
+      ],
+      "correct": "mezipřistání"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Is there enough ___ time?",
+      "answer": "transfer",
+      "hint_cz": "na přestup"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What's our ___ time in Prague?",
+      "answer": "arrival",
+      "hint_cz": "příletu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "scheduled meeting",
+          "cz": "naplánovaná schůzka"
+        },
+        {
+          "target": "free time",
+          "cz": "volný čas"
+        },
+        {
+          "target": "update the schedule",
+          "cz": "aktualizovat harmonogram"
+        },
+        {
+          "target": "double-check the details",
+          "cz": "zkontrolovat detaily"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's go over the itinerary together.",
+      "tts_text": "Let's go over the itinerary together."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_family_people_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Friends",
+  "title_cz": "Přátelé",
+  "vocabulary": [
+    {
+      "word": "der Freund / die Freundin",
+      "translation_cz": "kamarád / kamarádka",
+      "example": "Sie ist meine beste Freundin.",
+      "example_cz": "Ona je moje nejlepší kamarádka.",
+      "tts_text": "Sie ist meine beste Freundin."
+    },
+    {
+      "word": "der beste Freund",
+      "translation_cz": "nejlepší kamarád",
+      "example": "Er ist mein bester Freund in der Schule.",
+      "example_cz": "Je to můj nejlepší kamarád ve škole.",
+      "tts_text": "Er ist mein bester Freund in der Schule."
+    },
+    {
+      "word": "zusammen spielen",
+      "translation_cz": "hrát si spolu",
+      "example": "Wir spielen jeden Tag zusammen.",
+      "example_cz": "Hrajeme si spolu každý den.",
+      "tts_text": "Wir spielen jeden Tag zusammen."
+    },
+    {
+      "word": "teilen",
+      "translation_cz": "sdílet / půjčit",
+      "example": "Ich teile meine Spielsachen mit Freunden.",
+      "example_cz": "Půjčuji hračky kamarádům.",
+      "tts_text": "Ich teile meine Spielsachen mit Freunden."
+    },
+    {
+      "word": "nett",
+      "translation_cz": "hodný / milý",
+      "example": "Mein Freund ist sehr nett.",
+      "example_cz": "Můj kamarád je moc hodný.",
+      "tts_text": "Mein Freund ist sehr nett."
+    },
+    {
+      "word": "der Mitschüler",
+      "translation_cz": "spolužák",
+      "example": "Mein Mitschüler sitzt neben mir.",
+      "example_cz": "Můj spolužák sedí vedle mě.",
+      "tts_text": "Mein Mitschüler sitzt neben mir."
+    },
+    {
+      "word": "lächeln",
+      "translation_cz": "usmívat se",
+      "example": "Mein Freund lächelt immer.",
+      "example_cz": "Můj kamarád se vždycky usmívá.",
+      "tts_text": "Mein Freund lächelt immer."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Freund",
+      "options": [
+        "kamarád",
+        "učitel",
+        "bratr"
+      ],
+      "correct": "kamarád"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir ___ jeden Tag zusammen.",
+      "answer": "spielen",
+      "hint_cz": "hrát si"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "teilen",
+          "cz": "sdílet / půjčit"
+        },
+        {
+          "target": "nett",
+          "cz": "hodný / milý"
+        },
+        {
+          "target": "der Mitschüler",
+          "cz": "spolužák"
+        },
+        {
+          "target": "lächeln",
+          "cz": "usmívat se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sie ist meine beste Freundin.",
+      "tts_text": "Sie ist meine beste Freundin."
+    }
+  ]
+}

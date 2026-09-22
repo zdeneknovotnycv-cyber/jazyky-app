@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_food_drinks_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Fruits",
+  "title_cz": "Ovoce",
+  "vocabulary": [
+    {
+      "word": "der Apfel",
+      "translation_cz": "jablko",
+      "example": "Ich esse jeden Tag einen Apfel.",
+      "example_cz": "Jím jablko každý den.",
+      "tts_text": "Ich esse jeden Tag einen Apfel."
+    },
+    {
+      "word": "die Banane",
+      "translation_cz": "banán",
+      "example": "Die Banane ist gelb.",
+      "example_cz": "Banán je žlutý.",
+      "tts_text": "Die Banane ist gelb."
+    },
+    {
+      "word": "die Orange",
+      "translation_cz": "pomeranč",
+      "example": "Die Orange ist süß.",
+      "example_cz": "Pomeranč je sladký.",
+      "tts_text": "Die Orange ist süß."
+    },
+    {
+      "word": "die Erdbeere",
+      "translation_cz": "jahoda",
+      "example": "Ich mag Erdbeeren im Sommer.",
+      "example_cz": "V létě mám rád jahody.",
+      "tts_text": "Ich mag Erdbeeren im Sommer."
+    },
+    {
+      "word": "die Trauben",
+      "translation_cz": "hrozny",
+      "example": "Wir kaufen Trauben auf dem Markt.",
+      "example_cz": "Kupujeme hrozny na trhu.",
+      "tts_text": "Wir kaufen Trauben auf dem Markt."
+    },
+    {
+      "word": "die Birne",
+      "translation_cz": "hruška",
+      "example": "Die Birne ist saftig.",
+      "example_cz": "Hruška je šťavnatá.",
+      "tts_text": "Die Birne ist saftig."
+    },
+    {
+      "word": "der Obstsalat",
+      "translation_cz": "ovocný salát",
+      "example": "Wir machen zusammen einen Obstsalat.",
+      "example_cz": "Společně děláme ovocný salát.",
+      "tts_text": "Wir machen zusammen einen Obstsalat."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Apfel",
+      "options": [
+        "jablko",
+        "banán",
+        "hruška"
+      ],
+      "correct": "jablko"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die ___ ist gelb.",
+      "answer": "Banane",
+      "hint_cz": "banán"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Orange",
+          "cz": "pomeranč"
+        },
+        {
+          "target": "die Erdbeere",
+          "cz": "jahoda"
+        },
+        {
+          "target": "die Trauben",
+          "cz": "hrozny"
+        },
+        {
+          "target": "die Birne",
+          "cz": "hruška"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich esse jeden Tag einen Apfel.",
+      "tts_text": "Ich esse jeden Tag einen Apfel."
+    }
+  ]
+}

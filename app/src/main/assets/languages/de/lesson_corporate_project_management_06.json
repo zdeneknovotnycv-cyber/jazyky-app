@@ -1,0 +1,162 @@
+{
+  "id": "de_adult_corporate_project_management_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Projektmeilensteine",
+  "title_cz": "Milníky projektu",
+  "vocabulary": [
+    {
+      "word": "der Meilenstein",
+      "translation_cz": "milník",
+      "example": "Wir haben heute einen wichtigen Meilenstein erreicht.",
+      "example_cz": "Dnes jsme dosáhli důležitého milníku.",
+      "tts_text": "Wir haben heute einen wichtigen Meilenstein erreicht."
+    },
+    {
+      "word": "die Phase",
+      "translation_cz": "fáze",
+      "example": "Die nächste Phase beginnt im Oktober.",
+      "example_cz": "Další fáze začíná v říjnu.",
+      "tts_text": "Die nächste Phase beginnt im Oktober."
+    },
+    {
+      "word": "erreichen",
+      "translation_cz": "dosáhnout",
+      "example": "Wir haben unser Ziel vor dem Zeitplan erreicht.",
+      "example_cz": "Dosáhli jsme cíle před plánovaným termínem.",
+      "tts_text": "Wir haben unser Ziel vor dem Zeitplan erreicht."
+    },
+    {
+      "word": "der Fahrplan",
+      "translation_cz": "plán postupu",
+      "example": "Der Fahrplan zeigt alle wichtigen Meilensteine.",
+      "example_cz": "Plán postupu ukazuje všechny hlavní milníky.",
+      "tts_text": "Der Fahrplan zeigt alle wichtigen Meilensteine."
+    },
+    {
+      "word": "der Kontrollpunkt",
+      "translation_cz": "kontrolní bod",
+      "example": "Setzen wir einen Kontrollpunkt am Monatsende.",
+      "example_cz": "Nastavme kontrolní bod na konci měsíce.",
+      "tts_text": "Setzen wir einen Kontrollpunkt am Monatsende."
+    },
+    {
+      "word": "das Startdatum",
+      "translation_cz": "datum spuštění",
+      "example": "Das Startdatum wurde bestätigt.",
+      "example_cz": "Datum spuštění bylo potvrzeno.",
+      "tts_text": "Das Startdatum wurde bestätigt."
+    },
+    {
+      "word": "feiern",
+      "translation_cz": "oslavit",
+      "example": "Lasst uns diesen Meilenstein mit dem Team feiern.",
+      "example_cz": "Oslavme tento milník s týmem.",
+      "tts_text": "Lasst uns diesen Meilenstein mit dem Team feiern."
+    },
+    {
+      "word": "den Fortschritt verfolgen",
+      "translation_cz": "sledovat postup",
+      "example": "Wir verfolgen den Fortschritt wöchentlich anhand des Fahrplans.",
+      "example_cz": "Postup sledujeme oproti plánu postupu každý týden.",
+      "tts_text": "Wir verfolgen den Fortschritt wöchentlich anhand des Fahrplans."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_milestone_reached",
+      "title": "Einen Meilenstein erreichen",
+      "title_cz": "Dosažení milníku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wir haben heute einen wichtigen Meilenstein erreicht.",
+          "text_cz": "Dnes jsme dosáhli důležitého milníku."
+        },
+        {
+          "speaker": "B",
+          "text": "Das ist toll! Haben wir ihn vor dem Zeitplan erreicht?",
+          "text_cz": "To je skvělé! Dosáhli jsme toho před plánem?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, wir sind vorne. Lasst uns das mit dem Team feiern.",
+          "text_cz": "Ano, jsme napřed. Oslavme to s týmem."
+        }
+      ]
+    },
+    {
+      "id": "conv_milestone_roadmap",
+      "title": "Den Fahrplan besprechen",
+      "title_cz": "Kontrola plánu postupu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Kannst du mir den Fahrplan für die nächste Phase zeigen?",
+          "text_cz": "Můžete mi ukázat plán postupu pro další fázi?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, und wir haben einen Kontrollpunkt am Monatsende gesetzt, um den Fortschritt zu verfolgen.",
+          "text_cz": "Jasně, a nastavili jsme kontrolní bod na konci měsíce, abychom sledovali postup."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Meilenstein",
+      "options": [
+        "milník",
+        "dosáhnout",
+        "plán postupu"
+      ],
+      "correct": "milník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die nächste Phase beginnt im Oktober.",
+      "answer": "die Phase",
+      "hint_cz": "fáze"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Setzen wir einen Kontrollpunkt am Monatsende.",
+      "answer": "der Kontrollpunkt",
+      "hint_cz": "kontrolní bod"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Startdatum",
+          "cz": "datum spuštění"
+        },
+        {
+          "target": "feiern",
+          "cz": "oslavit"
+        },
+        {
+          "target": "den Fortschritt verfolgen",
+          "cz": "sledovat postup"
+        },
+        {
+          "target": "erreichen",
+          "cz": "dosáhnout"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir haben heute einen wichtigen Meilenstein erreicht.",
+      "tts_text": "Wir haben heute einen wichtigen Meilenstein erreicht."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das ist toll! Haben wir ihn vor dem Zeitplan erreicht?",
+      "tts_text": "Das ist toll! Haben wir ihn vor dem Zeitplan erreicht?"
+    }
+  ]
+}

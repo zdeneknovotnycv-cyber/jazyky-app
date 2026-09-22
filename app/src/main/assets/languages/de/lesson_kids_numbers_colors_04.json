@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_numbers_colors_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Basic Colors",
+  "title_cz": "Základní barvy",
+  "vocabulary": [
+    {
+      "word": "rot",
+      "translation_cz": "červená",
+      "example": "Der Apfel ist rot.",
+      "example_cz": "Jablko je červené.",
+      "tts_text": "Der Apfel ist rot."
+    },
+    {
+      "word": "blau",
+      "translation_cz": "modrá",
+      "example": "Der Himmel ist blau.",
+      "example_cz": "Obloha je modrá.",
+      "tts_text": "Der Himmel ist blau."
+    },
+    {
+      "word": "gelb",
+      "translation_cz": "žlutá",
+      "example": "Die Sonne ist gelb.",
+      "example_cz": "Slunce je žluté.",
+      "tts_text": "Die Sonne ist gelb."
+    },
+    {
+      "word": "grün",
+      "translation_cz": "zelená",
+      "example": "Das Gras ist grün.",
+      "example_cz": "Tráva je zelená.",
+      "tts_text": "Das Gras ist grün."
+    },
+    {
+      "word": "orange",
+      "translation_cz": "oranžová",
+      "example": "Die Orange ist orange.",
+      "example_cz": "Pomeranč je oranžový.",
+      "tts_text": "Die Orange ist orange."
+    },
+    {
+      "word": "lila",
+      "translation_cz": "fialová",
+      "example": "Meine Tasche ist lila.",
+      "example_cz": "Moje taška je fialová.",
+      "tts_text": "Meine Tasche ist lila."
+    },
+    {
+      "word": "rosa",
+      "translation_cz": "růžová",
+      "example": "Ihr Kleid ist rosa.",
+      "example_cz": "Její šaty jsou růžové.",
+      "tts_text": "Ihr Kleid ist rosa."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "lila",
+      "options": [
+        "fialová",
+        "zelená",
+        "oranžová"
+      ],
+      "correct": "fialová"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der Apfel ist ___.",
+      "answer": "rot",
+      "hint_cz": "červené"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "blau",
+          "cz": "modrá"
+        },
+        {
+          "target": "gelb",
+          "cz": "žlutá"
+        },
+        {
+          "target": "grün",
+          "cz": "zelená"
+        },
+        {
+          "target": "rosa",
+          "cz": "růžová"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Himmel ist blau.",
+      "tts_text": "Der Himmel ist blau."
+    }
+  ]
+}

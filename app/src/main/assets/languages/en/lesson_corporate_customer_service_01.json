@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_customer_service_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Greeting a customer",
+  "title_cz": "Přivítání zákazníka",
+  "vocabulary": [
+    {
+      "word": "Welcome to our store",
+      "translation_cz": "Vítejte v našem obchodě",
+      "example": "Welcome to our store, how can I help you today?",
+      "example_cz": "Vítejte v našem obchodě, jak vám mohu dnes pomoci?",
+      "tts_text": "Welcome to our store, how can I help you today?"
+    },
+    {
+      "word": "How can I help you?",
+      "translation_cz": "Jak vám mohu pomoci?",
+      "example": "Good morning, how can I help you?",
+      "example_cz": "Dobré ráno, jak vám mohu pomoci?",
+      "tts_text": "Good morning, how can I help you?"
+    },
+    {
+      "word": "Is this your first visit?",
+      "translation_cz": "Je to vaše první návštěva?",
+      "example": "Is this your first visit to our shop?",
+      "example_cz": "Je to vaše první návštěva našeho obchodu?",
+      "tts_text": "Is this your first visit to our shop?"
+    },
+    {
+      "word": "Take a seat, please",
+      "translation_cz": "Posaďte se, prosím",
+      "example": "Please take a seat, someone will be with you shortly.",
+      "example_cz": "Posaďte se, prosím, někdo za vámi hned přijde.",
+      "tts_text": "Please take a seat, someone will be with you shortly."
+    },
+    {
+      "word": "What brings you in today?",
+      "translation_cz": "Co vás k nám dnes přivádí?",
+      "example": "What brings you in today?",
+      "example_cz": "Co vás k nám dnes přivádí?",
+      "tts_text": "What brings you in today?"
+    },
+    {
+      "word": "friendly tone",
+      "translation_cz": "přátelský tón",
+      "example": "We always greet customers in a friendly tone.",
+      "example_cz": "Zákazníky vždy vítáme přátelským tónem.",
+      "tts_text": "We always greet customers in a friendly tone."
+    },
+    {
+      "word": "assist",
+      "translation_cz": "pomoci, asistovat",
+      "example": "I would be happy to assist you.",
+      "example_cz": "Rád vám pomohu.",
+      "tts_text": "I would be happy to assist you."
+    },
+    {
+      "word": "Have a look around",
+      "translation_cz": "Podívejte se kolem",
+      "example": "Feel free to have a look around.",
+      "example_cz": "Klidně se podívejte kolem.",
+      "tts_text": "Feel free to have a look around."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_01",
+      "title": "Welcoming a customer at the front desk",
+      "title_cz": "Přivítání zákazníka u recepce",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Welcome to our store! How can I help you today?",
+          "text_cz": "Vítejte v našem obchodě! Jak vám mohu dnes pomoci?"
+        },
+        {
+          "speaker": "B",
+          "text": "Hi, is this your first visit? Actually, yes, it's my first time here.",
+          "text_cz": "Ahoj, je to vaše první návštěva? Vlastně ano, jsem tu poprvé."
+        },
+        {
+          "speaker": "A",
+          "text": "Great, welcome! Feel free to have a look around, and let me know if you need anything.",
+          "text_cz": "Skvělé, vítejte! Klidně se podívejte kolem a dejte vědět, pokud budete něco potřebovat."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you, I will.",
+          "text_cz": "Děkuji, udělám to."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "How can I help you?",
+      "options": [
+        "Jak vám mohu pomoci?",
+        "Posaďte se, prosím",
+        "Co vás k nám dnes přivádí?"
+      ],
+      "correct": "Jak vám mohu pomoci?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Welcome to our store, ___ can I help you today?",
+      "answer": "how",
+      "hint_cz": "jak"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "welcome to our store",
+          "cz": "vítejte v našem obchodě"
+        },
+        {
+          "target": "assist",
+          "cz": "pomoci, asistovat"
+        },
+        {
+          "target": "friendly tone",
+          "cz": "přátelský tón"
+        },
+        {
+          "target": "take a seat, please",
+          "cz": "posaďte se, prosím"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Welcome to our store, how can I help you today?",
+      "tts_text": "Welcome to our store, how can I help you today?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Feel free to have a ___ around.",
+      "answer": "look",
+      "hint_cz": "podívejte se"
+    }
+  ]
+}

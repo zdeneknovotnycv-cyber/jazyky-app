@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_time_days_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "My Daily Schedule",
+  "title_cz": "Můj denní program",
+  "vocabulary": [
+    {
+      "word": "wake up",
+      "translation_cz": "vstávat",
+      "example": "I wake up at seven o'clock.",
+      "example_cz": "Vstávám v sedm hodin.",
+      "tts_text": "I wake up at seven o'clock."
+    },
+    {
+      "word": "go to school",
+      "translation_cz": "jít do školy",
+      "example": "I go to school by bus.",
+      "example_cz": "Do školy jezdím autobusem.",
+      "tts_text": "I go to school by bus."
+    },
+    {
+      "word": "have lunch",
+      "translation_cz": "obědvat",
+      "example": "We have lunch at noon.",
+      "example_cz": "Obědváme v poledne.",
+      "tts_text": "We have lunch at noon."
+    },
+    {
+      "word": "do homework",
+      "translation_cz": "dělat domácí úkoly",
+      "example": "I do homework after school.",
+      "example_cz": "Po škole dělám domácí úkoly.",
+      "tts_text": "I do homework after school."
+    },
+    {
+      "word": "go to bed",
+      "translation_cz": "jít spát",
+      "example": "I go to bed at eight thirty.",
+      "example_cz": "Chodím spát v půl deváté.",
+      "tts_text": "I go to bed at eight thirty."
+    },
+    {
+      "word": "schedule",
+      "translation_cz": "rozvrh",
+      "example": "My daily schedule is busy.",
+      "example_cz": "Můj denní program je nabitý.",
+      "tts_text": "My daily schedule is busy."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "wake up",
+      "options": [
+        "vstávat",
+        "obědvat",
+        "jít spát"
+      ],
+      "correct": "vstávat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ at seven o'clock.",
+      "answer": "wake up",
+      "hint_cz": "vstávám"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "go to school",
+          "cz": "jít do školy"
+        },
+        {
+          "target": "have lunch",
+          "cz": "obědvat"
+        },
+        {
+          "target": "do homework",
+          "cz": "dělat domácí úkoly"
+        },
+        {
+          "target": "go to bed",
+          "cz": "jít spát"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I wake up at seven o'clock.",
+      "tts_text": "I wake up at seven o'clock."
+    }
+  ]
+}

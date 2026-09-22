@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_town_places_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Der Supermarkt",
+  "title_cz": "Supermarket",
+  "vocabulary": [
+    {
+      "word": "der Supermarkt",
+      "translation_cz": "supermarket",
+      "example": "Wir kaufen Essen im Supermarkt.",
+      "example_cz": "Kupujeme jídlo v supermarketu.",
+      "tts_text": "Wir kaufen Essen im Supermarkt."
+    },
+    {
+      "word": "der Einkaufswagen",
+      "translation_cz": "nákupní vozík",
+      "example": "Ich schiebe den Einkaufswagen.",
+      "example_cz": "Tlačím nákupní vozík.",
+      "tts_text": "Ich schiebe den Einkaufswagen."
+    },
+    {
+      "word": "das Regal",
+      "translation_cz": "regál",
+      "example": "Die Cornflakes sind im Regal.",
+      "example_cz": "Cereálie jsou na regálu.",
+      "tts_text": "Die Cornflakes sind im Regal."
+    },
+    {
+      "word": "die Einkaufsliste",
+      "translation_cz": "nákupní seznam",
+      "example": "Mama schreibt eine Einkaufsliste.",
+      "example_cz": "Máma píše nákupní seznam.",
+      "tts_text": "Mama schreibt eine Einkaufsliste."
+    },
+    {
+      "word": "die Kassiererin",
+      "translation_cz": "pokladní",
+      "example": "Die Kassiererin scannt unser Essen.",
+      "example_cz": "Pokladní skenuje naše jídlo.",
+      "tts_text": "Die Kassiererin scannt unser Essen."
+    },
+    {
+      "word": "bezahlen",
+      "translation_cz": "zaplatit",
+      "example": "Wir bezahlen an der Kasse.",
+      "example_cz": "Platíme u pokladny.",
+      "tts_text": "Wir bezahlen an der Kasse."
+    },
+    {
+      "word": "der Korb",
+      "translation_cz": "košík",
+      "example": "Ich trage einen kleinen Korb.",
+      "example_cz": "Nesu malý košík.",
+      "tts_text": "Ich trage einen kleinen Korb."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Supermarkt",
+      "options": [
+        "supermarket",
+        "park",
+        "škola"
+      ],
+      "correct": "supermarket"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir kaufen Essen im ___.",
+      "answer": "der Supermarkt",
+      "hint_cz": "supermarket"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Einkaufswagen",
+          "cz": "nákupní vozík"
+        },
+        {
+          "target": "das Regal",
+          "cz": "regál"
+        },
+        {
+          "target": "die Einkaufsliste",
+          "cz": "nákupní seznam"
+        },
+        {
+          "target": "die Kassiererin",
+          "cz": "pokladní"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir bezahlen an der Kasse.",
+      "tts_text": "Wir bezahlen an der Kasse."
+    }
+  ]
+}

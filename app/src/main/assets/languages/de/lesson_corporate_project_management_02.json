@@ -1,0 +1,167 @@
+{
+  "id": "de_adult_corporate_project_management_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Aufgaben zuweisen",
+  "title_cz": "Přidělování úkolů",
+  "vocabulary": [
+    {
+      "word": "zuweisen",
+      "translation_cz": "přidělit",
+      "example": "Ich werde diese Aufgabe Peter zuweisen.",
+      "example_cz": "Tento úkol přidělím Petrovi.",
+      "tts_text": "Ich werde diese Aufgabe Peter zuweisen."
+    },
+    {
+      "word": "verantwortlich",
+      "translation_cz": "zodpovědný",
+      "example": "Wer ist für das Design verantwortlich?",
+      "example_cz": "Kdo je zodpovědný za design?",
+      "tts_text": "Wer ist für das Design verantwortlich?"
+    },
+    {
+      "word": "die Aufgabenliste",
+      "translation_cz": "seznam úkolů",
+      "example": "Bitte prüft die Aufgabenliste vor dem Meeting.",
+      "example_cz": "Podívejte se prosím na seznam úkolů před schůzkou.",
+      "tts_text": "Bitte prüft die Aufgabenliste vor dem Meeting."
+    },
+    {
+      "word": "die Priorität",
+      "translation_cz": "priorita",
+      "example": "Diese Aufgabe hat hohe Priorität.",
+      "example_cz": "Tento úkol má vysokou prioritu.",
+      "tts_text": "Diese Aufgabe hat hohe Priorität."
+    },
+    {
+      "word": "der Fälligkeitstermin",
+      "translation_cz": "termín splnění",
+      "example": "Der Fälligkeitstermin für diese Aufgabe ist Montag.",
+      "example_cz": "Termín splnění tohoto úkolu je pondělí.",
+      "tts_text": "Der Fälligkeitstermin für diese Aufgabe ist Montag."
+    },
+    {
+      "word": "die Arbeitsbelastung",
+      "translation_cz": "pracovní vytížení",
+      "example": "Ihre Arbeitsbelastung ist diese Woche ziemlich hoch.",
+      "example_cz": "Její pracovní vytížení je tento týden dost velké.",
+      "tts_text": "Ihre Arbeitsbelastung ist diese Woche ziemlich hoch."
+    },
+    {
+      "word": "der Verantwortliche",
+      "translation_cz": "vlastník úkolu",
+      "example": "Jede Aufgabe braucht einen klaren Verantwortlichen.",
+      "example_cz": "Každý úkol potřebuje jasného vlastníka.",
+      "tts_text": "Jede Aufgabe braucht einen klaren Verantwortlichen."
+    },
+    {
+      "word": "der Fortschritt",
+      "translation_cz": "postup",
+      "example": "Bitte aktualisiere deinen Fortschritt bis Freitag.",
+      "example_cz": "Aktualizujte prosím svůj postup do pátku.",
+      "tts_text": "Bitte aktualisiere deinen Fortschritt bis Freitag."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_assign_task",
+      "title": "Eine neue Aufgabe zuweisen",
+      "title_cz": "Přidělení nového úkolu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich muss die Testaufgabe zuweisen. Kannst du sie übernehmen?",
+          "text_cz": "Potřebuji přidělit úkol testování. Můžete to vzít?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, aber meine Arbeitsbelastung ist diese Woche schon ziemlich hoch.",
+          "text_cz": "Jasně, ale mé pracovní vytížení je tento týden dost velké."
+        },
+        {
+          "speaker": "A",
+          "text": "Sie hat hohe Priorität, aber der Fälligkeitstermin ist erst nächsten Montag.",
+          "text_cz": "Má to vysokou prioritu, ale termín splnění je až příští pondělí."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay, dann kann ich der Verantwortliche für diese Aufgabe sein.",
+          "text_cz": "Dobře, tak můžu být vlastníkem toho úkolu."
+        }
+      ]
+    },
+    {
+      "id": "conv_assign_followup",
+      "title": "Fortschritt der Aufgabe prüfen",
+      "title_cz": "Kontrola postupu úkolu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wer ist verantwortlich für die Aktualisierung der Aufgabenliste?",
+          "text_cz": "Kdo je zodpovědný za aktualizaci seznamu úkolů?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich. Ich aktualisiere den Fortschritt aller bis Freitag.",
+          "text_cz": "Já. Aktualizuji postup všech do pátku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "zuweisen",
+      "options": [
+        "přidělit",
+        "seznam úkolů",
+        "priorita"
+      ],
+      "correct": "přidělit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wer ist für das Design ___?",
+      "answer": "verantwortlich",
+      "hint_cz": "zodpovědný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der Fälligkeitstermin für diese Aufgabe ist Montag.",
+      "answer": "der Fälligkeitstermin",
+      "hint_cz": "termín splnění"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Arbeitsbelastung",
+          "cz": "pracovní vytížení"
+        },
+        {
+          "target": "der Verantwortliche",
+          "cz": "vlastník úkolu"
+        },
+        {
+          "target": "der Fortschritt",
+          "cz": "postup"
+        },
+        {
+          "target": "die Aufgabenliste",
+          "cz": "seznam úkolů"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich muss die Testaufgabe zuweisen. Kannst du sie übernehmen?",
+      "tts_text": "Ich muss die Testaufgabe zuweisen. Kannst du sie übernehmen?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Klar, aber meine Arbeitsbelastung ist diese Woche schon ziemlich hoch.",
+      "tts_text": "Klar, aber meine Arbeitsbelastung ist diese Woche schon ziemlich hoch."
+    }
+  ]
+}

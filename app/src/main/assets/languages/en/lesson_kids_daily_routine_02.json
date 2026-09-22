@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_daily_routine_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Getting ready for school",
+  "title_cz": "Příprava do školy",
+  "vocabulary": [
+    {
+      "word": "get dressed",
+      "translation_cz": "obléknout se",
+      "example": "I get dressed quickly.",
+      "example_cz": "Rychle se oblékám.",
+      "tts_text": "I get dressed quickly."
+    },
+    {
+      "word": "uniform",
+      "translation_cz": "školní oblečení",
+      "example": "I put on my school uniform.",
+      "example_cz": "Oblékám si školní oblečení.",
+      "tts_text": "I put on my school uniform."
+    },
+    {
+      "word": "backpack",
+      "translation_cz": "batoh",
+      "example": "I pack my backpack for school.",
+      "example_cz": "Balím si batoh do školy.",
+      "tts_text": "I pack my backpack for school."
+    },
+    {
+      "word": "brush your hair",
+      "translation_cz": "učesat se",
+      "example": "I brush my hair before school.",
+      "example_cz": "Před školou se učesávám.",
+      "tts_text": "I brush my hair before school."
+    },
+    {
+      "word": "shoes",
+      "translation_cz": "boty",
+      "example": "I put on my shoes at the door.",
+      "example_cz": "U dveří si obouvám boty.",
+      "tts_text": "I put on my shoes at the door."
+    },
+    {
+      "word": "hurry up",
+      "translation_cz": "pospíšit si",
+      "example": "Mom says, hurry up!",
+      "example_cz": "Máma říká: pospěš si!",
+      "tts_text": "Mom says, hurry up!"
+    },
+    {
+      "word": "on time",
+      "translation_cz": "včas",
+      "example": "I want to be on time for school.",
+      "example_cz": "Chci být do školy včas.",
+      "tts_text": "I want to be on time for school."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "get dressed",
+      "options": [
+        "obléknout se",
+        "školní oblečení",
+        "batoh"
+      ],
+      "correct": "obléknout se"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I put on my school ___.",
+      "answer": "uniform",
+      "hint_cz": "školní oblečení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "backpack",
+          "cz": "batoh"
+        },
+        {
+          "target": "brush your hair",
+          "cz": "učesat se"
+        },
+        {
+          "target": "shoes",
+          "cz": "boty"
+        },
+        {
+          "target": "hurry up",
+          "cz": "pospíšit si"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I want to be on time for school.",
+      "tts_text": "I want to be on time for school."
+    }
+  ]
+}

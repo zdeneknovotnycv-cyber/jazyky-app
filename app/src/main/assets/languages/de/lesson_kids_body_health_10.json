@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_body_health_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "First Aid Basics",
+  "title_cz": "Základy první pomoci",
+  "vocabulary": [
+    {
+      "word": "das Pflaster",
+      "translation_cz": "náplast",
+      "example": "Klebe ein Pflaster auf die Wunde.",
+      "example_cz": "Dej si náplast na to říznutí.",
+      "tts_text": "Klebe ein Pflaster auf die Wunde."
+    },
+    {
+      "word": "die Schnittwunde",
+      "translation_cz": "říznutí / šrám",
+      "example": "Ich habe eine kleine Schnittwunde.",
+      "example_cz": "Mám malé říznutí.",
+      "tts_text": "Ich habe eine kleine Schnittwunde."
+    },
+    {
+      "word": "der Verband",
+      "translation_cz": "obvaz",
+      "example": "Die Krankenschwester legt einen Verband an.",
+      "example_cz": "Zdravotní sestra dává obvaz.",
+      "tts_text": "Die Krankenschwester legt einen Verband an."
+    },
+    {
+      "word": "der Eisbeutel",
+      "translation_cz": "studený obklad",
+      "example": "Leg einen Eisbeutel darauf.",
+      "example_cz": "Dej na to studený obklad.",
+      "tts_text": "Leg einen Eisbeutel darauf."
+    },
+    {
+      "word": "die Hilfe",
+      "translation_cz": "pomoc",
+      "example": "Ruf um Hilfe.",
+      "example_cz": "Zavolej pomoc.",
+      "tts_text": "Ruf um Hilfe."
+    },
+    {
+      "word": "hinfallen",
+      "translation_cz": "spadnout",
+      "example": "Ich bin hingefallen und habe mir das Knie verletzt.",
+      "example_cz": "Spadl jsem a poranil si koleno.",
+      "tts_text": "Ich bin hingefallen und habe mir das Knie verletzt."
+    },
+    {
+      "word": "vorsichtig",
+      "translation_cz": "opatrný",
+      "example": "Sei vorsichtig auf der Treppe.",
+      "example_cz": "Buď opatrný na schodech.",
+      "tts_text": "Sei vorsichtig auf der Treppe."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Pflaster",
+      "options": [
+        "náplast",
+        "obvaz",
+        "pomoc"
+      ],
+      "correct": "náplast"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ruf um ___.",
+      "answer": "Hilfe",
+      "hint_cz": "pomoc"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Schnittwunde",
+          "cz": "říznutí / šrám"
+        },
+        {
+          "target": "der Verband",
+          "cz": "obvaz"
+        },
+        {
+          "target": "der Eisbeutel",
+          "cz": "studený obklad"
+        },
+        {
+          "target": "vorsichtig",
+          "cz": "opatrný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Klebe ein Pflaster auf die Wunde.",
+      "tts_text": "Klebe ein Pflaster auf die Wunde."
+    }
+  ]
+}

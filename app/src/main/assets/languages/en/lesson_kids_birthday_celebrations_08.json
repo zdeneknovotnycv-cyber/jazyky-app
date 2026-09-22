@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_birthday_celebrations_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Birthday cake",
+  "title_cz": "Narozeninový dort",
+  "vocabulary": [
+    {
+      "word": "cake",
+      "translation_cz": "dort",
+      "example": "The cake looks delicious.",
+      "example_cz": "Dort vypadá výborně.",
+      "tts_text": "The cake looks delicious."
+    },
+    {
+      "word": "candle",
+      "translation_cz": "svíčka",
+      "example": "I put candles on the cake.",
+      "example_cz": "Dávám na dort svíčky.",
+      "tts_text": "I put candles on the cake."
+    },
+    {
+      "word": "blow out",
+      "translation_cz": "sfouknout",
+      "example": "I blow out all the candles.",
+      "example_cz": "Sfouknu všechny svíčky.",
+      "tts_text": "I blow out all the candles."
+    },
+    {
+      "word": "slice",
+      "translation_cz": "krajíc, kousek",
+      "example": "I want a slice of cake.",
+      "example_cz": "Chci kousek dortu.",
+      "tts_text": "I want a slice of cake."
+    },
+    {
+      "word": "icing",
+      "translation_cz": "poleva",
+      "example": "The icing is sweet and pink.",
+      "example_cz": "Poleva je sladká a růžová.",
+      "tts_text": "The icing is sweet and pink."
+    },
+    {
+      "word": "sing",
+      "translation_cz": "zpívat",
+      "example": "We sing a birthday song.",
+      "example_cz": "Zpíváme narozeninovou píseň.",
+      "tts_text": "We sing a birthday song."
+    },
+    {
+      "word": "sweet",
+      "translation_cz": "sladký",
+      "example": "The cake is very sweet.",
+      "example_cz": "Dort je velmi sladký.",
+      "tts_text": "The cake is very sweet."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "cake",
+      "options": [
+        "dort",
+        "svíčka",
+        "sfouknout"
+      ],
+      "correct": "dort"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I put ___s on the cake.",
+      "answer": "candle",
+      "hint_cz": "svíčka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "blow out",
+          "cz": "sfouknout"
+        },
+        {
+          "target": "slice",
+          "cz": "krajíc, kousek"
+        },
+        {
+          "target": "icing",
+          "cz": "poleva"
+        },
+        {
+          "target": "sing",
+          "cz": "zpívat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The cake is very sweet.",
+      "tts_text": "The cake is very sweet."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_daily_routine_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Abendessen mit der Familie",
+  "title_cz": "Večeře s rodinou",
+  "vocabulary": [
+    {
+      "word": "das Abendessen",
+      "translation_cz": "večeře",
+      "example": "Wir essen um sechs Uhr Abendessen.",
+      "example_cz": "Večeříme v šest hodin.",
+      "tts_text": "Wir essen um sechs Uhr Abendessen."
+    },
+    {
+      "word": "der Teller",
+      "translation_cz": "talíř",
+      "example": "Ich lege Essen auf meinen Teller.",
+      "example_cz": "Dávám si jídlo na talíř.",
+      "tts_text": "Ich lege Essen auf meinen Teller."
+    },
+    {
+      "word": "die Suppe",
+      "translation_cz": "polévka",
+      "example": "Oma kocht eine leckere Suppe.",
+      "example_cz": "Babička vaří chutnou polévku.",
+      "tts_text": "Oma kocht eine leckere Suppe."
+    },
+    {
+      "word": "die Gabel",
+      "translation_cz": "vidlička",
+      "example": "Ich esse mit Gabel und Messer.",
+      "example_cz": "Jím vidličkou a nožem.",
+      "tts_text": "Ich esse mit Gabel und Messer."
+    },
+    {
+      "word": "die Familie",
+      "translation_cz": "rodina",
+      "example": "Meine ganze Familie sitzt zusammen.",
+      "example_cz": "Celá naše rodina sedí spolu.",
+      "tts_text": "Meine ganze Familie sitzt zusammen."
+    },
+    {
+      "word": "lecker",
+      "translation_cz": "výborný, chutný",
+      "example": "Das Abendessen ist heute lecker.",
+      "example_cz": "Dnešní večeře je výborná.",
+      "tts_text": "Das Abendessen ist heute lecker."
+    },
+    {
+      "word": "reden",
+      "translation_cz": "povídat si",
+      "example": "Wir reden über unseren Tag.",
+      "example_cz": "Povídáme si o svém dni.",
+      "tts_text": "Wir reden über unseren Tag."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Abendessen",
+      "options": [
+        "večeře",
+        "talíř",
+        "polévka"
+      ],
+      "correct": "večeře"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich lege Essen auf meinen ___.",
+      "answer": "Teller",
+      "hint_cz": "talíř"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Suppe",
+          "cz": "polévka"
+        },
+        {
+          "target": "die Gabel",
+          "cz": "vidlička"
+        },
+        {
+          "target": "die Familie",
+          "cz": "rodina"
+        },
+        {
+          "target": "lecker",
+          "cz": "výborný, chutný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir reden über unseren Tag.",
+      "tts_text": "Wir reden über unseren Tag."
+    }
+  ]
+}

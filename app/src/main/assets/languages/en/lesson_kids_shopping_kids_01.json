@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_shopping_kids_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "At the toy store",
+  "title_cz": "V obchodě s hračkami",
+  "vocabulary": [
+    {
+      "word": "toy store",
+      "translation_cz": "obchod s hračkami",
+      "example": "We go to the toy store on Saturday.",
+      "example_cz": "V sobotu jdeme do obchodu s hračkami.",
+      "tts_text": "We go to the toy store on Saturday."
+    },
+    {
+      "word": "shelf",
+      "translation_cz": "police",
+      "example": "The toys are on the shelf.",
+      "example_cz": "Hračky jsou na polici.",
+      "tts_text": "The toys are on the shelf."
+    },
+    {
+      "word": "doll",
+      "translation_cz": "panenka",
+      "example": "I want a new doll.",
+      "example_cz": "Chci novou panenku.",
+      "tts_text": "I want a new doll."
+    },
+    {
+      "word": "puzzle",
+      "translation_cz": "puzzle, skládačka",
+      "example": "I like a colorful puzzle.",
+      "example_cz": "Mám rád barevné puzzle.",
+      "tts_text": "I like a colorful puzzle."
+    },
+    {
+      "word": "expensive",
+      "translation_cz": "drahý",
+      "example": "This toy is too expensive.",
+      "example_cz": "Tato hračka je moc drahá.",
+      "tts_text": "This toy is too expensive."
+    },
+    {
+      "word": "choose",
+      "translation_cz": "vybrat",
+      "example": "It is hard to choose one toy.",
+      "example_cz": "Je těžké vybrat jednu hračku.",
+      "tts_text": "It is hard to choose one toy."
+    },
+    {
+      "word": "cashier",
+      "translation_cz": "pokladní",
+      "example": "The cashier gives me the receipt.",
+      "example_cz": "Pokladní mi dá účtenku.",
+      "tts_text": "The cashier gives me the receipt."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "toy store",
+      "options": [
+        "obchod s hračkami",
+        "police",
+        "panenka"
+      ],
+      "correct": "obchod s hračkami"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The toys are on the ___.",
+      "answer": "shelf",
+      "hint_cz": "police"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "doll",
+          "cz": "panenka"
+        },
+        {
+          "target": "puzzle",
+          "cz": "puzzle, skládačka"
+        },
+        {
+          "target": "expensive",
+          "cz": "drahý"
+        },
+        {
+          "target": "choose",
+          "cz": "vybrat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The cashier gives me the receipt.",
+      "tts_text": "The cashier gives me the receipt."
+    }
+  ]
+}

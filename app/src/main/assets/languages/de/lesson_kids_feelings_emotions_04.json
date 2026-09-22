@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_feelings_emotions_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Aufgeregt",
+  "title_cz": "Nadšený",
+  "vocabulary": [
+    {
+      "word": "aufgeregt",
+      "translation_cz": "nadšený",
+      "example": "Ich bin so aufgeregt wegen meines Geburtstags!",
+      "example_cz": "Jsem tak nadšený z narozenin!",
+      "tts_text": "Ich bin so aufgeregt wegen meines Geburtstags!"
+    },
+    {
+      "word": "es kaum erwarten können",
+      "translation_cz": "nemoct se dočkat",
+      "example": "Ich kann den Ausflug kaum erwarten.",
+      "example_cz": "Nemůžu se dočkat výletu.",
+      "tts_text": "Ich kann den Ausflug kaum erwarten."
+    },
+    {
+      "word": "vor Freude springen",
+      "translation_cz": "skákat radostí",
+      "example": "Ich springe vor Freude, als ich die Nachricht höre.",
+      "example_cz": "Skáču radostí, když slyším tu zprávu.",
+      "tts_text": "Ich springe vor Freude, als ich die Nachricht höre."
+    },
+    {
+      "word": "die Überraschungsparty",
+      "translation_cz": "překvapivá oslava",
+      "example": "Wir haben eine Überraschungsparty geplant.",
+      "example_cz": "Naplánovali jsme překvapivou oslavu.",
+      "tts_text": "Wir haben eine Überraschungsparty geplant."
+    },
+    {
+      "word": "begeistert",
+      "translation_cz": "nadšený (velmi)",
+      "example": "Sie ist begeistert vom neuen Welpen.",
+      "example_cz": "Je nadšená z nového štěněte.",
+      "tts_text": "Sie ist begeistert vom neuen Welpen."
+    },
+    {
+      "word": "die Energie",
+      "translation_cz": "energie",
+      "example": "Ich habe heute so viel Energie.",
+      "example_cz": "Dnes mám tolik energie.",
+      "tts_text": "Ich habe heute so viel Energie."
+    },
+    {
+      "word": "der Spaß",
+      "translation_cz": "zábava",
+      "example": "Das wird so viel Spaß machen!",
+      "example_cz": "To bude taková zábava!",
+      "tts_text": "Das wird so viel Spaß machen!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "aufgeregt",
+      "options": [
+        "nadšený",
+        "smutný",
+        "radost"
+      ],
+      "correct": "nadšený"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bin so ___ wegen meines Geburtstags!",
+      "answer": "aufgeregt",
+      "hint_cz": "nadšený"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "es kaum erwarten können",
+          "cz": "nemoct se dočkat"
+        },
+        {
+          "target": "vor Freude springen",
+          "cz": "skákat radostí"
+        },
+        {
+          "target": "die Überraschungsparty",
+          "cz": "překvapivá oslava"
+        },
+        {
+          "target": "begeistert",
+          "cz": "nadšený (velmi)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich kann den Ausflug kaum erwarten.",
+      "tts_text": "Ich kann den Ausflug kaum erwarten."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_business_travel_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Business dinner etiquette",
+  "title_cz": "Etiketa pracovní večeře",
+  "vocabulary": [
+    {
+      "word": "Shall we order?",
+      "translation_cz": "Objednáme si?",
+      "example": "Shall we order some starters first?",
+      "example_cz": "Objednáme si nejdřív nějaké předkrmy?",
+      "tts_text": "Shall we order some starters first?"
+    },
+    {
+      "word": "Please, after you",
+      "translation_cz": "Prosím, po vás",
+      "example": "Please, after you.",
+      "example_cz": "Prosím, po vás.",
+      "tts_text": "Please, after you."
+    },
+    {
+      "word": "make a toast",
+      "translation_cz": "pronést přípitek",
+      "example": "Let's make a toast to a successful partnership.",
+      "example_cz": "Pronesme přípitek na úspěšné partnerství.",
+      "tts_text": "Let's make a toast to a successful partnership."
+    },
+    {
+      "word": "It's my treat",
+      "translation_cz": "Já to platím",
+      "example": "It's my treat this evening.",
+      "example_cz": "Dnes večer to platím já.",
+      "tts_text": "It's my treat this evening."
+    },
+    {
+      "word": "Would you recommend something?",
+      "translation_cz": "Doporučil byste něco?",
+      "example": "Would you recommend something local?",
+      "example_cz": "Doporučil byste něco místního?",
+      "tts_text": "Would you recommend something local?"
+    },
+    {
+      "word": "dietary restrictions",
+      "translation_cz": "dietní omezení",
+      "example": "Do you have any dietary restrictions?",
+      "example_cz": "Máte nějaká dietní omezení?",
+      "tts_text": "Do you have any dietary restrictions?"
+    },
+    {
+      "word": "It was a pleasure dining with you",
+      "translation_cz": "Bylo mi potěšením s vámi povečeřet",
+      "example": "It was a pleasure dining with you tonight.",
+      "example_cz": "Dnes večer bylo mi potěšením s vámi povečeřet.",
+      "tts_text": "It was a pleasure dining with you tonight."
+    },
+    {
+      "word": "keep the conversation professional",
+      "translation_cz": "udržet konverzaci profesionální",
+      "example": "It's best to keep the conversation professional.",
+      "example_cz": "Nejlepší je udržet konverzaci profesionální.",
+      "tts_text": "It's best to keep the conversation professional."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_business_dinner",
+      "title": "At a business dinner",
+      "title_cz": "Na pracovní večeři",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Shall we order some starters first?",
+          "text_cz": "Objednáme si nejdřív nějaké předkrmy?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. Would you recommend something local?",
+          "text_cz": "Jistě. Doporučil byste něco místního?"
+        },
+        {
+          "speaker": "A",
+          "text": "Definitely. Do you have any dietary restrictions?",
+          "text_cz": "Rozhodně. Máte nějaká dietní omezení?"
+        },
+        {
+          "speaker": "B",
+          "text": "No, none at all. This is my treat tonight, by the way.",
+          "text_cz": "Ne, žádná. Mimochodem, dnes večer to platím já."
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you. Let's make a toast to a successful partnership.",
+          "text_cz": "Děkuji. Pronesme přípitek na úspěšné partnerství."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "make a toast",
+      "options": [
+        "pronést přípitek",
+        "dietní omezení",
+        "objednat si"
+      ],
+      "correct": "pronést přípitek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Would you ___ something local?",
+      "answer": "recommend",
+      "hint_cz": "doporučil"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Do you have any dietary ___?",
+      "answer": "restrictions",
+      "hint_cz": "omezení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "It's my treat",
+          "cz": "Já to platím"
+        },
+        {
+          "target": "Please, after you",
+          "cz": "Prosím, po vás"
+        },
+        {
+          "target": "keep the conversation professional",
+          "cz": "udržet konverzaci profesionální"
+        },
+        {
+          "target": "It was a pleasure dining with you",
+          "cz": "Bylo mi potěšením s vámi povečeřet"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Shall we order some starters first?",
+      "tts_text": "Shall we order some starters first?"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "en_adult_corporate_meetings_intros_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Introducing yourself at work",
+  "title_cz": "Představení v práci",
+  "vocabulary": [
+    {
+      "word": "introduce",
+      "translation_cz": "představit",
+      "example": "Let me introduce myself.",
+      "example_cz": "Dovolte, abych se představil.",
+      "tts_text": "Let me introduce myself."
+    },
+    {
+      "word": "position",
+      "translation_cz": "pozice",
+      "example": "My position is project manager.",
+      "example_cz": "Moje pozice je projektový manažer.",
+      "tts_text": "My position is project manager."
+    },
+    {
+      "word": "department",
+      "translation_cz": "oddělení",
+      "example": "I work in the marketing department.",
+      "example_cz": "Pracuji v marketingovém oddělení.",
+      "tts_text": "I work in the marketing department."
+    },
+    {
+      "word": "colleague",
+      "translation_cz": "kolega",
+      "example": "I'm a new colleague on the team.",
+      "example_cz": "Jsem nový kolega v týmu.",
+      "tts_text": "I'm a new colleague on the team."
+    },
+    {
+      "word": "experience",
+      "translation_cz": "zkušenosti",
+      "example": "I have five years of experience.",
+      "example_cz": "Mám pět let zkušeností.",
+      "tts_text": "I have five years of experience."
+    },
+    {
+      "word": "responsible for",
+      "translation_cz": "zodpovědný za",
+      "example": "I'm responsible for sales in this region.",
+      "example_cz": "Jsem zodpovědný za prodej v tomto regionu.",
+      "tts_text": "I'm responsible for sales in this region."
+    },
+    {
+      "word": "join the team",
+      "translation_cz": "přidat se k týmu",
+      "example": "I joined the team last month.",
+      "example_cz": "K týmu jsem se přidal minulý měsíc.",
+      "tts_text": "I joined the team last month."
+    },
+    {
+      "word": "background",
+      "translation_cz": "profesní zázemí",
+      "example": "My background is in finance.",
+      "example_cz": "Moje zázemí je ve financích.",
+      "tts_text": "My background is in finance."
+    },
+    {
+      "word": "pleasure to meet you",
+      "translation_cz": "těší mě",
+      "example": "It's a pleasure to meet you.",
+      "example_cz": "Těší mě.",
+      "tts_text": "It's a pleasure to meet you."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_intro_new_hire",
+      "title": "A new colleague introduces herself",
+      "title_cz": "Nová kolegyně se představuje",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good morning. Let me introduce myself, I'm Klara, the new colleague in the finance department.",
+          "text_cz": "Dobré ráno. Dovolte, abych se představila, jsem Klára, nová kolegyně z finančního oddělení."
+        },
+        {
+          "speaker": "B",
+          "text": "Pleasure to meet you, Klara. I'm Tomas, I lead the accounting team.",
+          "text_cz": "Těší mě, Kláro. Jsem Tomáš, vedu tým účetnictví."
+        },
+        {
+          "speaker": "A",
+          "text": "Nice to meet you too. I have three years of experience in financial reporting.",
+          "text_cz": "Mě také těší. Mám tři roky zkušeností s finančním reportingem."
+        },
+        {
+          "speaker": "B",
+          "text": "Great, welcome to the team. If you have any questions, just ask.",
+          "text_cz": "Skvělé, vítejte v týmu. Pokud budete mít otázky, klidně se ptejte."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "department",
+      "options": [
+        "oddělení",
+        "kolega",
+        "zkušenosti"
+      ],
+      "correct": "oddělení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'm ___ for sales in this region.",
+      "answer": "responsible",
+      "hint_cz": "zodpovědný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "introduce",
+          "cz": "představit"
+        },
+        {
+          "target": "position",
+          "cz": "pozice"
+        },
+        {
+          "target": "experience",
+          "cz": "zkušenosti"
+        },
+        {
+          "target": "colleague",
+          "cz": "kolega"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It's a pleasure to meet you.",
+      "tts_text": "It's a pleasure to meet you."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I joined the ___ last month.",
+      "answer": "team",
+      "hint_cz": "tým"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My background is in finance.",
+      "tts_text": "My background is in finance."
+    }
+  ]
+}

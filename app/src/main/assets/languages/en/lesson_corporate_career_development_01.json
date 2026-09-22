@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_career_development_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing career goals",
+  "title_cz": "Diskuze o kariérních cílech",
+  "vocabulary": [
+    {
+      "word": "career goal",
+      "translation_cz": "kariérní cíl",
+      "example": "What is your main career goal for this year?",
+      "example_cz": "Jaký je tvůj hlavní kariérní cíl pro letošní rok?",
+      "tts_text": "What is your main career goal for this year?"
+    },
+    {
+      "word": "long-term plan",
+      "translation_cz": "dlouhodobý plán",
+      "example": "I have a long-term plan to become a manager.",
+      "example_cz": "Mám dlouhodobý plán stát se manažerem.",
+      "tts_text": "I have a long-term plan to become a manager."
+    },
+    {
+      "word": "to aspire to",
+      "translation_cz": "toužit po / usilovat o",
+      "example": "I aspire to lead my own team one day.",
+      "example_cz": "Toužím jednou vést svůj vlastní tým.",
+      "tts_text": "I aspire to lead my own team one day."
+    },
+    {
+      "word": "growth opportunity",
+      "translation_cz": "příležitost k růstu",
+      "example": "This project is a great growth opportunity.",
+      "example_cz": "Tento projekt je skvělá příležitost k růstu.",
+      "tts_text": "This project is a great growth opportunity."
+    },
+    {
+      "word": "Where do you see yourself in five years?",
+      "translation_cz": "Kde se vidíš za pět let?",
+      "example": "Where do you see yourself in five years?",
+      "example_cz": "Kde se vidíš za pět let?",
+      "tts_text": "Where do you see yourself in five years?"
+    },
+    {
+      "word": "next step",
+      "translation_cz": "další krok",
+      "example": "What's the next step in your career?",
+      "example_cz": "Jaký je další krok v tvé kariéře?",
+      "tts_text": "What's the next step in your career?"
+    },
+    {
+      "word": "ambition",
+      "translation_cz": "ambice",
+      "example": "I have a lot of ambition for this role.",
+      "example_cz": "Mám v této roli hodně ambicí.",
+      "tts_text": "I have a lot of ambition for this role."
+    },
+    {
+      "word": "potential",
+      "translation_cz": "potenciál",
+      "example": "I believe you have great potential.",
+      "example_cz": "Věřím, že máš velký potenciál.",
+      "tts_text": "I believe you have great potential."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_career_goals",
+      "title": "Talking about career goals with a manager",
+      "title_cz": "Rozhovor s manažerem o kariérních cílech",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Where do you see yourself in five years?",
+          "text_cz": "Kde se vidíš za pět let?"
+        },
+        {
+          "speaker": "B",
+          "text": "I have a long-term plan to become a team leader. I aspire to lead my own team one day.",
+          "text_cz": "Mám dlouhodobý plán stát se vedoucím týmu. Toužím jednou vést svůj vlastní tým."
+        },
+        {
+          "speaker": "A",
+          "text": "That's great ambition. What do you think should be your next step?",
+          "text_cz": "To je skvělá ambice. Co myslíš, že by měl být tvůj další krok?"
+        },
+        {
+          "speaker": "B",
+          "text": "I think taking on more responsibility would be a good growth opportunity.",
+          "text_cz": "Myslím, že převzetí větší odpovědnosti by byla dobrá příležitost k růstu."
+        },
+        {
+          "speaker": "A",
+          "text": "I agree, I believe you have great potential.",
+          "text_cz": "Souhlasím, věřím, že máš velký potenciál."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "career goal",
+      "options": [
+        "kariérní cíl",
+        "další krok",
+        "ambice"
+      ],
+      "correct": "kariérní cíl"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Where do you see yourself in ___ years?",
+      "answer": "five",
+      "hint_cz": "pět"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "long-term plan",
+          "cz": "dlouhodobý plán"
+        },
+        {
+          "target": "growth opportunity",
+          "cz": "příležitost k růstu"
+        },
+        {
+          "target": "ambition",
+          "cz": "ambice"
+        },
+        {
+          "target": "potential",
+          "cz": "potenciál"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I believe you have great potential.",
+      "tts_text": "I believe you have great potential."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ to lead my own team one day.",
+      "answer": "aspire",
+      "hint_cz": "toužím"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_reports_presentations_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Executive Summary",
+  "title_cz": "Manažerské shrnutí",
+  "vocabulary": [
+    {
+      "word": "executive summary",
+      "translation_cz": "manažerské shrnutí",
+      "example": "Please read the executive summary first.",
+      "example_cz": "Přečtěte si prosím nejprve manažerské shrnutí.",
+      "tts_text": "Please read the executive summary first."
+    },
+    {
+      "word": "high-level",
+      "translation_cz": "na obecné/vysoké úrovni",
+      "example": "Keep this section high-level and short.",
+      "example_cz": "Tuto sekci udržte na obecné úrovni a stručnou.",
+      "tts_text": "Keep this section high-level and short."
+    },
+    {
+      "word": "decision-maker",
+      "translation_cz": "osoba s rozhodovací pravomocí",
+      "example": "This summary is written for decision-makers.",
+      "example_cz": "Toto shrnutí je napsáno pro osoby s rozhodovací pravomocí.",
+      "tts_text": "This summary is written for decision-makers."
+    },
+    {
+      "word": "bottom line",
+      "translation_cz": "podstata / výsledek",
+      "example": "The bottom line is that revenue is growing.",
+      "example_cz": "Podstatou je, že příjmy rostou.",
+      "tts_text": "The bottom line is that revenue is growing."
+    },
+    {
+      "word": "concise",
+      "translation_cz": "stručný",
+      "example": "Keep the summary concise, one page maximum.",
+      "example_cz": "Udržte shrnutí stručné, maximálně jedna stránka.",
+      "tts_text": "Keep the summary concise, one page maximum."
+    },
+    {
+      "word": "action item",
+      "translation_cz": "úkol k realizaci",
+      "example": "Each action item has an owner and a deadline.",
+      "example_cz": "Každý úkol k realizaci má vlastníka a termín.",
+      "tts_text": "Each action item has an owner and a deadline."
+    },
+    {
+      "word": "at a glance",
+      "translation_cz": "na první pohled",
+      "example": "You can see the results at a glance.",
+      "example_cz": "Výsledky vidíte na první pohled.",
+      "tts_text": "You can see the results at a glance."
+    },
+    {
+      "word": "supporting data",
+      "translation_cz": "podpůrná data",
+      "example": "The supporting data is in the full report.",
+      "example_cz": "Podpůrná data jsou v celé zprávě.",
+      "tts_text": "The supporting data is in the full report."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_exec_summary",
+      "title": "Preparing an executive summary",
+      "title_cz": "Příprava manažerského shrnutí",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Can you prepare an executive summary for the board?",
+          "text_cz": "Můžete připravit manažerské shrnutí pro vedení?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, I'll keep it concise, one page maximum.",
+          "text_cz": "Jasně, udržím ho stručné, maximálně na jednu stránku."
+        },
+        {
+          "speaker": "A",
+          "text": "Good, remember it's for decision-makers, so keep it high-level.",
+          "text_cz": "Dobře, pamatujte, že je pro osoby s rozhodovací pravomocí, tak ať je na obecné úrovni."
+        },
+        {
+          "speaker": "B",
+          "text": "Understood, I'll put the bottom line at the top and add action items.",
+          "text_cz": "Rozumím, podstatu dám nahoru a přidám úkoly k realizaci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "executive summary",
+      "options": [
+        "manažerské shrnutí",
+        "osoba s rozhodovací pravomocí",
+        "podstata / výsledek"
+      ],
+      "correct": "manažerské shrnutí"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Keep this section ___ and short.",
+      "answer": "high-level",
+      "hint_cz": "na obecné/vysoké úrovni"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Keep the summary ___, one page maximum.",
+      "answer": "concise",
+      "hint_cz": "stručný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "action item",
+          "cz": "úkol k realizaci"
+        },
+        {
+          "target": "at a glance",
+          "cz": "na první pohled"
+        },
+        {
+          "target": "supporting data",
+          "cz": "podpůrná data"
+        },
+        {
+          "target": "decision-maker",
+          "cz": "osoba s rozhodovací pravomocí"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Can you prepare an executive summary for the board?",
+      "tts_text": "Can you prepare an executive summary for the board?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sure, I'll keep it concise, one page maximum.",
+      "tts_text": "Sure, I'll keep it concise, one page maximum."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_nature_outdoors_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Blumen und Pflanzen",
+  "title_cz": "Květiny a rostliny",
+  "vocabulary": [
+    {
+      "word": "die Blume",
+      "translation_cz": "květina",
+      "example": "Diese Blume riecht so schön.",
+      "example_cz": "Tahle květina tak krásně voní.",
+      "tts_text": "Diese Blume riecht so schön."
+    },
+    {
+      "word": "die Pflanze",
+      "translation_cz": "rostlina",
+      "example": "Wir gießen die Pflanze jeden Tag.",
+      "example_cz": "Zaléváme rostlinu každý den.",
+      "tts_text": "Wir gießen die Pflanze jeden Tag."
+    },
+    {
+      "word": "das Blütenblatt",
+      "translation_cz": "okvětní lístek",
+      "example": "Ein gelbes Blütenblatt fällt ab.",
+      "example_cz": "Odpadává žlutý okvětní lístek.",
+      "tts_text": "Ein gelbes Blütenblatt fällt ab."
+    },
+    {
+      "word": "der Samen",
+      "translation_cz": "semínko",
+      "example": "Wir pflanzen einen Samen in die Erde.",
+      "example_cz": "Zasazujeme semínko do půdy.",
+      "tts_text": "Wir pflanzen einen Samen in die Erde."
+    },
+    {
+      "word": "wachsen",
+      "translation_cz": "růst",
+      "example": "Die Pflanze wächst sehr schnell.",
+      "example_cz": "Rostlina roste velmi rychle.",
+      "tts_text": "Die Pflanze wächst sehr schnell."
+    },
+    {
+      "word": "die Biene",
+      "translation_cz": "včela",
+      "example": "Eine Biene landet auf der Blume.",
+      "example_cz": "Na květinu přistane včela.",
+      "tts_text": "Eine Biene landet auf der Blume."
+    },
+    {
+      "word": "der Garten",
+      "translation_cz": "zahrada",
+      "example": "Wir pflanzen Blumen im Garten.",
+      "example_cz": "Pěstujeme květiny na zahradě.",
+      "tts_text": "Wir pflanzen Blumen im Garten."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Blume",
+      "options": [
+        "květina",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "květina"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir gießen ___ jeden Tag.",
+      "answer": "die Pflanze",
+      "hint_cz": "rostlina"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Pflanze",
+          "cz": "rostlina"
+        },
+        {
+          "target": "das Blütenblatt",
+          "cz": "okvětní lístek"
+        },
+        {
+          "target": "der Samen",
+          "cz": "semínko"
+        },
+        {
+          "target": "wachsen",
+          "cz": "růst"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Diese Blume riecht so schön.",
+      "tts_text": "Diese Blume riecht so schön."
+    }
+  ]
+}

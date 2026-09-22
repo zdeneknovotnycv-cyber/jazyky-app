@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_phone_video_calls_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Telefonkonferenzen mit mehreren Personen",
+  "title_cz": "Konferenční hovory s více lidmi",
+  "vocabulary": [
+    {
+      "word": "machen wir eine kurze Vorstellungsrunde",
+      "translation_cz": "Udělejme rychlé kolečko představení",
+      "example": "Bevor wir beginnen, machen wir eine kurze Vorstellungsrunde.",
+      "example_cz": "Než začneme, udělejme rychlé kolečko představení.",
+      "tts_text": "Bevor wir beginnen, machen wir eine kurze Vorstellungsrunde."
+    },
+    {
+      "word": "wer ist noch in der Leitung?",
+      "translation_cz": "kdo další je na lince?",
+      "example": "Wer ist heute noch mit uns in der Leitung?",
+      "example_cz": "Kdo další je dnes s námi na lince?",
+      "tts_text": "Wer ist heute noch mit uns in der Leitung?"
+    },
+    {
+      "word": "bitte nennen Sie Ihren Namen, bevor Sie sprechen",
+      "translation_cz": "před promluvením prosím řekněte své jméno",
+      "example": "Bitte nennen Sie Ihren Namen, bevor Sie sprechen.",
+      "example_cz": "Před promluvením prosím řekněte své jméno.",
+      "tts_text": "Bitte nennen Sie Ihren Namen, bevor Sie sprechen."
+    },
+    {
+      "word": "entschuldigen Sie die Unterbrechung",
+      "translation_cz": "promiňte, že skáču do řeči",
+      "example": "Entschuldigen Sie die Unterbrechung, darf ich etwas hinzufügen?",
+      "example_cz": "Promiňte, že skáču do řeči, mohu něco dodat?",
+      "tts_text": "Entschuldigen Sie die Unterbrechung, darf ich etwas hinzufügen?"
+    },
+    {
+      "word": "bitte sprechen Sie weiter",
+      "translation_cz": "pokračujte / mluvte",
+      "example": "Bitte sprechen Sie weiter.",
+      "example_cz": "Pokračujte, prosím mluvte dál.",
+      "tts_text": "Bitte sprechen Sie weiter."
+    },
+    {
+      "word": "ich glaube, jemand ist stummgeschaltet",
+      "translation_cz": "myslím, že má někdo ztlumený mikrofon",
+      "example": "Ich glaube, jemand ist stummgeschaltet, wir hören Sie nicht.",
+      "example_cz": "Myslím, že má někdo ztlumený mikrofon, neslyšíme vás.",
+      "tts_text": "Ich glaube, jemand ist stummgeschaltet, wir hören Sie nicht."
+    },
+    {
+      "word": "hören wir von allen",
+      "translation_cz": "poslechněme si všechny",
+      "example": "Hören wir von allen, bevor wir entscheiden.",
+      "example_cz": "Poslechněme si všechny, než se rozhodneme.",
+      "tts_text": "Hören wir von allen, bevor wir entscheiden."
+    },
+    {
+      "word": "hat jemand noch Fragen?",
+      "translation_cz": "má někdo nějaké otázky?",
+      "example": "Hat jemand noch Fragen, bevor wir Schluss machen?",
+      "example_cz": "Má někdo nějaké otázky, než skončíme?",
+      "tts_text": "Hat jemand noch Fragen, bevor wir Schluss machen?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_telefonkonferenz",
+      "title": "Eine Telefonkonferenz beginnen",
+      "title_cz": "Zahájení konferenčního hovoru",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Guten Morgen zusammen. Wer ist heute noch mit uns in der Leitung?",
+          "text_cz": "Dobré ráno všem. Kdo další je dnes s námi na lince?"
+        },
+        {
+          "speaker": "B",
+          "text": "Hier ist Marek aus dem Prager Büro.",
+          "text_cz": "Tady je Marek z pražské kanceláře."
+        },
+        {
+          "speaker": "A",
+          "text": "Sehr gut, danke. Machen wir eine kurze Vorstellungsrunde.",
+          "text_cz": "Skvělé, děkuji. Udělejme rychlé kolečko představení."
+        },
+        {
+          "speaker": "B",
+          "text": "Entschuldigen Sie die Unterbrechung, aber ich glaube, jemand ist stummgeschaltet.",
+          "text_cz": "Promiňte, že skáču do řeči, ale myslím, že má někdo ztlumený mikrofon."
+        },
+        {
+          "speaker": "A",
+          "text": "Danke für den Hinweis. Gut, sprechen Sie jetzt weiter, alle können Sie hören.",
+          "text_cz": "Díky, že jste si všiml. Dobře, pokračujte, teď vás všichni slyší."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Wer ist heute noch mit uns in der Leitung?",
+      "options": [
+        "Kdo další je dnes s námi na lince?",
+        "Pokračujte, prosím mluvte dál.",
+        "Má někdo nějaké otázky?"
+      ],
+      "correct": "Kdo další je dnes s námi na lince?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte ___ Sie Ihren Namen, bevor Sie sprechen.",
+      "answer": "nennen",
+      "hint_cz": "řekněte"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "entschuldigen Sie die Unterbrechung", "cz": "promiňte, že skáču do řeči" },
+        { "target": "bitte sprechen Sie weiter", "cz": "pokračujte" },
+        { "target": "hören wir von allen", "cz": "poslechněme si všechny" },
+        { "target": "hat jemand noch Fragen?", "cz": "má někdo nějaké otázky?" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bevor wir beginnen, machen wir eine kurze Vorstellungsrunde.",
+      "tts_text": "Bevor wir beginnen, machen wir eine kurze Vorstellungsrunde."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich glaube, jemand ist ___, wir hören Sie nicht.",
+      "answer": "stummgeschaltet",
+      "hint_cz": "ztlumeno"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Hat jemand noch Fragen, bevor wir Schluss machen?",
+      "tts_text": "Hat jemand noch Fragen, bevor wir Schluss machen?"
+    }
+  ]
+}

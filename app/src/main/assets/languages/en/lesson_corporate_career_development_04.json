@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_career_development_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing a new job opportunity",
+  "title_cz": "Diskuze o nové pracovní příležitosti",
+  "vocabulary": [
+    {
+      "word": "job offer",
+      "translation_cz": "pracovní nabídka",
+      "example": "I received a job offer from another company.",
+      "example_cz": "Dostal jsem pracovní nabídku od jiné firmy.",
+      "tts_text": "I received a job offer from another company."
+    },
+    {
+      "word": "to consider",
+      "translation_cz": "zvážit",
+      "example": "I need some time to consider it.",
+      "example_cz": "Potřebuji čas na zvážení.",
+      "tts_text": "I need some time to consider it."
+    },
+    {
+      "word": "better position",
+      "translation_cz": "lepší pozice",
+      "example": "It's a better position with more responsibility.",
+      "example_cz": "Je to lepší pozice s větší odpovědností.",
+      "tts_text": "It's a better position with more responsibility."
+    },
+    {
+      "word": "to weigh the pros and cons",
+      "translation_cz": "zvážit klady a zápory",
+      "example": "Let's weigh the pros and cons together.",
+      "example_cz": "Pojďme společně zvážit klady a zápory.",
+      "tts_text": "Let's weigh the pros and cons together."
+    },
+    {
+      "word": "career move",
+      "translation_cz": "kariérní krok",
+      "example": "This could be a smart career move.",
+      "example_cz": "Tohle by mohl být chytrý kariérní krok.",
+      "tts_text": "This could be a smart career move."
+    },
+    {
+      "word": "notice period",
+      "translation_cz": "výpovědní lhůta",
+      "example": "My notice period is one month.",
+      "example_cz": "Moje výpovědní lhůta je jeden měsíc.",
+      "tts_text": "My notice period is one month."
+    },
+    {
+      "word": "competitive salary",
+      "translation_cz": "konkurenceschopný plat",
+      "example": "They're offering a competitive salary.",
+      "example_cz": "Nabízejí konkurenceschopný plat.",
+      "tts_text": "They're offering a competitive salary."
+    },
+    {
+      "word": "to take the leap",
+      "translation_cz": "udělat ten krok / odvážit se",
+      "example": "I've decided to take the leap.",
+      "example_cz": "Rozhodl jsem se udělat ten krok.",
+      "tts_text": "I've decided to take the leap."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_job_opportunity",
+      "title": "Discussing a job offer",
+      "title_cz": "Diskuze o pracovní nabídce",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I received a job offer from another company yesterday.",
+          "text_cz": "Včera jsem dostal pracovní nabídku od jiné firmy."
+        },
+        {
+          "speaker": "B",
+          "text": "Really? What's the position like?",
+          "text_cz": "Vážně? Jaká je to pozice?"
+        },
+        {
+          "speaker": "A",
+          "text": "It's a better position, and they're offering a competitive salary. I need some time to consider it.",
+          "text_cz": "Je to lepší pozice a nabízejí konkurenceschopný plat. Potřebuji čas na zvážení."
+        },
+        {
+          "speaker": "B",
+          "text": "That makes sense. Let's weigh the pros and cons together.",
+          "text_cz": "To dává smysl. Pojďme společně zvážit klady a zápory."
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks. I think this could be a smart career move.",
+          "text_cz": "Díky. Myslím, že tohle by mohl být chytrý kariérní krok."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "job offer",
+      "options": [
+        "pracovní nabídka",
+        "výpovědní lhůta",
+        "kariérní krok"
+      ],
+      "correct": "pracovní nabídka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I need some time to ___ it.",
+      "answer": "consider",
+      "hint_cz": "zvážit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "better position",
+          "cz": "lepší pozice"
+        },
+        {
+          "target": "notice period",
+          "cz": "výpovědní lhůta"
+        },
+        {
+          "target": "competitive salary",
+          "cz": "konkurenceschopný plat"
+        },
+        {
+          "target": "to take the leap",
+          "cz": "udělat ten krok"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "This could be a smart career move.",
+      "tts_text": "This could be a smart career move."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's ___ the pros and cons together.",
+      "answer": "weigh",
+      "hint_cz": "zvážit"
+    }
+  ]
+}

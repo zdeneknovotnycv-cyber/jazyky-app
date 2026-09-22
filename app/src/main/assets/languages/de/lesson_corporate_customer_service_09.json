@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_customer_service_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Bei einem Kunden nachfassen",
+  "title_cz": "Následné kontaktování zákazníka",
+  "vocabulary": [
+    {
+      "word": "Ich melde mich bezüglich",
+      "translation_cz": "Navazuji na",
+      "example": "Ich melde mich bezüglich Ihrer letzten Anfrage.",
+      "example_cz": "Navazuji na váš nedávný požadavek.",
+      "tts_text": "Ich melde mich bezüglich Ihrer letzten Anfrage."
+    },
+    {
+      "word": "Ich wollte nur nachfragen",
+      "translation_cz": "Jen kontroluji, jestli je vše v pořádku",
+      "example": "Ich wollte nur nachfragen, wie alles läuft.",
+      "example_cz": "Jen kontroluji, jak vše probíhá.",
+      "tts_text": "Ich wollte nur nachfragen, wie alles läuft."
+    },
+    {
+      "word": "Ist alles wie erwartet angekommen?",
+      "translation_cz": "Dorazilo vše, jak jste očekávali?",
+      "example": "Ist alles wie erwartet angekommen?",
+      "example_cz": "Dorazilo vše, jak jste očekávali?",
+      "tts_text": "Ist alles wie erwartet angekommen?"
+    },
+    {
+      "word": "Kann ich sonst noch etwas für Sie tun?",
+      "translation_cz": "Mohu vám ještě s něčím pomoci?",
+      "example": "Kann ich sonst noch etwas für Sie tun?",
+      "example_cz": "Mohu vám ještě s něčím pomoci?",
+      "tts_text": "Kann ich sonst noch etwas für Sie tun?"
+    },
+    {
+      "word": "zu Ihrer Zufriedenheit gelöst",
+      "translation_cz": "vyřešeno k vaší spokojenosti",
+      "example": "Ich hoffe, das Problem wurde zu Ihrer Zufriedenheit gelöst.",
+      "example_cz": "Doufám, že problém byl vyřešen k vaší spokojenosti.",
+      "tts_text": "Ich hoffe, das Problem wurde zu Ihrer Zufriedenheit gelöst."
+    },
+    {
+      "word": "sich melden",
+      "translation_cz": "ozvat se, kontaktovat",
+      "example": "Bitte melden Sie sich, wenn Sie weitere Fragen haben.",
+      "example_cz": "Ozvěte se, prosím, pokud máte další otázky.",
+      "tts_text": "Bitte melden Sie sich, wenn Sie weitere Fragen haben."
+    },
+    {
+      "word": "Statusupdate",
+      "translation_cz": "aktualizace stavu",
+      "example": "Ich rufe an, um Ihnen ein Statusupdate zu geben.",
+      "example_cz": "Volám, abych vám podal aktualizaci stavu.",
+      "tts_text": "Ich rufe an, um Ihnen ein Statusupdate zu geben."
+    },
+    {
+      "word": "Wir schätzen Ihr Vertrauen",
+      "translation_cz": "vážíme si vašeho obchodu",
+      "example": "Wir schätzen Ihr Vertrauen wirklich sehr.",
+      "example_cz": "Opravdu si vážíme vaší přízně.",
+      "tts_text": "Wir schätzen Ihr Vertrauen wirklich sehr."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_09",
+      "title": "Nachfassen nach einem gelösten Problem",
+      "title_cz": "Následné kontaktování po vyřešení problému",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Guten Tag, ich melde mich bezüglich Ihrer letzten Bestellung. Ist alles wie erwartet angekommen?",
+          "text_cz": "Dobrý den, navazuji na vaši nedávnou objednávku. Dorazilo vše, jak jste očekávali?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, danke, jetzt ist alles in Ordnung.",
+          "text_cz": "Ano, děkuji, teď je vše v pořádku."
+        },
+        {
+          "speaker": "A",
+          "text": "Sehr gut, ich bin froh, dass das Problem zu Ihrer Zufriedenheit gelöst wurde. Kann ich sonst noch etwas für Sie tun?",
+          "text_cz": "Skvělé, jsem rád, že problém byl vyřešen k vaší spokojenosti. Mohu vám ještě s něčím pomoci?"
+        },
+        {
+          "speaker": "B",
+          "text": "Nein, das ist alles. Danke, dass Sie sich gemeldet haben.",
+          "text_cz": "Ne, to je vše. Děkuji, že jste se ozvali."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Ich wollte nur nachfragen",
+      "options": [
+        "Jen kontroluji, jestli je vše v pořádku",
+        "Ozvat se",
+        "Aktualizace stavu"
+      ],
+      "correct": "Jen kontroluji, jestli je vše v pořádku"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ist alles wie ___ angekommen?",
+      "answer": "erwartet",
+      "hint_cz": "očekáváno"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sich melden",
+          "cz": "ozvat se, kontaktovat"
+        },
+        {
+          "target": "Statusupdate",
+          "cz": "aktualizace stavu"
+        },
+        {
+          "target": "Wir schätzen Ihr Vertrauen",
+          "cz": "vážíme si vaší přízně"
+        },
+        {
+          "target": "zu Ihrer Zufriedenheit gelöst",
+          "cz": "vyřešeno k vaší spokojenosti"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich melde mich bezüglich Ihrer letzten Anfrage.",
+      "tts_text": "Ich melde mich bezüglich Ihrer letzten Anfrage."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte ___ Sie sich, wenn Sie weitere Fragen haben.",
+      "answer": "melden",
+      "hint_cz": "ozvěte"
+    }
+  ]
+}

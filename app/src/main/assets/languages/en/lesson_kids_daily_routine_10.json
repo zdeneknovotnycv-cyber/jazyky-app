@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_daily_routine_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Weekend routine",
+  "title_cz": "Víkendový program",
+  "vocabulary": [
+    {
+      "word": "weekend",
+      "translation_cz": "víkend",
+      "example": "I love the weekend.",
+      "example_cz": "Mám rád víkend.",
+      "tts_text": "I love the weekend."
+    },
+    {
+      "word": "sleep in",
+      "translation_cz": "přispat si",
+      "example": "I sleep in on Saturday.",
+      "example_cz": "V sobotu si přispím.",
+      "tts_text": "I sleep in on Saturday."
+    },
+    {
+      "word": "visit grandparents",
+      "translation_cz": "navštívit prarodiče",
+      "example": "We visit grandparents on Sunday.",
+      "example_cz": "V neděli navštěvujeme prarodiče.",
+      "tts_text": "We visit grandparents on Sunday."
+    },
+    {
+      "word": "trip",
+      "translation_cz": "výlet",
+      "example": "We go on a trip to the forest.",
+      "example_cz": "Jedeme na výlet do lesa.",
+      "tts_text": "We go on a trip to the forest."
+    },
+    {
+      "word": "cartoons",
+      "translation_cz": "kreslené filmy",
+      "example": "I watch cartoons in the morning.",
+      "example_cz": "Ráno se dívám na kreslené filmy.",
+      "tts_text": "I watch cartoons in the morning."
+    },
+    {
+      "word": "relax",
+      "translation_cz": "odpočívat",
+      "example": "On weekends I like to relax.",
+      "example_cz": "O víkendech si rád odpočinu.",
+      "tts_text": "On weekends I like to relax."
+    },
+    {
+      "word": "free time",
+      "translation_cz": "volný čas",
+      "example": "I have a lot of free time.",
+      "example_cz": "Mám hodně volného času.",
+      "tts_text": "I have a lot of free time."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "weekend",
+      "options": [
+        "víkend",
+        "přispat si",
+        "navštívit prarodiče"
+      ],
+      "correct": "víkend"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ on Saturday.",
+      "answer": "sleep in",
+      "hint_cz": "přispat si"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "visit grandparents",
+          "cz": "navštívit prarodiče"
+        },
+        {
+          "target": "trip",
+          "cz": "výlet"
+        },
+        {
+          "target": "cartoons",
+          "cz": "kreslené filmy"
+        },
+        {
+          "target": "relax",
+          "cz": "odpočívat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I have a lot of free time.",
+      "tts_text": "I have a lot of free time."
+    }
+  ]
+}

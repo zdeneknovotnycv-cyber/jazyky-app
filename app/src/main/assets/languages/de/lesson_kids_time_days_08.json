@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_time_days_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Zu Spät Oder Zu Früh",
+  "title_cz": "Pozdě a včas",
+  "vocabulary": [
+    {
+      "word": "spät",
+      "translation_cz": "pozdě",
+      "example": "Ich komme zu spät zur Schule.",
+      "example_cz": "Jdu pozdě do školy.",
+      "tts_text": "Ich komme zu spät zur Schule."
+    },
+    {
+      "word": "früh",
+      "translation_cz": "brzy",
+      "example": "Ich bin heute früh aufgewacht.",
+      "example_cz": "Dnes jsem se probudil brzy.",
+      "tts_text": "Ich bin heute früh aufgewacht."
+    },
+    {
+      "word": "pünktlich",
+      "translation_cz": "včas",
+      "example": "Bitte komm pünktlich.",
+      "example_cz": "Přijď prosím včas.",
+      "tts_text": "Bitte komm pünktlich."
+    },
+    {
+      "word": "Beeil dich!",
+      "translation_cz": "pospěš si",
+      "example": "Beeil dich, der Bus kommt!",
+      "example_cz": "Pospěš si, jede autobus!",
+      "tts_text": "Beeil dich, der Bus kommt!"
+    },
+    {
+      "word": "warten",
+      "translation_cz": "čekat",
+      "example": "Bitte warte auf mich.",
+      "example_cz": "Počkej na mě, prosím.",
+      "tts_text": "Bitte warte auf mich."
+    },
+    {
+      "word": "Ich bin spät dran!",
+      "translation_cz": "Jdu pozdě!",
+      "example": "Oh nein, ich bin spät dran!",
+      "example_cz": "Ach ne, jdu pozdě!",
+      "tts_text": "Oh nein, ich bin spät dran!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "spät",
+      "options": [
+        "pozdě",
+        "brzy",
+        "včas"
+      ],
+      "correct": "pozdě"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte komm ___.",
+      "answer": "pünktlich",
+      "hint_cz": "včas"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "früh",
+          "cz": "brzy"
+        },
+        {
+          "target": "Beeil dich!",
+          "cz": "pospěš si"
+        },
+        {
+          "target": "warten",
+          "cz": "čekat"
+        },
+        {
+          "target": "Ich bin spät dran!",
+          "cz": "Jdu pozdě!"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich komme zu spät zur Schule.",
+      "tts_text": "Ich komme zu spät zur Schule."
+    }
+  ]
+}

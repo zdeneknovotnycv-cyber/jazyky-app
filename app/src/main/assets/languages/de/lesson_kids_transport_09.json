@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_transport_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Mit den Eltern mitfahren",
+  "title_cz": "Odvoz od rodičů",
+  "vocabulary": [
+    {
+      "word": "die Mitfahrt",
+      "translation_cz": "odvoz",
+      "example": "Mama gibt mir eine Mitfahrt zur Schule.",
+      "example_cz": "Máma mě sveze do školy.",
+      "tts_text": "Mama gibt mir eine Mitfahrt zur Schule."
+    },
+    {
+      "word": "abholen",
+      "translation_cz": "vyzvednout",
+      "example": "Papa holt mich nach der Schule ab.",
+      "example_cz": "Táta mě vyzvedne po škole.",
+      "tts_text": "Papa holt mich nach der Schule ab."
+    },
+    {
+      "word": "der Kindersitz",
+      "translation_cz": "autosedačka",
+      "example": "Ich sitze in meinem Kindersitz.",
+      "example_cz": "Sedím ve své autosedačce.",
+      "tts_text": "Ich sitze in meinem Kindersitz."
+    },
+    {
+      "word": "warten",
+      "translation_cz": "čekat",
+      "example": "Ich warte bei der Tür auf Mama.",
+      "example_cz": "Čekám u dveří na mámu.",
+      "tts_text": "Ich warte bei der Tür auf Mama."
+    },
+    {
+      "word": "danke",
+      "translation_cz": "děkuji",
+      "example": "Ich sage danke für die Mitfahrt.",
+      "example_cz": "Děkuji za odvoz.",
+      "tts_text": "Ich sage danke für die Mitfahrt."
+    },
+    {
+      "word": "anschnallen",
+      "translation_cz": "připoutat se",
+      "example": "Ich schnalle mich an, bevor wir fahren.",
+      "example_cz": "Připoutám se, než vyrazíme.",
+      "tts_text": "Ich schnalle mich an, bevor wir fahren."
+    },
+    {
+      "word": "pünktlich",
+      "translation_cz": "včas",
+      "example": "Wir kommen pünktlich an.",
+      "example_cz": "Přijedeme včas.",
+      "tts_text": "Wir kommen pünktlich an."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Mitfahrt",
+      "options": [
+        "odvoz",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "odvoz"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mama gibt mir eine ___ zur Schule.",
+      "answer": "die Mitfahrt",
+      "hint_cz": "odvoz"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "abholen",
+          "cz": "vyzvednout"
+        },
+        {
+          "target": "der Kindersitz",
+          "cz": "autosedačka"
+        },
+        {
+          "target": "warten",
+          "cz": "čekat"
+        },
+        {
+          "target": "danke",
+          "cz": "děkuji"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich sitze in meinem Kindersitz.",
+      "tts_text": "Ich sitze in meinem Kindersitz."
+    }
+  ]
+}

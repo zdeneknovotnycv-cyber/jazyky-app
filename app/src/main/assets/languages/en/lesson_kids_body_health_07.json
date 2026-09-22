@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_body_health_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Washing and Hygiene",
+  "title_cz": "Mytí a hygiena",
+  "vocabulary": [
+    {
+      "word": "wash hands",
+      "translation_cz": "mýt si ruce",
+      "example": "I wash my hands before eating.",
+      "example_cz": "Myji si ruce před jídlem.",
+      "tts_text": "I wash my hands before eating."
+    },
+    {
+      "word": "soap",
+      "translation_cz": "mýdlo",
+      "example": "I use soap and water.",
+      "example_cz": "Používám mýdlo a vodu.",
+      "tts_text": "I use soap and water."
+    },
+    {
+      "word": "shower",
+      "translation_cz": "sprchovat se",
+      "example": "I take a shower every day.",
+      "example_cz": "Sprchuji se každý den.",
+      "tts_text": "I take a shower every day."
+    },
+    {
+      "word": "towel",
+      "translation_cz": "ručník",
+      "example": "I dry myself with a towel.",
+      "example_cz": "Osušuji se ručníkem.",
+      "tts_text": "I dry myself with a towel."
+    },
+    {
+      "word": "comb hair",
+      "translation_cz": "česat si vlasy",
+      "example": "I comb my hair in the morning.",
+      "example_cz": "Ráno si česám vlasy.",
+      "tts_text": "I comb my hair in the morning."
+    },
+    {
+      "word": "clean",
+      "translation_cz": "čistý",
+      "example": "My hands are clean now.",
+      "example_cz": "Moje ruce jsou teď čisté.",
+      "tts_text": "My hands are clean now."
+    },
+    {
+      "word": "brush teeth",
+      "translation_cz": "čistit si zuby",
+      "example": "I brush my teeth twice a day.",
+      "example_cz": "Zuby si čistím dvakrát denně.",
+      "tts_text": "I brush my teeth twice a day."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "soap",
+      "options": [
+        "mýdlo",
+        "ručník",
+        "kartáček"
+      ],
+      "correct": "mýdlo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I take a ___ every day.",
+      "answer": "shower",
+      "hint_cz": "sprchovat se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "towel",
+          "cz": "ručník"
+        },
+        {
+          "target": "comb hair",
+          "cz": "česat si vlasy"
+        },
+        {
+          "target": "clean",
+          "cz": "čistý"
+        },
+        {
+          "target": "brush teeth",
+          "cz": "čistit si zuby"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I wash my hands before eating.",
+      "tts_text": "I wash my hands before eating."
+    }
+  ]
+}

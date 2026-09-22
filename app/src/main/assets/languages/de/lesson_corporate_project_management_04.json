@@ -1,0 +1,172 @@
+{
+  "id": "de_adult_corporate_project_management_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Statusupdates",
+  "title_cz": "Aktualizace stavu projektu",
+  "vocabulary": [
+    {
+      "word": "das Statusupdate",
+      "translation_cz": "aktualizace stavu",
+      "example": "Lasst uns ein kurzes Statusupdate geben.",
+      "example_cz": "Podejme si rychlou aktualizaci stavu.",
+      "tts_text": "Lasst uns ein kurzes Statusupdate geben."
+    },
+    {
+      "word": "im Plan",
+      "translation_cz": "podle plánu / v pořádku",
+      "example": "Das Projekt liegt im Moment im Plan.",
+      "example_cz": "Projekt je zatím v pořádku.",
+      "tts_text": "Das Projekt liegt im Moment im Plan."
+    },
+    {
+      "word": "das Hindernis",
+      "translation_cz": "překážka",
+      "example": "Wir haben ein Hindernis bei der API-Integration.",
+      "example_cz": "Máme překážku s integrací API.",
+      "tts_text": "Wir haben ein Hindernis bei der API-Integration."
+    },
+    {
+      "word": "die nächsten Schritte",
+      "translation_cz": "další kroky",
+      "example": "Was sind die nächsten Schritte?",
+      "example_cz": "Jaké jsou další kroky?",
+      "tts_text": "Was sind die nächsten Schritte?"
+    },
+    {
+      "word": "das Board aktualisieren",
+      "translation_cz": "aktualizovat tabuli/nástěnku",
+      "example": "Bitte aktualisiert das Board nach dem Meeting.",
+      "example_cz": "Aktualizujte prosím nástěnku po schůzce.",
+      "tts_text": "Bitte aktualisiert das Board nach dem Meeting."
+    },
+    {
+      "word": "abgeschlossen",
+      "translation_cz": "dokončeno",
+      "example": "Die Designphase ist abgeschlossen.",
+      "example_cz": "Fáze designu je dokončena.",
+      "tts_text": "Die Designphase ist abgeschlossen."
+    },
+    {
+      "word": "in Bearbeitung",
+      "translation_cz": "probíhá",
+      "example": "Die Entwicklung ist noch in Bearbeitung.",
+      "example_cz": "Vývoj stále probíhá.",
+      "tts_text": "Die Entwicklung ist noch in Bearbeitung."
+    },
+    {
+      "word": "die Zusammenfassung",
+      "translation_cz": "shrnutí",
+      "example": "Kannst du eine kurze Zusammenfassung per E-Mail senden?",
+      "example_cz": "Můžete poslat krátké shrnutí e-mailem?",
+      "tts_text": "Kannst du eine kurze Zusammenfassung per E-Mail senden?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_status_meeting",
+      "title": "Wöchentliches Statusupdate",
+      "title_cz": "Týdenní aktualizace stavu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Lasst uns ein kurzes Statusupdate geben. Liegen wir im Plan?",
+          "text_cz": "Podejme si rychlou aktualizaci stavu. Jsme v pořádku?"
+        },
+        {
+          "speaker": "B",
+          "text": "Die Designphase ist abgeschlossen, aber die Entwicklung ist noch in Bearbeitung.",
+          "text_cz": "Fáze designu je dokončena, ale vývoj stále probíhá."
+        },
+        {
+          "speaker": "A",
+          "text": "Gibt es Hindernisse?",
+          "text_cz": "Nějaké překážky?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, wir haben ein Hindernis bei der API-Integration.",
+          "text_cz": "Ano, máme překážku s integrací API."
+        },
+        {
+          "speaker": "A",
+          "text": "Okay, was sind die nächsten Schritte?",
+          "text_cz": "Dobře, jaké jsou další kroky?"
+        }
+      ]
+    },
+    {
+      "id": "conv_status_email",
+      "title": "Eine Statuszusammenfassung senden",
+      "title_cz": "Zaslání shrnutí stavu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Kannst du nach dem Meeting eine kurze Zusammenfassung per E-Mail senden?",
+          "text_cz": "Můžete po schůzce poslat krátké shrnutí e-mailem?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, ich aktualisiere auch das Board.",
+          "text_cz": "Jasně, také aktualizuji nástěnku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Statusupdate",
+      "options": [
+        "aktualizace stavu",
+        "překážka",
+        "další kroky"
+      ],
+      "correct": "aktualizace stavu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das Projekt liegt im Moment ___.",
+      "answer": "im Plan",
+      "hint_cz": "podle plánu / v pořádku"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte aktualisiert das Board nach dem Meeting.",
+      "answer": "das Board aktualisieren",
+      "hint_cz": "aktualizovat tabuli/nástěnku"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "abgeschlossen",
+          "cz": "dokončeno"
+        },
+        {
+          "target": "in Bearbeitung",
+          "cz": "probíhá"
+        },
+        {
+          "target": "die Zusammenfassung",
+          "cz": "shrnutí"
+        },
+        {
+          "target": "das Hindernis",
+          "cz": "překážka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lasst uns ein kurzes Statusupdate geben. Liegen wir im Plan?",
+      "tts_text": "Lasst uns ein kurzes Statusupdate geben. Liegen wir im Plan?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Die Designphase ist abgeschlossen, aber die Entwicklung ist noch in Bearbeitung.",
+      "tts_text": "Die Designphase ist abgeschlossen, aber die Entwicklung ist noch in Bearbeitung."
+    }
+  ]
+}

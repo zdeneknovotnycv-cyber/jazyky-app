@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_feelings_emotions_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Tired",
+  "title_cz": "Unavený",
+  "vocabulary": [
+    {
+      "word": "tired",
+      "translation_cz": "unavený",
+      "example": "I am very tired tonight.",
+      "example_cz": "Dnes večer jsem velmi unavený.",
+      "tts_text": "I am very tired tonight."
+    },
+    {
+      "word": "yawn",
+      "translation_cz": "zívat",
+      "example": "I yawn before bedtime.",
+      "example_cz": "Před spaním zívám.",
+      "tts_text": "I yawn before bedtime."
+    },
+    {
+      "word": "sleepy",
+      "translation_cz": "ospalý",
+      "example": "My little brother looks sleepy.",
+      "example_cz": "Můj malý bratr vypadá ospale.",
+      "tts_text": "My little brother looks sleepy."
+    },
+    {
+      "word": "rest",
+      "translation_cz": "odpočívat",
+      "example": "I need to rest for a while.",
+      "example_cz": "Potřebuji si chvíli odpočinout.",
+      "tts_text": "I need to rest for a while."
+    },
+    {
+      "word": "exhausted",
+      "translation_cz": "vyčerpaný",
+      "example": "After the game I felt exhausted.",
+      "example_cz": "Po zápase jsem se cítil vyčerpaný.",
+      "tts_text": "After the game I felt exhausted."
+    },
+    {
+      "word": "nap",
+      "translation_cz": "odpolední spánek",
+      "example": "I take a nap after lunch.",
+      "example_cz": "Po obědě si dávám odpolední spánek.",
+      "tts_text": "I take a nap after lunch."
+    },
+    {
+      "word": "energy",
+      "translation_cz": "energie",
+      "example": "I have no energy left.",
+      "example_cz": "Nemám už žádnou energii.",
+      "tts_text": "I have no energy left."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "tired",
+      "options": [
+        "unavený",
+        "smutný",
+        "radost"
+      ],
+      "correct": "unavený"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am very ___ tonight.",
+      "answer": "tired",
+      "hint_cz": "unavený"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "yawn",
+          "cz": "zívat"
+        },
+        {
+          "target": "sleepy",
+          "cz": "ospalý"
+        },
+        {
+          "target": "rest",
+          "cz": "odpočívat"
+        },
+        {
+          "target": "exhausted",
+          "cz": "vyčerpaný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I need to rest for a while.",
+      "tts_text": "I need to rest for a while."
+    }
+  ]
+}

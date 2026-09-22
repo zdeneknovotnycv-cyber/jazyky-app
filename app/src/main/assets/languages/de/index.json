@@ -1,6 +1,1482 @@
 {
-  "language": "de",
   "lessons": [
+    {
+      "id": "de_adult_corporate_beginner_01",
+      "file": "lesson_adult_corporate_beginner_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "První den v kanceláři"
+    },
+    {
+      "id": "de_adult_corporate_business_travel_01",
+      "file": "lesson_corporate_business_travel_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Rezervace pracovní cesty"
+    },
+    {
+      "id": "de_adult_corporate_business_travel_02",
+      "file": "lesson_corporate_business_travel_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Na letišti služebně"
+    },
+    {
+      "id": "de_adult_corporate_business_travel_03",
+      "file": "lesson_corporate_business_travel_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Ubytování v hotelu"
+    },
+    {
+      "id": "de_adult_corporate_business_travel_04",
+      "file": "lesson_corporate_business_travel_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Pronájem auta na služební cestu"
+    },
+    {
+      "id": "de_adult_corporate_business_travel_05",
+      "file": "lesson_corporate_business_travel_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Vyúčtování cestovních nákladů"
+    },
+    {
+      "id": "de_adult_corporate_business_travel_06",
+      "file": "lesson_corporate_business_travel_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Schůzka s klientem v zahraničí"
+    },
+    {
+      "id": "de_adult_corporate_business_travel_07",
+      "file": "lesson_corporate_business_travel_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuze o cestovním plánu"
+    },
+    {
+      "id": "de_adult_corporate_business_travel_08",
+      "file": "lesson_corporate_business_travel_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Komunikace při zpoždění letu"
+    },
+    {
+      "id": "de_adult_corporate_business_travel_09",
+      "file": "lesson_corporate_business_travel_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Etiketa pracovní večeře"
+    },
+    {
+      "id": "de_adult_corporate_business_travel_10",
+      "file": "lesson_corporate_business_travel_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Balení na služební cestu"
+    },
+    {
+      "id": "de_adult_corporate_career_development_01",
+      "file": "lesson_corporate_career_development_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuze o kariérních cílech"
+    },
+    {
+      "id": "de_adult_corporate_career_development_02",
+      "file": "lesson_corporate_career_development_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost o školení"
+    },
+    {
+      "id": "de_adult_corporate_career_development_03",
+      "file": "lesson_corporate_career_development_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Mentorování kolegy"
+    },
+    {
+      "id": "de_adult_corporate_career_development_04",
+      "file": "lesson_corporate_career_development_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuze o nové pracovní příležitosti"
+    },
+    {
+      "id": "de_adult_corporate_career_development_05",
+      "file": "lesson_corporate_career_development_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Příprava aktualizace životopisu"
+    },
+    {
+      "id": "de_adult_corporate_career_development_06",
+      "file": "lesson_corporate_career_development_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuze o profilu na LinkedIn"
+    },
+    {
+      "id": "de_adult_corporate_career_development_07",
+      "file": "lesson_corporate_career_development_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuze o dalším vzdělávání"
+    },
+    {
+      "id": "de_adult_corporate_career_development_08",
+      "file": "lesson_corporate_career_development_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Budování kontaktů pro kariérní růst"
+    },
+    {
+      "id": "de_adult_corporate_career_development_09",
+      "file": "lesson_corporate_career_development_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuze o rovnováze mezi prací a životem"
+    },
+    {
+      "id": "de_adult_corporate_career_development_10",
+      "file": "lesson_corporate_career_development_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Plánování dalších kariérních kroků"
+    },
+    {
+      "id": "de_adult_corporate_customer_service_01",
+      "file": "lesson_corporate_customer_service_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Přivítání zákazníka"
+    },
+    {
+      "id": "de_adult_corporate_customer_service_02",
+      "file": "lesson_corporate_customer_service_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Vyřizování stížnosti"
+    },
+    {
+      "id": "de_adult_corporate_customer_service_03",
+      "file": "lesson_corporate_customer_service_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Omluva zákazníkovi"
+    },
+    {
+      "id": "de_adult_corporate_customer_service_04",
+      "file": "lesson_corporate_customer_service_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Vysvětlení zpoždění"
+    },
+    {
+      "id": "de_adult_corporate_customer_service_05",
+      "file": "lesson_corporate_customer_service_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Nabídnutí řešení"
+    },
+    {
+      "id": "de_adult_corporate_customer_service_06",
+      "file": "lesson_corporate_customer_service_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zpracování vrácení zboží"
+    },
+    {
+      "id": "de_adult_corporate_customer_service_07",
+      "file": "lesson_corporate_customer_service_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zodpovězení dotazů na produkt"
+    },
+    {
+      "id": "de_adult_corporate_customer_service_08",
+      "file": "lesson_corporate_customer_service_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zklidnění rozzlobeného zákazníka"
+    },
+    {
+      "id": "de_adult_corporate_customer_service_09",
+      "file": "lesson_corporate_customer_service_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Následné kontaktování zákazníka"
+    },
+    {
+      "id": "de_adult_corporate_customer_service_10",
+      "file": "lesson_corporate_customer_service_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Poděkování zákazníkovi za zpětnou vazbu"
+    },
+    {
+      "id": "de_adult_corporate_email_01",
+      "file": "lesson_corporate_email_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Napsání formálního e-mailu"
+    },
+    {
+      "id": "de_adult_corporate_email_02",
+      "file": "lesson_corporate_email_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Odpovídání na e-mail"
+    },
+    {
+      "id": "de_adult_corporate_email_03",
+      "file": "lesson_corporate_email_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost o informace e-mailem"
+    },
+    {
+      "id": "de_adult_corporate_email_04",
+      "file": "lesson_corporate_email_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Přiložení dokumentu"
+    },
+    {
+      "id": "de_adult_corporate_email_05",
+      "file": "lesson_corporate_email_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Vysvětlení kopie (CC) a skryté kopie (BCC)"
+    },
+    {
+      "id": "de_adult_corporate_email_06",
+      "file": "lesson_corporate_email_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Automatická odpověď mimo kancelář"
+    },
+    {
+      "id": "de_adult_corporate_email_07",
+      "file": "lesson_corporate_email_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Předmět e-mailu"
+    },
+    {
+      "id": "de_adult_corporate_email_08",
+      "file": "lesson_corporate_email_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Připomenutí nezodpovězeného e-mailu"
+    },
+    {
+      "id": "de_adult_corporate_email_09",
+      "file": "lesson_corporate_email_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Omluva e-mailem"
+    },
+    {
+      "id": "de_adult_corporate_email_10",
+      "file": "lesson_corporate_email_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Základy e-mailové etikety"
+    },
+    {
+      "id": "de_corporate_finance_budgets_01",
+      "file": "lesson_corporate_finance_budgets_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Rozhovor o rozpočtu"
+    },
+    {
+      "id": "de_corporate_finance_budgets_02",
+      "file": "lesson_corporate_finance_budgets_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Schválení výdaje"
+    },
+    {
+      "id": "de_corporate_finance_budgets_03",
+      "file": "lesson_corporate_finance_budgets_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Základy fakturace"
+    },
+    {
+      "id": "de_corporate_finance_budgets_04",
+      "file": "lesson_corporate_finance_budgets_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Upomínka o pozdní platbě"
+    },
+    {
+      "id": "de_corporate_finance_budgets_05",
+      "file": "lesson_corporate_finance_budgets_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Čtvrtletní finanční aktualizace"
+    },
+    {
+      "id": "de_corporate_finance_budgets_06",
+      "file": "lesson_corporate_finance_budgets_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Rozhovor o snižování nákladů"
+    },
+    {
+      "id": "de_corporate_finance_budgets_07",
+      "file": "lesson_corporate_finance_budgets_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost o objednávku"
+    },
+    {
+      "id": "de_corporate_finance_budgets_08",
+      "file": "lesson_corporate_finance_budgets_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Vysvětlení finanční zprávy"
+    },
+    {
+      "id": "de_corporate_finance_budgets_09",
+      "file": "lesson_corporate_finance_budgets_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Měny a směnné kurzy v práci"
+    },
+    {
+      "id": "de_corporate_finance_budgets_10",
+      "file": "lesson_corporate_finance_budgets_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Výkazy výdajů"
+    },
+    {
+      "id": "de_corporate_hr_recruitment_01",
+      "file": "lesson_corporate_hr_recruitment_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Otázky u pracovního pohovoru"
+    },
+    {
+      "id": "de_corporate_hr_recruitment_02",
+      "file": "lesson_corporate_hr_recruitment_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Popis vlastních zkušeností"
+    },
+    {
+      "id": "de_corporate_hr_recruitment_03",
+      "file": "lesson_corporate_hr_recruitment_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Rozhovor o platových požadavcích"
+    },
+    {
+      "id": "de_corporate_hr_recruitment_04",
+      "file": "lesson_corporate_hr_recruitment_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zaškolení nového zaměstnance"
+    },
+    {
+      "id": "de_corporate_hr_recruitment_05",
+      "file": "lesson_corporate_hr_recruitment_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost o dovolenou"
+    },
+    {
+      "id": "de_corporate_hr_recruitment_06",
+      "file": "lesson_corporate_hr_recruitment_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Nahlášení nemocenské"
+    },
+    {
+      "id": "de_corporate_hr_recruitment_07",
+      "file": "lesson_corporate_hr_recruitment_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Základy hodnocení výkonu"
+    },
+    {
+      "id": "de_corporate_hr_recruitment_08",
+      "file": "lesson_corporate_hr_recruitment_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Podání výpovědi"
+    },
+    {
+      "id": "de_corporate_hr_recruitment_09",
+      "file": "lesson_corporate_hr_recruitment_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Rozhovor o zaměstnaneckých benefitech"
+    },
+    {
+      "id": "de_corporate_hr_recruitment_10",
+      "file": "lesson_corporate_hr_recruitment_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Pracovní pravidla"
+    },
+    {
+      "id": "de_corporate_it_support_01",
+      "file": "lesson_corporate_it_support_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Nahlášení technického problému"
+    },
+    {
+      "id": "de_corporate_it_support_02",
+      "file": "lesson_corporate_it_support_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost o pomoc IT oddělení"
+    },
+    {
+      "id": "de_adult_corporate_it_support_03",
+      "file": "lesson_corporate_it_support_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost o obnovení hesla"
+    },
+    {
+      "id": "de_adult_corporate_it_support_04",
+      "file": "lesson_corporate_it_support_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost o instalaci softwaru"
+    },
+    {
+      "id": "de_adult_corporate_it_support_05",
+      "file": "lesson_corporate_it_support_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Vysvětlení chyby (bugu)"
+    },
+    {
+      "id": "de_adult_corporate_it_support_06",
+      "file": "lesson_corporate_it_support_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Nastavení nového notebooku"
+    },
+    {
+      "id": "de_adult_corporate_it_support_07",
+      "file": "lesson_corporate_it_support_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "VPN a vzdálený přístup"
+    },
+    {
+      "id": "de_adult_corporate_it_support_08",
+      "file": "lesson_corporate_it_support_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost o zálohu dat"
+    },
+    {
+      "id": "de_adult_corporate_it_support_09",
+      "file": "lesson_corporate_it_support_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Základy kybernetické bezpečnosti v práci"
+    },
+    {
+      "id": "de_adult_corporate_it_support_10",
+      "file": "lesson_corporate_it_support_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost o nové vybavení"
+    },
+    {
+      "id": "de_adult_corporate_legal_contracts_01",
+      "file": "lesson_corporate_legal_contracts_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuze o smlouvě"
+    },
+    {
+      "id": "de_adult_corporate_legal_contracts_02",
+      "file": "lesson_corporate_legal_contracts_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Základy dohody o mlčenlivosti"
+    },
+    {
+      "id": "de_adult_corporate_legal_contracts_03",
+      "file": "lesson_corporate_legal_contracts_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Obchodní podmínky"
+    },
+    {
+      "id": "de_adult_corporate_legal_contracts_04",
+      "file": "lesson_corporate_legal_contracts_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Podpis dokumentu"
+    },
+    {
+      "id": "de_adult_corporate_legal_contracts_05",
+      "file": "lesson_corporate_legal_contracts_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost o právní kontrolu"
+    },
+    {
+      "id": "de_adult_corporate_legal_contracts_06",
+      "file": "lesson_corporate_legal_contracts_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Termín ve smlouvě"
+    },
+    {
+      "id": "de_adult_corporate_legal_contracts_07",
+      "file": "lesson_corporate_legal_contracts_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Vysvětlení doložky"
+    },
+    {
+      "id": "de_adult_corporate_legal_contracts_08",
+      "file": "lesson_corporate_legal_contracts_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Základy ochrany osobních údajů v práci"
+    },
+    {
+      "id": "de_adult_corporate_legal_contracts_09",
+      "file": "lesson_corporate_legal_contracts_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Připomínka školení o dodržování předpisů"
+    },
+    {
+      "id": "de_adult_corporate_legal_contracts_10",
+      "file": "lesson_corporate_legal_contracts_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Jednání o obnovení smlouvy"
+    },
+    {
+      "id": "de_adult_corporate_marketing_01",
+      "file": "lesson_corporate_marketing_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuze o marketingové kampani"
+    },
+    {
+      "id": "de_adult_corporate_marketing_02",
+      "file": "lesson_corporate_marketing_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Strategie sociálních sítí"
+    },
+    {
+      "id": "de_adult_corporate_marketing_03",
+      "file": "lesson_corporate_marketing_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Pravidla značky"
+    },
+    {
+      "id": "de_adult_corporate_marketing_04",
+      "file": "lesson_corporate_marketing_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zpětná vazba zákazníků pro marketing"
+    },
+    {
+      "id": "de_adult_corporate_marketing_05",
+      "file": "lesson_corporate_marketing_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuze o aktualizaci webu"
+    },
+    {
+      "id": "de_adult_corporate_marketing_06",
+      "file": "lesson_corporate_marketing_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Plánování uvedení produktu na trh"
+    },
+    {
+      "id": "de_adult_corporate_marketing_07",
+      "file": "lesson_corporate_marketing_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuze o marketingovém rozpočtu"
+    },
+    {
+      "id": "de_adult_corporate_marketing_08",
+      "file": "lesson_corporate_marketing_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Analýza marketingových výsledků"
+    },
+    {
+      "id": "de_adult_corporate_marketing_09",
+      "file": "lesson_corporate_marketing_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Obsahový kalendář"
+    },
+    {
+      "id": "de_adult_corporate_marketing_10",
+      "file": "lesson_corporate_marketing_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Základy analýzy konkurence"
+    },
+    {
+      "id": "de_adult_corporate_meetings_intros_01",
+      "file": "lesson_corporate_meetings_intros_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Představení v práci"
+    },
+    {
+      "id": "de_adult_corporate_meetings_intros_02",
+      "file": "lesson_corporate_meetings_intros_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Představení kolegy"
+    },
+    {
+      "id": "de_adult_corporate_meetings_intros_03",
+      "file": "lesson_corporate_meetings_intros_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zahájení schůzky"
+    },
+    {
+      "id": "de_adult_corporate_meetings_intros_04",
+      "file": "lesson_corporate_meetings_intros_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Ukončení schůzky"
+    },
+    {
+      "id": "de_adult_corporate_meetings_intros_05",
+      "file": "lesson_corporate_meetings_intros_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Sestavení programu jednání"
+    },
+    {
+      "id": "de_adult_corporate_meetings_intros_06",
+      "file": "lesson_corporate_meetings_intros_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Konverzace před schůzkou"
+    },
+    {
+      "id": "de_adult_corporate_meetings_intros_07",
+      "file": "lesson_corporate_meetings_intros_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Pozdní příchod na schůzku"
+    },
+    {
+      "id": "de_adult_corporate_meetings_intros_08",
+      "file": "lesson_corporate_meetings_intros_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zápis z jednání"
+    },
+    {
+      "id": "de_adult_corporate_meetings_intros_09",
+      "file": "lesson_corporate_meetings_intros_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Následná komunikace po schůzce"
+    },
+    {
+      "id": "de_adult_corporate_meetings_intros_10",
+      "file": "lesson_corporate_meetings_intros_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Pravidelné týmové schůzky"
+    },
+    {
+      "id": "de_adult_corporate_negotiation_sales_01",
+      "file": "lesson_corporate_negotiation_sales_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zahájení obchodního hovoru"
+    },
+    {
+      "id": "de_adult_corporate_negotiation_sales_02",
+      "file": "lesson_corporate_negotiation_sales_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Prezentace produktu"
+    },
+    {
+      "id": "de_adult_corporate_negotiation_sales_03",
+      "file": "lesson_corporate_negotiation_sales_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Reakce na námitky"
+    },
+    {
+      "id": "de_adult_corporate_negotiation_sales_04",
+      "file": "lesson_corporate_negotiation_sales_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Jednání o ceně"
+    },
+    {
+      "id": "de_adult_corporate_negotiation_sales_05",
+      "file": "lesson_corporate_negotiation_sales_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Uzavření obchodu"
+    },
+    {
+      "id": "de_adult_corporate_negotiation_sales_06",
+      "file": "lesson_corporate_negotiation_sales_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Následná komunikace s klientem"
+    },
+    {
+      "id": "de_adult_corporate_negotiation_sales_07",
+      "file": "lesson_corporate_negotiation_sales_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Vyjednávání podmínek"
+    },
+    {
+      "id": "de_adult_corporate_negotiation_sales_08",
+      "file": "lesson_corporate_negotiation_sales_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuze o smlouvě"
+    },
+    {
+      "id": "de_adult_corporate_negotiation_sales_09",
+      "file": "lesson_corporate_negotiation_sales_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zdvořilé doprodávání"
+    },
+    {
+      "id": "de_adult_corporate_negotiation_sales_10",
+      "file": "lesson_corporate_negotiation_sales_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Poděkování klientovi za obchod"
+    },
+    {
+      "id": "de_adult_corporate_office_life_01",
+      "file": "lesson_corporate_office_life_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost o kancelářské potřeby"
+    },
+    {
+      "id": "de_adult_corporate_office_life_02",
+      "file": "lesson_corporate_office_life_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Rezervace stolu (hot-desking)"
+    },
+    {
+      "id": "de_adult_corporate_office_life_03",
+      "file": "lesson_corporate_office_life_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Etiketa v kancelářské kuchyňce"
+    },
+    {
+      "id": "de_adult_corporate_office_life_04",
+      "file": "lesson_corporate_office_life_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Instrukce pro požární cvičení"
+    },
+    {
+      "id": "de_adult_corporate_office_life_05",
+      "file": "lesson_corporate_office_life_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Přístup do budovy a identifikační karty"
+    },
+    {
+      "id": "de_adult_corporate_office_life_06",
+      "file": "lesson_corporate_office_life_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Kancelářský dress code"
+    },
+    {
+      "id": "de_adult_corporate_office_life_07",
+      "file": "lesson_corporate_office_life_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Parkování u kanceláře"
+    },
+    {
+      "id": "de_adult_corporate_office_life_08",
+      "file": "lesson_corporate_office_life_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Oznámení o stěhování kanceláře"
+    },
+    {
+      "id": "de_adult_corporate_office_life_09",
+      "file": "lesson_corporate_office_life_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost o práci z domova"
+    },
+    {
+      "id": "de_adult_corporate_office_life_10",
+      "file": "lesson_corporate_office_life_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Řešení problémů s kancelářským vybavením"
+    },
+    {
+      "id": "de_adult_corporate_performance_feedback_01",
+      "file": "lesson_corporate_performance_feedback_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Poskytování pozitivní zpětné vazby"
+    },
+    {
+      "id": "de_adult_corporate_performance_feedback_02",
+      "file": "lesson_corporate_performance_feedback_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Poskytování konstruktivní kritiky"
+    },
+    {
+      "id": "de_adult_corporate_performance_feedback_03",
+      "file": "lesson_corporate_performance_feedback_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Přijímání zpětné vazby s grácií"
+    },
+    {
+      "id": "de_adult_corporate_performance_feedback_04",
+      "file": "lesson_corporate_performance_feedback_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Stanovování cílů s manažerem"
+    },
+    {
+      "id": "de_adult_corporate_performance_feedback_05",
+      "file": "lesson_corporate_performance_feedback_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuse o povýšení"
+    },
+    {
+      "id": "de_adult_corporate_performance_feedback_06",
+      "file": "lesson_corporate_performance_feedback_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Základy sebehodnocení"
+    },
+    {
+      "id": "de_adult_corporate_performance_feedback_07",
+      "file": "lesson_corporate_performance_feedback_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuse o kariérním růstu"
+    },
+    {
+      "id": "de_adult_corporate_performance_feedback_08",
+      "file": "lesson_corporate_performance_feedback_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zpětná vazba od kolegů"
+    },
+    {
+      "id": "de_adult_corporate_performance_feedback_09",
+      "file": "lesson_corporate_performance_feedback_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Základy 360stupňového hodnocení"
+    },
+    {
+      "id": "de_adult_corporate_performance_feedback_10",
+      "file": "lesson_corporate_performance_feedback_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Diskuse o navýšení platu"
+    },
+    {
+      "id": "de_adult_corporate_phone_video_calls_01",
+      "file": "lesson_corporate_phone_video_calls_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Přijetí pracovního hovoru"
+    },
+    {
+      "id": "de_adult_corporate_phone_video_calls_02",
+      "file": "lesson_corporate_phone_video_calls_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Telefonování klientovi"
+    },
+    {
+      "id": "de_adult_corporate_phone_video_calls_03",
+      "file": "lesson_corporate_phone_video_calls_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Nechání vzkazu v hlasové schránce"
+    },
+    {
+      "id": "de_adult_corporate_phone_video_calls_04",
+      "file": "lesson_corporate_phone_video_calls_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Připojení k videohovoru"
+    },
+    {
+      "id": "de_adult_corporate_phone_video_calls_05",
+      "file": "lesson_corporate_phone_video_calls_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Technické problémy při hovoru"
+    },
+    {
+      "id": "de_adult_corporate_phone_video_calls_06",
+      "file": "lesson_corporate_phone_video_calls_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zdvořilé ukončení hovoru"
+    },
+    {
+      "id": "de_adult_corporate_phone_video_calls_07",
+      "file": "lesson_corporate_phone_video_calls_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Domluvení telefonního hovoru"
+    },
+    {
+      "id": "de_adult_corporate_phone_video_calls_08",
+      "file": "lesson_corporate_phone_video_calls_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Konferenční hovory s více lidmi"
+    },
+    {
+      "id": "de_adult_corporate_phone_video_calls_09",
+      "file": "lesson_corporate_phone_video_calls_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Představení se v hovoru"
+    },
+    {
+      "id": "de_adult_corporate_phone_video_calls_10",
+      "file": "lesson_corporate_phone_video_calls_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Přeložení hovoru na jiný termín"
+    },
+    {
+      "id": "de_adult_corporate_problem_solving_01",
+      "file": "lesson_corporate_problem_solving_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Nahlášení problému nadřízenému"
+    },
+    {
+      "id": "de_adult_corporate_problem_solving_02",
+      "file": "lesson_corporate_problem_solving_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Návrh řešení"
+    },
+    {
+      "id": "de_adult_corporate_problem_solving_03",
+      "file": "lesson_corporate_problem_solving_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Řešení nedodrženého termínu"
+    },
+    {
+      "id": "de_adult_corporate_problem_solving_04",
+      "file": "lesson_corporate_problem_solving_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Řešení konfliktu s kolegou"
+    },
+    {
+      "id": "de_adult_corporate_problem_solving_05",
+      "file": "lesson_corporate_problem_solving_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Eskalace problému"
+    },
+    {
+      "id": "de_adult_corporate_problem_solving_06",
+      "file": "lesson_corporate_problem_solving_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Rozbor hlavní příčiny"
+    },
+    {
+      "id": "de_adult_corporate_problem_solving_07",
+      "file": "lesson_corporate_problem_solving_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Omluva za chybu v práci"
+    },
+    {
+      "id": "de_adult_corporate_problem_solving_08",
+      "file": "lesson_corporate_problem_solving_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zlepšení pracovního procesu"
+    },
+    {
+      "id": "de_adult_corporate_problem_solving_09",
+      "file": "lesson_corporate_problem_solving_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Interní řešení klientovy stížnosti"
+    },
+    {
+      "id": "de_adult_corporate_problem_solving_10",
+      "file": "lesson_corporate_problem_solving_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Základy krizové komunikace"
+    },
+    {
+      "id": "de_adult_corporate_project_management_01",
+      "file": "lesson_corporate_project_management_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zahájení projektu"
+    },
+    {
+      "id": "de_adult_corporate_project_management_02",
+      "file": "lesson_corporate_project_management_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Přidělování úkolů"
+    },
+    {
+      "id": "de_adult_corporate_project_management_03",
+      "file": "lesson_corporate_project_management_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Termíny projektu"
+    },
+    {
+      "id": "de_adult_corporate_project_management_04",
+      "file": "lesson_corporate_project_management_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Aktualizace stavu projektu"
+    },
+    {
+      "id": "de_adult_corporate_project_management_05",
+      "file": "lesson_corporate_project_management_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Rizika projektu"
+    },
+    {
+      "id": "de_adult_corporate_project_management_06",
+      "file": "lesson_corporate_project_management_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Milníky projektu"
+    },
+    {
+      "id": "de_adult_corporate_project_management_07",
+      "file": "lesson_corporate_project_management_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Prioritizace úkolů"
+    },
+    {
+      "id": "de_adult_corporate_project_management_08",
+      "file": "lesson_corporate_project_management_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Základy rozpočtu projektu"
+    },
+    {
+      "id": "de_adult_corporate_project_management_09",
+      "file": "lesson_corporate_project_management_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Plánování sprintu (agilní metody)"
+    },
+    {
+      "id": "de_adult_corporate_project_management_10",
+      "file": "lesson_corporate_project_management_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Uzavření projektu"
+    },
+    {
+      "id": "de_adult_corporate_reports_presentations_01",
+      "file": "lesson_corporate_reports_presentations_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zahájení prezentace"
+    },
+    {
+      "id": "de_adult_corporate_reports_presentations_02",
+      "file": "lesson_corporate_reports_presentations_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Prezentace dat a grafů"
+    },
+    {
+      "id": "de_adult_corporate_reports_presentations_03",
+      "file": "lesson_corporate_reports_presentations_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Shrnutí zprávy"
+    },
+    {
+      "id": "de_adult_corporate_reports_presentations_04",
+      "file": "lesson_corporate_reports_presentations_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Odpovídání na otázky po prezentaci"
+    },
+    {
+      "id": "de_adult_corporate_reports_presentations_05",
+      "file": "lesson_corporate_reports_presentations_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Struktura zprávy"
+    },
+    {
+      "id": "de_adult_corporate_reports_presentations_06",
+      "file": "lesson_corporate_reports_presentations_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Manažerské shrnutí"
+    },
+    {
+      "id": "de_adult_corporate_reports_presentations_07",
+      "file": "lesson_corporate_reports_presentations_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Prezentace vedení"
+    },
+    {
+      "id": "de_adult_corporate_reports_presentations_08",
+      "file": "lesson_corporate_reports_presentations_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zvládání trémy při prezentaci"
+    },
+    {
+      "id": "de_adult_corporate_reports_presentations_09",
+      "file": "lesson_corporate_reports_presentations_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Efektivní používání slidů"
+    },
+    {
+      "id": "de_adult_corporate_reports_presentations_10",
+      "file": "lesson_corporate_reports_presentations_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zakončení prezentace"
+    },
+    {
+      "id": "de_adult_corporate_scheduling_calendars_01",
+      "file": "lesson_corporate_scheduling_calendars_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Rezervace zasedací místnosti"
+    },
+    {
+      "id": "de_adult_corporate_scheduling_calendars_02",
+      "file": "lesson_corporate_scheduling_calendars_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Ověřování dostupnosti termínu"
+    },
+    {
+      "id": "de_adult_corporate_scheduling_calendars_03",
+      "file": "lesson_corporate_scheduling_calendars_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Navržení termínu schůzky"
+    },
+    {
+      "id": "de_adult_corporate_scheduling_calendars_04",
+      "file": "lesson_corporate_scheduling_calendars_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Přeložení schůzky na jiný termín"
+    },
+    {
+      "id": "de_adult_corporate_scheduling_calendars_05",
+      "file": "lesson_corporate_scheduling_calendars_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Časová pásma při plánování schůzek"
+    },
+    {
+      "id": "de_adult_corporate_scheduling_calendars_06",
+      "file": "lesson_corporate_scheduling_calendars_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Blokování času v kalendáři"
+    },
+    {
+      "id": "de_adult_corporate_scheduling_calendars_07",
+      "file": "lesson_corporate_scheduling_calendars_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Opakující se schůzky"
+    },
+    {
+      "id": "de_adult_corporate_scheduling_calendars_08",
+      "file": "lesson_corporate_scheduling_calendars_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Zrušení schůzky"
+    },
+    {
+      "id": "de_adult_corporate_scheduling_calendars_09",
+      "file": "lesson_corporate_scheduling_calendars_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Dva termíny ve stejném čase"
+    },
+    {
+      "id": "de_adult_corporate_scheduling_calendars_10",
+      "file": "lesson_corporate_scheduling_calendars_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Nastavení připomenutí"
+    },
+    {
+      "id": "de_adult_corporate_smalltalk_networking_01",
+      "file": "lesson_corporate_smalltalk_networking_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Společenská konverzace u kávovaru"
+    },
+    {
+      "id": "de_adult_corporate_smalltalk_networking_02",
+      "file": "lesson_corporate_smalltalk_networking_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Networking na konferenci"
+    },
+    {
+      "id": "de_adult_corporate_smalltalk_networking_03",
+      "file": "lesson_corporate_smalltalk_networking_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Výměna vizitek"
+    },
+    {
+      "id": "de_adult_corporate_smalltalk_networking_04",
+      "file": "lesson_corporate_smalltalk_networking_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Povídání o víkendu"
+    },
+    {
+      "id": "de_adult_corporate_smalltalk_networking_05",
+      "file": "lesson_corporate_smalltalk_networking_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Povídání o počasí v práci"
+    },
+    {
+      "id": "de_adult_corporate_smalltalk_networking_06",
+      "file": "lesson_corporate_smalltalk_networking_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Povídání o plánech na víkend"
+    },
+    {
+      "id": "de_adult_corporate_smalltalk_networking_07",
+      "file": "lesson_corporate_smalltalk_networking_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Gratulace kolegovi"
+    },
+    {
+      "id": "de_adult_corporate_smalltalk_networking_08",
+      "file": "lesson_corporate_smalltalk_networking_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Přivítání nového kolegy"
+    },
+    {
+      "id": "de_adult_corporate_smalltalk_networking_09",
+      "file": "lesson_corporate_smalltalk_networking_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Rozloučení s kolegou"
+    },
+    {
+      "id": "de_adult_corporate_smalltalk_networking_10",
+      "file": "lesson_corporate_smalltalk_networking_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Konverzace na firemním večírku"
+    },
+    {
+      "id": "de_adult_corporate_teamwork_01",
+      "file": "lesson_corporate_teamwork_01.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Delegování úkolu"
+    },
+    {
+      "id": "de_adult_corporate_teamwork_02",
+      "file": "lesson_corporate_teamwork_02.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Žádost kolegy o pomoc"
+    },
+    {
+      "id": "de_adult_corporate_teamwork_03",
+      "file": "lesson_corporate_teamwork_03.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Sdílení pracovní zátěže"
+    },
+    {
+      "id": "de_adult_corporate_teamwork_04",
+      "file": "lesson_corporate_teamwork_04.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Brainstorming v týmu"
+    },
+    {
+      "id": "de_adult_corporate_teamwork_05",
+      "file": "lesson_corporate_teamwork_05.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Spolupráce napříč odděleními"
+    },
+    {
+      "id": "de_adult_corporate_teamwork_06",
+      "file": "lesson_corporate_teamwork_06.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Aktivita na budování týmu"
+    },
+    {
+      "id": "de_adult_corporate_teamwork_07",
+      "file": "lesson_corporate_teamwork_07.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Řešení neshody v týmu"
+    },
+    {
+      "id": "de_adult_corporate_teamwork_08",
+      "file": "lesson_corporate_teamwork_08.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Oslava týmového úspěchu"
+    },
+    {
+      "id": "de_adult_corporate_teamwork_09",
+      "file": "lesson_corporate_teamwork_09.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Spolupráce vzdáleného týmu"
+    },
+    {
+      "id": "de_adult_corporate_teamwork_10",
+      "file": "lesson_corporate_teamwork_10.json",
+      "audience": "adult_corporate",
+      "level": "beginner",
+      "title_cz": "Představení týmu novým členům"
+    },
+    {
+      "id": "de_kids_animals_01",
+      "file": "lesson_kids_animals_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Domácí mazlíčci"
+    },
+    {
+      "id": "de_kids_animals_02",
+      "file": "lesson_kids_animals_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Zvířata na farmě"
+    },
+    {
+      "id": "de_kids_animals_03",
+      "file": "lesson_kids_animals_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Divoká zvířata"
+    },
+    {
+      "id": "de_kids_animals_04",
+      "file": "lesson_kids_animals_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Zvířata v zoo"
+    },
+    {
+      "id": "de_kids_animals_05",
+      "file": "lesson_kids_animals_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Hmyz"
+    },
+    {
+      "id": "de_kids_animals_06",
+      "file": "lesson_kids_animals_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Ptáci"
+    },
+    {
+      "id": "de_kids_animals_07",
+      "file": "lesson_kids_animals_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Mořská zvířata"
+    },
+    {
+      "id": "de_kids_animals_08",
+      "file": "lesson_kids_animals_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Zvuky zvířat"
+    },
+    {
+      "id": "de_kids_animals_09",
+      "file": "lesson_kids_animals_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Péče o mazlíčka"
+    },
+    {
+      "id": "de_kids_animals_10",
+      "file": "lesson_kids_animals_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Ohrožená zvířata"
+    },
     {
       "id": "de_kids_beginner_01",
       "file": "lesson_kids_beginner_01.json",
@@ -9,11 +1485,1334 @@
       "title_cz": "Moje rodina a zvířata"
     },
     {
-      "id": "de_adult_corporate_beginner_01",
-      "file": "lesson_adult_corporate_beginner_01.json",
-      "audience": "adult_corporate",
+      "id": "de_kids_birthday_celebrations_01",
+      "file": "lesson_kids_birthday_celebrations_01.json",
+      "audience": "kids",
       "level": "beginner",
-      "title_cz": "První den v kanceláři"
+      "title_cz": "Narozeninová oslava"
+    },
+    {
+      "id": "de_kids_birthday_celebrations_02",
+      "file": "lesson_kids_birthday_celebrations_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Vánoce"
+    },
+    {
+      "id": "de_kids_birthday_celebrations_03",
+      "file": "lesson_kids_birthday_celebrations_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Velikonoce"
+    },
+    {
+      "id": "de_kids_birthday_celebrations_04",
+      "file": "lesson_kids_birthday_celebrations_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Nový rok"
+    },
+    {
+      "id": "de_kids_birthday_celebrations_05",
+      "file": "lesson_kids_birthday_celebrations_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Halloween (jednoduše)"
+    },
+    {
+      "id": "de_kids_birthday_celebrations_06",
+      "file": "lesson_kids_birthday_celebrations_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Rodinné oslavy"
+    },
+    {
+      "id": "de_kids_birthday_celebrations_07",
+      "file": "lesson_kids_birthday_celebrations_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Dárky a přání"
+    },
+    {
+      "id": "de_kids_birthday_celebrations_08",
+      "file": "lesson_kids_birthday_celebrations_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Narozeninový dort"
+    },
+    {
+      "id": "de_kids_birthday_celebrations_09",
+      "file": "lesson_kids_birthday_celebrations_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Hry na oslavě"
+    },
+    {
+      "id": "de_kids_birthday_celebrations_10",
+      "file": "lesson_kids_birthday_celebrations_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Zvaní kamarádů"
+    },
+    {
+      "id": "de_kids_body_health_01",
+      "file": "lesson_kids_body_health_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Části těla"
+    },
+    {
+      "id": "de_kids_body_health_02",
+      "file": "lesson_kids_body_health_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Obličej a hlava"
+    },
+    {
+      "id": "de_kids_body_health_03",
+      "file": "lesson_kids_body_health_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Když je mi špatně"
+    },
+    {
+      "id": "de_kids_body_health_04",
+      "file": "lesson_kids_body_health_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "U doktora"
+    },
+    {
+      "id": "de_kids_body_health_05",
+      "file": "lesson_kids_body_health_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "U zubaře"
+    },
+    {
+      "id": "de_kids_body_health_06",
+      "file": "lesson_kids_body_health_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Zdravé jídlo a nezdravé jídlo"
+    },
+    {
+      "id": "de_kids_body_health_07",
+      "file": "lesson_kids_body_health_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Mytí a hygiena"
+    },
+    {
+      "id": "de_kids_body_health_08",
+      "file": "lesson_kids_body_health_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Spánek a večerka"
+    },
+    {
+      "id": "de_kids_body_health_09",
+      "file": "lesson_kids_body_health_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Cvičení pro děti"
+    },
+    {
+      "id": "de_kids_body_health_10",
+      "file": "lesson_kids_body_health_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Základy první pomoci"
+    },
+    {
+      "id": "de_kids_clothes_01",
+      "file": "lesson_kids_clothes_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Běžné oblečení"
+    },
+    {
+      "id": "de_kids_clothes_02",
+      "file": "lesson_kids_clothes_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Zimní oblečení"
+    },
+    {
+      "id": "de_kids_clothes_03",
+      "file": "lesson_kids_clothes_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Letní oblečení"
+    },
+    {
+      "id": "de_kids_clothes_04",
+      "file": "lesson_kids_clothes_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Boty"
+    },
+    {
+      "id": "de_kids_clothes_05",
+      "file": "lesson_kids_clothes_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Oblékání"
+    },
+    {
+      "id": "de_kids_clothes_06",
+      "file": "lesson_kids_clothes_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Barvy oblečení"
+    },
+    {
+      "id": "de_kids_clothes_07",
+      "file": "lesson_kids_clothes_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Školní uniforma"
+    },
+    {
+      "id": "de_kids_clothes_08",
+      "file": "lesson_kids_clothes_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Oblečení do deště"
+    },
+    {
+      "id": "de_kids_clothes_09",
+      "file": "lesson_kids_clothes_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Kostýmy a převleky"
+    },
+    {
+      "id": "de_kids_clothes_10",
+      "file": "lesson_kids_clothes_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Praní prádla"
+    },
+    {
+      "id": "de_kids_daily_routine_01",
+      "file": "lesson_kids_daily_routine_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Ranní vstávání"
+    },
+    {
+      "id": "de_kids_daily_routine_02",
+      "file": "lesson_kids_daily_routine_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Příprava do školy"
+    },
+    {
+      "id": "de_kids_daily_routine_03",
+      "file": "lesson_kids_daily_routine_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Snídaňový rituál"
+    },
+    {
+      "id": "de_kids_daily_routine_04",
+      "file": "lesson_kids_daily_routine_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Odpolední aktivity po škole"
+    },
+    {
+      "id": "de_kids_daily_routine_05",
+      "file": "lesson_kids_daily_routine_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Čas na domácí úkoly"
+    },
+    {
+      "id": "de_kids_daily_routine_06",
+      "file": "lesson_kids_daily_routine_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Čas na hraní"
+    },
+    {
+      "id": "de_kids_daily_routine_07",
+      "file": "lesson_kids_daily_routine_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Večeře s rodinou"
+    },
+    {
+      "id": "de_kids_daily_routine_08",
+      "file": "lesson_kids_daily_routine_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Koupání"
+    },
+    {
+      "id": "de_kids_daily_routine_09",
+      "file": "lesson_kids_daily_routine_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Rituál před spaním"
+    },
+    {
+      "id": "de_kids_daily_routine_10",
+      "file": "lesson_kids_daily_routine_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Víkendový program"
+    },
+    {
+      "id": "de_kids_family_people_01",
+      "file": "lesson_kids_family_people_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Nejbližší rodina"
+    },
+    {
+      "id": "de_kids_family_people_02",
+      "file": "lesson_kids_family_people_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Širší rodina"
+    },
+    {
+      "id": "de_kids_family_people_03",
+      "file": "lesson_kids_family_people_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Popis lidí"
+    },
+    {
+      "id": "de_kids_family_people_04",
+      "file": "lesson_kids_family_people_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Přátelé"
+    },
+    {
+      "id": "de_kids_family_people_05",
+      "file": "lesson_kids_family_people_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Věk a narozeniny"
+    },
+    {
+      "id": "de_kids_family_people_06",
+      "file": "lesson_kids_family_people_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Kde lidé bydlí"
+    },
+    {
+      "id": "de_kids_family_people_07",
+      "file": "lesson_kids_family_people_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Zaměstnání rodičů"
+    },
+    {
+      "id": "de_kids_family_people_08",
+      "file": "lesson_kids_family_people_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Miminko v rodině"
+    },
+    {
+      "id": "de_kids_family_people_09",
+      "file": "lesson_kids_family_people_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Domácí mazlíčci"
+    },
+    {
+      "id": "de_kids_family_people_10",
+      "file": "lesson_kids_family_people_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Rodinné fotky a vzpomínky"
+    },
+    {
+      "id": "de_kids_feelings_emotions_01",
+      "file": "lesson_kids_feelings_emotions_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Šťastný a smutný"
+    },
+    {
+      "id": "de_kids_feelings_emotions_02",
+      "file": "lesson_kids_feelings_emotions_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Naštvaný a klidný"
+    },
+    {
+      "id": "de_kids_feelings_emotions_03",
+      "file": "lesson_kids_feelings_emotions_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Vyděšený a statečný"
+    },
+    {
+      "id": "de_kids_feelings_emotions_04",
+      "file": "lesson_kids_feelings_emotions_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Nadšený"
+    },
+    {
+      "id": "de_kids_feelings_emotions_05",
+      "file": "lesson_kids_feelings_emotions_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Unavený"
+    },
+    {
+      "id": "de_kids_feelings_emotions_06",
+      "file": "lesson_kids_feelings_emotions_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Znuděný"
+    },
+    {
+      "id": "de_kids_feelings_emotions_07",
+      "file": "lesson_kids_feelings_emotions_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Překvapený"
+    },
+    {
+      "id": "de_kids_feelings_emotions_08",
+      "file": "lesson_kids_feelings_emotions_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Hrdý"
+    },
+    {
+      "id": "de_kids_feelings_emotions_09",
+      "file": "lesson_kids_feelings_emotions_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Stydlivý"
+    },
+    {
+      "id": "de_kids_feelings_emotions_10",
+      "file": "lesson_kids_feelings_emotions_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Mluvení o pocitech"
+    },
+    {
+      "id": "de_kids_food_drinks_01",
+      "file": "lesson_kids_food_drinks_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Snídaně"
+    },
+    {
+      "id": "de_kids_food_drinks_02",
+      "file": "lesson_kids_food_drinks_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Oběd"
+    },
+    {
+      "id": "de_kids_food_drinks_03",
+      "file": "lesson_kids_food_drinks_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Večeře"
+    },
+    {
+      "id": "de_kids_food_drinks_04",
+      "file": "lesson_kids_food_drinks_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Ovoce"
+    },
+    {
+      "id": "de_kids_food_drinks_05",
+      "file": "lesson_kids_food_drinks_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Zelenina"
+    },
+    {
+      "id": "de_kids_food_drinks_06",
+      "file": "lesson_kids_food_drinks_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Sladkosti a dezerty"
+    },
+    {
+      "id": "de_kids_food_drinks_07",
+      "file": "lesson_kids_food_drinks_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Nápoje"
+    },
+    {
+      "id": "de_kids_food_drinks_08",
+      "file": "lesson_kids_food_drinks_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "V restauraci (dětské menu)"
+    },
+    {
+      "id": "de_kids_food_drinks_09",
+      "file": "lesson_kids_food_drinks_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Vaření s rodiči"
+    },
+    {
+      "id": "de_kids_food_drinks_10",
+      "file": "lesson_kids_food_drinks_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Co mám a nemám rád na jídle"
+    },
+    {
+      "id": "de_kids_home_rooms_01",
+      "file": "lesson_kids_home_rooms_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Místnosti v domě"
+    },
+    {
+      "id": "de_kids_home_rooms_02",
+      "file": "lesson_kids_home_rooms_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Nábytek v ložnici"
+    },
+    {
+      "id": "de_kids_home_rooms_03",
+      "file": "lesson_kids_home_rooms_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Věci v kuchyni"
+    },
+    {
+      "id": "de_kids_home_rooms_04",
+      "file": "lesson_kids_home_rooms_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Věci v koupelně"
+    },
+    {
+      "id": "de_kids_home_rooms_05",
+      "file": "lesson_kids_home_rooms_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Obývací pokoj a televize"
+    },
+    {
+      "id": "de_kids_home_rooms_06",
+      "file": "lesson_kids_home_rooms_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Zahrada"
+    },
+    {
+      "id": "de_kids_home_rooms_07",
+      "file": "lesson_kids_home_rooms_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Uklízení domu"
+    },
+    {
+      "id": "de_kids_home_rooms_08",
+      "file": "lesson_kids_home_rooms_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Stěhování do nového domova"
+    },
+    {
+      "id": "de_kids_home_rooms_09",
+      "file": "lesson_kids_home_rooms_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Můj vlastní pokoj"
+    },
+    {
+      "id": "de_kids_home_rooms_10",
+      "file": "lesson_kids_home_rooms_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Byt versus dům"
+    },
+    {
+      "id": "de_kids_imagination_stories_01",
+      "file": "lesson_kids_imagination_stories_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Výlet do vesmíru"
+    },
+    {
+      "id": "de_kids_imagination_stories_02",
+      "file": "lesson_kids_imagination_stories_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Kouzelný les"
+    },
+    {
+      "id": "de_kids_imagination_stories_03",
+      "file": "lesson_kids_imagination_stories_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Den superhrdiny"
+    },
+    {
+      "id": "de_kids_imagination_stories_04",
+      "file": "lesson_kids_imagination_stories_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Dobrodružství pod mořem"
+    },
+    {
+      "id": "de_kids_imagination_stories_05",
+      "file": "lesson_kids_imagination_stories_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Dobrodružství s dinosaury"
+    },
+    {
+      "id": "de_kids_imagination_stories_06",
+      "file": "lesson_kids_imagination_stories_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Pirátská loď"
+    },
+    {
+      "id": "de_kids_imagination_stories_07",
+      "file": "lesson_kids_imagination_stories_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Hrad a drak"
+    },
+    {
+      "id": "de_kids_imagination_stories_08",
+      "file": "lesson_kids_imagination_stories_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Příběh o mluvícím zvířeti"
+    },
+    {
+      "id": "de_kids_imagination_stories_09",
+      "file": "lesson_kids_imagination_stories_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Vynalezený stroj"
+    },
+    {
+      "id": "de_kids_imagination_stories_10",
+      "file": "lesson_kids_imagination_stories_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Moje vysněná dovolená"
+    },
+    {
+      "id": "de_kids_nature_outdoors_01",
+      "file": "lesson_kids_nature_outdoors_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Stromy a lesy"
+    },
+    {
+      "id": "de_kids_nature_outdoors_02",
+      "file": "lesson_kids_nature_outdoors_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Květiny a rostliny"
+    },
+    {
+      "id": "de_kids_nature_outdoors_03",
+      "file": "lesson_kids_nature_outdoors_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Slunce a měsíc"
+    },
+    {
+      "id": "de_kids_nature_outdoors_04",
+      "file": "lesson_kids_nature_outdoors_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Hvězdy a obloha"
+    },
+    {
+      "id": "de_kids_nature_outdoors_05",
+      "file": "lesson_kids_nature_outdoors_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Hory"
+    },
+    {
+      "id": "de_kids_nature_outdoors_06",
+      "file": "lesson_kids_nature_outdoors_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Moře a pláž"
+    },
+    {
+      "id": "de_kids_nature_outdoors_07",
+      "file": "lesson_kids_nature_outdoors_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Řeky a jezera"
+    },
+    {
+      "id": "de_kids_nature_outdoors_08",
+      "file": "lesson_kids_nature_outdoors_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Kempování"
+    },
+    {
+      "id": "de_kids_nature_outdoors_09",
+      "file": "lesson_kids_nature_outdoors_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Procházka v přírodě"
+    },
+    {
+      "id": "de_kids_nature_outdoors_10",
+      "file": "lesson_kids_nature_outdoors_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Recyklace a příroda"
+    },
+    {
+      "id": "de_kids_numbers_colors_01",
+      "file": "lesson_kids_numbers_colors_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Čísla 1 až 10"
+    },
+    {
+      "id": "de_kids_numbers_colors_02",
+      "file": "lesson_kids_numbers_colors_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Čísla 11 až 20"
+    },
+    {
+      "id": "de_kids_numbers_colors_03",
+      "file": "lesson_kids_numbers_colors_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Počítání předmětů"
+    },
+    {
+      "id": "de_kids_numbers_colors_04",
+      "file": "lesson_kids_numbers_colors_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Základní barvy"
+    },
+    {
+      "id": "de_kids_numbers_colors_05",
+      "file": "lesson_kids_numbers_colors_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Tvary"
+    },
+    {
+      "id": "de_kids_numbers_colors_06",
+      "file": "lesson_kids_numbers_colors_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Velký a malý"
+    },
+    {
+      "id": "de_kids_numbers_colors_07",
+      "file": "lesson_kids_numbers_colors_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Víc a míň"
+    },
+    {
+      "id": "de_kids_numbers_colors_08",
+      "file": "lesson_kids_numbers_colors_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Jednoduché sčítání v rozhovoru"
+    },
+    {
+      "id": "de_kids_numbers_colors_09",
+      "file": "lesson_kids_numbers_colors_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Řadové číslovky"
+    },
+    {
+      "id": "de_kids_numbers_colors_10",
+      "file": "lesson_kids_numbers_colors_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Barvy přírody"
+    },
+    {
+      "id": "de_kids_school_classroom_01",
+      "file": "lesson_kids_school_classroom_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Věci ve třídě"
+    },
+    {
+      "id": "de_kids_school_classroom_02",
+      "file": "lesson_kids_school_classroom_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Školní předměty"
+    },
+    {
+      "id": "de_kids_school_classroom_03",
+      "file": "lesson_kids_school_classroom_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Školní den"
+    },
+    {
+      "id": "de_kids_school_classroom_04",
+      "file": "lesson_kids_school_classroom_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Učitelé a spolužáci"
+    },
+    {
+      "id": "de_kids_school_classroom_05",
+      "file": "lesson_kids_school_classroom_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Domácí úkoly"
+    },
+    {
+      "id": "de_kids_school_classroom_06",
+      "file": "lesson_kids_school_classroom_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Hřiště"
+    },
+    {
+      "id": "de_kids_school_classroom_07",
+      "file": "lesson_kids_school_classroom_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Školní oběd"
+    },
+    {
+      "id": "de_kids_school_classroom_08",
+      "file": "lesson_kids_school_classroom_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Zkoušky a testy"
+    },
+    {
+      "id": "de_kids_school_classroom_09",
+      "file": "lesson_kids_school_classroom_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Knihovna"
+    },
+    {
+      "id": "de_kids_school_classroom_10",
+      "file": "lesson_kids_school_classroom_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Školní výlety"
+    },
+    {
+      "id": "de_kids_shopping_kids_01",
+      "file": "lesson_kids_shopping_kids_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "V obchodě s hračkami"
+    },
+    {
+      "id": "de_kids_shopping_kids_02",
+      "file": "lesson_kids_shopping_kids_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "V cukrárně, obchodě se sladkostmi"
+    },
+    {
+      "id": "de_kids_shopping_kids_03",
+      "file": "lesson_kids_shopping_kids_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Nákup školních potřeb"
+    },
+    {
+      "id": "de_kids_shopping_kids_04",
+      "file": "lesson_kids_shopping_kids_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Kapesné"
+    },
+    {
+      "id": "de_kids_shopping_kids_05",
+      "file": "lesson_kids_shopping_kids_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Ve zmrzlinárně"
+    },
+    {
+      "id": "de_kids_shopping_kids_06",
+      "file": "lesson_kids_shopping_kids_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Výběr narozeninového dárku"
+    },
+    {
+      "id": "de_kids_shopping_kids_07",
+      "file": "lesson_kids_shopping_kids_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Placení u pokladny (jednoduše)"
+    },
+    {
+      "id": "de_kids_shopping_kids_08",
+      "file": "lesson_kids_shopping_kids_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Nákupní seznam s mámou"
+    },
+    {
+      "id": "de_kids_shopping_kids_09",
+      "file": "lesson_kids_shopping_kids_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Nákup nových bot"
+    },
+    {
+      "id": "de_kids_shopping_kids_10",
+      "file": "lesson_kids_shopping_kids_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Porovnávání cen (jednoduše)"
+    },
+    {
+      "id": "de_kids_sports_hobbies_01",
+      "file": "lesson_kids_sports_hobbies_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Fotbal"
+    },
+    {
+      "id": "de_kids_sports_hobbies_02",
+      "file": "lesson_kids_sports_hobbies_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Plavání"
+    },
+    {
+      "id": "de_kids_sports_hobbies_03",
+      "file": "lesson_kids_sports_hobbies_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Jízda na kole"
+    },
+    {
+      "id": "de_kids_sports_hobbies_04",
+      "file": "lesson_kids_sports_hobbies_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Tanec"
+    },
+    {
+      "id": "de_kids_sports_hobbies_05",
+      "file": "lesson_kids_sports_hobbies_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Kreslení a malování"
+    },
+    {
+      "id": "de_kids_sports_hobbies_06",
+      "file": "lesson_kids_sports_hobbies_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Hudební kroužek"
+    },
+    {
+      "id": "de_kids_sports_hobbies_07",
+      "file": "lesson_kids_sports_hobbies_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Čtení knížek"
+    },
+    {
+      "id": "de_kids_sports_hobbies_08",
+      "file": "lesson_kids_sports_hobbies_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Běhání a hraní venku"
+    },
+    {
+      "id": "de_kids_sports_hobbies_09",
+      "file": "lesson_kids_sports_hobbies_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Kolektivní sporty"
+    },
+    {
+      "id": "de_kids_sports_hobbies_10",
+      "file": "lesson_kids_sports_hobbies_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Můj oblíbený koníček"
+    },
+    {
+      "id": "de_kids_time_days_01",
+      "file": "lesson_kids_time_days_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Dny v týdnu"
+    },
+    {
+      "id": "de_kids_time_days_02",
+      "file": "lesson_kids_time_days_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Měsíce v roce"
+    },
+    {
+      "id": "de_kids_time_days_03",
+      "file": "lesson_kids_time_days_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Kolik je hodin"
+    },
+    {
+      "id": "de_kids_time_days_04",
+      "file": "lesson_kids_time_days_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Ráno, odpoledne, večer"
+    },
+    {
+      "id": "de_kids_time_days_05",
+      "file": "lesson_kids_time_days_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Včera, dnes, zítra"
+    },
+    {
+      "id": "de_kids_time_days_06",
+      "file": "lesson_kids_time_days_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Čtyři roční období"
+    },
+    {
+      "id": "de_kids_time_days_07",
+      "file": "lesson_kids_time_days_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Můj denní program"
+    },
+    {
+      "id": "de_kids_time_days_08",
+      "file": "lesson_kids_time_days_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Pozdě a včas"
+    },
+    {
+      "id": "de_kids_time_days_09",
+      "file": "lesson_kids_time_days_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Kalendář a data"
+    },
+    {
+      "id": "de_kids_time_days_10",
+      "file": "lesson_kids_time_days_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Hodiny a hodinky"
+    },
+    {
+      "id": "de_kids_town_places_01",
+      "file": "lesson_kids_town_places_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Park"
+    },
+    {
+      "id": "de_kids_town_places_02",
+      "file": "lesson_kids_town_places_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Supermarket"
+    },
+    {
+      "id": "de_kids_town_places_03",
+      "file": "lesson_kids_town_places_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Pekárna"
+    },
+    {
+      "id": "de_kids_town_places_04",
+      "file": "lesson_kids_town_places_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Dětské hřiště"
+    },
+    {
+      "id": "de_kids_town_places_05",
+      "file": "lesson_kids_town_places_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Nemocnice"
+    },
+    {
+      "id": "de_kids_town_places_06",
+      "file": "lesson_kids_town_places_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Pošta"
+    },
+    {
+      "id": "de_kids_town_places_07",
+      "file": "lesson_kids_town_places_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Kino"
+    },
+    {
+      "id": "de_kids_town_places_08",
+      "file": "lesson_kids_town_places_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Bazén"
+    },
+    {
+      "id": "de_kids_town_places_09",
+      "file": "lesson_kids_town_places_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Moje čtvrť"
+    },
+    {
+      "id": "de_kids_town_places_10",
+      "file": "lesson_kids_town_places_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Zoo"
+    },
+    {
+      "id": "de_kids_toys_games_01",
+      "file": "lesson_kids_toys_games_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Oblíbené hračky"
+    },
+    {
+      "id": "de_kids_toys_games_02",
+      "file": "lesson_kids_toys_games_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Deskové hry"
+    },
+    {
+      "id": "de_kids_toys_games_03",
+      "file": "lesson_kids_toys_games_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Hry venku"
+    },
+    {
+      "id": "de_kids_toys_games_04",
+      "file": "lesson_kids_toys_games_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Videohry"
+    },
+    {
+      "id": "de_kids_toys_games_05",
+      "file": "lesson_kids_toys_games_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Stavebnice"
+    },
+    {
+      "id": "de_kids_toys_games_06",
+      "file": "lesson_kids_toys_games_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Panenky a akční figurky"
+    },
+    {
+      "id": "de_kids_toys_games_07",
+      "file": "lesson_kids_toys_games_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Hraní si s kamarády"
+    },
+    {
+      "id": "de_kids_toys_games_08",
+      "file": "lesson_kids_toys_games_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Půjčování hraček"
+    },
+    {
+      "id": "de_kids_toys_games_09",
+      "file": "lesson_kids_toys_games_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Narozeninové dárky"
+    },
+    {
+      "id": "de_kids_toys_games_10",
+      "file": "lesson_kids_toys_games_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Skládačky (puzzle)"
+    },
+    {
+      "id": "de_kids_transport_01",
+      "file": "lesson_kids_transport_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Auta"
+    },
+    {
+      "id": "de_kids_transport_02",
+      "file": "lesson_kids_transport_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Autobusy"
+    },
+    {
+      "id": "de_kids_transport_03",
+      "file": "lesson_kids_transport_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Vlaky"
+    },
+    {
+      "id": "de_kids_transport_04",
+      "file": "lesson_kids_transport_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Kola"
+    },
+    {
+      "id": "de_kids_transport_05",
+      "file": "lesson_kids_transport_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Letadla"
+    },
+    {
+      "id": "de_kids_transport_06",
+      "file": "lesson_kids_transport_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Cesta do školy pěšky"
+    },
+    {
+      "id": "de_kids_transport_07",
+      "file": "lesson_kids_transport_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Semafory a bezpečnost"
+    },
+    {
+      "id": "de_kids_transport_08",
+      "file": "lesson_kids_transport_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Lodě"
+    },
+    {
+      "id": "de_kids_transport_09",
+      "file": "lesson_kids_transport_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Odvoz od rodičů"
+    },
+    {
+      "id": "de_kids_transport_10",
+      "file": "lesson_kids_transport_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Hromadná doprava pro děti"
+    },
+    {
+      "id": "de_kids_weather_seasons_01",
+      "file": "lesson_kids_weather_seasons_01.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Slunečné a deštivé počasí"
+    },
+    {
+      "id": "de_kids_weather_seasons_02",
+      "file": "lesson_kids_weather_seasons_02.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Sníh a zima"
+    },
+    {
+      "id": "de_kids_weather_seasons_03",
+      "file": "lesson_kids_weather_seasons_03.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Jaro a květiny"
+    },
+    {
+      "id": "de_kids_weather_seasons_04",
+      "file": "lesson_kids_weather_seasons_04.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Léto a pláž"
+    },
+    {
+      "id": "de_kids_weather_seasons_05",
+      "file": "lesson_kids_weather_seasons_05.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Podzim a listí"
+    },
+    {
+      "id": "de_kids_weather_seasons_06",
+      "file": "lesson_kids_weather_seasons_06.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Co si obléknout podle počasí"
+    },
+    {
+      "id": "de_kids_weather_seasons_07",
+      "file": "lesson_kids_weather_seasons_07.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Předpověď počasí"
+    },
+    {
+      "id": "de_kids_weather_seasons_08",
+      "file": "lesson_kids_weather_seasons_08.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Bouřky"
+    },
+    {
+      "id": "de_kids_weather_seasons_09",
+      "file": "lesson_kids_weather_seasons_09.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Horko a zima"
+    },
+    {
+      "id": "de_kids_weather_seasons_10",
+      "file": "lesson_kids_weather_seasons_10.json",
+      "audience": "kids",
+      "level": "beginner",
+      "title_cz": "Povídání o dnešním počasí"
     }
   ]
 }

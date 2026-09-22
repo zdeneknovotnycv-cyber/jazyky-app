@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_shopping_kids_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "New shoes shopping",
+  "title_cz": "Nákup nových bot",
+  "vocabulary": [
+    {
+      "word": "shoe shop",
+      "translation_cz": "obchod s botami",
+      "example": "We go to the shoe shop.",
+      "example_cz": "Jdeme do obchodu s botami.",
+      "tts_text": "We go to the shoe shop."
+    },
+    {
+      "word": "size",
+      "translation_cz": "velikost",
+      "example": "What size are your feet?",
+      "example_cz": "Jakou máš velikost nohy?",
+      "tts_text": "What size are your feet?"
+    },
+    {
+      "word": "try on",
+      "translation_cz": "vyzkoušet",
+      "example": "I try on the new shoes.",
+      "example_cz": "Zkouším si nové boty.",
+      "tts_text": "I try on the new shoes."
+    },
+    {
+      "word": "comfortable",
+      "translation_cz": "pohodlný",
+      "example": "These shoes feel comfortable.",
+      "example_cz": "Tyto boty jsou pohodlné.",
+      "tts_text": "These shoes feel comfortable."
+    },
+    {
+      "word": "tight",
+      "translation_cz": "těsný",
+      "example": "These shoes are too tight.",
+      "example_cz": "Tyto boty jsou moc těsné.",
+      "tts_text": "These shoes are too tight."
+    },
+    {
+      "word": "color",
+      "translation_cz": "barva",
+      "example": "I like the blue color.",
+      "example_cz": "Líbí se mi modrá barva.",
+      "tts_text": "I like the blue color."
+    },
+    {
+      "word": "laces",
+      "translation_cz": "tkaničky",
+      "example": "I tie my shoe laces.",
+      "example_cz": "Zavazuji si tkaničky.",
+      "tts_text": "I tie my shoe laces."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "shoe shop",
+      "options": [
+        "obchod s botami",
+        "velikost",
+        "vyzkoušet"
+      ],
+      "correct": "obchod s botami"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What ___ are your feet?",
+      "answer": "size",
+      "hint_cz": "velikost"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "try on",
+          "cz": "vyzkoušet"
+        },
+        {
+          "target": "comfortable",
+          "cz": "pohodlný"
+        },
+        {
+          "target": "tight",
+          "cz": "těsný"
+        },
+        {
+          "target": "color",
+          "cz": "barva"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I tie my shoe laces.",
+      "tts_text": "I tie my shoe laces."
+    }
+  ]
+}

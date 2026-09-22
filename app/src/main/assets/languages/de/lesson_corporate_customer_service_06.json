@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_customer_service_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Rückgabe bearbeiten",
+  "title_cz": "Zpracování vrácení zboží",
+  "vocabulary": [
+    {
+      "word": "Haben Sie Ihren Kassenbon?",
+      "translation_cz": "Máte účtenku?",
+      "example": "Haben Sie Ihren Kassenbon dabei?",
+      "example_cz": "Máte u sebe účtenku?",
+      "tts_text": "Haben Sie Ihren Kassenbon dabei?"
+    },
+    {
+      "word": "Rückgaberecht",
+      "translation_cz": "podmínky vrácení zboží",
+      "example": "Unser Rückgaberecht erlaubt Rückgaben innerhalb von 30 Tagen.",
+      "example_cz": "Naše podmínky vrácení umožňují vrácení do 30 dnů.",
+      "tts_text": "Unser Rückgaberecht erlaubt Rückgaben innerhalb von 30 Tagen."
+    },
+    {
+      "word": "Originalverpackung",
+      "translation_cz": "originální obal",
+      "example": "Bitte bringen Sie den Artikel in der Originalverpackung mit.",
+      "example_cz": "Zboží přineste prosím v originálním obalu.",
+      "tts_text": "Bitte bringen Sie den Artikel in der Originalverpackung mit."
+    },
+    {
+      "word": "Rückerstattung auf Ihr Konto",
+      "translation_cz": "vrácení peněz na váš účet",
+      "example": "Die Rückerstattung auf Ihr Konto dauert 5 Werktage.",
+      "example_cz": "Vrácení peněz na váš účet trvá 5 pracovních dní.",
+      "tts_text": "Die Rückerstattung auf Ihr Konto dauert 5 Werktage."
+    },
+    {
+      "word": "umtauschen",
+      "translation_cz": "vyměnit, výměna",
+      "example": "Möchten Sie es gegen eine andere Größe umtauschen?",
+      "example_cz": "Chtěl byste to vyměnit za jinou velikost?",
+      "tts_text": "Möchten Sie es gegen eine andere Größe umtauschen?"
+    },
+    {
+      "word": "ungeöffnet",
+      "translation_cz": "neotevřený",
+      "example": "Der Artikel muss ungeöffnet sein, um zurückgegeben zu werden.",
+      "example_cz": "Zboží musí být pro vrácení neotevřené.",
+      "tts_text": "Der Artikel muss ungeöffnet sein, um zurückgegeben zu werden."
+    },
+    {
+      "word": "Kaufbeleg",
+      "translation_cz": "doklad o koupi",
+      "example": "Bitte legen Sie einen Kaufbeleg vor.",
+      "example_cz": "Uveďte prosím doklad o koupi.",
+      "tts_text": "Bitte legen Sie einen Kaufbeleg vor."
+    },
+    {
+      "word": "Bearbeitungszeit",
+      "translation_cz": "doba zpracování",
+      "example": "Die Bearbeitungszeit beträgt in der Regel zwei Tage.",
+      "example_cz": "Doba zpracování je obvykle dva dny.",
+      "tts_text": "Die Bearbeitungszeit beträgt in der Regel zwei Tage."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_06",
+      "title": "Ein Kunde möchte einen Artikel zurückgeben",
+      "title_cz": "Zákazník chce vrátit zboží",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich möchte diese Jacke zurückgeben. Haben Sie Ihren Kassenbon?",
+          "text_cz": "Chtěl bych vrátit tuto bundu. Máte účtenku?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, hier ist er. Ist das noch innerhalb des Rückgaberechts?",
+          "text_cz": "Ano, tady je. Je to ještě v období podmínek vrácení?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, Sie haben es vor zwei Wochen gekauft. Da es ungeöffnet ist, können wir eine volle Rückerstattung veranlassen.",
+          "text_cz": "Ano, koupil jste to před dvěma týdny. Jelikož je to neotevřené, můžeme provést plnou vrácenou platbu."
+        },
+        {
+          "speaker": "B",
+          "text": "Super, wie lange dauert die Rückerstattung auf mein Konto?",
+          "text_cz": "Skvělé, jak dlouho bude trvat vrácení peněz na můj účet?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Haben Sie Ihren Kassenbon?",
+      "options": [
+        "Máte účtenku?",
+        "Vyměnit",
+        "Doklad o koupi"
+      ],
+      "correct": "Máte účtenku?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte bringen Sie den Artikel in der ___ mit.",
+      "answer": "Originalverpackung",
+      "hint_cz": "originálním obalu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Rückgaberecht",
+          "cz": "podmínky vrácení zboží"
+        },
+        {
+          "target": "umtauschen",
+          "cz": "vyměnit, výměna"
+        },
+        {
+          "target": "ungeöffnet",
+          "cz": "neotevřený"
+        },
+        {
+          "target": "Kaufbeleg",
+          "cz": "doklad o koupi"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Haben Sie Ihren Kassenbon dabei?",
+      "tts_text": "Haben Sie Ihren Kassenbon dabei?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die ___ beträgt in der Regel zwei Tage.",
+      "answer": "Bearbeitungszeit",
+      "hint_cz": "doba zpracování"
+    }
+  ]
+}

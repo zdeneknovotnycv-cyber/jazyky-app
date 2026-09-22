@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_birthday_celebrations_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Familienfeiern",
+  "title_cz": "Rodinné oslavy",
+  "vocabulary": [
+    {
+      "word": "die Feier",
+      "translation_cz": "oslava",
+      "example": "Wir haben eine große Familienfeier.",
+      "example_cz": "Máme velkou rodinnou oslavu.",
+      "tts_text": "Wir haben eine große Familienfeier."
+    },
+    {
+      "word": "der Jahrestag",
+      "translation_cz": "výročí",
+      "example": "Meine Eltern feiern ihren Jahrestag.",
+      "example_cz": "Rodiče slaví své výročí.",
+      "tts_text": "Meine Eltern feiern ihren Jahrestag."
+    },
+    {
+      "word": "die Großeltern",
+      "translation_cz": "prarodiče",
+      "example": "Meine Großeltern kommen zu Besuch.",
+      "example_cz": "Přijedou nás navštívit prarodiče.",
+      "tts_text": "Meine Großeltern kommen zu Besuch."
+    },
+    {
+      "word": "der Trinkspruch",
+      "translation_cz": "přípitek",
+      "example": "Papa hält einen Trinkspruch für die Familie.",
+      "example_cz": "Táta pronese přípitek pro rodinu.",
+      "tts_text": "Papa hält einen Trinkspruch für die Familie."
+    },
+    {
+      "word": "sich versammeln",
+      "translation_cz": "sejít se",
+      "example": "Wir versammeln uns um den Tisch.",
+      "example_cz": "Scházíme se kolem stolu.",
+      "tts_text": "Wir versammeln uns um den Tisch."
+    },
+    {
+      "word": "der besondere Tag",
+      "translation_cz": "výjimečný den",
+      "example": "Es ist ein besonderer Tag für uns.",
+      "example_cz": "Je to pro nás výjimečný den.",
+      "tts_text": "Es ist ein besonderer Tag für uns."
+    },
+    {
+      "word": "die Umarmung",
+      "translation_cz": "obejmutí",
+      "example": "Wir geben Oma eine große Umarmung.",
+      "example_cz": "Dáváme babičce velké obejmutí.",
+      "tts_text": "Wir geben Oma eine große Umarmung."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Feier",
+      "options": [
+        "oslava",
+        "výročí",
+        "prarodiče"
+      ],
+      "correct": "oslava"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Meine Eltern feiern ihren ___.",
+      "answer": "Jahrestag",
+      "hint_cz": "výročí"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Großeltern",
+          "cz": "prarodiče"
+        },
+        {
+          "target": "der Trinkspruch",
+          "cz": "přípitek"
+        },
+        {
+          "target": "sich versammeln",
+          "cz": "sejít se"
+        },
+        {
+          "target": "der besondere Tag",
+          "cz": "výjimečný den"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir geben Oma eine große Umarmung.",
+      "tts_text": "Wir geben Oma eine große Umarmung."
+    }
+  ]
+}

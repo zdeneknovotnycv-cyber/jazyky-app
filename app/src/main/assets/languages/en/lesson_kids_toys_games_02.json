@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_toys_games_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Board Games",
+  "title_cz": "Deskové hry",
+  "vocabulary": [
+    {
+      "word": "board game",
+      "translation_cz": "desková hra",
+      "example": "We play a board game together.",
+      "example_cz": "Hrajeme spolu deskovou hru.",
+      "tts_text": "We play a board game together."
+    },
+    {
+      "word": "dice",
+      "translation_cz": "kostka",
+      "example": "Roll the dice!",
+      "example_cz": "Hoď kostkou!",
+      "tts_text": "Roll the dice!"
+    },
+    {
+      "word": "chess",
+      "translation_cz": "šachy",
+      "example": "My dad taught me chess.",
+      "example_cz": "Táta mě naučil šachy.",
+      "tts_text": "My dad taught me chess."
+    },
+    {
+      "word": "your turn",
+      "translation_cz": "jsi na řadě",
+      "example": "It's your turn now.",
+      "example_cz": "Teď jsi na řadě.",
+      "tts_text": "It's your turn now."
+    },
+    {
+      "word": "win",
+      "translation_cz": "vyhrát",
+      "example": "I want to win this game.",
+      "example_cz": "Chci tuhle hru vyhrát.",
+      "tts_text": "I want to win this game."
+    },
+    {
+      "word": "lose",
+      "translation_cz": "prohrát",
+      "example": "It's okay to lose sometimes.",
+      "example_cz": "Je v pořádku někdy prohrát.",
+      "tts_text": "It's okay to lose sometimes."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "dice",
+      "options": [
+        "kostka",
+        "šachy",
+        "desková hra"
+      ],
+      "correct": "kostka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "It's your ___ now.",
+      "answer": "turn",
+      "hint_cz": "jsi na řadě"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "board game",
+          "cz": "desková hra"
+        },
+        {
+          "target": "chess",
+          "cz": "šachy"
+        },
+        {
+          "target": "win",
+          "cz": "vyhrát"
+        },
+        {
+          "target": "lose",
+          "cz": "prohrát"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Roll the dice!",
+      "tts_text": "Roll the dice!"
+    }
+  ]
+}

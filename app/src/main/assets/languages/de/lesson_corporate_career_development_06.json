@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_career_development_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Das LinkedIn-Profil besprechen",
+  "title_cz": "Diskuze o profilu na LinkedIn",
+  "vocabulary": [
+    {
+      "word": "das Profilbild",
+      "translation_cz": "profilová fotka",
+      "example": "Wähle ein professionelles Profilbild.",
+      "example_cz": "Vyber si profesionální profilovou fotku.",
+      "tts_text": "Wähle ein professionelles Profilbild."
+    },
+    {
+      "word": "die Überschrift",
+      "translation_cz": "nadpis profilu",
+      "example": "Deine Überschrift sollte deine Rolle klar beschreiben.",
+      "example_cz": "Nadpis profilu by měl jasně popisovat tvou roli.",
+      "tts_text": "Deine Überschrift sollte deine Rolle klar beschreiben."
+    },
+    {
+      "word": "die Kontakte",
+      "translation_cz": "kontakty",
+      "example": "Ich habe über fünfhundert Kontakte.",
+      "example_cz": "Mám přes pět set kontaktů.",
+      "tts_text": "Ich habe über fünfhundert Kontakte."
+    },
+    {
+      "word": "eine Fähigkeit bestätigen",
+      "translation_cz": "potvrdit dovednost",
+      "example": "Könntest du meine Projektmanagement-Fähigkeit bestätigen?",
+      "example_cz": "Mohl bys mi potvrdit dovednost v projektovém řízení?",
+      "tts_text": "Könntest du meine Projektmanagement-Fähigkeit bestätigen?"
+    },
+    {
+      "word": "die Empfehlung",
+      "translation_cz": "doporučení",
+      "example": "Ich schreibe dir gerne eine Empfehlung.",
+      "example_cz": "Rád ti napíšu doporučení.",
+      "tts_text": "Ich schreibe dir gerne eine Empfehlung."
+    },
+    {
+      "word": "networken",
+      "translation_cz": "budovat síť kontaktů",
+      "example": "Es ist wichtig, in deiner Branche zu networken.",
+      "example_cz": "Je důležité budovat síť kontaktů ve svém oboru.",
+      "tts_text": "Es ist wichtig, in deiner Branche zu networken."
+    },
+    {
+      "word": "den Status aktualisieren",
+      "translation_cz": "aktualizovat stav",
+      "example": "Vergiss nicht, deinen Status zu aktualisieren.",
+      "example_cz": "Nezapomeň aktualizovat svůj stav.",
+      "tts_text": "Vergiss nicht, deinen Status zu aktualisieren."
+    },
+    {
+      "word": "die Sichtbarkeit",
+      "translation_cz": "viditelnost",
+      "example": "Regelmäßige Beiträge erhöhen deine Sichtbarkeit.",
+      "example_cz": "Pravidelné příspěvky zvyšují tvou viditelnost.",
+      "tts_text": "Regelmäßige Beiträge erhöhen deine Sichtbarkeit."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_linkedin_profile",
+      "title": "Ein LinkedIn-Profil verbessern",
+      "title_cz": "Vylepšení profilu na LinkedIn",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich aktualisiere gerade mein LinkedIn-Profil. Hast du ein paar Tipps?",
+          "text_cz": "Aktualizuji si profil na LinkedIn. Máš nějaké tipy?"
+        },
+        {
+          "speaker": "B",
+          "text": "Fang mit einem guten Profilbild und einer klaren Überschrift an.",
+          "text_cz": "Začni dobrou profilovou fotkou a jasným nadpisem."
+        },
+        {
+          "speaker": "A",
+          "text": "Gute Idee. Könntest du auch meine Projektmanagement-Fähigkeit bestätigen?",
+          "text_cz": "Dobrý nápad. Mohl bys mi taky potvrdit dovednost v projektovém řízení?"
+        },
+        {
+          "speaker": "B",
+          "text": "Natürlich, und ich schreibe dir auch gerne eine Empfehlung.",
+          "text_cz": "Jasně, a rád ti napíšu i doporučení."
+        },
+        {
+          "speaker": "A",
+          "text": "Danke! Ich sollte auch mehr networken und Beiträge posten, um meine Sichtbarkeit zu erhöhen.",
+          "text_cz": "Díky! Měl bych taky víc budovat síť kontaktů a přispívat, aby se zvýšila má viditelnost."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Überschrift",
+      "options": [
+        "nadpis profilu",
+        "kontakty",
+        "doporučení"
+      ],
+      "correct": "nadpis profilu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich habe über fünfhundert ___.",
+      "answer": "Kontakte",
+      "hint_cz": "kontaktů"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Profilbild",
+          "cz": "profilová fotka"
+        },
+        {
+          "target": "die Empfehlung",
+          "cz": "doporučení"
+        },
+        {
+          "target": "networken",
+          "cz": "budovat síť kontaktů"
+        },
+        {
+          "target": "die Sichtbarkeit",
+          "cz": "viditelnost"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Es ist wichtig, in deiner Branche zu networken.",
+      "tts_text": "Es ist wichtig, in deiner Branche zu networken."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Könntest du meine Projektmanagement-Fähigkeit ___?",
+      "answer": "bestätigen",
+      "hint_cz": "potvrdit"
+    }
+  ]
+}

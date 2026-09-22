@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_weather_seasons_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Spring and Flowers",
+  "title_cz": "Jaro a květiny",
+  "vocabulary": [
+    {
+      "word": "spring",
+      "translation_cz": "jaro",
+      "example": "Spring is my favorite season.",
+      "example_cz": "Jaro je mé oblíbené roční období.",
+      "tts_text": "Spring is my favorite season."
+    },
+    {
+      "word": "flower",
+      "translation_cz": "květina",
+      "example": "The flower is pretty.",
+      "example_cz": "Ta květina je hezká.",
+      "tts_text": "The flower is pretty."
+    },
+    {
+      "word": "tulip",
+      "translation_cz": "tulipán",
+      "example": "The tulip is red.",
+      "example_cz": "Tulipán je červený.",
+      "tts_text": "The tulip is red."
+    },
+    {
+      "word": "grow",
+      "translation_cz": "růst",
+      "example": "Plants grow in spring.",
+      "example_cz": "Na jaře rostliny rostou.",
+      "tts_text": "Plants grow in spring."
+    },
+    {
+      "word": "green",
+      "translation_cz": "zelený",
+      "example": "The grass is green.",
+      "example_cz": "Tráva je zelená.",
+      "tts_text": "The grass is green."
+    },
+    {
+      "word": "butterfly",
+      "translation_cz": "motýl",
+      "example": "A butterfly flies over the flowers.",
+      "example_cz": "Motýl létá nad květinami.",
+      "tts_text": "A butterfly flies over the flowers."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "flower",
+      "options": [
+        "květina",
+        "tulipán",
+        "motýl"
+      ],
+      "correct": "květina"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is red.",
+      "answer": "tulip",
+      "hint_cz": "tulipán"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "spring",
+          "cz": "jaro"
+        },
+        {
+          "target": "grow",
+          "cz": "růst"
+        },
+        {
+          "target": "green",
+          "cz": "zelený"
+        },
+        {
+          "target": "butterfly",
+          "cz": "motýl"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The flower is pretty.",
+      "tts_text": "The flower is pretty."
+    }
+  ]
+}

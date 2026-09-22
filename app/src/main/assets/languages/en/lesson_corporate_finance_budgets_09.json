@@ -1,0 +1,46 @@
+{
+  "id": "en_corporate_finance_budgets_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Currency and Exchange Rates at Work",
+  "title_cz": "Měny a směnné kurzy v práci",
+  "vocabulary": [
+    {"word": "exchange rate", "translation_cz": "směnný kurz", "example": "What's today's exchange rate for dollars?", "example_cz": "Jaký je dnešní směnný kurz dolaru?", "tts_text": "What's today's exchange rate for dollars?"},
+    {"word": "currency", "translation_cz": "měna", "example": "We invoice clients in the local currency.", "example_cz": "Klientům fakturujeme v místní měně.", "tts_text": "We invoice clients in the local currency."},
+    {"word": "convert", "translation_cz": "převést", "example": "Please convert this amount into euros.", "example_cz": "Prosím převeďte tuto částku na eura.", "tts_text": "Please convert this amount into euros."},
+    {"word": "foreign transfer", "translation_cz": "zahraniční převod", "example": "The bank charges a fee for foreign transfers.", "example_cz": "Banka účtuje poplatek za zahraniční převody.", "tts_text": "The bank charges a fee for foreign transfers."},
+    {"word": "fluctuation", "translation_cz": "kolísání", "example": "Currency fluctuation affects our costs.", "example_cz": "Kolísání měny ovlivňuje naše náklady.", "tts_text": "Currency fluctuation affects our costs."},
+    {"word": "exchange rate loss", "translation_cz": "kurzová ztráta", "example": "We recorded a small exchange rate loss.", "example_cz": "Zaznamenali jsme malou kurzovou ztrátu.", "tts_text": "We recorded a small exchange rate loss."},
+    {"word": "fixed rate", "translation_cz": "pevný kurz", "example": "The contract uses a fixed exchange rate.", "example_cz": "Smlouva používá pevný směnný kurz.", "tts_text": "The contract uses a fixed exchange rate."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_exchange_rate",
+      "title": "Checking the exchange rate",
+      "title_cz": "Kontrola směnného kurzu",
+      "lines": [
+        {"speaker": "A", "text": "Do you know today's exchange rate for dollars?", "text_cz": "Nevíte náhodou dnešní směnný kurz dolaru?"},
+        {"speaker": "B", "text": "Yes, it's around twenty-three crowns per dollar.", "text_cz": "Ano, je to zhruba dvacet tři korun za dolar."},
+        {"speaker": "A", "text": "Please convert this invoice amount to euros then.", "text_cz": "Prosím převeďte tedy tuto částku faktury na eura."},
+        {"speaker": "B", "text": "Sure, I'll use the current rate for the calculation.", "text_cz": "Jistě, pro výpočet použiji aktuální kurz."}
+      ]
+    },
+    {
+      "id": "conv_fluctuation",
+      "title": "Discussing currency fluctuation",
+      "title_cz": "Rozhovor o kolísání měny",
+      "lines": [
+        {"speaker": "A", "text": "Currency fluctuation has increased our costs this month.", "text_cz": "Kolísání měny nám tento měsíc zvýšilo náklady."},
+        {"speaker": "B", "text": "Should we consider a fixed rate for future contracts?", "text_cz": "Měli bychom pro budoucí smlouvy zvážit pevný kurz?"}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "currency", "options": ["měna", "kurz", "poplatek"], "correct": "měna"},
+    {"type": "fill_gap", "sentence": "Please ___ this amount into euros.", "answer": "convert", "hint_cz": "převést"},
+    {"type": "match_pairs", "pairs": [{"target": "exchange rate", "cz": "směnný kurz"}, {"target": "fluctuation", "cz": "kolísání"}, {"target": "fixed rate", "cz": "pevný kurz"}, {"target": "foreign transfer", "cz": "zahraniční převod"}]},
+    {"type": "speak_and_check", "target_phrase": "The bank charges a fee for foreign transfers.", "tts_text": "The bank charges a fee for foreign transfers."},
+    {"type": "fill_gap", "sentence": "We recorded a small exchange rate ___.", "answer": "loss", "hint_cz": "ztráta"}
+  ]
+}

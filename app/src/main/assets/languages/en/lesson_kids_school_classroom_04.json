@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_school_classroom_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Teachers and Classmates",
+  "title_cz": "Učitelé a spolužáci",
+  "vocabulary": [
+    {
+      "word": "teacher",
+      "translation_cz": "učitel/učitelka",
+      "example": "My teacher is kind.",
+      "example_cz": "Moje učitelka je hodná.",
+      "tts_text": "My teacher is kind."
+    },
+    {
+      "word": "classmate",
+      "translation_cz": "spolužák",
+      "example": "My classmate sits next to me.",
+      "example_cz": "Můj spolužák sedí vedle mě.",
+      "tts_text": "My classmate sits next to me."
+    },
+    {
+      "word": "friend",
+      "translation_cz": "kamarád",
+      "example": "She is my best friend.",
+      "example_cz": "Je moje nejlepší kamarádka.",
+      "tts_text": "She is my best friend."
+    },
+    {
+      "word": "headmaster",
+      "translation_cz": "ředitel",
+      "example": "The headmaster is very tall.",
+      "example_cz": "Ředitel je velmi vysoký.",
+      "tts_text": "The headmaster is very tall."
+    },
+    {
+      "word": "raise hand",
+      "translation_cz": "zvednout ruku",
+      "example": "I raise my hand to answer.",
+      "example_cz": "Zvedám ruku, abych odpověděl.",
+      "tts_text": "I raise my hand to answer."
+    },
+    {
+      "word": "listen",
+      "translation_cz": "poslouchat",
+      "example": "We listen to the teacher.",
+      "example_cz": "Posloucháme učitelku.",
+      "tts_text": "We listen to the teacher."
+    },
+    {
+      "word": "help",
+      "translation_cz": "pomáhat",
+      "example": "My classmate helps me with math.",
+      "example_cz": "Můj spolužák mi pomáhá s matematikou.",
+      "tts_text": "My classmate helps me with math."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "headmaster",
+      "options": [
+        "ředitel",
+        "spolužák",
+        "kamarád"
+      ],
+      "correct": "ředitel"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ my hand to answer.",
+      "answer": "raise",
+      "hint_cz": "zvedám"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "teacher",
+          "cz": "učitel/učitelka"
+        },
+        {
+          "target": "classmate",
+          "cz": "spolužák"
+        },
+        {
+          "target": "friend",
+          "cz": "kamarád"
+        },
+        {
+          "target": "listen",
+          "cz": "poslouchat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My classmate helps me with math.",
+      "tts_text": "My classmate helps me with math."
+    }
+  ]
+}

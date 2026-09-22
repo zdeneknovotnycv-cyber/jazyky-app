@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_numbers_colors_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ordinal Numbers",
+  "title_cz": "Řadové číslovky",
+  "vocabulary": [
+    {
+      "word": "first",
+      "translation_cz": "první",
+      "example": "I am first in line.",
+      "example_cz": "Jsem první ve frontě.",
+      "tts_text": "I am first in line."
+    },
+    {
+      "word": "second",
+      "translation_cz": "druhý",
+      "example": "She is second.",
+      "example_cz": "Je druhá.",
+      "tts_text": "She is second."
+    },
+    {
+      "word": "third",
+      "translation_cz": "třetí",
+      "example": "He came third.",
+      "example_cz": "Přišel třetí.",
+      "tts_text": "He came third."
+    },
+    {
+      "word": "fourth",
+      "translation_cz": "čtvrtý",
+      "example": "My seat is the fourth one.",
+      "example_cz": "Moje sedadlo je čtvrté.",
+      "tts_text": "My seat is the fourth one."
+    },
+    {
+      "word": "fifth",
+      "translation_cz": "pátý",
+      "example": "This is my fifth try.",
+      "example_cz": "Toto je můj pátý pokus.",
+      "tts_text": "This is my fifth try."
+    },
+    {
+      "word": "last",
+      "translation_cz": "poslední",
+      "example": "I was last today.",
+      "example_cz": "Dnes jsem byl poslední.",
+      "tts_text": "I was last today."
+    },
+    {
+      "word": "line",
+      "translation_cz": "fronta",
+      "example": "We stand in a line.",
+      "example_cz": "Stojíme ve frontě.",
+      "tts_text": "We stand in a line."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "fourth",
+      "options": [
+        "čtvrtý",
+        "druhý",
+        "třetí"
+      ],
+      "correct": "čtvrtý"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I was ___ today.",
+      "answer": "last",
+      "hint_cz": "poslední"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "first",
+          "cz": "první"
+        },
+        {
+          "target": "second",
+          "cz": "druhý"
+        },
+        {
+          "target": "third",
+          "cz": "třetí"
+        },
+        {
+          "target": "fifth",
+          "cz": "pátý"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We stand in a line.",
+      "tts_text": "We stand in a line."
+    }
+  ]
+}

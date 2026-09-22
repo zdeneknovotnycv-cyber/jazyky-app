@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_customer_service_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Mit einer Beschwerde umgehen",
+  "title_cz": "Vyřizování stížnosti",
+  "vocabulary": [
+    {
+      "word": "Ich verstehe Ihren Ärger",
+      "translation_cz": "Chápu vaši frustraci",
+      "example": "Ich verstehe Ihren Ärger, wir lösen das.",
+      "example_cz": "Chápu vaši frustraci, vyřešíme to.",
+      "tts_text": "Ich verstehe Ihren Ärger, wir lösen das."
+    },
+    {
+      "word": "eine Beschwerde einreichen",
+      "translation_cz": "podat stížnost",
+      "example": "Sie können eine Beschwerde am Empfang einreichen.",
+      "example_cz": "Stížnost můžete podat u recepce.",
+      "tts_text": "Sie können eine Beschwerde am Empfang einreichen."
+    },
+    {
+      "word": "Was ist das Problem?",
+      "translation_cz": "V čem je problém?",
+      "example": "Was genau ist das Problem mit Ihrer Bestellung?",
+      "example_cz": "V čem je přesně problém s vaší objednávkou?",
+      "tts_text": "Was genau ist das Problem mit Ihrer Bestellung?"
+    },
+    {
+      "word": "Ich kümmere mich sofort darum",
+      "translation_cz": "Prověřím to hned",
+      "example": "Ich kümmere mich sofort darum.",
+      "example_cz": "Prověřím to hned.",
+      "tts_text": "Ich kümmere mich sofort darum."
+    },
+    {
+      "word": "Entschädigung",
+      "translation_cz": "odškodnění, náhrada",
+      "example": "Wir können Ihnen eine Entschädigung anbieten.",
+      "example_cz": "Můžeme vám nabídnout odškodnění.",
+      "tts_text": "Wir können Ihnen eine Entschädigung anbieten."
+    },
+    {
+      "word": "Unannehmlichkeiten",
+      "translation_cz": "nepříjemnosti",
+      "example": "Wir entschuldigen uns für die Unannehmlichkeiten.",
+      "example_cz": "Omlouváme se za nepříjemnosti.",
+      "tts_text": "Wir entschuldigen uns für die Unannehmlichkeiten."
+    },
+    {
+      "word": "das Problem lösen",
+      "translation_cz": "vyřešit problém",
+      "example": "Wir möchten das Problem so schnell wie möglich lösen.",
+      "example_cz": "Chceme problém vyřešit co nejrychleji.",
+      "tts_text": "Wir möchten das Problem so schnell wie möglich lösen."
+    },
+    {
+      "word": "weiterleiten",
+      "translation_cz": "eskalovat, předat dál",
+      "example": "Ich werde das an meinen Vorgesetzten weiterleiten.",
+      "example_cz": "Předám to svému nadřízenému.",
+      "tts_text": "Ich werde das an meinen Vorgesetzten weiterleiten."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_02",
+      "title": "Ein Kunde beschwert sich über eine verspätete Bestellung",
+      "title_cz": "Zákazník si stěžuje na pozdní objednávku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Guten Tag, ich möchte eine Beschwerde einreichen. Meine Bestellung ist drei Tage zu spät.",
+          "text_cz": "Dobrý den, chtěl bych podat stížnost. Moje objednávka má tři dny zpoždění."
+        },
+        {
+          "speaker": "B",
+          "text": "Das tut mir leid. Was genau ist das Problem?",
+          "text_cz": "To je mi líto. V čem je přesně problém?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ich verstehe Ihren Ärger. Ich kümmere mich sofort darum.",
+          "text_cz": "Chápu vaši frustraci. Prověřím to hned."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke, ich würde auch eine Entschädigung begrüßen.",
+          "text_cz": "Děkuji, ocenil bych také nějaké odškodnění."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Ich verstehe Ihren Ärger",
+      "options": [
+        "Chápu vaši frustraci",
+        "Prověřím to hned",
+        "Podat stížnost"
+      ],
+      "correct": "Chápu vaši frustraci"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich kümmere mich ___ darum.",
+      "answer": "sofort",
+      "hint_cz": "hned"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Entschädigung",
+          "cz": "odškodnění, náhrada"
+        },
+        {
+          "target": "Unannehmlichkeiten",
+          "cz": "nepříjemnosti"
+        },
+        {
+          "target": "das Problem lösen",
+          "cz": "vyřešit problém"
+        },
+        {
+          "target": "weiterleiten",
+          "cz": "eskalovat, předat dál"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich verstehe Ihren Ärger, wir lösen das.",
+      "tts_text": "Ich verstehe Ihren Ärger, wir lösen das."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir möchten das Problem so schnell wie möglich ___.",
+      "answer": "lösen",
+      "hint_cz": "vyřešit"
+    }
+  ]
+}

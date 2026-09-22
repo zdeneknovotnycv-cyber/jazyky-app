@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_time_days_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Die Monate",
+  "title_cz": "Měsíce v roce",
+  "vocabulary": [
+    {
+      "word": "der Januar",
+      "translation_cz": "leden",
+      "example": "Mein Geburtstag ist im Januar.",
+      "example_cz": "Mám narozeniny v lednu.",
+      "tts_text": "Mein Geburtstag ist im Januar."
+    },
+    {
+      "word": "der April",
+      "translation_cz": "duben",
+      "example": "Im April regnet es oft.",
+      "example_cz": "V dubnu často prší.",
+      "tts_text": "Im April regnet es oft."
+    },
+    {
+      "word": "der Juli",
+      "translation_cz": "červenec",
+      "example": "Im Juli fahren wir in den Urlaub.",
+      "example_cz": "V červenci jezdíme na dovolenou.",
+      "tts_text": "Im Juli fahren wir in den Urlaub."
+    },
+    {
+      "word": "der Oktober",
+      "translation_cz": "říjen",
+      "example": "Im Oktober fallen die Blätter.",
+      "example_cz": "V říjnu padá listí.",
+      "tts_text": "Im Oktober fallen die Blätter."
+    },
+    {
+      "word": "der Dezember",
+      "translation_cz": "prosinec",
+      "example": "Weihnachten ist im Dezember.",
+      "example_cz": "Vánoce jsou v prosinci.",
+      "tts_text": "Weihnachten ist im Dezember."
+    },
+    {
+      "word": "der Monat",
+      "translation_cz": "měsíc",
+      "example": "Ein Jahr hat zwölf Monate.",
+      "example_cz": "V roce je dvanáct měsíců.",
+      "tts_text": "Ein Jahr hat zwölf Monate."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Juli",
+      "options": [
+        "červenec",
+        "leden",
+        "prosinec"
+      ],
+      "correct": "červenec"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein Geburtstag ist im ___.",
+      "answer": "Januar",
+      "hint_cz": "leden"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Oktober",
+          "cz": "říjen"
+        },
+        {
+          "target": "der Dezember",
+          "cz": "prosinec"
+        },
+        {
+          "target": "der April",
+          "cz": "duben"
+        },
+        {
+          "target": "der Monat",
+          "cz": "měsíc"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Mein Geburtstag ist im Januar.",
+      "tts_text": "Mein Geburtstag ist im Januar."
+    }
+  ]
+}

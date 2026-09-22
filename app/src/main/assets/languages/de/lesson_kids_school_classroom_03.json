@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_school_classroom_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The School Day",
+  "title_cz": "Školní den",
+  "vocabulary": [
+    {
+      "word": "der Unterricht beginnt",
+      "translation_cz": "vyučování začíná",
+      "example": "Der Unterricht beginnt um acht Uhr.",
+      "example_cz": "Vyučování začíná v osm hodin.",
+      "tts_text": "Der Unterricht beginnt um acht Uhr."
+    },
+    {
+      "word": "die Pause",
+      "translation_cz": "přestávka",
+      "example": "Wir spielen in der Pause.",
+      "example_cz": "O přestávce si hrajeme.",
+      "tts_text": "Wir spielen in der Pause."
+    },
+    {
+      "word": "die Stunde",
+      "translation_cz": "hodina",
+      "example": "Die Mathestunde ist lang.",
+      "example_cz": "Hodina matematiky je dlouhá.",
+      "tts_text": "Die Mathestunde ist lang."
+    },
+    {
+      "word": "die Glocke",
+      "translation_cz": "zvonek",
+      "example": "Die Glocke klingelt laut.",
+      "example_cz": "Zvonek hlasitě zvoní.",
+      "tts_text": "Die Glocke klingelt laut."
+    },
+    {
+      "word": "der Stundenplan",
+      "translation_cz": "rozvrh",
+      "example": "Ich schaue auf meinen Stundenplan.",
+      "example_cz": "Kontroluji svůj rozvrh.",
+      "tts_text": "Ich schaue auf meinen Stundenplan."
+    },
+    {
+      "word": "enden",
+      "translation_cz": "skončit",
+      "example": "Die Schule endet um drei Uhr.",
+      "example_cz": "Škola končí ve tři hodiny.",
+      "tts_text": "Die Schule endet um drei Uhr."
+    },
+    {
+      "word": "nach Hause gehen",
+      "translation_cz": "jít domů",
+      "example": "Wir gehen nach der Schule nach Hause.",
+      "example_cz": "Po škole jdeme domů.",
+      "tts_text": "Wir gehen nach der Schule nach Hause."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Glocke",
+      "options": [
+        "zvonek",
+        "hodina",
+        "rozvrh"
+      ],
+      "correct": "zvonek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Schule ___ um drei Uhr.",
+      "answer": "endet",
+      "hint_cz": "končí"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Pause",
+          "cz": "přestávka"
+        },
+        {
+          "target": "die Stunde",
+          "cz": "hodina"
+        },
+        {
+          "target": "der Stundenplan",
+          "cz": "rozvrh"
+        },
+        {
+          "target": "nach Hause gehen",
+          "cz": "jít domů"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Die Glocke klingelt laut.",
+      "tts_text": "Die Glocke klingelt laut."
+    }
+  ]
+}

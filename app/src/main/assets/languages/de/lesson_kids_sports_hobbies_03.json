@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_sports_hobbies_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Fahrradfahren",
+  "title_cz": "Jízda na kole",
+  "vocabulary": [
+    {
+      "word": "das Fahrrad",
+      "translation_cz": "kolo",
+      "example": "Ich fahre mit dem Fahrrad in den Park.",
+      "example_cz": "Jezdím na kole do parku.",
+      "tts_text": "Ich fahre mit dem Fahrrad in den Park."
+    },
+    {
+      "word": "der Helm",
+      "translation_cz": "helma",
+      "example": "Trage immer einen Helm.",
+      "example_cz": "Vždy nos helmu.",
+      "tts_text": "Trage immer einen Helm."
+    },
+    {
+      "word": "treten",
+      "translation_cz": "šlapat",
+      "example": "Ich trete schnell den Hügel hinunter.",
+      "example_cz": "Z kopce šlapu rychle.",
+      "tts_text": "Ich trete schnell den Hügel hinunter."
+    },
+    {
+      "word": "das Rad",
+      "translation_cz": "kolo (na dopravním prostředku)",
+      "example": "Das Vorderrad ist kaputt.",
+      "example_cz": "Přední kolo je rozbité.",
+      "tts_text": "Das Vorderrad ist kaputt."
+    },
+    {
+      "word": "hinfallen",
+      "translation_cz": "spadnout",
+      "example": "Ich bin einmal vom Fahrrad gefallen.",
+      "example_cz": "Jednou jsem spadl z kola.",
+      "tts_text": "Ich bin einmal vom Fahrrad gefallen."
+    },
+    {
+      "word": "die Stützräder",
+      "translation_cz": "postranní kolečka",
+      "example": "Ich brauche keine Stützräder mehr.",
+      "example_cz": "Postranní kolečka už nepotřebuji.",
+      "tts_text": "Ich brauche keine Stützräder mehr."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Helm",
+      "options": [
+        "helma",
+        "kolo",
+        "šlapat"
+      ],
+      "correct": "helma"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Trage immer einen ___.",
+      "answer": "Helm",
+      "hint_cz": "helmu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Fahrrad",
+          "cz": "kolo"
+        },
+        {
+          "target": "treten",
+          "cz": "šlapat"
+        },
+        {
+          "target": "das Rad",
+          "cz": "kolo (na dopravním prostředku)"
+        },
+        {
+          "target": "hinfallen",
+          "cz": "spadnout"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich fahre mit dem Fahrrad in den Park.",
+      "tts_text": "Ich fahre mit dem Fahrrad in den Park."
+    }
+  ]
+}

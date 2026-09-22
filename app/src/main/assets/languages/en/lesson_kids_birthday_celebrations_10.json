@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_birthday_celebrations_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Inviting friends",
+  "title_cz": "Zvaní kamarádů",
+  "vocabulary": [
+    {
+      "word": "invite",
+      "translation_cz": "pozvat",
+      "example": "I invite my friends to the party.",
+      "example_cz": "Zvu kamarády na oslavu.",
+      "tts_text": "I invite my friends to the party."
+    },
+    {
+      "word": "invitation",
+      "translation_cz": "pozvánka",
+      "example": "I make a colorful invitation.",
+      "example_cz": "Vyrábím barevnou pozvánku.",
+      "tts_text": "I make a colorful invitation."
+    },
+    {
+      "word": "guest list",
+      "translation_cz": "seznam hostů",
+      "example": "We write a guest list together.",
+      "example_cz": "Společně píšeme seznam hostů.",
+      "tts_text": "We write a guest list together."
+    },
+    {
+      "word": "come",
+      "translation_cz": "přijít",
+      "example": "Can you come to my party?",
+      "example_cz": "Můžeš přijít na mou oslavu?",
+      "tts_text": "Can you come to my party?"
+    },
+    {
+      "word": "confirm",
+      "translation_cz": "potvrdit",
+      "example": "Please confirm if you can come.",
+      "example_cz": "Prosím potvrď, jestli můžeš přijít.",
+      "tts_text": "Please confirm if you can come."
+    },
+    {
+      "word": "date",
+      "translation_cz": "datum",
+      "example": "The party date is Saturday.",
+      "example_cz": "Datum oslavy je sobota.",
+      "tts_text": "The party date is Saturday."
+    },
+    {
+      "word": "excited",
+      "translation_cz": "nadšený",
+      "example": "I am excited about the party.",
+      "example_cz": "Jsem nadšený z oslavy.",
+      "tts_text": "I am excited about the party."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "invite",
+      "options": [
+        "pozvat",
+        "pozvánka",
+        "seznam hostů"
+      ],
+      "correct": "pozvat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I make a colorful ___.",
+      "answer": "invitation",
+      "hint_cz": "pozvánka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "guest list",
+          "cz": "seznam hostů"
+        },
+        {
+          "target": "come",
+          "cz": "přijít"
+        },
+        {
+          "target": "confirm",
+          "cz": "potvrdit"
+        },
+        {
+          "target": "date",
+          "cz": "datum"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I am excited about the party.",
+      "tts_text": "I am excited about the party."
+    }
+  ]
+}

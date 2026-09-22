@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_food_drinks_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Cooking with Parents",
+  "title_cz": "Vaření s rodiči",
+  "vocabulary": [
+    {
+      "word": "cook",
+      "translation_cz": "vařit",
+      "example": "I like to cook with mom.",
+      "example_cz": "Ráda vařím s maminkou.",
+      "tts_text": "I like to cook with mom."
+    },
+    {
+      "word": "recipe",
+      "translation_cz": "recept",
+      "example": "We follow a recipe.",
+      "example_cz": "Řídíme se podle receptu.",
+      "tts_text": "We follow a recipe."
+    },
+    {
+      "word": "mix",
+      "translation_cz": "míchat",
+      "example": "I mix the eggs and flour.",
+      "example_cz": "Míchám vejce a mouku.",
+      "tts_text": "I mix the eggs and flour."
+    },
+    {
+      "word": "bake",
+      "translation_cz": "péct",
+      "example": "We bake a cake together.",
+      "example_cz": "Společně pečeme dort.",
+      "tts_text": "We bake a cake together."
+    },
+    {
+      "word": "oven",
+      "translation_cz": "trouba",
+      "example": "The cake is in the oven.",
+      "example_cz": "Dort je v troubě.",
+      "tts_text": "The cake is in the oven."
+    },
+    {
+      "word": "stir",
+      "translation_cz": "míchat (vařečkou)",
+      "example": "I stir the soup slowly.",
+      "example_cz": "Pomalu míchám polévku.",
+      "tts_text": "I stir the soup slowly."
+    },
+    {
+      "word": "taste",
+      "translation_cz": "ochutnat",
+      "example": "Can I taste it?",
+      "example_cz": "Můžu to ochutnat?",
+      "tts_text": "Can I taste it?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "cook",
+      "options": [
+        "vařit",
+        "péct",
+        "míchat"
+      ],
+      "correct": "vařit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The cake is in the ___.",
+      "answer": "oven",
+      "hint_cz": "trouba"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "recipe",
+          "cz": "recept"
+        },
+        {
+          "target": "mix",
+          "cz": "míchat"
+        },
+        {
+          "target": "bake",
+          "cz": "péct"
+        },
+        {
+          "target": "taste",
+          "cz": "ochutnat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I like to cook with mom.",
+      "tts_text": "I like to cook with mom."
+    }
+  ]
+}

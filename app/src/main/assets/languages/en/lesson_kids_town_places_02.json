@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_town_places_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The supermarket",
+  "title_cz": "Supermarket",
+  "vocabulary": [
+    {
+      "word": "supermarket",
+      "translation_cz": "supermarket",
+      "example": "We buy food at the supermarket.",
+      "example_cz": "Kupujeme jídlo v supermarketu.",
+      "tts_text": "We buy food at the supermarket."
+    },
+    {
+      "word": "shopping cart",
+      "translation_cz": "nákupní vozík",
+      "example": "I push the shopping cart.",
+      "example_cz": "Tlačím nákupní vozík.",
+      "tts_text": "I push the shopping cart."
+    },
+    {
+      "word": "shelf",
+      "translation_cz": "regál",
+      "example": "The cereal is on the shelf.",
+      "example_cz": "Cereálie jsou na regálu.",
+      "tts_text": "The cereal is on the shelf."
+    },
+    {
+      "word": "shopping list",
+      "translation_cz": "nákupní seznam",
+      "example": "Mom writes a shopping list.",
+      "example_cz": "Máma píše nákupní seznam.",
+      "tts_text": "Mom writes a shopping list."
+    },
+    {
+      "word": "cashier",
+      "translation_cz": "pokladní",
+      "example": "The cashier scans our food.",
+      "example_cz": "Pokladní skenuje naše jídlo.",
+      "tts_text": "The cashier scans our food."
+    },
+    {
+      "word": "pay",
+      "translation_cz": "zaplatit",
+      "example": "We pay at the checkout.",
+      "example_cz": "Platíme u pokladny.",
+      "tts_text": "We pay at the checkout."
+    },
+    {
+      "word": "basket",
+      "translation_cz": "košík",
+      "example": "I carry a small basket.",
+      "example_cz": "Nesu malý košík.",
+      "tts_text": "I carry a small basket."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "supermarket",
+      "options": [
+        "supermarket",
+        "park",
+        "škola"
+      ],
+      "correct": "supermarket"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We buy food at the ___.",
+      "answer": "supermarket",
+      "hint_cz": "supermarket"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "shopping cart",
+          "cz": "nákupní vozík"
+        },
+        {
+          "target": "shelf",
+          "cz": "regál"
+        },
+        {
+          "target": "shopping list",
+          "cz": "nákupní seznam"
+        },
+        {
+          "target": "cashier",
+          "cz": "pokladní"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We pay at the checkout.",
+      "tts_text": "We pay at the checkout."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_numbers_colors_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "More and Less",
+  "title_cz": "Víc a míň",
+  "vocabulary": [
+    {
+      "word": "mehr",
+      "translation_cz": "víc",
+      "example": "Ich möchte mehr Saft.",
+      "example_cz": "Chci víc šťávy.",
+      "tts_text": "Ich möchte mehr Saft."
+    },
+    {
+      "word": "weniger",
+      "translation_cz": "míň",
+      "example": "Ich habe weniger Süßigkeiten als du.",
+      "example_cz": "Mám míň bonbonů než ty.",
+      "tts_text": "Ich habe weniger Süßigkeiten als du."
+    },
+    {
+      "word": "gleich viel",
+      "translation_cz": "stejně",
+      "example": "Wir haben gleich viele Spielsachen.",
+      "example_cz": "Máme stejně hraček.",
+      "tts_text": "Wir haben gleich viele Spielsachen."
+    },
+    {
+      "word": "voll",
+      "translation_cz": "plný",
+      "example": "Das Glas ist voll.",
+      "example_cz": "Sklenice je plná.",
+      "tts_text": "Das Glas ist voll."
+    },
+    {
+      "word": "leer",
+      "translation_cz": "prázdný",
+      "example": "Die Kiste ist leer.",
+      "example_cz": "Krabice je prázdná.",
+      "tts_text": "Die Kiste ist leer."
+    },
+    {
+      "word": "genug",
+      "translation_cz": "dost",
+      "example": "Ich habe genug Bleistifte.",
+      "example_cz": "Mám dost tužek.",
+      "tts_text": "Ich habe genug Bleistifte."
+    },
+    {
+      "word": "vergleichen",
+      "translation_cz": "porovnat",
+      "example": "Lass uns unsere Sticker vergleichen.",
+      "example_cz": "Pojďme porovnat naše samolepky.",
+      "tts_text": "Lass uns unsere Sticker vergleichen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "leer",
+      "options": [
+        "prázdný",
+        "plný",
+        "stejně"
+      ],
+      "correct": "prázdný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das Glas ist ___.",
+      "answer": "voll",
+      "hint_cz": "plná"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "mehr",
+          "cz": "víc"
+        },
+        {
+          "target": "weniger",
+          "cz": "míň"
+        },
+        {
+          "target": "gleich viel",
+          "cz": "stejně"
+        },
+        {
+          "target": "genug",
+          "cz": "dost"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lass uns unsere Sticker vergleichen.",
+      "tts_text": "Lass uns unsere Sticker vergleichen."
+    }
+  ]
+}

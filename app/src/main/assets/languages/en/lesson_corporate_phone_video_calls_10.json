@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_phone_video_calls_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Rescheduling a call",
+  "title_cz": "Přeložení hovoru na jiný termín",
+  "vocabulary": [
+    {
+      "word": "something has come up",
+      "translation_cz": "něco mi vyskočilo / stalo se něco neplánovaného",
+      "example": "I'm sorry, something has come up and I need to reschedule.",
+      "example_cz": "Omlouvám se, něco mi vyskočilo a potřebuji hovor přeložit.",
+      "tts_text": "I'm sorry, something has come up and I need to reschedule."
+    },
+    {
+      "word": "would it be possible to move our call?",
+      "translation_cz": "bylo by možné náš hovor přesunout?",
+      "example": "Would it be possible to move our call to tomorrow?",
+      "example_cz": "Bylo by možné přesunout náš hovor na zítřek?",
+      "tts_text": "Would it be possible to move our call to tomorrow?"
+    },
+    {
+      "word": "I apologize for the inconvenience",
+      "translation_cz": "omlouvám se za nepříjemnosti",
+      "example": "I apologize for the inconvenience this may cause.",
+      "example_cz": "Omlouvám se za nepříjemnosti, které to může způsobit.",
+      "tts_text": "I apologize for the inconvenience this may cause."
+    },
+    {
+      "word": "can we push it back an hour?",
+      "translation_cz": "můžeme to posunout o hodinu?",
+      "example": "Can we push it back an hour, to four o'clock?",
+      "example_cz": "Můžeme to posunout o hodinu, na čtvrtou?",
+      "tts_text": "Can we push it back an hour, to four o'clock?"
+    },
+    {
+      "word": "that's not a problem at all",
+      "translation_cz": "to vůbec není problém",
+      "example": "That's not a problem at all, don't worry.",
+      "example_cz": "To vůbec není problém, nebojte se.",
+      "tts_text": "That's not a problem at all, don't worry."
+    },
+    {
+      "word": "let's find another time",
+      "translation_cz": "najděme jiný čas",
+      "example": "Let's find another time that works for both of us.",
+      "example_cz": "Najděme jiný čas, který nám oběma vyhovuje.",
+      "tts_text": "Let's find another time that works for both of us."
+    },
+    {
+      "word": "how about Friday instead?",
+      "translation_cz": "co takhle místo toho pátek?",
+      "example": "How about Friday instead, at the same time?",
+      "example_cz": "Co takhle místo toho pátek, ve stejný čas?",
+      "tts_text": "How about Friday instead, at the same time?"
+    },
+    {
+      "word": "I'll update the invite",
+      "translation_cz": "aktualizuji pozvánku",
+      "example": "I'll update the invite with the new time.",
+      "example_cz": "Aktualizuji pozvánku s novým časem.",
+      "tts_text": "I'll update the invite with the new time."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_rescheduling_a_call",
+      "title": "Moving a call to a new time",
+      "title_cz": "Přeložení hovoru na nový čas",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi, I'm sorry, something has come up and I need to reschedule our call.",
+          "text_cz": "Dobrý den, omlouvám se, něco mi vyskočilo a potřebuji náš hovor přeložit."
+        },
+        {
+          "speaker": "B",
+          "text": "That's not a problem at all. Let's find another time.",
+          "text_cz": "To vůbec není problém. Najděme jiný čas."
+        },
+        {
+          "speaker": "A",
+          "text": "Would it be possible to move our call to tomorrow morning?",
+          "text_cz": "Bylo by možné přesunout náš hovor na zítřejší ráno?"
+        },
+        {
+          "speaker": "B",
+          "text": "How about Friday instead? I have a full day tomorrow.",
+          "text_cz": "Co takhle místo toho pátek? Zítra mám plný den."
+        },
+        {
+          "speaker": "A",
+          "text": "Friday works. I'll update the invite with the new time.",
+          "text_cz": "Pátek mi vyhovuje. Aktualizuji pozvánku s novým časem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Something has come up and I need to reschedule.",
+      "options": [
+        "Něco mi vyskočilo a potřebuji hovor přeložit.",
+        "To vůbec není problém.",
+        "Najděme jiný čas."
+      ],
+      "correct": "Něco mi vyskočilo a potřebuji hovor přeložit."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Would it be possible to ___ our call to tomorrow?",
+      "answer": "move",
+      "hint_cz": "přesunout"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "I apologize for the inconvenience", "cz": "omlouvám se za nepříjemnosti" },
+        { "target": "can we push it back an hour?", "cz": "můžeme to posunout o hodinu?" },
+        { "target": "let's find another time", "cz": "najděme jiný čas" },
+        { "target": "I'll update the invite", "cz": "aktualizuji pozvánku" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "That's not a problem at all, don't worry.",
+      "tts_text": "That's not a problem at all, don't worry."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "How about Friday ___, at the same time?",
+      "answer": "instead",
+      "hint_cz": "místo toho"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'll update the invite with the new time.",
+      "tts_text": "I'll update the invite with the new time."
+    }
+  ]
+}

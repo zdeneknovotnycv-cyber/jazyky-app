@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_imagination_stories_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ein Dinosaurier-Abenteuer",
+  "title_cz": "Dobrodružství s dinosaury",
+  "vocabulary": [
+    {
+      "word": "der Dinosaurier",
+      "translation_cz": "dinosaurus",
+      "example": "Ich treffe einen riesigen Dinosaurier.",
+      "example_cz": "Potkávám obrovského dinosaura.",
+      "tts_text": "Ich treffe einen riesigen Dinosaurier."
+    },
+    {
+      "word": "der Dschungel",
+      "translation_cz": "džungle",
+      "example": "Wir gehen durch den Dschungel.",
+      "example_cz": "Procházíme džunglí.",
+      "tts_text": "Wir gehen durch den Dschungel."
+    },
+    {
+      "word": "brüllen",
+      "translation_cz": "řvát",
+      "example": "Der Dinosaurier brüllt laut.",
+      "example_cz": "Dinosaurus se hlasitě rozeřve.",
+      "tts_text": "Der Dinosaurier brüllt laut."
+    },
+    {
+      "word": "das Ei",
+      "translation_cz": "vejce",
+      "example": "Ich finde ein Dinosaurierei.",
+      "example_cz": "Nacházím dinosauří vejce.",
+      "tts_text": "Ich finde ein Dinosaurierei."
+    },
+    {
+      "word": "der Fußabdruck",
+      "translation_cz": "stopa",
+      "example": "Ich sehe einen riesigen Fußabdruck.",
+      "example_cz": "Vidím obří stopu.",
+      "tts_text": "Ich sehe einen riesigen Fußabdruck."
+    },
+    {
+      "word": "uralt",
+      "translation_cz": "prastarý",
+      "example": "Der Dinosaurier lebte in uralten Zeiten.",
+      "example_cz": "Dinosaurus žil v prastarých dobách.",
+      "tts_text": "Der Dinosaurier lebte in uralten Zeiten."
+    },
+    {
+      "word": "erkunden",
+      "translation_cz": "prozkoumávat",
+      "example": "Wir erkunden die Welt der Dinosaurier.",
+      "example_cz": "Prozkoumáváme svět dinosaurů.",
+      "tts_text": "Wir erkunden die Welt der Dinosaurier."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Dinosaurier",
+      "options": [
+        "dinosaurus",
+        "džungle",
+        "řvát"
+      ],
+      "correct": "dinosaurus"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir gehen durch den ___.",
+      "answer": "Dschungel",
+      "hint_cz": "džungle"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "brüllen",
+          "cz": "řvát"
+        },
+        {
+          "target": "das Ei",
+          "cz": "vejce"
+        },
+        {
+          "target": "der Fußabdruck",
+          "cz": "stopa"
+        },
+        {
+          "target": "uralt",
+          "cz": "prastarý"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir erkunden die Welt der Dinosaurier.",
+      "tts_text": "Wir erkunden die Welt der Dinosaurier."
+    }
+  ]
+}

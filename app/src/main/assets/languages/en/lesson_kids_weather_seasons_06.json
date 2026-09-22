@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_weather_seasons_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "What to Wear in Different Weather",
+  "title_cz": "Co si obléknout podle počasí",
+  "vocabulary": [
+    {
+      "word": "jacket",
+      "translation_cz": "bunda",
+      "example": "Wear a jacket, it's cold.",
+      "example_cz": "Vezmi si bundu, je zima.",
+      "tts_text": "Wear a jacket, it's cold."
+    },
+    {
+      "word": "hat",
+      "translation_cz": "čepice",
+      "example": "Put on your hat.",
+      "example_cz": "Nasaď si čepici.",
+      "tts_text": "Put on your hat."
+    },
+    {
+      "word": "gloves",
+      "translation_cz": "rukavice",
+      "example": "I need my gloves in winter.",
+      "example_cz": "V zimě potřebuji rukavice.",
+      "tts_text": "I need my gloves in winter."
+    },
+    {
+      "word": "sunglasses",
+      "translation_cz": "sluneční brýle",
+      "example": "I wear sunglasses when it's sunny.",
+      "example_cz": "Když je slunečno, nosím sluneční brýle.",
+      "tts_text": "I wear sunglasses when it's sunny."
+    },
+    {
+      "word": "shorts",
+      "translation_cz": "kraťasy",
+      "example": "I wear shorts in summer.",
+      "example_cz": "V létě nosím kraťasy.",
+      "tts_text": "I wear shorts in summer."
+    },
+    {
+      "word": "raincoat",
+      "translation_cz": "pláštěnka",
+      "example": "Put on your raincoat, it's raining.",
+      "example_cz": "Obleč si pláštěnku, prší.",
+      "tts_text": "Put on your raincoat, it's raining."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "gloves",
+      "options": [
+        "rukavice",
+        "čepice",
+        "bunda"
+      ],
+      "correct": "rukavice"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wear a ___, it's cold.",
+      "answer": "jacket",
+      "hint_cz": "bunda"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "hat",
+          "cz": "čepice"
+        },
+        {
+          "target": "sunglasses",
+          "cz": "sluneční brýle"
+        },
+        {
+          "target": "shorts",
+          "cz": "kraťasy"
+        },
+        {
+          "target": "raincoat",
+          "cz": "pláštěnka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Put on your hat.",
+      "tts_text": "Put on your hat."
+    }
+  ]
+}

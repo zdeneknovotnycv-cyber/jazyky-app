@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_office_life_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Office move announcement",
+  "title_cz": "Oznámení o stěhování kanceláře",
+  "vocabulary": [
+    {
+      "word": "office move",
+      "translation_cz": "stěhování kanceláře",
+      "example": "The office move is planned for next month.",
+      "example_cz": "Stěhování kanceláře je naplánováno na příští měsíc.",
+      "tts_text": "The office move is planned for next month."
+    },
+    {
+      "word": "new location",
+      "translation_cz": "nové místo",
+      "example": "Our new location is in the city centre.",
+      "example_cz": "Naše nové místo je v centru města.",
+      "tts_text": "Our new location is in the city centre."
+    },
+    {
+      "word": "pack up your desk",
+      "translation_cz": "sbalit si stůl",
+      "example": "Please pack up your desk by Friday.",
+      "example_cz": "Prosím sbal si stůl do pátku.",
+      "tts_text": "Please pack up your desk by Friday."
+    },
+    {
+      "word": "moving boxes",
+      "translation_cz": "stěhovací krabice",
+      "example": "Moving boxes are available at reception.",
+      "example_cz": "Stěhovací krabice jsou k dispozici na recepci.",
+      "tts_text": "Moving boxes are available at reception."
+    },
+    {
+      "word": "relocate",
+      "translation_cz": "přestěhovat se",
+      "example": "The whole team will relocate to floor five.",
+      "example_cz": "Celý tým se přestěhuje do pátého patra.",
+      "tts_text": "The whole team will relocate to floor five."
+    },
+    {
+      "word": "floor plan",
+      "translation_cz": "plánek podlaží",
+      "example": "Check the new floor plan for your desk number.",
+      "example_cz": "Podívej se do nového plánku podlaží na číslo svého stolu.",
+      "tts_text": "Check the new floor plan for your desk number."
+    },
+    {
+      "word": "temporary office",
+      "translation_cz": "dočasná kancelář",
+      "example": "We'll work from a temporary office for a week.",
+      "example_cz": "Týden budeme pracovat z dočasné kanceláře.",
+      "tts_text": "We'll work from a temporary office for a week."
+    },
+    {
+      "word": "moving day",
+      "translation_cz": "den stěhování",
+      "example": "Moving day is scheduled for the fifteenth.",
+      "example_cz": "Den stěhování je naplánován na patnáctého.",
+      "tts_text": "Moving day is scheduled for the fifteenth."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_08",
+      "title": "Announcing the office move",
+      "title_cz": "Oznámení stěhování kanceláře",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you heard about the office move?",
+          "text_cz": "Slyšel jsi o stěhování kanceláře?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, we're relocating to a new location downtown.",
+          "text_cz": "Ano, stěhujeme se na nové místo v centru."
+        },
+        {
+          "speaker": "A",
+          "text": "When should I pack up my desk?",
+          "text_cz": "Kdy si mám sbalit stůl?"
+        },
+        {
+          "speaker": "B",
+          "text": "By Friday, moving boxes are available at reception.",
+          "text_cz": "Do pátku, stěhovací krabice jsou na recepci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "office move",
+      "options": [
+        "stěhování kanceláře",
+        "nové místo",
+        "sbalit si stůl"
+      ],
+      "correct": "stěhování kanceláře"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please pack ___ your desk by Friday.",
+      "answer": "up",
+      "hint_cz": "sbalit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "office move",
+          "cz": "stěhování kanceláře"
+        },
+        {
+          "target": "new location",
+          "cz": "nové místo"
+        },
+        {
+          "target": "pack up your desk",
+          "cz": "sbalit si stůl"
+        },
+        {
+          "target": "moving boxes",
+          "cz": "stěhovací krabice"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please pack up your desk by Friday.",
+      "tts_text": "Please pack up your desk by Friday."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We are going to ___ to a new location.",
+      "answer": "relocate",
+      "hint_cz": "přestěhovat"
+    }
+  ]
+}

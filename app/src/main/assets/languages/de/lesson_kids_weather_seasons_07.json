@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_weather_seasons_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Die Wettervorhersage",
+  "title_cz": "Předpověď počasí",
+  "vocabulary": [
+    {
+      "word": "die Wettervorhersage",
+      "translation_cz": "předpověď počasí",
+      "example": "Schauen wir uns die Wettervorhersage an.",
+      "example_cz": "Podívejme se na předpověď počasí.",
+      "tts_text": "Schauen wir uns die Wettervorhersage an."
+    },
+    {
+      "word": "morgen regnet es",
+      "translation_cz": "zítra bude pršet",
+      "example": "Morgen regnet es viel.",
+      "example_cz": "Zítra bude hodně pršet.",
+      "tts_text": "Morgen regnet es viel."
+    },
+    {
+      "word": "die Temperatur",
+      "translation_cz": "teplota",
+      "example": "Die Temperatur beträgt zehn Grad.",
+      "example_cz": "Teplota je deset stupňů.",
+      "tts_text": "Die Temperatur beträgt zehn Grad."
+    },
+    {
+      "word": "das Grad",
+      "translation_cz": "stupeň",
+      "example": "Heute sind es zwanzig Grad.",
+      "example_cz": "Dnes je dvacet stupňů.",
+      "tts_text": "Heute sind es zwanzig Grad."
+    },
+    {
+      "word": "windig",
+      "translation_cz": "větrno",
+      "example": "Morgen wird es windig.",
+      "example_cz": "Zítra bude větrno.",
+      "tts_text": "Morgen wird es windig."
+    },
+    {
+      "word": "bewölkt",
+      "translation_cz": "zataženo",
+      "example": "Heute ist der Himmel bewölkt.",
+      "example_cz": "Dnes je zataženo.",
+      "tts_text": "Heute ist der Himmel bewölkt."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Temperatur",
+      "options": [
+        "teplota",
+        "stupeň",
+        "větrno"
+      ],
+      "correct": "teplota"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Heute sind es zwanzig ___.",
+      "answer": "Grad",
+      "hint_cz": "stupňů"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Wettervorhersage",
+          "cz": "předpověď počasí"
+        },
+        {
+          "target": "windig",
+          "cz": "větrno"
+        },
+        {
+          "target": "bewölkt",
+          "cz": "zataženo"
+        },
+        {
+          "target": "morgen regnet es",
+          "cz": "zítra bude pršet"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Schauen wir uns die Wettervorhersage an.",
+      "tts_text": "Schauen wir uns die Wettervorhersage an."
+    }
+  ]
+}

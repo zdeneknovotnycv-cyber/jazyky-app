@@ -1,0 +1,138 @@
+{
+  "id": "de_adult_corporate_email_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Nachfassen bei einer unbeantworteten E-Mail",
+  "title_cz": "Připomenutí nezodpovězeného e-mailu",
+  "vocabulary": [
+    {
+      "word": "ich möchte nur nachfassen",
+      "translation_cz": "jen se ozývám znovu",
+      "example": "Ich möchte nur bei meiner vorherigen E-Mail nachfassen.",
+      "example_cz": "Jen se ozývám znovu ohledně mého předchozího e-mailu.",
+      "tts_text": "Ich möchte nur bei meiner vorherigen E-Mail nachfassen."
+    },
+    {
+      "word": "ich habe noch nichts gehört",
+      "translation_cz": "neozval/a jste se mi",
+      "example": "Ich habe von Ihnen noch nichts gehört.",
+      "example_cz": "Zatím jste se mi neozval/a.",
+      "tts_text": "Ich habe von Ihnen noch nichts gehört."
+    },
+    {
+      "word": "eine kurze Erinnerung",
+      "translation_cz": "přátelské připomenutí",
+      "example": "Dies ist eine kurze Erinnerung an meine Anfrage.",
+      "example_cz": "Toto je přátelské připomenutí mé žádosti.",
+      "tts_text": "Dies ist eine kurze Erinnerung an meine Anfrage."
+    },
+    {
+      "word": "falls Sie es übersehen haben",
+      "translation_cz": "pro případ, že vám to uniklo",
+      "example": "Falls Sie es übersehen haben, habe ich die Datei erneut angehängt.",
+      "example_cz": "Pro případ, že vám to uniklo, přikládám soubor znovu.",
+      "tts_text": "Falls Sie es übersehen haben, habe ich die Datei erneut angehängt."
+    },
+    {
+      "word": "zeitkritisch",
+      "translation_cz": "časově citlivé",
+      "example": "Diese Angelegenheit ist zeitkritisch.",
+      "example_cz": "Tato záležitost je časově citlivá.",
+      "tts_text": "Diese Angelegenheit ist zeitkritisch."
+    },
+    {
+      "word": "bitte antworten Sie",
+      "translation_cz": "prosím odpovězte",
+      "example": "Könnten Sie bitte bis morgen antworten?",
+      "example_cz": "Mohl byste prosím odpovědět do zítřka?",
+      "tts_text": "Könnten Sie bitte bis morgen antworten?"
+    },
+    {
+      "word": "ich warte noch auf",
+      "translation_cz": "stále čekám na",
+      "example": "Ich warte noch auf Ihre Bestätigung.",
+      "example_cz": "Stále čekám na vaše potvrzení.",
+      "tts_text": "Ich warte noch auf Ihre Bestätigung."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_followup_email",
+      "title": "Eine höfliche Erinnerung senden",
+      "title_cz": "Zdvořilé připomenutí",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich möchte nur bei meiner vorherigen E-Mail zum Vertrag nachfassen.",
+          "text_cz": "Jen se ozývám znovu ohledně mého předchozího e-mailu ke smlouvě."
+        },
+        {
+          "speaker": "A",
+          "text": "Ich habe von Ihnen noch nichts gehört, und die Angelegenheit ist zeitkritisch.",
+          "text_cz": "Zatím jste se mi neozval, a záležitost je časově citlivá."
+        },
+        {
+          "speaker": "B",
+          "text": "Entschuldigung für die Verzögerung. Ich prüfe es noch und antworte heute.",
+          "text_cz": "Omlouvám se za zpoždění. Stále to procházím a dnes odpovím."
+        },
+        {
+          "speaker": "A",
+          "text": "Danke, ich warte noch auf Ihre Bestätigung, um fortzufahren.",
+          "text_cz": "Děkuji, stále čekám na vaše potvrzení, abychom mohli pokračovat."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "zeitkritisch",
+      "options": [
+        "časově citlivé",
+        "stále čekám",
+        "zavádějící"
+      ],
+      "correct": "časově citlivé"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich habe von Ihnen noch ___ gehört.",
+      "answer": "nichts",
+      "hint_cz": "ozval se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "eine kurze Erinnerung",
+          "cz": "přátelské připomenutí"
+        },
+        {
+          "target": "bitte antworten Sie",
+          "cz": "prosím odpovězte"
+        },
+        {
+          "target": "ich warte noch auf",
+          "cz": "stále čekám na"
+        },
+        {
+          "target": "falls Sie es übersehen haben",
+          "cz": "pro případ, že vám to uniklo"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich möchte nur bei meiner vorherigen E-Mail nachfassen.",
+      "tts_text": "Ich möchte nur bei meiner vorherigen E-Mail nachfassen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Könnten Sie bitte bis morgen ___?",
+      "answer": "antworten",
+      "hint_cz": "odpovědět"
+    }
+  ]
+}

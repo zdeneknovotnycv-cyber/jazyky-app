@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_imagination_stories_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ein Zauberwald",
+  "title_cz": "Kouzelný les",
+  "vocabulary": [
+    {
+      "word": "der Wald",
+      "translation_cz": "les",
+      "example": "Ich gehe in einen Zauberwald.",
+      "example_cz": "Vcházím do kouzelného lesa.",
+      "tts_text": "Ich gehe in einen Zauberwald."
+    },
+    {
+      "word": "die Magie",
+      "translation_cz": "kouzlo",
+      "example": "Die Bäume haben magische Kräfte.",
+      "example_cz": "Stromy mají kouzelnou moc.",
+      "tts_text": "Die Bäume haben magische Kräfte."
+    },
+    {
+      "word": "die Fee",
+      "translation_cz": "víla",
+      "example": "Eine kleine Fee fliegt an mir vorbei.",
+      "example_cz": "Kolem mě proletí malá víla.",
+      "tts_text": "Eine kleine Fee fliegt an mir vorbei."
+    },
+    {
+      "word": "der Pfad",
+      "translation_cz": "cesta, stezka",
+      "example": "Ich folge einem versteckten Pfad.",
+      "example_cz": "Sleduji skrytou stezku.",
+      "tts_text": "Ich folge einem versteckten Pfad."
+    },
+    {
+      "word": "der Baum",
+      "translation_cz": "strom",
+      "example": "Ein sprechender Baum begrüßt mich.",
+      "example_cz": "Zdraví mě mluvící strom.",
+      "tts_text": "Ein sprechender Baum begrüßt mich."
+    },
+    {
+      "word": "das Geheimnis",
+      "translation_cz": "tajemství",
+      "example": "Der Wald hütet ein Geheimnis.",
+      "example_cz": "Les ukrývá tajemství.",
+      "tts_text": "Der Wald hütet ein Geheimnis."
+    },
+    {
+      "word": "funkeln",
+      "translation_cz": "třpytit se",
+      "example": "Alles beginnt zu funkeln.",
+      "example_cz": "Všechno se začíná třpytit.",
+      "tts_text": "Alles beginnt zu funkeln."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Wald",
+      "options": [
+        "les",
+        "kouzlo",
+        "víla"
+      ],
+      "correct": "les"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Bäume haben ___ Kräfte.",
+      "answer": "magische",
+      "hint_cz": "kouzlo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Fee",
+          "cz": "víla"
+        },
+        {
+          "target": "der Pfad",
+          "cz": "cesta, stezka"
+        },
+        {
+          "target": "der Baum",
+          "cz": "strom"
+        },
+        {
+          "target": "das Geheimnis",
+          "cz": "tajemství"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Alles beginnt zu funkeln.",
+      "tts_text": "Alles beginnt zu funkeln."
+    }
+  ]
+}

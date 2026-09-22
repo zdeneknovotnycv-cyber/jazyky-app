@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_legal_contracts_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Klausel erklären",
+  "title_cz": "Vysvětlení doložky",
+  "vocabulary": [
+    {
+      "word": "die Klausel",
+      "translation_cz": "doložka / ustanovení",
+      "example": "Lassen Sie mich diese Klausel erklären.",
+      "example_cz": "Nechte mě vysvětlit tuto doložku.",
+      "tts_text": "Lassen Sie mich diese Klausel erklären."
+    },
+    {
+      "word": "einfach gesagt",
+      "translation_cz": "jednoduše řečeno",
+      "example": "Einfach gesagt bedeutet das, Sie können jederzeit kündigen.",
+      "example_cz": "Jednoduše řečeno to znamená, že můžete kdykoli zrušit.",
+      "tts_text": "Einfach gesagt bedeutet das, Sie können jederzeit kündigen."
+    },
+    {
+      "word": "bedeutet, dass",
+      "translation_cz": "znamená to, že",
+      "example": "Das bedeutet, dass beide Seiten zustimmen müssen.",
+      "example_cz": "Znamená to, že obě strany musí souhlasit.",
+      "tts_text": "Das bedeutet, dass beide Seiten zustimmen müssen."
+    },
+    {
+      "word": "die Ausnahme",
+      "translation_cz": "výjimka",
+      "example": "Es gibt eine Ausnahme von dieser Regel.",
+      "example_cz": "Z tohoto pravidla existuje jedna výjimka.",
+      "tts_text": "Es gibt eine Ausnahme von dieser Regel."
+    },
+    {
+      "word": "gilt für",
+      "translation_cz": "vztahuje se na",
+      "example": "Diese Klausel gilt für alle Mitarbeiter.",
+      "example_cz": "Tato doložka se vztahuje na všechny zaměstnance.",
+      "tts_text": "Diese Klausel gilt für alle Mitarbeiter."
+    },
+    {
+      "word": "vorbehaltlich",
+      "translation_cz": "podléhající / za podmínky",
+      "example": "Das Angebot steht vorbehaltlich der Genehmigung.",
+      "example_cz": "Nabídka podléhá schválení.",
+      "tts_text": "Das Angebot steht vorbehaltlich der Genehmigung."
+    },
+    {
+      "word": "zum Beispiel",
+      "translation_cz": "například",
+      "example": "Zum Beispiel deckt das verspätete Zahlungen ab.",
+      "example_cz": "Například se to vztahuje na pozdní platby.",
+      "tts_text": "Zum Beispiel deckt das verspätete Zahlungen ab."
+    },
+    {
+      "word": "sofern nicht anders vereinbart",
+      "translation_cz": "pokud není dohodnuto jinak",
+      "example": "Sofern nicht anders vereinbart, bleibt der Preis gleich.",
+      "example_cz": "Pokud není dohodnuto jinak, cena zůstává stejná.",
+      "tts_text": "Sofern nicht anders vereinbart, bleibt der Preis gleich."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_07",
+      "title": "Eine Klausel erklären",
+      "title_cz": "Vysvětlení doložky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Könnten Sie mir diese Klausel erklären?",
+          "text_cz": "Mohl byste mi vysvětlit tuto doložku?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar. Einfach gesagt bedeutet das, dass sich die Preise nicht ändern, sofern nicht anders vereinbart.",
+          "text_cz": "Jasně. Jednoduše řečeno to znamená, že ceny se nezmění, pokud není dohodnuto jinak."
+        },
+        {
+          "speaker": "A",
+          "text": "Gilt das für alle unsere Bestellungen?",
+          "text_cz": "Vztahuje se to na všechny naše objednávky?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, außer einer Ausnahme - Sonderanfertigungen.",
+          "text_cz": "Ano, kromě jedné výjimky - zakázkových objednávek."
+        },
+        {
+          "speaker": "A",
+          "text": "Zum Beispiel?",
+          "text_cz": "Například?"
+        },
+        {
+          "speaker": "B",
+          "text": "Zum Beispiel steht eine spezielle Produktion vorbehaltlich einer separaten Vereinbarung.",
+          "text_cz": "Například speciální výrobní dávka podléhá samostatné dohodě."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Klausel",
+      "options": [
+        "doložka / ustanovení",
+        "jednoduše řečeno",
+        "znamená to, že"
+      ],
+      "correct": "doložka / ustanovení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es gibt eine Ausnahme von dieser ___",
+      "answer": "Regel",
+      "hint_cz": "výjimka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Klausel",
+          "cz": "doložka / ustanovení"
+        },
+        {
+          "target": "einfach gesagt",
+          "cz": "jednoduše řečeno"
+        },
+        {
+          "target": "bedeutet, dass",
+          "cz": "znamená to, že"
+        },
+        {
+          "target": "die Ausnahme",
+          "cz": "výjimka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Diese Klausel gilt für alle Mitarbeiter.",
+      "tts_text": "Diese Klausel gilt für alle Mitarbeiter."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das Angebot steht ___ der Genehmigung.",
+      "answer": "vorbehaltlich",
+      "hint_cz": "podléhající / za podmínky"
+    }
+  ]
+}

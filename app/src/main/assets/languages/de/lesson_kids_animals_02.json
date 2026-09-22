@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_animals_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Farm Animals",
+  "title_cz": "Zvířata na farmě",
+  "vocabulary": [
+    {
+      "word": "die Kuh",
+      "translation_cz": "kráva",
+      "example": "Die Kuh gibt Milch.",
+      "example_cz": "Kráva dává mléko.",
+      "tts_text": "Die Kuh gibt Milch."
+    },
+    {
+      "word": "das Pferd",
+      "translation_cz": "kůň",
+      "example": "Das Pferd läuft schnell.",
+      "example_cz": "Kůň běhá rychle.",
+      "tts_text": "Das Pferd läuft schnell."
+    },
+    {
+      "word": "das Schwein",
+      "translation_cz": "prase",
+      "example": "Das Schwein ist rosa.",
+      "example_cz": "Prase je růžové.",
+      "tts_text": "Das Schwein ist rosa."
+    },
+    {
+      "word": "das Schaf",
+      "translation_cz": "ovce",
+      "example": "Das Schaf hat weiche Wolle.",
+      "example_cz": "Ovce má měkkou vlnu.",
+      "tts_text": "Das Schaf hat weiche Wolle."
+    },
+    {
+      "word": "das Huhn",
+      "translation_cz": "slepice",
+      "example": "Das Huhn legt Eier.",
+      "example_cz": "Slepice snáší vejce.",
+      "tts_text": "Das Huhn legt Eier."
+    },
+    {
+      "word": "die Ente",
+      "translation_cz": "kachna",
+      "example": "Die Ente schwimmt im Teich.",
+      "example_cz": "Kachna plave v rybníku.",
+      "tts_text": "Die Ente schwimmt im Teich."
+    },
+    {
+      "word": "der Bauernhof",
+      "translation_cz": "farma",
+      "example": "Wir haben einen Bauernhof besucht.",
+      "example_cz": "Navštívili jsme farmu.",
+      "tts_text": "Wir haben einen Bauernhof besucht."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Schwein",
+      "options": [
+        "prase",
+        "kráva",
+        "kůň"
+      ],
+      "correct": "prase"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die ___ gibt Milch.",
+      "answer": "Kuh",
+      "hint_cz": "kráva"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Schaf",
+          "cz": "ovce"
+        },
+        {
+          "target": "das Huhn",
+          "cz": "slepice"
+        },
+        {
+          "target": "die Ente",
+          "cz": "kachna"
+        },
+        {
+          "target": "der Bauernhof",
+          "cz": "farma"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das Schwein ist rosa.",
+      "tts_text": "Das Schwein ist rosa."
+    }
+  ]
+}

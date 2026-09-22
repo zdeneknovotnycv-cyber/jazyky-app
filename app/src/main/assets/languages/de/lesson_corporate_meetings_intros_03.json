@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_meetings_intros_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Meeting eröffnen",
+  "title_cz": "Zahájení schůzky",
+  "vocabulary": [
+    {
+      "word": "lasst uns beginnen",
+      "translation_cz": "začněme",
+      "example": "Lasst uns beginnen, bitte.",
+      "example_cz": "Začněme, prosím všichni.",
+      "tts_text": "Lasst uns beginnen, bitte."
+    },
+    {
+      "word": "die Tagesordnung",
+      "translation_cz": "program jednání",
+      "example": "Hier ist die heutige Tagesordnung.",
+      "example_cz": "Zde je dnešní program jednání.",
+      "tts_text": "Hier ist die heutige Tagesordnung."
+    },
+    {
+      "word": "der Teilnehmer",
+      "translation_cz": "účastník",
+      "example": "Alle Teilnehmer sind anwesend.",
+      "example_cz": "Všichni účastníci jsou přítomni.",
+      "tts_text": "Alle Teilnehmer sind anwesend."
+    },
+    {
+      "word": "der Zweck",
+      "translation_cz": "účel",
+      "example": "Der Zweck dieses Meetings ist die Besprechung des Budgets.",
+      "example_cz": "Účelem této schůzky je probrat rozpočet.",
+      "tts_text": "Der Zweck dieses Meetings ist die Besprechung des Budgets."
+    },
+    {
+      "word": "das Protokoll",
+      "translation_cz": "zápis z jednání",
+      "example": "Wer führt heute das Protokoll?",
+      "example_cz": "Kdo dnes udělá zápis z jednání?",
+      "tts_text": "Wer führt heute das Protokoll?"
+    },
+    {
+      "word": "durchgehen",
+      "translation_cz": "projít (bod)",
+      "example": "Lasst uns den ersten Punkt durchgehen.",
+      "example_cz": "Pojďme projít první bod.",
+      "tts_text": "Lasst uns den ersten Punkt durchgehen."
+    },
+    {
+      "word": "begrüßen",
+      "translation_cz": "přivítat",
+      "example": "Ich möchte alle herzlich begrüßen.",
+      "example_cz": "Rád bych všechny přivítal.",
+      "tts_text": "Ich möchte alle herzlich begrüßen."
+    },
+    {
+      "word": "das Zeitlimit",
+      "translation_cz": "časový limit",
+      "example": "Wir haben ein Zeitlimit von einer Stunde.",
+      "example_cz": "Máme časový limit jedné hodiny.",
+      "tts_text": "Wir haben ein Zeitlimit von einer Stunde."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_start_meeting",
+      "title": "Ein Teammeeting eröffnen",
+      "title_cz": "Zahájení týmové schůzky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Guten Morgen zusammen. Lasst uns beginnen.",
+          "text_cz": "Dobré ráno všem. Začněme."
+        },
+        {
+          "speaker": "A",
+          "text": "Ich möchte unsere neue Teilnehmerin Sarah aus dem Designteam begrüßen.",
+          "text_cz": "Rád bych přivítal naši novou účastnici Sáru z designového týmu."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke. Was steht heute auf der Tagesordnung?",
+          "text_cz": "Děkuji. Co je na dnešním programu jednání?"
+        },
+        {
+          "speaker": "A",
+          "text": "Wir haben drei Punkte. Lasst uns den ersten durchgehen, den Projektzeitplan.",
+          "text_cz": "Máme tři body. Projděme si první, časový plán projektu."
+        },
+        {
+          "speaker": "B",
+          "text": "Klingt gut. Wer führt heute das Protokoll?",
+          "text_cz": "Zní dobře. Kdo dnes dělá zápis?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Tagesordnung",
+      "options": [
+        "program jednání",
+        "účastník",
+        "zápis"
+      ],
+      "correct": "program jednání"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wer führt heute das ___?",
+      "answer": "Protokoll",
+      "hint_cz": "zápis"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "begrüßen",
+          "cz": "přivítat"
+        },
+        {
+          "target": "der Teilnehmer",
+          "cz": "účastník"
+        },
+        {
+          "target": "der Zweck",
+          "cz": "účel"
+        },
+        {
+          "target": "das Zeitlimit",
+          "cz": "časový limit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lasst uns beginnen, bitte.",
+      "tts_text": "Lasst uns beginnen, bitte."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lasst uns den ersten Punkt ___.",
+      "answer": "durchgehen",
+      "hint_cz": "projít"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich möchte alle herzlich begrüßen.",
+      "tts_text": "Ich möchte alle herzlich begrüßen."
+    }
+  ]
+}

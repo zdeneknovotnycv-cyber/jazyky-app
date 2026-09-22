@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_scheduling_calendars_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Booking a meeting room",
+  "title_cz": "Rezervace zasedací místnosti",
+  "vocabulary": [
+    {
+      "word": "Is the meeting room free?",
+      "translation_cz": "Je zasedací místnost volná?",
+      "example": "Is the meeting room free at ten o'clock?",
+      "example_cz": "Je zasedací místnost volná v deset hodin?",
+      "tts_text": "Is the meeting room free at ten o'clock?"
+    },
+    {
+      "word": "to book a room",
+      "translation_cz": "rezervovat místnost",
+      "example": "I need to book a room for the client meeting.",
+      "example_cz": "Potřebuji rezervovat místnost na schůzku s klientem.",
+      "tts_text": "I need to book a room for the client meeting."
+    },
+    {
+      "word": "it's already taken",
+      "translation_cz": "je už obsazená",
+      "example": "Sorry, that room is already taken at that time.",
+      "example_cz": "Promiňte, ta místnost je v tu dobu už obsazená.",
+      "tts_text": "Sorry, that room is already taken at that time."
+    },
+    {
+      "word": "for how many people?",
+      "translation_cz": "pro kolik lidí?",
+      "example": "The room is free, for how many people do you need it?",
+      "example_cz": "Místnost je volná, pro kolik lidí ji potřebujete?",
+      "tts_text": "The room is free, for how many people do you need it?"
+    },
+    {
+      "word": "projector",
+      "translation_cz": "projektor",
+      "example": "Does the room have a projector?",
+      "example_cz": "Má ta místnost projektor?",
+      "tts_text": "Does the room have a projector?"
+    },
+    {
+      "word": "I'll reserve it for you",
+      "translation_cz": "zarezervuji ji pro vás",
+      "example": "Okay, I'll reserve it for you until noon.",
+      "example_cz": "Dobře, zarezervuji ji pro vás do poledne.",
+      "tts_text": "Okay, I'll reserve it for you until noon."
+    },
+    {
+      "word": "cancel the booking",
+      "translation_cz": "zrušit rezervaci",
+      "example": "Could you cancel the booking for room B?",
+      "example_cz": "Mohl byste zrušit rezervaci místnosti B?",
+      "tts_text": "Could you cancel the booking for room B?"
+    },
+    {
+      "word": "second floor",
+      "translation_cz": "druhé patro",
+      "example": "The small meeting room is on the second floor.",
+      "example_cz": "Malá zasedací místnost je ve druhém patře.",
+      "tts_text": "The small meeting room is on the second floor."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_booking_meeting_room",
+      "title": "Booking a room for a client meeting",
+      "title_cz": "Rezervace místnosti na schůzku s klientem",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Is the meeting room free at ten o'clock tomorrow?",
+          "text_cz": "Je zasedací místnost volná zítra v deset hodin?"
+        },
+        {
+          "speaker": "B",
+          "text": "Let me check. Yes, it's free. For how many people do you need it?",
+          "text_cz": "Zkontroluji to. Ano, je volná. Pro kolik lidí ji potřebujete?"
+        },
+        {
+          "speaker": "A",
+          "text": "For five people. Does the room have a projector?",
+          "text_cz": "Pro pět lidí. Má ta místnost projektor?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, it does. I'll reserve it for you until noon.",
+          "text_cz": "Ano, má. Zarezervuji ji pro vás do poledne."
+        },
+        {
+          "speaker": "A",
+          "text": "Great, thank you very much.",
+          "text_cz": "Skvělé, mnohokrát děkuji."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Is the meeting room free at ten o'clock?",
+      "options": [
+        "Je zasedací místnost volná v deset hodin?",
+        "Zrušte rezervaci.",
+        "Pro kolik lidí ji potřebujete?"
+      ],
+      "correct": "Je zasedací místnost volná v deset hodin?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I need to ___ a room for the client meeting.",
+      "answer": "book",
+      "hint_cz": "rezervovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "it's already taken", "cz": "je už obsazená" },
+        { "target": "cancel the booking", "cz": "zrušit rezervaci" },
+        { "target": "second floor", "cz": "druhé patro" },
+        { "target": "projector", "cz": "projektor" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The room is free, for how many people do you need it?",
+      "tts_text": "The room is free, for how many people do you need it?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Okay, I'll ___ it for you until noon.",
+      "answer": "reserve",
+      "hint_cz": "zarezervuji"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Could you cancel the booking for room B?",
+      "tts_text": "Could you cancel the booking for room B?"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_town_places_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The hospital",
+  "title_cz": "Nemocnice",
+  "vocabulary": [
+    {
+      "word": "hospital",
+      "translation_cz": "nemocnice",
+      "example": "My uncle works at the hospital.",
+      "example_cz": "Můj strýc pracuje v nemocnici.",
+      "tts_text": "My uncle works at the hospital."
+    },
+    {
+      "word": "doctor",
+      "translation_cz": "lékař",
+      "example": "The doctor checks my heart.",
+      "example_cz": "Lékař mi vyšetřuje srdce.",
+      "tts_text": "The doctor checks my heart."
+    },
+    {
+      "word": "nurse",
+      "translation_cz": "zdravotní sestra",
+      "example": "The nurse is very kind.",
+      "example_cz": "Zdravotní sestra je moc milá.",
+      "tts_text": "The nurse is very kind."
+    },
+    {
+      "word": "bed",
+      "translation_cz": "postel",
+      "example": "The patient rests in a bed.",
+      "example_cz": "Pacient odpočívá na posteli.",
+      "tts_text": "The patient rests in a bed."
+    },
+    {
+      "word": "ambulance",
+      "translation_cz": "sanitka",
+      "example": "The ambulance drives fast.",
+      "example_cz": "Sanitka jede rychle.",
+      "tts_text": "The ambulance drives fast."
+    },
+    {
+      "word": "bandage",
+      "translation_cz": "obvaz",
+      "example": "The nurse puts on a bandage.",
+      "example_cz": "Sestra přiloží obvaz.",
+      "tts_text": "The nurse puts on a bandage."
+    },
+    {
+      "word": "get better",
+      "translation_cz": "uzdravit se",
+      "example": "I hope you get better soon.",
+      "example_cz": "Doufám, že se brzy uzdravíš.",
+      "tts_text": "I hope you get better soon."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "hospital",
+      "options": [
+        "nemocnice",
+        "park",
+        "škola"
+      ],
+      "correct": "nemocnice"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ checks my heart.",
+      "answer": "doctor",
+      "hint_cz": "lékař"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "doctor",
+          "cz": "lékař"
+        },
+        {
+          "target": "nurse",
+          "cz": "zdravotní sestra"
+        },
+        {
+          "target": "bed",
+          "cz": "postel"
+        },
+        {
+          "target": "ambulance",
+          "cz": "sanitka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The nurse is very kind.",
+      "tts_text": "The nurse is very kind."
+    }
+  ]
+}

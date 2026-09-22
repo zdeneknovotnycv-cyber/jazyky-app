@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_imagination_stories_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Eine Geschichte über ein sprechendes Tier",
+  "title_cz": "Příběh o mluvícím zvířeti",
+  "vocabulary": [
+    {
+      "word": "das sprechende Tier",
+      "translation_cz": "mluvící zvíře",
+      "example": "Ich treffe im Wald ein sprechendes Tier.",
+      "example_cz": "V lese potkávám mluvící zvíře.",
+      "tts_text": "Ich treffe im Wald ein sprechendes Tier."
+    },
+    {
+      "word": "der Fuchs",
+      "translation_cz": "liška",
+      "example": "Ein kluger Fuchs verrät mir ein Geheimnis.",
+      "example_cz": "Chytrá liška mi prozradí tajemství.",
+      "tts_text": "Ein kluger Fuchs verrät mir ein Geheimnis."
+    },
+    {
+      "word": "weise",
+      "translation_cz": "moudrý",
+      "example": "Die Eule ist sehr weise.",
+      "example_cz": "Sova je velmi moudrá.",
+      "tts_text": "Die Eule ist sehr weise."
+    },
+    {
+      "word": "das Abenteuer",
+      "translation_cz": "dobrodružství",
+      "example": "Wir erleben zusammen ein Abenteuer.",
+      "example_cz": "Vydáváme se společně na dobrodružství.",
+      "tts_text": "Wir erleben zusammen ein Abenteuer."
+    },
+    {
+      "word": "der Freund",
+      "translation_cz": "přítel",
+      "example": "Das Tier wird mein bester Freund.",
+      "example_cz": "Zvíře se stává mým nejlepším přítelem.",
+      "tts_text": "Das Tier wird mein bester Freund."
+    },
+    {
+      "word": "zuhören",
+      "translation_cz": "poslouchat",
+      "example": "Ich höre der Geschichte des Tieres zu.",
+      "example_cz": "Poslouchám příběh zvířete.",
+      "tts_text": "Ich höre der Geschichte des Tieres zu."
+    },
+    {
+      "word": "magisch",
+      "translation_cz": "kouzelný",
+      "example": "Es ist eine magische Geschichte.",
+      "example_cz": "Je to kouzelný příběh.",
+      "tts_text": "Es ist eine magische Geschichte."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das sprechende Tier",
+      "options": [
+        "mluvící zvíře",
+        "liška",
+        "moudrý"
+      ],
+      "correct": "mluvící zvíře"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ein kluger ___ verrät mir ein Geheimnis.",
+      "answer": "Fuchs",
+      "hint_cz": "liška"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "weise",
+          "cz": "moudrý"
+        },
+        {
+          "target": "das Abenteuer",
+          "cz": "dobrodružství"
+        },
+        {
+          "target": "der Freund",
+          "cz": "přítel"
+        },
+        {
+          "target": "zuhören",
+          "cz": "poslouchat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Es ist eine magische Geschichte.",
+      "tts_text": "Es ist eine magische Geschichte."
+    }
+  ]
+}

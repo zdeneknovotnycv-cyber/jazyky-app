@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_imagination_stories_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ein Superheldentag",
+  "title_cz": "Den superhrdiny",
+  "vocabulary": [
+    {
+      "word": "der Superheld",
+      "translation_cz": "superhrdina",
+      "example": "Ich werde heute ein Superheld.",
+      "example_cz": "Dnes se stávám superhrdinou.",
+      "tts_text": "Ich werde heute ein Superheld."
+    },
+    {
+      "word": "der Umhang",
+      "translation_cz": "plášť",
+      "example": "Ich trage einen roten Umhang.",
+      "example_cz": "Mám na sobě červený plášť.",
+      "tts_text": "Ich trage einen roten Umhang."
+    },
+    {
+      "word": "die Kraft",
+      "translation_cz": "síla, schopnost",
+      "example": "Meine Kraft ist superschnelles Laufen.",
+      "example_cz": "Moje schopnost je super rychlost.",
+      "tts_text": "Meine Kraft ist superschnelles Laufen."
+    },
+    {
+      "word": "retten",
+      "translation_cz": "zachránit",
+      "example": "Ich rette eine Katze vom Baum.",
+      "example_cz": "Zachraňuji kočku ze stromu.",
+      "tts_text": "Ich rette eine Katze vom Baum."
+    },
+    {
+      "word": "fliegen",
+      "translation_cz": "létat",
+      "example": "Ich fliege über die Stadt.",
+      "example_cz": "Létám nad městem.",
+      "tts_text": "Ich fliege über die Stadt."
+    },
+    {
+      "word": "mutig",
+      "translation_cz": "statečný",
+      "example": "Ein Superheld muss mutig sein.",
+      "example_cz": "Superhrdina musí být statečný.",
+      "tts_text": "Ein Superheld muss mutig sein."
+    },
+    {
+      "word": "die Mission",
+      "translation_cz": "úkol, mise",
+      "example": "Meine Mission beginnt jetzt.",
+      "example_cz": "Moje mise teď začíná.",
+      "tts_text": "Meine Mission beginnt jetzt."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Superheld",
+      "options": [
+        "superhrdina",
+        "plášť",
+        "síla, schopnost"
+      ],
+      "correct": "superhrdina"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich trage einen roten ___.",
+      "answer": "Umhang",
+      "hint_cz": "plášť"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Kraft",
+          "cz": "síla, schopnost"
+        },
+        {
+          "target": "retten",
+          "cz": "zachránit"
+        },
+        {
+          "target": "fliegen",
+          "cz": "létat"
+        },
+        {
+          "target": "mutig",
+          "cz": "statečný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Meine Mission beginnt jetzt.",
+      "tts_text": "Meine Mission beginnt jetzt."
+    }
+  ]
+}

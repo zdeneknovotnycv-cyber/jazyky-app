@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_reports_presentations_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Handling Presentation Nerves",
+  "title_cz": "Zvládání trémy při prezentaci",
+  "vocabulary": [
+    {
+      "word": "nervous",
+      "translation_cz": "nervózní",
+      "example": "It's normal to feel nervous before a presentation.",
+      "example_cz": "Je normální cítit se před prezentací nervózní.",
+      "tts_text": "It's normal to feel nervous before a presentation."
+    },
+    {
+      "word": "take a deep breath",
+      "translation_cz": "zhluboka se nadechnout",
+      "example": "Take a deep breath before you start.",
+      "example_cz": "Než začnete, zhluboka se nadechněte.",
+      "tts_text": "Take a deep breath before you start."
+    },
+    {
+      "word": "practice",
+      "translation_cz": "cvičit / procvičovat",
+      "example": "I practiced this presentation many times.",
+      "example_cz": "Tuto prezentaci jsem si mnohokrát procvičil.",
+      "tts_text": "I practiced this presentation many times."
+    },
+    {
+      "word": "stay calm",
+      "translation_cz": "zůstat klidný",
+      "example": "Try to stay calm even if you make a mistake.",
+      "example_cz": "Snažte se zůstat klidní, i když uděláte chybu.",
+      "tts_text": "Try to stay calm even if you make a mistake."
+    },
+    {
+      "word": "eye contact",
+      "translation_cz": "oční kontakt",
+      "example": "Keep eye contact with the audience.",
+      "example_cz": "Udržujte oční kontakt s publikem.",
+      "tts_text": "Keep eye contact with the audience."
+    },
+    {
+      "word": "pace yourself",
+      "translation_cz": "rozvrhnout si tempo",
+      "example": "Pace yourself and don't speak too fast.",
+      "example_cz": "Rozvrhněte si tempo a nemluvte příliš rychle.",
+      "tts_text": "Pace yourself and don't speak too fast."
+    },
+    {
+      "word": "mistake",
+      "translation_cz": "chyba",
+      "example": "If you make a mistake, just continue calmly.",
+      "example_cz": "Pokud uděláte chybu, klidně pokračujte.",
+      "tts_text": "If you make a mistake, just continue calmly."
+    },
+    {
+      "word": "build confidence",
+      "translation_cz": "získat sebedůvěru",
+      "example": "Practice helps you build confidence.",
+      "example_cz": "Cvičení vám pomáhá získat sebedůvěru.",
+      "tts_text": "Practice helps you build confidence."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_nerves_advice",
+      "title": "Giving advice before a presentation",
+      "title_cz": "Rada před prezentací",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm really nervous about this presentation.",
+          "text_cz": "Jsem z té prezentace opravdu nervózní."
+        },
+        {
+          "speaker": "B",
+          "text": "That's normal. Take a deep breath and remember you practiced a lot.",
+          "text_cz": "To je normální. Zhluboka se nadechni a vzpomeň si, žes to hodně procvičoval."
+        },
+        {
+          "speaker": "A",
+          "text": "What if I make a mistake?",
+          "text_cz": "Co když udělám chybu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Just stay calm and continue. Keep eye contact and pace yourself.",
+          "text_cz": "Prostě zůstaň klidný a pokračuj. Udržuj oční kontakt a rozvrhni si tempo."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "nervous",
+      "options": [
+        "nervózní",
+        "cvičit / procvičovat",
+        "zůstat klidný"
+      ],
+      "correct": "nervózní"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Take a deep breath before you start.",
+      "answer": "take a deep breath",
+      "hint_cz": "zhluboka se nadechnout"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Keep ___ with the audience.",
+      "answer": "eye contact",
+      "hint_cz": "oční kontakt"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "pace yourself",
+          "cz": "rozvrhnout si tempo"
+        },
+        {
+          "target": "mistake",
+          "cz": "chyba"
+        },
+        {
+          "target": "build confidence",
+          "cz": "získat sebedůvěru"
+        },
+        {
+          "target": "practice",
+          "cz": "cvičit / procvičovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'm really nervous about this presentation.",
+      "tts_text": "I'm really nervous about this presentation."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "That's normal. Take a deep breath and remember you practiced a lot.",
+      "tts_text": "That's normal. Take a deep breath and remember you practiced a lot."
+    }
+  ]
+}

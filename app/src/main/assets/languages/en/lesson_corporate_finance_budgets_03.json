@@ -1,0 +1,48 @@
+{
+  "id": "en_corporate_finance_budgets_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Invoice Basics",
+  "title_cz": "Základy fakturace",
+  "vocabulary": [
+    {"word": "invoice", "translation_cz": "faktura", "example": "I will send the invoice by email today.", "example_cz": "Dnes zašlu fakturu e-mailem.", "tts_text": "I will send the invoice by email today."},
+    {"word": "due date", "translation_cz": "datum splatnosti", "example": "The due date is the fifteenth of this month.", "example_cz": "Datum splatnosti je patnáctého tohoto měsíce.", "tts_text": "The due date is the fifteenth of this month."},
+    {"word": "invoice number", "translation_cz": "číslo faktury", "example": "Please include the invoice number in your payment.", "example_cz": "Uveďte prosím při platbě číslo faktury.", "tts_text": "Please include the invoice number in your payment."},
+    {"word": "amount due", "translation_cz": "částka k úhradě", "example": "The amount due is one thousand euros.", "example_cz": "Částka k úhradě je tisíc eur.", "tts_text": "The amount due is one thousand euros."},
+    {"word": "VAT", "translation_cz": "DPH", "example": "The price already includes VAT.", "example_cz": "Cena již zahrnuje DPH.", "tts_text": "The price already includes VAT."},
+    {"word": "bank transfer", "translation_cz": "bankovní převod", "example": "Please pay by bank transfer.", "example_cz": "Zaplaťte prosím bankovním převodem.", "tts_text": "Please pay by bank transfer."},
+    {"word": "billing address", "translation_cz": "fakturační adresa", "example": "Can you confirm your billing address?", "example_cz": "Můžete potvrdit svou fakturační adresu?", "tts_text": "Can you confirm your billing address?"},
+    {"word": "issue an invoice", "translation_cz": "vystavit fakturu", "example": "We will issue the invoice once the service is complete.", "example_cz": "Fakturu vystavíme, jakmile bude služba dokončena.", "tts_text": "We will issue the invoice once the service is complete."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_invoice_request",
+      "title": "Requesting an invoice",
+      "title_cz": "Žádost o fakturu",
+      "lines": [
+        {"speaker": "A", "text": "Could you issue an invoice for the last delivery?", "text_cz": "Mohli byste vystavit fakturu za poslední dodávku?"},
+        {"speaker": "B", "text": "Sure, could you confirm the billing address?", "text_cz": "Jistě, mohl byste potvrdit fakturační adresu?"},
+        {"speaker": "A", "text": "Yes, it's the same as last time.", "text_cz": "Ano, je stejná jako minule."},
+        {"speaker": "B", "text": "Great, I'll send the invoice with the due date within an hour.", "text_cz": "Skvělé, do hodiny pošlu fakturu s datem splatnosti."}
+      ]
+    },
+    {
+      "id": "conv_payment_details",
+      "title": "Confirming payment details",
+      "title_cz": "Potvrzení platebních údajů",
+      "lines": [
+        {"speaker": "A", "text": "What's the amount due including VAT?", "text_cz": "Jaká je částka k úhradě včetně DPH?"},
+        {"speaker": "B", "text": "It's one thousand two hundred euros, payable by bank transfer.", "text_cz": "Je to tisíc dvě stě eur, splatné bankovním převodem."},
+        {"speaker": "A", "text": "Please include the invoice number in the payment reference.", "text_cz": "Uveďte prosím v platbě číslo faktury jako variabilní symbol."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "invoice", "options": ["faktura", "částka", "adresa"], "correct": "faktura"},
+    {"type": "fill_gap", "sentence": "The ___ is the fifteenth of this month.", "answer": "due date", "hint_cz": "datum splatnosti"},
+    {"type": "match_pairs", "pairs": [{"target": "VAT", "cz": "DPH"}, {"target": "bank transfer", "cz": "bankovní převod"}, {"target": "amount due", "cz": "částka k úhradě"}, {"target": "billing address", "cz": "fakturační adresa"}]},
+    {"type": "speak_and_check", "target_phrase": "Please pay by bank transfer.", "tts_text": "Please pay by bank transfer."},
+    {"type": "fill_gap", "sentence": "Please include the ___ in your payment.", "answer": "invoice number", "hint_cz": "číslo faktury"}
+  ]
+}

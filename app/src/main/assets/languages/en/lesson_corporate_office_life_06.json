@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_office_life_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Office dress code",
+  "title_cz": "Kancelářský dress code",
+  "vocabulary": [
+    {
+      "word": "dress code",
+      "translation_cz": "dress code, oblékání",
+      "example": "Our office has a smart casual dress code.",
+      "example_cz": "Naše kancelář má dress code smart casual.",
+      "tts_text": "Our office has a smart casual dress code."
+    },
+    {
+      "word": "business casual",
+      "translation_cz": "business casual",
+      "example": "Business casual means no jeans on client days.",
+      "example_cz": "Business casual znamená žádné džíny ve dnech s klienty.",
+      "tts_text": "Business casual means no jeans on client days."
+    },
+    {
+      "word": "appropriate",
+      "translation_cz": "vhodné",
+      "example": "Please wear appropriate clothing to meetings.",
+      "example_cz": "Prosím noste na schůzky vhodné oblečení.",
+      "tts_text": "Please wear appropriate clothing to meetings."
+    },
+    {
+      "word": "casual Friday",
+      "translation_cz": "neformální pátek",
+      "example": "We can wear jeans on casual Friday.",
+      "example_cz": "V neformální pátek můžeme nosit džíny.",
+      "tts_text": "We can wear jeans on casual Friday."
+    },
+    {
+      "word": "client-facing",
+      "translation_cz": "v kontaktu s klienty",
+      "example": "Client-facing staff should dress more formally.",
+      "example_cz": "Zaměstnanci v kontaktu s klienty by se měli oblékat formálněji.",
+      "tts_text": "Client-facing staff should dress more formally."
+    },
+    {
+      "word": "suit",
+      "translation_cz": "oblek",
+      "example": "He wears a suit for important meetings.",
+      "example_cz": "Na důležité schůzky nosí oblek.",
+      "tts_text": "He wears a suit for important meetings."
+    },
+    {
+      "word": "open-toed shoes",
+      "translation_cz": "obuv s otevřenou špičkou",
+      "example": "Open-toed shoes are not allowed on the factory floor.",
+      "example_cz": "Obuv s otevřenou špičkou není povolena v provozu.",
+      "tts_text": "Open-toed shoes are not allowed on the factory floor."
+    },
+    {
+      "word": "company policy",
+      "translation_cz": "firemní pravidla",
+      "example": "Check the company policy on dress code.",
+      "example_cz": "Podívej se na firemní pravidla ohledně oblékání.",
+      "tts_text": "Check the company policy on dress code."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_06",
+      "title": "Asking about the dress code",
+      "title_cz": "Dotaz na dress code",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "What is the dress code here, exactly?",
+          "text_cz": "Jaký je tady přesně dress code?"
+        },
+        {
+          "speaker": "B",
+          "text": "It's business casual, but you can be casual on Fridays.",
+          "text_cz": "Je to business casual, ale v pátek můžeš být neformální."
+        },
+        {
+          "speaker": "A",
+          "text": "Is a suit necessary for client-facing meetings?",
+          "text_cz": "Je nutný oblek na schůzky s klienty?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, we ask people to look appropriate for clients.",
+          "text_cz": "Ano, chceme, aby lidé vypadali pro klienty vhodně."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "dress code",
+      "options": [
+        "dress code, oblékání",
+        "business casual",
+        "vhodné"
+      ],
+      "correct": "dress code, oblékání"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please wear ___ clothing to meetings.",
+      "answer": "appropriate",
+      "hint_cz": "vhodné"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "dress code",
+          "cz": "dress code, oblékání"
+        },
+        {
+          "target": "business casual",
+          "cz": "business casual"
+        },
+        {
+          "target": "appropriate",
+          "cz": "vhodné"
+        },
+        {
+          "target": "casual Friday",
+          "cz": "neformální pátek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Is a suit necessary for client-facing meetings?",
+      "tts_text": "Is a suit necessary for client-facing meetings?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We can wear jeans on casual ___.",
+      "answer": "Friday",
+      "hint_cz": "pátek"
+    }
+  ]
+}

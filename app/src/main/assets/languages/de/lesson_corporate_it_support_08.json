@@ -1,0 +1,162 @@
+{
+  "id": "de_adult_corporate_it_support_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Datensicherung anfordern",
+  "title_cz": "Žádost o zálohu dat",
+  "vocabulary": [
+    {
+      "word": "die Datensicherung",
+      "translation_cz": "záloha",
+      "example": "Können Sie meine Dateien vor dem Update sichern?",
+      "example_cz": "Můžete mi zálohovat soubory před aktualizací?",
+      "tts_text": "Können Sie meine Dateien vor dem Update sichern?"
+    },
+    {
+      "word": "der Datenverlust",
+      "translation_cz": "ztráta dat",
+      "example": "Wir möchten jeden Datenverlust während der Migration vermeiden.",
+      "example_cz": "Chceme se vyhnout jakékoli ztrátě dat během migrace.",
+      "tts_text": "Wir möchten jeden Datenverlust während der Migration vermeiden."
+    },
+    {
+      "word": "der Cloud-Speicher",
+      "translation_cz": "cloudové úložiště",
+      "example": "Ihre Dateien werden automatisch im Cloud-Speicher gespeichert.",
+      "example_cz": "Vaše soubory se automaticky ukládají do cloudového úložiště.",
+      "tts_text": "Ihre Dateien werden automatisch im Cloud-Speicher gespeichert."
+    },
+    {
+      "word": "wiederherstellen",
+      "translation_cz": "obnovit (data)",
+      "example": "Wir können Ihre Dateien aus dem Backup der letzten Woche wiederherstellen.",
+      "example_cz": "Můžeme obnovit vaše soubory ze zálohy z minulého týdne.",
+      "tts_text": "Wir können Ihre Dateien aus dem Backup der letzten Woche wiederherstellen."
+    },
+    {
+      "word": "die externe Festplatte",
+      "translation_cz": "externí pevný disk",
+      "example": "Bitte speichern Sie eine wichtige Kopie auch auf einer externen Festplatte.",
+      "example_cz": "Uložte prosím důležitou kopii také na externí pevný disk.",
+      "tts_text": "Bitte speichern Sie eine wichtige Kopie auch auf einer externen Festplatte."
+    },
+    {
+      "word": "die automatische Sicherung",
+      "translation_cz": "automatická záloha",
+      "example": "Die automatische Sicherung läuft jede Nacht um Mitternacht.",
+      "example_cz": "Automatická záloha probíhá každou noc o půlnoci.",
+      "tts_text": "Die automatische Sicherung läuft jede Nacht um Mitternacht."
+    },
+    {
+      "word": "das gemeinsame Laufwerk",
+      "translation_cz": "sdílený disk",
+      "example": "Speichern Sie Ihre Dokumente auf dem gemeinsamen Laufwerk, nicht nur lokal.",
+      "example_cz": "Ukládejte dokumenty na sdílený disk, ne jen lokálně.",
+      "tts_text": "Speichern Sie Ihre Dokumente auf dem gemeinsamen Laufwerk, nicht nur lokal."
+    },
+    {
+      "word": "die Wiederherstellung",
+      "translation_cz": "obnova (dat)",
+      "example": "Die Datenwiederherstellung kann bis zu 24 Stunden dauern.",
+      "example_cz": "Obnova dat může trvat až 24 hodin.",
+      "tts_text": "Die Datenwiederherstellung kann bis zu 24 Stunden dauern."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_backup_request",
+      "title": "Eine Sicherung vor einem Update anfordern",
+      "title_cz": "Žádost o zálohu před aktualizací",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wir aktualisieren das System morgen. Können Sie zuerst meine Dateien sichern?",
+          "text_cz": "Zítra aktualizujeme systém. Můžete mi nejdřív zálohovat soubory?"
+        },
+        {
+          "speaker": "B",
+          "text": "Natürlich, wir möchten jeden Datenverlust vermeiden. Ich mache heute Abend eine Sicherung.",
+          "text_cz": "Samozřejmě, chceme se vyhnout jakékoli ztrátě dat. Dnes večer spustím zálohu."
+        },
+        {
+          "speaker": "A",
+          "text": "Werden meine Dateien auch auf dem gemeinsamen Laufwerk gespeichert?",
+          "text_cz": "Budou moje soubory uloženy i na sdílený disk?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, und zur Sicherheit werden sie auch im Cloud-Speicher gespeichert.",
+          "text_cz": "Ano, a pro jistotu se uloží i do cloudového úložiště."
+        }
+      ]
+    },
+    {
+      "id": "conv_restore_files",
+      "title": "Verlorene Dateien wiederherstellen",
+      "title_cz": "Obnovení ztracených souborů",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich habe versehentlich einen wichtigen Ordner gelöscht. Kann er wiederhergestellt werden?",
+          "text_cz": "Omylem jsem smazal důležitou složku. Dá se obnovit?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, wir können ihn aus der automatischen Sicherung von gestern wiederherstellen.",
+          "text_cz": "Ano, můžeme ji obnovit ze včerejší automatické zálohy."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "wiederherstellen",
+      "options": [
+        "obnovit",
+        "ztráta dat",
+        "sdílený disk"
+      ],
+      "correct": "obnovit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Können Sie meine Dateien vor dem Update ___?",
+      "answer": "sichern",
+      "hint_cz": "zálohovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Cloud-Speicher",
+          "cz": "cloudové úložiště"
+        },
+        {
+          "target": "die externe Festplatte",
+          "cz": "externí pevný disk"
+        },
+        {
+          "target": "die automatische Sicherung",
+          "cz": "automatická záloha"
+        },
+        {
+          "target": "die Wiederherstellung",
+          "cz": "obnova (dat)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir möchten jeden Datenverlust während der Migration vermeiden.",
+      "tts_text": "Wir möchten jeden Datenverlust während der Migration vermeiden."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Daten___ kann bis zu 24 Stunden dauern.",
+      "answer": "wiederherstellung",
+      "hint_cz": "obnova"
+    }
+  ]
+}

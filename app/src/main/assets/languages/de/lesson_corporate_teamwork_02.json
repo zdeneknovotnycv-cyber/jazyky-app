@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_teamwork_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Kollegen um Hilfe bitten",
+  "title_cz": "Žádost kolegy o pomoc",
+  "vocabulary": [
+    {
+      "word": "Könntest du mir mit... helfen?",
+      "translation_cz": "mohl bys mi pomoct s...?",
+      "example": "Könntest du mir mit dieser Tabelle helfen?",
+      "example_cz": "Mohl bys mi pomoct s touto tabulkou?",
+      "tts_text": "Könntest du mir mit dieser Tabelle helfen?"
+    },
+    {
+      "word": "ich komme nicht weiter mit",
+      "translation_cz": "zasekl jsem se na",
+      "example": "Ich komme nicht weiter mit dieser Formel.",
+      "example_cz": "Zasekl jsem se na tomto vzorci.",
+      "tts_text": "Ich komme nicht weiter mit dieser Formel."
+    },
+    {
+      "word": "wenig Zeit haben",
+      "translation_cz": "mám málo času",
+      "example": "Ich habe heute etwas wenig Zeit.",
+      "example_cz": "Dnes mám trochu málo času.",
+      "tts_text": "Ich habe heute etwas wenig Zeit."
+    },
+    {
+      "word": "ich schätze das sehr",
+      "translation_cz": "vážím si toho",
+      "example": "Vielen Dank, ich schätze das sehr.",
+      "example_cz": "Díky moc, opravdu si toho vážím.",
+      "tts_text": "Vielen Dank, ich schätze das sehr."
+    },
+    {
+      "word": "kein Problem",
+      "translation_cz": "žádný problém",
+      "example": "Kein Problem, ich helfe gern.",
+      "example_cz": "Žádný problém, rád pomůžu.",
+      "tts_text": "Kein Problem, ich helfe gern."
+    },
+    {
+      "word": "mich durchführen",
+      "translation_cz": "provést mě (postupem)",
+      "example": "Könntest du mich durch den Prozess führen?",
+      "example_cz": "Můžeš mě provést tím postupem?",
+      "tts_text": "Könntest du mich durch den Prozess führen?"
+    },
+    {
+      "word": "mit anpacken",
+      "translation_cz": "přiložit ruku k dílu",
+      "example": "Kannst du bei der Präsentation mit anpacken?",
+      "example_cz": "Můžeš přiložit ruku k dílu s prezentací?",
+      "tts_text": "Kannst du bei der Präsentation mit anpacken?"
+    },
+    {
+      "word": "ich schulde dir was",
+      "translation_cz": "dlužím ti laskavost",
+      "example": "Vielen Dank, ich schulde dir was!",
+      "example_cz": "Díky moc, dlužím ti laskavost!",
+      "tts_text": "Vielen Dank, ich schulde dir was!"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_asking_for_help",
+      "title": "Einen Kollegen um Hilfe bitten",
+      "title_cz": "Žádost kolegy o pomoc",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Könntest du mir mit dieser Tabelle helfen? Ich komme nicht weiter mit einer Formel.",
+          "text_cz": "Mohl bys mi pomoct s touto tabulkou? Zasekl jsem se na vzorci."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, kein Problem. Welche Zelle ist es?",
+          "text_cz": "Jasně, žádný problém. Která buňka to je?"
+        },
+        {
+          "speaker": "A",
+          "text": "Diese hier. Könntest du mich durch den Prozess führen? Ich habe etwas wenig Zeit.",
+          "text_cz": "Tahle. Můžeš mě tím provést? Mám trochu málo času."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, gib mir zwei Minuten und ich zeige es dir.",
+          "text_cz": "Jasně, dej mi dvě minuty a ukážu ti to."
+        },
+        {
+          "speaker": "A",
+          "text": "Vielen Dank, ich schätze das sehr. Ich schulde dir was!",
+          "text_cz": "Díky moc, opravdu si toho vážím. Dlužím ti laskavost!"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "ich komme nicht weiter mit",
+      "options": [
+        "zasekl jsem se na",
+        "vážím si toho",
+        "žádný problém"
+      ],
+      "correct": "zasekl jsem se na"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Könntest du mir ___ dieser Tabelle helfen?",
+      "answer": "mit",
+      "hint_cz": "s"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "wenig Zeit haben",
+          "cz": "mám málo času"
+        },
+        {
+          "target": "mit anpacken",
+          "cz": "přiložit ruku k dílu"
+        },
+        {
+          "target": "ich schulde dir was",
+          "cz": "dlužím ti laskavost"
+        },
+        {
+          "target": "kein Problem",
+          "cz": "žádný problém"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Könntest du mich durch den Prozess führen?",
+      "tts_text": "Könntest du mich durch den Prozess führen?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Vielen Dank, ich ___ das sehr.",
+      "answer": "schätze",
+      "hint_cz": "vážím si"
+    }
+  ]
+}

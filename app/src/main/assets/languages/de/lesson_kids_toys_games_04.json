@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_toys_games_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Videospiele",
+  "title_cz": "Videohry",
+  "vocabulary": [
+    {
+      "word": "das Videospiel",
+      "translation_cz": "videohra",
+      "example": "Nach der Schule spiele ich ein Videospiel.",
+      "example_cz": "Po škole hraji videohru.",
+      "tts_text": "Nach der Schule spiele ich ein Videospiel."
+    },
+    {
+      "word": "der Bildschirm",
+      "translation_cz": "obrazovka",
+      "example": "Sitz nicht zu nah am Bildschirm.",
+      "example_cz": "Nesedej si moc blízko obrazovce.",
+      "tts_text": "Sitz nicht zu nah am Bildschirm."
+    },
+    {
+      "word": "der Controller",
+      "translation_cz": "ovladač",
+      "example": "Ich halte den Controller mit beiden Händen.",
+      "example_cz": "Ovladač držím oběma rukama.",
+      "tts_text": "Ich halte den Controller mit beiden Händen."
+    },
+    {
+      "word": "das Level",
+      "translation_cz": "úroveň",
+      "example": "Ich habe das erste Level geschafft.",
+      "example_cz": "Prošel jsem první úrovní.",
+      "tts_text": "Ich habe das erste Level geschafft."
+    },
+    {
+      "word": "die Spielzeit",
+      "translation_cz": "herní čas",
+      "example": "Meine Spielzeit ist dreißig Minuten.",
+      "example_cz": "Můj herní čas je třicet minut.",
+      "tts_text": "Meine Spielzeit ist dreißig Minuten."
+    },
+    {
+      "word": "der Computer",
+      "translation_cz": "počítač",
+      "example": "Das Videospiel ist auf dem Computer.",
+      "example_cz": "Videohra je na počítači.",
+      "tts_text": "Das Videospiel ist auf dem Computer."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Controller",
+      "options": [
+        "ovladač",
+        "obrazovka",
+        "úroveň"
+      ],
+      "correct": "ovladač"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich habe das erste ___ geschafft.",
+      "answer": "Level",
+      "hint_cz": "úroveň"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Videospiel",
+          "cz": "videohra"
+        },
+        {
+          "target": "der Bildschirm",
+          "cz": "obrazovka"
+        },
+        {
+          "target": "die Spielzeit",
+          "cz": "herní čas"
+        },
+        {
+          "target": "der Computer",
+          "cz": "počítač"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Nach der Schule spiele ich ein Videospiel.",
+      "tts_text": "Nach der Schule spiele ich ein Videospiel."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_performance_feedback_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Receiving feedback gracefully",
+  "title_cz": "Přijímání zpětné vazby s grácií",
+  "vocabulary": [
+    {
+      "word": "thank you for the feedback",
+      "translation_cz": "děkuji za zpětnou vazbu",
+      "example": "Thank you for the feedback, it's very helpful.",
+      "example_cz": "Děkuji za zpětnou vazbu, je velmi užitečná.",
+      "tts_text": "Thank you for the feedback, it's very helpful."
+    },
+    {
+      "word": "take it on board",
+      "translation_cz": "vzít si to k srdci",
+      "example": "I'll take your comments on board.",
+      "example_cz": "Vezmu si tvé připomínky k srdci.",
+      "tts_text": "I'll take your comments on board."
+    },
+    {
+      "word": "that's fair",
+      "translation_cz": "to je fér",
+      "example": "That's fair, I hadn't thought of it that way.",
+      "example_cz": "To je fér, takhle jsem to nebral.",
+      "tts_text": "That's fair, I hadn't thought of it that way."
+    },
+    {
+      "word": "I understand your point",
+      "translation_cz": "chápu tvůj názor",
+      "example": "I understand your point about the deadline.",
+      "example_cz": "Chápu tvůj názor ohledně termínu.",
+      "tts_text": "I understand your point about the deadline."
+    },
+    {
+      "word": "work on it",
+      "translation_cz": "pracovat na tom",
+      "example": "I will work on it for next time.",
+      "example_cz": "Budu na tom pracovat pro příště.",
+      "tts_text": "I will work on it for next time."
+    },
+    {
+      "word": "open to feedback",
+      "translation_cz": "otevřený zpětné vazbě",
+      "example": "I'm always open to feedback.",
+      "example_cz": "Jsem vždy otevřený zpětné vazbě.",
+      "tts_text": "I'm always open to feedback."
+    },
+    {
+      "word": "clarifying question",
+      "translation_cz": "upřesňující otázka",
+      "example": "May I ask a clarifying question?",
+      "example_cz": "Mohu se zeptat na upřesňující otázku?",
+      "tts_text": "May I ask a clarifying question?"
+    },
+    {
+      "word": "without taking it personally",
+      "translation_cz": "aniž bych to bral osobně",
+      "example": "I try to listen without taking it personally.",
+      "example_cz": "Snažím se poslouchat, aniž bych to bral osobně.",
+      "tts_text": "I try to listen without taking it personally."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_03",
+      "title": "Accepting feedback well",
+      "title_cz": "Dobré přijetí zpětné vazby",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Can I share some feedback on your last presentation?",
+          "text_cz": "Můžu se s tebou podělit o zpětnou vazbu na tvoji poslední prezentaci?"
+        },
+        {
+          "speaker": "B",
+          "text": "Of course, I'm always open to feedback.",
+          "text_cz": "Jistě, jsem vždy otevřený zpětné vazbě."
+        },
+        {
+          "speaker": "A",
+          "text": "It was a bit too long and detailed for the audience.",
+          "text_cz": "Byla trochu příliš dlouhá a podrobná pro dané publikum."
+        },
+        {
+          "speaker": "B",
+          "text": "That's fair, thank you, I'll work on it for next time.",
+          "text_cz": "To je fér, děkuji, budu na tom pracovat pro příště."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "thank you for the feedback",
+      "options": [
+        "děkuji za zpětnou vazbu",
+        "vzít si to k srdci",
+        "to je fér"
+      ],
+      "correct": "děkuji za zpětnou vazbu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'll take your comments ___ board.",
+      "answer": "on",
+      "hint_cz": "k srdci"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "thank you for the feedback",
+          "cz": "děkuji za zpětnou vazbu"
+        },
+        {
+          "target": "take it on board",
+          "cz": "vzít si to k srdci"
+        },
+        {
+          "target": "that's fair",
+          "cz": "to je fér"
+        },
+        {
+          "target": "I understand your point",
+          "cz": "chápu tvůj názor"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Thank you for the feedback, it's very helpful.",
+      "tts_text": "Thank you for the feedback, it's very helpful."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I try to listen without taking it ___.",
+      "answer": "personally",
+      "hint_cz": "osobně"
+    }
+  ]
+}

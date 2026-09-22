@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_legal_contracts_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Erinnerung an die Compliance-Schulung",
+  "title_cz": "Připomínka školení o dodržování předpisů",
+  "vocabulary": [
+    {
+      "word": "die Pflichtschulung",
+      "translation_cz": "povinné školení",
+      "example": "Das ist eine Pflichtschulung für alle Mitarbeiter.",
+      "example_cz": "Toto je povinné školení pro všechny zaměstnance.",
+      "tts_text": "Das ist eine Pflichtschulung für alle Mitarbeiter."
+    },
+    {
+      "word": "das Modul abschließen",
+      "translation_cz": "dokončit modul",
+      "example": "Bitte schließen Sie das Modul bis Freitag ab.",
+      "example_cz": "Prosím dokončete modul do pátku.",
+      "tts_text": "Bitte schließen Sie das Modul bis Freitag ab."
+    },
+    {
+      "word": "der Verhaltenskodex",
+      "translation_cz": "etický kodex",
+      "example": "Alle müssen den Verhaltenskodex befolgen.",
+      "example_cz": "Všichni musí dodržovat etický kodex.",
+      "tts_text": "Alle müssen den Verhaltenskodex befolgen."
+    },
+    {
+      "word": "die Frist zur Fertigstellung",
+      "translation_cz": "termín pro dokončení",
+      "example": "Die Frist zur Fertigstellung ist nächste Woche.",
+      "example_cz": "Termín pro dokončení je příští týden.",
+      "tts_text": "Die Frist zur Fertigstellung ist nächste Woche."
+    },
+    {
+      "word": "das Zertifikat",
+      "translation_cz": "certifikát",
+      "example": "Sie erhalten nach dem Bestehen ein Zertifikat.",
+      "example_cz": "Po úspěšném absolvování obdržíte certifikát.",
+      "tts_text": "Sie erhalten nach dem Bestehen ein Zertifikat."
+    },
+    {
+      "word": "die Aktualisierung der Richtlinie",
+      "translation_cz": "aktualizace zásad",
+      "example": "Das behandelt die neueste Aktualisierung der Richtlinie.",
+      "example_cz": "Toto zahrnuje nejnovější aktualizaci zásad.",
+      "tts_text": "Das behandelt die neueste Aktualisierung der Richtlinie."
+    },
+    {
+      "word": "die Erinnerungs-E-Mail",
+      "translation_cz": "připomínkový e-mail",
+      "example": "Ich habe gestern eine Erinnerungs-E-Mail gesendet.",
+      "example_cz": "Včera jsem poslal připomínkový e-mail.",
+      "tts_text": "Ich habe gestern eine Erinnerungs-E-Mail gesendet."
+    },
+    {
+      "word": "die Nichteinhaltung",
+      "translation_cz": "nedodržení předpisů",
+      "example": "Nichteinhaltung kann zu einer Verwarnung führen.",
+      "example_cz": "Nedodržení předpisů může vést k varování.",
+      "tts_text": "Nichteinhaltung kann zu einer Verwarnung führen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_09",
+      "title": "Erinnerung an die Schulung",
+      "title_cz": "Připomínka školení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Haben Sie die Pflichtschulung schon abgeschlossen?",
+          "text_cz": "Už jste dokončil povinné školení?"
+        },
+        {
+          "speaker": "B",
+          "text": "Noch nicht. Wie lautet die Frist zur Fertigstellung?",
+          "text_cz": "Ještě ne. Jaký je termín pro dokončení?"
+        },
+        {
+          "speaker": "A",
+          "text": "Nächste Woche. Ich habe bereits eine Erinnerungs-E-Mail gesendet.",
+          "text_cz": "Příští týden. Už jsem poslal připomínkový e-mail."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay, ich schließe das Modul heute ab. Behandelt es die Aktualisierung der Richtlinie?",
+          "text_cz": "Dobře, modul dnes dokončím. Zahrnuje to aktualizaci zásad?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, und auch den Verhaltenskodex.",
+          "text_cz": "Ano, a také etický kodex."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden. Ich hole mir heute Nachmittag mein Zertifikat.",
+          "text_cz": "Rozumím. Dnes odpoledne získám certifikát."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Pflichtschulung",
+      "options": [
+        "povinné školení",
+        "dokončit modul",
+        "etický kodex"
+      ],
+      "correct": "povinné školení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Frist zur Fertigstellung ist nächste ___",
+      "answer": "Woche",
+      "hint_cz": "termín pro dokončení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Pflichtschulung",
+          "cz": "povinné školení"
+        },
+        {
+          "target": "das Modul abschließen",
+          "cz": "dokončit modul"
+        },
+        {
+          "target": "der Verhaltenskodex",
+          "cz": "etický kodex"
+        },
+        {
+          "target": "die Frist zur Fertigstellung",
+          "cz": "termín pro dokončení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sie erhalten nach dem Bestehen ein Zertifikat.",
+      "tts_text": "Sie erhalten nach dem Bestehen ein Zertifikat."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das behandelt die neueste Aktualisierung der ___",
+      "answer": "Richtlinie",
+      "hint_cz": "aktualizace zásad"
+    }
+  ]
+}

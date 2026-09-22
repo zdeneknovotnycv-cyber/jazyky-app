@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_food_drinks_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Drinks",
+  "title_cz": "Nápoje",
+  "vocabulary": [
+    {
+      "word": "water",
+      "translation_cz": "voda",
+      "example": "I drink water when I am thirsty.",
+      "example_cz": "Když mám žízeň, piju vodu.",
+      "tts_text": "I drink water when I am thirsty."
+    },
+    {
+      "word": "juice",
+      "translation_cz": "džus",
+      "example": "I like apple juice.",
+      "example_cz": "Mám rád jablečný džus.",
+      "tts_text": "I like apple juice."
+    },
+    {
+      "word": "milk",
+      "translation_cz": "mléko",
+      "example": "I drink milk at breakfast.",
+      "example_cz": "K snídani piju mléko.",
+      "tts_text": "I drink milk at breakfast."
+    },
+    {
+      "word": "tea",
+      "translation_cz": "čaj",
+      "example": "Grandma makes tea for me.",
+      "example_cz": "Babička mi dělá čaj.",
+      "tts_text": "Grandma makes tea for me."
+    },
+    {
+      "word": "lemonade",
+      "translation_cz": "limonáda",
+      "example": "We drink lemonade in summer.",
+      "example_cz": "V létě pijeme limonádu.",
+      "tts_text": "We drink lemonade in summer."
+    },
+    {
+      "word": "thirsty",
+      "translation_cz": "žíznivý",
+      "example": "I am thirsty now.",
+      "example_cz": "Teď mám žízeň.",
+      "tts_text": "I am thirsty now."
+    },
+    {
+      "word": "cup",
+      "translation_cz": "hrneček",
+      "example": "My cup is red.",
+      "example_cz": "Můj hrneček je červený.",
+      "tts_text": "My cup is red."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "water",
+      "options": [
+        "voda",
+        "džus",
+        "čaj"
+      ],
+      "correct": "voda"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am ___ now.",
+      "answer": "thirsty",
+      "hint_cz": "žíznivý"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "juice",
+          "cz": "džus"
+        },
+        {
+          "target": "tea",
+          "cz": "čaj"
+        },
+        {
+          "target": "lemonade",
+          "cz": "limonáda"
+        },
+        {
+          "target": "cup",
+          "cz": "hrneček"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I drink water when I am thirsty.",
+      "tts_text": "I drink water when I am thirsty."
+    }
+  ]
+}

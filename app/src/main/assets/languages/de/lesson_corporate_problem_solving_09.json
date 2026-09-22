@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_problem_solving_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Kundenbeschwerde intern bearbeiten",
+  "title_cz": "Interní řešení klientovy stížnosti",
+  "vocabulary": [
+    {
+      "word": "der Kunde hat sich beschwert über",
+      "translation_cz": "klient si stěžoval na",
+      "example": "Der Kunde hat sich über die Verzögerung beschwert.",
+      "example_cz": "Klient si stěžoval na zpoždění.",
+      "tts_text": "Der Kunde hat sich über die Verzögerung beschwert."
+    },
+    {
+      "word": "unzufrieden",
+      "translation_cz": "nespokojený",
+      "example": "Der Kunde ist mit dem Service unzufrieden.",
+      "example_cz": "Klient je nespokojený se službou.",
+      "tts_text": "Der Kunde ist mit dem Service unzufrieden."
+    },
+    {
+      "word": "die Beschwerde lösen",
+      "translation_cz": "vyřešit stížnost",
+      "example": "Wir müssen die Beschwerde schnell lösen.",
+      "example_cz": "Musíme stížnost rychle vyřešit.",
+      "tts_text": "Wir müssen die Beschwerde schnell lösen."
+    },
+    {
+      "word": "entschädigen",
+      "translation_cz": "kompenzovat",
+      "example": "Wir könnten sie mit einem Rabatt entschädigen.",
+      "example_cz": "Mohli bychom je kompenzovat slevou.",
+      "tts_text": "Wir könnten sie mit einem Rabatt entschädigen."
+    },
+    {
+      "word": "sich melden bei",
+      "translation_cz": "kontaktovat / navázat s",
+      "example": "Bitte melden Sie sich morgen beim Kunden.",
+      "example_cz": "Prosím zítra kontaktujte klienta.",
+      "tts_text": "Bitte melden Sie sich morgen beim Kunden."
+    },
+    {
+      "word": "die Schadensbegrenzung",
+      "translation_cz": "zmírnění škod",
+      "example": "Das ist wichtig für die Schadensbegrenzung.",
+      "example_cz": "Tohle je důležité pro zmírnění škod.",
+      "tts_text": "Das ist wichtig für die Schadensbegrenzung."
+    },
+    {
+      "word": "den Kunden informiert halten",
+      "translation_cz": "informovat klienta",
+      "example": "Lassen Sie uns den Kunden informiert halten.",
+      "example_cz": "Informujme klienta o vývoji.",
+      "tts_text": "Lassen Sie uns den Kunden informiert halten."
+    },
+    {
+      "word": "das Vertrauen zurückgewinnen",
+      "translation_cz": "znovu získat důvěru",
+      "example": "Wir müssen ihr Vertrauen zurückgewinnen.",
+      "example_cz": "Musíme znovu získat jejich důvěru.",
+      "tts_text": "Wir müssen ihr Vertrauen zurückgewinnen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_09",
+      "title": "Eine Kundenbeschwerde",
+      "title_cz": "Stížnost klienta",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Der Kunde hat sich über die späte Lieferung beschwert. Er ist ziemlich unzufrieden.",
+          "text_cz": "Klient si stěžoval na pozdní dodání. Je docela nespokojený."
+        },
+        {
+          "speaker": "B",
+          "text": "Lassen Sie uns die Beschwerde heute lösen.",
+          "text_cz": "Vyřešme tu stížnost dnes."
+        },
+        {
+          "speaker": "A",
+          "text": "Ich schlage vor, wir entschädigen ihn mit einem Rabatt.",
+          "text_cz": "Navrhuji, abychom ho kompenzovali slevou."
+        },
+        {
+          "speaker": "B",
+          "text": "Gute Idee, zur Schadensbegrenzung. Können Sie sich beim Kunden melden?",
+          "text_cz": "Dobrý nápad, kvůli zmírnění škod. Můžete kontaktovat klienta?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, ich halte ihn bei jedem Schritt informiert.",
+          "text_cz": "Ano, budu ho informovat o každém kroku."
+        },
+        {
+          "speaker": "B",
+          "text": "Wir müssen wirklich sein Vertrauen zurückgewinnen.",
+          "text_cz": "Opravdu musíme znovu získat jeho důvěru."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Kunde hat sich beschwert über",
+      "options": [
+        "klient si stěžoval na",
+        "nespokojený",
+        "vyřešit stížnost"
+      ],
+      "correct": "klient si stěžoval na"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir könnten sie mit einem Rabatt ___.",
+      "answer": "entschädigen",
+      "hint_cz": "kompenzovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Kunde hat sich beschwert über",
+          "cz": "klient si stěžoval na"
+        },
+        {
+          "target": "unzufrieden",
+          "cz": "nespokojený"
+        },
+        {
+          "target": "die Beschwerde lösen",
+          "cz": "vyřešit stížnost"
+        },
+        {
+          "target": "entschädigen",
+          "cz": "kompenzovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte melden Sie sich morgen beim Kunden.",
+      "tts_text": "Bitte melden Sie sich morgen beim Kunden."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das ist wichtig für ___.",
+      "answer": "die Schadensbegrenzung",
+      "hint_cz": "zmírnění škod"
+    }
+  ]
+}

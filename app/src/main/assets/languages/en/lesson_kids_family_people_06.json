@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_family_people_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Where People Live",
+  "title_cz": "Kde lidé bydlí",
+  "vocabulary": [
+    {
+      "word": "live",
+      "translation_cz": "bydlet",
+      "example": "I live in a small town.",
+      "example_cz": "Bydlím v malém městě.",
+      "tts_text": "I live in a small town."
+    },
+    {
+      "word": "house",
+      "translation_cz": "dům",
+      "example": "We live in a house.",
+      "example_cz": "Bydlíme v domě.",
+      "tts_text": "We live in a house."
+    },
+    {
+      "word": "apartment",
+      "translation_cz": "byt",
+      "example": "My friend lives in an apartment.",
+      "example_cz": "Můj kamarád bydlí v bytě.",
+      "tts_text": "My friend lives in an apartment."
+    },
+    {
+      "word": "city",
+      "translation_cz": "město (velké)",
+      "example": "My uncle lives in a big city.",
+      "example_cz": "Můj strýc bydlí ve velkém městě.",
+      "tts_text": "My uncle lives in a big city."
+    },
+    {
+      "word": "village",
+      "translation_cz": "vesnice",
+      "example": "My grandparents live in a village.",
+      "example_cz": "Moji prarodiče bydlí na vesnici.",
+      "tts_text": "My grandparents live in a village."
+    },
+    {
+      "word": "street",
+      "translation_cz": "ulice",
+      "example": "Our street is quiet.",
+      "example_cz": "Naše ulice je klidná.",
+      "tts_text": "Our street is quiet."
+    },
+    {
+      "word": "neighbor",
+      "translation_cz": "soused",
+      "example": "Our neighbor is friendly.",
+      "example_cz": "Náš soused je přátelský.",
+      "tts_text": "Our neighbor is friendly."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "live",
+      "options": [
+        "bydlet",
+        "hrát",
+        "jíst"
+      ],
+      "correct": "bydlet"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We live in a ___.",
+      "answer": "house",
+      "hint_cz": "dům"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "apartment",
+          "cz": "byt"
+        },
+        {
+          "target": "city",
+          "cz": "město (velké)"
+        },
+        {
+          "target": "village",
+          "cz": "vesnice"
+        },
+        {
+          "target": "neighbor",
+          "cz": "soused"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I live in a small town.",
+      "tts_text": "I live in a small town."
+    }
+  ]
+}

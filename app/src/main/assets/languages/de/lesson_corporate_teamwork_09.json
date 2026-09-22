@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_teamwork_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Zusammenarbeit im Remote-Team",
+  "title_cz": "Spolupráce vzdáleného týmu",
+  "vocabulary": [
+    {
+      "word": "der Videoanruf",
+      "translation_cz": "videohovor",
+      "example": "Lass uns für morgen einen Videoanruf vereinbaren.",
+      "example_cz": "Domluvme si na zítra videohovor.",
+      "tts_text": "Lass uns für morgen einen Videoanruf vereinbaren."
+    },
+    {
+      "word": "den Bildschirm teilen",
+      "translation_cz": "sdílet obrazovku",
+      "example": "Könntest du deine Präsentation über den Bildschirm teilen?",
+      "example_cz": "Mohl bys sdílet obrazovku se svou prezentací?",
+      "tts_text": "Könntest du deine Präsentation über den Bildschirm teilen?"
+    },
+    {
+      "word": "die Zeitzone",
+      "translation_cz": "časové pásmo",
+      "example": "Denk daran, wir sind in unterschiedlichen Zeitzonen.",
+      "example_cz": "Pamatuj, jsme v různých časových pásmech.",
+      "tts_text": "Denk daran, wir sind in unterschiedlichen Zeitzonen."
+    },
+    {
+      "word": "in Kontakt bleiben",
+      "translation_cz": "zůstat v kontaktu",
+      "example": "Es ist wichtig, als Team in Kontakt zu bleiben.",
+      "example_cz": "Je důležité zůstat jako tým v kontaktu.",
+      "tts_text": "Es ist wichtig, als Team in Kontakt zu bleiben."
+    },
+    {
+      "word": "asynchrone Kommunikation",
+      "translation_cz": "asynchronní komunikace",
+      "example": "Wir verlassen uns stark auf asynchrone Kommunikation.",
+      "example_cz": "Hodně spoléháme na asynchronní komunikaci.",
+      "tts_text": "Wir verlassen uns stark auf asynchrone Kommunikation."
+    },
+    {
+      "word": "stummgeschaltet",
+      "translation_cz": "ztlumený (mikrofon)",
+      "example": "Entschuldigung, du warst kurz stummgeschaltet.",
+      "example_cz": "Promiň, na chvíli jsi byl ztlumený.",
+      "tts_text": "Entschuldigung, du warst kurz stummgeschaltet."
+    },
+    {
+      "word": "das Kollaborationstool",
+      "translation_cz": "nástroj pro spolupráci",
+      "example": "Wir nutzen ein Kollaborationstool, um Dateien zu teilen.",
+      "example_cz": "Používáme nástroj pro spolupráci ke sdílení souborů.",
+      "tts_text": "Wir nutzen ein Kollaborationstool, um Dateien zu teilen."
+    },
+    {
+      "word": "sich melden",
+      "translation_cz": "ozvat se / zkontrolovat stav",
+      "example": "Ich melde mich später heute bei dir.",
+      "example_cz": "Ozvu se ti ještě dnes.",
+      "tts_text": "Ich melde mich später heute bei dir."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_remote_collaboration",
+      "title": "Zusammenarbeit auf Distanz",
+      "title_cz": "Vzdálená spolupráce",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Lass uns für morgen früh einen Videoanruf vereinbaren.",
+          "text_cz": "Domluvme si na zítra ráno videohovor."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, aber denk daran, wir sind in unterschiedlichen Zeitzonen.",
+          "text_cz": "Jasně, ale pamatuj, jsme v různých časových pásmech."
+        },
+        {
+          "speaker": "A",
+          "text": "Stimmt, lass uns eine passende Zeit für uns beide finden. Könntest du den Bericht über den Bildschirm teilen?",
+          "text_cz": "Máš pravdu, najděme čas, který vyhovuje oběma. Mohl bys sdílet obrazovku se zprávou?"
+        },
+        {
+          "speaker": "B",
+          "text": "Natürlich. Wir müssen bei diesem Projekt wirklich in Kontakt bleiben.",
+          "text_cz": "Jasně. Na tomto projektu opravdu potřebujeme zůstat v kontaktu."
+        },
+        {
+          "speaker": "A",
+          "text": "Genau. Ich melde mich später über unser Kollaborationstool bei dir.",
+          "text_cz": "Souhlasím. Ozvu se ti později přes náš nástroj pro spolupráci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Zeitzone",
+      "options": [
+        "časové pásmo",
+        "videohovor",
+        "ztlumený"
+      ],
+      "correct": "časové pásmo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lass uns für morgen einen ___ vereinbaren.",
+      "answer": "Videoanruf",
+      "hint_cz": "videohovor"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "den Bildschirm teilen",
+          "cz": "sdílet obrazovku"
+        },
+        {
+          "target": "asynchrone Kommunikation",
+          "cz": "asynchronní komunikace"
+        },
+        {
+          "target": "das Kollaborationstool",
+          "cz": "nástroj pro spolupráci"
+        },
+        {
+          "target": "sich melden",
+          "cz": "ozvat se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Es ist wichtig, als Team in Kontakt zu bleiben.",
+      "tts_text": "Es ist wichtig, als Team in Kontakt zu bleiben."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Entschuldigung, du warst kurz ___.",
+      "answer": "stummgeschaltet",
+      "hint_cz": "ztlumený"
+    }
+  ]
+}

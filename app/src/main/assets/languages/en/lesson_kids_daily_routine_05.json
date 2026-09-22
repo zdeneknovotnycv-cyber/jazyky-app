@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_daily_routine_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Homework time",
+  "title_cz": "Čas na domácí úkoly",
+  "vocabulary": [
+    {
+      "word": "homework",
+      "translation_cz": "domácí úkol",
+      "example": "I do my homework at the desk.",
+      "example_cz": "Dělám domácí úkol u psacího stolu.",
+      "tts_text": "I do my homework at the desk."
+    },
+    {
+      "word": "pencil",
+      "translation_cz": "tužka",
+      "example": "I write with a pencil.",
+      "example_cz": "Píšu tužkou.",
+      "tts_text": "I write with a pencil."
+    },
+    {
+      "word": "notebook",
+      "translation_cz": "sešit",
+      "example": "I open my notebook.",
+      "example_cz": "Otevírám si sešit.",
+      "tts_text": "I open my notebook."
+    },
+    {
+      "word": "difficult",
+      "translation_cz": "těžký",
+      "example": "This math problem is difficult.",
+      "example_cz": "Tento matematický příklad je těžký.",
+      "tts_text": "This math problem is difficult."
+    },
+    {
+      "word": "help",
+      "translation_cz": "pomoc",
+      "example": "My dad helps me with homework.",
+      "example_cz": "Táta mi pomáhá s úkolem.",
+      "tts_text": "My dad helps me with homework."
+    },
+    {
+      "word": "finish",
+      "translation_cz": "dokončit",
+      "example": "I finish my homework before dinner.",
+      "example_cz": "Úkol dokončím před večeří.",
+      "tts_text": "I finish my homework before dinner."
+    },
+    {
+      "word": "focus",
+      "translation_cz": "soustředit se",
+      "example": "I try to focus on my work.",
+      "example_cz": "Snažím se soustředit na práci.",
+      "tts_text": "I try to focus on my work."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "homework",
+      "options": [
+        "domácí úkol",
+        "tužka",
+        "sešit"
+      ],
+      "correct": "domácí úkol"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I write with a ___.",
+      "answer": "pencil",
+      "hint_cz": "tužka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "notebook",
+          "cz": "sešit"
+        },
+        {
+          "target": "difficult",
+          "cz": "těžký"
+        },
+        {
+          "target": "help",
+          "cz": "pomoc"
+        },
+        {
+          "target": "finish",
+          "cz": "dokončit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I try to focus on my work.",
+      "tts_text": "I try to focus on my work."
+    }
+  ]
+}

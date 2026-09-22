@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_clothes_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Costumes and Dress-Up",
+  "title_cz": "Kostýmy a převleky",
+  "vocabulary": [
+    {
+      "word": "das Kostüm",
+      "translation_cz": "kostým",
+      "example": "Ich trage ein Prinzessinnenkostüm.",
+      "example_cz": "Nosím kostým princezny.",
+      "tts_text": "Ich trage ein Prinzessinnenkostüm."
+    },
+    {
+      "word": "die Maske",
+      "translation_cz": "maska",
+      "example": "Meine Maske ist gruselig.",
+      "example_cz": "Moje maska je strašidelná.",
+      "tts_text": "Meine Maske ist gruselig."
+    },
+    {
+      "word": "der Umhang",
+      "translation_cz": "plášť",
+      "example": "Der Superheld hat einen Umhang.",
+      "example_cz": "Superhrdina má plášť.",
+      "tts_text": "Der Superheld hat einen Umhang."
+    },
+    {
+      "word": "die Krone",
+      "translation_cz": "korunka",
+      "example": "Die Prinzessin trägt eine Krone.",
+      "example_cz": "Princezna nosí korunku.",
+      "tts_text": "Die Prinzessin trägt eine Krone."
+    },
+    {
+      "word": "die Perücke",
+      "translation_cz": "paruka",
+      "example": "Der Clown trägt eine bunte Perücke.",
+      "example_cz": "Klaun nosí barevnou paruku.",
+      "tts_text": "Der Clown trägt eine bunte Perücke."
+    },
+    {
+      "word": "so tun als ob",
+      "translation_cz": "předstírat",
+      "example": "Ich tue so, als wäre ich ein Pirat.",
+      "example_cz": "Předstírám, že jsem pirát.",
+      "tts_text": "Ich tue so, als wäre ich ein Pirat."
+    },
+    {
+      "word": "die Kostümparty",
+      "translation_cz": "kostýmní párty",
+      "example": "Wir haben eine Kostümparty.",
+      "example_cz": "Máme kostýmní párty.",
+      "tts_text": "Wir haben eine Kostümparty."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Krone",
+      "options": [
+        "korunka",
+        "maska",
+        "paruka"
+      ],
+      "correct": "korunka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der Superheld hat einen ___.",
+      "answer": "Umhang",
+      "hint_cz": "plášť"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Kostüm",
+          "cz": "kostým"
+        },
+        {
+          "target": "die Maske",
+          "cz": "maska"
+        },
+        {
+          "target": "die Perücke",
+          "cz": "paruka"
+        },
+        {
+          "target": "die Kostümparty",
+          "cz": "kostýmní párty"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich tue so, als wäre ich ein Pirat.",
+      "tts_text": "Ich tue so, als wäre ich ein Pirat."
+    }
+  ]
+}

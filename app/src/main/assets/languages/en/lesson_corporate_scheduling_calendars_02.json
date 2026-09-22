@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_scheduling_calendars_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Checking availability",
+  "title_cz": "Ověřování dostupnosti termínu",
+  "vocabulary": [
+    {
+      "word": "Are you free on Tuesday?",
+      "translation_cz": "Máte v úterý volno?",
+      "example": "Are you free on Tuesday afternoon?",
+      "example_cz": "Máte v úterý odpoledne volno?",
+      "tts_text": "Are you free on Tuesday afternoon?"
+    },
+    {
+      "word": "let me check my calendar",
+      "translation_cz": "podívám se do kalendáře",
+      "example": "One moment, let me check my calendar.",
+      "example_cz": "Moment, podívám se do kalendáře.",
+      "tts_text": "One moment, let me check my calendar."
+    },
+    {
+      "word": "I'm fully booked that day",
+      "translation_cz": "ten den mám úplně obsazeno",
+      "example": "I'm sorry, I'm fully booked that day.",
+      "example_cz": "Bohužel, ten den mám úplně obsazeno.",
+      "tts_text": "I'm sorry, I'm fully booked that day."
+    },
+    {
+      "word": "I have a free slot at",
+      "translation_cz": "mám volné okénko v",
+      "example": "I have a free slot at eleven o'clock.",
+      "example_cz": "Mám volné okénko v jedenáct hodin.",
+      "tts_text": "I have a free slot at eleven o'clock."
+    },
+    {
+      "word": "does that suit you?",
+      "translation_cz": "vyhovuje vám to?",
+      "example": "I'm free at three, does that suit you?",
+      "example_cz": "Mám volno ve tři, vyhovuje vám to?",
+      "tts_text": "I'm free at three, does that suit you?"
+    },
+    {
+      "word": "any time next week works",
+      "translation_cz": "kdykoliv příští týden mi vyhovuje",
+      "example": "Any time next week works for me.",
+      "example_cz": "Kdykoliv příští týden mi vyhovuje.",
+      "tts_text": "Any time next week works for me."
+    },
+    {
+      "word": "I have another meeting then",
+      "translation_cz": "tehdy mám jinou schůzku",
+      "example": "I have another meeting then, could we try later?",
+      "example_cz": "Tehdy mám jinou schůzku, mohli bychom zkusit později?",
+      "tts_text": "I have another meeting then, could we try later?"
+    },
+    {
+      "word": "what about the morning instead?",
+      "translation_cz": "co takhle místo toho ráno?",
+      "example": "What about the morning instead, around nine?",
+      "example_cz": "Co takhle místo toho ráno, kolem deváté?",
+      "tts_text": "What about the morning instead, around nine?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_checking_availability",
+      "title": "Checking when a colleague is free",
+      "title_cz": "Zjišťování, kdy má kolega volno",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Are you free on Tuesday afternoon for a short meeting?",
+          "text_cz": "Máte v úterý odpoledne volno na krátkou schůzku?"
+        },
+        {
+          "speaker": "B",
+          "text": "Let me check my calendar. I'm fully booked that day.",
+          "text_cz": "Podívám se do kalendáře. Ten den mám úplně obsazeno."
+        },
+        {
+          "speaker": "A",
+          "text": "What about the morning instead, around nine?",
+          "text_cz": "Co takhle místo toho ráno, kolem deváté?"
+        },
+        {
+          "speaker": "B",
+          "text": "I have a free slot at nine thirty, does that suit you?",
+          "text_cz": "Mám volné okénko v půl desáté, vyhovuje vám to?"
+        },
+        {
+          "speaker": "A",
+          "text": "Perfect, that works great.",
+          "text_cz": "Skvělé, to skvěle vyhovuje."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Let me check my calendar.",
+      "options": [
+        "Podívám se do kalendáře.",
+        "Máte v úterý volno?",
+        "Ten den mám úplně obsazeno."
+      ],
+      "correct": "Podívám se do kalendáře."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'm sorry, I'm fully ___ that day.",
+      "answer": "booked",
+      "hint_cz": "obsazeno"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "I have a free slot at", "cz": "mám volné okénko v" },
+        { "target": "does that suit you?", "cz": "vyhovuje vám to?" },
+        { "target": "any time next week works", "cz": "kdykoliv příští týden mi vyhovuje" },
+        { "target": "I have another meeting then", "cz": "tehdy mám jinou schůzku" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Are you free on Tuesday afternoon?",
+      "tts_text": "Are you free on Tuesday afternoon?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What about the morning ___, around nine?",
+      "answer": "instead",
+      "hint_cz": "místo toho"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Any time next week works for me.",
+      "tts_text": "Any time next week works for me."
+    }
+  ]
+}

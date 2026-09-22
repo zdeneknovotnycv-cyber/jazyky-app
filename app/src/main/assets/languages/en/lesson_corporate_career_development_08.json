@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_career_development_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Networking for career growth",
+  "title_cz": "Budování kontaktů pro kariérní růst",
+  "vocabulary": [
+    {
+      "word": "networking event",
+      "translation_cz": "networkingová akce",
+      "example": "There's a networking event next Thursday.",
+      "example_cz": "Příští čtvrtek je networkingová akce.",
+      "tts_text": "There's a networking event next Thursday."
+    },
+    {
+      "word": "to make connections",
+      "translation_cz": "navázat kontakty",
+      "example": "It's a great chance to make connections.",
+      "example_cz": "Je to skvělá příležitost navázat kontakty.",
+      "tts_text": "It's a great chance to make connections."
+    },
+    {
+      "word": "to exchange business cards",
+      "translation_cz": "vyměnit si vizitky",
+      "example": "We exchanged business cards after the talk.",
+      "example_cz": "Po přednášce jsme si vyměnili vizitky.",
+      "tts_text": "We exchanged business cards after the talk."
+    },
+    {
+      "word": "industry contact",
+      "translation_cz": "kontakt z oboru",
+      "example": "He's a valuable industry contact.",
+      "example_cz": "Je to cenný kontakt z oboru.",
+      "tts_text": "He's a valuable industry contact."
+    },
+    {
+      "word": "to follow up",
+      "translation_cz": "ozvat se znovu / navázat",
+      "example": "I'll follow up with an email tomorrow.",
+      "example_cz": "Zítra se ozvu e-mailem.",
+      "tts_text": "I'll follow up with an email tomorrow."
+    },
+    {
+      "word": "small talk",
+      "translation_cz": "konverzace na uvolnění",
+      "example": "I'm not great at small talk, honestly.",
+      "example_cz": "Upřímně, v konverzaci na uvolnění moc nevynikám.",
+      "tts_text": "I'm not great at small talk, honestly."
+    },
+    {
+      "word": "to build relationships",
+      "translation_cz": "budovat vztahy",
+      "example": "Networking is about building relationships.",
+      "example_cz": "Networking je o budování vztahů.",
+      "tts_text": "Networking is about building relationships."
+    },
+    {
+      "word": "to expand your network",
+      "translation_cz": "rozšířit síť kontaktů",
+      "example": "This event helped me expand my network.",
+      "example_cz": "Tato akce mi pomohla rozšířit síť kontaktů.",
+      "tts_text": "This event helped me expand my network."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_networking",
+      "title": "At a networking event",
+      "title_cz": "Na networkingové akci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "There's a networking event next Thursday, are you going?",
+          "text_cz": "Příští čtvrtek je networkingová akce, jdeš tam?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, it's a great chance to make connections in our industry.",
+          "text_cz": "Ano, je to skvělá příležitost navázat kontakty v našem oboru."
+        },
+        {
+          "speaker": "A",
+          "text": "I met a valuable industry contact last time and we exchanged business cards.",
+          "text_cz": "Minule jsem potkal cenný kontakt z oboru a vyměnili jsme si vizitky."
+        },
+        {
+          "speaker": "B",
+          "text": "Nice. Did you follow up with them afterwards?",
+          "text_cz": "Pěkné. Ozval ses jim pak?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, I sent an email the next day. It really helps to build relationships over time.",
+          "text_cz": "Ano, druhý den jsem poslal e-mail. Opravdu to pomáhá časem budovat vztahy."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "networking event",
+      "options": [
+        "networkingová akce",
+        "kontakt z oboru",
+        "vizitky"
+      ],
+      "correct": "networkingová akce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'll ___ up with an email tomorrow.",
+      "answer": "follow",
+      "hint_cz": "ozvu se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "to make connections",
+          "cz": "navázat kontakty"
+        },
+        {
+          "target": "small talk",
+          "cz": "konverzace na uvolnění"
+        },
+        {
+          "target": "to build relationships",
+          "cz": "budovat vztahy"
+        },
+        {
+          "target": "to expand your network",
+          "cz": "rozšířit síť kontaktů"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Networking is about building relationships.",
+      "tts_text": "Networking is about building relationships."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We ___ business cards after the talk.",
+      "answer": "exchanged",
+      "hint_cz": "vyměnili si"
+    }
+  ]
+}

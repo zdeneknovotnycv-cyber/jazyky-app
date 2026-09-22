@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_birthday_celebrations_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Christmas",
+  "title_cz": "Vánoce",
+  "vocabulary": [
+    {
+      "word": "Christmas",
+      "translation_cz": "Vánoce",
+      "example": "Christmas is my favorite holiday.",
+      "example_cz": "Vánoce jsou moje oblíbené svátky.",
+      "tts_text": "Christmas is my favorite holiday."
+    },
+    {
+      "word": "Christmas tree",
+      "translation_cz": "vánoční stromek",
+      "example": "We decorate the Christmas tree.",
+      "example_cz": "Zdobíme vánoční stromek.",
+      "tts_text": "We decorate the Christmas tree."
+    },
+    {
+      "word": "present",
+      "translation_cz": "dárek",
+      "example": "I open a present under the tree.",
+      "example_cz": "Otevírám dárek pod stromečkem.",
+      "tts_text": "I open a present under the tree."
+    },
+    {
+      "word": "snow",
+      "translation_cz": "sníh",
+      "example": "White snow falls outside.",
+      "example_cz": "Venku padá bílý sníh.",
+      "tts_text": "White snow falls outside."
+    },
+    {
+      "word": "carol",
+      "translation_cz": "koleda",
+      "example": "We sing a Christmas carol.",
+      "example_cz": "Zpíváme vánoční koledu.",
+      "tts_text": "We sing a Christmas carol."
+    },
+    {
+      "word": "candle",
+      "translation_cz": "svíčka",
+      "example": "A candle burns on the table.",
+      "example_cz": "Na stole hoří svíčka.",
+      "tts_text": "A candle burns on the table."
+    },
+    {
+      "word": "family gathering",
+      "translation_cz": "setkání rodiny",
+      "example": "Christmas is a family gathering.",
+      "example_cz": "Vánoce jsou setkání rodiny.",
+      "tts_text": "Christmas is a family gathering."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Christmas",
+      "options": [
+        "Vánoce",
+        "vánoční stromek",
+        "dárek"
+      ],
+      "correct": "Vánoce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We decorate the ___.",
+      "answer": "Christmas tree",
+      "hint_cz": "vánoční stromek"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "present",
+          "cz": "dárek"
+        },
+        {
+          "target": "snow",
+          "cz": "sníh"
+        },
+        {
+          "target": "carol",
+          "cz": "koleda"
+        },
+        {
+          "target": "candle",
+          "cz": "svíčka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Christmas is a family gathering.",
+      "tts_text": "Christmas is a family gathering."
+    }
+  ]
+}

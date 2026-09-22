@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_marketing_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Product launch planning",
+  "title_cz": "Plánování uvedení produktu na trh",
+  "vocabulary": [
+    {
+      "word": "product launch",
+      "translation_cz": "uvedení produktu na trh",
+      "example": "The product launch is scheduled for June.",
+      "example_cz": "Uvedení produktu na trh je naplánováno na červen.",
+      "tts_text": "The product launch is scheduled for June."
+    },
+    {
+      "word": "press release",
+      "translation_cz": "tisková zpráva",
+      "example": "We need to prepare a press release.",
+      "example_cz": "Musíme připravit tiskovou zprávu.",
+      "tts_text": "We need to prepare a press release."
+    },
+    {
+      "word": "launch event",
+      "translation_cz": "spouštěcí akce",
+      "example": "The launch event will take place in Prague.",
+      "example_cz": "Spouštěcí akce se bude konat v Praze.",
+      "tts_text": "The launch event will take place in Prague."
+    },
+    {
+      "word": "early access",
+      "translation_cz": "předčasný přístup",
+      "example": "Loyal customers will get early access.",
+      "example_cz": "Věrní zákazníci dostanou předčasný přístup.",
+      "tts_text": "Loyal customers will get early access."
+    },
+    {
+      "word": "promotional materials",
+      "translation_cz": "propagační materiály",
+      "example": "The promotional materials are almost ready.",
+      "example_cz": "Propagační materiály jsou téměř hotové.",
+      "tts_text": "The promotional materials are almost ready."
+    },
+    {
+      "word": "countdown",
+      "translation_cz": "odpočet",
+      "example": "We started a countdown on social media.",
+      "example_cz": "Na sociálních sítích jsme spustili odpočet.",
+      "tts_text": "We started a countdown on social media."
+    },
+    {
+      "word": "stakeholders",
+      "translation_cz": "zúčastněné strany",
+      "example": "All stakeholders need to approve the plan.",
+      "example_cz": "Všechny zúčastněné strany musí plán schválit.",
+      "tts_text": "All stakeholders need to approve the plan."
+    },
+    {
+      "word": "go-to-market strategy",
+      "translation_cz": "strategie uvedení na trh",
+      "example": "Our go-to-market strategy focuses on online sales first.",
+      "example_cz": "Naše strategie uvedení na trh se nejprve zaměřuje na online prodej.",
+      "tts_text": "Our go-to-market strategy focuses on online sales first."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_06",
+      "title": "Planning the launch event for a new product",
+      "title_cz": "Plánování spouštěcí akce pro nový produkt",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "The product launch is scheduled for June. Is the press release ready?",
+          "text_cz": "Uvedení produktu na trh je naplánováno na červen. Je tisková zpráva hotová?"
+        },
+        {
+          "speaker": "B",
+          "text": "Almost. The promotional materials are ready too.",
+          "text_cz": "Skoro. Propagační materiály jsou také hotové."
+        },
+        {
+          "speaker": "A",
+          "text": "Great. Let's give loyal customers early access before the launch event.",
+          "text_cz": "Skvělé. Dejme věrným zákazníkům předčasný přístup před spouštěcí akcí."
+        },
+        {
+          "speaker": "B",
+          "text": "Good idea, I'll ask the stakeholders to confirm the go-to-market strategy.",
+          "text_cz": "Dobrý nápad, požádám zúčastněné strany, aby potvrdily strategii uvedení na trh."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "product launch",
+      "options": [
+        "uvedení produktu na trh",
+        "tisková zpráva",
+        "odpočet"
+      ],
+      "correct": "uvedení produktu na trh"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We need to prepare a press ___.",
+      "answer": "release",
+      "hint_cz": "zprávu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "launch event",
+          "cz": "spouštěcí akce"
+        },
+        {
+          "target": "early access",
+          "cz": "předčasný přístup"
+        },
+        {
+          "target": "stakeholders",
+          "cz": "zúčastněné strany"
+        },
+        {
+          "target": "countdown",
+          "cz": "odpočet"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The product launch is scheduled for June.",
+      "tts_text": "The product launch is scheduled for June."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Our go-to-market ___ focuses on online sales first.",
+      "answer": "strategy",
+      "hint_cz": "strategie"
+    }
+  ]
+}

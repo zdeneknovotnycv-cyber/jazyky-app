@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_time_days_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The Four Seasons",
+  "title_cz": "Čtyři roční období",
+  "vocabulary": [
+    {
+      "word": "spring",
+      "translation_cz": "jaro",
+      "example": "Flowers bloom in spring.",
+      "example_cz": "Na jaře kvetou květiny.",
+      "tts_text": "Flowers bloom in spring."
+    },
+    {
+      "word": "summer",
+      "translation_cz": "léto",
+      "example": "We swim in summer.",
+      "example_cz": "V létě plaveme.",
+      "tts_text": "We swim in summer."
+    },
+    {
+      "word": "autumn",
+      "translation_cz": "podzim",
+      "example": "Leaves fall in autumn.",
+      "example_cz": "Na podzim padá listí.",
+      "tts_text": "Leaves fall in autumn."
+    },
+    {
+      "word": "winter",
+      "translation_cz": "zima",
+      "example": "It snows in winter.",
+      "example_cz": "V zimě sněží.",
+      "tts_text": "It snows in winter."
+    },
+    {
+      "word": "season",
+      "translation_cz": "roční období",
+      "example": "My favorite season is summer.",
+      "example_cz": "Mé oblíbené roční období je léto.",
+      "tts_text": "My favorite season is summer."
+    },
+    {
+      "word": "year",
+      "translation_cz": "rok",
+      "example": "There are four seasons in a year.",
+      "example_cz": "Rok má čtyři roční období.",
+      "tts_text": "There are four seasons in a year."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "winter",
+      "options": [
+        "zima",
+        "léto",
+        "jaro"
+      ],
+      "correct": "zima"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Flowers bloom in ___.",
+      "answer": "spring",
+      "hint_cz": "jaro"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "summer",
+          "cz": "léto"
+        },
+        {
+          "target": "autumn",
+          "cz": "podzim"
+        },
+        {
+          "target": "season",
+          "cz": "roční období"
+        },
+        {
+          "target": "year",
+          "cz": "rok"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We swim in summer.",
+      "tts_text": "We swim in summer."
+    }
+  ]
+}

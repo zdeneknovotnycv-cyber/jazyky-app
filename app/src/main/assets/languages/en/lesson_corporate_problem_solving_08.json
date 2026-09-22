@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_problem_solving_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing a process improvement",
+  "title_cz": "Zlepšení pracovního procesu",
+  "vocabulary": [
+    {
+      "word": "streamline",
+      "translation_cz": "zjednodušit / zefektivnit",
+      "example": "We should streamline this process.",
+      "example_cz": "Měli bychom tento proces zefektivnit.",
+      "tts_text": "We should streamline this process."
+    },
+    {
+      "word": "save time",
+      "translation_cz": "ušetřit čas",
+      "example": "This change would save time.",
+      "example_cz": "Tato změna by ušetřila čas.",
+      "tts_text": "This change would save time."
+    },
+    {
+      "word": "current workflow",
+      "translation_cz": "současný pracovní postup",
+      "example": "The current workflow is too slow.",
+      "example_cz": "Současný pracovní postup je moc pomalý.",
+      "tts_text": "The current workflow is too slow."
+    },
+    {
+      "word": "automate",
+      "translation_cz": "automatizovat",
+      "example": "Can we automate this step?",
+      "example_cz": "Můžeme tento krok automatizovat?",
+      "tts_text": "Can we automate this step?"
+    },
+    {
+      "word": "bottleneck",
+      "translation_cz": "úzké místo",
+      "example": "The approval step is a bottleneck.",
+      "example_cz": "Krok schvalování je úzké místo.",
+      "tts_text": "The approval step is a bottleneck."
+    },
+    {
+      "word": "efficiency",
+      "translation_cz": "efektivita",
+      "example": "This will improve efficiency.",
+      "example_cz": "Tohle zlepší efektivitu.",
+      "tts_text": "This will improve efficiency."
+    },
+    {
+      "word": "pilot the change",
+      "translation_cz": "vyzkoušet změnu nanečisto",
+      "example": "Let's pilot the change first.",
+      "example_cz": "Nejdřív si tu změnu vyzkoušejme nanečisto.",
+      "tts_text": "Let's pilot the change first."
+    },
+    {
+      "word": "measurable results",
+      "translation_cz": "měřitelné výsledky",
+      "example": "We need measurable results.",
+      "example_cz": "Potřebujeme měřitelné výsledky.",
+      "tts_text": "We need measurable results."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_08",
+      "title": "A process improvement",
+      "title_cz": "Zlepšení procesu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I think the current workflow has a bottleneck at the approval step.",
+          "text_cz": "Myslím, že současný pracovní postup má úzké místo u schvalování."
+        },
+        {
+          "speaker": "B",
+          "text": "Agreed. Can we automate part of it?",
+          "text_cz": "Souhlasím. Můžeme tu část automatizovat?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, that would streamline the process and save time.",
+          "text_cz": "Ano, to by zefektivnilo proces a ušetřilo čas."
+        },
+        {
+          "speaker": "B",
+          "text": "Let's pilot the change with one team first.",
+          "text_cz": "Nejdřív si tu změnu vyzkoušejme s jedním týmem."
+        },
+        {
+          "speaker": "A",
+          "text": "Good idea. We'll need measurable results to prove the efficiency gain.",
+          "text_cz": "Dobrý nápad. Budeme potřebovat měřitelné výsledky, abychom prokázali zlepšení efektivity."
+        },
+        {
+          "speaker": "B",
+          "text": "I'll set up a small test next week.",
+          "text_cz": "Příští týden zařídím malý test."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "streamline",
+      "options": [
+        "zjednodušit / zefektivnit",
+        "ušetřit čas",
+        "současný pracovní postup"
+      ],
+      "correct": "zjednodušit / zefektivnit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can we ___ this step?",
+      "answer": "automate",
+      "hint_cz": "automatizovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "streamline",
+          "cz": "zjednodušit / zefektivnit"
+        },
+        {
+          "target": "save time",
+          "cz": "ušetřit čas"
+        },
+        {
+          "target": "current workflow",
+          "cz": "současný pracovní postup"
+        },
+        {
+          "target": "automate",
+          "cz": "automatizovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The approval step is a bottleneck.",
+      "tts_text": "The approval step is a bottleneck."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This will improve ___.",
+      "answer": "efficiency",
+      "hint_cz": "efektivita"
+    }
+  ]
+}

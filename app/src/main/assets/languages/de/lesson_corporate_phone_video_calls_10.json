@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_phone_video_calls_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Anruf verschieben",
+  "title_cz": "Přeložení hovoru na jiný termín",
+  "vocabulary": [
+    {
+      "word": "es ist etwas dazwischengekommen",
+      "translation_cz": "něco mi vyskočilo / stalo se něco neplánovaného",
+      "example": "Es tut mir leid, es ist etwas dazwischengekommen und ich muss umplanen.",
+      "example_cz": "Omlouvám se, něco mi vyskočilo a potřebuji hovor přeložit.",
+      "tts_text": "Es tut mir leid, es ist etwas dazwischengekommen und ich muss umplanen."
+    },
+    {
+      "word": "wäre es möglich, unseren Anruf zu verschieben?",
+      "translation_cz": "bylo by možné náš hovor přesunout?",
+      "example": "Wäre es möglich, unseren Anruf auf morgen zu verschieben?",
+      "example_cz": "Bylo by možné přesunout náš hovor na zítřek?",
+      "tts_text": "Wäre es möglich, unseren Anruf auf morgen zu verschieben?"
+    },
+    {
+      "word": "ich entschuldige mich für die Unannehmlichkeiten",
+      "translation_cz": "omlouvám se za nepříjemnosti",
+      "example": "Ich entschuldige mich für die Unannehmlichkeiten.",
+      "example_cz": "Omlouvám se za nepříjemnosti, které to může způsobit.",
+      "tts_text": "Ich entschuldige mich für die Unannehmlichkeiten."
+    },
+    {
+      "word": "können wir es um eine Stunde nach hinten schieben?",
+      "translation_cz": "můžeme to posunout o hodinu?",
+      "example": "Können wir es um eine Stunde nach hinten schieben, auf sechzehn Uhr?",
+      "example_cz": "Můžeme to posunout o hodinu, na čtvrtou?",
+      "tts_text": "Können wir es um eine Stunde nach hinten schieben, auf sechzehn Uhr?"
+    },
+    {
+      "word": "das ist überhaupt kein Problem",
+      "translation_cz": "to vůbec není problém",
+      "example": "Das ist überhaupt kein Problem, keine Sorge.",
+      "example_cz": "To vůbec není problém, nebojte se.",
+      "tts_text": "Das ist überhaupt kein Problem, keine Sorge."
+    },
+    {
+      "word": "suchen wir einen anderen Termin",
+      "translation_cz": "najděme jiný čas",
+      "example": "Suchen wir einen anderen Termin, der für uns beide passt.",
+      "example_cz": "Najděme jiný čas, který nám oběma vyhovuje.",
+      "tts_text": "Suchen wir einen anderen Termin, der für uns beide passt."
+    },
+    {
+      "word": "wie wäre es stattdessen mit Freitag?",
+      "translation_cz": "co takhle místo toho pátek?",
+      "example": "Wie wäre es stattdessen mit Freitag, zur gleichen Zeit?",
+      "example_cz": "Co takhle místo toho pátek, ve stejný čas?",
+      "tts_text": "Wie wäre es stattdessen mit Freitag, zur gleichen Zeit?"
+    },
+    {
+      "word": "ich aktualisiere die Einladung",
+      "translation_cz": "aktualizuji pozvánku",
+      "example": "Ich aktualisiere die Einladung mit der neuen Uhrzeit.",
+      "example_cz": "Aktualizuji pozvánku s novým časem.",
+      "tts_text": "Ich aktualisiere die Einladung mit der neuen Uhrzeit."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_anruf_verschieben",
+      "title": "Einen Anruf auf eine neue Zeit verschieben",
+      "title_cz": "Přeložení hovoru na nový čas",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Guten Tag, es tut mir leid, es ist etwas dazwischengekommen und ich muss unseren Anruf umplanen.",
+          "text_cz": "Dobrý den, omlouvám se, něco mi vyskočilo a potřebuji náš hovor přeložit."
+        },
+        {
+          "speaker": "B",
+          "text": "Das ist überhaupt kein Problem. Suchen wir einen anderen Termin.",
+          "text_cz": "To vůbec není problém. Najděme jiný čas."
+        },
+        {
+          "speaker": "A",
+          "text": "Wäre es möglich, unseren Anruf auf morgen früh zu verschieben?",
+          "text_cz": "Bylo by možné přesunout náš hovor na zítřejší ráno?"
+        },
+        {
+          "speaker": "B",
+          "text": "Wie wäre es stattdessen mit Freitag? Ich habe morgen einen vollen Tag.",
+          "text_cz": "Co takhle místo toho pátek? Zítra mám plný den."
+        },
+        {
+          "speaker": "A",
+          "text": "Freitag passt. Ich aktualisiere die Einladung mit der neuen Uhrzeit.",
+          "text_cz": "Pátek mi vyhovuje. Aktualizuji pozvánku s novým časem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Es ist etwas dazwischengekommen und ich muss umplanen.",
+      "options": [
+        "Něco mi vyskočilo a potřebuji hovor přeložit.",
+        "To vůbec není problém.",
+        "Najděme jiný čas."
+      ],
+      "correct": "Něco mi vyskočilo a potřebuji hovor přeložit."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wäre es möglich, unseren Anruf auf morgen zu ___?",
+      "answer": "verschieben",
+      "hint_cz": "přesunout"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "ich entschuldige mich für die Unannehmlichkeiten", "cz": "omlouvám se za nepříjemnosti" },
+        { "target": "können wir es um eine Stunde nach hinten schieben?", "cz": "můžeme to posunout o hodinu?" },
+        { "target": "suchen wir einen anderen Termin", "cz": "najděme jiný čas" },
+        { "target": "ich aktualisiere die Einladung", "cz": "aktualizuji pozvánku" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das ist überhaupt kein Problem, keine Sorge.",
+      "tts_text": "Das ist überhaupt kein Problem, keine Sorge."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wie wäre es ___ mit Freitag, zur gleichen Zeit?",
+      "answer": "stattdessen",
+      "hint_cz": "místo toho"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich aktualisiere die Einladung mit der neuen Uhrzeit.",
+      "tts_text": "Ich aktualisiere die Einladung mit der neuen Uhrzeit."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_town_places_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The cinema",
+  "title_cz": "Kino",
+  "vocabulary": [
+    {
+      "word": "cinema",
+      "translation_cz": "kino",
+      "example": "We go to the cinema on Friday.",
+      "example_cz": "Jdeme v pátek do kina.",
+      "tts_text": "We go to the cinema on Friday."
+    },
+    {
+      "word": "movie",
+      "translation_cz": "film",
+      "example": "We watch a funny movie.",
+      "example_cz": "Díváme se na vtipný film.",
+      "tts_text": "We watch a funny movie."
+    },
+    {
+      "word": "popcorn",
+      "translation_cz": "popcorn",
+      "example": "I always eat popcorn at the cinema.",
+      "example_cz": "V kině vždy jím popcorn.",
+      "tts_text": "I always eat popcorn at the cinema."
+    },
+    {
+      "word": "screen",
+      "translation_cz": "plátno",
+      "example": "The picture is big on the screen.",
+      "example_cz": "Obraz je na plátně velký.",
+      "tts_text": "The picture is big on the screen."
+    },
+    {
+      "word": "ticket",
+      "translation_cz": "lístek do kina",
+      "example": "Dad buys the tickets.",
+      "example_cz": "Táta kupuje lístky do kina.",
+      "tts_text": "Dad buys the tickets."
+    },
+    {
+      "word": "quiet",
+      "translation_cz": "tiše",
+      "example": "We are quiet during the movie.",
+      "example_cz": "Během filmu jsme tiše.",
+      "tts_text": "We are quiet during the movie."
+    },
+    {
+      "word": "seat",
+      "translation_cz": "sedadlo v kině",
+      "example": "My seat is very comfortable.",
+      "example_cz": "Moje sedadlo je moc pohodlné.",
+      "tts_text": "My seat is very comfortable."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "cinema",
+      "options": [
+        "kino",
+        "park",
+        "škola"
+      ],
+      "correct": "kino"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We watch a funny ___.",
+      "answer": "movie",
+      "hint_cz": "film"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "movie",
+          "cz": "film"
+        },
+        {
+          "target": "popcorn",
+          "cz": "popcorn"
+        },
+        {
+          "target": "screen",
+          "cz": "plátno"
+        },
+        {
+          "target": "ticket",
+          "cz": "lístek do kina"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I always eat popcorn at the cinema.",
+      "tts_text": "I always eat popcorn at the cinema."
+    }
+  ]
+}

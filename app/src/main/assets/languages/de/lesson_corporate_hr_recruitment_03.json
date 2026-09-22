@@ -1,0 +1,48 @@
+{
+  "id": "de_corporate_hr_recruitment_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über Gehaltsvorstellungen sprechen",
+  "title_cz": "Rozhovor o platových požadavcích",
+  "vocabulary": [
+    {"word": "das Gehalt", "translation_cz": "plat", "example": "Welches Gehalt stellen Sie sich vor?", "example_cz": "Jaký plat si představujete?", "tts_text": "Welches Gehalt stellen Sie sich vor?"},
+    {"word": "die Gehaltsspanne", "translation_cz": "platové rozpětí", "example": "Die Gehaltsspanne für diese Stelle ist recht breit.", "example_cz": "Platové rozpětí pro tuto pozici je poměrně široké.", "tts_text": "Die Gehaltsspanne für diese Stelle ist recht breit."},
+    {"word": "verhandeln", "translation_cz": "vyjednávat", "example": "Können wir über das Einstiegsgehalt verhandeln?", "example_cz": "Můžeme vyjednávat o nástupním platu?", "tts_text": "Können wir über das Einstiegsgehalt verhandeln?"},
+    {"word": "das Bruttogehalt", "translation_cz": "hrubá mzda", "example": "Das Bruttogehalt steht im Vertrag.", "example_cz": "Hrubá mzda je uvedena ve smlouvě.", "tts_text": "Das Bruttogehalt steht im Vertrag."},
+    {"word": "die Prämie", "translation_cz": "prémie / bonus", "example": "Es gibt eine jährliche Leistungsprämie.", "example_cz": "Existuje roční výkonnostní bonus.", "tts_text": "Es gibt eine jährliche Leistungsprämie."},
+    {"word": "das Leistungspaket", "translation_cz": "balíček benefitů", "example": "Das Leistungspaket beinhaltet eine Krankenversicherung.", "example_cz": "Balíček benefitů zahrnuje zdravotní pojištění.", "tts_text": "Das Leistungspaket beinhaltet eine Krankenversicherung."},
+    {"word": "das aktuelle Gehalt", "translation_cz": "současný plat", "example": "Darf ich nach Ihrem aktuellen Gehalt fragen?", "example_cz": "Mohu se zeptat na váš současný plat?", "tts_text": "Darf ich nach Ihrem aktuellen Gehalt fragen?"},
+    {"word": "die Vorstellungen", "translation_cz": "očekávání", "example": "Bitte teilen Sie uns Ihre Gehaltsvorstellungen mit.", "example_cz": "Sdělte nám prosím vaše platové očekávání.", "tts_text": "Bitte teilen Sie uns Ihre Gehaltsvorstellungen mit."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_salary_question",
+      "title": "Nach Gehaltsvorstellungen fragen",
+      "title_cz": "Dotaz na platové očekávání",
+      "lines": [
+        {"speaker": "A", "text": "Welche Gehaltsvorstellungen haben Sie für diese Position?", "text_cz": "Jaké jsou vaše platové očekávání pro tuto pozici?"},
+        {"speaker": "B", "text": "Ich stelle mir etwas zwischen vierzig- und fünfundvierzigtausend im Jahr vor.", "text_cz": "Představuji si něco mezi čtyřiceti a čtyřiceti pěti tisíci ročně."},
+        {"speaker": "A", "text": "Das liegt in unserem Budget. Sind Sie da flexibel?", "text_cz": "To je v rámci našeho rozpočtu. Jste v tomto flexibilní?"},
+        {"speaker": "B", "text": "Ja, abhängig vom gesamten Leistungspaket.", "text_cz": "Ano, v závislosti na celkovém balíčku benefitů."}
+      ]
+    },
+    {
+      "id": "conv_negotiate_offer",
+      "title": "Über ein Angebot verhandeln",
+      "title_cz": "Vyjednávání o nabídce",
+      "lines": [
+        {"speaker": "A", "text": "Wir möchten Ihnen die Stelle mit einem Bruttogehalt von achtunddreißigtausend anbieten.", "text_cz": "Rádi bychom vám nabídli pozici s hrubou mzdou třicet osm tisíc."},
+        {"speaker": "B", "text": "Vielen Dank. Gibt es Spielraum, um darüber zu verhandeln?", "text_cz": "Děkuji mnohokrát. Je prostor o této částce ještě vyjednávat?"},
+        {"speaker": "A", "text": "Wir können eine kleine Erhöhung sowie eine jährliche Prämie in Betracht ziehen.", "text_cz": "Můžeme zvážit mírné navýšení a roční bonus."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "verhandeln", "options": ["vyjednávat", "plat", "bonus"], "correct": "vyjednávat"},
+    {"type": "fill_gap", "sentence": "Bitte teilen Sie uns Ihre Gehalts___ mit.", "answer": "vorstellungen", "hint_cz": "očekávání"},
+    {"type": "match_pairs", "pairs": [{"target": "das Gehalt", "cz": "plat"}, {"target": "die Prämie", "cz": "bonus"}, {"target": "das Leistungspaket", "cz": "balíček benefitů"}, {"target": "das Bruttogehalt", "cz": "hrubá mzda"}]},
+    {"type": "speak_and_check", "target_phrase": "Können wir über das Einstiegsgehalt verhandeln?", "tts_text": "Können wir über das Einstiegsgehalt verhandeln?"},
+    {"type": "fill_gap", "sentence": "Die ___ für diese Stelle ist recht breit.", "answer": "Gehaltsspanne", "hint_cz": "platové rozpětí"}
+  ]
+}

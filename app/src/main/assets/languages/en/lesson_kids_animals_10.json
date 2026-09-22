@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_animals_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Endangered Animals",
+  "title_cz": "Ohrožená zvířata",
+  "vocabulary": [
+    {
+      "word": "endangered",
+      "translation_cz": "ohrožený",
+      "example": "The panda is an endangered animal.",
+      "example_cz": "Panda je ohrožené zvíře.",
+      "tts_text": "The panda is an endangered animal."
+    },
+    {
+      "word": "protect",
+      "translation_cz": "chránit",
+      "example": "We must protect wild animals.",
+      "example_cz": "Musíme chránit divoká zvířata.",
+      "tts_text": "We must protect wild animals."
+    },
+    {
+      "word": "forest",
+      "translation_cz": "les",
+      "example": "Many animals live in the forest.",
+      "example_cz": "Mnoho zvířat žije v lese.",
+      "tts_text": "Many animals live in the forest."
+    },
+    {
+      "word": "tiger",
+      "translation_cz": "tygr",
+      "example": "Tigers are becoming rare.",
+      "example_cz": "Tygři jsou stále vzácnější.",
+      "tts_text": "Tigers are becoming rare."
+    },
+    {
+      "word": "rhino",
+      "translation_cz": "nosorožec",
+      "example": "The rhino has a big horn.",
+      "example_cz": "Nosorožec má velký roh.",
+      "tts_text": "The rhino has a big horn."
+    },
+    {
+      "word": "nature",
+      "translation_cz": "příroda",
+      "example": "We must take care of nature.",
+      "example_cz": "Musíme se starat o přírodu.",
+      "tts_text": "We must take care of nature."
+    },
+    {
+      "word": "save",
+      "translation_cz": "zachránit",
+      "example": "Let's save the animals together.",
+      "example_cz": "Zachraňme zvířata společně.",
+      "tts_text": "Let's save the animals together."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "rhino",
+      "options": [
+        "nosorožec",
+        "les",
+        "příroda"
+      ],
+      "correct": "nosorožec"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We must ___ wild animals.",
+      "answer": "protect",
+      "hint_cz": "chránit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "forest",
+          "cz": "les"
+        },
+        {
+          "target": "tiger",
+          "cz": "tygr"
+        },
+        {
+          "target": "nature",
+          "cz": "příroda"
+        },
+        {
+          "target": "save",
+          "cz": "zachránit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We must protect wild animals.",
+      "tts_text": "We must protect wild animals."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_negotiation_sales_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Negotiating Terms",
+  "title_cz": "Vyjednávání podmínek",
+  "vocabulary": [
+    {
+      "word": "terms and conditions",
+      "translation_cz": "obchodní podmínky",
+      "example": "Please review the terms and conditions carefully.",
+      "example_cz": "Pečlivě si prosím prostudujte obchodní podmínky.",
+      "tts_text": "Please review the terms and conditions carefully."
+    },
+    {
+      "word": "delivery time",
+      "translation_cz": "dodací lhůta",
+      "example": "Can you shorten the delivery time?",
+      "example_cz": "Můžete zkrátit dodací lhůtu?",
+      "tts_text": "Can you shorten the delivery time?"
+    },
+    {
+      "word": "flexibility",
+      "translation_cz": "flexibilita",
+      "example": "We can offer some flexibility on the contract length.",
+      "example_cz": "Můžeme nabídnout jistou flexibilitu ohledně délky smlouvy.",
+      "tts_text": "We can offer some flexibility on the contract length."
+    },
+    {
+      "word": "counteroffer",
+      "translation_cz": "protinávrh",
+      "example": "We received a counteroffer from the client.",
+      "example_cz": "Obdrželi jsme protinávrh od klienta.",
+      "tts_text": "We received a counteroffer from the client."
+    },
+    {
+      "word": "compromise",
+      "translation_cz": "kompromis",
+      "example": "Both sides need to find a compromise.",
+      "example_cz": "Obě strany musí najít kompromis.",
+      "tts_text": "Both sides need to find a compromise."
+    },
+    {
+      "word": "exclusive rights",
+      "translation_cz": "výhradní práva",
+      "example": "We are asking for exclusive rights in this region.",
+      "example_cz": "Žádáme o výhradní práva v tomto regionu.",
+      "tts_text": "We are asking for exclusive rights in this region."
+    },
+    {
+      "word": "renewal clause",
+      "translation_cz": "doložka o obnovení",
+      "example": "The renewal clause is automatic unless cancelled.",
+      "example_cz": "Doložka o obnovení je automatická, pokud nedojde ke zrušení.",
+      "tts_text": "The renewal clause is automatic unless cancelled."
+    },
+    {
+      "word": "mutually beneficial",
+      "translation_cz": "vzájemně výhodný",
+      "example": "We are looking for a mutually beneficial agreement.",
+      "example_cz": "Hledáme vzájemně výhodnou dohodu.",
+      "tts_text": "We are looking for a mutually beneficial agreement."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_negotiate_terms",
+      "title": "Negotiating delivery terms",
+      "title_cz": "Vyjednávání dodacích podmínek",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Can you shorten the delivery time in the contract?",
+          "text_cz": "Můžete ve smlouvě zkrátit dodací lhůtu?"
+        },
+        {
+          "speaker": "B",
+          "text": "We can offer some flexibility, but not without a counteroffer on price.",
+          "text_cz": "Můžeme nabídnout jistou flexibilitu, ale ne bez protinávrhu na cenu."
+        },
+        {
+          "speaker": "A",
+          "text": "Let's find a compromise that works for both sides.",
+          "text_cz": "Najděme kompromis, který bude fungovat pro obě strany."
+        },
+        {
+          "speaker": "B",
+          "text": "Agreed, we want a mutually beneficial agreement too.",
+          "text_cz": "Souhlasím, chceme také vzájemně výhodnou dohodu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "terms and conditions",
+      "options": [
+        "obchodní podmínky",
+        "flexibilita",
+        "protinávrh"
+      ],
+      "correct": "obchodní podmínky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can you shorten the ___?",
+      "answer": "delivery time",
+      "hint_cz": "dodací lhůta"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Both sides need to find a ___.",
+      "answer": "compromise",
+      "hint_cz": "kompromis"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "exclusive rights",
+          "cz": "výhradní práva"
+        },
+        {
+          "target": "renewal clause",
+          "cz": "doložka o obnovení"
+        },
+        {
+          "target": "mutually beneficial",
+          "cz": "vzájemně výhodný"
+        },
+        {
+          "target": "flexibility",
+          "cz": "flexibilita"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Can you shorten the delivery time in the contract?",
+      "tts_text": "Can you shorten the delivery time in the contract?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We can offer some flexibility, but not without a counteroffer on price.",
+      "tts_text": "We can offer some flexibility, but not without a counteroffer on price."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_numbers_colors_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Simple Addition in Conversation",
+  "title_cz": "Jednoduché sčítání v rozhovoru",
+  "vocabulary": [
+    {
+      "word": "plus",
+      "translation_cz": "plus",
+      "example": "Two plus two is four.",
+      "example_cz": "Dva plus dva jsou čtyři.",
+      "tts_text": "Two plus two is four."
+    },
+    {
+      "word": "equals",
+      "translation_cz": "rovná se",
+      "example": "Three plus one equals four.",
+      "example_cz": "Tři plus jedna se rovná čtyřem.",
+      "tts_text": "Three plus one equals four."
+    },
+    {
+      "word": "add",
+      "translation_cz": "přičíst",
+      "example": "Let's add these numbers.",
+      "example_cz": "Pojďme sečíst tato čísla.",
+      "tts_text": "Let's add these numbers."
+    },
+    {
+      "word": "total",
+      "translation_cz": "součet",
+      "example": "What is the total?",
+      "example_cz": "Jaký je součet?",
+      "tts_text": "What is the total?"
+    },
+    {
+      "word": "number",
+      "translation_cz": "číslo",
+      "example": "Pick a number from one to ten.",
+      "example_cz": "Vyber si číslo od jedné do deseti.",
+      "tts_text": "Pick a number from one to ten."
+    },
+    {
+      "word": "together",
+      "translation_cz": "dohromady",
+      "example": "We have five apples together.",
+      "example_cz": "Máme dohromady pět jablek.",
+      "tts_text": "We have five apples together."
+    },
+    {
+      "word": "result",
+      "translation_cz": "výsledek",
+      "example": "The result is six.",
+      "example_cz": "Výsledek je šest.",
+      "tts_text": "The result is six."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "total",
+      "options": [
+        "součet",
+        "číslo",
+        "výsledek"
+      ],
+      "correct": "součet"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Three plus one ___ four.",
+      "answer": "equals",
+      "hint_cz": "rovná se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "plus",
+          "cz": "plus"
+        },
+        {
+          "target": "add",
+          "cz": "přičíst"
+        },
+        {
+          "target": "number",
+          "cz": "číslo"
+        },
+        {
+          "target": "together",
+          "cz": "dohromady"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The result is six.",
+      "tts_text": "The result is six."
+    }
+  ]
+}

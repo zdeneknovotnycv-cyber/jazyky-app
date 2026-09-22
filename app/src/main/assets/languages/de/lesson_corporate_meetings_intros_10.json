@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_meetings_intros_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Wiederkehrende Teammeetings",
+  "title_cz": "Pravidelné týmové schůzky",
+  "vocabulary": [
+    {
+      "word": "das wöchentliche Meeting",
+      "translation_cz": "týdenní schůzka",
+      "example": "Wir haben jeden Montag ein wöchentliches Meeting.",
+      "example_cz": "Máme týdenní schůzku každé pondělí.",
+      "tts_text": "Wir haben jeden Montag ein wöchentliches Meeting."
+    },
+    {
+      "word": "der Statusbericht",
+      "translation_cz": "aktuální stav",
+      "example": "Beginnen wir mit einem kurzen Statusbericht.",
+      "example_cz": "Začněme rychlým shrnutím aktuálního stavu."
+    },
+    {
+      "word": "das feste Meeting",
+      "translation_cz": "pravidelná schůzka",
+      "example": "Dies ist ein festes Meeting für das ganze Team.",
+      "example_cz": "Toto je pravidelná schůzka pro celý tým.",
+      "tts_text": "Dies ist ein festes Meeting für das ganze Team."
+    },
+    {
+      "word": "die Update-Runde",
+      "translation_cz": "kolečko aktualit",
+      "example": "Machen wir eine kurze Update-Runde.",
+      "example_cz": "Uděláme rychlé kolečko aktualit."
+    },
+    {
+      "word": "das Hindernis",
+      "translation_cz": "překážka",
+      "example": "Hat diese Woche jemand ein Hindernis?",
+      "example_cz": "Má někdo tento týden nějakou překážku?",
+      "tts_text": "Hat diese Woche jemand ein Hindernis?"
+    },
+    {
+      "word": "regelmäßig",
+      "translation_cz": "pravidelný / konzistentní",
+      "example": "Es ist gut, regelmäßige Meetings zu haben.",
+      "example_cz": "Je dobré mít pravidelné schůzky.",
+      "tts_text": "Es ist gut, regelmäßige Meetings zu haben."
+    },
+    {
+      "word": "ein Meeting ausfallen lassen",
+      "translation_cz": "vynechat schůzku",
+      "example": "Können wir diese Woche ein Meeting ausfallen lassen?",
+      "example_cz": "Můžeme tento týden vynechat schůzku?",
+      "tts_text": "Können wir diese Woche ein Meeting ausfallen lassen?"
+    },
+    {
+      "word": "nächste Woche zur gleichen Zeit",
+      "translation_cz": "ve stejný čas příští týden",
+      "example": "Bis nächste Woche zur gleichen Zeit.",
+      "example_cz": "Uvidíme se ve stejný čas příští týden.",
+      "tts_text": "Bis nächste Woche zur gleichen Zeit."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_recurring",
+      "title": "Wöchentliches Team-Statusmeeting",
+      "title_cz": "Týdenní schůzka týmu ke stavu projektu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Willkommen zu unserem wöchentlichen Meeting. Machen wir eine kurze Update-Runde.",
+          "text_cz": "Vítejte na naší týdenní schůzce. Uděláme rychlé kolečko aktualit."
+        },
+        {
+          "speaker": "B",
+          "text": "Von meiner Seite ist alles im Plan, keine Hindernisse.",
+          "text_cz": "Z mé strany je vše v pořádku, žádné překážky."
+        },
+        {
+          "speaker": "A",
+          "text": "Sehr gut. Es ist gut, dieses feste Meeting jeden Montag regelmäßig zu halten.",
+          "text_cz": "Skvělé. Je dobré udržovat tuto pravidelnou schůzku každé pondělí."
+        },
+        {
+          "speaker": "B",
+          "text": "Einverstanden. Bis nächste Woche zur gleichen Zeit.",
+          "text_cz": "Souhlasím. Uvidíme se ve stejný čas příští týden."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Hindernis",
+      "options": [
+        "překážka",
+        "stav",
+        "kolečko"
+      ],
+      "correct": "překážka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Hat diese Woche jemand ein ___?",
+      "answer": "Hindernis",
+      "hint_cz": "překážka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das wöchentliche Meeting",
+          "cz": "týdenní schůzka"
+        },
+        {
+          "target": "der Statusbericht",
+          "cz": "aktuální stav"
+        },
+        {
+          "target": "regelmäßig",
+          "cz": "pravidelný"
+        },
+        {
+          "target": "ein Meeting ausfallen lassen",
+          "cz": "vynechat schůzku"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bis nächste Woche zur gleichen Zeit.",
+      "tts_text": "Bis nächste Woche zur gleichen Zeit."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Machen wir eine kurze ___-Runde.",
+      "answer": "Update",
+      "hint_cz": "aktualit"
+    }
+  ]
+}

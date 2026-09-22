@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_smalltalk_networking_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einem Kollegen gratulieren",
+  "title_cz": "Gratulace kolegovi",
+  "vocabulary": [
+    {
+      "word": "Herzlichen Glückwunsch!",
+      "translation_cz": "Gratuluji!",
+      "example": "Herzlichen Glückwunsch zu deiner Beförderung!",
+      "example_cz": "Gratuluji k tvému povýšení!",
+      "tts_text": "Herzlichen Glückwunsch zu deiner Beförderung!"
+    },
+    {
+      "word": "wohlverdient",
+      "translation_cz": "zasloužené",
+      "example": "Das ist wohlverdient.",
+      "example_cz": "To je zasloužené.",
+      "tts_text": "Das ist wohlverdient."
+    },
+    {
+      "word": "die Beförderung",
+      "translation_cz": "povýšení",
+      "example": "Ich habe von deiner Beförderung gehört.",
+      "example_cz": "Slyšel jsem o tvém povýšení.",
+      "tts_text": "Ich habe von deiner Beförderung gehört."
+    },
+    {
+      "word": "stolz auf dich",
+      "translation_cz": "hrdý na tebe",
+      "example": "Wir sind alle stolz auf dich.",
+      "example_cz": "Všichni jsme na tebe hrdí.",
+      "tts_text": "Wir sind alle stolz auf dich."
+    },
+    {
+      "word": "harte Arbeit hat sich ausgezahlt",
+      "translation_cz": "tvrdá práce se vyplatila",
+      "example": "Deine harte Arbeit hat sich wirklich ausgezahlt.",
+      "example_cz": "Tvoje tvrdá práce se opravdu vyplatila.",
+      "tts_text": "Deine harte Arbeit hat sich wirklich ausgezahlt."
+    },
+    {
+      "word": "feiern",
+      "translation_cz": "oslavit",
+      "example": "Das sollten wir zusammen feiern.",
+      "example_cz": "Měli bychom to společně oslavit.",
+      "tts_text": "Das sollten wir zusammen feiern."
+    },
+    {
+      "word": "die Leistung",
+      "translation_cz": "úspěch",
+      "example": "Das ist eine großartige Leistung.",
+      "example_cz": "To je skvělý úspěch.",
+      "tts_text": "Das ist eine großartige Leistung."
+    },
+    {
+      "word": "Danke für die netten Worte",
+      "translation_cz": "Děkuji za milá slova",
+      "example": "Danke für die netten Worte.",
+      "example_cz": "Děkuji za milá slova.",
+      "tts_text": "Danke für die netten Worte."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_glueckwunsch",
+      "title": "Einem Kollegen zur Beförderung gratulieren",
+      "title_cz": "Gratulace kolegovi k povýšení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Herzlichen Glückwunsch zu deiner Beförderung!",
+          "text_cz": "Gratuluji k tvému povýšení!"
+        },
+        {
+          "speaker": "B",
+          "text": "Vielen Dank!",
+          "text_cz": "Moc děkuji!"
+        },
+        {
+          "speaker": "A",
+          "text": "Das ist wohlverdient. Deine harte Arbeit hat sich wirklich ausgezahlt.",
+          "text_cz": "Je to zasloužené. Tvoje tvrdá práce se opravdu vyplatila."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke für die netten Worte. Das sollten wir zusammen feiern.",
+          "text_cz": "Děkuji za milá slova. Měli bychom to společně oslavit."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Beförderung",
+      "options": [
+        "povýšení",
+        "úspěch",
+        "oslavit"
+      ],
+      "correct": "povýšení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das ist wohl___.",
+      "answer": "verdient",
+      "hint_cz": "zasloužené"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir sind alle ___ auf dich.",
+      "answer": "stolz",
+      "hint_cz": "hrdí"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Leistung",
+          "cz": "úspěch"
+        },
+        {
+          "target": "feiern",
+          "cz": "oslavit"
+        },
+        {
+          "target": "harte Arbeit hat sich ausgezahlt",
+          "cz": "tvrdá práce se vyplatila"
+        },
+        {
+          "target": "die Beförderung",
+          "cz": "povýšení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Herzlichen Glückwunsch zu deiner Beförderung!",
+      "tts_text": "Herzlichen Glückwunsch zu deiner Beförderung!"
+    }
+  ]
+}

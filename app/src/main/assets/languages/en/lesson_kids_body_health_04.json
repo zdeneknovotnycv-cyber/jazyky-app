@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_body_health_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "At the Doctor",
+  "title_cz": "U doktora",
+  "vocabulary": [
+    {
+      "word": "doctor",
+      "translation_cz": "doktor",
+      "example": "The doctor checks my ears.",
+      "example_cz": "Doktor mi kontroluje uši.",
+      "tts_text": "The doctor checks my ears."
+    },
+    {
+      "word": "nurse",
+      "translation_cz": "zdravotní sestra",
+      "example": "The nurse is kind.",
+      "example_cz": "Zdravotní sestra je milá.",
+      "tts_text": "The nurse is kind."
+    },
+    {
+      "word": "appointment",
+      "translation_cz": "termín (u lékaře)",
+      "example": "We have an appointment at three.",
+      "example_cz": "Máme termín ve tři hodiny.",
+      "tts_text": "We have an appointment at three."
+    },
+    {
+      "word": "medicine",
+      "translation_cz": "lék",
+      "example": "I take medicine every morning.",
+      "example_cz": "Beru lék každé ráno.",
+      "tts_text": "I take medicine every morning."
+    },
+    {
+      "word": "temperature",
+      "translation_cz": "teplota",
+      "example": "The doctor checks my temperature.",
+      "example_cz": "Doktor mi měří teplotu.",
+      "tts_text": "The doctor checks my temperature."
+    },
+    {
+      "word": "healthy",
+      "translation_cz": "zdravý",
+      "example": "Now I feel healthy.",
+      "example_cz": "Teď se cítím zdravý.",
+      "tts_text": "Now I feel healthy."
+    },
+    {
+      "word": "waiting room",
+      "translation_cz": "čekárna",
+      "example": "We wait in the waiting room.",
+      "example_cz": "Čekáme v čekárně.",
+      "tts_text": "We wait in the waiting room."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "doctor",
+      "options": [
+        "doktor",
+        "kuchař",
+        "soused"
+      ],
+      "correct": "doktor"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I take ___ every morning.",
+      "answer": "medicine",
+      "hint_cz": "lék"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "nurse",
+          "cz": "zdravotní sestra"
+        },
+        {
+          "target": "appointment",
+          "cz": "termín (u lékaře)"
+        },
+        {
+          "target": "temperature",
+          "cz": "teplota"
+        },
+        {
+          "target": "waiting room",
+          "cz": "čekárna"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The doctor checks my ears.",
+      "tts_text": "The doctor checks my ears."
+    }
+  ]
+}

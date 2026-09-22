@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_body_health_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Sleep and Bedtime",
+  "title_cz": "Spánek a večerka",
+  "vocabulary": [
+    {
+      "word": "schlafen",
+      "translation_cz": "spát",
+      "example": "Ich schlafe acht Stunden.",
+      "example_cz": "Spím osm hodin.",
+      "tts_text": "Ich schlafe acht Stunden."
+    },
+    {
+      "word": "das Bett",
+      "translation_cz": "postel",
+      "example": "Ich gehe in mein Bett.",
+      "example_cz": "Jdu do své postele.",
+      "tts_text": "Ich gehe in mein Bett."
+    },
+    {
+      "word": "der Schlafanzug",
+      "translation_cz": "pyžamo",
+      "example": "Ich ziehe meinen Schlafanzug an.",
+      "example_cz": "Oblékám si pyžamo.",
+      "tts_text": "Ich ziehe meinen Schlafanzug an."
+    },
+    {
+      "word": "gute Nacht",
+      "translation_cz": "dobrou noc",
+      "example": "Mama sagt gute Nacht.",
+      "example_cz": "Maminka říká dobrou noc.",
+      "tts_text": "Mama sagt gute Nacht."
+    },
+    {
+      "word": "der Traum",
+      "translation_cz": "sen",
+      "example": "Ich hatte einen schönen Traum.",
+      "example_cz": "Měl jsem pěkný sen.",
+      "tts_text": "Ich hatte einen schönen Traum."
+    },
+    {
+      "word": "der Teddybär",
+      "translation_cz": "medvídek",
+      "example": "Ich schlafe mit meinem Teddybären.",
+      "example_cz": "Spím se svým medvídkem.",
+      "tts_text": "Ich schlafe mit meinem Teddybären."
+    },
+    {
+      "word": "die Gutenachtgeschichte",
+      "translation_cz": "pohádka na dobrou noc",
+      "example": "Papa liest eine Gutenachtgeschichte.",
+      "example_cz": "Tatínek čte pohádku na dobrou noc.",
+      "tts_text": "Papa liest eine Gutenachtgeschichte."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "schlafen",
+      "options": [
+        "spát",
+        "jíst",
+        "hrát"
+      ],
+      "correct": "spát"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ziehe meinen ___ an.",
+      "answer": "Schlafanzug",
+      "hint_cz": "pyžamo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Bett",
+          "cz": "postel"
+        },
+        {
+          "target": "der Traum",
+          "cz": "sen"
+        },
+        {
+          "target": "der Teddybär",
+          "cz": "medvídek"
+        },
+        {
+          "target": "die Gutenachtgeschichte",
+          "cz": "pohádka na dobrou noc"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich schlafe acht Stunden.",
+      "tts_text": "Ich schlafe acht Stunden."
+    }
+  ]
+}

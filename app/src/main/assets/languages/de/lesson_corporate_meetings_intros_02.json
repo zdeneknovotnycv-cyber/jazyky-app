@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_meetings_intros_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Kollegen vorstellen",
+  "title_cz": "Představení kolegy",
+  "vocabulary": [
+    {
+      "word": "das ist",
+      "translation_cz": "toto je",
+      "example": "Das ist mein Kollege, Mark.",
+      "example_cz": "Toto je můj kolega Mark.",
+      "tts_text": "Das ist mein Kollege, Mark."
+    },
+    {
+      "word": "der Experte",
+      "translation_cz": "odborník",
+      "example": "Er ist unser Experte für Datenanalyse.",
+      "example_cz": "Je náš odborník na analýzu dat.",
+      "tts_text": "Er ist unser Experte für Datenanalyse."
+    },
+    {
+      "word": "eng zusammenarbeiten",
+      "translation_cz": "úzce spolupracovat",
+      "example": "Ich arbeite eng mit Mark an diesem Projekt zusammen.",
+      "example_cz": "S Markem na tomto projektu úzce spolupracuji.",
+      "tts_text": "Ich arbeite eng mit Mark an diesem Projekt zusammen."
+    },
+    {
+      "word": "verantwortlich für",
+      "translation_cz": "mít na starosti",
+      "example": "Sie ist verantwortlich für das Logistikteam.",
+      "example_cz": "Má na starosti tým logistiky.",
+      "tts_text": "Sie ist verantwortlich für das Logistikteam."
+    },
+    {
+      "word": "kürzlich beigetreten",
+      "translation_cz": "nedávno nastoupil",
+      "example": "Er ist kürzlich unserem Unternehmen beigetreten.",
+      "example_cz": "Nedávno nastoupil do naší firmy.",
+      "tts_text": "Er ist kürzlich unserem Unternehmen beigetreten."
+    },
+    {
+      "word": "sich spezialisieren auf",
+      "translation_cz": "specializovat se na",
+      "example": "Sie spezialisiert sich auf Kundenbeziehungen.",
+      "example_cz": "Specializuje se na vztahy se zákazníky.",
+      "tts_text": "Sie spezialisiert sich auf Kundenbeziehungen."
+    },
+    {
+      "word": "der Teamleiter",
+      "translation_cz": "vedoucí týmu",
+      "example": "Er ist der Teamleiter für die Entwicklung.",
+      "example_cz": "Je vedoucí vývojářského týmu.",
+      "tts_text": "Er ist der Teamleiter für die Entwicklung."
+    },
+    {
+      "word": "gerne fragen",
+      "translation_cz": "neváhejte se zeptat",
+      "example": "Sie können ihr gerne Fragen stellen.",
+      "example_cz": "Neváhejte se jí na cokoliv zeptat.",
+      "tts_text": "Sie können ihr gerne Fragen stellen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_intro_colleague",
+      "title": "Einen Kollegen einem Kunden vorstellen",
+      "title_cz": "Představení kolegy klientovi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Das ist mein Kollege, Peter. Er ist unser Experte für Datenanalyse.",
+          "text_cz": "Toto je můj kolega Petr. Je náš odborník na analýzu dat."
+        },
+        {
+          "speaker": "B",
+          "text": "Sehr erfreut, Peter. Woran arbeiten Sie genau?",
+          "text_cz": "Těší mě, Petře. Na čem přesně pracujete?"
+        },
+        {
+          "speaker": "C",
+          "text": "Ich arbeite eng mit dem Vertriebsteam zusammen und bin für das Reporting verantwortlich.",
+          "text_cz": "Úzce spolupracuji s obchodním týmem a mám na starosti reporting."
+        },
+        {
+          "speaker": "B",
+          "text": "Sehr gut, ich melde mich gerne bei Fragen.",
+          "text_cz": "Skvělé, klidně se ozvu, pokud budu mít otázky."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Experte",
+      "options": [
+        "odborník",
+        "kolega",
+        "vedoucí"
+      ],
+      "correct": "odborník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Sie ist ___ für das Logistikteam verantwortlich.",
+      "answer": "verantwortlich",
+      "hint_cz": "má na starosti"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das ist",
+          "cz": "toto je"
+        },
+        {
+          "target": "sich spezialisieren auf",
+          "cz": "specializovat se na"
+        },
+        {
+          "target": "der Teamleiter",
+          "cz": "vedoucí týmu"
+        },
+        {
+          "target": "kürzlich beigetreten",
+          "cz": "nedávno nastoupil"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sie können ihr gerne Fragen stellen.",
+      "tts_text": "Sie können ihr gerne Fragen stellen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ eng mit Mark an diesem Projekt zusammen.",
+      "answer": "arbeite",
+      "hint_cz": "spolupracuji"
+    }
+  ]
+}

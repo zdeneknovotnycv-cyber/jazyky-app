@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_performance_feedback_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Setting goals with a manager",
+  "title_cz": "Stanovování cílů s manažerem",
+  "vocabulary": [
+    {
+      "word": "set goals",
+      "translation_cz": "stanovit cíle",
+      "example": "Let's set goals for the next quarter.",
+      "example_cz": "Pojďme stanovit cíle na příští čtvrtletí.",
+      "tts_text": "Let's set goals for the next quarter."
+    },
+    {
+      "word": "measurable target",
+      "translation_cz": "měřitelný cíl",
+      "example": "We need a measurable target for this project.",
+      "example_cz": "Potřebujeme pro tento projekt měřitelný cíl.",
+      "tts_text": "We need a measurable target for this project."
+    },
+    {
+      "word": "by the end of the quarter",
+      "translation_cz": "do konce čtvrtletí",
+      "example": "Finish the training by the end of the quarter.",
+      "example_cz": "Dokonči školení do konce čtvrtletí.",
+      "tts_text": "Finish the training by the end of the quarter."
+    },
+    {
+      "word": "realistic",
+      "translation_cz": "reálný",
+      "example": "Is this deadline realistic for the team?",
+      "example_cz": "Je tento termín pro tým reálný?",
+      "tts_text": "Is this deadline realistic for the team?"
+    },
+    {
+      "word": "priority",
+      "translation_cz": "priorita",
+      "example": "What should be our top priority this month?",
+      "example_cz": "Co by měla být naše hlavní priorita tento měsíc?",
+      "tts_text": "What should be our top priority this month?"
+    },
+    {
+      "word": "progress check-in",
+      "translation_cz": "kontrola postupu",
+      "example": "We'll have a progress check-in every two weeks.",
+      "example_cz": "Kontrolu postupu budeme mít každé dva týdny.",
+      "tts_text": "We'll have a progress check-in every two weeks."
+    },
+    {
+      "word": "action plan",
+      "translation_cz": "akční plán",
+      "example": "Let's write a clear action plan.",
+      "example_cz": "Pojďme napsat jasný akční plán.",
+      "tts_text": "Let's write a clear action plan."
+    },
+    {
+      "word": "align on",
+      "translation_cz": "shodnout se na",
+      "example": "We need to align on the main objectives.",
+      "example_cz": "Musíme se shodnout na hlavních cílech.",
+      "tts_text": "We need to align on the main objectives."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_04",
+      "title": "Planning quarterly goals",
+      "title_cz": "Plánování čtvrtletních cílů",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let's set goals for the next quarter today.",
+          "text_cz": "Dnes si pojďme stanovit cíle na příští čtvrtletí."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. What should be our top priority?",
+          "text_cz": "Jasně. Co by měla být naše hlavní priorita?"
+        },
+        {
+          "speaker": "A",
+          "text": "Improving response time to clients, with a measurable target.",
+          "text_cz": "Zlepšení doby odezvy klientům, s měřitelným cílem."
+        },
+        {
+          "speaker": "B",
+          "text": "Agreed, let's write a clear action plan together.",
+          "text_cz": "Souhlasím, napišme společně jasný akční plán."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "set goals",
+      "options": [
+        "stanovit cíle",
+        "měřitelný cíl",
+        "do konce čtvrtletí"
+      ],
+      "correct": "stanovit cíle"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We need a ___ target for this project.",
+      "answer": "measurable",
+      "hint_cz": "měřitelný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "set goals",
+          "cz": "stanovit cíle"
+        },
+        {
+          "target": "measurable target",
+          "cz": "měřitelný cíl"
+        },
+        {
+          "target": "by the end of the quarter",
+          "cz": "do konce čtvrtletí"
+        },
+        {
+          "target": "realistic",
+          "cz": "reálný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's set goals for the next quarter.",
+      "tts_text": "Let's set goals for the next quarter."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's write a clear action ___.",
+      "answer": "plan",
+      "hint_cz": "plán"
+    }
+  ]
+}

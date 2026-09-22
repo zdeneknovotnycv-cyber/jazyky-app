@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_phone_video_calls_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Technische Probleme bei einem Anruf",
+  "title_cz": "Technické problémy při hovoru",
+  "vocabulary": [
+    {
+      "word": "Können Sie mich hören?",
+      "translation_cz": "Slyšíte mě?",
+      "example": "Hallo, können Sie mich hören?",
+      "example_cz": "Dobrý den, slyšíte mě?",
+      "tts_text": "Hallo, können Sie mich hören?"
+    },
+    {
+      "word": "die Verbindung ist schlecht",
+      "translation_cz": "spojení je špatné",
+      "example": "Entschuldigung, die Verbindung ist gerade schlecht.",
+      "example_cz": "Promiňte, spojení je teď špatné.",
+      "tts_text": "Entschuldigung, die Verbindung ist gerade schlecht."
+    },
+    {
+      "word": "Sie sind unterbrochen",
+      "translation_cz": "trháte se / hovor se trhá",
+      "example": "Entschuldigung, Sie sind ein bisschen unterbrochen.",
+      "example_cz": "Promiňte, trochu se trháte.",
+      "tts_text": "Entschuldigung, Sie sind ein bisschen unterbrochen."
+    },
+    {
+      "word": "könnten Sie das bitte wiederholen?",
+      "translation_cz": "mohl byste to prosím zopakovat?",
+      "example": "Das habe ich nicht verstanden, könnten Sie das bitte wiederholen?",
+      "example_cz": "To jsem nezachytil, mohl byste to prosím zopakovat?",
+      "tts_text": "Das habe ich nicht verstanden, könnten Sie das bitte wiederholen?"
+    },
+    {
+      "word": "ich verbinde mich neu",
+      "translation_cz": "znovu se připojím",
+      "example": "Das Gespräch wurde unterbrochen, ich verbinde mich neu.",
+      "example_cz": "Hovor se přerušil, znovu se připojím.",
+      "tts_text": "Das Gespräch wurde unterbrochen, ich verbinde mich neu."
+    },
+    {
+      "word": "mein Mikrofon funktioniert nicht",
+      "translation_cz": "můj mikrofon nefunguje",
+      "example": "Entschuldigung, mein Mikrofon funktioniert nicht richtig.",
+      "example_cz": "Promiňte, můj mikrofon nefunguje správně.",
+      "tts_text": "Entschuldigung, mein Mikrofon funktioniert nicht richtig."
+    },
+    {
+      "word": "versuchen wir es nur mit Audio",
+      "translation_cz": "zkusme přejít jen na zvuk",
+      "example": "Das Video ist eingefroren, versuchen wir es nur mit Audio.",
+      "example_cz": "Video je zaseklé, zkusme přejít jen na zvuk.",
+      "tts_text": "Das Video ist eingefroren, versuchen wir es nur mit Audio."
+    },
+    {
+      "word": "ist es jetzt besser?",
+      "translation_cz": "je to teď lepší?",
+      "example": "Ich habe mich neu verbunden, ist es jetzt besser?",
+      "example_cz": "Znovu jsem se připojil, je to teď lepší?",
+      "tts_text": "Ich habe mich neu verbunden, ist es jetzt besser?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_technische_probleme",
+      "title": "Mit einer schlechten Verbindung umgehen",
+      "title_cz": "Řešení špatného spojení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hallo, können Sie mich hören? Die Verbindung ist bei mir schlecht.",
+          "text_cz": "Dobrý den, slyšíte mě? Spojení je z mé strany špatné."
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, aber Sie sind ein bisschen unterbrochen. Könnten Sie das bitte wiederholen?",
+          "text_cz": "Ano, ale trochu se trháte. Mohl byste to prosím zopakovat?"
+        },
+        {
+          "speaker": "A",
+          "text": "Entschuldigung, mein Mikrofon funktioniert nicht richtig. Ich verbinde mich neu.",
+          "text_cz": "Promiňte, můj mikrofon nefunguje správně. Znovu se připojím."
+        },
+        {
+          "speaker": "B",
+          "text": "Kein Problem, wir warten. Ist es jetzt besser?",
+          "text_cz": "Žádný problém, počkáme. Je to teď lepší?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, jetzt viel besser, danke für Ihre Geduld.",
+          "text_cz": "Ano, teď mnohem lépe, děkuji za trpělivost."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Können Sie mich hören?",
+      "options": [
+        "Slyšíte mě?",
+        "Znovu se připojím.",
+        "Je to lepší?"
+      ],
+      "correct": "Slyšíte mě?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Entschuldigung, Sie sind ein bisschen ___.",
+      "answer": "unterbrochen",
+      "hint_cz": "trháte se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "die Verbindung ist schlecht", "cz": "spojení je špatné" },
+        { "target": "ich verbinde mich neu", "cz": "znovu se připojím" },
+        { "target": "könnten Sie das wiederholen", "cz": "mohl byste to zopakovat" },
+        { "target": "mein Mikrofon funktioniert nicht", "cz": "můj mikrofon nefunguje" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das Video ist eingefroren, versuchen wir es nur mit Audio.",
+      "tts_text": "Das Video ist eingefroren, versuchen wir es nur mit Audio."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das Gespräch wurde unterbrochen, ich ___ mich neu.",
+      "answer": "verbinde",
+      "hint_cz": "znovu se připojím"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe mich neu verbunden, ist es jetzt besser?",
+      "tts_text": "Ich habe mich neu verbunden, ist es jetzt besser?"
+    }
+  ]
+}

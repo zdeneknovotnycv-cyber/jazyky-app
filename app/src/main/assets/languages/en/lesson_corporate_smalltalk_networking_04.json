@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_smalltalk_networking_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Talking about the weekend",
+  "title_cz": "Povídání o víkendu",
+  "vocabulary": [
+    {
+      "word": "How was your weekend?",
+      "translation_cz": "Jaký jsi měl víkend?",
+      "example": "How was your weekend, Peter?",
+      "example_cz": "Jaký jsi měl víkend, Petře?",
+      "tts_text": "How was your weekend, Peter?"
+    },
+    {
+      "word": "I relaxed at home",
+      "translation_cz": "Odpočíval jsem doma",
+      "example": "I relaxed at home with my family.",
+      "example_cz": "Odpočíval jsem doma s rodinou.",
+      "tts_text": "I relaxed at home with my family."
+    },
+    {
+      "word": "go hiking",
+      "translation_cz": "jít na túru",
+      "example": "We went hiking in the mountains.",
+      "example_cz": "Byli jsme na túře v horách.",
+      "tts_text": "We went hiking in the mountains."
+    },
+    {
+      "word": "It flew by",
+      "translation_cz": "Uteklo to",
+      "example": "The weekend flew by so fast.",
+      "example_cz": "Víkend uteklo tak rychle.",
+      "tts_text": "The weekend flew by so fast."
+    },
+    {
+      "word": "visit relatives",
+      "translation_cz": "navštívit příbuzné",
+      "example": "I visited relatives on Sunday.",
+      "example_cz": "V neděli jsem navštívil příbuzné.",
+      "tts_text": "I visited relatives on Sunday."
+    },
+    {
+      "word": "nothing special",
+      "translation_cz": "nic zvláštního",
+      "example": "Nothing special, just relaxed.",
+      "example_cz": "Nic zvláštního, jen jsem si odpočinul.",
+      "tts_text": "Nothing special, just relaxed."
+    },
+    {
+      "word": "get some rest",
+      "translation_cz": "odpočinout si",
+      "example": "I really needed to get some rest.",
+      "example_cz": "Opravdu jsem potřeboval si odpočinout.",
+      "tts_text": "I really needed to get some rest."
+    },
+    {
+      "word": "What about you?",
+      "translation_cz": "A co ty?",
+      "example": "It was great, what about you?",
+      "example_cz": "Bylo to skvělé, a co ty?",
+      "tts_text": "It was great, what about you?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_weekend_talk",
+      "title": "Talking about the weekend",
+      "title_cz": "Rozhovor o víkendu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good morning! How was your weekend?",
+          "text_cz": "Dobré ráno! Jaký jsi měl víkend?"
+        },
+        {
+          "speaker": "B",
+          "text": "Pretty good, I relaxed at home. What about you?",
+          "text_cz": "Docela dobrý, odpočíval jsem doma. A co ty?"
+        },
+        {
+          "speaker": "A",
+          "text": "We went hiking in the mountains. It flew by so fast.",
+          "text_cz": "Byli jsme na túře v horách. Uteklo to tak rychle."
+        },
+        {
+          "speaker": "B",
+          "text": "That sounds nice. I just visited relatives and got some rest.",
+          "text_cz": "To zní pěkně. Já jen navštívil příbuzné a odpočinul si."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "go hiking",
+      "options": [
+        "jít na túru",
+        "navštívit příbuzné",
+        "odpočinout si"
+      ],
+      "correct": "jít na túru"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "How was your ___?",
+      "answer": "weekend",
+      "hint_cz": "víkend"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The weekend ___ by so fast.",
+      "answer": "flew",
+      "hint_cz": "uteklo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "relax at home",
+          "cz": "odpočívat doma"
+        },
+        {
+          "target": "visit relatives",
+          "cz": "navštívit příbuzné"
+        },
+        {
+          "target": "get some rest",
+          "cz": "odpočinout si"
+        },
+        {
+          "target": "nothing special",
+          "cz": "nic zvláštního"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "How was your weekend?",
+      "tts_text": "How was your weekend?"
+    }
+  ]
+}

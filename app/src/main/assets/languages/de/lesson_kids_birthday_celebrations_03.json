@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_birthday_celebrations_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ostern",
+  "title_cz": "Velikonoce",
+  "vocabulary": [
+    {
+      "word": "Ostern",
+      "translation_cz": "Velikonoce",
+      "example": "Wir bemalen Eier zu Ostern.",
+      "example_cz": "Na Velikonoce malujeme vajíčka.",
+      "tts_text": "Wir bemalen Eier zu Ostern."
+    },
+    {
+      "word": "das Ei",
+      "translation_cz": "vajíčko",
+      "example": "Ich bemale ein buntes Ei.",
+      "example_cz": "Maluji barevné vajíčko.",
+      "tts_text": "Ich bemale ein buntes Ei."
+    },
+    {
+      "word": "der Osterhase",
+      "translation_cz": "zajíček",
+      "example": "Der Osterhase bringt Süßigkeiten.",
+      "example_cz": "Velikonoční zajíček nosí sladkosti.",
+      "tts_text": "Der Osterhase bringt Süßigkeiten."
+    },
+    {
+      "word": "der Korb",
+      "translation_cz": "košík",
+      "example": "Ich lege Eier in einen Korb.",
+      "example_cz": "Dávám vajíčka do košíku.",
+      "tts_text": "Ich lege Eier in einen Korb."
+    },
+    {
+      "word": "der Frühling",
+      "translation_cz": "jaro",
+      "example": "Ostern kommt im Frühling.",
+      "example_cz": "Velikonoce přicházejí na jaře.",
+      "tts_text": "Ostern kommt im Frühling."
+    },
+    {
+      "word": "die Blume",
+      "translation_cz": "květina",
+      "example": "Blumen blühen zu Ostern.",
+      "example_cz": "O Velikonocích kvetou květiny.",
+      "tts_text": "Blumen blühen zu Ostern."
+    },
+    {
+      "word": "die Schokolade",
+      "translation_cz": "čokoláda",
+      "example": "Ich bekomme ein Schokoladenei.",
+      "example_cz": "Dostávám čokoládové vajíčko.",
+      "tts_text": "Ich bekomme ein Schokoladenei."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Ostern",
+      "options": [
+        "Velikonoce",
+        "vajíčko",
+        "zajíček"
+      ],
+      "correct": "Velikonoce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bemale ein buntes ___.",
+      "answer": "Ei",
+      "hint_cz": "vajíčko"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Osterhase",
+          "cz": "zajíček"
+        },
+        {
+          "target": "der Korb",
+          "cz": "košík"
+        },
+        {
+          "target": "der Frühling",
+          "cz": "jaro"
+        },
+        {
+          "target": "die Blume",
+          "cz": "květina"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich bekomme ein Schokoladenei.",
+      "tts_text": "Ich bekomme ein Schokoladenei."
+    }
+  ]
+}

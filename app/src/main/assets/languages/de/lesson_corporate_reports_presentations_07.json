@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_reports_presentations_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Vor der Geschäftsleitung präsentieren",
+  "title_cz": "Prezentace vedení",
+  "vocabulary": [
+    {
+      "word": "die Geschäftsleitung",
+      "translation_cz": "vrcholové vedení",
+      "example": "Die Geschäftsleitung wird heute im Raum sein.",
+      "example_cz": "Vrcholové vedení bude dnes v místnosti.",
+      "tts_text": "Die Geschäftsleitung wird heute im Raum sein."
+    },
+    {
+      "word": "selbstbewusst",
+      "translation_cz": "sebejistý",
+      "example": "Versuchen Sie, während der Präsentation selbstbewusst zu klingen.",
+      "example_cz": "Snažte se během prezentace znít sebejistě.",
+      "tts_text": "Versuchen Sie, während der Präsentation selbstbewusst zu klingen."
+    },
+    {
+      "word": "direkt auf den Punkt kommen",
+      "translation_cz": "rovnou k věci",
+      "example": "Die Geschäftsleitung möchte, dass Sie direkt auf den Punkt kommen.",
+      "example_cz": "Vedení preferuje, když jdete rovnou k věci.",
+      "tts_text": "Die Geschäftsleitung möchte, dass Sie direkt auf den Punkt kommen."
+    },
+    {
+      "word": "rechtfertigen",
+      "translation_cz": "zdůvodnit",
+      "example": "Sie müssen diese Investition rechtfertigen.",
+      "example_cz": "Musíte tuto investici zdůvodnit.",
+      "tts_text": "Sie müssen diese Investition rechtfertigen."
+    },
+    {
+      "word": "der Business Case",
+      "translation_cz": "obchodní případ / zdůvodnění",
+      "example": "Wir haben einen starken Business Case vorbereitet.",
+      "example_cz": "Připravili jsme silné zdůvodnění projektu.",
+      "tts_text": "Wir haben einen starken Business Case vorbereitet."
+    },
+    {
+      "word": "die Kapitalrendite",
+      "translation_cz": "návratnost investice",
+      "example": "Wie hoch ist die erwartete Kapitalrendite?",
+      "example_cz": "Jaká je očekávaná návratnost investice?",
+      "tts_text": "Wie hoch ist die erwartete Kapitalrendite?"
+    },
+    {
+      "word": "Widerstand leisten",
+      "translation_cz": "namítat / oponovat",
+      "example": "Die Geschäftsleitung könnte beim Budget Widerstand leisten.",
+      "example_cz": "Vedení může proti rozpočtu namítat.",
+      "tts_text": "Die Geschäftsleitung könnte beim Budget Widerstand leisten."
+    },
+    {
+      "word": "die Genehmigung",
+      "translation_cz": "schválení",
+      "example": "Wir bitten um Genehmigung für die nächste Phase.",
+      "example_cz": "Žádáme o schválení další fáze.",
+      "tts_text": "Wir bitten um Genehmigung für die nächste Phase."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_present_management",
+      "title": "Ein Investitionsvorhaben präsentieren",
+      "title_cz": "Prezentace investičního záměru",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Die Geschäftsleitung möchte, dass wir heute direkt auf den Punkt kommen.",
+          "text_cz": "Vrcholové vedení chce, abychom dnes šli rovnou k věci."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay, ich habe einen starken Business Case mit der erwarteten Kapitalrendite vorbereitet.",
+          "text_cz": "Dobře, připravil jsem silné zdůvodnění s očekávanou návratností investice."
+        },
+        {
+          "speaker": "A",
+          "text": "Gut, sie könnten trotzdem beim Budget Widerstand leisten, also rechtfertigen Sie jede Zahl.",
+          "text_cz": "Dobře, přesto mohou namítat proti rozpočtu, tak zdůvodněte každé číslo."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden, ich bleibe selbstbewusst und klar.",
+          "text_cz": "Rozumím, zůstanu sebejistý a jasný."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Geschäftsleitung",
+      "options": [
+        "vrcholové vedení",
+        "rovnou k věci",
+        "zdůvodnit"
+      ],
+      "correct": "vrcholové vedení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Versuchen Sie, während der Präsentation ___ zu klingen.",
+      "answer": "selbstbewusst",
+      "hint_cz": "sebejistý"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir haben einen starken Business Case vorbereitet.",
+      "answer": "der Business Case",
+      "hint_cz": "obchodní případ / zdůvodnění"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Kapitalrendite",
+          "cz": "návratnost investice"
+        },
+        {
+          "target": "Widerstand leisten",
+          "cz": "namítat / oponovat"
+        },
+        {
+          "target": "die Genehmigung",
+          "cz": "schválení"
+        },
+        {
+          "target": "direkt auf den Punkt kommen",
+          "cz": "rovnou k věci"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Die Geschäftsleitung möchte, dass wir heute direkt auf den Punkt kommen.",
+      "tts_text": "Die Geschäftsleitung möchte, dass wir heute direkt auf den Punkt kommen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Okay, ich habe einen starken Business Case mit der erwarteten Kapitalrendite vorbereitet.",
+      "tts_text": "Okay, ich habe einen starken Business Case mit der erwarteten Kapitalrendite vorbereitet."
+    }
+  ]
+}

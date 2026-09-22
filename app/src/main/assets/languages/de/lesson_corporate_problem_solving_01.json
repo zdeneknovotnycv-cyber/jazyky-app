@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_problem_solving_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Problem dem Vorgesetzten melden",
+  "title_cz": "Nahlášení problému nadřízenému",
+  "vocabulary": [
+    {
+      "word": "es gibt ein Problem mit",
+      "translation_cz": "je problém s",
+      "example": "Es gibt heute ein Problem mit dem Server.",
+      "example_cz": "Dnes je problém se serverem.",
+      "tts_text": "Es gibt heute ein Problem mit dem Server."
+    },
+    {
+      "word": "ich wollte ansprechen",
+      "translation_cz": "chtěl jsem upozornit na",
+      "example": "Ich wollte ein Problem mit der Lieferung ansprechen.",
+      "example_cz": "Chtěl jsem upozornit na problém se zásilkou.",
+      "tts_text": "Ich wollte ein Problem mit der Lieferung ansprechen."
+    },
+    {
+      "word": "es betrifft",
+      "translation_cz": "ovlivňuje to",
+      "example": "Es betrifft unseren Lieferplan.",
+      "example_cz": "Ovlivňuje to náš plán dodávek.",
+      "tts_text": "Es betrifft unseren Lieferplan."
+    },
+    {
+      "word": "dringend",
+      "translation_cz": "naléhavé",
+      "example": "Das ist ziemlich dringend.",
+      "example_cz": "Tohle je docela naléhavé.",
+      "tts_text": "Das ist ziemlich dringend."
+    },
+    {
+      "word": "könnten wir besprechen",
+      "translation_cz": "mohli bychom probrat",
+      "example": "Könnten wir das heute besprechen?",
+      "example_cz": "Mohli bychom to dnes probrat?",
+      "tts_text": "Könnten wir das heute besprechen?"
+    },
+    {
+      "word": "die Auswirkung",
+      "translation_cz": "dopad",
+      "example": "Die Auswirkung auf das Team ist groß.",
+      "example_cz": "Dopad na tým je značný.",
+      "tts_text": "Die Auswirkung auf das Team ist groß."
+    },
+    {
+      "word": "ich brauche Ihre Meinung",
+      "translation_cz": "potřebuji váš názor",
+      "example": "Ich brauche Ihre Meinung zu diesem Problem.",
+      "example_cz": "Potřebuji váš názor na tento problém.",
+      "tts_text": "Ich brauche Ihre Meinung zu diesem Problem."
+    },
+    {
+      "word": "so schnell wie möglich",
+      "translation_cz": "co nejdříve",
+      "example": "Bitte antworten Sie so schnell wie möglich.",
+      "example_cz": "Odpovězte prosím co nejdříve.",
+      "tts_text": "Bitte antworten Sie so schnell wie möglich."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_01",
+      "title": "Ein Problem melden",
+      "title_cz": "Nahlášení problému",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Haben Sie eine Minute? Ich wollte ein Problem ansprechen.",
+          "text_cz": "Máte chvilku? Chtěl jsem upozornit na problém."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, was ist los?",
+          "text_cz": "Jasně, co se děje?"
+        },
+        {
+          "speaker": "A",
+          "text": "Es gibt ein Problem mit dem Liefersystem. Es betrifft drei Kunden.",
+          "text_cz": "Je problém s dodacím systémem. Ovlivňuje to tři klienty."
+        },
+        {
+          "speaker": "B",
+          "text": "Wie dringend ist es?",
+          "text_cz": "Jak je to naléhavé?"
+        },
+        {
+          "speaker": "A",
+          "text": "Sehr dringend. Ich brauche Ihre Meinung so schnell wie möglich.",
+          "text_cz": "Velmi naléhavé. Potřebuji váš názor co nejdříve."
+        },
+        {
+          "speaker": "B",
+          "text": "Lassen Sie uns das sofort besprechen.",
+          "text_cz": "Pojďme to probrat hned teď."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "es gibt ein Problem mit",
+      "options": [
+        "je problém s",
+        "chtěl jsem upozornit na",
+        "ovlivňuje to"
+      ],
+      "correct": "je problém s"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das ist ziemlich ___.",
+      "answer": "dringend",
+      "hint_cz": "naléhavé"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "es gibt ein Problem mit",
+          "cz": "je problém s"
+        },
+        {
+          "target": "ich wollte ansprechen",
+          "cz": "chtěl jsem upozornit na"
+        },
+        {
+          "target": "es betrifft",
+          "cz": "ovlivňuje to"
+        },
+        {
+          "target": "dringend",
+          "cz": "naléhavé"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Könnten wir das heute besprechen?",
+      "tts_text": "Könnten wir das heute besprechen?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Auswirkung auf das Team ist ___",
+      "answer": "groß",
+      "hint_cz": "dopad"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_phone_video_calls_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Conference calls with multiple people",
+  "title_cz": "Konferenční hovory s více lidmi",
+  "vocabulary": [
+    {
+      "word": "Let's do a quick round of introductions",
+      "translation_cz": "Udělejme rychlé kolečko představení",
+      "example": "Before we start, let's do a quick round of introductions.",
+      "example_cz": "Než začneme, udělejme rychlé kolečko představení.",
+      "tts_text": "Before we start, let's do a quick round of introductions."
+    },
+    {
+      "word": "who else is on the line?",
+      "translation_cz": "kdo další je na lince?",
+      "example": "Who else is on the line with us today?",
+      "example_cz": "Kdo další je dnes s námi na lince?",
+      "tts_text": "Who else is on the line with us today?"
+    },
+    {
+      "word": "please state your name before speaking",
+      "translation_cz": "před promluvením prosím řekněte své jméno",
+      "example": "Please state your name before speaking.",
+      "example_cz": "Před promluvením prosím řekněte své jméno.",
+      "tts_text": "Please state your name before speaking."
+    },
+    {
+      "word": "sorry to interrupt",
+      "translation_cz": "promiňte, že skáču do řeči",
+      "example": "Sorry to interrupt, may I add something?",
+      "example_cz": "Promiňte, že skáču do řeči, mohu něco dodat?",
+      "tts_text": "Sorry to interrupt, may I add something?"
+    },
+    {
+      "word": "go ahead",
+      "translation_cz": "pokračujte / mluvte",
+      "example": "Go ahead, please continue.",
+      "example_cz": "Pokračujte, prosím mluvte dál.",
+      "tts_text": "Go ahead, please continue."
+    },
+    {
+      "word": "I think someone is on mute",
+      "translation_cz": "myslím, že má někdo ztlumený mikrofon",
+      "example": "I think someone is on mute, we can't hear you.",
+      "example_cz": "Myslím, že má někdo ztlumený mikrofon, neslyšíme vás.",
+      "tts_text": "I think someone is on mute, we can't hear you."
+    },
+    {
+      "word": "let's hear from everyone",
+      "translation_cz": "poslechněme si všechny",
+      "example": "Let's hear from everyone before we decide.",
+      "example_cz": "Poslechněme si všechny, než se rozhodneme.",
+      "tts_text": "Let's hear from everyone before we decide."
+    },
+    {
+      "word": "does anyone have any questions?",
+      "translation_cz": "má někdo nějaké otázky?",
+      "example": "Does anyone have any questions before we finish?",
+      "example_cz": "Má někdo nějaké otázky, než skončíme?",
+      "tts_text": "Does anyone have any questions before we finish?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_conference_call",
+      "title": "Starting a conference call",
+      "title_cz": "Zahájení konferenčního hovoru",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good morning, everyone. Who else is on the line with us today?",
+          "text_cz": "Dobré ráno všem. Kdo další je dnes s námi na lince?"
+        },
+        {
+          "speaker": "B",
+          "text": "This is Marek from the Prague office.",
+          "text_cz": "Tady je Marek z pražské kanceláře."
+        },
+        {
+          "speaker": "A",
+          "text": "Great, thank you. Let's do a quick round of introductions.",
+          "text_cz": "Skvělé, děkuji. Udělejme rychlé kolečko představení."
+        },
+        {
+          "speaker": "B",
+          "text": "Sorry to interrupt, but I think someone is on mute.",
+          "text_cz": "Promiňte, že skáču do řeči, ale myslím, že má někdo ztlumený mikrofon."
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks for noticing. Okay, go ahead now, everyone can hear you.",
+          "text_cz": "Díky, že jste si všiml. Dobře, pokračujte, teď vás všichni slyší."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Who else is on the line with us today?",
+      "options": [
+        "Kdo další je dnes s námi na lince?",
+        "Pokračujte, prosím mluvte dál.",
+        "Má někdo nějaké otázky?"
+      ],
+      "correct": "Kdo další je dnes s námi na lince?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please ___ your name before speaking.",
+      "answer": "state",
+      "hint_cz": "řekněte"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "sorry to interrupt", "cz": "promiňte, že skáču do řeči" },
+        { "target": "go ahead", "cz": "pokračujte" },
+        { "target": "let's hear from everyone", "cz": "poslechněme si všechny" },
+        { "target": "does anyone have any questions?", "cz": "má někdo nějaké otázky?" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Before we start, let's do a quick round of introductions.",
+      "tts_text": "Before we start, let's do a quick round of introductions."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I think someone is on ___, we can't hear you.",
+      "answer": "mute",
+      "hint_cz": "ztlumeno"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Does anyone have any questions before we finish?",
+      "tts_text": "Does anyone have any questions before we finish?"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_phone_video_calls_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Technical problems on a call",
+  "title_cz": "Technické problémy při hovoru",
+  "vocabulary": [
+    {
+      "word": "Can you hear me?",
+      "translation_cz": "Slyšíte mě?",
+      "example": "Hello, can you hear me?",
+      "example_cz": "Dobrý den, slyšíte mě?",
+      "tts_text": "Hello, can you hear me?"
+    },
+    {
+      "word": "the connection is bad",
+      "translation_cz": "spojení je špatné",
+      "example": "Sorry, the connection is bad right now.",
+      "example_cz": "Promiňte, spojení je teď špatné.",
+      "tts_text": "Sorry, the connection is bad right now."
+    },
+    {
+      "word": "you're breaking up",
+      "translation_cz": "trháte se / hovor se trhá",
+      "example": "Sorry, you're breaking up a little.",
+      "example_cz": "Promiňte, trochu se trháte.",
+      "tts_text": "Sorry, you're breaking up a little."
+    },
+    {
+      "word": "could you repeat that, please?",
+      "translation_cz": "mohl byste to prosím zopakovat?",
+      "example": "I didn't catch that, could you repeat that, please?",
+      "example_cz": "To jsem nezachytil, mohl byste to prosím zopakovat?",
+      "tts_text": "I didn't catch that, could you repeat that, please?"
+    },
+    {
+      "word": "let me reconnect",
+      "translation_cz": "znovu se připojím",
+      "example": "The call dropped, let me reconnect.",
+      "example_cz": "Hovor se přerušil, znovu se připojím.",
+      "tts_text": "The call dropped, let me reconnect."
+    },
+    {
+      "word": "my microphone isn't working",
+      "translation_cz": "můj mikrofon nefunguje",
+      "example": "Sorry, my microphone isn't working properly.",
+      "example_cz": "Promiňte, můj mikrofon nefunguje správně.",
+      "tts_text": "Sorry, my microphone isn't working properly."
+    },
+    {
+      "word": "let's try switching to audio only",
+      "translation_cz": "zkusme přejít jen na zvuk",
+      "example": "The video is frozen, let's try switching to audio only.",
+      "example_cz": "Video je zaseklé, zkusme přejít jen na zvuk.",
+      "tts_text": "The video is frozen, let's try switching to audio only."
+    },
+    {
+      "word": "is that better now?",
+      "translation_cz": "je to teď lepší?",
+      "example": "I reconnected, is that better now?",
+      "example_cz": "Znovu jsem se připojil, je to teď lepší?",
+      "tts_text": "I reconnected, is that better now?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_technical_problems",
+      "title": "Dealing with a bad connection",
+      "title_cz": "Řešení špatného spojení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hello, can you hear me? The connection is bad on my side.",
+          "text_cz": "Dobrý den, slyšíte mě? Spojení je z mé strany špatné."
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, but you're breaking up a little. Could you repeat that, please?",
+          "text_cz": "Ano, ale trochu se trháte. Mohl byste to prosím zopakovat?"
+        },
+        {
+          "speaker": "A",
+          "text": "Sorry, my microphone isn't working properly. Let me reconnect.",
+          "text_cz": "Promiňte, můj mikrofon nefunguje správně. Znovu se připojím."
+        },
+        {
+          "speaker": "B",
+          "text": "No problem, we'll wait. Is that better now?",
+          "text_cz": "Žádný problém, počkáme. Je to teď lepší?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, much better now, thank you for waiting.",
+          "text_cz": "Ano, teď mnohem lépe, děkuji za trpělivost."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Can you hear me?",
+      "options": [
+        "Slyšíte mě?",
+        "Znovu se připojím.",
+        "Je to lepší?"
+      ],
+      "correct": "Slyšíte mě?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Sorry, you're ___ up a little.",
+      "answer": "breaking",
+      "hint_cz": "trháte se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "the connection is bad", "cz": "spojení je špatné" },
+        { "target": "let me reconnect", "cz": "znovu se připojím" },
+        { "target": "could you repeat that", "cz": "mohl byste to zopakovat" },
+        { "target": "my microphone isn't working", "cz": "můj mikrofon nefunguje" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The video is frozen, let's try switching to audio only.",
+      "tts_text": "The video is frozen, let's try switching to audio only."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The call dropped, let me ___.",
+      "answer": "reconnect",
+      "hint_cz": "znovu se připojit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I reconnected, is that better now?",
+      "tts_text": "I reconnected, is that better now?"
+    }
+  ]
+}

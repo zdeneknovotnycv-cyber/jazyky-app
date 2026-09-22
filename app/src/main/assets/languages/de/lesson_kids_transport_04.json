@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_transport_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Fahrräder",
+  "title_cz": "Kola",
+  "vocabulary": [
+    {
+      "word": "das Fahrrad",
+      "translation_cz": "kolo",
+      "example": "Ich fahre jeden Tag mit meinem Fahrrad.",
+      "example_cz": "Jezdím na kole každý den.",
+      "tts_text": "Ich fahre jeden Tag mit meinem Fahrrad."
+    },
+    {
+      "word": "der Helm",
+      "translation_cz": "helma",
+      "example": "Ich trage immer einen Helm.",
+      "example_cz": "Vždy nosím helmu.",
+      "tts_text": "Ich trage immer einen Helm."
+    },
+    {
+      "word": "das Pedal",
+      "translation_cz": "pedál",
+      "example": "Ich trete mit dem Fuß auf das Pedal.",
+      "example_cz": "Šlapu nohou na pedál.",
+      "tts_text": "Ich trete mit dem Fuß auf das Pedal."
+    },
+    {
+      "word": "der Lenker",
+      "translation_cz": "řídítka",
+      "example": "Ich halte den Lenker mit beiden Händen.",
+      "example_cz": "Držím řídítka oběma rukama.",
+      "tts_text": "Ich halte den Lenker mit beiden Händen."
+    },
+    {
+      "word": "die Klingel",
+      "translation_cz": "zvonek",
+      "example": "Ich klingle mit der Klingel am Fahrrad.",
+      "example_cz": "Zvoním zvonkem na kole.",
+      "tts_text": "Ich klingle mit der Klingel am Fahrrad."
+    },
+    {
+      "word": "der Radweg",
+      "translation_cz": "cyklostezka",
+      "example": "Wir fahren auf dem Radweg.",
+      "example_cz": "Jezdíme po cyklostezce.",
+      "tts_text": "Wir fahren auf dem Radweg."
+    },
+    {
+      "word": "hinfallen",
+      "translation_cz": "spadnout",
+      "example": "Pass auf, dass du nicht hinfällst.",
+      "example_cz": "Dávej pozor, abys nespadl.",
+      "tts_text": "Pass auf, dass du nicht hinfällst."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Fahrrad",
+      "options": [
+        "kolo",
+        "řidič",
+        "letiště"
+      ],
+      "correct": "kolo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich trage immer einen ___.",
+      "answer": "der Helm",
+      "hint_cz": "helma"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Helm",
+          "cz": "helma"
+        },
+        {
+          "target": "das Pedal",
+          "cz": "pedál"
+        },
+        {
+          "target": "der Lenker",
+          "cz": "řídítka"
+        },
+        {
+          "target": "die Klingel",
+          "cz": "zvonek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich fahre jeden Tag mit meinem Fahrrad.",
+      "tts_text": "Ich fahre jeden Tag mit meinem Fahrrad."
+    }
+  ]
+}

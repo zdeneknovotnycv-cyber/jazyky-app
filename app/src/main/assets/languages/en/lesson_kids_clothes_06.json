@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_clothes_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Colors of Clothes",
+  "title_cz": "Barvy oblečení",
+  "vocabulary": [
+    {
+      "word": "red shirt",
+      "translation_cz": "červená košile",
+      "example": "I have a red shirt.",
+      "example_cz": "Mám červenou košili.",
+      "tts_text": "I have a red shirt."
+    },
+    {
+      "word": "blue jeans",
+      "translation_cz": "modré džíny",
+      "example": "My blue jeans are comfortable.",
+      "example_cz": "Mé modré džíny jsou pohodlné.",
+      "tts_text": "My blue jeans are comfortable."
+    },
+    {
+      "word": "yellow dress",
+      "translation_cz": "žluté šaty",
+      "example": "She wears a yellow dress.",
+      "example_cz": "Nosí žluté šaty.",
+      "tts_text": "She wears a yellow dress."
+    },
+    {
+      "word": "green hat",
+      "translation_cz": "zelená čepice",
+      "example": "The green hat is warm.",
+      "example_cz": "Zelená čepice je teplá.",
+      "tts_text": "The green hat is warm."
+    },
+    {
+      "word": "white socks",
+      "translation_cz": "bílé ponožky",
+      "example": "My white socks are clean.",
+      "example_cz": "Mé bílé ponožky jsou čisté.",
+      "tts_text": "My white socks are clean."
+    },
+    {
+      "word": "black shoes",
+      "translation_cz": "černé boty",
+      "example": "I like my black shoes.",
+      "example_cz": "Mám ráda své černé boty.",
+      "tts_text": "I like my black shoes."
+    },
+    {
+      "word": "favorite color",
+      "translation_cz": "oblíbená barva",
+      "example": "What is your favorite color?",
+      "example_cz": "Jaká je tvoje oblíbená barva?",
+      "tts_text": "What is your favorite color?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "yellow dress",
+      "options": [
+        "žluté šaty",
+        "modré džíny",
+        "zelená čepice"
+      ],
+      "correct": "žluté šaty"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My ___ are clean.",
+      "answer": "white socks",
+      "hint_cz": "bílé ponožky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "red shirt",
+          "cz": "červená košile"
+        },
+        {
+          "target": "blue jeans",
+          "cz": "modré džíny"
+        },
+        {
+          "target": "green hat",
+          "cz": "zelená čepice"
+        },
+        {
+          "target": "black shoes",
+          "cz": "černé boty"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I like my black shoes.",
+      "tts_text": "I like my black shoes."
+    }
+  ]
+}

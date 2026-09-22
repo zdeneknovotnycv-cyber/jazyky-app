@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_home_rooms_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Kitchen Items",
+  "title_cz": "Věci v kuchyni",
+  "vocabulary": [
+    {
+      "word": "plate",
+      "translation_cz": "talíř",
+      "example": "Put food on the plate.",
+      "example_cz": "Dej jídlo na talíř.",
+      "tts_text": "Put food on the plate."
+    },
+    {
+      "word": "spoon",
+      "translation_cz": "lžíce",
+      "example": "I eat soup with a spoon.",
+      "example_cz": "Polévku jím lžící.",
+      "tts_text": "I eat soup with a spoon."
+    },
+    {
+      "word": "fork",
+      "translation_cz": "vidlička",
+      "example": "I use a fork for pasta.",
+      "example_cz": "Na těstoviny používám vidličku.",
+      "tts_text": "I use a fork for pasta."
+    },
+    {
+      "word": "glass",
+      "translation_cz": "sklenice",
+      "example": "The glass is full of juice.",
+      "example_cz": "Sklenice je plná džusu.",
+      "tts_text": "The glass is full of juice."
+    },
+    {
+      "word": "fridge",
+      "translation_cz": "lednička",
+      "example": "The milk is in the fridge.",
+      "example_cz": "Mléko je v ledničce.",
+      "tts_text": "The milk is in the fridge."
+    },
+    {
+      "word": "pot",
+      "translation_cz": "hrnec",
+      "example": "Mom cooks soup in a pot.",
+      "example_cz": "Maminka vaří polévku v hrnci.",
+      "tts_text": "Mom cooks soup in a pot."
+    },
+    {
+      "word": "table",
+      "translation_cz": "stůl",
+      "example": "We eat at the table.",
+      "example_cz": "Jíme u stolu.",
+      "tts_text": "We eat at the table."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "plate",
+      "options": [
+        "talíř",
+        "sklenice",
+        "vidlička"
+      ],
+      "correct": "talíř"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I eat soup with a ___.",
+      "answer": "spoon",
+      "hint_cz": "lžíce"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "fork",
+          "cz": "vidlička"
+        },
+        {
+          "target": "fridge",
+          "cz": "lednička"
+        },
+        {
+          "target": "pot",
+          "cz": "hrnec"
+        },
+        {
+          "target": "table",
+          "cz": "stůl"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The milk is in the fridge.",
+      "tts_text": "The milk is in the fridge."
+    }
+  ]
+}

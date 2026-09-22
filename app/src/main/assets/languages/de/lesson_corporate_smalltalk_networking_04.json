@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_smalltalk_networking_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über das Wochenende sprechen",
+  "title_cz": "Povídání o víkendu",
+  "vocabulary": [
+    {
+      "word": "Wie war dein Wochenende?",
+      "translation_cz": "Jaký jsi měl víkend?",
+      "example": "Wie war dein Wochenende, Peter?",
+      "example_cz": "Jaký jsi měl víkend, Petře?",
+      "tts_text": "Wie war dein Wochenende, Peter?"
+    },
+    {
+      "word": "Ich habe mich zu Hause entspannt",
+      "translation_cz": "Odpočíval jsem doma",
+      "example": "Ich habe mich zu Hause mit meiner Familie entspannt.",
+      "example_cz": "Odpočíval jsem doma s rodinou.",
+      "tts_text": "Ich habe mich zu Hause mit meiner Familie entspannt."
+    },
+    {
+      "word": "wandern gehen",
+      "translation_cz": "jít na túru",
+      "example": "Wir sind in den Bergen wandern gegangen.",
+      "example_cz": "Byli jsme na túře v horách.",
+      "tts_text": "Wir sind in den Bergen wandern gegangen."
+    },
+    {
+      "word": "Es ist wie im Flug vergangen",
+      "translation_cz": "Uteklo to",
+      "example": "Das Wochenende ist wie im Flug vergangen.",
+      "example_cz": "Víkend uteklo tak rychle.",
+      "tts_text": "Das Wochenende ist wie im Flug vergangen."
+    },
+    {
+      "word": "Verwandte besuchen",
+      "translation_cz": "navštívit příbuzné",
+      "example": "Ich habe am Sonntag Verwandte besucht.",
+      "example_cz": "V neděli jsem navštívil příbuzné.",
+      "tts_text": "Ich habe am Sonntag Verwandte besucht."
+    },
+    {
+      "word": "nichts Besonderes",
+      "translation_cz": "nic zvláštního",
+      "example": "Nichts Besonderes, ich habe mich nur entspannt.",
+      "example_cz": "Nic zvláštního, jen jsem si odpočinul.",
+      "tts_text": "Nichts Besonderes, ich habe mich nur entspannt."
+    },
+    {
+      "word": "sich ausruhen",
+      "translation_cz": "odpočinout si",
+      "example": "Ich musste mich wirklich ausruhen.",
+      "example_cz": "Opravdu jsem potřeboval si odpočinout.",
+      "tts_text": "Ich musste mich wirklich ausruhen."
+    },
+    {
+      "word": "Und du?",
+      "translation_cz": "A co ty?",
+      "example": "Es war toll, und du?",
+      "example_cz": "Bylo to skvělé, a co ty?",
+      "tts_text": "Es war toll, und du?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_wochenende",
+      "title": "Über das Wochenende sprechen",
+      "title_cz": "Rozhovor o víkendu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Guten Morgen! Wie war dein Wochenende?",
+          "text_cz": "Dobré ráno! Jaký jsi měl víkend?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ganz gut, ich habe mich zu Hause entspannt. Und du?",
+          "text_cz": "Docela dobrý, odpočíval jsem doma. A co ty?"
+        },
+        {
+          "speaker": "A",
+          "text": "Wir sind in den Bergen wandern gegangen. Es ist wie im Flug vergangen.",
+          "text_cz": "Byli jsme na túře v horách. Uteklo to tak rychle."
+        },
+        {
+          "speaker": "B",
+          "text": "Klingt schön. Ich habe nur Verwandte besucht und mich ausgeruht.",
+          "text_cz": "To zní pěkně. Já jen navštívil příbuzné a odpočinul si."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "wandern gehen",
+      "options": [
+        "jít na túru",
+        "navštívit příbuzné",
+        "odpočinout si"
+      ],
+      "correct": "jít na túru"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wie war dein ___?",
+      "answer": "Wochenende",
+      "hint_cz": "víkend"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es ist wie im ___ vergangen.",
+      "answer": "Flug",
+      "hint_cz": "uteklo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sich entspannen",
+          "cz": "odpočívat"
+        },
+        {
+          "target": "Verwandte besuchen",
+          "cz": "navštívit příbuzné"
+        },
+        {
+          "target": "sich ausruhen",
+          "cz": "odpočinout si"
+        },
+        {
+          "target": "nichts Besonderes",
+          "cz": "nic zvláštního"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wie war dein Wochenende?",
+      "tts_text": "Wie war dein Wochenende?"
+    }
+  ]
+}

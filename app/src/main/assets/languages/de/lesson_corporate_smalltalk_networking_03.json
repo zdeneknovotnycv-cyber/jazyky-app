@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_smalltalk_networking_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Visitenkarten austauschen",
+  "title_cz": "Výměna vizitek",
+  "vocabulary": [
+    {
+      "word": "die Visitenkarte",
+      "translation_cz": "vizitka",
+      "example": "Hier ist meine Visitenkarte.",
+      "example_cz": "Tady je moje vizitka.",
+      "tts_text": "Hier ist meine Visitenkarte."
+    },
+    {
+      "word": "Darf ich Ihnen meine Karte geben?",
+      "translation_cz": "Můžu vám nabídnout svou vizitku?",
+      "example": "Darf ich Ihnen meine Karte geben?",
+      "example_cz": "Můžu vám nabídnout svou vizitku?",
+      "tts_text": "Darf ich Ihnen meine Karte geben?"
+    },
+    {
+      "word": "die Berufsbezeichnung",
+      "translation_cz": "pracovní pozice",
+      "example": "Meine Berufsbezeichnung ist Vertriebsleiter.",
+      "example_cz": "Moje pracovní pozice je manažer prodeje.",
+      "tts_text": "Meine Berufsbezeichnung ist Vertriebsleiter."
+    },
+    {
+      "word": "Ich gebe Ihnen auch meine Nummer",
+      "translation_cz": "Dám vám na sebe číslo",
+      "example": "Ich gebe Ihnen auch meine Nummer.",
+      "example_cz": "Dám vám také na sebe číslo.",
+      "tts_text": "Ich gebe Ihnen auch meine Nummer."
+    },
+    {
+      "word": "das Unternehmen",
+      "translation_cz": "společnost",
+      "example": "Ich vertrete ein Logistikunternehmen.",
+      "example_cz": "Zastupuji logistickou společnost.",
+      "tts_text": "Ich vertrete ein Logistikunternehmen."
+    },
+    {
+      "word": "zögern Sie nicht, mich zu kontaktieren",
+      "translation_cz": "neváhejte mě kontaktovat",
+      "example": "Zögern Sie nicht, mich jederzeit zu kontaktieren.",
+      "example_cz": "Neváhejte mě kdykoliv kontaktovat.",
+      "tts_text": "Zögern Sie nicht, mich jederzeit zu kontaktieren."
+    },
+    {
+      "word": "Es war mir eine Freude",
+      "translation_cz": "Bylo mi potěšením",
+      "example": "Es war mir eine Freude, mit Ihnen zu sprechen.",
+      "example_cz": "Bylo mi potěšením s vámi mluvit.",
+      "tts_text": "Es war mir eine Freude, mit Ihnen zu sprechen."
+    },
+    {
+      "word": "im Hinterkopf behalten",
+      "translation_cz": "mít na paměti",
+      "example": "Bitte behalten Sie mein Angebot im Hinterkopf.",
+      "example_cz": "Mějte prosím na paměti moji nabídku.",
+      "tts_text": "Bitte behalten Sie mein Angebot im Hinterkopf."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_visitenkarten",
+      "title": "Visitenkarten austauschen",
+      "title_cz": "Výměna vizitek",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hier ist meine Visitenkarte.",
+          "text_cz": "Tady je moje vizitka."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke schön. Darf ich Ihnen auch meine geben?",
+          "text_cz": "Děkuji. Můžu vám také nabídnout tu svou?"
+        },
+        {
+          "speaker": "A",
+          "text": "Natürlich. Was ist Ihre Berufsbezeichnung?",
+          "text_cz": "Samozřejmě. Jaká je vaše pracovní pozice?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich bin Vertriebsleiter in meinem Unternehmen. Zögern Sie nicht, mich zu kontaktieren.",
+          "text_cz": "Jsem manažer prodeje ve své společnosti. Neváhejte mě kontaktovat."
+        },
+        {
+          "speaker": "A",
+          "text": "Sehr gut, es war mir eine Freude, Sie kennenzulernen.",
+          "text_cz": "Skvělé, bylo mi potěšením vás poznat."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Visitenkarte",
+      "options": [
+        "vizitka",
+        "pracovní pozice",
+        "společnost"
+      ],
+      "correct": "vizitka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Hier ist meine ___.",
+      "answer": "Visitenkarte",
+      "hint_cz": "vizitka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Zögern Sie nicht, mich zu ___.",
+      "answer": "kontaktieren",
+      "hint_cz": "kontaktovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Berufsbezeichnung",
+          "cz": "pracovní pozice"
+        },
+        {
+          "target": "das Unternehmen",
+          "cz": "společnost"
+        },
+        {
+          "target": "Es war mir eine Freude",
+          "cz": "Bylo mi potěšením"
+        },
+        {
+          "target": "im Hinterkopf behalten",
+          "cz": "mít na paměti"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Darf ich Ihnen meine Karte geben?",
+      "tts_text": "Darf ich Ihnen meine Karte geben?"
+    }
+  ]
+}

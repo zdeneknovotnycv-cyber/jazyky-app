@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_career_development_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über ein neues Jobangebot sprechen",
+  "title_cz": "Diskuze o nové pracovní příležitosti",
+  "vocabulary": [
+    {
+      "word": "das Jobangebot",
+      "translation_cz": "pracovní nabídka",
+      "example": "Ich habe gestern ein Jobangebot von einer anderen Firma erhalten.",
+      "example_cz": "Včera jsem dostal pracovní nabídku od jiné firmy.",
+      "tts_text": "Ich habe gestern ein Jobangebot von einer anderen Firma erhalten."
+    },
+    {
+      "word": "erwägen",
+      "translation_cz": "zvážit",
+      "example": "Ich brauche etwas Zeit, um das zu erwägen.",
+      "example_cz": "Potřebuji čas na zvážení.",
+      "tts_text": "Ich brauche etwas Zeit, um das zu erwägen."
+    },
+    {
+      "word": "die bessere Position",
+      "translation_cz": "lepší pozice",
+      "example": "Es ist eine bessere Position mit mehr Verantwortung.",
+      "example_cz": "Je to lepší pozice s větší odpovědností.",
+      "tts_text": "Es ist eine bessere Position mit mehr Verantwortung."
+    },
+    {
+      "word": "die Vor- und Nachteile abwägen",
+      "translation_cz": "zvážit klady a zápory",
+      "example": "Lass uns gemeinsam die Vor- und Nachteile abwägen.",
+      "example_cz": "Pojďme společně zvážit klady a zápory.",
+      "tts_text": "Lass uns gemeinsam die Vor- und Nachteile abwägen."
+    },
+    {
+      "word": "der Karriereschritt",
+      "translation_cz": "kariérní krok",
+      "example": "Das könnte ein kluger Karriereschritt sein.",
+      "example_cz": "Tohle by mohl být chytrý kariérní krok.",
+      "tts_text": "Das könnte ein kluger Karriereschritt sein."
+    },
+    {
+      "word": "die Kündigungsfrist",
+      "translation_cz": "výpovědní lhůta",
+      "example": "Meine Kündigungsfrist beträgt einen Monat.",
+      "example_cz": "Moje výpovědní lhůta je jeden měsíc.",
+      "tts_text": "Meine Kündigungsfrist beträgt einen Monat."
+    },
+    {
+      "word": "das wettbewerbsfähige Gehalt",
+      "translation_cz": "konkurenceschopný plat",
+      "example": "Sie bieten ein wettbewerbsfähiges Gehalt an.",
+      "example_cz": "Nabízejí konkurenceschopný plat.",
+      "tts_text": "Sie bieten ein wettbewerbsfähiges Gehalt an."
+    },
+    {
+      "word": "den Sprung wagen",
+      "translation_cz": "udělat ten krok / odvážit se",
+      "example": "Ich habe mich entschieden, den Sprung zu wagen.",
+      "example_cz": "Rozhodl jsem se udělat ten krok.",
+      "tts_text": "Ich habe mich entschieden, den Sprung zu wagen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_job_opportunity",
+      "title": "Über ein Jobangebot sprechen",
+      "title_cz": "Diskuze o pracovní nabídce",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich habe gestern ein Jobangebot von einer anderen Firma erhalten.",
+          "text_cz": "Včera jsem dostal pracovní nabídku od jiné firmy."
+        },
+        {
+          "speaker": "B",
+          "text": "Wirklich? Wie ist die Stelle?",
+          "text_cz": "Vážně? Jaká je to pozice?"
+        },
+        {
+          "speaker": "A",
+          "text": "Es ist eine bessere Position, und sie bieten ein wettbewerbsfähiges Gehalt. Ich brauche etwas Zeit, um das zu erwägen.",
+          "text_cz": "Je to lepší pozice a nabízejí konkurenceschopný plat. Potřebuji čas na zvážení."
+        },
+        {
+          "speaker": "B",
+          "text": "Das ist verständlich. Lass uns gemeinsam die Vor- und Nachteile abwägen.",
+          "text_cz": "To dává smysl. Pojďme společně zvážit klady a zápory."
+        },
+        {
+          "speaker": "A",
+          "text": "Danke. Ich denke, das könnte ein kluger Karriereschritt sein.",
+          "text_cz": "Díky. Myslím, že tohle by mohl být chytrý kariérní krok."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Jobangebot",
+      "options": [
+        "pracovní nabídka",
+        "výpovědní lhůta",
+        "kariérní krok"
+      ],
+      "correct": "pracovní nabídka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich brauche etwas Zeit, um das zu ___.",
+      "answer": "erwägen",
+      "hint_cz": "zvážit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die bessere Position",
+          "cz": "lepší pozice"
+        },
+        {
+          "target": "die Kündigungsfrist",
+          "cz": "výpovědní lhůta"
+        },
+        {
+          "target": "das wettbewerbsfähige Gehalt",
+          "cz": "konkurenceschopný plat"
+        },
+        {
+          "target": "den Sprung wagen",
+          "cz": "udělat ten krok"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das könnte ein kluger Karriereschritt sein.",
+      "tts_text": "Das könnte ein kluger Karriereschritt sein."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lass uns gemeinsam die Vor- und Nachteile ___.",
+      "answer": "abwägen",
+      "hint_cz": "zvážit"
+    }
+  ]
+}

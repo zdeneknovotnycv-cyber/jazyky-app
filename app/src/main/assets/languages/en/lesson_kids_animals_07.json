@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_animals_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Sea Animals",
+  "title_cz": "Mořská zvířata",
+  "vocabulary": [
+    {
+      "word": "fish",
+      "translation_cz": "ryba",
+      "example": "The fish swims in the sea.",
+      "example_cz": "Ryba plave v moři.",
+      "tts_text": "The fish swims in the sea."
+    },
+    {
+      "word": "shark",
+      "translation_cz": "žralok",
+      "example": "The shark has sharp teeth.",
+      "example_cz": "Žralok má ostré zuby.",
+      "tts_text": "The shark has sharp teeth."
+    },
+    {
+      "word": "dolphin",
+      "translation_cz": "delfín",
+      "example": "The dolphin is very smart.",
+      "example_cz": "Delfín je velmi chytrý.",
+      "tts_text": "The dolphin is very smart."
+    },
+    {
+      "word": "whale",
+      "translation_cz": "velryba",
+      "example": "The whale is the biggest animal.",
+      "example_cz": "Velryba je největší zvíře.",
+      "tts_text": "The whale is the biggest animal."
+    },
+    {
+      "word": "octopus",
+      "translation_cz": "chobotnice",
+      "example": "The octopus has eight arms.",
+      "example_cz": "Chobotnice má osm chapadel.",
+      "tts_text": "The octopus has eight arms."
+    },
+    {
+      "word": "crab",
+      "translation_cz": "krab",
+      "example": "The crab walks sideways.",
+      "example_cz": "Krab chodí bokem.",
+      "tts_text": "The crab walks sideways."
+    },
+    {
+      "word": "starfish",
+      "translation_cz": "hvězdice",
+      "example": "The starfish lives on the seabed.",
+      "example_cz": "Hvězdice žije na dně moře.",
+      "tts_text": "The starfish lives on the seabed."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "whale",
+      "options": [
+        "velryba",
+        "žralok",
+        "delfín"
+      ],
+      "correct": "velryba"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ has sharp teeth.",
+      "answer": "shark",
+      "hint_cz": "žralok"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "dolphin",
+          "cz": "delfín"
+        },
+        {
+          "target": "octopus",
+          "cz": "chobotnice"
+        },
+        {
+          "target": "crab",
+          "cz": "krab"
+        },
+        {
+          "target": "starfish",
+          "cz": "hvězdice"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The dolphin is very smart.",
+      "tts_text": "The dolphin is very smart."
+    }
+  ]
+}

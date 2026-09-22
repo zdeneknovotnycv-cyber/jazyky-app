@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_town_places_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Das Krankenhaus",
+  "title_cz": "Nemocnice",
+  "vocabulary": [
+    {
+      "word": "das Krankenhaus",
+      "translation_cz": "nemocnice",
+      "example": "Mein Onkel arbeitet im Krankenhaus.",
+      "example_cz": "Můj strýc pracuje v nemocnici.",
+      "tts_text": "Mein Onkel arbeitet im Krankenhaus."
+    },
+    {
+      "word": "der Arzt",
+      "translation_cz": "lékař",
+      "example": "Der Arzt untersucht mein Herz.",
+      "example_cz": "Lékař mi vyšetřuje srdce.",
+      "tts_text": "Der Arzt untersucht mein Herz."
+    },
+    {
+      "word": "die Krankenschwester",
+      "translation_cz": "zdravotní sestra",
+      "example": "Die Krankenschwester ist sehr nett.",
+      "example_cz": "Zdravotní sestra je moc milá.",
+      "tts_text": "Die Krankenschwester ist sehr nett."
+    },
+    {
+      "word": "das Bett",
+      "translation_cz": "postel",
+      "example": "Der Patient ruht sich im Bett aus.",
+      "example_cz": "Pacient odpočívá na posteli.",
+      "tts_text": "Der Patient ruht sich im Bett aus."
+    },
+    {
+      "word": "der Krankenwagen",
+      "translation_cz": "sanitka",
+      "example": "Der Krankenwagen fährt schnell.",
+      "example_cz": "Sanitka jede rychle.",
+      "tts_text": "Der Krankenwagen fährt schnell."
+    },
+    {
+      "word": "der Verband",
+      "translation_cz": "obvaz",
+      "example": "Die Krankenschwester legt einen Verband an.",
+      "example_cz": "Sestra přiloží obvaz.",
+      "tts_text": "Die Krankenschwester legt einen Verband an."
+    },
+    {
+      "word": "gesund werden",
+      "translation_cz": "uzdravit se",
+      "example": "Ich hoffe, du wirst bald gesund.",
+      "example_cz": "Doufám, že se brzy uzdravíš.",
+      "tts_text": "Ich hoffe, du wirst bald gesund."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Krankenhaus",
+      "options": [
+        "nemocnice",
+        "park",
+        "škola"
+      ],
+      "correct": "nemocnice"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der ___ untersucht mein Herz.",
+      "answer": "der Arzt",
+      "hint_cz": "lékař"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Arzt",
+          "cz": "lékař"
+        },
+        {
+          "target": "die Krankenschwester",
+          "cz": "zdravotní sestra"
+        },
+        {
+          "target": "das Bett",
+          "cz": "postel"
+        },
+        {
+          "target": "der Krankenwagen",
+          "cz": "sanitka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Die Krankenschwester ist sehr nett.",
+      "tts_text": "Die Krankenschwester ist sehr nett."
+    }
+  ]
+}

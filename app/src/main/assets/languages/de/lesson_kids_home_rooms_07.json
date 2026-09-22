@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_home_rooms_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Cleaning the House",
+  "title_cz": "Uklízení domu",
+  "vocabulary": [
+    {
+      "word": "putzen",
+      "translation_cz": "uklízet",
+      "example": "Wir putzen das Haus am Samstag.",
+      "example_cz": "V sobotu uklízíme dům.",
+      "tts_text": "Wir putzen das Haus am Samstag."
+    },
+    {
+      "word": "der Staubsauger",
+      "translation_cz": "vysavač",
+      "example": "Mama benutzt den Staubsauger.",
+      "example_cz": "Maminka používá vysavač.",
+      "tts_text": "Mama benutzt den Staubsauger."
+    },
+    {
+      "word": "der Besen",
+      "translation_cz": "koště",
+      "example": "Ich fege mit einem Besen.",
+      "example_cz": "Zametám koštětem.",
+      "tts_text": "Ich fege mit einem Besen."
+    },
+    {
+      "word": "aufräumen",
+      "translation_cz": "uklidit / poklidit",
+      "example": "Ich räume mein Zimmer auf.",
+      "example_cz": "Uklízím si pokoj.",
+      "tts_text": "Ich räume mein Zimmer auf."
+    },
+    {
+      "word": "der Staub",
+      "translation_cz": "prach",
+      "example": "Es gibt viel Staub.",
+      "example_cz": "Je tu hodně prachu.",
+      "tts_text": "Es gibt viel Staub."
+    },
+    {
+      "word": "der Müll",
+      "translation_cz": "odpadky",
+      "example": "Ich bringe den Müll raus.",
+      "example_cz": "Vynáším odpadky.",
+      "tts_text": "Ich bringe den Müll raus."
+    },
+    {
+      "word": "Geschirr spülen",
+      "translation_cz": "mýt nádobí",
+      "example": "Papa spült das Geschirr.",
+      "example_cz": "Tatínek myje nádobí.",
+      "tts_text": "Papa spült das Geschirr."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Staubsauger",
+      "options": [
+        "vysavač",
+        "koště",
+        "odpadky"
+      ],
+      "correct": "vysavač"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich räume mein Zimmer ___.",
+      "answer": "auf",
+      "hint_cz": "uklízím"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Besen",
+          "cz": "koště"
+        },
+        {
+          "target": "der Staub",
+          "cz": "prach"
+        },
+        {
+          "target": "der Müll",
+          "cz": "odpadky"
+        },
+        {
+          "target": "Geschirr spülen",
+          "cz": "mýt nádobí"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir putzen das Haus am Samstag.",
+      "tts_text": "Wir putzen das Haus am Samstag."
+    }
+  ]
+}

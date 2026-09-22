@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_feelings_emotions_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Wütend und ruhig",
+  "title_cz": "Naštvaný a klidný",
+  "vocabulary": [
+    {
+      "word": "wütend",
+      "translation_cz": "naštvaný",
+      "example": "Er ist wütend wegen des kaputten Spielzeugs.",
+      "example_cz": "Je naštvaný kvůli rozbité hračce.",
+      "tts_text": "Er ist wütend wegen des kaputten Spielzeugs."
+    },
+    {
+      "word": "ruhig",
+      "translation_cz": "klidný",
+      "example": "Atme tief durch und bleib ruhig.",
+      "example_cz": "Zhluboka se nadechni a zůstaň klidný.",
+      "tts_text": "Atme tief durch und bleib ruhig."
+    },
+    {
+      "word": "schreien",
+      "translation_cz": "křičet",
+      "example": "Bitte schrei nicht.",
+      "example_cz": "Prosím nekřič.",
+      "tts_text": "Bitte schrei nicht."
+    },
+    {
+      "word": "der tiefe Atemzug",
+      "translation_cz": "hluboký nádech",
+      "example": "Ich mache einen tiefen Atemzug, wenn ich aufgeregt bin.",
+      "example_cz": "Když se rozčílím, zhluboka se nadechnu.",
+      "tts_text": "Ich mache einen tiefen Atemzug, wenn ich aufgeregt bin."
+    },
+    {
+      "word": "frustriert",
+      "translation_cz": "frustrovaný",
+      "example": "Ich fühle mich frustriert mit dem Puzzle.",
+      "example_cz": "Cítím se frustrovaný z té skládačky.",
+      "tts_text": "Ich fühle mich frustriert mit dem Puzzle."
+    },
+    {
+      "word": "sich beruhigen",
+      "translation_cz": "zklidnit se",
+      "example": "Lass uns beruhigen und reden.",
+      "example_cz": "Pojďme se zklidnit a promluvit si.",
+      "tts_text": "Lass uns beruhigen und reden."
+    },
+    {
+      "word": "geduldig",
+      "translation_cz": "trpělivý",
+      "example": "Versuche, geduldig mit deinem Bruder zu sein.",
+      "example_cz": "Zkus být trpělivý na svého bratra.",
+      "tts_text": "Versuche, geduldig mit deinem Bruder zu sein."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "wütend",
+      "options": [
+        "naštvaný",
+        "smutný",
+        "radost"
+      ],
+      "correct": "naštvaný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Atme tief durch und bleib ___.",
+      "answer": "ruhig",
+      "hint_cz": "klidný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "ruhig",
+          "cz": "klidný"
+        },
+        {
+          "target": "schreien",
+          "cz": "křičet"
+        },
+        {
+          "target": "der tiefe Atemzug",
+          "cz": "hluboký nádech"
+        },
+        {
+          "target": "frustriert",
+          "cz": "frustrovaný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Er ist wütend wegen des kaputten Spielzeugs.",
+      "tts_text": "Er ist wütend wegen des kaputten Spielzeugs."
+    }
+  ]
+}

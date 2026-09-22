@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_project_management_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Project Budget Basics",
+  "title_cz": "Základy rozpočtu projektu",
+  "vocabulary": [
+    {
+      "word": "budget",
+      "translation_cz": "rozpočet",
+      "example": "The budget for this project is limited.",
+      "example_cz": "Rozpočet na tento projekt je omezený.",
+      "tts_text": "The budget for this project is limited."
+    },
+    {
+      "word": "cost overrun",
+      "translation_cz": "překročení nákladů",
+      "example": "We must avoid a cost overrun.",
+      "example_cz": "Musíme se vyhnout překročení nákladů.",
+      "tts_text": "We must avoid a cost overrun."
+    },
+    {
+      "word": "estimate",
+      "translation_cz": "odhad",
+      "example": "Can you give me a rough cost estimate?",
+      "example_cz": "Můžete mi dát hrubý odhad nákladů?",
+      "tts_text": "Can you give me a rough cost estimate?"
+    },
+    {
+      "word": "allocate",
+      "translation_cz": "vyčlenit",
+      "example": "We allocated more funds for testing.",
+      "example_cz": "Vyčlenili jsme více prostředků na testování.",
+      "tts_text": "We allocated more funds for testing."
+    },
+    {
+      "word": "expense",
+      "translation_cz": "výdaj",
+      "example": "Every expense must be approved.",
+      "example_cz": "Každý výdaj musí být schválen.",
+      "tts_text": "Every expense must be approved."
+    },
+    {
+      "word": "under budget",
+      "translation_cz": "pod rozpočtem",
+      "example": "We finished the phase under budget.",
+      "example_cz": "Fázi jsme dokončili pod rozpočtem.",
+      "tts_text": "We finished the phase under budget."
+    },
+    {
+      "word": "approve",
+      "translation_cz": "schválit",
+      "example": "The finance team needs to approve this.",
+      "example_cz": "Finanční tým to musí schválit.",
+      "tts_text": "The finance team needs to approve this."
+    },
+    {
+      "word": "forecast",
+      "translation_cz": "prognóza",
+      "example": "The cost forecast looks realistic.",
+      "example_cz": "Prognóza nákladů vypadá reálně.",
+      "tts_text": "The cost forecast looks realistic."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_budget_check",
+      "title": "Checking the project budget",
+      "title_cz": "Kontrola rozpočtu projektu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "How does the budget look for this quarter?",
+          "text_cz": "Jak vypadá rozpočet pro toto čtvrtletí?"
+        },
+        {
+          "speaker": "B",
+          "text": "We finished the last phase under budget, which is good news.",
+          "text_cz": "Poslední fázi jsme dokončili pod rozpočtem, což je dobrá zpráva."
+        },
+        {
+          "speaker": "A",
+          "text": "Great. Do we need to allocate more funds for the next phase?",
+          "text_cz": "Skvělé. Musíme vyčlenit více prostředků na další fázi?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, especially for testing. I'll send the estimate for approval.",
+          "text_cz": "Ano, hlavně na testování. Pošlu odhad ke schválení."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "budget",
+      "options": [
+        "rozpočet",
+        "odhad",
+        "vyčlenit"
+      ],
+      "correct": "rozpočet"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We must avoid a ___.",
+      "answer": "cost overrun",
+      "hint_cz": "překročení nákladů"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Every ___ must be approved.",
+      "answer": "expense",
+      "hint_cz": "výdaj"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "under budget",
+          "cz": "pod rozpočtem"
+        },
+        {
+          "target": "approve",
+          "cz": "schválit"
+        },
+        {
+          "target": "forecast",
+          "cz": "prognóza"
+        },
+        {
+          "target": "estimate",
+          "cz": "odhad"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "How does the budget look for this quarter?",
+      "tts_text": "How does the budget look for this quarter?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We finished the last phase under budget, which is good news.",
+      "tts_text": "We finished the last phase under budget, which is good news."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_body_health_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Face and Head",
+  "title_cz": "Obličej a hlava",
+  "vocabulary": [
+    {
+      "word": "das Gesicht",
+      "translation_cz": "obličej",
+      "example": "Ich wasche mein Gesicht.",
+      "example_cz": "Myji si obličej.",
+      "tts_text": "Ich wasche mein Gesicht."
+    },
+    {
+      "word": "die Haare",
+      "translation_cz": "vlasy",
+      "example": "Meine Haare sind kurz.",
+      "example_cz": "Mám krátké vlasy.",
+      "tts_text": "Meine Haare sind kurz."
+    },
+    {
+      "word": "die Zähne",
+      "translation_cz": "zuby",
+      "example": "Ich putze meine Zähne.",
+      "example_cz": "Čistím si zuby.",
+      "tts_text": "Ich putze meine Zähne."
+    },
+    {
+      "word": "die Wange",
+      "translation_cz": "tvář",
+      "example": "Das Baby hat runde Wangen.",
+      "example_cz": "Miminko má kulaté tváře.",
+      "tts_text": "Das Baby hat runde Wangen."
+    },
+    {
+      "word": "das Kinn",
+      "translation_cz": "brada",
+      "example": "Er hat ein kleines Kinn.",
+      "example_cz": "Má malou bradu.",
+      "tts_text": "Er hat ein kleines Kinn."
+    },
+    {
+      "word": "die Augenbraue",
+      "translation_cz": "obočí",
+      "example": "Ihre Augenbrauen sind dunkel.",
+      "example_cz": "Její obočí je tmavé.",
+      "tts_text": "Ihre Augenbrauen sind dunkel."
+    },
+    {
+      "word": "die Stirn",
+      "translation_cz": "čelo",
+      "example": "Meine Stirn ist heiß.",
+      "example_cz": "Mám horké čelo.",
+      "tts_text": "Meine Stirn ist heiß."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Gesicht",
+      "options": [
+        "obličej",
+        "vlasy",
+        "zuby"
+      ],
+      "correct": "obličej"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich putze meine ___.",
+      "answer": "Zähne",
+      "hint_cz": "zuby"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Wange",
+          "cz": "tvář"
+        },
+        {
+          "target": "das Kinn",
+          "cz": "brada"
+        },
+        {
+          "target": "die Augenbraue",
+          "cz": "obočí"
+        },
+        {
+          "target": "die Stirn",
+          "cz": "čelo"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich wasche mein Gesicht.",
+      "tts_text": "Ich wasche mein Gesicht."
+    }
+  ]
+}

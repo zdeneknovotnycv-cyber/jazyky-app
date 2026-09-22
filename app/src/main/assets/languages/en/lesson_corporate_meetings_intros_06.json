@@ -1,0 +1,138 @@
+{
+  "id": "en_adult_corporate_meetings_intros_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Small talk before a meeting",
+  "title_cz": "Konverzace před schůzkou",
+  "vocabulary": [
+    {
+      "word": "How was your weekend?",
+      "translation_cz": "Jaký jsi měl víkend?",
+      "example": "How was your weekend, Anna?",
+      "example_cz": "Jaký jsi měla víkend, Anno?",
+      "tts_text": "How was your weekend, Anna?"
+    },
+    {
+      "word": "traffic",
+      "translation_cz": "provoz / doprava",
+      "example": "The traffic was terrible this morning.",
+      "example_cz": "Doprava byla dnes ráno hrozná.",
+      "tts_text": "The traffic was terrible this morning."
+    },
+    {
+      "word": "grab a coffee",
+      "translation_cz": "dát si kávu",
+      "example": "Let's grab a coffee before we start.",
+      "example_cz": "Dejme si kávu, než začneme.",
+      "tts_text": "Let's grab a coffee before we start."
+    },
+    {
+      "word": "busy week",
+      "translation_cz": "náročný týden",
+      "example": "It's been a busy week for everyone.",
+      "example_cz": "Byl to náročný týden pro všechny.",
+      "tts_text": "It's been a busy week for everyone."
+    },
+    {
+      "word": "catch up",
+      "translation_cz": "pokecat si / doplnit se",
+      "example": "We should catch up soon.",
+      "example_cz": "Měli bychom si brzy pokecat.",
+      "tts_text": "We should catch up soon."
+    },
+    {
+      "word": "vacation",
+      "translation_cz": "dovolená",
+      "example": "How was your vacation last week?",
+      "example_cz": "Jaká byla vaše dovolená minulý týden?",
+      "tts_text": "How was your vacation last week?"
+    },
+    {
+      "word": "look forward to",
+      "translation_cz": "těšit se na",
+      "example": "I'm looking forward to the presentation.",
+      "example_cz": "Těším se na prezentaci.",
+      "tts_text": "I'm looking forward to the presentation."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_smalltalk_meeting",
+      "title": "Chatting before the meeting starts",
+      "title_cz": "Povídání před začátkem schůzky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi Anna, how was your weekend?",
+          "text_cz": "Ahoj Anno, jaký jsi měla víkend?"
+        },
+        {
+          "speaker": "B",
+          "text": "Pretty good, thanks. The traffic this morning was terrible though.",
+          "text_cz": "Docela dobrý, díky. Ale doprava byla dnes ráno hrozná."
+        },
+        {
+          "speaker": "A",
+          "text": "Same here. Do you want to grab a coffee before we start?",
+          "text_cz": "Tady taky. Chceš si dát kávu, než začneme?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, I'm looking forward to today's presentation anyway.",
+          "text_cz": "Jasně, na dnešní prezentaci se tak jako tak těším."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "traffic",
+      "options": [
+        "doprava",
+        "dovolená",
+        "týden"
+      ],
+      "correct": "doprava"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's ___ a coffee before we start.",
+      "answer": "grab",
+      "hint_cz": "dát si"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "busy week",
+          "cz": "náročný týden"
+        },
+        {
+          "target": "vacation",
+          "cz": "dovolená"
+        },
+        {
+          "target": "catch up",
+          "cz": "pokecat si"
+        },
+        {
+          "target": "look forward to",
+          "cz": "těšit se na"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "How was your weekend, Anna?",
+      "tts_text": "How was your weekend, Anna?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'm looking forward to the ___.",
+      "answer": "presentation",
+      "hint_cz": "prezentace"
+    }
+  ]
+}

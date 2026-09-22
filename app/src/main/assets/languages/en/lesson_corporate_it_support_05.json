@@ -1,0 +1,162 @@
+{
+  "id": "en_adult_corporate_it_support_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Explaining a Bug",
+  "title_cz": "Vysvětlení chyby (bugu)",
+  "vocabulary": [
+    {
+      "word": "bug",
+      "translation_cz": "chyba (v programu)",
+      "example": "I found a bug in the new version of the app.",
+      "example_cz": "Našel jsem chybu v nové verzi aplikace.",
+      "tts_text": "I found a bug in the new version of the app."
+    },
+    {
+      "word": "reproduce",
+      "translation_cz": "zopakovat (chybu)",
+      "example": "Can you reproduce the bug on your computer?",
+      "example_cz": "Dokážete tu chybu zopakovat na svém počítači?",
+      "tts_text": "Can you reproduce the bug on your computer?"
+    },
+    {
+      "word": "steps to reproduce",
+      "translation_cz": "kroky k zopakování",
+      "example": "Please list the exact steps to reproduce the issue.",
+      "example_cz": "Uveďte prosím přesné kroky k zopakování problému.",
+      "tts_text": "Please list the exact steps to reproduce the issue."
+    },
+    {
+      "word": "expected result",
+      "translation_cz": "očekávaný výsledek",
+      "example": "The expected result is a confirmation message.",
+      "example_cz": "Očekávaný výsledek je potvrzovací zpráva.",
+      "tts_text": "The expected result is a confirmation message."
+    },
+    {
+      "word": "actual result",
+      "translation_cz": "skutečný výsledek",
+      "example": "The actual result is that the page just goes blank.",
+      "example_cz": "Skutečný výsledek je, že se stránka jen zobrazí prázdná.",
+      "tts_text": "The actual result is that the page just goes blank."
+    },
+    {
+      "word": "screenshot",
+      "translation_cz": "snímek obrazovky",
+      "example": "I attached a screenshot of the error.",
+      "example_cz": "Přiložil jsem snímek obrazovky s chybou.",
+      "tts_text": "I attached a screenshot of the error."
+    },
+    {
+      "word": "browser",
+      "translation_cz": "prohlížeč",
+      "example": "Which browser were you using when it happened?",
+      "example_cz": "Jaký prohlížeč jste používal, když se to stalo?",
+      "tts_text": "Which browser were you using when it happened?"
+    },
+    {
+      "word": "fix",
+      "translation_cz": "oprava / opravit",
+      "example": "The developers are working on a fix.",
+      "example_cz": "Vývojáři pracují na opravě.",
+      "tts_text": "The developers are working on a fix."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_explain_bug",
+      "title": "Explaining a bug to IT",
+      "title_cz": "Vysvětlení chyby IT oddělení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I found a bug in the reporting tool. It crashes when I export a report.",
+          "text_cz": "Našel jsem chybu v nástroji pro reporty. Padá, když exportuji report."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay, can you tell me the exact steps to reproduce it?",
+          "text_cz": "Dobře, můžete mi říct přesné kroky k zopakování?"
+        },
+        {
+          "speaker": "A",
+          "text": "I open the report, click 'export', and choose PDF. Then it just closes.",
+          "text_cz": "Otevřu report, kliknu na 'export' a vyberu PDF. Pak se to prostě zavře."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you. Could you also send a screenshot and tell me which browser you use?",
+          "text_cz": "Děkuji. Mohl byste ještě poslat snímek obrazovky a říct, jaký prohlížeč používáte?"
+        }
+      ]
+    },
+    {
+      "id": "conv_expected_actual",
+      "title": "Expected vs actual result",
+      "title_cz": "Očekávaný vs. skutečný výsledek",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "The expected result is a downloaded file, but the actual result is an error page.",
+          "text_cz": "Očekávaný výsledek je stažený soubor, ale skutečný výsledek je chybová stránka."
+        },
+        {
+          "speaker": "B",
+          "text": "Got it, I'll pass this to the developers for a fix.",
+          "text_cz": "Rozumím, předám to vývojářům k opravě."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "reproduce",
+      "options": [
+        "zopakovat",
+        "oprava",
+        "prohlížeč"
+      ],
+      "correct": "zopakovat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I found a ___ in the new version of the app.",
+      "answer": "bug",
+      "hint_cz": "chybu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "expected result",
+          "cz": "očekávaný výsledek"
+        },
+        {
+          "target": "actual result",
+          "cz": "skutečný výsledek"
+        },
+        {
+          "target": "screenshot",
+          "cz": "snímek obrazovky"
+        },
+        {
+          "target": "fix",
+          "cz": "oprava"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Can you reproduce the bug on your computer?",
+      "tts_text": "Can you reproduce the bug on your computer?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The developers are working on a ___.",
+      "answer": "fix",
+      "hint_cz": "opravě"
+    }
+  ]
+}

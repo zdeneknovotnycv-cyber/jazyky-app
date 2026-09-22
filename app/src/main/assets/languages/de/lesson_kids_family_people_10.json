@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_family_people_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Family Photos and Memories",
+  "title_cz": "Rodinné fotky a vzpomínky",
+  "vocabulary": [
+    {
+      "word": "das Foto",
+      "translation_cz": "fotka",
+      "example": "Das ist ein Foto von meiner Familie.",
+      "example_cz": "Tohle je fotka mé rodiny.",
+      "tts_text": "Das ist ein Foto von meiner Familie."
+    },
+    {
+      "word": "das Album",
+      "translation_cz": "album",
+      "example": "Wir haben ein Fotoalbum.",
+      "example_cz": "Máme fotoalbum.",
+      "tts_text": "Wir haben ein Fotoalbum."
+    },
+    {
+      "word": "die Erinnerung",
+      "translation_cz": "vzpomínka",
+      "example": "Das ist eine schöne Erinnerung.",
+      "example_cz": "Tohle je šťastná vzpomínka.",
+      "tts_text": "Das ist eine schöne Erinnerung."
+    },
+    {
+      "word": "sich erinnern",
+      "translation_cz": "vzpomínat si",
+      "example": "Ich erinnere mich an diesen Tag.",
+      "example_cz": "Vzpomínám si na ten den.",
+      "tts_text": "Ich erinnere mich an diesen Tag."
+    },
+    {
+      "word": "der Urlaub",
+      "translation_cz": "dovolená",
+      "example": "Dieses Foto ist von unserem Urlaub.",
+      "example_cz": "Tahle fotka je z naší dovolené.",
+      "tts_text": "Dieses Foto ist von unserem Urlaub."
+    },
+    {
+      "word": "für das Foto lächeln",
+      "translation_cz": "usmát se na fotku",
+      "example": "Alle haben für das Foto gelächelt.",
+      "example_cz": "Všichni se usmáli na fotku.",
+      "tts_text": "Alle haben für das Foto gelächelt."
+    },
+    {
+      "word": "altes Foto",
+      "translation_cz": "stará fotka",
+      "example": "Das ist ein altes Foto von meiner Oma.",
+      "example_cz": "Tohle je stará fotka mé babičky.",
+      "tts_text": "Das ist ein altes Foto von meiner Oma."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Foto",
+      "options": [
+        "fotka",
+        "vzpomínka",
+        "dovolená"
+      ],
+      "correct": "fotka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir haben ein Foto___.",
+      "answer": "album",
+      "hint_cz": "album"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Erinnerung",
+          "cz": "vzpomínka"
+        },
+        {
+          "target": "sich erinnern",
+          "cz": "vzpomínat si"
+        },
+        {
+          "target": "der Urlaub",
+          "cz": "dovolená"
+        },
+        {
+          "target": "altes Foto",
+          "cz": "stará fotka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das ist ein Foto von meiner Familie.",
+      "tts_text": "Das ist ein Foto von meiner Familie."
+    }
+  ]
+}

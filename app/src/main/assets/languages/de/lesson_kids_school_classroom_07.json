@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_school_classroom_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "School Lunch",
+  "title_cz": "Školní oběd",
+  "vocabulary": [
+    {
+      "word": "das Mittagessen",
+      "translation_cz": "oběd",
+      "example": "Wir essen um zwölf Uhr Mittagessen.",
+      "example_cz": "Oběd jíme v poledne.",
+      "tts_text": "Wir essen um zwölf Uhr Mittagessen."
+    },
+    {
+      "word": "die Mensa",
+      "translation_cz": "jídelna",
+      "example": "Die Mensa ist unten.",
+      "example_cz": "Jídelna je dole.",
+      "tts_text": "Die Mensa ist unten."
+    },
+    {
+      "word": "das Tablett",
+      "translation_cz": "tác",
+      "example": "Ich trage mein Tablett vorsichtig.",
+      "example_cz": "Nosím svůj tác opatrně.",
+      "tts_text": "Ich trage mein Tablett vorsichtig."
+    },
+    {
+      "word": "die Suppe",
+      "translation_cz": "polévka",
+      "example": "Die Suppe ist heiß.",
+      "example_cz": "Polévka je horká.",
+      "tts_text": "Die Suppe ist heiß."
+    },
+    {
+      "word": "hungrig",
+      "translation_cz": "hladový",
+      "example": "Ich bin vor dem Mittagessen hungrig.",
+      "example_cz": "Před obědem jsem hladový.",
+      "tts_text": "Ich bin vor dem Mittagessen hungrig."
+    },
+    {
+      "word": "lecker",
+      "translation_cz": "výborný",
+      "example": "Das Mittagessen ist heute lecker.",
+      "example_cz": "Dnešní oběd je výborný.",
+      "tts_text": "Das Mittagessen ist heute lecker."
+    },
+    {
+      "word": "teilen",
+      "translation_cz": "sdílet",
+      "example": "Ich teile meinen Snack mit einem Freund.",
+      "example_cz": "Sdílím svou svačinu s kamarádem.",
+      "tts_text": "Ich teile meinen Snack mit einem Freund."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Mensa",
+      "options": [
+        "jídelna",
+        "tác",
+        "polévka"
+      ],
+      "correct": "jídelna"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bin vor dem Mittagessen ___.",
+      "answer": "hungrig",
+      "hint_cz": "hladový"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Mittagessen",
+          "cz": "oběd"
+        },
+        {
+          "target": "das Tablett",
+          "cz": "tác"
+        },
+        {
+          "target": "die Suppe",
+          "cz": "polévka"
+        },
+        {
+          "target": "lecker",
+          "cz": "výborný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich teile meinen Snack mit einem Freund.",
+      "tts_text": "Ich teile meinen Snack mit einem Freund."
+    }
+  ]
+}

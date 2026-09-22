@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_negotiation_sales_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Höflich Zusatzverkäufe anbieten",
+  "title_cz": "Zdvořilé doprodávání",
+  "vocabulary": [
+    {
+      "word": "das Upgrade",
+      "translation_cz": "vylepšení / upgrade",
+      "example": "Möchten Sie auf den Premium-Plan upgraden?",
+      "example_cz": "Chtěli byste přejít na prémiový plán?",
+      "tts_text": "Möchten Sie auf den Premium-Plan upgraden?"
+    },
+    {
+      "word": "die Zusatzoption",
+      "translation_cz": "doplněk",
+      "example": "Diese Zusatzoption enthält zusätzlichen Speicherplatz.",
+      "example_cz": "Tento doplněk zahrnuje dodatečné úložiště.",
+      "tts_text": "Diese Zusatzoption enthält zusätzlichen Speicherplatz."
+    },
+    {
+      "word": "das Paket",
+      "translation_cz": "balíček",
+      "example": "Wir bieten ein Paket an, das Ihnen Geld spart.",
+      "example_cz": "Nabízíme balíček, který vám ušetří peníze.",
+      "tts_text": "Wir bieten ein Paket an, das Ihnen Geld spart."
+    },
+    {
+      "word": "erwägenswert",
+      "translation_cz": "stojí za zvážení",
+      "example": "Diese Option ist für Ihre Bedürfnisse erwägenswert.",
+      "example_cz": "Tato možnost stojí pro vaše potřeby za zvážení.",
+      "tts_text": "Diese Option ist für Ihre Bedürfnisse erwägenswert."
+    },
+    {
+      "word": "kein Druck",
+      "translation_cz": "žádný nátlak",
+      "example": "Kein Druck, ich wollte es nur erwähnen.",
+      "example_cz": "Žádný nátlak, jen jsem to chtěl zmínit.",
+      "tts_text": "Kein Druck, ich wollte es nur erwähnen."
+    },
+    {
+      "word": "der zusätzliche Nutzen",
+      "translation_cz": "dodatečná hodnota",
+      "example": "Das bietet Ihnen zusätzlichen Nutzen für einen kleinen Preisunterschied.",
+      "example_cz": "To vám dává dodatečnou hodnotu za malý cenový rozdíl.",
+      "tts_text": "Das bietet Ihnen zusätzlichen Nutzen für einen kleinen Preisunterschied."
+    },
+    {
+      "word": "der Premium-Plan",
+      "translation_cz": "prémiový plán",
+      "example": "Unser Premium-Plan enthält bevorzugten Support.",
+      "example_cz": "Náš prémiový plán zahrnuje prioritní podporu.",
+      "tts_text": "Unser Premium-Plan enthält bevorzugten Support."
+    },
+    {
+      "word": "Ihren Bedürfnissen entsprechen",
+      "translation_cz": "vyhovovat vašim potřebám",
+      "example": "Lassen Sie uns die Option finden, die Ihren Bedürfnissen am besten entspricht.",
+      "example_cz": "Najděme možnost, která nejlépe vyhovuje vašim potřebám.",
+      "tts_text": "Lassen Sie uns die Option finden, die Ihren Bedürfnissen am besten entspricht."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_upsell",
+      "title": "Ein Upgrade vorschlagen",
+      "title_cz": "Návrh na upgrade",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Möchten Sie auf den Premium-Plan upgraden? Er enthält bevorzugten Support.",
+          "text_cz": "Chtěli byste přejít na prémiový plán? Zahrnuje prioritní podporu."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich bin nicht sicher, ob wir das jetzt brauchen.",
+          "text_cz": "Nejsem si jistý, že to teď potřebujeme."
+        },
+        {
+          "speaker": "A",
+          "text": "Kein Druck, es ist nur angesichts Ihres wachsenden Teams erwägenswert.",
+          "text_cz": "Žádný nátlak, jen to stojí za zvážení vzhledem k rostoucímu týmu."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay, schicken Sie mir die Details und ich denke darüber nach.",
+          "text_cz": "Dobře, pošlete mi podrobnosti a já se nad tím zamyslím."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Upgrade",
+      "options": [
+        "vylepšení / upgrade",
+        "balíček",
+        "stojí za zvážení"
+      ],
+      "correct": "vylepšení / upgrade"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Diese Zusatzoption enthält zusätzlichen Speicherplatz.",
+      "answer": "die Zusatzoption",
+      "hint_cz": "doplněk"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Kein Druck, ich wollte es nur erwähnen.",
+      "answer": "kein Druck",
+      "hint_cz": "žádný nátlak"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der zusätzliche Nutzen",
+          "cz": "dodatečná hodnota"
+        },
+        {
+          "target": "der Premium-Plan",
+          "cz": "prémiový plán"
+        },
+        {
+          "target": "Ihren Bedürfnissen entsprechen",
+          "cz": "vyhovovat vašim potřebám"
+        },
+        {
+          "target": "das Paket",
+          "cz": "balíček"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Möchten Sie auf den Premium-Plan upgraden? Er enthält bevorzugten Support.",
+      "tts_text": "Möchten Sie auf den Premium-Plan upgraden? Er enthält bevorzugten Support."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich bin nicht sicher, ob wir das jetzt brauchen.",
+      "tts_text": "Ich bin nicht sicher, ob wir das jetzt brauchen."
+    }
+  ]
+}

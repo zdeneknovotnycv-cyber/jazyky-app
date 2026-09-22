@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_shopping_kids_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Taschengeld",
+  "title_cz": "Kapesné",
+  "vocabulary": [
+    {
+      "word": "das Taschengeld",
+      "translation_cz": "kapesné",
+      "example": "Ich spare mein Taschengeld.",
+      "example_cz": "Šetřím si kapesné.",
+      "tts_text": "Ich spare mein Taschengeld."
+    },
+    {
+      "word": "sparen",
+      "translation_cz": "šetřit",
+      "example": "Ich spare Geld für ein neues Spielzeug.",
+      "example_cz": "Šetřím peníze na novou hračku.",
+      "tts_text": "Ich spare Geld für ein neues Spielzeug."
+    },
+    {
+      "word": "die Münze",
+      "translation_cz": "mince",
+      "example": "Ich habe eine glänzende Münze.",
+      "example_cz": "Mám lesklou minci.",
+      "tts_text": "Ich habe eine glänzende Münze."
+    },
+    {
+      "word": "das Sparschwein",
+      "translation_cz": "prasátko, pokladnička",
+      "example": "Ich bewahre Geld im Sparschwein auf.",
+      "example_cz": "Peníze si dávám do prasátka.",
+      "tts_text": "Ich bewahre Geld im Sparschwein auf."
+    },
+    {
+      "word": "ausgeben",
+      "translation_cz": "utratit",
+      "example": "Ich möchte nicht alles ausgeben.",
+      "example_cz": "Nechci to všechno utratit.",
+      "tts_text": "Ich möchte nicht alles ausgeben."
+    },
+    {
+      "word": "verdienen",
+      "translation_cz": "vydělat",
+      "example": "Ich verdiene Geld, indem ich zu Hause helfe.",
+      "example_cz": "Peníze vydělávám pomocí doma.",
+      "tts_text": "Ich verdiene Geld, indem ich zu Hause helfe."
+    },
+    {
+      "word": "genug",
+      "translation_cz": "dost",
+      "example": "Ich habe noch nicht genug Geld.",
+      "example_cz": "Ještě nemám dost peněz.",
+      "tts_text": "Ich habe noch nicht genug Geld."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Taschengeld",
+      "options": [
+        "kapesné",
+        "šetřit",
+        "mince"
+      ],
+      "correct": "kapesné"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ Geld für ein neues Spielzeug.",
+      "answer": "spare",
+      "hint_cz": "šetřit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Münze",
+          "cz": "mince"
+        },
+        {
+          "target": "das Sparschwein",
+          "cz": "prasátko, pokladnička"
+        },
+        {
+          "target": "ausgeben",
+          "cz": "utratit"
+        },
+        {
+          "target": "verdienen",
+          "cz": "vydělat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe noch nicht genug Geld.",
+      "tts_text": "Ich habe noch nicht genug Geld."
+    }
+  ]
+}

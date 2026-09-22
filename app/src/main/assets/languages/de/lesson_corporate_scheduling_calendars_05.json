@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_scheduling_calendars_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Zeitzonen bei der Terminplanung",
+  "title_cz": "Časová pásma při plánování schůzek",
+  "vocabulary": [
+    {
+      "word": "in welcher Zeitzone sind Sie?",
+      "translation_cz": "v jakém jste časovém pásmu?",
+      "example": "Entschuldigung, in welcher Zeitzone sind Sie?",
+      "example_cz": "Promiňte, v jakém jste časovém pásmu?",
+      "tts_text": "Entschuldigung, in welcher Zeitzone sind Sie?"
+    },
+    {
+      "word": "das ist bei Ihnen neun Uhr morgens",
+      "translation_cz": "to je u vás devět ráno",
+      "example": "Fünfzehn Uhr hier ist bei Ihnen neun Uhr morgens.",
+      "example_cz": "Tři odpoledne u nás je u vás devět ráno.",
+      "tts_text": "Fünfzehn Uhr hier ist bei Ihnen neun Uhr morgens."
+    },
+    {
+      "word": "es gibt einen Unterschied von sechs Stunden",
+      "translation_cz": "je tam šestihodinový rozdíl",
+      "example": "Es gibt einen Unterschied von sechs Stunden zwischen unseren Büros.",
+      "example_cz": "Mezi našimi kancelářemi je šestihodinový rozdíl.",
+      "tts_text": "Es gibt einen Unterschied von sechs Stunden zwischen unseren Büros."
+    },
+    {
+      "word": "nehmen wir die mitteleuropäische Zeit",
+      "translation_cz": "použijme středoevropský čas",
+      "example": "Nehmen wir die mitteleuropäische Zeit, um Verwirrung zu vermeiden.",
+      "example_cz": "Použijme středoevropský čas, abychom předešli zmatkům.",
+      "tts_text": "Nehmen wir die mitteleuropäische Zeit, um Verwirrung zu vermeiden."
+    },
+    {
+      "word": "könnten Sie die Umrechnung überprüfen?",
+      "translation_cz": "mohl byste zkontrolovat převod?",
+      "example": "Könnten Sie bitte die Zeitumrechnung überprüfen?",
+      "example_cz": "Mohl byste prosím zkontrolovat převod času?",
+      "tts_text": "Könnten Sie bitte die Zeitumrechnung überprüfen?"
+    },
+    {
+      "word": "die Sommerzeit",
+      "translation_cz": "letní čas",
+      "example": "Denken Sie daran, dass die Sommerzeit nächste Woche beginnt.",
+      "example_cz": "Nezapomeňte, že příští týden začíná letní čas.",
+      "tts_text": "Denken Sie daran, dass die Sommerzeit nächste Woche beginnt."
+    },
+    {
+      "word": "die Einladung zeigt Ihre Ortszeit",
+      "translation_cz": "pozvánka zobrazí váš místní čas",
+      "example": "Die Kalendereinladung zeigt automatisch Ihre Ortszeit.",
+      "example_cz": "Pozvánka do kalendáře automaticky zobrazí váš místní čas.",
+      "tts_text": "Die Kalendereinladung zeigt automatisch Ihre Ortszeit."
+    },
+    {
+      "word": "der frühe Morgen passt uns besser",
+      "translation_cz": "brzké ráno nám vyhovuje lépe",
+      "example": "Der frühe Morgen passt uns wegen der Zeitverschiebung besser.",
+      "example_cz": "Brzké ráno nám kvůli časovému rozdílu vyhovuje lépe.",
+      "tts_text": "Der frühe Morgen passt uns wegen der Zeitverschiebung besser."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_zeitzonen",
+      "title": "Einen Anruf über Zeitzonen hinweg koordinieren",
+      "title_cz": "Koordinace hovoru napříč časovými pásmy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Entschuldigung, in welcher Zeitzone sind Sie? Wir müssen den Anruf sorgfältig planen.",
+          "text_cz": "Promiňte, v jakém jste časovém pásmu? Musíme hovor pečlivě naplánovat."
+        },
+        {
+          "speaker": "B",
+          "text": "Wir sind in New York, also gibt es einen Unterschied von sechs Stunden zwischen unseren Büros.",
+          "text_cz": "Jsme v New Yorku, takže mezi našimi kancelářemi je šestihodinový rozdíl."
+        },
+        {
+          "speaker": "A",
+          "text": "Gut, also fünfzehn Uhr hier ist bei Ihnen neun Uhr morgens. Nehmen wir diese Zeit.",
+          "text_cz": "Dobře, takže tři odpoledne u nás je u vás devět ráno. Použijme tento čas."
+        },
+        {
+          "speaker": "B",
+          "text": "Klingt gut. Der frühe Morgen passt uns sowieso besser.",
+          "text_cz": "Zní to dobře. Brzké ráno nám stejně vyhovuje lépe."
+        },
+        {
+          "speaker": "A",
+          "text": "Super, die Einladung zeigt automatisch Ihre Ortszeit.",
+          "text_cz": "Skvělé, pozvánka automaticky zobrazí váš místní čas."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "In welcher Zeitzone sind Sie?",
+      "options": [
+        "V jakém jste časovém pásmu?",
+        "Nehmen wir die mitteleuropäische Zeit.",
+        "Die Sommerzeit beginnt."
+      ],
+      "correct": "V jakém jste časovém pásmu?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es gibt einen ___ von sechs Stunden zwischen unseren Büros.",
+      "answer": "Unterschied",
+      "hint_cz": "rozdíl"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "die Sommerzeit", "cz": "letní čas" },
+        { "target": "könnten Sie die Umrechnung überprüfen?", "cz": "mohl byste zkontrolovat převod?" },
+        { "target": "nehmen wir die mitteleuropäische Zeit", "cz": "použijme středoevropský čas" },
+        { "target": "der frühe Morgen passt uns besser", "cz": "brzké ráno nám vyhovuje lépe" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Fünfzehn Uhr hier ist bei Ihnen neun Uhr morgens.",
+      "tts_text": "Fünfzehn Uhr hier ist bei Ihnen neun Uhr morgens."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Einladung zeigt automatisch Ihre ___.",
+      "answer": "Ortszeit",
+      "hint_cz": "místní čas"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Denken Sie daran, dass die Sommerzeit nächste Woche beginnt.",
+      "tts_text": "Denken Sie daran, dass die Sommerzeit nächste Woche beginnt."
+    }
+  ]
+}

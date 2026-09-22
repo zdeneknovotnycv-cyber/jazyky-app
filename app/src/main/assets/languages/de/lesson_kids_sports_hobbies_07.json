@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_sports_hobbies_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Bücher Lesen",
+  "title_cz": "Čtení knížek",
+  "vocabulary": [
+    {
+      "word": "das Buch",
+      "translation_cz": "kniha",
+      "example": "Ich lese ein neues Buch.",
+      "example_cz": "Čtu novou knihu.",
+      "tts_text": "Ich lese ein neues Buch."
+    },
+    {
+      "word": "die Geschichte",
+      "translation_cz": "příběh",
+      "example": "Diese Geschichte ist spannend.",
+      "example_cz": "Tento příběh je vzrušující.",
+      "tts_text": "Diese Geschichte ist spannend."
+    },
+    {
+      "word": "die Seite",
+      "translation_cz": "stránka",
+      "example": "Ich bin auf Seite zehn.",
+      "example_cz": "Jsem na desáté stránce.",
+      "tts_text": "Ich bin auf Seite zehn."
+    },
+    {
+      "word": "lesen",
+      "translation_cz": "číst",
+      "example": "Ich lese vor dem Schlafen.",
+      "example_cz": "Čtu si před spaním.",
+      "tts_text": "Ich lese vor dem Schlafen."
+    },
+    {
+      "word": "die Bücherei",
+      "translation_cz": "knihovna",
+      "example": "Wir besuchen jede Woche die Bücherei.",
+      "example_cz": "Do knihovny chodíme každý týden.",
+      "tts_text": "Wir besuchen jede Woche die Bücherei."
+    },
+    {
+      "word": "die Figur",
+      "translation_cz": "postava (v příběhu)",
+      "example": "Meine Lieblingsfigur ist ein Drache.",
+      "example_cz": "Moje oblíbená postava je drak.",
+      "tts_text": "Meine Lieblingsfigur ist ein Drache."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Buch",
+      "options": [
+        "kniha",
+        "stránka",
+        "příběh"
+      ],
+      "correct": "kniha"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ vor dem Schlafen.",
+      "answer": "lese",
+      "hint_cz": "čtu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Geschichte",
+          "cz": "příběh"
+        },
+        {
+          "target": "die Seite",
+          "cz": "stránka"
+        },
+        {
+          "target": "die Bücherei",
+          "cz": "knihovna"
+        },
+        {
+          "target": "die Figur",
+          "cz": "postava (v příběhu)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich lese ein neues Buch.",
+      "tts_text": "Ich lese ein neues Buch."
+    }
+  ]
+}

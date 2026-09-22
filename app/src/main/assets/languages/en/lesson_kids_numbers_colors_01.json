@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_numbers_colors_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Numbers 1-10",
+  "title_cz": "Čísla 1 až 10",
+  "vocabulary": [
+    {
+      "word": "one",
+      "translation_cz": "jedna",
+      "example": "I have one apple.",
+      "example_cz": "Mám jedno jablko.",
+      "tts_text": "I have one apple."
+    },
+    {
+      "word": "two",
+      "translation_cz": "dva",
+      "example": "I have two eyes.",
+      "example_cz": "Mám dvě oči.",
+      "tts_text": "I have two eyes."
+    },
+    {
+      "word": "three",
+      "translation_cz": "tři",
+      "example": "I see three birds.",
+      "example_cz": "Vidím tři ptáky.",
+      "tts_text": "I see three birds."
+    },
+    {
+      "word": "five",
+      "translation_cz": "pět",
+      "example": "I have five fingers.",
+      "example_cz": "Mám pět prstů.",
+      "tts_text": "I have five fingers."
+    },
+    {
+      "word": "seven",
+      "translation_cz": "sedm",
+      "example": "There are seven days in a week.",
+      "example_cz": "Týden má sedm dní.",
+      "tts_text": "There are seven days in a week."
+    },
+    {
+      "word": "nine",
+      "translation_cz": "devět",
+      "example": "The bus has nine seats free.",
+      "example_cz": "Autobus má devět volných míst.",
+      "tts_text": "The bus has nine seats free."
+    },
+    {
+      "word": "ten",
+      "translation_cz": "deset",
+      "example": "I can count to ten.",
+      "example_cz": "Umím počítat do deseti.",
+      "tts_text": "I can count to ten."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "seven",
+      "options": [
+        "sedm",
+        "pět",
+        "tři"
+      ],
+      "correct": "sedm"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I can count to ___.",
+      "answer": "ten",
+      "hint_cz": "deseti"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "one",
+          "cz": "jedna"
+        },
+        {
+          "target": "two",
+          "cz": "dva"
+        },
+        {
+          "target": "three",
+          "cz": "tři"
+        },
+        {
+          "target": "five",
+          "cz": "pět"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "There are seven days in a week.",
+      "tts_text": "There are seven days in a week."
+    }
+  ]
+}

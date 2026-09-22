@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_customer_service_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Explaining a delay",
+  "title_cz": "Vysvětlení zpoždění",
+  "vocabulary": [
+    {
+      "word": "due to unforeseen circumstances",
+      "translation_cz": "kvůli nepředvídaným okolnostem",
+      "example": "Due to unforeseen circumstances, the shipment is delayed.",
+      "example_cz": "Kvůli nepředvídaným okolnostem je zásilka zpožděna.",
+      "tts_text": "Due to unforeseen circumstances, the shipment is delayed."
+    },
+    {
+      "word": "estimated delivery time",
+      "translation_cz": "odhadovaný čas doručení",
+      "example": "The estimated delivery time is now Friday.",
+      "example_cz": "Odhadovaný čas doručení je nyní pátek.",
+      "tts_text": "The estimated delivery time is now Friday."
+    },
+    {
+      "word": "supply chain issue",
+      "translation_cz": "problém v dodavatelském řetězci",
+      "example": "We are experiencing a supply chain issue.",
+      "example_cz": "Zažíváme problém v dodavatelském řetězci.",
+      "tts_text": "We are experiencing a supply chain issue."
+    },
+    {
+      "word": "we appreciate your patience",
+      "translation_cz": "vážíme si vaší trpělivosti",
+      "example": "We appreciate your patience during this delay.",
+      "example_cz": "Vážíme si vaší trpělivosti během tohoto zpoždění.",
+      "tts_text": "We appreciate your patience during this delay."
+    },
+    {
+      "word": "update you",
+      "translation_cz": "informovat vás",
+      "example": "We will update you as soon as we know more.",
+      "example_cz": "Budeme vás informovat, jakmile budeme vědět více.",
+      "tts_text": "We will update you as soon as we know more."
+    },
+    {
+      "word": "behind schedule",
+      "translation_cz": "ve skluzu, opožděn",
+      "example": "Unfortunately, we are behind schedule.",
+      "example_cz": "Bohužel jsme ve skluzu.",
+      "tts_text": "Unfortunately, we are behind schedule."
+    },
+    {
+      "word": "track your order",
+      "translation_cz": "sledovat vaši objednávku",
+      "example": "You can track your order using this link.",
+      "example_cz": "Vaši objednávku můžete sledovat pomocí tohoto odkazu.",
+      "tts_text": "You can track your order using this link."
+    },
+    {
+      "word": "as soon as possible",
+      "translation_cz": "co nejdříve",
+      "example": "We will ship it as soon as possible.",
+      "example_cz": "Odešleme to co nejdříve.",
+      "tts_text": "We will ship it as soon as possible."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_04",
+      "title": "Explaining a shipping delay to a customer",
+      "title_cz": "Vysvětlení zpoždění zásilky zákazníkovi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm calling about my order. Why is it late?",
+          "text_cz": "Volám ohledně své objednávky. Proč má zpoždění?"
+        },
+        {
+          "speaker": "B",
+          "text": "Due to unforeseen circumstances, we are experiencing a supply chain issue.",
+          "text_cz": "Kvůli nepředvídaným okolnostem zažíváme problém v dodavatelském řetězci."
+        },
+        {
+          "speaker": "A",
+          "text": "I see. What is the new estimated delivery time?",
+          "text_cz": "Chápu. Jaký je nový odhadovaný čas doručení?"
+        },
+        {
+          "speaker": "B",
+          "text": "It should arrive by Friday. We appreciate your patience.",
+          "text_cz": "Mělo by to dorazit do pátku. Vážíme si vaší trpělivosti."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "we appreciate your patience",
+      "options": [
+        "vážíme si vaší trpělivosti",
+        "sledovat vaši objednávku",
+        "co nejdříve"
+      ],
+      "correct": "vážíme si vaší trpělivosti"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ delivery time is now Friday.",
+      "answer": "estimated",
+      "hint_cz": "odhadovaný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "supply chain issue",
+          "cz": "problém v dodavatelském řetězci"
+        },
+        {
+          "target": "behind schedule",
+          "cz": "ve skluzu, opožděn"
+        },
+        {
+          "target": "track your order",
+          "cz": "sledovat vaši objednávku"
+        },
+        {
+          "target": "update you",
+          "cz": "informovat vás"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We will update you as soon as we know more.",
+      "tts_text": "We will update you as soon as we know more."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We will ship it as soon as ___.",
+      "answer": "possible",
+      "hint_cz": "možné"
+    }
+  ]
+}

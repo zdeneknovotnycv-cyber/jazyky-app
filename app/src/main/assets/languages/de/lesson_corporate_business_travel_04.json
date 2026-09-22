@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_business_travel_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Auto für die Geschäftsreise mieten",
+  "title_cz": "Pronájem auta na služební cestu",
+  "vocabulary": [
+    {
+      "word": "ein Auto mieten",
+      "translation_cz": "pronajmout si auto",
+      "example": "Ich möchte ein Auto für drei Tage mieten.",
+      "example_cz": "Rád bych si pronajal auto na tři dny.",
+      "tts_text": "Ich möchte ein Auto für drei Tage mieten."
+    },
+    {
+      "word": "der Führerschein",
+      "translation_cz": "řidičský průkaz",
+      "example": "Haben Sie Ihren Führerschein dabei?",
+      "example_cz": "Máte u sebe řidičský průkaz?",
+      "tts_text": "Haben Sie Ihren Führerschein dabei?"
+    },
+    {
+      "word": "die Vollkaskoversicherung",
+      "translation_cz": "plné pojištění",
+      "example": "Ich möchte eine Vollkaskoversicherung dazu buchen.",
+      "example_cz": "Rád bych přidal plné pojištění.",
+      "tts_text": "Ich möchte eine Vollkaskoversicherung dazu buchen."
+    },
+    {
+      "word": "die Automatikschaltung",
+      "translation_cz": "automatická převodovka",
+      "example": "Ich bevorzuge ein Auto mit Automatikschaltung.",
+      "example_cz": "Preferuji auto s automatickou převodovkou.",
+      "tts_text": "Ich bevorzuge ein Auto mit Automatikschaltung."
+    },
+    {
+      "word": "das Auto abholen",
+      "translation_cz": "vyzvednout auto",
+      "example": "Wo kann ich das Auto abholen?",
+      "example_cz": "Kde si mohu vyzvednout auto?",
+      "tts_text": "Wo kann ich das Auto abholen?"
+    },
+    {
+      "word": "das Auto zurückgeben",
+      "translation_cz": "vrátit auto",
+      "example": "Ich muss das Auto bis Freitag zurückgeben.",
+      "example_cz": "Musím vrátit auto do pátku.",
+      "tts_text": "Ich muss das Auto bis Freitag zurückgeben."
+    },
+    {
+      "word": "die Kilometerbegrenzung",
+      "translation_cz": "limit najetých kilometrů",
+      "example": "Gibt es eine Kilometerbegrenzung?",
+      "example_cz": "Je tam nějaký limit najetých kilometrů?",
+      "tts_text": "Gibt es eine Kilometerbegrenzung?"
+    },
+    {
+      "word": "die Tankregelung",
+      "translation_cz": "palivová politika",
+      "example": "Wie ist Ihre Tankregelung?",
+      "example_cz": "Jaká je vaše palivová politika?",
+      "tts_text": "Wie ist Ihre Tankregelung?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_auto_mieten",
+      "title": "Ein Auto am Flughafen mieten",
+      "title_cz": "Pronájem auta na letišti",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich möchte bitte ein Auto für drei Tage mieten.",
+          "text_cz": "Rád bych si pronajal auto na tři dny, prosím."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar. Haben Sie Ihren Führerschein dabei?",
+          "text_cz": "Jistě. Máte u sebe řidičský průkaz?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, hier ist er. Ich möchte auch ein Auto mit Automatikschaltung und Vollkaskoversicherung.",
+          "text_cz": "Ano, tady je. Rád bych také auto s automatickou převodovkou a plným pojištěním."
+        },
+        {
+          "speaker": "B",
+          "text": "Kein Problem. Sonst noch etwas? Wie ist übrigens die Tankregelung?",
+          "text_cz": "Žádný problém. Ještě něco? Mimochodem, jaká je palivová politika?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sie geben es vollgetankt zurück, genauso wie Sie es erhalten.",
+          "text_cz": "Vracíte ho plné, stejně jako ho dostáváte."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Führerschein",
+      "options": [
+        "řidičský průkaz",
+        "plné pojištění",
+        "limit najetých kilometrů"
+      ],
+      "correct": "řidičský průkaz"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich möchte ein ___ für drei Tage mieten.",
+      "answer": "Auto",
+      "hint_cz": "auto"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Gibt es eine ___?",
+      "answer": "Kilometerbegrenzung",
+      "hint_cz": "limit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Automatikschaltung",
+          "cz": "automatická převodovka"
+        },
+        {
+          "target": "das Auto abholen",
+          "cz": "vyzvednout auto"
+        },
+        {
+          "target": "das Auto zurückgeben",
+          "cz": "vrátit auto"
+        },
+        {
+          "target": "die Tankregelung",
+          "cz": "palivová politika"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich möchte ein Auto für drei Tage mieten.",
+      "tts_text": "Ich möchte ein Auto für drei Tage mieten."
+    }
+  ]
+}

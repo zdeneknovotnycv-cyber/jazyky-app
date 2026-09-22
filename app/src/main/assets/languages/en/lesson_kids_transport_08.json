@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_transport_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Boats and ships",
+  "title_cz": "Lodě",
+  "vocabulary": [
+    {
+      "word": "boat",
+      "translation_cz": "loďka",
+      "example": "We row a small boat.",
+      "example_cz": "Veslujeme na malé loďce.",
+      "tts_text": "We row a small boat."
+    },
+    {
+      "word": "ship",
+      "translation_cz": "loď",
+      "example": "The big ship sails on the sea.",
+      "example_cz": "Velká loď pluje po moři.",
+      "tts_text": "The big ship sails on the sea."
+    },
+    {
+      "word": "sail",
+      "translation_cz": "plachta",
+      "example": "The wind fills the sail.",
+      "example_cz": "Vítr napíná plachtu.",
+      "tts_text": "The wind fills the sail."
+    },
+    {
+      "word": "captain",
+      "translation_cz": "kapitán",
+      "example": "The captain steers the ship.",
+      "example_cz": "Kapitán řídí loď.",
+      "tts_text": "The captain steers the ship."
+    },
+    {
+      "word": "harbor",
+      "translation_cz": "přístav",
+      "example": "The ship stops at the harbor.",
+      "example_cz": "Loď zastavuje v přístavu.",
+      "tts_text": "The ship stops at the harbor."
+    },
+    {
+      "word": "float",
+      "translation_cz": "plavat na hladině",
+      "example": "Boats float on the water.",
+      "example_cz": "Loďky plavou na hladině.",
+      "tts_text": "Boats float on the water."
+    },
+    {
+      "word": "life jacket",
+      "translation_cz": "záchranná vesta",
+      "example": "I wear a life jacket on the boat.",
+      "example_cz": "Na lodi nosím záchrannou vestu.",
+      "tts_text": "I wear a life jacket on the boat."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "boat",
+      "options": [
+        "loďka",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "loďka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The big ___ sails on the sea.",
+      "answer": "ship",
+      "hint_cz": "loď"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "ship",
+          "cz": "loď"
+        },
+        {
+          "target": "sail",
+          "cz": "plachta"
+        },
+        {
+          "target": "captain",
+          "cz": "kapitán"
+        },
+        {
+          "target": "harbor",
+          "cz": "přístav"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The captain steers the ship.",
+      "tts_text": "The captain steers the ship."
+    }
+  ]
+}

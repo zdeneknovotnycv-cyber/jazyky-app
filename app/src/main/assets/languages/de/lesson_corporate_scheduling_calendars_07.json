@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_scheduling_calendars_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Wiederkehrende Termine",
+  "title_cz": "Opakující se schůzky",
+  "vocabulary": [
+    {
+      "word": "das wöchentliche Meeting",
+      "translation_cz": "týdenní schůzka",
+      "example": "Richten wir ein wöchentliches Meeting jeden Montag ein.",
+      "example_cz": "Zavedeme týdenní schůzku každé pondělí.",
+      "tts_text": "Richten wir ein wöchentliches Meeting jeden Montag ein."
+    },
+    {
+      "word": "es wiederholt sich alle zwei Wochen",
+      "translation_cz": "opakuje se to každé dva týdny",
+      "example": "Dieser Termin wiederholt sich alle zwei Wochen.",
+      "example_cz": "Tato schůzka se opakuje každé dva týdny.",
+      "tts_text": "Dieser Termin wiederholt sich alle zwei Wochen."
+    },
+    {
+      "word": "diesen Termin auslassen",
+      "translation_cz": "vynechat tento termín",
+      "example": "Können wir diesen Termin auslassen und beim nächsten Mal weitermachen?",
+      "example_cz": "Můžeme vynechat tento termín a pokračovat příště?",
+      "tts_text": "Können wir diesen Termin auslassen und beim nächsten Mal weitermachen?"
+    },
+    {
+      "word": "ein wiederkehrendes Ereignis einrichten",
+      "translation_cz": "vytvořit opakující se událost",
+      "example": "Ich richte ein wiederkehrendes Ereignis im Kalender ein.",
+      "example_cz": "Vytvořím opakující se událost v kalendáři.",
+      "tts_text": "Ich richte ein wiederkehrendes Ereignis im Kalender ein."
+    },
+    {
+      "word": "jeden ersten Montag im Monat",
+      "translation_cz": "každé první pondělí v měsíci",
+      "example": "Das Team trifft sich jeden ersten Montag im Monat.",
+      "example_cz": "Tým se schází každé první pondělí v měsíci.",
+      "tts_text": "Das Team trifft sich jeden ersten Montag im Monat."
+    },
+    {
+      "word": "bis zum Jahresende",
+      "translation_cz": "do konce roku",
+      "example": "Das wiederkehrende Meeting läuft bis zum Jahresende.",
+      "example_cz": "Opakující se schůzka běží do konce roku.",
+      "tts_text": "Das wiederkehrende Meeting läuft bis zum Jahresende."
+    },
+    {
+      "word": "die ganze Serie absagen",
+      "translation_cz": "zrušit celou sérii",
+      "example": "Möchten Sie die ganze Serie absagen oder nur ein Meeting?",
+      "example_cz": "Chcete zrušit celou sérii, nebo jen jednu schůzku?",
+      "tts_text": "Möchten Sie die ganze Serie absagen oder nur ein Meeting?"
+    },
+    {
+      "word": "gleiche Zeit, gleicher Ort",
+      "translation_cz": "stejný čas, stejné místo",
+      "example": "Es ist immer gleiche Zeit, gleicher Ort.",
+      "example_cz": "Vždy je to stejný čas, stejné místo.",
+      "tts_text": "Es ist immer gleiche Zeit, gleicher Ort."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_wiederkehrende_termine",
+      "title": "Ein wiederkehrendes Team-Meeting einrichten",
+      "title_cz": "Vytvoření opakující se týmové schůzky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Richten wir ein wöchentliches Meeting jeden Montag für das Team ein.",
+          "text_cz": "Zavedeme týdenní schůzku každé pondělí pro tým."
+        },
+        {
+          "speaker": "B",
+          "text": "Gute Idee. Ich richte ein wiederkehrendes Ereignis im Kalender ein.",
+          "text_cz": "Dobrý nápad. Vytvořím opakující se událost v kalendáři."
+        },
+        {
+          "speaker": "A",
+          "text": "Es sollte bis zum Jahresende laufen, gleiche Zeit, gleicher Ort.",
+          "text_cz": "Měla by běžet do konce roku, stejný čas, stejné místo."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden. Sollen wir diesen Termin wegen des Feiertags auslassen?",
+          "text_cz": "Rozumím. Máme vynechat tento termín kvůli svátku?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, bitte lassen Sie ihn aus und beginnen Sie am folgenden Montag wieder.",
+          "text_cz": "Ano, prosím vynechte ho a začněte znovu následující pondělí."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Richten wir ein wöchentliches Meeting jeden Montag ein.",
+      "options": [
+        "Zavedeme týdenní schůzku každé pondělí.",
+        "Vynechme tento termín.",
+        "Zrušte celou sérii."
+      ],
+      "correct": "Zavedeme týdenní schůzku každé pondělí."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Dieser Termin ___ sich alle zwei Wochen.",
+      "answer": "wiederholt",
+      "hint_cz": "opakuje se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "diesen Termin auslassen", "cz": "vynechat tento termín" },
+        { "target": "die ganze Serie absagen", "cz": "zrušit celou sérii" },
+        { "target": "bis zum Jahresende", "cz": "do konce roku" },
+        { "target": "gleiche Zeit, gleicher Ort", "cz": "stejný čas, stejné místo" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich richte ein wiederkehrendes Ereignis im Kalender ein.",
+      "tts_text": "Ich richte ein wiederkehrendes Ereignis im Kalender ein."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das Team trifft sich jeden ersten Montag im ___.",
+      "answer": "Monat",
+      "hint_cz": "měsíc"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Möchten Sie die ganze Serie absagen oder nur ein Meeting?",
+      "tts_text": "Möchten Sie die ganze Serie absagen oder nur ein Meeting?"
+    }
+  ]
+}

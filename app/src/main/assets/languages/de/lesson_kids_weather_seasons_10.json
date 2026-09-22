@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_weather_seasons_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Über Das Heutige Wetter Sprechen",
+  "title_cz": "Povídání o dnešním počasí",
+  "vocabulary": [
+    {
+      "word": "Wie ist das Wetter?",
+      "translation_cz": "Jaké je počasí?",
+      "example": "Wie ist das Wetter heute?",
+      "example_cz": "Jaké je dnes počasí?",
+      "tts_text": "Wie ist das Wetter heute?"
+    },
+    {
+      "word": "Es ist schön draußen.",
+      "translation_cz": "Venku je hezky.",
+      "example": "Es ist heute schön draußen.",
+      "example_cz": "Dnes je venku hezky.",
+      "tts_text": "Es ist heute schön draußen."
+    },
+    {
+      "word": "Es regnet.",
+      "translation_cz": "Prší.",
+      "example": "Schau, es regnet!",
+      "example_cz": "Podívej, prší!",
+      "tts_text": "Schau, es regnet!"
+    },
+    {
+      "word": "Es schneit.",
+      "translation_cz": "Sněží.",
+      "example": "Draußen schneit es.",
+      "example_cz": "Venku sněží.",
+      "tts_text": "Draußen schneit es."
+    },
+    {
+      "word": "der Himmel",
+      "translation_cz": "obloha",
+      "example": "Der Himmel ist heute blau.",
+      "example_cz": "Obloha je dnes modrá.",
+      "tts_text": "Der Himmel ist heute blau."
+    },
+    {
+      "word": "das Wetter",
+      "translation_cz": "počasí",
+      "example": "Ich mag sonniges Wetter.",
+      "example_cz": "Mám rád slunečné počasí.",
+      "tts_text": "Ich mag sonniges Wetter."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Es regnet.",
+      "options": [
+        "Prší.",
+        "Sněží.",
+        "Venku je hezky."
+      ],
+      "correct": "Prší."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der ___ ist heute blau.",
+      "answer": "Himmel",
+      "hint_cz": "obloha"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Wie ist das Wetter?",
+          "cz": "Jaké je počasí?"
+        },
+        {
+          "target": "Es ist schön draußen.",
+          "cz": "Venku je hezky."
+        },
+        {
+          "target": "Es schneit.",
+          "cz": "Sněží."
+        },
+        {
+          "target": "das Wetter",
+          "cz": "počasí"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wie ist das Wetter heute?",
+      "tts_text": "Wie ist das Wetter heute?"
+    }
+  ]
+}

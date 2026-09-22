@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_negotiation_sales_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über einen Vertrag sprechen",
+  "title_cz": "Diskuze o smlouvě",
+  "vocabulary": [
+    {
+      "word": "die Klausel",
+      "translation_cz": "doložka / klauzule",
+      "example": "Diese Klausel muss von der Rechtsabteilung geprüft werden.",
+      "example_cz": "Tuto doložku musí zkontrolovat právní oddělení.",
+      "tts_text": "Diese Klausel muss von der Rechtsabteilung geprüft werden."
+    },
+    {
+      "word": "die Haftung",
+      "translation_cz": "odpovědnost",
+      "example": "Der Haftungsabschnitt begrenzt unser Risiko.",
+      "example_cz": "Sekce o odpovědnosti omezuje naše riziko.",
+      "tts_text": "Der Haftungsabschnitt begrenzt unser Risiko."
+    },
+    {
+      "word": "der Entwurf",
+      "translation_cz": "návrh (smlouvy)",
+      "example": "Bitte senden Sie mir den aktuellen Vertragsentwurf.",
+      "example_cz": "Pošlete mi prosím nejnovější návrh smlouvy.",
+      "tts_text": "Bitte senden Sie mir den aktuellen Vertragsentwurf."
+    },
+    {
+      "word": "ändern",
+      "translation_cz": "upravit / pozměnit",
+      "example": "Wir möchten Abschnitt drei ändern.",
+      "example_cz": "Rádi bychom upravili sekci tři.",
+      "tts_text": "Wir möchten Abschnitt drei ändern."
+    },
+    {
+      "word": "die Kündigungsklausel",
+      "translation_cz": "výpovědní doložka",
+      "example": "Die Kündigungsklausel erlaubt eine Frist von dreißig Tagen.",
+      "example_cz": "Výpovědní doložka umožňuje třicetidenní výpovědní lhůtu.",
+      "tts_text": "Die Kündigungsklausel erlaubt eine Frist von dreißig Tagen."
+    },
+    {
+      "word": "die verbindliche Vereinbarung",
+      "translation_cz": "závazná dohoda",
+      "example": "Nach der Unterschrift wird dies zu einer verbindlichen Vereinbarung.",
+      "example_cz": "Po podpisu se z toho stává závazná dohoda.",
+      "tts_text": "Nach der Unterschrift wird dies zu einer verbindlichen Vereinbarung."
+    },
+    {
+      "word": "die rechtliche Prüfung",
+      "translation_cz": "právní kontrola",
+      "example": "Der Vertrag befindet sich derzeit in der rechtlichen Prüfung.",
+      "example_cz": "Smlouva je aktuálně v procesu právní kontroly.",
+      "tts_text": "Der Vertrag befindet sich derzeit in der rechtlichen Prüfung."
+    },
+    {
+      "word": "das Datum des Inkrafttretens",
+      "translation_cz": "datum účinnosti",
+      "example": "Das Datum des Inkrafttretens ist der erste März.",
+      "example_cz": "Datum účinnosti smlouvy je první březen.",
+      "tts_text": "Das Datum des Inkrafttretens ist der erste März."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_contract_discussion",
+      "title": "Über einen Vertragsentwurf sprechen",
+      "title_cz": "Diskuze o návrhu smlouvy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wir möchten die Haftungsklausel in Abschnitt drei ändern.",
+          "text_cz": "Rádi bychom upravili doložku o odpovědnosti v sekci tři."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden, ich sende den aktualisierten Entwurf nach der rechtlichen Prüfung.",
+          "text_cz": "Rozumím, pošlu upravený návrh po právní kontrole."
+        },
+        {
+          "speaker": "A",
+          "text": "Und was ist das Datum des Inkrafttretens nach der Unterschrift?",
+          "text_cz": "A jaké je datum účinnosti po podpisu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Es würde am ersten März zu einer verbindlichen Vereinbarung werden.",
+          "text_cz": "Stala by se závaznou dohodou k prvnímu březnu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Klausel",
+      "options": [
+        "doložka / klauzule",
+        "návrh (smlouvy)",
+        "upravit / pozměnit"
+      ],
+      "correct": "doložka / klauzule"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der Haftungsabschnitt begrenzt unser Risiko.",
+      "answer": "die Haftung",
+      "hint_cz": "odpovědnost"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Kündigungsklausel erlaubt eine Frist von dreißig Tagen.",
+      "answer": "die Kündigungsklausel",
+      "hint_cz": "výpovědní doložka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die verbindliche Vereinbarung",
+          "cz": "závazná dohoda"
+        },
+        {
+          "target": "die rechtliche Prüfung",
+          "cz": "právní kontrola"
+        },
+        {
+          "target": "das Datum des Inkrafttretens",
+          "cz": "datum účinnosti"
+        },
+        {
+          "target": "der Entwurf",
+          "cz": "návrh (smlouvy)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir möchten die Haftungsklausel in Abschnitt drei ändern.",
+      "tts_text": "Wir möchten die Haftungsklausel in Abschnitt drei ändern."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Verstanden, ich sende den aktualisierten Entwurf nach der rechtlichen Prüfung.",
+      "tts_text": "Verstanden, ich sende den aktualisierten Entwurf nach der rechtlichen Prüfung."
+    }
+  ]
+}

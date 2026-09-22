@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_feelings_emotions_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Schüchtern",
+  "title_cz": "Stydlivý",
+  "vocabulary": [
+    {
+      "word": "schüchtern",
+      "translation_cz": "stydlivý",
+      "example": "Ich fühle mich schüchtern vor neuen Leuten.",
+      "example_cz": "Před novými lidmi jsem stydlivý.",
+      "tts_text": "Ich fühle mich schüchtern vor neuen Leuten."
+    },
+    {
+      "word": "still",
+      "translation_cz": "tichý",
+      "example": "Er ist zuerst still.",
+      "example_cz": "Zpočátku je tichý.",
+      "tts_text": "Er ist zuerst still."
+    },
+    {
+      "word": "erröten",
+      "translation_cz": "červenat se",
+      "example": "Ich errröte, wenn mich alle ansehen.",
+      "example_cz": "Červenám se, když se na mě všichni dívají.",
+      "tts_text": "Ich errröte, wenn mich alle ansehen."
+    },
+    {
+      "word": "sich verstecken",
+      "translation_cz": "schovat se",
+      "example": "Ich möchte mich hinter Mama verstecken.",
+      "example_cz": "Chci se schovat za maminku.",
+      "tts_text": "Ich möchte mich hinter Mama verstecken."
+    },
+    {
+      "word": "der neue Freund",
+      "translation_cz": "nový kamarád",
+      "example": "Es ist schwer, mit einem neuen Freund zu sprechen.",
+      "example_cz": "Je těžké mluvit s novým kamarádem.",
+      "tts_text": "Es ist schwer, mit einem neuen Freund zu sprechen."
+    },
+    {
+      "word": "der mutige Schritt",
+      "translation_cz": "statečný krok",
+      "example": "Hallo zu sagen ist ein mutiger Schritt.",
+      "example_cz": "Pozdravit je statečný krok.",
+      "tts_text": "Hallo zu sagen ist ein mutiger Schritt."
+    },
+    {
+      "word": "zurücklächeln",
+      "translation_cz": "usmát se zpět",
+      "example": "Ich lächle meinem neuen Klassenkameraden zurück.",
+      "example_cz": "Usměju se zpět na svého nového spolužáka.",
+      "tts_text": "Ich lächle meinem neuen Klassenkameraden zurück."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "schüchtern",
+      "options": [
+        "stydlivý",
+        "smutný",
+        "radost"
+      ],
+      "correct": "stydlivý"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich fühle mich ___ vor neuen Leuten.",
+      "answer": "schüchtern",
+      "hint_cz": "stydlivý"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "still",
+          "cz": "tichý"
+        },
+        {
+          "target": "erröten",
+          "cz": "červenat se"
+        },
+        {
+          "target": "sich verstecken",
+          "cz": "schovat se"
+        },
+        {
+          "target": "der neue Freund",
+          "cz": "nový kamarád"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich möchte mich hinter Mama verstecken.",
+      "tts_text": "Ich möchte mich hinter Mama verstecken."
+    }
+  ]
+}

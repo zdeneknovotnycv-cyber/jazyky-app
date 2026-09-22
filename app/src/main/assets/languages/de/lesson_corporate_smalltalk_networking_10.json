@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_smalltalk_networking_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Small Talk auf der Firmenfeier",
+  "title_cz": "Konverzace na firemním večírku",
+  "vocabulary": [
+    {
+      "word": "Gefällt dir die Feier?",
+      "translation_cz": "Bavíš se na večírku?",
+      "example": "Gefällt dir die Feier bisher?",
+      "example_cz": "Bavíš se zatím na večírku?",
+      "tts_text": "Gefällt dir die Feier bisher?"
+    },
+    {
+      "word": "tolle Atmosphäre",
+      "translation_cz": "skvělá atmosféra",
+      "example": "Heute Abend herrscht eine tolle Atmosphäre.",
+      "example_cz": "Dnes večer je tu skvělá atmosféra.",
+      "tts_text": "Heute Abend herrscht eine tolle Atmosphäre."
+    },
+    {
+      "word": "Hast du das Essen probiert?",
+      "translation_cz": "Zkusil jsi to jídlo?",
+      "example": "Hast du das Essen schon probiert?",
+      "example_cz": "Už jsi zkusil to jídlo?",
+      "tts_text": "Hast du das Essen schon probiert?"
+    },
+    {
+      "word": "Es ist schön, sich außerhalb der Arbeit zu entspannen",
+      "translation_cz": "Je fajn si odpočinout mimo práci",
+      "example": "Es ist schön, sich manchmal außerhalb der Arbeit zu entspannen.",
+      "example_cz": "Občas je fajn si odpočinout mimo práci.",
+      "tts_text": "Es ist schön, sich manchmal außerhalb der Arbeit zu entspannen."
+    },
+    {
+      "word": "Wer hat das organisiert?",
+      "translation_cz": "Kdo tohle zorganizoval?",
+      "example": "Wer hat diese Veranstaltung organisiert?",
+      "example_cz": "Kdo tuhle akci zorganizoval?",
+      "tts_text": "Wer hat diese Veranstaltung organisiert?"
+    },
+    {
+      "word": "die Tanzfläche",
+      "translation_cz": "taneční parket",
+      "example": "Die Tanzfläche ist schon voll.",
+      "example_cz": "Taneční parket je už plný.",
+      "tts_text": "Die Tanzfläche ist schon voll."
+    },
+    {
+      "word": "einen Trinkspruch ausbringen",
+      "translation_cz": "připít si na zdraví",
+      "example": "Lasst uns einen Trinkspruch auf das ganze Team ausbringen.",
+      "example_cz": "Připijme si na celý tým.",
+      "tts_text": "Lasst uns einen Trinkspruch auf das ganze Team ausbringen."
+    },
+    {
+      "word": "Es war ein tolles Jahr",
+      "translation_cz": "Byl to skvělý rok",
+      "example": "Es war ein tolles Jahr für unser Unternehmen.",
+      "example_cz": "Byl to skvělý rok pro naši firmu.",
+      "tts_text": "Es war ein tolles Jahr für unser Unternehmen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_firmenfeier",
+      "title": "Gespräch auf der Firmenfeier",
+      "title_cz": "Povídání na firemním večírku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Gefällt dir die Feier bisher?",
+          "text_cz": "Bavíš se zatím na večírku?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, heute Abend herrscht eine tolle Atmosphäre. Hast du das Essen probiert?",
+          "text_cz": "Ano, dnes je tu skvělá atmosféra. Zkusil jsi to jídlo?"
+        },
+        {
+          "speaker": "A",
+          "text": "Noch nicht. Es ist schön, sich mal außerhalb der Arbeit zu entspannen.",
+          "text_cz": "Ještě ne. Je fajn si pro jednou odpočinout mimo práci."
+        },
+        {
+          "speaker": "B",
+          "text": "Auf jeden Fall. Lasst uns einen Trinkspruch ausbringen, es war ein tolles Jahr.",
+          "text_cz": "Rozhodně. Připijme si, byl to skvělý rok."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "einen Trinkspruch ausbringen",
+      "options": [
+        "připít si na zdraví",
+        "taneční parket",
+        "skvělá atmosféra"
+      ],
+      "correct": "připít si na zdraví"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Heute Abend herrscht eine tolle ___.",
+      "answer": "Atmosphäre",
+      "hint_cz": "atmosféra"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Hast du das Essen schon ___?",
+      "answer": "probiert",
+      "hint_cz": "zkusil"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Tanzfläche",
+          "cz": "taneční parket"
+        },
+        {
+          "target": "tolle Atmosphäre",
+          "cz": "skvělá atmosféra"
+        },
+        {
+          "target": "einen Trinkspruch ausbringen",
+          "cz": "připít si na zdraví"
+        },
+        {
+          "target": "Wer hat das organisiert?",
+          "cz": "Kdo tohle zorganizoval?"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Gefällt dir die Feier?",
+      "tts_text": "Gefällt dir die Feier?"
+    }
+  ]
+}

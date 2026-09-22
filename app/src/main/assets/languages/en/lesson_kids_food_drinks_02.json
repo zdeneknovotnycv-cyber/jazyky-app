@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_food_drinks_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Lunch Foods",
+  "title_cz": "Oběd",
+  "vocabulary": [
+    {
+      "word": "lunch",
+      "translation_cz": "oběd",
+      "example": "We eat lunch at school.",
+      "example_cz": "Obědváme ve škole.",
+      "tts_text": "We eat lunch at school."
+    },
+    {
+      "word": "soup",
+      "translation_cz": "polévka",
+      "example": "I like tomato soup.",
+      "example_cz": "Mám rád rajčatovou polévku.",
+      "tts_text": "I like tomato soup."
+    },
+    {
+      "word": "sandwich",
+      "translation_cz": "sendvič",
+      "example": "I have a cheese sandwich.",
+      "example_cz": "Mám sýrový sendvič.",
+      "tts_text": "I have a cheese sandwich."
+    },
+    {
+      "word": "rice",
+      "translation_cz": "rýže",
+      "example": "I eat rice with chicken.",
+      "example_cz": "Jím rýži s kuřetem.",
+      "tts_text": "I eat rice with chicken."
+    },
+    {
+      "word": "chicken",
+      "translation_cz": "kuře",
+      "example": "Chicken is my favorite lunch.",
+      "example_cz": "Kuře je můj oblíbený oběd.",
+      "tts_text": "Chicken is my favorite lunch."
+    },
+    {
+      "word": "salad",
+      "translation_cz": "salát",
+      "example": "I eat salad with lunch.",
+      "example_cz": "K obědu jím salát.",
+      "tts_text": "I eat salad with lunch."
+    },
+    {
+      "word": "pasta",
+      "translation_cz": "těstoviny",
+      "example": "Pasta is easy to make.",
+      "example_cz": "Těstoviny se snadno dělají.",
+      "tts_text": "Pasta is easy to make."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "lunch",
+      "options": [
+        "oběd",
+        "snídaně",
+        "svačina"
+      ],
+      "correct": "oběd"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I like tomato ___.",
+      "answer": "soup",
+      "hint_cz": "polévka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sandwich",
+          "cz": "sendvič"
+        },
+        {
+          "target": "rice",
+          "cz": "rýže"
+        },
+        {
+          "target": "chicken",
+          "cz": "kuře"
+        },
+        {
+          "target": "pasta",
+          "cz": "těstoviny"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We eat lunch at school.",
+      "tts_text": "We eat lunch at school."
+    }
+  ]
+}

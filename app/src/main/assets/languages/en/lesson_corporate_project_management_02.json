@@ -1,0 +1,167 @@
+{
+  "id": "en_adult_corporate_project_management_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Assigning Tasks",
+  "title_cz": "Přidělování úkolů",
+  "vocabulary": [
+    {
+      "word": "assign",
+      "translation_cz": "přidělit",
+      "example": "I will assign this task to Peter.",
+      "example_cz": "Tento úkol přidělím Petrovi.",
+      "tts_text": "I will assign this task to Peter."
+    },
+    {
+      "word": "responsible",
+      "translation_cz": "zodpovědný",
+      "example": "Who is responsible for the design?",
+      "example_cz": "Kdo je zodpovědný za design?",
+      "tts_text": "Who is responsible for the design?"
+    },
+    {
+      "word": "task list",
+      "translation_cz": "seznam úkolů",
+      "example": "Please check the task list before the meeting.",
+      "example_cz": "Podívejte se prosím na seznam úkolů před schůzkou.",
+      "tts_text": "Please check the task list before the meeting."
+    },
+    {
+      "word": "priority",
+      "translation_cz": "priorita",
+      "example": "This task has a high priority.",
+      "example_cz": "Tento úkol má vysokou prioritu.",
+      "tts_text": "This task has a high priority."
+    },
+    {
+      "word": "due date",
+      "translation_cz": "termín splnění",
+      "example": "The due date for this task is Monday.",
+      "example_cz": "Termín splnění tohoto úkolu je pondělí.",
+      "tts_text": "The due date for this task is Monday."
+    },
+    {
+      "word": "workload",
+      "translation_cz": "pracovní vytížení",
+      "example": "Her workload is quite heavy this week.",
+      "example_cz": "Její pracovní vytížení je tento týden dost velké.",
+      "tts_text": "Her workload is quite heavy this week."
+    },
+    {
+      "word": "owner",
+      "translation_cz": "vlastník úkolu",
+      "example": "Every task needs a clear owner.",
+      "example_cz": "Každý úkol potřebuje jasného vlastníka.",
+      "tts_text": "Every task needs a clear owner."
+    },
+    {
+      "word": "progress",
+      "translation_cz": "postup",
+      "example": "Please update your progress by Friday.",
+      "example_cz": "Aktualizujte prosím svůj postup do pátku.",
+      "tts_text": "Please update your progress by Friday."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_assign_task",
+      "title": "Assigning a new task",
+      "title_cz": "Přidělení nového úkolu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I need to assign the testing task. Can you take it?",
+          "text_cz": "Potřebuji přidělit úkol testování. Můžete to vzít?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, but my workload is already quite heavy this week.",
+          "text_cz": "Jasně, ale mé pracovní vytížení je tento týden dost velké."
+        },
+        {
+          "speaker": "A",
+          "text": "It's a high priority, but the due date is next Monday, not this week.",
+          "text_cz": "Má to vysokou prioritu, ale termín splnění je až příští pondělí."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay, then I can be the owner of that task.",
+          "text_cz": "Dobře, tak můžu být vlastníkem toho úkolu."
+        }
+      ]
+    },
+    {
+      "id": "conv_assign_followup",
+      "title": "Checking task progress",
+      "title_cz": "Kontrola postupu úkolu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Who is responsible for updating the task list?",
+          "text_cz": "Kdo je zodpovědný za aktualizaci seznamu úkolů?"
+        },
+        {
+          "speaker": "B",
+          "text": "I am. I'll update everyone's progress by Friday.",
+          "text_cz": "Já. Aktualizuji postup všech do pátku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "assign",
+      "options": [
+        "přidělit",
+        "seznam úkolů",
+        "priorita"
+      ],
+      "correct": "přidělit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Who is ___ for the design?",
+      "answer": "responsible",
+      "hint_cz": "zodpovědný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ for this task is Monday.",
+      "answer": "due date",
+      "hint_cz": "termín splnění"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "workload",
+          "cz": "pracovní vytížení"
+        },
+        {
+          "target": "owner",
+          "cz": "vlastník úkolu"
+        },
+        {
+          "target": "progress",
+          "cz": "postup"
+        },
+        {
+          "target": "task list",
+          "cz": "seznam úkolů"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I need to assign the testing task. Can you take it?",
+      "tts_text": "I need to assign the testing task. Can you take it?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sure, but my workload is already quite heavy this week.",
+      "tts_text": "Sure, but my workload is already quite heavy this week."
+    }
+  ]
+}

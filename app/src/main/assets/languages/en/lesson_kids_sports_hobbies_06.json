@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_sports_hobbies_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Music Lessons",
+  "title_cz": "Hudební kroužek",
+  "vocabulary": [
+    {
+      "word": "music lesson",
+      "translation_cz": "hudební hodina",
+      "example": "I have a music lesson today.",
+      "example_cz": "Dnes mám hudební hodinu.",
+      "tts_text": "I have a music lesson today."
+    },
+    {
+      "word": "piano",
+      "translation_cz": "klavír",
+      "example": "I am learning to play the piano.",
+      "example_cz": "Učím se hrát na klavír.",
+      "tts_text": "I am learning to play the piano."
+    },
+    {
+      "word": "guitar",
+      "translation_cz": "kytara",
+      "example": "My brother plays the guitar.",
+      "example_cz": "Můj bratr hraje na kytaru.",
+      "tts_text": "My brother plays the guitar."
+    },
+    {
+      "word": "sing",
+      "translation_cz": "zpívat",
+      "example": "I like to sing songs.",
+      "example_cz": "Ráda zpívám písničky.",
+      "tts_text": "I like to sing songs."
+    },
+    {
+      "word": "practice",
+      "translation_cz": "cvičit",
+      "example": "I practice every day.",
+      "example_cz": "Cvičím každý den.",
+      "tts_text": "I practice every day."
+    },
+    {
+      "word": "song",
+      "translation_cz": "písnička",
+      "example": "This is my favorite song.",
+      "example_cz": "Toto je moje oblíbená písnička.",
+      "tts_text": "This is my favorite song."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "piano",
+      "options": [
+        "klavír",
+        "kytara",
+        "písnička"
+      ],
+      "correct": "klavír"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ every day.",
+      "answer": "practice",
+      "hint_cz": "cvičím"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "music lesson",
+          "cz": "hudební hodina"
+        },
+        {
+          "target": "guitar",
+          "cz": "kytara"
+        },
+        {
+          "target": "sing",
+          "cz": "zpívat"
+        },
+        {
+          "target": "song",
+          "cz": "písnička"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I am learning to play the piano.",
+      "tts_text": "I am learning to play the piano."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_problem_solving_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Gespräch über die Grundursache",
+  "title_cz": "Rozbor hlavní příčiny",
+  "vocabulary": [
+    {
+      "word": "die Grundursache",
+      "translation_cz": "hlavní příčina",
+      "example": "Wir müssen die Grundursache finden.",
+      "example_cz": "Musíme najít hlavní příčinu.",
+      "tts_text": "Wir müssen die Grundursache finden."
+    },
+    {
+      "word": "der Sache auf den Grund gehen",
+      "translation_cz": "dostat se k jádru",
+      "example": "Lassen Sie uns der Sache auf den Grund gehen.",
+      "example_cz": "Pojďme se dostat k jádru věci.",
+      "tts_text": "Lassen Sie uns der Sache auf den Grund gehen."
+    },
+    {
+      "word": "ein mitwirkender Faktor",
+      "translation_cz": "přispívající faktor",
+      "example": "Menschliches Versagen war ein mitwirkender Faktor.",
+      "example_cz": "Lidská chyba byla přispívajícím faktorem.",
+      "tts_text": "Menschliches Versagen war ein mitwirkender Faktor."
+    },
+    {
+      "word": "analysieren",
+      "translation_cz": "analyzovat",
+      "example": "Wir sollten zuerst die Daten analysieren.",
+      "example_cz": "Nejdřív bychom měli analyzovat data.",
+      "tts_text": "Wir sollten zuerst die Daten analysieren."
+    },
+    {
+      "word": "wiederkehrendes Problem",
+      "translation_cz": "opakující se problém",
+      "example": "Das ist ein wiederkehrendes Problem.",
+      "example_cz": "Tohle je opakující se problém.",
+      "tts_text": "Das ist ein wiederkehrendes Problem."
+    },
+    {
+      "word": "verhindern, dass es wieder passiert",
+      "translation_cz": "zabránit tomu, aby se to opakovalo",
+      "example": "Wir müssen verhindern, dass es wieder passiert.",
+      "example_cz": "Musíme zabránit tomu, aby se to opakovalo.",
+      "tts_text": "Wir müssen verhindern, dass es wieder passiert."
+    },
+    {
+      "word": "zurückführen auf",
+      "translation_cz": "vysledovat zpět k",
+      "example": "Wir haben den Fehler auf ein Systemupdate zurückgeführt.",
+      "example_cz": "Vysledovali jsme chybu zpět k aktualizaci systému.",
+      "tts_text": "Wir haben den Fehler auf ein Systemupdate zurückgeführt."
+    },
+    {
+      "word": "die gewonnenen Erkenntnisse",
+      "translation_cz": "poučení",
+      "example": "Lassen Sie uns die gewonnenen Erkenntnisse dokumentieren.",
+      "example_cz": "Zdokumentujme poučení z této situace.",
+      "tts_text": "Lassen Sie uns die gewonnenen Erkenntnisse dokumentieren."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_06",
+      "title": "Die Grundursache besprechen",
+      "title_cz": "Rozbor hlavní příčiny",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Lassen Sie uns der Sache auf den Grund gehen. Was ist die Grundursache?",
+          "text_cz": "Pojďme se dostat k jádru věci. Jaká je hlavní příčina?"
+        },
+        {
+          "speaker": "B",
+          "text": "Wir haben es auf ein Systemupdate letzte Woche zurückgeführt.",
+          "text_cz": "Vysledovali jsme to zpět k aktualizaci systému z minulého týdne."
+        },
+        {
+          "speaker": "A",
+          "text": "War das Update also ein mitwirkender Faktor?",
+          "text_cz": "Takže ta aktualizace byla přispívajícím faktorem?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, und auch menschliches Versagen. Das ist ein wiederkehrendes Problem.",
+          "text_cz": "Ano, a také lidská chyba. Tohle je opakující se problém."
+        },
+        {
+          "speaker": "A",
+          "text": "Lassen Sie uns die Protokolle analysieren und verhindern, dass es wieder passiert.",
+          "text_cz": "Pojďme analyzovat logy a zabránit tomu, aby se to opakovalo."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich schreibe die gewonnenen Erkenntnisse auf.",
+          "text_cz": "Sepíšu poučení z této situace."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Grundursache",
+      "options": [
+        "hlavní příčina",
+        "dostat se k jádru",
+        "přispívající faktor"
+      ],
+      "correct": "hlavní příčina"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir sollten zuerst die Daten ___.",
+      "answer": "analysieren",
+      "hint_cz": "analyzovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Grundursache",
+          "cz": "hlavní příčina"
+        },
+        {
+          "target": "der Sache auf den Grund gehen",
+          "cz": "dostat se k jádru"
+        },
+        {
+          "target": "ein mitwirkender Faktor",
+          "cz": "přispívající faktor"
+        },
+        {
+          "target": "analysieren",
+          "cz": "analyzovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das ist ein wiederkehrendes Problem.",
+      "tts_text": "Das ist ein wiederkehrendes Problem."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir müssen ___.",
+      "answer": "verhindern, dass es wieder passiert",
+      "hint_cz": "zabránit tomu, aby se to opakovalo"
+    }
+  ]
+}

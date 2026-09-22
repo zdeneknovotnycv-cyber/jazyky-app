@@ -1,0 +1,47 @@
+{
+  "id": "de_corporate_hr_recruitment_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Kündigung einreichen",
+  "title_cz": "Podání výpovědi",
+  "vocabulary": [
+    {"word": "die Kündigung", "translation_cz": "výpověď", "example": "Ich möchte meine Kündigung einreichen.", "example_cz": "Rád bych podal výpověď.", "tts_text": "Ich möchte meine Kündigung einreichen."},
+    {"word": "die Kündigungsfrist", "translation_cz": "výpovědní lhůta", "example": "Meine Kündigungsfrist beträgt einen Monat.", "example_cz": "Moje výpovědní lhůta je jeden měsíc.", "tts_text": "Meine Kündigungsfrist beträgt einen Monat."},
+    {"word": "der letzte Arbeitstag", "translation_cz": "poslední pracovní den", "example": "Mein letzter Arbeitstag ist der Dreißigste.", "example_cz": "Můj poslední pracovní den bude třicátého.", "tts_text": "Mein letzter Arbeitstag ist der Dreißigste."},
+    {"word": "die Übergabe", "translation_cz": "předání agendy", "example": "Ich bereite eine ordentliche Übergabe vor.", "example_cz": "Připravím řádné předání agendy.", "tts_text": "Ich bereite eine ordentliche Übergabe vor."},
+    {"word": "die neue Chance", "translation_cz": "nová příležitost", "example": "Ich habe eine neue Chance woanders angenommen.", "example_cz": "Přijal jsem novou pracovní příležitost jinde.", "tts_text": "Ich habe eine neue Chance woanders angenommen."},
+    {"word": "das Austrittsgespräch", "translation_cz": "výstupní pohovor", "example": "Die Personalabteilung plant ein Austrittsgespräch mit Ihnen.", "example_cz": "HR s vámi naplánuje výstupní pohovor.", "tts_text": "Die Personalabteilung plant ein Austrittsgespräch mit Ihnen."},
+    {"word": "das Arbeitszeugnis", "translation_cz": "doporučující dopis / posudek", "example": "Könnten Sie mir ein Arbeitszeugnis ausstellen?", "example_cz": "Mohl byste mi vystavit posudek?", "tts_text": "Könnten Sie mir ein Arbeitszeugnis ausstellen?"}
+  ],
+  "conversations": [
+    {
+      "id": "conv_giving_notice",
+      "title": "Die Kündigung einreichen",
+      "title_cz": "Podání výpovědi",
+      "lines": [
+        {"speaker": "A", "text": "Ich wollte Ihnen mitteilen, dass ich meine Kündigung einreiche.", "text_cz": "Chtěl jsem vám dát vědět, že podávám výpověď."},
+        {"speaker": "B", "text": "Das tut mir leid zu hören. Was ist Ihr letzter Arbeitstag?", "text_cz": "To je mi líto. Jaký bude váš poslední pracovní den?"},
+        {"speaker": "A", "text": "Laut meiner Kündigungsfrist wird das Ende nächsten Monats sein.", "text_cz": "Podle mé výpovědní lhůty to bude konec příštího měsíce."},
+        {"speaker": "B", "text": "Verstanden. Lassen Sie uns eine ordentliche Übergabe planen.", "text_cz": "Rozumím. Naplánujme řádné předání agendy."}
+      ]
+    },
+    {
+      "id": "conv_exit_interview",
+      "title": "Ein Austrittsgespräch vereinbaren",
+      "title_cz": "Naplánování výstupního pohovoru",
+      "lines": [
+        {"speaker": "A", "text": "Die Personalabteilung möchte vor Ihrem Ausscheiden ein Austrittsgespräch vereinbaren.", "text_cz": "HR by s vámi rádo naplánovalo výstupní pohovor před odchodem."},
+        {"speaker": "B", "text": "Gerne. Könnten Sie mir auch ein Arbeitszeugnis ausstellen?", "text_cz": "Jistě. Mohli byste mi také vystavit posudek?"},
+        {"speaker": "A", "text": "Natürlich, wir bereiten es vor Ihrem letzten Tag vor.", "text_cz": "Samozřejmě, připravíme ho před vaším posledním dnem."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "die Kündigung", "options": ["výpověď", "příležitost", "pohovor"], "correct": "výpověď"},
+    {"type": "fill_gap", "sentence": "Meine Kündigungs___ beträgt einen Monat.", "answer": "frist", "hint_cz": "výpovědní lhůta"},
+    {"type": "match_pairs", "pairs": [{"target": "die Übergabe", "cz": "předání agendy"}, {"target": "das Austrittsgespräch", "cz": "výstupní pohovor"}, {"target": "das Arbeitszeugnis", "cz": "posudek"}, {"target": "der letzte Arbeitstag", "cz": "poslední pracovní den"}]},
+    {"type": "speak_and_check", "target_phrase": "Ich möchte meine Kündigung einreichen.", "tts_text": "Ich möchte meine Kündigung einreichen."},
+    {"type": "fill_gap", "sentence": "Ich habe eine neue ___ woanders angenommen.", "answer": "Chance", "hint_cz": "příležitost"}
+  ]
+}

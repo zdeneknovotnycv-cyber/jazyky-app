@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_email_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Writing a formal email",
+  "title_cz": "Napsání formálního e-mailu",
+  "vocabulary": [
+    {
+      "word": "Dear Mr./Ms.",
+      "translation_cz": "Vážený pane / Vážená paní",
+      "example": "Dear Ms. Novak, thank you for your message.",
+      "example_cz": "Vážená paní Nováková, děkuji za váš vzkaz.",
+      "tts_text": "Dear Ms. Novak, thank you for your message."
+    },
+    {
+      "word": "I am writing to",
+      "translation_cz": "píši vám ohledně",
+      "example": "I am writing to confirm our appointment.",
+      "example_cz": "Píši vám ohledně potvrzení naší schůzky.",
+      "tts_text": "I am writing to confirm our appointment."
+    },
+    {
+      "word": "regarding",
+      "translation_cz": "ohledně",
+      "example": "I'm contacting you regarding the contract.",
+      "example_cz": "Kontaktuji vás ohledně smlouvy.",
+      "tts_text": "I'm contacting you regarding the contract."
+    },
+    {
+      "word": "kindly",
+      "translation_cz": "laskavě",
+      "example": "Kindly find the details below.",
+      "example_cz": "Laskavě naleznete podrobnosti níže.",
+      "tts_text": "Kindly find the details below."
+    },
+    {
+      "word": "looking forward to hearing from you",
+      "translation_cz": "těším se na vaši odpověď",
+      "example": "I look forward to hearing from you.",
+      "example_cz": "Těším se na vaši odpověď.",
+      "tts_text": "I look forward to hearing from you."
+    },
+    {
+      "word": "best regards",
+      "translation_cz": "s pozdravem",
+      "example": "Best regards, Petra.",
+      "example_cz": "S pozdravem, Petra.",
+      "tts_text": "Best regards, Petra."
+    },
+    {
+      "word": "formal tone",
+      "translation_cz": "formální tón",
+      "example": "We use a formal tone with new clients.",
+      "example_cz": "S novými klienty používáme formální tón.",
+      "tts_text": "We use a formal tone with new clients."
+    },
+    {
+      "word": "clarify",
+      "translation_cz": "objasnit",
+      "example": "Could you clarify the deadline, please?",
+      "example_cz": "Mohli byste prosím objasnit termín?",
+      "tts_text": "Could you clarify the deadline, please?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_formal_email",
+      "title": "Drafting a formal email together",
+      "title_cz": "Společné psaní formálního e-mailu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "How should I start a formal email to a new client?",
+          "text_cz": "Jak mám začít formální e-mail novému klientovi?"
+        },
+        {
+          "speaker": "B",
+          "text": "Start with 'Dear Mr./Ms.' and then explain why you are writing.",
+          "text_cz": "Začni oslovením 'Vážený pane / Vážená paní' a pak vysvětli, proč píšeš."
+        },
+        {
+          "speaker": "A",
+          "text": "So something like 'I am writing to confirm our meeting'?",
+          "text_cz": "Takže něco jako 'Píši vám ohledně potvrzení naší schůzky'?"
+        },
+        {
+          "speaker": "B",
+          "text": "Exactly. And close with 'Best regards' and your name.",
+          "text_cz": "Přesně. A ukonči 'S pozdravem' a svým jménem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "regarding",
+      "options": [
+        "ohledně",
+        "laskavě",
+        "objasnit"
+      ],
+      "correct": "ohledně"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am writing ___ confirm our appointment.",
+      "answer": "to",
+      "hint_cz": "abych"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "best regards",
+          "cz": "s pozdravem"
+        },
+        {
+          "target": "kindly",
+          "cz": "laskavě"
+        },
+        {
+          "target": "clarify",
+          "cz": "objasnit"
+        },
+        {
+          "target": "formal tone",
+          "cz": "formální tón"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I look forward to hearing from you.",
+      "tts_text": "I look forward to hearing from you."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Could you ___ the deadline, please?",
+      "answer": "clarify",
+      "hint_cz": "objasnit"
+    }
+  ]
+}

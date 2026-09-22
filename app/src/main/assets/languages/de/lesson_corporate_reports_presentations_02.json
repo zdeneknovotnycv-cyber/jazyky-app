@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_reports_presentations_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Daten und Diagramme präsentieren",
+  "title_cz": "Prezentace dat a grafů",
+  "vocabulary": [
+    {
+      "word": "das Diagramm",
+      "translation_cz": "graf",
+      "example": "Dieses Diagramm zeigt unser Umsatzwachstum.",
+      "example_cz": "Tento graf ukazuje růst našich prodejů.",
+      "tts_text": "Dieses Diagramm zeigt unser Umsatzwachstum."
+    },
+    {
+      "word": "der Trend",
+      "translation_cz": "trend",
+      "example": "Wie Sie sehen können, ist der Trend positiv.",
+      "example_cz": "Jak vidíte, trend je pozitivní.",
+      "tts_text": "Wie Sie sehen können, ist der Trend positiv."
+    },
+    {
+      "word": "der Anstieg",
+      "translation_cz": "nárůst",
+      "example": "Wir hatten letztes Quartal einen Anstieg von fünfzehn Prozent.",
+      "example_cz": "V minulém čtvrtletí jsme zaznamenali patnáctiprocentní nárůst.",
+      "tts_text": "Wir hatten letztes Quartal einen Anstieg von fünfzehn Prozent."
+    },
+    {
+      "word": "der Rückgang",
+      "translation_cz": "pokles",
+      "example": "Im zweiten Quartal gab es einen leichten Rückgang.",
+      "example_cz": "Ve druhém čtvrtletí došlo k mírnému poklesu.",
+      "tts_text": "Im zweiten Quartal gab es einen leichten Rückgang."
+    },
+    {
+      "word": "die Achse",
+      "translation_cz": "osa",
+      "example": "Die horizontale Achse zeigt die Monate.",
+      "example_cz": "Vodorovná osa ukazuje měsíce.",
+      "tts_text": "Die horizontale Achse zeigt die Monate."
+    },
+    {
+      "word": "der Datenpunkt",
+      "translation_cz": "datový bod",
+      "example": "Jeder Datenpunkt steht für einen Monat.",
+      "example_cz": "Každý datový bod představuje jeden měsíc.",
+      "tts_text": "Jeder Datenpunkt steht für einen Monat."
+    },
+    {
+      "word": "vergleichen",
+      "translation_cz": "porovnat",
+      "example": "Vergleichen wir dieses Jahr mit dem letzten.",
+      "example_cz": "Porovnejme letošní rok s minulým.",
+      "tts_text": "Vergleichen wir dieses Jahr mit dem letzten."
+    },
+    {
+      "word": "hervorheben",
+      "translation_cz": "zdůraznit",
+      "example": "Ich möchte diese wichtige Zahl hervorheben.",
+      "example_cz": "Chci zdůraznit toto důležité číslo.",
+      "tts_text": "Ich möchte diese wichtige Zahl hervorheben."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_data_chart",
+      "title": "Ein Verkaufsdiagramm erklären",
+      "title_cz": "Vysvětlení grafu prodejů",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Dieses Diagramm zeigt unser Umsatzwachstum im Jahresverlauf.",
+          "text_cz": "Tento graf ukazuje růst našich prodejů za rok."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich sehe einen Rückgang um März. Was ist passiert?",
+          "text_cz": "Vidím pokles kolem března. Co se stalo?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, aber der allgemeine Trend ist positiv, mit einem Anstieg von fünfzehn Prozent seit Januar.",
+          "text_cz": "Ano, ale celkový trend je pozitivní, s patnáctiprocentním nárůstem od ledna."
+        },
+        {
+          "speaker": "B",
+          "text": "Können Sie den Datenpunkt für Juni hervorheben?",
+          "text_cz": "Můžete zdůraznit datový bod za červen?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Diagramm",
+      "options": [
+        "graf",
+        "nárůst",
+        "pokles"
+      ],
+      "correct": "graf"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wie Sie sehen können, ist ___ positiv.",
+      "answer": "der Trend",
+      "hint_cz": "trend"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die horizontale Achse zeigt die Monate.",
+      "answer": "die Achse",
+      "hint_cz": "osa"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Datenpunkt",
+          "cz": "datový bod"
+        },
+        {
+          "target": "vergleichen",
+          "cz": "porovnat"
+        },
+        {
+          "target": "hervorheben",
+          "cz": "zdůraznit"
+        },
+        {
+          "target": "der Anstieg",
+          "cz": "nárůst"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Dieses Diagramm zeigt unser Umsatzwachstum im Jahresverlauf.",
+      "tts_text": "Dieses Diagramm zeigt unser Umsatzwachstum im Jahresverlauf."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich sehe einen Rückgang um März. Was ist passiert?",
+      "tts_text": "Ich sehe einen Rückgang um März. Was ist passiert?"
+    }
+  ]
+}

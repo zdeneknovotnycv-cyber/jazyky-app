@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_nature_outdoors_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The sea and beach",
+  "title_cz": "Moře a pláž",
+  "vocabulary": [
+    {
+      "word": "sea",
+      "translation_cz": "moře",
+      "example": "The sea is blue and big.",
+      "example_cz": "Moře je modré a velké.",
+      "tts_text": "The sea is blue and big."
+    },
+    {
+      "word": "beach",
+      "translation_cz": "pláž",
+      "example": "We play on the beach.",
+      "example_cz": "Hrajeme si na pláži.",
+      "tts_text": "We play on the beach."
+    },
+    {
+      "word": "sand",
+      "translation_cz": "písek",
+      "example": "The sand is warm and soft.",
+      "example_cz": "Písek je teplý a měkký.",
+      "tts_text": "The sand is warm and soft."
+    },
+    {
+      "word": "wave",
+      "translation_cz": "vlna",
+      "example": "A big wave comes to shore.",
+      "example_cz": "Ke břehu přichází velká vlna.",
+      "tts_text": "A big wave comes to shore."
+    },
+    {
+      "word": "shell",
+      "translation_cz": "mušlička",
+      "example": "I collect shells on the beach.",
+      "example_cz": "Sbírám na pláži mušličky.",
+      "tts_text": "I collect shells on the beach."
+    },
+    {
+      "word": "swim",
+      "translation_cz": "plavat",
+      "example": "We swim in the sea.",
+      "example_cz": "Plaveme v moři.",
+      "tts_text": "We swim in the sea."
+    },
+    {
+      "word": "sandcastle",
+      "translation_cz": "hrad z písku",
+      "example": "I build a sandcastle every day.",
+      "example_cz": "Každý den stavím hrad z písku.",
+      "tts_text": "I build a sandcastle every day."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sea",
+      "options": [
+        "moře",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "moře"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We play on the ___.",
+      "answer": "beach",
+      "hint_cz": "pláž"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "beach",
+          "cz": "pláž"
+        },
+        {
+          "target": "sand",
+          "cz": "písek"
+        },
+        {
+          "target": "wave",
+          "cz": "vlna"
+        },
+        {
+          "target": "shell",
+          "cz": "mušlička"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I build a sandcastle every day.",
+      "tts_text": "I build a sandcastle every day."
+    }
+  ]
+}

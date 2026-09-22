@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_imagination_stories_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "A dinosaur adventure",
+  "title_cz": "Dobrodružství s dinosaury",
+  "vocabulary": [
+    {
+      "word": "dinosaur",
+      "translation_cz": "dinosaurus",
+      "example": "I meet a huge dinosaur.",
+      "example_cz": "Potkávám obrovského dinosaura.",
+      "tts_text": "I meet a huge dinosaur."
+    },
+    {
+      "word": "jungle",
+      "translation_cz": "džungle",
+      "example": "We walk through the jungle.",
+      "example_cz": "Procházíme džunglí.",
+      "tts_text": "We walk through the jungle."
+    },
+    {
+      "word": "roar",
+      "translation_cz": "řvát",
+      "example": "The dinosaur lets out a big roar.",
+      "example_cz": "Dinosaurus se hlasitě rozeřve.",
+      "tts_text": "The dinosaur lets out a big roar."
+    },
+    {
+      "word": "egg",
+      "translation_cz": "vejce",
+      "example": "I find a dinosaur egg.",
+      "example_cz": "Nacházím dinosauří vejce.",
+      "tts_text": "I find a dinosaur egg."
+    },
+    {
+      "word": "footprint",
+      "translation_cz": "stopa",
+      "example": "I see a giant footprint.",
+      "example_cz": "Vidím obří stopu.",
+      "tts_text": "I see a giant footprint."
+    },
+    {
+      "word": "ancient",
+      "translation_cz": "prastarý",
+      "example": "The dinosaur lived in ancient times.",
+      "example_cz": "Dinosaurus žil v prastarých dobách.",
+      "tts_text": "The dinosaur lived in ancient times."
+    },
+    {
+      "word": "explore",
+      "translation_cz": "prozkoumávat",
+      "example": "We explore the dinosaur world.",
+      "example_cz": "Prozkoumáváme svět dinosaurů.",
+      "tts_text": "We explore the dinosaur world."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "dinosaur",
+      "options": [
+        "dinosaurus",
+        "džungle",
+        "řvát"
+      ],
+      "correct": "dinosaurus"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We walk through the ___.",
+      "answer": "jungle",
+      "hint_cz": "džungle"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "roar",
+          "cz": "řvát"
+        },
+        {
+          "target": "egg",
+          "cz": "vejce"
+        },
+        {
+          "target": "footprint",
+          "cz": "stopa"
+        },
+        {
+          "target": "ancient",
+          "cz": "prastarý"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We explore the dinosaur world.",
+      "tts_text": "We explore the dinosaur world."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_teamwork_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Team-Erfolg feiern",
+  "title_cz": "Oslava týmového úspěchu",
+  "vocabulary": [
+    {
+      "word": "die Leistung / der Erfolg",
+      "translation_cz": "úspěch",
+      "example": "Das ist ein großer Erfolg für uns alle.",
+      "example_cz": "Tohle je pro nás všechny velký úspěch.",
+      "tts_text": "Das ist ein großer Erfolg für uns alle."
+    },
+    {
+      "word": "Gut gemacht!",
+      "translation_cz": "Dobrá práce!",
+      "example": "Gut gemacht, Leute! Wir haben das Ziel erreicht.",
+      "example_cz": "Dobrá práce, všichni! Splnili jsme cíl.",
+      "tts_text": "Gut gemacht, Leute! Wir haben das Ziel erreicht."
+    },
+    {
+      "word": "stolz auf das Team",
+      "translation_cz": "hrdý na tým",
+      "example": "Ich bin heute wirklich stolz auf das Team.",
+      "example_cz": "Dnes jsem opravdu hrdý na tým.",
+      "tts_text": "Ich bin heute wirklich stolz auf das Team."
+    },
+    {
+      "word": "dem Team etwas gönnen",
+      "translation_cz": "udělat týmu radost / pohostit tým",
+      "example": "Lass uns dem Team morgen ein Mittagessen gönnen.",
+      "example_cz": "Pojďme týmu udělat radost obědem zítra.",
+      "tts_text": "Lass uns dem Team morgen ein Mittagessen gönnen."
+    },
+    {
+      "word": "der Meilenstein",
+      "translation_cz": "milník",
+      "example": "Wir haben einen wichtigen Meilenstein erreicht.",
+      "example_cz": "Dosáhli jsme důležitého milníku.",
+      "tts_text": "Wir haben einen wichtigen Meilenstein erreicht."
+    },
+    {
+      "word": "harte Arbeit hat sich gelohnt",
+      "translation_cz": "tvrdá práce se vyplatila",
+      "example": "Unsere harte Arbeit hat sich wirklich gelohnt.",
+      "example_cz": "Naše tvrdá práce se opravdu vyplatila.",
+      "tts_text": "Unsere harte Arbeit hat sich wirklich gelohnt."
+    },
+    {
+      "word": "die Anerkennung",
+      "translation_cz": "uznání",
+      "example": "Das Team verdient dafür Anerkennung.",
+      "example_cz": "Tým si za tohle zaslouží uznání.",
+      "tts_text": "Das Team verdient dafür Anerkennung."
+    },
+    {
+      "word": "feiern",
+      "translation_cz": "oslavit",
+      "example": "Lass uns diesen Erfolg gemeinsam feiern.",
+      "example_cz": "Pojďme tento úspěch společně oslavit.",
+      "tts_text": "Lass uns diesen Erfolg gemeinsam feiern."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_celebrating_win",
+      "title": "Einen Team-Erfolg feiern",
+      "title_cz": "Oslava úspěchu týmu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Gut gemacht, Leute! Wir haben das Ziel vor dem Termin erreicht.",
+          "text_cz": "Dobrá práce, všichni! Splnili jsme cíl před termínem."
+        },
+        {
+          "speaker": "B",
+          "text": "Das fühlt sich wirklich toll an, unsere harte Arbeit hat sich gelohnt.",
+          "text_cz": "Je to opravdu skvělý pocit, naše tvrdá práce se vyplatila."
+        },
+        {
+          "speaker": "A",
+          "text": "Ich bin wirklich stolz auf das Team. Das ist ein wichtiger Meilenstein für uns.",
+          "text_cz": "Jsem opravdu hrdý na tým. Je to pro nás důležitý milník."
+        },
+        {
+          "speaker": "B",
+          "text": "Sollen wir feiern? Vielleicht dem Team morgen ein Mittagessen gönnen?",
+          "text_cz": "Měli bychom to oslavit? Třeba zítra udělat týmu radost obědem?"
+        },
+        {
+          "speaker": "A",
+          "text": "Gute Idee, das ganze Team verdient Anerkennung.",
+          "text_cz": "Skvělý nápad, celý tým si zaslouží uznání."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Meilenstein",
+      "options": [
+        "milník",
+        "uznání",
+        "úspěch"
+      ],
+      "correct": "milník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Gut gemacht, Leute! Wir haben das ___ erreicht.",
+      "answer": "Ziel",
+      "hint_cz": "cíl"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Leistung / der Erfolg",
+          "cz": "úspěch"
+        },
+        {
+          "target": "die Anerkennung",
+          "cz": "uznání"
+        },
+        {
+          "target": "feiern",
+          "cz": "oslavit"
+        },
+        {
+          "target": "stolz auf das Team",
+          "cz": "hrdý na tým"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich bin heute wirklich stolz auf das Team.",
+      "tts_text": "Ich bin heute wirklich stolz auf das Team."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Unsere harte Arbeit hat sich wirklich ___.",
+      "answer": "gelohnt",
+      "hint_cz": "vyplatila"
+    }
+  ]
+}

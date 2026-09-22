@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_career_development_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing further education",
+  "title_cz": "Diskuze o dalším vzdělávání",
+  "vocabulary": [
+    {
+      "word": "further education",
+      "translation_cz": "další vzdělávání",
+      "example": "I'm considering further education next year.",
+      "example_cz": "Příští rok zvažuji další vzdělávání.",
+      "tts_text": "I'm considering further education next year."
+    },
+    {
+      "word": "degree",
+      "translation_cz": "titul",
+      "example": "She's finishing her master's degree part-time.",
+      "example_cz": "Dokončuje si magisterský titul při zaměstnání.",
+      "tts_text": "She's finishing her master's degree part-time."
+    },
+    {
+      "word": "part-time study",
+      "translation_cz": "studium při zaměstnání",
+      "example": "Part-time study fits well with my job.",
+      "example_cz": "Studium při zaměstnání se dobře slučuje s mou prací.",
+      "tts_text": "Part-time study fits well with my job."
+    },
+    {
+      "word": "tuition fee",
+      "translation_cz": "školné",
+      "example": "The tuition fee is quite high this year.",
+      "example_cz": "Školné je letos poměrně vysoké.",
+      "tts_text": "The tuition fee is quite high this year."
+    },
+    {
+      "word": "scholarship",
+      "translation_cz": "stipendium",
+      "example": "I applied for a scholarship to cover the costs.",
+      "example_cz": "Zažádal jsem o stipendium na pokrytí nákladů.",
+      "tts_text": "I applied for a scholarship to cover the costs."
+    },
+    {
+      "word": "to enroll",
+      "translation_cz": "zapsat se",
+      "example": "I plan to enroll in the autumn semester.",
+      "example_cz": "Plánuji se zapsat na podzimní semestr.",
+      "tts_text": "I plan to enroll in the autumn semester."
+    },
+    {
+      "word": "to balance work and study",
+      "translation_cz": "skloubit práci a studium",
+      "example": "It's not easy to balance work and study.",
+      "example_cz": "Není snadné skloubit práci a studium.",
+      "tts_text": "It's not easy to balance work and study."
+    },
+    {
+      "word": "online course",
+      "translation_cz": "online kurz",
+      "example": "I'm also taking an online course in marketing.",
+      "example_cz": "Zároveň dělám online kurz z marketingu.",
+      "tts_text": "I'm also taking an online course in marketing."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_further_education",
+      "title": "Talking about further education",
+      "title_cz": "Rozhovor o dalším vzdělávání",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm considering further education next year, maybe a part-time degree.",
+          "text_cz": "Příští rok zvažuji další vzdělávání, možná magisterský titul při zaměstnání."
+        },
+        {
+          "speaker": "B",
+          "text": "That sounds interesting. Isn't the tuition fee quite high, though?",
+          "text_cz": "To zní zajímavě. Není ale to školné poměrně vysoké?"
+        },
+        {
+          "speaker": "A",
+          "text": "It is, so I applied for a scholarship. I plan to enroll in the autumn semester.",
+          "text_cz": "Je, tak jsem zažádal o stipendium. Plánuji se zapsat na podzimní semestr."
+        },
+        {
+          "speaker": "B",
+          "text": "It won't be easy to balance work and study.",
+          "text_cz": "Nebude snadné skloubit práci a studium."
+        },
+        {
+          "speaker": "A",
+          "text": "True, but I'm also taking a short online course now, so I already have a routine.",
+          "text_cz": "Pravda, ale teď dělám i krátký online kurz, takže už mám určitý režim."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "scholarship",
+      "options": [
+        "stipendium",
+        "titul",
+        "školné"
+      ],
+      "correct": "stipendium"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ fee is quite high this year.",
+      "answer": "tuition",
+      "hint_cz": "školné"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "further education",
+          "cz": "další vzdělávání"
+        },
+        {
+          "target": "part-time study",
+          "cz": "studium při zaměstnání"
+        },
+        {
+          "target": "to enroll",
+          "cz": "zapsat se"
+        },
+        {
+          "target": "online course",
+          "cz": "online kurz"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It's not easy to balance work and study.",
+      "tts_text": "It's not easy to balance work and study."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I plan to ___ in the autumn semester.",
+      "answer": "enroll",
+      "hint_cz": "zapsat se"
+    }
+  ]
+}

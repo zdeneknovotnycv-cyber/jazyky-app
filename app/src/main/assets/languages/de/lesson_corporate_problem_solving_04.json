@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_problem_solving_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Konflikt mit einem Kollegen klären",
+  "title_cz": "Řešení konfliktu s kolegou",
+  "vocabulary": [
+    {
+      "word": "Missverständnis",
+      "translation_cz": "nedorozumění",
+      "example": "Ich glaube, das ist nur ein Missverständnis.",
+      "example_cz": "Myslím, že je to jen nedorozumění.",
+      "tts_text": "Ich glaube, das ist nur ein Missverständnis."
+    },
+    {
+      "word": "es anders sehen",
+      "translation_cz": "vidět to jinak",
+      "example": "Ich sehe das anders als Sie.",
+      "example_cz": "Vidím to jinak než ty.",
+      "tts_text": "Ich sehe das anders als Sie."
+    },
+    {
+      "word": "lassen Sie uns darüber sprechen",
+      "translation_cz": "pojďme to probrat",
+      "example": "Lassen Sie uns in Ruhe darüber sprechen.",
+      "example_cz": "Pojďme to v klidu probrat.",
+      "tts_text": "Lassen Sie uns in Ruhe darüber sprechen."
+    },
+    {
+      "word": "ich verstehe Ihren Standpunkt",
+      "translation_cz": "chápu váš názor",
+      "example": "Ich verstehe Ihren Standpunkt, aber ich sehe es anders.",
+      "example_cz": "Chápu váš názor, ale vidím to jinak.",
+      "tts_text": "Ich verstehe Ihren Standpunkt, aber ich sehe es anders."
+    },
+    {
+      "word": "eine gemeinsame Basis finden",
+      "translation_cz": "najít společnou řeč",
+      "example": "Lassen Sie uns eine gemeinsame Basis finden.",
+      "example_cz": "Pojďme najít společnou řeč.",
+      "tts_text": "Lassen Sie uns eine gemeinsame Basis finden."
+    },
+    {
+      "word": "nichts für ungut",
+      "translation_cz": "bez zášti",
+      "example": "Nichts für ungut, okay?",
+      "example_cz": "Bez zášti, ano?",
+      "tts_text": "Nichts für ungut, okay?"
+    },
+    {
+      "word": "der Kompromiss",
+      "translation_cz": "kompromis",
+      "example": "Können wir einen Kompromiss finden?",
+      "example_cz": "Můžeme najít kompromis?",
+      "tts_text": "Können wir einen Kompromiss finden?"
+    },
+    {
+      "word": "weitermachen",
+      "translation_cz": "posunout se dál",
+      "example": "Lassen Sie uns gemeinsam weitermachen.",
+      "example_cz": "Pojďme se posunout dál společně.",
+      "tts_text": "Lassen Sie uns gemeinsam weitermachen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_04",
+      "title": "Ein Konflikt mit einem Kollegen",
+      "title_cz": "Konflikt s kolegou",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich glaube, wir sehen das anders, und ich möchte darüber sprechen.",
+          "text_cz": "Mám pocit, že to vidíme jinak, a rád bych to probral."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar. Ich verstehe Ihren Standpunkt, aber ich hatte einen anderen Plan.",
+          "text_cz": "Jasně. Chápu tvůj názor, ale měl jsem jiný plán."
+        },
+        {
+          "speaker": "A",
+          "text": "Vielleicht ist das nur ein Missverständnis. Können wir eine gemeinsame Basis finden?",
+          "text_cz": "Možná je to jen nedorozumění. Můžeme najít společnou řeč?"
+        },
+        {
+          "speaker": "B",
+          "text": "Versuchen wir einen Kompromiss. Nichts für ungut.",
+          "text_cz": "Zkusme kompromis. Bez zášti."
+        },
+        {
+          "speaker": "A",
+          "text": "Einverstanden. Lassen Sie uns gemeinsam weitermachen.",
+          "text_cz": "Souhlasím. Pojďme se posunout dál společně."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Missverständnis",
+      "options": [
+        "nedorozumění",
+        "vidět to jinak",
+        "pojďme to probrat"
+      ],
+      "correct": "nedorozumění"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich verstehe Ihren Standpunkt, aber ich sehe es ___",
+      "answer": "anders",
+      "hint_cz": "chápu váš názor"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Missverständnis",
+          "cz": "nedorozumění"
+        },
+        {
+          "target": "es anders sehen",
+          "cz": "vidět to jinak"
+        },
+        {
+          "target": "lassen Sie uns darüber sprechen",
+          "cz": "pojďme to probrat"
+        },
+        {
+          "target": "ich verstehe Ihren Standpunkt",
+          "cz": "chápu váš názor"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lassen Sie uns eine gemeinsame Basis finden.",
+      "tts_text": "Lassen Sie uns eine gemeinsame Basis finden."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Nichts für ungut, ___",
+      "answer": "okay",
+      "hint_cz": "bez zášti"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_customer_service_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Kunden begrüßen",
+  "title_cz": "Přivítání zákazníka",
+  "vocabulary": [
+    {
+      "word": "Willkommen in unserem Geschäft",
+      "translation_cz": "Vítejte v našem obchodě",
+      "example": "Willkommen in unserem Geschäft, wie kann ich Ihnen helfen?",
+      "example_cz": "Vítejte v našem obchodě, jak vám mohu pomoci?",
+      "tts_text": "Willkommen in unserem Geschäft, wie kann ich Ihnen helfen?"
+    },
+    {
+      "word": "Wie kann ich Ihnen helfen?",
+      "translation_cz": "Jak vám mohu pomoci?",
+      "example": "Guten Morgen, wie kann ich Ihnen helfen?",
+      "example_cz": "Dobré ráno, jak vám mohu pomoci?",
+      "tts_text": "Guten Morgen, wie kann ich Ihnen helfen?"
+    },
+    {
+      "word": "Sind Sie zum ersten Mal hier?",
+      "translation_cz": "Jste tu poprvé?",
+      "example": "Sind Sie zum ersten Mal in unserem Geschäft?",
+      "example_cz": "Jste poprvé v našem obchodě?",
+      "tts_text": "Sind Sie zum ersten Mal in unserem Geschäft?"
+    },
+    {
+      "word": "Nehmen Sie bitte Platz",
+      "translation_cz": "Posaďte se, prosím",
+      "example": "Nehmen Sie bitte Platz, gleich kümmert sich jemand um Sie.",
+      "example_cz": "Posaďte se, prosím, hned se o vás někdo postará.",
+      "tts_text": "Nehmen Sie bitte Platz, gleich kümmert sich jemand um Sie."
+    },
+    {
+      "word": "Was führt Sie heute zu uns?",
+      "translation_cz": "Co vás k nám dnes přivádí?",
+      "example": "Was führt Sie heute zu uns?",
+      "example_cz": "Co vás k nám dnes přivádí?",
+      "tts_text": "Was führt Sie heute zu uns?"
+    },
+    {
+      "word": "freundlicher Ton",
+      "translation_cz": "přátelský tón",
+      "example": "Wir begrüßen Kunden immer in einem freundlichen Ton.",
+      "example_cz": "Zákazníky vždy vítáme přátelským tónem.",
+      "tts_text": "Wir begrüßen Kunden immer in einem freundlichen Ton."
+    },
+    {
+      "word": "helfen",
+      "translation_cz": "pomoci, asistovat",
+      "example": "Ich helfe Ihnen gerne.",
+      "example_cz": "Rád vám pomohu.",
+      "tts_text": "Ich helfe Ihnen gerne."
+    },
+    {
+      "word": "Schauen Sie sich gerne um",
+      "translation_cz": "Podívejte se kolem",
+      "example": "Schauen Sie sich gerne bei uns um.",
+      "example_cz": "Klidně se u nás podívejte kolem.",
+      "tts_text": "Schauen Sie sich gerne bei uns um."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_01",
+      "title": "Einen Kunden am Empfang begrüßen",
+      "title_cz": "Přivítání zákazníka u recepce",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Willkommen in unserem Geschäft! Wie kann ich Ihnen helfen?",
+          "text_cz": "Vítejte v našem obchodě! Jak vám mohu pomoci?"
+        },
+        {
+          "speaker": "B",
+          "text": "Hallo, sind Sie zum ersten Mal hier? Ja, eigentlich schon.",
+          "text_cz": "Ahoj, jste tu poprvé? Ano, vlastně ano."
+        },
+        {
+          "speaker": "A",
+          "text": "Wunderbar, willkommen! Schauen Sie sich gerne um, und sagen Sie mir, wenn Sie etwas brauchen.",
+          "text_cz": "Skvělé, vítejte! Klidně se podívejte kolem a dejte vědět, pokud budete něco potřebovat."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke, das mache ich.",
+          "text_cz": "Děkuji, udělám to."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Wie kann ich Ihnen helfen?",
+      "options": [
+        "Jak vám mohu pomoci?",
+        "Posaďte se, prosím",
+        "Co vás k nám dnes přivádí?"
+      ],
+      "correct": "Jak vám mohu pomoci?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Willkommen in unserem Geschäft, wie kann ich Ihnen ___?",
+      "answer": "helfen",
+      "hint_cz": "pomoci"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "willkommen in unserem geschäft",
+          "cz": "vítejte v našem obchodě"
+        },
+        {
+          "target": "helfen",
+          "cz": "pomoci, asistovat"
+        },
+        {
+          "target": "freundlicher ton",
+          "cz": "přátelský tón"
+        },
+        {
+          "target": "nehmen sie bitte platz",
+          "cz": "posaďte se, prosím"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Willkommen in unserem Geschäft, wie kann ich Ihnen helfen?",
+      "tts_text": "Willkommen in unserem Geschäft, wie kann ich Ihnen helfen?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Schauen Sie sich gerne ___.",
+      "answer": "um",
+      "hint_cz": "kolem"
+    }
+  ]
+}

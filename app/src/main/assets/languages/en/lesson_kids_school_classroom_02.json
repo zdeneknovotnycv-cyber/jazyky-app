@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_school_classroom_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "School Subjects",
+  "title_cz": "Školní předměty",
+  "vocabulary": [
+    {
+      "word": "math",
+      "translation_cz": "matematika",
+      "example": "I like math.",
+      "example_cz": "Mám ráda matematiku.",
+      "tts_text": "I like math."
+    },
+    {
+      "word": "English",
+      "translation_cz": "angličtina",
+      "example": "We learn English on Monday.",
+      "example_cz": "V pondělí se učíme angličtinu.",
+      "tts_text": "We learn English on Monday."
+    },
+    {
+      "word": "art",
+      "translation_cz": "výtvarná výchova",
+      "example": "I draw a picture in art.",
+      "example_cz": "Ve výtvarné výchově kreslím obrázek.",
+      "tts_text": "I draw a picture in art."
+    },
+    {
+      "word": "music",
+      "translation_cz": "hudební výchova",
+      "example": "We sing songs in music.",
+      "example_cz": "V hudební výchově zpíváme písničky.",
+      "tts_text": "We sing songs in music."
+    },
+    {
+      "word": "science",
+      "translation_cz": "přírodověda",
+      "example": "We do experiments in science.",
+      "example_cz": "V přírodovědě děláme pokusy.",
+      "tts_text": "We do experiments in science."
+    },
+    {
+      "word": "physical education",
+      "translation_cz": "tělesná výchova",
+      "example": "I run a lot in physical education.",
+      "example_cz": "V tělesné výchově hodně běhám.",
+      "tts_text": "I run a lot in physical education."
+    },
+    {
+      "word": "favorite subject",
+      "translation_cz": "oblíbený předmět",
+      "example": "What is your favorite subject?",
+      "example_cz": "Jaký je tvůj oblíbený předmět?",
+      "tts_text": "What is your favorite subject?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "science",
+      "options": [
+        "přírodověda",
+        "matematika",
+        "angličtina"
+      ],
+      "correct": "přírodověda"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I draw a picture in ___.",
+      "answer": "art",
+      "hint_cz": "výtvarné výchově"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "math",
+          "cz": "matematika"
+        },
+        {
+          "target": "music",
+          "cz": "hudební výchova"
+        },
+        {
+          "target": "physical education",
+          "cz": "tělesná výchova"
+        },
+        {
+          "target": "favorite subject",
+          "cz": "oblíbený předmět"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "What is your favorite subject?",
+      "tts_text": "What is your favorite subject?"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_shopping_kids_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Im Eisladen",
+  "title_cz": "Ve zmrzlinárně",
+  "vocabulary": [
+    {
+      "word": "der Eisladen",
+      "translation_cz": "zmrzlinárna",
+      "example": "Wir gehen im Sommer zum Eisladen.",
+      "example_cz": "V létě chodíme do zmrzlinárny.",
+      "tts_text": "Wir gehen im Sommer zum Eisladen."
+    },
+    {
+      "word": "die Kugel",
+      "translation_cz": "kopeček",
+      "example": "Ich möchte zwei Kugeln Eis.",
+      "example_cz": "Chci dva kopečky zmrzliny.",
+      "tts_text": "Ich möchte zwei Kugeln Eis."
+    },
+    {
+      "word": "die Geschmacksrichtung",
+      "translation_cz": "příchuť",
+      "example": "Meine Lieblingsgeschmacksrichtung ist Schokolade.",
+      "example_cz": "Moje oblíbená příchuť je čokoládová.",
+      "tts_text": "Meine Lieblingsgeschmacksrichtung ist Schokolade."
+    },
+    {
+      "word": "die Waffel",
+      "translation_cz": "kornoutek",
+      "example": "Ich halte mein Eis in einer Waffel.",
+      "example_cz": "Zmrzlinu držím v kornoutku.",
+      "tts_text": "Ich halte mein Eis in einer Waffel."
+    },
+    {
+      "word": "die Vanille",
+      "translation_cz": "vanilkový",
+      "example": "Sie mag Vanilleeis.",
+      "example_cz": "Má ráda vanilkovou zmrzlinu.",
+      "tts_text": "Sie mag Vanilleeis."
+    },
+    {
+      "word": "schmelzen",
+      "translation_cz": "roztát",
+      "example": "Das Eis beginnt zu schmelzen.",
+      "example_cz": "Zmrzlina začíná tát.",
+      "tts_text": "Das Eis beginnt zu schmelzen."
+    },
+    {
+      "word": "lecken",
+      "translation_cz": "lízat",
+      "example": "Ich lecke langsam an meinem Eis.",
+      "example_cz": "Pomalu lížu zmrzlinu.",
+      "tts_text": "Ich lecke langsam an meinem Eis."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Eisladen",
+      "options": [
+        "zmrzlinárna",
+        "kopeček",
+        "příchuť"
+      ],
+      "correct": "zmrzlinárna"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich möchte zwei ___n Eis.",
+      "answer": "Kugel",
+      "hint_cz": "kopeček"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Geschmacksrichtung",
+          "cz": "příchuť"
+        },
+        {
+          "target": "die Waffel",
+          "cz": "kornoutek"
+        },
+        {
+          "target": "die Vanille",
+          "cz": "vanilkový"
+        },
+        {
+          "target": "schmelzen",
+          "cz": "roztát"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich lecke langsam an meinem Eis.",
+      "tts_text": "Ich lecke langsam an meinem Eis."
+    }
+  ]
+}

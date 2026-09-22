@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_weather_seasons_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Summer and the Beach",
+  "title_cz": "Léto a pláž",
+  "vocabulary": [
+    {
+      "word": "beach",
+      "translation_cz": "pláž",
+      "example": "We play on the beach.",
+      "example_cz": "Hrajeme si na pláži.",
+      "tts_text": "We play on the beach."
+    },
+    {
+      "word": "sea",
+      "translation_cz": "moře",
+      "example": "The sea is blue.",
+      "example_cz": "Moře je modré.",
+      "tts_text": "The sea is blue."
+    },
+    {
+      "word": "swimsuit",
+      "translation_cz": "plavky",
+      "example": "I wear my swimsuit at the beach.",
+      "example_cz": "Na pláži nosím plavky.",
+      "tts_text": "I wear my swimsuit at the beach."
+    },
+    {
+      "word": "sand",
+      "translation_cz": "písek",
+      "example": "The sand is warm.",
+      "example_cz": "Písek je teplý.",
+      "tts_text": "The sand is warm."
+    },
+    {
+      "word": "hot",
+      "translation_cz": "horko",
+      "example": "It is hot in summer.",
+      "example_cz": "V létě je horko.",
+      "tts_text": "It is hot in summer."
+    },
+    {
+      "word": "ice cream",
+      "translation_cz": "zmrzlina",
+      "example": "I eat ice cream in summer.",
+      "example_cz": "V létě jím zmrzlinu.",
+      "tts_text": "I eat ice cream in summer."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "beach",
+      "options": [
+        "pláž",
+        "moře",
+        "písek"
+      ],
+      "correct": "pláž"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "It is ___ in summer.",
+      "answer": "hot",
+      "hint_cz": "horko"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sea",
+          "cz": "moře"
+        },
+        {
+          "target": "swimsuit",
+          "cz": "plavky"
+        },
+        {
+          "target": "sand",
+          "cz": "písek"
+        },
+        {
+          "target": "ice cream",
+          "cz": "zmrzlina"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We play on the beach.",
+      "tts_text": "We play on the beach."
+    }
+  ]
+}

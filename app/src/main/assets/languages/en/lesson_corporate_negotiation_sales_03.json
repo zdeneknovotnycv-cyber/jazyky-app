@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_negotiation_sales_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Handling Objections",
+  "title_cz": "Reakce na námitky",
+  "vocabulary": [
+    {
+      "word": "objection",
+      "translation_cz": "námitka",
+      "example": "That's a fair objection.",
+      "example_cz": "To je oprávněná námitka.",
+      "tts_text": "That's a fair objection."
+    },
+    {
+      "word": "concern",
+      "translation_cz": "obava",
+      "example": "I understand your concern about the price.",
+      "example_cz": "Chápu vaši obavu ohledně ceny.",
+      "tts_text": "I understand your concern about the price."
+    },
+    {
+      "word": "reassure",
+      "translation_cz": "ujistit",
+      "example": "Let me reassure you about the quality.",
+      "example_cz": "Dovolte mi vás ujistit ohledně kvality.",
+      "tts_text": "Let me reassure you about the quality."
+    },
+    {
+      "word": "understand your perspective",
+      "translation_cz": "chápat váš pohled",
+      "example": "I understand your perspective on this.",
+      "example_cz": "Chápu váš pohled na tuto věc.",
+      "tts_text": "I understand your perspective on this."
+    },
+    {
+      "word": "address",
+      "translation_cz": "vypořádat se s",
+      "example": "Let me address that concern directly.",
+      "example_cz": "Dovolte mi se s touto obavou přímo vypořádat.",
+      "tts_text": "Let me address that concern directly."
+    },
+    {
+      "word": "hesitation",
+      "translation_cz": "váhání",
+      "example": "I sense some hesitation on your side.",
+      "example_cz": "Cítím na vaší straně jisté váhání.",
+      "tts_text": "I sense some hesitation on your side."
+    },
+    {
+      "word": "common misconception",
+      "translation_cz": "častý mylný předpoklad",
+      "example": "That's a common misconception about our pricing.",
+      "example_cz": "To je častý mylný předpoklad o naší cenové politice.",
+      "tts_text": "That's a common misconception about our pricing."
+    },
+    {
+      "word": "guarantee",
+      "translation_cz": "záruka",
+      "example": "We offer a full money-back guarantee.",
+      "example_cz": "Nabízíme plnou záruku vrácení peněz.",
+      "tts_text": "We offer a full money-back guarantee."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_handle_objection",
+      "title": "Handling a price objection",
+      "title_cz": "Reakce na námitku ohledně ceny",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Honestly, this seems more expensive than your competitors.",
+          "text_cz": "Upřímně, tohle se zdá dražší než u vaší konkurence."
+        },
+        {
+          "speaker": "B",
+          "text": "I understand your concern about the price. Let me address that directly.",
+          "text_cz": "Chápu vaši obavu ohledně ceny. Dovolte mi se s tím rovnou vypořádat."
+        },
+        {
+          "speaker": "A",
+          "text": "Please do.",
+          "text_cz": "Prosím, povídejte."
+        },
+        {
+          "speaker": "B",
+          "text": "We include support and a full money-back guarantee, which most competitors don't offer.",
+          "text_cz": "Zahrnujeme podporu a plnou záruku vrácení peněz, což většina konkurentů nenabízí."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "objection",
+      "options": [
+        "námitka",
+        "ujistit",
+        "chápat váš pohled"
+      ],
+      "correct": "námitka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I understand your ___ about the price.",
+      "answer": "concern",
+      "hint_cz": "obava"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let me ___ that concern directly.",
+      "answer": "address",
+      "hint_cz": "vypořádat se s"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "hesitation",
+          "cz": "váhání"
+        },
+        {
+          "target": "common misconception",
+          "cz": "častý mylný předpoklad"
+        },
+        {
+          "target": "guarantee",
+          "cz": "záruka"
+        },
+        {
+          "target": "reassure",
+          "cz": "ujistit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Honestly, this seems more expensive than your competitors.",
+      "tts_text": "Honestly, this seems more expensive than your competitors."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I understand your concern about the price. Let me address that directly.",
+      "tts_text": "I understand your concern about the price. Let me address that directly."
+    }
+  ]
+}

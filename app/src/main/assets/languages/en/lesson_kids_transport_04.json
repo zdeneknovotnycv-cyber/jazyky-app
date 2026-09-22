@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_transport_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Bicycles",
+  "title_cz": "Kola",
+  "vocabulary": [
+    {
+      "word": "bicycle",
+      "translation_cz": "kolo",
+      "example": "I ride my bicycle every day.",
+      "example_cz": "Jezdím na kole každý den.",
+      "tts_text": "I ride my bicycle every day."
+    },
+    {
+      "word": "helmet",
+      "translation_cz": "helma",
+      "example": "I always wear a helmet.",
+      "example_cz": "Vždy nosím helmu.",
+      "tts_text": "I always wear a helmet."
+    },
+    {
+      "word": "pedal",
+      "translation_cz": "pedál",
+      "example": "I push the pedal with my foot.",
+      "example_cz": "Šlapu nohou na pedál.",
+      "tts_text": "I push the pedal with my foot."
+    },
+    {
+      "word": "handlebar",
+      "translation_cz": "řídítka",
+      "example": "I hold the handlebar with two hands.",
+      "example_cz": "Držím řídítka oběma rukama.",
+      "tts_text": "I hold the handlebar with two hands."
+    },
+    {
+      "word": "bell",
+      "translation_cz": "zvonek",
+      "example": "I ring the bell on my bicycle.",
+      "example_cz": "Zvoním zvonkem na kole.",
+      "tts_text": "I ring the bell on my bicycle."
+    },
+    {
+      "word": "bike path",
+      "translation_cz": "cyklostezka",
+      "example": "We ride on the bike path.",
+      "example_cz": "Jezdíme po cyklostezce.",
+      "tts_text": "We ride on the bike path."
+    },
+    {
+      "word": "fall down",
+      "translation_cz": "spadnout",
+      "example": "Be careful not to fall down.",
+      "example_cz": "Dávej pozor, abys nespadl.",
+      "tts_text": "Be careful not to fall down."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "bicycle",
+      "options": [
+        "kolo",
+        "řidič",
+        "letiště"
+      ],
+      "correct": "kolo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I always wear a ___.",
+      "answer": "helmet",
+      "hint_cz": "helma"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "helmet",
+          "cz": "helma"
+        },
+        {
+          "target": "pedal",
+          "cz": "pedál"
+        },
+        {
+          "target": "handlebar",
+          "cz": "řídítka"
+        },
+        {
+          "target": "bell",
+          "cz": "zvonek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I ride my bicycle every day.",
+      "tts_text": "I ride my bicycle every day."
+    }
+  ]
+}

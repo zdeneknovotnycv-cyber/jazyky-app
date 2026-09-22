@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_office_life_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ankündigung des Büroumzugs",
+  "title_cz": "Oznámení o stěhování kanceláře",
+  "vocabulary": [
+    {
+      "word": "der Büroumzug",
+      "translation_cz": "stěhování kanceláře",
+      "example": "Der Büroumzug ist für nächsten Monat geplant.",
+      "example_cz": "Stěhování kanceláře je naplánováno na příští měsíc.",
+      "tts_text": "Der Büroumzug ist für nächsten Monat geplant."
+    },
+    {
+      "word": "der neue Standort",
+      "translation_cz": "nové místo",
+      "example": "Unser neuer Standort ist in der Innenstadt.",
+      "example_cz": "Naše nové místo je v centru města.",
+      "tts_text": "Unser neuer Standort ist in der Innenstadt."
+    },
+    {
+      "word": "den Schreibtisch packen",
+      "translation_cz": "sbalit si stůl",
+      "example": "Bitte pack deinen Schreibtisch bis Freitag.",
+      "example_cz": "Prosím sbal si stůl do pátku.",
+      "tts_text": "Bitte pack deinen Schreibtisch bis Freitag."
+    },
+    {
+      "word": "die Umzugskartons",
+      "translation_cz": "stěhovací krabice",
+      "example": "Umzugskartons gibt es am Empfang.",
+      "example_cz": "Stěhovací krabice jsou k dispozici na recepci.",
+      "tts_text": "Umzugskartons gibt es am Empfang."
+    },
+    {
+      "word": "umziehen",
+      "translation_cz": "přestěhovat se",
+      "example": "Das ganze Team zieht in den fünften Stock um.",
+      "example_cz": "Celý tým se přestěhuje do pátého patra.",
+      "tts_text": "Das ganze Team zieht in den fünften Stock um."
+    },
+    {
+      "word": "der Grundriss",
+      "translation_cz": "plánek podlaží",
+      "example": "Schau im neuen Grundriss nach deiner Tischnummer.",
+      "example_cz": "Podívej se do nového plánku podlaží na číslo stolu.",
+      "tts_text": "Schau im neuen Grundriss nach deiner Tischnummer."
+    },
+    {
+      "word": "das Übergangsbüro",
+      "translation_cz": "dočasná kancelář",
+      "example": "Wir arbeiten eine Woche im Übergangsbüro.",
+      "example_cz": "Týden budeme pracovat z dočasné kanceláře.",
+      "tts_text": "Wir arbeiten eine Woche im Übergangsbüro."
+    },
+    {
+      "word": "der Umzugstag",
+      "translation_cz": "den stěhování",
+      "example": "Der Umzugstag ist für den fünfzehnten geplant.",
+      "example_cz": "Den stěhování je naplánován na patnáctého.",
+      "tts_text": "Der Umzugstag ist für den fünfzehnten geplant."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_08",
+      "title": "Den Büroumzug ankündigen",
+      "title_cz": "Oznámení stěhování kanceláře",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hast du vom Büroumzug gehört?",
+          "text_cz": "Slyšel jsi o stěhování kanceláře?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, wir ziehen an einen neuen Standort in der Innenstadt um.",
+          "text_cz": "Ano, stěhujeme se na nové místo v centru."
+        },
+        {
+          "speaker": "A",
+          "text": "Wann soll ich meinen Schreibtisch packen?",
+          "text_cz": "Kdy si mám sbalit stůl?"
+        },
+        {
+          "speaker": "B",
+          "text": "Bis Freitag, Umzugskartons gibt es am Empfang.",
+          "text_cz": "Do pátku, stěhovací krabice jsou na recepci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Büroumzug",
+      "options": [
+        "stěhování kanceláře",
+        "nové místo",
+        "sbalit si stůl"
+      ],
+      "correct": "stěhování kanceláře"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte pack deinen Schreibtisch bis Freitag ___.",
+      "answer": "ein",
+      "hint_cz": "sbal"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Büroumzug",
+          "cz": "stěhování kanceláře"
+        },
+        {
+          "target": "der neue Standort",
+          "cz": "nové místo"
+        },
+        {
+          "target": "den Schreibtisch packen",
+          "cz": "sbalit si stůl"
+        },
+        {
+          "target": "die Umzugskartons",
+          "cz": "stěhovací krabice"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte pack deinen Schreibtisch bis Freitag.",
+      "tts_text": "Bitte pack deinen Schreibtisch bis Freitag."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir werden an einen neuen Standort ___.",
+      "answer": "umziehen",
+      "hint_cz": "přestěhovat se"
+    }
+  ]
+}

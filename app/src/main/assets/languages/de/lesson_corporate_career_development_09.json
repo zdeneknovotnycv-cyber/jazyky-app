@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_career_development_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über Work-Life-Balance sprechen",
+  "title_cz": "Diskuze o rovnováze mezi prací a životem",
+  "vocabulary": [
+    {
+      "word": "die Work-Life-Balance",
+      "translation_cz": "rovnováha mezi prací a životem",
+      "example": "Ich habe über meine Work-Life-Balance nachgedacht.",
+      "example_cz": "Přemýšlel jsem o své rovnováze mezi prací a životem.",
+      "tts_text": "Ich habe über meine Work-Life-Balance nachgedacht."
+    },
+    {
+      "word": "die Überstunden",
+      "translation_cz": "přesčas",
+      "example": "Ich mache in letzter Zeit viele Überstunden.",
+      "example_cz": "V poslední době dělám hodně přesčasů.",
+      "tts_text": "Ich mache in letzter Zeit viele Überstunden."
+    },
+    {
+      "word": "das Burnout",
+      "translation_cz": "vyhoření",
+      "example": "Ich mache mir Sorgen wegen eines Burnouts.",
+      "example_cz": "Mám obavy z vyhoření.",
+      "tts_text": "Ich mache mir Sorgen wegen eines Burnouts."
+    },
+    {
+      "word": "die flexiblen Arbeitszeiten",
+      "translation_cz": "flexibilní pracovní doba",
+      "example": "Flexible Arbeitszeiten würden mir wirklich helfen.",
+      "example_cz": "Flexibilní pracovní doba by mi opravdu pomohla.",
+      "tts_text": "Flexible Arbeitszeiten würden mir wirklich helfen."
+    },
+    {
+      "word": "sich freinehmen",
+      "translation_cz": "vzít si volno",
+      "example": "Du solltest dir bald etwas Zeit freinehmen.",
+      "example_cz": "Měl bys brzy vzít si volno.",
+      "tts_text": "Du solltest dir bald etwas Zeit freinehmen."
+    },
+    {
+      "word": "Grenzen setzen",
+      "translation_cz": "stanovit hranice",
+      "example": "Es ist wichtig, bei der Arbeit Grenzen zu setzen.",
+      "example_cz": "Je důležité stanovit si hranice v práci.",
+      "tts_text": "Es ist wichtig, bei der Arbeit Grenzen zu setzen."
+    },
+    {
+      "word": "priorisieren",
+      "translation_cz": "stanovit priority",
+      "example": "Ich muss auch mein Wohlbefinden priorisieren.",
+      "example_cz": "Musím si stanovit priority i pro své duševní pohodu.",
+      "tts_text": "Ich muss auch mein Wohlbefinden priorisieren."
+    },
+    {
+      "word": "neue Energie tanken",
+      "translation_cz": "nabrat síly",
+      "example": "Eine kurze Pause hilft mir, neue Energie zu tanken.",
+      "example_cz": "Krátká přestávka mi pomáhá nabrat síly.",
+      "tts_text": "Eine kurze Pause hilft mir, neue Energie zu tanken."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_work_life_balance",
+      "title": "Über Work-Life-Balance sprechen",
+      "title_cz": "Rozhovor o rovnováze mezi prací a životem",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich habe in letzter Zeit über meine Work-Life-Balance nachgedacht.",
+          "text_cz": "V poslední době přemýšlím o své rovnováze mezi prací a životem."
+        },
+        {
+          "speaker": "B",
+          "text": "Machst du wieder viele Überstunden?",
+          "text_cz": "Zase děláš hodně přesčasů?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, und ehrlich gesagt mache ich mir Sorgen wegen eines Burnouts.",
+          "text_cz": "Ano, a upřímně mám obavy z vyhoření."
+        },
+        {
+          "speaker": "B",
+          "text": "Du solltest dir etwas Zeit freinehmen. Frag vielleicht auch nach flexiblen Arbeitszeiten.",
+          "text_cz": "Měl bys si vzít volno. Možná se zeptej i na flexibilní pracovní dobu."
+        },
+        {
+          "speaker": "A",
+          "text": "Du hast recht, ich muss Grenzen setzen und mein Wohlbefinden priorisieren.",
+          "text_cz": "Máš pravdu, musím si stanovit hranice a priority pro svou duševní pohodu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Burnout",
+      "options": [
+        "vyhoření",
+        "přesčas",
+        "flexibilní pracovní doba"
+      ],
+      "correct": "vyhoření"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Du solltest dir bald etwas Zeit ___.",
+      "answer": "freinehmen",
+      "hint_cz": "vzít si"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Überstunden",
+          "cz": "přesčas"
+        },
+        {
+          "target": "die flexiblen Arbeitszeiten",
+          "cz": "flexibilní pracovní doba"
+        },
+        {
+          "target": "Grenzen setzen",
+          "cz": "stanovit hranice"
+        },
+        {
+          "target": "neue Energie tanken",
+          "cz": "nabrat síly"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Es ist wichtig, bei der Arbeit Grenzen zu setzen.",
+      "tts_text": "Es ist wichtig, bei der Arbeit Grenzen zu setzen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Eine kurze Pause hilft mir, neue Energie zu ___.",
+      "answer": "tanken",
+      "hint_cz": "nabrat"
+    }
+  ]
+}

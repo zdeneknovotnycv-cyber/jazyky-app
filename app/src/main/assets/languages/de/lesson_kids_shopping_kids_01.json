@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_shopping_kids_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Im Spielzeugladen",
+  "title_cz": "V obchodě s hračkami",
+  "vocabulary": [
+    {
+      "word": "der Spielzeugladen",
+      "translation_cz": "obchod s hračkami",
+      "example": "Wir gehen samstags in den Spielzeugladen.",
+      "example_cz": "V sobotu jdeme do obchodu s hračkami.",
+      "tts_text": "Wir gehen samstags in den Spielzeugladen."
+    },
+    {
+      "word": "das Regal",
+      "translation_cz": "police",
+      "example": "Die Spielsachen stehen im Regal.",
+      "example_cz": "Hračky jsou na polici.",
+      "tts_text": "Die Spielsachen stehen im Regal."
+    },
+    {
+      "word": "die Puppe",
+      "translation_cz": "panenka",
+      "example": "Ich möchte eine neue Puppe.",
+      "example_cz": "Chci novou panenku.",
+      "tts_text": "Ich möchte eine neue Puppe."
+    },
+    {
+      "word": "das Puzzle",
+      "translation_cz": "puzzle, skládačka",
+      "example": "Ich mag ein buntes Puzzle.",
+      "example_cz": "Mám rád barevné puzzle.",
+      "tts_text": "Ich mag ein buntes Puzzle."
+    },
+    {
+      "word": "teuer",
+      "translation_cz": "drahý",
+      "example": "Dieses Spielzeug ist zu teuer.",
+      "example_cz": "Tato hračka je moc drahá.",
+      "tts_text": "Dieses Spielzeug ist zu teuer."
+    },
+    {
+      "word": "auswählen",
+      "translation_cz": "vybrat",
+      "example": "Es ist schwer, ein Spielzeug auszuwählen.",
+      "example_cz": "Je těžké vybrat jednu hračku.",
+      "tts_text": "Es ist schwer, ein Spielzeug auszuwählen."
+    },
+    {
+      "word": "die Kassiererin",
+      "translation_cz": "pokladní",
+      "example": "Die Kassiererin gibt mir die Quittung.",
+      "example_cz": "Pokladní mi dá účtenku.",
+      "tts_text": "Die Kassiererin gibt mir die Quittung."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Spielzeugladen",
+      "options": [
+        "obchod s hračkami",
+        "police",
+        "panenka"
+      ],
+      "correct": "obchod s hračkami"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Spielsachen stehen im ___.",
+      "answer": "Regal",
+      "hint_cz": "police"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Puppe",
+          "cz": "panenka"
+        },
+        {
+          "target": "das Puzzle",
+          "cz": "puzzle, skládačka"
+        },
+        {
+          "target": "teuer",
+          "cz": "drahý"
+        },
+        {
+          "target": "auswählen",
+          "cz": "vybrat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Die Kassiererin gibt mir die Quittung.",
+      "tts_text": "Die Kassiererin gibt mir die Quittung."
+    }
+  ]
+}

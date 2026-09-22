@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_family_people_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Describing People",
+  "title_cz": "Popis lidí",
+  "vocabulary": [
+    {
+      "word": "tall",
+      "translation_cz": "vysoký",
+      "example": "My brother is tall.",
+      "example_cz": "Můj bratr je vysoký.",
+      "tts_text": "My brother is tall."
+    },
+    {
+      "word": "short",
+      "translation_cz": "malý (postavou)",
+      "example": "The little boy is short.",
+      "example_cz": "Ten malý chlapec je malý postavou.",
+      "tts_text": "The little boy is short."
+    },
+    {
+      "word": "hair",
+      "translation_cz": "vlasy",
+      "example": "Her hair is long.",
+      "example_cz": "Její vlasy jsou dlouhé.",
+      "tts_text": "Her hair is long."
+    },
+    {
+      "word": "blonde",
+      "translation_cz": "blonďatý",
+      "example": "My sister has blonde hair.",
+      "example_cz": "Moje sestra má blond vlasy.",
+      "tts_text": "My sister has blonde hair."
+    },
+    {
+      "word": "brown eyes",
+      "translation_cz": "hnědé oči",
+      "example": "He has brown eyes.",
+      "example_cz": "Má hnědé oči.",
+      "tts_text": "He has brown eyes."
+    },
+    {
+      "word": "young",
+      "translation_cz": "mladý",
+      "example": "The teacher is young.",
+      "example_cz": "Ta učitelka je mladá.",
+      "tts_text": "The teacher is young."
+    },
+    {
+      "word": "old",
+      "translation_cz": "starý",
+      "example": "My grandfather is old.",
+      "example_cz": "Můj dědeček je starý.",
+      "tts_text": "My grandfather is old."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "tall",
+      "options": [
+        "vysoký",
+        "malý",
+        "starý"
+      ],
+      "correct": "vysoký"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My sister has ___ hair.",
+      "answer": "blonde",
+      "hint_cz": "blonďaté"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "short",
+          "cz": "malý (postavou)"
+        },
+        {
+          "target": "hair",
+          "cz": "vlasy"
+        },
+        {
+          "target": "young",
+          "cz": "mladý"
+        },
+        {
+          "target": "old",
+          "cz": "starý"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "He has brown eyes.",
+      "tts_text": "He has brown eyes."
+    }
+  ]
+}

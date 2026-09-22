@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_performance_feedback_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über Karrierewachstum sprechen",
+  "title_cz": "Diskuse o kariérním růstu",
+  "vocabulary": [
+    {
+      "word": "das Karrierewachstum",
+      "translation_cz": "kariérní růst",
+      "example": "Lass uns über dein Karrierewachstum dieses Jahr sprechen.",
+      "example_cz": "Pojďme letos probrat tvůj kariérní růst.",
+      "tts_text": "Lass uns über dein Karrierewachstum dieses Jahr sprechen."
+    },
+    {
+      "word": "die langfristigen Ziele",
+      "translation_cz": "dlouhodobé cíle",
+      "example": "Was sind deine langfristigen Ziele im Unternehmen?",
+      "example_cz": "Jaké máš ve firmě dlouhodobé cíle?",
+      "tts_text": "Was sind deine langfristigen Ziele im Unternehmen?"
+    },
+    {
+      "word": "der Entwicklungsplan",
+      "translation_cz": "rozvojový plán",
+      "example": "Wir können gemeinsam einen Entwicklungsplan erstellen.",
+      "example_cz": "Můžeme společně vytvořit rozvojový plán.",
+      "tts_text": "Wir können gemeinsam einen Entwicklungsplan erstellen."
+    },
+    {
+      "word": "die neuen Fähigkeiten",
+      "translation_cz": "nové dovednosti",
+      "example": "Welche neuen Fähigkeiten möchtest du lernen?",
+      "example_cz": "Jaké nové dovednosti by ses chtěl naučit?",
+      "tts_text": "Welche neuen Fähigkeiten möchtest du lernen?"
+    },
+    {
+      "word": "der Mentor",
+      "translation_cz": "mentor",
+      "example": "Du könntest einen Mentor in einer anderen Abteilung finden.",
+      "example_cz": "Mohl bys najít mentora v jiném oddělení.",
+      "tts_text": "Du könntest einen Mentor in einer anderen Abteilung finden."
+    },
+    {
+      "word": "das anspruchsvolle Projekt",
+      "translation_cz": "náročný rozvojový projekt",
+      "example": "Ein anspruchsvolles Projekt könnte dir helfen, schneller zu wachsen.",
+      "example_cz": "Náročný rozvojový projekt by ti mohl pomoci rychleji růst.",
+      "tts_text": "Ein anspruchsvolles Projekt könnte dir helfen, schneller zu wachsen."
+    },
+    {
+      "word": "der Karriereweg",
+      "translation_cz": "kariérní dráha",
+      "example": "Welcher Karriereweg interessiert dich am meisten?",
+      "example_cz": "Jaká kariérní dráha tě nejvíc zajímá?",
+      "tts_text": "Welcher Karriereweg interessiert dich am meisten?"
+    },
+    {
+      "word": "die Weiterbildungsmöglichkeiten",
+      "translation_cz": "školicí příležitosti",
+      "example": "Es gibt nächstes Quartal neue Weiterbildungsmöglichkeiten.",
+      "example_cz": "Příští čtvrtletí budou nové školicí příležitosti.",
+      "tts_text": "Es gibt nächstes Quartal neue Weiterbildungsmöglichkeiten."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_07",
+      "title": "Karriereentwicklung planen",
+      "title_cz": "Plánování kariérního rozvoje",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Lass uns über dein Karrierewachstum dieses Jahr sprechen.",
+          "text_cz": "Pojďme letos probrat tvůj kariérní růst."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich möchte irgendwann in eine Führungsrolle wechseln.",
+          "text_cz": "Rád bych se časem posunul do vedoucí role."
+        },
+        {
+          "speaker": "A",
+          "text": "Gut, lass uns einen Entwicklungsplan mit neuen Fähigkeiten erstellen.",
+          "text_cz": "Dobře, sestavme rozvojový plán s novými dovednostmi."
+        },
+        {
+          "speaker": "B",
+          "text": "Das würde helfen. Gibt es bald Weiterbildungsmöglichkeiten?",
+          "text_cz": "To by pomohlo. Budou brzy nějaké školicí příležitosti?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Karrierewachstum",
+      "options": [
+        "kariérní růst",
+        "dlouhodobé cíle",
+        "rozvojový plán"
+      ],
+      "correct": "kariérní růst"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Was sind deine langfristigen ___ im Unternehmen?",
+      "answer": "Ziele",
+      "hint_cz": "cíle"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Karrierewachstum",
+          "cz": "kariérní růst"
+        },
+        {
+          "target": "die langfristigen Ziele",
+          "cz": "dlouhodobé cíle"
+        },
+        {
+          "target": "der Entwicklungsplan",
+          "cz": "rozvojový plán"
+        },
+        {
+          "target": "die neuen Fähigkeiten",
+          "cz": "nové dovednosti"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lass uns über dein Karrierewachstum dieses Jahr sprechen.",
+      "tts_text": "Lass uns über dein Karrierewachstum dieses Jahr sprechen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir können gemeinsam einen ___ erstellen.",
+      "answer": "Entwicklungsplan",
+      "hint_cz": "rozvojový plán"
+    }
+  ]
+}

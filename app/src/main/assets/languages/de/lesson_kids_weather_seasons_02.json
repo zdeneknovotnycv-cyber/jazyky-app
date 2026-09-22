@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_weather_seasons_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Schnee und Winter",
+  "title_cz": "Sníh a zima",
+  "vocabulary": [
+    {
+      "word": "der Schnee",
+      "translation_cz": "sníh",
+      "example": "Der Schnee ist weiß.",
+      "example_cz": "Sníh je bílý.",
+      "tts_text": "Der Schnee ist weiß."
+    },
+    {
+      "word": "der Schneemann",
+      "translation_cz": "sněhulák",
+      "example": "Wir haben einen Schneemann gebaut.",
+      "example_cz": "Postavili jsme sněhuláka.",
+      "tts_text": "Wir haben einen Schneemann gebaut."
+    },
+    {
+      "word": "kalt",
+      "translation_cz": "zima (chladno)",
+      "example": "Heute ist es sehr kalt.",
+      "example_cz": "Dnes je velká zima.",
+      "tts_text": "Heute ist es sehr kalt."
+    },
+    {
+      "word": "die Schneeflocke",
+      "translation_cz": "sněhová vločka",
+      "example": "Eine Schneeflocke ist auf meine Hand gefallen.",
+      "example_cz": "Sněhová vločka mi dopadla na ruku.",
+      "tts_text": "Eine Schneeflocke ist auf meine Hand gefallen."
+    },
+    {
+      "word": "der Schlitten",
+      "translation_cz": "saně",
+      "example": "Ich fahre mit dem Schlitten den Hügel hinunter.",
+      "example_cz": "Jezdím na saních z kopce.",
+      "tts_text": "Ich fahre mit dem Schlitten den Hügel hinunter."
+    },
+    {
+      "word": "das Eis",
+      "translation_cz": "led",
+      "example": "Der Teich ist mit Eis bedeckt.",
+      "example_cz": "Rybník je pokrytý ledem.",
+      "tts_text": "Der Teich ist mit Eis bedeckt."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Schnee",
+      "options": [
+        "sníh",
+        "led",
+        "sněhulák"
+      ],
+      "correct": "sníh"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir haben einen ___ gebaut.",
+      "answer": "Schneemann",
+      "hint_cz": "sněhuláka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "kalt",
+          "cz": "zima (chladno)"
+        },
+        {
+          "target": "die Schneeflocke",
+          "cz": "sněhová vločka"
+        },
+        {
+          "target": "der Schlitten",
+          "cz": "saně"
+        },
+        {
+          "target": "das Eis",
+          "cz": "led"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir haben einen Schneemann gebaut.",
+      "tts_text": "Wir haben einen Schneemann gebaut."
+    }
+  ]
+}

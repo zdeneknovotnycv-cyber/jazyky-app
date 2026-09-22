@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_customer_service_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "De-escalating an angry customer",
+  "title_cz": "Zklidnění rozzlobeného zákazníka",
+  "vocabulary": [
+    {
+      "word": "Please calm down",
+      "translation_cz": "Prosím uklidněte se",
+      "example": "Please calm down, I'm here to help.",
+      "example_cz": "Prosím uklidněte se, jsem tu, abych pomohl.",
+      "tts_text": "Please calm down, I'm here to help."
+    },
+    {
+      "word": "I hear what you're saying",
+      "translation_cz": "Slyším, co říkáte",
+      "example": "I hear what you're saying, and I want to help.",
+      "example_cz": "Slyším, co říkáte, a chci pomoci.",
+      "tts_text": "I hear what you're saying, and I want to help."
+    },
+    {
+      "word": "let's find a way to fix this",
+      "translation_cz": "pojďme najít způsob, jak to napravit",
+      "example": "Let's find a way to fix this together.",
+      "example_cz": "Pojďme společně najít způsob, jak to napravit.",
+      "tts_text": "Let's find a way to fix this together."
+    },
+    {
+      "word": "I don't blame you for being upset",
+      "translation_cz": "Nedivím se, že jste naštvaný",
+      "example": "I don't blame you for being upset about this.",
+      "example_cz": "Nedivím se, že jste kvůli tomu naštvaný.",
+      "tts_text": "I don't blame you for being upset about this."
+    },
+    {
+      "word": "speak to a manager",
+      "translation_cz": "mluvit s vedoucím",
+      "example": "Would you like to speak to a manager?",
+      "example_cz": "Chtěl byste mluvit s vedoucím?",
+      "tts_text": "Would you like to speak to a manager?"
+    },
+    {
+      "word": "stay on the line",
+      "translation_cz": "zůstat na lince",
+      "example": "Please stay on the line while I check this.",
+      "example_cz": "Zůstaňte prosím na lince, zatímco to zkontroluji.",
+      "tts_text": "Please stay on the line while I check this."
+    },
+    {
+      "word": "lower your voice",
+      "translation_cz": "ztišit hlas",
+      "example": "I understand you're upset, but please lower your voice.",
+      "example_cz": "Chápu, že jste naštvaný, ale prosím ztište hlas.",
+      "tts_text": "I understand you're upset, but please lower your voice."
+    },
+    {
+      "word": "patience",
+      "translation_cz": "trpělivost",
+      "example": "Thank you for your patience while we sort this out.",
+      "example_cz": "Děkuji za trpělivost, zatímco to řešíme.",
+      "tts_text": "Thank you for your patience while we sort this out."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_08",
+      "title": "Calming down an upset customer on the phone",
+      "title_cz": "Uklidnění naštvaného zákazníka po telefonu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "This is unacceptable! I've been waiting for an hour!",
+          "text_cz": "To je nepřijatelné! Čekám už hodinu!"
+        },
+        {
+          "speaker": "B",
+          "text": "I hear what you're saying, and I don't blame you for being upset.",
+          "text_cz": "Slyším, co říkáte, a nedivím se, že jste naštvaný."
+        },
+        {
+          "speaker": "A",
+          "text": "So what are you going to do about it?",
+          "text_cz": "Tak co s tím uděláte?"
+        },
+        {
+          "speaker": "B",
+          "text": "Let's find a way to fix this together. Please stay on the line while I check your order.",
+          "text_cz": "Pojďme společně najít způsob, jak to napravit. Zůstaňte prosím na lince, zatímco zkontroluji vaši objednávku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Please calm down",
+      "options": [
+        "Prosím uklidněte se",
+        "Trpělivost",
+        "Ztišit hlas"
+      ],
+      "correct": "Prosím uklidněte se"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I hear what you're ___.",
+      "answer": "saying",
+      "hint_cz": "říkáte"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "speak to a manager",
+          "cz": "mluvit s vedoucím"
+        },
+        {
+          "target": "stay on the line",
+          "cz": "zůstat na lince"
+        },
+        {
+          "target": "patience",
+          "cz": "trpělivost"
+        },
+        {
+          "target": "lower your voice",
+          "cz": "ztišit hlas"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's find a way to fix this together.",
+      "tts_text": "Let's find a way to fix this together."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I don't blame you for being ___.",
+      "answer": "upset",
+      "hint_cz": "naštvaný"
+    }
+  ]
+}

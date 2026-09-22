@@ -1,0 +1,172 @@
+{
+  "id": "de_adult_corporate_reports_presentations_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Präsentation beginnen",
+  "title_cz": "Zahájení prezentace",
+  "vocabulary": [
+    {
+      "word": "das Publikum",
+      "translation_cz": "publikum",
+      "example": "Guten Morgen, danke, dass Sie heute alle hier sind.",
+      "example_cz": "Dobré ráno, děkuji vám všem, že jste dnes tady.",
+      "tts_text": "Guten Morgen, danke, dass Sie heute alle hier sind."
+    },
+    {
+      "word": "die Agenda",
+      "translation_cz": "program",
+      "example": "Lassen Sie mich kurz die heutige Agenda durchgehen.",
+      "example_cz": "Dovolte mi rychle projít dnešní program.",
+      "tts_text": "Lassen Sie mich kurz die heutige Agenda durchgehen."
+    },
+    {
+      "word": "sich vorstellen",
+      "translation_cz": "představit se",
+      "example": "Lassen Sie mich mich vorstellen, bevor wir beginnen.",
+      "example_cz": "Dovolte mi se představit, než začneme.",
+      "tts_text": "Lassen Sie mich mich vorstellen, bevor wir beginnen."
+    },
+    {
+      "word": "die Gliederung",
+      "translation_cz": "osnova",
+      "example": "Hier ist die Gliederung meiner Präsentation.",
+      "example_cz": "Zde je osnova mé prezentace.",
+      "tts_text": "Hier ist die Gliederung meiner Präsentation."
+    },
+    {
+      "word": "das Thema",
+      "translation_cz": "téma",
+      "example": "Das heutige Thema sind unsere Quartalsergebnisse.",
+      "example_cz": "Dnešním tématem jsou naše čtvrtletní výsledky.",
+      "tts_text": "Das heutige Thema sind unsere Quartalsergebnisse."
+    },
+    {
+      "word": "der Zweck",
+      "translation_cz": "účel",
+      "example": "Der Zweck dieser Präsentation ist, unseren Fortschritt zu teilen.",
+      "example_cz": "Účelem této prezentace je sdílet náš pokrok.",
+      "tts_text": "Der Zweck dieser Präsentation ist, unseren Fortschritt zu teilen."
+    },
+    {
+      "word": "willkommen heißen",
+      "translation_cz": "přivítat",
+      "example": "Ich möchte alle zu diesem Meeting willkommen heißen.",
+      "example_cz": "Rád bych přivítal všechny na schůzce.",
+      "tts_text": "Ich möchte alle zu diesem Meeting willkommen heißen."
+    },
+    {
+      "word": "anfangen",
+      "translation_cz": "začít",
+      "example": "Fangen wir an, oder?",
+      "example_cz": "Tak začneme, ano?",
+      "tts_text": "Fangen wir an, oder?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_presentation_open",
+      "title": "Einleitungsworte einer Präsentation",
+      "title_cz": "Úvodní slova prezentace",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Guten Morgen zusammen, danke, dass Sie heute hier sind.",
+          "text_cz": "Dobré ráno všem, děkuji, že jste dnes tady."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke für die Einladung.",
+          "text_cz": "Děkujeme za pozvání."
+        },
+        {
+          "speaker": "A",
+          "text": "Lassen Sie mich mich kurz vorstellen und die heutige Agenda durchgehen.",
+          "text_cz": "Dovolte mi se rychle představit a projít dnešní program."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, bitte fahren Sie fort.",
+          "text_cz": "Jistě, pokračujte."
+        }
+      ]
+    },
+    {
+      "id": "conv_presentation_topic",
+      "title": "Das Thema vorstellen",
+      "title_cz": "Uvedení tématu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Das heutige Thema sind unsere Quartalsergebnisse und die nächsten Schritte.",
+          "text_cz": "Dnešním tématem jsou naše čtvrtletní výsledky a další kroky."
+        },
+        {
+          "speaker": "B",
+          "text": "Toll, darauf haben wir uns gefreut.",
+          "text_cz": "Skvělé, těšili jsme se na to."
+        },
+        {
+          "speaker": "A",
+          "text": "Der Zweck ist, unseren Fortschritt zu teilen und Ihr Feedback zu erhalten.",
+          "text_cz": "Účelem je sdílet náš pokrok a získat vaši zpětnou vazbu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Publikum",
+      "options": [
+        "publikum",
+        "představit se",
+        "osnova"
+      ],
+      "correct": "publikum"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lassen Sie mich kurz die heutige Agenda durchgehen.",
+      "answer": "die Agenda",
+      "hint_cz": "program"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das heutige Thema sind unsere Quartalsergebnisse.",
+      "answer": "das Thema",
+      "hint_cz": "téma"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Zweck",
+          "cz": "účel"
+        },
+        {
+          "target": "willkommen heißen",
+          "cz": "přivítat"
+        },
+        {
+          "target": "anfangen",
+          "cz": "začít"
+        },
+        {
+          "target": "sich vorstellen",
+          "cz": "představit se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Guten Morgen zusammen, danke, dass Sie heute hier sind.",
+      "tts_text": "Guten Morgen zusammen, danke, dass Sie heute hier sind."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Danke für die Einladung.",
+      "tts_text": "Danke für die Einladung."
+    }
+  ]
+}

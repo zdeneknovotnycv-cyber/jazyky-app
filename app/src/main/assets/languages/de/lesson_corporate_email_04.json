@@ -1,0 +1,138 @@
+{
+  "id": "de_adult_corporate_email_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Dokument anhängen",
+  "title_cz": "Přiložení dokumentu",
+  "vocabulary": [
+    {
+      "word": "der Anhang",
+      "translation_cz": "příloha",
+      "example": "Details finden Sie im Anhang.",
+      "example_cz": "Podrobnosti naleznete v příloze.",
+      "tts_text": "Details finden Sie im Anhang."
+    },
+    {
+      "word": "eine Datei anhängen",
+      "translation_cz": "přiložit soubor",
+      "example": "Ich habe eine Datei mit dem Bericht angehängt.",
+      "example_cz": "Přiložil jsem soubor s reportem.",
+      "tts_text": "Ich habe eine Datei mit dem Bericht angehängt."
+    },
+    {
+      "word": "anbei finden Sie",
+      "translation_cz": "v příloze naleznete",
+      "example": "Anbei finden Sie den unterschriebenen Vertrag.",
+      "example_cz": "V příloze naleznete podepsanou smlouvu.",
+      "tts_text": "Anbei finden Sie den unterschriebenen Vertrag."
+    },
+    {
+      "word": "das Dateiformat",
+      "translation_cz": "formát souboru",
+      "example": "Welches Dateiformat benötigen Sie?",
+      "example_cz": "Jaký formát souboru potřebujete?",
+      "tts_text": "Welches Dateiformat benötigen Sie?"
+    },
+    {
+      "word": "die Dateigröße",
+      "translation_cz": "velikost souboru",
+      "example": "Die Dateigröße ist zu groß zum Versenden.",
+      "example_cz": "Velikost souboru je příliš velká na odeslání.",
+      "tts_text": "Die Dateigröße ist zu groß zum Versenden."
+    },
+    {
+      "word": "den Anhang öffnen",
+      "translation_cz": "otevřít přílohu",
+      "example": "Ich konnte den Anhang nicht öffnen.",
+      "example_cz": "Nemohl jsem otevřít přílohu.",
+      "tts_text": "Ich konnte den Anhang nicht öffnen."
+    },
+    {
+      "word": "erneut senden",
+      "translation_cz": "znovu poslat",
+      "example": "Könnten Sie das Dokument bitte erneut senden?",
+      "example_cz": "Mohl byste prosím znovu poslat dokument?",
+      "tts_text": "Könnten Sie das Dokument bitte erneut senden?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_attachment",
+      "title": "Ein Problem mit dem Anhang lösen",
+      "title_cz": "Řešení problému s přílohou",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Anbei finden Sie den unterschriebenen Vertrag.",
+          "text_cz": "V příloze naleznete podepsanou smlouvu."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke, aber ich konnte den Anhang nicht öffnen.",
+          "text_cz": "Díky, ale nemohl jsem otevřít přílohu."
+        },
+        {
+          "speaker": "A",
+          "text": "Das tut mir leid. Welches Dateiformat benötigen Sie?",
+          "text_cz": "Omlouvám se. Jaký formát souboru potřebujete?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ein PDF wäre am besten. Könnten Sie es erneut senden?",
+          "text_cz": "Nejlepší by bylo PDF. Mohl byste ho znovu poslat?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Anhang",
+      "options": [
+        "příloha",
+        "formát",
+        "velikost"
+      ],
+      "correct": "příloha"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "___ finden Sie den unterschriebenen Vertrag.",
+      "answer": "Anbei",
+      "hint_cz": "v příloze"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Dateiformat",
+          "cz": "formát souboru"
+        },
+        {
+          "target": "die Dateigröße",
+          "cz": "velikost souboru"
+        },
+        {
+          "target": "erneut senden",
+          "cz": "znovu poslat"
+        },
+        {
+          "target": "den Anhang öffnen",
+          "cz": "otevřít přílohu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe eine Datei mit dem Bericht angehängt.",
+      "tts_text": "Ich habe eine Datei mit dem Bericht angehängt."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Datei___ ist zu groß zum Versenden.",
+      "answer": "größe",
+      "hint_cz": "velikost"
+    }
+  ]
+}

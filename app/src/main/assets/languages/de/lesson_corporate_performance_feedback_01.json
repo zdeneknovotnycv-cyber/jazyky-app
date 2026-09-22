@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_performance_feedback_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Positives Feedback geben",
+  "title_cz": "Poskytování pozitivní zpětné vazby",
+  "vocabulary": [
+    {
+      "word": "gute Arbeit",
+      "translation_cz": "skvělá práce",
+      "example": "Gute Arbeit bei der Präsentation gestern.",
+      "example_cz": "Skvělá práce s prezentací včera.",
+      "tts_text": "Gute Arbeit bei der Präsentation gestern."
+    },
+    {
+      "word": "ich schätze wirklich",
+      "translation_cz": "opravdu si vážím",
+      "example": "Ich schätze wirklich deinen Einsatz bei diesem Projekt.",
+      "example_cz": "Opravdu si vážím tvého úsilí na tomto projektu.",
+      "tts_text": "Ich schätze wirklich deinen Einsatz bei diesem Projekt."
+    },
+    {
+      "word": "gut gemacht",
+      "translation_cz": "výborně",
+      "example": "Gut gemacht, dass du den Deal abgeschlossen hast.",
+      "example_cz": "Výborně, žes uzavřel tu dohodu.",
+      "tts_text": "Gut gemacht, dass du den Deal abgeschlossen hast."
+    },
+    {
+      "word": "die Stärke",
+      "translation_cz": "silná stránka",
+      "example": "Kommunikation ist eine deiner Stärken.",
+      "example_cz": "Komunikace je jednou z tvých silných stránek.",
+      "tts_text": "Kommunikation ist eine deiner Stärken."
+    },
+    {
+      "word": "hervorstechen",
+      "translation_cz": "vyniknout",
+      "example": "Dein Bericht ist diesen Monat wirklich hervorgestochen.",
+      "example_cz": "Tvá zpráva tento měsíc opravdu vynikla.",
+      "tts_text": "Dein Bericht ist diesen Monat wirklich hervorgestochen."
+    },
+    {
+      "word": "mach weiter so",
+      "translation_cz": "pokračuj v dobré práci",
+      "example": "Mach weiter so, das Team bemerkt es.",
+      "example_cz": "Pokračuj v dobré práci, tým si toho všímá.",
+      "tts_text": "Mach weiter so, das Team bemerkt es."
+    },
+    {
+      "word": "beeindruckt",
+      "translation_cz": "ohromený",
+      "example": "Ich war beeindruckt, wie du mit dem Kunden umgegangen bist.",
+      "example_cz": "Byl jsem ohromený, jak jsi zvládl toho klienta.",
+      "tts_text": "Ich war beeindruckt, wie du mit dem Kunden umgegangen bist."
+    },
+    {
+      "word": "positive Auswirkung",
+      "translation_cz": "pozitivní dopad",
+      "example": "Deine Idee hatte eine positive Auswirkung auf das ganze Team.",
+      "example_cz": "Tvůj nápad měl pozitivní dopad na celý tým.",
+      "tts_text": "Deine Idee hatte eine positive Auswirkung auf das ganze Team."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_01",
+      "title": "Die Präsentation eines Kollegen loben",
+      "title_cz": "Chválíme prezentaci kolegy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich wollte sagen, gute Arbeit bei der Präsentation gestern.",
+          "text_cz": "Chtěl jsem říct, skvělá práce s prezentací včera."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke, ich war deswegen etwas nervös.",
+          "text_cz": "Děkuji, byl jsem z toho trochu nervózní."
+        },
+        {
+          "speaker": "A",
+          "text": "Das hat man nicht gemerkt. Ich war wirklich beeindruckt.",
+          "text_cz": "To na tobě nebylo vidět. Byl jsem opravdu ohromený."
+        },
+        {
+          "speaker": "B",
+          "text": "Das bedeutet mir viel, danke für das Feedback.",
+          "text_cz": "To pro mě hodně znamená, díky za zpětnou vazbu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "gute Arbeit",
+      "options": [
+        "skvělá práce",
+        "opravdu si vážím",
+        "výborně"
+      ],
+      "correct": "skvělá práce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich schätze wirklich deinen ___ bei diesem Projekt.",
+      "answer": "Einsatz",
+      "hint_cz": "úsilí"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "gute Arbeit",
+          "cz": "skvělá práce"
+        },
+        {
+          "target": "ich schätze wirklich",
+          "cz": "opravdu si vážím"
+        },
+        {
+          "target": "gut gemacht",
+          "cz": "výborně"
+        },
+        {
+          "target": "die Stärke",
+          "cz": "silná stránka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Gute Arbeit bei der Präsentation gestern.",
+      "tts_text": "Gute Arbeit bei der Präsentation gestern."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Kommunikation ist eine deiner ___.",
+      "answer": "Stärken",
+      "hint_cz": "silných stránek"
+    }
+  ]
+}

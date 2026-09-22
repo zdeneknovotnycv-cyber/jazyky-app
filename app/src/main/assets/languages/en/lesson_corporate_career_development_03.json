@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_career_development_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Mentoring a colleague",
+  "title_cz": "Mentorování kolegy",
+  "vocabulary": [
+    {
+      "word": "mentor",
+      "translation_cz": "mentor",
+      "example": "She is my mentor at work.",
+      "example_cz": "Je mou mentorkou v práci.",
+      "tts_text": "She is my mentor at work."
+    },
+    {
+      "word": "guidance",
+      "translation_cz": "vedení / rada",
+      "example": "I appreciate your guidance a lot.",
+      "example_cz": "Velmi si vážím tvého vedení.",
+      "tts_text": "I appreciate your guidance a lot."
+    },
+    {
+      "word": "to share experience",
+      "translation_cz": "sdílet zkušenosti",
+      "example": "I like to share experience with new colleagues.",
+      "example_cz": "Rád sdílím zkušenosti s novými kolegy.",
+      "tts_text": "I like to share experience with new colleagues."
+    },
+    {
+      "word": "to learn from",
+      "translation_cz": "učit se od",
+      "example": "You can learn a lot from senior colleagues.",
+      "example_cz": "Od zkušenějších kolegů se toho můžeš hodně naučit.",
+      "tts_text": "You can learn a lot from senior colleagues."
+    },
+    {
+      "word": "feedback",
+      "translation_cz": "zpětná vazba",
+      "example": "Thank you for the honest feedback.",
+      "example_cz": "Děkuji za upřímnou zpětnou vazbu.",
+      "tts_text": "Thank you for the honest feedback."
+    },
+    {
+      "word": "role model",
+      "translation_cz": "vzor",
+      "example": "You've been a great role model for me.",
+      "example_cz": "Byl jsi pro mě skvělým vzorem.",
+      "tts_text": "You've been a great role model for me."
+    },
+    {
+      "word": "to support",
+      "translation_cz": "podpořit",
+      "example": "I'm here to support you whenever needed.",
+      "example_cz": "Jsem tu, abych tě podpořil, kdykoli je potřeba.",
+      "tts_text": "I'm here to support you whenever needed."
+    },
+    {
+      "word": "to grow professionally",
+      "translation_cz": "profesně růst",
+      "example": "Mentoring helps people grow professionally.",
+      "example_cz": "Mentorování pomáhá lidem profesně růst.",
+      "tts_text": "Mentoring helps people grow professionally."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_mentoring",
+      "title": "A mentoring conversation",
+      "title_cz": "Mentorský rozhovor",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I really appreciate your guidance since I joined the team.",
+          "text_cz": "Opravdu si vážím tvého vedení od té doby, co jsem se přidal k týmu."
+        },
+        {
+          "speaker": "B",
+          "text": "I'm happy to share experience with you. That's what a mentor is for.",
+          "text_cz": "Rád s tebou sdílím zkušenosti. To je přece úkol mentora."
+        },
+        {
+          "speaker": "A",
+          "text": "You've been a great role model for me. Can I ask for some feedback?",
+          "text_cz": "Byl jsi pro mě skvělým vzorem. Můžu tě poprosit o zpětnou vazbu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Of course. You're learning fast and growing professionally already.",
+          "text_cz": "Jasně. Učíš se rychle a už teď profesně rosteš."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "mentor",
+      "options": [
+        "mentor",
+        "zpětná vazba",
+        "vzor"
+      ],
+      "correct": "mentor"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I really appreciate your ___.",
+      "answer": "guidance",
+      "hint_cz": "vedení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "feedback",
+          "cz": "zpětná vazba"
+        },
+        {
+          "target": "role model",
+          "cz": "vzor"
+        },
+        {
+          "target": "to support",
+          "cz": "podpořit"
+        },
+        {
+          "target": "to grow professionally",
+          "cz": "profesně růst"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'm here to support you whenever needed.",
+      "tts_text": "I'm here to support you whenever needed."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You can learn a lot ___ senior colleagues.",
+      "answer": "from",
+      "hint_cz": "od"
+    }
+  ]
+}

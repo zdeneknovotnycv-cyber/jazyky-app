@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_office_life_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Fire drill instructions",
+  "title_cz": "Instrukce pro požární cvičení",
+  "vocabulary": [
+    {
+      "word": "fire drill",
+      "translation_cz": "požární cvičení",
+      "example": "We have a fire drill this afternoon.",
+      "example_cz": "Dnes odpoledne máme požární cvičení.",
+      "tts_text": "We have a fire drill this afternoon."
+    },
+    {
+      "word": "fire alarm",
+      "translation_cz": "požární poplach",
+      "example": "The fire alarm will sound at two o'clock.",
+      "example_cz": "Požární poplach zazní ve dvě hodiny.",
+      "tts_text": "The fire alarm will sound at two o'clock."
+    },
+    {
+      "word": "evacuate the building",
+      "translation_cz": "vyklidit budovu",
+      "example": "Everyone must evacuate the building calmly.",
+      "example_cz": "Všichni musí klidně vyklidit budovu.",
+      "tts_text": "Everyone must evacuate the building calmly."
+    },
+    {
+      "word": "emergency exit",
+      "translation_cz": "nouzový východ",
+      "example": "The emergency exit is next to the stairs.",
+      "example_cz": "Nouzový východ je vedle schodiště.",
+      "tts_text": "The emergency exit is next to the stairs."
+    },
+    {
+      "word": "assembly point",
+      "translation_cz": "shromaždiště",
+      "example": "Go to the assembly point in the car park.",
+      "example_cz": "Jděte na shromaždiště na parkovišti.",
+      "tts_text": "Go to the assembly point in the car park."
+    },
+    {
+      "word": "do not use the elevator",
+      "translation_cz": "nepoužívejte výtah",
+      "example": "Do not use the elevator during a fire drill.",
+      "example_cz": "Během požárního cvičení nepoužívejte výtah.",
+      "tts_text": "Do not use the elevator during a fire drill."
+    },
+    {
+      "word": "stay calm",
+      "translation_cz": "zachovejte klid",
+      "example": "Please stay calm and walk to the exit.",
+      "example_cz": "Prosím zachovejte klid a jděte k východu.",
+      "tts_text": "Please stay calm and walk to the exit."
+    },
+    {
+      "word": "head count",
+      "translation_cz": "sečtení lidí",
+      "example": "The fire warden will do a head count outside.",
+      "example_cz": "Požární hlídka venku sečte lidi.",
+      "tts_text": "The fire warden will do a head count outside."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_04",
+      "title": "Preparing for a fire drill",
+      "title_cz": "Příprava na požární cvičení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Did you hear? We have a fire drill at two o'clock.",
+          "text_cz": "Slyšel jsi to? Ve dvě máme požární cvičení."
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, when the fire alarm sounds, we evacuate the building.",
+          "text_cz": "Ano, když zazní poplach, vyklidíme budovu."
+        },
+        {
+          "speaker": "A",
+          "text": "Remember, do not use the elevator, use the stairs.",
+          "text_cz": "Pamatuj, nepoužívej výtah, použij schody."
+        },
+        {
+          "speaker": "B",
+          "text": "Got it, and we meet at the assembly point in the car park.",
+          "text_cz": "Rozumím, a sejdeme se na shromaždišti na parkovišti."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "fire drill",
+      "options": [
+        "požární cvičení",
+        "požární poplach",
+        "vyklidit budovu"
+      ],
+      "correct": "požární cvičení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please ___ the building calmly.",
+      "answer": "evacuate",
+      "hint_cz": "vyklidit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "fire drill",
+          "cz": "požární cvičení"
+        },
+        {
+          "target": "fire alarm",
+          "cz": "požární poplach"
+        },
+        {
+          "target": "evacuate the building",
+          "cz": "vyklidit budovu"
+        },
+        {
+          "target": "emergency exit",
+          "cz": "nouzový východ"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please stay calm and walk to the emergency exit.",
+      "tts_text": "Please stay calm and walk to the emergency exit."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Go to the ___ point in the car park.",
+      "answer": "assembly",
+      "hint_cz": "shromaždiště"
+    }
+  ]
+}

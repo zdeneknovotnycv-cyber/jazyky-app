@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_scheduling_calendars_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Rescheduling an appointment",
+  "title_cz": "Přeložení schůzky na jiný termín",
+  "vocabulary": [
+    {
+      "word": "I need to reschedule our appointment",
+      "translation_cz": "potřebuji přeložit naši schůzku",
+      "example": "I'm sorry, I need to reschedule our appointment.",
+      "example_cz": "Omlouvám se, potřebuji přeložit naši schůzku.",
+      "tts_text": "I'm sorry, I need to reschedule our appointment."
+    },
+    {
+      "word": "an urgent matter came up",
+      "translation_cz": "vyskytla se naléhavá záležitost",
+      "example": "An urgent matter came up this morning.",
+      "example_cz": "Dnes ráno se vyskytla naléhavá záležitost.",
+      "tts_text": "An urgent matter came up this morning."
+    },
+    {
+      "word": "could we move it to next week?",
+      "translation_cz": "mohli bychom to přesunout na příští týden?",
+      "example": "Could we move it to next week instead?",
+      "example_cz": "Mohli bychom to místo toho přesunout na příští týden?",
+      "tts_text": "Could we move it to next week instead?"
+    },
+    {
+      "word": "I completely understand",
+      "translation_cz": "naprosto to chápu",
+      "example": "I completely understand, these things happen.",
+      "example_cz": "Naprosto to chápu, tyhle věci se stávají.",
+      "tts_text": "I completely understand, these things happen."
+    },
+    {
+      "word": "what day suits you better?",
+      "translation_cz": "jaký den vám lépe vyhovuje?",
+      "example": "No problem, what day suits you better?",
+      "example_cz": "Žádný problém, jaký den vám lépe vyhovuje?",
+      "tts_text": "No problem, what day suits you better?"
+    },
+    {
+      "word": "let's aim for Thursday",
+      "translation_cz": "zaměřme se na čtvrtek",
+      "example": "Let's aim for Thursday at the same time.",
+      "example_cz": "Zaměřme se na čtvrtek ve stejný čas.",
+      "tts_text": "Let's aim for Thursday at the same time."
+    },
+    {
+      "word": "I'll update the calendar entry",
+      "translation_cz": "aktualizuji záznam v kalendáři",
+      "example": "I'll update the calendar entry right away.",
+      "example_cz": "Hned aktualizuji záznam v kalendáři.",
+      "tts_text": "I'll update the calendar entry right away."
+    },
+    {
+      "word": "thank you for your flexibility",
+      "translation_cz": "děkuji za vaši flexibilitu",
+      "example": "Thank you for your flexibility on this.",
+      "example_cz": "Děkuji za vaši flexibilitu v této věci.",
+      "tts_text": "Thank you for your flexibility on this."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_rescheduling_appointment",
+      "title": "Moving an appointment to a later date",
+      "title_cz": "Přesunutí schůzky na pozdější termín",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm sorry, I need to reschedule our appointment. An urgent matter came up.",
+          "text_cz": "Omlouvám se, potřebuji přeložit naši schůzku. Vyskytla se naléhavá záležitost."
+        },
+        {
+          "speaker": "B",
+          "text": "I completely understand. What day suits you better?",
+          "text_cz": "Naprosto to chápu. Jaký den vám lépe vyhovuje?"
+        },
+        {
+          "speaker": "A",
+          "text": "Could we move it to next week instead? Let's aim for Thursday.",
+          "text_cz": "Mohli bychom to místo toho přesunout na příští týden? Zaměřme se na čtvrtek."
+        },
+        {
+          "speaker": "B",
+          "text": "Thursday works for me. I'll update the calendar entry right away.",
+          "text_cz": "Čtvrtek mi vyhovuje. Hned aktualizuji záznam v kalendáři."
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you for your flexibility on this.",
+          "text_cz": "Děkuji za vaši flexibilitu v této věci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "I need to reschedule our appointment.",
+      "options": [
+        "Potřebuji přeložit naši schůzku.",
+        "Naprosto to chápu.",
+        "Zaměřme se na čtvrtek."
+      ],
+      "correct": "Potřebuji přeložit naši schůzku."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "An urgent matter ___ up this morning.",
+      "answer": "came",
+      "hint_cz": "vyskytla se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "what day suits you better?", "cz": "jaký den vám lépe vyhovuje?" },
+        { "target": "let's aim for Thursday", "cz": "zaměřme se na čtvrtek" },
+        { "target": "I'll update the calendar entry", "cz": "aktualizuji záznam v kalendáři" },
+        { "target": "thank you for your flexibility", "cz": "děkuji za vaši flexibilitu" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Could we move it to next week instead?",
+      "tts_text": "Could we move it to next week instead?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I completely ___, these things happen.",
+      "answer": "understand",
+      "hint_cz": "chápu"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'll update the calendar entry right away.",
+      "tts_text": "I'll update the calendar entry right away."
+    }
+  ]
+}

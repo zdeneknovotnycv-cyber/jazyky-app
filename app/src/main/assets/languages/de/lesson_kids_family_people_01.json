@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_family_people_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Immediate Family",
+  "title_cz": "Nejbližší rodina",
+  "vocabulary": [
+    {
+      "word": "die Mutter",
+      "translation_cz": "maminka",
+      "example": "Das ist meine Mutter.",
+      "example_cz": "Tohle je moje maminka.",
+      "tts_text": "Das ist meine Mutter."
+    },
+    {
+      "word": "der Vater",
+      "translation_cz": "tatínek",
+      "example": "Mein Vater ist groß.",
+      "example_cz": "Můj tatínek je vysoký.",
+      "tts_text": "Mein Vater ist groß."
+    },
+    {
+      "word": "die Schwester",
+      "translation_cz": "sestra",
+      "example": "Ich habe eine Schwester.",
+      "example_cz": "Mám jednu sestru.",
+      "tts_text": "Ich habe eine Schwester."
+    },
+    {
+      "word": "der Bruder",
+      "translation_cz": "bratr",
+      "example": "Mein Bruder ist lustig.",
+      "example_cz": "Můj bratr je vtipný.",
+      "tts_text": "Mein Bruder ist lustig."
+    },
+    {
+      "word": "die Eltern",
+      "translation_cz": "rodiče",
+      "example": "Meine Eltern haben mich lieb.",
+      "example_cz": "Moji rodiče mě mají rádi.",
+      "tts_text": "Meine Eltern haben mich lieb."
+    },
+    {
+      "word": "die Familie",
+      "translation_cz": "rodina",
+      "example": "Ich liebe meine Familie.",
+      "example_cz": "Mám rád svoji rodinu.",
+      "tts_text": "Ich liebe meine Familie."
+    },
+    {
+      "word": "das Baby",
+      "translation_cz": "miminko",
+      "example": "Das Baby schläft.",
+      "example_cz": "Miminko spí.",
+      "tts_text": "Das Baby schläft."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Mutter",
+      "options": [
+        "maminka",
+        "tatínek",
+        "sestra"
+      ],
+      "correct": "maminka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein ___ ist lustig.",
+      "answer": "Bruder",
+      "hint_cz": "bratr"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Vater",
+          "cz": "tatínek"
+        },
+        {
+          "target": "die Schwester",
+          "cz": "sestra"
+        },
+        {
+          "target": "die Familie",
+          "cz": "rodina"
+        },
+        {
+          "target": "das Baby",
+          "cz": "miminko"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich liebe meine Familie.",
+      "tts_text": "Ich liebe meine Familie."
+    }
+  ]
+}

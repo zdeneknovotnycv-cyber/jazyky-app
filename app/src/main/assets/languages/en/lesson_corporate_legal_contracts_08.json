@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_legal_contracts_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Data privacy basics at work",
+  "title_cz": "Základy ochrany osobních údajů v práci",
+  "vocabulary": [
+    {
+      "word": "personal data",
+      "translation_cz": "osobní údaje",
+      "example": "We must protect personal data.",
+      "example_cz": "Musíme chránit osobní údaje.",
+      "tts_text": "We must protect personal data."
+    },
+    {
+      "word": "GDPR",
+      "translation_cz": "GDPR (obecné nařízení o ochraně osobních údajů)",
+      "example": "This is required under GDPR.",
+      "example_cz": "Toto je vyžadováno podle GDPR.",
+      "tts_text": "This is required under GDPR."
+    },
+    {
+      "word": "consent",
+      "translation_cz": "souhlas",
+      "example": "We need the customer's consent.",
+      "example_cz": "Potřebujeme souhlas zákazníka.",
+      "tts_text": "We need the customer's consent."
+    },
+    {
+      "word": "data breach",
+      "translation_cz": "únik dat",
+      "example": "We must report any data breach.",
+      "example_cz": "Musíme nahlásit jakýkoli únik dat.",
+      "tts_text": "We must report any data breach."
+    },
+    {
+      "word": "process data",
+      "translation_cz": "zpracovávat data",
+      "example": "We only process data for this purpose.",
+      "example_cz": "Data zpracováváme pouze za tímto účelem.",
+      "tts_text": "We only process data for this purpose."
+    },
+    {
+      "word": "access rights",
+      "translation_cz": "přístupová práva",
+      "example": "Employees have limited access rights.",
+      "example_cz": "Zaměstnanci mají omezená přístupová práva.",
+      "tts_text": "Employees have limited access rights."
+    },
+    {
+      "word": "store securely",
+      "translation_cz": "bezpečně uchovávat",
+      "example": "All files must be stored securely.",
+      "example_cz": "Všechny soubory musí být bezpečně uchovávány.",
+      "tts_text": "All files must be stored securely."
+    },
+    {
+      "word": "data protection officer",
+      "translation_cz": "pověřenec pro ochranu osobních údajů",
+      "example": "Contact the data protection officer with questions.",
+      "example_cz": "S dotazy kontaktujte pověřence pro ochranu osobních údajů.",
+      "tts_text": "Contact the data protection officer with questions."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_08",
+      "title": "Data privacy at work",
+      "title_cz": "Ochrana osobních údajů v práci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Do we have the customer's consent to process this data?",
+          "text_cz": "Máme souhlas zákazníka se zpracováním těchto dat?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, it's documented, as required under GDPR.",
+          "text_cz": "Ano, je to zdokumentováno, jak vyžaduje GDPR."
+        },
+        {
+          "speaker": "A",
+          "text": "Good. Remember, all personal data must be stored securely.",
+          "text_cz": "Dobře. Nezapomeňte, veškeré osobní údaje musí být bezpečně uchovávány."
+        },
+        {
+          "speaker": "B",
+          "text": "Understood. And access rights are limited to this team only.",
+          "text_cz": "Rozumím. A přístupová práva má pouze tento tým."
+        },
+        {
+          "speaker": "A",
+          "text": "If there's ever a data breach, who do we contact?",
+          "text_cz": "Pokud by někdy došlo k úniku dat, koho kontaktujeme?"
+        },
+        {
+          "speaker": "B",
+          "text": "The data protection officer, immediately.",
+          "text_cz": "Okamžitě pověřence pro ochranu osobních údajů."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "personal data",
+      "options": [
+        "osobní údaje",
+        "GDPR (obecné nařízení o ochraně osobních údajů)",
+        "souhlas"
+      ],
+      "correct": "osobní údaje"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We must report any ___.",
+      "answer": "data breach",
+      "hint_cz": "únik dat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "personal data",
+          "cz": "osobní údaje"
+        },
+        {
+          "target": "GDPR",
+          "cz": "GDPR (obecné nařízení o ochraně osobních údajů)"
+        },
+        {
+          "target": "consent",
+          "cz": "souhlas"
+        },
+        {
+          "target": "data breach",
+          "cz": "únik dat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We only process data for this purpose.",
+      "tts_text": "We only process data for this purpose."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Employees have limited ___.",
+      "answer": "access rights",
+      "hint_cz": "přístupová práva"
+    }
+  ]
+}

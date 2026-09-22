@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_town_places_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Das Schwimmbad",
+  "title_cz": "Bazén",
+  "vocabulary": [
+    {
+      "word": "das Schwimmbad",
+      "translation_cz": "bazén",
+      "example": "Wir schwimmen im Schwimmbad.",
+      "example_cz": "Plaveme v bazénu.",
+      "tts_text": "Wir schwimmen im Schwimmbad."
+    },
+    {
+      "word": "der Badeanzug",
+      "translation_cz": "plavky",
+      "example": "Ich ziehe meinen Badeanzug an.",
+      "example_cz": "Oblékám si plavky.",
+      "tts_text": "Ich ziehe meinen Badeanzug an."
+    },
+    {
+      "word": "das Handtuch",
+      "translation_cz": "ručník",
+      "example": "Ich trockne mich mit einem Handtuch ab.",
+      "example_cz": "Utírám se ručníkem.",
+      "tts_text": "Ich trockne mich mit einem Handtuch ab."
+    },
+    {
+      "word": "schwimmen",
+      "translation_cz": "plavat",
+      "example": "Ich kann sehr gut schwimmen.",
+      "example_cz": "Umím velmi dobře plavat.",
+      "tts_text": "Ich kann sehr gut schwimmen."
+    },
+    {
+      "word": "der Bademeister",
+      "translation_cz": "plavčík",
+      "example": "Der Bademeister beobachtet das Schwimmbad.",
+      "example_cz": "Plavčík hlídá bazén.",
+      "tts_text": "Der Bademeister beobachtet das Schwimmbad."
+    },
+    {
+      "word": "das Sprungbrett",
+      "translation_cz": "skokanské prkno",
+      "example": "Ich springe vom Sprungbrett.",
+      "example_cz": "Skáču ze skokanského prkna.",
+      "tts_text": "Ich springe vom Sprungbrett."
+    },
+    {
+      "word": "die Schwimmflügel",
+      "translation_cz": "rukávky",
+      "example": "Meine kleine Schwester trägt Schwimmflügel.",
+      "example_cz": "Moje malá sestra nosí rukávky.",
+      "tts_text": "Meine kleine Schwester trägt Schwimmflügel."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Schwimmbad",
+      "options": [
+        "bazén",
+        "park",
+        "škola"
+      ],
+      "correct": "bazén"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich kann sehr gut ___.",
+      "answer": "schwimmen",
+      "hint_cz": "plavat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Badeanzug",
+          "cz": "plavky"
+        },
+        {
+          "target": "das Handtuch",
+          "cz": "ručník"
+        },
+        {
+          "target": "schwimmen",
+          "cz": "plavat"
+        },
+        {
+          "target": "der Bademeister",
+          "cz": "plavčík"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich ziehe meinen Badeanzug an.",
+      "tts_text": "Ich ziehe meinen Badeanzug an."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_reports_presentations_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Using Slides Effectively",
+  "title_cz": "Efektivní používání slidů",
+  "vocabulary": [
+    {
+      "word": "slide",
+      "translation_cz": "slide / snímek",
+      "example": "Let's move to the next slide.",
+      "example_cz": "Přejděme na další slide.",
+      "tts_text": "Let's move to the next slide."
+    },
+    {
+      "word": "bullet list",
+      "translation_cz": "seznam s odrážkami",
+      "example": "Keep bullet lists short and clear.",
+      "example_cz": "Udržujte seznamy s odrážkami krátké a jasné.",
+      "tts_text": "Keep bullet lists short and clear."
+    },
+    {
+      "word": "visual",
+      "translation_cz": "vizuální prvek",
+      "example": "A good visual is worth more than text.",
+      "example_cz": "Dobrý vizuální prvek má větší hodnotu než text.",
+      "tts_text": "A good visual is worth more than text."
+    },
+    {
+      "word": "font size",
+      "translation_cz": "velikost písma",
+      "example": "The font size should be readable from the back.",
+      "example_cz": "Velikost písma by měla být čitelná i vzadu.",
+      "tts_text": "The font size should be readable from the back."
+    },
+    {
+      "word": "keep it simple",
+      "translation_cz": "udržet to jednoduché",
+      "example": "Keep it simple, one idea per slide.",
+      "example_cz": "Udržte to jednoduché, jedna myšlenka na slide.",
+      "tts_text": "Keep it simple, one idea per slide."
+    },
+    {
+      "word": "transition",
+      "translation_cz": "přechod",
+      "example": "Use a smooth transition between slides.",
+      "example_cz": "Použijte plynulý přechod mezi slidy.",
+      "tts_text": "Use a smooth transition between slides."
+    },
+    {
+      "word": "clutter",
+      "translation_cz": "chaos / nepřehlednost",
+      "example": "Avoid clutter on your slides.",
+      "example_cz": "Vyhněte se chaosu na svých slidech.",
+      "tts_text": "Avoid clutter on your slides."
+    },
+    {
+      "word": "visual aid",
+      "translation_cz": "vizuální pomůcka",
+      "example": "The chart is a great visual aid here.",
+      "example_cz": "Graf je zde skvělou vizuální pomůckou.",
+      "tts_text": "The chart is a great visual aid here."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_slides_feedback",
+      "title": "Reviewing slides before a presentation",
+      "title_cz": "Kontrola slidů před prezentací",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Can you look at my slides before the meeting?",
+          "text_cz": "Můžeš se podívat na mé slidy před schůzkou?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. This one has too much text, there's a lot of clutter.",
+          "text_cz": "Jasně. Tento má moc textu, je tam hodně chaosu."
+        },
+        {
+          "speaker": "A",
+          "text": "You're right, I should keep it simple, one idea per slide.",
+          "text_cz": "Máš pravdu, měl bych to udržet jednoduché, jedna myšlenka na slide."
+        },
+        {
+          "speaker": "B",
+          "text": "Also increase the font size so it's readable from the back.",
+          "text_cz": "Také zvětši velikost písma, ať je to čitelné i vzadu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "slide",
+      "options": [
+        "slide / snímek",
+        "vizuální prvek",
+        "velikost písma"
+      ],
+      "correct": "slide / snímek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Keep ___s short and clear.",
+      "answer": "bullet list",
+      "hint_cz": "seznam s odrážkami"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Keep it simple, one idea per slide.",
+      "answer": "keep it simple",
+      "hint_cz": "udržet to jednoduché"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "transition",
+          "cz": "přechod"
+        },
+        {
+          "target": "clutter",
+          "cz": "chaos / nepřehlednost"
+        },
+        {
+          "target": "visual aid",
+          "cz": "vizuální pomůcka"
+        },
+        {
+          "target": "visual",
+          "cz": "vizuální prvek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Can you look at my slides before the meeting?",
+      "tts_text": "Can you look at my slides before the meeting?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sure. This one has too much text, there's a lot of clutter.",
+      "tts_text": "Sure. This one has too much text, there's a lot of clutter."
+    }
+  ]
+}

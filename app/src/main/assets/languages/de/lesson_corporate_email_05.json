@@ -1,0 +1,138 @@
+{
+  "id": "de_adult_corporate_email_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "CC und BCC erklärt",
+  "title_cz": "Vysvětlení kopie (CC) a skryté kopie (BCC)",
+  "vocabulary": [
+    {
+      "word": "die Kopie (CC)",
+      "translation_cz": "kopie (CC)",
+      "example": "Ich habe Ihren Vorgesetzten in Kopie gesetzt.",
+      "example_cz": "Vašeho manažera jsem dal do kopie.",
+      "tts_text": "Ich habe Ihren Vorgesetzten in Kopie gesetzt."
+    },
+    {
+      "word": "die Blindkopie (BCC)",
+      "translation_cz": "skrytá kopie (BCC)",
+      "example": "Setzen Sie den Assistenten des Kunden in Blindkopie.",
+      "example_cz": "Přidejte asistenta klienta do skryté kopie.",
+      "tts_text": "Setzen Sie den Assistenten des Kunden in Blindkopie."
+    },
+    {
+      "word": "der Empfänger",
+      "translation_cz": "příjemce",
+      "example": "Bitte überprüfen Sie die Empfängerliste.",
+      "example_cz": "Zkontrolujte prosím seznam příjemců.",
+      "tts_text": "Bitte überprüfen Sie die Empfängerliste."
+    },
+    {
+      "word": "jemanden informieren",
+      "translation_cz": "informovat někoho",
+      "example": "Ich informiere das Team mit einer Kopie.",
+      "example_cz": "Tým informuji pomocí kopie.",
+      "tts_text": "Ich informiere das Team mit einer Kopie."
+    },
+    {
+      "word": "für alle sichtbar",
+      "translation_cz": "viditelné pro všechny",
+      "example": "CC-Adressen sind für alle sichtbar.",
+      "example_cz": "Adresy v kopii jsou viditelné pro všechny.",
+      "tts_text": "CC-Adressen sind für alle sichtbar."
+    },
+    {
+      "word": "verborgen",
+      "translation_cz": "skrytý",
+      "example": "BCC-Adressen bleiben für andere Empfänger verborgen.",
+      "example_cz": "Adresy ve skryté kopii jsou pro ostatní příjemce skryté.",
+      "tts_text": "BCC-Adressen bleiben für andere Empfänger verborgen."
+    },
+    {
+      "word": "der Hauptempfänger",
+      "translation_cz": "hlavní příjemce",
+      "example": "Der Hauptempfänger steht im Feld 'An'.",
+      "example_cz": "Hlavní příjemce je v poli 'Komu'.",
+      "tts_text": "Der Hauptempfänger steht im Feld 'An'."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_cc_bcc",
+      "title": "CC und BCC einem neuen Kollegen erklären",
+      "title_cz": "Vysvětlení CC a BCC novému kolegovi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Soll ich den Vorgesetzten in Kopie oder Blindkopie setzen?",
+          "text_cz": "Mám dát manažera do kopie nebo skryté kopie?"
+        },
+        {
+          "speaker": "B",
+          "text": "Nimm Kopie, denn CC-Adressen sind für alle sichtbar und wir wollen ihn offen informieren.",
+          "text_cz": "Použij kopii, protože adresy v kopii jsou viditelné pro všechny a chceme ho otevřeně informovat."
+        },
+        {
+          "speaker": "A",
+          "text": "Und was ist mit der Assistentin des Kunden?",
+          "text_cz": "A co asistent klienta?"
+        },
+        {
+          "speaker": "B",
+          "text": "Setze sie in Blindkopie, denn BCC-Adressen bleiben für andere Empfänger verborgen.",
+          "text_cz": "Přidej ji do skryté kopie, protože ty adresy jsou pro ostatní příjemce skryté."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Empfänger",
+      "options": [
+        "příjemce",
+        "kopie",
+        "skrytý"
+      ],
+      "correct": "příjemce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "CC-Adressen sind für alle ___.",
+      "answer": "sichtbar",
+      "hint_cz": "viditelné"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "verborgen",
+          "cz": "skrytý"
+        },
+        {
+          "target": "der Hauptempfänger",
+          "cz": "hlavní příjemce"
+        },
+        {
+          "target": "jemanden informieren",
+          "cz": "informovat někoho"
+        },
+        {
+          "target": "die Blindkopie (BCC)",
+          "cz": "skrytá kopie (BCC)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe Ihren Vorgesetzten in Kopie gesetzt.",
+      "tts_text": "Ich habe Ihren Vorgesetzten in Kopie gesetzt."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "BCC-Adressen bleiben für andere Empfänger ___.",
+      "answer": "verborgen",
+      "hint_cz": "skryté"
+    }
+  ]
+}

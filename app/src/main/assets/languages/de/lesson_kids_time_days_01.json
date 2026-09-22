@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_time_days_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Die Wochentage",
+  "title_cz": "Dny v týdnu",
+  "vocabulary": [
+    {
+      "word": "der Montag",
+      "translation_cz": "pondělí",
+      "example": "Am Montag gehe ich zur Schule.",
+      "example_cz": "V pondělí jdu do školy.",
+      "tts_text": "Am Montag gehe ich zur Schule."
+    },
+    {
+      "word": "der Dienstag",
+      "translation_cz": "úterý",
+      "example": "Am Dienstag haben wir Musik.",
+      "example_cz": "V úterý máme hudební výchovu.",
+      "tts_text": "Am Dienstag haben wir Musik."
+    },
+    {
+      "word": "der Mittwoch",
+      "translation_cz": "středa",
+      "example": "Der Mittwoch ist die Mitte der Woche.",
+      "example_cz": "Středa je uprostřed týdne.",
+      "tts_text": "Der Mittwoch ist die Mitte der Woche."
+    },
+    {
+      "word": "der Donnerstag",
+      "translation_cz": "čtvrtek",
+      "example": "Am Donnerstag besuche ich meine Oma.",
+      "example_cz": "Ve čtvrtek navštěvuji babičku.",
+      "tts_text": "Am Donnerstag besuche ich meine Oma."
+    },
+    {
+      "word": "der Freitag",
+      "translation_cz": "pátek",
+      "example": "Ich mag den Freitag, weil die Schule fast vorbei ist.",
+      "example_cz": "Mám rád pátek, protože škola je skoro u konce.",
+      "tts_text": "Ich mag den Freitag, weil die Schule fast vorbei ist."
+    },
+    {
+      "word": "der Samstag",
+      "translation_cz": "sobota",
+      "example": "Am Samstag spiele ich den ganzen Tag.",
+      "example_cz": "V sobotu si celý den hraji.",
+      "tts_text": "Am Samstag spiele ich den ganzen Tag."
+    },
+    {
+      "word": "der Sonntag",
+      "translation_cz": "neděle",
+      "example": "Am Sonntag besuchen wir die Familie.",
+      "example_cz": "V neděli navštěvujeme rodinu.",
+      "tts_text": "Am Sonntag besuchen wir die Familie."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Montag",
+      "options": [
+        "pondělí",
+        "úterý",
+        "sobota"
+      ],
+      "correct": "pondělí"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Am ___ gehe ich zur Schule.",
+      "answer": "Montag",
+      "hint_cz": "pondělí"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Dienstag",
+          "cz": "úterý"
+        },
+        {
+          "target": "der Mittwoch",
+          "cz": "středa"
+        },
+        {
+          "target": "der Donnerstag",
+          "cz": "čtvrtek"
+        },
+        {
+          "target": "der Freitag",
+          "cz": "pátek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Am Montag gehe ich zur Schule.",
+      "tts_text": "Am Montag gehe ich zur Schule."
+    }
+  ]
+}

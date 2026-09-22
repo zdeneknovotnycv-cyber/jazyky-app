@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_business_travel_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Am Flughafen geschäftlich unterwegs",
+  "title_cz": "Na letišti služebně",
+  "vocabulary": [
+    {
+      "word": "einchecken",
+      "translation_cz": "odbavit se",
+      "example": "Ich muss für meinen Flug einchecken.",
+      "example_cz": "Musím se odbavit na svůj let.",
+      "tts_text": "Ich muss für meinen Flug einchecken."
+    },
+    {
+      "word": "die Bordkarte",
+      "translation_cz": "palubní vstupenka",
+      "example": "Hier ist meine Bordkarte.",
+      "example_cz": "Tady je moje palubní vstupenka.",
+      "tts_text": "Hier ist meine Bordkarte."
+    },
+    {
+      "word": "die Sicherheitskontrolle",
+      "translation_cz": "bezpečnostní kontrola",
+      "example": "Die Sicherheitskontrolle hat ziemlich lange gedauert.",
+      "example_cz": "Bezpečnostní kontrola trvala docela dlouho.",
+      "tts_text": "Die Sicherheitskontrolle hat ziemlich lange gedauert."
+    },
+    {
+      "word": "das Ausgangsgate",
+      "translation_cz": "odletový gate",
+      "example": "Unser Ausgangsgate ist Nummer 12.",
+      "example_cz": "Náš odletový gate je číslo 12.",
+      "tts_text": "Unser Ausgangsgate ist Nummer 12."
+    },
+    {
+      "word": "das Handgepäck",
+      "translation_cz": "příruční zavazadlo",
+      "example": "Ich habe nur Handgepäck.",
+      "example_cz": "Mám jen příruční zavazadlo.",
+      "tts_text": "Ich habe nur Handgepäck."
+    },
+    {
+      "word": "die Business Lounge",
+      "translation_cz": "business lounge",
+      "example": "Warten wir in der Business Lounge.",
+      "example_cz": "Počkejme v business lounge.",
+      "tts_text": "Warten wir in der Business Lounge."
+    },
+    {
+      "word": "der letzte Aufruf",
+      "translation_cz": "poslední výzva k nástupu",
+      "example": "Das ist der letzte Aufruf für unseren Flug.",
+      "example_cz": "Toto je poslední výzva k nástupu na náš let.",
+      "tts_text": "Das ist der letzte Aufruf für unseren Flug."
+    },
+    {
+      "word": "der Anschlussflug",
+      "translation_cz": "navazující let",
+      "example": "Ich habe einen Anschlussflug in Frankfurt.",
+      "example_cz": "Mám navazující let ve Frankfurtu.",
+      "tts_text": "Ich habe einen Anschlussflug in Frankfurt."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_flughafen_geschaeft",
+      "title": "Am Flughafen vor einem Geschäftsflug",
+      "title_cz": "Na letišti před služebním letem",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hast du schon für den Flug eingecheckt?",
+          "text_cz": "Odbavil jsi se už na let?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, hier ist meine Bordkarte. Die Sicherheitskontrolle hat ziemlich lange gedauert.",
+          "text_cz": "Ano, tady je moje palubní vstupenka. Bezpečnostní kontrola trvala docela dlouho."
+        },
+        {
+          "speaker": "A",
+          "text": "Warten wir in der Business Lounge bis zum Boarding.",
+          "text_cz": "Počkejme v business lounge, dokud nezačne nástup."
+        },
+        {
+          "speaker": "B",
+          "text": "Gute Idee. Unser Ausgangsgate ist Nummer 12.",
+          "text_cz": "Dobrý nápad. Náš odletový gate je číslo 12."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Bordkarte",
+      "options": [
+        "palubní vstupenka",
+        "odletový gate",
+        "bezpečnostní kontrola"
+      ],
+      "correct": "palubní vstupenka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Hier ist meine ___.",
+      "answer": "Bordkarte",
+      "hint_cz": "palubní vstupenka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Unser Ausgangs___ ist Nummer 12.",
+      "answer": "gate",
+      "hint_cz": "gate"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "einchecken",
+          "cz": "odbavit se"
+        },
+        {
+          "target": "das Handgepäck",
+          "cz": "příruční zavazadlo"
+        },
+        {
+          "target": "der Anschlussflug",
+          "cz": "navazující let"
+        },
+        {
+          "target": "der letzte Aufruf",
+          "cz": "poslední výzva k nástupu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich muss für meinen Flug einchecken.",
+      "tts_text": "Ich muss für meinen Flug einchecken."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_numbers_colors_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Numbers 11-20",
+  "title_cz": "Čísla 11 až 20",
+  "vocabulary": [
+    {
+      "word": "elf",
+      "translation_cz": "jedenáct",
+      "example": "Ich bin elf Jahre alt.",
+      "example_cz": "Je mi jedenáct let.",
+      "tts_text": "Ich bin elf Jahre alt."
+    },
+    {
+      "word": "zwölf",
+      "translation_cz": "dvanáct",
+      "example": "Ein Jahr hat zwölf Monate.",
+      "example_cz": "Rok má dvanáct měsíců.",
+      "tts_text": "Ein Jahr hat zwölf Monate."
+    },
+    {
+      "word": "dreizehn",
+      "translation_cz": "třináct",
+      "example": "Es gibt dreizehn Stühle.",
+      "example_cz": "Je tady třináct židlí.",
+      "tts_text": "Es gibt dreizehn Stühle."
+    },
+    {
+      "word": "fünfzehn",
+      "translation_cz": "patnáct",
+      "example": "Mein Cousin ist fünfzehn.",
+      "example_cz": "Mému bratranci je patnáct.",
+      "tts_text": "Mein Cousin ist fünfzehn."
+    },
+    {
+      "word": "achtzehn",
+      "translation_cz": "osmnáct",
+      "example": "Meine Schwester ist achtzehn.",
+      "example_cz": "Moje sestra má osmnáct.",
+      "tts_text": "Meine Schwester ist achtzehn."
+    },
+    {
+      "word": "zwanzig",
+      "translation_cz": "dvacet",
+      "example": "In meiner Klasse sind zwanzig Kinder.",
+      "example_cz": "V mé třídě je dvacet dětí.",
+      "tts_text": "In meiner Klasse sind zwanzig Kinder."
+    },
+    {
+      "word": "sechzehn",
+      "translation_cz": "šestnáct",
+      "example": "Die Zimmernummer ist sechzehn.",
+      "example_cz": "Číslo pokoje je šestnáct.",
+      "tts_text": "Die Zimmernummer ist sechzehn."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "zwanzig",
+      "options": [
+        "dvacet",
+        "dvanáct",
+        "patnáct"
+      ],
+      "correct": "dvacet"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ein Jahr hat ___ Monate.",
+      "answer": "zwölf",
+      "hint_cz": "dvanáct"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "elf",
+          "cz": "jedenáct"
+        },
+        {
+          "target": "dreizehn",
+          "cz": "třináct"
+        },
+        {
+          "target": "fünfzehn",
+          "cz": "patnáct"
+        },
+        {
+          "target": "achtzehn",
+          "cz": "osmnáct"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Die Zimmernummer ist sechzehn.",
+      "tts_text": "Die Zimmernummer ist sechzehn."
+    }
+  ]
+}

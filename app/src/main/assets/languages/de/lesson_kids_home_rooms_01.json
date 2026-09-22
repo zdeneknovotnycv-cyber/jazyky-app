@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_home_rooms_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Rooms in a House",
+  "title_cz": "Místnosti v domě",
+  "vocabulary": [
+    {
+      "word": "die Küche",
+      "translation_cz": "kuchyně",
+      "example": "Wir kochen in der Küche.",
+      "example_cz": "V kuchyni vaříme.",
+      "tts_text": "Wir kochen in der Küche."
+    },
+    {
+      "word": "das Schlafzimmer",
+      "translation_cz": "ložnice / pokoj",
+      "example": "Ich schlafe in meinem Schlafzimmer.",
+      "example_cz": "Spím ve svém pokoji.",
+      "tts_text": "Ich schlafe in meinem Schlafzimmer."
+    },
+    {
+      "word": "das Badezimmer",
+      "translation_cz": "koupelna",
+      "example": "Ich putze meine Zähne im Badezimmer.",
+      "example_cz": "V koupelně si čistím zuby.",
+      "tts_text": "Ich putze meine Zähne im Badezimmer."
+    },
+    {
+      "word": "das Wohnzimmer",
+      "translation_cz": "obývací pokoj",
+      "example": "Wir schauen im Wohnzimmer fern.",
+      "example_cz": "V obývacím pokoji koukáme na televizi.",
+      "tts_text": "Wir schauen im Wohnzimmer fern."
+    },
+    {
+      "word": "der Flur",
+      "translation_cz": "chodba",
+      "example": "Ich hänge meine Jacke im Flur auf.",
+      "example_cz": "Kabát si věším na chodbě.",
+      "tts_text": "Ich hänge meine Jacke im Flur auf."
+    },
+    {
+      "word": "die Garage",
+      "translation_cz": "garáž",
+      "example": "Das Auto steht in der Garage.",
+      "example_cz": "Auto je v garáži.",
+      "tts_text": "Das Auto steht in der Garage."
+    },
+    {
+      "word": "die Treppe",
+      "translation_cz": "schody",
+      "example": "Ich gehe die Treppe hoch.",
+      "example_cz": "Jdu nahoru po schodech.",
+      "tts_text": "Ich gehe die Treppe hoch."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Küche",
+      "options": [
+        "kuchyně",
+        "koupelna",
+        "chodba"
+      ],
+      "correct": "kuchyně"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich schlafe in meinem ___.",
+      "answer": "Schlafzimmer",
+      "hint_cz": "pokoj"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Badezimmer",
+          "cz": "koupelna"
+        },
+        {
+          "target": "das Wohnzimmer",
+          "cz": "obývací pokoj"
+        },
+        {
+          "target": "die Garage",
+          "cz": "garáž"
+        },
+        {
+          "target": "die Treppe",
+          "cz": "schody"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir kochen in der Küche.",
+      "tts_text": "Wir kochen in der Küche."
+    }
+  ]
+}

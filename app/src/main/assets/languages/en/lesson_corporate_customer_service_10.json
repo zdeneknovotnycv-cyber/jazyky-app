@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_customer_service_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Thanking a customer for feedback",
+  "title_cz": "Poděkování zákazníkovi za zpětnou vazbu",
+  "vocabulary": [
+    {
+      "word": "Thank you for your feedback",
+      "translation_cz": "Děkujeme za vaši zpětnou vazbu",
+      "example": "Thank you for your feedback, it really helps us improve.",
+      "example_cz": "Děkujeme za vaši zpětnou vazbu, opravdu nám pomáhá se zlepšovat.",
+      "tts_text": "Thank you for your feedback, it really helps us improve."
+    },
+    {
+      "word": "We value your opinion",
+      "translation_cz": "Vážíme si vašeho názoru",
+      "example": "We value your opinion very much.",
+      "example_cz": "Velmi si vážíme vašeho názoru.",
+      "tts_text": "We value your opinion very much."
+    },
+    {
+      "word": "take it into consideration",
+      "translation_cz": "vzít v úvahu",
+      "example": "We will take your suggestion into consideration.",
+      "example_cz": "Váš návrh vezmeme v úvahu.",
+      "tts_text": "We will take your suggestion into consideration."
+    },
+    {
+      "word": "share your experience",
+      "translation_cz": "podělit se o zkušenost",
+      "example": "Thank you for sharing your experience with us.",
+      "example_cz": "Děkujeme, že jste se s námi podělili o svou zkušenost.",
+      "tts_text": "Thank you for sharing your experience with us."
+    },
+    {
+      "word": "continuous improvement",
+      "translation_cz": "neustálé zlepšování",
+      "example": "Your feedback supports our continuous improvement.",
+      "example_cz": "Vaše zpětná vazba podporuje naše neustálé zlepšování.",
+      "tts_text": "Your feedback supports our continuous improvement."
+    },
+    {
+      "word": "pass this along to",
+      "translation_cz": "předat to dál",
+      "example": "I will pass this along to our team.",
+      "example_cz": "Předám to dál našemu týmu.",
+      "tts_text": "I will pass this along to our team."
+    },
+    {
+      "word": "means a lot to us",
+      "translation_cz": "hodně pro nás znamená",
+      "example": "Your feedback means a lot to us.",
+      "example_cz": "Vaše zpětná vazba pro nás hodně znamená.",
+      "tts_text": "Your feedback means a lot to us."
+    },
+    {
+      "word": "survey",
+      "translation_cz": "dotazník, průzkum",
+      "example": "Would you mind filling out a short survey?",
+      "example_cz": "Nevadilo by vám vyplnit krátký dotazník?",
+      "tts_text": "Would you mind filling out a short survey?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_10",
+      "title": "Thanking a customer for their review",
+      "title_cz": "Poděkování zákazníkovi za jeho recenzi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Thank you for your feedback, it really helps us improve.",
+          "text_cz": "Děkujeme za vaši zpětnou vazbu, opravdu nám pomáhá se zlepšovat."
+        },
+        {
+          "speaker": "B",
+          "text": "I'm happy to share my experience. I just wanted to mention the checkout was a bit slow.",
+          "text_cz": "Rád se podělím o svou zkušenost. Jen jsem chtěl zmínit, že placení bylo trochu pomalé."
+        },
+        {
+          "speaker": "A",
+          "text": "We will take that into consideration. I will pass this along to our team.",
+          "text_cz": "Vezmeme to v úvahu. Předám to dál našemu týmu."
+        },
+        {
+          "speaker": "B",
+          "text": "Great, your feedback means a lot to us, thank you again.",
+          "text_cz": "Skvělé, vaše zpětná vazba pro nás hodně znamená, ještě jednou děkuji."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "We value your opinion",
+      "options": [
+        "Vážíme si vašeho názoru",
+        "Neustálé zlepšování",
+        "Podělit se o zkušenost"
+      ],
+      "correct": "Vážíme si vašeho názoru"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We will take your suggestion into ___.",
+      "answer": "consideration",
+      "hint_cz": "úvahu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "continuous improvement",
+          "cz": "neustálé zlepšování"
+        },
+        {
+          "target": "pass this along to",
+          "cz": "předat to dál"
+        },
+        {
+          "target": "means a lot to us",
+          "cz": "hodně pro nás znamená"
+        },
+        {
+          "target": "survey",
+          "cz": "dotazník, průzkum"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Thank you for your feedback, it really helps us improve.",
+      "tts_text": "Thank you for your feedback, it really helps us improve."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Would you mind filling out a short ___?",
+      "answer": "survey",
+      "hint_cz": "dotazník"
+    }
+  ]
+}

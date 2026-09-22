@@ -1,0 +1,47 @@
+{
+  "id": "de_corporate_finance_budgets_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Vierteljährliches Finanzupdate",
+  "title_cz": "Čtvrtletní finanční aktualizace",
+  "vocabulary": [
+    {"word": "die Quartalsergebnisse", "translation_cz": "čtvrtletní výsledky", "example": "Gehen wir die Quartalsergebnisse durch.", "example_cz": "Projděme si čtvrtletní výsledky.", "tts_text": "Gehen wir die Quartalsergebnisse durch."},
+    {"word": "die Gewinnmarge", "translation_cz": "zisková marže", "example": "Unsere Gewinnmarge hat sich dieses Quartal verbessert.", "example_cz": "Naše zisková marže se toto čtvrtletí zlepšila.", "tts_text": "Unsere Gewinnmarge hat sich dieses Quartal verbessert."},
+    {"word": "der Nettogewinn", "translation_cz": "čistý zisk", "example": "Der Nettogewinn ist um fünf Prozent gestiegen.", "example_cz": "Čistý zisk vzrostl o pět procent.", "tts_text": "Der Nettogewinn ist um fünf Prozent gestiegen."},
+    {"word": "das Wachstum", "translation_cz": "růst", "example": "Wir erwarten nächstes Jahr ein stetiges Wachstum.", "example_cz": "Příští rok očekáváme stabilní růst.", "tts_text": "Wir erwarten nächstes Jahr ein stetiges Wachstum."},
+    {"word": "die Kennzahlen", "translation_cz": "klíčové ukazatele", "example": "Das sind die Kennzahlen für den Vorstand.", "example_cz": "Toto jsou klíčové ukazatele pro představenstvo.", "tts_text": "Das sind die Kennzahlen für den Vorstand."},
+    {"word": "der Trend", "translation_cz": "trend", "example": "Der Verkaufstrend ist in allen Regionen positiv.", "example_cz": "Trend v prodeji je pozitivní ve všech regionech.", "tts_text": "Der Verkaufstrend ist in allen Regionen positiv."},
+    {"word": "die Aktionäre", "translation_cz": "akcionáři", "example": "Wir präsentieren das am Montag den Aktionären.", "example_cz": "V pondělí to představíme akcionářům.", "tts_text": "Wir präsentieren das am Montag den Aktionären."},
+    {"word": "im Vergleich zum Vorjahr", "translation_cz": "ve srovnání s loňským rokem", "example": "Der Umsatz ist im Vergleich zum Vorjahr um zehn Prozent gestiegen.", "example_cz": "Tržby jsou o deset procent vyšší ve srovnání s loňským rokem.", "tts_text": "Der Umsatz ist im Vergleich zum Vorjahr um zehn Prozent gestiegen."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_quarterly_update",
+      "title": "Das Quartalsupdate präsentieren",
+      "title_cz": "Prezentace čtvrtletní aktualizace",
+      "lines": [
+        {"speaker": "A", "text": "Beginnen wir mit den Quartalsergebnissen.", "text_cz": "Začněme s čtvrtletními výsledky."},
+        {"speaker": "B", "text": "Der Nettogewinn ist im Vergleich zum Vorjahr um fünf Prozent gestiegen.", "text_cz": "Čistý zisk vzrostl o pět procent ve srovnání s loňským rokem."},
+        {"speaker": "A", "text": "Das ist ein starker Trend. Wie sieht es mit der Gewinnmarge aus?", "text_cz": "To je silný trend. A co zisková marže?"},
+        {"speaker": "B", "text": "Sie hat sich ebenfalls leicht verbessert, vor allem dank niedrigerer Kosten.", "text_cz": "Také se mírně zlepšila, hlavně díky nižším nákladům."}
+      ]
+    },
+    {
+      "id": "conv_shareholder_prep",
+      "title": "Vorbereitung auf die Hauptversammlung",
+      "title_cz": "Příprava na schůzku s akcionáři",
+      "lines": [
+        {"speaker": "A", "text": "Sind die Kennzahlen für die Aktionäre fertig?", "text_cz": "Jsou klíčové ukazatele připravené pro akcionáře?"},
+        {"speaker": "B", "text": "Ja, wir präsentieren sie am Montag und zeigen stetiges Wachstum.", "text_cz": "Ano, v pondělí je představíme a ukážeme stabilní růst."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "das Wachstum", "options": ["růst", "trend", "marže"], "correct": "růst"},
+    {"type": "fill_gap", "sentence": "Der Nettogewinn ist im Vergleich zum ___ um fünf Prozent gestiegen.", "answer": "Vorjahr", "hint_cz": "loňský rok"},
+    {"type": "match_pairs", "pairs": [{"target": "die Gewinnmarge", "cz": "zisková marže"}, {"target": "die Aktionäre", "cz": "akcionáři"}, {"target": "die Kennzahlen", "cz": "klíčové ukazatele"}, {"target": "die Quartalsergebnisse", "cz": "čtvrtletní výsledky"}]},
+    {"type": "speak_and_check", "target_phrase": "Wir erwarten nächstes Jahr ein stetiges Wachstum.", "tts_text": "Wir erwarten nächstes Jahr ein stetiges Wachstum."},
+    {"type": "fill_gap", "sentence": "Der Verkaufs___ ist in allen Regionen positiv.", "answer": "trend", "hint_cz": "trend"}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_toys_games_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Puzzles",
+  "title_cz": "Skládačky (puzzle)",
+  "vocabulary": [
+    {
+      "word": "das Puzzle",
+      "translation_cz": "skládačka, puzzle",
+      "example": "Ich mache gern ein Puzzle.",
+      "example_cz": "Rád skládám puzzle.",
+      "tts_text": "Ich mache gern ein Puzzle."
+    },
+    {
+      "word": "das Teil",
+      "translation_cz": "dílek",
+      "example": "Dieses Teil passt nicht.",
+      "example_cz": "Tento dílek nesedí.",
+      "tts_text": "Dieses Teil passt nicht."
+    },
+    {
+      "word": "das Bild",
+      "translation_cz": "obrázek",
+      "example": "Das Puzzle zeigt ein Bild von Tieren.",
+      "example_cz": "Puzzle zobrazuje obrázek zvířat.",
+      "tts_text": "Das Puzzle zeigt ein Bild von Tieren."
+    },
+    {
+      "word": "fertig machen",
+      "translation_cz": "dokončit",
+      "example": "Wir haben das Puzzle zusammen fertig gemacht.",
+      "example_cz": "Puzzle jsme dokončili společně.",
+      "tts_text": "Wir haben das Puzzle zusammen fertig gemacht."
+    },
+    {
+      "word": "schwierig",
+      "translation_cz": "těžký",
+      "example": "Dieses Puzzle ist schwierig.",
+      "example_cz": "Tato skládačka je těžká.",
+      "tts_text": "Dieses Puzzle ist schwierig."
+    },
+    {
+      "word": "einfach",
+      "translation_cz": "snadný",
+      "example": "Dieses Puzzle ist einfach für mich.",
+      "example_cz": "Tato skládačka je pro mě snadná.",
+      "tts_text": "Dieses Puzzle ist einfach für mich."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Teil",
+      "options": [
+        "dílek",
+        "obrázek",
+        "puzzle"
+      ],
+      "correct": "dílek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Dieses ___ passt nicht.",
+      "answer": "Teil",
+      "hint_cz": "dílek"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Puzzle",
+          "cz": "skládačka, puzzle"
+        },
+        {
+          "target": "das Bild",
+          "cz": "obrázek"
+        },
+        {
+          "target": "schwierig",
+          "cz": "těžký"
+        },
+        {
+          "target": "einfach",
+          "cz": "snadný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir haben das Puzzle zusammen fertig gemacht.",
+      "tts_text": "Wir haben das Puzzle zusammen fertig gemacht."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "de_adult_corporate_project_management_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Projektstart",
+  "title_cz": "Zahájení projektu",
+  "vocabulary": [
+    {
+      "word": "das Kickoff-Meeting",
+      "translation_cz": "úvodní schůzka projektu",
+      "example": "Wir beginnen jedes Projekt mit einem Kickoff-Meeting.",
+      "example_cz": "Každý projekt začínáme úvodní schůzkou.",
+      "tts_text": "Wir beginnen jedes Projekt mit einem Kickoff-Meeting."
+    },
+    {
+      "word": "der Stakeholder",
+      "translation_cz": "zainteresovaná strana",
+      "example": "Alle wichtigen Stakeholder sind heute eingeladen.",
+      "example_cz": "Dnes jsou pozvány všechny klíčové zainteresované strany.",
+      "tts_text": "Alle wichtigen Stakeholder sind heute eingeladen."
+    },
+    {
+      "word": "der Projektumfang",
+      "translation_cz": "rozsah projektu",
+      "example": "Lass uns zuerst den Projektumfang festlegen.",
+      "example_cz": "Nejprve si definujme rozsah projektu.",
+      "tts_text": "Lass uns zuerst den Projektumfang festlegen."
+    },
+    {
+      "word": "das Ziel",
+      "translation_cz": "cíl",
+      "example": "Das Hauptziel ist der Start bis Juni.",
+      "example_cz": "Hlavním cílem je spustit projekt do června.",
+      "tts_text": "Das Hauptziel ist der Start bis Juni."
+    },
+    {
+      "word": "der Zeitplan",
+      "translation_cz": "časový plán",
+      "example": "Hier ist der Zeitplan für die nächsten drei Monate.",
+      "example_cz": "Tady je časový plán na následující tři měsíce.",
+      "tts_text": "Hier ist der Zeitplan für die nächsten drei Monate."
+    },
+    {
+      "word": "das Ergebnis",
+      "translation_cz": "výstup",
+      "example": "Das erste Ergebnis ist nächste Woche fällig.",
+      "example_cz": "První výstup má termín příští týden.",
+      "tts_text": "Das erste Ergebnis ist nächste Woche fällig."
+    },
+    {
+      "word": "das Teammitglied",
+      "translation_cz": "člen týmu",
+      "example": "Jedes Teammitglied hat eine klare Rolle.",
+      "example_cz": "Každý člen týmu má jasnou roli.",
+      "tts_text": "Jedes Teammitglied hat eine klare Rolle."
+    },
+    {
+      "word": "die Ressourcen",
+      "translation_cz": "zdroje",
+      "example": "Haben wir genug Ressourcen für dieses Projekt?",
+      "example_cz": "Máme na tento projekt dostatek zdrojů?",
+      "tts_text": "Haben wir genug Ressourcen für dieses Projekt?"
+    },
+    {
+      "word": "der Sponsor",
+      "translation_cz": "sponzor projektu",
+      "example": "Der Projektsponsor hat das Budget genehmigt.",
+      "example_cz": "Sponzor projektu schválil rozpočet.",
+      "tts_text": "Der Projektsponsor hat das Budget genehmigt."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_kickoff_intro",
+      "title": "Eröffnung des Kickoff-Meetings",
+      "title_cz": "Zahájení úvodní schůzky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Willkommen alle, lasst uns das Kickoff-Meeting beginnen.",
+          "text_cz": "Vítejte všichni, začněme úvodní schůzku."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke für die Einladung. Was ist das Hauptziel des Projekts?",
+          "text_cz": "Díky za pozvání. Jaký je hlavní cíl projektu?"
+        },
+        {
+          "speaker": "A",
+          "text": "Das Ziel ist, die neue App bis Ende des Quartals zu starten.",
+          "text_cz": "Cílem je spustit novou aplikaci do konce čtvrtletí."
+        },
+        {
+          "speaker": "B",
+          "text": "Super, und wer sind die wichtigsten Stakeholder?",
+          "text_cz": "Skvělé, a kdo jsou klíčové zainteresované strany?"
+        },
+        {
+          "speaker": "A",
+          "text": "Die Marketing- und IT-Abteilung sowie unser Projektsponsor.",
+          "text_cz": "Marketingové a IT oddělení a náš sponzor projektu."
+        }
+      ]
+    },
+    {
+      "id": "conv_kickoff_scope",
+      "title": "Umfang und Zeitplan festlegen",
+      "title_cz": "Definování rozsahu a časového plánu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Lass uns den Umfang festlegen, bevor wir weitermachen.",
+          "text_cz": "Než budeme pokračovat, definujme rozsah projektu."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar. Was ist das erste Ergebnis?",
+          "text_cz": "Jasně. Jaký je první výstup?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ein funktionierender Prototyp, laut Zeitplan.",
+          "text_cz": "Funkční prototyp, podle časového plánu."
+        },
+        {
+          "speaker": "B",
+          "text": "Haben wir dafür genug Ressourcen?",
+          "text_cz": "Máme na to dostatek zdrojů?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Kickoff-Meeting",
+      "options": [
+        "úvodní schůzka projektu",
+        "rozsah projektu",
+        "cíl"
+      ],
+      "correct": "úvodní schůzka projektu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Alle wichtigen Stakeholder sind heute eingeladen.",
+      "answer": "der Stakeholder",
+      "hint_cz": "zainteresovaná strana"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Hier ist ___ für die nächsten drei Monate.",
+      "answer": "der Zeitplan",
+      "hint_cz": "časový plán"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Ergebnis",
+          "cz": "výstup"
+        },
+        {
+          "target": "das Teammitglied",
+          "cz": "člen týmu"
+        },
+        {
+          "target": "die Ressourcen",
+          "cz": "zdroje"
+        },
+        {
+          "target": "der Projektumfang",
+          "cz": "rozsah projektu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Willkommen alle, lasst uns das Kickoff-Meeting beginnen.",
+      "tts_text": "Willkommen alle, lasst uns das Kickoff-Meeting beginnen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Danke für die Einladung. Was ist das Hauptziel des Projekts?",
+      "tts_text": "Danke für die Einladung. Was ist das Hauptziel des Projekts?"
+    }
+  ]
+}

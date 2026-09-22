@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_office_life_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Parken im Büro",
+  "title_cz": "Parkování u kanceláře",
+  "vocabulary": [
+    {
+      "word": "der Parkplatz",
+      "translation_cz": "parkovací místo",
+      "example": "Gibt es heute einen freien Parkplatz?",
+      "example_cz": "Je dnes volné parkovací místo?",
+      "tts_text": "Gibt es heute einen freien Parkplatz?"
+    },
+    {
+      "word": "die Parkgenehmigung",
+      "translation_cz": "parkovací povolení",
+      "example": "Du brauchst eine Parkgenehmigung für die Bürogarage.",
+      "example_cz": "Pro kancelářskou garáž potřebuješ parkovací povolení.",
+      "tts_text": "Du brauchst eine Parkgenehmigung für die Bürogarage."
+    },
+    {
+      "word": "der reservierte Platz",
+      "translation_cz": "vyhrazené místo",
+      "example": "Der reservierte Platz ist nur für Besucher.",
+      "example_cz": "To vyhrazené místo je jen pro návštěvníky.",
+      "tts_text": "Der reservierte Platz ist nur für Besucher."
+    },
+    {
+      "word": "die Tiefgarage",
+      "translation_cz": "podzemní garáž",
+      "example": "Mitarbeiter können in der Tiefgarage parken.",
+      "example_cz": "Zaměstnanci mohou parkovat v podzemní garáži.",
+      "tts_text": "Mitarbeiter können in der Tiefgarage parken."
+    },
+    {
+      "word": "die Parkgebühr",
+      "translation_cz": "parkovací poplatek",
+      "example": "Gibt es eine Parkgebühr für Mitarbeiter?",
+      "example_cz": "Platí zaměstnanci parkovací poplatek?",
+      "tts_text": "Gibt es eine Parkgebühr für Mitarbeiter?"
+    },
+    {
+      "word": "voll",
+      "translation_cz": "plný, obsazený",
+      "example": "Der Parkplatz ist heute Morgen schon voll.",
+      "example_cz": "Parkoviště je dnes ráno už plné.",
+      "tts_text": "Der Parkplatz ist heute Morgen schon voll."
+    },
+    {
+      "word": "der Fahrradständer",
+      "translation_cz": "stojan na kola",
+      "example": "Du kannst dein Fahrrad am Fahrradständer abstellen.",
+      "example_cz": "Kolo si můžeš nechat u stojanu na kola.",
+      "tts_text": "Du kannst dein Fahrrad am Fahrradständer abstellen."
+    },
+    {
+      "word": "die Ladestation",
+      "translation_cz": "nabíjecí stanice pro elektromobily",
+      "example": "Es gibt eine Ladestation in der Nähe des Eingangs.",
+      "example_cz": "U vchodu je nabíjecí stanice pro elektromobily.",
+      "tts_text": "Es gibt eine Ladestation in der Nähe des Eingangs."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_07",
+      "title": "Einen Parkplatz finden",
+      "title_cz": "Hledání parkovacího místa",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Weißt du, ob noch ein freier Parkplatz übrig ist?",
+          "text_cz": "Nevíš, jestli zbylo volné parkovací místo?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich glaube, der Parkplatz ist heute Morgen schon voll.",
+          "text_cz": "Myslím, že parkoviště je dnes ráno už plné."
+        },
+        {
+          "speaker": "A",
+          "text": "Kann ich stattdessen in der Tiefgarage parken?",
+          "text_cz": "Můžu místo toho zaparkovat v podzemní garáži?"
+        },
+        {
+          "speaker": "B",
+          "text": "Nur mit einer Parkgenehmigung, frag am Empfang danach.",
+          "text_cz": "Jen s parkovacím povolením, zeptej se na recepci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Parkplatz",
+      "options": [
+        "parkovací místo",
+        "parkovací povolení",
+        "vyhrazené místo"
+      ],
+      "correct": "parkovací místo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Du brauchst eine ___ für die Garage.",
+      "answer": "Parkgenehmigung",
+      "hint_cz": "parkovací povolení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Parkplatz",
+          "cz": "parkovací místo"
+        },
+        {
+          "target": "die Parkgenehmigung",
+          "cz": "parkovací povolení"
+        },
+        {
+          "target": "der reservierte Platz",
+          "cz": "vyhrazené místo"
+        },
+        {
+          "target": "die Tiefgarage",
+          "cz": "podzemní garáž"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Gibt es heute einen freien Parkplatz?",
+      "tts_text": "Gibt es heute einen freien Parkplatz?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der Parkplatz ist heute Morgen schon ___.",
+      "answer": "voll",
+      "hint_cz": "plný"
+    }
+  ]
+}

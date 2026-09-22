@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_scheduling_calendars_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Setting reminders",
+  "title_cz": "Nastavení připomenutí",
+  "vocabulary": [
+    {
+      "word": "set a reminder",
+      "translation_cz": "nastavit připomenutí",
+      "example": "Could you set a reminder for the deadline?",
+      "example_cz": "Mohl byste nastavit připomenutí na termín?",
+      "tts_text": "Could you set a reminder for the deadline?"
+    },
+    {
+      "word": "remind me an hour before",
+      "translation_cz": "připomeňte mi hodinu předem",
+      "example": "Please remind me an hour before the meeting.",
+      "example_cz": "Připomeňte mi to prosím hodinu před schůzkou.",
+      "tts_text": "Please remind me an hour before the meeting."
+    },
+    {
+      "word": "I'll get a notification",
+      "translation_cz": "přijde mi upozornění",
+      "example": "I'll get a notification on my phone.",
+      "example_cz": "Přijde mi upozornění na telefon.",
+      "tts_text": "I'll get a notification on my phone."
+    },
+    {
+      "word": "don't let me forget",
+      "translation_cz": "nedovolte mi zapomenout",
+      "example": "Don't let me forget to send the report.",
+      "example_cz": "Nedovolte mi zapomenout poslat report.",
+      "tts_text": "Don't let me forget to send the report."
+    },
+    {
+      "word": "turn on notifications",
+      "translation_cz": "zapnout upozornění",
+      "example": "Make sure you turn on notifications for this event.",
+      "example_cz": "Ujistěte se, že máte zapnutá upozornění pro tuto událost.",
+      "tts_text": "Make sure you turn on notifications for this event."
+    },
+    {
+      "word": "a day in advance",
+      "translation_cz": "den předem",
+      "example": "I usually set reminders a day in advance.",
+      "example_cz": "Obvykle si nastavuji připomenutí den předem.",
+      "tts_text": "I usually set reminders a day in advance."
+    },
+    {
+      "word": "snooze the reminder",
+      "translation_cz": "odložit připomenutí",
+      "example": "I accidentally snoozed the reminder for an hour.",
+      "example_cz": "Omylem jsem odložil připomenutí o hodinu.",
+      "tts_text": "I accidentally snoozed the reminder for an hour."
+    },
+    {
+      "word": "it should pop up automatically",
+      "translation_cz": "mělo by se to objevit automaticky",
+      "example": "The reminder should pop up automatically on your screen.",
+      "example_cz": "Připomenutí by se mělo na vaší obrazovce objevit automaticky.",
+      "tts_text": "The reminder should pop up automatically on your screen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_setting_reminders",
+      "title": "Setting a reminder for an important deadline",
+      "title_cz": "Nastavení připomenutí na důležitý termín",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Could you set a reminder for the deadline on Friday?",
+          "text_cz": "Mohl byste nastavit připomenutí na páteční termín?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, I usually set reminders a day in advance.",
+          "text_cz": "Jistě, obvykle si nastavuji připomenutí den předem."
+        },
+        {
+          "speaker": "A",
+          "text": "Please also remind me an hour before the actual meeting.",
+          "text_cz": "Prosím připomeňte mi to také hodinu před samotnou schůzkou."
+        },
+        {
+          "speaker": "B",
+          "text": "No problem, I'll get a notification and I'll let you know too.",
+          "text_cz": "Žádný problém, přijde mi upozornění a dám vám vědět také."
+        },
+        {
+          "speaker": "A",
+          "text": "Perfect, thank you, don't let me forget this time.",
+          "text_cz": "Výborně, děkuji, tentokrát mi nedovolte zapomenout."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Could you set a reminder for the deadline?",
+      "options": [
+        "Mohl byste nastavit připomenutí na termín?",
+        "Přijde mi upozornění.",
+        "Odložil jsem připomenutí."
+      ],
+      "correct": "Mohl byste nastavit připomenutí na termín?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please remind me an hour ___ the meeting.",
+      "answer": "before",
+      "hint_cz": "před"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "turn on notifications", "cz": "zapnout upozornění" },
+        { "target": "a day in advance", "cz": "den předem" },
+        { "target": "snooze the reminder", "cz": "odložit připomenutí" },
+        { "target": "don't let me forget", "cz": "nedovolte mi zapomenout" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'll get a notification on my phone.",
+      "tts_text": "I'll get a notification on my phone."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The reminder should pop up ___ on your screen.",
+      "answer": "automatically",
+      "hint_cz": "automaticky"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I accidentally snoozed the reminder for an hour.",
+      "tts_text": "I accidentally snoozed the reminder for an hour."
+    }
+  ]
+}

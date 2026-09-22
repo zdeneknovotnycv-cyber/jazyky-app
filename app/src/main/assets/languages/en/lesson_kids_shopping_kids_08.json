@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_shopping_kids_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Shopping list with mom",
+  "title_cz": "Nákupní seznam s mámou",
+  "vocabulary": [
+    {
+      "word": "shopping list",
+      "translation_cz": "nákupní seznam",
+      "example": "Mom writes a shopping list.",
+      "example_cz": "Máma píše nákupní seznam.",
+      "tts_text": "Mom writes a shopping list."
+    },
+    {
+      "word": "basket",
+      "translation_cz": "košík",
+      "example": "I push the basket in the shop.",
+      "example_cz": "Tlačím košík v obchodě.",
+      "tts_text": "I push the basket in the shop."
+    },
+    {
+      "word": "bread",
+      "translation_cz": "chleba",
+      "example": "We need to buy bread.",
+      "example_cz": "Musíme koupit chleba.",
+      "tts_text": "We need to buy bread."
+    },
+    {
+      "word": "fruit",
+      "translation_cz": "ovoce",
+      "example": "We put fruit in the basket.",
+      "example_cz": "Dáváme ovoce do košíku.",
+      "tts_text": "We put fruit in the basket."
+    },
+    {
+      "word": "forget",
+      "translation_cz": "zapomenout",
+      "example": "Don't forget the milk.",
+      "example_cz": "Nezapomeň na mléko.",
+      "tts_text": "Don't forget the milk."
+    },
+    {
+      "word": "aisle",
+      "translation_cz": "regál, ulička",
+      "example": "The milk is in the next aisle.",
+      "example_cz": "Mléko je v další uličce.",
+      "tts_text": "The milk is in the next aisle."
+    },
+    {
+      "word": "help",
+      "translation_cz": "pomoct",
+      "example": "I help mom carry the bags.",
+      "example_cz": "Pomáhám mámě nést tašky.",
+      "tts_text": "I help mom carry the bags."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "shopping list",
+      "options": [
+        "nákupní seznam",
+        "košík",
+        "chleba"
+      ],
+      "correct": "nákupní seznam"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I push the ___ in the shop.",
+      "answer": "basket",
+      "hint_cz": "košík"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bread",
+          "cz": "chleba"
+        },
+        {
+          "target": "fruit",
+          "cz": "ovoce"
+        },
+        {
+          "target": "forget",
+          "cz": "zapomenout"
+        },
+        {
+          "target": "aisle",
+          "cz": "regál, ulička"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I help mom carry the bags.",
+      "tts_text": "I help mom carry the bags."
+    }
+  ]
+}

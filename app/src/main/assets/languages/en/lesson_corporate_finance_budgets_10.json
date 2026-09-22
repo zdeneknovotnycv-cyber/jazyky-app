@@ -1,0 +1,46 @@
+{
+  "id": "en_corporate_finance_budgets_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Expense Reports",
+  "title_cz": "Výkazy výdajů",
+  "vocabulary": [
+    {"word": "expense report", "translation_cz": "výkaz výdajů", "example": "Please submit your expense report by Friday.", "example_cz": "Odevzdejte prosím svůj výkaz výdajů do pátku.", "tts_text": "Please submit your expense report by Friday."},
+    {"word": "business trip", "translation_cz": "služební cesta", "example": "These expenses are from my business trip.", "example_cz": "Tyto výdaje jsou z mé služební cesty.", "tts_text": "These expenses are from my business trip."},
+    {"word": "itemize", "translation_cz": "rozepsat položky", "example": "Please itemize all your expenses.", "example_cz": "Prosím rozepište všechny své výdaje.", "tts_text": "Please itemize all your expenses."},
+    {"word": "per diem", "translation_cz": "denní diety", "example": "The per diem covers meals during travel.", "example_cz": "Denní diety pokrývají stravu během cesty.", "tts_text": "The per diem covers meals during travel."},
+    {"word": "mileage", "translation_cz": "kilometrovné", "example": "You can claim mileage for using your own car.", "example_cz": "Za použití vlastního auta si můžete nárokovat kilometrovné.", "tts_text": "You can claim mileage for using your own car."},
+    {"word": "submit for approval", "translation_cz": "předložit ke schválení", "example": "I submitted the expense report for approval yesterday.", "example_cz": "Včera jsem předložil výkaz výdajů ke schválení.", "tts_text": "I submitted the expense report for approval yesterday."},
+    {"word": "supporting documents", "translation_cz": "podpůrné doklady", "example": "Please attach all supporting documents.", "example_cz": "Přiložte prosím všechny podpůrné doklady.", "tts_text": "Please attach all supporting documents."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_expense_report",
+      "title": "Submitting an expense report",
+      "title_cz": "Odevzdání výkazu výdajů",
+      "lines": [
+        {"speaker": "A", "text": "I need to submit my expense report from the business trip.", "text_cz": "Musím odevzdat výkaz výdajů ze své služební cesty."},
+        {"speaker": "B", "text": "Please itemize the costs and attach supporting documents.", "text_cz": "Rozepište prosím náklady a přiložte podpůrné doklady."},
+        {"speaker": "A", "text": "Should I include mileage for my own car?", "text_cz": "Mám zahrnout kilometrovné za vlastní auto?"},
+        {"speaker": "B", "text": "Yes, and don't forget the per diem for meals.", "text_cz": "Ano, a nezapomeňte na denní diety za stravu."}
+      ]
+    },
+    {
+      "id": "conv_submit_approval",
+      "title": "Submitting for approval",
+      "title_cz": "Předložení ke schválení",
+      "lines": [
+        {"speaker": "A", "text": "I submitted the report for approval this morning.", "text_cz": "Dnes ráno jsem předložil zprávu ke schválení."},
+        {"speaker": "B", "text": "Great, I'll review it before the end of the day.", "text_cz": "Skvěle, projdu si ji ještě dnes."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "mileage", "options": ["kilometrovné", "diety", "doklady"], "correct": "kilometrovné"},
+    {"type": "fill_gap", "sentence": "Please ___ all your expenses.", "answer": "itemize", "hint_cz": "rozepište"},
+    {"type": "match_pairs", "pairs": [{"target": "per diem", "cz": "denní diety"}, {"target": "supporting documents", "cz": "podpůrné doklady"}, {"target": "business trip", "cz": "služební cesta"}, {"target": "expense report", "cz": "výkaz výdajů"}]},
+    {"type": "speak_and_check", "target_phrase": "Please submit your expense report by Friday.", "tts_text": "Please submit your expense report by Friday."},
+    {"type": "fill_gap", "sentence": "I submitted the expense report for ___ yesterday.", "answer": "approval", "hint_cz": "schválení"}
+  ]
+}

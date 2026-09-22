@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_home_rooms_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "My Own Room",
+  "title_cz": "Můj vlastní pokoj",
+  "vocabulary": [
+    {
+      "word": "mein Zimmer",
+      "translation_cz": "můj pokoj",
+      "example": "Das ist mein Zimmer.",
+      "example_cz": "Tohle je můj pokoj.",
+      "tts_text": "Das ist mein Zimmer."
+    },
+    {
+      "word": "die Spielsachen",
+      "translation_cz": "hračky",
+      "example": "Meine Spielsachen sind im Regal.",
+      "example_cz": "Moje hračky jsou na poličce.",
+      "tts_text": "Meine Spielsachen sind im Regal."
+    },
+    {
+      "word": "das Poster",
+      "translation_cz": "plakát",
+      "example": "Ich habe ein Poster an der Wand.",
+      "example_cz": "Na zdi mám plakát.",
+      "tts_text": "Ich habe ein Poster an der Wand."
+    },
+    {
+      "word": "das Fenster",
+      "translation_cz": "okno",
+      "example": "Mein Fenster geht zum Garten.",
+      "example_cz": "Moje okno vede do zahrady.",
+      "tts_text": "Mein Fenster geht zum Garten."
+    },
+    {
+      "word": "die Tür",
+      "translation_cz": "dveře",
+      "example": "Ich schließe die Tür nachts.",
+      "example_cz": "V noci zavírám dveře.",
+      "tts_text": "Ich schließe die Tür nachts."
+    },
+    {
+      "word": "das Durcheinander",
+      "translation_cz": "nepořádek",
+      "example": "Mein Zimmer ist heute ein Durcheinander.",
+      "example_cz": "Dnes je v mém pokoji nepořádek.",
+      "tts_text": "Mein Zimmer ist heute ein Durcheinander."
+    },
+    {
+      "word": "die Lieblingsecke",
+      "translation_cz": "oblíbený koutek",
+      "example": "Das ist meine Lieblingsecke.",
+      "example_cz": "Tohle je můj oblíbený koutek.",
+      "tts_text": "Das ist meine Lieblingsecke."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "mein Zimmer",
+      "options": [
+        "můj pokoj",
+        "kuchyně",
+        "zahrada"
+      ],
+      "correct": "můj pokoj"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich habe ein ___ an der Wand.",
+      "answer": "Poster",
+      "hint_cz": "plakát"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Spielsachen",
+          "cz": "hračky"
+        },
+        {
+          "target": "das Fenster",
+          "cz": "okno"
+        },
+        {
+          "target": "die Tür",
+          "cz": "dveře"
+        },
+        {
+          "target": "das Durcheinander",
+          "cz": "nepořádek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das ist mein Zimmer.",
+      "tts_text": "Das ist mein Zimmer."
+    }
+  ]
+}

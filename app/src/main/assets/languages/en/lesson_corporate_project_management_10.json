@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_project_management_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Closing a Project",
+  "title_cz": "Uzavření projektu",
+  "vocabulary": [
+    {
+      "word": "project closure",
+      "translation_cz": "uzavření projektu",
+      "example": "We are preparing the project closure report.",
+      "example_cz": "Připravujeme zprávu o uzavření projektu.",
+      "tts_text": "We are preparing the project closure report."
+    },
+    {
+      "word": "lessons learned",
+      "translation_cz": "získané zkušenosti",
+      "example": "Let's discuss the lessons learned.",
+      "example_cz": "Proberme získané zkušenosti.",
+      "tts_text": "Let's discuss the lessons learned."
+    },
+    {
+      "word": "handover",
+      "translation_cz": "předání",
+      "example": "The handover to operations happens next week.",
+      "example_cz": "Předání provoznímu týmu proběhne příští týden.",
+      "tts_text": "The handover to operations happens next week."
+    },
+    {
+      "word": "sign-off",
+      "translation_cz": "závěrečné schválení",
+      "example": "We need the client's sign-off.",
+      "example_cz": "Potřebujeme závěrečné schválení od klienta.",
+      "tts_text": "We need the client's sign-off."
+    },
+    {
+      "word": "archive",
+      "translation_cz": "archivovat",
+      "example": "Please archive all project documents.",
+      "example_cz": "Archivujte prosím všechny dokumenty projektu.",
+      "tts_text": "Please archive all project documents."
+    },
+    {
+      "word": "final report",
+      "translation_cz": "závěrečná zpráva",
+      "example": "The final report summarizes the whole project.",
+      "example_cz": "Závěrečná zpráva shrnuje celý projekt.",
+      "tts_text": "The final report summarizes the whole project."
+    },
+    {
+      "word": "wrap up",
+      "translation_cz": "uzavřít / dokončit",
+      "example": "Let's wrap up the remaining tasks.",
+      "example_cz": "Uzavřeme zbývající úkoly.",
+      "tts_text": "Let's wrap up the remaining tasks."
+    },
+    {
+      "word": "celebrate success",
+      "translation_cz": "oslavit úspěch",
+      "example": "We should celebrate the team's success.",
+      "example_cz": "Měli bychom oslavit úspěch týmu.",
+      "tts_text": "We should celebrate the team's success."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_project_closure",
+      "title": "Wrapping up the project",
+      "title_cz": "Uzavření projektu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "We're almost done. Let's wrap up the remaining tasks.",
+          "text_cz": "Jsme skoro hotovi. Uzavřeme zbývající úkoly."
+        },
+        {
+          "speaker": "B",
+          "text": "I'm preparing the final report and the handover documents.",
+          "text_cz": "Připravuji závěrečnou zprávu a dokumenty k předání."
+        },
+        {
+          "speaker": "A",
+          "text": "Good, we also need the client's sign-off before we archive everything.",
+          "text_cz": "Dobře, potřebujeme také závěrečné schválení od klienta, než vše zarchivujeme."
+        },
+        {
+          "speaker": "B",
+          "text": "Understood. Should we schedule a lessons learned session too?",
+          "text_cz": "Rozumím. Měli bychom naplánovat i schůzku o získaných zkušenostech?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, and then let's celebrate the team's success.",
+          "text_cz": "Ano, a pak oslavme úspěch týmu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "project closure",
+      "options": [
+        "uzavření projektu",
+        "předání",
+        "závěrečné schválení"
+      ],
+      "correct": "uzavření projektu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's discuss the ___.",
+      "answer": "lessons learned",
+      "hint_cz": "získané zkušenosti"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please ___ all project documents.",
+      "answer": "archive",
+      "hint_cz": "archivovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "final report",
+          "cz": "závěrečná zpráva"
+        },
+        {
+          "target": "wrap up",
+          "cz": "uzavřít / dokončit"
+        },
+        {
+          "target": "celebrate success",
+          "cz": "oslavit úspěch"
+        },
+        {
+          "target": "handover",
+          "cz": "předání"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We're almost done. Let's wrap up the remaining tasks.",
+      "tts_text": "We're almost done. Let's wrap up the remaining tasks."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'm preparing the final report and the handover documents.",
+      "tts_text": "I'm preparing the final report and the handover documents."
+    }
+  ]
+}

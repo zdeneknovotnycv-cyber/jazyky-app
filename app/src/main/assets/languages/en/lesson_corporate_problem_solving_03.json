@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_problem_solving_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing a missed deadline",
+  "title_cz": "Řešení nedodrženého termínu",
+  "vocabulary": [
+    {
+      "word": "behind schedule",
+      "translation_cz": "pozadu za plánem",
+      "example": "We are behind schedule on this task.",
+      "example_cz": "Jsme pozadu za plánem u tohoto úkolu.",
+      "tts_text": "We are behind schedule on this task."
+    },
+    {
+      "word": "I'm afraid",
+      "translation_cz": "obávám se",
+      "example": "I'm afraid we missed the deadline.",
+      "example_cz": "Obávám se, že jsme nestihli termín.",
+      "tts_text": "I'm afraid we missed the deadline."
+    },
+    {
+      "word": "extra time",
+      "translation_cz": "více času",
+      "example": "We need extra time to finish.",
+      "example_cz": "Potřebujeme více času na dokončení.",
+      "tts_text": "We need extra time to finish."
+    },
+    {
+      "word": "unexpected delay",
+      "translation_cz": "neočekávané zpoždění",
+      "example": "There was an unexpected delay.",
+      "example_cz": "Došlo k neočekávanému zpoždění.",
+      "tts_text": "There was an unexpected delay."
+    },
+    {
+      "word": "revised deadline",
+      "translation_cz": "upravený termín",
+      "example": "Can we agree on a revised deadline?",
+      "example_cz": "Můžeme se dohodnout na upraveném termínu?",
+      "tts_text": "Can we agree on a revised deadline?"
+    },
+    {
+      "word": "catch up",
+      "translation_cz": "dohnat",
+      "example": "We will catch up by Friday.",
+      "example_cz": "Do pátku to doženeme.",
+      "tts_text": "We will catch up by Friday."
+    },
+    {
+      "word": "apologize for the delay",
+      "translation_cz": "omluvit se za zpoždění",
+      "example": "I apologize for the delay.",
+      "example_cz": "Omlouvám se za zpoždění.",
+      "tts_text": "I apologize for the delay."
+    },
+    {
+      "word": "priority",
+      "translation_cz": "priorita",
+      "example": "This task is now our top priority.",
+      "example_cz": "Tento úkol je teď naší nejvyšší prioritou.",
+      "tts_text": "This task is now our top priority."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_03",
+      "title": "A missed deadline",
+      "title_cz": "Nedodržený termín",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm afraid we are behind schedule on the project.",
+          "text_cz": "Obávám se, že jsme s projektem pozadu za plánem."
+        },
+        {
+          "speaker": "B",
+          "text": "What happened?",
+          "text_cz": "Co se stalo?"
+        },
+        {
+          "speaker": "A",
+          "text": "There was an unexpected delay with the supplier.",
+          "text_cz": "Došlo k neočekávanému zpoždění u dodavatele."
+        },
+        {
+          "speaker": "B",
+          "text": "Can you catch up by next week?",
+          "text_cz": "Dokážete to dohnat do příštího týdne?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, but I'd like to propose a revised deadline of Friday. I apologize for the delay.",
+          "text_cz": "Ano, ale rád bych navrhl upravený termín na pátek. Omlouvám se za zpoždění."
+        },
+        {
+          "speaker": "B",
+          "text": "That's fine. This is now our top priority.",
+          "text_cz": "To je v pořádku. Tohle je teď naše nejvyšší priorita."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "behind schedule",
+      "options": [
+        "pozadu za plánem",
+        "obávám se",
+        "více času"
+      ],
+      "correct": "pozadu za plánem"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "There was an ___.",
+      "answer": "unexpected delay",
+      "hint_cz": "neočekávané zpoždění"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "behind schedule",
+          "cz": "pozadu za plánem"
+        },
+        {
+          "target": "I'm afraid",
+          "cz": "obávám se"
+        },
+        {
+          "target": "extra time",
+          "cz": "více času"
+        },
+        {
+          "target": "unexpected delay",
+          "cz": "neočekávané zpoždění"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Can we agree on a revised deadline?",
+      "tts_text": "Can we agree on a revised deadline?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We will ___ by Friday.",
+      "answer": "catch up",
+      "hint_cz": "dohnat"
+    }
+  ]
+}

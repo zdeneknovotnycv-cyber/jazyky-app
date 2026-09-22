@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_family_people_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Family Pets",
+  "title_cz": "Domácí mazlíčci",
+  "vocabulary": [
+    {
+      "word": "das Haustier",
+      "translation_cz": "domácí mazlíček",
+      "example": "Unser Haustier ist ein Hund.",
+      "example_cz": "Náš mazlíček je pes.",
+      "tts_text": "Unser Haustier ist ein Hund."
+    },
+    {
+      "word": "der Hund",
+      "translation_cz": "pes",
+      "example": "Unser Hund heißt Rex.",
+      "example_cz": "Náš pes se jmenuje Rex.",
+      "tts_text": "Unser Hund heißt Rex."
+    },
+    {
+      "word": "die Katze",
+      "translation_cz": "kočka",
+      "example": "Die Katze schläft viel.",
+      "example_cz": "Ta kočka hodně spí.",
+      "tts_text": "Die Katze schläft viel."
+    },
+    {
+      "word": "füttern",
+      "translation_cz": "krmit",
+      "example": "Ich füttere den Hund jeden Morgen.",
+      "example_cz": "Krmím psa každé ráno.",
+      "tts_text": "Ich füttere den Hund jeden Morgen."
+    },
+    {
+      "word": "mit dem Hund spazieren gehen",
+      "translation_cz": "venčit psa",
+      "example": "Wir gehen mit dem Hund im Park spazieren.",
+      "example_cz": "Venčíme psa v parku.",
+      "tts_text": "Wir gehen mit dem Hund im Park spazieren."
+    },
+    {
+      "word": "der Fisch",
+      "translation_cz": "ryba",
+      "example": "Wir haben einen Fisch im Glas.",
+      "example_cz": "Máme rybu v míse.",
+      "tts_text": "Wir haben einen Fisch im Glas."
+    },
+    {
+      "word": "lieben",
+      "translation_cz": "mít rád",
+      "example": "Ich liebe unser Haustier.",
+      "example_cz": "Mám rád našeho mazlíčka.",
+      "tts_text": "Ich liebe unser Haustier."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Haustier",
+      "options": [
+        "mazlíček",
+        "soused",
+        "dárek"
+      ],
+      "correct": "mazlíček"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ den Hund jeden Morgen.",
+      "answer": "füttere",
+      "hint_cz": "krmím"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Hund",
+          "cz": "pes"
+        },
+        {
+          "target": "die Katze",
+          "cz": "kočka"
+        },
+        {
+          "target": "der Fisch",
+          "cz": "ryba"
+        },
+        {
+          "target": "lieben",
+          "cz": "mít rád"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Unser Hund heißt Rex.",
+      "tts_text": "Unser Hund heißt Rex."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_clothes_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Summer Clothes",
+  "title_cz": "Letní oblečení",
+  "vocabulary": [
+    {
+      "word": "die Shorts",
+      "translation_cz": "kraťasy",
+      "example": "Ich trage Shorts, wenn es heiß ist.",
+      "example_cz": "Když je horko, nosím kraťasy.",
+      "tts_text": "Ich trage Shorts, wenn es heiß ist."
+    },
+    {
+      "word": "die Sandalen",
+      "translation_cz": "sandály",
+      "example": "Meine Sandalen sind bequem.",
+      "example_cz": "Mé sandály jsou pohodlné.",
+      "tts_text": "Meine Sandalen sind bequem."
+    },
+    {
+      "word": "die Sonnenbrille",
+      "translation_cz": "sluneční brýle",
+      "example": "Ich brauche am Strand eine Sonnenbrille.",
+      "example_cz": "Na pláži potřebuji sluneční brýle.",
+      "tts_text": "Ich brauche am Strand eine Sonnenbrille."
+    },
+    {
+      "word": "der Badeanzug",
+      "translation_cz": "plavky",
+      "example": "Ich nehme meinen Badeanzug mit ins Schwimmbad.",
+      "example_cz": "Beru si plavky do bazénu.",
+      "tts_text": "Ich nehme meinen Badeanzug mit ins Schwimmbad."
+    },
+    {
+      "word": "die Kappe",
+      "translation_cz": "kšiltovka",
+      "example": "Die Kappe schützt mich vor der Sonne.",
+      "example_cz": "Kšiltovka mě chrání před sluncem.",
+      "tts_text": "Die Kappe schützt mich vor der Sonne."
+    },
+    {
+      "word": "der Rock",
+      "translation_cz": "sukně",
+      "example": "Sie trägt einen leichten Rock.",
+      "example_cz": "Nosí lehkou sukni.",
+      "tts_text": "Sie trägt einen leichten Rock."
+    },
+    {
+      "word": "heiß",
+      "translation_cz": "horko",
+      "example": "Im Sommer ist es sehr heiß.",
+      "example_cz": "V létě je velké horko.",
+      "tts_text": "Im Sommer ist es sehr heiß."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Badeanzug",
+      "options": [
+        "plavky",
+        "kraťasy",
+        "sandály"
+      ],
+      "correct": "plavky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich trage ___, wenn es heiß ist.",
+      "answer": "Shorts",
+      "hint_cz": "kraťasy"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Sandalen",
+          "cz": "sandály"
+        },
+        {
+          "target": "die Sonnenbrille",
+          "cz": "sluneční brýle"
+        },
+        {
+          "target": "die Kappe",
+          "cz": "kšiltovka"
+        },
+        {
+          "target": "der Rock",
+          "cz": "sukně"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Im Sommer ist es sehr heiß.",
+      "tts_text": "Im Sommer ist es sehr heiß."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_body_health_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "At the Dentist",
+  "title_cz": "U zubaře",
+  "vocabulary": [
+    {
+      "word": "der Zahnarzt",
+      "translation_cz": "zubař",
+      "example": "Der Zahnarzt untersucht meine Zähne.",
+      "example_cz": "Zubař mi kontroluje zuby.",
+      "tts_text": "Der Zahnarzt untersucht meine Zähne."
+    },
+    {
+      "word": "der Zahn",
+      "translation_cz": "zub",
+      "example": "Dieser Zahn tut weh.",
+      "example_cz": "Bolí mě tenhle zub.",
+      "tts_text": "Dieser Zahn tut weh."
+    },
+    {
+      "word": "die Zahnbürste",
+      "translation_cz": "kartáček na zuby",
+      "example": "Ich benutze eine weiche Zahnbürste.",
+      "example_cz": "Používám měkký kartáček na zuby.",
+      "tts_text": "Ich benutze eine weiche Zahnbürste."
+    },
+    {
+      "word": "die Zahnpasta",
+      "translation_cz": "zubní pasta",
+      "example": "Ich mag Minz-Zahnpasta.",
+      "example_cz": "Mám rád mátovou zubní pastu.",
+      "tts_text": "Ich mag Minz-Zahnpasta."
+    },
+    {
+      "word": "das Loch im Zahn",
+      "translation_cz": "kaz (v zubu)",
+      "example": "Ich will kein Loch im Zahn.",
+      "example_cz": "Nechci mít v zubu kaz.",
+      "tts_text": "Ich will kein Loch im Zahn."
+    },
+    {
+      "word": "den Mund weit öffnen",
+      "translation_cz": "otevřít pusu dokořán",
+      "example": "Der Zahnarzt sagt, ich soll den Mund weit öffnen.",
+      "example_cz": "Zubař říká, ať otevřu pusu dokořán.",
+      "tts_text": "Der Zahnarzt sagt, ich soll den Mund weit öffnen."
+    },
+    {
+      "word": "mutig",
+      "translation_cz": "statečný",
+      "example": "Ich bin mutig beim Zahnarzt.",
+      "example_cz": "U zubaře jsem statečný.",
+      "tts_text": "Ich bin mutig beim Zahnarzt."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Zahnarzt",
+      "options": [
+        "zubař",
+        "doktor",
+        "kuchař"
+      ],
+      "correct": "zubař"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich benutze eine weiche ___.",
+      "answer": "Zahnbürste",
+      "hint_cz": "kartáček na zuby"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Zahn",
+          "cz": "zub"
+        },
+        {
+          "target": "die Zahnpasta",
+          "cz": "zubní pasta"
+        },
+        {
+          "target": "das Loch im Zahn",
+          "cz": "kaz (v zubu)"
+        },
+        {
+          "target": "mutig",
+          "cz": "statečný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Zahnarzt untersucht meine Zähne.",
+      "tts_text": "Der Zahnarzt untersucht meine Zähne."
+    }
+  ]
+}

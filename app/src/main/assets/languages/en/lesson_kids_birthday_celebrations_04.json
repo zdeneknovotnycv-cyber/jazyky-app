@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_birthday_celebrations_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "New Year",
+  "title_cz": "Nový rok",
+  "vocabulary": [
+    {
+      "word": "New Year",
+      "translation_cz": "Nový rok",
+      "example": "We celebrate the New Year at midnight.",
+      "example_cz": "Nový rok slavíme o půlnoci.",
+      "tts_text": "We celebrate the New Year at midnight."
+    },
+    {
+      "word": "fireworks",
+      "translation_cz": "ohňostroj",
+      "example": "We watch fireworks in the sky.",
+      "example_cz": "Díváme se na ohňostroj na obloze.",
+      "tts_text": "We watch fireworks in the sky."
+    },
+    {
+      "word": "countdown",
+      "translation_cz": "odpočítávání",
+      "example": "We do a countdown to midnight.",
+      "example_cz": "Odpočítáváme do půlnoci.",
+      "tts_text": "We do a countdown to midnight."
+    },
+    {
+      "word": "wish",
+      "translation_cz": "přání",
+      "example": "I make a wish for the new year.",
+      "example_cz": "Přeji si přání do nového roku.",
+      "tts_text": "I make a wish for the new year."
+    },
+    {
+      "word": "clock",
+      "translation_cz": "hodiny",
+      "example": "We watch the clock at midnight.",
+      "example_cz": "O půlnoci se díváme na hodiny.",
+      "tts_text": "We watch the clock at midnight."
+    },
+    {
+      "word": "toast",
+      "translation_cz": "přípitek",
+      "example": "We make a toast with juice.",
+      "example_cz": "Připíjíme si džusem.",
+      "tts_text": "We make a toast with juice."
+    },
+    {
+      "word": "confetti",
+      "translation_cz": "konfety",
+      "example": "Confetti falls on the floor.",
+      "example_cz": "Konfety padají na zem.",
+      "tts_text": "Confetti falls on the floor."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "New Year",
+      "options": [
+        "Nový rok",
+        "ohňostroj",
+        "odpočítávání"
+      ],
+      "correct": "Nový rok"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We watch ___ in the sky.",
+      "answer": "fireworks",
+      "hint_cz": "ohňostroj"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "countdown",
+          "cz": "odpočítávání"
+        },
+        {
+          "target": "wish",
+          "cz": "přání"
+        },
+        {
+          "target": "clock",
+          "cz": "hodiny"
+        },
+        {
+          "target": "toast",
+          "cz": "přípitek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Confetti falls on the floor.",
+      "tts_text": "Confetti falls on the floor."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_project_management_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Projekt abschließen",
+  "title_cz": "Uzavření projektu",
+  "vocabulary": [
+    {
+      "word": "der Projektabschluss",
+      "translation_cz": "uzavření projektu",
+      "example": "Wir bereiten den Bericht zum Projektabschluss vor.",
+      "example_cz": "Připravujeme zprávu o uzavření projektu.",
+      "tts_text": "Wir bereiten den Bericht zum Projektabschluss vor."
+    },
+    {
+      "word": "die gewonnenen Erkenntnisse",
+      "translation_cz": "získané zkušenosti",
+      "example": "Lasst uns die gewonnenen Erkenntnisse besprechen.",
+      "example_cz": "Proberme získané zkušenosti.",
+      "tts_text": "Lasst uns die gewonnenen Erkenntnisse besprechen."
+    },
+    {
+      "word": "die Übergabe",
+      "translation_cz": "předání",
+      "example": "Die Übergabe an den Betrieb erfolgt nächste Woche.",
+      "example_cz": "Předání provoznímu týmu proběhne příští týden.",
+      "tts_text": "Die Übergabe an den Betrieb erfolgt nächste Woche."
+    },
+    {
+      "word": "die Freigabe",
+      "translation_cz": "závěrečné schválení",
+      "example": "Wir brauchen die Freigabe des Kunden.",
+      "example_cz": "Potřebujeme závěrečné schválení od klienta.",
+      "tts_text": "Wir brauchen die Freigabe des Kunden."
+    },
+    {
+      "word": "archivieren",
+      "translation_cz": "archivovat",
+      "example": "Bitte archiviere alle Projektdokumente.",
+      "example_cz": "Archivujte prosím všechny dokumenty projektu.",
+      "tts_text": "Bitte archiviere alle Projektdokumente."
+    },
+    {
+      "word": "der Abschlussbericht",
+      "translation_cz": "závěrečná zpráva",
+      "example": "Der Abschlussbericht fasst das gesamte Projekt zusammen.",
+      "example_cz": "Závěrečná zpráva shrnuje celý projekt.",
+      "tts_text": "Der Abschlussbericht fasst das gesamte Projekt zusammen."
+    },
+    {
+      "word": "abschließen",
+      "translation_cz": "uzavřít / dokončit",
+      "example": "Lasst uns die restlichen Aufgaben abschließen.",
+      "example_cz": "Uzavřeme zbývající úkoly.",
+      "tts_text": "Lasst uns die restlichen Aufgaben abschließen."
+    },
+    {
+      "word": "den Erfolg feiern",
+      "translation_cz": "oslavit úspěch",
+      "example": "Wir sollten den Erfolg des Teams feiern.",
+      "example_cz": "Měli bychom oslavit úspěch týmu.",
+      "tts_text": "Wir sollten den Erfolg des Teams feiern."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_project_closure",
+      "title": "Das Projekt abschließen",
+      "title_cz": "Uzavření projektu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wir sind fast fertig. Lasst uns die restlichen Aufgaben abschließen.",
+          "text_cz": "Jsme skoro hotovi. Uzavřeme zbývající úkoly."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich bereite den Abschlussbericht und die Übergabedokumente vor.",
+          "text_cz": "Připravuji závěrečnou zprávu a dokumenty k předání."
+        },
+        {
+          "speaker": "A",
+          "text": "Gut, wir brauchen auch die Freigabe des Kunden, bevor wir alles archivieren.",
+          "text_cz": "Dobře, potřebujeme také závěrečné schválení od klienta, než vše zarchivujeme."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden. Sollen wir auch eine Sitzung zu den gewonnenen Erkenntnissen planen?",
+          "text_cz": "Rozumím. Měli bychom naplánovat i schůzku o získaných zkušenostech?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, und dann lasst uns den Erfolg des Teams feiern.",
+          "text_cz": "Ano, a pak oslavme úspěch týmu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Projektabschluss",
+      "options": [
+        "uzavření projektu",
+        "předání",
+        "závěrečné schválení"
+      ],
+      "correct": "uzavření projektu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lasst uns ___ besprechen.",
+      "answer": "die gewonnenen Erkenntnisse",
+      "hint_cz": "získané zkušenosti"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte archiviere alle Projektdokumente.",
+      "answer": "archivieren",
+      "hint_cz": "archivovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Abschlussbericht",
+          "cz": "závěrečná zpráva"
+        },
+        {
+          "target": "abschließen",
+          "cz": "uzavřít / dokončit"
+        },
+        {
+          "target": "den Erfolg feiern",
+          "cz": "oslavit úspěch"
+        },
+        {
+          "target": "die Übergabe",
+          "cz": "předání"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir sind fast fertig. Lasst uns die restlichen Aufgaben abschließen.",
+      "tts_text": "Wir sind fast fertig. Lasst uns die restlichen Aufgaben abschließen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich bereite den Abschlussbericht und die Übergabedokumente vor.",
+      "tts_text": "Ich bereite den Abschlussbericht und die Übergabedokumente vor."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_weather_seasons_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Herbst und Blätter",
+  "title_cz": "Podzim a listí",
+  "vocabulary": [
+    {
+      "word": "der Herbst",
+      "translation_cz": "podzim",
+      "example": "Der Herbst ist bunt.",
+      "example_cz": "Podzim je barevný.",
+      "tts_text": "Der Herbst ist bunt."
+    },
+    {
+      "word": "das Blatt",
+      "translation_cz": "list (ze stromu)",
+      "example": "Ein Blatt ist auf den Boden gefallen.",
+      "example_cz": "List spadl na zem.",
+      "tts_text": "Ein Blatt ist auf den Boden gefallen."
+    },
+    {
+      "word": "der Wind",
+      "translation_cz": "vítr",
+      "example": "Der Wind weht.",
+      "example_cz": "Fouká vítr.",
+      "tts_text": "Der Wind weht."
+    },
+    {
+      "word": "der Pilz",
+      "translation_cz": "houba",
+      "example": "Im Herbst sammeln wir Pilze.",
+      "example_cz": "Na podzim sbíráme houby.",
+      "tts_text": "Im Herbst sammeln wir Pilze."
+    },
+    {
+      "word": "orange",
+      "translation_cz": "oranžový",
+      "example": "Die Blätter werden orange.",
+      "example_cz": "Listy zežloutnou do oranžova.",
+      "tts_text": "Die Blätter werden orange."
+    },
+    {
+      "word": "der Regenschirm",
+      "translation_cz": "deštník",
+      "example": "Nimm einen Regenschirm mit, es könnte regnen.",
+      "example_cz": "Vezmi si deštník, mohlo by pršet.",
+      "tts_text": "Nimm einen Regenschirm mit, es könnte regnen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Blatt",
+      "options": [
+        "list (ze stromu)",
+        "vítr",
+        "houba"
+      ],
+      "correct": "list (ze stromu)"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der ___ weht.",
+      "answer": "Wind",
+      "hint_cz": "vítr"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Herbst",
+          "cz": "podzim"
+        },
+        {
+          "target": "der Pilz",
+          "cz": "houba"
+        },
+        {
+          "target": "orange",
+          "cz": "oranžový"
+        },
+        {
+          "target": "der Regenschirm",
+          "cz": "deštník"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ein Blatt ist auf den Boden gefallen.",
+      "tts_text": "Ein Blatt ist auf den Boden gefallen."
+    }
+  ]
+}

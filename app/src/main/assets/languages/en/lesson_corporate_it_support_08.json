@@ -1,0 +1,162 @@
+{
+  "id": "en_adult_corporate_it_support_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Data Backup Request",
+  "title_cz": "Žádost o zálohu dat",
+  "vocabulary": [
+    {
+      "word": "backup",
+      "translation_cz": "záloha / zálohovat",
+      "example": "Can you back up my files before the update?",
+      "example_cz": "Můžete mi zálohovat soubory před aktualizací?",
+      "tts_text": "Can you back up my files before the update?"
+    },
+    {
+      "word": "data loss",
+      "translation_cz": "ztráta dat",
+      "example": "We want to avoid any data loss during the migration.",
+      "example_cz": "Chceme se vyhnout jakékoli ztrátě dat během migrace.",
+      "tts_text": "We want to avoid any data loss during the migration."
+    },
+    {
+      "word": "cloud storage",
+      "translation_cz": "cloudové úložiště",
+      "example": "Your files are automatically saved to cloud storage.",
+      "example_cz": "Vaše soubory se automaticky ukládají do cloudového úložiště.",
+      "tts_text": "Your files are automatically saved to cloud storage."
+    },
+    {
+      "word": "restore",
+      "translation_cz": "obnovit (data)",
+      "example": "We can restore your files from last week's backup.",
+      "example_cz": "Můžeme obnovit vaše soubory ze zálohy z minulého týdne.",
+      "tts_text": "We can restore your files from last week's backup."
+    },
+    {
+      "word": "external hard drive",
+      "translation_cz": "externí pevný disk",
+      "example": "Please also save an important copy on an external hard drive.",
+      "example_cz": "Uložte prosím důležitou kopii také na externí pevný disk.",
+      "tts_text": "Please also save an important copy on an external hard drive."
+    },
+    {
+      "word": "automatic backup",
+      "translation_cz": "automatická záloha",
+      "example": "Automatic backup runs every night at midnight.",
+      "example_cz": "Automatická záloha probíhá každou noc o půlnoci.",
+      "tts_text": "Automatic backup runs every night at midnight."
+    },
+    {
+      "word": "shared drive",
+      "translation_cz": "sdílený disk",
+      "example": "Save your documents to the shared drive, not just locally.",
+      "example_cz": "Ukládejte dokumenty na sdílený disk, ne jen lokálně.",
+      "tts_text": "Save your documents to the shared drive, not just locally."
+    },
+    {
+      "word": "recovery",
+      "translation_cz": "obnova (dat)",
+      "example": "Data recovery can take up to 24 hours.",
+      "example_cz": "Obnova dat může trvat až 24 hodin.",
+      "tts_text": "Data recovery can take up to 24 hours."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_backup_request",
+      "title": "Requesting a backup before an update",
+      "title_cz": "Žádost o zálohu před aktualizací",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "We're updating the system tomorrow. Can you back up my files first?",
+          "text_cz": "Zítra aktualizujeme systém. Můžete mi nejdřív zálohovat soubory?"
+        },
+        {
+          "speaker": "B",
+          "text": "Of course, we want to avoid any data loss. I'll run a backup tonight.",
+          "text_cz": "Samozřejmě, chceme se vyhnout jakékoli ztrátě dat. Dnes večer spustím zálohu."
+        },
+        {
+          "speaker": "A",
+          "text": "Will my files also be saved to the shared drive?",
+          "text_cz": "Budou moje soubory uloženy i na sdílený disk?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, and they're saved to cloud storage as well, just to be safe.",
+          "text_cz": "Ano, a pro jistotu se uloží i do cloudového úložiště."
+        }
+      ]
+    },
+    {
+      "id": "conv_restore_files",
+      "title": "Restoring lost files",
+      "title_cz": "Obnovení ztracených souborů",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I accidentally deleted an important folder. Can it be restored?",
+          "text_cz": "Omylem jsem smazal důležitou složku. Dá se obnovit?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, we can restore it from yesterday's automatic backup.",
+          "text_cz": "Ano, můžeme ji obnovit ze včerejší automatické zálohy."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "restore",
+      "options": [
+        "obnovit",
+        "ztráta dat",
+        "sdílený disk"
+      ],
+      "correct": "obnovit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can you ___ up my files before the update?",
+      "answer": "back",
+      "hint_cz": "zálohovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "cloud storage",
+          "cz": "cloudové úložiště"
+        },
+        {
+          "target": "external hard drive",
+          "cz": "externí pevný disk"
+        },
+        {
+          "target": "automatic backup",
+          "cz": "automatická záloha"
+        },
+        {
+          "target": "recovery",
+          "cz": "obnova (dat)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We want to avoid any data loss during the migration.",
+      "tts_text": "We want to avoid any data loss during the migration."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Data ___ can take up to 24 hours.",
+      "answer": "recovery",
+      "hint_cz": "obnova"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_problem_solving_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Root cause discussion",
+  "title_cz": "Rozbor hlavní příčiny",
+  "vocabulary": [
+    {
+      "word": "root cause",
+      "translation_cz": "hlavní příčina",
+      "example": "We need to find the root cause.",
+      "example_cz": "Musíme najít hlavní příčinu.",
+      "tts_text": "We need to find the root cause."
+    },
+    {
+      "word": "get to the bottom of",
+      "translation_cz": "dostat se k jádru",
+      "example": "Let's get to the bottom of this.",
+      "example_cz": "Pojďme se dostat k jádru věci.",
+      "tts_text": "Let's get to the bottom of this."
+    },
+    {
+      "word": "contributing factor",
+      "translation_cz": "přispívající faktor",
+      "example": "Human error was a contributing factor.",
+      "example_cz": "Lidská chyba byla přispívajícím faktorem.",
+      "tts_text": "Human error was a contributing factor."
+    },
+    {
+      "word": "analyze",
+      "translation_cz": "analyzovat",
+      "example": "We should analyze the data first.",
+      "example_cz": "Nejdřív bychom měli analyzovat data.",
+      "tts_text": "We should analyze the data first."
+    },
+    {
+      "word": "recurring problem",
+      "translation_cz": "opakující se problém",
+      "example": "This is a recurring problem.",
+      "example_cz": "Tohle je opakující se problém.",
+      "tts_text": "This is a recurring problem."
+    },
+    {
+      "word": "prevent it from happening again",
+      "translation_cz": "zabránit tomu, aby se to opakovalo",
+      "example": "We must prevent it from happening again.",
+      "example_cz": "Musíme zabránit tomu, aby se to opakovalo.",
+      "tts_text": "We must prevent it from happening again."
+    },
+    {
+      "word": "trace back to",
+      "translation_cz": "vysledovat zpět k",
+      "example": "We traced the error back to a system update.",
+      "example_cz": "Vysledovali jsme chybu zpět k aktualizaci systému.",
+      "tts_text": "We traced the error back to a system update."
+    },
+    {
+      "word": "lessons learned",
+      "translation_cz": "poučení",
+      "example": "Let's document the lessons learned.",
+      "example_cz": "Zdokumentujme poučení z této situace.",
+      "tts_text": "Let's document the lessons learned."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_06",
+      "title": "Root cause discussion",
+      "title_cz": "Rozbor hlavní příčiny",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let's get to the bottom of this. What's the root cause?",
+          "text_cz": "Pojďme se dostat k jádru věci. Jaká je hlavní příčina?"
+        },
+        {
+          "speaker": "B",
+          "text": "We traced it back to a system update last week.",
+          "text_cz": "Vysledovali jsme to zpět k aktualizaci systému z minulého týdne."
+        },
+        {
+          "speaker": "A",
+          "text": "So the update was a contributing factor?",
+          "text_cz": "Takže ta aktualizace byla přispívajícím faktorem?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, and human error too. This is a recurring problem.",
+          "text_cz": "Ano, a také lidská chyba. Tohle je opakující se problém."
+        },
+        {
+          "speaker": "A",
+          "text": "Let's analyze the logs and prevent it from happening again.",
+          "text_cz": "Pojďme analyzovat logy a zabránit tomu, aby se to opakovalo."
+        },
+        {
+          "speaker": "B",
+          "text": "I'll write up the lessons learned.",
+          "text_cz": "Sepíšu poučení z této situace."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "root cause",
+      "options": [
+        "hlavní příčina",
+        "dostat se k jádru",
+        "přispívající faktor"
+      ],
+      "correct": "hlavní příčina"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We should ___ the data first.",
+      "answer": "analyze",
+      "hint_cz": "analyzovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "root cause",
+          "cz": "hlavní příčina"
+        },
+        {
+          "target": "get to the bottom of",
+          "cz": "dostat se k jádru"
+        },
+        {
+          "target": "contributing factor",
+          "cz": "přispívající faktor"
+        },
+        {
+          "target": "analyze",
+          "cz": "analyzovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "This is a recurring problem.",
+      "tts_text": "This is a recurring problem."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We must ___.",
+      "answer": "prevent it from happening again",
+      "hint_cz": "zabránit tomu, aby se to opakovalo"
+    }
+  ]
+}

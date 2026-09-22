@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_teamwork_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Celebrating a team win",
+  "title_cz": "Oslava týmového úspěchu",
+  "vocabulary": [
+    {
+      "word": "achievement",
+      "translation_cz": "úspěch",
+      "example": "This is a great achievement for all of us.",
+      "example_cz": "Tohle je pro nás všechny velký úspěch.",
+      "tts_text": "This is a great achievement for all of us."
+    },
+    {
+      "word": "Well done!",
+      "translation_cz": "Dobrá práce!",
+      "example": "Well done, everyone! We hit the target.",
+      "example_cz": "Dobrá práce, všichni! Splnili jsme cíl.",
+      "tts_text": "Well done, everyone! We hit the target."
+    },
+    {
+      "word": "proud of the team",
+      "translation_cz": "hrdý na tým",
+      "example": "I'm really proud of the team today.",
+      "example_cz": "Dnes jsem opravdu hrdý na tým.",
+      "tts_text": "I'm really proud of the team today."
+    },
+    {
+      "word": "to treat the team",
+      "translation_cz": "udělat týmu radost / pohostit tým",
+      "example": "Let's treat the team to lunch tomorrow.",
+      "example_cz": "Pojďme týmu udělat radost obědem zítra.",
+      "tts_text": "Let's treat the team to lunch tomorrow."
+    },
+    {
+      "word": "milestone",
+      "translation_cz": "milník",
+      "example": "We reached an important milestone.",
+      "example_cz": "Dosáhli jsme důležitého milníku.",
+      "tts_text": "We reached an important milestone."
+    },
+    {
+      "word": "hard work paid off",
+      "translation_cz": "tvrdá práce se vyplatila",
+      "example": "Our hard work really paid off.",
+      "example_cz": "Naše tvrdá práce se opravdu vyplatila.",
+      "tts_text": "Our hard work really paid off."
+    },
+    {
+      "word": "recognition",
+      "translation_cz": "uznání",
+      "example": "The team deserves recognition for this.",
+      "example_cz": "Tým si za tohle zaslouží uznání.",
+      "tts_text": "The team deserves recognition for this."
+    },
+    {
+      "word": "to celebrate",
+      "translation_cz": "oslavit",
+      "example": "Let's celebrate this success together.",
+      "example_cz": "Pojďme tento úspěch společně oslavit.",
+      "tts_text": "Let's celebrate this success together."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_celebrating_win",
+      "title": "Celebrating a team success",
+      "title_cz": "Oslava úspěchu týmu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Well done, everyone! We hit the target ahead of schedule.",
+          "text_cz": "Dobrá práce, všichni! Splnili jsme cíl před termínem."
+        },
+        {
+          "speaker": "B",
+          "text": "It really feels great, our hard work paid off.",
+          "text_cz": "Je to opravdu skvělý pocit, naše tvrdá práce se vyplatila."
+        },
+        {
+          "speaker": "A",
+          "text": "I'm really proud of the team. This is an important milestone for us.",
+          "text_cz": "Jsem opravdu hrdý na tým. Je to pro nás důležitý milník."
+        },
+        {
+          "speaker": "B",
+          "text": "Should we celebrate? Maybe treat the team to lunch tomorrow?",
+          "text_cz": "Měli bychom to oslavit? Třeba zítra udělat týmu radost obědem?"
+        },
+        {
+          "speaker": "A",
+          "text": "Great idea, the whole team deserves recognition.",
+          "text_cz": "Skvělý nápad, celý tým si zaslouží uznání."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "milestone",
+      "options": [
+        "milník",
+        "uznání",
+        "úspěch"
+      ],
+      "correct": "milník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Well done, everyone! We hit the ___.",
+      "answer": "target",
+      "hint_cz": "cíl"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "achievement",
+          "cz": "úspěch"
+        },
+        {
+          "target": "recognition",
+          "cz": "uznání"
+        },
+        {
+          "target": "to celebrate",
+          "cz": "oslavit"
+        },
+        {
+          "target": "proud of the team",
+          "cz": "hrdý na tým"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'm really proud of the team today.",
+      "tts_text": "I'm really proud of the team today."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Our hard work really ___ off.",
+      "answer": "paid",
+      "hint_cz": "vyplatila"
+    }
+  ]
+}

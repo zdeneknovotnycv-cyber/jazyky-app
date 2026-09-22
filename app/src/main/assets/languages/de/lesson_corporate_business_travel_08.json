@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_business_travel_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Kommunikation bei Flugverspätung",
+  "title_cz": "Komunikace při zpoždění letu",
+  "vocabulary": [
+    {
+      "word": "der verspätete Flug",
+      "translation_cz": "zpožděný let",
+      "example": "Unser Flug hat sich um zwei Stunden verspätet.",
+      "example_cz": "Náš let byl zpožděn o dvě hodiny.",
+      "tts_text": "Unser Flug hat sich um zwei Stunden verspätet."
+    },
+    {
+      "word": "Ich fürchte, ich komme zu spät",
+      "translation_cz": "Obávám se, že přijdu pozdě",
+      "example": "Ich fürchte, ich komme zu spät zum Meeting.",
+      "example_cz": "Obávám se, že přijdu na schůzku pozdě.",
+      "tts_text": "Ich fürchte, ich komme zu spät zum Meeting."
+    },
+    {
+      "word": "das Meeting verschieben",
+      "translation_cz": "přeložit schůzku",
+      "example": "Könnten wir das Meeting nach hinten verschieben?",
+      "example_cz": "Mohli bychom přeložit schůzku na později?",
+      "tts_text": "Könnten wir das Meeting nach hinten verschieben?"
+    },
+    {
+      "word": "Sie auf dem Laufenden halten",
+      "translation_cz": "informovat vás o novinkách",
+      "example": "Ich werde Sie über die Lage auf dem Laufenden halten.",
+      "example_cz": "Budu vás o situaci informovat.",
+      "tts_text": "Ich werde Sie über die Lage auf dem Laufenden halten."
+    },
+    {
+      "word": "verpasster Anschluss",
+      "translation_cz": "zmeškaný přípoj",
+      "example": "Ich habe jetzt vielleicht einen verpassten Anschluss.",
+      "example_cz": "Teď mi možná ujel přípoj.",
+      "tts_text": "Ich habe jetzt vielleicht einen verpassten Anschluss."
+    },
+    {
+      "word": "der Ersatzflug",
+      "translation_cz": "náhradní let",
+      "example": "Die Airline hat einen Ersatzflug angeboten.",
+      "example_cz": "Aviolinky nabídly náhradní let.",
+      "tts_text": "Die Airline hat einen Ersatzflug angeboten."
+    },
+    {
+      "word": "sich für die Unannehmlichkeiten entschuldigen",
+      "translation_cz": "omluvit se za nepříjemnosti",
+      "example": "Ich entschuldige mich für die Unannehmlichkeiten.",
+      "example_cz": "Omlouvám se za způsobené nepříjemnosti.",
+      "tts_text": "Ich entschuldige mich für die Unannehmlichkeiten."
+    },
+    {
+      "word": "die voraussichtliche Ankunft",
+      "translation_cz": "předpokládaný přílet",
+      "example": "Die voraussichtliche Ankunft ist jetzt 21 Uhr.",
+      "example_cz": "Předpokládaný přílet je teď v 21 hodin.",
+      "tts_text": "Die voraussichtliche Ankunft ist jetzt 21 Uhr."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_flugverspaetung",
+      "title": "Über eine Flugverspätung kommunizieren",
+      "title_cz": "Komunikace o zpoždění letu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hallo, ich rufe an, weil sich unser Flug um zwei Stunden verspätet hat.",
+          "text_cz": "Dobrý den, volám, protože náš let byl zpožděn o dvě hodiny."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke für die Info. Sollen wir das Meeting verschieben?",
+          "text_cz": "Díky za informaci. Máme přeložit schůzku?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, bitte. Ich fürchte, ich komme zu spät. Die voraussichtliche Ankunft ist jetzt 21 Uhr.",
+          "text_cz": "Ano, prosím. Obávám se, že přijdu pozdě. Předpokládaný přílet je teď v 21 hodin."
+        },
+        {
+          "speaker": "B",
+          "text": "Kein Problem, ich verstehe. Ich warte auf Ihre Nachricht.",
+          "text_cz": "Žádný problém, chápu. Počkám na tvou zprávu."
+        },
+        {
+          "speaker": "A",
+          "text": "Danke, ich halte Sie auf dem Laufenden.",
+          "text_cz": "Děkuji, budu tě informovat."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der verspätete Flug",
+      "options": [
+        "zpožděný let",
+        "náhradní let",
+        "zmeškaný přípoj"
+      ],
+      "correct": "zpožděný let"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Könnten wir das Meeting ___?",
+      "answer": "verschieben",
+      "hint_cz": "přeložit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich halte Sie auf dem ___.",
+      "answer": "Laufenden",
+      "hint_cz": "informovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "verpasster Anschluss",
+          "cz": "zmeškaný přípoj"
+        },
+        {
+          "target": "der Ersatzflug",
+          "cz": "náhradní let"
+        },
+        {
+          "target": "die voraussichtliche Ankunft",
+          "cz": "předpokládaný přílet"
+        },
+        {
+          "target": "sich für die Unannehmlichkeiten entschuldigen",
+          "cz": "omluvit se za nepříjemnosti"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Unser Flug hat sich um zwei Stunden verspätet.",
+      "tts_text": "Unser Flug hat sich um zwei Stunden verspätet."
+    }
+  ]
+}

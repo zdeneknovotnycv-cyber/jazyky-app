@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_business_travel_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Etikette beim Geschäftsessen",
+  "title_cz": "Etiketa pracovní večeře",
+  "vocabulary": [
+    {
+      "word": "Sollen wir bestellen?",
+      "translation_cz": "Objednáme si?",
+      "example": "Sollen wir zuerst ein paar Vorspeisen bestellen?",
+      "example_cz": "Objednáme si nejdřív nějaké předkrmy?",
+      "tts_text": "Sollen wir zuerst ein paar Vorspeisen bestellen?"
+    },
+    {
+      "word": "Bitte, nach Ihnen",
+      "translation_cz": "Prosím, po vás",
+      "example": "Bitte, nach Ihnen.",
+      "example_cz": "Prosím, po vás.",
+      "tts_text": "Bitte, nach Ihnen."
+    },
+    {
+      "word": "einen Trinkspruch aussprechen",
+      "translation_cz": "pronést přípitek",
+      "example": "Lassen Sie uns auf eine erfolgreiche Partnerschaft anstoßen.",
+      "example_cz": "Pronesme přípitek na úspěšné partnerství.",
+      "tts_text": "Lassen Sie uns auf eine erfolgreiche Partnerschaft anstoßen."
+    },
+    {
+      "word": "Das geht auf mich",
+      "translation_cz": "Já to platím",
+      "example": "Das geht heute Abend auf mich.",
+      "example_cz": "Dnes večer to platím já.",
+      "tts_text": "Das geht heute Abend auf mich."
+    },
+    {
+      "word": "Würden Sie etwas empfehlen?",
+      "translation_cz": "Doporučil byste něco?",
+      "example": "Würden Sie etwas Landestypisches empfehlen?",
+      "example_cz": "Doporučil byste něco místního?",
+      "tts_text": "Würden Sie etwas Landestypisches empfehlen?"
+    },
+    {
+      "word": "Ernährungseinschränkungen",
+      "translation_cz": "dietní omezení",
+      "example": "Haben Sie irgendwelche Ernährungseinschränkungen?",
+      "example_cz": "Máte nějaká dietní omezení?",
+      "tts_text": "Haben Sie irgendwelche Ernährungseinschränkungen?"
+    },
+    {
+      "word": "Es war mir eine Freude, mit Ihnen zu essen",
+      "translation_cz": "Bylo mi potěšením s vámi povečeřet",
+      "example": "Es war mir eine Freude, heute Abend mit Ihnen zu essen.",
+      "example_cz": "Dnes večer bylo mi potěšením s vámi povečeřet.",
+      "tts_text": "Es war mir eine Freude, heute Abend mit Ihnen zu essen."
+    },
+    {
+      "word": "das Gespräch professionell halten",
+      "translation_cz": "udržet konverzaci profesionální",
+      "example": "Es ist am besten, das Gespräch professionell zu halten.",
+      "example_cz": "Nejlepší je udržet konverzaci profesionální.",
+      "tts_text": "Es ist am besten, das Gespräch professionell zu halten."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_geschaeftsessen",
+      "title": "Beim Geschäftsessen",
+      "title_cz": "Na pracovní večeři",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Sollen wir zuerst ein paar Vorspeisen bestellen?",
+          "text_cz": "Objednáme si nejdřív nějaké předkrmy?"
+        },
+        {
+          "speaker": "B",
+          "text": "Gerne. Würden Sie etwas Landestypisches empfehlen?",
+          "text_cz": "Jistě. Doporučil byste něco místního?"
+        },
+        {
+          "speaker": "A",
+          "text": "Auf jeden Fall. Haben Sie irgendwelche Ernährungseinschränkungen?",
+          "text_cz": "Rozhodně. Máte nějaká dietní omezení?"
+        },
+        {
+          "speaker": "B",
+          "text": "Nein, gar keine. Das geht übrigens heute Abend auf mich.",
+          "text_cz": "Ne, žádná. Mimochodem, dnes večer to platím já."
+        },
+        {
+          "speaker": "A",
+          "text": "Danke. Lassen Sie uns auf eine erfolgreiche Partnerschaft anstoßen.",
+          "text_cz": "Děkuji. Pronesme přípitek na úspěšné partnerství."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "einen Trinkspruch aussprechen",
+      "options": [
+        "pronést přípitek",
+        "dietní omezení",
+        "objednat si"
+      ],
+      "correct": "pronést přípitek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Würden Sie etwas ___ empfehlen?",
+      "answer": "Landestypisches",
+      "hint_cz": "místního"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Haben Sie irgendwelche ___?",
+      "answer": "Ernährungseinschränkungen",
+      "hint_cz": "dietní omezení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Das geht auf mich",
+          "cz": "Já to platím"
+        },
+        {
+          "target": "Bitte, nach Ihnen",
+          "cz": "Prosím, po vás"
+        },
+        {
+          "target": "das Gespräch professionell halten",
+          "cz": "udržet konverzaci profesionální"
+        },
+        {
+          "target": "Es war mir eine Freude, mit Ihnen zu essen",
+          "cz": "Bylo mi potěšením s vámi povečeřet"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sollen wir zuerst ein paar Vorspeisen bestellen?",
+      "tts_text": "Sollen wir zuerst ein paar Vorspeisen bestellen?"
+    }
+  ]
+}

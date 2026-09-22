@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_business_travel_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Kunden im Ausland treffen",
+  "title_cz": "Schůzka s klientem v zahraničí",
+  "vocabulary": [
+    {
+      "word": "Willkommen in unserem Büro",
+      "translation_cz": "Vítejte v naší kanceláři",
+      "example": "Willkommen in unserem Büro, wir freuen uns, dass Sie gekommen sind.",
+      "example_cz": "Vítejte v naší kanceláři, jsme rádi, že jste přijeli.",
+      "tts_text": "Willkommen in unserem Büro, wir freuen uns, dass Sie gekommen sind."
+    },
+    {
+      "word": "Wie war Ihre Reise?",
+      "translation_cz": "Jaká byla vaše cesta?",
+      "example": "Wie war Ihre Reise hierher?",
+      "example_cz": "Jaká byla vaše cesta sem?",
+      "tts_text": "Wie war Ihre Reise hierher?"
+    },
+    {
+      "word": "zum Geschäft kommen",
+      "translation_cz": "přejít k věci",
+      "example": "Sollen wir zum Geschäft kommen?",
+      "example_cz": "Přejdeme k věci?",
+      "tts_text": "Sollen wir zum Geschäft kommen?"
+    },
+    {
+      "word": "den Vertrag unterschreiben",
+      "translation_cz": "podepsat smlouvu",
+      "example": "Wir sind bereit, den Vertrag zu unterschreiben.",
+      "example_cz": "Jsme připraveni podepsat smlouvu.",
+      "tts_text": "Wir sind bereit, den Vertrag zu unterschreiben."
+    },
+    {
+      "word": "der lokale Partner",
+      "translation_cz": "místní partner",
+      "example": "Unser lokaler Partner wird sich uns gleich anschließen.",
+      "example_cz": "Náš místní partner se k nám za chvíli připojí.",
+      "tts_text": "Unser lokaler Partner wird sich uns gleich anschließen."
+    },
+    {
+      "word": "kulturelle Unterschiede",
+      "translation_cz": "kulturní rozdíly",
+      "example": "Es ist wichtig, kulturelle Unterschiede zu respektieren.",
+      "example_cz": "Je důležité respektovat kulturní rozdíly.",
+      "tts_text": "Es ist wichtig, kulturelle Unterschiede zu respektieren."
+    },
+    {
+      "word": "der Dolmetscher",
+      "translation_cz": "tlumočník",
+      "example": "Wir haben einen Dolmetscher für das Treffen organisiert.",
+      "example_cz": "Zajistili jsme na schůzku tlumočníka.",
+      "tts_text": "Wir haben einen Dolmetscher für das Treffen organisiert."
+    },
+    {
+      "word": "das Folgetreffen",
+      "translation_cz": "navazující schůzka",
+      "example": "Lassen Sie uns ein Folgetreffen für nächsten Monat planen.",
+      "example_cz": "Naplánujme navazující schůzku příští měsíc.",
+      "tts_text": "Lassen Sie uns ein Folgetreffen für nächsten Monat planen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_kunde_ausland",
+      "title": "Einen Kunden im Ausland treffen",
+      "title_cz": "Schůzka s klientem v zahraničí",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Willkommen in unserem Büro. Wie war Ihre Reise?",
+          "text_cz": "Vítejte v naší kanceláři. Jaká byla vaše cesta?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sie war angenehm, danke. Sollen wir zum Geschäft kommen?",
+          "text_cz": "Byla klidná, děkuji. Přejdeme k věci?"
+        },
+        {
+          "speaker": "A",
+          "text": "Natürlich. Unser lokaler Partner wird sich uns gleich anschließen.",
+          "text_cz": "Samozřejmě. Náš místní partner se k nám za chvíli připojí."
+        },
+        {
+          "speaker": "B",
+          "text": "Gut. Ich hoffe, wir können den Vertrag heute unterschreiben.",
+          "text_cz": "Dobře. Doufám, že dnes podepíšeme smlouvu."
+        },
+        {
+          "speaker": "A",
+          "text": "Lassen Sie uns auch ein Folgetreffen für nächsten Monat planen.",
+          "text_cz": "Naplánujme také navazující schůzku na příští měsíc."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "den Vertrag unterschreiben",
+      "options": [
+        "podepsat smlouvu",
+        "místní partner",
+        "tlumočník"
+      ],
+      "correct": "podepsat smlouvu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wie war Ihre ___ hierher?",
+      "answer": "Reise",
+      "hint_cz": "cesta"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Sollen wir zum ___ kommen?",
+      "answer": "Geschäft",
+      "hint_cz": "věci"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der lokale Partner",
+          "cz": "místní partner"
+        },
+        {
+          "target": "kulturelle Unterschiede",
+          "cz": "kulturní rozdíly"
+        },
+        {
+          "target": "der Dolmetscher",
+          "cz": "tlumočník"
+        },
+        {
+          "target": "das Folgetreffen",
+          "cz": "navazující schůzka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Willkommen in unserem Büro.",
+      "tts_text": "Willkommen in unserem Büro."
+    }
+  ]
+}

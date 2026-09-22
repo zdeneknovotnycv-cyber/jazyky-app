@@ -1,0 +1,138 @@
+{
+  "id": "en_adult_corporate_phone_video_calls_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Joining a video call",
+  "title_cz": "Připojení k videohovoru",
+  "vocabulary": [
+    {
+      "word": "join the meeting",
+      "translation_cz": "připojit se ke schůzce",
+      "example": "Please join the meeting using this link.",
+      "example_cz": "Připojte se prosím ke schůzce pomocí tohoto odkazu.",
+      "tts_text": "Please join the meeting using this link."
+    },
+    {
+      "word": "Can everyone see my screen?",
+      "translation_cz": "Vidí všichni moji obrazovku?",
+      "example": "Can everyone see my screen now?",
+      "example_cz": "Vidí teď všichni moji obrazovku?",
+      "tts_text": "Can everyone see my screen now?"
+    },
+    {
+      "word": "turn on the camera",
+      "translation_cz": "zapnout kameru",
+      "example": "Could you turn on your camera, please?",
+      "example_cz": "Mohl byste prosím zapnout kameru?",
+      "tts_text": "Could you turn on your camera, please?"
+    },
+    {
+      "word": "mute yourself",
+      "translation_cz": "ztlumit si mikrofon",
+      "example": "Please mute yourself when you're not speaking.",
+      "example_cz": "Ztlumte si prosím mikrofon, když nemluvíte.",
+      "tts_text": "Please mute yourself when you're not speaking."
+    },
+    {
+      "word": "let's get started",
+      "translation_cz": "začněme",
+      "example": "Everyone is here, so let's get started.",
+      "example_cz": "Všichni jsou tu, tak začněme.",
+      "tts_text": "Everyone is here, so let's get started."
+    },
+    {
+      "word": "waiting room",
+      "translation_cz": "čekárna (v aplikaci)",
+      "example": "You are in the waiting room, please hold on.",
+      "example_cz": "Jste v čekárně, prosím vydržte.",
+      "tts_text": "You are in the waiting room, please hold on."
+    },
+    {
+      "word": "share the screen",
+      "translation_cz": "sdílet obrazovku",
+      "example": "I'll share my screen to show you the presentation.",
+      "example_cz": "Sdílím obrazovku, abych vám ukázala prezentaci.",
+      "tts_text": "I'll share my screen to show you the presentation."
+    },
+    {
+      "word": "sorry, I'm a bit late",
+      "translation_cz": "promiňte, jdu trochu pozdě",
+      "example": "Sorry, I'm a bit late, I had another call.",
+      "example_cz": "Promiňte, jdu trochu pozdě, měla jsem jiný hovor.",
+      "tts_text": "Sorry, I'm a bit late, I had another call."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_joining_video_call",
+      "title": "Joining a video meeting",
+      "title_cz": "Připojení k videokonferenci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi everyone, sorry I'm a bit late, I had another call.",
+          "text_cz": "Dobrý den všem, promiňte, jdu trochu pozdě, měla jsem jiný hovor."
+        },
+        {
+          "speaker": "B",
+          "text": "No problem. Can everyone see my screen now?",
+          "text_cz": "Žádný problém. Vidí teď všichni moji obrazovku?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, I can see it. Could you turn on your camera as well?",
+          "text_cz": "Ano, vidím. Mohl byste prosím také zapnout kameru?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, one moment. Okay, everyone is here, so let's get started.",
+          "text_cz": "Jistě, moment. Dobře, všichni jsou tu, tak začněme."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Can everyone see my screen?",
+      "options": [
+        "Vidí všichni moji obrazovku?",
+        "Ztlumte si mikrofon.",
+        "Připojte se ke schůzce."
+      ],
+      "correct": "Vidí všichni moji obrazovku?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please mute ___ when you're not speaking.",
+      "answer": "yourself",
+      "hint_cz": "se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "share the screen", "cz": "sdílet obrazovku" },
+        { "target": "waiting room", "cz": "čekárna" },
+        { "target": "turn on the camera", "cz": "zapnout kameru" },
+        { "target": "join the meeting", "cz": "připojit se ke schůzce" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Everyone is here, so let's get started.",
+      "tts_text": "Everyone is here, so let's get started."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Sorry, I'm a bit ___, I had another call.",
+      "answer": "late",
+      "hint_cz": "pozdě"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'll share my screen to show you the presentation.",
+      "tts_text": "I'll share my screen to show you the presentation."
+    }
+  ]
+}

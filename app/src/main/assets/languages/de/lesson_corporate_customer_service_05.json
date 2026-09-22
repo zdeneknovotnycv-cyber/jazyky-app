@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_customer_service_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Lösung anbieten",
+  "title_cz": "Nabídnutí řešení",
+  "vocabulary": [
+    {
+      "word": "Das kann ich Ihnen anbieten",
+      "translation_cz": "Toto vám mohu nabídnout",
+      "example": "Das kann ich Ihnen als Lösung anbieten.",
+      "example_cz": "Toto vám mohu nabídnout jako řešení.",
+      "tts_text": "Das kann ich Ihnen als Lösung anbieten."
+    },
+    {
+      "word": "volle Rückerstattung",
+      "translation_cz": "plná vrácená částka",
+      "example": "Wir können Ihnen eine volle Rückerstattung geben.",
+      "example_cz": "Můžeme vám vrátit celou částku.",
+      "tts_text": "Wir können Ihnen eine volle Rückerstattung geben."
+    },
+    {
+      "word": "Ersatz",
+      "translation_cz": "náhrada, výměna",
+      "example": "Möchten Sie stattdessen einen Ersatz?",
+      "example_cz": "Chtěl byste raději náhradu?",
+      "tts_text": "Möchten Sie stattdessen einen Ersatz?"
+    },
+    {
+      "word": "Gutschein",
+      "translation_cz": "kredit do obchodu",
+      "example": "Wir können auch einen Gutschein anbieten.",
+      "example_cz": "Můžeme vám také nabídnout kredit do obchodu.",
+      "tts_text": "Wir können auch einen Gutschein anbieten."
+    },
+    {
+      "word": "kostenlos",
+      "translation_cz": "zdarma",
+      "example": "Wir reparieren es kostenlos.",
+      "example_cz": "Opravíme to zdarma.",
+      "tts_text": "Wir reparieren es kostenlos."
+    },
+    {
+      "word": "Würde Ihnen das passen?",
+      "translation_cz": "Vyhovovalo by vám to?",
+      "example": "Würde Ihnen das passen?",
+      "example_cz": "Vyhovovalo by vám to?",
+      "tts_text": "Würde Ihnen das passen?"
+    },
+    {
+      "word": "alternative Möglichkeit",
+      "translation_cz": "alternativní možnost",
+      "example": "Lassen Sie mich eine alternative Möglichkeit vorschlagen.",
+      "example_cz": "Dovolte mi navrhnout alternativní možnost.",
+      "tts_text": "Lassen Sie mich eine alternative Möglichkeit vorschlagen."
+    },
+    {
+      "word": "Upgrade",
+      "translation_cz": "vylepšení, upgrade",
+      "example": "Wir können Ihnen ein kostenloses Upgrade anbieten.",
+      "example_cz": "Můžeme vám nabídnout bezplatný upgrade.",
+      "tts_text": "Wir können Ihnen ein kostenloses Upgrade anbieten."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_05",
+      "title": "Lösungen für ein defektes Produkt anbieten",
+      "title_cz": "Nabídnutí řešení pro vadný produkt",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Das kann ich Ihnen anbieten: eine volle Rückerstattung oder einen Ersatz.",
+          "text_cz": "Toto vám mohu nabídnout: plnou vrácenou částku nebo náhradu."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich hätte lieber einen Ersatz, wenn das möglich ist.",
+          "text_cz": "Raději bych volil náhradu, pokud je to možné."
+        },
+        {
+          "speaker": "A",
+          "text": "Natürlich, und wir schicken ihn kostenlos mit Expressversand.",
+          "text_cz": "Samozřejmě, a pošleme ho zdarma s expresním doručením."
+        },
+        {
+          "speaker": "B",
+          "text": "Das klingt super, danke.",
+          "text_cz": "To zní skvěle, děkuji."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "volle Rückerstattung",
+      "options": [
+        "plná vrácená částka",
+        "kredit do obchodu",
+        "zdarma"
+      ],
+      "correct": "plná vrácená částka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Würde Ihnen das ___?",
+      "answer": "passen",
+      "hint_cz": "vyhovovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Ersatz",
+          "cz": "náhrada, výměna"
+        },
+        {
+          "target": "Gutschein",
+          "cz": "kredit do obchodu"
+        },
+        {
+          "target": "kostenlos",
+          "cz": "zdarma"
+        },
+        {
+          "target": "alternative Möglichkeit",
+          "cz": "alternativní možnost"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das kann ich Ihnen als Lösung anbieten.",
+      "tts_text": "Das kann ich Ihnen als Lösung anbieten."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir können auch einen ___ anbieten.",
+      "answer": "Gutschein",
+      "hint_cz": "kredit"
+    }
+  ]
+}

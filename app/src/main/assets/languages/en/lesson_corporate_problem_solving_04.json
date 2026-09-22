@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_problem_solving_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Handling a conflict with a colleague",
+  "title_cz": "Řešení konfliktu s kolegou",
+  "vocabulary": [
+    {
+      "word": "misunderstanding",
+      "translation_cz": "nedorozumění",
+      "example": "I think this is just a misunderstanding.",
+      "example_cz": "Myslím, že je to jen nedorozumění.",
+      "tts_text": "I think this is just a misunderstanding."
+    },
+    {
+      "word": "see it differently",
+      "translation_cz": "vidět to jinak",
+      "example": "I see it differently than you.",
+      "example_cz": "Vidím to jinak než ty.",
+      "tts_text": "I see it differently than you."
+    },
+    {
+      "word": "let's talk it through",
+      "translation_cz": "pojďme to probrat",
+      "example": "Let's talk it through calmly.",
+      "example_cz": "Pojďme to v klidu probrat.",
+      "tts_text": "Let's talk it through calmly."
+    },
+    {
+      "word": "I understand your point",
+      "translation_cz": "chápu váš názor",
+      "example": "I understand your point, but I disagree.",
+      "example_cz": "Chápu váš názor, ale nesouhlasím.",
+      "tts_text": "I understand your point, but I disagree."
+    },
+    {
+      "word": "find common ground",
+      "translation_cz": "najít společnou řeč",
+      "example": "Let's find common ground.",
+      "example_cz": "Pojďme najít společnou řeč.",
+      "tts_text": "Let's find common ground."
+    },
+    {
+      "word": "no hard feelings",
+      "translation_cz": "bez zášti",
+      "example": "No hard feelings, okay?",
+      "example_cz": "Bez zášti, ano?",
+      "tts_text": "No hard feelings, okay?"
+    },
+    {
+      "word": "compromise",
+      "translation_cz": "kompromis",
+      "example": "Can we reach a compromise?",
+      "example_cz": "Můžeme najít kompromis?",
+      "tts_text": "Can we reach a compromise?"
+    },
+    {
+      "word": "move forward",
+      "translation_cz": "posunout se dál",
+      "example": "Let's move forward together.",
+      "example_cz": "Pojďme se posunout dál společně.",
+      "tts_text": "Let's move forward together."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_04",
+      "title": "A conflict with a colleague",
+      "title_cz": "Konflikt s kolegou",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I feel we see this differently, and I'd like to talk it through.",
+          "text_cz": "Mám pocit, že to vidíme jinak, a rád bych to probral."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. I understand your point, but I had a different plan.",
+          "text_cz": "Jasně. Chápu tvůj názor, ale měl jsem jiný plán."
+        },
+        {
+          "speaker": "A",
+          "text": "Maybe this is just a misunderstanding. Can we find common ground?",
+          "text_cz": "Možná je to jen nedorozumění. Můžeme najít společnou řeč?"
+        },
+        {
+          "speaker": "B",
+          "text": "Let's try a compromise. No hard feelings.",
+          "text_cz": "Zkusme kompromis. Bez zášti."
+        },
+        {
+          "speaker": "A",
+          "text": "Agreed. Let's move forward together.",
+          "text_cz": "Souhlasím. Pojďme se posunout dál společně."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "misunderstanding",
+      "options": [
+        "nedorozumění",
+        "vidět to jinak",
+        "pojďme to probrat"
+      ],
+      "correct": "nedorozumění"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "___, but I disagree.",
+      "answer": "I understand your point",
+      "hint_cz": "chápu váš názor"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "misunderstanding",
+          "cz": "nedorozumění"
+        },
+        {
+          "target": "see it differently",
+          "cz": "vidět to jinak"
+        },
+        {
+          "target": "let's talk it through",
+          "cz": "pojďme to probrat"
+        },
+        {
+          "target": "I understand your point",
+          "cz": "chápu váš názor"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's find common ground.",
+      "tts_text": "Let's find common ground."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "No hard feelings, ___",
+      "answer": "okay",
+      "hint_cz": "bez zášti"
+    }
+  ]
+}

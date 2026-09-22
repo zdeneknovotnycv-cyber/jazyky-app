@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_teamwork_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Meinungsverschiedenheit im Team lösen",
+  "title_cz": "Řešení neshody v týmu",
+  "vocabulary": [
+    {
+      "word": "die Meinungsverschiedenheit",
+      "translation_cz": "neshoda",
+      "example": "Wir hatten eine kleine Meinungsverschiedenheit über den Plan.",
+      "example_cz": "Měli jsme malou neshodu ohledně plánu.",
+      "tts_text": "Wir hatten eine kleine Meinungsverschiedenheit über den Plan."
+    },
+    {
+      "word": "einer Meinung sein",
+      "translation_cz": "shodnout se",
+      "example": "Wir sind hierbei nicht immer einer Meinung.",
+      "example_cz": "V tomhle se vždycky neshodneme.",
+      "tts_text": "Wir sind hierbei nicht immer einer Meinung."
+    },
+    {
+      "word": "der Kompromiss",
+      "translation_cz": "kompromis",
+      "example": "Lass uns einen Kompromiss finden, der für beide passt.",
+      "example_cz": "Pojďme najít kompromis, který vyhovuje oběma.",
+      "tts_text": "Lass uns einen Kompromiss finden, der für beide passt."
+    },
+    {
+      "word": "das Missverständnis",
+      "translation_cz": "nedorozumění",
+      "example": "Ich denke, das war nur ein Missverständnis.",
+      "example_cz": "Myslím, že to bylo jen nedorozumění.",
+      "tts_text": "Ich denke, das war nur ein Missverständnis."
+    },
+    {
+      "word": "sich beruhigen",
+      "translation_cz": "uklidnit se",
+      "example": "Lass uns uns beruhigen und darüber sprechen.",
+      "example_cz": "Uklidněme se a probereme to.",
+      "tts_text": "Lass uns uns beruhigen und darüber sprechen."
+    },
+    {
+      "word": "eine gemeinsame Basis finden",
+      "translation_cz": "najít společnou řeč",
+      "example": "Wir haben es geschafft, eine gemeinsame Basis zu finden.",
+      "example_cz": "Podařilo se nám najít společnou řeč.",
+      "tts_text": "Wir haben es geschafft, eine gemeinsame Basis zu finden."
+    },
+    {
+      "word": "sich entschuldigen",
+      "translation_cz": "omluvit se",
+      "example": "Ich möchte mich für meinen Ton vorhin entschuldigen.",
+      "example_cz": "Chci se omluvit za svůj tón dříve.",
+      "tts_text": "Ich möchte mich für meinen Ton vorhin entschuldigen."
+    },
+    {
+      "word": "weitermachen / vorankommen",
+      "translation_cz": "posunout se dál",
+      "example": "Lass uns weitermachen und das Projekt fertigstellen.",
+      "example_cz": "Pojďme se posunout dál a dokončit projekt.",
+      "tts_text": "Lass uns weitermachen und das Projekt fertigstellen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_resolving_disagreement",
+      "title": "Eine Meinungsverschiedenheit im Team lösen",
+      "title_cz": "Řešení neshody v týmu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich glaube, wir hatten vorhin ein Missverständnis. Lass uns uns beruhigen und darüber sprechen.",
+          "text_cz": "Myslím, že jsme si dřív nerozuměli. Uklidněme se a probereme to."
+        },
+        {
+          "speaker": "B",
+          "text": "Du hast recht, wir sind nicht immer einer Meinung, aber ich möchte das klären.",
+          "text_cz": "Máš pravdu, ne vždy se shodneme, ale chtěl bych to napravit."
+        },
+        {
+          "speaker": "A",
+          "text": "Ich möchte mich für meinen Ton vorhin entschuldigen. Können wir einen Kompromiss finden?",
+          "text_cz": "Chci se omluvit za svůj tón dříve. Můžeme najít kompromis?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, lass uns eine gemeinsame Basis finden und zusammen weitermachen.",
+          "text_cz": "Ano, pojďme najít společnou řeč a posunout se spolu dál."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Kompromiss",
+      "options": [
+        "kompromis",
+        "neshoda",
+        "nedorozumění"
+      ],
+      "correct": "kompromis"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lass uns einen ___ finden, der für beide passt.",
+      "answer": "Kompromiss",
+      "hint_cz": "kompromis"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Meinungsverschiedenheit",
+          "cz": "neshoda"
+        },
+        {
+          "target": "das Missverständnis",
+          "cz": "nedorozumění"
+        },
+        {
+          "target": "sich entschuldigen",
+          "cz": "omluvit se"
+        },
+        {
+          "target": "weitermachen",
+          "cz": "posunout se dál"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lass uns eine gemeinsame Basis finden.",
+      "tts_text": "Lass uns eine gemeinsame Basis finden."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir sind hierbei nicht immer einer ___.",
+      "answer": "Meinung",
+      "hint_cz": "shodneme se"
+    }
+  ]
+}

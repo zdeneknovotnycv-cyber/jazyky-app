@@ -1,0 +1,162 @@
+{
+  "id": "de_adult_corporate_it_support_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Software installieren lassen",
+  "title_cz": "Žádost o instalaci softwaru",
+  "vocabulary": [
+    {
+      "word": "installieren",
+      "translation_cz": "nainstalovat",
+      "example": "Könnten Sie dieses Programm auf meinem Computer installieren?",
+      "example_cz": "Mohli byste mi nainstalovat tento program do počítače?",
+      "tts_text": "Könnten Sie dieses Programm auf meinem Computer installieren?"
+    },
+    {
+      "word": "die Software",
+      "translation_cz": "software",
+      "example": "Wir brauchen eine neue Buchhaltungssoftware.",
+      "example_cz": "Potřebujeme nový účetní software.",
+      "tts_text": "Wir brauchen eine neue Buchhaltungssoftware."
+    },
+    {
+      "word": "die Lizenz",
+      "translation_cz": "licence",
+      "example": "Haben wir eine gültige Lizenz für diese Anwendung?",
+      "example_cz": "Máme pro tuto aplikaci platnou licenci?",
+      "tts_text": "Haben wir eine gültige Lizenz für diese Anwendung?"
+    },
+    {
+      "word": "aktualisieren",
+      "translation_cz": "aktualizovat",
+      "example": "Bitte aktualisieren Sie die Software auf die neueste Version.",
+      "example_cz": "Aktualizujte prosím software na nejnovější verzi.",
+      "tts_text": "Bitte aktualisieren Sie die Software auf die neueste Version."
+    },
+    {
+      "word": "die Administratorrechte",
+      "translation_cz": "administrátorská práva",
+      "example": "Ich habe keine Administratorrechte, um es selbst zu installieren.",
+      "example_cz": "Nemám administrátorská práva, abych to nainstaloval sám.",
+      "tts_text": "Ich habe keine Administratorrechte, um es selbst zu installieren."
+    },
+    {
+      "word": "kompatibel",
+      "translation_cz": "kompatibilní",
+      "example": "Ist dieses Programm mit unserem Betriebssystem kompatibel?",
+      "example_cz": "Je tento program kompatibilní s naším operačním systémem?",
+      "tts_text": "Ist dieses Programm mit unserem Betriebssystem kompatibel?"
+    },
+    {
+      "word": "die Genehmigung",
+      "translation_cz": "schválení",
+      "example": "Die Installation braucht die Genehmigung Ihres Vorgesetzten.",
+      "example_cz": "Instalace vyžaduje schválení od vašeho nadřízeného.",
+      "tts_text": "Die Installation braucht die Genehmigung Ihres Vorgesetzten."
+    },
+    {
+      "word": "der Download-Link",
+      "translation_cz": "odkaz ke stažení",
+      "example": "Ich schicke Ihnen den Download-Link, sobald es genehmigt ist.",
+      "example_cz": "Jakmile to bude schváleno, pošlu vám odkaz ke stažení.",
+      "tts_text": "Ich schicke Ihnen den Download-Link, sobald es genehmigt ist."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_install_request",
+      "title": "Ein neues Programm anfordern",
+      "title_cz": "Žádost o nový program",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Könnten Sie diese Software auf meinem Computer installieren? Ich brauche sie für ein Projekt.",
+          "text_cz": "Mohli byste mi nainstalovat tento software do počítače? Potřebuji ho na projekt."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar. Haben wir dafür eine gültige Lizenz?",
+          "text_cz": "Jistě. Máme pro to platnou licenci?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, ich habe das schon mit meinem Vorgesetzten geklärt und die Genehmigung erhalten.",
+          "text_cz": "Ano, už jsem to prověřil s vedoucím a mám schválení."
+        },
+        {
+          "speaker": "B",
+          "text": "Super, ich schicke Ihnen den Download-Link und installiere es aus der Ferne.",
+          "text_cz": "Skvělé, pošlu vám odkaz ke stažení a nainstaluji to na dálku."
+        }
+      ]
+    },
+    {
+      "id": "conv_no_admin_rights",
+      "title": "Fehlende Administratorrechte",
+      "title_cz": "Chybějící administrátorská práva",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich habe versucht, es selbst zu installieren, aber ich habe keine Administratorrechte.",
+          "text_cz": "Zkoušel jsem to nainstalovat sám, ale nemám administrátorská práva."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich verstehe, nur die IT darf Software auf Firmenlaptops installieren.",
+          "text_cz": "Chápu, software na firemních noteboocích může instalovat pouze IT."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Lizenz",
+      "options": [
+        "licence",
+        "aktualizace",
+        "schválení"
+      ],
+      "correct": "licence"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Könnten Sie dieses Programm auf meinem Computer ___?",
+      "answer": "installieren",
+      "hint_cz": "nainstalovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Administratorrechte",
+          "cz": "administrátorská práva"
+        },
+        {
+          "target": "kompatibel",
+          "cz": "kompatibilní"
+        },
+        {
+          "target": "die Genehmigung",
+          "cz": "schválení"
+        },
+        {
+          "target": "der Download-Link",
+          "cz": "odkaz ke stažení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir brauchen eine neue Buchhaltungssoftware.",
+      "tts_text": "Wir brauchen eine neue Buchhaltungssoftware."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte ___ Sie die Software auf die neueste Version.",
+      "answer": "aktualisieren",
+      "hint_cz": "aktualizovat"
+    }
+  ]
+}

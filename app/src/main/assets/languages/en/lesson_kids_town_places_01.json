@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_town_places_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The park",
+  "title_cz": "Park",
+  "vocabulary": [
+    {
+      "word": "park",
+      "translation_cz": "park",
+      "example": "We play in the park.",
+      "example_cz": "Hrajeme si v parku.",
+      "tts_text": "We play in the park."
+    },
+    {
+      "word": "bench",
+      "translation_cz": "lavička",
+      "example": "Grandma sits on a bench.",
+      "example_cz": "Babička sedí na lavičce.",
+      "tts_text": "Grandma sits on a bench."
+    },
+    {
+      "word": "swing",
+      "translation_cz": "houpačka",
+      "example": "I love the swing.",
+      "example_cz": "Mám moc rád houpačku.",
+      "tts_text": "I love the swing."
+    },
+    {
+      "word": "grass",
+      "translation_cz": "tráva",
+      "example": "We sit on the grass.",
+      "example_cz": "Sedíme na trávě.",
+      "tts_text": "We sit on the grass."
+    },
+    {
+      "word": "duck",
+      "translation_cz": "kachna",
+      "example": "We feed the ducks in the park.",
+      "example_cz": "Krmíme kachny v parku.",
+      "tts_text": "We feed the ducks in the park."
+    },
+    {
+      "word": "path",
+      "translation_cz": "cestička",
+      "example": "We walk along the path.",
+      "example_cz": "Jdeme po cestičce.",
+      "tts_text": "We walk along the path."
+    },
+    {
+      "word": "picnic",
+      "translation_cz": "piknik",
+      "example": "We have a picnic in the park.",
+      "example_cz": "Máme piknik v parku.",
+      "tts_text": "We have a picnic in the park."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "park",
+      "options": [
+        "park",
+        "škola",
+        "tržnice"
+      ],
+      "correct": "park"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I love the ___.",
+      "answer": "swing",
+      "hint_cz": "houpačka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bench",
+          "cz": "lavička"
+        },
+        {
+          "target": "swing",
+          "cz": "houpačka"
+        },
+        {
+          "target": "grass",
+          "cz": "tráva"
+        },
+        {
+          "target": "duck",
+          "cz": "kachna"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We play in the park.",
+      "tts_text": "We play in the park."
+    }
+  ]
+}

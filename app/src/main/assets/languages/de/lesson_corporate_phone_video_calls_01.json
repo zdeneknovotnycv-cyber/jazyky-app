@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_phone_video_calls_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Geschäftsgespräch annehmen",
+  "title_cz": "Přijetí pracovního hovoru",
+  "vocabulary": [
+    {
+      "word": "Guten Morgen, hier ist...",
+      "translation_cz": "Dobré ráno, tady je...",
+      "example": "Guten Morgen, hier ist Jana vom Kundenservice.",
+      "example_cz": "Dobré ráno, tady je Jana ze zákaznického servisu.",
+      "tts_text": "Guten Morgen, hier ist Jana vom Kundenservice."
+    },
+    {
+      "word": "Wie kann ich Ihnen helfen?",
+      "translation_cz": "Jak vám mohu pomoci?",
+      "example": "Guten Tag, wie kann ich Ihnen helfen?",
+      "example_cz": "Dobrý den, jak vám mohu pomoci?",
+      "tts_text": "Guten Tag, wie kann ich Ihnen helfen?"
+    },
+    {
+      "word": "am Apparat",
+      "translation_cz": "u telefonu",
+      "example": "Ja, am Apparat. Wie kann ich helfen?",
+      "example_cz": "Ano, u telefonu. Jak mohu pomoci?",
+      "tts_text": "Ja, am Apparat. Wie kann ich helfen?"
+    },
+    {
+      "word": "jemanden durchstellen",
+      "translation_cz": "přepojit někoho",
+      "example": "Ich stelle Sie zur Vertriebsabteilung durch.",
+      "example_cz": "Přepojím vás na obchodní oddělení.",
+      "tts_text": "Ich stelle Sie zur Vertriebsabteilung durch."
+    },
+    {
+      "word": "Darf ich fragen, wer anruft?",
+      "translation_cz": "Mohu se zeptat, kdo volá?",
+      "example": "Darf ich fragen, wer anruft, bitte?",
+      "example_cz": "Mohu se zeptat, kdo prosím volá?",
+      "tts_text": "Darf ich fragen, wer anruft, bitte?"
+    },
+    {
+      "word": "am Apparat bleiben",
+      "translation_cz": "vydržet na lince",
+      "example": "Könnten Sie bitte einen Moment am Apparat bleiben?",
+      "example_cz": "Mohl byste chvíli vydržet na lince?",
+      "tts_text": "Könnten Sie bitte einen Moment am Apparat bleiben?"
+    },
+    {
+      "word": "die Abteilung",
+      "translation_cz": "oddělení",
+      "example": "Für welche Abteilung rufen Sie an?",
+      "example_cz": "Na které oddělení voláte?",
+      "tts_text": "Für welche Abteilung rufen Sie an?"
+    },
+    {
+      "word": "die Durchwahl",
+      "translation_cz": "klapka / linka",
+      "example": "Sie erreichen mich unter der Durchwahl zwei-eins-fünf.",
+      "example_cz": "Můžete mě zastihnout na lince dvě jedna pět.",
+      "tts_text": "Sie erreichen mich unter der Durchwahl zwei-eins-fünf."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_geschaeftsgespraech_annehmen",
+      "title": "Ein Gespräch am Empfang annehmen",
+      "title_cz": "Přijetí hovoru na recepci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Guten Morgen, hier ist Jana von Novak Solutions. Wie kann ich Ihnen helfen?",
+          "text_cz": "Dobré ráno, tady je Jana ze společnosti Novak Solutions. Jak vám mohu pomoci?"
+        },
+        {
+          "speaker": "B",
+          "text": "Guten Tag, ich möchte gerne mit jemandem aus der Vertriebsabteilung sprechen.",
+          "text_cz": "Dobrý den, chtěl bych mluvit s někým z obchodního oddělení."
+        },
+        {
+          "speaker": "A",
+          "text": "Natürlich. Darf ich fragen, wer anruft?",
+          "text_cz": "Samozřejmě. Mohu se zeptat, kdo volá?"
+        },
+        {
+          "speaker": "B",
+          "text": "Hier ist Tomas Dvorak von ABC Trading.",
+          "text_cz": "Tady je Tomáš Dvořák z ABC Trading."
+        },
+        {
+          "speaker": "A",
+          "text": "Danke, Herr Dvorak. Bitte bleiben Sie am Apparat, ich stelle Sie durch.",
+          "text_cz": "Děkuji, pane Dvořáku. Vydržte prosím na lince, přepojím vás."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Darf ich fragen, wer anruft?",
+      "options": [
+        "Mohu se zeptat, kdo volá?",
+        "Vydržte na lince.",
+        "Jak vám mohu pomoci?"
+      ],
+      "correct": "Mohu se zeptat, kdo volá?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Guten Morgen, hier ___ Jana vom Kundenservice.",
+      "answer": "ist",
+      "hint_cz": "je"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "am Apparat bleiben", "cz": "vydržet na lince" },
+        { "target": "die Durchwahl", "cz": "klapka / linka" },
+        { "target": "die Abteilung", "cz": "oddělení" },
+        { "target": "am Apparat", "cz": "u telefonu" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Guten Tag, wie kann ich Ihnen helfen?",
+      "tts_text": "Guten Tag, wie kann ich Ihnen helfen?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich stelle Sie zur Vertriebsabteilung ___.",
+      "answer": "durch",
+      "hint_cz": "přepojím"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Könnten Sie bitte einen Moment am Apparat bleiben?",
+      "tts_text": "Könnten Sie bitte einen Moment am Apparat bleiben?"
+    }
+  ]
+}

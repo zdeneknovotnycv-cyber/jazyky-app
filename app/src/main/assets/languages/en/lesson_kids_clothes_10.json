@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_clothes_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Washing Clothes",
+  "title_cz": "Praní prádla",
+  "vocabulary": [
+    {
+      "word": "washing machine",
+      "translation_cz": "pračka",
+      "example": "We put clothes in the washing machine.",
+      "example_cz": "Dáváme oblečení do pračky.",
+      "tts_text": "We put clothes in the washing machine."
+    },
+    {
+      "word": "dirty",
+      "translation_cz": "špinavý",
+      "example": "My shirt is dirty.",
+      "example_cz": "Moje košile je špinavá.",
+      "tts_text": "My shirt is dirty."
+    },
+    {
+      "word": "clean",
+      "translation_cz": "čistý",
+      "example": "The clean clothes smell nice.",
+      "example_cz": "Čisté oblečení voní pěkně.",
+      "tts_text": "The clean clothes smell nice."
+    },
+    {
+      "word": "hang up",
+      "translation_cz": "pověsit",
+      "example": "I hang up my clothes to dry.",
+      "example_cz": "Věsím oblečení, aby uschlo.",
+      "tts_text": "I hang up my clothes to dry."
+    },
+    {
+      "word": "laundry basket",
+      "translation_cz": "koš na prádlo",
+      "example": "Put your socks in the laundry basket.",
+      "example_cz": "Dej ponožky do koše na prádlo.",
+      "tts_text": "Put your socks in the laundry basket."
+    },
+    {
+      "word": "iron",
+      "translation_cz": "žehlička",
+      "example": "Mom uses the iron.",
+      "example_cz": "Máma používá žehličku.",
+      "tts_text": "Mom uses the iron."
+    },
+    {
+      "word": "fold",
+      "translation_cz": "skládat",
+      "example": "I help fold the clothes.",
+      "example_cz": "Pomáhám skládat oblečení.",
+      "tts_text": "I help fold the clothes."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "iron",
+      "options": [
+        "žehlička",
+        "pračka",
+        "koš na prádlo"
+      ],
+      "correct": "žehlička"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My shirt is ___.",
+      "answer": "dirty",
+      "hint_cz": "špinavá"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "washing machine",
+          "cz": "pračka"
+        },
+        {
+          "target": "clean",
+          "cz": "čistý"
+        },
+        {
+          "target": "hang up",
+          "cz": "pověsit"
+        },
+        {
+          "target": "laundry basket",
+          "cz": "koš na prádlo"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I help fold the clothes.",
+      "tts_text": "I help fold the clothes."
+    }
+  ]
+}

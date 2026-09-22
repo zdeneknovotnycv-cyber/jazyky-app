@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_weather_seasons_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Sunny and Rainy Weather",
+  "title_cz": "Slunečné a deštivé počasí",
+  "vocabulary": [
+    {
+      "word": "sunny",
+      "translation_cz": "slunečno",
+      "example": "It is sunny today.",
+      "example_cz": "Dnes je slunečno.",
+      "tts_text": "It is sunny today."
+    },
+    {
+      "word": "rainy",
+      "translation_cz": "deštivo",
+      "example": "It is rainy outside.",
+      "example_cz": "Venku je deštivo.",
+      "tts_text": "It is rainy outside."
+    },
+    {
+      "word": "rain",
+      "translation_cz": "déšť",
+      "example": "The rain is falling.",
+      "example_cz": "Padá déšť.",
+      "tts_text": "The rain is falling."
+    },
+    {
+      "word": "sun",
+      "translation_cz": "slunce",
+      "example": "The sun is shining.",
+      "example_cz": "Slunce svítí.",
+      "tts_text": "The sun is shining."
+    },
+    {
+      "word": "umbrella",
+      "translation_cz": "deštník",
+      "example": "Take your umbrella.",
+      "example_cz": "Vezmi si deštník.",
+      "tts_text": "Take your umbrella."
+    },
+    {
+      "word": "cloud",
+      "translation_cz": "mrak",
+      "example": "There is a big cloud in the sky.",
+      "example_cz": "Na obloze je velký mrak.",
+      "tts_text": "There is a big cloud in the sky."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "rainy",
+      "options": [
+        "deštivo",
+        "slunečno",
+        "mrak"
+      ],
+      "correct": "deštivo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "It is ___ today.",
+      "answer": "sunny",
+      "hint_cz": "slunečno"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "rain",
+          "cz": "déšť"
+        },
+        {
+          "target": "sun",
+          "cz": "slunce"
+        },
+        {
+          "target": "umbrella",
+          "cz": "deštník"
+        },
+        {
+          "target": "cloud",
+          "cz": "mrak"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It is sunny today.",
+      "tts_text": "It is sunny today."
+    }
+  ]
+}

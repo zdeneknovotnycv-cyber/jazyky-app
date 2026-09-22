@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_body_health_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "At the Dentist",
+  "title_cz": "U zubaře",
+  "vocabulary": [
+    {
+      "word": "dentist",
+      "translation_cz": "zubař",
+      "example": "The dentist checks my teeth.",
+      "example_cz": "Zubař mi kontroluje zuby.",
+      "tts_text": "The dentist checks my teeth."
+    },
+    {
+      "word": "tooth",
+      "translation_cz": "zub",
+      "example": "This tooth hurts.",
+      "example_cz": "Bolí mě tenhle zub.",
+      "tts_text": "This tooth hurts."
+    },
+    {
+      "word": "toothbrush",
+      "translation_cz": "kartáček na zuby",
+      "example": "I use a soft toothbrush.",
+      "example_cz": "Používám měkký kartáček na zuby.",
+      "tts_text": "I use a soft toothbrush."
+    },
+    {
+      "word": "toothpaste",
+      "translation_cz": "zubní pasta",
+      "example": "I like mint toothpaste.",
+      "example_cz": "Mám rád mátovou zubní pastu.",
+      "tts_text": "I like mint toothpaste."
+    },
+    {
+      "word": "cavity",
+      "translation_cz": "kaz (v zubu)",
+      "example": "I don't want a cavity.",
+      "example_cz": "Nechci mít v zubu kaz.",
+      "tts_text": "I don't want a cavity."
+    },
+    {
+      "word": "open wide",
+      "translation_cz": "otevřít pusu dokořán",
+      "example": "The dentist says open wide.",
+      "example_cz": "Zubař říká, ať otevřu pusu dokořán.",
+      "tts_text": "The dentist says open wide."
+    },
+    {
+      "word": "brave",
+      "translation_cz": "statečný",
+      "example": "I am brave at the dentist.",
+      "example_cz": "U zubaře jsem statečný.",
+      "tts_text": "I am brave at the dentist."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "dentist",
+      "options": [
+        "zubař",
+        "doktor",
+        "kuchař"
+      ],
+      "correct": "zubař"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I use a soft ___.",
+      "answer": "toothbrush",
+      "hint_cz": "kartáček na zuby"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "tooth",
+          "cz": "zub"
+        },
+        {
+          "target": "toothpaste",
+          "cz": "zubní pasta"
+        },
+        {
+          "target": "cavity",
+          "cz": "kaz (v zubu)"
+        },
+        {
+          "target": "brave",
+          "cz": "statečný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The dentist checks my teeth.",
+      "tts_text": "The dentist checks my teeth."
+    }
+  ]
+}

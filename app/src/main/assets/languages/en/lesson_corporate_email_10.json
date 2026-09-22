@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_email_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Email etiquette basics",
+  "title_cz": "Základy e-mailové etikety",
+  "vocabulary": [
+    {
+      "word": "professional tone",
+      "translation_cz": "profesionální tón",
+      "example": "Always keep a professional tone in emails.",
+      "example_cz": "Vždy udržujte v e-mailech profesionální tón.",
+      "tts_text": "Always keep a professional tone in emails."
+    },
+    {
+      "word": "proofread",
+      "translation_cz": "zkontrolovat text",
+      "example": "Always proofread before sending.",
+      "example_cz": "Před odesláním vždy zkontrolujte text.",
+      "tts_text": "Always proofread before sending."
+    },
+    {
+      "word": "reply all",
+      "translation_cz": "odpovědět všem",
+      "example": "Use 'reply all' only when necessary.",
+      "example_cz": "Používejte 'odpovědět všem' jen když je to nutné.",
+      "tts_text": "Use 'reply all' only when necessary."
+    },
+    {
+      "word": "avoid capital letters",
+      "translation_cz": "vyhýbat se velkým písmenům",
+      "example": "Avoid writing in all capital letters.",
+      "example_cz": "Vyhýbejte se psaní celého textu velkými písmeny.",
+      "tts_text": "Avoid writing in all capital letters."
+    },
+    {
+      "word": "greeting",
+      "translation_cz": "pozdrav / oslovení",
+      "example": "Start every email with a proper greeting.",
+      "example_cz": "Každý e-mail začněte vhodným oslovením.",
+      "tts_text": "Start every email with a proper greeting."
+    },
+    {
+      "word": "response time",
+      "translation_cz": "doba odezvy",
+      "example": "Try to keep a reasonable response time.",
+      "example_cz": "Snažte se udržovat přiměřenou dobu odezvy.",
+      "tts_text": "Try to keep a reasonable response time."
+    },
+    {
+      "word": "signature",
+      "translation_cz": "podpis",
+      "example": "Don't forget your email signature.",
+      "example_cz": "Nezapomeňte na svůj e-mailový podpis.",
+      "tts_text": "Don't forget your email signature."
+    },
+    {
+      "word": "tone of voice",
+      "translation_cz": "tón vyjadřování",
+      "example": "Pay attention to the tone of voice in written messages.",
+      "example_cz": "Dávejte pozor na tón vyjadřování v písemných zprávách.",
+      "tts_text": "Pay attention to the tone of voice in written messages."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_etiquette",
+      "title": "Coaching a junior colleague on email etiquette",
+      "title_cz": "Rady mladšímu kolegovi ohledně e-mailové etikety",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Before you send that email, always proofread it first.",
+          "text_cz": "Než ten e-mail odešleš, vždy si ho nejdřív zkontroluj."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay. Should I use 'reply all' for this message?",
+          "text_cz": "Dobře. Mám na tuto zprávu odpovědět všem?"
+        },
+        {
+          "speaker": "A",
+          "text": "No, use 'reply all' only when necessary. And avoid capital letters, it looks like shouting.",
+          "text_cz": "Ne, používej 'odpovědět všem' jen když je to nutné. A vyhýbej se velkým písmenům, vypadá to jako křičení."
+        },
+        {
+          "speaker": "B",
+          "text": "Got it. I'll also keep a professional tone and add my signature.",
+          "text_cz": "Rozumím. Udržím také profesionální tón a přidám svůj podpis."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "proofread",
+      "options": [
+        "zkontrolovat text",
+        "podpis",
+        "oslovení"
+      ],
+      "correct": "zkontrolovat text"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Use 'reply ___' only when necessary.",
+      "answer": "all",
+      "hint_cz": "všem"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "signature",
+          "cz": "podpis"
+        },
+        {
+          "target": "greeting",
+          "cz": "pozdrav / oslovení"
+        },
+        {
+          "target": "response time",
+          "cz": "doba odezvy"
+        },
+        {
+          "target": "tone of voice",
+          "cz": "tón vyjadřování"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Always keep a professional tone in emails.",
+      "tts_text": "Always keep a professional tone in emails."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Avoid writing in all ___ letters.",
+      "answer": "capital",
+      "hint_cz": "velkými"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Don't forget your email signature.",
+      "tts_text": "Don't forget your email signature."
+    }
+  ]
+}

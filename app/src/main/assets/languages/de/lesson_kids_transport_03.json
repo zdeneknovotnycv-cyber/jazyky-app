@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_transport_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Züge",
+  "title_cz": "Vlaky",
+  "vocabulary": [
+    {
+      "word": "der Zug",
+      "translation_cz": "vlak",
+      "example": "Der Zug ist sehr lang.",
+      "example_cz": "Vlak je velmi dlouhý.",
+      "tts_text": "Der Zug ist sehr lang."
+    },
+    {
+      "word": "der Bahnhof",
+      "translation_cz": "nádraží",
+      "example": "Wir treffen uns am Bahnhof.",
+      "example_cz": "Setkáváme se na nádraží.",
+      "tts_text": "Wir treffen uns am Bahnhof."
+    },
+    {
+      "word": "der Bahnsteig",
+      "translation_cz": "nástupiště",
+      "example": "Der Zug wartet am Bahnsteig zwei.",
+      "example_cz": "Vlak čeká na nástupišti dva.",
+      "tts_text": "Der Zug wartet am Bahnsteig zwei."
+    },
+    {
+      "word": "das Gleis",
+      "translation_cz": "kolej",
+      "example": "Der Zug fährt auf einem Gleis.",
+      "example_cz": "Vlak jede po koleji.",
+      "tts_text": "Der Zug fährt auf einem Gleis."
+    },
+    {
+      "word": "der Schaffner",
+      "translation_cz": "průvodčí",
+      "example": "Der Schaffner kontrolliert die Fahrscheine.",
+      "example_cz": "Průvodčí kontroluje jízdenky.",
+      "tts_text": "Der Schaffner kontrolliert die Fahrscheine."
+    },
+    {
+      "word": "der Fensterplatz",
+      "translation_cz": "místo u okna",
+      "example": "Ich liebe einen Fensterplatz im Zug.",
+      "example_cz": "Mám moc rád místo u okna ve vlaku.",
+      "tts_text": "Ich liebe einen Fensterplatz im Zug."
+    },
+    {
+      "word": "der Schnellzug",
+      "translation_cz": "rychlík",
+      "example": "Der Schnellzug fährt in die Stadt.",
+      "example_cz": "Rychlík jede do města.",
+      "tts_text": "Der Schnellzug fährt in die Stadt."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Zug",
+      "options": [
+        "vlak",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "vlak"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der ___ ist sehr lang.",
+      "answer": "der Zug",
+      "hint_cz": "vlak"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Bahnhof",
+          "cz": "nádraží"
+        },
+        {
+          "target": "der Bahnsteig",
+          "cz": "nástupiště"
+        },
+        {
+          "target": "das Gleis",
+          "cz": "kolej"
+        },
+        {
+          "target": "der Schaffner",
+          "cz": "průvodčí"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich liebe einen Fensterplatz im Zug.",
+      "tts_text": "Ich liebe einen Fensterplatz im Zug."
+    }
+  ]
+}

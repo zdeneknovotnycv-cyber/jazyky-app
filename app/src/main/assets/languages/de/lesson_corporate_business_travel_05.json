@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_business_travel_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Spesenabrechnung nach der Reise",
+  "title_cz": "Vyúčtování cestovních nákladů",
+  "vocabulary": [
+    {
+      "word": "die Spesenabrechnung",
+      "translation_cz": "vyúčtování nákladů",
+      "example": "Bitte reichen Sie Ihre Spesenabrechnung bis Freitag ein.",
+      "example_cz": "Prosím odevzdejte vyúčtování nákladů do pátku.",
+      "tts_text": "Bitte reichen Sie Ihre Spesenabrechnung bis Freitag ein."
+    },
+    {
+      "word": "die Quittung",
+      "translation_cz": "účtenka",
+      "example": "Heben Sie jede Quittung von Ihrer Reise auf.",
+      "example_cz": "Uschovejte si každou účtenku z cesty.",
+      "tts_text": "Heben Sie jede Quittung von Ihrer Reise auf."
+    },
+    {
+      "word": "erstatten",
+      "translation_cz": "proplatit",
+      "example": "Das Unternehmen wird Ihre Reisekosten erstatten.",
+      "example_cz": "Firma vám proplatí náklady na cestu.",
+      "tts_text": "Das Unternehmen wird Ihre Reisekosten erstatten."
+    },
+    {
+      "word": "das Tagegeld",
+      "translation_cz": "diety",
+      "example": "Sie erhalten ein Tagegeld für Mahlzeiten.",
+      "example_cz": "Dostanete diety na stravu.",
+      "tts_text": "Sie erhalten ein Tagegeld für Mahlzeiten."
+    },
+    {
+      "word": "einen Antrag stellen",
+      "translation_cz": "podat žádost o proplacení",
+      "example": "Bitte stellen Sie den Antrag innerhalb von zwei Wochen.",
+      "example_cz": "Podejte prosím žádost o proplacení do dvou týdnů.",
+      "tts_text": "Bitte stellen Sie den Antrag innerhalb von zwei Wochen."
+    },
+    {
+      "word": "genehmigte Ausgaben",
+      "translation_cz": "schválené výdaje",
+      "example": "Nur genehmigte Ausgaben werden bezahlt.",
+      "example_cz": "Proplaceny budou pouze schválené výdaje.",
+      "tts_text": "Nur genehmigte Ausgaben werden bezahlt."
+    },
+    {
+      "word": "die Rechnung anhängen",
+      "translation_cz": "přiložit fakturu",
+      "example": "Bitte hängen Sie die Rechnung an Ihre Abrechnung an.",
+      "example_cz": "Prosím přiložte fakturu k vyúčtování.",
+      "tts_text": "Bitte hängen Sie die Rechnung an Ihre Abrechnung an."
+    },
+    {
+      "word": "die Buchhaltungsabteilung",
+      "translation_cz": "účetní oddělení",
+      "example": "Schicken Sie das Formular an die Buchhaltungsabteilung.",
+      "example_cz": "Zašlete formulář na účetní oddělení.",
+      "tts_text": "Schicken Sie das Formular an die Buchhaltungsabteilung."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_spesenabrechnung",
+      "title": "Eine Spesenabrechnung einreichen",
+      "title_cz": "Podání vyúčtování nákladů",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hast du deine Spesenabrechnung schon eingereicht?",
+          "text_cz": "Odevzdal jsi už vyúčtování nákladů?"
+        },
+        {
+          "speaker": "B",
+          "text": "Noch nicht. Ich muss zuerst die Rechnung für das Hotel anhängen.",
+          "text_cz": "Ještě ne. Nejdřív musím přiložit fakturu za hotel."
+        },
+        {
+          "speaker": "A",
+          "text": "Denk daran, jede Quittung aufzuheben und den Antrag innerhalb von zwei Wochen zu stellen.",
+          "text_cz": "Nezapomeň si uschovat každou účtenku a podat žádost o proplacení do dvou týdnů."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden. Wird das Unternehmen auch das Taxi erstatten?",
+          "text_cz": "Rozumím. Firma proplatí i taxi?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, solange es eine genehmigte Ausgabe ist.",
+          "text_cz": "Ano, pokud je to schválený výdaj."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Spesenabrechnung",
+      "options": [
+        "vyúčtování nákladů",
+        "diety",
+        "faktura"
+      ],
+      "correct": "vyúčtování nákladů"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Heben Sie jede ___ von Ihrer Reise auf.",
+      "answer": "Quittung",
+      "hint_cz": "účtenku"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das Unternehmen wird Ihre Reisekosten ___.",
+      "answer": "erstatten",
+      "hint_cz": "proplatit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Tagegeld",
+          "cz": "diety"
+        },
+        {
+          "target": "genehmigte Ausgaben",
+          "cz": "schválené výdaje"
+        },
+        {
+          "target": "die Buchhaltungsabteilung",
+          "cz": "účetní oddělení"
+        },
+        {
+          "target": "einen Antrag stellen",
+          "cz": "podat žádost o proplacení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte reichen Sie Ihre Spesenabrechnung bis Freitag ein.",
+      "tts_text": "Bitte reichen Sie Ihre Spesenabrechnung bis Freitag ein."
+    }
+  ]
+}

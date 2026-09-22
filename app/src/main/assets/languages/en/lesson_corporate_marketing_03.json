@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_marketing_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Brand guidelines",
+  "title_cz": "Pravidla značky",
+  "vocabulary": [
+    {
+      "word": "brand identity",
+      "translation_cz": "identita značky",
+      "example": "Our brand identity includes the logo and colors.",
+      "example_cz": "Naše identita značky zahrnuje logo a barvy.",
+      "tts_text": "Our brand identity includes the logo and colors."
+    },
+    {
+      "word": "logo usage",
+      "translation_cz": "použití loga",
+      "example": "Please follow the rules for logo usage.",
+      "example_cz": "Dodržujte prosím pravidla pro použití loga.",
+      "tts_text": "Please follow the rules for logo usage."
+    },
+    {
+      "word": "color palette",
+      "translation_cz": "barevná paleta",
+      "example": "Use only our approved color palette.",
+      "example_cz": "Používejte pouze naši schválenou barevnou paletu.",
+      "tts_text": "Use only our approved color palette."
+    },
+    {
+      "word": "tone of voice",
+      "translation_cz": "tón komunikace",
+      "example": "Our tone of voice should be friendly but professional.",
+      "example_cz": "Náš tón komunikace by měl být přátelský, ale profesionální.",
+      "tts_text": "Our tone of voice should be friendly but professional."
+    },
+    {
+      "word": "consistency",
+      "translation_cz": "konzistence",
+      "example": "Consistency across all channels is important.",
+      "example_cz": "Konzistence napříč všemi kanály je důležitá.",
+      "tts_text": "Consistency across all channels is important."
+    },
+    {
+      "word": "brand guidelines document",
+      "translation_cz": "dokument s pravidly značky",
+      "example": "You can find the rules in the brand guidelines document.",
+      "example_cz": "Pravidla najdete v dokumentu s pravidly značky.",
+      "tts_text": "You can find the rules in the brand guidelines document."
+    },
+    {
+      "word": "typography",
+      "translation_cz": "typografie",
+      "example": "Our typography uses a simple, modern font.",
+      "example_cz": "Naše typografie používá jednoduché, moderní písmo.",
+      "tts_text": "Our typography uses a simple, modern font."
+    },
+    {
+      "word": "visual identity",
+      "translation_cz": "vizuální identita",
+      "example": "The visual identity must stay the same everywhere.",
+      "example_cz": "Vizuální identita musí zůstat všude stejná.",
+      "tts_text": "The visual identity must stay the same everywhere."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_03",
+      "title": "Reviewing the brand guidelines with a new colleague",
+      "title_cz": "Kontrola pravidel značky s novým kolegou",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you read the brand guidelines document yet?",
+          "text_cz": "Přečetl jsi už dokument s pravidly značky?"
+        },
+        {
+          "speaker": "B",
+          "text": "Not fully. What is most important about our brand identity?",
+          "text_cz": "Ne úplně. Co je nejdůležitější na naší identitě značky?"
+        },
+        {
+          "speaker": "A",
+          "text": "Consistency. Always use the approved color palette and follow the rules for logo usage.",
+          "text_cz": "Konzistence. Vždy používej schválenou barevnou paletu a dodržuj pravidla pro použití loga."
+        },
+        {
+          "speaker": "B",
+          "text": "Got it. And what about our tone of voice?",
+          "text_cz": "Rozumím. A co náš tón komunikace?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "brand identity",
+      "options": [
+        "identita značky",
+        "barevná paleta",
+        "typografie"
+      ],
+      "correct": "identita značky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Use only our approved color ___.",
+      "answer": "palette",
+      "hint_cz": "paletu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "tone of voice",
+          "cz": "tón komunikace"
+        },
+        {
+          "target": "consistency",
+          "cz": "konzistence"
+        },
+        {
+          "target": "typography",
+          "cz": "typografie"
+        },
+        {
+          "target": "visual identity",
+          "cz": "vizuální identita"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Consistency across all channels is important.",
+      "tts_text": "Consistency across all channels is important."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please follow the rules for logo ___.",
+      "answer": "usage",
+      "hint_cz": "použití"
+    }
+  ]
+}

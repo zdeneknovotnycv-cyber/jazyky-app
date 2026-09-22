@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_teamwork_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Team brainstorming session",
+  "title_cz": "Brainstorming v týmu",
+  "vocabulary": [
+    {
+      "word": "to brainstorm",
+      "translation_cz": "vymýšlet nápady",
+      "example": "Let's brainstorm some ideas for the campaign.",
+      "example_cz": "Pojďme vymyslet nějaké nápady na kampaň.",
+      "tts_text": "Let's brainstorm some ideas for the campaign."
+    },
+    {
+      "word": "idea",
+      "translation_cz": "nápad",
+      "example": "That's a really interesting idea.",
+      "example_cz": "To je opravdu zajímavý nápad.",
+      "tts_text": "That's a really interesting idea."
+    },
+    {
+      "word": "to build on",
+      "translation_cz": "navázat na",
+      "example": "Can we build on what Anna just said?",
+      "example_cz": "Můžeme navázat na to, co právě řekla Anna?",
+      "tts_text": "Can we build on what Anna just said?"
+    },
+    {
+      "word": "think outside the box",
+      "translation_cz": "přemýšlet netradičně",
+      "example": "Let's think outside the box today.",
+      "example_cz": "Pojďme dnes přemýšlet netradičně.",
+      "tts_text": "Let's think outside the box today."
+    },
+    {
+      "word": "to jot down",
+      "translation_cz": "zapsat si",
+      "example": "I'll jot down all the suggestions.",
+      "example_cz": "Zapíšu si všechny návrhy.",
+      "tts_text": "I'll jot down all the suggestions."
+    },
+    {
+      "word": "there are no bad ideas",
+      "translation_cz": "žádný nápad není špatný",
+      "example": "Remember, there are no bad ideas here.",
+      "example_cz": "Pamatujte, že tady žádný nápad není špatný.",
+      "tts_text": "Remember, there are no bad ideas here."
+    },
+    {
+      "word": "to narrow it down",
+      "translation_cz": "zúžit výběr",
+      "example": "Now let's narrow it down to three options.",
+      "example_cz": "Teď zúžíme výběr na tři možnosti.",
+      "tts_text": "Now let's narrow it down to three options."
+    },
+    {
+      "word": "whiteboard",
+      "translation_cz": "tabule",
+      "example": "Let's write the ideas on the whiteboard.",
+      "example_cz": "Napišme nápady na tabuli.",
+      "tts_text": "Let's write the ideas on the whiteboard."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_brainstorming",
+      "title": "A team brainstorming session",
+      "title_cz": "Brainstorming v týmu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Okay everyone, let's brainstorm some ideas for the campaign.",
+          "text_cz": "Dobře, všichni, pojďme vymyslet nějaké nápady na kampaň."
+        },
+        {
+          "speaker": "B",
+          "text": "I'll jot down all the suggestions on the whiteboard.",
+          "text_cz": "Zapíšu si všechny návrhy na tabuli."
+        },
+        {
+          "speaker": "A",
+          "text": "Great. Remember, there are no bad ideas, so let's think outside the box.",
+          "text_cz": "Skvěle. Pamatujte, že žádný nápad není špatný, tak přemýšlejme netradičně."
+        },
+        {
+          "speaker": "B",
+          "text": "Can we build on the idea Anna suggested earlier?",
+          "text_cz": "Můžeme navázat na nápad, který dříve navrhla Anna?"
+        },
+        {
+          "speaker": "A",
+          "text": "Sure. Once we have enough ideas, we'll narrow it down to three options.",
+          "text_cz": "Jasně. Až budeme mít dost nápadů, zúžíme výběr na tři možnosti."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "to brainstorm",
+      "options": [
+        "vymýšlet nápady",
+        "zapsat si",
+        "zúžit výběr"
+      ],
+      "correct": "vymýšlet nápady"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's ___ some ideas for the campaign.",
+      "answer": "brainstorm",
+      "hint_cz": "vymyslet"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "idea",
+          "cz": "nápad"
+        },
+        {
+          "target": "whiteboard",
+          "cz": "tabule"
+        },
+        {
+          "target": "to jot down",
+          "cz": "zapsat si"
+        },
+        {
+          "target": "to narrow it down",
+          "cz": "zúžit výběr"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "There are no bad ideas here.",
+      "tts_text": "There are no bad ideas here."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can we ___ on what Anna just said?",
+      "answer": "build",
+      "hint_cz": "navázat"
+    }
+  ]
+}

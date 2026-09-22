@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_numbers_colors_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Colors of Nature",
+  "title_cz": "Barvy přírody",
+  "vocabulary": [
+    {
+      "word": "grüne Blätter",
+      "translation_cz": "zelené listy",
+      "example": "Im Sommer sind die Blätter grün.",
+      "example_cz": "V létě jsou listy zelené.",
+      "tts_text": "Im Sommer sind die Blätter grün."
+    },
+    {
+      "word": "blauer Himmel",
+      "translation_cz": "modrá obloha",
+      "example": "Der Himmel ist heute blau.",
+      "example_cz": "Dnes je obloha modrá.",
+      "tts_text": "Der Himmel ist heute blau."
+    },
+    {
+      "word": "brauner Baum",
+      "translation_cz": "hnědý strom",
+      "example": "Der Baumstamm ist braun.",
+      "example_cz": "Kmen stromu je hnědý.",
+      "tts_text": "Der Baumstamm ist braun."
+    },
+    {
+      "word": "gelbe Sonne",
+      "translation_cz": "žluté slunce",
+      "example": "Die Sonne ist hell gelb.",
+      "example_cz": "Slunce je jasně žluté.",
+      "tts_text": "Die Sonne ist hell gelb."
+    },
+    {
+      "word": "orange Blätter",
+      "translation_cz": "oranžové listy",
+      "example": "Im Herbst werden die Blätter orange.",
+      "example_cz": "Na podzim listy zoranžoví.",
+      "tts_text": "Im Herbst werden die Blätter orange."
+    },
+    {
+      "word": "weißer Schnee",
+      "translation_cz": "bílý sníh",
+      "example": "Der Schnee ist weiß und kalt.",
+      "example_cz": "Sníh je bílý a studený.",
+      "tts_text": "Der Schnee ist weiß und kalt."
+    },
+    {
+      "word": "der Regenbogen",
+      "translation_cz": "duha",
+      "example": "Ich habe einen bunten Regenbogen gesehen.",
+      "example_cz": "Viděl jsem barevnou duhu.",
+      "tts_text": "Ich habe einen bunten Regenbogen gesehen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "weißer Schnee",
+      "options": [
+        "bílý sníh",
+        "modrá obloha",
+        "hnědý strom"
+      ],
+      "correct": "bílý sníh"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Im Herbst werden die Blätter ___.",
+      "answer": "orange",
+      "hint_cz": "oranžové"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "grüne Blätter",
+          "cz": "zelené listy"
+        },
+        {
+          "target": "blauer Himmel",
+          "cz": "modrá obloha"
+        },
+        {
+          "target": "brauner Baum",
+          "cz": "hnědý strom"
+        },
+        {
+          "target": "der Regenbogen",
+          "cz": "duha"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe einen bunten Regenbogen gesehen.",
+      "tts_text": "Ich habe einen bunten Regenbogen gesehen."
+    }
+  ]
+}

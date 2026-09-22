@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_school_classroom_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Classroom Objects",
+  "title_cz": "Věci ve třídě",
+  "vocabulary": [
+    {
+      "word": "desk",
+      "translation_cz": "lavice",
+      "example": "I sit at my desk.",
+      "example_cz": "Sedím ve své lavici.",
+      "tts_text": "I sit at my desk."
+    },
+    {
+      "word": "chair",
+      "translation_cz": "židle",
+      "example": "The chair is next to the desk.",
+      "example_cz": "Židle je vedle lavice.",
+      "tts_text": "The chair is next to the desk."
+    },
+    {
+      "word": "book",
+      "translation_cz": "kniha",
+      "example": "I open my book.",
+      "example_cz": "Otevírám svoji knihu.",
+      "tts_text": "I open my book."
+    },
+    {
+      "word": "pencil",
+      "translation_cz": "tužka",
+      "example": "My pencil is sharp.",
+      "example_cz": "Moje tužka je ostrá.",
+      "tts_text": "My pencil is sharp."
+    },
+    {
+      "word": "board",
+      "translation_cz": "tabule",
+      "example": "The teacher writes on the board.",
+      "example_cz": "Učitelka píše na tabuli.",
+      "tts_text": "The teacher writes on the board."
+    },
+    {
+      "word": "bag",
+      "translation_cz": "taška",
+      "example": "My school bag is heavy.",
+      "example_cz": "Moje školní taška je těžká.",
+      "tts_text": "My school bag is heavy."
+    },
+    {
+      "word": "eraser",
+      "translation_cz": "guma",
+      "example": "I use an eraser to fix mistakes.",
+      "example_cz": "Používám gumu na opravu chyb.",
+      "tts_text": "I use an eraser to fix mistakes."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "board",
+      "options": [
+        "tabule",
+        "lavice",
+        "taška"
+      ],
+      "correct": "tabule"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The teacher writes on the ___.",
+      "answer": "board",
+      "hint_cz": "tabuli"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "desk",
+          "cz": "lavice"
+        },
+        {
+          "target": "chair",
+          "cz": "židle"
+        },
+        {
+          "target": "book",
+          "cz": "kniha"
+        },
+        {
+          "target": "pencil",
+          "cz": "tužka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My pencil is sharp.",
+      "tts_text": "My pencil is sharp."
+    }
+  ]
+}

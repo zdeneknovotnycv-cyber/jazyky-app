@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_sports_hobbies_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Swimming",
+  "title_cz": "Plavání",
+  "vocabulary": [
+    {
+      "word": "swim",
+      "translation_cz": "plavat",
+      "example": "I can swim well.",
+      "example_cz": "Umím dobře plavat.",
+      "tts_text": "I can swim well."
+    },
+    {
+      "word": "swimming pool",
+      "translation_cz": "bazén",
+      "example": "We go to the swimming pool on Saturdays.",
+      "example_cz": "V sobotu chodíme do bazénu.",
+      "tts_text": "We go to the swimming pool on Saturdays."
+    },
+    {
+      "word": "water",
+      "translation_cz": "voda",
+      "example": "The water is cold.",
+      "example_cz": "Voda je studená.",
+      "tts_text": "The water is cold."
+    },
+    {
+      "word": "dive",
+      "translation_cz": "skočit do vody",
+      "example": "I dive into the pool.",
+      "example_cz": "Skáču do bazénu.",
+      "tts_text": "I dive into the pool."
+    },
+    {
+      "word": "float",
+      "translation_cz": "plavat na vodě, nadnášet se",
+      "example": "I can float on my back.",
+      "example_cz": "Umím se nadnášet na zádech.",
+      "tts_text": "I can float on my back."
+    },
+    {
+      "word": "swimming lessons",
+      "translation_cz": "plavecký kurz",
+      "example": "I have swimming lessons on Monday.",
+      "example_cz": "V pondělí mám plavecký kurz.",
+      "tts_text": "I have swimming lessons on Monday."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "swim",
+      "options": [
+        "plavat",
+        "voda",
+        "bazén"
+      ],
+      "correct": "plavat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We go to the ___ on Saturdays.",
+      "answer": "swimming pool",
+      "hint_cz": "bazénu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "water",
+          "cz": "voda"
+        },
+        {
+          "target": "dive",
+          "cz": "skočit do vody"
+        },
+        {
+          "target": "float",
+          "cz": "plavat na vodě, nadnášet se"
+        },
+        {
+          "target": "swimming lessons",
+          "cz": "plavecký kurz"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I can swim well.",
+      "tts_text": "I can swim well."
+    }
+  ]
+}

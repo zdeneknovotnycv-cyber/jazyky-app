@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_office_life_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Working from home request",
+  "title_cz": "Žádost o práci z domova",
+  "vocabulary": [
+    {
+      "word": "work from home",
+      "translation_cz": "pracovat z domova",
+      "example": "Can I work from home on Thursday?",
+      "example_cz": "Mohu ve čtvrtek pracovat z domova?",
+      "tts_text": "Can I work from home on Thursday?"
+    },
+    {
+      "word": "remote day",
+      "translation_cz": "den práce na dálku",
+      "example": "I'd like to take a remote day next week.",
+      "example_cz": "Rád bych si příští týden vzal den práce na dálku.",
+      "tts_text": "I'd like to take a remote day next week."
+    },
+    {
+      "word": "manager's approval",
+      "translation_cz": "souhlas manažera",
+      "example": "You need your manager's approval first.",
+      "example_cz": "Nejprve potřebuješ souhlas manažera.",
+      "tts_text": "You need your manager's approval first."
+    },
+    {
+      "word": "stay reachable",
+      "translation_cz": "být dostupný",
+      "example": "Please stay reachable during work hours.",
+      "example_cz": "Prosím buď dostupný v pracovní době.",
+      "tts_text": "Please stay reachable during work hours."
+    },
+    {
+      "word": "home office setup",
+      "translation_cz": "vybavení domácí kanceláře",
+      "example": "The company provides a home office setup.",
+      "example_cz": "Firma poskytuje vybavení domácí kanceláře.",
+      "tts_text": "The company provides a home office setup."
+    },
+    {
+      "word": "internet connection",
+      "translation_cz": "internetové připojení",
+      "example": "Make sure you have a stable internet connection.",
+      "example_cz": "Ujisti se, že máš stabilní internetové připojení.",
+      "tts_text": "Make sure you have a stable internet connection."
+    },
+    {
+      "word": "in-person meeting",
+      "translation_cz": "osobní schůzka",
+      "example": "There's an in-person meeting on Friday, so come to the office.",
+      "example_cz": "V pátek je osobní schůzka, tak přijď do kanceláře.",
+      "tts_text": "There's an in-person meeting on Friday, so come to the office."
+    },
+    {
+      "word": "hybrid schedule",
+      "translation_cz": "hybridní rozvrh",
+      "example": "We follow a hybrid schedule, three days in the office.",
+      "example_cz": "Máme hybridní rozvrh, tři dny v kanceláři.",
+      "tts_text": "We follow a hybrid schedule, three days in the office."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_09",
+      "title": "Asking to work from home",
+      "title_cz": "Žádost o práci z domova",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Could I work from home this Thursday?",
+          "text_cz": "Mohl bych tento čtvrtek pracovat z domova?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, just remember you need your manager's approval.",
+          "text_cz": "Jasně, jen pamatuj, že potřebuješ souhlas manažera."
+        },
+        {
+          "speaker": "A",
+          "text": "I already asked him, he said it's fine.",
+          "text_cz": "Už jsem se ho ptal, řekl, že je to v pořádku."
+        },
+        {
+          "speaker": "B",
+          "text": "Great, just stay reachable during work hours.",
+          "text_cz": "Skvělé, jen buď dostupný v pracovní době."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "work from home",
+      "options": [
+        "pracovat z domova",
+        "den práce na dálku",
+        "souhlas manažera"
+      ],
+      "correct": "pracovat z domova"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You need your manager's ___ first.",
+      "answer": "approval",
+      "hint_cz": "souhlas"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "work from home",
+          "cz": "pracovat z domova"
+        },
+        {
+          "target": "remote day",
+          "cz": "den práce na dálku"
+        },
+        {
+          "target": "manager's approval",
+          "cz": "souhlas manažera"
+        },
+        {
+          "target": "stay reachable",
+          "cz": "být dostupný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Could I work from home this Thursday?",
+      "tts_text": "Could I work from home this Thursday?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please stay ___ during work hours.",
+      "answer": "reachable",
+      "hint_cz": "dostupný"
+    }
+  ]
+}

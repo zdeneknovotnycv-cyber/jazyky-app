@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_career_development_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Requesting training",
+  "title_cz": "Žádost o školení",
+  "vocabulary": [
+    {
+      "word": "training course",
+      "translation_cz": "školicí kurz",
+      "example": "I'd like to attend a training course.",
+      "example_cz": "Rád bych se zúčastnil školicího kurzu.",
+      "tts_text": "I'd like to attend a training course."
+    },
+    {
+      "word": "to improve my skills",
+      "translation_cz": "zlepšit své dovednosti",
+      "example": "This course would help me improve my skills.",
+      "example_cz": "Tento kurz by mi pomohl zlepšit mé dovednosti.",
+      "tts_text": "This course would help me improve my skills."
+    },
+    {
+      "word": "to enroll in",
+      "translation_cz": "přihlásit se do",
+      "example": "I'd like to enroll in the leadership program.",
+      "example_cz": "Rád bych se přihlásil do programu pro vedoucí pracovníky.",
+      "tts_text": "I'd like to enroll in the leadership program."
+    },
+    {
+      "word": "budget for training",
+      "translation_cz": "rozpočet na školení",
+      "example": "Do we have a budget for training this year?",
+      "example_cz": "Máme letos rozpočet na školení?",
+      "tts_text": "Do we have a budget for training this year?"
+    },
+    {
+      "word": "certification",
+      "translation_cz": "certifikace",
+      "example": "This training leads to a certification.",
+      "example_cz": "Toto školení vede k certifikaci.",
+      "tts_text": "This training leads to a certification."
+    },
+    {
+      "word": "to approve",
+      "translation_cz": "schválit",
+      "example": "Could you approve my training request?",
+      "example_cz": "Mohl byste schválit mou žádost o školení?",
+      "tts_text": "Could you approve my training request?"
+    },
+    {
+      "word": "professional development",
+      "translation_cz": "profesní rozvoj",
+      "example": "Professional development is important to me.",
+      "example_cz": "Profesní rozvoj je pro mě důležitý.",
+      "tts_text": "Professional development is important to me."
+    },
+    {
+      "word": "to sign up",
+      "translation_cz": "přihlásit se",
+      "example": "I already signed up for the course.",
+      "example_cz": "Na kurz jsem se už přihlásil.",
+      "tts_text": "I already signed up for the course."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_requesting_training",
+      "title": "Requesting a training course",
+      "title_cz": "Žádost o školicí kurz",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'd like to attend a training course on project management.",
+          "text_cz": "Rád bych se zúčastnil školicího kurzu z projektového řízení."
+        },
+        {
+          "speaker": "B",
+          "text": "That sounds useful. How would it help you?",
+          "text_cz": "To zní užitečně. Jak by ti to pomohlo?"
+        },
+        {
+          "speaker": "A",
+          "text": "It would help me improve my skills, and it leads to a certification.",
+          "text_cz": "Pomohlo by mi to zlepšit mé dovednosti a vede to k certifikaci."
+        },
+        {
+          "speaker": "B",
+          "text": "Good point. Do we have a budget for training this quarter?",
+          "text_cz": "Dobrá poznámka. Máme na toto čtvrtletí rozpočet na školení?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, I checked, and I'd like to enroll before the end of the month.",
+          "text_cz": "Ano, zjišťoval jsem to, a rád bych se přihlásil do konce měsíce."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "certification",
+      "options": [
+        "certifikace",
+        "rozpočet",
+        "školicí kurz"
+      ],
+      "correct": "certifikace"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Could you ___ my training request?",
+      "answer": "approve",
+      "hint_cz": "schválit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "training course",
+          "cz": "školicí kurz"
+        },
+        {
+          "target": "professional development",
+          "cz": "profesní rozvoj"
+        },
+        {
+          "target": "to sign up",
+          "cz": "přihlásit se"
+        },
+        {
+          "target": "to enroll in",
+          "cz": "přihlásit se do"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Professional development is important to me.",
+      "tts_text": "Professional development is important to me."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This course would help me ___ my skills.",
+      "answer": "improve",
+      "hint_cz": "zlepšit"
+    }
+  ]
+}

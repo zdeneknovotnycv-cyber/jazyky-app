@@ -1,0 +1,138 @@
+{
+  "id": "en_adult_corporate_phone_video_calls_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Leaving a voicemail",
+  "title_cz": "Nechání vzkazu v hlasové schránce",
+  "vocabulary": [
+    {
+      "word": "You've reached the voicemail of...",
+      "translation_cz": "Dovolali jste se do hlasové schránky...",
+      "example": "You've reached the voicemail of Petra Nova.",
+      "example_cz": "Dovolali jste se do hlasové schránky Petry Nové.",
+      "tts_text": "You've reached the voicemail of Petra Nova."
+    },
+    {
+      "word": "Please leave a message after the beep",
+      "translation_cz": "Zanechte prosím vzkaz po zaznění tónu",
+      "example": "Please leave a message after the beep.",
+      "example_cz": "Zanechte prosím vzkaz po zaznění tónu.",
+      "tts_text": "Please leave a message after the beep."
+    },
+    {
+      "word": "I'm sorry I missed your call",
+      "translation_cz": "Je mi líto, že jsem zmeškal váš hovor",
+      "example": "Hi, I'm sorry I missed your call.",
+      "example_cz": "Dobrý den, je mi líto, že jsem zmeškal váš hovor.",
+      "tts_text": "Hi, I'm sorry I missed your call."
+    },
+    {
+      "word": "callback number",
+      "translation_cz": "telefonní číslo pro zpětné zavolání",
+      "example": "My callback number is zero seven seven, one two three.",
+      "example_cz": "Moje číslo pro zpětné zavolání je nula sedm sedm, jedna dva tři.",
+      "tts_text": "My callback number is zero seven seven, one two three."
+    },
+    {
+      "word": "as soon as possible",
+      "translation_cz": "co nejdříve",
+      "example": "Please call me back as soon as possible.",
+      "example_cz": "Zavolejte mi prosím zpět co nejdříve.",
+      "tts_text": "Please call me back as soon as possible."
+    },
+    {
+      "word": "it's regarding",
+      "translation_cz": "jedná se o",
+      "example": "It's regarding the contract we discussed.",
+      "example_cz": "Jedná se o smlouvu, kterou jsme probírali.",
+      "tts_text": "It's regarding the contract we discussed."
+    },
+    {
+      "word": "feel free to call me back",
+      "translation_cz": "klidně mi zavolejte zpět",
+      "example": "Feel free to call me back anytime today.",
+      "example_cz": "Klidně mi dnes kdykoliv zavolejte zpět.",
+      "tts_text": "Feel free to call me back anytime today."
+    },
+    {
+      "word": "thanks, bye for now",
+      "translation_cz": "díky, zatím nashle",
+      "example": "Thanks, bye for now.",
+      "example_cz": "Díky, zatím nashle.",
+      "tts_text": "Thanks, bye for now."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_leaving_voicemail",
+      "title": "Recording a voicemail message",
+      "title_cz": "Nahrání vzkazu na hlasovou schránku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "You've reached the voicemail of Petra Nova. Please leave a message after the beep.",
+          "text_cz": "Dovolali jste se do hlasové schránky Petry Nové. Zanechte prosím vzkaz po zaznění tónu."
+        },
+        {
+          "speaker": "B",
+          "text": "Hi Petra, this is Tomas from ABC Trading. I'm sorry I missed your call.",
+          "text_cz": "Dobrý den Petro, tady je Tomáš z ABC Trading. Je mi líto, že jsem zmeškal váš hovor."
+        },
+        {
+          "speaker": "B",
+          "text": "It's regarding the contract we discussed. Could you call me back as soon as possible?",
+          "text_cz": "Jedná se o smlouvu, kterou jsme probírali. Mohla byste mi zavolat zpět co nejdříve?"
+        },
+        {
+          "speaker": "B",
+          "text": "My callback number is zero seven seven, one two three. Thanks, bye for now.",
+          "text_cz": "Moje číslo je nula sedm sedm, jedna dva tři. Díky, zatím nashle."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Please leave a message after the beep.",
+      "options": [
+        "Zanechte prosím vzkaz po zaznění tónu.",
+        "Klidně mi zavolejte zpět.",
+        "Jedná se o smlouvu."
+      ],
+      "correct": "Zanechte prosím vzkaz po zaznění tónu."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'm sorry I ___ your call.",
+      "answer": "missed",
+      "hint_cz": "zmeškal"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "callback number", "cz": "číslo pro zpětné zavolání" },
+        { "target": "as soon as possible", "cz": "co nejdříve" },
+        { "target": "it's regarding", "cz": "jedná se o" },
+        { "target": "feel free to call me back", "cz": "klidně mi zavolejte zpět" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please call me back as soon as possible.",
+      "tts_text": "Please call me back as soon as possible."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Feel free to call me ___ anytime today.",
+      "answer": "back",
+      "hint_cz": "zpět"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It's regarding the contract we discussed.",
+      "tts_text": "It's regarding the contract we discussed."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_animals_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Animal Sounds",
+  "title_cz": "Zvuky zvířat",
+  "vocabulary": [
+    {
+      "word": "bellen",
+      "translation_cz": "štěkat",
+      "example": "Der Hund bellt laut.",
+      "example_cz": "Pes hlasitě štěká.",
+      "tts_text": "Der Hund bellt laut."
+    },
+    {
+      "word": "miauen",
+      "translation_cz": "mňoukat",
+      "example": "Die Katze miaut in der Nacht.",
+      "example_cz": "Kočka mňouká v noci.",
+      "tts_text": "Die Katze miaut in der Nacht."
+    },
+    {
+      "word": "muhen",
+      "translation_cz": "bučet",
+      "example": "Die Kuh muht.",
+      "example_cz": "Kráva dělá bú.",
+      "tts_text": "Die Kuh muht."
+    },
+    {
+      "word": "brüllen",
+      "translation_cz": "řvát",
+      "example": "Der Löwe brüllt im Dschungel.",
+      "example_cz": "Lev řve v džungli.",
+      "tts_text": "Der Löwe brüllt im Dschungel."
+    },
+    {
+      "word": "quaken",
+      "translation_cz": "kejhat",
+      "example": "Die Ente quakt.",
+      "example_cz": "Kachna dělá kvak.",
+      "tts_text": "Die Ente quakt."
+    },
+    {
+      "word": "zwitschern",
+      "translation_cz": "cvrlikat",
+      "example": "Der kleine Vogel zwitschert.",
+      "example_cz": "Malý ptáček cvrliká.",
+      "tts_text": "Der kleine Vogel zwitschert."
+    },
+    {
+      "word": "wiehern",
+      "translation_cz": "ržát",
+      "example": "Das Pferd wiehert fröhlich.",
+      "example_cz": "Kůň šťastně řehtá.",
+      "tts_text": "Das Pferd wiehert fröhlich."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "brüllen",
+      "options": [
+        "řvát",
+        "štěkat",
+        "bučet"
+      ],
+      "correct": "řvát"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der Hund ___ laut.",
+      "answer": "bellt",
+      "hint_cz": "štěká"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "miauen",
+          "cz": "mňoukat"
+        },
+        {
+          "target": "muhen",
+          "cz": "bučet"
+        },
+        {
+          "target": "quaken",
+          "cz": "kejhat"
+        },
+        {
+          "target": "zwitschern",
+          "cz": "cvrlikat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Löwe brüllt im Dschungel.",
+      "tts_text": "Der Löwe brüllt im Dschungel."
+    }
+  ]
+}

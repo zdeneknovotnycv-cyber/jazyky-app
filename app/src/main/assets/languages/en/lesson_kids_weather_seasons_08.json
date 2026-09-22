@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_weather_seasons_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Thunderstorms",
+  "title_cz": "Bouřky",
+  "vocabulary": [
+    {
+      "word": "thunderstorm",
+      "translation_cz": "bouřka",
+      "example": "There is a thunderstorm outside.",
+      "example_cz": "Venku je bouřka.",
+      "tts_text": "There is a thunderstorm outside."
+    },
+    {
+      "word": "thunder",
+      "translation_cz": "hrom",
+      "example": "I heard thunder last night.",
+      "example_cz": "Včera v noci jsem slyšel hrom.",
+      "tts_text": "I heard thunder last night."
+    },
+    {
+      "word": "lightning",
+      "translation_cz": "blesk",
+      "example": "The lightning was very bright.",
+      "example_cz": "Blesk byl velmi jasný.",
+      "tts_text": "The lightning was very bright."
+    },
+    {
+      "word": "scared",
+      "translation_cz": "vystrašený",
+      "example": "I feel scared during a storm.",
+      "example_cz": "Během bouřky se cítím vystrašený.",
+      "tts_text": "I feel scared during a storm."
+    },
+    {
+      "word": "stay inside",
+      "translation_cz": "zůstat uvnitř",
+      "example": "We stay inside during a storm.",
+      "example_cz": "Během bouřky zůstáváme uvnitř.",
+      "tts_text": "We stay inside during a storm."
+    },
+    {
+      "word": "storm",
+      "translation_cz": "bouře",
+      "example": "The storm passed quickly.",
+      "example_cz": "Bouře rychle přešla.",
+      "tts_text": "The storm passed quickly."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "thunder",
+      "options": [
+        "hrom",
+        "blesk",
+        "bouřka"
+      ],
+      "correct": "hrom"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "There is a ___ outside.",
+      "answer": "thunderstorm",
+      "hint_cz": "bouřka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "lightning",
+          "cz": "blesk"
+        },
+        {
+          "target": "scared",
+          "cz": "vystrašený"
+        },
+        {
+          "target": "stay inside",
+          "cz": "zůstat uvnitř"
+        },
+        {
+          "target": "storm",
+          "cz": "bouře"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "There is a thunderstorm outside.",
+      "tts_text": "There is a thunderstorm outside."
+    }
+  ]
+}

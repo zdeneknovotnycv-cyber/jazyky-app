@@ -1,0 +1,167 @@
+{
+  "id": "en_adult_corporate_project_management_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Project Risks",
+  "title_cz": "Rizika projektu",
+  "vocabulary": [
+    {
+      "word": "risk",
+      "translation_cz": "riziko",
+      "example": "We identified a new risk today.",
+      "example_cz": "Dnes jsme identifikovali nové riziko.",
+      "tts_text": "We identified a new risk today."
+    },
+    {
+      "word": "mitigate",
+      "translation_cz": "zmírnit",
+      "example": "How can we mitigate this risk?",
+      "example_cz": "Jak můžeme toto riziko zmírnit?",
+      "tts_text": "How can we mitigate this risk?"
+    },
+    {
+      "word": "impact",
+      "translation_cz": "dopad",
+      "example": "The impact on the timeline is low.",
+      "example_cz": "Dopad na časový plán je nízký.",
+      "tts_text": "The impact on the timeline is low."
+    },
+    {
+      "word": "likelihood",
+      "translation_cz": "pravděpodobnost",
+      "example": "The likelihood of this happening is medium.",
+      "example_cz": "Pravděpodobnost, že se to stane, je střední.",
+      "tts_text": "The likelihood of this happening is medium."
+    },
+    {
+      "word": "contingency plan",
+      "translation_cz": "záložní plán",
+      "example": "We need a contingency plan for this scenario.",
+      "example_cz": "Pro tento scénář potřebujeme záložní plán.",
+      "tts_text": "We need a contingency plan for this scenario."
+    },
+    {
+      "word": "risk register",
+      "translation_cz": "registr rizik",
+      "example": "Please add it to the risk register.",
+      "example_cz": "Přidejte to prosím do registru rizik.",
+      "tts_text": "Please add it to the risk register."
+    },
+    {
+      "word": "assumption",
+      "translation_cz": "předpoklad",
+      "example": "This estimate is based on an assumption.",
+      "example_cz": "Tento odhad vychází z předpokladu.",
+      "tts_text": "This estimate is based on an assumption."
+    },
+    {
+      "word": "escalate",
+      "translation_cz": "eskalovat",
+      "example": "We may need to escalate this issue.",
+      "example_cz": "Možná budeme muset tento problém eskalovat.",
+      "tts_text": "We may need to escalate this issue."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_risk_review",
+      "title": "Reviewing a new risk",
+      "title_cz": "Kontrola nového rizika",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "We identified a new risk today with the vendor.",
+          "text_cz": "Dnes jsme identifikovali nové riziko s dodavatelem."
+        },
+        {
+          "speaker": "B",
+          "text": "What's the likelihood and impact?",
+          "text_cz": "Jaká je pravděpodobnost a dopad?"
+        },
+        {
+          "speaker": "A",
+          "text": "Medium likelihood, but the impact on the timeline could be high.",
+          "text_cz": "Střední pravděpodobnost, ale dopad na časový plán může být velký."
+        },
+        {
+          "speaker": "B",
+          "text": "Let's add it to the risk register and prepare a contingency plan.",
+          "text_cz": "Přidejme to do registru rizik a připravme záložní plán."
+        }
+      ]
+    },
+    {
+      "id": "conv_risk_escalate",
+      "title": "Deciding to escalate",
+      "title_cz": "Rozhodnutí o eskalaci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "This assumption turned out to be wrong.",
+          "text_cz": "Tento předpoklad se ukázal jako nesprávný."
+        },
+        {
+          "speaker": "B",
+          "text": "Then we should escalate this issue to management.",
+          "text_cz": "Pak bychom měli tento problém eskalovat na management."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "risk",
+      "options": [
+        "riziko",
+        "dopad",
+        "pravděpodobnost"
+      ],
+      "correct": "riziko"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "How can we ___ this risk?",
+      "answer": "mitigate",
+      "hint_cz": "zmírnit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We need a ___ for this scenario.",
+      "answer": "contingency plan",
+      "hint_cz": "záložní plán"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "risk register",
+          "cz": "registr rizik"
+        },
+        {
+          "target": "assumption",
+          "cz": "předpoklad"
+        },
+        {
+          "target": "escalate",
+          "cz": "eskalovat"
+        },
+        {
+          "target": "impact",
+          "cz": "dopad"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We identified a new risk today with the vendor.",
+      "tts_text": "We identified a new risk today with the vendor."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "What's the likelihood and impact?",
+      "tts_text": "What's the likelihood and impact?"
+    }
+  ]
+}

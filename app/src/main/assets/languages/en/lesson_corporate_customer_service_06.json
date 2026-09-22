@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_customer_service_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Processing a return",
+  "title_cz": "Zpracování vrácení zboží",
+  "vocabulary": [
+    {
+      "word": "Do you have your receipt?",
+      "translation_cz": "Máte účtenku?",
+      "example": "Do you have your receipt with you?",
+      "example_cz": "Máte u sebe účtenku?",
+      "tts_text": "Do you have your receipt with you?"
+    },
+    {
+      "word": "return policy",
+      "translation_cz": "podmínky vrácení zboží",
+      "example": "Our return policy allows returns within 30 days.",
+      "example_cz": "Naše podmínky vrácení umožňují vrácení do 30 dnů.",
+      "tts_text": "Our return policy allows returns within 30 days."
+    },
+    {
+      "word": "original packaging",
+      "translation_cz": "originální obal",
+      "example": "Please bring the item in its original packaging.",
+      "example_cz": "Zboží přineste prosím v originálním obalu.",
+      "tts_text": "Please bring the item in its original packaging."
+    },
+    {
+      "word": "refund to your account",
+      "translation_cz": "vrácení peněz na váš účet",
+      "example": "The refund to your account takes 5 business days.",
+      "example_cz": "Vrácení peněz na váš účet trvá 5 pracovních dní.",
+      "tts_text": "The refund to your account takes 5 business days."
+    },
+    {
+      "word": "exchange",
+      "translation_cz": "vyměnit, výměna",
+      "example": "Would you like to exchange it for another size?",
+      "example_cz": "Chtěl byste to vyměnit za jinou velikost?",
+      "tts_text": "Would you like to exchange it for another size?"
+    },
+    {
+      "word": "unopened",
+      "translation_cz": "neotevřený",
+      "example": "The item must be unopened to be returned.",
+      "example_cz": "Zboží musí být pro vrácení neotevřené.",
+      "tts_text": "The item must be unopened to be returned."
+    },
+    {
+      "word": "proof of purchase",
+      "translation_cz": "doklad o koupi",
+      "example": "Please provide proof of purchase.",
+      "example_cz": "Uveďte prosím doklad o koupi.",
+      "tts_text": "Please provide proof of purchase."
+    },
+    {
+      "word": "processing time",
+      "translation_cz": "doba zpracování",
+      "example": "The processing time is usually two days.",
+      "example_cz": "Doba zpracování je obvykle dva dny.",
+      "tts_text": "The processing time is usually two days."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_06",
+      "title": "A customer wants to return an item",
+      "title_cz": "Zákazník chce vrátit zboží",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'd like to return this jacket. Do you have your receipt?",
+          "text_cz": "Chtěl bych vrátit tuto bundu. Máte účtenku?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, here it is. Is it still in the return policy period?",
+          "text_cz": "Ano, tady je. Je to ještě v období podmínek vrácení?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, you bought it two weeks ago. Since it's unopened, we can process a full refund.",
+          "text_cz": "Ano, koupil jste to před dvěma týdny. Jelikož je to neotevřené, můžeme provést plnou vrácenou platbu."
+        },
+        {
+          "speaker": "B",
+          "text": "Great, how long will the refund to my account take?",
+          "text_cz": "Skvělé, jak dlouho bude trvat vrácení peněz na můj účet?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Do you have your receipt?",
+      "options": [
+        "Máte účtenku?",
+        "Vyměnit",
+        "Doklad o koupi"
+      ],
+      "correct": "Máte účtenku?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please bring the item in its original ___.",
+      "answer": "packaging",
+      "hint_cz": "obalu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "return policy",
+          "cz": "podmínky vrácení zboží"
+        },
+        {
+          "target": "exchange",
+          "cz": "vyměnit, výměna"
+        },
+        {
+          "target": "unopened",
+          "cz": "neotevřený"
+        },
+        {
+          "target": "proof of purchase",
+          "cz": "doklad o koupi"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Do you have your receipt with you?",
+      "tts_text": "Do you have your receipt with you?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ time is usually two days.",
+      "answer": "processing",
+      "hint_cz": "doba zpracování"
+    }
+  ]
+}

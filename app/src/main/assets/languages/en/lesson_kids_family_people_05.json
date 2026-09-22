@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_family_people_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Age and Birthdays",
+  "title_cz": "Věk a narozeniny",
+  "vocabulary": [
+    {
+      "word": "How old are you?",
+      "translation_cz": "Kolik je ti let?",
+      "example": "How old are you? I am eight.",
+      "example_cz": "Kolik je ti let? Je mi osm.",
+      "tts_text": "How old are you? I am eight."
+    },
+    {
+      "word": "years old",
+      "translation_cz": "let (roků)",
+      "example": "I am eight years old.",
+      "example_cz": "Je mi osm let.",
+      "tts_text": "I am eight years old."
+    },
+    {
+      "word": "birthday",
+      "translation_cz": "narozeniny",
+      "example": "My birthday is in May.",
+      "example_cz": "Moje narozeniny jsou v květnu.",
+      "tts_text": "My birthday is in May."
+    },
+    {
+      "word": "cake",
+      "translation_cz": "dort",
+      "example": "We have a big cake.",
+      "example_cz": "Máme velký dort.",
+      "tts_text": "We have a big cake."
+    },
+    {
+      "word": "candles",
+      "translation_cz": "svíčky",
+      "example": "I blow out the candles.",
+      "example_cz": "Sfoukávám svíčky.",
+      "tts_text": "I blow out the candles."
+    },
+    {
+      "word": "present",
+      "translation_cz": "dárek",
+      "example": "I got a nice present.",
+      "example_cz": "Dostal jsem pěkný dárek.",
+      "tts_text": "I got a nice present."
+    },
+    {
+      "word": "celebrate",
+      "translation_cz": "slavit",
+      "example": "We celebrate every year.",
+      "example_cz": "Slavíme každý rok.",
+      "tts_text": "We celebrate every year."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "birthday",
+      "options": [
+        "narozeniny",
+        "svíčky",
+        "dort"
+      ],
+      "correct": "narozeniny"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am eight ___ old.",
+      "answer": "years",
+      "hint_cz": "let"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "cake",
+          "cz": "dort"
+        },
+        {
+          "target": "candles",
+          "cz": "svíčky"
+        },
+        {
+          "target": "present",
+          "cz": "dárek"
+        },
+        {
+          "target": "celebrate",
+          "cz": "slavit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My birthday is in May.",
+      "tts_text": "My birthday is in May."
+    }
+  ]
+}

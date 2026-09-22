@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_smalltalk_networking_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing weather at work",
+  "title_cz": "Povídání o počasí v práci",
+  "vocabulary": [
+    {
+      "word": "What's the weather like?",
+      "translation_cz": "Jaké je počasí?",
+      "example": "What's the weather like outside?",
+      "example_cz": "Jaké je venku počasí?",
+      "tts_text": "What's the weather like outside?"
+    },
+    {
+      "word": "It's freezing",
+      "translation_cz": "Je mrznoucí zima",
+      "example": "It's freezing today.",
+      "example_cz": "Dnes je mrznoucí zima.",
+      "tts_text": "It's freezing today."
+    },
+    {
+      "word": "sunny",
+      "translation_cz": "slunečno",
+      "example": "It's sunny and warm today.",
+      "example_cz": "Dnes je slunečno a teplo.",
+      "tts_text": "It's sunny and warm today."
+    },
+    {
+      "word": "bring an umbrella",
+      "translation_cz": "vzít si deštník",
+      "example": "You should bring an umbrella.",
+      "example_cz": "Měl bys vzít deštník.",
+      "tts_text": "You should bring an umbrella."
+    },
+    {
+      "word": "forecast",
+      "translation_cz": "předpověď",
+      "example": "The forecast says it will rain.",
+      "example_cz": "Předpověď říká, že bude pršet.",
+      "tts_text": "The forecast says it will rain."
+    },
+    {
+      "word": "It's pouring",
+      "translation_cz": "Lije jako z konve",
+      "example": "It's pouring outside right now.",
+      "example_cz": "Právě teď venku lije jako z konve.",
+      "tts_text": "It's pouring outside right now."
+    },
+    {
+      "word": "perfect weather for",
+      "translation_cz": "ideální počasí na",
+      "example": "It's perfect weather for a walk.",
+      "example_cz": "Je to ideální počasí na procházku.",
+      "tts_text": "It's perfect weather for a walk."
+    },
+    {
+      "word": "chilly",
+      "translation_cz": "chladno",
+      "example": "It's a bit chilly this morning.",
+      "example_cz": "Dnes ráno je trochu chladno.",
+      "tts_text": "It's a bit chilly this morning."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_weather_talk",
+      "title": "Small talk about the weather",
+      "title_cz": "Řeč o počasí",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "What's the weather like outside?",
+          "text_cz": "Jaké je venku počasí?"
+        },
+        {
+          "speaker": "B",
+          "text": "It's pouring right now. Did you bring an umbrella?",
+          "text_cz": "Právě teď lije jako z konve. Vzal sis deštník?"
+        },
+        {
+          "speaker": "A",
+          "text": "No, I didn't. The forecast said it would be sunny.",
+          "text_cz": "Ne, nevzal. Předpověď říkala, že bude slunečno."
+        },
+        {
+          "speaker": "B",
+          "text": "Well, it's freezing too. Not perfect weather for lunch outside.",
+          "text_cz": "No, a k tomu ještě mrzne. Není to ideální počasí na oběd venku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "forecast",
+      "options": [
+        "předpověď",
+        "deštník",
+        "slunečno"
+      ],
+      "correct": "předpověď"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You should bring an ___.",
+      "answer": "umbrella",
+      "hint_cz": "deštník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "It's ___ outside right now.",
+      "answer": "pouring",
+      "hint_cz": "lije"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sunny",
+          "cz": "slunečno"
+        },
+        {
+          "target": "chilly",
+          "cz": "chladno"
+        },
+        {
+          "target": "forecast",
+          "cz": "předpověď"
+        },
+        {
+          "target": "It's freezing",
+          "cz": "Je mrznoucí zima"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "What's the weather like?",
+      "tts_text": "What's the weather like?"
+    }
+  ]
+}

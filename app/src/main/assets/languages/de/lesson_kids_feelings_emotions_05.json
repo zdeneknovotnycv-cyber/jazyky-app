@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_feelings_emotions_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Müde",
+  "title_cz": "Unavený",
+  "vocabulary": [
+    {
+      "word": "müde",
+      "translation_cz": "unavený",
+      "example": "Ich bin heute Abend sehr müde.",
+      "example_cz": "Dnes večer jsem velmi unavený.",
+      "tts_text": "Ich bin heute Abend sehr müde."
+    },
+    {
+      "word": "gähnen",
+      "translation_cz": "zívat",
+      "example": "Ich gähne vor dem Schlafengehen.",
+      "example_cz": "Před spaním zívám.",
+      "tts_text": "Ich gähne vor dem Schlafengehen."
+    },
+    {
+      "word": "schläfrig",
+      "translation_cz": "ospalý",
+      "example": "Mein kleiner Bruder sieht schläfrig aus.",
+      "example_cz": "Můj malý bratr vypadá ospale.",
+      "tts_text": "Mein kleiner Bruder sieht schläfrig aus."
+    },
+    {
+      "word": "sich ausruhen",
+      "translation_cz": "odpočívat",
+      "example": "Ich muss mich eine Weile ausruhen.",
+      "example_cz": "Potřebuji si chvíli odpočinout.",
+      "tts_text": "Ich muss mich eine Weile ausruhen."
+    },
+    {
+      "word": "erschöpft",
+      "translation_cz": "vyčerpaný",
+      "example": "Nach dem Spiel fühlte ich mich erschöpft.",
+      "example_cz": "Po zápase jsem se cítil vyčerpaný.",
+      "tts_text": "Nach dem Spiel fühlte ich mich erschöpft."
+    },
+    {
+      "word": "das Nickerchen",
+      "translation_cz": "odpolední spánek",
+      "example": "Ich mache nach dem Mittagessen ein Nickerchen.",
+      "example_cz": "Po obědě si dávám odpolední spánek.",
+      "tts_text": "Ich mache nach dem Mittagessen ein Nickerchen."
+    },
+    {
+      "word": "die Energie",
+      "translation_cz": "energie",
+      "example": "Ich habe keine Energie mehr.",
+      "example_cz": "Nemám už žádnou energii.",
+      "tts_text": "Ich habe keine Energie mehr."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "müde",
+      "options": [
+        "unavený",
+        "smutný",
+        "radost"
+      ],
+      "correct": "unavený"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bin heute Abend sehr ___.",
+      "answer": "müde",
+      "hint_cz": "unavený"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "gähnen",
+          "cz": "zívat"
+        },
+        {
+          "target": "schläfrig",
+          "cz": "ospalý"
+        },
+        {
+          "target": "sich ausruhen",
+          "cz": "odpočívat"
+        },
+        {
+          "target": "erschöpft",
+          "cz": "vyčerpaný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich muss mich eine Weile ausruhen.",
+      "tts_text": "Ich muss mich eine Weile ausruhen."
+    }
+  ]
+}

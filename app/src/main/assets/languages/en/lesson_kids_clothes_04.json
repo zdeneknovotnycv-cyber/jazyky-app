@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_clothes_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Shoes",
+  "title_cz": "Boty",
+  "vocabulary": [
+    {
+      "word": "shoes",
+      "translation_cz": "boty",
+      "example": "My shoes are black.",
+      "example_cz": "Mé boty jsou černé.",
+      "tts_text": "My shoes are black."
+    },
+    {
+      "word": "sneakers",
+      "translation_cz": "tenisky",
+      "example": "I run in my sneakers.",
+      "example_cz": "V teniskách běhám.",
+      "tts_text": "I run in my sneakers."
+    },
+    {
+      "word": "slippers",
+      "translation_cz": "papuče",
+      "example": "I wear slippers at home.",
+      "example_cz": "Doma nosím papuče.",
+      "tts_text": "I wear slippers at home."
+    },
+    {
+      "word": "laces",
+      "translation_cz": "tkaničky",
+      "example": "My laces are untied.",
+      "example_cz": "Mám rozvázané tkaničky.",
+      "tts_text": "My laces are untied."
+    },
+    {
+      "word": "size",
+      "translation_cz": "velikost",
+      "example": "What is your shoe size?",
+      "example_cz": "Jakou máš velikost bot?",
+      "tts_text": "What is your shoe size?"
+    },
+    {
+      "word": "rain boots",
+      "translation_cz": "holínky",
+      "example": "I wear rain boots when it rains.",
+      "example_cz": "Když prší, nosím holínky.",
+      "tts_text": "I wear rain boots when it rains."
+    },
+    {
+      "word": "try on",
+      "translation_cz": "zkoušet si",
+      "example": "I try on new shoes.",
+      "example_cz": "Zkouším si nové boty.",
+      "tts_text": "I try on new shoes."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "slippers",
+      "options": [
+        "papuče",
+        "tenisky",
+        "boty"
+      ],
+      "correct": "papuče"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My ___ are untied.",
+      "answer": "laces",
+      "hint_cz": "tkaničky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "shoes",
+          "cz": "boty"
+        },
+        {
+          "target": "sneakers",
+          "cz": "tenisky"
+        },
+        {
+          "target": "size",
+          "cz": "velikost"
+        },
+        {
+          "target": "try on",
+          "cz": "zkoušet si"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I try on new shoes.",
+      "tts_text": "I try on new shoes."
+    }
+  ]
+}

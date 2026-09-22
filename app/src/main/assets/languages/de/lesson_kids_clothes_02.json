@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_clothes_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Winter Clothes",
+  "title_cz": "Zimní oblečení",
+  "vocabulary": [
+    {
+      "word": "der Mantel",
+      "translation_cz": "kabát",
+      "example": "Ich trage im Winter einen warmen Mantel.",
+      "example_cz": "V zimě nosím teplý kabát.",
+      "tts_text": "Ich trage im Winter einen warmen Mantel."
+    },
+    {
+      "word": "der Schal",
+      "translation_cz": "šála",
+      "example": "Der Schal wärmt meinen Hals.",
+      "example_cz": "Šála mi hřeje krk.",
+      "tts_text": "Der Schal wärmt meinen Hals."
+    },
+    {
+      "word": "die Handschuhe",
+      "translation_cz": "rukavice",
+      "example": "Ich ziehe meine Handschuhe an.",
+      "example_cz": "Obleču si rukavice.",
+      "tts_text": "Ich ziehe meine Handschuhe an."
+    },
+    {
+      "word": "die Mütze",
+      "translation_cz": "čepice",
+      "example": "Meine Mütze ist sehr warm.",
+      "example_cz": "Moje čepice je velmi teplá.",
+      "tts_text": "Meine Mütze ist sehr warm."
+    },
+    {
+      "word": "die Stiefel",
+      "translation_cz": "boty",
+      "example": "Ich trage Stiefel im Schnee.",
+      "example_cz": "Ve sněhu nosím boty.",
+      "tts_text": "Ich trage Stiefel im Schnee."
+    },
+    {
+      "word": "der Schneeanzug",
+      "translation_cz": "kombinéza",
+      "example": "Das Baby trägt einen Schneeanzug.",
+      "example_cz": "Miminko má na sobě kombinézu.",
+      "tts_text": "Das Baby trägt einen Schneeanzug."
+    },
+    {
+      "word": "kalt",
+      "translation_cz": "zima",
+      "example": "Draußen ist es sehr kalt.",
+      "example_cz": "Venku je velká zima.",
+      "tts_text": "Draußen ist es sehr kalt."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Schal",
+      "options": [
+        "šála",
+        "kabát",
+        "rukavice"
+      ],
+      "correct": "šála"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich trage im Winter einen warmen ___.",
+      "answer": "Mantel",
+      "hint_cz": "kabát"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Handschuhe",
+          "cz": "rukavice"
+        },
+        {
+          "target": "die Mütze",
+          "cz": "čepice"
+        },
+        {
+          "target": "die Stiefel",
+          "cz": "boty"
+        },
+        {
+          "target": "der Schneeanzug",
+          "cz": "kombinéza"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Draußen ist es sehr kalt.",
+      "tts_text": "Draußen ist es sehr kalt."
+    }
+  ]
+}

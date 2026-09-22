@@ -1,0 +1,162 @@
+{
+  "id": "en_adult_corporate_it_support_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Requesting New Equipment",
+  "title_cz": "Žádost o nové vybavení",
+  "vocabulary": [
+    {
+      "word": "equipment",
+      "translation_cz": "vybavení",
+      "example": "I would like to request new equipment for my desk.",
+      "example_cz": "Rád bych požádal o nové vybavení na svůj stůl.",
+      "tts_text": "I would like to request new equipment for my desk."
+    },
+    {
+      "word": "monitor",
+      "translation_cz": "monitor",
+      "example": "Could I get an additional monitor, please?",
+      "example_cz": "Mohl bych prosím dostat další monitor?",
+      "tts_text": "Could I get an additional monitor, please?"
+    },
+    {
+      "word": "keyboard and mouse",
+      "translation_cz": "klávesnice a myš",
+      "example": "My keyboard and mouse are broken.",
+      "example_cz": "Moje klávesnice a myš jsou rozbité.",
+      "tts_text": "My keyboard and mouse are broken."
+    },
+    {
+      "word": "headset",
+      "translation_cz": "sluchátka s mikrofonem",
+      "example": "I need a headset for online meetings.",
+      "example_cz": "Potřebuji sluchátka s mikrofonem na online schůzky.",
+      "tts_text": "I need a headset for online meetings."
+    },
+    {
+      "word": "replace",
+      "translation_cz": "vyměnit",
+      "example": "Can you replace my old mouse with a new one?",
+      "example_cz": "Můžete mi vyměnit starou myš za novou?",
+      "tts_text": "Can you replace my old mouse with a new one?"
+    },
+    {
+      "word": "inventory",
+      "translation_cz": "inventář / sklad",
+      "example": "Let me check if we have one in our inventory.",
+      "example_cz": "Zkontroluji, jestli ho máme na skladě.",
+      "tts_text": "Let me check if we have one in our inventory."
+    },
+    {
+      "word": "delivery",
+      "translation_cz": "dodání / doručení",
+      "example": "The delivery usually takes about three business days.",
+      "example_cz": "Dodání obvykle trvá asi tři pracovní dny.",
+      "tts_text": "The delivery usually takes about three business days."
+    },
+    {
+      "word": "company policy",
+      "translation_cz": "firemní pravidla",
+      "example": "New equipment requests must follow company policy.",
+      "example_cz": "Žádosti o nové vybavení musí odpovídat firemním pravidlům.",
+      "tts_text": "New equipment requests must follow company policy."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_equipment_request",
+      "title": "Requesting a new monitor",
+      "title_cz": "Žádost o nový monitor",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I would like to request an additional monitor for my desk.",
+          "text_cz": "Rád bych požádal o další monitor na svůj stůl."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, let me check our inventory first.",
+          "text_cz": "Jistě, nejdřív zkontroluji náš inventář."
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you. My keyboard is also quite old, could it be replaced too?",
+          "text_cz": "Děkuji. Moje klávesnice je také dost stará, dala by se také vyměnit?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, no problem. The delivery usually takes about three business days.",
+          "text_cz": "Ano, žádný problém. Dodání obvykle trvá asi tři pracovní dny."
+        }
+      ]
+    },
+    {
+      "id": "conv_headset_request",
+      "title": "Requesting a headset",
+      "title_cz": "Žádost o sluchátka",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I need a headset for online meetings. Is that something I can request?",
+          "text_cz": "Potřebuji sluchátka na online schůzky. Můžu o to požádat?"
+        },
+        {
+          "speaker": "B",
+          "text": "Of course, just follow our standard company policy and submit the request form.",
+          "text_cz": "Samozřejmě, stačí postupovat podle našich firemních pravidel a vyplnit formulář žádosti."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "headset",
+      "options": [
+        "sluchátka s mikrofonem",
+        "monitor",
+        "klávesnice"
+      ],
+      "correct": "sluchátka s mikrofonem"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Could I get an additional ___, please?",
+      "answer": "monitor",
+      "hint_cz": "monitor"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "equipment",
+          "cz": "vybavení"
+        },
+        {
+          "target": "inventory",
+          "cz": "inventář"
+        },
+        {
+          "target": "delivery",
+          "cz": "dodání"
+        },
+        {
+          "target": "company policy",
+          "cz": "firemní pravidla"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I would like to request new equipment for my desk.",
+      "tts_text": "I would like to request new equipment for my desk."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can you ___ my old mouse with a new one?",
+      "answer": "replace",
+      "hint_cz": "vyměnit"
+    }
+  ]
+}

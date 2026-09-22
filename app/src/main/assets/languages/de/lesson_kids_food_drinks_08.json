@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_food_drinks_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "At a Restaurant (Kids Menu)",
+  "title_cz": "V restauraci (dětské menu)",
+  "vocabulary": [
+    {
+      "word": "die Speisekarte",
+      "translation_cz": "jídelní lístek",
+      "example": "Kann ich die Speisekarte sehen?",
+      "example_cz": "Můžu vidět jídelní lístek?",
+      "tts_text": "Kann ich die Speisekarte sehen?"
+    },
+    {
+      "word": "der Kellner",
+      "translation_cz": "číšník",
+      "example": "Der Kellner bringt unser Essen.",
+      "example_cz": "Číšník nám nese jídlo.",
+      "tts_text": "Der Kellner bringt unser Essen."
+    },
+    {
+      "word": "bestellen",
+      "translation_cz": "objednat si",
+      "example": "Ich bestelle Hähnchen mit Pommes.",
+      "example_cz": "Objednávám si kuře a hranolky.",
+      "tts_text": "Ich bestelle Hähnchen mit Pommes."
+    },
+    {
+      "word": "die Pommes",
+      "translation_cz": "hranolky",
+      "example": "Ich mag Pommes mit Ketchup.",
+      "example_cz": "Mám rád hranolky s kečupem.",
+      "tts_text": "Ich mag Pommes mit Ketchup."
+    },
+    {
+      "word": "bitte",
+      "translation_cz": "prosím",
+      "example": "Wasser, bitte.",
+      "example_cz": "Vodu, prosím.",
+      "tts_text": "Wasser, bitte."
+    },
+    {
+      "word": "danke",
+      "translation_cz": "děkuji",
+      "example": "Danke für das Essen.",
+      "example_cz": "Děkuji za jídlo.",
+      "tts_text": "Danke für das Essen."
+    },
+    {
+      "word": "die Rechnung",
+      "translation_cz": "účet",
+      "example": "Papa bezahlt die Rechnung.",
+      "example_cz": "Tatínek platí účet.",
+      "tts_text": "Papa bezahlt die Rechnung."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Speisekarte",
+      "options": [
+        "jídelní lístek",
+        "účet",
+        "číšník"
+      ],
+      "correct": "jídelní lístek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich mag ___ mit Ketchup.",
+      "answer": "Pommes",
+      "hint_cz": "hranolky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Kellner",
+          "cz": "číšník"
+        },
+        {
+          "target": "bestellen",
+          "cz": "objednat si"
+        },
+        {
+          "target": "bitte",
+          "cz": "prosím"
+        },
+        {
+          "target": "die Rechnung",
+          "cz": "účet"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich bestelle Hähnchen mit Pommes.",
+      "tts_text": "Ich bestelle Hähnchen mit Pommes."
+    }
+  ]
+}

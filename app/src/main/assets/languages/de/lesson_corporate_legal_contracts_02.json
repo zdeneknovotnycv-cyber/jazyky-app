@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_legal_contracts_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Grundlagen der Geheimhaltungsvereinbarung",
+  "title_cz": "Základy dohody o mlčenlivosti",
+  "vocabulary": [
+    {
+      "word": "vertrauliche Informationen",
+      "translation_cz": "důvěrné informace",
+      "example": "Bitte schützen Sie alle vertraulichen Informationen.",
+      "example_cz": "Prosím chraňte veškeré důvěrné informace.",
+      "tts_text": "Bitte schützen Sie alle vertraulichen Informationen."
+    },
+    {
+      "word": "die Geheimhaltungsvereinbarung",
+      "translation_cz": "dohoda o mlčenlivosti",
+      "example": "Wir müssen zuerst eine Geheimhaltungsvereinbarung unterschreiben.",
+      "example_cz": "Nejdřív musíme podepsat dohodu o mlčenlivosti.",
+      "tts_text": "Wir müssen zuerst eine Geheimhaltungsvereinbarung unterschreiben."
+    },
+    {
+      "word": "weitergeben",
+      "translation_cz": "zveřejnit / sdělit",
+      "example": "Geben Sie dies nicht an Dritte weiter.",
+      "example_cz": "Nesdělujte to třetím stranám.",
+      "tts_text": "Geben Sie dies nicht an Dritte weiter."
+    },
+    {
+      "word": "das Geschäftsgeheimnis",
+      "translation_cz": "obchodní tajemství",
+      "example": "Diese Formel ist ein Geschäftsgeheimnis.",
+      "example_cz": "Tento vzorec je obchodní tajemství.",
+      "tts_text": "Diese Formel ist ein Geschäftsgeheimnis."
+    },
+    {
+      "word": "der Dritte",
+      "translation_cz": "třetí strana",
+      "example": "Die Information darf mit keinem Dritten geteilt werden.",
+      "example_cz": "Informace nesmí být sdíleny s žádnou třetí stranou.",
+      "tts_text": "Die Information darf mit keinem Dritten geteilt werden."
+    },
+    {
+      "word": "die Verletzung der Vertraulichkeit",
+      "translation_cz": "porušení mlčenlivosti",
+      "example": "Das wäre eine Verletzung der Vertraulichkeit.",
+      "example_cz": "To by bylo porušení mlčenlivosti.",
+      "tts_text": "Das wäre eine Verletzung der Vertraulichkeit."
+    },
+    {
+      "word": "die Laufzeit der Vereinbarung",
+      "translation_cz": "doba trvání dohody",
+      "example": "Wie lang ist die Laufzeit der Vereinbarung?",
+      "example_cz": "Jaká je doba trvání dohody?",
+      "tts_text": "Wie lang ist die Laufzeit der Vereinbarung?"
+    },
+    {
+      "word": "unter NDA unterschreiben",
+      "translation_cz": "podepsat pod dohodou o mlčenlivosti",
+      "example": "Wir haben vor dem Treffen unter NDA unterschrieben.",
+      "example_cz": "Podepsali jsme dohodu o mlčenlivosti před schůzkou.",
+      "tts_text": "Wir haben vor dem Treffen unter NDA unterschrieben."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_02",
+      "title": "Eine Geheimhaltungsvereinbarung unterschreiben",
+      "title_cz": "Podpis dohody o mlčenlivosti",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Bevor wir beginnen, müssen wir eine Geheimhaltungsvereinbarung unterschreiben.",
+          "text_cz": "Než začneme, musíme podepsat dohodu o mlčenlivosti."
+        },
+        {
+          "speaker": "B",
+          "text": "Kein Problem. Welche vertraulichen Informationen sind abgedeckt?",
+          "text_cz": "Žádný problém. Jaké důvěrné informace jsou zahrnuty?"
+        },
+        {
+          "speaker": "A",
+          "text": "Alle technischen Details und Geschäftsgeheimnisse von heute.",
+          "text_cz": "Všechny technické detaily a obchodní tajemství probíraná dnes."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden. Ich werde nichts an Dritte weitergeben.",
+          "text_cz": "Rozumím. Nic nesdělím žádné třetí straně."
+        },
+        {
+          "speaker": "A",
+          "text": "Gut. Wie lang ist die Laufzeit der Vereinbarung?",
+          "text_cz": "Dobře. Jaká je doba trvání dohody?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich glaube, zwei Jahre nach der Unterschrift.",
+          "text_cz": "Myslím, že dva roky od podpisu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "vertrauliche Informationen",
+      "options": [
+        "důvěrné informace",
+        "dohoda o mlčenlivosti",
+        "zveřejnit / sdělit"
+      ],
+      "correct": "důvěrné informace"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Diese Formel ist ein ___",
+      "answer": "Geschäftsgeheimnis",
+      "hint_cz": "obchodní tajemství"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "vertrauliche Informationen",
+          "cz": "důvěrné informace"
+        },
+        {
+          "target": "die Geheimhaltungsvereinbarung",
+          "cz": "dohoda o mlčenlivosti"
+        },
+        {
+          "target": "weitergeben",
+          "cz": "zveřejnit / sdělit"
+        },
+        {
+          "target": "das Geschäftsgeheimnis",
+          "cz": "obchodní tajemství"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Die Information darf mit keinem Dritten geteilt werden.",
+      "tts_text": "Die Information darf mit keinem Dritten geteilt werden."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das wäre eine Verletzung der ___",
+      "answer": "Vertraulichkeit",
+      "hint_cz": "porušení mlčenlivosti"
+    }
+  ]
+}

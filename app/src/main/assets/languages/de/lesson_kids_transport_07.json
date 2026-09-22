@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_transport_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ampeln und Sicherheit",
+  "title_cz": "Semafory a bezpečnost",
+  "vocabulary": [
+    {
+      "word": "die Ampel",
+      "translation_cz": "semafor",
+      "example": "Schau auf die Ampel.",
+      "example_cz": "Podívej se na semafor.",
+      "tts_text": "Schau auf die Ampel."
+    },
+    {
+      "word": "rot",
+      "translation_cz": "červená",
+      "example": "Halte an, wenn die Ampel rot ist.",
+      "example_cz": "Zastav, když je semafor červený.",
+      "tts_text": "Halte an, wenn die Ampel rot ist."
+    },
+    {
+      "word": "grün",
+      "translation_cz": "zelená",
+      "example": "Gehe, wenn die Ampel grün ist.",
+      "example_cz": "Jdi, když je semafor zelený.",
+      "tts_text": "Gehe, wenn die Ampel grün ist."
+    },
+    {
+      "word": "anhalten",
+      "translation_cz": "zastavit",
+      "example": "Halte immer an und schau.",
+      "example_cz": "Vždy zastav a podívej se.",
+      "tts_text": "Halte immer an und schau."
+    },
+    {
+      "word": "die Gefahr",
+      "translation_cz": "nebezpečí",
+      "example": "Die Straße kann eine Gefahr sein.",
+      "example_cz": "Silnice může být nebezpečná.",
+      "tts_text": "Die Straße kann eine Gefahr sein."
+    },
+    {
+      "word": "vorsichtig",
+      "translation_cz": "opatrný",
+      "example": "Sei vorsichtig in der Nähe der Straße.",
+      "example_cz": "Buď opatrný poblíž ulice.",
+      "tts_text": "Sei vorsichtig in der Nähe der Straße."
+    },
+    {
+      "word": "Händchen halten",
+      "translation_cz": "držet se za ruce",
+      "example": "Wir halten Händchen, wenn wir überqueren.",
+      "example_cz": "Když přecházíme, držíme se za ruce.",
+      "tts_text": "Wir halten Händchen, wenn wir überqueren."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Ampel",
+      "options": [
+        "semafor",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "semafor"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Schau auf ___.",
+      "answer": "die Ampel",
+      "hint_cz": "semafor"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "rot",
+          "cz": "červená"
+        },
+        {
+          "target": "grün",
+          "cz": "zelená"
+        },
+        {
+          "target": "anhalten",
+          "cz": "zastavit"
+        },
+        {
+          "target": "die Gefahr",
+          "cz": "nebezpečí"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Halte immer an und schau.",
+      "tts_text": "Halte immer an und schau."
+    }
+  ]
+}

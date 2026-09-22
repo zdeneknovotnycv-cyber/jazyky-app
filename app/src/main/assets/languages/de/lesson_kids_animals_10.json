@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_animals_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Endangered Animals",
+  "title_cz": "Ohrožená zvířata",
+  "vocabulary": [
+    {
+      "word": "bedroht",
+      "translation_cz": "ohrožený",
+      "example": "Der Panda ist ein bedrohtes Tier.",
+      "example_cz": "Panda je ohrožené zvíře.",
+      "tts_text": "Der Panda ist ein bedrohtes Tier."
+    },
+    {
+      "word": "schützen",
+      "translation_cz": "chránit",
+      "example": "Wir müssen wilde Tiere schützen.",
+      "example_cz": "Musíme chránit divoká zvířata.",
+      "tts_text": "Wir müssen wilde Tiere schützen."
+    },
+    {
+      "word": "der Wald",
+      "translation_cz": "les",
+      "example": "Viele Tiere leben im Wald.",
+      "example_cz": "Mnoho zvířat žije v lese.",
+      "tts_text": "Viele Tiere leben im Wald."
+    },
+    {
+      "word": "der Tiger",
+      "translation_cz": "tygr",
+      "example": "Tiger werden immer seltener.",
+      "example_cz": "Tygři jsou stále vzácnější.",
+      "tts_text": "Tiger werden immer seltener."
+    },
+    {
+      "word": "das Nashorn",
+      "translation_cz": "nosorožec",
+      "example": "Das Nashorn hat ein großes Horn.",
+      "example_cz": "Nosorožec má velký roh.",
+      "tts_text": "Das Nashorn hat ein großes Horn."
+    },
+    {
+      "word": "die Natur",
+      "translation_cz": "příroda",
+      "example": "Wir müssen die Natur pflegen.",
+      "example_cz": "Musíme se starat o přírodu.",
+      "tts_text": "Wir müssen die Natur pflegen."
+    },
+    {
+      "word": "retten",
+      "translation_cz": "zachránit",
+      "example": "Lasst uns die Tiere gemeinsam retten.",
+      "example_cz": "Zachraňme zvířata společně.",
+      "tts_text": "Lasst uns die Tiere gemeinsam retten."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Nashorn",
+      "options": [
+        "nosorožec",
+        "les",
+        "příroda"
+      ],
+      "correct": "nosorožec"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir müssen wilde Tiere ___.",
+      "answer": "schützen",
+      "hint_cz": "chránit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Wald",
+          "cz": "les"
+        },
+        {
+          "target": "der Tiger",
+          "cz": "tygr"
+        },
+        {
+          "target": "die Natur",
+          "cz": "příroda"
+        },
+        {
+          "target": "retten",
+          "cz": "zachránit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir müssen wilde Tiere schützen.",
+      "tts_text": "Wir müssen wilde Tiere schützen."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_scheduling_calendars_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Erinnerungen einrichten",
+  "title_cz": "Nastavení připomenutí",
+  "vocabulary": [
+    {
+      "word": "eine Erinnerung einstellen",
+      "translation_cz": "nastavit připomenutí",
+      "example": "Könnten Sie eine Erinnerung für die Frist einstellen?",
+      "example_cz": "Mohl byste nastavit připomenutí na termín?",
+      "tts_text": "Könnten Sie eine Erinnerung für die Frist einstellen?"
+    },
+    {
+      "word": "erinnern Sie mich eine Stunde vorher",
+      "translation_cz": "připomeňte mi hodinu předem",
+      "example": "Bitte erinnern Sie mich eine Stunde vor dem Meeting.",
+      "example_cz": "Připomeňte mi to prosím hodinu před schůzkou.",
+      "tts_text": "Bitte erinnern Sie mich eine Stunde vor dem Meeting."
+    },
+    {
+      "word": "ich bekomme eine Benachrichtigung",
+      "translation_cz": "přijde mi upozornění",
+      "example": "Ich bekomme eine Benachrichtigung auf mein Handy.",
+      "example_cz": "Přijde mi upozornění na telefon.",
+      "tts_text": "Ich bekomme eine Benachrichtigung auf mein Handy."
+    },
+    {
+      "word": "lassen Sie mich das nicht vergessen",
+      "translation_cz": "nedovolte mi zapomenout",
+      "example": "Lassen Sie mich nicht vergessen, den Bericht zu senden.",
+      "example_cz": "Nedovolte mi zapomenout poslat report.",
+      "tts_text": "Lassen Sie mich nicht vergessen, den Bericht zu senden."
+    },
+    {
+      "word": "Benachrichtigungen einschalten",
+      "translation_cz": "zapnout upozornění",
+      "example": "Stellen Sie sicher, dass Sie Benachrichtigungen für dieses Ereignis einschalten.",
+      "example_cz": "Ujistěte se, že máte zapnutá upozornění pro tuto událost.",
+      "tts_text": "Stellen Sie sicher, dass Sie Benachrichtigungen für dieses Ereignis einschalten."
+    },
+    {
+      "word": "einen Tag im Voraus",
+      "translation_cz": "den předem",
+      "example": "Ich stelle Erinnerungen meistens einen Tag im Voraus ein.",
+      "example_cz": "Obvykle si nastavuji připomenutí den předem.",
+      "tts_text": "Ich stelle Erinnerungen meistens einen Tag im Voraus ein."
+    },
+    {
+      "word": "die Erinnerung verschieben",
+      "translation_cz": "odložit připomenutí",
+      "example": "Ich habe die Erinnerung aus Versehen um eine Stunde verschoben.",
+      "example_cz": "Omylem jsem odložil připomenutí o hodinu.",
+      "tts_text": "Ich habe die Erinnerung aus Versehen um eine Stunde verschoben."
+    },
+    {
+      "word": "es sollte automatisch erscheinen",
+      "translation_cz": "mělo by se to objevit automaticky",
+      "example": "Die Erinnerung sollte automatisch auf Ihrem Bildschirm erscheinen.",
+      "example_cz": "Připomenutí by se mělo na vaší obrazovce objevit automaticky.",
+      "tts_text": "Die Erinnerung sollte automatisch auf Ihrem Bildschirm erscheinen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_erinnerungen_einrichten",
+      "title": "Eine Erinnerung für eine wichtige Frist einstellen",
+      "title_cz": "Nastavení připomenutí na důležitý termín",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Könnten Sie eine Erinnerung für die Frist am Freitag einstellen?",
+          "text_cz": "Mohl byste nastavit připomenutí na páteční termín?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, ich stelle Erinnerungen meistens einen Tag im Voraus ein.",
+          "text_cz": "Jistě, obvykle si nastavuji připomenutí den předem."
+        },
+        {
+          "speaker": "A",
+          "text": "Bitte erinnern Sie mich auch eine Stunde vor dem eigentlichen Meeting.",
+          "text_cz": "Prosím připomeňte mi to také hodinu před samotnou schůzkou."
+        },
+        {
+          "speaker": "B",
+          "text": "Kein Problem, ich bekomme eine Benachrichtigung und sage Ihnen auch Bescheid.",
+          "text_cz": "Žádný problém, přijde mi upozornění a dám vám vědět také."
+        },
+        {
+          "speaker": "A",
+          "text": "Perfekt, danke, lassen Sie mich es diesmal nicht vergessen.",
+          "text_cz": "Výborně, děkuji, tentokrát mi nedovolte zapomenout."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Könnten Sie eine Erinnerung für die Frist einstellen?",
+      "options": [
+        "Mohl byste nastavit připomenutí na termín?",
+        "Přijde mi upozornění.",
+        "Odložil jsem připomenutí."
+      ],
+      "correct": "Mohl byste nastavit připomenutí na termín?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte erinnern Sie mich eine Stunde ___ dem Meeting.",
+      "answer": "vor",
+      "hint_cz": "před"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "Benachrichtigungen einschalten", "cz": "zapnout upozornění" },
+        { "target": "einen Tag im Voraus", "cz": "den předem" },
+        { "target": "die Erinnerung verschieben", "cz": "odložit připomenutí" },
+        { "target": "lassen Sie mich das nicht vergessen", "cz": "nedovolte mi zapomenout" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich bekomme eine Benachrichtigung auf mein Handy.",
+      "tts_text": "Ich bekomme eine Benachrichtigung auf mein Handy."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Erinnerung sollte ___ auf Ihrem Bildschirm erscheinen.",
+      "answer": "automatisch",
+      "hint_cz": "automaticky"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe die Erinnerung aus Versehen um eine Stunde verschoben.",
+      "tts_text": "Ich habe die Erinnerung aus Versehen um eine Stunde verschoben."
+    }
+  ]
+}

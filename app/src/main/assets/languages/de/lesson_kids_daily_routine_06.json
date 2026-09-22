@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_daily_routine_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Spielzeit",
+  "title_cz": "Čas na hraní",
+  "vocabulary": [
+    {
+      "word": "spielen",
+      "translation_cz": "hrát si",
+      "example": "Ich spiele mit meinem Spielzeug.",
+      "example_cz": "Hraju si se svými hračkami.",
+      "tts_text": "Ich spiele mit meinem Spielzeug."
+    },
+    {
+      "word": "das Spielzeug",
+      "translation_cz": "hračka",
+      "example": "Mein Lieblingsspielzeug ist ein Roboter.",
+      "example_cz": "Moje oblíbená hračka je robot.",
+      "tts_text": "Mein Lieblingsspielzeug ist ein Roboter."
+    },
+    {
+      "word": "draußen",
+      "translation_cz": "venku",
+      "example": "Wir spielen draußen im Garten.",
+      "example_cz": "Hrajeme si venku na zahradě.",
+      "tts_text": "Wir spielen draußen im Garten."
+    },
+    {
+      "word": "der Ball",
+      "translation_cz": "míč",
+      "example": "Ich spiele mit dem Ball mit meinem Bruder.",
+      "example_cz": "Kopu do míče s bratrem.",
+      "tts_text": "Ich spiele mit dem Ball mit meinem Bruder."
+    },
+    {
+      "word": "die Schaukel",
+      "translation_cz": "houpačka",
+      "example": "Ich liebe die Schaukel im Park.",
+      "example_cz": "Mám rád houpačku v parku.",
+      "tts_text": "Ich liebe die Schaukel im Park."
+    },
+    {
+      "word": "der Spaß",
+      "translation_cz": "zábava",
+      "example": "Spielzeit ist immer Spaß.",
+      "example_cz": "Čas na hraní je vždy zábava.",
+      "tts_text": "Spielzeit ist immer Spaß."
+    },
+    {
+      "word": "teilen",
+      "translation_cz": "půjčit, sdílet",
+      "example": "Ich teile mein Spielzeug mit Freunden.",
+      "example_cz": "Půjčuji své hračky kamarádům.",
+      "tts_text": "Ich teile mein Spielzeug mit Freunden."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "spielen",
+      "options": [
+        "hrát si",
+        "hračka",
+        "venku"
+      ],
+      "correct": "hrát si"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein Lieblings___ ist ein Roboter.",
+      "answer": "Spielzeug",
+      "hint_cz": "hračka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "draußen",
+          "cz": "venku"
+        },
+        {
+          "target": "der Ball",
+          "cz": "míč"
+        },
+        {
+          "target": "die Schaukel",
+          "cz": "houpačka"
+        },
+        {
+          "target": "der Spaß",
+          "cz": "zábava"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich teile mein Spielzeug mit Freunden.",
+      "tts_text": "Ich teile mein Spielzeug mit Freunden."
+    }
+  ]
+}

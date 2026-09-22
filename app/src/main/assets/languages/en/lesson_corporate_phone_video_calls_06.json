@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_phone_video_calls_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ending a call politely",
+  "title_cz": "Zdvořilé ukončení hovoru",
+  "vocabulary": [
+    {
+      "word": "I think that covers everything",
+      "translation_cz": "myslím, že jsme probrali vše",
+      "example": "I think that covers everything for today.",
+      "example_cz": "Myslím, že jsme dnes probrali vše.",
+      "tts_text": "I think that covers everything for today."
+    },
+    {
+      "word": "thank you for your time",
+      "translation_cz": "děkuji za váš čas",
+      "example": "Thank you for your time this afternoon.",
+      "example_cz": "Děkuji za váš čas dnes odpoledne.",
+      "tts_text": "Thank you for your time this afternoon."
+    },
+    {
+      "word": "I'll send you a follow-up email",
+      "translation_cz": "pošlu vám navazující e-mail",
+      "example": "I'll send you a follow-up email with the details.",
+      "example_cz": "Pošlu vám navazující e-mail s podrobnostmi.",
+      "tts_text": "I'll send you a follow-up email with the details."
+    },
+    {
+      "word": "have a great day",
+      "translation_cz": "hezký den",
+      "example": "Thank you, have a great day!",
+      "example_cz": "Děkuji, hezký den!",
+      "tts_text": "Thank you, have a great day!"
+    },
+    {
+      "word": "talk to you soon",
+      "translation_cz": "brzy se ozvu / uslyšíme se",
+      "example": "Talk to you soon, goodbye.",
+      "example_cz": "Uslyšíme se brzy, na shledanou.",
+      "tts_text": "Talk to you soon, goodbye."
+    },
+    {
+      "word": "if there's nothing else",
+      "translation_cz": "pokud není nic dalšího",
+      "example": "If there's nothing else, let's wrap up.",
+      "example_cz": "Pokud není nic dalšího, ukončeme to.",
+      "tts_text": "If there's nothing else, let's wrap up."
+    },
+    {
+      "word": "it was nice talking to you",
+      "translation_cz": "bylo příjemné s vámi mluvit",
+      "example": "It was nice talking to you today.",
+      "example_cz": "Dnes bylo příjemné s vámi mluvit.",
+      "tts_text": "It was nice talking to you today."
+    },
+    {
+      "word": "take care",
+      "translation_cz": "opatrujte se",
+      "example": "Take care, and speak soon.",
+      "example_cz": "Opatrujte se, brzy se ozveme.",
+      "tts_text": "Take care, and speak soon."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_ending_call_politely",
+      "title": "Wrapping up a business call",
+      "title_cz": "Ukončení pracovního hovoru",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "If there's nothing else, I think that covers everything for today.",
+          "text_cz": "Pokud není nic dalšího, myslím, že jsme dnes probrali vše."
+        },
+        {
+          "speaker": "B",
+          "text": "Agreed. Thank you for your time this afternoon.",
+          "text_cz": "Souhlasím. Děkuji za váš čas dnes odpoledne."
+        },
+        {
+          "speaker": "A",
+          "text": "It was nice talking to you. I'll send you a follow-up email tomorrow.",
+          "text_cz": "Bylo příjemné s vámi mluvit. Zítra vám pošlu navazující e-mail."
+        },
+        {
+          "speaker": "B",
+          "text": "Perfect, thank you. Have a great day!",
+          "text_cz": "Výborně, děkuji. Hezký den!"
+        },
+        {
+          "speaker": "A",
+          "text": "You too, take care. Talk to you soon.",
+          "text_cz": "Vy také, opatrujte se. Uslyšíme se brzy."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Thank you for your time this afternoon.",
+      "options": [
+        "Děkuji za váš čas dnes odpoledne.",
+        "Pošlu vám navazující e-mail.",
+        "Uslyšíme se brzy."
+      ],
+      "correct": "Děkuji za váš čas dnes odpoledne."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'll send you a follow-up ___ with the details.",
+      "answer": "email",
+      "hint_cz": "e-mail"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "take care", "cz": "opatrujte se" },
+        { "target": "talk to you soon", "cz": "uslyšíme se brzy" },
+        { "target": "have a great day", "cz": "hezký den" },
+        { "target": "it was nice talking to you", "cz": "bylo příjemné s vámi mluvit" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "If there's nothing else, let's wrap up.",
+      "tts_text": "If there's nothing else, let's wrap up."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "It was nice ___ to you today.",
+      "answer": "talking",
+      "hint_cz": "mluvit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Thank you, have a great day!",
+      "tts_text": "Thank you, have a great day!"
+    }
+  ]
+}

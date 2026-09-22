@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_school_classroom_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "School Subjects",
+  "title_cz": "Školní předměty",
+  "vocabulary": [
+    {
+      "word": "Mathe",
+      "translation_cz": "matematika",
+      "example": "Ich mag Mathe.",
+      "example_cz": "Mám ráda matematiku.",
+      "tts_text": "Ich mag Mathe."
+    },
+    {
+      "word": "Englisch",
+      "translation_cz": "angličtina",
+      "example": "Wir lernen am Montag Englisch.",
+      "example_cz": "V pondělí se učíme angličtinu.",
+      "tts_text": "Wir lernen am Montag Englisch."
+    },
+    {
+      "word": "Kunst",
+      "translation_cz": "výtvarná výchova",
+      "example": "Ich male ein Bild in Kunst.",
+      "example_cz": "Ve výtvarné výchově kreslím obrázek.",
+      "tts_text": "Ich male ein Bild in Kunst."
+    },
+    {
+      "word": "Musik",
+      "translation_cz": "hudební výchova",
+      "example": "Wir singen Lieder in Musik.",
+      "example_cz": "V hudební výchově zpíváme písničky.",
+      "tts_text": "Wir singen Lieder in Musik."
+    },
+    {
+      "word": "Sachkunde",
+      "translation_cz": "přírodověda",
+      "example": "Wir machen Experimente in Sachkunde.",
+      "example_cz": "V přírodovědě děláme pokusy.",
+      "tts_text": "Wir machen Experimente in Sachkunde."
+    },
+    {
+      "word": "Sport",
+      "translation_cz": "tělesná výchova",
+      "example": "Ich laufe viel im Sport.",
+      "example_cz": "V tělesné výchově hodně běhám.",
+      "tts_text": "Ich laufe viel im Sport."
+    },
+    {
+      "word": "das Lieblingsfach",
+      "translation_cz": "oblíbený předmět",
+      "example": "Was ist dein Lieblingsfach?",
+      "example_cz": "Jaký je tvůj oblíbený předmět?",
+      "tts_text": "Was ist dein Lieblingsfach?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Sachkunde",
+      "options": [
+        "přírodověda",
+        "matematika",
+        "angličtina"
+      ],
+      "correct": "přírodověda"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich male ein Bild in ___.",
+      "answer": "Kunst",
+      "hint_cz": "výtvarné výchově"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Mathe",
+          "cz": "matematika"
+        },
+        {
+          "target": "Musik",
+          "cz": "hudební výchova"
+        },
+        {
+          "target": "Sport",
+          "cz": "tělesná výchova"
+        },
+        {
+          "target": "das Lieblingsfach",
+          "cz": "oblíbený předmět"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Was ist dein Lieblingsfach?",
+      "tts_text": "Was ist dein Lieblingsfach?"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_transport_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Traffic lights and safety",
+  "title_cz": "Semafory a bezpečnost",
+  "vocabulary": [
+    {
+      "word": "traffic light",
+      "translation_cz": "semafor",
+      "example": "Look at the traffic light.",
+      "example_cz": "Podívej se na semafor.",
+      "tts_text": "Look at the traffic light."
+    },
+    {
+      "word": "red",
+      "translation_cz": "červená",
+      "example": "Stop when the light is red.",
+      "example_cz": "Zastav, když je semafor červený.",
+      "tts_text": "Stop when the light is red."
+    },
+    {
+      "word": "green",
+      "translation_cz": "zelená",
+      "example": "Go when the light is green.",
+      "example_cz": "Jdi, když je semafor zelený.",
+      "tts_text": "Go when the light is green."
+    },
+    {
+      "word": "stop",
+      "translation_cz": "zastavit",
+      "example": "Always stop and look.",
+      "example_cz": "Vždy zastav a podívej se.",
+      "tts_text": "Always stop and look."
+    },
+    {
+      "word": "danger",
+      "translation_cz": "nebezpečí",
+      "example": "The road can be a danger.",
+      "example_cz": "Silnice může být nebezpečná.",
+      "tts_text": "The road can be a danger."
+    },
+    {
+      "word": "careful",
+      "translation_cz": "opatrný",
+      "example": "Be careful near the street.",
+      "example_cz": "Buď opatrný poblíž ulice.",
+      "tts_text": "Be careful near the street."
+    },
+    {
+      "word": "hold hands",
+      "translation_cz": "držet se za ruce",
+      "example": "We hold hands when we cross.",
+      "example_cz": "Když přecházíme, držíme se za ruce.",
+      "tts_text": "We hold hands when we cross."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "traffic light",
+      "options": [
+        "semafor",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "semafor"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Look at the ___.",
+      "answer": "traffic light",
+      "hint_cz": "semafor"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "red",
+          "cz": "červená"
+        },
+        {
+          "target": "green",
+          "cz": "zelená"
+        },
+        {
+          "target": "stop",
+          "cz": "zastavit"
+        },
+        {
+          "target": "danger",
+          "cz": "nebezpečí"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Always stop and look.",
+      "tts_text": "Always stop and look."
+    }
+  ]
+}

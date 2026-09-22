@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_negotiation_sales_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Presenting a Product",
+  "title_cz": "Prezentace produktu",
+  "vocabulary": [
+    {
+      "word": "feature",
+      "translation_cz": "funkce / vlastnost",
+      "example": "This feature saves you a lot of time.",
+      "example_cz": "Tato funkce vám ušetří spoustu času.",
+      "tts_text": "This feature saves you a lot of time."
+    },
+    {
+      "word": "benefit",
+      "translation_cz": "přínos",
+      "example": "The main benefit is lower costs.",
+      "example_cz": "Hlavním přínosem jsou nižší náklady.",
+      "tts_text": "The main benefit is lower costs."
+    },
+    {
+      "word": "demonstrate",
+      "translation_cz": "předvést",
+      "example": "Let me demonstrate how it works.",
+      "example_cz": "Dovolte mi předvést, jak to funguje.",
+      "tts_text": "Let me demonstrate how it works."
+    },
+    {
+      "word": "tailored solution",
+      "translation_cz": "řešení na míru",
+      "example": "We offer a tailored solution for your needs.",
+      "example_cz": "Nabízíme řešení na míru pro vaše potřeby.",
+      "tts_text": "We offer a tailored solution for your needs."
+    },
+    {
+      "word": "competitive advantage",
+      "translation_cz": "konkurenční výhoda",
+      "example": "This gives you a real competitive advantage.",
+      "example_cz": "To vám dává skutečnou konkurenční výhodu.",
+      "tts_text": "This gives you a real competitive advantage."
+    },
+    {
+      "word": "case study",
+      "translation_cz": "případová studie",
+      "example": "Let me share a relevant case study.",
+      "example_cz": "Dovolte mi sdílet relevantní případovou studii.",
+      "tts_text": "Let me share a relevant case study."
+    },
+    {
+      "word": "stand out",
+      "translation_cz": "vyniknout",
+      "example": "This feature helps you stand out from competitors.",
+      "example_cz": "Tato funkce vám pomáhá vyniknout nad konkurencí.",
+      "tts_text": "This feature helps you stand out from competitors."
+    },
+    {
+      "word": "customized",
+      "translation_cz": "přizpůsobený",
+      "example": "The package can be customized to your budget.",
+      "example_cz": "Balíček lze přizpůsobit vašemu rozpočtu.",
+      "tts_text": "The package can be customized to your budget."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_product_demo",
+      "title": "Demonstrating a product feature",
+      "title_cz": "Předvedení funkce produktu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let me demonstrate how this feature works.",
+          "text_cz": "Dovolte mi předvést, jak tato funkce funguje."
+        },
+        {
+          "speaker": "B",
+          "text": "That looks useful. What's the main benefit for us?",
+          "text_cz": "To vypadá užitečně. Jaký je pro nás hlavní přínos?"
+        },
+        {
+          "speaker": "A",
+          "text": "It gives you a real competitive advantage by saving processing time.",
+          "text_cz": "Dává vám to skutečnou konkurenční výhodu tím, že šetří čas zpracování."
+        },
+        {
+          "speaker": "B",
+          "text": "Can this be customized to our specific workflow?",
+          "text_cz": "Dá se to přizpůsobit našemu konkrétnímu pracovnímu postupu?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "feature",
+      "options": [
+        "funkce / vlastnost",
+        "předvést",
+        "řešení na míru"
+      ],
+      "correct": "funkce / vlastnost"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The main ___ is lower costs.",
+      "answer": "benefit",
+      "hint_cz": "přínos"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This gives you a real ___.",
+      "answer": "competitive advantage",
+      "hint_cz": "konkurenční výhoda"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "case study",
+          "cz": "případová studie"
+        },
+        {
+          "target": "stand out",
+          "cz": "vyniknout"
+        },
+        {
+          "target": "customized",
+          "cz": "přizpůsobený"
+        },
+        {
+          "target": "demonstrate",
+          "cz": "předvést"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let me demonstrate how this feature works.",
+      "tts_text": "Let me demonstrate how this feature works."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "That looks useful. What's the main benefit for us?",
+      "tts_text": "That looks useful. What's the main benefit for us?"
+    }
+  ]
+}

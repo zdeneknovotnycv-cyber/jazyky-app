@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_legal_contracts_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing a contract",
+  "title_cz": "Diskuze o smlouvě",
+  "vocabulary": [
+    {
+      "word": "the contract states",
+      "translation_cz": "smlouva uvádí",
+      "example": "The contract states the payment terms.",
+      "example_cz": "Smlouva uvádí platební podmínky.",
+      "tts_text": "The contract states the payment terms."
+    },
+    {
+      "word": "review the terms",
+      "translation_cz": "zkontrolovat podmínky",
+      "example": "Please review the terms carefully.",
+      "example_cz": "Prosím pečlivě zkontrolujte podmínky.",
+      "tts_text": "Please review the terms carefully."
+    },
+    {
+      "word": "binding agreement",
+      "translation_cz": "závazná dohoda",
+      "example": "This is a legally binding agreement.",
+      "example_cz": "Toto je právně závazná dohoda.",
+      "tts_text": "This is a legally binding agreement."
+    },
+    {
+      "word": "party",
+      "translation_cz": "smluvní strana",
+      "example": "Both parties must agree.",
+      "example_cz": "Obě smluvní strany musí souhlasit.",
+      "tts_text": "Both parties must agree."
+    },
+    {
+      "word": "obligations",
+      "translation_cz": "povinnosti",
+      "example": "The contract lists our obligations.",
+      "example_cz": "Smlouva uvádí naše povinnosti.",
+      "tts_text": "The contract lists our obligations."
+    },
+    {
+      "word": "amend",
+      "translation_cz": "změnit / upravit",
+      "example": "We can amend the contract later.",
+      "example_cz": "Smlouvu můžeme později upravit.",
+      "tts_text": "We can amend the contract later."
+    },
+    {
+      "word": "in accordance with",
+      "translation_cz": "v souladu s",
+      "example": "This clause is in accordance with local law.",
+      "example_cz": "Tato doložka je v souladu s místním právem.",
+      "tts_text": "This clause is in accordance with local law."
+    },
+    {
+      "word": "draft version",
+      "translation_cz": "návrh verze",
+      "example": "Please send me the draft version.",
+      "example_cz": "Prosím zašlete mi návrh verze.",
+      "tts_text": "Please send me the draft version."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_01",
+      "title": "Discussing a contract",
+      "title_cz": "Diskuze o smlouvě",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you reviewed the terms of the contract?",
+          "text_cz": "Zkontroloval jste podmínky smlouvy?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, the contract states clear payment obligations for both parties.",
+          "text_cz": "Ano, smlouva uvádí jasné platební povinnosti pro obě strany."
+        },
+        {
+          "speaker": "A",
+          "text": "Is it a binding agreement from the moment we sign?",
+          "text_cz": "Je to závazná dohoda od okamžiku podpisu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes. We can still amend it later if needed.",
+          "text_cz": "Ano. Pokud bude potřeba, můžeme ji později upravit."
+        },
+        {
+          "speaker": "A",
+          "text": "Please send me the draft version once more.",
+          "text_cz": "Prosím pošlete mi ještě jednou návrh verze."
+        },
+        {
+          "speaker": "B",
+          "text": "I will, and I'll check it's in accordance with local law.",
+          "text_cz": "Udělám to a zkontroluji, že je v souladu s místním právem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "the contract states",
+      "options": [
+        "smlouva uvádí",
+        "zkontrolovat podmínky",
+        "závazná dohoda"
+      ],
+      "correct": "smlouva uvádí"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Both parties must ___",
+      "answer": "agree",
+      "hint_cz": "smluvní strana"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "the contract states",
+          "cz": "smlouva uvádí"
+        },
+        {
+          "target": "review the terms",
+          "cz": "zkontrolovat podmínky"
+        },
+        {
+          "target": "binding agreement",
+          "cz": "závazná dohoda"
+        },
+        {
+          "target": "party",
+          "cz": "smluvní strana"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The contract lists our obligations.",
+      "tts_text": "The contract lists our obligations."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We can ___ the contract later.",
+      "answer": "amend",
+      "hint_cz": "změnit / upravit"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_body_health_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Healthy Food vs. Junk Food",
+  "title_cz": "Zdravé jídlo a nezdravé jídlo",
+  "vocabulary": [
+    {
+      "word": "gesundes Essen",
+      "translation_cz": "zdravé jídlo",
+      "example": "Obst ist gesundes Essen.",
+      "example_cz": "Ovoce je zdravé jídlo.",
+      "tts_text": "Obst ist gesundes Essen."
+    },
+    {
+      "word": "ungesundes Essen",
+      "translation_cz": "nezdravé jídlo",
+      "example": "Chips sind ungesundes Essen.",
+      "example_cz": "Chipsy jsou nezdravé jídlo.",
+      "tts_text": "Chips sind ungesundes Essen."
+    },
+    {
+      "word": "das Gemüse",
+      "translation_cz": "zelenina",
+      "example": "Ich esse jeden Tag Gemüse.",
+      "example_cz": "Jím zeleninu každý den.",
+      "tts_text": "Ich esse jeden Tag Gemüse."
+    },
+    {
+      "word": "der Zucker",
+      "translation_cz": "cukr",
+      "example": "Zu viel Zucker ist schlecht.",
+      "example_cz": "Moc cukru je špatné.",
+      "tts_text": "Zu viel Zucker ist schlecht."
+    },
+    {
+      "word": "das Bonbon",
+      "translation_cz": "bonbon",
+      "example": "Bonbons sind süß, aber nicht gesund.",
+      "example_cz": "Bonbon je sladký, ale není zdravý.",
+      "tts_text": "Bonbons sind süß, aber nicht gesund."
+    },
+    {
+      "word": "das Wasser",
+      "translation_cz": "voda",
+      "example": "Ich trinke Wasser statt Limonade.",
+      "example_cz": "Piju vodu místo limonády.",
+      "tts_text": "Ich trinke Wasser statt Limonade."
+    },
+    {
+      "word": "die ausgewogene Ernährung",
+      "translation_cz": "vyvážená strava",
+      "example": "Eine ausgewogene Ernährung hält mich stark.",
+      "example_cz": "Vyvážená strava mě udržuje silného.",
+      "tts_text": "Eine ausgewogene Ernährung hält mich stark."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "gesundes Essen",
+      "options": [
+        "zdravé jídlo",
+        "nezdravé jídlo",
+        "bonbon"
+      ],
+      "correct": "zdravé jídlo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Chips sind ___ Essen.",
+      "answer": "ungesundes",
+      "hint_cz": "nezdravé"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Gemüse",
+          "cz": "zelenina"
+        },
+        {
+          "target": "der Zucker",
+          "cz": "cukr"
+        },
+        {
+          "target": "das Bonbon",
+          "cz": "bonbon"
+        },
+        {
+          "target": "das Wasser",
+          "cz": "voda"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Obst ist gesundes Essen.",
+      "tts_text": "Obst ist gesundes Essen."
+    }
+  ]
+}

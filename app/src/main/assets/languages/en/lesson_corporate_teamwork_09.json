@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_teamwork_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Remote team collaboration",
+  "title_cz": "Spolupráce vzdáleného týmu",
+  "vocabulary": [
+    {
+      "word": "video call",
+      "translation_cz": "videohovor",
+      "example": "Let's set up a video call for tomorrow.",
+      "example_cz": "Domluvme si na zítra videohovor.",
+      "tts_text": "Let's set up a video call for tomorrow."
+    },
+    {
+      "word": "to screen share",
+      "translation_cz": "sdílet obrazovku",
+      "example": "Could you screen share your presentation?",
+      "example_cz": "Mohl bys sdílet obrazovku se svou prezentací?",
+      "tts_text": "Could you screen share your presentation?"
+    },
+    {
+      "word": "time zone",
+      "translation_cz": "časové pásmo",
+      "example": "Remember, we're in different time zones.",
+      "example_cz": "Pamatuj, jsme v různých časových pásmech.",
+      "tts_text": "Remember, we're in different time zones."
+    },
+    {
+      "word": "to stay connected",
+      "translation_cz": "zůstat v kontaktu",
+      "example": "It's important to stay connected as a team.",
+      "example_cz": "Je důležité zůstat jako tým v kontaktu.",
+      "tts_text": "It's important to stay connected as a team."
+    },
+    {
+      "word": "async communication",
+      "translation_cz": "asynchronní komunikace",
+      "example": "We rely a lot on async communication.",
+      "example_cz": "Hodně spoléháme na asynchronní komunikaci.",
+      "tts_text": "We rely a lot on async communication."
+    },
+    {
+      "word": "muted",
+      "translation_cz": "ztlumený (mikrofon)",
+      "example": "Sorry, you were muted for a second.",
+      "example_cz": "Promiň, na chvíli jsi byl ztlumený.",
+      "tts_text": "Sorry, you were muted for a second."
+    },
+    {
+      "word": "collaboration tool",
+      "translation_cz": "nástroj pro spolupráci",
+      "example": "We use a collaboration tool to share files.",
+      "example_cz": "Používáme nástroj pro spolupráci ke sdílení souborů.",
+      "tts_text": "We use a collaboration tool to share files."
+    },
+    {
+      "word": "to check in",
+      "translation_cz": "ozvat se / zkontrolovat stav",
+      "example": "I'll check in with you later today.",
+      "example_cz": "Ozvu se ti ještě dnes.",
+      "tts_text": "I'll check in with you later today."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_remote_collaboration",
+      "title": "Working together remotely",
+      "title_cz": "Vzdálená spolupráce",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let's set up a video call for tomorrow morning.",
+          "text_cz": "Domluvme si na zítra ráno videohovor."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, but remember, we're in different time zones.",
+          "text_cz": "Jasně, ale pamatuj, jsme v různých časových pásmech."
+        },
+        {
+          "speaker": "A",
+          "text": "Right, let's find a time that works for both of us. Could you screen share the report?",
+          "text_cz": "Máš pravdu, najděme čas, který vyhovuje oběma. Mohl bys sdílet obrazovku se zprávou?"
+        },
+        {
+          "speaker": "B",
+          "text": "Of course. We really need to stay connected on this project.",
+          "text_cz": "Jasně. Na tomto projektu opravdu potřebujeme zůstat v kontaktu."
+        },
+        {
+          "speaker": "A",
+          "text": "Agreed. I'll check in with you later using our collaboration tool.",
+          "text_cz": "Souhlasím. Ozvu se ti později přes náš nástroj pro spolupráci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "time zone",
+      "options": [
+        "časové pásmo",
+        "videohovor",
+        "ztlumený"
+      ],
+      "correct": "časové pásmo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's set up a ___ for tomorrow.",
+      "answer": "video call",
+      "hint_cz": "videohovor"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "to screen share",
+          "cz": "sdílet obrazovku"
+        },
+        {
+          "target": "async communication",
+          "cz": "asynchronní komunikace"
+        },
+        {
+          "target": "collaboration tool",
+          "cz": "nástroj pro spolupráci"
+        },
+        {
+          "target": "to check in",
+          "cz": "ozvat se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It's important to stay connected as a team.",
+      "tts_text": "It's important to stay connected as a team."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Sorry, you were ___ for a second.",
+      "answer": "muted",
+      "hint_cz": "ztlumený"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_town_places_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Die Bäckerei",
+  "title_cz": "Pekárna",
+  "vocabulary": [
+    {
+      "word": "die Bäckerei",
+      "translation_cz": "pekárna",
+      "example": "Wir kaufen Brot in der Bäckerei.",
+      "example_cz": "Kupujeme chleba v pekárně.",
+      "tts_text": "Wir kaufen Brot in der Bäckerei."
+    },
+    {
+      "word": "das Brot",
+      "translation_cz": "chleba",
+      "example": "Das Brot riecht wunderbar.",
+      "example_cz": "Chleba krásně voní.",
+      "tts_text": "Das Brot riecht wunderbar."
+    },
+    {
+      "word": "das Croissant",
+      "translation_cz": "croissant",
+      "example": "Ich möchte ein Croissant zum Frühstück.",
+      "example_cz": "Chci croissant k snídani.",
+      "tts_text": "Ich möchte ein Croissant zum Frühstück."
+    },
+    {
+      "word": "der Bäcker",
+      "translation_cz": "pekař",
+      "example": "Der Bäcker backt früh am Morgen.",
+      "example_cz": "Pekař peče brzy ráno.",
+      "tts_text": "Der Bäcker backt früh am Morgen."
+    },
+    {
+      "word": "der Kuchen",
+      "translation_cz": "dort",
+      "example": "Wir bestellen einen Geburtstagskuchen.",
+      "example_cz": "Objednáváme narozeninový dort.",
+      "tts_text": "Wir bestellen einen Geburtstagskuchen."
+    },
+    {
+      "word": "der Ofen",
+      "translation_cz": "pec",
+      "example": "Das Brot backt im Ofen.",
+      "example_cz": "Chleba se peče v peci.",
+      "tts_text": "Das Brot backt im Ofen."
+    },
+    {
+      "word": "frisch",
+      "translation_cz": "čerstvý",
+      "example": "Das Brot ist jeden Morgen frisch.",
+      "example_cz": "Chleba je každé ráno čerstvý.",
+      "tts_text": "Das Brot ist jeden Morgen frisch."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Bäckerei",
+      "options": [
+        "pekárna",
+        "park",
+        "škola"
+      ],
+      "correct": "pekárna"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das ___ riecht wunderbar.",
+      "answer": "das Brot",
+      "hint_cz": "chleba"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Brot",
+          "cz": "chleba"
+        },
+        {
+          "target": "das Croissant",
+          "cz": "croissant"
+        },
+        {
+          "target": "der Bäcker",
+          "cz": "pekař"
+        },
+        {
+          "target": "der Kuchen",
+          "cz": "dort"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich möchte ein Croissant zum Frühstück.",
+      "tts_text": "Ich möchte ein Croissant zum Frühstück."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_career_development_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Um eine Schulung bitten",
+  "title_cz": "Žádost o školení",
+  "vocabulary": [
+    {
+      "word": "der Schulungskurs",
+      "translation_cz": "školicí kurz",
+      "example": "Ich würde gerne an einem Schulungskurs teilnehmen.",
+      "example_cz": "Rád bych se zúčastnil školicího kurzu.",
+      "tts_text": "Ich würde gerne an einem Schulungskurs teilnehmen."
+    },
+    {
+      "word": "meine Fähigkeiten verbessern",
+      "translation_cz": "zlepšit své dovednosti",
+      "example": "Dieser Kurs würde mir helfen, meine Fähigkeiten zu verbessern.",
+      "example_cz": "Tento kurz by mi pomohl zlepšit mé dovednosti.",
+      "tts_text": "Dieser Kurs würde mir helfen, meine Fähigkeiten zu verbessern."
+    },
+    {
+      "word": "sich anmelden für",
+      "translation_cz": "přihlásit se do",
+      "example": "Ich möchte mich für das Führungsprogramm anmelden.",
+      "example_cz": "Rád bych se přihlásil do programu pro vedoucí pracovníky.",
+      "tts_text": "Ich möchte mich für das Führungsprogramm anmelden."
+    },
+    {
+      "word": "das Budget für Schulungen",
+      "translation_cz": "rozpočet na školení",
+      "example": "Haben wir dieses Jahr ein Budget für Schulungen?",
+      "example_cz": "Máme letos rozpočet na školení?",
+      "tts_text": "Haben wir dieses Jahr ein Budget für Schulungen?"
+    },
+    {
+      "word": "die Zertifizierung",
+      "translation_cz": "certifikace",
+      "example": "Diese Schulung führt zu einer Zertifizierung.",
+      "example_cz": "Toto školení vede k certifikaci.",
+      "tts_text": "Diese Schulung führt zu einer Zertifizierung."
+    },
+    {
+      "word": "genehmigen",
+      "translation_cz": "schválit",
+      "example": "Könnten Sie meinen Schulungsantrag genehmigen?",
+      "example_cz": "Mohl byste schválit mou žádost o školení?",
+      "tts_text": "Könnten Sie meinen Schulungsantrag genehmigen?"
+    },
+    {
+      "word": "die berufliche Weiterentwicklung",
+      "translation_cz": "profesní rozvoj",
+      "example": "Berufliche Weiterentwicklung ist mir wichtig.",
+      "example_cz": "Profesní rozvoj je pro mě důležitý.",
+      "tts_text": "Berufliche Weiterentwicklung ist mir wichtig."
+    },
+    {
+      "word": "sich anmelden",
+      "translation_cz": "přihlásit se",
+      "example": "Ich habe mich bereits für den Kurs angemeldet.",
+      "example_cz": "Na kurz jsem se už přihlásil.",
+      "tts_text": "Ich habe mich bereits für den Kurs angemeldet."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_requesting_training",
+      "title": "Um einen Schulungskurs bitten",
+      "title_cz": "Žádost o školicí kurz",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich würde gerne an einem Schulungskurs zum Projektmanagement teilnehmen.",
+          "text_cz": "Rád bych se zúčastnil školicího kurzu z projektového řízení."
+        },
+        {
+          "speaker": "B",
+          "text": "Das klingt nützlich. Wie würde dir das helfen?",
+          "text_cz": "To zní užitečně. Jak by ti to pomohlo?"
+        },
+        {
+          "speaker": "A",
+          "text": "Es würde mir helfen, meine Fähigkeiten zu verbessern, und es führt zu einer Zertifizierung.",
+          "text_cz": "Pomohlo by mi to zlepšit mé dovednosti a vede to k certifikaci."
+        },
+        {
+          "speaker": "B",
+          "text": "Guter Punkt. Haben wir dieses Quartal ein Budget für Schulungen?",
+          "text_cz": "Dobrá poznámka. Máme na toto čtvrtletí rozpočet na školení?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, ich habe das geprüft, und ich möchte mich vor Ende des Monats anmelden.",
+          "text_cz": "Ano, zjišťoval jsem to, a rád bych se přihlásil do konce měsíce."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Zertifizierung",
+      "options": [
+        "certifikace",
+        "rozpočet",
+        "školicí kurz"
+      ],
+      "correct": "certifikace"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Könnten Sie meinen Schulungsantrag ___?",
+      "answer": "genehmigen",
+      "hint_cz": "schválit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Schulungskurs",
+          "cz": "školicí kurz"
+        },
+        {
+          "target": "die berufliche Weiterentwicklung",
+          "cz": "profesní rozvoj"
+        },
+        {
+          "target": "sich anmelden",
+          "cz": "přihlásit se"
+        },
+        {
+          "target": "sich anmelden für",
+          "cz": "přihlásit se do"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Berufliche Weiterentwicklung ist mir wichtig.",
+      "tts_text": "Berufliche Weiterentwicklung ist mir wichtig."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Dieser Kurs würde mir helfen, meine Fähigkeiten zu ___.",
+      "answer": "verbessern",
+      "hint_cz": "zlepšit"
+    }
+  ]
+}

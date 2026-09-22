@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_smalltalk_networking_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Congratulating a colleague",
+  "title_cz": "Gratulace kolegovi",
+  "vocabulary": [
+    {
+      "word": "Congratulations!",
+      "translation_cz": "Gratuluji!",
+      "example": "Congratulations on your promotion!",
+      "example_cz": "Gratuluji k tvému povýšení!",
+      "tts_text": "Congratulations on your promotion!"
+    },
+    {
+      "word": "well deserved",
+      "translation_cz": "zasloužené",
+      "example": "That's well deserved.",
+      "example_cz": "To je zasloužené.",
+      "tts_text": "That's well deserved."
+    },
+    {
+      "word": "promotion",
+      "translation_cz": "povýšení",
+      "example": "I heard about your promotion.",
+      "example_cz": "Slyšel jsem o tvém povýšení.",
+      "tts_text": "I heard about your promotion."
+    },
+    {
+      "word": "proud of you",
+      "translation_cz": "hrdý na tebe",
+      "example": "We're all proud of you.",
+      "example_cz": "Všichni jsme na tebe hrdí.",
+      "tts_text": "We're all proud of you."
+    },
+    {
+      "word": "hard work paid off",
+      "translation_cz": "tvrdá práce se vyplatila",
+      "example": "Your hard work really paid off.",
+      "example_cz": "Tvoje tvrdá práce se opravdu vyplatila.",
+      "tts_text": "Your hard work really paid off."
+    },
+    {
+      "word": "celebrate",
+      "translation_cz": "oslavit",
+      "example": "We should celebrate this together.",
+      "example_cz": "Měli bychom to společně oslavit.",
+      "tts_text": "We should celebrate this together."
+    },
+    {
+      "word": "achievement",
+      "translation_cz": "úspěch",
+      "example": "This is a great achievement.",
+      "example_cz": "To je skvělý úspěch.",
+      "tts_text": "This is a great achievement."
+    },
+    {
+      "word": "Thank you for your kind words",
+      "translation_cz": "Děkuji za milá slova",
+      "example": "Thank you for your kind words.",
+      "example_cz": "Děkuji za milá slova.",
+      "tts_text": "Thank you for your kind words."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_congratulations",
+      "title": "Congratulating a colleague on a promotion",
+      "title_cz": "Gratulace kolegovi k povýšení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Congratulations on your promotion!",
+          "text_cz": "Gratuluji k tvému povýšení!"
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you so much!",
+          "text_cz": "Moc děkuji!"
+        },
+        {
+          "speaker": "A",
+          "text": "It's well deserved. Your hard work really paid off.",
+          "text_cz": "Je to zasloužené. Tvoje tvrdá práce se opravdu vyplatila."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you for your kind words. We should celebrate this together.",
+          "text_cz": "Děkuji za milá slova. Měli bychom to společně oslavit."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "promotion",
+      "options": [
+        "povýšení",
+        "úspěch",
+        "oslavit"
+      ],
+      "correct": "povýšení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "That's well ___.",
+      "answer": "deserved",
+      "hint_cz": "zasloužené"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We're all ___ of you.",
+      "answer": "proud",
+      "hint_cz": "hrdí"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "achievement",
+          "cz": "úspěch"
+        },
+        {
+          "target": "celebrate",
+          "cz": "oslavit"
+        },
+        {
+          "target": "hard work paid off",
+          "cz": "tvrdá práce se vyplatila"
+        },
+        {
+          "target": "promotion",
+          "cz": "povýšení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Congratulations on your promotion!",
+      "tts_text": "Congratulations on your promotion!"
+    }
+  ]
+}

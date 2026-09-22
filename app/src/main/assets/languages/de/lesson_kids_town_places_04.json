@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_town_places_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Der Spielplatz",
+  "title_cz": "Dětské hřiště",
+  "vocabulary": [
+    {
+      "word": "der Spielplatz",
+      "translation_cz": "dětské hřiště",
+      "example": "Wir spielen auf dem Spielplatz.",
+      "example_cz": "Hrajeme si na hřišti.",
+      "tts_text": "Wir spielen auf dem Spielplatz."
+    },
+    {
+      "word": "die Rutsche",
+      "translation_cz": "skluzavka",
+      "example": "Ich rutsche die Rutsche hinunter.",
+      "example_cz": "Jezdím dolů po skluzavce.",
+      "tts_text": "Ich rutsche die Rutsche hinunter."
+    },
+    {
+      "word": "der Sandkasten",
+      "translation_cz": "pískoviště",
+      "example": "Wir bauen Schlösser im Sandkasten.",
+      "example_cz": "Stavíme hrady v pískovišti.",
+      "tts_text": "Wir bauen Schlösser im Sandkasten."
+    },
+    {
+      "word": "klettern",
+      "translation_cz": "lézt",
+      "example": "Ich klettere gern auf das Klettergerüst.",
+      "example_cz": "Rád lezu po prolézačce.",
+      "tts_text": "Ich klettere gern auf das Klettergerüst."
+    },
+    {
+      "word": "die Wippe",
+      "translation_cz": "houpačka (na obě strany)",
+      "example": "Wir wippen auf der Wippe hoch und runter.",
+      "example_cz": "Houpeme se na houpačce nahoru a dolů.",
+      "tts_text": "Wir wippen auf der Wippe hoch und runter."
+    },
+    {
+      "word": "der Freund",
+      "translation_cz": "kamarád",
+      "example": "Ich spiele mit meinem Freund.",
+      "example_cz": "Hraji si s kamarádem.",
+      "tts_text": "Ich spiele mit meinem Freund."
+    },
+    {
+      "word": "Spaß haben",
+      "translation_cz": "bavit se",
+      "example": "Wir haben Spaß auf dem Spielplatz.",
+      "example_cz": "Bavíme se na hřišti.",
+      "tts_text": "Wir haben Spaß auf dem Spielplatz."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Spielplatz",
+      "options": [
+        "dětské hřiště",
+        "park",
+        "škola"
+      ],
+      "correct": "dětské hřiště"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich rutsche ___ hinunter.",
+      "answer": "die Rutsche",
+      "hint_cz": "skluzavka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Rutsche",
+          "cz": "skluzavka"
+        },
+        {
+          "target": "der Sandkasten",
+          "cz": "pískoviště"
+        },
+        {
+          "target": "klettern",
+          "cz": "lézt"
+        },
+        {
+          "target": "die Wippe",
+          "cz": "houpačka (na obě strany)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir bauen Schlösser im Sandkasten.",
+      "tts_text": "Wir bauen Schlösser im Sandkasten."
+    }
+  ]
+}

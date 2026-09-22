@@ -1,0 +1,149 @@
+{
+  "id": "de_adult_corporate_meetings_intros_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Meeting beenden",
+  "title_cz": "Ukončení schůzky",
+  "vocabulary": [
+    {
+      "word": "abschließen",
+      "translation_cz": "uzavřít / shrnout",
+      "example": "Lasst uns das Meeting jetzt abschließen.",
+      "example_cz": "Pojďme teď schůzku uzavřít.",
+      "tts_text": "Lasst uns das Meeting jetzt abschließen."
+    },
+    {
+      "word": "der Aufgabenpunkt",
+      "translation_cz": "úkol k realizaci",
+      "example": "Wir haben heute drei Aufgabenpunkte.",
+      "example_cz": "Z dnešní schůzky máme tři úkoly."
+    },
+    {
+      "word": "zusammenfassen",
+      "translation_cz": "shrnout",
+      "example": "Lassen Sie mich zusammenfassen, was wir besprochen haben.",
+      "example_cz": "Dovolte mi shrnout, co jsme probrali.",
+      "tts_text": "Lassen Sie mich zusammenfassen, was wir besprochen haben."
+    },
+    {
+      "word": "die nächsten Schritte",
+      "translation_cz": "další kroky",
+      "example": "Was sind die nächsten Schritte?",
+      "example_cz": "Jaké jsou další kroky?",
+      "tts_text": "Was sind die nächsten Schritte?"
+    },
+    {
+      "word": "danke für Ihre Zeit",
+      "translation_cz": "děkuji za váš čas",
+      "example": "Danke für Ihre Zeit heute.",
+      "example_cz": "Děkuji vám dnes za váš čas.",
+      "tts_text": "Danke für Ihre Zeit heute."
+    },
+    {
+      "word": "bevor wir enden",
+      "translation_cz": "než skončíme",
+      "example": "Bevor wir enden, gibt es noch Fragen?",
+      "example_cz": "Než skončíme, má ještě někdo dotaz?",
+      "tts_text": "Bevor wir enden, gibt es noch Fragen?"
+    },
+    {
+      "word": "zuweisen",
+      "translation_cz": "přidělit",
+      "example": "Ich weise die Aufgaben per E-Mail zu.",
+      "example_cz": "Úkoly přidělím e-mailem.",
+      "tts_text": "Ich weise die Aufgaben per E-Mail zu."
+    },
+    {
+      "word": "bis zum nächsten Mal",
+      "translation_cz": "uvidíme se příště",
+      "example": "Bis zum nächsten Mal, einen schönen Tag noch.",
+      "example_cz": "Uvidíme se příště. Mějte se hezky.",
+      "tts_text": "Bis zum nächsten Mal, einen schönen Tag noch."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_end_meeting",
+      "title": "Ein Meeting beenden",
+      "title_cz": "Ukončení schůzky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Bevor wir enden, lassen Sie mich zusammenfassen, was wir heute besprochen haben.",
+          "text_cz": "Než skončíme, dovolte mi shrnout, co jsme dnes probrali."
+        },
+        {
+          "speaker": "A",
+          "text": "Wir haben drei Aufgabenpunkte: den Bericht, das Budget und den Kundenanruf.",
+          "text_cz": "Máme tři úkoly: report, rozpočet a hovor s klientem."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar soweit. Was sind die nächsten Schritte für mich?",
+          "text_cz": "Jasné. Jaké jsou pro mě další kroky?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ich weise die Aufgaben heute Nachmittag per E-Mail zu. Danke für Ihre Zeit.",
+          "text_cz": "Úkoly přidělím e-mailem dnes odpoledne. Děkuji vám za váš čas."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke, bis zum nächsten Mal.",
+          "text_cz": "Díky, uvidíme se příště."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Aufgabenpunkt",
+      "options": [
+        "úkol k realizaci",
+        "program jednání",
+        "zápis"
+      ],
+      "correct": "úkol k realizaci"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Was sind die nächsten ___?",
+      "answer": "Schritte",
+      "hint_cz": "kroky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "abschließen",
+          "cz": "uzavřít"
+        },
+        {
+          "target": "zusammenfassen",
+          "cz": "shrnout"
+        },
+        {
+          "target": "zuweisen",
+          "cz": "přidělit"
+        },
+        {
+          "target": "die nächsten Schritte",
+          "cz": "další kroky"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Danke für Ihre Zeit heute.",
+      "tts_text": "Danke für Ihre Zeit heute."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lasst uns das Meeting jetzt ___.",
+      "answer": "abschließen",
+      "hint_cz": "uzavřít"
+    }
+  ]
+}

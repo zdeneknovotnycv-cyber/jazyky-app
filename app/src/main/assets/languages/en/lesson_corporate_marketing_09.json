@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_marketing_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Content calendar",
+  "title_cz": "Obsahový kalendář",
+  "vocabulary": [
+    {
+      "word": "content calendar",
+      "translation_cz": "obsahový kalendář",
+      "example": "Let's update the content calendar for next month.",
+      "example_cz": "Pojďme aktualizovat obsahový kalendář na příští měsíc.",
+      "tts_text": "Let's update the content calendar for next month."
+    },
+    {
+      "word": "schedule a post",
+      "translation_cz": "naplánovat příspěvek",
+      "example": "Can you schedule a post for Monday morning?",
+      "example_cz": "Můžete naplánovat příspěvek na pondělní ráno?",
+      "tts_text": "Can you schedule a post for Monday morning?"
+    },
+    {
+      "word": "editorial theme",
+      "translation_cz": "redakční téma",
+      "example": "Each week has a different editorial theme.",
+      "example_cz": "Každý týden má jiné redakční téma.",
+      "tts_text": "Each week has a different editorial theme."
+    },
+    {
+      "word": "publish date",
+      "translation_cz": "datum zveřejnění",
+      "example": "The publish date has been moved to Friday.",
+      "example_cz": "Datum zveřejnění bylo přesunuto na pátek.",
+      "tts_text": "The publish date has been moved to Friday."
+    },
+    {
+      "word": "content pipeline",
+      "translation_cz": "zásobník obsahu",
+      "example": "We keep a full content pipeline for the quarter.",
+      "example_cz": "Na čtvrtletí udržujeme plný zásobník obsahu.",
+      "tts_text": "We keep a full content pipeline for the quarter."
+    },
+    {
+      "word": "draft an article",
+      "translation_cz": "napsat návrh článku",
+      "example": "Could you draft an article about our new feature?",
+      "example_cz": "Mohl byste napsat návrh článku o naší nové funkci?",
+      "tts_text": "Could you draft an article about our new feature?"
+    },
+    {
+      "word": "content gap",
+      "translation_cz": "mezera v obsahu",
+      "example": "We found a content gap around customer stories.",
+      "example_cz": "Našli jsme mezeru v obsahu ohledně příběhů zákazníků.",
+      "tts_text": "We found a content gap around customer stories."
+    },
+    {
+      "word": "evergreen content",
+      "translation_cz": "nadčasový obsah",
+      "example": "Evergreen content keeps bringing traffic for years.",
+      "example_cz": "Nadčasový obsah přináší návštěvnost po celé roky.",
+      "tts_text": "Evergreen content keeps bringing traffic for years."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_09",
+      "title": "Planning next month's content calendar",
+      "title_cz": "Plánování obsahového kalendáře na příští měsíc",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let's update the content calendar for next month.",
+          "text_cz": "Pojďme aktualizovat obsahový kalendář na příští měsíc."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. I noticed a content gap around customer stories.",
+          "text_cz": "Jistě. Všiml jsem si mezery v obsahu ohledně příběhů zákazníků."
+        },
+        {
+          "speaker": "A",
+          "text": "Good catch. Could you draft an article about that, and schedule a post for Monday?",
+          "text_cz": "Dobrý postřeh. Mohl byste napsat návrh článku o tom a naplánovat příspěvek na pondělí?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, I'll set the publish date for next Friday.",
+          "text_cz": "Jistě, nastavím datum zveřejnění na příští pátek."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "content calendar",
+      "options": [
+        "obsahový kalendář",
+        "redakční téma",
+        "zásobník obsahu"
+      ],
+      "correct": "obsahový kalendář"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can you ___ a post for Monday morning?",
+      "answer": "schedule",
+      "hint_cz": "naplánovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "editorial theme",
+          "cz": "redakční téma"
+        },
+        {
+          "target": "publish date",
+          "cz": "datum zveřejnění"
+        },
+        {
+          "target": "content gap",
+          "cz": "mezera v obsahu"
+        },
+        {
+          "target": "evergreen content",
+          "cz": "nadčasový obsah"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's update the content calendar for next month.",
+      "tts_text": "Let's update the content calendar for next month."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Could you ___ an article about our new feature?",
+      "answer": "draft",
+      "hint_cz": "napsat návrh"
+    }
+  ]
+}

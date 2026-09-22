@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_weather_seasons_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Heiß und Kalt",
+  "title_cz": "Horko a zima",
+  "vocabulary": [
+    {
+      "word": "heiß",
+      "translation_cz": "horko",
+      "example": "Heute ist es sehr heiß.",
+      "example_cz": "Dnes je velké horko.",
+      "tts_text": "Heute ist es sehr heiß."
+    },
+    {
+      "word": "kalt",
+      "translation_cz": "zima (chladno)",
+      "example": "Im Winter ist es kalt.",
+      "example_cz": "V zimě je zima.",
+      "tts_text": "Im Winter ist es kalt."
+    },
+    {
+      "word": "warm",
+      "translation_cz": "teplo",
+      "example": "Das Wasser ist warm.",
+      "example_cz": "Voda je teplá.",
+      "tts_text": "Das Wasser ist warm."
+    },
+    {
+      "word": "kühl",
+      "translation_cz": "chladno (příjemně)",
+      "example": "Der Abend ist kühl.",
+      "example_cz": "Večer je příjemně chladno.",
+      "tts_text": "Der Abend ist kühl."
+    },
+    {
+      "word": "eiskalt",
+      "translation_cz": "mrazivo",
+      "example": "Draußen ist es eiskalt.",
+      "example_cz": "Venku je mrazivo.",
+      "tts_text": "Draußen ist es eiskalt."
+    },
+    {
+      "word": "das Thermometer",
+      "translation_cz": "teploměr",
+      "example": "Das Thermometer zeigt null Grad.",
+      "example_cz": "Teploměr ukazuje nula stupňů.",
+      "tts_text": "Das Thermometer zeigt null Grad."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "kalt",
+      "options": [
+        "zima (chladno)",
+        "horko",
+        "teplo"
+      ],
+      "correct": "zima (chladno)"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Heute ist es sehr ___.",
+      "answer": "heiß",
+      "hint_cz": "horko"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "warm",
+          "cz": "teplo"
+        },
+        {
+          "target": "kühl",
+          "cz": "chladno (příjemně)"
+        },
+        {
+          "target": "eiskalt",
+          "cz": "mrazivo"
+        },
+        {
+          "target": "das Thermometer",
+          "cz": "teploměr"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Heute ist es sehr heiß.",
+      "tts_text": "Heute ist es sehr heiß."
+    }
+  ]
+}

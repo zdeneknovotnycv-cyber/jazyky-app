@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_negotiation_sales_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Verkaufsgespräch eröffnen",
+  "title_cz": "Zahájení obchodního hovoru",
+  "vocabulary": [
+    {
+      "word": "der Interessent",
+      "translation_cz": "potenciální zákazník",
+      "example": "Unser Interessent hat Interesse an einer Demo.",
+      "example_cz": "Náš potenciální zákazník má zájem o ukázku.",
+      "tts_text": "Unser Interessent hat Interesse an einer Demo."
+    },
+    {
+      "word": "eine Beziehung aufbauen",
+      "translation_cz": "navázat vztah",
+      "example": "Bauen wir eine Beziehung auf, bevor wir das Angebot besprechen.",
+      "example_cz": "Navažme vztah, než probereme nabídku.",
+      "tts_text": "Bauen wir eine Beziehung auf, bevor wir das Angebot besprechen."
+    },
+    {
+      "word": "die Bedarfsanalyse",
+      "translation_cz": "analýza potřeb",
+      "example": "Wir beginnen jedes Gespräch mit einer Bedarfsanalyse.",
+      "example_cz": "Každý hovor začínáme analýzou potřeb.",
+      "tts_text": "Wir beginnen jedes Gespräch mit einer Bedarfsanalyse."
+    },
+    {
+      "word": "das Wertversprechen",
+      "translation_cz": "hodnotová nabídka",
+      "example": "Unser Wertversprechen ist Geschwindigkeit und Zuverlässigkeit.",
+      "example_cz": "Naší hodnotovou nabídkou je rychlost a spolehlivost.",
+      "tts_text": "Unser Wertversprechen ist Geschwindigkeit und Zuverlässigkeit."
+    },
+    {
+      "word": "der Schmerzpunkt",
+      "translation_cz": "problémový bod",
+      "example": "Was ist momentan Ihr größter Schmerzpunkt?",
+      "example_cz": "Jaký je váš momentálně největší problémový bod?",
+      "tts_text": "Was ist momentan Ihr größter Schmerzpunkt?"
+    },
+    {
+      "word": "das Unternehmen vorstellen",
+      "translation_cz": "představit společnost",
+      "example": "Lassen Sie mich unser Unternehmen kurz vorstellen.",
+      "example_cz": "Dovolte mi krátce představit naši společnost.",
+      "tts_text": "Lassen Sie mich unser Unternehmen kurz vorstellen."
+    },
+    {
+      "word": "Erwartungen festlegen",
+      "translation_cz": "stanovit očekávání",
+      "example": "Legen wir die Erwartungen für dieses Gespräch fest.",
+      "example_cz": "Stanovme si očekávání pro tento hovor.",
+      "tts_text": "Legen wir die Erwartungen für dieses Gespräch fest."
+    },
+    {
+      "word": "der warme Lead",
+      "translation_cz": "vřelý kontakt / zájemce",
+      "example": "Das ist ein warmer Lead von der Website.",
+      "example_cz": "Toto je vřelý kontakt z webových stránek.",
+      "tts_text": "Das ist ein warmer Lead von der Website."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_sales_open",
+      "title": "Ein Gespräch mit einem Interessenten eröffnen",
+      "title_cz": "Zahájení hovoru s potenciálním zákazníkem",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hallo, danke, dass Sie sich Zeit nehmen. Lassen Sie mich unser Unternehmen kurz vorstellen.",
+          "text_cz": "Dobrý den, děkuji za váš čas. Dovolte mi krátce představit naši společnost."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, bitte.",
+          "text_cz": "Jistě, pokračujte."
+        },
+        {
+          "speaker": "A",
+          "text": "Vorher, könnten Sie mir sagen, was momentan Ihr größter Schmerzpunkt ist?",
+          "text_cz": "Než to udělám, mohl byste mi říct, jaký je váš momentálně největší problémový bod?"
+        },
+        {
+          "speaker": "B",
+          "text": "Hauptsächlich langsame Lieferzeiten von unserem aktuellen Lieferanten.",
+          "text_cz": "Hlavně pomalé dodací lhůty od našeho současného dodavatele."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Interessent",
+      "options": [
+        "potenciální zákazník",
+        "analýza potřeb",
+        "hodnotová nabídka"
+      ],
+      "correct": "potenciální zákazník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bauen wir eine Beziehung auf, bevor wir das Angebot besprechen.",
+      "answer": "eine Beziehung aufbauen",
+      "hint_cz": "navázat vztah"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Was ist momentan Ihr größter Schmerzpunkt?",
+      "answer": "der Schmerzpunkt",
+      "hint_cz": "problémový bod"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Unternehmen vorstellen",
+          "cz": "představit společnost"
+        },
+        {
+          "target": "Erwartungen festlegen",
+          "cz": "stanovit očekávání"
+        },
+        {
+          "target": "der warme Lead",
+          "cz": "vřelý kontakt / zájemce"
+        },
+        {
+          "target": "die Bedarfsanalyse",
+          "cz": "analýza potřeb"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Hallo, danke, dass Sie sich Zeit nehmen. Lassen Sie mich unser Unternehmen kurz vorstellen.",
+      "tts_text": "Hallo, danke, dass Sie sich Zeit nehmen. Lassen Sie mich unser Unternehmen kurz vorstellen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Klar, bitte.",
+      "tts_text": "Klar, bitte."
+    }
+  ]
+}

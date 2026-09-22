@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_scheduling_calendars_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Zeit im Kalender blockieren",
+  "title_cz": "Blokování času v kalendáři",
+  "vocabulary": [
+    {
+      "word": "ich blockiere diese Zeit",
+      "translation_cz": "zablokuji si tento čas",
+      "example": "Ich blockiere diese Zeit, damit niemand sie buchen kann.",
+      "example_cz": "Zablokuji si tento čas, aby si ho nikdo jiný nerezervoval.",
+      "tts_text": "Ich blockiere diese Zeit, damit niemand sie buchen kann."
+    },
+    {
+      "word": "die konzentrierte Arbeitszeit",
+      "translation_cz": "čas na soustředěnou práci",
+      "example": "Ich brauche morgens zwei Stunden konzentrierte Arbeitszeit.",
+      "example_cz": "Potřebuji dvě hodiny na soustředěnou práci dopoledne.",
+      "tts_text": "Ich brauche morgens zwei Stunden konzentrierte Arbeitszeit."
+    },
+    {
+      "word": "als beschäftigt markieren",
+      "translation_cz": "označit jako obsazeno",
+      "example": "Bitte markieren Sie diesen Termin im gemeinsamen Kalender als beschäftigt.",
+      "example_cz": "Označte prosím to okénko ve sdíleném kalendáři jako obsazené.",
+      "tts_text": "Bitte markieren Sie diesen Termin im gemeinsamen Kalender als beschäftigt."
+    },
+    {
+      "word": "keine Meetings vor zehn Uhr",
+      "translation_cz": "žádné schůzky před desátou",
+      "example": "Ich versuche, keine Meetings vor zehn Uhr zu haben.",
+      "example_cz": "Snažím se nemít žádné schůzky před desátou.",
+      "tts_text": "Ich versuche, keine Meetings vor zehn Uhr zu haben."
+    },
+    {
+      "word": "Zeit für die Vorbereitung reservieren",
+      "translation_cz": "vyhradit si čas na přípravu",
+      "example": "Lassen Sie uns Zeit für die Vorbereitung vor dem Anruf reservieren.",
+      "example_cz": "Vyhraďme si čas na přípravu před hovorem.",
+      "tts_text": "Lassen Sie uns Zeit für die Vorbereitung vor dem Anruf reservieren."
+    },
+    {
+      "word": "diesen Termin freihalten",
+      "translation_cz": "ponechat to okénko volné",
+      "example": "Könnten Sie diesen Termin vorerst freihalten?",
+      "example_cz": "Mohl byste to okénko zatím ponechat volné?",
+      "tts_text": "Könnten Sie diesen Termin vorerst freihalten?"
+    },
+    {
+      "word": "der gemeinsame Kalender",
+      "translation_cz": "sdílený kalendář",
+      "example": "Jeder kann Ihre Verfügbarkeit im gemeinsamen Kalender sehen.",
+      "example_cz": "Vaši dostupnost vidí všichni ve sdíleném kalendáři.",
+      "tts_text": "Jeder kann Ihre Verfügbarkeit im gemeinsamen Kalender sehen."
+    },
+    {
+      "word": "die Mittagspause",
+      "translation_cz": "obědová pauza",
+      "example": "Ich blockiere immer meine Mittagspause von zwölf bis eins.",
+      "example_cz": "Vždy si blokuji obědovou pauzu od dvanácti do jedné.",
+      "tts_text": "Ich blockiere immer meine Mittagspause von zwölf bis eins."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_zeit_blockieren",
+      "title": "Konzentrierte Arbeitszeit im Kalender blockieren",
+      "title_cz": "Blokování času na soustředěnou práci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich brauche diese Woche morgens zwei Stunden konzentrierte Arbeitszeit.",
+          "text_cz": "Tento týden potřebuji dvě hodiny na soustředěnou práci dopoledne."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, ich blockiere diese Zeit, damit niemand sie buchen kann.",
+          "text_cz": "Jistě, zablokuji si tento čas, aby si ho nikdo jiný nerezervoval."
+        },
+        {
+          "speaker": "A",
+          "text": "Danke. Könnten Sie das auch im gemeinsamen Kalender als beschäftigt markieren?",
+          "text_cz": "Díky. Mohl byste to také označit jako obsazeno ve sdíleném kalendáři?"
+        },
+        {
+          "speaker": "B",
+          "text": "Erledigt. Ich versuche sowieso, keine Meetings vor zehn Uhr zu haben.",
+          "text_cz": "Hotovo. Snažím se stejně nemít žádné schůzky před desátou."
+        },
+        {
+          "speaker": "A",
+          "text": "Das ist eine gute Gewohnheit. Vergessen Sie auch Ihre Mittagspause nicht.",
+          "text_cz": "To je dobrý zvyk. Nezapomeňte také na obědovou pauzu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Ich blockiere diese Zeit, damit niemand sie buchen kann.",
+      "options": [
+        "Zablokuji si tento čas, aby si ho nikdo jiný nerezervoval.",
+        "Vždy si blokuji obědovou pauzu.",
+        "Vyhraďme si čas na přípravu."
+      ],
+      "correct": "Zablokuji si tento čas, aby si ho nikdo jiný nerezervoval."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich brauche morgens zwei Stunden ___ Arbeitszeit.",
+      "answer": "konzentrierte",
+      "hint_cz": "soustředěnou"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "als beschäftigt markieren", "cz": "označit jako obsazeno" },
+        { "target": "der gemeinsame Kalender", "cz": "sdílený kalendář" },
+        { "target": "die Mittagspause", "cz": "obědová pauza" },
+        { "target": "diesen Termin freihalten", "cz": "ponechat to okénko volné" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lassen Sie uns Zeit für die Vorbereitung vor dem Anruf reservieren.",
+      "tts_text": "Lassen Sie uns Zeit für die Vorbereitung vor dem Anruf reservieren."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich blockiere immer meine ___ von zwölf bis eins.",
+      "answer": "Mittagspause",
+      "hint_cz": "obědová pauza"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Jeder kann Ihre Verfügbarkeit im gemeinsamen Kalender sehen.",
+      "tts_text": "Jeder kann Ihre Verfügbarkeit im gemeinsamen Kalender sehen."
+    }
+  ]
+}

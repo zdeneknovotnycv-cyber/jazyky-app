@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_numbers_colors_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Big and Small",
+  "title_cz": "Velký a malý",
+  "vocabulary": [
+    {
+      "word": "big",
+      "translation_cz": "velký",
+      "example": "The elephant is big.",
+      "example_cz": "Slon je velký.",
+      "tts_text": "The elephant is big."
+    },
+    {
+      "word": "small",
+      "translation_cz": "malý",
+      "example": "The mouse is small.",
+      "example_cz": "Myš je malá.",
+      "tts_text": "The mouse is small."
+    },
+    {
+      "word": "tall",
+      "translation_cz": "vysoký",
+      "example": "The tree is tall.",
+      "example_cz": "Strom je vysoký.",
+      "tts_text": "The tree is tall."
+    },
+    {
+      "word": "short",
+      "translation_cz": "nízký",
+      "example": "The chair is short.",
+      "example_cz": "Židle je nízká.",
+      "tts_text": "The chair is short."
+    },
+    {
+      "word": "heavy",
+      "translation_cz": "těžký",
+      "example": "The rock is heavy.",
+      "example_cz": "Kámen je těžký.",
+      "tts_text": "The rock is heavy."
+    },
+    {
+      "word": "light",
+      "translation_cz": "lehký",
+      "example": "The feather is light.",
+      "example_cz": "Pírko je lehké.",
+      "tts_text": "The feather is light."
+    },
+    {
+      "word": "size",
+      "translation_cz": "velikost",
+      "example": "What size is this box?",
+      "example_cz": "Jaká je velikost té krabice?",
+      "tts_text": "What size is this box?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "heavy",
+      "options": [
+        "těžký",
+        "malý",
+        "vysoký"
+      ],
+      "correct": "těžký"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The mouse is ___.",
+      "answer": "small",
+      "hint_cz": "malá"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "big",
+          "cz": "velký"
+        },
+        {
+          "target": "tall",
+          "cz": "vysoký"
+        },
+        {
+          "target": "short",
+          "cz": "nízký"
+        },
+        {
+          "target": "light",
+          "cz": "lehký"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "What size is this box?",
+      "tts_text": "What size is this box?"
+    }
+  ]
+}

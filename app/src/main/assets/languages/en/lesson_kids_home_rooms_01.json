@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_home_rooms_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Rooms in a House",
+  "title_cz": "Místnosti v domě",
+  "vocabulary": [
+    {
+      "word": "kitchen",
+      "translation_cz": "kuchyně",
+      "example": "We cook in the kitchen.",
+      "example_cz": "V kuchyni vaříme.",
+      "tts_text": "We cook in the kitchen."
+    },
+    {
+      "word": "bedroom",
+      "translation_cz": "ložnice / pokoj",
+      "example": "I sleep in my bedroom.",
+      "example_cz": "Spím ve svém pokoji.",
+      "tts_text": "I sleep in my bedroom."
+    },
+    {
+      "word": "bathroom",
+      "translation_cz": "koupelna",
+      "example": "I brush my teeth in the bathroom.",
+      "example_cz": "V koupelně si čistím zuby.",
+      "tts_text": "I brush my teeth in the bathroom."
+    },
+    {
+      "word": "living room",
+      "translation_cz": "obývací pokoj",
+      "example": "We watch TV in the living room.",
+      "example_cz": "V obývacím pokoji koukáme na televizi.",
+      "tts_text": "We watch TV in the living room."
+    },
+    {
+      "word": "hallway",
+      "translation_cz": "chodba",
+      "example": "I hang my coat in the hallway.",
+      "example_cz": "Kabát si věším na chodbě.",
+      "tts_text": "I hang my coat in the hallway."
+    },
+    {
+      "word": "garage",
+      "translation_cz": "garáž",
+      "example": "The car is in the garage.",
+      "example_cz": "Auto je v garáži.",
+      "tts_text": "The car is in the garage."
+    },
+    {
+      "word": "stairs",
+      "translation_cz": "schody",
+      "example": "I go up the stairs.",
+      "example_cz": "Jdu nahoru po schodech.",
+      "tts_text": "I go up the stairs."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "kitchen",
+      "options": [
+        "kuchyně",
+        "koupelna",
+        "chodba"
+      ],
+      "correct": "kuchyně"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I sleep in my ___.",
+      "answer": "bedroom",
+      "hint_cz": "pokoj"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bathroom",
+          "cz": "koupelna"
+        },
+        {
+          "target": "living room",
+          "cz": "obývací pokoj"
+        },
+        {
+          "target": "garage",
+          "cz": "garáž"
+        },
+        {
+          "target": "stairs",
+          "cz": "schody"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We cook in the kitchen.",
+      "tts_text": "We cook in the kitchen."
+    }
+  ]
+}

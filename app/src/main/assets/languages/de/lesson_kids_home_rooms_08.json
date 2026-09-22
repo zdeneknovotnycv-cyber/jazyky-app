@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_home_rooms_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Moving to a New Home",
+  "title_cz": "Stěhování do nového domova",
+  "vocabulary": [
+    {
+      "word": "umziehen",
+      "translation_cz": "stěhovat se",
+      "example": "Wir ziehen in ein neues Haus um.",
+      "example_cz": "Stěhujeme se do nového domu.",
+      "tts_text": "Wir ziehen in ein neues Haus um."
+    },
+    {
+      "word": "der Karton",
+      "translation_cz": "krabice",
+      "example": "Wir packen unsere Sachen in Kartons.",
+      "example_cz": "Balíme věci do krabic.",
+      "tts_text": "Wir packen unsere Sachen in Kartons."
+    },
+    {
+      "word": "das neue Zuhause",
+      "translation_cz": "nový domov",
+      "example": "Ich mag unser neues Zuhause.",
+      "example_cz": "Líbí se mi náš nový domov.",
+      "tts_text": "Ich mag unser neues Zuhause."
+    },
+    {
+      "word": "der Lastwagen",
+      "translation_cz": "náklaďák",
+      "example": "Der Lastwagen transportiert unsere Möbel.",
+      "example_cz": "Náklaďák veze náš nábytek.",
+      "tts_text": "Der Lastwagen transportiert unsere Möbel."
+    },
+    {
+      "word": "auspacken",
+      "translation_cz": "vybalovat",
+      "example": "Wir packen die Kartons aus.",
+      "example_cz": "Vybalujeme krabice.",
+      "tts_text": "Wir packen die Kartons aus."
+    },
+    {
+      "word": "das neue Zimmer",
+      "translation_cz": "nový pokoj",
+      "example": "Ich habe jetzt ein neues Zimmer.",
+      "example_cz": "Teď mám nový pokoj.",
+      "tts_text": "Ich habe jetzt ein neues Zimmer."
+    },
+    {
+      "word": "sich verabschieden",
+      "translation_cz": "rozloučit se",
+      "example": "Ich verabschiede mich von meinem alten Haus.",
+      "example_cz": "Loučím se se svým starým domem.",
+      "tts_text": "Ich verabschiede mich von meinem alten Haus."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Karton",
+      "options": [
+        "krabice",
+        "náklaďák",
+        "pokoj"
+      ],
+      "correct": "krabice"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir ziehen in ein neues Haus ___.",
+      "answer": "um",
+      "hint_cz": "stěhujeme se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das neue Zuhause",
+          "cz": "nový domov"
+        },
+        {
+          "target": "der Lastwagen",
+          "cz": "náklaďák"
+        },
+        {
+          "target": "auspacken",
+          "cz": "vybalovat"
+        },
+        {
+          "target": "sich verabschieden",
+          "cz": "rozloučit se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich mag unser neues Zuhause.",
+      "tts_text": "Ich mag unser neues Zuhause."
+    }
+  ]
+}

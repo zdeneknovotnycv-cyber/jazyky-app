@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_career_development_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Kollegen mentorieren",
+  "title_cz": "Mentorování kolegy",
+  "vocabulary": [
+    {
+      "word": "der Mentor / die Mentorin",
+      "translation_cz": "mentor",
+      "example": "Sie ist meine Mentorin bei der Arbeit.",
+      "example_cz": "Je mou mentorkou v práci.",
+      "tts_text": "Sie ist meine Mentorin bei der Arbeit."
+    },
+    {
+      "word": "die Anleitung",
+      "translation_cz": "vedení / rada",
+      "example": "Ich schätze deine Anleitung sehr.",
+      "example_cz": "Velmi si vážím tvého vedení.",
+      "tts_text": "Ich schätze deine Anleitung sehr."
+    },
+    {
+      "word": "Erfahrungen teilen",
+      "translation_cz": "sdílet zkušenosti",
+      "example": "Ich teile gerne Erfahrungen mit neuen Kollegen.",
+      "example_cz": "Rád sdílím zkušenosti s novými kolegy.",
+      "tts_text": "Ich teile gerne Erfahrungen mit neuen Kollegen."
+    },
+    {
+      "word": "lernen von",
+      "translation_cz": "učit se od",
+      "example": "Man kann viel von erfahrenen Kollegen lernen.",
+      "example_cz": "Od zkušenějších kolegů se toho můžeš hodně naučit.",
+      "tts_text": "Man kann viel von erfahrenen Kollegen lernen."
+    },
+    {
+      "word": "das Feedback",
+      "translation_cz": "zpětná vazba",
+      "example": "Danke für das ehrliche Feedback.",
+      "example_cz": "Děkuji za upřímnou zpětnou vazbu.",
+      "tts_text": "Danke für das ehrliche Feedback."
+    },
+    {
+      "word": "das Vorbild",
+      "translation_cz": "vzor",
+      "example": "Du warst ein großartiges Vorbild für mich.",
+      "example_cz": "Byl jsi pro mě skvělým vzorem.",
+      "tts_text": "Du warst ein großartiges Vorbild für mich."
+    },
+    {
+      "word": "unterstützen",
+      "translation_cz": "podpořit",
+      "example": "Ich bin da, um dich zu unterstützen, wann immer nötig.",
+      "example_cz": "Jsem tu, abych tě podpořil, kdykoli je potřeba.",
+      "tts_text": "Ich bin da, um dich zu unterstützen, wann immer nötig."
+    },
+    {
+      "word": "sich beruflich weiterentwickeln",
+      "translation_cz": "profesně růst",
+      "example": "Mentoring hilft Menschen, sich beruflich weiterzuentwickeln.",
+      "example_cz": "Mentorování pomáhá lidem profesně růst.",
+      "tts_text": "Mentoring hilft Menschen, sich beruflich weiterzuentwickeln."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_mentoring",
+      "title": "Ein Mentoring-Gespräch",
+      "title_cz": "Mentorský rozhovor",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich schätze deine Anleitung sehr, seit ich zum Team gestoßen bin.",
+          "text_cz": "Opravdu si vážím tvého vedení od té doby, co jsem se přidal k týmu."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich teile gerne Erfahrungen mit dir. Dafür ist ein Mentor da.",
+          "text_cz": "Rád s tebou sdílím zkušenosti. To je přece úkol mentora."
+        },
+        {
+          "speaker": "A",
+          "text": "Du warst ein großartiges Vorbild für mich. Kann ich um Feedback bitten?",
+          "text_cz": "Byl jsi pro mě skvělým vzorem. Můžu tě poprosit o zpětnou vazbu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Natürlich. Du lernst schnell und entwickelst dich schon beruflich weiter.",
+          "text_cz": "Jasně. Učíš se rychle a už teď profesně rosteš."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Mentor",
+      "options": [
+        "mentor",
+        "zpětná vazba",
+        "vzor"
+      ],
+      "correct": "mentor"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich schätze deine ___ sehr.",
+      "answer": "Anleitung",
+      "hint_cz": "vedení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Feedback",
+          "cz": "zpětná vazba"
+        },
+        {
+          "target": "das Vorbild",
+          "cz": "vzor"
+        },
+        {
+          "target": "unterstützen",
+          "cz": "podpořit"
+        },
+        {
+          "target": "sich beruflich weiterentwickeln",
+          "cz": "profesně růst"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich bin da, um dich zu unterstützen, wann immer nötig.",
+      "tts_text": "Ich bin da, um dich zu unterstützen, wann immer nötig."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Man kann viel ___ erfahrenen Kollegen lernen.",
+      "answer": "von",
+      "hint_cz": "od"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_imagination_stories_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "A superhero day",
+  "title_cz": "Den superhrdiny",
+  "vocabulary": [
+    {
+      "word": "superhero",
+      "translation_cz": "superhrdina",
+      "example": "I become a superhero today.",
+      "example_cz": "Dnes se stávám superhrdinou.",
+      "tts_text": "I become a superhero today."
+    },
+    {
+      "word": "cape",
+      "translation_cz": "plášť",
+      "example": "I wear a red cape.",
+      "example_cz": "Mám na sobě červený plášť.",
+      "tts_text": "I wear a red cape."
+    },
+    {
+      "word": "power",
+      "translation_cz": "síla, schopnost",
+      "example": "My power is super speed.",
+      "example_cz": "Moje schopnost je superrychlost.",
+      "tts_text": "My power is super speed."
+    },
+    {
+      "word": "save",
+      "translation_cz": "zachránit",
+      "example": "I save a cat from a tree.",
+      "example_cz": "Zachraňuji kočku ze stromu.",
+      "tts_text": "I save a cat from a tree."
+    },
+    {
+      "word": "fly",
+      "translation_cz": "létat",
+      "example": "I fly over the city.",
+      "example_cz": "Létám nad městem.",
+      "tts_text": "I fly over the city."
+    },
+    {
+      "word": "brave",
+      "translation_cz": "statečný",
+      "example": "A superhero must be brave.",
+      "example_cz": "Superhrdina musí být statečný.",
+      "tts_text": "A superhero must be brave."
+    },
+    {
+      "word": "mission",
+      "translation_cz": "úkol, mise",
+      "example": "My mission starts now.",
+      "example_cz": "Moje mise teď začíná.",
+      "tts_text": "My mission starts now."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "superhero",
+      "options": [
+        "superhrdina",
+        "plášť",
+        "síla, schopnost"
+      ],
+      "correct": "superhrdina"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I wear a red ___.",
+      "answer": "cape",
+      "hint_cz": "plášť"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "power",
+          "cz": "síla, schopnost"
+        },
+        {
+          "target": "save",
+          "cz": "zachránit"
+        },
+        {
+          "target": "fly",
+          "cz": "létat"
+        },
+        {
+          "target": "brave",
+          "cz": "statečný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My mission starts now.",
+      "tts_text": "My mission starts now."
+    }
+  ]
+}

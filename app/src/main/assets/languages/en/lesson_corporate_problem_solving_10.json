@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_problem_solving_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Crisis communication basics",
+  "title_cz": "Základy krizové komunikace",
+  "vocabulary": [
+    {
+      "word": "stay calm",
+      "translation_cz": "zůstat klidný",
+      "example": "It's important to stay calm.",
+      "example_cz": "Je důležité zůstat klidný.",
+      "tts_text": "It's important to stay calm."
+    },
+    {
+      "word": "official statement",
+      "translation_cz": "oficiální prohlášení",
+      "example": "We need to prepare an official statement.",
+      "example_cz": "Musíme připravit oficiální prohlášení.",
+      "tts_text": "We need to prepare an official statement."
+    },
+    {
+      "word": "spread misinformation",
+      "translation_cz": "šířit dezinformace",
+      "example": "We must not let rumors spread misinformation.",
+      "example_cz": "Nesmíme nechat fámy šířit dezinformace.",
+      "tts_text": "We must not let rumors spread misinformation."
+    },
+    {
+      "word": "transparent",
+      "translation_cz": "transparentní",
+      "example": "We should be transparent with our team.",
+      "example_cz": "Měli bychom být transparentní k našemu týmu.",
+      "tts_text": "We should be transparent with our team."
+    },
+    {
+      "word": "single point of contact",
+      "translation_cz": "jediné kontaktní místo",
+      "example": "There should be a single point of contact.",
+      "example_cz": "Mělo by existovat jediné kontaktní místo.",
+      "tts_text": "There should be a single point of contact."
+    },
+    {
+      "word": "manage the situation",
+      "translation_cz": "zvládnout situaci",
+      "example": "We can manage the situation together.",
+      "example_cz": "Situaci můžeme zvládnout společně.",
+      "tts_text": "We can manage the situation together."
+    },
+    {
+      "word": "update regularly",
+      "translation_cz": "pravidelně informovat",
+      "example": "We will update everyone regularly.",
+      "example_cz": "Budeme všechny pravidelně informovat.",
+      "tts_text": "We will update everyone regularly."
+    },
+    {
+      "word": "reassure",
+      "translation_cz": "uklidnit / ujistit",
+      "example": "Let's reassure the team.",
+      "example_cz": "Pojďme uklidnit tým.",
+      "tts_text": "Let's reassure the team."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_10",
+      "title": "Crisis communication",
+      "title_cz": "Krizová komunikace",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "We need to stay calm and prepare an official statement.",
+          "text_cz": "Musíme zůstat klidní a připravit oficiální prohlášení."
+        },
+        {
+          "speaker": "B",
+          "text": "Agreed. Who will be the single point of contact?",
+          "text_cz": "Souhlasím. Kdo bude jediné kontaktní místo?"
+        },
+        {
+          "speaker": "A",
+          "text": "I'll take that role. We must be transparent with everyone.",
+          "text_cz": "Tu roli převezmu já. Musíme být transparentní ke všem."
+        },
+        {
+          "speaker": "B",
+          "text": "Good, that will stop rumors from spreading misinformation.",
+          "text_cz": "Dobře, to zabrání šíření dezinformací."
+        },
+        {
+          "speaker": "A",
+          "text": "Let's update the team regularly and reassure them.",
+          "text_cz": "Pojďme tým pravidelně informovat a uklidnit ho."
+        },
+        {
+          "speaker": "B",
+          "text": "We can manage this situation together.",
+          "text_cz": "Tuto situaci můžeme zvládnout společně."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "stay calm",
+      "options": [
+        "zůstat klidný",
+        "oficiální prohlášení",
+        "šířit dezinformace"
+      ],
+      "correct": "zůstat klidný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We should be ___ with our team.",
+      "answer": "transparent",
+      "hint_cz": "transparentní"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "stay calm",
+          "cz": "zůstat klidný"
+        },
+        {
+          "target": "official statement",
+          "cz": "oficiální prohlášení"
+        },
+        {
+          "target": "spread misinformation",
+          "cz": "šířit dezinformace"
+        },
+        {
+          "target": "transparent",
+          "cz": "transparentní"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "There should be a single point of contact.",
+      "tts_text": "There should be a single point of contact."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We can ___ together.",
+      "answer": "manage the situation",
+      "hint_cz": "zvládnout situaci"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_business_travel_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Renting a car for business",
+  "title_cz": "Pronájem auta na služební cestu",
+  "vocabulary": [
+    {
+      "word": "rent a car",
+      "translation_cz": "pronajmout si auto",
+      "example": "I'd like to rent a car for three days.",
+      "example_cz": "Rád bych si pronajal auto na tři dny.",
+      "tts_text": "I'd like to rent a car for three days."
+    },
+    {
+      "word": "driving license",
+      "translation_cz": "řidičský průkaz",
+      "example": "Do you have your driving license with you?",
+      "example_cz": "Máte u sebe řidičský průkaz?",
+      "tts_text": "Do you have your driving license with you?"
+    },
+    {
+      "word": "full insurance",
+      "translation_cz": "plné pojištění",
+      "example": "I'd like to add full insurance.",
+      "example_cz": "Rád bych přidal plné pojištění.",
+      "tts_text": "I'd like to add full insurance."
+    },
+    {
+      "word": "automatic transmission",
+      "translation_cz": "automatická převodovka",
+      "example": "I prefer a car with automatic transmission.",
+      "example_cz": "Preferuji auto s automatickou převodovkou.",
+      "tts_text": "I prefer a car with automatic transmission."
+    },
+    {
+      "word": "pick up the car",
+      "translation_cz": "vyzvednout auto",
+      "example": "Where can I pick up the car?",
+      "example_cz": "Kde si mohu vyzvednout auto?",
+      "tts_text": "Where can I pick up the car?"
+    },
+    {
+      "word": "return the car",
+      "translation_cz": "vrátit auto",
+      "example": "I need to return the car by Friday.",
+      "example_cz": "Musím vrátit auto do pátku.",
+      "tts_text": "I need to return the car by Friday."
+    },
+    {
+      "word": "mileage limit",
+      "translation_cz": "limit najetých kilometrů",
+      "example": "Is there a mileage limit?",
+      "example_cz": "Je tam nějaký limit najetých kilometrů?",
+      "tts_text": "Is there a mileage limit?"
+    },
+    {
+      "word": "fuel policy",
+      "translation_cz": "palivová politika",
+      "example": "What is your fuel policy?",
+      "example_cz": "Jaká je vaše palivová politika?",
+      "tts_text": "What is your fuel policy?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_car_rental",
+      "title": "Renting a car at the airport",
+      "title_cz": "Pronájem auta na letišti",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'd like to rent a car for three days, please.",
+          "text_cz": "Rád bych si pronajal auto na tři dny, prosím."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. Do you have your driving license with you?",
+          "text_cz": "Jistě. Máte u sebe řidičský průkaz?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, here it is. I'd also like a car with automatic transmission and full insurance.",
+          "text_cz": "Ano, tady je. Rád bych také auto s automatickou převodovkou a plným pojištěním."
+        },
+        {
+          "speaker": "B",
+          "text": "No problem. Is there anything else? What's the fuel policy, by the way?",
+          "text_cz": "Žádný problém. Ještě něco? Mimochodem, jaká je palivová politika?"
+        },
+        {
+          "speaker": "B",
+          "text": "You return it full, same as you receive it.",
+          "text_cz": "Vracíte ho plné, stejně jako ho dostáváte."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "driving license",
+      "options": [
+        "řidičský průkaz",
+        "plné pojištění",
+        "limit najetých kilometrů"
+      ],
+      "correct": "řidičský průkaz"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'd like to rent a ___ for three days.",
+      "answer": "car",
+      "hint_cz": "auto"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Is there a mileage ___?",
+      "answer": "limit",
+      "hint_cz": "limit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "automatic transmission",
+          "cz": "automatická převodovka"
+        },
+        {
+          "target": "pick up the car",
+          "cz": "vyzvednout auto"
+        },
+        {
+          "target": "return the car",
+          "cz": "vrátit auto"
+        },
+        {
+          "target": "fuel policy",
+          "cz": "palivová politika"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'd like to rent a car for three days.",
+      "tts_text": "I'd like to rent a car for three days."
+    }
+  ]
+}

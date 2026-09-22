@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_customer_service_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Apologizing to a customer",
+  "title_cz": "Omluva zákazníkovi",
+  "vocabulary": [
+    {
+      "word": "I sincerely apologize",
+      "translation_cz": "Upřímně se omlouvám",
+      "example": "I sincerely apologize for the mistake.",
+      "example_cz": "Upřímně se omlouvám za chybu.",
+      "tts_text": "I sincerely apologize for the mistake."
+    },
+    {
+      "word": "It won't happen again",
+      "translation_cz": "Už se to nebude opakovat",
+      "example": "I promise it won't happen again.",
+      "example_cz": "Slibuji, že se to už nebude opakovat.",
+      "tts_text": "I promise it won't happen again."
+    },
+    {
+      "word": "on behalf of the company",
+      "translation_cz": "jménem společnosti",
+      "example": "On behalf of the company, I apologize.",
+      "example_cz": "Jménem společnosti se omlouvám.",
+      "tts_text": "On behalf of the company, I apologize."
+    },
+    {
+      "word": "take responsibility",
+      "translation_cz": "převzít odpovědnost",
+      "example": "We take full responsibility for the error.",
+      "example_cz": "Přebíráme plnou odpovědnost za chybu.",
+      "tts_text": "We take full responsibility for the error."
+    },
+    {
+      "word": "mistake",
+      "translation_cz": "chyba, omyl",
+      "example": "This was our mistake, not yours.",
+      "example_cz": "Byla to naše chyba, ne vaše.",
+      "tts_text": "This was our mistake, not yours."
+    },
+    {
+      "word": "make it right",
+      "translation_cz": "napravit to",
+      "example": "Let us make it right for you.",
+      "example_cz": "Dovolte nám to pro vás napravit.",
+      "tts_text": "Let us make it right for you."
+    },
+    {
+      "word": "thank you for your patience",
+      "translation_cz": "děkuji za trpělivost",
+      "example": "Thank you for your patience with this issue.",
+      "example_cz": "Děkuji za vaši trpělivost s tímto problémem.",
+      "tts_text": "Thank you for your patience with this issue."
+    },
+    {
+      "word": "shortcoming",
+      "translation_cz": "nedostatek",
+      "example": "We noticed a shortcoming in our service.",
+      "example_cz": "Všimli jsme si nedostatku v naší službě.",
+      "tts_text": "We noticed a shortcoming in our service."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_03",
+      "title": "Apologizing for a mistake in an order",
+      "title_cz": "Omluva za chybu v objednávce",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I sincerely apologize, we sent you the wrong item.",
+          "text_cz": "Upřímně se omlouvám, poslali jsme vám špatný produkt."
+        },
+        {
+          "speaker": "B",
+          "text": "That's frustrating, but thank you for telling me.",
+          "text_cz": "To je frustrující, ale díky, že jste mi to řekli."
+        },
+        {
+          "speaker": "A",
+          "text": "We take full responsibility. We will make it right and send the correct item today.",
+          "text_cz": "Přebíráme plnou odpovědnost. Napravíme to a dnes vám pošleme správný produkt."
+        },
+        {
+          "speaker": "B",
+          "text": "I appreciate that. Thank you for your patience with this.",
+          "text_cz": "To oceňuji. Děkuji za vaši trpělivost s tímto."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "It won't happen again",
+      "options": [
+        "Už se to nebude opakovat",
+        "Chyba, omyl",
+        "Napravit to"
+      ],
+      "correct": "Už se to nebude opakovat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We take full ___ for the error.",
+      "answer": "responsibility",
+      "hint_cz": "odpovědnost"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "mistake",
+          "cz": "chyba, omyl"
+        },
+        {
+          "target": "make it right",
+          "cz": "napravit to"
+        },
+        {
+          "target": "shortcoming",
+          "cz": "nedostatek"
+        },
+        {
+          "target": "on behalf of the company",
+          "cz": "jménem společnosti"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I sincerely apologize for the mistake.",
+      "tts_text": "I sincerely apologize for the mistake."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let us ___ it right for you.",
+      "answer": "make",
+      "hint_cz": "napravit"
+    }
+  ]
+}

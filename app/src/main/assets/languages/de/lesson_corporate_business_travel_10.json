@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_business_travel_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Packen für eine Geschäftsreise",
+  "title_cz": "Balení na služební cestu",
+  "vocabulary": [
+    {
+      "word": "einen Koffer packen",
+      "translation_cz": "sbalit kufr",
+      "example": "Ich muss noch meinen Koffer packen.",
+      "example_cz": "Ještě musím sbalit kufr.",
+      "tts_text": "Ich muss noch meinen Koffer packen."
+    },
+    {
+      "word": "die Geschäftskleidung",
+      "translation_cz": "obchodní oblečení",
+      "example": "Vergiss deine Geschäftskleidung nicht.",
+      "example_cz": "Nezapomeň na obchodní oblečení.",
+      "tts_text": "Vergiss deine Geschäftskleidung nicht."
+    },
+    {
+      "word": "das Laptop-Ladegerät",
+      "translation_cz": "nabíječka k notebooku",
+      "example": "Ich überprüfe immer mein Laptop-Ladegerät noch einmal.",
+      "example_cz": "Vždycky si znovu zkontroluji nabíječku k notebooku.",
+      "tts_text": "Ich überprüfe immer mein Laptop-Ladegerät noch einmal."
+    },
+    {
+      "word": "der Reiseadapter",
+      "translation_cz": "cestovní adaptér",
+      "example": "Für dieses Land brauchst du einen Reiseadapter.",
+      "example_cz": "Do té země budeš potřebovat cestovní adaptér.",
+      "tts_text": "Für dieses Land brauchst du einen Reiseadapter."
+    },
+    {
+      "word": "die Präsentationsunterlagen",
+      "translation_cz": "prezentační materiály",
+      "example": "Hast du die Präsentationsunterlagen eingepackt?",
+      "example_cz": "Zabalil jsi prezentační materiály?",
+      "tts_text": "Hast du die Präsentationsunterlagen eingepackt?"
+    },
+    {
+      "word": "wichtige Dokumente mitführen",
+      "translation_cz": "mít u sebe důležité dokumenty",
+      "example": "Führe deine wichtigen Dokumente immer mit dir.",
+      "example_cz": "Vždy měj u sebe důležité dokumenty.",
+      "tts_text": "Führe deine wichtigen Dokumente immer mit dir."
+    },
+    {
+      "word": "die Wettervorhersage",
+      "translation_cz": "předpověď počasí",
+      "example": "Prüfe die Wettervorhersage vor dem Packen.",
+      "example_cz": "Před balením zkontroluj předpověď počasí.",
+      "tts_text": "Prüfe die Wettervorhersage vor dem Packen."
+    },
+    {
+      "word": "die Handgepäckbeschränkungen",
+      "translation_cz": "omezení pro příruční zavazadlo",
+      "example": "Denk an die Handgepäckbeschränkungen.",
+      "example_cz": "Pamatuj na omezení pro příruční zavazadlo.",
+      "tts_text": "Denk an die Handgepäckbeschränkungen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_packen_reise",
+      "title": "Packen für eine Geschäftsreise",
+      "title_cz": "Balení na služební cestu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hast du die Präsentationsunterlagen schon eingepackt?",
+          "text_cz": "Zabalil jsi už prezentační materiály?"
+        },
+        {
+          "speaker": "B",
+          "text": "Noch nicht. Ich muss noch meinen Koffer packen.",
+          "text_cz": "Ještě ne. Ještě musím sbalit kufr."
+        },
+        {
+          "speaker": "A",
+          "text": "Vergiss deine Geschäftskleidung und einen Reiseadapter nicht.",
+          "text_cz": "Nezapomeň na obchodní oblečení a cestovní adaptér."
+        },
+        {
+          "speaker": "B",
+          "text": "Stimmt, und ich sollte auch mein Laptop-Ladegerät noch einmal überprüfen.",
+          "text_cz": "Máš pravdu, měl bych taky znovu zkontrolovat nabíječku k notebooku."
+        },
+        {
+          "speaker": "A",
+          "text": "Gute Idee. Denk auch an die Handgepäckbeschränkungen.",
+          "text_cz": "Dobrý nápad. A taky pamatuj na omezení pro příruční zavazadlo."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Reiseadapter",
+      "options": [
+        "cestovní adaptér",
+        "obchodní oblečení",
+        "prezentační materiály"
+      ],
+      "correct": "cestovní adaptér"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich muss noch meinen ___ packen.",
+      "answer": "Koffer",
+      "hint_cz": "kufr"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Denk an die ___.",
+      "answer": "Handgepäckbeschränkungen",
+      "hint_cz": "omezení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Geschäftskleidung",
+          "cz": "obchodní oblečení"
+        },
+        {
+          "target": "das Laptop-Ladegerät",
+          "cz": "nabíječka k notebooku"
+        },
+        {
+          "target": "wichtige Dokumente mitführen",
+          "cz": "mít u sebe důležité dokumenty"
+        },
+        {
+          "target": "die Wettervorhersage",
+          "cz": "předpověď počasí"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Hast du die Präsentationsunterlagen schon eingepackt?",
+      "tts_text": "Hast du die Präsentationsunterlagen schon eingepackt?"
+    }
+  ]
+}

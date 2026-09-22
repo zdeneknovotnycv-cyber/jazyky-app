@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_toys_games_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Sharing Toys",
+  "title_cz": "Půjčování hraček",
+  "vocabulary": [
+    {
+      "word": "share",
+      "translation_cz": "sdílet / půjčit",
+      "example": "Please share your toys.",
+      "example_cz": "Prosím, půjč své hračky.",
+      "tts_text": "Please share your toys."
+    },
+    {
+      "word": "borrow",
+      "translation_cz": "půjčit si",
+      "example": "Can I borrow your car?",
+      "example_cz": "Můžu si půjčit tvoje autíčko?",
+      "tts_text": "Can I borrow your car?"
+    },
+    {
+      "word": "mine",
+      "translation_cz": "moje",
+      "example": "This toy is mine.",
+      "example_cz": "Tato hračka je moje.",
+      "tts_text": "This toy is mine."
+    },
+    {
+      "word": "yours",
+      "translation_cz": "tvoje",
+      "example": "That toy is yours.",
+      "example_cz": "Ta hračka je tvoje.",
+      "tts_text": "That toy is yours."
+    },
+    {
+      "word": "kind",
+      "translation_cz": "hodný, laskavý",
+      "example": "It is kind to share.",
+      "example_cz": "Je hezké se dělit.",
+      "tts_text": "It is kind to share."
+    },
+    {
+      "word": "give back",
+      "translation_cz": "vrátit",
+      "example": "Please give it back when you finish.",
+      "example_cz": "Vrať to prosím, až budeš hotový.",
+      "tts_text": "Please give it back when you finish."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "borrow",
+      "options": [
+        "půjčit si",
+        "moje",
+        "vrátit"
+      ],
+      "correct": "půjčit si"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can I ___ your car?",
+      "answer": "borrow",
+      "hint_cz": "půjčit si"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "share",
+          "cz": "sdílet / půjčit"
+        },
+        {
+          "target": "mine",
+          "cz": "moje"
+        },
+        {
+          "target": "yours",
+          "cz": "tvoje"
+        },
+        {
+          "target": "give back",
+          "cz": "vrátit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please share your toys.",
+      "tts_text": "Please share your toys."
+    }
+  ]
+}

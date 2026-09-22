@@ -1,0 +1,47 @@
+{
+  "id": "en_corporate_finance_budgets_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Quarterly Financial Update",
+  "title_cz": "Čtvrtletní finanční aktualizace",
+  "vocabulary": [
+    {"word": "quarterly results", "translation_cz": "čtvrtletní výsledky", "example": "Let's go over the quarterly results.", "example_cz": "Projděme si čtvrtletní výsledky.", "tts_text": "Let's go over the quarterly results."},
+    {"word": "profit margin", "translation_cz": "zisková marže", "example": "Our profit margin improved this quarter.", "example_cz": "Naše zisková marže se toto čtvrtletí zlepšila.", "tts_text": "Our profit margin improved this quarter."},
+    {"word": "net income", "translation_cz": "čistý zisk", "example": "Net income increased by five percent.", "example_cz": "Čistý zisk vzrostl o pět procent.", "tts_text": "Net income increased by five percent."},
+    {"word": "growth", "translation_cz": "růst", "example": "We expect steady growth next year.", "example_cz": "Příští rok očekáváme stabilní růst.", "tts_text": "We expect steady growth next year."},
+    {"word": "key figures", "translation_cz": "klíčové ukazatele", "example": "These are the key figures for the board.", "example_cz": "Toto jsou klíčové ukazatele pro představenstvo.", "tts_text": "These are the key figures for the board."},
+    {"word": "trend", "translation_cz": "trend", "example": "The sales trend is positive across all regions.", "example_cz": "Trend v prodeji je pozitivní ve všech regionech.", "tts_text": "The sales trend is positive across all regions."},
+    {"word": "shareholders", "translation_cz": "akcionáři", "example": "We will present this to the shareholders on Monday.", "example_cz": "V pondělí to představíme akcionářům.", "tts_text": "We will present this to the shareholders on Monday."},
+    {"word": "compared to last year", "translation_cz": "ve srovnání s loňským rokem", "example": "Revenue is up ten percent compared to last year.", "example_cz": "Tržby jsou o deset procent vyšší ve srovnání s loňským rokem.", "tts_text": "Revenue is up ten percent compared to last year."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_quarterly_update",
+      "title": "Presenting the quarterly update",
+      "title_cz": "Prezentace čtvrtletní aktualizace",
+      "lines": [
+        {"speaker": "A", "text": "Let's start with the quarterly results.", "text_cz": "Začněme s čtvrtletními výsledky."},
+        {"speaker": "B", "text": "Net income increased by five percent compared to last year.", "text_cz": "Čistý zisk vzrostl o pět procent ve srovnání s loňským rokem."},
+        {"speaker": "A", "text": "That's a strong trend. What about the profit margin?", "text_cz": "To je silný trend. A co zisková marže?"},
+        {"speaker": "B", "text": "It also improved slightly, mainly due to lower costs.", "text_cz": "Také se mírně zlepšila, hlavně díky nižším nákladům."}
+      ]
+    },
+    {
+      "id": "conv_shareholder_prep",
+      "title": "Preparing for the shareholders meeting",
+      "title_cz": "Příprava na schůzku s akcionáři",
+      "lines": [
+        {"speaker": "A", "text": "Are the key figures ready for the shareholders?", "text_cz": "Jsou klíčové ukazatele připravené pro akcionáře?"},
+        {"speaker": "B", "text": "Yes, we'll present them on Monday, showing steady growth.", "text_cz": "Ano, v pondělí je představíme a ukážeme stabilní růst."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "growth", "options": ["růst", "trend", "marže"], "correct": "růst"},
+    {"type": "fill_gap", "sentence": "Net income increased by five percent compared to ___ year.", "answer": "last", "hint_cz": "loňský"},
+    {"type": "match_pairs", "pairs": [{"target": "profit margin", "cz": "zisková marže"}, {"target": "shareholders", "cz": "akcionáři"}, {"target": "key figures", "cz": "klíčové ukazatele"}, {"target": "quarterly results", "cz": "čtvrtletní výsledky"}]},
+    {"type": "speak_and_check", "target_phrase": "We expect steady growth next year.", "tts_text": "We expect steady growth next year."},
+    {"type": "fill_gap", "sentence": "The sales ___ is positive across all regions.", "answer": "trend", "hint_cz": "trend"}
+  ]
+}

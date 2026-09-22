@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_clothes_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Colors of Clothes",
+  "title_cz": "Barvy oblečení",
+  "vocabulary": [
+    {
+      "word": "das rote Hemd",
+      "translation_cz": "červená košile",
+      "example": "Ich habe ein rotes Hemd.",
+      "example_cz": "Mám červenou košili.",
+      "tts_text": "Ich habe ein rotes Hemd."
+    },
+    {
+      "word": "die blaue Jeans",
+      "translation_cz": "modré džíny",
+      "example": "Meine blaue Jeans ist bequem.",
+      "example_cz": "Mé modré džíny jsou pohodlné.",
+      "tts_text": "Meine blaue Jeans ist bequem."
+    },
+    {
+      "word": "das gelbe Kleid",
+      "translation_cz": "žluté šaty",
+      "example": "Sie trägt ein gelbes Kleid.",
+      "example_cz": "Nosí žluté šaty.",
+      "tts_text": "Sie trägt ein gelbes Kleid."
+    },
+    {
+      "word": "die grüne Mütze",
+      "translation_cz": "zelená čepice",
+      "example": "Die grüne Mütze ist warm.",
+      "example_cz": "Zelená čepice je teplá.",
+      "tts_text": "Die grüne Mütze ist warm."
+    },
+    {
+      "word": "die weißen Socken",
+      "translation_cz": "bílé ponožky",
+      "example": "Meine weißen Socken sind sauber.",
+      "example_cz": "Mé bílé ponožky jsou čisté.",
+      "tts_text": "Meine weißen Socken sind sauber."
+    },
+    {
+      "word": "die schwarzen Schuhe",
+      "translation_cz": "černé boty",
+      "example": "Ich mag meine schwarzen Schuhe.",
+      "example_cz": "Mám ráda své černé boty.",
+      "tts_text": "Ich mag meine schwarzen Schuhe."
+    },
+    {
+      "word": "die Lieblingsfarbe",
+      "translation_cz": "oblíbená barva",
+      "example": "Was ist deine Lieblingsfarbe?",
+      "example_cz": "Jaká je tvoje oblíbená barva?",
+      "tts_text": "Was ist deine Lieblingsfarbe?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das gelbe Kleid",
+      "options": [
+        "žluté šaty",
+        "modré džíny",
+        "zelená čepice"
+      ],
+      "correct": "žluté šaty"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Meine ___ sind sauber.",
+      "answer": "weißen Socken",
+      "hint_cz": "bílé ponožky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das rote Hemd",
+          "cz": "červená košile"
+        },
+        {
+          "target": "die blaue Jeans",
+          "cz": "modré džíny"
+        },
+        {
+          "target": "die grüne Mütze",
+          "cz": "zelená čepice"
+        },
+        {
+          "target": "die schwarzen Schuhe",
+          "cz": "černé boty"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich mag meine schwarzen Schuhe.",
+      "tts_text": "Ich mag meine schwarzen Schuhe."
+    }
+  ]
+}

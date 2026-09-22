@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_town_places_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Meine Nachbarschaft",
+  "title_cz": "Moje čtvrť",
+  "vocabulary": [
+    {
+      "word": "die Nachbarschaft",
+      "translation_cz": "čtvrť",
+      "example": "Ich kenne jeden in meiner Nachbarschaft.",
+      "example_cz": "Znám všechny ve své čtvrti.",
+      "tts_text": "Ich kenne jeden in meiner Nachbarschaft."
+    },
+    {
+      "word": "der Nachbar",
+      "translation_cz": "soused",
+      "example": "Mein Nachbar hat einen großen Hund.",
+      "example_cz": "Můj soused má velkého psa.",
+      "tts_text": "Mein Nachbar hat einen großen Hund."
+    },
+    {
+      "word": "die Straße",
+      "translation_cz": "ulice",
+      "example": "Ich wohne in einer ruhigen Straße.",
+      "example_cz": "Bydlím v tiché ulici.",
+      "tts_text": "Ich wohne in einer ruhigen Straße."
+    },
+    {
+      "word": "das Gebäude",
+      "translation_cz": "budova",
+      "example": "Dieses Gebäude ist sehr hoch.",
+      "example_cz": "Ta budova je velmi vysoká.",
+      "tts_text": "Dieses Gebäude ist sehr hoch."
+    },
+    {
+      "word": "der Kiosk",
+      "translation_cz": "obchůdek na rohu",
+      "example": "Ich kaufe Bonbons am Kiosk.",
+      "example_cz": "Kupuji si bonbony v obchůdku na rohu.",
+      "tts_text": "Ich kaufe Bonbons am Kiosk."
+    },
+    {
+      "word": "der Platz",
+      "translation_cz": "náměstí",
+      "example": "Kinder spielen auf dem Platz.",
+      "example_cz": "Děti si hrají na náměstí.",
+      "tts_text": "Kinder spielen auf dem Platz."
+    },
+    {
+      "word": "vertraut",
+      "translation_cz": "známý",
+      "example": "Hier fühlt sich alles vertraut an.",
+      "example_cz": "Tady je mi všechno známé.",
+      "tts_text": "Hier fühlt sich alles vertraut an."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Nachbarschaft",
+      "options": [
+        "čtvrť",
+        "park",
+        "škola"
+      ],
+      "correct": "čtvrť"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein ___ hat einen großen Hund.",
+      "answer": "der Nachbar",
+      "hint_cz": "soused"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Nachbar",
+          "cz": "soused"
+        },
+        {
+          "target": "die Straße",
+          "cz": "ulice"
+        },
+        {
+          "target": "das Gebäude",
+          "cz": "budova"
+        },
+        {
+          "target": "der Kiosk",
+          "cz": "obchůdek na rohu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich wohne in einer ruhigen Straße.",
+      "tts_text": "Ich wohne in einer ruhigen Straße."
+    }
+  ]
+}

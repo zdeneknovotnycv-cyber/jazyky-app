@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_numbers_colors_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Numbers 11-20",
+  "title_cz": "Čísla 11 až 20",
+  "vocabulary": [
+    {
+      "word": "eleven",
+      "translation_cz": "jedenáct",
+      "example": "I am eleven years old.",
+      "example_cz": "Je mi jedenáct let.",
+      "tts_text": "I am eleven years old."
+    },
+    {
+      "word": "twelve",
+      "translation_cz": "dvanáct",
+      "example": "A year has twelve months.",
+      "example_cz": "Rok má dvanáct měsíců.",
+      "tts_text": "A year has twelve months."
+    },
+    {
+      "word": "thirteen",
+      "translation_cz": "třináct",
+      "example": "There are thirteen chairs.",
+      "example_cz": "Je tady třináct židlí.",
+      "tts_text": "There are thirteen chairs."
+    },
+    {
+      "word": "fifteen",
+      "translation_cz": "patnáct",
+      "example": "My cousin is fifteen.",
+      "example_cz": "Mému bratranci je patnáct.",
+      "tts_text": "My cousin is fifteen."
+    },
+    {
+      "word": "eighteen",
+      "translation_cz": "osmnáct",
+      "example": "My sister is eighteen.",
+      "example_cz": "Moje sestra má osmnáct.",
+      "tts_text": "My sister is eighteen."
+    },
+    {
+      "word": "twenty",
+      "translation_cz": "dvacet",
+      "example": "There are twenty children in my class.",
+      "example_cz": "V mé třídě je dvacet dětí.",
+      "tts_text": "There are twenty children in my class."
+    },
+    {
+      "word": "sixteen",
+      "translation_cz": "šestnáct",
+      "example": "The room number is sixteen.",
+      "example_cz": "Číslo pokoje je šestnáct.",
+      "tts_text": "The room number is sixteen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "twenty",
+      "options": [
+        "dvacet",
+        "dvanáct",
+        "patnáct"
+      ],
+      "correct": "dvacet"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "A year has ___ months.",
+      "answer": "twelve",
+      "hint_cz": "dvanáct"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "eleven",
+          "cz": "jedenáct"
+        },
+        {
+          "target": "thirteen",
+          "cz": "třináct"
+        },
+        {
+          "target": "fifteen",
+          "cz": "patnáct"
+        },
+        {
+          "target": "eighteen",
+          "cz": "osmnáct"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The room number is sixteen.",
+      "tts_text": "The room number is sixteen."
+    }
+  ]
+}

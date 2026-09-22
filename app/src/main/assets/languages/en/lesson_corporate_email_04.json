@@ -1,0 +1,138 @@
+{
+  "id": "en_adult_corporate_email_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Attaching a document",
+  "title_cz": "Přiložení dokumentu",
+  "vocabulary": [
+    {
+      "word": "attachment",
+      "translation_cz": "příloha",
+      "example": "Please see the attachment for details.",
+      "example_cz": "Podrobnosti naleznete v příloze.",
+      "tts_text": "Please see the attachment for details."
+    },
+    {
+      "word": "attach a file",
+      "translation_cz": "přiložit soubor",
+      "example": "I've attached a file with the report.",
+      "example_cz": "Přiložil jsem soubor s reportem.",
+      "tts_text": "I've attached a file with the report."
+    },
+    {
+      "word": "please find attached",
+      "translation_cz": "v příloze naleznete",
+      "example": "Please find attached the signed contract.",
+      "example_cz": "V příloze naleznete podepsanou smlouvu.",
+      "tts_text": "Please find attached the signed contract."
+    },
+    {
+      "word": "file format",
+      "translation_cz": "formát souboru",
+      "example": "What file format do you need?",
+      "example_cz": "Jaký formát souboru potřebujete?",
+      "tts_text": "What file format do you need?"
+    },
+    {
+      "word": "file size",
+      "translation_cz": "velikost souboru",
+      "example": "The file size is too large to send.",
+      "example_cz": "Velikost souboru je příliš velká na odeslání.",
+      "tts_text": "The file size is too large to send."
+    },
+    {
+      "word": "open the attachment",
+      "translation_cz": "otevřít přílohu",
+      "example": "I couldn't open the attachment.",
+      "example_cz": "Nemohl jsem otevřít přílohu.",
+      "tts_text": "I couldn't open the attachment."
+    },
+    {
+      "word": "resend",
+      "translation_cz": "znovu poslat",
+      "example": "Could you resend the document, please?",
+      "example_cz": "Mohl byste prosím znovu poslat dokument?",
+      "tts_text": "Could you resend the document, please?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_attachment",
+      "title": "Dealing with a problem attachment",
+      "title_cz": "Řešení problému s přílohou",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Please find attached the signed contract.",
+          "text_cz": "V příloze naleznete podepsanou smlouvu."
+        },
+        {
+          "speaker": "B",
+          "text": "Thanks, but I couldn't open the attachment.",
+          "text_cz": "Díky, ale nemohl jsem otevřít přílohu."
+        },
+        {
+          "speaker": "A",
+          "text": "Sorry about that. What file format do you need?",
+          "text_cz": "Omlouvám se. Jaký formát souboru potřebujete?"
+        },
+        {
+          "speaker": "B",
+          "text": "A PDF would be best. Could you resend it?",
+          "text_cz": "Nejlepší by bylo PDF. Mohl byste ho znovu poslat?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "attachment",
+      "options": [
+        "příloha",
+        "formát",
+        "velikost"
+      ],
+      "correct": "příloha"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please find ___ the signed contract.",
+      "answer": "attached",
+      "hint_cz": "v příloze"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "file format",
+          "cz": "formát souboru"
+        },
+        {
+          "target": "file size",
+          "cz": "velikost souboru"
+        },
+        {
+          "target": "resend",
+          "cz": "znovu poslat"
+        },
+        {
+          "target": "open the attachment",
+          "cz": "otevřít přílohu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I've attached a file with the report.",
+      "tts_text": "I've attached a file with the report."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The file ___ is too large to send.",
+      "answer": "size",
+      "hint_cz": "velikost"
+    }
+  ]
+}

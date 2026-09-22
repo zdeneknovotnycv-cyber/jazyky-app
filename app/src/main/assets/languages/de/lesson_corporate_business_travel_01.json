@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_business_travel_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Geschäftsreise buchen",
+  "title_cz": "Rezervace pracovní cesty",
+  "vocabulary": [
+    {
+      "word": "einen Flug buchen",
+      "translation_cz": "rezervovat let",
+      "example": "Ich muss einen Flug nach Berlin buchen.",
+      "example_cz": "Musím rezervovat let do Berlína.",
+      "tts_text": "Ich muss einen Flug nach Berlin buchen."
+    },
+    {
+      "word": "die Reisedaten",
+      "translation_cz": "termíny cesty",
+      "example": "Was sind Ihre Reisedaten?",
+      "example_cz": "Jaké jsou vaše termíny cesty?",
+      "tts_text": "Was sind Ihre Reisedaten?"
+    },
+    {
+      "word": "der Hin- und Rückflug",
+      "translation_cz": "zpáteční cesta",
+      "example": "Ich brauche einen Hin- und Rückflug.",
+      "example_cz": "Potřebuji jízdenku na zpáteční cestu.",
+      "tts_text": "Ich brauche einen Hin- und Rückflug."
+    },
+    {
+      "word": "die Business Class",
+      "translation_cz": "business třída",
+      "example": "Das Unternehmen erlaubt die Business Class bei Langstreckenflügen.",
+      "example_cz": "Firma umožňuje business třídu na dlouhé lety.",
+      "tts_text": "Das Unternehmen erlaubt die Business Class bei Langstreckenflügen."
+    },
+    {
+      "word": "das Reisebüro",
+      "translation_cz": "cestovní kancelář",
+      "example": "Unser Reisebüro kümmert sich um alle Buchungen.",
+      "example_cz": "Naše cestovní kancelář vyřizuje všechny rezervace.",
+      "tts_text": "Unser Reisebüro kümmert sich um alle Buchungen."
+    },
+    {
+      "word": "der Reiseplan",
+      "translation_cz": "cestovní plán",
+      "example": "Bitte schicken Sie mir den vollständigen Reiseplan.",
+      "example_cz": "Pošlete mi prosím celý cestovní plán.",
+      "tts_text": "Bitte schicken Sie mir den vollständigen Reiseplan."
+    },
+    {
+      "word": "die Reservierung bestätigen",
+      "translation_cz": "potvrdit rezervaci",
+      "example": "Können Sie die Reservierung heute bestätigen?",
+      "example_cz": "Můžete dnes potvrdit rezervaci?",
+      "tts_text": "Können Sie die Reservierung heute bestätigen?"
+    },
+    {
+      "word": "das Reisebudget",
+      "translation_cz": "cestovní rozpočet",
+      "example": "Wir müssen im Reisebudget bleiben.",
+      "example_cz": "Musíme se vejít do cestovního rozpočtu.",
+      "tts_text": "Wir müssen im Reisebudget bleiben."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_reise_buchen",
+      "title": "Eine Geschäftsreise buchen",
+      "title_cz": "Rezervace pracovní cesty",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich muss einen Flug nach Berlin für das Kundentreffen buchen.",
+          "text_cz": "Musím rezervovat let do Berlína na schůzku s klientem."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar. Was sind Ihre Reisedaten?",
+          "text_cz": "Jistě. Jaké jsou vaše termíny cesty?"
+        },
+        {
+          "speaker": "A",
+          "text": "Von Montag bis Mittwoch, Hin- und Rückflug.",
+          "text_cz": "Od pondělí do středy, zpáteční cesta."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich kontaktiere das Reisebüro und bestätige die Reservierung.",
+          "text_cz": "Kontaktuji cestovní kancelář a potvrdím rezervaci."
+        },
+        {
+          "speaker": "A",
+          "text": "Super, bitte schicken Sie mir auch den vollständigen Reiseplan.",
+          "text_cz": "Skvělé, pošlete mi prosím také celý cestovní plán."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Reiseplan",
+      "options": [
+        "cestovní plán",
+        "cestovní rozpočet",
+        "business třída"
+      ],
+      "correct": "cestovní plán"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Was sind Ihre ___?",
+      "answer": "Reisedaten",
+      "hint_cz": "termíny cesty"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Können Sie die Reservierung heute ___?",
+      "answer": "bestätigen",
+      "hint_cz": "potvrdit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Hin- und Rückflug",
+          "cz": "zpáteční cesta"
+        },
+        {
+          "target": "das Reisebüro",
+          "cz": "cestovní kancelář"
+        },
+        {
+          "target": "das Reisebudget",
+          "cz": "cestovní rozpočet"
+        },
+        {
+          "target": "die Business Class",
+          "cz": "business třída"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich muss einen Flug nach Berlin buchen.",
+      "tts_text": "Ich muss einen Flug nach Berlin buchen."
+    }
+  ]
+}

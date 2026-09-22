@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_toys_games_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Brettspiele",
+  "title_cz": "Deskové hry",
+  "vocabulary": [
+    {
+      "word": "das Brettspiel",
+      "translation_cz": "desková hra",
+      "example": "Wir spielen zusammen ein Brettspiel.",
+      "example_cz": "Hrajeme spolu deskovou hru.",
+      "tts_text": "Wir spielen zusammen ein Brettspiel."
+    },
+    {
+      "word": "der Würfel",
+      "translation_cz": "kostka",
+      "example": "Wirf den Würfel!",
+      "example_cz": "Hoď kostkou!",
+      "tts_text": "Wirf den Würfel!"
+    },
+    {
+      "word": "das Schach",
+      "translation_cz": "šachy",
+      "example": "Mein Papa hat mir Schach beigebracht.",
+      "example_cz": "Táta mě naučil šachy.",
+      "tts_text": "Mein Papa hat mir Schach beigebracht."
+    },
+    {
+      "word": "Du bist dran.",
+      "translation_cz": "jsi na řadě",
+      "example": "Jetzt bist du dran.",
+      "example_cz": "Teď jsi na řadě.",
+      "tts_text": "Jetzt bist du dran."
+    },
+    {
+      "word": "gewinnen",
+      "translation_cz": "vyhrát",
+      "example": "Ich will dieses Spiel gewinnen.",
+      "example_cz": "Chci tuhle hru vyhrát.",
+      "tts_text": "Ich will dieses Spiel gewinnen."
+    },
+    {
+      "word": "verlieren",
+      "translation_cz": "prohrát",
+      "example": "Es ist okay, manchmal zu verlieren.",
+      "example_cz": "Je v pořádku někdy prohrát.",
+      "tts_text": "Es ist okay, manchmal zu verlieren."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Würfel",
+      "options": [
+        "kostka",
+        "šachy",
+        "desková hra"
+      ],
+      "correct": "kostka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Jetzt bist du ___.",
+      "answer": "dran",
+      "hint_cz": "jsi na řadě"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Brettspiel",
+          "cz": "desková hra"
+        },
+        {
+          "target": "das Schach",
+          "cz": "šachy"
+        },
+        {
+          "target": "gewinnen",
+          "cz": "vyhrát"
+        },
+        {
+          "target": "verlieren",
+          "cz": "prohrát"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wirf den Würfel!",
+      "tts_text": "Wirf den Würfel!"
+    }
+  ]
+}

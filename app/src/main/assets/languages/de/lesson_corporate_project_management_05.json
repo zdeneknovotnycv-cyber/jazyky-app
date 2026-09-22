@@ -1,0 +1,167 @@
+{
+  "id": "de_adult_corporate_project_management_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Projektrisiken",
+  "title_cz": "Rizika projektu",
+  "vocabulary": [
+    {
+      "word": "das Risiko",
+      "translation_cz": "riziko",
+      "example": "Wir haben heute ein neues Risiko identifiziert.",
+      "example_cz": "Dnes jsme identifikovali nové riziko.",
+      "tts_text": "Wir haben heute ein neues Risiko identifiziert."
+    },
+    {
+      "word": "mindern",
+      "translation_cz": "zmírnit",
+      "example": "Wie können wir dieses Risiko mindern?",
+      "example_cz": "Jak můžeme toto riziko zmírnit?",
+      "tts_text": "Wie können wir dieses Risiko mindern?"
+    },
+    {
+      "word": "die Auswirkung",
+      "translation_cz": "dopad",
+      "example": "Die Auswirkung auf den Zeitplan ist gering.",
+      "example_cz": "Dopad na časový plán je nízký.",
+      "tts_text": "Die Auswirkung auf den Zeitplan ist gering."
+    },
+    {
+      "word": "die Wahrscheinlichkeit",
+      "translation_cz": "pravděpodobnost",
+      "example": "Die Wahrscheinlichkeit dafür ist mittel.",
+      "example_cz": "Pravděpodobnost, že se to stane, je střední.",
+      "tts_text": "Die Wahrscheinlichkeit dafür ist mittel."
+    },
+    {
+      "word": "der Notfallplan",
+      "translation_cz": "záložní plán",
+      "example": "Wir brauchen einen Notfallplan für dieses Szenario.",
+      "example_cz": "Pro tento scénář potřebujeme záložní plán.",
+      "tts_text": "Wir brauchen einen Notfallplan für dieses Szenario."
+    },
+    {
+      "word": "das Risikoregister",
+      "translation_cz": "registr rizik",
+      "example": "Bitte füge es dem Risikoregister hinzu.",
+      "example_cz": "Přidejte to prosím do registru rizik.",
+      "tts_text": "Bitte füge es dem Risikoregister hinzu."
+    },
+    {
+      "word": "die Annahme",
+      "translation_cz": "předpoklad",
+      "example": "Diese Schätzung basiert auf einer Annahme.",
+      "example_cz": "Tento odhad vychází z předpokladu.",
+      "tts_text": "Diese Schätzung basiert auf einer Annahme."
+    },
+    {
+      "word": "eskalieren",
+      "translation_cz": "eskalovat",
+      "example": "Wir müssen dieses Problem vielleicht eskalieren.",
+      "example_cz": "Možná budeme muset tento problém eskalovat.",
+      "tts_text": "Wir müssen dieses Problem vielleicht eskalieren."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_risk_review",
+      "title": "Ein neues Risiko besprechen",
+      "title_cz": "Kontrola nového rizika",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wir haben heute ein neues Risiko mit dem Lieferanten identifiziert.",
+          "text_cz": "Dnes jsme identifikovali nové riziko s dodavatelem."
+        },
+        {
+          "speaker": "B",
+          "text": "Wie hoch sind Wahrscheinlichkeit und Auswirkung?",
+          "text_cz": "Jaká je pravděpodobnost a dopad?"
+        },
+        {
+          "speaker": "A",
+          "text": "Mittlere Wahrscheinlichkeit, aber die Auswirkung auf den Zeitplan könnte groß sein.",
+          "text_cz": "Střední pravděpodobnost, ale dopad na časový plán může být velký."
+        },
+        {
+          "speaker": "B",
+          "text": "Fügen wir es dem Risikoregister hinzu und erstellen einen Notfallplan.",
+          "text_cz": "Přidejme to do registru rizik a připravme záložní plán."
+        }
+      ]
+    },
+    {
+      "id": "conv_risk_escalate",
+      "title": "Entscheidung zur Eskalation",
+      "title_cz": "Rozhodnutí o eskalaci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Diese Annahme hat sich als falsch herausgestellt.",
+          "text_cz": "Tento předpoklad se ukázal jako nesprávný."
+        },
+        {
+          "speaker": "B",
+          "text": "Dann sollten wir dieses Problem an das Management eskalieren.",
+          "text_cz": "Pak bychom měli tento problém eskalovat na management."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Risiko",
+      "options": [
+        "riziko",
+        "dopad",
+        "pravděpodobnost"
+      ],
+      "correct": "riziko"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wie können wir dieses Risiko ___?",
+      "answer": "mindern",
+      "hint_cz": "zmírnit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir brauchen einen Notfallplan für dieses Szenario.",
+      "answer": "der Notfallplan",
+      "hint_cz": "záložní plán"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Risikoregister",
+          "cz": "registr rizik"
+        },
+        {
+          "target": "die Annahme",
+          "cz": "předpoklad"
+        },
+        {
+          "target": "eskalieren",
+          "cz": "eskalovat"
+        },
+        {
+          "target": "die Auswirkung",
+          "cz": "dopad"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir haben heute ein neues Risiko mit dem Lieferanten identifiziert.",
+      "tts_text": "Wir haben heute ein neues Risiko mit dem Lieferanten identifiziert."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wie hoch sind Wahrscheinlichkeit und Auswirkung?",
+      "tts_text": "Wie hoch sind Wahrscheinlichkeit und Auswirkung?"
+    }
+  ]
+}

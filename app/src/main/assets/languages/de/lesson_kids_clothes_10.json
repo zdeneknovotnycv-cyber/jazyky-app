@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_clothes_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Washing Clothes",
+  "title_cz": "Praní prádla",
+  "vocabulary": [
+    {
+      "word": "die Waschmaschine",
+      "translation_cz": "pračka",
+      "example": "Wir stecken die Kleidung in die Waschmaschine.",
+      "example_cz": "Dáváme oblečení do pračky.",
+      "tts_text": "Wir stecken die Kleidung in die Waschmaschine."
+    },
+    {
+      "word": "schmutzig",
+      "translation_cz": "špinavý",
+      "example": "Mein Hemd ist schmutzig.",
+      "example_cz": "Moje košile je špinavá.",
+      "tts_text": "Mein Hemd ist schmutzig."
+    },
+    {
+      "word": "sauber",
+      "translation_cz": "čistý",
+      "example": "Die saubere Kleidung riecht gut.",
+      "example_cz": "Čisté oblečení voní pěkně.",
+      "tts_text": "Die saubere Kleidung riecht gut."
+    },
+    {
+      "word": "aufhängen",
+      "translation_cz": "pověsit",
+      "example": "Ich hänge meine Kleidung zum Trocknen auf.",
+      "example_cz": "Věsím oblečení, aby uschlo.",
+      "tts_text": "Ich hänge meine Kleidung zum Trocknen auf."
+    },
+    {
+      "word": "der Wäschekorb",
+      "translation_cz": "koš na prádlo",
+      "example": "Leg deine Socken in den Wäschekorb.",
+      "example_cz": "Dej ponožky do koše na prádlo.",
+      "tts_text": "Leg deine Socken in den Wäschekorb."
+    },
+    {
+      "word": "das Bügeleisen",
+      "translation_cz": "žehlička",
+      "example": "Mama benutzt das Bügeleisen.",
+      "example_cz": "Máma používá žehličku.",
+      "tts_text": "Mama benutzt das Bügeleisen."
+    },
+    {
+      "word": "falten",
+      "translation_cz": "skládat",
+      "example": "Ich helfe, die Kleidung zu falten.",
+      "example_cz": "Pomáhám skládat oblečení.",
+      "tts_text": "Ich helfe, die Kleidung zu falten."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Bügeleisen",
+      "options": [
+        "žehlička",
+        "pračka",
+        "koš na prádlo"
+      ],
+      "correct": "žehlička"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein Hemd ist ___.",
+      "answer": "schmutzig",
+      "hint_cz": "špinavá"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Waschmaschine",
+          "cz": "pračka"
+        },
+        {
+          "target": "sauber",
+          "cz": "čistý"
+        },
+        {
+          "target": "aufhängen",
+          "cz": "pověsit"
+        },
+        {
+          "target": "der Wäschekorb",
+          "cz": "koš na prádlo"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich helfe, die Kleidung zu falten.",
+      "tts_text": "Ich helfe, die Kleidung zu falten."
+    }
+  ]
+}

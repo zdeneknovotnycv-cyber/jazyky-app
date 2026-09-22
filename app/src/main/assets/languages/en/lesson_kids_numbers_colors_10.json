@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_numbers_colors_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Colors of Nature",
+  "title_cz": "Barvy přírody",
+  "vocabulary": [
+    {
+      "word": "green leaves",
+      "translation_cz": "zelené listy",
+      "example": "The leaves are green in summer.",
+      "example_cz": "V létě jsou listy zelené.",
+      "tts_text": "The leaves are green in summer."
+    },
+    {
+      "word": "blue sky",
+      "translation_cz": "modrá obloha",
+      "example": "The sky is blue today.",
+      "example_cz": "Dnes je obloha modrá.",
+      "tts_text": "The sky is blue today."
+    },
+    {
+      "word": "brown tree",
+      "translation_cz": "hnědý strom",
+      "example": "The tree trunk is brown.",
+      "example_cz": "Kmen stromu je hnědý.",
+      "tts_text": "The tree trunk is brown."
+    },
+    {
+      "word": "yellow sun",
+      "translation_cz": "žluté slunce",
+      "example": "The sun is bright yellow.",
+      "example_cz": "Slunce je jasně žluté.",
+      "tts_text": "The sun is bright yellow."
+    },
+    {
+      "word": "orange leaves",
+      "translation_cz": "oranžové listy",
+      "example": "In autumn the leaves turn orange.",
+      "example_cz": "Na podzim listy zoranžoví.",
+      "tts_text": "In autumn the leaves turn orange."
+    },
+    {
+      "word": "white snow",
+      "translation_cz": "bílý sníh",
+      "example": "The snow is white and cold.",
+      "example_cz": "Sníh je bílý a studený.",
+      "tts_text": "The snow is white and cold."
+    },
+    {
+      "word": "rainbow",
+      "translation_cz": "duha",
+      "example": "I saw a colorful rainbow.",
+      "example_cz": "Viděl jsem barevnou duhu.",
+      "tts_text": "I saw a colorful rainbow."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "white snow",
+      "options": [
+        "bílý sníh",
+        "modrá obloha",
+        "hnědý strom"
+      ],
+      "correct": "bílý sníh"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "In autumn the leaves turn ___.",
+      "answer": "orange",
+      "hint_cz": "oranžové"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "green leaves",
+          "cz": "zelené listy"
+        },
+        {
+          "target": "blue sky",
+          "cz": "modrá obloha"
+        },
+        {
+          "target": "brown tree",
+          "cz": "hnědý strom"
+        },
+        {
+          "target": "rainbow",
+          "cz": "duha"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I saw a colorful rainbow.",
+      "tts_text": "I saw a colorful rainbow."
+    }
+  ]
+}

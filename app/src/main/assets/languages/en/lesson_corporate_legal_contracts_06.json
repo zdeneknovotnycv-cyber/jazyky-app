@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_legal_contracts_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing a deadline in a contract",
+  "title_cz": "Termín ve smlouvě",
+  "vocabulary": [
+    {
+      "word": "delivery date",
+      "translation_cz": "termín dodání",
+      "example": "The delivery date is stated in section three.",
+      "example_cz": "Termín dodání je uveden v části tři.",
+      "tts_text": "The delivery date is stated in section three."
+    },
+    {
+      "word": "extension",
+      "translation_cz": "prodloužení",
+      "example": "Can we request an extension?",
+      "example_cz": "Můžeme požádat o prodloužení?",
+      "tts_text": "Can we request an extension?"
+    },
+    {
+      "word": "penalty clause",
+      "translation_cz": "sankční doložka",
+      "example": "There is a penalty clause for late delivery.",
+      "example_cz": "Existuje sankční doložka za pozdní dodání.",
+      "tts_text": "There is a penalty clause for late delivery."
+    },
+    {
+      "word": "meet the deadline",
+      "translation_cz": "dodržet termín",
+      "example": "We will meet the deadline.",
+      "example_cz": "Termín dodržíme.",
+      "tts_text": "We will meet the deadline."
+    },
+    {
+      "word": "grace period",
+      "translation_cz": "dodatečná lhůta",
+      "example": "Is there a grace period?",
+      "example_cz": "Existuje dodatečná lhůta?",
+      "tts_text": "Is there a grace period?"
+    },
+    {
+      "word": "in breach of contract",
+      "translation_cz": "v porušení smlouvy",
+      "example": "Late delivery would put us in breach of contract.",
+      "example_cz": "Pozdní dodání by znamenalo porušení smlouvy.",
+      "tts_text": "Late delivery would put us in breach of contract."
+    },
+    {
+      "word": "agreed timeline",
+      "translation_cz": "dohodnutý harmonogram",
+      "example": "Let's stick to the agreed timeline.",
+      "example_cz": "Držme se dohodnutého harmonogramu.",
+      "tts_text": "Let's stick to the agreed timeline."
+    },
+    {
+      "word": "notify in advance",
+      "translation_cz": "informovat předem",
+      "example": "Please notify us in advance of any delay.",
+      "example_cz": "Prosím informujte nás předem o jakémkoli zpoždění.",
+      "tts_text": "Please notify us in advance of any delay."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_06",
+      "title": "A deadline in the contract",
+      "title_cz": "Termín ve smlouvě",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "The delivery date in the contract is next Monday. Can we meet the deadline?",
+          "text_cz": "Termín dodání ve smlouvě je příští pondělí. Dokážeme ho dodržet?"
+        },
+        {
+          "speaker": "B",
+          "text": "It will be tight. Is there a grace period?",
+          "text_cz": "Bude to napjaté. Existuje dodatečná lhůta?"
+        },
+        {
+          "speaker": "A",
+          "text": "A short one, but late delivery could put us in breach of contract.",
+          "text_cz": "Krátká, ale pozdní dodání by mohlo znamenat porušení smlouvy."
+        },
+        {
+          "speaker": "B",
+          "text": "Understood. Is there a penalty clause?",
+          "text_cz": "Rozumím. Existuje sankční doložka?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, so please notify us in advance if there's any issue.",
+          "text_cz": "Ano, takže nás prosím předem informujte, pokud nastane problém."
+        },
+        {
+          "speaker": "B",
+          "text": "We'll stick to the agreed timeline.",
+          "text_cz": "Budeme se držet dohodnutého harmonogramu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "delivery date",
+      "options": [
+        "termín dodání",
+        "prodloužení",
+        "sankční doložka"
+      ],
+      "correct": "termín dodání"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We will ___.",
+      "answer": "meet the deadline",
+      "hint_cz": "dodržet termín"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "delivery date",
+          "cz": "termín dodání"
+        },
+        {
+          "target": "extension",
+          "cz": "prodloužení"
+        },
+        {
+          "target": "penalty clause",
+          "cz": "sankční doložka"
+        },
+        {
+          "target": "meet the deadline",
+          "cz": "dodržet termín"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Is there a grace period?",
+      "tts_text": "Is there a grace period?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Late delivery would put us ___.",
+      "answer": "in breach of contract",
+      "hint_cz": "v porušení smlouvy"
+    }
+  ]
+}

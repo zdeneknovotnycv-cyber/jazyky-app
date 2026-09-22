@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_birthday_celebrations_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Partyspiele",
+  "title_cz": "Hry na oslavě",
+  "vocabulary": [
+    {
+      "word": "das Spiel",
+      "translation_cz": "hra",
+      "example": "Wir spielen ein lustiges Spiel auf der Party.",
+      "example_cz": "Na oslavě hrajeme zábavnou hru.",
+      "tts_text": "Wir spielen ein lustiges Spiel auf der Party."
+    },
+    {
+      "word": "der Gewinner",
+      "translation_cz": "vítěz",
+      "example": "Der Gewinner bekommt einen kleinen Preis.",
+      "example_cz": "Vítěz dostane malou cenu.",
+      "tts_text": "Der Gewinner bekommt einen kleinen Preis."
+    },
+    {
+      "word": "Verstecken spielen",
+      "translation_cz": "schovávaná",
+      "example": "Wir spielen Verstecken im Garten.",
+      "example_cz": "Na zahradě hrajeme schovávanou.",
+      "tts_text": "Wir spielen Verstecken im Garten."
+    },
+    {
+      "word": "der Preis",
+      "translation_cz": "cena",
+      "example": "Jeder bekommt einen kleinen Preis.",
+      "example_cz": "Každý dostane malou cenu.",
+      "tts_text": "Jeder bekommt einen kleinen Preis."
+    },
+    {
+      "word": "das Team",
+      "translation_cz": "tým",
+      "example": "Wir teilen uns in zwei Teams auf.",
+      "example_cz": "Rozdělíme se do dvou týmů.",
+      "tts_text": "Wir teilen uns in zwei Teams auf."
+    },
+    {
+      "word": "lachen",
+      "translation_cz": "smát se",
+      "example": "Wir lachen viel beim Spiel.",
+      "example_cz": "Během hry se hodně smějeme.",
+      "tts_text": "Wir lachen viel beim Spiel."
+    },
+    {
+      "word": "die Musik",
+      "translation_cz": "hudba",
+      "example": "Wir tanzen zu fröhlicher Musik.",
+      "example_cz": "Tančíme na veselou hudbu.",
+      "tts_text": "Wir tanzen zu fröhlicher Musik."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Spiel",
+      "options": [
+        "hra",
+        "vítěz",
+        "schovávaná"
+      ],
+      "correct": "hra"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der ___ bekommt einen kleinen Preis.",
+      "answer": "Gewinner",
+      "hint_cz": "vítěz"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Verstecken spielen",
+          "cz": "schovávaná"
+        },
+        {
+          "target": "der Preis",
+          "cz": "cena"
+        },
+        {
+          "target": "das Team",
+          "cz": "tým"
+        },
+        {
+          "target": "lachen",
+          "cz": "smát se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir tanzen zu fröhlicher Musik.",
+      "tts_text": "Wir tanzen zu fröhlicher Musik."
+    }
+  ]
+}

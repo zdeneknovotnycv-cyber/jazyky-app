@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_scheduling_calendars_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Proposing a meeting time",
+  "title_cz": "Navržení termínu schůzky",
+  "vocabulary": [
+    {
+      "word": "would Wednesday work for you?",
+      "translation_cz": "vyhovovala by vám středa?",
+      "example": "Would Wednesday at ten work for you?",
+      "example_cz": "Vyhovovala by vám středa v deset?",
+      "tts_text": "Would Wednesday at ten work for you?"
+    },
+    {
+      "word": "I'd like to propose",
+      "translation_cz": "rád bych navrhl",
+      "example": "I'd like to propose next Monday for the meeting.",
+      "example_cz": "Rád bych navrhl příští pondělí na schůzku.",
+      "tts_text": "I'd like to propose next Monday for the meeting."
+    },
+    {
+      "word": "does that fit your schedule?",
+      "translation_cz": "hodí se to do vašeho rozvrhu?",
+      "example": "Does that fit your schedule this week?",
+      "example_cz": "Hodí se to do vašeho rozvrhu tento týden?",
+      "tts_text": "Does that fit your schedule this week?"
+    },
+    {
+      "word": "I have a slight preference for",
+      "translation_cz": "mírně preferuji",
+      "example": "I have a slight preference for the morning.",
+      "example_cz": "Mírně preferuji dopoledne.",
+      "tts_text": "I have a slight preference for the morning."
+    },
+    {
+      "word": "either time works for me",
+      "translation_cz": "oba časy mi vyhovují",
+      "example": "Either time works for me, you decide.",
+      "example_cz": "Oba časy mi vyhovují, rozhodněte vy.",
+      "tts_text": "Either time works for me, you decide."
+    },
+    {
+      "word": "let's lock in that time",
+      "translation_cz": "domluvme se pevně na tomto čase",
+      "example": "Great, let's lock in that time then.",
+      "example_cz": "Skvělé, domluvme se pevně na tomto čase.",
+      "tts_text": "Great, let's lock in that time then."
+    },
+    {
+      "word": "I'll send the invite shortly",
+      "translation_cz": "brzy pošlu pozvánku",
+      "example": "I'll send the invite shortly after this call.",
+      "example_cz": "Brzy po tomto hovoru pošlu pozvánku.",
+      "tts_text": "I'll send the invite shortly after this call."
+    },
+    {
+      "word": "unless something changes",
+      "translation_cz": "pokud se něco nezmění",
+      "example": "That should work, unless something changes.",
+      "example_cz": "To by mělo fungovat, pokud se něco nezmění.",
+      "tts_text": "That should work, unless something changes."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_proposing_meeting_time",
+      "title": "Agreeing on a meeting time",
+      "title_cz": "Domlouvání termínu schůzky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'd like to propose next Wednesday for the meeting. Would that work for you?",
+          "text_cz": "Rád bych navrhl příští středu na schůzku. Vyhovovalo by vám to?"
+        },
+        {
+          "speaker": "B",
+          "text": "Let me check. Does ten in the morning fit your schedule?",
+          "text_cz": "Nechte mě to zkontrolovat. Hodí se vám deset dopoledne?"
+        },
+        {
+          "speaker": "A",
+          "text": "I have a slight preference for the morning too, so ten is fine.",
+          "text_cz": "Také mírně preferuji dopoledne, takže deset je v pořádku."
+        },
+        {
+          "speaker": "B",
+          "text": "Great, let's lock in that time then.",
+          "text_cz": "Skvělé, domluvme se pevně na tomto čase."
+        },
+        {
+          "speaker": "A",
+          "text": "Perfect, I'll send the invite shortly.",
+          "text_cz": "Výborně, brzy pošlu pozvánku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Would Wednesday at ten work for you?",
+      "options": [
+        "Vyhovovala by vám středa v deset?",
+        "Brzy pošlu pozvánku.",
+        "Oba časy mi vyhovují."
+      ],
+      "correct": "Vyhovovala by vám středa v deset?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'd like to ___ next Monday for the meeting.",
+      "answer": "propose",
+      "hint_cz": "navrhnout"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "does that fit your schedule?", "cz": "hodí se to do vašeho rozvrhu?" },
+        { "target": "either time works for me", "cz": "oba časy mi vyhovují" },
+        { "target": "let's lock in that time", "cz": "domluvme se pevně na tomto čase" },
+        { "target": "unless something changes", "cz": "pokud se něco nezmění" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I have a slight preference for the morning.",
+      "tts_text": "I have a slight preference for the morning."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'll send the invite ___ after this call.",
+      "answer": "shortly",
+      "hint_cz": "brzy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "That should work, unless something changes.",
+      "tts_text": "That should work, unless something changes."
+    }
+  ]
+}

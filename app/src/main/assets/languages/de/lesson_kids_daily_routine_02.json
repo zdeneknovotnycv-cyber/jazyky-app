@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_daily_routine_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Sich für die Schule fertig machen",
+  "title_cz": "Příprava do školy",
+  "vocabulary": [
+    {
+      "word": "sich anziehen",
+      "translation_cz": "obléknout se",
+      "example": "Ich ziehe mich schnell an.",
+      "example_cz": "Rychle se oblékám.",
+      "tts_text": "Ich ziehe mich schnell an."
+    },
+    {
+      "word": "die Schuluniform",
+      "translation_cz": "školní oblečení",
+      "example": "Ich ziehe meine Schuluniform an.",
+      "example_cz": "Oblékám si školní oblečení.",
+      "tts_text": "Ich ziehe meine Schuluniform an."
+    },
+    {
+      "word": "der Schulranzen",
+      "translation_cz": "batoh",
+      "example": "Ich packe meinen Schulranzen.",
+      "example_cz": "Balím si batoh do školy.",
+      "tts_text": "Ich packe meinen Schulranzen."
+    },
+    {
+      "word": "die Haare kämmen",
+      "translation_cz": "učesat se",
+      "example": "Ich kämme mir vor der Schule die Haare.",
+      "example_cz": "Před školou se učesávám.",
+      "tts_text": "Ich kämme mir vor der Schule die Haare."
+    },
+    {
+      "word": "die Schuhe",
+      "translation_cz": "boty",
+      "example": "Ich ziehe die Schuhe an der Tür an.",
+      "example_cz": "U dveří si obouvám boty.",
+      "tts_text": "Ich ziehe die Schuhe an der Tür an."
+    },
+    {
+      "word": "sich beeilen",
+      "translation_cz": "pospíšit si",
+      "example": "Mama sagt: beeil dich!",
+      "example_cz": "Máma říká: pospěš si!",
+      "tts_text": "Mama sagt: beeil dich!"
+    },
+    {
+      "word": "pünktlich",
+      "translation_cz": "včas",
+      "example": "Ich möchte pünktlich in der Schule sein.",
+      "example_cz": "Chci být do školy včas.",
+      "tts_text": "Ich möchte pünktlich in der Schule sein."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sich anziehen",
+      "options": [
+        "obléknout se",
+        "školní oblečení",
+        "batoh"
+      ],
+      "correct": "obléknout se"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ziehe meine ___ an.",
+      "answer": "Schuluniform",
+      "hint_cz": "školní oblečení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Schulranzen",
+          "cz": "batoh"
+        },
+        {
+          "target": "die Haare kämmen",
+          "cz": "učesat se"
+        },
+        {
+          "target": "die Schuhe",
+          "cz": "boty"
+        },
+        {
+          "target": "sich beeilen",
+          "cz": "pospíšit si"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich möchte pünktlich in der Schule sein.",
+      "tts_text": "Ich möchte pünktlich in der Schule sein."
+    }
+  ]
+}

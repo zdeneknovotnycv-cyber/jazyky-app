@@ -1,0 +1,46 @@
+{
+  "id": "de_corporate_finance_budgets_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Zahlungserinnerung",
+  "title_cz": "Upomínka o pozdní platbě",
+  "vocabulary": [
+    {"word": "überfällig", "translation_cz": "po splatnosti", "example": "Ihre Rechnung ist nun zehn Tage überfällig.", "example_cz": "Vaše faktura je nyní deset dní po splatnosti.", "tts_text": "Ihre Rechnung ist nun zehn Tage überfällig."},
+    {"word": "die Zahlungserinnerung", "translation_cz": "upomínka", "example": "Dies ist eine freundliche Zahlungserinnerung.", "example_cz": "Toto je přátelská upomínka k platbě.", "tts_text": "Dies ist eine freundliche Zahlungserinnerung."},
+    {"word": "der ausstehende Betrag", "translation_cz": "nesplacený zůstatek", "example": "Bitte begleichen Sie den ausstehenden Betrag so schnell wie möglich.", "example_cz": "Uhraďte prosím co nejdříve nesplacený zůstatek.", "tts_text": "Bitte begleichen Sie den ausstehenden Betrag so schnell wie möglich."},
+    {"word": "die Mahngebühr", "translation_cz": "penále za pozdní platbu", "example": "Nach dreißig Tagen kann eine Mahngebühr anfallen.", "example_cz": "Po třiceti dnech může být účtováno penále za pozdní platbu.", "tts_text": "Nach dreißig Tagen kann eine Mahngebühr anfallen."},
+    {"word": "die Rechnung begleichen", "translation_cz": "vyrovnat fakturu", "example": "Wir bitten Sie, die Rechnung diese Woche zu begleichen.", "example_cz": "Žádáme vás, abyste tento týden vyrovnal fakturu.", "tts_text": "Wir bitten Sie, die Rechnung diese Woche zu begleichen."},
+    {"word": "die Kulanzfrist", "translation_cz": "dodatečná lhůta", "example": "Wir können eine kurze Kulanzfrist anbieten.", "example_cz": "Můžeme nabídnout krátkou dodatečnou lhůtu.", "tts_text": "Wir können eine kurze Kulanzfrist anbieten."},
+    {"word": "der Zahlungsnachweis", "translation_cz": "doklad o platbě", "example": "Bitte senden Sie nach der Überweisung den Zahlungsnachweis.", "example_cz": "Po provedení platby prosím zašlete doklad o platbě.", "tts_text": "Bitte senden Sie nach der Überweisung den Zahlungsnachweis."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_late_payment",
+      "title": "Eine Zahlungserinnerung senden",
+      "title_cz": "Zaslání upomínky",
+      "lines": [
+        {"speaker": "A", "text": "Ich rufe wegen Rechnung Nummer 245 an, die überfällig ist.", "text_cz": "Volám ohledně faktury číslo 245, která je po splatnosti."},
+        {"speaker": "B", "text": "Entschuldigung, das muss uns entgangen sein. Wie hoch ist der ausstehende Betrag?", "text_cz": "Omlouvám se, asi nám to uniklo. Jaký je nesplacený zůstatek?"},
+        {"speaker": "A", "text": "Achthundert Euro. Könnten Sie das diese Woche begleichen?", "text_cz": "Osm set eur. Mohli byste to vyrovnat tento týden?"},
+        {"speaker": "B", "text": "Ja, wir überweisen es morgen und senden den Zahlungsnachweis.", "text_cz": "Ano, zítra to převedeme a zašleme doklad o platbě."}
+      ]
+    },
+    {
+      "id": "conv_grace_period",
+      "title": "Um eine Kulanzfrist bitten",
+      "title_cz": "Žádost o dodatečnou lhůtu",
+      "lines": [
+        {"speaker": "A", "text": "Könnten wir eine kurze Kulanzfrist bekommen, bevor die Mahngebühr anfällt?", "text_cz": "Mohli bychom dostat krátkou dodatečnou lhůtu, než se uplatní penále?"},
+        {"speaker": "B", "text": "Ja, wir können sie um fünf Tage verlängern.", "text_cz": "Ano, můžeme ji prodloužit o pět dní."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "überfällig", "options": ["po splatnosti", "upomínka", "penále"], "correct": "po splatnosti"},
+    {"type": "fill_gap", "sentence": "Bitte begleichen Sie den ausstehenden ___ so schnell wie möglich.", "answer": "Betrag", "hint_cz": "zůstatek"},
+    {"type": "match_pairs", "pairs": [{"target": "die Mahngebühr", "cz": "penále za pozdní platbu"}, {"target": "die Kulanzfrist", "cz": "dodatečná lhůta"}, {"target": "der Zahlungsnachweis", "cz": "doklad o platbě"}, {"target": "die Zahlungserinnerung", "cz": "upomínka"}]},
+    {"type": "speak_and_check", "target_phrase": "Dies ist eine freundliche Zahlungserinnerung.", "tts_text": "Dies ist eine freundliche Zahlungserinnerung."},
+    {"type": "fill_gap", "sentence": "Wir bitten Sie, die Rechnung diese Woche zu ___.", "answer": "begleichen", "hint_cz": "vyrovnat"}
+  ]
+}

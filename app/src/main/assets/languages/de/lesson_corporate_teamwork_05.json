@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_teamwork_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Abteilungsübergreifende Zusammenarbeit",
+  "title_cz": "Spolupráce napříč odděleními",
+  "vocabulary": [
+    {
+      "word": "die Abteilung",
+      "translation_cz": "oddělení",
+      "example": "Die Marketingabteilung braucht unseren Input.",
+      "example_cz": "Marketingové oddělení potřebuje náš vstup.",
+      "tts_text": "Die Marketingabteilung braucht unseren Input."
+    },
+    {
+      "word": "abstimmen",
+      "translation_cz": "sladit",
+      "example": "Wir müssen unsere Ziele mit dem Vertrieb abstimmen.",
+      "example_cz": "Musíme sladit naše cíle s prodejem.",
+      "tts_text": "Wir müssen unsere Ziele mit dem Vertrieb abstimmen."
+    },
+    {
+      "word": "die interessierte Partei",
+      "translation_cz": "zainteresovaná strana",
+      "example": "Alle interessierten Parteien sollten informiert werden.",
+      "example_cz": "Všechny zainteresované strany by měly být informovány.",
+      "tts_text": "Alle interessierten Parteien sollten informiert werden."
+    },
+    {
+      "word": "sich abstimmen",
+      "translation_cz": "domluvit se / sladit se",
+      "example": "Lass uns uns mit der IT vor dem Start abstimmen.",
+      "example_cz": "Domluvme se s IT ještě před spuštěním.",
+      "tts_text": "Lass uns uns mit der IT vor dem Start abstimmen."
+    },
+    {
+      "word": "abteilungsübergreifend",
+      "translation_cz": "napříč odděleními",
+      "example": "Das ist ein abteilungsübergreifendes Projekt.",
+      "example_cz": "Tohle je projekt napříč odděleními.",
+      "tts_text": "Das ist ein abteilungsübergreifendes Projekt."
+    },
+    {
+      "word": "einbeziehen",
+      "translation_cz": "zapojit do komunikace",
+      "example": "Könntest du das Finanzteam einbeziehen?",
+      "example_cz": "Mohl bys zapojit finanční tým?",
+      "tts_text": "Könntest du das Finanzteam einbeziehen?"
+    },
+    {
+      "word": "das gemeinsame Ziel",
+      "translation_cz": "společný cíl",
+      "example": "Wir haben hier alle ein gemeinsames Ziel.",
+      "example_cz": "Všichni tu máme společný cíl.",
+      "tts_text": "Wir haben hier alle ein gemeinsames Ziel."
+    },
+    {
+      "word": "der Engpass",
+      "translation_cz": "úzké místo / zádrhel",
+      "example": "Der Genehmigungsprozess ist ein Engpass.",
+      "example_cz": "Schvalovací proces je úzké místo.",
+      "tts_text": "Der Genehmigungsprozess ist ein Engpass."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_cross_department",
+      "title": "Koordination mit einer anderen Abteilung",
+      "title_cz": "Koordinace s jiným oddělením",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Das ist ein abteilungsübergreifendes Projekt, also lass uns uns vor dem Start mit der IT abstimmen.",
+          "text_cz": "Tohle je projekt napříč odděleními, tak se ještě před spuštěním domluvme s IT."
+        },
+        {
+          "speaker": "B",
+          "text": "Gute Idee. Könntest du auch das Finanzteam einbeziehen?",
+          "text_cz": "Dobrý nápad. Mohl bys zapojit i finanční tým?"
+        },
+        {
+          "speaker": "A",
+          "text": "Klar. Wir haben alle ein gemeinsames Ziel, also müssen wir unsere Zeitpläne abstimmen.",
+          "text_cz": "Jasně. Všichni máme společný cíl, tak musíme sladit naše termíny."
+        },
+        {
+          "speaker": "B",
+          "text": "Genau. Der Genehmigungsprozess war in letzter Zeit ein Engpass.",
+          "text_cz": "Souhlasím. Schvalovací proces byl v poslední době úzkým místem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "abteilungsübergreifend",
+      "options": [
+        "napříč odděleními",
+        "úzké místo",
+        "společný cíl"
+      ],
+      "correct": "napříč odděleními"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lass uns uns mit der IT vor dem Start ___.",
+      "answer": "abstimmen",
+      "hint_cz": "domluvit se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Abteilung",
+          "cz": "oddělení"
+        },
+        {
+          "target": "die interessierte Partei",
+          "cz": "zainteresovaná strana"
+        },
+        {
+          "target": "der Engpass",
+          "cz": "úzké místo"
+        },
+        {
+          "target": "einbeziehen",
+          "cz": "zapojit do komunikace"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir haben hier alle ein gemeinsames Ziel.",
+      "tts_text": "Wir haben hier alle ein gemeinsames Ziel."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir müssen unsere Ziele mit dem Vertrieb ___.",
+      "answer": "abstimmen",
+      "hint_cz": "sladit"
+    }
+  ]
+}

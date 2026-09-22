@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_toys_games_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Bausteine",
+  "title_cz": "Stavebnice",
+  "vocabulary": [
+    {
+      "word": "die Bausteine",
+      "translation_cz": "stavebnice",
+      "example": "Ich baue einen Turm aus Bausteinen.",
+      "example_cz": "Ze stavebnice stavím věž.",
+      "tts_text": "Ich baue einen Turm aus Bausteinen."
+    },
+    {
+      "word": "der Turm",
+      "translation_cz": "věž",
+      "example": "Mein Turm ist sehr hoch.",
+      "example_cz": "Moje věž je velmi vysoká.",
+      "tts_text": "Mein Turm ist sehr hoch."
+    },
+    {
+      "word": "bauen",
+      "translation_cz": "stavět",
+      "example": "Lass uns ein Haus bauen.",
+      "example_cz": "Pojďme postavit dům.",
+      "tts_text": "Lass uns ein Haus bauen."
+    },
+    {
+      "word": "der Stein",
+      "translation_cz": "kostička",
+      "example": "Dieser Stein ist blau.",
+      "example_cz": "Tato kostička je modrá.",
+      "tts_text": "Dieser Stein ist blau."
+    },
+    {
+      "word": "umfallen",
+      "translation_cz": "spadnout",
+      "example": "Der Turm ist umgefallen.",
+      "example_cz": "Věž spadla.",
+      "tts_text": "Der Turm ist umgefallen."
+    },
+    {
+      "word": "das Schloss",
+      "translation_cz": "hrad",
+      "example": "Ich habe ein großes Schloss gebaut.",
+      "example_cz": "Postavil jsem velký hrad.",
+      "tts_text": "Ich habe ein großes Schloss gebaut."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Turm",
+      "options": [
+        "věž",
+        "hrad",
+        "kostička"
+      ],
+      "correct": "věž"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lass uns ein Haus ___.",
+      "answer": "bauen",
+      "hint_cz": "postavit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Bausteine",
+          "cz": "stavebnice"
+        },
+        {
+          "target": "der Stein",
+          "cz": "kostička"
+        },
+        {
+          "target": "umfallen",
+          "cz": "spadnout"
+        },
+        {
+          "target": "das Schloss",
+          "cz": "hrad"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich baue einen Turm aus Bausteinen.",
+      "tts_text": "Ich baue einen Turm aus Bausteinen."
+    }
+  ]
+}

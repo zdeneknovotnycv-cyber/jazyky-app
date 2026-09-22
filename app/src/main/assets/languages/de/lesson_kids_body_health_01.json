@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_body_health_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Parts of the Body",
+  "title_cz": "Části těla",
+  "vocabulary": [
+    {
+      "word": "die Hand",
+      "translation_cz": "ruka",
+      "example": "Wasch deine Hände.",
+      "example_cz": "Umyj si ruce.",
+      "tts_text": "Wasch deine Hände."
+    },
+    {
+      "word": "das Bein",
+      "translation_cz": "noha",
+      "example": "Mein Bein tut weh.",
+      "example_cz": "Bolí mě noha.",
+      "tts_text": "Mein Bein tut weh."
+    },
+    {
+      "word": "der Kopf",
+      "translation_cz": "hlava",
+      "example": "Ich habe einen großen Kopf.",
+      "example_cz": "Mám velkou hlavu.",
+      "tts_text": "Ich habe einen großen Kopf."
+    },
+    {
+      "word": "das Auge",
+      "translation_cz": "oko",
+      "example": "Ich habe zwei Augen.",
+      "example_cz": "Mám dvě oči.",
+      "tts_text": "Ich habe zwei Augen."
+    },
+    {
+      "word": "das Ohr",
+      "translation_cz": "ucho",
+      "example": "Ich höre mit den Ohren.",
+      "example_cz": "Slyším ušima.",
+      "tts_text": "Ich höre mit den Ohren."
+    },
+    {
+      "word": "die Nase",
+      "translation_cz": "nos",
+      "example": "Meine Nase ist klein.",
+      "example_cz": "Mám malý nos.",
+      "tts_text": "Meine Nase ist klein."
+    },
+    {
+      "word": "der Mund",
+      "translation_cz": "ústa",
+      "example": "Öffne deinen Mund.",
+      "example_cz": "Otevři pusu.",
+      "tts_text": "Öffne deinen Mund."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Hand",
+      "options": [
+        "ruka",
+        "noha",
+        "hlava"
+      ],
+      "correct": "ruka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein ___ tut weh.",
+      "answer": "Bein",
+      "hint_cz": "noha"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Auge",
+          "cz": "oko"
+        },
+        {
+          "target": "das Ohr",
+          "cz": "ucho"
+        },
+        {
+          "target": "die Nase",
+          "cz": "nos"
+        },
+        {
+          "target": "der Mund",
+          "cz": "ústa"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wasch deine Hände.",
+      "tts_text": "Wasch deine Hände."
+    }
+  ]
+}

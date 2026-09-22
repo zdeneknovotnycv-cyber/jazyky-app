@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_nature_outdoors_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Berge",
+  "title_cz": "Hory",
+  "vocabulary": [
+    {
+      "word": "der Berg",
+      "translation_cz": "hora",
+      "example": "Wir besteigen einen hohen Berg.",
+      "example_cz": "Lezeme na vysokou horu.",
+      "tts_text": "Wir besteigen einen hohen Berg."
+    },
+    {
+      "word": "der Hügel",
+      "translation_cz": "kopec",
+      "example": "Wir rollen den Hügel hinunter.",
+      "example_cz": "Kutálíme se dolů z kopce.",
+      "tts_text": "Wir rollen den Hügel hinunter."
+    },
+    {
+      "word": "der Gipfel",
+      "translation_cz": "vrchol",
+      "example": "Schnee bedeckt den Gipfel.",
+      "example_cz": "Vrchol pokrývá sníh.",
+      "tts_text": "Schnee bedeckt den Gipfel."
+    },
+    {
+      "word": "der Pfad",
+      "translation_cz": "stezka",
+      "example": "Wir folgen dem Pfad nach oben.",
+      "example_cz": "Jdeme po stezce nahoru.",
+      "tts_text": "Wir folgen dem Pfad nach oben."
+    },
+    {
+      "word": "wandern",
+      "translation_cz": "turistika",
+      "example": "Wir wandern jeden Sommer.",
+      "example_cz": "Každé léto chodíme na turistiku.",
+      "tts_text": "Wir wandern jeden Sommer."
+    },
+    {
+      "word": "die Aussicht",
+      "translation_cz": "výhled",
+      "example": "Die Aussicht vom Gipfel ist fantastisch.",
+      "example_cz": "Výhled z vrcholu je úžasný.",
+      "tts_text": "Die Aussicht vom Gipfel ist fantastisch."
+    },
+    {
+      "word": "der Felsen",
+      "translation_cz": "skála",
+      "example": "Wir sitzen auf einem großen Felsen.",
+      "example_cz": "Sedíme na velké skále.",
+      "tts_text": "Wir sitzen auf einem großen Felsen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Berg",
+      "options": [
+        "hora",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "hora"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir besteigen einen hohen ___.",
+      "answer": "der Berg",
+      "hint_cz": "hora"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Hügel",
+          "cz": "kopec"
+        },
+        {
+          "target": "der Gipfel",
+          "cz": "vrchol"
+        },
+        {
+          "target": "der Pfad",
+          "cz": "stezka"
+        },
+        {
+          "target": "wandern",
+          "cz": "turistika"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir wandern jeden Sommer.",
+      "tts_text": "Wir wandern jeden Sommer."
+    }
+  ]
+}

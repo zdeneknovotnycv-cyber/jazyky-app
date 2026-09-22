@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_marketing_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über eine Marketingkampagne sprechen",
+  "title_cz": "Diskuze o marketingové kampani",
+  "vocabulary": [
+    {
+      "word": "Zielgruppe",
+      "translation_cz": "cílová skupina",
+      "example": "Wer ist die Zielgruppe für diese Kampagne?",
+      "example_cz": "Kdo je cílová skupina této kampaně?",
+      "tts_text": "Wer ist die Zielgruppe für diese Kampagne?"
+    },
+    {
+      "word": "eine Kampagne starten",
+      "translation_cz": "spustit kampaň",
+      "example": "Wir planen, die Kampagne nächsten Monat zu starten.",
+      "example_cz": "Plánujeme spustit kampaň příští měsíc.",
+      "tts_text": "Wir planen, die Kampagne nächsten Monat zu starten."
+    },
+    {
+      "word": "Kernbotschaft",
+      "translation_cz": "klíčové sdělení",
+      "example": "Was ist die Kernbotschaft, die wir vermitteln wollen?",
+      "example_cz": "Jaké je klíčové sdělení, které chceme sdělit?",
+      "tts_text": "Was ist die Kernbotschaft, die wir vermitteln wollen?"
+    },
+    {
+      "word": "Kampagnenbudget",
+      "translation_cz": "rozpočet kampaně",
+      "example": "Das Kampagnenbudget wurde gestern genehmigt.",
+      "example_cz": "Rozpočet kampaně byl schválen včera.",
+      "tts_text": "Das Kampagnenbudget wurde gestern genehmigt."
+    },
+    {
+      "word": "Ideen sammeln",
+      "translation_cz": "vymýšlet nápady",
+      "example": "Lasst uns Ideen für den Slogan sammeln.",
+      "example_cz": "Pojďme vymyslet nápady na slogan.",
+      "tts_text": "Lasst uns Ideen für den Slogan sammeln."
+    },
+    {
+      "word": "Handlungsaufforderung",
+      "translation_cz": "výzva k akci",
+      "example": "Die E-Mail braucht eine klare Handlungsaufforderung.",
+      "example_cz": "E-mail potřebuje jasnou výzvu k akci.",
+      "tts_text": "Die E-Mail braucht eine klare Handlungsaufforderung."
+    },
+    {
+      "word": "den Erfolg messen",
+      "translation_cz": "měřit úspěch",
+      "example": "Wie werden wir den Erfolg der Kampagne messen?",
+      "example_cz": "Jak budeme měřit úspěch kampaně?",
+      "tts_text": "Wie werden wir den Erfolg der Kampagne messen?"
+    },
+    {
+      "word": "Zeitplan",
+      "translation_cz": "časový harmonogram",
+      "example": "Können Sie mir den Zeitplan der Kampagne schicken?",
+      "example_cz": "Můžete mi poslat časový harmonogram kampaně?",
+      "tts_text": "Können Sie mir den Zeitplan der Kampagne schicken?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_01",
+      "title": "Eine neue Marketingkampagne planen",
+      "title_cz": "Plánování nové marketingové kampaně",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wer ist die Zielgruppe für diese Kampagne?",
+          "text_cz": "Kdo je cílová skupina této kampaně?"
+        },
+        {
+          "speaker": "B",
+          "text": "Vor allem junge Berufstätige zwischen 25 und 35 Jahren.",
+          "text_cz": "Hlavně mladí profesionálové ve věku 25 až 35 let."
+        },
+        {
+          "speaker": "A",
+          "text": "Gut. Was ist die Kernbotschaft, die wir vermitteln wollen?",
+          "text_cz": "Dobře. Jaké je klíčové sdělení, které chceme sdělit?"
+        },
+        {
+          "speaker": "B",
+          "text": "Dass unser Produkt ihnen täglich Zeit spart. Lasst uns auch eine Handlungsaufforderung überlegen.",
+          "text_cz": "Že náš produkt jim šetří čas každý den. Pojďme také vymyslet výzvu k akci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Zielgruppe",
+      "options": [
+        "cílová skupina",
+        "rozpočet kampaně",
+        "časový harmonogram"
+      ],
+      "correct": "cílová skupina"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir planen, die Kampagne nächsten Monat zu ___.",
+      "answer": "starten",
+      "hint_cz": "spustit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Kernbotschaft",
+          "cz": "klíčové sdělení"
+        },
+        {
+          "target": "Handlungsaufforderung",
+          "cz": "výzva k akci"
+        },
+        {
+          "target": "den Erfolg messen",
+          "cz": "měřit úspěch"
+        },
+        {
+          "target": "Zeitplan",
+          "cz": "časový harmonogram"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wer ist die Zielgruppe für diese Kampagne?",
+      "tts_text": "Wer ist die Zielgruppe für diese Kampagne?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lasst uns Ideen für den Slogan ___.",
+      "answer": "sammeln",
+      "hint_cz": "vymyslet"
+    }
+  ]
+}

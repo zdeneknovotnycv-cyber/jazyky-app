@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_school_classroom_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Exams and Tests",
+  "title_cz": "Zkoušky a testy",
+  "vocabulary": [
+    {
+      "word": "test",
+      "translation_cz": "test",
+      "example": "We have a test today.",
+      "example_cz": "Dnes píšeme test.",
+      "tts_text": "We have a test today."
+    },
+    {
+      "word": "study",
+      "translation_cz": "učit se",
+      "example": "I study for the test.",
+      "example_cz": "Učím se na test.",
+      "tts_text": "I study for the test."
+    },
+    {
+      "word": "question",
+      "translation_cz": "otázka",
+      "example": "This question is easy.",
+      "example_cz": "Tato otázka je snadná.",
+      "tts_text": "This question is easy."
+    },
+    {
+      "word": "answer",
+      "translation_cz": "odpověď",
+      "example": "My answer is correct.",
+      "example_cz": "Moje odpověď je správná.",
+      "tts_text": "My answer is correct."
+    },
+    {
+      "word": "nervous",
+      "translation_cz": "nervózní",
+      "example": "I am a little nervous.",
+      "example_cz": "Jsem trochu nervózní.",
+      "tts_text": "I am a little nervous."
+    },
+    {
+      "word": "grade",
+      "translation_cz": "známka",
+      "example": "I got a good grade.",
+      "example_cz": "Dostal jsem dobrou známku.",
+      "tts_text": "I got a good grade."
+    },
+    {
+      "word": "pass",
+      "translation_cz": "uspět",
+      "example": "I hope I pass the test.",
+      "example_cz": "Doufám, že u testu uspěju.",
+      "tts_text": "I hope I pass the test."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "grade",
+      "options": [
+        "známka",
+        "otázka",
+        "odpověď"
+      ],
+      "correct": "známka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am a little ___.",
+      "answer": "nervous",
+      "hint_cz": "nervózní"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "test",
+          "cz": "test"
+        },
+        {
+          "target": "study",
+          "cz": "učit se"
+        },
+        {
+          "target": "question",
+          "cz": "otázka"
+        },
+        {
+          "target": "answer",
+          "cz": "odpověď"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I hope I pass the test.",
+      "tts_text": "I hope I pass the test."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_imagination_stories_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ein Abenteuer unter dem Meer",
+  "title_cz": "Dobrodružství pod mořem",
+  "vocabulary": [
+    {
+      "word": "das Meer",
+      "translation_cz": "moře",
+      "example": "Ich schwimme tief ins Meer.",
+      "example_cz": "Plavu hluboko do moře.",
+      "tts_text": "Ich schwimme tief ins Meer."
+    },
+    {
+      "word": "der Fisch",
+      "translation_cz": "ryba",
+      "example": "Ein bunter Fisch schwimmt an mir vorbei.",
+      "example_cz": "Kolem mě proplouvá barevná ryba.",
+      "tts_text": "Ein bunter Fisch schwimmt an mir vorbei."
+    },
+    {
+      "word": "die Meerjungfrau",
+      "translation_cz": "mořská víla",
+      "example": "Ich treffe eine freundliche Meerjungfrau.",
+      "example_cz": "Potkávám přátelskou mořskou vílu.",
+      "tts_text": "Ich treffe eine freundliche Meerjungfrau."
+    },
+    {
+      "word": "das Korallenriff",
+      "translation_cz": "korálový útes",
+      "example": "Wir erkunden ein helles Korallenriff.",
+      "example_cz": "Prozkoumáváme jasný korálový útes.",
+      "tts_text": "Wir erkunden ein helles Korallenriff."
+    },
+    {
+      "word": "der Schatz",
+      "translation_cz": "poklad",
+      "example": "Ich finde einen versteckten Schatz.",
+      "example_cz": "Nacházím skrytý poklad.",
+      "tts_text": "Ich finde einen versteckten Schatz."
+    },
+    {
+      "word": "der Hai",
+      "translation_cz": "žralok",
+      "example": "Ein großer Hai schwimmt vorbei.",
+      "example_cz": "Kolem proplave velký žralok.",
+      "tts_text": "Ein großer Hai schwimmt vorbei."
+    },
+    {
+      "word": "die Blase",
+      "translation_cz": "bublina",
+      "example": "Blasen steigen zur Oberfläche auf.",
+      "example_cz": "Bubliny stoupají k hladině.",
+      "tts_text": "Blasen steigen zur Oberfläche auf."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Meer",
+      "options": [
+        "moře",
+        "ryba",
+        "mořská víla"
+      ],
+      "correct": "moře"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ein bunter ___ schwimmt an mir vorbei.",
+      "answer": "Fisch",
+      "hint_cz": "ryba"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Meerjungfrau",
+          "cz": "mořská víla"
+        },
+        {
+          "target": "das Korallenriff",
+          "cz": "korálový útes"
+        },
+        {
+          "target": "der Schatz",
+          "cz": "poklad"
+        },
+        {
+          "target": "der Hai",
+          "cz": "žralok"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Blasen steigen zur Oberfläche auf.",
+      "tts_text": "Blasen steigen zur Oberfläche auf."
+    }
+  ]
+}

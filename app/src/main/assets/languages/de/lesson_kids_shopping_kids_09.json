@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_shopping_kids_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Neue Schuhe kaufen",
+  "title_cz": "Nákup nových bot",
+  "vocabulary": [
+    {
+      "word": "das Schuhgeschäft",
+      "translation_cz": "obchod s botami",
+      "example": "Wir gehen in das Schuhgeschäft.",
+      "example_cz": "Jdeme do obchodu s botami.",
+      "tts_text": "Wir gehen in das Schuhgeschäft."
+    },
+    {
+      "word": "die Größe",
+      "translation_cz": "velikost",
+      "example": "Welche Schuhgröße hast du?",
+      "example_cz": "Jakou máš velikost nohy?",
+      "tts_text": "Welche Schuhgröße hast du?"
+    },
+    {
+      "word": "anprobieren",
+      "translation_cz": "vyzkoušet",
+      "example": "Ich probiere die neuen Schuhe an.",
+      "example_cz": "Zkouším si nové boty.",
+      "tts_text": "Ich probiere die neuen Schuhe an."
+    },
+    {
+      "word": "bequem",
+      "translation_cz": "pohodlný",
+      "example": "Diese Schuhe fühlen sich bequem an.",
+      "example_cz": "Tyto boty jsou pohodlné.",
+      "tts_text": "Diese Schuhe fühlen sich bequem an."
+    },
+    {
+      "word": "eng",
+      "translation_cz": "těsný",
+      "example": "Diese Schuhe sind zu eng.",
+      "example_cz": "Tyto boty jsou moc těsné.",
+      "tts_text": "Diese Schuhe sind zu eng."
+    },
+    {
+      "word": "die Farbe",
+      "translation_cz": "barva",
+      "example": "Mir gefällt die blaue Farbe.",
+      "example_cz": "Líbí se mi modrá barva.",
+      "tts_text": "Mir gefällt die blaue Farbe."
+    },
+    {
+      "word": "die Schnürsenkel",
+      "translation_cz": "tkaničky",
+      "example": "Ich binde meine Schnürsenkel.",
+      "example_cz": "Zavazuji si tkaničky.",
+      "tts_text": "Ich binde meine Schnürsenkel."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Schuhgeschäft",
+      "options": [
+        "obchod s botami",
+        "velikost",
+        "vyzkoušet"
+      ],
+      "correct": "obchod s botami"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Welche Schuh___ hast du?",
+      "answer": "Größe",
+      "hint_cz": "velikost"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "anprobieren",
+          "cz": "vyzkoušet"
+        },
+        {
+          "target": "bequem",
+          "cz": "pohodlný"
+        },
+        {
+          "target": "eng",
+          "cz": "těsný"
+        },
+        {
+          "target": "die Farbe",
+          "cz": "barva"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich binde meine Schnürsenkel.",
+      "tts_text": "Ich binde meine Schnürsenkel."
+    }
+  ]
+}

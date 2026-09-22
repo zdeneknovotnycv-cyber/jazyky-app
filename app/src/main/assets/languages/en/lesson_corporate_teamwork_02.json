@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_teamwork_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Asking a colleague for help",
+  "title_cz": "Žádost kolegy o pomoc",
+  "vocabulary": [
+    {
+      "word": "Could you help me with...?",
+      "translation_cz": "mohl bys mi pomoct s...?",
+      "example": "Could you help me with this spreadsheet?",
+      "example_cz": "Mohl bys mi pomoct s touto tabulkou?",
+      "tts_text": "Could you help me with this spreadsheet?"
+    },
+    {
+      "word": "I'm stuck on",
+      "translation_cz": "zasekl jsem se na",
+      "example": "I'm stuck on the formula in this cell.",
+      "example_cz": "Zasekl jsem se na vzorci v této buňce.",
+      "tts_text": "I'm stuck on the formula in this cell."
+    },
+    {
+      "word": "short on time",
+      "translation_cz": "mám málo času",
+      "example": "I'm a bit short on time today.",
+      "example_cz": "Dnes mám trochu málo času.",
+      "tts_text": "I'm a bit short on time today."
+    },
+    {
+      "word": "I appreciate it",
+      "translation_cz": "vážím si toho",
+      "example": "Thanks a lot, I really appreciate it.",
+      "example_cz": "Díky moc, opravdu si toho vážím.",
+      "tts_text": "Thanks a lot, I really appreciate it."
+    },
+    {
+      "word": "no problem at all",
+      "translation_cz": "žádný problém",
+      "example": "No problem at all, happy to help.",
+      "example_cz": "Žádný problém, rád pomůžu.",
+      "tts_text": "No problem at all, happy to help."
+    },
+    {
+      "word": "could you walk me through it",
+      "translation_cz": "můžeš mě tím provést",
+      "example": "Could you walk me through the process?",
+      "example_cz": "Můžeš mě provést tím postupem?",
+      "tts_text": "Could you walk me through the process?"
+    },
+    {
+      "word": "to lend a hand",
+      "translation_cz": "přiložit ruku k dílu",
+      "example": "Can you lend a hand with the presentation?",
+      "example_cz": "Můžeš přiložit ruku k dílu s prezentací?",
+      "tts_text": "Can you lend a hand with the presentation?"
+    },
+    {
+      "word": "I owe you one",
+      "translation_cz": "dlužím ti laskavost",
+      "example": "Thanks so much, I owe you one!",
+      "example_cz": "Díky moc, dlužím ti laskavost!",
+      "tts_text": "Thanks so much, I owe you one!"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_asking_for_help",
+      "title": "Asking a colleague for help",
+      "title_cz": "Žádost kolegy o pomoc",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Could you help me with this spreadsheet? I'm stuck on a formula.",
+          "text_cz": "Mohl bys mi pomoct s touto tabulkou? Zasekl jsem se na vzorci."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, no problem at all. Which cell is it?",
+          "text_cz": "Jasně, žádný problém. Která buňka to je?"
+        },
+        {
+          "speaker": "A",
+          "text": "This one. Could you walk me through it? I'm a bit short on time.",
+          "text_cz": "Tahle. Můžeš mě tím provést? Mám trochu málo času."
+        },
+        {
+          "speaker": "B",
+          "text": "Of course, give me two minutes and I'll show you.",
+          "text_cz": "Jasně, dej mi dvě minuty a ukážu ti to."
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks so much, I really appreciate it. I owe you one!",
+          "text_cz": "Díky moc, opravdu si toho vážím. Dlužím ti laskavost!"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "I'm stuck on",
+      "options": [
+        "zasekl jsem se na",
+        "vážím si toho",
+        "žádný problém"
+      ],
+      "correct": "zasekl jsem se na"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Could you ___ me with this spreadsheet?",
+      "answer": "help",
+      "hint_cz": "pomoct"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "short on time",
+          "cz": "mám málo času"
+        },
+        {
+          "target": "to lend a hand",
+          "cz": "přiložit ruku k dílu"
+        },
+        {
+          "target": "I owe you one",
+          "cz": "dlužím ti laskavost"
+        },
+        {
+          "target": "no problem at all",
+          "cz": "žádný problém"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Could you walk me through it?",
+      "tts_text": "Could you walk me through it?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Thanks a lot, I really ___ it.",
+      "answer": "appreciate",
+      "hint_cz": "vážím si"
+    }
+  ]
+}

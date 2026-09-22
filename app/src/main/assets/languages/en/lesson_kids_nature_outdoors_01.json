@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_nature_outdoors_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Trees and forests",
+  "title_cz": "Stromy a lesy",
+  "vocabulary": [
+    {
+      "word": "tree",
+      "translation_cz": "strom",
+      "example": "The tree is very tall.",
+      "example_cz": "Ten strom je velmi vysoký.",
+      "tts_text": "The tree is very tall."
+    },
+    {
+      "word": "forest",
+      "translation_cz": "les",
+      "example": "We walk in the forest.",
+      "example_cz": "Procházíme se v lese.",
+      "tts_text": "We walk in the forest."
+    },
+    {
+      "word": "leaf",
+      "translation_cz": "list",
+      "example": "A green leaf falls down.",
+      "example_cz": "Padá zelený list.",
+      "tts_text": "A green leaf falls down."
+    },
+    {
+      "word": "branch",
+      "translation_cz": "větev",
+      "example": "A bird sits on a branch.",
+      "example_cz": "Na větvi sedí pták.",
+      "tts_text": "A bird sits on a branch."
+    },
+    {
+      "word": "roots",
+      "translation_cz": "kořeny",
+      "example": "Roots grow under the ground.",
+      "example_cz": "Kořeny rostou pod zemí.",
+      "tts_text": "Roots grow under the ground."
+    },
+    {
+      "word": "squirrel",
+      "translation_cz": "veverka",
+      "example": "A squirrel climbs the tree.",
+      "example_cz": "Veverka leze na strom.",
+      "tts_text": "A squirrel climbs the tree."
+    },
+    {
+      "word": "shade",
+      "translation_cz": "stín",
+      "example": "We rest in the shade.",
+      "example_cz": "Odpočíváme ve stínu.",
+      "tts_text": "We rest in the shade."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "tree",
+      "options": [
+        "strom",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "strom"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is very tall.",
+      "answer": "tree",
+      "hint_cz": "strom"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "forest",
+          "cz": "les"
+        },
+        {
+          "target": "leaf",
+          "cz": "list"
+        },
+        {
+          "target": "branch",
+          "cz": "větev"
+        },
+        {
+          "target": "roots",
+          "cz": "kořeny"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We walk in the forest.",
+      "tts_text": "We walk in the forest."
+    }
+  ]
+}

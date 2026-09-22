@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_time_days_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Telling Time",
+  "title_cz": "Kolik je hodin",
+  "vocabulary": [
+    {
+      "word": "What time is it?",
+      "translation_cz": "Kolik je hodin?",
+      "example": "What time is it now?",
+      "example_cz": "Kolik je teď hodin?",
+      "tts_text": "What time is it now?"
+    },
+    {
+      "word": "o'clock",
+      "translation_cz": "hodin",
+      "example": "It's three o'clock.",
+      "example_cz": "Jsou tři hodiny.",
+      "tts_text": "It's three o'clock."
+    },
+    {
+      "word": "half past",
+      "translation_cz": "půl",
+      "example": "It's half past four.",
+      "example_cz": "Je půl páté.",
+      "tts_text": "It's half past four."
+    },
+    {
+      "word": "quarter past",
+      "translation_cz": "čtvrt po",
+      "example": "It's quarter past six.",
+      "example_cz": "Je čtvrt na sedm.",
+      "tts_text": "It's quarter past six."
+    },
+    {
+      "word": "quarter to",
+      "translation_cz": "za čtvrt",
+      "example": "It's quarter to eight.",
+      "example_cz": "Je za čtvrt osm.",
+      "tts_text": "It's quarter to eight."
+    },
+    {
+      "word": "minute",
+      "translation_cz": "minuta",
+      "example": "Wait one minute, please.",
+      "example_cz": "Počkej prosím jednu minutu.",
+      "tts_text": "Wait one minute, please."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "o'clock",
+      "options": [
+        "hodin",
+        "minuta",
+        "půl"
+      ],
+      "correct": "hodin"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "It's three ___.",
+      "answer": "o'clock",
+      "hint_cz": "hodin"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "half past",
+          "cz": "půl"
+        },
+        {
+          "target": "quarter past",
+          "cz": "čtvrt po"
+        },
+        {
+          "target": "quarter to",
+          "cz": "za čtvrt"
+        },
+        {
+          "target": "minute",
+          "cz": "minuta"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It's half past four.",
+      "tts_text": "It's half past four."
+    }
+  ]
+}

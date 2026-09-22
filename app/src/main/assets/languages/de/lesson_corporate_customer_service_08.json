@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_customer_service_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen verärgerten Kunden beruhigen",
+  "title_cz": "Zklidnění rozzlobeného zákazníka",
+  "vocabulary": [
+    {
+      "word": "Bitte beruhigen Sie sich",
+      "translation_cz": "Prosím uklidněte se",
+      "example": "Bitte beruhigen Sie sich, ich bin hier, um zu helfen.",
+      "example_cz": "Prosím uklidněte se, jsem tu, abych pomohl.",
+      "tts_text": "Bitte beruhigen Sie sich, ich bin hier, um zu helfen."
+    },
+    {
+      "word": "Ich verstehe, was Sie sagen",
+      "translation_cz": "Slyším, co říkáte",
+      "example": "Ich verstehe, was Sie sagen, und möchte helfen.",
+      "example_cz": "Slyším, co říkáte, a chci pomoci.",
+      "tts_text": "Ich verstehe, was Sie sagen, und möchte helfen."
+    },
+    {
+      "word": "Lassen Sie uns das gemeinsam lösen",
+      "translation_cz": "pojďme najít způsob, jak to napravit",
+      "example": "Lassen Sie uns das gemeinsam lösen.",
+      "example_cz": "Pojďme to společně vyřešit.",
+      "tts_text": "Lassen Sie uns das gemeinsam lösen."
+    },
+    {
+      "word": "Ich verstehe, dass Sie verärgert sind",
+      "translation_cz": "Nedivím se, že jste naštvaný",
+      "example": "Ich verstehe, dass Sie darüber verärgert sind.",
+      "example_cz": "Chápu, že jste kvůli tomu naštvaný.",
+      "tts_text": "Ich verstehe, dass Sie darüber verärgert sind."
+    },
+    {
+      "word": "mit einem Vorgesetzten sprechen",
+      "translation_cz": "mluvit s vedoucím",
+      "example": "Möchten Sie mit einem Vorgesetzten sprechen?",
+      "example_cz": "Chtěl byste mluvit s vedoucím?",
+      "tts_text": "Möchten Sie mit einem Vorgesetzten sprechen?"
+    },
+    {
+      "word": "in der Leitung bleiben",
+      "translation_cz": "zůstat na lince",
+      "example": "Bitte bleiben Sie in der Leitung, während ich das prüfe.",
+      "example_cz": "Zůstaňte prosím na lince, zatímco to zkontroluji.",
+      "tts_text": "Bitte bleiben Sie in der Leitung, während ich das prüfe."
+    },
+    {
+      "word": "die Stimme senken",
+      "translation_cz": "ztišit hlas",
+      "example": "Ich verstehe, dass Sie verärgert sind, aber bitte senken Sie Ihre Stimme.",
+      "example_cz": "Chápu, že jste naštvaný, ale prosím ztište hlas.",
+      "tts_text": "Ich verstehe, dass Sie verärgert sind, aber bitte senken Sie Ihre Stimme."
+    },
+    {
+      "word": "Geduld",
+      "translation_cz": "trpělivost",
+      "example": "Danke für Ihre Geduld, während wir das klären.",
+      "example_cz": "Děkuji za trpělivost, zatímco to řešíme.",
+      "tts_text": "Danke für Ihre Geduld, während wir das klären."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_08",
+      "title": "Einen verärgerten Kunden am Telefon beruhigen",
+      "title_cz": "Uklidnění naštvaného zákazníka po telefonu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Das ist inakzeptabel! Ich warte seit einer Stunde!",
+          "text_cz": "To je nepřijatelné! Čekám už hodinu!"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich verstehe, was Sie sagen, und ich verstehe, dass Sie verärgert sind.",
+          "text_cz": "Slyším, co říkáte, a chápu, že jste naštvaný."
+        },
+        {
+          "speaker": "A",
+          "text": "Und was werden Sie dagegen tun?",
+          "text_cz": "A co s tím uděláte?"
+        },
+        {
+          "speaker": "B",
+          "text": "Lassen Sie uns das gemeinsam lösen. Bitte bleiben Sie in der Leitung, während ich Ihre Bestellung prüfe.",
+          "text_cz": "Pojďme to společně vyřešit. Zůstaňte prosím na lince, zatímco zkontroluji vaši objednávku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Bitte beruhigen Sie sich",
+      "options": [
+        "Prosím uklidněte se",
+        "Trpělivost",
+        "Ztišit hlas"
+      ],
+      "correct": "Prosím uklidněte se"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich verstehe, was Sie ___.",
+      "answer": "sagen",
+      "hint_cz": "říkáte"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "mit einem Vorgesetzten sprechen",
+          "cz": "mluvit s vedoucím"
+        },
+        {
+          "target": "in der Leitung bleiben",
+          "cz": "zůstat na lince"
+        },
+        {
+          "target": "Geduld",
+          "cz": "trpělivost"
+        },
+        {
+          "target": "die Stimme senken",
+          "cz": "ztišit hlas"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lassen Sie uns das gemeinsam lösen.",
+      "tts_text": "Lassen Sie uns das gemeinsam lösen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich verstehe, dass Sie ___ sind.",
+      "answer": "verärgert",
+      "hint_cz": "naštvaný"
+    }
+  ]
+}

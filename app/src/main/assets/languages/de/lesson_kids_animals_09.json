@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_animals_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Taking Care of a Pet",
+  "title_cz": "Péče o mazlíčka",
+  "vocabulary": [
+    {
+      "word": "füttern",
+      "translation_cz": "krmit",
+      "example": "Ich füttere meinen Hund jeden Tag.",
+      "example_cz": "Krmím psa každý den.",
+      "tts_text": "Ich füttere meinen Hund jeden Tag."
+    },
+    {
+      "word": "der Wassernapf",
+      "translation_cz": "miska na vodu",
+      "example": "Die Katze hat einen Wassernapf.",
+      "example_cz": "Kočka má misku na vodu.",
+      "tts_text": "Die Katze hat einen Wassernapf."
+    },
+    {
+      "word": "Gassi gehen",
+      "translation_cz": "venčit",
+      "example": "Wir gehen mit dem Hund im Park Gassi.",
+      "example_cz": "Venčíme psa v parku.",
+      "tts_text": "Wir gehen mit dem Hund im Park Gassi."
+    },
+    {
+      "word": "bürsten",
+      "translation_cz": "kartáčovat",
+      "example": "Ich bürste das Fell meiner Katze.",
+      "example_cz": "Kartáčuji kočce srst.",
+      "tts_text": "Ich bürste das Fell meiner Katze."
+    },
+    {
+      "word": "der Tierarzt",
+      "translation_cz": "veterinář",
+      "example": "Der Tierarzt untersucht das Haustier.",
+      "example_cz": "Veterinář kontroluje mazlíčka.",
+      "tts_text": "Der Tierarzt untersucht das Haustier."
+    },
+    {
+      "word": "putzen",
+      "translation_cz": "čistit",
+      "example": "Wir putzen den Käfig jede Woche.",
+      "example_cz": "Čistíme klec každý týden.",
+      "tts_text": "Wir putzen den Käfig jede Woche."
+    },
+    {
+      "word": "lieben",
+      "translation_cz": "milovat",
+      "example": "Ich liebe mein Haustier sehr.",
+      "example_cz": "Miluji svého mazlíčka.",
+      "tts_text": "Ich liebe mein Haustier sehr."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Tierarzt",
+      "options": [
+        "veterinář",
+        "krmit",
+        "venčit"
+      ],
+      "correct": "veterinář"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ meinen Hund jeden Tag.",
+      "answer": "füttere",
+      "hint_cz": "krmím"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Wassernapf",
+          "cz": "miska na vodu"
+        },
+        {
+          "target": "Gassi gehen",
+          "cz": "venčit"
+        },
+        {
+          "target": "bürsten",
+          "cz": "kartáčovat"
+        },
+        {
+          "target": "putzen",
+          "cz": "čistit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich liebe mein Haustier sehr.",
+      "tts_text": "Ich liebe mein Haustier sehr."
+    }
+  ]
+}

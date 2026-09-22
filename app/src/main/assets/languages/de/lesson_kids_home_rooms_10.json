@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_home_rooms_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Apartment vs. House",
+  "title_cz": "Byt versus dům",
+  "vocabulary": [
+    {
+      "word": "die Wohnung",
+      "translation_cz": "byt",
+      "example": "Wir wohnen in einer Wohnung.",
+      "example_cz": "Bydlíme v bytě.",
+      "tts_text": "Wir wohnen in einer Wohnung."
+    },
+    {
+      "word": "das Haus",
+      "translation_cz": "dům",
+      "example": "Mein Freund wohnt in einem Haus.",
+      "example_cz": "Můj kamarád bydlí v domě.",
+      "tts_text": "Mein Freund wohnt in einem Haus."
+    },
+    {
+      "word": "der Stock",
+      "translation_cz": "patro",
+      "example": "Unsere Wohnung ist im dritten Stock.",
+      "example_cz": "Náš byt je ve třetím patře.",
+      "tts_text": "Unsere Wohnung ist im dritten Stock."
+    },
+    {
+      "word": "der Aufzug",
+      "translation_cz": "výtah",
+      "example": "Wir fahren mit dem Aufzug nach oben.",
+      "example_cz": "Jezdíme nahoru výtahem.",
+      "tts_text": "Wir fahren mit dem Aufzug nach oben."
+    },
+    {
+      "word": "der Balkon",
+      "translation_cz": "balkon",
+      "example": "Wir haben Blumen auf dem Balkon.",
+      "example_cz": "Na balkoně máme květiny.",
+      "tts_text": "Wir haben Blumen auf dem Balkon."
+    },
+    {
+      "word": "der Hof / Garten",
+      "translation_cz": "dvorek / zahrada",
+      "example": "Ein Haus hat oft einen Garten.",
+      "example_cz": "Dům má často dvorek.",
+      "tts_text": "Ein Haus hat oft einen Garten."
+    },
+    {
+      "word": "die Treppe",
+      "translation_cz": "schody",
+      "example": "Wir benutzen manchmal die Treppe.",
+      "example_cz": "Někdy používáme schody.",
+      "tts_text": "Wir benutzen manchmal die Treppe."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Wohnung",
+      "options": [
+        "byt",
+        "dům",
+        "výtah"
+      ],
+      "correct": "byt"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir fahren mit dem ___ nach oben.",
+      "answer": "Aufzug",
+      "hint_cz": "výtah"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Stock",
+          "cz": "patro"
+        },
+        {
+          "target": "der Balkon",
+          "cz": "balkon"
+        },
+        {
+          "target": "der Hof",
+          "cz": "dvorek"
+        },
+        {
+          "target": "die Treppe",
+          "cz": "schody"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir wohnen in einer Wohnung.",
+      "tts_text": "Wir wohnen in einer Wohnung."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_time_days_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Gestern, Heute, Morgen",
+  "title_cz": "Včera, dnes, zítra",
+  "vocabulary": [
+    {
+      "word": "gestern",
+      "translation_cz": "včera",
+      "example": "Gestern habe ich Fußball gespielt.",
+      "example_cz": "Včera jsem hrál fotbal.",
+      "tts_text": "Gestern habe ich Fußball gespielt."
+    },
+    {
+      "word": "heute",
+      "translation_cz": "dnes",
+      "example": "Heute ist ein sonniger Tag.",
+      "example_cz": "Dnes je slunečný den.",
+      "tts_text": "Heute ist ein sonniger Tag."
+    },
+    {
+      "word": "morgen",
+      "translation_cz": "zítra",
+      "example": "Morgen gehen wir in den Zoo.",
+      "example_cz": "Zítra jdeme do zoo.",
+      "tts_text": "Morgen gehen wir in den Zoo."
+    },
+    {
+      "word": "jetzt",
+      "translation_cz": "teď",
+      "example": "Ich habe jetzt Hunger.",
+      "example_cz": "Teď mám hlad.",
+      "tts_text": "Ich habe jetzt Hunger."
+    },
+    {
+      "word": "übermorgen",
+      "translation_cz": "pozítří",
+      "example": "Übermorgen besuchen wir Opa.",
+      "example_cz": "Pozítří navštívíme dědu.",
+      "tts_text": "Übermorgen besuchen wir Opa."
+    },
+    {
+      "word": "vorgestern",
+      "translation_cz": "předevčírem",
+      "example": "Vorgestern hat es geschneit.",
+      "example_cz": "Předevčírem sněžilo.",
+      "tts_text": "Vorgestern hat es geschneit."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "morgen",
+      "options": [
+        "zítra",
+        "včera",
+        "dnes"
+      ],
+      "correct": "zítra"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "___ gehen wir in den Zoo.",
+      "answer": "Morgen",
+      "hint_cz": "zítra"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "gestern",
+          "cz": "včera"
+        },
+        {
+          "target": "heute",
+          "cz": "dnes"
+        },
+        {
+          "target": "jetzt",
+          "cz": "teď"
+        },
+        {
+          "target": "übermorgen",
+          "cz": "pozítří"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Heute ist ein sonniger Tag.",
+      "tts_text": "Heute ist ein sonniger Tag."
+    }
+  ]
+}

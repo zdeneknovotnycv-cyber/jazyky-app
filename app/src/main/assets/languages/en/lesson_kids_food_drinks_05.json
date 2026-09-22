@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_food_drinks_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Vegetables",
+  "title_cz": "Zelenina",
+  "vocabulary": [
+    {
+      "word": "carrot",
+      "translation_cz": "mrkev",
+      "example": "Rabbits like carrots.",
+      "example_cz": "Králíci mají rádi mrkev.",
+      "tts_text": "Rabbits like carrots."
+    },
+    {
+      "word": "potato",
+      "translation_cz": "brambora",
+      "example": "I peel the potato.",
+      "example_cz": "Loupu bramboru.",
+      "tts_text": "I peel the potato."
+    },
+    {
+      "word": "tomato",
+      "translation_cz": "rajče",
+      "example": "The tomato is red.",
+      "example_cz": "Rajče je červené.",
+      "tts_text": "The tomato is red."
+    },
+    {
+      "word": "cucumber",
+      "translation_cz": "okurka",
+      "example": "I eat cucumber in a salad.",
+      "example_cz": "Okurku jím v salátu.",
+      "tts_text": "I eat cucumber in a salad."
+    },
+    {
+      "word": "onion",
+      "translation_cz": "cibule",
+      "example": "The onion makes me cry.",
+      "example_cz": "Z cibule mi tečou slzy.",
+      "tts_text": "The onion makes me cry."
+    },
+    {
+      "word": "broccoli",
+      "translation_cz": "brokolice",
+      "example": "Broccoli is good for you.",
+      "example_cz": "Brokolice je pro tebe zdravá.",
+      "tts_text": "Broccoli is good for you."
+    },
+    {
+      "word": "pepper",
+      "translation_cz": "paprika",
+      "example": "The pepper is green.",
+      "example_cz": "Paprika je zelená.",
+      "tts_text": "The pepper is green."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "carrot",
+      "options": [
+        "mrkev",
+        "cibule",
+        "paprika"
+      ],
+      "correct": "mrkev"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is red.",
+      "answer": "tomato",
+      "hint_cz": "rajče"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "potato",
+          "cz": "brambora"
+        },
+        {
+          "target": "cucumber",
+          "cz": "okurka"
+        },
+        {
+          "target": "onion",
+          "cz": "cibule"
+        },
+        {
+          "target": "broccoli",
+          "cz": "brokolice"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Rabbits like carrots.",
+      "tts_text": "Rabbits like carrots."
+    }
+  ]
+}

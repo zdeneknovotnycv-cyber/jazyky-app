@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_numbers_colors_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Big and Small",
+  "title_cz": "Velký a malý",
+  "vocabulary": [
+    {
+      "word": "groß",
+      "translation_cz": "velký",
+      "example": "Der Elefant ist groß.",
+      "example_cz": "Slon je velký.",
+      "tts_text": "Der Elefant ist groß."
+    },
+    {
+      "word": "klein",
+      "translation_cz": "malý",
+      "example": "Die Maus ist klein.",
+      "example_cz": "Myš je malá.",
+      "tts_text": "Die Maus ist klein."
+    },
+    {
+      "word": "hoch",
+      "translation_cz": "vysoký",
+      "example": "Der Baum ist hoch.",
+      "example_cz": "Strom je vysoký.",
+      "tts_text": "Der Baum ist hoch."
+    },
+    {
+      "word": "niedrig",
+      "translation_cz": "nízký",
+      "example": "Der Stuhl ist niedrig.",
+      "example_cz": "Židle je nízká.",
+      "tts_text": "Der Stuhl ist niedrig."
+    },
+    {
+      "word": "schwer",
+      "translation_cz": "těžký",
+      "example": "Der Stein ist schwer.",
+      "example_cz": "Kámen je těžký.",
+      "tts_text": "Der Stein ist schwer."
+    },
+    {
+      "word": "leicht",
+      "translation_cz": "lehký",
+      "example": "Die Feder ist leicht.",
+      "example_cz": "Pírko je lehké.",
+      "tts_text": "Die Feder ist leicht."
+    },
+    {
+      "word": "die Größe",
+      "translation_cz": "velikost",
+      "example": "Welche Größe hat diese Kiste?",
+      "example_cz": "Jaká je velikost té krabice?",
+      "tts_text": "Welche Größe hat diese Kiste?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "schwer",
+      "options": [
+        "těžký",
+        "malý",
+        "vysoký"
+      ],
+      "correct": "těžký"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Maus ist ___.",
+      "answer": "klein",
+      "hint_cz": "malá"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "groß",
+          "cz": "velký"
+        },
+        {
+          "target": "hoch",
+          "cz": "vysoký"
+        },
+        {
+          "target": "niedrig",
+          "cz": "nízký"
+        },
+        {
+          "target": "leicht",
+          "cz": "lehký"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Welche Größe hat diese Kiste?",
+      "tts_text": "Welche Größe hat diese Kiste?"
+    }
+  ]
+}

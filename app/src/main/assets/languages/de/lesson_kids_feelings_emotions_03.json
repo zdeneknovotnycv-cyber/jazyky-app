@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_feelings_emotions_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ängstlich und mutig",
+  "title_cz": "Vyděšený a statečný",
+  "vocabulary": [
+    {
+      "word": "ängstlich",
+      "translation_cz": "vyděšený",
+      "example": "Ich habe Angst vor der Dunkelheit.",
+      "example_cz": "Bojím se tmy.",
+      "tts_text": "Ich habe Angst vor der Dunkelheit."
+    },
+    {
+      "word": "mutig",
+      "translation_cz": "statečný",
+      "example": "Du warst beim Arzt sehr mutig.",
+      "example_cz": "Byl jsi u lékaře moc statečný.",
+      "tts_text": "Du warst beim Arzt sehr mutig."
+    },
+    {
+      "word": "Angst haben",
+      "translation_cz": "bát se",
+      "example": "Hab keine Angst, ich bin hier.",
+      "example_cz": "Neboj se, jsem tady.",
+      "tts_text": "Hab keine Angst, ich bin hier."
+    },
+    {
+      "word": "das Monster",
+      "translation_cz": "příšera",
+      "example": "Unter dem Bett ist kein Monster.",
+      "example_cz": "Pod postelí žádná příšera není.",
+      "tts_text": "Unter dem Bett ist kein Monster."
+    },
+    {
+      "word": "sicher",
+      "translation_cz": "bezpečný",
+      "example": "Bei mir bist du sicher.",
+      "example_cz": "U mě jsi v bezpečí.",
+      "tts_text": "Bei mir bist du sicher."
+    },
+    {
+      "word": "der Mut",
+      "translation_cz": "odvaha",
+      "example": "Es braucht Mut, etwas Neues zu versuchen.",
+      "example_cz": "Zkusit něco nového vyžaduje odvahu.",
+      "tts_text": "Es braucht Mut, etwas Neues zu versuchen."
+    },
+    {
+      "word": "zittern",
+      "translation_cz": "třást se",
+      "example": "Meine Hände zittern ein bisschen.",
+      "example_cz": "Trochu se mi třesou ruce.",
+      "tts_text": "Meine Hände zittern ein bisschen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "ängstlich",
+      "options": [
+        "vyděšený",
+        "smutný",
+        "radost"
+      ],
+      "correct": "vyděšený"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Du warst beim Arzt sehr ___.",
+      "answer": "mutig",
+      "hint_cz": "statečný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "mutig",
+          "cz": "statečný"
+        },
+        {
+          "target": "Angst haben",
+          "cz": "bát se"
+        },
+        {
+          "target": "das Monster",
+          "cz": "příšera"
+        },
+        {
+          "target": "sicher",
+          "cz": "bezpečný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Du warst beim Arzt sehr mutig.",
+      "tts_text": "Du warst beim Arzt sehr mutig."
+    }
+  ]
+}

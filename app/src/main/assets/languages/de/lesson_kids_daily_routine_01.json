@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_daily_routine_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Aufwachen",
+  "title_cz": "Ranní vstávání",
+  "vocabulary": [
+    {
+      "word": "aufwachen",
+      "translation_cz": "probudit se",
+      "example": "Ich wache um sieben Uhr auf.",
+      "example_cz": "Probouzím se v sedm hodin.",
+      "tts_text": "Ich wache um sieben Uhr auf."
+    },
+    {
+      "word": "der Wecker",
+      "translation_cz": "budík",
+      "example": "Der Wecker klingelt laut.",
+      "example_cz": "Budík hlasitě zvoní.",
+      "tts_text": "Der Wecker klingelt laut."
+    },
+    {
+      "word": "sich strecken",
+      "translation_cz": "protáhnout se",
+      "example": "Ich strecke mich im Bett.",
+      "example_cz": "Protahuji se v posteli.",
+      "tts_text": "Ich strecke mich im Bett."
+    },
+    {
+      "word": "aufstehen",
+      "translation_cz": "vstát",
+      "example": "Ich stehe jeden Morgen langsam auf.",
+      "example_cz": "Každé ráno vstávám pomalu.",
+      "tts_text": "Ich stehe jeden Morgen langsam auf."
+    },
+    {
+      "word": "gähnen",
+      "translation_cz": "zívnout",
+      "example": "Ich gähne, wenn ich müde bin.",
+      "example_cz": "Zívám, když jsem ospalý.",
+      "tts_text": "Ich gähne, wenn ich müde bin."
+    },
+    {
+      "word": "müde",
+      "translation_cz": "ospalý",
+      "example": "Ich bin morgens müde.",
+      "example_cz": "Ráno jsem ospalý.",
+      "tts_text": "Ich bin morgens müde."
+    },
+    {
+      "word": "das Bett machen",
+      "translation_cz": "ustlat postel",
+      "example": "Ich mache mein Bett nach dem Aufstehen.",
+      "example_cz": "Po vstávání si ustelu postel.",
+      "tts_text": "Ich mache mein Bett nach dem Aufstehen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "aufwachen",
+      "options": [
+        "probudit se",
+        "budík",
+        "protáhnout se"
+      ],
+      "correct": "probudit se"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der ___ klingelt laut.",
+      "answer": "Wecker",
+      "hint_cz": "budík"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sich strecken",
+          "cz": "protáhnout se"
+        },
+        {
+          "target": "aufstehen",
+          "cz": "vstát"
+        },
+        {
+          "target": "gähnen",
+          "cz": "zívnout"
+        },
+        {
+          "target": "müde",
+          "cz": "ospalý"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich mache mein Bett nach dem Aufstehen.",
+      "tts_text": "Ich mache mein Bett nach dem Aufstehen."
+    }
+  ]
+}

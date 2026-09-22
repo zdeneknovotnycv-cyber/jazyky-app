@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_negotiation_sales_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing Price",
+  "title_cz": "Jednání o ceně",
+  "vocabulary": [
+    {
+      "word": "quote",
+      "translation_cz": "cenová nabídka",
+      "example": "I'll send you a quote by tomorrow.",
+      "example_cz": "Zítra vám pošlu cenovou nabídku.",
+      "tts_text": "I'll send you a quote by tomorrow."
+    },
+    {
+      "word": "discount",
+      "translation_cz": "sleva",
+      "example": "Can you offer a discount for a bigger order?",
+      "example_cz": "Můžete nabídnout slevu za větší objednávku?",
+      "tts_text": "Can you offer a discount for a bigger order?"
+    },
+    {
+      "word": "payment terms",
+      "translation_cz": "platební podmínky",
+      "example": "What are your standard payment terms?",
+      "example_cz": "Jaké jsou vaše standardní platební podmínky?",
+      "tts_text": "What are your standard payment terms?"
+    },
+    {
+      "word": "budget constraint",
+      "translation_cz": "rozpočtové omezení",
+      "example": "We have a strict budget constraint.",
+      "example_cz": "Máme přísné rozpočtové omezení.",
+      "tts_text": "We have a strict budget constraint."
+    },
+    {
+      "word": "final price",
+      "translation_cz": "konečná cena",
+      "example": "This is our final price for this package.",
+      "example_cz": "Toto je naše konečná cena za tento balíček.",
+      "tts_text": "This is our final price for this package."
+    },
+    {
+      "word": "bulk order",
+      "translation_cz": "hromadná objednávka",
+      "example": "We offer better rates for bulk orders.",
+      "example_cz": "Za hromadné objednávky nabízíme lepší ceny.",
+      "tts_text": "We offer better rates for bulk orders."
+    },
+    {
+      "word": "markup",
+      "translation_cz": "obchodní přirážka",
+      "example": "Our markup is lower than the industry average.",
+      "example_cz": "Naše obchodní přirážka je nižší než průměr v odvětví.",
+      "tts_text": "Our markup is lower than the industry average."
+    },
+    {
+      "word": "meet in the middle",
+      "translation_cz": "najít kompromis",
+      "example": "Can we meet in the middle on the price?",
+      "example_cz": "Můžeme najít kompromis ohledně ceny?",
+      "tts_text": "Can we meet in the middle on the price?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_price_discussion",
+      "title": "Negotiating a discount",
+      "title_cz": "Jednání o slevě",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "We have a strict budget constraint this year. Is there any room on price?",
+          "text_cz": "Letos máme přísné rozpočtové omezení. Je nějaký prostor ohledně ceny?"
+        },
+        {
+          "speaker": "B",
+          "text": "For a bulk order, we can offer a ten percent discount.",
+          "text_cz": "Pro hromadnou objednávku můžeme nabídnout desetiprocentní slevu."
+        },
+        {
+          "speaker": "A",
+          "text": "Can we meet in the middle at fifteen percent?",
+          "text_cz": "Můžeme se sejít uprostřed na patnácti procentech?"
+        },
+        {
+          "speaker": "B",
+          "text": "Let me check with my manager and send you a revised quote.",
+          "text_cz": "Nechte mě to zkontrolovat s manažerem a pošlu vám upravenou nabídku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "quote",
+      "options": [
+        "cenová nabídka",
+        "platební podmínky",
+        "rozpočtové omezení"
+      ],
+      "correct": "cenová nabídka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can you offer a ___ for a bigger order?",
+      "answer": "discount",
+      "hint_cz": "sleva"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This is our ___ for this package.",
+      "answer": "final price",
+      "hint_cz": "konečná cena"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bulk order",
+          "cz": "hromadná objednávka"
+        },
+        {
+          "target": "markup",
+          "cz": "obchodní přirážka"
+        },
+        {
+          "target": "meet in the middle",
+          "cz": "najít kompromis"
+        },
+        {
+          "target": "payment terms",
+          "cz": "platební podmínky"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We have a strict budget constraint this year. Is there any room on price?",
+      "tts_text": "We have a strict budget constraint this year. Is there any room on price?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "For a bulk order, we can offer a ten percent discount.",
+      "tts_text": "For a bulk order, we can offer a ten percent discount."
+    }
+  ]
+}

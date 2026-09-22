@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_reports_presentations_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Closing a Presentation",
+  "title_cz": "Zakončení prezentace",
+  "vocabulary": [
+    {
+      "word": "thank you for your attention",
+      "translation_cz": "děkuji za pozornost",
+      "example": "Thank you for your attention today.",
+      "example_cz": "Děkuji vám dnes za pozornost.",
+      "tts_text": "Thank you for your attention today."
+    },
+    {
+      "word": "wrap up",
+      "translation_cz": "shrnout / zakončit",
+      "example": "Let me wrap up the main points.",
+      "example_cz": "Dovolte mi shrnout hlavní body.",
+      "tts_text": "Let me wrap up the main points."
+    },
+    {
+      "word": "final thoughts",
+      "translation_cz": "závěrečné myšlenky",
+      "example": "Here are my final thoughts on this topic.",
+      "example_cz": "Zde jsou mé závěrečné myšlenky k tomuto tématu.",
+      "tts_text": "Here are my final thoughts on this topic."
+    },
+    {
+      "word": "contact information",
+      "translation_cz": "kontaktní údaje",
+      "example": "My contact information is on the last slide.",
+      "example_cz": "Mé kontaktní údaje jsou na posledním slidu.",
+      "tts_text": "My contact information is on the last slide."
+    },
+    {
+      "word": "call to action",
+      "translation_cz": "výzva k akci",
+      "example": "My call to action is to approve the budget today.",
+      "example_cz": "Mou výzvou k akci je dnes schválit rozpočet.",
+      "tts_text": "My call to action is to approve the budget today."
+    },
+    {
+      "word": "feedback",
+      "translation_cz": "zpětná vazba",
+      "example": "I welcome any feedback you may have.",
+      "example_cz": "Uvítám jakoukoliv zpětnou vazbu.",
+      "tts_text": "I welcome any feedback you may have."
+    },
+    {
+      "word": "next steps",
+      "translation_cz": "další kroky",
+      "example": "Let's agree on the next steps.",
+      "example_cz": "Domluvme se na dalších krocích.",
+      "tts_text": "Let's agree on the next steps."
+    },
+    {
+      "word": "appreciate your time",
+      "translation_cz": "ocenit váš čas",
+      "example": "I really appreciate your time today.",
+      "example_cz": "Opravdu si vážím vašeho dnešního času.",
+      "tts_text": "I really appreciate your time today."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_closing_presentation",
+      "title": "Wrapping up a presentation",
+      "title_cz": "Zakončení prezentace",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let me wrap up the main points before we finish.",
+          "text_cz": "Dovolte mi shrnout hlavní body, než skončíme."
+        },
+        {
+          "speaker": "B",
+          "text": "Please do, and what's the next step for us?",
+          "text_cz": "Prosím, a jaký je pro nás další krok?"
+        },
+        {
+          "speaker": "A",
+          "text": "My call to action is to approve the budget by Friday. Thank you for your attention.",
+          "text_cz": "Mou výzvou k akci je schválit rozpočet do pátku. Děkuji za pozornost."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you, we appreciate your time and clear presentation.",
+          "text_cz": "Děkujeme, vážíme si vašeho času a jasné prezentace."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "thank you for your attention",
+      "options": [
+        "děkuji za pozornost",
+        "závěrečné myšlenky",
+        "kontaktní údaje"
+      ],
+      "correct": "děkuji za pozornost"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let me ___ the main points.",
+      "answer": "wrap up",
+      "hint_cz": "shrnout / zakončit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My ___ is to approve the budget today.",
+      "answer": "call to action",
+      "hint_cz": "výzva k akci"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "feedback",
+          "cz": "zpětná vazba"
+        },
+        {
+          "target": "next steps",
+          "cz": "další kroky"
+        },
+        {
+          "target": "appreciate your time",
+          "cz": "ocenit váš čas"
+        },
+        {
+          "target": "final thoughts",
+          "cz": "závěrečné myšlenky"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let me wrap up the main points before we finish.",
+      "tts_text": "Let me wrap up the main points before we finish."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please do, and what's the next step for us?",
+      "tts_text": "Please do, and what's the next step for us?"
+    }
+  ]
+}

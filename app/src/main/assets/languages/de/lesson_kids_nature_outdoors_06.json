@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_nature_outdoors_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Das Meer und der Strand",
+  "title_cz": "Moře a pláž",
+  "vocabulary": [
+    {
+      "word": "das Meer",
+      "translation_cz": "moře",
+      "example": "Das Meer ist blau und groß.",
+      "example_cz": "Moře je modré a velké.",
+      "tts_text": "Das Meer ist blau und groß."
+    },
+    {
+      "word": "der Strand",
+      "translation_cz": "pláž",
+      "example": "Wir spielen am Strand.",
+      "example_cz": "Hrajeme si na pláži.",
+      "tts_text": "Wir spielen am Strand."
+    },
+    {
+      "word": "der Sand",
+      "translation_cz": "písek",
+      "example": "Der Sand ist warm und weich.",
+      "example_cz": "Písek je teplý a měkký.",
+      "tts_text": "Der Sand ist warm und weich."
+    },
+    {
+      "word": "die Welle",
+      "translation_cz": "vlna",
+      "example": "Eine große Welle kommt an den Strand.",
+      "example_cz": "Ke břehu přichází velká vlna.",
+      "tts_text": "Eine große Welle kommt an den Strand."
+    },
+    {
+      "word": "die Muschel",
+      "translation_cz": "mušlička",
+      "example": "Ich sammle Muscheln am Strand.",
+      "example_cz": "Sbírám na pláži mušličky.",
+      "tts_text": "Ich sammle Muscheln am Strand."
+    },
+    {
+      "word": "schwimmen",
+      "translation_cz": "plavat",
+      "example": "Wir schwimmen im Meer.",
+      "example_cz": "Plaveme v moři.",
+      "tts_text": "Wir schwimmen im Meer."
+    },
+    {
+      "word": "die Sandburg",
+      "translation_cz": "hrad z písku",
+      "example": "Ich baue jeden Tag eine Sandburg.",
+      "example_cz": "Každý den stavím hrad z písku.",
+      "tts_text": "Ich baue jeden Tag eine Sandburg."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Meer",
+      "options": [
+        "moře",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "moře"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir spielen am ___.",
+      "answer": "der Strand",
+      "hint_cz": "pláž"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Strand",
+          "cz": "pláž"
+        },
+        {
+          "target": "der Sand",
+          "cz": "písek"
+        },
+        {
+          "target": "die Welle",
+          "cz": "vlna"
+        },
+        {
+          "target": "die Muschel",
+          "cz": "mušlička"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich baue jeden Tag eine Sandburg.",
+      "tts_text": "Ich baue jeden Tag eine Sandburg."
+    }
+  ]
+}

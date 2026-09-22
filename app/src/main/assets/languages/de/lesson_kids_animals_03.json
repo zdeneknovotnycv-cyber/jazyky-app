@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_animals_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Wild Animals",
+  "title_cz": "Divoká zvířata",
+  "vocabulary": [
+    {
+      "word": "der Löwe",
+      "translation_cz": "lev",
+      "example": "Der Löwe ist sehr stark.",
+      "example_cz": "Lev je velmi silný.",
+      "tts_text": "Der Löwe ist sehr stark."
+    },
+    {
+      "word": "der Tiger",
+      "translation_cz": "tygr",
+      "example": "Der Tiger hat Streifen.",
+      "example_cz": "Tygr má pruhy.",
+      "tts_text": "Der Tiger hat Streifen."
+    },
+    {
+      "word": "der Elefant",
+      "translation_cz": "slon",
+      "example": "Der Elefant ist riesig.",
+      "example_cz": "Slon je obrovský.",
+      "tts_text": "Der Elefant ist riesig."
+    },
+    {
+      "word": "der Bär",
+      "translation_cz": "medvěd",
+      "example": "Der Bär schläft im Winter.",
+      "example_cz": "Medvěd spí v zimě.",
+      "tts_text": "Der Bär schläft im Winter."
+    },
+    {
+      "word": "der Wolf",
+      "translation_cz": "vlk",
+      "example": "Der Wolf lebt im Wald.",
+      "example_cz": "Vlk žije v lese.",
+      "tts_text": "Der Wolf lebt im Wald."
+    },
+    {
+      "word": "der Fuchs",
+      "translation_cz": "liška",
+      "example": "Der Fuchs ist schlau.",
+      "example_cz": "Liška je chytrá.",
+      "tts_text": "Der Fuchs ist schlau."
+    },
+    {
+      "word": "der Affe",
+      "translation_cz": "opice",
+      "example": "Der Affe klettert auf Bäume.",
+      "example_cz": "Opice leze po stromech.",
+      "tts_text": "Der Affe klettert auf Bäume."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Elefant",
+      "options": [
+        "slon",
+        "lev",
+        "medvěd"
+      ],
+      "correct": "slon"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der ___ schläft im Winter.",
+      "answer": "Bär",
+      "hint_cz": "medvěd"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Löwe",
+          "cz": "lev"
+        },
+        {
+          "target": "der Tiger",
+          "cz": "tygr"
+        },
+        {
+          "target": "der Wolf",
+          "cz": "vlk"
+        },
+        {
+          "target": "der Fuchs",
+          "cz": "liška"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Affe klettert auf Bäume.",
+      "tts_text": "Der Affe klettert auf Bäume."
+    }
+  ]
+}

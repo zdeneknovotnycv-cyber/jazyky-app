@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_sports_hobbies_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Dancing",
+  "title_cz": "Tanec",
+  "vocabulary": [
+    {
+      "word": "dance",
+      "translation_cz": "tanec / tančit",
+      "example": "I like to dance to music.",
+      "example_cz": "Ráda tančím na hudbu.",
+      "tts_text": "I like to dance to music."
+    },
+    {
+      "word": "music",
+      "translation_cz": "hudba",
+      "example": "The music is fast.",
+      "example_cz": "Hudba je rychlá.",
+      "tts_text": "The music is fast."
+    },
+    {
+      "word": "move",
+      "translation_cz": "pohybovat se",
+      "example": "We move our arms and legs.",
+      "example_cz": "Pohybujeme rukama a nohama.",
+      "tts_text": "We move our arms and legs."
+    },
+    {
+      "word": "dance class",
+      "translation_cz": "taneční kroužek",
+      "example": "I go to dance class on Wednesdays.",
+      "example_cz": "Ve středu chodím na taneční kroužek.",
+      "tts_text": "I go to dance class on Wednesdays."
+    },
+    {
+      "word": "rhythm",
+      "translation_cz": "rytmus",
+      "example": "Follow the rhythm of the song.",
+      "example_cz": "Řiď se rytmem písničky.",
+      "tts_text": "Follow the rhythm of the song."
+    },
+    {
+      "word": "spin",
+      "translation_cz": "otočit se",
+      "example": "I spin around when I dance.",
+      "example_cz": "Když tančím, otáčím se dokola.",
+      "tts_text": "I spin around when I dance."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "music",
+      "options": [
+        "hudba",
+        "tanec / tančit",
+        "rytmus"
+      ],
+      "correct": "hudba"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I like to ___ to music.",
+      "answer": "dance",
+      "hint_cz": "tančit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "move",
+          "cz": "pohybovat se"
+        },
+        {
+          "target": "dance class",
+          "cz": "taneční kroužek"
+        },
+        {
+          "target": "rhythm",
+          "cz": "rytmus"
+        },
+        {
+          "target": "spin",
+          "cz": "otočit se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I like to dance to music.",
+      "tts_text": "I like to dance to music."
+    }
+  ]
+}

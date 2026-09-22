@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_transport_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Autos",
+  "title_cz": "Auta",
+  "vocabulary": [
+    {
+      "word": "das Auto",
+      "translation_cz": "auto",
+      "example": "Mein Papa fährt ein Auto.",
+      "example_cz": "Můj táta řídí auto.",
+      "tts_text": "Mein Papa fährt ein Auto."
+    },
+    {
+      "word": "das Rad",
+      "translation_cz": "kolo (u auta)",
+      "example": "Das Auto hat vier Räder.",
+      "example_cz": "Auto má čtyři kola.",
+      "tts_text": "Das Auto hat vier Räder."
+    },
+    {
+      "word": "der Sicherheitsgurt",
+      "translation_cz": "bezpečnostní pás",
+      "example": "Ich trage immer meinen Sicherheitsgurt.",
+      "example_cz": "Vždy si zapínám bezpečnostní pás.",
+      "tts_text": "Ich trage immer meinen Sicherheitsgurt."
+    },
+    {
+      "word": "die Straße",
+      "translation_cz": "silnice",
+      "example": "Das Auto fährt auf der Straße.",
+      "example_cz": "Auto jede po silnici.",
+      "tts_text": "Das Auto fährt auf der Straße."
+    },
+    {
+      "word": "schnell",
+      "translation_cz": "rychle",
+      "example": "Das Auto fährt sehr schnell.",
+      "example_cz": "Auto jede velmi rychle.",
+      "tts_text": "Das Auto fährt sehr schnell."
+    },
+    {
+      "word": "die Garage",
+      "translation_cz": "garáž",
+      "example": "Wir parken das Auto in der Garage.",
+      "example_cz": "Parkujeme auto v garáži.",
+      "tts_text": "Wir parken das Auto in der Garage."
+    },
+    {
+      "word": "der Fahrer",
+      "translation_cz": "řidič",
+      "example": "Der Fahrer schaut nach links und rechts.",
+      "example_cz": "Řidič se dívá doleva a doprava.",
+      "tts_text": "Der Fahrer schaut nach links und rechts."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Auto",
+      "options": [
+        "auto",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "auto"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein Papa fährt ein ___.",
+      "answer": "das Auto",
+      "hint_cz": "auto"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Rad",
+          "cz": "kolo (u auta)"
+        },
+        {
+          "target": "der Sicherheitsgurt",
+          "cz": "bezpečnostní pás"
+        },
+        {
+          "target": "die Straße",
+          "cz": "silnice"
+        },
+        {
+          "target": "schnell",
+          "cz": "rychle"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich trage immer meinen Sicherheitsgurt.",
+      "tts_text": "Ich trage immer meinen Sicherheitsgurt."
+    }
+  ]
+}

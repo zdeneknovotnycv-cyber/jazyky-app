@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_clothes_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Everyday Clothes",
+  "title_cz": "Běžné oblečení",
+  "vocabulary": [
+    {
+      "word": "das T-Shirt",
+      "translation_cz": "tričko",
+      "example": "Ich trage ein blaues T-Shirt.",
+      "example_cz": "Mám na sobě modré tričko.",
+      "tts_text": "Ich trage ein blaues T-Shirt."
+    },
+    {
+      "word": "die Hose",
+      "translation_cz": "kalhoty",
+      "example": "Meine Hose ist neu.",
+      "example_cz": "Mé kalhoty jsou nové.",
+      "tts_text": "Meine Hose ist neu."
+    },
+    {
+      "word": "der Pullover",
+      "translation_cz": "svetr",
+      "example": "Der Pullover ist warm.",
+      "example_cz": "Svetr je teplý.",
+      "tts_text": "Der Pullover ist warm."
+    },
+    {
+      "word": "das Kleid",
+      "translation_cz": "šaty",
+      "example": "Sie trägt ein schönes Kleid.",
+      "example_cz": "Má na sobě pěkné šaty.",
+      "tts_text": "Sie trägt ein schönes Kleid."
+    },
+    {
+      "word": "die Socken",
+      "translation_cz": "ponožky",
+      "example": "Meine Socken sind grün.",
+      "example_cz": "Mé ponožky jsou zelené.",
+      "tts_text": "Meine Socken sind grün."
+    },
+    {
+      "word": "die Jacke",
+      "translation_cz": "bunda",
+      "example": "Ich ziehe meine Jacke an.",
+      "example_cz": "Obleču si bundu.",
+      "tts_text": "Ich ziehe meine Jacke an."
+    },
+    {
+      "word": "die Kleidung",
+      "translation_cz": "oblečení",
+      "example": "Ich mag meine neue Kleidung.",
+      "example_cz": "Mám ráda své nové oblečení.",
+      "tts_text": "Ich mag meine neue Kleidung."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Pullover",
+      "options": [
+        "svetr",
+        "tričko",
+        "bunda"
+      ],
+      "correct": "svetr"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich trage ein blaues ___.",
+      "answer": "T-Shirt",
+      "hint_cz": "tričko"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Hose",
+          "cz": "kalhoty"
+        },
+        {
+          "target": "das Kleid",
+          "cz": "šaty"
+        },
+        {
+          "target": "die Socken",
+          "cz": "ponožky"
+        },
+        {
+          "target": "die Jacke",
+          "cz": "bunda"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich ziehe meine Jacke an.",
+      "tts_text": "Ich ziehe meine Jacke an."
+    }
+  ]
+}

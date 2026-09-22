@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_imagination_stories_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ein Schloss und ein Drache",
+  "title_cz": "Hrad a drak",
+  "vocabulary": [
+    {
+      "word": "das Schloss",
+      "translation_cz": "hrad",
+      "example": "Ein großes Schloss steht auf dem Hügel.",
+      "example_cz": "Na kopci stojí velký hrad.",
+      "tts_text": "Ein großes Schloss steht auf dem Hügel."
+    },
+    {
+      "word": "der Drache",
+      "translation_cz": "drak",
+      "example": "Ein Drache bewacht das Schloss.",
+      "example_cz": "Drak hlídá hrad.",
+      "tts_text": "Ein Drache bewacht das Schloss."
+    },
+    {
+      "word": "der Ritter",
+      "translation_cz": "rytíř",
+      "example": "Ein mutiger Ritter reitet auf einem Pferd.",
+      "example_cz": "Statečný rytíř jede na koni.",
+      "tts_text": "Ein mutiger Ritter reitet auf einem Pferd."
+    },
+    {
+      "word": "der Turm",
+      "translation_cz": "věž",
+      "example": "Eine Prinzessin lebt im Turm.",
+      "example_cz": "Ve věži žije princezna.",
+      "tts_text": "Eine Prinzessin lebt im Turm."
+    },
+    {
+      "word": "das Feuer",
+      "translation_cz": "oheň",
+      "example": "Der Drache spuckt Feuer.",
+      "example_cz": "Drak chrlí oheň.",
+      "tts_text": "Der Drache spuckt Feuer."
+    },
+    {
+      "word": "das Schwert",
+      "translation_cz": "meč",
+      "example": "Der Ritter hält ein glänzendes Schwert.",
+      "example_cz": "Rytíř drží lesklý meč.",
+      "tts_text": "Der Ritter hält ein glänzendes Schwert."
+    },
+    {
+      "word": "mutig",
+      "translation_cz": "odvážný",
+      "example": "Man muss mutig sein, um das Schloss zu betreten.",
+      "example_cz": "Musíš být odvážný, abys vešel do hradu.",
+      "tts_text": "Man muss mutig sein, um das Schloss zu betreten."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Schloss",
+      "options": [
+        "hrad",
+        "drak",
+        "rytíř"
+      ],
+      "correct": "hrad"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ein ___ bewacht das Schloss.",
+      "answer": "Drache",
+      "hint_cz": "drak"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Ritter",
+          "cz": "rytíř"
+        },
+        {
+          "target": "der Turm",
+          "cz": "věž"
+        },
+        {
+          "target": "das Feuer",
+          "cz": "oheň"
+        },
+        {
+          "target": "das Schwert",
+          "cz": "meč"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Man muss mutig sein, um das Schloss zu betreten.",
+      "tts_text": "Man muss mutig sein, um das Schloss zu betreten."
+    }
+  ]
+}

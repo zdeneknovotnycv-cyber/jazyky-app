@@ -1,0 +1,46 @@
+{
+  "id": "de_corporate_hr_recruitment_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Gespräch über Mitarbeiterbenefits",
+  "title_cz": "Rozhovor o zaměstnaneckých benefitech",
+  "vocabulary": [
+    {"word": "die Benefits", "translation_cz": "benefity", "example": "Unser Unternehmen bietet großartige Benefits.", "example_cz": "Naše společnost nabízí skvělé benefity.", "tts_text": "Unser Unternehmen bietet großartige Benefits."},
+    {"word": "die Krankenversicherung", "translation_cz": "zdravotní pojištění", "example": "Die Krankenversicherung ist im Paket enthalten.", "example_cz": "Zdravotní pojištění je součástí balíčku.", "tts_text": "Die Krankenversicherung ist im Paket enthalten."},
+    {"word": "die betriebliche Altersvorsorge", "translation_cz": "penzijní připojištění", "example": "Wir zahlen auch in die betriebliche Altersvorsorge ein.", "example_cz": "Přispíváme také na penzijní připojištění.", "tts_text": "Wir zahlen auch in die betriebliche Altersvorsorge ein."},
+    {"word": "die Essensgutscheine", "translation_cz": "stravenky", "example": "Sie erhalten jeden Monat Essensgutscheine.", "example_cz": "Každý měsíc budete dostávat stravenky.", "tts_text": "Sie erhalten jeden Monat Essensgutscheine."},
+    {"word": "die Krankheitstage", "translation_cz": "sick days / dny volna při nemoci", "example": "Wir bieten fünf Krankheitstage pro Jahr.", "example_cz": "Nabízíme pět sick days ročně.", "tts_text": "Wir bieten fünf Krankheitstage pro Jahr."},
+    {"word": "das Homeoffice", "translation_cz": "práce z domova", "example": "Homeoffice ist zweimal pro Woche möglich.", "example_cz": "Práce z domova je možná dvakrát týdně.", "tts_text": "Homeoffice ist zweimal pro Woche möglich."},
+    {"word": "anspruchsberechtigt", "translation_cz": "mající nárok", "example": "Alle Vollzeitmitarbeiter sind für den Bonus anspruchsberechtigt.", "example_cz": "Nárok na bonus mají všichni zaměstnanci na plný úvazek.", "tts_text": "Alle Vollzeitmitarbeiter sind für den Bonus anspruchsberechtigt."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_benefits_overview",
+      "title": "Das Leistungspaket erklären",
+      "title_cz": "Vysvětlení balíčku benefitů",
+      "lines": [
+        {"speaker": "A", "text": "Ich erkläre Ihnen Ihr Leistungspaket.", "text_cz": "Vysvětlím vám váš balíček benefitů."},
+        {"speaker": "B", "text": "Super, ist eine Krankenversicherung enthalten?", "text_cz": "Skvělé, zahrnuje zdravotní pojištění?"},
+        {"speaker": "A", "text": "Ja, zusammen mit Essensgutscheinen und betrieblicher Altersvorsorge.", "text_cz": "Ano, spolu se stravenkami a penzijním připojištěním."},
+        {"speaker": "B", "text": "Das ist sehr großzügig. Danke für die Details.", "text_cz": "To je velmi štědré. Děkuji za informace."}
+      ]
+    },
+    {
+      "id": "conv_home_office",
+      "title": "Über Homeoffice fragen",
+      "title_cz": "Dotaz na práci z domova",
+      "lines": [
+        {"speaker": "A", "text": "Habe ich Anspruch auf Homeoffice-Tage?", "text_cz": "Mám nárok na dny práce z domova?"},
+        {"speaker": "B", "text": "Ja, Homeoffice ist bis zu zwei Tage pro Woche möglich.", "text_cz": "Ano, práce z domova je možná až dva dny v týdnu."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "die Krankenversicherung", "options": ["zdravotní pojištění", "stravenky", "penzijní připojištění"], "correct": "zdravotní pojištění"},
+    {"type": "fill_gap", "sentence": "Sie erhalten jeden Monat ___.", "answer": "Essensgutscheine", "hint_cz": "stravenky"},
+    {"type": "match_pairs", "pairs": [{"target": "die Benefits", "cz": "benefity"}, {"target": "die betriebliche Altersvorsorge", "cz": "penzijní připojištění"}, {"target": "das Homeoffice", "cz": "práce z domova"}, {"target": "die Krankheitstage", "cz": "sick days"}]},
+    {"type": "speak_and_check", "target_phrase": "Unser Unternehmen bietet großartige Benefits.", "tts_text": "Unser Unternehmen bietet großartige Benefits."},
+    {"type": "fill_gap", "sentence": "Alle Vollzeitmitarbeiter sind ___ für den Bonus.", "answer": "anspruchsberechtigt", "hint_cz": "mající nárok"}
+  ]
+}

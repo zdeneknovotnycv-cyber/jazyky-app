@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_home_rooms_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Bathroom Items",
+  "title_cz": "Věci v koupelně",
+  "vocabulary": [
+    {
+      "word": "die Zahnbürste",
+      "translation_cz": "kartáček na zuby",
+      "example": "Meine Zahnbürste ist blau.",
+      "example_cz": "Můj kartáček na zuby je modrý.",
+      "tts_text": "Meine Zahnbürste ist blau."
+    },
+    {
+      "word": "das Handtuch",
+      "translation_cz": "ručník",
+      "example": "Ich benutze ein sauberes Handtuch.",
+      "example_cz": "Používám čistý ručník.",
+      "tts_text": "Ich benutze ein sauberes Handtuch."
+    },
+    {
+      "word": "die Badewanne",
+      "translation_cz": "vana",
+      "example": "Ich bade in der Badewanne.",
+      "example_cz": "Koupu se ve vaně.",
+      "tts_text": "Ich bade in der Badewanne."
+    },
+    {
+      "word": "das Waschbecken",
+      "translation_cz": "umyvadlo",
+      "example": "Ich wasche meine Hände am Waschbecken.",
+      "example_cz": "Ruce si myji u umyvadla.",
+      "tts_text": "Ich wasche meine Hände am Waschbecken."
+    },
+    {
+      "word": "der Spiegel",
+      "translation_cz": "zrcadlo",
+      "example": "Ich schaue in den Spiegel.",
+      "example_cz": "Dívám se do zrcadla.",
+      "tts_text": "Ich schaue in den Spiegel."
+    },
+    {
+      "word": "das Shampoo",
+      "translation_cz": "šampon",
+      "example": "Ich wasche meine Haare mit Shampoo.",
+      "example_cz": "Vlasy si myji šamponem.",
+      "tts_text": "Ich wasche meine Haare mit Shampoo."
+    },
+    {
+      "word": "die Toilette",
+      "translation_cz": "záchod",
+      "example": "Die Toilette ist neben dem Waschbecken.",
+      "example_cz": "Záchod je vedle umyvadla.",
+      "tts_text": "Die Toilette ist neben dem Waschbecken."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Zahnbürste",
+      "options": [
+        "kartáček na zuby",
+        "ručník",
+        "zrcadlo"
+      ],
+      "correct": "kartáček na zuby"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich schaue in den ___.",
+      "answer": "Spiegel",
+      "hint_cz": "zrcadlo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Badewanne",
+          "cz": "vana"
+        },
+        {
+          "target": "das Waschbecken",
+          "cz": "umyvadlo"
+        },
+        {
+          "target": "das Shampoo",
+          "cz": "šampon"
+        },
+        {
+          "target": "die Toilette",
+          "cz": "záchod"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich bade in der Badewanne.",
+      "tts_text": "Ich bade in der Badewanne."
+    }
+  ]
+}

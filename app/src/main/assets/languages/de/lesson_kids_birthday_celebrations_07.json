@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_birthday_celebrations_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Geschenke und Wünsche",
+  "title_cz": "Dárky a přání",
+  "vocabulary": [
+    {
+      "word": "das Geschenk",
+      "translation_cz": "dárek",
+      "example": "Ich suche ein Geschenk für meinen Freund.",
+      "example_cz": "Vybírám dárek pro kamaráda.",
+      "tts_text": "Ich suche ein Geschenk für meinen Freund."
+    },
+    {
+      "word": "der Wunsch",
+      "translation_cz": "přání",
+      "example": "Denk dir einen Wunsch aus, bevor du die Kerzen ausbläst.",
+      "example_cz": "Přej si přání, než sfoukneš svíčky.",
+      "tts_text": "Denk dir einen Wunsch aus, bevor du die Kerzen ausbläst."
+    },
+    {
+      "word": "einpacken",
+      "translation_cz": "zabalit",
+      "example": "Ich packe das Geschenk in Papier ein.",
+      "example_cz": "Balím dárek do papíru.",
+      "tts_text": "Ich packe das Geschenk in Papier ein."
+    },
+    {
+      "word": "die Schleife",
+      "translation_cz": "stuha",
+      "example": "Ich binde eine Schleife um die Schachtel.",
+      "example_cz": "Vážu stuhu na krabičku.",
+      "tts_text": "Ich binde eine Schleife um die Schachtel."
+    },
+    {
+      "word": "die Karte",
+      "translation_cz": "přání, kartička",
+      "example": "Ich schreibe eine schöne Karte.",
+      "example_cz": "Píšu pěkné přání.",
+      "tts_text": "Ich schreibe eine schöne Karte."
+    },
+    {
+      "word": "die Überraschung",
+      "translation_cz": "překvapení",
+      "example": "Es ist eine große Überraschung für sie.",
+      "example_cz": "Je to pro ni velké překvapení.",
+      "tts_text": "Es ist eine große Überraschung für sie."
+    },
+    {
+      "word": "danke",
+      "translation_cz": "děkuji",
+      "example": "Ich sage danke für das Geschenk.",
+      "example_cz": "Děkuji za dárek.",
+      "tts_text": "Ich sage danke für das Geschenk."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Geschenk",
+      "options": [
+        "dárek",
+        "přání",
+        "zabalit"
+      ],
+      "correct": "dárek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Denk dir einen ___ aus, bevor du die Kerzen ausbläst.",
+      "answer": "Wunsch",
+      "hint_cz": "přání"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "einpacken",
+          "cz": "zabalit"
+        },
+        {
+          "target": "die Schleife",
+          "cz": "stuha"
+        },
+        {
+          "target": "die Karte",
+          "cz": "přání, kartička"
+        },
+        {
+          "target": "die Überraschung",
+          "cz": "překvapení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich sage danke für das Geschenk.",
+      "tts_text": "Ich sage danke für das Geschenk."
+    }
+  ]
+}

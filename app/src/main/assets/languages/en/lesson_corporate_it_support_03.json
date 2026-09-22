@@ -1,0 +1,162 @@
+{
+  "id": "en_adult_corporate_it_support_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Password Reset Request",
+  "title_cz": "Žádost o obnovení hesla",
+  "vocabulary": [
+    {
+      "word": "password",
+      "translation_cz": "heslo",
+      "example": "I forgot my password.",
+      "example_cz": "Zapomněl jsem své heslo.",
+      "tts_text": "I forgot my password."
+    },
+    {
+      "word": "reset",
+      "translation_cz": "obnovit / resetovat",
+      "example": "Can you reset my password, please?",
+      "example_cz": "Můžete mi prosím obnovit heslo?",
+      "tts_text": "Can you reset my password, please?"
+    },
+    {
+      "word": "locked out",
+      "translation_cz": "uzamčen(ý) mimo účet",
+      "example": "I'm locked out of my account.",
+      "example_cz": "Jsem uzamčen mimo svůj účet.",
+      "tts_text": "I'm locked out of my account."
+    },
+    {
+      "word": "username",
+      "translation_cz": "uživatelské jméno",
+      "example": "Please confirm your username first.",
+      "example_cz": "Nejprve prosím potvrďte své uživatelské jméno.",
+      "tts_text": "Please confirm your username first."
+    },
+    {
+      "word": "verification code",
+      "translation_cz": "ověřovací kód",
+      "example": "You will receive a verification code by email.",
+      "example_cz": "Obdržíte ověřovací kód e-mailem.",
+      "tts_text": "You will receive a verification code by email."
+    },
+    {
+      "word": "temporary password",
+      "translation_cz": "dočasné heslo",
+      "example": "Use this temporary password to log in.",
+      "example_cz": "Použijte toto dočasné heslo pro přihlášení.",
+      "tts_text": "Use this temporary password to log in."
+    },
+    {
+      "word": "security question",
+      "translation_cz": "bezpečnostní otázka",
+      "example": "Please answer your security question.",
+      "example_cz": "Odpovězte prosím na svou bezpečnostní otázku.",
+      "tts_text": "Please answer your security question."
+    },
+    {
+      "word": "change your password",
+      "translation_cz": "změnit heslo",
+      "example": "You must change your password after the first login.",
+      "example_cz": "Po prvním přihlášení si musíte změnit heslo.",
+      "tts_text": "You must change your password after the first login."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_password_reset",
+      "title": "Requesting a password reset",
+      "title_cz": "Žádost o obnovení hesla",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi, I forgot my password and I'm locked out of my account.",
+          "text_cz": "Dobrý den, zapomněl jsem heslo a jsem uzamčen mimo svůj účet."
+        },
+        {
+          "speaker": "B",
+          "text": "No problem. Can you confirm your username, please?",
+          "text_cz": "Žádný problém. Můžete prosím potvrdit své uživatelské jméno?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, it's jana.novak.",
+          "text_cz": "Ano, je to jana.novak."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you. I'm sending a verification code to your email now.",
+          "text_cz": "Děkuji. Nyní vám posílám ověřovací kód na e-mail."
+        }
+      ]
+    },
+    {
+      "id": "conv_temp_password",
+      "title": "Getting a temporary password",
+      "title_cz": "Získání dočasného hesla",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I received the temporary password, but it doesn't work.",
+          "text_cz": "Dostal jsem dočasné heslo, ale nefunguje."
+        },
+        {
+          "speaker": "B",
+          "text": "Please make sure there are no extra spaces when you copy it.",
+          "text_cz": "Ujistěte se prosím, že při kopírování nejsou žádné mezery navíc."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "locked out",
+      "options": [
+        "uzamčen mimo účet",
+        "heslo",
+        "ověřovací kód"
+      ],
+      "correct": "uzamčen mimo účet"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can you ___ my password, please?",
+      "answer": "reset",
+      "hint_cz": "obnovit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "username",
+          "cz": "uživatelské jméno"
+        },
+        {
+          "target": "verification code",
+          "cz": "ověřovací kód"
+        },
+        {
+          "target": "temporary password",
+          "cz": "dočasné heslo"
+        },
+        {
+          "target": "security question",
+          "cz": "bezpečnostní otázka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I forgot my password.",
+      "tts_text": "I forgot my password."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You must ___ your password after the first login.",
+      "answer": "change",
+      "hint_cz": "změnit"
+    }
+  ]
+}

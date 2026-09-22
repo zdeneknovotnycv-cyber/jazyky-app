@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_animals_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Birds",
+  "title_cz": "Ptáci",
+  "vocabulary": [
+    {
+      "word": "bird",
+      "translation_cz": "pták",
+      "example": "The bird can fly.",
+      "example_cz": "Pták umí létat.",
+      "tts_text": "The bird can fly."
+    },
+    {
+      "word": "owl",
+      "translation_cz": "sova",
+      "example": "The owl sleeps in the day.",
+      "example_cz": "Sova spí přes den.",
+      "tts_text": "The owl sleeps in the day."
+    },
+    {
+      "word": "parrot",
+      "translation_cz": "papoušek",
+      "example": "The parrot can talk.",
+      "example_cz": "Papoušek umí mluvit.",
+      "tts_text": "The parrot can talk."
+    },
+    {
+      "word": "eagle",
+      "translation_cz": "orel",
+      "example": "The eagle flies very high.",
+      "example_cz": "Orel létá velmi vysoko.",
+      "tts_text": "The eagle flies very high."
+    },
+    {
+      "word": "penguin",
+      "translation_cz": "tučňák",
+      "example": "The penguin cannot fly.",
+      "example_cz": "Tučňák neumí létat.",
+      "tts_text": "The penguin cannot fly."
+    },
+    {
+      "word": "nest",
+      "translation_cz": "hnízdo",
+      "example": "The bird built a nest.",
+      "example_cz": "Pták postavil hnízdo.",
+      "tts_text": "The bird built a nest."
+    },
+    {
+      "word": "wing",
+      "translation_cz": "křídlo",
+      "example": "The bird has two wings.",
+      "example_cz": "Pták má dvě křídla.",
+      "tts_text": "The bird has two wings."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "penguin",
+      "options": [
+        "tučňák",
+        "sova",
+        "orel"
+      ],
+      "correct": "tučňák"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ can talk.",
+      "answer": "parrot",
+      "hint_cz": "papoušek"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "owl",
+          "cz": "sova"
+        },
+        {
+          "target": "eagle",
+          "cz": "orel"
+        },
+        {
+          "target": "nest",
+          "cz": "hnízdo"
+        },
+        {
+          "target": "wing",
+          "cz": "křídlo"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The penguin cannot fly.",
+      "tts_text": "The penguin cannot fly."
+    }
+  ]
+}

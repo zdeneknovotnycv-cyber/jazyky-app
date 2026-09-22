@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_transport_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Trains",
+  "title_cz": "Vlaky",
+  "vocabulary": [
+    {
+      "word": "train",
+      "translation_cz": "vlak",
+      "example": "The train is very long.",
+      "example_cz": "Vlak je velmi dlouhý.",
+      "tts_text": "The train is very long."
+    },
+    {
+      "word": "train station",
+      "translation_cz": "nádraží",
+      "example": "We meet at the train station.",
+      "example_cz": "Setkáváme se na nádraží.",
+      "tts_text": "We meet at the train station."
+    },
+    {
+      "word": "platform",
+      "translation_cz": "nástupiště",
+      "example": "The train waits at platform two.",
+      "example_cz": "Vlak čeká na nástupišti dva.",
+      "tts_text": "The train waits at platform two."
+    },
+    {
+      "word": "track",
+      "translation_cz": "kolej",
+      "example": "The train runs on a track.",
+      "example_cz": "Vlak jede po koleji.",
+      "tts_text": "The train runs on a track."
+    },
+    {
+      "word": "conductor",
+      "translation_cz": "průvodčí",
+      "example": "The conductor checks the tickets.",
+      "example_cz": "Průvodčí kontroluje jízdenky.",
+      "tts_text": "The conductor checks the tickets."
+    },
+    {
+      "word": "window seat",
+      "translation_cz": "místo u okna",
+      "example": "I love a window seat on the train.",
+      "example_cz": "Mám moc rád místo u okna ve vlaku.",
+      "tts_text": "I love a window seat on the train."
+    },
+    {
+      "word": "fast train",
+      "translation_cz": "rychlík",
+      "example": "The fast train goes to the city.",
+      "example_cz": "Rychlík jede do města.",
+      "tts_text": "The fast train goes to the city."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "train",
+      "options": [
+        "vlak",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "vlak"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is very long.",
+      "answer": "train",
+      "hint_cz": "vlak"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "train station",
+          "cz": "nádraží"
+        },
+        {
+          "target": "platform",
+          "cz": "nástupiště"
+        },
+        {
+          "target": "track",
+          "cz": "kolej"
+        },
+        {
+          "target": "conductor",
+          "cz": "průvodčí"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I love a window seat on the train.",
+      "tts_text": "I love a window seat on the train."
+    }
+  ]
+}

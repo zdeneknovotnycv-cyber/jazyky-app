@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_family_people_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Age and Birthdays",
+  "title_cz": "Věk a narozeniny",
+  "vocabulary": [
+    {
+      "word": "Wie alt bist du?",
+      "translation_cz": "Kolik je ti let?",
+      "example": "Wie alt bist du? Ich bin acht.",
+      "example_cz": "Kolik je ti let? Je mi osm.",
+      "tts_text": "Wie alt bist du? Ich bin acht."
+    },
+    {
+      "word": "Jahre alt",
+      "translation_cz": "let (roků)",
+      "example": "Ich bin acht Jahre alt.",
+      "example_cz": "Je mi osm let.",
+      "tts_text": "Ich bin acht Jahre alt."
+    },
+    {
+      "word": "der Geburtstag",
+      "translation_cz": "narozeniny",
+      "example": "Mein Geburtstag ist im Mai.",
+      "example_cz": "Moje narozeniny jsou v květnu.",
+      "tts_text": "Mein Geburtstag ist im Mai."
+    },
+    {
+      "word": "die Torte",
+      "translation_cz": "dort",
+      "example": "Wir haben eine große Torte.",
+      "example_cz": "Máme velký dort.",
+      "tts_text": "Wir haben eine große Torte."
+    },
+    {
+      "word": "die Kerzen",
+      "translation_cz": "svíčky",
+      "example": "Ich puste die Kerzen aus.",
+      "example_cz": "Sfoukávám svíčky.",
+      "tts_text": "Ich puste die Kerzen aus."
+    },
+    {
+      "word": "das Geschenk",
+      "translation_cz": "dárek",
+      "example": "Ich habe ein schönes Geschenk bekommen.",
+      "example_cz": "Dostal jsem pěkný dárek.",
+      "tts_text": "Ich habe ein schönes Geschenk bekommen."
+    },
+    {
+      "word": "feiern",
+      "translation_cz": "slavit",
+      "example": "Wir feiern jedes Jahr.",
+      "example_cz": "Slavíme každý rok.",
+      "tts_text": "Wir feiern jedes Jahr."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Geburtstag",
+      "options": [
+        "narozeniny",
+        "svíčky",
+        "dort"
+      ],
+      "correct": "narozeniny"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bin acht ___ alt.",
+      "answer": "Jahre",
+      "hint_cz": "let"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Torte",
+          "cz": "dort"
+        },
+        {
+          "target": "die Kerzen",
+          "cz": "svíčky"
+        },
+        {
+          "target": "das Geschenk",
+          "cz": "dárek"
+        },
+        {
+          "target": "feiern",
+          "cz": "slavit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Mein Geburtstag ist im Mai.",
+      "tts_text": "Mein Geburtstag ist im Mai."
+    }
+  ]
+}

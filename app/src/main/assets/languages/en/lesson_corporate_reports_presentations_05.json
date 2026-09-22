@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_reports_presentations_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Structuring a Report",
+  "title_cz": "Struktura zprávy",
+  "vocabulary": [
+    {
+      "word": "introduction",
+      "translation_cz": "úvod",
+      "example": "The introduction explains the purpose of the report.",
+      "example_cz": "Úvod vysvětluje účel zprávy.",
+      "tts_text": "The introduction explains the purpose of the report."
+    },
+    {
+      "word": "section",
+      "translation_cz": "sekce",
+      "example": "This section covers the market analysis.",
+      "example_cz": "Tato sekce pokrývá analýzu trhu.",
+      "tts_text": "This section covers the market analysis."
+    },
+    {
+      "word": "appendix",
+      "translation_cz": "příloha",
+      "example": "You can find the raw data in the appendix.",
+      "example_cz": "Surová data naleznete v příloze.",
+      "tts_text": "You can find the raw data in the appendix."
+    },
+    {
+      "word": "body",
+      "translation_cz": "hlavní část",
+      "example": "The body of the report contains the detailed analysis.",
+      "example_cz": "Hlavní část zprávy obsahuje podrobnou analýzu.",
+      "tts_text": "The body of the report contains the detailed analysis."
+    },
+    {
+      "word": "headline",
+      "translation_cz": "nadpis",
+      "example": "Each section has a clear headline.",
+      "example_cz": "Každá sekce má jasný nadpis.",
+      "tts_text": "Each section has a clear headline."
+    },
+    {
+      "word": "bullet point",
+      "translation_cz": "odrážka",
+      "example": "I organized the key facts into bullet points.",
+      "example_cz": "Klíčová fakta jsem uspořádal do odrážek.",
+      "tts_text": "I organized the key facts into bullet points."
+    },
+    {
+      "word": "logical order",
+      "translation_cz": "logický pořádek",
+      "example": "Keep the information in a logical order.",
+      "example_cz": "Udržujte informace v logickém pořádku.",
+      "tts_text": "Keep the information in a logical order."
+    },
+    {
+      "word": "template",
+      "translation_cz": "šablona",
+      "example": "We use a standard template for all reports.",
+      "example_cz": "Pro všechny zprávy používáme standardní šablonu.",
+      "tts_text": "We use a standard template for all reports."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_report_structure",
+      "title": "Discussing report structure",
+      "title_cz": "Diskuze o struktuře zprávy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "How should we structure this report?",
+          "text_cz": "Jak bychom měli tuto zprávu strukturovat?"
+        },
+        {
+          "speaker": "B",
+          "text": "Start with an introduction, then the body with the detailed analysis.",
+          "text_cz": "Začněte úvodem, pak hlavní část s podrobnou analýzou."
+        },
+        {
+          "speaker": "A",
+          "text": "And the raw data goes in the appendix?",
+          "text_cz": "A surová data patří do přílohy?"
+        },
+        {
+          "speaker": "B",
+          "text": "Exactly, and use our standard template to keep it in a logical order.",
+          "text_cz": "Přesně tak, a použijte naši standardní šablonu, aby to bylo v logickém pořádku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "introduction",
+      "options": [
+        "úvod",
+        "příloha",
+        "hlavní část"
+      ],
+      "correct": "úvod"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This ___ covers the market analysis.",
+      "answer": "section",
+      "hint_cz": "sekce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Each section has a clear ___.",
+      "answer": "headline",
+      "hint_cz": "nadpis"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bullet point",
+          "cz": "odrážka"
+        },
+        {
+          "target": "logical order",
+          "cz": "logický pořádek"
+        },
+        {
+          "target": "template",
+          "cz": "šablona"
+        },
+        {
+          "target": "appendix",
+          "cz": "příloha"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "How should we structure this report?",
+      "tts_text": "How should we structure this report?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Start with an introduction, then the body with the detailed analysis.",
+      "tts_text": "Start with an introduction, then the body with the detailed analysis."
+    }
+  ]
+}

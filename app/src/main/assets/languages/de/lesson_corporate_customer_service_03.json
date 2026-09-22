@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_customer_service_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Sich bei einem Kunden entschuldigen",
+  "title_cz": "Omluva zákazníkovi",
+  "vocabulary": [
+    {
+      "word": "Ich entschuldige mich aufrichtig",
+      "translation_cz": "Upřímně se omlouvám",
+      "example": "Ich entschuldige mich aufrichtig für den Fehler.",
+      "example_cz": "Upřímně se omlouvám za chybu.",
+      "tts_text": "Ich entschuldige mich aufrichtig für den Fehler."
+    },
+    {
+      "word": "Das wird nicht wieder vorkommen",
+      "translation_cz": "Už se to nebude opakovat",
+      "example": "Ich verspreche, das wird nicht wieder vorkommen.",
+      "example_cz": "Slibuji, že se to už nebude opakovat.",
+      "tts_text": "Ich verspreche, das wird nicht wieder vorkommen."
+    },
+    {
+      "word": "im Namen des Unternehmens",
+      "translation_cz": "jménem společnosti",
+      "example": "Im Namen des Unternehmens entschuldige ich mich.",
+      "example_cz": "Jménem společnosti se omlouvám.",
+      "tts_text": "Im Namen des Unternehmens entschuldige ich mich."
+    },
+    {
+      "word": "die Verantwortung übernehmen",
+      "translation_cz": "převzít odpovědnost",
+      "example": "Wir übernehmen die volle Verantwortung für den Fehler.",
+      "example_cz": "Přebíráme plnou odpovědnost za chybu.",
+      "tts_text": "Wir übernehmen die volle Verantwortung für den Fehler."
+    },
+    {
+      "word": "Fehler",
+      "translation_cz": "chyba, omyl",
+      "example": "Das war unser Fehler, nicht Ihrer.",
+      "example_cz": "Byla to naše chyba, ne vaše.",
+      "tts_text": "Das war unser Fehler, nicht Ihrer."
+    },
+    {
+      "word": "wiedergutmachen",
+      "translation_cz": "napravit to",
+      "example": "Lassen Sie uns das für Sie wiedergutmachen.",
+      "example_cz": "Dovolte nám to pro vás napravit.",
+      "tts_text": "Lassen Sie uns das für Sie wiedergutmachen."
+    },
+    {
+      "word": "danke für Ihre Geduld",
+      "translation_cz": "děkuji za trpělivost",
+      "example": "Danke für Ihre Geduld mit diesem Problem.",
+      "example_cz": "Děkuji za vaši trpělivost s tímto problémem.",
+      "tts_text": "Danke für Ihre Geduld mit diesem Problem."
+    },
+    {
+      "word": "Mangel",
+      "translation_cz": "nedostatek",
+      "example": "Wir haben einen Mangel in unserem Service bemerkt.",
+      "example_cz": "Všimli jsme si nedostatku v naší službě.",
+      "tts_text": "Wir haben einen Mangel in unserem Service bemerkt."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_03",
+      "title": "Sich für einen Fehler in einer Bestellung entschuldigen",
+      "title_cz": "Omluva za chybu v objednávce",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich entschuldige mich aufrichtig, wir haben Ihnen den falschen Artikel geschickt.",
+          "text_cz": "Upřímně se omlouvám, poslali jsme vám špatný produkt."
+        },
+        {
+          "speaker": "B",
+          "text": "Das ist ärgerlich, aber danke, dass Sie mir Bescheid geben.",
+          "text_cz": "To je nepříjemné, ale díky, že jste mi to řekli."
+        },
+        {
+          "speaker": "A",
+          "text": "Wir übernehmen die volle Verantwortung. Wir machen das wieder gut und schicken heute den richtigen Artikel.",
+          "text_cz": "Přebíráme plnou odpovědnost. Napravíme to a dnes vám pošleme správný produkt."
+        },
+        {
+          "speaker": "B",
+          "text": "Das weiß ich zu schätzen. Danke für Ihre Geduld.",
+          "text_cz": "To oceňuji. Děkuji za vaši trpělivost."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Das wird nicht wieder vorkommen",
+      "options": [
+        "Už se to nebude opakovat",
+        "Chyba, omyl",
+        "Napravit to"
+      ],
+      "correct": "Už se to nebude opakovat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir übernehmen die volle ___ für den Fehler.",
+      "answer": "Verantwortung",
+      "hint_cz": "odpovědnost"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Fehler",
+          "cz": "chyba, omyl"
+        },
+        {
+          "target": "wiedergutmachen",
+          "cz": "napravit to"
+        },
+        {
+          "target": "Mangel",
+          "cz": "nedostatek"
+        },
+        {
+          "target": "im Namen des Unternehmens",
+          "cz": "jménem společnosti"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich entschuldige mich aufrichtig für den Fehler.",
+      "tts_text": "Ich entschuldige mich aufrichtig für den Fehler."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lassen Sie uns das für Sie ___.",
+      "answer": "wiedergutmachen",
+      "hint_cz": "napravit"
+    }
+  ]
+}

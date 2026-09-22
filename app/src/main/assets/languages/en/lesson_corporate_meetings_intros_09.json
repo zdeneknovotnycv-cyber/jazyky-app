@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_meetings_intros_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Follow-up after a meeting",
+  "title_cz": "Následná komunikace po schůzce",
+  "vocabulary": [
+    {
+      "word": "follow up",
+      "translation_cz": "navázat / kontaktovat znovu",
+      "example": "I'm following up on our meeting yesterday.",
+      "example_cz": "Navazuji na naši včerejší schůzku."
+    },
+    {
+      "word": "as discussed",
+      "translation_cz": "jak jsme probírali",
+      "example": "As discussed, I'm attaching the report.",
+      "example_cz": "Jak jsme probírali, přikládám report."
+    },
+    {
+      "word": "confirm",
+      "translation_cz": "potvrdit",
+      "example": "Please confirm the next steps.",
+      "example_cz": "Potvrďte prosím další kroky.",
+      "tts_text": "Please confirm the next steps."
+    },
+    {
+      "word": "outstanding items",
+      "translation_cz": "otevřené body",
+      "example": "There are a few outstanding items to close.",
+      "example_cz": "Zbývá uzavřít několik otevřených bodů.",
+      "tts_text": "There are a few outstanding items to close."
+    },
+    {
+      "word": "send a summary",
+      "translation_cz": "poslat shrnutí",
+      "example": "I'll send a summary of our discussion.",
+      "example_cz": "Pošlu shrnutí naší diskuze.",
+      "tts_text": "I'll send a summary of our discussion."
+    },
+    {
+      "word": "timeline",
+      "translation_cz": "časový plán",
+      "example": "What's the timeline for this task?",
+      "example_cz": "Jaký je časový plán pro tento úkol?",
+      "tts_text": "What's the timeline for this task?"
+    },
+    {
+      "word": "appreciate",
+      "translation_cz": "ocenit",
+      "example": "I appreciate your input on this matter.",
+      "example_cz": "Vážím si vašeho vstupu v této věci.",
+      "tts_text": "I appreciate your input on this matter."
+    },
+    {
+      "word": "touch base",
+      "translation_cz": "ozvat se / spojit se",
+      "example": "Let's touch base again next week.",
+      "example_cz": "Ozvěme si příští týden znovu.",
+      "tts_text": "Let's touch base again next week."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_followup",
+      "title": "Sending a follow-up email",
+      "title_cz": "Odeslání navazujícího e-mailu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi Tomas, I'm following up on our meeting yesterday.",
+          "text_cz": "Ahoj Tomáši, navazuji na naši včerejší schůzku."
+        },
+        {
+          "speaker": "A",
+          "text": "As discussed, I'm attaching the report and a summary of next steps.",
+          "text_cz": "Jak jsme probírali, přikládám report a shrnutí dalších kroků."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you. Can you also confirm the timeline for the outstanding items?",
+          "text_cz": "Děkuji. Můžeš také potvrdit časový plán pro otevřené body?"
+        },
+        {
+          "speaker": "A",
+          "text": "Sure, let's touch base again on Friday.",
+          "text_cz": "Jasně, ozvěme si znovu v pátek."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "confirm",
+      "options": [
+        "potvrdit",
+        "ocenit",
+        "navázat"
+      ],
+      "correct": "potvrdit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "As ___, I'm attaching the report.",
+      "answer": "discussed",
+      "hint_cz": "probíráno"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "outstanding items",
+          "cz": "otevřené body"
+        },
+        {
+          "target": "timeline",
+          "cz": "časový plán"
+        },
+        {
+          "target": "touch base",
+          "cz": "ozvat se"
+        },
+        {
+          "target": "appreciate",
+          "cz": "ocenit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'm following up on our meeting yesterday.",
+      "tts_text": "I'm following up on our meeting yesterday."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's touch ___ again next week.",
+      "answer": "base",
+      "hint_cz": "ozvat se"
+    }
+  ]
+}

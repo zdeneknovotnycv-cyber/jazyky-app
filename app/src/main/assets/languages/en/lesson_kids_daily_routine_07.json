@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_daily_routine_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Dinner time with family",
+  "title_cz": "Večeře s rodinou",
+  "vocabulary": [
+    {
+      "word": "dinner",
+      "translation_cz": "večeře",
+      "example": "We eat dinner at six o'clock.",
+      "example_cz": "Večeříme v šest hodin.",
+      "tts_text": "We eat dinner at six o'clock."
+    },
+    {
+      "word": "plate",
+      "translation_cz": "talíř",
+      "example": "I put food on my plate.",
+      "example_cz": "Dávám si jídlo na talíř.",
+      "tts_text": "I put food on my plate."
+    },
+    {
+      "word": "soup",
+      "translation_cz": "polévka",
+      "example": "Grandma makes tasty soup.",
+      "example_cz": "Babička vaří chutnou polévku.",
+      "tts_text": "Grandma makes tasty soup."
+    },
+    {
+      "word": "fork",
+      "translation_cz": "vidlička",
+      "example": "I eat with a fork and a knife.",
+      "example_cz": "Jím vidličkou a nožem.",
+      "tts_text": "I eat with a fork and a knife."
+    },
+    {
+      "word": "family",
+      "translation_cz": "rodina",
+      "example": "My whole family sits together.",
+      "example_cz": "Celá naše rodina sedí spolu.",
+      "tts_text": "My whole family sits together."
+    },
+    {
+      "word": "delicious",
+      "translation_cz": "výborný, chutný",
+      "example": "The dinner is delicious tonight.",
+      "example_cz": "Dnešní večeře je výborná.",
+      "tts_text": "The dinner is delicious tonight."
+    },
+    {
+      "word": "talk",
+      "translation_cz": "povídat si",
+      "example": "We talk about our day.",
+      "example_cz": "Povídáme si o svém dni.",
+      "tts_text": "We talk about our day."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "dinner",
+      "options": [
+        "večeře",
+        "talíř",
+        "polévka"
+      ],
+      "correct": "večeře"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I put food on my ___.",
+      "answer": "plate",
+      "hint_cz": "talíř"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "soup",
+          "cz": "polévka"
+        },
+        {
+          "target": "fork",
+          "cz": "vidlička"
+        },
+        {
+          "target": "family",
+          "cz": "rodina"
+        },
+        {
+          "target": "delicious",
+          "cz": "výborný, chutný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We talk about our day.",
+      "tts_text": "We talk about our day."
+    }
+  ]
+}

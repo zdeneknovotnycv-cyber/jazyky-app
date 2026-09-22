@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_feelings_emotions_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Scared and brave",
+  "title_cz": "Vyděšený a statečný",
+  "vocabulary": [
+    {
+      "word": "scared",
+      "translation_cz": "vyděšený",
+      "example": "I am scared of the dark.",
+      "example_cz": "Bojím se tmy.",
+      "tts_text": "I am scared of the dark."
+    },
+    {
+      "word": "brave",
+      "translation_cz": "statečný",
+      "example": "You were very brave at the doctor.",
+      "example_cz": "Byl jsi u lékaře moc statečný.",
+      "tts_text": "You were very brave at the doctor."
+    },
+    {
+      "word": "afraid",
+      "translation_cz": "bát se",
+      "example": "Don't be afraid, I am here.",
+      "example_cz": "Neboj se, jsem tady.",
+      "tts_text": "Don't be afraid, I am here."
+    },
+    {
+      "word": "monster",
+      "translation_cz": "příšera",
+      "example": "There is no monster under the bed.",
+      "example_cz": "Pod postelí žádná příšera není.",
+      "tts_text": "There is no monster under the bed."
+    },
+    {
+      "word": "safe",
+      "translation_cz": "bezpečný",
+      "example": "You are safe with me.",
+      "example_cz": "U mě jsi v bezpečí.",
+      "tts_text": "You are safe with me."
+    },
+    {
+      "word": "courage",
+      "translation_cz": "odvaha",
+      "example": "It takes courage to try something new.",
+      "example_cz": "Zkusit něco nového vyžaduje odvahu.",
+      "tts_text": "It takes courage to try something new."
+    },
+    {
+      "word": "shaking",
+      "translation_cz": "třást se",
+      "example": "My hands are shaking a little.",
+      "example_cz": "Trochu se mi třesou ruce.",
+      "tts_text": "My hands are shaking a little."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "scared",
+      "options": [
+        "vyděšený",
+        "smutný",
+        "radost"
+      ],
+      "correct": "vyděšený"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You were very ___ at the doctor.",
+      "answer": "brave",
+      "hint_cz": "statečný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "brave",
+          "cz": "statečný"
+        },
+        {
+          "target": "afraid",
+          "cz": "bát se"
+        },
+        {
+          "target": "monster",
+          "cz": "příšera"
+        },
+        {
+          "target": "safe",
+          "cz": "bezpečný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "You were very brave at the doctor.",
+      "tts_text": "You were very brave at the doctor."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_body_health_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Sleep and Bedtime",
+  "title_cz": "Spánek a večerka",
+  "vocabulary": [
+    {
+      "word": "sleep",
+      "translation_cz": "spát",
+      "example": "I sleep eight hours.",
+      "example_cz": "Spím osm hodin.",
+      "tts_text": "I sleep eight hours."
+    },
+    {
+      "word": "bed",
+      "translation_cz": "postel",
+      "example": "I go to my bed.",
+      "example_cz": "Jdu do své postele.",
+      "tts_text": "I go to my bed."
+    },
+    {
+      "word": "pajamas",
+      "translation_cz": "pyžamo",
+      "example": "I put on my pajamas.",
+      "example_cz": "Oblékám si pyžamo.",
+      "tts_text": "I put on my pajamas."
+    },
+    {
+      "word": "goodnight",
+      "translation_cz": "dobrou noc",
+      "example": "Mom says goodnight.",
+      "example_cz": "Maminka říká dobrou noc.",
+      "tts_text": "Mom says goodnight."
+    },
+    {
+      "word": "dream",
+      "translation_cz": "sen",
+      "example": "I had a nice dream.",
+      "example_cz": "Měl jsem pěkný sen.",
+      "tts_text": "I had a nice dream."
+    },
+    {
+      "word": "teddy bear",
+      "translation_cz": "medvídek",
+      "example": "I sleep with my teddy bear.",
+      "example_cz": "Spím se svým medvídkem.",
+      "tts_text": "I sleep with my teddy bear."
+    },
+    {
+      "word": "bedtime story",
+      "translation_cz": "pohádka na dobrou noc",
+      "example": "Dad reads a bedtime story.",
+      "example_cz": "Tatínek čte pohádku na dobrou noc.",
+      "tts_text": "Dad reads a bedtime story."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sleep",
+      "options": [
+        "spát",
+        "jíst",
+        "hrát"
+      ],
+      "correct": "spát"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I put on my ___.",
+      "answer": "pajamas",
+      "hint_cz": "pyžamo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bed",
+          "cz": "postel"
+        },
+        {
+          "target": "dream",
+          "cz": "sen"
+        },
+        {
+          "target": "teddy bear",
+          "cz": "medvídek"
+        },
+        {
+          "target": "bedtime story",
+          "cz": "pohádka na dobrou noc"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I sleep eight hours.",
+      "tts_text": "I sleep eight hours."
+    }
+  ]
+}

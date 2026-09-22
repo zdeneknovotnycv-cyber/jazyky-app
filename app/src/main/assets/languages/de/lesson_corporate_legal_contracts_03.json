@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_legal_contracts_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Allgemeine Geschäftsbedingungen",
+  "title_cz": "Obchodní podmínky",
+  "vocabulary": [
+    {
+      "word": "die Allgemeinen Geschäftsbedingungen",
+      "translation_cz": "obchodní podmínky",
+      "example": "Bitte lesen Sie die Allgemeinen Geschäftsbedingungen.",
+      "example_cz": "Prosím přečtěte si obchodní podmínky.",
+      "tts_text": "Bitte lesen Sie die Allgemeinen Geschäftsbedingungen."
+    },
+    {
+      "word": "die Bedingungen akzeptieren",
+      "translation_cz": "přijmout podmínky",
+      "example": "Sie müssen die Bedingungen akzeptieren, um fortzufahren.",
+      "example_cz": "Musíte přijmout podmínky, abyste mohli pokračovat.",
+      "tts_text": "Sie müssen die Bedingungen akzeptieren, um fortzufahren."
+    },
+    {
+      "word": "die Haftung",
+      "translation_cz": "odpovědnost / ručení",
+      "example": "Unsere Haftung ist in diesem Abschnitt begrenzt.",
+      "example_cz": "Naše odpovědnost je v této části omezena.",
+      "tts_text": "Unsere Haftung ist in diesem Abschnitt begrenzt."
+    },
+    {
+      "word": "die Stornobedingungen",
+      "translation_cz": "storno podmínky",
+      "example": "Wie lauten die Stornobedingungen?",
+      "example_cz": "Jaké jsou storno podmínky?",
+      "tts_text": "Wie lauten die Stornobedingungen?"
+    },
+    {
+      "word": "die Rückerstattung",
+      "translation_cz": "vrácení peněz",
+      "example": "Sie haben innerhalb von 14 Tagen Anspruch auf Rückerstattung.",
+      "example_cz": "Máte nárok na vrácení peněz do 14 dnů.",
+      "tts_text": "Sie haben innerhalb von 14 Tagen Anspruch auf Rückerstattung."
+    },
+    {
+      "word": "das anwendbare Recht",
+      "translation_cz": "rozhodné právo",
+      "example": "Das anwendbare Recht ist tschechisches Recht.",
+      "example_cz": "Rozhodným právem je české právo.",
+      "tts_text": "Das anwendbare Recht ist tschechisches Recht."
+    },
+    {
+      "word": "das Kleingedruckte",
+      "translation_cz": "malé písmo / detaily",
+      "example": "Prüfen Sie immer das Kleingedruckte.",
+      "example_cz": "Vždy si zkontrolujte drobné písmo.",
+      "tts_text": "Prüfen Sie immer das Kleingedruckte."
+    },
+    {
+      "word": "gültig",
+      "translation_cz": "platný / uplatnitelný",
+      "example": "Diese Klausel ist für alle Kunden gültig.",
+      "example_cz": "Tato doložka platí pro všechny klienty.",
+      "tts_text": "Diese Klausel ist für alle Kunden gültig."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_03",
+      "title": "Allgemeine Geschäftsbedingungen",
+      "title_cz": "Obchodní podmínky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Haben Sie die Allgemeinen Geschäftsbedingungen sorgfältig gelesen?",
+          "text_cz": "Přečetl jste si pečlivě obchodní podmínky?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, besonders die Stornobedingungen und die Regeln zur Rückerstattung.",
+          "text_cz": "Ano, zejména storno podmínky a pravidla pro vrácení peněz."
+        },
+        {
+          "speaker": "A",
+          "text": "Gut. Vergessen Sie nicht, das Kleingedruckte zur Haftung zu prüfen.",
+          "text_cz": "Dobře. Nezapomeňte zkontrolovat drobné písmo ohledně odpovědnosti."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich habe bemerkt, dass das anwendbare Recht tschechisches Recht ist.",
+          "text_cz": "Všiml jsem si, že rozhodným právem je české právo."
+        },
+        {
+          "speaker": "A",
+          "text": "Richtig, es ist für alle unsere Verträge gültig.",
+          "text_cz": "Přesně tak, platí to pro všechny naše smlouvy."
+        },
+        {
+          "speaker": "B",
+          "text": "Also gut, ich akzeptiere jetzt die Bedingungen.",
+          "text_cz": "Dobře, teď podmínky přijmu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Allgemeinen Geschäftsbedingungen",
+      "options": [
+        "obchodní podmínky",
+        "přijmout podmínky",
+        "odpovědnost / ručení"
+      ],
+      "correct": "obchodní podmínky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wie lauten ___?",
+      "answer": "die Stornobedingungen",
+      "hint_cz": "storno podmínky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Allgemeinen Geschäftsbedingungen",
+          "cz": "obchodní podmínky"
+        },
+        {
+          "target": "die Bedingungen akzeptieren",
+          "cz": "přijmout podmínky"
+        },
+        {
+          "target": "die Haftung",
+          "cz": "odpovědnost / ručení"
+        },
+        {
+          "target": "die Stornobedingungen",
+          "cz": "storno podmínky"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sie haben innerhalb von 14 Tagen Anspruch auf Rückerstattung.",
+      "tts_text": "Sie haben innerhalb von 14 Tagen Anspruch auf Rückerstattung."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das anwendbare Recht ist tschechisches ___",
+      "answer": "Recht",
+      "hint_cz": "rozhodné právo"
+    }
+  ]
+}

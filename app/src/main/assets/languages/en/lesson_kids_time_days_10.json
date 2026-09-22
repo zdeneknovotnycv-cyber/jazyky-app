@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_time_days_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Clocks and Watches",
+  "title_cz": "Hodiny a hodinky",
+  "vocabulary": [
+    {
+      "word": "clock",
+      "translation_cz": "hodiny (na zdi)",
+      "example": "The clock is on the wall.",
+      "example_cz": "Hodiny visí na zdi.",
+      "tts_text": "The clock is on the wall."
+    },
+    {
+      "word": "watch",
+      "translation_cz": "hodinky",
+      "example": "I wear a watch on my wrist.",
+      "example_cz": "Nosím hodinky na zápěstí.",
+      "tts_text": "I wear a watch on my wrist."
+    },
+    {
+      "word": "hour hand",
+      "translation_cz": "hodinová ručička",
+      "example": "The hour hand is short.",
+      "example_cz": "Hodinová ručička je krátká.",
+      "tts_text": "The hour hand is short."
+    },
+    {
+      "word": "minute hand",
+      "translation_cz": "minutová ručička",
+      "example": "The minute hand is long.",
+      "example_cz": "Minutová ručička je dlouhá.",
+      "tts_text": "The minute hand is long."
+    },
+    {
+      "word": "alarm clock",
+      "translation_cz": "budík",
+      "example": "My alarm clock rings at seven.",
+      "example_cz": "Můj budík zvoní v sedm.",
+      "tts_text": "My alarm clock rings at seven."
+    },
+    {
+      "word": "tick-tock",
+      "translation_cz": "tik-tak",
+      "example": "The clock goes tick-tock.",
+      "example_cz": "Hodiny dělají tik-tak.",
+      "tts_text": "The clock goes tick-tock."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "watch",
+      "options": [
+        "hodinky",
+        "budík",
+        "hodiny"
+      ],
+      "correct": "hodinky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My ___ rings at seven.",
+      "answer": "alarm clock",
+      "hint_cz": "budík"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "clock",
+          "cz": "hodiny (na zdi)"
+        },
+        {
+          "target": "hour hand",
+          "cz": "hodinová ručička"
+        },
+        {
+          "target": "minute hand",
+          "cz": "minutová ručička"
+        },
+        {
+          "target": "tick-tock",
+          "cz": "tik-tak"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I wear a watch on my wrist.",
+      "tts_text": "I wear a watch on my wrist."
+    }
+  ]
+}

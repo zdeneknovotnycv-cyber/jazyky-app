@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_nature_outdoors_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Flüsse und Seen",
+  "title_cz": "Řeky a jezera",
+  "vocabulary": [
+    {
+      "word": "der Fluss",
+      "translation_cz": "řeka",
+      "example": "Der Fluss fließt durch die Stadt.",
+      "example_cz": "Řeka protéká městem.",
+      "tts_text": "Der Fluss fließt durch die Stadt."
+    },
+    {
+      "word": "der See",
+      "translation_cz": "jezero",
+      "example": "Wir schwimmen im See.",
+      "example_cz": "Plaveme v jezeře.",
+      "tts_text": "Wir schwimmen im See."
+    },
+    {
+      "word": "die Brücke",
+      "translation_cz": "most",
+      "example": "Wir gehen über die Brücke über den Fluss.",
+      "example_cz": "Přecházíme most přes řeku.",
+      "tts_text": "Wir gehen über die Brücke über den Fluss."
+    },
+    {
+      "word": "der Fisch",
+      "translation_cz": "ryba",
+      "example": "Ein Fisch schwimmt im Fluss.",
+      "example_cz": "V řece plave ryba.",
+      "tts_text": "Ein Fisch schwimmt im Fluss."
+    },
+    {
+      "word": "die Bootsfahrt",
+      "translation_cz": "projížďka na lodi",
+      "example": "Wir machen eine Bootsfahrt auf dem See.",
+      "example_cz": "Vydáme se na projížďku lodí po jezeře.",
+      "tts_text": "Wir machen eine Bootsfahrt auf dem See."
+    },
+    {
+      "word": "der Frosch",
+      "translation_cz": "žába",
+      "example": "Ein Frosch springt in den See.",
+      "example_cz": "Žába skáče do jezera.",
+      "tts_text": "Ein Frosch springt in den See."
+    },
+    {
+      "word": "das klare Wasser",
+      "translation_cz": "čirá voda",
+      "example": "Der See hat klares Wasser.",
+      "example_cz": "Jezero má čirou vodu.",
+      "tts_text": "Der See hat klares Wasser."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Fluss",
+      "options": [
+        "řeka",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "řeka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der ___ fließt durch die Stadt.",
+      "answer": "der Fluss",
+      "hint_cz": "řeka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der See",
+          "cz": "jezero"
+        },
+        {
+          "target": "die Brücke",
+          "cz": "most"
+        },
+        {
+          "target": "der Fisch",
+          "cz": "ryba"
+        },
+        {
+          "target": "die Bootsfahrt",
+          "cz": "projížďka na lodi"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir schwimmen im See.",
+      "tts_text": "Wir schwimmen im See."
+    }
+  ]
+}

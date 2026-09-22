@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_sports_hobbies_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Reading Books",
+  "title_cz": "Čtení knížek",
+  "vocabulary": [
+    {
+      "word": "book",
+      "translation_cz": "kniha",
+      "example": "I am reading a new book.",
+      "example_cz": "Čtu novou knihu.",
+      "tts_text": "I am reading a new book."
+    },
+    {
+      "word": "story",
+      "translation_cz": "příběh",
+      "example": "This story is exciting.",
+      "example_cz": "Tento příběh je vzrušující.",
+      "tts_text": "This story is exciting."
+    },
+    {
+      "word": "page",
+      "translation_cz": "stránka",
+      "example": "I am on page ten.",
+      "example_cz": "Jsem na desáté stránce.",
+      "tts_text": "I am on page ten."
+    },
+    {
+      "word": "read",
+      "translation_cz": "číst",
+      "example": "I read before bed.",
+      "example_cz": "Čtu si před spaním.",
+      "tts_text": "I read before bed."
+    },
+    {
+      "word": "library",
+      "translation_cz": "knihovna",
+      "example": "We visit the library every week.",
+      "example_cz": "Do knihovny chodíme každý týden.",
+      "tts_text": "We visit the library every week."
+    },
+    {
+      "word": "character",
+      "translation_cz": "postava (v příběhu)",
+      "example": "My favorite character is a dragon.",
+      "example_cz": "Moje oblíbená postava je drak.",
+      "tts_text": "My favorite character is a dragon."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "book",
+      "options": [
+        "kniha",
+        "stránka",
+        "příběh"
+      ],
+      "correct": "kniha"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ before bed.",
+      "answer": "read",
+      "hint_cz": "čtu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "story",
+          "cz": "příběh"
+        },
+        {
+          "target": "page",
+          "cz": "stránka"
+        },
+        {
+          "target": "library",
+          "cz": "knihovna"
+        },
+        {
+          "target": "character",
+          "cz": "postava (v příběhu)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I am reading a new book.",
+      "tts_text": "I am reading a new book."
+    }
+  ]
+}

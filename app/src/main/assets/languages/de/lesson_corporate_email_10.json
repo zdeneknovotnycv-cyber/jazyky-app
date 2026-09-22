@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_email_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Grundlagen der E-Mail-Etikette",
+  "title_cz": "Základy e-mailové etikety",
+  "vocabulary": [
+    {
+      "word": "der professionelle Ton",
+      "translation_cz": "profesionální tón",
+      "example": "Behalten Sie in E-Mails immer einen professionellen Ton bei.",
+      "example_cz": "Vždy udržujte v e-mailech profesionální tón.",
+      "tts_text": "Behalten Sie in E-Mails immer einen professionellen Ton bei."
+    },
+    {
+      "word": "Korrektur lesen",
+      "translation_cz": "zkontrolovat text",
+      "example": "Lesen Sie vor dem Senden immer Korrektur.",
+      "example_cz": "Před odesláním vždy zkontrolujte text.",
+      "tts_text": "Lesen Sie vor dem Senden immer Korrektur."
+    },
+    {
+      "word": "allen antworten",
+      "translation_cz": "odpovědět všem",
+      "example": "Verwenden Sie 'allen antworten' nur wenn nötig.",
+      "example_cz": "Používejte 'odpovědět všem' jen když je to nutné.",
+      "tts_text": "Verwenden Sie 'allen antworten' nur wenn nötig."
+    },
+    {
+      "word": "Großbuchstaben vermeiden",
+      "translation_cz": "vyhýbat se velkým písmenům",
+      "example": "Vermeiden Sie das Schreiben in Großbuchstaben.",
+      "example_cz": "Vyhýbejte se psaní celého textu velkými písmeny.",
+      "tts_text": "Vermeiden Sie das Schreiben in Großbuchstaben."
+    },
+    {
+      "word": "die Anrede",
+      "translation_cz": "pozdrav / oslovení",
+      "example": "Beginnen Sie jede E-Mail mit einer passenden Anrede.",
+      "example_cz": "Každý e-mail začněte vhodným oslovením.",
+      "tts_text": "Beginnen Sie jede E-Mail mit einer passenden Anrede."
+    },
+    {
+      "word": "die Antwortzeit",
+      "translation_cz": "doba odezvy",
+      "example": "Versuchen Sie, eine angemessene Antwortzeit einzuhalten.",
+      "example_cz": "Snažte se udržovat přiměřenou dobu odezvy.",
+      "tts_text": "Versuchen Sie, eine angemessene Antwortzeit einzuhalten."
+    },
+    {
+      "word": "die Signatur",
+      "translation_cz": "podpis",
+      "example": "Vergessen Sie nicht Ihre E-Mail-Signatur.",
+      "example_cz": "Nezapomeňte na svůj e-mailový podpis.",
+      "tts_text": "Vergessen Sie nicht Ihre E-Mail-Signatur."
+    },
+    {
+      "word": "der Tonfall",
+      "translation_cz": "tón vyjadřování",
+      "example": "Achten Sie auf den Tonfall in schriftlichen Nachrichten.",
+      "example_cz": "Dávejte pozor na tón vyjadřování v písemných zprávách.",
+      "tts_text": "Achten Sie auf den Tonfall in schriftlichen Nachrichten."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_etiquette",
+      "title": "Einem jungen Kollegen E-Mail-Etikette erklären",
+      "title_cz": "Rady mladšímu kolegovi ohledně e-mailové etikety",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Bevor du diese E-Mail sendest, lies sie immer erst Korrektur.",
+          "text_cz": "Než ten e-mail odešleš, vždy si ho nejdřív zkontroluj."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay. Soll ich bei dieser Nachricht 'allen antworten' verwenden?",
+          "text_cz": "Dobře. Mám na tuto zprávu odpovědět všem?"
+        },
+        {
+          "speaker": "A",
+          "text": "Nein, verwende 'allen antworten' nur wenn nötig. Und vermeide Großbuchstaben, das wirkt wie Schreien.",
+          "text_cz": "Ne, používej 'odpovědět všem' jen když je to nutné. A vyhýbej se velkým písmenům, vypadá to jako křičení."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden. Ich behalte auch einen professionellen Ton bei und füge meine Signatur hinzu.",
+          "text_cz": "Rozumím. Udržím také profesionální tón a přidám svůj podpis."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Korrektur lesen",
+      "options": [
+        "zkontrolovat text",
+        "podpis",
+        "oslovení"
+      ],
+      "correct": "zkontrolovat text"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Verwenden Sie 'allen ___' nur wenn nötig.",
+      "answer": "antworten",
+      "hint_cz": "odpovědět"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Signatur",
+          "cz": "podpis"
+        },
+        {
+          "target": "die Anrede",
+          "cz": "pozdrav / oslovení"
+        },
+        {
+          "target": "die Antwortzeit",
+          "cz": "doba odezvy"
+        },
+        {
+          "target": "der Tonfall",
+          "cz": "tón vyjadřování"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Behalten Sie in E-Mails immer einen professionellen Ton bei.",
+      "tts_text": "Behalten Sie in E-Mails immer einen professionellen Ton bei."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Vermeiden Sie das Schreiben in ___.",
+      "answer": "Großbuchstaben",
+      "hint_cz": "velkými písmeny"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Vergessen Sie nicht Ihre E-Mail-Signatur.",
+      "tts_text": "Vergessen Sie nicht Ihre E-Mail-Signatur."
+    }
+  ]
+}

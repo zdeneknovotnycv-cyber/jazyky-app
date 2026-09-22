@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_daily_routine_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Abendritual vor dem Schlafen",
+  "title_cz": "Rituál před spaním",
+  "vocabulary": [
+    {
+      "word": "die Schlafenszeit",
+      "translation_cz": "čas jít spát",
+      "example": "Die Schlafenszeit ist um acht Uhr.",
+      "example_cz": "Čas jít spát je v osm hodin.",
+      "tts_text": "Die Schlafenszeit ist um acht Uhr."
+    },
+    {
+      "word": "der Schlafanzug",
+      "translation_cz": "pyžamo",
+      "example": "Ich ziehe meinen Schlafanzug an.",
+      "example_cz": "Oblékám si pyžamo.",
+      "tts_text": "Ich ziehe meinen Schlafanzug an."
+    },
+    {
+      "word": "Zähne putzen",
+      "translation_cz": "vyčistit si zuby",
+      "example": "Ich putze mir vor dem Schlafen die Zähne.",
+      "example_cz": "Před spaním si čistím zuby.",
+      "tts_text": "Ich putze mir vor dem Schlafen die Zähne."
+    },
+    {
+      "word": "die Geschichte",
+      "translation_cz": "pohádka",
+      "example": "Mama liest mir eine Geschichte vor.",
+      "example_cz": "Máma mi čte pohádku.",
+      "tts_text": "Mama liest mir eine Geschichte vor."
+    },
+    {
+      "word": "gute Nacht",
+      "translation_cz": "dobrou noc",
+      "example": "Ich sage meinen Eltern gute Nacht.",
+      "example_cz": "Přeju rodičům dobrou noc.",
+      "tts_text": "Ich sage meinen Eltern gute Nacht."
+    },
+    {
+      "word": "die Decke",
+      "translation_cz": "deka",
+      "example": "Ich ziehe die Decke über mich.",
+      "example_cz": "Přetahuju si přes sebe deku.",
+      "tts_text": "Ich ziehe die Decke über mich."
+    },
+    {
+      "word": "schlafen",
+      "translation_cz": "spát",
+      "example": "Ich schlafe die ganze Nacht.",
+      "example_cz": "Spím celou noc.",
+      "tts_text": "Ich schlafe die ganze Nacht."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Schlafenszeit",
+      "options": [
+        "čas jít spát",
+        "pyžamo",
+        "vyčistit si zuby"
+      ],
+      "correct": "čas jít spát"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ziehe meinen ___ an.",
+      "answer": "Schlafanzug",
+      "hint_cz": "pyžamo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Zähne putzen",
+          "cz": "vyčistit si zuby"
+        },
+        {
+          "target": "die Geschichte",
+          "cz": "pohádka"
+        },
+        {
+          "target": "gute Nacht",
+          "cz": "dobrou noc"
+        },
+        {
+          "target": "die Decke",
+          "cz": "deka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich schlafe die ganze Nacht.",
+      "tts_text": "Ich schlafe die ganze Nacht."
+    }
+  ]
+}

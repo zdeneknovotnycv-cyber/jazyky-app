@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_school_classroom_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "School Trips",
+  "title_cz": "Školní výlety",
+  "vocabulary": [
+    {
+      "word": "school trip",
+      "translation_cz": "školní výlet",
+      "example": "We have a school trip tomorrow.",
+      "example_cz": "Zítra máme školní výlet.",
+      "tts_text": "We have a school trip tomorrow."
+    },
+    {
+      "word": "bus",
+      "translation_cz": "autobus",
+      "example": "We travel by bus.",
+      "example_cz": "Cestujeme autobusem.",
+      "tts_text": "We travel by bus."
+    },
+    {
+      "word": "museum",
+      "translation_cz": "muzeum",
+      "example": "We visit a museum.",
+      "example_cz": "Navštívíme muzeum.",
+      "tts_text": "We visit a museum."
+    },
+    {
+      "word": "guide",
+      "translation_cz": "průvodce",
+      "example": "The guide shows us around.",
+      "example_cz": "Průvodce nás provede.",
+      "tts_text": "The guide shows us around."
+    },
+    {
+      "word": "map",
+      "translation_cz": "mapa",
+      "example": "I hold the map.",
+      "example_cz": "Držím mapu.",
+      "tts_text": "I hold the map."
+    },
+    {
+      "word": "excited",
+      "translation_cz": "nadšený",
+      "example": "I am excited about the trip.",
+      "example_cz": "Jsem nadšený z výletu.",
+      "tts_text": "I am excited about the trip."
+    },
+    {
+      "word": "picnic",
+      "translation_cz": "piknik",
+      "example": "We have a picnic in the park.",
+      "example_cz": "Máme piknik v parku.",
+      "tts_text": "We have a picnic in the park."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "museum",
+      "options": [
+        "muzeum",
+        "autobus",
+        "mapa"
+      ],
+      "correct": "muzeum"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We travel by ___.",
+      "answer": "bus",
+      "hint_cz": "autobusem"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "school trip",
+          "cz": "školní výlet"
+        },
+        {
+          "target": "guide",
+          "cz": "průvodce"
+        },
+        {
+          "target": "map",
+          "cz": "mapa"
+        },
+        {
+          "target": "picnic",
+          "cz": "piknik"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I am excited about the trip.",
+      "tts_text": "I am excited about the trip."
+    }
+  ]
+}

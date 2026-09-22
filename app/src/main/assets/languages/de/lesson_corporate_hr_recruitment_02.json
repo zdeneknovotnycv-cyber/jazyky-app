@@ -1,0 +1,50 @@
+{
+  "id": "de_corporate_hr_recruitment_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über die eigene Erfahrung sprechen",
+  "title_cz": "Popis vlastních zkušeností",
+  "vocabulary": [
+    {"word": "die Erfahrung", "translation_cz": "zkušenost", "example": "Ich habe fünf Jahre Erfahrung im Vertrieb.", "example_cz": "Mám pět let zkušeností v prodeji.", "tts_text": "Ich habe fünf Jahre Erfahrung im Vertrieb."},
+    {"word": "die Verantwortung", "translation_cz": "odpovědnost", "example": "Meine Hauptverantwortung war die Leitung des Teams.", "example_cz": "Mou hlavní odpovědností bylo vedení týmu.", "tts_text": "Meine Hauptverantwortung war die Leitung des Teams."},
+    {"word": "der Erfolg", "translation_cz": "úspěch (pracovní)", "example": "Mein größter Erfolg war eine Umsatzsteigerung um 20 Prozent.", "example_cz": "Mým největším úspěchem bylo zvýšení prodeje o 20 procent.", "tts_text": "Mein größter Erfolg war eine Umsatzsteigerung um 20 Prozent."},
+    {"word": "der vorherige Arbeitgeber", "translation_cz": "předchozí zaměstnavatel", "example": "Bei meinem vorherigen Arbeitgeber habe ich im Finanzbereich gearbeitet.", "example_cz": "U předchozího zaměstnavatele jsem pracoval ve financích.", "tts_text": "Bei meinem vorherigen Arbeitgeber habe ich im Finanzbereich gearbeitet."},
+    {"word": "die Fähigkeiten", "translation_cz": "soubor dovedností", "example": "Zu meinen Fähigkeiten gehören Projektmanagement und Analyse.", "example_cz": "Mezi mé dovednosti patří projektové řízení a analýza.", "tts_text": "Zu meinen Fähigkeiten gehören Projektmanagement und Analyse."},
+    {"word": "die Beförderung", "translation_cz": "povýšení", "example": "Nach zwei Jahren habe ich eine Beförderung bekommen.", "example_cz": "Po dvou letech jsem dostal povýšení.", "tts_text": "Nach zwei Jahren habe ich eine Beförderung bekommen."},
+    {"word": "der Werdegang", "translation_cz": "profesní zázemí", "example": "Ich habe einen technischen Werdegang.", "example_cz": "Mám technické vzdělání a zázemí.", "tts_text": "Ich habe einen technischen Werdegang."},
+    {"word": "der Karriereweg", "translation_cz": "kariérní dráha", "example": "Mein Karriereweg führte mich vom Support ins Management.", "example_cz": "Moje kariérní dráha mě zavedla z podpory až k vedení.", "tts_text": "Mein Karriereweg führte mich vom Support ins Management."},
+    {"word": "ein Team leiten", "translation_cz": "vést tým", "example": "Ich habe ein Team von acht Personen geleitet.", "example_cz": "Vedl jsem tým osmi lidí.", "tts_text": "Ich habe ein Team von acht Personen geleitet."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_experience_summary",
+      "title": "Berufserfahrung zusammenfassen",
+      "title_cz": "Shrnutí pracovních zkušeností",
+      "lines": [
+        {"speaker": "A", "text": "Könnten Sie mir Ihre Erfahrung kurz zusammenfassen?", "text_cz": "Mohl byste mi shrnout své zkušenosti?"},
+        {"speaker": "B", "text": "Gerne. Ich habe drei Jahre im Kundenservice gearbeitet und bin dann in den Vertrieb gewechselt.", "text_cz": "Ráda. Tři roky jsem pracovala v zákaznickém servisu, poté jsem přešla do prodeje."},
+        {"speaker": "A", "text": "Was war dort Ihre Hauptverantwortung?", "text_cz": "Jaká tam byla vaše hlavní odpovědnost?"},
+        {"speaker": "B", "text": "Ich habe ein kleines Team geleitet und die wichtigsten Kunden betreut.", "text_cz": "Vedla jsem malý tým a měla jsem na starosti nejdůležitější klienty."}
+      ]
+    },
+    {
+      "id": "conv_achievements",
+      "title": "Über Erfolge sprechen",
+      "title_cz": "Rozhovor o úspěších",
+      "lines": [
+        {"speaker": "A", "text": "Was würden Sie als Ihren größten Erfolg bezeichnen?", "text_cz": "Co byste označila za svůj největší úspěch?"},
+        {"speaker": "B", "text": "Bei meinem vorherigen Arbeitgeber habe ich den Umsatz um zwanzig Prozent gesteigert.", "text_cz": "U předchozího zaměstnavatele jsem pomohla zvýšit prodej o dvacet procent."},
+        {"speaker": "A", "text": "Das ist beeindruckend. Hat das zu einer Beförderung geführt?", "text_cz": "To je působivé. Vedlo to k povýšení?"},
+        {"speaker": "B", "text": "Ja, im folgenden Jahr wurde ich zur Teamleiterin befördert.", "text_cz": "Ano, v následujícím roce jsem byla povýšena na vedoucí týmu."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "der Erfolg", "options": ["úspěch", "odpovědnost", "povýšení"], "correct": "úspěch"},
+    {"type": "fill_gap", "sentence": "Meine Haupt___ war die Leitung des Teams.", "answer": "verantwortung", "hint_cz": "odpovědnost"},
+    {"type": "match_pairs", "pairs": [{"target": "die Erfahrung", "cz": "zkušenost"}, {"target": "die Beförderung", "cz": "povýšení"}, {"target": "der Werdegang", "cz": "zázemí"}, {"target": "die Fähigkeiten", "cz": "dovednosti"}]},
+    {"type": "speak_and_check", "target_phrase": "Ich habe ein Team von acht Personen geleitet.", "tts_text": "Ich habe ein Team von acht Personen geleitet."},
+    {"type": "fill_gap", "sentence": "Nach zwei Jahren habe ich eine ___ bekommen.", "answer": "Beförderung", "hint_cz": "povýšení"}
+  ]
+}

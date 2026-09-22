@@ -1,0 +1,48 @@
+{
+  "id": "de_corporate_finance_budgets_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Grundlagen der Rechnungsstellung",
+  "title_cz": "Základy fakturace",
+  "vocabulary": [
+    {"word": "die Rechnung", "translation_cz": "faktura", "example": "Ich schicke die Rechnung heute per E-Mail.", "example_cz": "Dnes zašlu fakturu e-mailem.", "tts_text": "Ich schicke die Rechnung heute per E-Mail."},
+    {"word": "das Fälligkeitsdatum", "translation_cz": "datum splatnosti", "example": "Das Fälligkeitsdatum ist der fünfzehnte dieses Monats.", "example_cz": "Datum splatnosti je patnáctého tohoto měsíce.", "tts_text": "Das Fälligkeitsdatum ist der fünfzehnte dieses Monats."},
+    {"word": "die Rechnungsnummer", "translation_cz": "číslo faktury", "example": "Bitte geben Sie die Rechnungsnummer bei der Zahlung an.", "example_cz": "Uveďte prosím při platbě číslo faktury.", "tts_text": "Bitte geben Sie die Rechnungsnummer bei der Zahlung an."},
+    {"word": "der fällige Betrag", "translation_cz": "částka k úhradě", "example": "Der fällige Betrag beträgt tausend Euro.", "example_cz": "Částka k úhradě je tisíc eur.", "tts_text": "Der fällige Betrag beträgt tausend Euro."},
+    {"word": "die Mehrwertsteuer", "translation_cz": "DPH", "example": "Der Preis enthält bereits die Mehrwertsteuer.", "example_cz": "Cena již zahrnuje DPH.", "tts_text": "Der Preis enthält bereits die Mehrwertsteuer."},
+    {"word": "die Überweisung", "translation_cz": "bankovní převod", "example": "Bitte zahlen Sie per Überweisung.", "example_cz": "Zaplaťte prosím bankovním převodem.", "tts_text": "Bitte zahlen Sie per Überweisung."},
+    {"word": "die Rechnungsadresse", "translation_cz": "fakturační adresa", "example": "Können Sie Ihre Rechnungsadresse bestätigen?", "example_cz": "Můžete potvrdit svou fakturační adresu?", "tts_text": "Können Sie Ihre Rechnungsadresse bestätigen?"},
+    {"word": "eine Rechnung ausstellen", "translation_cz": "vystavit fakturu", "example": "Wir stellen die Rechnung aus, sobald die Leistung erbracht ist.", "example_cz": "Fakturu vystavíme, jakmile bude služba dokončena.", "tts_text": "Wir stellen die Rechnung aus, sobald die Leistung erbracht ist."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_invoice_request",
+      "title": "Um eine Rechnung bitten",
+      "title_cz": "Žádost o fakturu",
+      "lines": [
+        {"speaker": "A", "text": "Könnten Sie eine Rechnung für die letzte Lieferung ausstellen?", "text_cz": "Mohli byste vystavit fakturu za poslední dodávku?"},
+        {"speaker": "B", "text": "Klar, könnten Sie die Rechnungsadresse bestätigen?", "text_cz": "Jistě, mohl byste potvrdit fakturační adresu?"},
+        {"speaker": "A", "text": "Ja, sie ist dieselbe wie letztes Mal.", "text_cz": "Ano, je stejná jako minule."},
+        {"speaker": "B", "text": "Gut, ich schicke die Rechnung mit Fälligkeitsdatum innerhalb einer Stunde.", "text_cz": "Skvělé, do hodiny pošlu fakturu s datem splatnosti."}
+      ]
+    },
+    {
+      "id": "conv_payment_details",
+      "title": "Zahlungsdetails bestätigen",
+      "title_cz": "Potvrzení platebních údajů",
+      "lines": [
+        {"speaker": "A", "text": "Wie hoch ist der fällige Betrag inklusive Mehrwertsteuer?", "text_cz": "Jaká je částka k úhradě včetně DPH?"},
+        {"speaker": "B", "text": "Es sind tausendzweihundert Euro, zahlbar per Überweisung.", "text_cz": "Je to tisíc dvě stě eur, splatné bankovním převodem."},
+        {"speaker": "A", "text": "Bitte geben Sie die Rechnungsnummer als Zahlungsreferenz an.", "text_cz": "Uveďte prosím v platbě číslo faktury jako variabilní symbol."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "die Rechnung", "options": ["faktura", "částka", "adresa"], "correct": "faktura"},
+    {"type": "fill_gap", "sentence": "Das ___ ist der fünfzehnte dieses Monats.", "answer": "Fälligkeitsdatum", "hint_cz": "datum splatnosti"},
+    {"type": "match_pairs", "pairs": [{"target": "die Mehrwertsteuer", "cz": "DPH"}, {"target": "die Überweisung", "cz": "bankovní převod"}, {"target": "der fällige Betrag", "cz": "částka k úhradě"}, {"target": "die Rechnungsadresse", "cz": "fakturační adresa"}]},
+    {"type": "speak_and_check", "target_phrase": "Bitte zahlen Sie per Überweisung.", "tts_text": "Bitte zahlen Sie per Überweisung."},
+    {"type": "fill_gap", "sentence": "Bitte geben Sie die ___ bei der Zahlung an.", "answer": "Rechnungsnummer", "hint_cz": "číslo faktury"}
+  ]
+}

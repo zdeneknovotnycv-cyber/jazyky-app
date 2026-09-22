@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_food_drinks_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Breakfast Foods",
+  "title_cz": "Snídaně",
+  "vocabulary": [
+    {
+      "word": "das Frühstück",
+      "translation_cz": "snídaně",
+      "example": "Ich frühstücke um sieben Uhr.",
+      "example_cz": "Snídám v sedm hodin.",
+      "tts_text": "Ich frühstücke um sieben Uhr."
+    },
+    {
+      "word": "das Brot",
+      "translation_cz": "chléb",
+      "example": "Ich esse Brot mit Butter.",
+      "example_cz": "Jím chleba s máslem.",
+      "tts_text": "Ich esse Brot mit Butter."
+    },
+    {
+      "word": "das Ei",
+      "translation_cz": "vejce",
+      "example": "Ich mag ein gekochtes Ei.",
+      "example_cz": "Mám rád vařené vejce.",
+      "tts_text": "Ich mag ein gekochtes Ei."
+    },
+    {
+      "word": "die Milch",
+      "translation_cz": "mléko",
+      "example": "Ich trinke ein Glas Milch.",
+      "example_cz": "Piju sklenici mléka.",
+      "tts_text": "Ich trinke ein Glas Milch."
+    },
+    {
+      "word": "die Cornflakes",
+      "translation_cz": "cereálie",
+      "example": "Ich esse Cornflakes mit Milch.",
+      "example_cz": "Jím cereálie s mlékem.",
+      "tts_text": "Ich esse Cornflakes mit Milch."
+    },
+    {
+      "word": "die Marmelade",
+      "translation_cz": "džem",
+      "example": "Ich streiche Marmelade auf mein Brot.",
+      "example_cz": "Dávám si džem na chleba.",
+      "tts_text": "Ich streiche Marmelade auf mein Brot."
+    },
+    {
+      "word": "die Butter",
+      "translation_cz": "máslo",
+      "example": "Die Butter ist auf dem Tisch.",
+      "example_cz": "Máslo je na stole.",
+      "tts_text": "Die Butter ist auf dem Tisch."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Frühstück",
+      "options": [
+        "snídaně",
+        "oběd",
+        "večeře"
+      ],
+      "correct": "snídaně"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich trinke ein Glas ___.",
+      "answer": "Milch",
+      "hint_cz": "mléko"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Brot",
+          "cz": "chléb"
+        },
+        {
+          "target": "das Ei",
+          "cz": "vejce"
+        },
+        {
+          "target": "die Cornflakes",
+          "cz": "cereálie"
+        },
+        {
+          "target": "die Marmelade",
+          "cz": "džem"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich frühstücke um sieben Uhr.",
+      "tts_text": "Ich frühstücke um sieben Uhr."
+    }
+  ]
+}

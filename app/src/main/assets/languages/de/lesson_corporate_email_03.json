@@ -1,0 +1,138 @@
+{
+  "id": "de_adult_corporate_email_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Per E-Mail um Informationen bitten",
+  "title_cz": "Žádost o informace e-mailem",
+  "vocabulary": [
+    {
+      "word": "könnten Sie mir bitte senden",
+      "translation_cz": "mohli byste mi prosím poslat",
+      "example": "Könnten Sie mir bitte die Preisliste senden?",
+      "example_cz": "Mohli byste mi prosím poslat ceník?",
+      "tts_text": "Könnten Sie mir bitte die Preisliste senden?"
+    },
+    {
+      "word": "ich möchte wissen",
+      "translation_cz": "rád bych věděl",
+      "example": "Ich möchte die Lieferzeit wissen.",
+      "example_cz": "Rád bych věděl dodací lhůtu.",
+      "tts_text": "Ich möchte die Lieferzeit wissen."
+    },
+    {
+      "word": "die Details",
+      "translation_cz": "podrobnosti",
+      "example": "Könnten Sie mehr Details zum Produkt geben?",
+      "example_cz": "Mohli byste poskytnout více podrobností o produktu?",
+      "tts_text": "Könnten Sie mehr Details zum Produkt geben?"
+    },
+    {
+      "word": "so bald wie möglich",
+      "translation_cz": "co nejdříve to bude možné",
+      "example": "Bitte antworten Sie so bald wie möglich.",
+      "example_cz": "Odpovězte prosím, jakmile to bude možné.",
+      "tts_text": "Bitte antworten Sie so bald wie möglich."
+    },
+    {
+      "word": "präzisieren",
+      "translation_cz": "upřesnit",
+      "example": "Könnten Sie das genaue Datum präzisieren?",
+      "example_cz": "Mohli byste upřesnit přesné datum?",
+      "tts_text": "Könnten Sie das genaue Datum präzisieren?"
+    },
+    {
+      "word": "die Anfrage",
+      "translation_cz": "dotaz",
+      "example": "Ich habe eine Anfrage zu Ihren Dienstleistungen.",
+      "example_cz": "Mám dotaz ohledně vašich služeb.",
+      "tts_text": "Ich habe eine Anfrage zu Ihren Dienstleistungen."
+    },
+    {
+      "word": "die Verfügbarkeit",
+      "translation_cz": "dostupnost",
+      "example": "Können Sie die Verfügbarkeit des Raums bestätigen?",
+      "example_cz": "Můžete potvrdit dostupnost místnosti?",
+      "tts_text": "Können Sie die Verfügbarkeit des Raums bestätigen?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_request_info",
+      "title": "Produktinformationen anfragen",
+      "title_cz": "Žádost o informace o produktu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich habe eine Anfrage zu Ihren Dienstleistungen. Könnten Sie mir bitte die Preisliste senden?",
+          "text_cz": "Mám dotaz ohledně vašich služeb. Mohli byste mi prosím poslat ceník?"
+        },
+        {
+          "speaker": "B",
+          "text": "Natürlich. Könnten Sie präzisieren, an welchem Paket Sie interessiert sind?",
+          "text_cz": "Samozřejmě. Mohli byste upřesnit, o který balíček máte zájem?"
+        },
+        {
+          "speaker": "A",
+          "text": "Am Premium-Paket. Ich möchte auch die Lieferzeit wissen.",
+          "text_cz": "O prémiový balíček. Rád bych také věděl dodací lhůtu."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich sende Ihnen alle Details so bald wie möglich.",
+          "text_cz": "Zašlu vám veškeré podrobnosti co nejdříve to bude možné."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Anfrage",
+      "options": [
+        "dotaz",
+        "dostupnost",
+        "podrobnosti"
+      ],
+      "correct": "dotaz"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Könnten Sie mir bitte die Preisliste ___?",
+      "answer": "senden",
+      "hint_cz": "poslat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Details",
+          "cz": "podrobnosti"
+        },
+        {
+          "target": "präzisieren",
+          "cz": "upřesnit"
+        },
+        {
+          "target": "die Verfügbarkeit",
+          "cz": "dostupnost"
+        },
+        {
+          "target": "so bald wie möglich",
+          "cz": "co nejdříve to bude možné"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich möchte die Lieferzeit wissen.",
+      "tts_text": "Ich möchte die Lieferzeit wissen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Können Sie die ___ des Raums bestätigen?",
+      "answer": "Verfügbarkeit",
+      "hint_cz": "dostupnost"
+    }
+  ]
+}

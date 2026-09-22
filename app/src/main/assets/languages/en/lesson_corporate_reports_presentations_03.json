@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_reports_presentations_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Summarizing a Report",
+  "title_cz": "Shrnutí zprávy",
+  "vocabulary": [
+    {
+      "word": "in summary",
+      "translation_cz": "shrnuto",
+      "example": "In summary, the project is progressing well.",
+      "example_cz": "Shrnuto, projekt postupuje dobře.",
+      "tts_text": "In summary, the project is progressing well."
+    },
+    {
+      "word": "key finding",
+      "translation_cz": "klíčové zjištění",
+      "example": "The key finding is a rise in customer satisfaction.",
+      "example_cz": "Klíčovým zjištěním je nárůst spokojenosti zákazníků.",
+      "tts_text": "The key finding is a rise in customer satisfaction."
+    },
+    {
+      "word": "overview",
+      "translation_cz": "přehled",
+      "example": "Let me give you a quick overview.",
+      "example_cz": "Dovolte mi podat rychlý přehled.",
+      "tts_text": "Let me give you a quick overview."
+    },
+    {
+      "word": "conclusion",
+      "translation_cz": "závěr",
+      "example": "The conclusion of the report is positive.",
+      "example_cz": "Závěr zprávy je pozitivní.",
+      "tts_text": "The conclusion of the report is positive."
+    },
+    {
+      "word": "recommendation",
+      "translation_cz": "doporučení",
+      "example": "Our recommendation is to increase the budget.",
+      "example_cz": "Naším doporučením je navýšit rozpočet.",
+      "tts_text": "Our recommendation is to increase the budget."
+    },
+    {
+      "word": "in short",
+      "translation_cz": "krátce řečeno",
+      "example": "In short, we met all our targets.",
+      "example_cz": "Krátce řečeno, splnili jsme všechny cíle.",
+      "tts_text": "In short, we met all our targets."
+    },
+    {
+      "word": "main point",
+      "translation_cz": "hlavní bod",
+      "example": "The main point is that costs went down.",
+      "example_cz": "Hlavním bodem je, že náklady klesly.",
+      "tts_text": "The main point is that costs went down."
+    },
+    {
+      "word": "to conclude",
+      "translation_cz": "na závěr",
+      "example": "To conclude, thank you for your attention.",
+      "example_cz": "Na závěr, děkuji za pozornost.",
+      "tts_text": "To conclude, thank you for your attention."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_summary_report",
+      "title": "Summarizing key findings",
+      "title_cz": "Shrnutí klíčových zjištění",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Let me give you a quick overview of the report.",
+          "text_cz": "Dovolte mi podat rychlý přehled zprávy."
+        },
+        {
+          "speaker": "B",
+          "text": "Please do, what's the key finding?",
+          "text_cz": "Prosím, jaké je klíčové zjištění?"
+        },
+        {
+          "speaker": "A",
+          "text": "The key finding is a rise in customer satisfaction. In summary, we met all our targets.",
+          "text_cz": "Klíčovým zjištěním je nárůst spokojenosti zákazníků. Shrnuto, splnili jsme všechny cíle."
+        },
+        {
+          "speaker": "B",
+          "text": "Great, and what's the recommendation?",
+          "text_cz": "Skvělé, a jaké je doporučení?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "in summary",
+      "options": [
+        "shrnuto",
+        "přehled",
+        "závěr"
+      ],
+      "correct": "shrnuto"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is a rise in customer satisfaction.",
+      "answer": "key finding",
+      "hint_cz": "klíčové zjištění"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Our ___ is to increase the budget.",
+      "answer": "recommendation",
+      "hint_cz": "doporučení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "in short",
+          "cz": "krátce řečeno"
+        },
+        {
+          "target": "main point",
+          "cz": "hlavní bod"
+        },
+        {
+          "target": "to conclude",
+          "cz": "na závěr"
+        },
+        {
+          "target": "overview",
+          "cz": "přehled"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let me give you a quick overview of the report.",
+      "tts_text": "Let me give you a quick overview of the report."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please do, what's the key finding?",
+      "tts_text": "Please do, what's the key finding?"
+    }
+  ]
+}

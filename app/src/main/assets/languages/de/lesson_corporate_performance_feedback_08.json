@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_performance_feedback_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Feedback unter Kollegen",
+  "title_cz": "Zpětná vazba od kolegů",
+  "vocabulary": [
+    {
+      "word": "das Kollegenfeedback",
+      "translation_cz": "zpětná vazba od kolegů",
+      "example": "Wir sammeln zweimal im Jahr Kollegenfeedback.",
+      "example_cz": "Zpětnou vazbu od kolegů sbíráme dvakrát ročně.",
+      "tts_text": "Wir sammeln zweimal im Jahr Kollegenfeedback."
+    },
+    {
+      "word": "gut zusammenarbeiten",
+      "translation_cz": "dobře spolupracovat",
+      "example": "Du arbeitest gut mit anderen Teams zusammen.",
+      "example_cz": "Dobře spolupracuješ s ostatními týmy.",
+      "tts_text": "Du arbeitest gut mit anderen Teams zusammen."
+    },
+    {
+      "word": "zuverlässig",
+      "translation_cz": "spolehlivý",
+      "example": "Er ist sehr zuverlässig, wenn die Fristen knapp sind.",
+      "example_cz": "Je velmi spolehlivý, když jsou termíny napjaté.",
+      "tts_text": "Er ist sehr zuverlässig, wenn die Fristen knapp sind."
+    },
+    {
+      "word": "könnte mehr kommunizieren",
+      "translation_cz": "mohl by více komunikovat",
+      "example": "Sie könnte mehr mit dem Designteam kommunizieren.",
+      "example_cz": "Mohla by více komunikovat s designovým týmem.",
+      "tts_text": "Sie könnte mehr mit dem Designteam kommunizieren."
+    },
+    {
+      "word": "die anonyme Umfrage",
+      "translation_cz": "anonymní dotazník",
+      "example": "Kollegenfeedback wird über eine anonyme Umfrage gesammelt.",
+      "example_cz": "Zpětná vazba od kolegů se sbírá přes anonymní dotazník.",
+      "tts_text": "Kollegenfeedback wird über eine anonyme Umfrage gesammelt."
+    },
+    {
+      "word": "der Teamplayer",
+      "translation_cz": "týmový hráč",
+      "example": "Du bist ein großartiger Teamplayer.",
+      "example_cz": "Jsi skvělý týmový hráč.",
+      "tts_text": "Du bist ein großartiger Teamplayer."
+    },
+    {
+      "word": "der respektvolle Ton",
+      "translation_cz": "uctivý tón",
+      "example": "Bitte behalte in deinen Kommentaren einen respektvollen Ton.",
+      "example_cz": "Prosím udržuj ve svých komentářích uctivý tón.",
+      "tts_text": "Bitte behalte in deinen Kommentaren einen respektvollen Ton."
+    },
+    {
+      "word": "ausgewogenes Feedback",
+      "translation_cz": "vyvážená zpětná vazba",
+      "example": "Versuch ausgewogenes Feedback zu geben, positiv und negativ.",
+      "example_cz": "Zkus dát vyváženou zpětnou vazbu, klady i zápory.",
+      "tts_text": "Versuch ausgewogenes Feedback zu geben, positiv und negativ."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_08",
+      "title": "Kollegenfeedback ausfüllen",
+      "title_cz": "Vyplňování zpětné vazby od kolegů",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Es ist Zeit, Kollegenfeedback für das Team auszufüllen.",
+          "text_cz": "Je čas vyplnit zpětnou vazbu od kolegů pro tým."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay, soll ich darüber schreiben, wie wir zusammenarbeiten?",
+          "text_cz": "Dobře, mám psát o tom, jak spolupracujeme?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, und versuch ausgewogenes Feedback zu geben, nicht nur Lob.",
+          "text_cz": "Ano, a zkus dát vyváženou zpětnou vazbu, ne jen chválu."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden, ich behalte durchgehend einen respektvollen Ton.",
+          "text_cz": "Rozumím, udržím po celou dobu uctivý tón."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Kollegenfeedback",
+      "options": [
+        "zpětná vazba od kolegů",
+        "dobře spolupracovat",
+        "spolehlivý"
+      ],
+      "correct": "zpětná vazba od kolegů"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Du arbeitest gut mit anderen Teams ___.",
+      "answer": "zusammen",
+      "hint_cz": "spolupracuješ"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Kollegenfeedback",
+          "cz": "zpětná vazba od kolegů"
+        },
+        {
+          "target": "gut zusammenarbeiten",
+          "cz": "dobře spolupracovat"
+        },
+        {
+          "target": "zuverlässig",
+          "cz": "spolehlivý"
+        },
+        {
+          "target": "könnte mehr kommunizieren",
+          "cz": "mohl by více komunikovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Du arbeitest gut mit anderen Teams zusammen.",
+      "tts_text": "Du arbeitest gut mit anderen Teams zusammen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte behalte einen ___ Ton in deinen Kommentaren.",
+      "answer": "respektvollen",
+      "hint_cz": "uctivý"
+    }
+  ]
+}

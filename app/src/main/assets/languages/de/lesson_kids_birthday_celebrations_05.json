@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_birthday_celebrations_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Halloween (einfach)",
+  "title_cz": "Halloween (jednoduše)",
+  "vocabulary": [
+    {
+      "word": "Halloween",
+      "translation_cz": "Halloween",
+      "example": "Wir verkleiden uns für Halloween.",
+      "example_cz": "Na Halloween se převlékáme.",
+      "tts_text": "Wir verkleiden uns für Halloween."
+    },
+    {
+      "word": "das Kostüm",
+      "translation_cz": "kostým",
+      "example": "Ich trage ein gruseliges Kostüm.",
+      "example_cz": "Mám na sobě strašidelný kostým.",
+      "tts_text": "Ich trage ein gruseliges Kostüm."
+    },
+    {
+      "word": "der Kürbis",
+      "translation_cz": "dýně",
+      "example": "Wir schnitzen einen Kürbis.",
+      "example_cz": "Vyřezáváme dýni.",
+      "tts_text": "Wir schnitzen einen Kürbis."
+    },
+    {
+      "word": "das Gespenst",
+      "translation_cz": "duch",
+      "example": "Ein Gespenst-Kostüm ist lustig.",
+      "example_cz": "Kostým ducha je vtipný.",
+      "tts_text": "Ein Gespenst-Kostüm ist lustig."
+    },
+    {
+      "word": "die Süßigkeit",
+      "translation_cz": "bonbon, sladkost",
+      "example": "Ich sammle Süßigkeiten in einer Tüte.",
+      "example_cz": "Sbírám bonbóny do sáčku.",
+      "tts_text": "Ich sammle Süßigkeiten in einer Tüte."
+    },
+    {
+      "word": "Süßes oder Saures",
+      "translation_cz": "trik, nebo pamlsek",
+      "example": "Wir sagen Süßes oder Saures an der Tür.",
+      "example_cz": "U dveří říkáme trik, nebo pamlsek.",
+      "tts_text": "Wir sagen Süßes oder Saures an der Tür."
+    },
+    {
+      "word": "dunkel",
+      "translation_cz": "tma",
+      "example": "Im Herbst wird es früh dunkel.",
+      "example_cz": "Na podzim se brzy stmívá.",
+      "tts_text": "Im Herbst wird es früh dunkel."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Halloween",
+      "options": [
+        "Halloween",
+        "kostým",
+        "dýně"
+      ],
+      "correct": "Halloween"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich trage ein gruseliges ___.",
+      "answer": "Kostüm",
+      "hint_cz": "kostým"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Kürbis",
+          "cz": "dýně"
+        },
+        {
+          "target": "das Gespenst",
+          "cz": "duch"
+        },
+        {
+          "target": "die Süßigkeit",
+          "cz": "bonbon, sladkost"
+        },
+        {
+          "target": "Süßes oder Saures",
+          "cz": "trik, nebo pamlsek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Im Herbst wird es früh dunkel.",
+      "tts_text": "Im Herbst wird es früh dunkel."
+    }
+  ]
+}

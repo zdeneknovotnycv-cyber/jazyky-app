@@ -1,0 +1,52 @@
+{
+  "id": "en_corporate_hr_recruitment_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Job Interview Questions",
+  "title_cz": "Otázky u pracovního pohovoru",
+  "vocabulary": [
+    {"word": "interview", "translation_cz": "pohovor", "example": "The interview is scheduled for Monday.", "example_cz": "Pohovor je naplánován na pondělí.", "tts_text": "The interview is scheduled for Monday."},
+    {"word": "candidate", "translation_cz": "uchazeč", "example": "We have three candidates for this position.", "example_cz": "Na tuto pozici máme tři uchazeče.", "tts_text": "We have three candidates for this position."},
+    {"word": "strengths", "translation_cz": "silné stránky", "example": "What are your strengths?", "example_cz": "Jaké jsou vaše silné stránky?", "tts_text": "What are your strengths?"},
+    {"word": "weaknesses", "translation_cz": "slabé stránky", "example": "Everyone has some weaknesses.", "example_cz": "Každý má nějaké slabé stránky.", "tts_text": "Everyone has some weaknesses."},
+    {"word": "qualifications", "translation_cz": "kvalifikace", "example": "Please list your qualifications.", "example_cz": "Uveďte prosím svou kvalifikaci.", "tts_text": "Please list your qualifications."},
+    {"word": "position", "translation_cz": "pozice", "example": "This position requires teamwork.", "example_cz": "Tato pozice vyžaduje týmovou práci.", "tts_text": "This position requires teamwork."},
+    {"word": "hire", "translation_cz": "přijmout (zaměstnat)", "example": "We plan to hire two developers.", "example_cz": "Plánujeme přijmout dva vývojáře.", "tts_text": "We plan to hire two developers."},
+    {"word": "resume", "translation_cz": "životopis", "example": "Please send us your resume.", "example_cz": "Zašlete nám prosím svůj životopis.", "tts_text": "Please send us your resume."},
+    {"word": "motivation", "translation_cz": "motivace", "example": "What is your motivation for this job?", "example_cz": "Jaká je vaše motivace pro tuto práci?", "tts_text": "What is your motivation for this job?"},
+    {"word": "team player", "translation_cz": "týmový hráč", "example": "I consider myself a good team player.", "example_cz": "Považuji se za dobrého týmového hráče.", "tts_text": "I consider myself a good team player."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_interview_basics",
+      "title": "A standard interview question",
+      "title_cz": "Standardní otázka na pohovoru",
+      "lines": [
+        {"speaker": "A", "text": "Thank you for coming. Can you tell me about yourself?", "text_cz": "Děkuji, že jste přišel. Můžete mi něco říct o sobě?"},
+        {"speaker": "B", "text": "Of course. I have five years of experience in marketing.", "text_cz": "Samozřejmě. Mám pět let zkušeností v marketingu."},
+        {"speaker": "A", "text": "What would you say are your main strengths?", "text_cz": "Co byste řekl, jsou vaše hlavní silné stránky?"},
+        {"speaker": "B", "text": "I'm organized and I work well under pressure.", "text_cz": "Jsem organizovaný a dobře zvládám práci pod tlakem."}
+      ]
+    },
+    {
+      "id": "conv_motivation_question",
+      "title": "Discussing motivation",
+      "title_cz": "Rozhovor o motivaci",
+      "lines": [
+        {"speaker": "A", "text": "Why do you want to work for our company?", "text_cz": "Proč chcete pracovat pro naši společnost?"},
+        {"speaker": "B", "text": "I admire your products and I want to grow as a professional.", "text_cz": "Obdivuji vaše produkty a chci se profesně rozvíjet."},
+        {"speaker": "A", "text": "That's good to hear. Do you have any questions for us?", "text_cz": "To rádi slyšíme. Máte nějaké otázky vy pro nás?"},
+        {"speaker": "B", "text": "Yes, what does a typical day look like in this position?", "text_cz": "Ano, jak vypadá typický pracovní den na této pozici?"}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "candidate", "options": ["uchazeč", "pozice", "životopis"], "correct": "uchazeč"},
+    {"type": "fill_gap", "sentence": "What are your main ___?", "answer": "strengths", "hint_cz": "silné stránky"},
+    {"type": "match_pairs", "pairs": [{"target": "interview", "cz": "pohovor"}, {"target": "resume", "cz": "životopis"}, {"target": "hire", "cz": "přijmout"}, {"target": "position", "cz": "pozice"}]},
+    {"type": "speak_and_check", "target_phrase": "I consider myself a good team player.", "tts_text": "I consider myself a good team player."},
+    {"type": "fill_gap", "sentence": "Please send us your ___.", "answer": "resume", "hint_cz": "životopis"},
+    {"type": "speak_and_check", "target_phrase": "What is your motivation for this job?", "tts_text": "What is your motivation for this job?"}
+  ]
+}

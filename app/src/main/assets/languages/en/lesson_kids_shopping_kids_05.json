@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_shopping_kids_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "At the ice cream shop",
+  "title_cz": "Ve zmrzlinárně",
+  "vocabulary": [
+    {
+      "word": "ice cream shop",
+      "translation_cz": "zmrzlinárna",
+      "example": "We go to the ice cream shop in summer.",
+      "example_cz": "V létě chodíme do zmrzlinárny.",
+      "tts_text": "We go to the ice cream shop in summer."
+    },
+    {
+      "word": "scoop",
+      "translation_cz": "kopeček",
+      "example": "I want two scoops of ice cream.",
+      "example_cz": "Chci dva kopečky zmrzliny.",
+      "tts_text": "I want two scoops of ice cream."
+    },
+    {
+      "word": "flavor",
+      "translation_cz": "příchuť",
+      "example": "My favorite flavor is chocolate.",
+      "example_cz": "Moje oblíbená příchuť je čokoládová.",
+      "tts_text": "My favorite flavor is chocolate."
+    },
+    {
+      "word": "cone",
+      "translation_cz": "kornoutek",
+      "example": "I hold my ice cream in a cone.",
+      "example_cz": "Zmrzlinu držím v kornoutku.",
+      "tts_text": "I hold my ice cream in a cone."
+    },
+    {
+      "word": "vanilla",
+      "translation_cz": "vanilkový",
+      "example": "She likes vanilla ice cream.",
+      "example_cz": "Má ráda vanilkovou zmrzlinu.",
+      "tts_text": "She likes vanilla ice cream."
+    },
+    {
+      "word": "melt",
+      "translation_cz": "roztát",
+      "example": "The ice cream starts to melt.",
+      "example_cz": "Zmrzlina začíná tát.",
+      "tts_text": "The ice cream starts to melt."
+    },
+    {
+      "word": "lick",
+      "translation_cz": "lízat",
+      "example": "I lick my ice cream slowly.",
+      "example_cz": "Pomalu lížu zmrzlinu.",
+      "tts_text": "I lick my ice cream slowly."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "ice cream shop",
+      "options": [
+        "zmrzlinárna",
+        "kopeček",
+        "příchuť"
+      ],
+      "correct": "zmrzlinárna"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I want two ___s of ice cream.",
+      "answer": "scoop",
+      "hint_cz": "kopeček"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "flavor",
+          "cz": "příchuť"
+        },
+        {
+          "target": "cone",
+          "cz": "kornoutek"
+        },
+        {
+          "target": "vanilla",
+          "cz": "vanilkový"
+        },
+        {
+          "target": "melt",
+          "cz": "roztát"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I lick my ice cream slowly.",
+      "tts_text": "I lick my ice cream slowly."
+    }
+  ]
+}

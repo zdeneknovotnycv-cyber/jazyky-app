@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_legal_contracts_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Gespräch über die Vertragsverlängerung",
+  "title_cz": "Jednání o obnovení smlouvy",
+  "vocabulary": [
+    {
+      "word": "den Vertrag verlängern",
+      "translation_cz": "obnovit smlouvu",
+      "example": "Möchten Sie den Vertrag verlängern?",
+      "example_cz": "Chtěli byste smlouvu obnovit?",
+      "tts_text": "Möchten Sie den Vertrag verlängern?"
+    },
+    {
+      "word": "ablaufen",
+      "translation_cz": "vypršet",
+      "example": "Der aktuelle Vertrag läuft nächsten Monat ab.",
+      "example_cz": "Současná smlouva vyprší příští měsíc.",
+      "tts_text": "Der aktuelle Vertrag läuft nächsten Monat ab."
+    },
+    {
+      "word": "die Verlängerungsbedingungen",
+      "translation_cz": "podmínky obnovení",
+      "example": "Lassen Sie uns über die Verlängerungsbedingungen sprechen.",
+      "example_cz": "Pojďme probrat podmínky obnovení.",
+      "tts_text": "Lassen Sie uns über die Verlängerungsbedingungen sprechen."
+    },
+    {
+      "word": "den Preis anpassen",
+      "translation_cz": "upravit cenu",
+      "example": "Wir möchten den Preis leicht anpassen.",
+      "example_cz": "Chtěli bychom mírně upravit cenu.",
+      "tts_text": "Wir möchten den Preis leicht anpassen."
+    },
+    {
+      "word": "die langfristige Partnerschaft",
+      "translation_cz": "dlouhodobé partnerství",
+      "example": "Wir schätzen diese langfristige Partnerschaft.",
+      "example_cz": "Vážíme si tohoto dlouhodobého partnerství.",
+      "tts_text": "Wir schätzen diese langfristige Partnerschaft."
+    },
+    {
+      "word": "die Kündigungsfrist",
+      "translation_cz": "výpovědní lhůta",
+      "example": "Die Kündigungsfrist beträgt 30 Tage.",
+      "example_cz": "Výpovědní lhůta je 30 dní.",
+      "tts_text": "Die Kündigungsfrist beträgt 30 Tage."
+    },
+    {
+      "word": "die Vereinbarung verlängern",
+      "translation_cz": "prodloužit dohodu",
+      "example": "Wir möchten die Vereinbarung um ein Jahr verlängern.",
+      "example_cz": "Chtěli bychom dohodu prodloužit o rok.",
+      "tts_text": "Wir möchten die Vereinbarung um ein Jahr verlängern."
+    },
+    {
+      "word": "die Bedingungen überprüfen",
+      "translation_cz": "zkontrolovat podmínky",
+      "example": "Lassen Sie uns die Bedingungen vor der Verlängerung überprüfen.",
+      "example_cz": "Pojďme před obnovením zkontrolovat podmínky.",
+      "tts_text": "Lassen Sie uns die Bedingungen vor der Verlängerung überprüfen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_10",
+      "title": "Die Vertragsverlängerung",
+      "title_cz": "Obnovení smlouvy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Unser Vertrag läuft nächsten Monat ab. Möchten Sie ihn verlängern?",
+          "text_cz": "Naše smlouva vyprší příští měsíc. Chtěli byste ji obnovit?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, wir schätzen diese langfristige Partnerschaft. Lassen Sie uns über die Verlängerungsbedingungen sprechen.",
+          "text_cz": "Ano, vážíme si tohoto dlouhodobého partnerství. Pojďme probrat podmínky obnovení."
+        },
+        {
+          "speaker": "A",
+          "text": "Wir möchten den Preis für nächstes Jahr leicht anpassen.",
+          "text_cz": "Chtěli bychom pro příští rok mírně upravit cenu."
+        },
+        {
+          "speaker": "B",
+          "text": "Das ist in Ordnung, lassen Sie uns die Bedingungen gemeinsam überprüfen.",
+          "text_cz": "To je v pořádku, pojďme si podmínky společně zkontrolovat."
+        },
+        {
+          "speaker": "A",
+          "text": "Außerdem, wie lautet die Kündigungsfrist, falls eine Seite aussteigen möchte?",
+          "text_cz": "A jaká je výpovědní lhůta, pokud by některá strana chtěla smlouvu ukončit?"
+        },
+        {
+          "speaker": "B",
+          "text": "30 Tage. Sollen wir die Vereinbarung um zwei Jahre verlängern?",
+          "text_cz": "30 dní. Máme dohodu prodloužit o dva roky?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "den Vertrag verlängern",
+      "options": [
+        "obnovit smlouvu",
+        "vypršet",
+        "podmínky obnovení"
+      ],
+      "correct": "obnovit smlouvu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir möchten den Preis leicht ___",
+      "answer": "anpassen",
+      "hint_cz": "upravit cenu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "den Vertrag verlängern",
+          "cz": "obnovit smlouvu"
+        },
+        {
+          "target": "ablaufen",
+          "cz": "vypršet"
+        },
+        {
+          "target": "die Verlängerungsbedingungen",
+          "cz": "podmínky obnovení"
+        },
+        {
+          "target": "den Preis anpassen",
+          "cz": "upravit cenu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir schätzen diese langfristige Partnerschaft.",
+      "tts_text": "Wir schätzen diese langfristige Partnerschaft."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Kündigungsfrist beträgt 30 ___",
+      "answer": "Tage",
+      "hint_cz": "výpovědní lhůta"
+    }
+  ]
+}

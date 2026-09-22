@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_imagination_stories_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "A magic forest",
+  "title_cz": "Kouzelný les",
+  "vocabulary": [
+    {
+      "word": "forest",
+      "translation_cz": "les",
+      "example": "I walk into a magic forest.",
+      "example_cz": "Vcházím do kouzelného lesa.",
+      "tts_text": "I walk into a magic forest."
+    },
+    {
+      "word": "magic",
+      "translation_cz": "kouzlo",
+      "example": "The trees have magic powers.",
+      "example_cz": "Stromy mají kouzelnou moc.",
+      "tts_text": "The trees have magic powers."
+    },
+    {
+      "word": "fairy",
+      "translation_cz": "víla",
+      "example": "A tiny fairy flies past me.",
+      "example_cz": "Kolem mě proletí malá víla.",
+      "tts_text": "A tiny fairy flies past me."
+    },
+    {
+      "word": "path",
+      "translation_cz": "cesta, stezka",
+      "example": "I follow a hidden path.",
+      "example_cz": "Sleduji skrytou stezku.",
+      "tts_text": "I follow a hidden path."
+    },
+    {
+      "word": "tree",
+      "translation_cz": "strom",
+      "example": "A talking tree greets me.",
+      "example_cz": "Zdraví mě mluvící strom.",
+      "tts_text": "A talking tree greets me."
+    },
+    {
+      "word": "secret",
+      "translation_cz": "tajemství",
+      "example": "The forest keeps a secret.",
+      "example_cz": "Les ukrývá tajemství.",
+      "tts_text": "The forest keeps a secret."
+    },
+    {
+      "word": "sparkle",
+      "translation_cz": "třpytit se",
+      "example": "Everything starts to sparkle.",
+      "example_cz": "Všechno se začíná třpytit.",
+      "tts_text": "Everything starts to sparkle."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "forest",
+      "options": [
+        "les",
+        "kouzlo",
+        "víla"
+      ],
+      "correct": "les"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The trees have ___ powers.",
+      "answer": "magic",
+      "hint_cz": "kouzlo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "fairy",
+          "cz": "víla"
+        },
+        {
+          "target": "path",
+          "cz": "cesta, stezka"
+        },
+        {
+          "target": "tree",
+          "cz": "strom"
+        },
+        {
+          "target": "secret",
+          "cz": "tajemství"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Everything starts to sparkle.",
+      "tts_text": "Everything starts to sparkle."
+    }
+  ]
+}

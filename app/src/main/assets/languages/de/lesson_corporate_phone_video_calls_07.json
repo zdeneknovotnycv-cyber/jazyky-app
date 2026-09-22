@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_phone_video_calls_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Anruf vereinbaren",
+  "title_cz": "Domluvení telefonního hovoru",
+  "vocabulary": [
+    {
+      "word": "Hätten Sie Zeit für einen Anruf?",
+      "translation_cz": "Měl byste čas na hovor?",
+      "example": "Hätten Sie morgen Zeit für einen Anruf?",
+      "example_cz": "Měl byste zítra čas na hovor?",
+      "tts_text": "Hätten Sie morgen Zeit für einen Anruf?"
+    },
+    {
+      "word": "Welche Uhrzeit passt Ihnen am besten?",
+      "translation_cz": "Jaký čas vám vyhovuje nejlépe?",
+      "example": "Welche Uhrzeit passt Ihnen am Donnerstag am besten?",
+      "example_cz": "Jaký čas vám ve čtvrtek vyhovuje nejlépe?",
+      "tts_text": "Welche Uhrzeit passt Ihnen am Donnerstag am besten?"
+    },
+    {
+      "word": "vereinbaren wir einen Anruf",
+      "translation_cz": "domluvme si hovor",
+      "example": "Vereinbaren wir einen Anruf, um die Details zu besprechen.",
+      "example_cz": "Domluvme si hovor, abychom probrali podrobnosti.",
+      "tts_text": "Vereinbaren wir einen Anruf, um die Details zu besprechen."
+    },
+    {
+      "word": "ich sende Ihnen eine Kalendereinladung",
+      "translation_cz": "pošlu vám pozvánku do kalendáře",
+      "example": "Ich sende Ihnen eine Kalendereinladung für fünfzehn Uhr.",
+      "example_cz": "Pošlu vám pozvánku do kalendáře na třetí hodinu.",
+      "tts_text": "Ich sende Ihnen eine Kalendereinladung für fünfzehn Uhr."
+    },
+    {
+      "word": "wie viel Zeit brauchen Sie?",
+      "translation_cz": "kolik času potřebujete?",
+      "example": "Wie viel Zeit brauchen Sie für den Anruf?",
+      "example_cz": "Kolik času potřebujete na ten hovor?",
+      "tts_text": "Wie viel Zeit brauchen Sie für den Anruf?"
+    },
+    {
+      "word": "das passt mir gut",
+      "translation_cz": "to mi vyhovuje",
+      "example": "Vierzehn Uhr, das passt mir gut.",
+      "example_cz": "Ve dvě hodiny, to mi vyhovuje.",
+      "tts_text": "Vierzehn Uhr, das passt mir gut."
+    },
+    {
+      "word": "sagen wir Montag?",
+      "translation_cz": "řekněme pondělí?",
+      "example": "Sagen wir Montag um zehn Uhr?",
+      "example_cz": "Řekněme pondělí v deset?",
+      "tts_text": "Sagen wir Montag um zehn Uhr?"
+    },
+    {
+      "word": "ich freue mich darauf, mit Ihnen zu sprechen",
+      "translation_cz": "těším se, až s vámi budu mluvit",
+      "example": "Ich freue mich darauf, dann mit Ihnen zu sprechen.",
+      "example_cz": "Těším se, až s vámi budu tehdy mluvit.",
+      "tts_text": "Ich freue mich darauf, dann mit Ihnen zu sprechen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_anruf_vereinbaren",
+      "title": "Einen Anruf für nächste Woche vereinbaren",
+      "title_cz": "Domluvení hovoru na příští týden",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hätten Sie diese Woche Zeit für einen Anruf?",
+          "text_cz": "Měl byste tento týden čas na hovor?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, natürlich. Welche Uhrzeit passt Ihnen am besten?",
+          "text_cz": "Ano, jistě. Jaký čas vám vyhovuje nejlépe?"
+        },
+        {
+          "speaker": "A",
+          "text": "Sagen wir Donnerstag um vierzehn Uhr?",
+          "text_cz": "Řekněme čtvrtek ve dvě hodiny?"
+        },
+        {
+          "speaker": "B",
+          "text": "Das passt mir gut. Wie viel Zeit brauchen Sie für den Anruf?",
+          "text_cz": "To mi vyhovuje. Kolik času potřebujete na ten hovor?"
+        },
+        {
+          "speaker": "A",
+          "text": "Etwa dreißig Minuten. Ich sende Ihnen eine Kalendereinladung.",
+          "text_cz": "Asi třicet minut. Pošlu vám pozvánku do kalendáře."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Hätten Sie morgen Zeit für einen Anruf?",
+      "options": [
+        "Měl byste zítra čas na hovor?",
+        "To mi vyhovuje.",
+        "Pošlu vám pozvánku."
+      ],
+      "correct": "Měl byste zítra čas na hovor?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Welche Uhrzeit ___ Ihnen am Donnerstag am besten?",
+      "answer": "passt",
+      "hint_cz": "vyhovuje"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "vereinbaren wir einen Anruf", "cz": "domluvme si hovor" },
+        { "target": "das passt mir gut", "cz": "to mi vyhovuje" },
+        { "target": "wie viel Zeit brauchen Sie?", "cz": "kolik času potřebujete?" },
+        { "target": "sagen wir Montag?", "cz": "řekněme pondělí?" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich sende Ihnen eine Kalendereinladung für fünfzehn Uhr.",
+      "tts_text": "Ich sende Ihnen eine Kalendereinladung für fünfzehn Uhr."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich freue mich darauf, dann mit Ihnen zu ___.",
+      "answer": "sprechen",
+      "hint_cz": "mluvit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Vereinbaren wir einen Anruf, um die Details zu besprechen.",
+      "tts_text": "Vereinbaren wir einen Anruf, um die Details zu besprechen."
+    }
+  ]
+}

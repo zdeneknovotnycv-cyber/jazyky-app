@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_shopping_kids_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Choosing a birthday present",
+  "title_cz": "Výběr narozeninového dárku",
+  "vocabulary": [
+    {
+      "word": "gift shop",
+      "translation_cz": "obchod s dárky",
+      "example": "We look for a gift in the gift shop.",
+      "example_cz": "V obchodě s dárky hledáme dárek.",
+      "tts_text": "We look for a gift in the gift shop."
+    },
+    {
+      "word": "idea",
+      "translation_cz": "nápad",
+      "example": "I have a good idea for a gift.",
+      "example_cz": "Mám dobrý nápad na dárek.",
+      "tts_text": "I have a good idea for a gift."
+    },
+    {
+      "word": "favorite",
+      "translation_cz": "oblíbený",
+      "example": "I know her favorite color.",
+      "example_cz": "Znám její oblíbenou barvu.",
+      "tts_text": "I know her favorite color."
+    },
+    {
+      "word": "perfect",
+      "translation_cz": "dokonalý",
+      "example": "This gift is perfect for him.",
+      "example_cz": "Tento dárek je pro něj dokonalý.",
+      "tts_text": "This gift is perfect for him."
+    },
+    {
+      "word": "compare",
+      "translation_cz": "porovnat",
+      "example": "I compare two different toys.",
+      "example_cz": "Porovnávám dvě různé hračky.",
+      "tts_text": "I compare two different toys."
+    },
+    {
+      "word": "budget",
+      "translation_cz": "rozpočet",
+      "example": "I have a small budget for the gift.",
+      "example_cz": "Mám na dárek malý rozpočet.",
+      "tts_text": "I have a small budget for the gift."
+    },
+    {
+      "word": "decide",
+      "translation_cz": "rozhodnout se",
+      "example": "I finally decide on a book.",
+      "example_cz": "Nakonec se rozhodnu pro knihu.",
+      "tts_text": "I finally decide on a book."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "gift shop",
+      "options": [
+        "obchod s dárky",
+        "nápad",
+        "oblíbený"
+      ],
+      "correct": "obchod s dárky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I have a good ___ for a gift.",
+      "answer": "idea",
+      "hint_cz": "nápad"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "favorite",
+          "cz": "oblíbený"
+        },
+        {
+          "target": "perfect",
+          "cz": "dokonalý"
+        },
+        {
+          "target": "compare",
+          "cz": "porovnat"
+        },
+        {
+          "target": "budget",
+          "cz": "rozpočet"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I finally decide on a book.",
+      "tts_text": "I finally decide on a book."
+    }
+  ]
+}

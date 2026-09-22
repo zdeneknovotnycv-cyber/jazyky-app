@@ -1,0 +1,138 @@
+{
+  "id": "en_adult_corporate_email_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Requesting information by email",
+  "title_cz": "Žádost o informace e-mailem",
+  "vocabulary": [
+    {
+      "word": "could you please send me",
+      "translation_cz": "mohli byste mi prosím poslat",
+      "example": "Could you please send me the price list?",
+      "example_cz": "Mohli byste mi prosím poslat ceník?",
+      "tts_text": "Could you please send me the price list?"
+    },
+    {
+      "word": "I would like to know",
+      "translation_cz": "rád bych věděl",
+      "example": "I would like to know the delivery time.",
+      "example_cz": "Rád bych věděl dodací lhůtu.",
+      "tts_text": "I would like to know the delivery time."
+    },
+    {
+      "word": "details",
+      "translation_cz": "podrobnosti",
+      "example": "Could you provide more details about the product?",
+      "example_cz": "Mohli byste poskytnout více podrobností o produktu?",
+      "tts_text": "Could you provide more details about the product?"
+    },
+    {
+      "word": "at your earliest convenience",
+      "translation_cz": "co nejdříve to bude možné",
+      "example": "Please reply at your earliest convenience.",
+      "example_cz": "Odpovězte prosím, jakmile to bude možné.",
+      "tts_text": "Please reply at your earliest convenience."
+    },
+    {
+      "word": "specify",
+      "translation_cz": "upřesnit",
+      "example": "Could you specify the exact date?",
+      "example_cz": "Mohli byste upřesnit přesné datum?",
+      "tts_text": "Could you specify the exact date?"
+    },
+    {
+      "word": "inquiry",
+      "translation_cz": "dotaz",
+      "example": "I have an inquiry about your services.",
+      "example_cz": "Mám dotaz ohledně vašich služeb.",
+      "tts_text": "I have an inquiry about your services."
+    },
+    {
+      "word": "availability",
+      "translation_cz": "dostupnost",
+      "example": "Can you confirm the availability of the room?",
+      "example_cz": "Můžete potvrdit dostupnost místnosti?",
+      "tts_text": "Can you confirm the availability of the room?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_request_info",
+      "title": "Requesting product information",
+      "title_cz": "Žádost o informace o produktu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I have an inquiry about your services. Could you please send me the price list?",
+          "text_cz": "Mám dotaz ohledně vašich služeb. Mohli byste mi prosím poslat ceník?"
+        },
+        {
+          "speaker": "B",
+          "text": "Of course. Could you specify which package you're interested in?",
+          "text_cz": "Samozřejmě. Mohli byste upřesnit, o který balíček máte zájem?"
+        },
+        {
+          "speaker": "A",
+          "text": "The premium package. I would also like to know the delivery time.",
+          "text_cz": "O prémiový balíček. Rád bych také věděl dodací lhůtu."
+        },
+        {
+          "speaker": "B",
+          "text": "I'll send you all the details at your earliest convenience.",
+          "text_cz": "Zašlu vám veškeré podrobnosti co nejdříve to bude možné."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "inquiry",
+      "options": [
+        "dotaz",
+        "dostupnost",
+        "podrobnosti"
+      ],
+      "correct": "dotaz"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Could you please ___ me the price list?",
+      "answer": "send",
+      "hint_cz": "poslat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "details",
+          "cz": "podrobnosti"
+        },
+        {
+          "target": "specify",
+          "cz": "upřesnit"
+        },
+        {
+          "target": "availability",
+          "cz": "dostupnost"
+        },
+        {
+          "target": "at your earliest convenience",
+          "cz": "co nejdříve to bude možné"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I would like to know the delivery time.",
+      "tts_text": "I would like to know the delivery time."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Can you confirm the ___ of the room?",
+      "answer": "availability",
+      "hint_cz": "dostupnost"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_shopping_kids_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "An der Kasse bezahlen (einfach)",
+  "title_cz": "Placení u pokladny (jednoduše)",
+  "vocabulary": [
+    {
+      "word": "die Kasse",
+      "translation_cz": "pokladna",
+      "example": "Wir warten an der Kasse.",
+      "example_cz": "Čekáme u pokladny.",
+      "tts_text": "Wir warten an der Kasse."
+    },
+    {
+      "word": "bezahlen",
+      "translation_cz": "zaplatit",
+      "example": "Mama bezahlt für den Einkauf.",
+      "example_cz": "Máma platí za nákup.",
+      "tts_text": "Mama bezahlt für den Einkauf."
+    },
+    {
+      "word": "die Quittung",
+      "translation_cz": "účtenka",
+      "example": "Ich bekomme eine Quittung nach dem Bezahlen.",
+      "example_cz": "Po zaplacení dostanu účtenku.",
+      "tts_text": "Ich bekomme eine Quittung nach dem Bezahlen."
+    },
+    {
+      "word": "das Wechselgeld",
+      "translation_cz": "drobné, výdaj",
+      "example": "Die Kassiererin gibt mir das Wechselgeld.",
+      "example_cz": "Pokladní mi dá drobné.",
+      "tts_text": "Die Kassiererin gibt mir das Wechselgeld."
+    },
+    {
+      "word": "die Karte",
+      "translation_cz": "karta",
+      "example": "Mama bezahlt mit der Karte.",
+      "example_cz": "Máma platí kartou.",
+      "tts_text": "Mama bezahlt mit der Karte."
+    },
+    {
+      "word": "das Bargeld",
+      "translation_cz": "hotovost",
+      "example": "Manchmal bezahlen wir mit Bargeld.",
+      "example_cz": "Někdy platíme hotově.",
+      "tts_text": "Manchmal bezahlen wir mit Bargeld."
+    },
+    {
+      "word": "die Tasche",
+      "translation_cz": "taška",
+      "example": "Ich trage die Einkaufstasche.",
+      "example_cz": "Nesu nákupní tašku.",
+      "tts_text": "Ich trage die Einkaufstasche."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Kasse",
+      "options": [
+        "pokladna",
+        "zaplatit",
+        "účtenka"
+      ],
+      "correct": "pokladna"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mama ___ für den Einkauf.",
+      "answer": "bezahlt",
+      "hint_cz": "zaplatit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Quittung",
+          "cz": "účtenka"
+        },
+        {
+          "target": "das Wechselgeld",
+          "cz": "drobné, výdaj"
+        },
+        {
+          "target": "die Karte",
+          "cz": "karta"
+        },
+        {
+          "target": "das Bargeld",
+          "cz": "hotovost"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich trage die Einkaufstasche.",
+      "tts_text": "Ich trage die Einkaufstasche."
+    }
+  ]
+}

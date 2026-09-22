@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_customer_service_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Produktfragen beantworten",
+  "title_cz": "Zodpovězení dotazů na produkt",
+  "vocabulary": [
+    {
+      "word": "Was sind die technischen Daten?",
+      "translation_cz": "Jaké jsou specifikace?",
+      "example": "Was sind die technischen Daten dieses Laptops?",
+      "example_cz": "Jaké jsou specifikace tohoto notebooku?",
+      "tts_text": "Was sind die technischen Daten dieses Laptops?"
+    },
+    {
+      "word": "Es gibt verschiedene Größen",
+      "translation_cz": "Je dostupný v různých velikostech",
+      "example": "Es gibt verschiedene Größen und Farben.",
+      "example_cz": "Je dostupný v různých velikostech a barvách.",
+      "tts_text": "Es gibt verschiedene Größen und Farben."
+    },
+    {
+      "word": "Garantie",
+      "translation_cz": "záruka",
+      "example": "Dieses Produkt hat zwei Jahre Garantie.",
+      "example_cz": "Tento produkt má dvouletou záruku.",
+      "tts_text": "Dieses Produkt hat zwei Jahre Garantie."
+    },
+    {
+      "word": "auf Lager",
+      "translation_cz": "skladem",
+      "example": "Das blaue Modell ist momentan auf Lager.",
+      "example_cz": "Modrý model je momentálně skladem.",
+      "tts_text": "Das blaue Modell ist momentan auf Lager."
+    },
+    {
+      "word": "kompatibel mit",
+      "translation_cz": "kompatibilní s",
+      "example": "Dieses Ladegerät ist mit den meisten Handys kompatibel.",
+      "example_cz": "Tato nabíječka je kompatibilní s většinou telefonů.",
+      "tts_text": "Dieses Ladegerät ist mit den meisten Handys kompatibel."
+    },
+    {
+      "word": "Ich schaue kurz nach",
+      "translation_cz": "Nechte mě to pro vás zkontrolovat",
+      "example": "Ich schaue gleich für Sie nach.",
+      "example_cz": "Hned to pro vás zkontroluji.",
+      "tts_text": "Ich schaue gleich für Sie nach."
+    },
+    {
+      "word": "Funktionen",
+      "translation_cz": "funkce, vlastnosti",
+      "example": "Zu den wichtigsten Funktionen gehört eine lange Akkulaufzeit.",
+      "example_cz": "Mezi hlavní funkce patří dlouhá výdrž baterie.",
+      "tts_text": "Zu den wichtigsten Funktionen gehört eine lange Akkulaufzeit."
+    },
+    {
+      "word": "empfehlen",
+      "translation_cz": "doporučit",
+      "example": "Ich würde dieses Modell für Anfänger empfehlen.",
+      "example_cz": "Doporučil bych tento model pro začátečníky.",
+      "tts_text": "Ich würde dieses Modell für Anfänger empfehlen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_07",
+      "title": "Kundenfragen zu einem Laptop beantworten",
+      "title_cz": "Zodpovězení dotazů zákazníka na notebook",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Entschuldigung, was sind die technischen Daten dieses Laptops?",
+          "text_cz": "Promiňte, jaké jsou specifikace tohoto notebooku?"
+        },
+        {
+          "speaker": "B",
+          "text": "Er hat 16 GB RAM und es gibt verschiedene Größen. Ich schaue kurz die Garantiedetails für Sie nach.",
+          "text_cz": "Má 16 GB RAM a je dostupný v různých velikostech. Hned pro vás zkontroluji detaily záruky."
+        },
+        {
+          "speaker": "A",
+          "text": "Ist er in Schwarz auf Lager?",
+          "text_cz": "Je skladem v černé barvě?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, das ist er. Ich würde dieses Modell empfehlen, seine Funktionen sind großartig für die Arbeit.",
+          "text_cz": "Ano, je. Doporučil bych tento model, jeho funkce jsou skvělé pro práci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "auf Lager",
+      "options": [
+        "skladem",
+        "kompatibilní s",
+        "záruka"
+      ],
+      "correct": "skladem"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Dieses Produkt hat zwei Jahre ___.",
+      "answer": "Garantie",
+      "hint_cz": "záruku"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "kompatibel mit",
+          "cz": "kompatibilní s"
+        },
+        {
+          "target": "Funktionen",
+          "cz": "funkce, vlastnosti"
+        },
+        {
+          "target": "empfehlen",
+          "cz": "doporučit"
+        },
+        {
+          "target": "auf Lager",
+          "cz": "skladem"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich schaue gleich für Sie nach.",
+      "tts_text": "Ich schaue gleich für Sie nach."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es gibt verschiedene ___ und Farben.",
+      "answer": "Größen",
+      "hint_cz": "velikosti"
+    }
+  ]
+}

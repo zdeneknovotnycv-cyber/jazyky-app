@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_scheduling_calendars_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Double-booked calendar",
+  "title_cz": "Dva termíny ve stejném čase",
+  "vocabulary": [
+    {
+      "word": "I have a scheduling conflict",
+      "translation_cz": "mám kolizi v termínech",
+      "example": "I have a scheduling conflict at that time.",
+      "example_cz": "Mám v tu dobu kolizi v termínech.",
+      "tts_text": "I have a scheduling conflict at that time."
+    },
+    {
+      "word": "I'm double-booked",
+      "translation_cz": "mám dva termíny na stejný čas",
+      "example": "I'm double-booked on Thursday morning.",
+      "example_cz": "Mám ve čtvrtek dopoledne dva termíny na stejný čas.",
+      "tts_text": "I'm double-booked on Thursday morning."
+    },
+    {
+      "word": "which one takes priority?",
+      "translation_cz": "který má přednost?",
+      "example": "Which meeting takes priority in your opinion?",
+      "example_cz": "Která schůzka má podle vás přednost?",
+      "tts_text": "Which meeting takes priority in your opinion?"
+    },
+    {
+      "word": "I'll try to join for part of it",
+      "translation_cz": "zkusím se připojit alespoň na část",
+      "example": "I'll try to join for part of it and leave early.",
+      "example_cz": "Zkusím se připojit alespoň na část a odejít dříve.",
+      "tts_text": "I'll try to join for part of it and leave early."
+    },
+    {
+      "word": "can someone else attend instead?",
+      "translation_cz": "může se zúčastnit místo mě někdo jiný?",
+      "example": "Can someone else attend instead of me?",
+      "example_cz": "Může se zúčastnit místo mě někdo jiný?",
+      "tts_text": "Can someone else attend instead of me?"
+    },
+    {
+      "word": "I'll send my apologies",
+      "translation_cz": "omluvím se",
+      "example": "I'll send my apologies for that meeting.",
+      "example_cz": "Omluvím se za tuto schůzku.",
+      "tts_text": "I'll send my apologies for that meeting."
+    },
+    {
+      "word": "let's avoid overlapping next time",
+      "translation_cz": "příště se vyhněme překrývání",
+      "example": "Let's avoid overlapping meetings next time.",
+      "example_cz": "Příště se vyhněme překrývajícím se schůzkám.",
+      "tts_text": "Let's avoid overlapping meetings next time."
+    },
+    {
+      "word": "double-check before you accept",
+      "translation_cz": "zkontrolujte to před přijetím",
+      "example": "Please double-check your calendar before you accept.",
+      "example_cz": "Zkontrolujte prosím svůj kalendář před přijetím pozvánky.",
+      "tts_text": "Please double-check your calendar before you accept."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_double_booked",
+      "title": "Resolving a double-booked slot",
+      "title_cz": "Řešení dvou termínů ve stejném čase",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm sorry, I'm double-booked on Thursday morning.",
+          "text_cz": "Omlouvám se, mám ve čtvrtek dopoledne dva termíny na stejný čas."
+        },
+        {
+          "speaker": "B",
+          "text": "I see. Which meeting takes priority in your opinion?",
+          "text_cz": "Chápu. Která schůzka má podle vás přednost?"
+        },
+        {
+          "speaker": "A",
+          "text": "The client call is more urgent. Can someone else attend our meeting instead?",
+          "text_cz": "Hovor s klientem je naléhavější. Může se zúčastnit naší schůzky místo mě někdo jiný?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, I'll ask David. I'll try to join for part of it too.",
+          "text_cz": "Jistě, zeptám se Davida. Zkusím se také připojit alespoň na část."
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you. Let's avoid overlapping meetings next time.",
+          "text_cz": "Děkuji. Příště se vyhněme překrývajícím se schůzkám."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "I'm double-booked on Thursday morning.",
+      "options": [
+        "Mám ve čtvrtek dopoledne dva termíny na stejný čas.",
+        "Který má přednost?",
+        "Omluvím se."
+      ],
+      "correct": "Mám ve čtvrtek dopoledne dva termíny na stejný čas."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I have a scheduling ___ at that time.",
+      "answer": "conflict",
+      "hint_cz": "kolize"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "which one takes priority?", "cz": "který má přednost?" },
+        { "target": "I'll send my apologies", "cz": "omluvím se" },
+        { "target": "double-check before you accept", "cz": "zkontrolujte to před přijetím" },
+        { "target": "can someone else attend instead?", "cz": "může se zúčastnit místo mě někdo jiný?" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'll try to join for part of it and leave early.",
+      "tts_text": "I'll try to join for part of it and leave early."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's avoid ___ meetings next time.",
+      "answer": "overlapping",
+      "hint_cz": "překrývajících se"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please double-check your calendar before you accept.",
+      "tts_text": "Please double-check your calendar before you accept."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_shopping_kids_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Im Süßwarenladen",
+  "title_cz": "V cukrárně, obchodě se sladkostmi",
+  "vocabulary": [
+    {
+      "word": "der Süßwarenladen",
+      "translation_cz": "obchod se sladkostmi",
+      "example": "Der Süßwarenladen riecht so süß.",
+      "example_cz": "V obchodě se sladkostmi to krásně voní.",
+      "tts_text": "Der Süßwarenladen riecht so süß."
+    },
+    {
+      "word": "der Lutscher",
+      "translation_cz": "lízátko",
+      "example": "Ich wähle einen roten Lutscher.",
+      "example_cz": "Vybírám si červené lízátko.",
+      "tts_text": "Ich wähle einen roten Lutscher."
+    },
+    {
+      "word": "das Glas",
+      "translation_cz": "sklenice",
+      "example": "Die Süßigkeiten sind in einem großen Glas.",
+      "example_cz": "Sladkosti jsou ve velké sklenici.",
+      "tts_text": "Die Süßigkeiten sind in einem großen Glas."
+    },
+    {
+      "word": "der Gummibär",
+      "translation_cz": "medvídek gumový",
+      "example": "Ich liebe Gummibären.",
+      "example_cz": "Mám rád gumové medvídky.",
+      "tts_text": "Ich liebe Gummibären."
+    },
+    {
+      "word": "süß",
+      "translation_cz": "sladký",
+      "example": "Die Süßigkeit schmeckt sehr süß.",
+      "example_cz": "Sladkost chutná velmi sladce.",
+      "tts_text": "Die Süßigkeit schmeckt sehr süß."
+    },
+    {
+      "word": "die Tüte",
+      "translation_cz": "sáček",
+      "example": "Ich fülle eine Tüte mit Süßigkeiten.",
+      "example_cz": "Plním sáček sladkostmi.",
+      "tts_text": "Ich fülle eine Tüte mit Süßigkeiten."
+    },
+    {
+      "word": "wie viel kostet das",
+      "translation_cz": "kolik to stojí",
+      "example": "Wie viel kostet diese Süßigkeit?",
+      "example_cz": "Kolik stojí tato sladkost?",
+      "tts_text": "Wie viel kostet diese Süßigkeit?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Süßwarenladen",
+      "options": [
+        "obchod se sladkostmi",
+        "lízátko",
+        "sklenice"
+      ],
+      "correct": "obchod se sladkostmi"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich wähle einen roten ___.",
+      "answer": "Lutscher",
+      "hint_cz": "lízátko"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Glas",
+          "cz": "sklenice"
+        },
+        {
+          "target": "der Gummibär",
+          "cz": "medvídek gumový"
+        },
+        {
+          "target": "süß",
+          "cz": "sladký"
+        },
+        {
+          "target": "die Tüte",
+          "cz": "sáček"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wie viel kostet diese Süßigkeit?",
+      "tts_text": "Wie viel kostet diese Süßigkeit?"
+    }
+  ]
+}

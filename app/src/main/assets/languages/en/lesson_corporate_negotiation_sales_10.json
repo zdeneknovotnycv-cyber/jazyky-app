@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_negotiation_sales_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Thanking a Client for Business",
+  "title_cz": "Poděkování klientovi za obchod",
+  "vocabulary": [
+    {
+      "word": "thank you for your business",
+      "translation_cz": "děkuji za vaši přízeň",
+      "example": "Thank you for your business this year.",
+      "example_cz": "Děkuji za vaši přízeň v tomto roce.",
+      "tts_text": "Thank you for your business this year."
+    },
+    {
+      "word": "valued customer",
+      "translation_cz": "vážený zákazník",
+      "example": "You are a valued customer to us.",
+      "example_cz": "Jste pro nás váženým zákazníkem.",
+      "tts_text": "You are a valued customer to us."
+    },
+    {
+      "word": "appreciate your trust",
+      "translation_cz": "vážit si vaší důvěry",
+      "example": "We appreciate your trust in our company.",
+      "example_cz": "Vážíme si vaší důvěry v naši společnost.",
+      "tts_text": "We appreciate your trust in our company."
+    },
+    {
+      "word": "look forward to",
+      "translation_cz": "těšit se na",
+      "example": "We look forward to continuing our partnership.",
+      "example_cz": "Těšíme se na pokračování naší spolupráce.",
+      "tts_text": "We look forward to continuing our partnership."
+    },
+    {
+      "word": "long-term partnership",
+      "translation_cz": "dlouhodobé partnerství",
+      "example": "We hope this is the start of a long-term partnership.",
+      "example_cz": "Doufáme, že toto je začátek dlouhodobého partnerství.",
+      "tts_text": "We hope this is the start of a long-term partnership."
+    },
+    {
+      "word": "token of appreciation",
+      "translation_cz": "projev vděku",
+      "example": "Please accept this small token of appreciation.",
+      "example_cz": "Přijměte prosím tento malý projev vděku.",
+      "tts_text": "Please accept this small token of appreciation."
+    },
+    {
+      "word": "loyal customer",
+      "translation_cz": "věrný zákazník",
+      "example": "As a loyal customer, you get priority access.",
+      "example_cz": "Jako věrný zákazník máte přednostní přístup.",
+      "tts_text": "As a loyal customer, you get priority access."
+    },
+    {
+      "word": "pleasure doing business",
+      "translation_cz": "potěšení z obchodní spolupráce",
+      "example": "It's been a pleasure doing business with you.",
+      "example_cz": "Bylo mi potěšením s vámi obchodovat.",
+      "tts_text": "It's been a pleasure doing business with you."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_thank_client",
+      "title": "Thanking a long-term client",
+      "title_cz": "Poděkování dlouhodobému klientovi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I just wanted to say thank you for your business this year.",
+          "text_cz": "Chtěl jsem jen říct děkuji za vaši přízeň v letošním roce."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you, it's been a pleasure doing business with you too.",
+          "text_cz": "Děkuji, i pro nás bylo potěšením s vámi obchodovat."
+        },
+        {
+          "speaker": "A",
+          "text": "We appreciate your trust, and we look forward to a long-term partnership.",
+          "text_cz": "Vážíme si vaší důvěry a těšíme se na dlouhodobé partnerství."
+        },
+        {
+          "speaker": "B",
+          "text": "Likewise, looking forward to next year.",
+          "text_cz": "Podobně, těšíme se na příští rok."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "thank you for your business",
+      "options": [
+        "děkuji za vaši přízeň",
+        "vážit si vaší důvěry",
+        "těšit se na"
+      ],
+      "correct": "děkuji za vaši přízeň"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You are a ___ to us.",
+      "answer": "valued customer",
+      "hint_cz": "vážený zákazník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We hope this is the start of a ___.",
+      "answer": "long-term partnership",
+      "hint_cz": "dlouhodobé partnerství"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "token of appreciation",
+          "cz": "projev vděku"
+        },
+        {
+          "target": "loyal customer",
+          "cz": "věrný zákazník"
+        },
+        {
+          "target": "pleasure doing business",
+          "cz": "potěšení z obchodní spolupráce"
+        },
+        {
+          "target": "appreciate your trust",
+          "cz": "vážit si vaší důvěry"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I just wanted to say thank you for your business this year.",
+      "tts_text": "I just wanted to say thank you for your business this year."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Thank you, it's been a pleasure doing business with you too.",
+      "tts_text": "Thank you, it's been a pleasure doing business with you too."
+    }
+  ]
+}

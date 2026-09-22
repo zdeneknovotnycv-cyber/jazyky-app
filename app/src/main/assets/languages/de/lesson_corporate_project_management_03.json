@@ -1,0 +1,167 @@
+{
+  "id": "de_adult_corporate_project_management_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Projekttermine",
+  "title_cz": "Termíny projektu",
+  "vocabulary": [
+    {
+      "word": "die Frist",
+      "translation_cz": "termín",
+      "example": "Diese Frist dürfen wir nicht verpassen.",
+      "example_cz": "Tento termín nesmíme zmeškat.",
+      "tts_text": "Diese Frist dürfen wir nicht verpassen."
+    },
+    {
+      "word": "die Verlängerung",
+      "translation_cz": "prodloužení",
+      "example": "Können wir eine Verlängerung beantragen?",
+      "example_cz": "Můžeme požádat o prodloužení?",
+      "tts_text": "Können wir eine Verlängerung beantragen?"
+    },
+    {
+      "word": "im Zeitplan",
+      "translation_cz": "podle plánu",
+      "example": "Das Projekt liegt noch im Zeitplan.",
+      "example_cz": "Projekt stále běží podle plánu.",
+      "tts_text": "Das Projekt liegt noch im Zeitplan."
+    },
+    {
+      "word": "im Verzug",
+      "translation_cz": "opožděný",
+      "example": "Leider sind wir im Verzug.",
+      "example_cz": "Bohužel jsme oproti plánu pozadu.",
+      "tts_text": "Leider sind wir im Verzug."
+    },
+    {
+      "word": "die Verzögerung",
+      "translation_cz": "zpoždění",
+      "example": "Die Verzögerung wurde durch ein Lieferantenproblem verursacht.",
+      "example_cz": "Zpoždění bylo způsobeno problémem s dodavatelem.",
+      "tts_text": "Die Verzögerung wurde durch ein Lieferantenproblem verursacht."
+    },
+    {
+      "word": "die endgültige Frist",
+      "translation_cz": "konečný termín",
+      "example": "Die endgültige Frist kann nicht verschoben werden.",
+      "example_cz": "Konečný termín nelze posunout.",
+      "tts_text": "Die endgültige Frist kann nicht verschoben werden."
+    },
+    {
+      "word": "der Zeitpuffer",
+      "translation_cz": "časová rezerva",
+      "example": "Wir sollten etwas Zeitpuffer einplanen.",
+      "example_cz": "Měli bychom přidat nějakou časovou rezervu.",
+      "tts_text": "Wir sollten etwas Zeitpuffer einplanen."
+    },
+    {
+      "word": "einreichen",
+      "translation_cz": "odevzdat",
+      "example": "Bitte reiche den Bericht vor der Frist ein.",
+      "example_cz": "Odevzdejte prosím zprávu před termínem.",
+      "tts_text": "Bitte reiche den Bericht vor der Frist ein."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_deadline_risk",
+      "title": "Über eine verspätete Frist sprechen",
+      "title_cz": "Diskuze o opožděném termínu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich fürchte, wir sind bei dieser Aufgabe im Verzug.",
+          "text_cz": "Obávám se, že jsme u tohoto úkolu pozadu za plánem."
+        },
+        {
+          "speaker": "B",
+          "text": "Was hat die Verzögerung verursacht?",
+          "text_cz": "Co způsobilo to zpoždění?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ein Lieferantenproblem. Können wir eine Verlängerung beantragen?",
+          "text_cz": "Problém s dodavatelem. Můžeme požádat o prodloužení?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich frage den Kunden, aber die endgültige Frist lässt sich schwer verschieben.",
+          "text_cz": "Zeptám se klienta, ale konečný termín se posouvá těžko."
+        }
+      ]
+    },
+    {
+      "id": "conv_deadline_buffer",
+      "title": "Zeitpuffer einplanen",
+      "title_cz": "Plánování časové rezervy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wir sollten dem Plan etwas Zeitpuffer hinzufügen.",
+          "text_cz": "Měli bychom do plánu přidat nějakou časovou rezervu."
+        },
+        {
+          "speaker": "B",
+          "text": "Gute Idee, dann reichen wir vor der Frist ein, nicht auf den letzten Drücker.",
+          "text_cz": "Dobrý nápad, ať odevzdáme před termínem, ne na poslední chvíli."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Frist",
+      "options": [
+        "termín",
+        "podle plánu",
+        "opožděný"
+      ],
+      "correct": "termín"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Können wir eine Verlängerung beantragen?",
+      "answer": "die Verlängerung",
+      "hint_cz": "prodloužení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Verzögerung wurde durch ein Lieferantenproblem verursacht.",
+      "answer": "die Verzögerung",
+      "hint_cz": "zpoždění"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die endgültige Frist",
+          "cz": "konečný termín"
+        },
+        {
+          "target": "der Zeitpuffer",
+          "cz": "časová rezerva"
+        },
+        {
+          "target": "einreichen",
+          "cz": "odevzdat"
+        },
+        {
+          "target": "im Zeitplan",
+          "cz": "podle plánu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich fürchte, wir sind bei dieser Aufgabe im Verzug.",
+      "tts_text": "Ich fürchte, wir sind bei dieser Aufgabe im Verzug."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Was hat die Verzögerung verursacht?",
+      "tts_text": "Was hat die Verzögerung verursacht?"
+    }
+  ]
+}

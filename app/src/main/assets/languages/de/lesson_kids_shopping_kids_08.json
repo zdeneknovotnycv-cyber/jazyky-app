@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_shopping_kids_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Einkaufsliste mit Mama",
+  "title_cz": "Nákupní seznam s mámou",
+  "vocabulary": [
+    {
+      "word": "die Einkaufsliste",
+      "translation_cz": "nákupní seznam",
+      "example": "Mama schreibt eine Einkaufsliste.",
+      "example_cz": "Máma píše nákupní seznam.",
+      "tts_text": "Mama schreibt eine Einkaufsliste."
+    },
+    {
+      "word": "der Einkaufskorb",
+      "translation_cz": "košík",
+      "example": "Ich schiebe den Einkaufskorb im Laden.",
+      "example_cz": "Tlačím košík v obchodě.",
+      "tts_text": "Ich schiebe den Einkaufskorb im Laden."
+    },
+    {
+      "word": "das Brot",
+      "translation_cz": "chleba",
+      "example": "Wir müssen Brot kaufen.",
+      "example_cz": "Musíme koupit chleba.",
+      "tts_text": "Wir müssen Brot kaufen."
+    },
+    {
+      "word": "das Obst",
+      "translation_cz": "ovoce",
+      "example": "Wir legen Obst in den Korb.",
+      "example_cz": "Dáváme ovoce do košíku.",
+      "tts_text": "Wir legen Obst in den Korb."
+    },
+    {
+      "word": "vergessen",
+      "translation_cz": "zapomenout",
+      "example": "Vergiss die Milch nicht.",
+      "example_cz": "Nezapomeň na mléko.",
+      "tts_text": "Vergiss die Milch nicht."
+    },
+    {
+      "word": "der Gang",
+      "translation_cz": "regál, ulička",
+      "example": "Die Milch ist im nächsten Gang.",
+      "example_cz": "Mléko je v další uličce.",
+      "tts_text": "Die Milch ist im nächsten Gang."
+    },
+    {
+      "word": "helfen",
+      "translation_cz": "pomoct",
+      "example": "Ich helfe Mama, die Taschen zu tragen.",
+      "example_cz": "Pomáhám mámě nést tašky.",
+      "tts_text": "Ich helfe Mama, die Taschen zu tragen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Einkaufsliste",
+      "options": [
+        "nákupní seznam",
+        "košík",
+        "chleba"
+      ],
+      "correct": "nákupní seznam"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich schiebe den ___ im Laden.",
+      "answer": "Einkaufskorb",
+      "hint_cz": "košík"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Brot",
+          "cz": "chleba"
+        },
+        {
+          "target": "das Obst",
+          "cz": "ovoce"
+        },
+        {
+          "target": "vergessen",
+          "cz": "zapomenout"
+        },
+        {
+          "target": "der Gang",
+          "cz": "regál, ulička"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich helfe Mama, die Taschen zu tragen.",
+      "tts_text": "Ich helfe Mama, die Taschen zu tragen."
+    }
+  ]
+}

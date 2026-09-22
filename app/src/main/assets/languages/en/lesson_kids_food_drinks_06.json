@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_food_drinks_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Sweets and Desserts",
+  "title_cz": "Sladkosti a dezerty",
+  "vocabulary": [
+    {
+      "word": "chocolate",
+      "translation_cz": "čokoláda",
+      "example": "I love chocolate.",
+      "example_cz": "Miluji čokoládu.",
+      "tts_text": "I love chocolate."
+    },
+    {
+      "word": "ice cream",
+      "translation_cz": "zmrzlina",
+      "example": "I eat ice cream in summer.",
+      "example_cz": "V létě jím zmrzlinu.",
+      "tts_text": "I eat ice cream in summer."
+    },
+    {
+      "word": "cookie",
+      "translation_cz": "sušenka",
+      "example": "I baked cookies with mom.",
+      "example_cz": "Upekl jsem sušenky s maminkou.",
+      "tts_text": "I baked cookies with mom."
+    },
+    {
+      "word": "cake",
+      "translation_cz": "dort / koláč",
+      "example": "The cake is delicious.",
+      "example_cz": "Ten dort je výborný.",
+      "tts_text": "The cake is delicious."
+    },
+    {
+      "word": "candy",
+      "translation_cz": "bonbon",
+      "example": "I got candy at the party.",
+      "example_cz": "Na oslavě jsem dostal bonbon.",
+      "tts_text": "I got candy at the party."
+    },
+    {
+      "word": "sweet",
+      "translation_cz": "sladký",
+      "example": "This dessert is very sweet.",
+      "example_cz": "Tenhle dezert je velmi sladký.",
+      "tts_text": "This dessert is very sweet."
+    },
+    {
+      "word": "pudding",
+      "translation_cz": "puding",
+      "example": "I like vanilla pudding.",
+      "example_cz": "Mám rád vanilkový puding.",
+      "tts_text": "I like vanilla pudding."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "chocolate",
+      "options": [
+        "čokoláda",
+        "zmrzlina",
+        "puding"
+      ],
+      "correct": "čokoláda"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I eat ___ in summer.",
+      "answer": "ice cream",
+      "hint_cz": "zmrzlina"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "cookie",
+          "cz": "sušenka"
+        },
+        {
+          "target": "cake",
+          "cz": "dort / koláč"
+        },
+        {
+          "target": "candy",
+          "cz": "bonbon"
+        },
+        {
+          "target": "sweet",
+          "cz": "sladký"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I love chocolate.",
+      "tts_text": "I love chocolate."
+    }
+  ]
+}

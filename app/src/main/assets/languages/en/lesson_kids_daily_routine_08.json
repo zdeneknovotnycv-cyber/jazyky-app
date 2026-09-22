@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_daily_routine_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Bath time",
+  "title_cz": "Koupání",
+  "vocabulary": [
+    {
+      "word": "bath",
+      "translation_cz": "koupel",
+      "example": "I take a bath in the evening.",
+      "example_cz": "Večer se koupu.",
+      "tts_text": "I take a bath in the evening."
+    },
+    {
+      "word": "soap",
+      "translation_cz": "mýdlo",
+      "example": "I wash my hands with soap.",
+      "example_cz": "Myju si ruce mýdlem.",
+      "tts_text": "I wash my hands with soap."
+    },
+    {
+      "word": "towel",
+      "translation_cz": "ručník",
+      "example": "I dry myself with a towel.",
+      "example_cz": "Utírám se ručníkem.",
+      "tts_text": "I dry myself with a towel."
+    },
+    {
+      "word": "warm water",
+      "translation_cz": "teplá voda",
+      "example": "I like warm water in the bath.",
+      "example_cz": "Mám rád teplou vodu v koupeli.",
+      "tts_text": "I like warm water in the bath."
+    },
+    {
+      "word": "shampoo",
+      "translation_cz": "šampon",
+      "example": "I wash my hair with shampoo.",
+      "example_cz": "Myju si vlasy šamponem.",
+      "tts_text": "I wash my hair with shampoo."
+    },
+    {
+      "word": "duck toy",
+      "translation_cz": "gumová kachnička",
+      "example": "My duck toy floats in the water.",
+      "example_cz": "Moje gumová kachnička plave ve vodě.",
+      "tts_text": "My duck toy floats in the water."
+    },
+    {
+      "word": "clean",
+      "translation_cz": "čistý",
+      "example": "After the bath I feel clean.",
+      "example_cz": "Po koupeli se cítím čistý.",
+      "tts_text": "After the bath I feel clean."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "bath",
+      "options": [
+        "koupel",
+        "mýdlo",
+        "ručník"
+      ],
+      "correct": "koupel"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I wash my hands with ___.",
+      "answer": "soap",
+      "hint_cz": "mýdlo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "towel",
+          "cz": "ručník"
+        },
+        {
+          "target": "warm water",
+          "cz": "teplá voda"
+        },
+        {
+          "target": "shampoo",
+          "cz": "šampon"
+        },
+        {
+          "target": "duck toy",
+          "cz": "gumová kachnička"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "After the bath I feel clean.",
+      "tts_text": "After the bath I feel clean."
+    }
+  ]
+}

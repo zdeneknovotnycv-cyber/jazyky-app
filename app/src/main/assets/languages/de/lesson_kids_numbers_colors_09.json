@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_numbers_colors_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ordinal Numbers",
+  "title_cz": "Řadové číslovky",
+  "vocabulary": [
+    {
+      "word": "erster",
+      "translation_cz": "první",
+      "example": "Ich bin der Erste in der Reihe.",
+      "example_cz": "Jsem první ve frontě.",
+      "tts_text": "Ich bin der Erste in der Reihe."
+    },
+    {
+      "word": "zweiter",
+      "translation_cz": "druhý",
+      "example": "Sie ist die Zweite.",
+      "example_cz": "Je druhá.",
+      "tts_text": "Sie ist die Zweite."
+    },
+    {
+      "word": "dritter",
+      "translation_cz": "třetí",
+      "example": "Er kam als Dritter.",
+      "example_cz": "Přišel třetí.",
+      "tts_text": "Er kam als Dritter."
+    },
+    {
+      "word": "vierter",
+      "translation_cz": "čtvrtý",
+      "example": "Mein Platz ist der vierte.",
+      "example_cz": "Moje sedadlo je čtvrté.",
+      "tts_text": "Mein Platz ist der vierte."
+    },
+    {
+      "word": "fünfter",
+      "translation_cz": "pátý",
+      "example": "Das ist mein fünfter Versuch.",
+      "example_cz": "Toto je můj pátý pokus.",
+      "tts_text": "Das ist mein fünfter Versuch."
+    },
+    {
+      "word": "letzter",
+      "translation_cz": "poslední",
+      "example": "Ich war heute der Letzte.",
+      "example_cz": "Dnes jsem byl poslední.",
+      "tts_text": "Ich war heute der Letzte."
+    },
+    {
+      "word": "die Reihe",
+      "translation_cz": "fronta",
+      "example": "Wir stehen in einer Reihe.",
+      "example_cz": "Stojíme ve frontě.",
+      "tts_text": "Wir stehen in einer Reihe."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "vierter",
+      "options": [
+        "čtvrtý",
+        "druhý",
+        "třetí"
+      ],
+      "correct": "čtvrtý"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich war heute der ___.",
+      "answer": "Letzte",
+      "hint_cz": "poslední"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "erster",
+          "cz": "první"
+        },
+        {
+          "target": "zweiter",
+          "cz": "druhý"
+        },
+        {
+          "target": "dritter",
+          "cz": "třetí"
+        },
+        {
+          "target": "fünfter",
+          "cz": "pátý"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir stehen in einer Reihe.",
+      "tts_text": "Wir stehen in einer Reihe."
+    }
+  ]
+}

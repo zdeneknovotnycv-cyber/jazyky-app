@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_transport_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Cars",
+  "title_cz": "Auta",
+  "vocabulary": [
+    {
+      "word": "car",
+      "translation_cz": "auto",
+      "example": "My dad drives a car.",
+      "example_cz": "Můj táta řídí auto.",
+      "tts_text": "My dad drives a car."
+    },
+    {
+      "word": "wheel",
+      "translation_cz": "kolo (u auta)",
+      "example": "The car has four wheels.",
+      "example_cz": "Auto má čtyři kola.",
+      "tts_text": "The car has four wheels."
+    },
+    {
+      "word": "seatbelt",
+      "translation_cz": "bezpečnostní pás",
+      "example": "I always wear my seatbelt.",
+      "example_cz": "Vždy si zapínám bezpečnostní pás.",
+      "tts_text": "I always wear my seatbelt."
+    },
+    {
+      "word": "road",
+      "translation_cz": "silnice",
+      "example": "The car drives on the road.",
+      "example_cz": "Auto jede po silnici.",
+      "tts_text": "The car drives on the road."
+    },
+    {
+      "word": "fast",
+      "translation_cz": "rychle",
+      "example": "The car goes very fast.",
+      "example_cz": "Auto jede velmi rychle.",
+      "tts_text": "The car goes very fast."
+    },
+    {
+      "word": "garage",
+      "translation_cz": "garáž",
+      "example": "We park the car in the garage.",
+      "example_cz": "Parkujeme auto v garáži.",
+      "tts_text": "We park the car in the garage."
+    },
+    {
+      "word": "driver",
+      "translation_cz": "řidič",
+      "example": "The driver looks left and right.",
+      "example_cz": "Řidič se dívá doleva a doprava.",
+      "tts_text": "The driver looks left and right."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "car",
+      "options": [
+        "auto",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "auto"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My dad drives a ___.",
+      "answer": "car",
+      "hint_cz": "auto"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "wheel",
+          "cz": "kolo (u auta)"
+        },
+        {
+          "target": "seatbelt",
+          "cz": "bezpečnostní pás"
+        },
+        {
+          "target": "road",
+          "cz": "silnice"
+        },
+        {
+          "target": "fast",
+          "cz": "rychle"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I always wear my seatbelt.",
+      "tts_text": "I always wear my seatbelt."
+    }
+  ]
+}

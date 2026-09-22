@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_phone_video_calls_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Gespräch höflich beenden",
+  "title_cz": "Zdvořilé ukončení hovoru",
+  "vocabulary": [
+    {
+      "word": "ich denke, das war alles",
+      "translation_cz": "myslím, že jsme probrali vše",
+      "example": "Ich denke, das war für heute alles.",
+      "example_cz": "Myslím, že jsme dnes probrali vše.",
+      "tts_text": "Ich denke, das war für heute alles."
+    },
+    {
+      "word": "danke für Ihre Zeit",
+      "translation_cz": "děkuji za váš čas",
+      "example": "Danke für Ihre Zeit heute Nachmittag.",
+      "example_cz": "Děkuji za váš čas dnes odpoledne.",
+      "tts_text": "Danke für Ihre Zeit heute Nachmittag."
+    },
+    {
+      "word": "ich schicke Ihnen eine Folge-E-Mail",
+      "translation_cz": "pošlu vám navazující e-mail",
+      "example": "Ich schicke Ihnen eine Folge-E-Mail mit den Details.",
+      "example_cz": "Pošlu vám navazující e-mail s podrobnostmi.",
+      "tts_text": "Ich schicke Ihnen eine Folge-E-Mail mit den Details."
+    },
+    {
+      "word": "einen schönen Tag noch",
+      "translation_cz": "hezký den",
+      "example": "Danke, einen schönen Tag noch!",
+      "example_cz": "Děkuji, hezký den!",
+      "tts_text": "Danke, einen schönen Tag noch!"
+    },
+    {
+      "word": "wir hören uns bald",
+      "translation_cz": "brzy se ozvu / uslyšíme se",
+      "example": "Wir hören uns bald, auf Wiederhören.",
+      "example_cz": "Uslyšíme se brzy, na shledanou.",
+      "tts_text": "Wir hören uns bald, auf Wiederhören."
+    },
+    {
+      "word": "wenn es nichts weiter gibt",
+      "translation_cz": "pokud není nic dalšího",
+      "example": "Wenn es nichts weiter gibt, beenden wir das Gespräch.",
+      "example_cz": "Pokud není nic dalšího, ukončeme to.",
+      "tts_text": "Wenn es nichts weiter gibt, beenden wir das Gespräch."
+    },
+    {
+      "word": "es war schön, mit Ihnen zu sprechen",
+      "translation_cz": "bylo příjemné s vámi mluvit",
+      "example": "Es war schön, heute mit Ihnen zu sprechen.",
+      "example_cz": "Dnes bylo příjemné s vámi mluvit.",
+      "tts_text": "Es war schön, heute mit Ihnen zu sprechen."
+    },
+    {
+      "word": "machen Sie es gut",
+      "translation_cz": "opatrujte se",
+      "example": "Machen Sie es gut, wir sprechen bald wieder.",
+      "example_cz": "Opatrujte se, brzy se ozveme.",
+      "tts_text": "Machen Sie es gut, wir sprechen bald wieder."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_gespraech_hoeflich_beenden",
+      "title": "Ein Geschäftsgespräch abschließen",
+      "title_cz": "Ukončení pracovního hovoru",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wenn es nichts weiter gibt, denke ich, das war für heute alles.",
+          "text_cz": "Pokud není nic dalšího, myslím, že jsme dnes probrali vše."
+        },
+        {
+          "speaker": "B",
+          "text": "Einverstanden. Danke für Ihre Zeit heute Nachmittag.",
+          "text_cz": "Souhlasím. Děkuji za váš čas dnes odpoledne."
+        },
+        {
+          "speaker": "A",
+          "text": "Es war schön, mit Ihnen zu sprechen. Ich schicke Ihnen morgen eine Folge-E-Mail.",
+          "text_cz": "Bylo příjemné s vámi mluvit. Zítra vám pošlu navazující e-mail."
+        },
+        {
+          "speaker": "B",
+          "text": "Perfekt, danke. Einen schönen Tag noch!",
+          "text_cz": "Výborně, děkuji. Hezký den!"
+        },
+        {
+          "speaker": "A",
+          "text": "Ihnen auch, machen Sie es gut. Wir hören uns bald.",
+          "text_cz": "Vy také, opatrujte se. Uslyšíme se brzy."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Danke für Ihre Zeit heute Nachmittag.",
+      "options": [
+        "Děkuji za váš čas dnes odpoledne.",
+        "Pošlu vám navazující e-mail.",
+        "Uslyšíme se brzy."
+      ],
+      "correct": "Děkuji za váš čas dnes odpoledne."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich schicke Ihnen eine Folge-___ mit den Details.",
+      "answer": "E-Mail",
+      "hint_cz": "e-mail"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "machen Sie es gut", "cz": "opatrujte se" },
+        { "target": "wir hören uns bald", "cz": "uslyšíme se brzy" },
+        { "target": "einen schönen Tag noch", "cz": "hezký den" },
+        { "target": "es war schön, mit Ihnen zu sprechen", "cz": "bylo příjemné s vámi mluvit" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wenn es nichts weiter gibt, beenden wir das Gespräch.",
+      "tts_text": "Wenn es nichts weiter gibt, beenden wir das Gespräch."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es war schön, heute mit Ihnen zu ___.",
+      "answer": "sprechen",
+      "hint_cz": "mluvit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Danke, einen schönen Tag noch!",
+      "tts_text": "Danke, einen schönen Tag noch!"
+    }
+  ]
+}

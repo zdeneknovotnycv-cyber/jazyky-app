@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_nature_outdoors_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Stars and sky",
+  "title_cz": "Hvězdy a obloha",
+  "vocabulary": [
+    {
+      "word": "star",
+      "translation_cz": "hvězda",
+      "example": "I see a bright star.",
+      "example_cz": "Vidím jasnou hvězdu.",
+      "tts_text": "I see a bright star."
+    },
+    {
+      "word": "sky",
+      "translation_cz": "obloha",
+      "example": "The sky is full of stars.",
+      "example_cz": "Obloha je plná hvězd.",
+      "tts_text": "The sky is full of stars."
+    },
+    {
+      "word": "cloud",
+      "translation_cz": "mrak",
+      "example": "A cloud covers the moon.",
+      "example_cz": "Mrak zakrývá měsíc.",
+      "tts_text": "A cloud covers the moon."
+    },
+    {
+      "word": "dark",
+      "translation_cz": "tma",
+      "example": "It is dark outside now.",
+      "example_cz": "Venku je teď tma.",
+      "tts_text": "It is dark outside now."
+    },
+    {
+      "word": "wish",
+      "translation_cz": "přání",
+      "example": "I make a wish on a star.",
+      "example_cz": "Přeju si přání u hvězdy.",
+      "tts_text": "I make a wish on a star."
+    },
+    {
+      "word": "telescope",
+      "translation_cz": "dalekohled",
+      "example": "We look at the sky through a telescope.",
+      "example_cz": "Díváme se na oblohu dalekohledem.",
+      "tts_text": "We look at the sky through a telescope."
+    },
+    {
+      "word": "shooting star",
+      "translation_cz": "padající hvězda",
+      "example": "I saw a shooting star!",
+      "example_cz": "Viděl jsem padající hvězdu!",
+      "tts_text": "I saw a shooting star!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "star",
+      "options": [
+        "hvězda",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "hvězda"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I see a bright ___.",
+      "answer": "star",
+      "hint_cz": "hvězda"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sky",
+          "cz": "obloha"
+        },
+        {
+          "target": "cloud",
+          "cz": "mrak"
+        },
+        {
+          "target": "dark",
+          "cz": "tma"
+        },
+        {
+          "target": "wish",
+          "cz": "přání"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I saw a shooting star!",
+      "tts_text": "I saw a shooting star!"
+    }
+  ]
+}

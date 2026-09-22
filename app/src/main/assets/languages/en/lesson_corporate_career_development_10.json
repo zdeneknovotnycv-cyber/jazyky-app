@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_career_development_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Planning next career steps",
+  "title_cz": "Plánování dalších kariérních kroků",
+  "vocabulary": [
+    {
+      "word": "next step",
+      "translation_cz": "další krok",
+      "example": "What's your next step after this project?",
+      "example_cz": "Jaký je tvůj další krok po tomto projektu?",
+      "tts_text": "What's your next step after this project?"
+    },
+    {
+      "word": "promotion",
+      "translation_cz": "povýšení",
+      "example": "I'm hoping for a promotion this year.",
+      "example_cz": "Doufám letos v povýšení.",
+      "tts_text": "I'm hoping for a promotion this year."
+    },
+    {
+      "word": "career path",
+      "translation_cz": "kariérní dráha",
+      "example": "Let's discuss your career path together.",
+      "example_cz": "Pojďme společně probrat tvou kariérní dráhu.",
+      "tts_text": "Let's discuss your career path together."
+    },
+    {
+      "word": "to set a timeline",
+      "translation_cz": "stanovit časový plán",
+      "example": "We should set a timeline for your goals.",
+      "example_cz": "Měli bychom stanovit časový plán pro tvé cíle.",
+      "tts_text": "We should set a timeline for your goals."
+    },
+    {
+      "word": "skill gap",
+      "translation_cz": "mezera v dovednostech",
+      "example": "There's a skill gap we should address.",
+      "example_cz": "Je tu mezera v dovednostech, kterou bychom měli řešit.",
+      "tts_text": "There's a skill gap we should address."
+    },
+    {
+      "word": "action plan",
+      "translation_cz": "akční plán",
+      "example": "Let's create an action plan together.",
+      "example_cz": "Pojďme společně vytvořit akční plán.",
+      "tts_text": "Let's create an action plan together."
+    },
+    {
+      "word": "to check in with your manager",
+      "translation_cz": "promluvit si s manažerem",
+      "example": "I'll check in with my manager next week.",
+      "example_cz": "Příští týden si promluvím se svým manažerem.",
+      "tts_text": "I'll check in with my manager next week."
+    },
+    {
+      "word": "long-term vision",
+      "translation_cz": "dlouhodobá vize",
+      "example": "Do you have a long-term vision for your career?",
+      "example_cz": "Máš pro svou kariéru dlouhodobou vizi?",
+      "tts_text": "Do you have a long-term vision for your career?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_next_steps",
+      "title": "Planning career next steps",
+      "title_cz": "Plánování dalších kariérních kroků",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "What's your next step after finishing this project?",
+          "text_cz": "Jaký je tvůj další krok po dokončení tohoto projektu?"
+        },
+        {
+          "speaker": "B",
+          "text": "I'm hoping for a promotion this year, so let's discuss my career path.",
+          "text_cz": "Doufám letos v povýšení, tak pojďme probrat mou kariérní dráhu."
+        },
+        {
+          "speaker": "A",
+          "text": "Good. I noticed a small skill gap in data analysis we should address.",
+          "text_cz": "Dobře. Všiml jsem si malé mezery v dovednostech v analýze dat, kterou bychom měli řešit."
+        },
+        {
+          "speaker": "B",
+          "text": "Agreed. Could we set a timeline and create an action plan?",
+          "text_cz": "Souhlasím. Mohli bychom stanovit časový plán a vytvořit akční plán?"
+        },
+        {
+          "speaker": "A",
+          "text": "Sure, and check in again with your manager in three months.",
+          "text_cz": "Jasně, a znovu si za tři měsíce promluvíme s tvým manažerem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "promotion",
+      "options": [
+        "povýšení",
+        "akční plán",
+        "mezera v dovednostech"
+      ],
+      "correct": "povýšení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's create an ___ together.",
+      "answer": "action plan",
+      "hint_cz": "akční plán"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "career path",
+          "cz": "kariérní dráha"
+        },
+        {
+          "target": "skill gap",
+          "cz": "mezera v dovednostech"
+        },
+        {
+          "target": "long-term vision",
+          "cz": "dlouhodobá vize"
+        },
+        {
+          "target": "next step",
+          "cz": "další krok"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Do you have a long-term vision for your career?",
+      "tts_text": "Do you have a long-term vision for your career?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We should ___ a timeline for your goals.",
+      "answer": "set",
+      "hint_cz": "stanovit"
+    }
+  ]
+}

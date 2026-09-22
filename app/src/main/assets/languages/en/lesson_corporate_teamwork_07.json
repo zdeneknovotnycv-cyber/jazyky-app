@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_teamwork_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Resolving a team disagreement",
+  "title_cz": "Řešení neshody v týmu",
+  "vocabulary": [
+    {
+      "word": "disagreement",
+      "translation_cz": "neshoda",
+      "example": "We had a small disagreement about the plan.",
+      "example_cz": "Měli jsme malou neshodu ohledně plánu.",
+      "tts_text": "We had a small disagreement about the plan."
+    },
+    {
+      "word": "to see eye to eye",
+      "translation_cz": "shodnout se",
+      "example": "We don't always see eye to eye on this.",
+      "example_cz": "V tomhle se vždycky neshodneme.",
+      "tts_text": "We don't always see eye to eye on this."
+    },
+    {
+      "word": "compromise",
+      "translation_cz": "kompromis",
+      "example": "Let's find a compromise that works for both.",
+      "example_cz": "Pojďme najít kompromis, který vyhovuje oběma.",
+      "tts_text": "Let's find a compromise that works for both."
+    },
+    {
+      "word": "misunderstanding",
+      "translation_cz": "nedorozumění",
+      "example": "I think this was just a misunderstanding.",
+      "example_cz": "Myslím, že to bylo jen nedorozumění.",
+      "tts_text": "I think this was just a misunderstanding."
+    },
+    {
+      "word": "to calm down",
+      "translation_cz": "uklidnit se",
+      "example": "Let's calm down and talk it through.",
+      "example_cz": "Uklidněme se a probereme to.",
+      "tts_text": "Let's calm down and talk it through."
+    },
+    {
+      "word": "to find common ground",
+      "translation_cz": "najít společnou řeč",
+      "example": "We managed to find common ground.",
+      "example_cz": "Podařilo se nám najít společnou řeč.",
+      "tts_text": "We managed to find common ground."
+    },
+    {
+      "word": "to apologize",
+      "translation_cz": "omluvit se",
+      "example": "I want to apologize for my tone earlier.",
+      "example_cz": "Chci se omluvit za svůj tón dříve.",
+      "tts_text": "I want to apologize for my tone earlier."
+    },
+    {
+      "word": "to move forward",
+      "translation_cz": "posunout se dál",
+      "example": "Let's move forward and finish the project.",
+      "example_cz": "Pojďme se posunout dál a dokončit projekt.",
+      "tts_text": "Let's move forward and finish the project."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_resolving_disagreement",
+      "title": "Resolving a disagreement in the team",
+      "title_cz": "Řešení neshody v týmu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I think we had a misunderstanding earlier. Let's calm down and talk it through.",
+          "text_cz": "Myslím, že jsme si dřív nerozuměli. Uklidněme se a probereme to."
+        },
+        {
+          "speaker": "B",
+          "text": "You're right, we don't always see eye to eye, but I'd like to fix this.",
+          "text_cz": "Máš pravdu, ne vždy se shodneme, ale chtěl bych to napravit."
+        },
+        {
+          "speaker": "A",
+          "text": "I want to apologize for my tone earlier. Can we find a compromise?",
+          "text_cz": "Chci se omluvit za svůj tón dříve. Můžeme najít kompromis?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, let's find common ground and move forward together.",
+          "text_cz": "Ano, pojďme najít společnou řeč a posunout se spolu dál."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "compromise",
+      "options": [
+        "kompromis",
+        "neshoda",
+        "nedorozumění"
+      ],
+      "correct": "kompromis"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's find a ___ that works for both.",
+      "answer": "compromise",
+      "hint_cz": "kompromis"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "disagreement",
+          "cz": "neshoda"
+        },
+        {
+          "target": "misunderstanding",
+          "cz": "nedorozumění"
+        },
+        {
+          "target": "to apologize",
+          "cz": "omluvit se"
+        },
+        {
+          "target": "to move forward",
+          "cz": "posunout se dál"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's find common ground.",
+      "tts_text": "Let's find common ground."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We don't always ___ on this.",
+      "answer": "see eye to eye",
+      "hint_cz": "shodneme se"
+    }
+  ]
+}

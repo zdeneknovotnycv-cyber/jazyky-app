@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_school_classroom_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Homework",
+  "title_cz": "Domácí úkoly",
+  "vocabulary": [
+    {
+      "word": "homework",
+      "translation_cz": "domácí úkol",
+      "example": "I do my homework after school.",
+      "example_cz": "Domácí úkol dělám po škole.",
+      "tts_text": "I do my homework after school."
+    },
+    {
+      "word": "write",
+      "translation_cz": "psát",
+      "example": "I write in my notebook.",
+      "example_cz": "Píšu do svého sešitu.",
+      "tts_text": "I write in my notebook."
+    },
+    {
+      "word": "notebook",
+      "translation_cz": "sešit",
+      "example": "My notebook is full of drawings.",
+      "example_cz": "Můj sešit je plný kreseb.",
+      "tts_text": "My notebook is full of drawings."
+    },
+    {
+      "word": "difficult",
+      "translation_cz": "obtížný",
+      "example": "This exercise is difficult.",
+      "example_cz": "Toto cvičení je obtížné.",
+      "tts_text": "This exercise is difficult."
+    },
+    {
+      "word": "easy",
+      "translation_cz": "snadný",
+      "example": "Math homework is easy today.",
+      "example_cz": "Domácí úkol z matiky je dnes snadný.",
+      "tts_text": "Math homework is easy today."
+    },
+    {
+      "word": "finish",
+      "translation_cz": "dokončit",
+      "example": "I finish my homework before dinner.",
+      "example_cz": "Domácí úkol dokončím před večeří.",
+      "tts_text": "I finish my homework before dinner."
+    },
+    {
+      "word": "check",
+      "translation_cz": "zkontrolovat",
+      "example": "Mom checks my homework.",
+      "example_cz": "Máma kontroluje můj domácí úkol.",
+      "tts_text": "Mom checks my homework."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "difficult",
+      "options": [
+        "obtížný",
+        "snadný",
+        "sešit"
+      ],
+      "correct": "obtížný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Math homework is ___ today.",
+      "answer": "easy",
+      "hint_cz": "snadný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "homework",
+          "cz": "domácí úkol"
+        },
+        {
+          "target": "write",
+          "cz": "psát"
+        },
+        {
+          "target": "notebook",
+          "cz": "sešit"
+        },
+        {
+          "target": "check",
+          "cz": "zkontrolovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I finish my homework before dinner.",
+      "tts_text": "I finish my homework before dinner."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_phone_video_calls_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Scheduling a call",
+  "title_cz": "Domluvení telefonního hovoru",
+  "vocabulary": [
+    {
+      "word": "Would you be available for a call?",
+      "translation_cz": "Měl byste čas na hovor?",
+      "example": "Would you be available for a call tomorrow?",
+      "example_cz": "Měl byste zítra čas na hovor?",
+      "tts_text": "Would you be available for a call tomorrow?"
+    },
+    {
+      "word": "What time suits you best?",
+      "translation_cz": "Jaký čas vám vyhovuje nejlépe?",
+      "example": "What time suits you best on Thursday?",
+      "example_cz": "Jaký čas vám ve čtvrtek vyhovuje nejlépe?",
+      "tts_text": "What time suits you best on Thursday?"
+    },
+    {
+      "word": "let's set up a call",
+      "translation_cz": "domluvme si hovor",
+      "example": "Let's set up a call to discuss the details.",
+      "example_cz": "Domluvme si hovor, abychom probrali podrobnosti.",
+      "tts_text": "Let's set up a call to discuss the details."
+    },
+    {
+      "word": "I'll send you a calendar invite",
+      "translation_cz": "pošlu vám pozvánku do kalendáře",
+      "example": "I'll send you a calendar invite for three o'clock.",
+      "example_cz": "Pošlu vám pozvánku do kalendáře na třetí hodinu.",
+      "tts_text": "I'll send you a calendar invite for three o'clock."
+    },
+    {
+      "word": "how long do you need?",
+      "translation_cz": "kolik času potřebujete?",
+      "example": "How long do you need for the call?",
+      "example_cz": "Kolik času potřebujete na ten hovor?",
+      "tts_text": "How long do you need for the call?"
+    },
+    {
+      "word": "that works for me",
+      "translation_cz": "to mi vyhovuje",
+      "example": "Two o'clock, that works for me.",
+      "example_cz": "Ve dvě hodiny, to mi vyhovuje.",
+      "tts_text": "Two o'clock, that works for me."
+    },
+    {
+      "word": "shall we say Monday?",
+      "translation_cz": "řekněme pondělí?",
+      "example": "Shall we say Monday at ten?",
+      "example_cz": "Řekněme pondělí v deset?",
+      "tts_text": "Shall we say Monday at ten?"
+    },
+    {
+      "word": "I look forward to speaking with you",
+      "translation_cz": "těším se, až s vámi budu mluvit",
+      "example": "I look forward to speaking with you then.",
+      "example_cz": "Těším se, až s vámi budu tehdy mluvit.",
+      "tts_text": "I look forward to speaking with you then."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_scheduling_a_call",
+      "title": "Arranging a call for next week",
+      "title_cz": "Domluvení hovoru na příští týden",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Would you be available for a call this week?",
+          "text_cz": "Měl byste tento týden čas na hovor?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, sure. What time suits you best?",
+          "text_cz": "Ano, jistě. Jaký čas vám vyhovuje nejlépe?"
+        },
+        {
+          "speaker": "A",
+          "text": "Shall we say Thursday at two o'clock?",
+          "text_cz": "Řekněme čtvrtek ve dvě hodiny?"
+        },
+        {
+          "speaker": "B",
+          "text": "That works for me. How long do you need for the call?",
+          "text_cz": "To mi vyhovuje. Kolik času potřebujete na ten hovor?"
+        },
+        {
+          "speaker": "A",
+          "text": "About thirty minutes. I'll send you a calendar invite.",
+          "text_cz": "Asi třicet minut. Pošlu vám pozvánku do kalendáře."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Would you be available for a call tomorrow?",
+      "options": [
+        "Měl byste zítra čas na hovor?",
+        "To mi vyhovuje.",
+        "Pošlu vám pozvánku."
+      ],
+      "correct": "Měl byste zítra čas na hovor?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What time ___ you best on Thursday?",
+      "answer": "suits",
+      "hint_cz": "vyhovuje"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "let's set up a call", "cz": "domluvme si hovor" },
+        { "target": "that works for me", "cz": "to mi vyhovuje" },
+        { "target": "how long do you need?", "cz": "kolik času potřebujete?" },
+        { "target": "shall we say Monday?", "cz": "řekněme pondělí?" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I'll send you a calendar invite for three o'clock.",
+      "tts_text": "I'll send you a calendar invite for three o'clock."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I look forward to ___ with you then.",
+      "answer": "speaking",
+      "hint_cz": "mluvit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's set up a call to discuss the details.",
+      "tts_text": "Let's set up a call to discuss the details."
+    }
+  ]
+}

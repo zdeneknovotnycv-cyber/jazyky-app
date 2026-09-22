@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_office_life_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Office equipment troubleshooting",
+  "title_cz": "Řešení problémů s kancelářským vybavením",
+  "vocabulary": [
+    {
+      "word": "not working",
+      "translation_cz": "nefunguje",
+      "example": "My monitor is not working.",
+      "example_cz": "Můj monitor nefunguje.",
+      "tts_text": "My monitor is not working."
+    },
+    {
+      "word": "restart the computer",
+      "translation_cz": "restartovat počítač",
+      "example": "Try to restart the computer first.",
+      "example_cz": "Zkus nejprve restartovat počítač.",
+      "tts_text": "Try to restart the computer first."
+    },
+    {
+      "word": "IT support",
+      "translation_cz": "IT podpora",
+      "example": "Please contact IT support about the printer.",
+      "example_cz": "Kontaktuj prosím IT podporu ohledně tiskárny.",
+      "tts_text": "Please contact IT support about the printer."
+    },
+    {
+      "word": "paper jam",
+      "translation_cz": "zaseknutý papír",
+      "example": "There's a paper jam in the printer again.",
+      "example_cz": "V tiskárně je zase zaseknutý papír.",
+      "tts_text": "There's a paper jam in the printer again."
+    },
+    {
+      "word": "submit a ticket",
+      "translation_cz": "podat tiket",
+      "example": "You can submit a ticket on the IT portal.",
+      "example_cz": "Tiket můžeš podat na IT portálu.",
+      "tts_text": "You can submit a ticket on the IT portal."
+    },
+    {
+      "word": "check the cable",
+      "translation_cz": "zkontrolovat kabel",
+      "example": "Have you checked the cable connection?",
+      "example_cz": "Zkontroloval jsi připojení kabelu?",
+      "tts_text": "Have you checked the cable connection?"
+    },
+    {
+      "word": "out of order",
+      "translation_cz": "mimo provoz",
+      "example": "The photocopier is out of order today.",
+      "example_cz": "Kopírka je dnes mimo provoz.",
+      "tts_text": "The photocopier is out of order today."
+    },
+    {
+      "word": "replace the battery",
+      "translation_cz": "vyměnit baterii",
+      "example": "Try to replace the battery in the mouse.",
+      "example_cz": "Zkus vyměnit baterii v myši.",
+      "tts_text": "Try to replace the battery in the mouse."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_10",
+      "title": "Fixing a broken monitor",
+      "title_cz": "Oprava rozbitého monitoru",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "My monitor is not working this morning.",
+          "text_cz": "Můj monitor dnes ráno nefunguje."
+        },
+        {
+          "speaker": "B",
+          "text": "Have you checked the cable connection?",
+          "text_cz": "Zkontroloval jsi připojení kabelu?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, I did. I think I need to submit a ticket.",
+          "text_cz": "Ano, zkontroloval. Myslím, že musím podat tiket."
+        },
+        {
+          "speaker": "B",
+          "text": "Good idea, contact IT support and explain the problem.",
+          "text_cz": "Dobrý nápad, kontaktuj IT podporu a vysvětli problém."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "not working",
+      "options": [
+        "nefunguje",
+        "restartovat počítač",
+        "IT podpora"
+      ],
+      "correct": "nefunguje"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please contact ___ support about the printer.",
+      "answer": "IT",
+      "hint_cz": "IT"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "not working",
+          "cz": "nefunguje"
+        },
+        {
+          "target": "restart the computer",
+          "cz": "restartovat počítač"
+        },
+        {
+          "target": "IT support",
+          "cz": "IT podpora"
+        },
+        {
+          "target": "paper jam",
+          "cz": "zaseknutý papír"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My monitor is not working this morning.",
+      "tts_text": "My monitor is not working this morning."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Have you checked the ___ connection?",
+      "answer": "cable",
+      "hint_cz": "kabelu"
+    }
+  ]
+}

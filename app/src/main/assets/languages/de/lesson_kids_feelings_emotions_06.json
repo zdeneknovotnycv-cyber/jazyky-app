@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_feelings_emotions_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Gelangweilt",
+  "title_cz": "Znuděný",
+  "vocabulary": [
+    {
+      "word": "gelangweilt",
+      "translation_cz": "znuděný",
+      "example": "Ich bin zu Hause gelangweilt.",
+      "example_cz": "Doma se nudím.",
+      "tts_text": "Ich bin zu Hause gelangweilt."
+    },
+    {
+      "word": "langweilig",
+      "translation_cz": "nudný",
+      "example": "Dieses Spiel ist etwas langweilig.",
+      "example_cz": "Tahle hra je trochu nudná.",
+      "tts_text": "Dieses Spiel ist etwas langweilig."
+    },
+    {
+      "word": "nichts zu tun",
+      "translation_cz": "nic na práci",
+      "example": "Ich habe heute nichts zu tun.",
+      "example_cz": "Dnes nemám nic na práci.",
+      "tts_text": "Ich habe heute nichts zu tun."
+    },
+    {
+      "word": "die Idee",
+      "translation_cz": "nápad",
+      "example": "Ich brauche eine lustige Idee.",
+      "example_cz": "Potřebuji zábavný nápad.",
+      "tts_text": "Ich brauche eine lustige Idee."
+    },
+    {
+      "word": "ein Spiel spielen",
+      "translation_cz": "zahrát si hru",
+      "example": "Lass uns zusammen ein Spiel spielen.",
+      "example_cz": "Pojďme si spolu zahrát hru.",
+      "tts_text": "Lass uns zusammen ein Spiel spielen."
+    },
+    {
+      "word": "unruhig",
+      "translation_cz": "neposedný",
+      "example": "Ich fühle mich unruhig, wenn mir langweilig ist.",
+      "example_cz": "Když se nudím, jsem neposedný.",
+      "tts_text": "Ich fühle mich unruhig, wenn mir langweilig ist."
+    },
+    {
+      "word": "malen",
+      "translation_cz": "kreslit",
+      "example": "Wenn mir langweilig ist, male ich Bilder.",
+      "example_cz": "Když se nudím, kreslím obrázky.",
+      "tts_text": "Wenn mir langweilig ist, male ich Bilder."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "gelangweilt",
+      "options": [
+        "znuděný",
+        "smutný",
+        "radost"
+      ],
+      "correct": "znuděný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bin zu Hause ___.",
+      "answer": "gelangweilt",
+      "hint_cz": "znuděný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "langweilig",
+          "cz": "nudný"
+        },
+        {
+          "target": "nichts zu tun",
+          "cz": "nic na práci"
+        },
+        {
+          "target": "die Idee",
+          "cz": "nápad"
+        },
+        {
+          "target": "ein Spiel spielen",
+          "cz": "zahrát si hru"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich fühle mich unruhig, wenn mir langweilig ist.",
+      "tts_text": "Ich fühle mich unruhig, wenn mir langweilig ist."
+    }
+  ]
+}

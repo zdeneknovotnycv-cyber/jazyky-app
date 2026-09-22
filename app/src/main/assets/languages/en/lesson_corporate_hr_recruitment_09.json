@@ -1,0 +1,46 @@
+{
+  "id": "en_corporate_hr_recruitment_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Employee Benefits Discussion",
+  "title_cz": "Rozhovor o zaměstnaneckých benefitech",
+  "vocabulary": [
+    {"word": "benefits", "translation_cz": "benefity", "example": "Our company offers great benefits.", "example_cz": "Naše společnost nabízí skvělé benefity.", "tts_text": "Our company offers great benefits."},
+    {"word": "health insurance", "translation_cz": "zdravotní pojištění", "example": "Health insurance is included in the package.", "example_cz": "Zdravotní pojištění je součástí balíčku.", "tts_text": "Health insurance is included in the package."},
+    {"word": "pension plan", "translation_cz": "penzijní připojištění", "example": "We also contribute to a pension plan.", "example_cz": "Přispíváme také na penzijní připojištění.", "tts_text": "We also contribute to a pension plan."},
+    {"word": "meal vouchers", "translation_cz": "stravenky", "example": "You will receive meal vouchers every month.", "example_cz": "Každý měsíc budete dostávat stravenky.", "tts_text": "You will receive meal vouchers every month."},
+    {"word": "sick days", "translation_cz": "sick days / dny volna při nemoci", "example": "We offer five sick days per year.", "example_cz": "Nabízíme pět sick days ročně.", "tts_text": "We offer five sick days per year."},
+    {"word": "home office", "translation_cz": "práce z domova", "example": "Home office is possible twice a week.", "example_cz": "Práce z domova je možná dvakrát týdně.", "tts_text": "Home office is possible twice a week."},
+    {"word": "eligible", "translation_cz": "mající nárok", "example": "All full-time employees are eligible for the bonus.", "example_cz": "Nárok na bonus mají všichni zaměstnanci na plný úvazek.", "tts_text": "All full-time employees are eligible for the bonus."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_benefits_overview",
+      "title": "Explaining the benefits package",
+      "title_cz": "Vysvětlení balíčku benefitů",
+      "lines": [
+        {"speaker": "A", "text": "Let me explain your benefits package.", "text_cz": "Vysvětlím vám váš balíček benefitů."},
+        {"speaker": "B", "text": "Great, does it include health insurance?", "text_cz": "Skvělé, zahrnuje zdravotní pojištění?"},
+        {"speaker": "A", "text": "Yes, along with meal vouchers and a pension plan.", "text_cz": "Ano, spolu se stravenkami a penzijním připojištěním."},
+        {"speaker": "B", "text": "That's very generous. Thank you for the details.", "text_cz": "To je velmi štědré. Děkuji za informace."}
+      ]
+    },
+    {
+      "id": "conv_home_office",
+      "title": "Asking about home office",
+      "title_cz": "Dotaz na práci z domova",
+      "lines": [
+        {"speaker": "A", "text": "Am I eligible for home office days?", "text_cz": "Mám nárok na dny práce z domova?"},
+        {"speaker": "B", "text": "Yes, home office is possible up to two days a week.", "text_cz": "Ano, práce z domova je možná až dva dny v týdnu."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "health insurance", "options": ["zdravotní pojištění", "stravenky", "penzijní připojištění"], "correct": "zdravotní pojištění"},
+    {"type": "fill_gap", "sentence": "You will receive ___ every month.", "answer": "meal vouchers", "hint_cz": "stravenky"},
+    {"type": "match_pairs", "pairs": [{"target": "benefits", "cz": "benefity"}, {"target": "pension plan", "cz": "penzijní připojištění"}, {"target": "home office", "cz": "práce z domova"}, {"target": "sick days", "cz": "sick days"}]},
+    {"type": "speak_and_check", "target_phrase": "Our company offers great benefits.", "tts_text": "Our company offers great benefits."},
+    {"type": "fill_gap", "sentence": "All full-time employees are ___ for the bonus.", "answer": "eligible", "hint_cz": "mající nárok"}
+  ]
+}

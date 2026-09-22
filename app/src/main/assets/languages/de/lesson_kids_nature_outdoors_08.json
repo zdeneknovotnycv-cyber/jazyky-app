@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_nature_outdoors_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Camping",
+  "title_cz": "Kempování",
+  "vocabulary": [
+    {
+      "word": "das Zelt",
+      "translation_cz": "stan",
+      "example": "Wir schlafen in einem Zelt.",
+      "example_cz": "Spíme ve stanu.",
+      "tts_text": "Wir schlafen in einem Zelt."
+    },
+    {
+      "word": "das Lagerfeuer",
+      "translation_cz": "táborák",
+      "example": "Wir sitzen um das Lagerfeuer.",
+      "example_cz": "Sedíme kolem táboráku.",
+      "tts_text": "Wir sitzen um das Lagerfeuer."
+    },
+    {
+      "word": "der Schlafsack",
+      "translation_cz": "spací pytel",
+      "example": "Ich schließe meinen Schlafsack.",
+      "example_cz": "Zapínám si spací pytel.",
+      "tts_text": "Ich schließe meinen Schlafsack."
+    },
+    {
+      "word": "die Taschenlampe",
+      "translation_cz": "baterka",
+      "example": "Ich benutze nachts eine Taschenlampe.",
+      "example_cz": "V noci používám baterku.",
+      "tts_text": "Ich benutze nachts eine Taschenlampe."
+    },
+    {
+      "word": "der Rucksack",
+      "translation_cz": "batoh",
+      "example": "Ich packe meinen Rucksack für den Ausflug.",
+      "example_cz": "Balím si batoh na výlet.",
+      "tts_text": "Ich packe meinen Rucksack für den Ausflug."
+    },
+    {
+      "word": "das Marshmallow",
+      "translation_cz": "marshmallow",
+      "example": "Wir rösten Marshmallows über dem Feuer.",
+      "example_cz": "Opékáme marshmallow nad ohněm.",
+      "tts_text": "Wir rösten Marshmallows über dem Feuer."
+    },
+    {
+      "word": "die Sterne",
+      "translation_cz": "hvězdy",
+      "example": "Wir schauen vom Zelt aus die Sterne an.",
+      "example_cz": "Ze stanu se díváme na hvězdy.",
+      "tts_text": "Wir schauen vom Zelt aus die Sterne an."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Zelt",
+      "options": [
+        "stan",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "stan"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir schlafen in einem ___.",
+      "answer": "das Zelt",
+      "hint_cz": "stan"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Lagerfeuer",
+          "cz": "táborák"
+        },
+        {
+          "target": "der Schlafsack",
+          "cz": "spací pytel"
+        },
+        {
+          "target": "die Taschenlampe",
+          "cz": "baterka"
+        },
+        {
+          "target": "der Rucksack",
+          "cz": "batoh"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir sitzen um das Lagerfeuer.",
+      "tts_text": "Wir sitzen um das Lagerfeuer."
+    }
+  ]
+}

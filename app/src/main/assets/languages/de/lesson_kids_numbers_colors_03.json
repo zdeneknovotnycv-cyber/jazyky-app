@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_numbers_colors_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Counting Objects",
+  "title_cz": "Počítání předmětů",
+  "vocabulary": [
+    {
+      "word": "zählen",
+      "translation_cz": "počítat",
+      "example": "Lass uns die Äpfel zählen.",
+      "example_cz": "Pojďme počítat jablka.",
+      "tts_text": "Lass uns die Äpfel zählen."
+    },
+    {
+      "word": "wie viele",
+      "translation_cz": "kolik",
+      "example": "Wie viele Bälle hast du?",
+      "example_cz": "Kolik máš míčů?",
+      "tts_text": "Wie viele Bälle hast du?"
+    },
+    {
+      "word": "die Äpfel",
+      "translation_cz": "jablka",
+      "example": "Es gibt vier Äpfel.",
+      "example_cz": "Jsou tam čtyři jablka.",
+      "tts_text": "Es gibt vier Äpfel."
+    },
+    {
+      "word": "die Spielsachen",
+      "translation_cz": "hračky",
+      "example": "Ich habe viele Spielsachen.",
+      "example_cz": "Mám hodně hraček.",
+      "tts_text": "Ich habe viele Spielsachen."
+    },
+    {
+      "word": "alle",
+      "translation_cz": "všechny",
+      "example": "Ich habe alle Bücher gezählt.",
+      "example_cz": "Spočítal jsem všechny knihy.",
+      "tts_text": "Ich habe alle Bücher gezählt."
+    },
+    {
+      "word": "keine",
+      "translation_cz": "žádný",
+      "example": "Es sind keine mehr übrig.",
+      "example_cz": "Nezbyl žádný.",
+      "tts_text": "Es sind keine mehr übrig."
+    },
+    {
+      "word": "mehr",
+      "translation_cz": "víc",
+      "example": "Ich möchte mehr Süßigkeiten.",
+      "example_cz": "Chci víc bonbonů.",
+      "tts_text": "Ich möchte mehr Süßigkeiten."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Spielsachen",
+      "options": [
+        "hračky",
+        "jablka",
+        "všechny"
+      ],
+      "correct": "hračky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es gibt vier ___.",
+      "answer": "Äpfel",
+      "hint_cz": "jablka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "zählen",
+          "cz": "počítat"
+        },
+        {
+          "target": "wie viele",
+          "cz": "kolik"
+        },
+        {
+          "target": "alle",
+          "cz": "všechny"
+        },
+        {
+          "target": "keine",
+          "cz": "žádný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich möchte mehr Süßigkeiten.",
+      "tts_text": "Ich möchte mehr Süßigkeiten."
+    }
+  ]
+}

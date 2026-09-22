@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_birthday_celebrations_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Family celebrations",
+  "title_cz": "Rodinné oslavy",
+  "vocabulary": [
+    {
+      "word": "celebration",
+      "translation_cz": "oslava",
+      "example": "We have a big family celebration.",
+      "example_cz": "Máme velkou rodinnou oslavu.",
+      "tts_text": "We have a big family celebration."
+    },
+    {
+      "word": "anniversary",
+      "translation_cz": "výročí",
+      "example": "My parents celebrate their anniversary.",
+      "example_cz": "Rodiče slaví své výročí.",
+      "tts_text": "My parents celebrate their anniversary."
+    },
+    {
+      "word": "grandparents",
+      "translation_cz": "prarodiče",
+      "example": "My grandparents come to visit.",
+      "example_cz": "Přijedou nás navštívit prarodiče.",
+      "tts_text": "My grandparents come to visit."
+    },
+    {
+      "word": "toast",
+      "translation_cz": "přípitek",
+      "example": "Dad makes a toast for the family.",
+      "example_cz": "Táta pronese přípitek pro rodinu.",
+      "tts_text": "Dad makes a toast for the family."
+    },
+    {
+      "word": "gather",
+      "translation_cz": "sejít se",
+      "example": "We gather around the table.",
+      "example_cz": "Scházíme se kolem stolu.",
+      "tts_text": "We gather around the table."
+    },
+    {
+      "word": "special day",
+      "translation_cz": "výjimečný den",
+      "example": "It is a special day for us.",
+      "example_cz": "Je to pro nás výjimečný den.",
+      "tts_text": "It is a special day for us."
+    },
+    {
+      "word": "hug",
+      "translation_cz": "obejmutí",
+      "example": "We give grandma a big hug.",
+      "example_cz": "Dáváme babičce velké obejmutí.",
+      "tts_text": "We give grandma a big hug."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "celebration",
+      "options": [
+        "oslava",
+        "výročí",
+        "prarodiče"
+      ],
+      "correct": "oslava"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My parents celebrate their ___.",
+      "answer": "anniversary",
+      "hint_cz": "výročí"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "grandparents",
+          "cz": "prarodiče"
+        },
+        {
+          "target": "toast",
+          "cz": "přípitek"
+        },
+        {
+          "target": "gather",
+          "cz": "sejít se"
+        },
+        {
+          "target": "special day",
+          "cz": "výjimečný den"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We give grandma a big hug.",
+      "tts_text": "We give grandma a big hug."
+    }
+  ]
+}

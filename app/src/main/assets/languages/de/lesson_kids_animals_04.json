@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_animals_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Animals at the Zoo",
+  "title_cz": "Zvířata v zoo",
+  "vocabulary": [
+    {
+      "word": "der Zoo",
+      "translation_cz": "zoo",
+      "example": "Wir gehen in den Zoo.",
+      "example_cz": "Jdeme do zoo.",
+      "tts_text": "Wir gehen in den Zoo."
+    },
+    {
+      "word": "die Giraffe",
+      "translation_cz": "žirafa",
+      "example": "Die Giraffe hat einen langen Hals.",
+      "example_cz": "Žirafa má dlouhý krk.",
+      "tts_text": "Die Giraffe hat einen langen Hals."
+    },
+    {
+      "word": "das Zebra",
+      "translation_cz": "zebra",
+      "example": "Das Zebra hat schwarz-weiße Streifen.",
+      "example_cz": "Zebra má černobílé pruhy.",
+      "tts_text": "Das Zebra hat schwarz-weiße Streifen."
+    },
+    {
+      "word": "der Panda",
+      "translation_cz": "panda",
+      "example": "Der Panda frisst Bambus.",
+      "example_cz": "Panda jí bambus.",
+      "tts_text": "Der Panda frisst Bambus."
+    },
+    {
+      "word": "das Krokodil",
+      "translation_cz": "krokodýl",
+      "example": "Das Krokodil lebt im Fluss.",
+      "example_cz": "Krokodýl žije v řece.",
+      "tts_text": "Das Krokodil lebt im Fluss."
+    },
+    {
+      "word": "der Käfig",
+      "translation_cz": "klec",
+      "example": "Der Vogel ist in einem Käfig.",
+      "example_cz": "Pták je v kleci.",
+      "tts_text": "Der Vogel ist in einem Käfig."
+    },
+    {
+      "word": "der Tierpfleger",
+      "translation_cz": "ošetřovatel",
+      "example": "Der Tierpfleger füttert die Tiere.",
+      "example_cz": "Ošetřovatel krmí zvířata.",
+      "tts_text": "Der Tierpfleger füttert die Tiere."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Panda",
+      "options": [
+        "panda",
+        "zebra",
+        "žirafa"
+      ],
+      "correct": "panda"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die ___ hat einen langen Hals.",
+      "answer": "Giraffe",
+      "hint_cz": "žirafa"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Zoo",
+          "cz": "zoo"
+        },
+        {
+          "target": "das Zebra",
+          "cz": "zebra"
+        },
+        {
+          "target": "das Krokodil",
+          "cz": "krokodýl"
+        },
+        {
+          "target": "der Tierpfleger",
+          "cz": "ošetřovatel"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Panda frisst Bambus.",
+      "tts_text": "Der Panda frisst Bambus."
+    }
+  ]
+}

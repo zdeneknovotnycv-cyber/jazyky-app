@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_toys_games_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Playing with Friends",
+  "title_cz": "Hraní si s kamarády",
+  "vocabulary": [
+    {
+      "word": "friend",
+      "translation_cz": "kamarád",
+      "example": "I play with my friend.",
+      "example_cz": "Hraji si se svým kamarádem.",
+      "tts_text": "I play with my friend."
+    },
+    {
+      "word": "together",
+      "translation_cz": "společně",
+      "example": "We play together every day.",
+      "example_cz": "Hrajeme si spolu každý den.",
+      "tts_text": "We play together every day."
+    },
+    {
+      "word": "Can I play too?",
+      "translation_cz": "Můžu si hrát taky?",
+      "example": "Can I play too, please?",
+      "example_cz": "Můžu si hrát taky, prosím?",
+      "tts_text": "Can I play too, please?"
+    },
+    {
+      "word": "team",
+      "translation_cz": "tým",
+      "example": "We are on the same team.",
+      "example_cz": "Jsme ve stejném týmu.",
+      "tts_text": "We are on the same team."
+    },
+    {
+      "word": "fun",
+      "translation_cz": "zábava",
+      "example": "Playing together is fun.",
+      "example_cz": "Hraní si spolu je zábava.",
+      "tts_text": "Playing together is fun."
+    },
+    {
+      "word": "take turns",
+      "translation_cz": "střídat se",
+      "example": "Let's take turns with the ball.",
+      "example_cz": "Střídejme se u míče.",
+      "tts_text": "Let's take turns with the ball."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "friend",
+      "options": [
+        "kamarád",
+        "tým",
+        "zábava"
+      ],
+      "correct": "kamarád"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We play ___ every day.",
+      "answer": "together",
+      "hint_cz": "spolu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Can I play too?",
+          "cz": "Můžu si hrát taky?"
+        },
+        {
+          "target": "team",
+          "cz": "tým"
+        },
+        {
+          "target": "fun",
+          "cz": "zábava"
+        },
+        {
+          "target": "take turns",
+          "cz": "střídat se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Can I play too, please?",
+      "tts_text": "Can I play too, please?"
+    }
+  ]
+}

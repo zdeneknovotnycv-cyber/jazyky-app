@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_marketing_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Marketing budget discussion",
+  "title_cz": "Diskuze o marketingovém rozpočtu",
+  "vocabulary": [
+    {
+      "word": "allocate the budget",
+      "translation_cz": "rozdělit rozpočet",
+      "example": "How should we allocate the budget this quarter?",
+      "example_cz": "Jak bychom měli rozdělit rozpočet toto čtvrtletí?",
+      "tts_text": "How should we allocate the budget this quarter?"
+    },
+    {
+      "word": "return on investment",
+      "translation_cz": "návratnost investice",
+      "example": "We need a good return on investment.",
+      "example_cz": "Potřebujeme dobrou návratnost investice.",
+      "tts_text": "We need a good return on investment."
+    },
+    {
+      "word": "cost per click",
+      "translation_cz": "cena za proklik",
+      "example": "The cost per click has increased recently.",
+      "example_cz": "Cena za proklik se nedávno zvýšila.",
+      "tts_text": "The cost per click has increased recently."
+    },
+    {
+      "word": "overspend",
+      "translation_cz": "překročit rozpočet",
+      "example": "We must avoid overspending on ads.",
+      "example_cz": "Musíme se vyhnout překročení rozpočtu na reklamu.",
+      "tts_text": "We must avoid overspending on ads."
+    },
+    {
+      "word": "cut costs",
+      "translation_cz": "snížit náklady",
+      "example": "We may need to cut costs on print materials.",
+      "example_cz": "Možná budeme muset snížit náklady na tištěné materiály.",
+      "tts_text": "We may need to cut costs on print materials."
+    },
+    {
+      "word": "approve the budget",
+      "translation_cz": "schválit rozpočet",
+      "example": "The director will approve the budget tomorrow.",
+      "example_cz": "Ředitel rozpočet schválí zítra.",
+      "tts_text": "The director will approve the budget tomorrow."
+    },
+    {
+      "word": "spending plan",
+      "translation_cz": "plán výdajů",
+      "example": "Please send me the updated spending plan.",
+      "example_cz": "Pošlete mi prosím aktualizovaný plán výdajů.",
+      "tts_text": "Please send me the updated spending plan."
+    },
+    {
+      "word": "cost-effective",
+      "translation_cz": "nákladově efektivní",
+      "example": "Social media ads are more cost-effective for us.",
+      "example_cz": "Reklama na sociálních sítích je pro nás nákladově efektivnější.",
+      "tts_text": "Social media ads are more cost-effective for us."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_07",
+      "title": "Discussing next quarter's marketing budget",
+      "title_cz": "Diskuze o marketingovém rozpočtu na příští čtvrtletí",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "How should we allocate the budget this quarter?",
+          "text_cz": "Jak bychom měli rozdělit rozpočet toto čtvrtletí?"
+        },
+        {
+          "speaker": "B",
+          "text": "The cost per click has increased, so let's focus more on cost-effective channels.",
+          "text_cz": "Cena za proklik se zvýšila, tak se zaměřme více na nákladově efektivní kanály."
+        },
+        {
+          "speaker": "A",
+          "text": "Agreed, we need a good return on investment. We should cut costs on print materials.",
+          "text_cz": "Souhlasím, potřebujeme dobrou návratnost investice. Měli bychom snížit náklady na tištěné materiály."
+        },
+        {
+          "speaker": "B",
+          "text": "I'll prepare the updated spending plan for the director to approve.",
+          "text_cz": "Připravím aktualizovaný plán výdajů, aby ho ředitel schválil."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "return on investment",
+      "options": [
+        "návratnost investice",
+        "cena za proklik",
+        "plán výdajů"
+      ],
+      "correct": "návratnost investice"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We must avoid ___ on ads.",
+      "answer": "overspending",
+      "hint_cz": "překročení rozpočtu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "cost per click",
+          "cz": "cena za proklik"
+        },
+        {
+          "target": "cut costs",
+          "cz": "snížit náklady"
+        },
+        {
+          "target": "approve the budget",
+          "cz": "schválit rozpočet"
+        },
+        {
+          "target": "cost-effective",
+          "cz": "nákladově efektivní"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "How should we allocate the budget this quarter?",
+      "tts_text": "How should we allocate the budget this quarter?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please send me the updated spending ___.",
+      "answer": "plan",
+      "hint_cz": "plán"
+    }
+  ]
+}

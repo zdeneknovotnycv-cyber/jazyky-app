@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_meetings_intros_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Tagesordnung erstellen",
+  "title_cz": "Sestavení programu jednání",
+  "vocabulary": [
+    {
+      "word": "der Tagesordnungspunkt",
+      "translation_cz": "bod programu",
+      "example": "Der erste Tagesordnungspunkt ist die Budgetübersicht.",
+      "example_cz": "Prvním bodem programu je revize rozpočtu.",
+      "tts_text": "Der erste Tagesordnungspunkt ist die Budgetübersicht."
+    },
+    {
+      "word": "verteilen",
+      "translation_cz": "rozeslat",
+      "example": "Ich verteile die Tagesordnung vor dem Meeting.",
+      "example_cz": "Program jednání rozešlu před schůzkou.",
+      "tts_text": "Ich verteile die Tagesordnung vor dem Meeting."
+    },
+    {
+      "word": "priorisieren",
+      "translation_cz": "upřednostnit",
+      "example": "Wir müssen die dringendsten Themen priorisieren.",
+      "example_cz": "Musíme upřednostnit nejnaléhavější témata.",
+      "tts_text": "Wir müssen die dringendsten Themen priorisieren."
+    },
+    {
+      "word": "Zeit einplanen",
+      "translation_cz": "vyhradit čas",
+      "example": "Lasst uns zehn Minuten pro Thema einplanen.",
+      "example_cz": "Vyhraďme deset minut na téma.",
+      "tts_text": "Lasst uns zehn Minuten pro Thema einplanen."
+    },
+    {
+      "word": "das Thema",
+      "translation_cz": "téma",
+      "example": "Wie viele Themen haben wir heute?",
+      "example_cz": "Kolik témat máme dnes?",
+      "tts_text": "Wie viele Themen haben wir heute?"
+    },
+    {
+      "word": "zur Tagesordnung hinzufügen",
+      "translation_cz": "přidat do programu",
+      "example": "Können wir das zur Tagesordnung hinzufügen?",
+      "example_cz": "Můžeme to přidat do programu?",
+      "tts_text": "Können wir das zur Tagesordnung hinzufügen?"
+    },
+    {
+      "word": "im Voraus",
+      "translation_cz": "předem",
+      "example": "Bitte senden Sie Kommentare im Voraus.",
+      "example_cz": "Připomínky pošlete prosím předem.",
+      "tts_text": "Bitte senden Sie Kommentare im Voraus."
+    },
+    {
+      "word": "fertigstellen",
+      "translation_cz": "dokončit / uzavřít",
+      "example": "Lasst uns die Tagesordnung heute fertigstellen.",
+      "example_cz": "Pojďme dnes uzavřít program jednání.",
+      "tts_text": "Lasst uns die Tagesordnung heute fertigstellen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_set_agenda",
+      "title": "Die Tagesordnung vorbereiten",
+      "title_cz": "Příprava programu jednání",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Können wir die Budgetübersicht zur Tagesordnung hinzufügen?",
+          "text_cz": "Můžeme přidat revizi rozpočtu do programu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar. Lasst uns fünfzehn Minuten für dieses Thema einplanen.",
+          "text_cz": "Jasně. Vyhraďme na to téma patnáct minut."
+        },
+        {
+          "speaker": "A",
+          "text": "Wir sollten es priorisieren, da es dringend ist.",
+          "text_cz": "Měli bychom to upřednostnit, protože je to naléhavé."
+        },
+        {
+          "speaker": "B",
+          "text": "Einverstanden. Ich verteile die finale Tagesordnung im Voraus.",
+          "text_cz": "Souhlasím. Finální program rozešlu předem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "priorisieren",
+      "options": [
+        "upřednostnit",
+        "rozeslat",
+        "dokončit"
+      ],
+      "correct": "upřednostnit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ die Tagesordnung vor dem Meeting.",
+      "answer": "verteile",
+      "hint_cz": "rozeslat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Thema",
+          "cz": "téma"
+        },
+        {
+          "target": "im Voraus",
+          "cz": "předem"
+        },
+        {
+          "target": "fertigstellen",
+          "cz": "dokončit"
+        },
+        {
+          "target": "Zeit einplanen",
+          "cz": "vyhradit čas"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lasst uns die Tagesordnung heute fertigstellen.",
+      "tts_text": "Lasst uns die Tagesordnung heute fertigstellen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Können wir das zur ___ hinzufügen?",
+      "answer": "Tagesordnung",
+      "hint_cz": "program"
+    }
+  ]
+}

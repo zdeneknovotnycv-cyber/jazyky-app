@@ -1,0 +1,46 @@
+{
+  "id": "de_corporate_finance_budgets_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine Bestellung anfordern",
+  "title_cz": "Žádost o objednávku",
+  "vocabulary": [
+    {"word": "die Bestellung", "translation_cz": "objednávka", "example": "Bitte erstellen Sie eine Bestellung für die neuen Laptops.", "example_cz": "Vytvořte prosím objednávku na nové notebooky.", "tts_text": "Bitte erstellen Sie eine Bestellung für die neuen Laptops."},
+    {"word": "der Lieferant", "translation_cz": "dodavatel", "example": "Der Lieferant benötigt eine unterschriebene Bestellung.", "example_cz": "Dodavatel vyžaduje podepsanou objednávku.", "tts_text": "Der Lieferant benötigt eine unterschriebene Bestellung."},
+    {"word": "das Angebot", "translation_cz": "cenová nabídka", "example": "Wir haben ein Angebot vom Lieferanten erhalten.", "example_cz": "Od dodavatele jsme obdrželi cenovou nabídku.", "tts_text": "Wir haben ein Angebot vom Lieferanten erhalten."},
+    {"word": "der Stückpreis", "translation_cz": "jednotková cena", "example": "Wie hoch ist der Stückpreis für diesen Artikel?", "example_cz": "Jaká je jednotková cena tohoto zboží?", "tts_text": "Wie hoch ist der Stückpreis für diesen Artikel?"},
+    {"word": "die Lieferzeit", "translation_cz": "dodací lhůta", "example": "Die Lieferzeit beträgt etwa zwei Wochen.", "example_cz": "Dodací lhůta je zhruba dva týdny.", "tts_text": "Die Lieferzeit beträgt etwa zwei Wochen."},
+    {"word": "freigeben", "translation_cz": "odsouhlasit / schválit", "example": "Ich brauche die Freigabe der Geschäftsführung für diese Bestellung.", "example_cz": "Potřebuji, aby tuto objednávku schválilo vedení.", "tts_text": "Ich brauche die Freigabe der Geschäftsführung für diese Bestellung."},
+    {"word": "die Menge", "translation_cz": "množství", "example": "Bitte bestätigen Sie die Menge vor der Bestellung.", "example_cz": "Před objednáním prosím potvrďte množství.", "tts_text": "Bitte bestätigen Sie die Menge vor der Bestellung."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_purchase_order",
+      "title": "Um eine Bestellung bitten",
+      "title_cz": "Žádost o vystavení objednávky",
+      "lines": [
+        {"speaker": "A", "text": "Könnten Sie eine Bestellung für zehn neue Laptops erstellen?", "text_cz": "Mohl byste vytvořit objednávku na deset nových notebooků?"},
+        {"speaker": "B", "text": "Klar. Haben Sie bereits ein Angebot vom Lieferanten?", "text_cz": "Jistě. Máte již cenovou nabídku od dodavatele?"},
+        {"speaker": "A", "text": "Ja, der Stückpreis liegt bei sechshundert Euro.", "text_cz": "Ano, jednotková cena je šest set eur za kus."},
+        {"speaker": "B", "text": "Gut, ich lasse es heute von der Geschäftsführung freigeben.", "text_cz": "Dobře, dnes to nechám schválit vedením."}
+      ]
+    },
+    {
+      "id": "conv_delivery_time",
+      "title": "Die Lieferzeit prüfen",
+      "title_cz": "Kontrola dodací lhůty",
+      "lines": [
+        {"speaker": "A", "text": "Wie lange ist die erwartete Lieferzeit für diese Bestellung?", "text_cz": "Jaká je očekávaná dodací lhůta pro tuto objednávku?"},
+        {"speaker": "B", "text": "Etwa zwei Wochen, sobald wir die Menge bestätigt haben.", "text_cz": "Zhruba dva týdny, jakmile potvrdíme množství."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "der Lieferant", "options": ["dodavatel", "objednávka", "množství"], "correct": "dodavatel"},
+    {"type": "fill_gap", "sentence": "Wie hoch ist der ___ für diesen Artikel?", "answer": "Stückpreis", "hint_cz": "jednotková cena"},
+    {"type": "match_pairs", "pairs": [{"target": "die Bestellung", "cz": "objednávka"}, {"target": "das Angebot", "cz": "cenová nabídka"}, {"target": "die Lieferzeit", "cz": "dodací lhůta"}, {"target": "die Menge", "cz": "množství"}]},
+    {"type": "speak_and_check", "target_phrase": "Ich brauche die Freigabe der Geschäftsführung für diese Bestellung.", "tts_text": "Ich brauche die Freigabe der Geschäftsführung für diese Bestellung."},
+    {"type": "fill_gap", "sentence": "Die ___ beträgt etwa zwei Wochen.", "answer": "Lieferzeit", "hint_cz": "dodací lhůta"}
+  ]
+}

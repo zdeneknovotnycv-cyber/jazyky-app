@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_toys_games_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Lieblingsspielzeug",
+  "title_cz": "Oblíbené hračky",
+  "vocabulary": [
+    {
+      "word": "das Spielzeug",
+      "translation_cz": "hračka",
+      "example": "Das ist mein Lieblingsspielzeug.",
+      "example_cz": "Toto je moje oblíbená hračka.",
+      "tts_text": "Das ist mein Lieblingsspielzeug."
+    },
+    {
+      "word": "der Teddybär",
+      "translation_cz": "plyšový medvídek",
+      "example": "Ich schlafe mit meinem Teddybären.",
+      "example_cz": "Spím se svým plyšovým medvídkem.",
+      "tts_text": "Ich schlafe mit meinem Teddybären."
+    },
+    {
+      "word": "der Ball",
+      "translation_cz": "míč",
+      "example": "Ich spiele mit einem Ball.",
+      "example_cz": "Hraji si s míčem.",
+      "tts_text": "Ich spiele mit einem Ball."
+    },
+    {
+      "word": "das Auto",
+      "translation_cz": "autíčko",
+      "example": "Mein Spielzeugauto ist rot.",
+      "example_cz": "Moje autíčko je červené.",
+      "tts_text": "Mein Spielzeugauto ist rot."
+    },
+    {
+      "word": "der Roboter",
+      "translation_cz": "robot",
+      "example": "Der Roboter kann laufen.",
+      "example_cz": "Robot umí chodit.",
+      "tts_text": "Der Roboter kann laufen."
+    },
+    {
+      "word": "spielen",
+      "translation_cz": "hrát si",
+      "example": "Ich spiele gern mit Spielzeug.",
+      "example_cz": "Rád si hraji s hračkami.",
+      "tts_text": "Ich spiele gern mit Spielzeug."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Teddybär",
+      "options": [
+        "plyšový medvídek",
+        "míč",
+        "robot"
+      ],
+      "correct": "plyšový medvídek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich spiele mit einem ___.",
+      "answer": "Ball",
+      "hint_cz": "míčem"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Spielzeug",
+          "cz": "hračka"
+        },
+        {
+          "target": "das Auto",
+          "cz": "autíčko"
+        },
+        {
+          "target": "der Roboter",
+          "cz": "robot"
+        },
+        {
+          "target": "spielen",
+          "cz": "hrát si"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das ist mein Lieblingsspielzeug.",
+      "tts_text": "Das ist mein Lieblingsspielzeug."
+    }
+  ]
+}

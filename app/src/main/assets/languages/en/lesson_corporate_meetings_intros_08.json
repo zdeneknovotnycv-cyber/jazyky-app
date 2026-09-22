@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_meetings_intros_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Taking meeting minutes",
+  "title_cz": "Zápis z jednání",
+  "vocabulary": [
+    {
+      "word": "take notes",
+      "translation_cz": "dělat si poznámky",
+      "example": "I will take notes during the meeting.",
+      "example_cz": "Budu si dělat poznámky během schůzky.",
+      "tts_text": "I will take notes during the meeting."
+    },
+    {
+      "word": "decision",
+      "translation_cz": "rozhodnutí",
+      "example": "We need to record every decision made.",
+      "example_cz": "Musíme zaznamenat každé přijaté rozhodnutí.",
+      "tts_text": "We need to record every decision made."
+    },
+    {
+      "word": "key point",
+      "translation_cz": "klíčový bod",
+      "example": "What was the key point of that discussion?",
+      "example_cz": "Jaký byl klíčový bod té diskuze?",
+      "tts_text": "What was the key point of that discussion?"
+    },
+    {
+      "word": "distribute",
+      "translation_cz": "rozeslat",
+      "example": "I'll distribute the minutes tomorrow.",
+      "example_cz": "Zápis rozešlu zítra.",
+      "tts_text": "I'll distribute the minutes tomorrow."
+    },
+    {
+      "word": "responsible person",
+      "translation_cz": "zodpovědná osoba",
+      "example": "Who is the responsible person for this task?",
+      "example_cz": "Kdo je zodpovědná osoba za tento úkol?",
+      "tts_text": "Who is the responsible person for this task?"
+    },
+    {
+      "word": "deadline",
+      "translation_cz": "termín",
+      "example": "Please note the deadline for each task.",
+      "example_cz": "Zapište si prosím termín pro každý úkol.",
+      "tts_text": "Please note the deadline for each task."
+    },
+    {
+      "word": "approve",
+      "translation_cz": "schválit",
+      "example": "The minutes need to be approved by everyone.",
+      "example_cz": "Zápis musí schválit všichni.",
+      "tts_text": "The minutes need to be approved by everyone."
+    },
+    {
+      "word": "record",
+      "translation_cz": "zaznamenat",
+      "example": "Let's record who is responsible for what.",
+      "example_cz": "Zaznamenejme, kdo je za co zodpovědný.",
+      "tts_text": "Let's record who is responsible for what."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_minutes",
+      "title": "Discussing who takes the minutes",
+      "title_cz": "Kdo udělá zápis z jednání",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Can you take notes during today's meeting?",
+          "text_cz": "Můžeš si dnes na schůzce dělat poznámky?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. Should I record every decision we make?",
+          "text_cz": "Jasně. Mám zaznamenat každé rozhodnutí, které uděláme?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, and please note the responsible person for each task.",
+          "text_cz": "Ano, a prosím zapiš si zodpovědnou osobu za každý úkol."
+        },
+        {
+          "speaker": "B",
+          "text": "Got it. I'll distribute the minutes by email tomorrow.",
+          "text_cz": "Rozumím. Zápis rozešlu e-mailem zítra."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "decision",
+      "options": [
+        "rozhodnutí",
+        "termín",
+        "zápis"
+      ],
+      "correct": "rozhodnutí"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'll ___ the minutes tomorrow.",
+      "answer": "distribute",
+      "hint_cz": "rozeslat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "take notes",
+          "cz": "dělat si poznámky"
+        },
+        {
+          "target": "approve",
+          "cz": "schválit"
+        },
+        {
+          "target": "key point",
+          "cz": "klíčový bod"
+        },
+        {
+          "target": "deadline",
+          "cz": "termín"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I will take notes during the meeting.",
+      "tts_text": "I will take notes during the meeting."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Who is the ___ person for this task?",
+      "answer": "responsible",
+      "hint_cz": "zodpovědná"
+    }
+  ]
+}

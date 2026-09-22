@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_body_health_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Exercise for Kids",
+  "title_cz": "Cvičení pro děti",
+  "vocabulary": [
+    {
+      "word": "trainieren",
+      "translation_cz": "cvičit",
+      "example": "Ich trainiere jeden Morgen.",
+      "example_cz": "Cvičím každé ráno.",
+      "tts_text": "Ich trainiere jeden Morgen."
+    },
+    {
+      "word": "laufen",
+      "translation_cz": "běhat",
+      "example": "Ich laufe gern im Park.",
+      "example_cz": "Rád běhám v parku.",
+      "tts_text": "Ich laufe gern im Park."
+    },
+    {
+      "word": "springen",
+      "translation_cz": "skákat",
+      "example": "Ich kann sehr hoch springen.",
+      "example_cz": "Umím skákat velmi vysoko.",
+      "tts_text": "Ich kann sehr hoch springen."
+    },
+    {
+      "word": "sich dehnen",
+      "translation_cz": "protahovat se",
+      "example": "Wir dehnen uns vor dem Sport.",
+      "example_cz": "Před sportem se protahujeme.",
+      "tts_text": "Wir dehnen uns vor dem Sport."
+    },
+    {
+      "word": "stark",
+      "translation_cz": "silný",
+      "example": "Sport macht mich stark.",
+      "example_cz": "Cvičení mě dělá silným.",
+      "tts_text": "Sport macht mich stark."
+    },
+    {
+      "word": "draußen spielen",
+      "translation_cz": "hrát si venku",
+      "example": "Ich spiele nach der Schule draußen.",
+      "example_cz": "Po škole si hraji venku.",
+      "tts_text": "Ich spiele nach der Schule draußen."
+    },
+    {
+      "word": "die Energie",
+      "translation_cz": "energie",
+      "example": "Sport gibt mir Energie.",
+      "example_cz": "Cvičení mi dává energii.",
+      "tts_text": "Sport gibt mir Energie."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "laufen",
+      "options": [
+        "běhat",
+        "spát",
+        "jíst"
+      ],
+      "correct": "běhat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich kann sehr hoch ___.",
+      "answer": "springen",
+      "hint_cz": "skákat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sich dehnen",
+          "cz": "protahovat se"
+        },
+        {
+          "target": "stark",
+          "cz": "silný"
+        },
+        {
+          "target": "draußen spielen",
+          "cz": "hrát si venku"
+        },
+        {
+          "target": "die Energie",
+          "cz": "energie"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich trainiere jeden Morgen.",
+      "tts_text": "Ich trainiere jeden Morgen."
+    }
+  ]
+}

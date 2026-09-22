@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_shopping_kids_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Paying at the checkout (simple)",
+  "title_cz": "Placení u pokladny (jednoduše)",
+  "vocabulary": [
+    {
+      "word": "checkout",
+      "translation_cz": "pokladna",
+      "example": "We wait at the checkout.",
+      "example_cz": "Čekáme u pokladny.",
+      "tts_text": "We wait at the checkout."
+    },
+    {
+      "word": "pay",
+      "translation_cz": "zaplatit",
+      "example": "Mom pays for the shopping.",
+      "example_cz": "Máma platí za nákup.",
+      "tts_text": "Mom pays for the shopping."
+    },
+    {
+      "word": "receipt",
+      "translation_cz": "účtenka",
+      "example": "I get a receipt after paying.",
+      "example_cz": "Po zaplacení dostanu účtenku.",
+      "tts_text": "I get a receipt after paying."
+    },
+    {
+      "word": "change",
+      "translation_cz": "drobné, výdaj",
+      "example": "The cashier gives me the change.",
+      "example_cz": "Pokladní mi dá drobné.",
+      "tts_text": "The cashier gives me the change."
+    },
+    {
+      "word": "card",
+      "translation_cz": "karta",
+      "example": "Mom pays with a card.",
+      "example_cz": "Máma platí kartou.",
+      "tts_text": "Mom pays with a card."
+    },
+    {
+      "word": "cash",
+      "translation_cz": "hotovost",
+      "example": "Sometimes we pay with cash.",
+      "example_cz": "Někdy platíme hotově.",
+      "tts_text": "Sometimes we pay with cash."
+    },
+    {
+      "word": "bag",
+      "translation_cz": "taška",
+      "example": "I carry the shopping bag.",
+      "example_cz": "Nesu nákupní tašku.",
+      "tts_text": "I carry the shopping bag."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "checkout",
+      "options": [
+        "pokladna",
+        "zaplatit",
+        "účtenka"
+      ],
+      "correct": "pokladna"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mom ___s for the shopping.",
+      "answer": "pay",
+      "hint_cz": "zaplatit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "receipt",
+          "cz": "účtenka"
+        },
+        {
+          "target": "change",
+          "cz": "drobné, výdaj"
+        },
+        {
+          "target": "card",
+          "cz": "karta"
+        },
+        {
+          "target": "cash",
+          "cz": "hotovost"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I carry the shopping bag.",
+      "tts_text": "I carry the shopping bag."
+    }
+  ]
+}

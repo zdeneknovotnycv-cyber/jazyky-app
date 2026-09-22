@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_shopping_kids_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Buying school supplies",
+  "title_cz": "Nákup školních potřeb",
+  "vocabulary": [
+    {
+      "word": "school supplies",
+      "translation_cz": "školní potřeby",
+      "example": "We buy school supplies in August.",
+      "example_cz": "Školní potřeby kupujeme v srpnu.",
+      "tts_text": "We buy school supplies in August."
+    },
+    {
+      "word": "notebook",
+      "translation_cz": "sešit",
+      "example": "I need a new notebook.",
+      "example_cz": "Potřebuji nový sešit.",
+      "tts_text": "I need a new notebook."
+    },
+    {
+      "word": "pencil case",
+      "translation_cz": "penál",
+      "example": "I keep my pens in a pencil case.",
+      "example_cz": "Pera mám v penálu.",
+      "tts_text": "I keep my pens in a pencil case."
+    },
+    {
+      "word": "eraser",
+      "translation_cz": "guma",
+      "example": "I use an eraser to fix mistakes.",
+      "example_cz": "Chyby opravuji gumou.",
+      "tts_text": "I use an eraser to fix mistakes."
+    },
+    {
+      "word": "crayons",
+      "translation_cz": "pastelky",
+      "example": "I draw with colorful crayons.",
+      "example_cz": "Kreslím barevnými pastelkami.",
+      "tts_text": "I draw with colorful crayons."
+    },
+    {
+      "word": "ruler",
+      "translation_cz": "pravítko",
+      "example": "I draw a line with a ruler.",
+      "example_cz": "Kreslím čáru pravítkem.",
+      "tts_text": "I draw a line with a ruler."
+    },
+    {
+      "word": "list",
+      "translation_cz": "seznam",
+      "example": "Mom has a shopping list.",
+      "example_cz": "Máma má nákupní seznam.",
+      "tts_text": "Mom has a shopping list."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "school supplies",
+      "options": [
+        "školní potřeby",
+        "sešit",
+        "penál"
+      ],
+      "correct": "školní potřeby"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I need a new ___.",
+      "answer": "notebook",
+      "hint_cz": "sešit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "pencil case",
+          "cz": "penál"
+        },
+        {
+          "target": "eraser",
+          "cz": "guma"
+        },
+        {
+          "target": "crayons",
+          "cz": "pastelky"
+        },
+        {
+          "target": "ruler",
+          "cz": "pravítko"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Mom has a shopping list.",
+      "tts_text": "Mom has a shopping list."
+    }
+  ]
+}

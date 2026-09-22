@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_food_drinks_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Likes and Dislikes about Food",
+  "title_cz": "Co mám a nemám rád na jídle",
+  "vocabulary": [
+    {
+      "word": "ich mag",
+      "translation_cz": "mám rád",
+      "example": "Ich mag Pizza.",
+      "example_cz": "Mám rád pizzu.",
+      "tts_text": "Ich mag Pizza."
+    },
+    {
+      "word": "ich mag nicht",
+      "translation_cz": "nemám rád",
+      "example": "Ich mag Fisch nicht.",
+      "example_cz": "Nemám rád rybu.",
+      "tts_text": "Ich mag Fisch nicht."
+    },
+    {
+      "word": "das Lieblingsessen",
+      "translation_cz": "oblíbené jídlo",
+      "example": "Mein Lieblingsessen sind Nudeln.",
+      "example_cz": "Moje oblíbené jídlo jsou těstoviny.",
+      "tts_text": "Mein Lieblingsessen sind Nudeln."
+    },
+    {
+      "word": "lecker",
+      "translation_cz": "výborný",
+      "example": "Diese Suppe ist lecker.",
+      "example_cz": "Tahle polévka je výborná.",
+      "tts_text": "Diese Suppe ist lecker."
+    },
+    {
+      "word": "eklig",
+      "translation_cz": "hnusné (jídlo)",
+      "example": "Das schmeckt eklig.",
+      "example_cz": "Tohle chutná hnusně.",
+      "tts_text": "Das schmeckt eklig."
+    },
+    {
+      "word": "probieren",
+      "translation_cz": "vyzkoušet",
+      "example": "Ich möchte neues Essen probieren.",
+      "example_cz": "Chci vyzkoušet nové jídlo.",
+      "tts_text": "Ich möchte neues Essen probieren."
+    },
+    {
+      "word": "hungrig",
+      "translation_cz": "hladový",
+      "example": "Ich bin jetzt hungrig.",
+      "example_cz": "Teď mám hlad.",
+      "tts_text": "Ich bin jetzt hungrig."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "ich mag",
+      "options": [
+        "mám rád",
+        "nemám rád",
+        "hladový"
+      ],
+      "correct": "mám rád"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Diese Suppe ist ___.",
+      "answer": "lecker",
+      "hint_cz": "výborná"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Lieblingsessen",
+          "cz": "oblíbené jídlo"
+        },
+        {
+          "target": "eklig",
+          "cz": "hnusné (jídlo)"
+        },
+        {
+          "target": "probieren",
+          "cz": "vyzkoušet"
+        },
+        {
+          "target": "hungrig",
+          "cz": "hladový"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich mag Pizza.",
+      "tts_text": "Ich mag Pizza."
+    }
+  ]
+}

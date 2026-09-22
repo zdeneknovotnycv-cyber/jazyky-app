@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_marketing_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Customer feedback for marketing",
+  "title_cz": "Zpětná vazba zákazníků pro marketing",
+  "vocabulary": [
+    {
+      "word": "gather feedback",
+      "translation_cz": "shromažďovat zpětnou vazbu",
+      "example": "We gather feedback through short surveys.",
+      "example_cz": "Zpětnou vazbu shromažďujeme prostřednictvím krátkých dotazníků.",
+      "tts_text": "We gather feedback through short surveys."
+    },
+    {
+      "word": "customer insights",
+      "translation_cz": "poznatky o zákaznících",
+      "example": "These customer insights will shape our next campaign.",
+      "example_cz": "Tyto poznatky o zákaznících ovlivní naši další kampaň.",
+      "tts_text": "These customer insights will shape our next campaign."
+    },
+    {
+      "word": "satisfaction score",
+      "translation_cz": "skóre spokojenosti",
+      "example": "Our satisfaction score improved this quarter.",
+      "example_cz": "Naše skóre spokojenosti se toto čtvrtletí zlepšilo.",
+      "tts_text": "Our satisfaction score improved this quarter."
+    },
+    {
+      "word": "pain point",
+      "translation_cz": "problémové místo",
+      "example": "Slow delivery is a common pain point for customers.",
+      "example_cz": "Pomalé doručení je pro zákazníky časté problémové místo.",
+      "tts_text": "Slow delivery is a common pain point for customers."
+    },
+    {
+      "word": "testimonial",
+      "translation_cz": "reference, ohlas",
+      "example": "We can use this testimonial in our ads.",
+      "example_cz": "Tento ohlas můžeme použít v naší reklamě.",
+      "tts_text": "We can use this testimonial in our ads."
+    },
+    {
+      "word": "case study",
+      "translation_cz": "případová studie",
+      "example": "Let's write a case study based on this feedback.",
+      "example_cz": "Pojďme napsat případovou studii na základě této zpětné vazby.",
+      "tts_text": "Let's write a case study based on this feedback."
+    },
+    {
+      "word": "Net Promoter Score",
+      "translation_cz": "index čisté spokojenosti",
+      "example": "Our Net Promoter Score went up after the update.",
+      "example_cz": "Náš index čisté spokojenosti po aktualizaci vzrostl.",
+      "tts_text": "Our Net Promoter Score went up after the update."
+    },
+    {
+      "word": "analyze the data",
+      "translation_cz": "analyzovat data",
+      "example": "We need to analyze the data before deciding.",
+      "example_cz": "Před rozhodnutím musíme analyzovat data.",
+      "tts_text": "We need to analyze the data before deciding."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_04",
+      "title": "Reviewing customer feedback with the marketing team",
+      "title_cz": "Kontrola zpětné vazby zákazníků s marketingovým týmem",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "We gathered feedback from last month's survey. Our satisfaction score improved.",
+          "text_cz": "Shromáždili jsme zpětnou vazbu z minulého dotazníku. Naše skóre spokojenosti se zlepšilo."
+        },
+        {
+          "speaker": "B",
+          "text": "Great, what were the main customer insights?",
+          "text_cz": "Skvělé, jaké byly hlavní poznatky o zákaznících?"
+        },
+        {
+          "speaker": "A",
+          "text": "Slow delivery is still a pain point. But we got a great testimonial we can use in ads.",
+          "text_cz": "Pomalé doručení je stále problémové místo. Ale dostali jsme skvělý ohlas, který můžeme použít v reklamě."
+        },
+        {
+          "speaker": "B",
+          "text": "Perfect, let's analyze the data further and write a case study.",
+          "text_cz": "Perfektní, pojďme data dále analyzovat a napsat případovou studii."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "customer insights",
+      "options": [
+        "poznatky o zákaznících",
+        "problémové místo",
+        "reference, ohlas"
+      ],
+      "correct": "poznatky o zákaznících"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We ___ feedback through short surveys.",
+      "answer": "gather",
+      "hint_cz": "shromažďujeme"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "satisfaction score",
+          "cz": "skóre spokojenosti"
+        },
+        {
+          "target": "pain point",
+          "cz": "problémové místo"
+        },
+        {
+          "target": "testimonial",
+          "cz": "reference, ohlas"
+        },
+        {
+          "target": "case study",
+          "cz": "případová studie"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "These customer insights will shape our next campaign.",
+      "tts_text": "These customer insights will shape our next campaign."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We need to ___ the data before deciding.",
+      "answer": "analyze",
+      "hint_cz": "analyzovat"
+    }
+  ]
+}

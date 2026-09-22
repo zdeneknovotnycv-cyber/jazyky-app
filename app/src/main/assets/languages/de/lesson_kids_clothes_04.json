@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_clothes_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Shoes",
+  "title_cz": "Boty",
+  "vocabulary": [
+    {
+      "word": "die Schuhe",
+      "translation_cz": "boty",
+      "example": "Meine Schuhe sind schwarz.",
+      "example_cz": "Mé boty jsou černé.",
+      "tts_text": "Meine Schuhe sind schwarz."
+    },
+    {
+      "word": "die Turnschuhe",
+      "translation_cz": "tenisky",
+      "example": "Ich laufe in meinen Turnschuhen.",
+      "example_cz": "V teniskách běhám.",
+      "tts_text": "Ich laufe in meinen Turnschuhen."
+    },
+    {
+      "word": "die Hausschuhe",
+      "translation_cz": "papuče",
+      "example": "Ich trage zu Hause Hausschuhe.",
+      "example_cz": "Doma nosím papuče.",
+      "tts_text": "Ich trage zu Hause Hausschuhe."
+    },
+    {
+      "word": "die Schnürsenkel",
+      "translation_cz": "tkaničky",
+      "example": "Meine Schnürsenkel sind offen.",
+      "example_cz": "Mám rozvázané tkaničky.",
+      "tts_text": "Meine Schnürsenkel sind offen."
+    },
+    {
+      "word": "die Größe",
+      "translation_cz": "velikost",
+      "example": "Welche Schuhgröße hast du?",
+      "example_cz": "Jakou máš velikost bot?",
+      "tts_text": "Welche Schuhgröße hast du?"
+    },
+    {
+      "word": "die Gummistiefel",
+      "translation_cz": "holínky",
+      "example": "Ich trage Gummistiefel, wenn es regnet.",
+      "example_cz": "Když prší, nosím holínky.",
+      "tts_text": "Ich trage Gummistiefel, wenn es regnet."
+    },
+    {
+      "word": "anprobieren",
+      "translation_cz": "zkoušet si",
+      "example": "Ich probiere neue Schuhe an.",
+      "example_cz": "Zkouším si nové boty.",
+      "tts_text": "Ich probiere neue Schuhe an."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Hausschuhe",
+      "options": [
+        "papuče",
+        "tenisky",
+        "boty"
+      ],
+      "correct": "papuče"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Meine ___ sind offen.",
+      "answer": "Schnürsenkel",
+      "hint_cz": "tkaničky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Schuhe",
+          "cz": "boty"
+        },
+        {
+          "target": "die Turnschuhe",
+          "cz": "tenisky"
+        },
+        {
+          "target": "die Größe",
+          "cz": "velikost"
+        },
+        {
+          "target": "anprobieren",
+          "cz": "zkoušet si"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich probiere neue Schuhe an.",
+      "tts_text": "Ich probiere neue Schuhe an."
+    }
+  ]
+}

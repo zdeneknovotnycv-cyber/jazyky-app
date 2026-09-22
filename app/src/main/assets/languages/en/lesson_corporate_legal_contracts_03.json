@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_legal_contracts_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Terms and conditions",
+  "title_cz": "Obchodní podmínky",
+  "vocabulary": [
+    {
+      "word": "terms and conditions",
+      "translation_cz": "obchodní podmínky",
+      "example": "Please read the terms and conditions.",
+      "example_cz": "Prosím přečtěte si obchodní podmínky.",
+      "tts_text": "Please read the terms and conditions."
+    },
+    {
+      "word": "accept the terms",
+      "translation_cz": "přijmout podmínky",
+      "example": "You must accept the terms to continue.",
+      "example_cz": "Musíte přijmout podmínky, abyste mohli pokračovat.",
+      "tts_text": "You must accept the terms to continue."
+    },
+    {
+      "word": "liability",
+      "translation_cz": "odpovědnost / ručení",
+      "example": "Our liability is limited in this section.",
+      "example_cz": "Naše odpovědnost je v této části omezena.",
+      "tts_text": "Our liability is limited in this section."
+    },
+    {
+      "word": "cancellation policy",
+      "translation_cz": "storno podmínky",
+      "example": "What is the cancellation policy?",
+      "example_cz": "Jaké jsou storno podmínky?",
+      "tts_text": "What is the cancellation policy?"
+    },
+    {
+      "word": "refund",
+      "translation_cz": "vrácení peněz",
+      "example": "You are entitled to a refund within 14 days.",
+      "example_cz": "Máte nárok na vrácení peněz do 14 dnů.",
+      "tts_text": "You are entitled to a refund within 14 days."
+    },
+    {
+      "word": "governing law",
+      "translation_cz": "rozhodné právo",
+      "example": "The governing law is Czech law.",
+      "example_cz": "Rozhodným právem je české právo.",
+      "tts_text": "The governing law is Czech law."
+    },
+    {
+      "word": "fine print",
+      "translation_cz": "malé písmo / detaily",
+      "example": "Always check the fine print.",
+      "example_cz": "Vždy si zkontrolujte drobné písmo.",
+      "tts_text": "Always check the fine print."
+    },
+    {
+      "word": "applicable",
+      "translation_cz": "platný / uplatnitelný",
+      "example": "This clause is applicable to all clients.",
+      "example_cz": "Tato doložka platí pro všechny klienty.",
+      "tts_text": "This clause is applicable to all clients."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_03",
+      "title": "Terms and conditions",
+      "title_cz": "Obchodní podmínky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Did you read the terms and conditions carefully?",
+          "text_cz": "Přečetl jste si pečlivě obchodní podmínky?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, especially the cancellation policy and refund rules.",
+          "text_cz": "Ano, zejména storno podmínky a pravidla pro vrácení peněz."
+        },
+        {
+          "speaker": "A",
+          "text": "Good. Don't forget to check the fine print about liability.",
+          "text_cz": "Dobře. Nezapomeňte zkontrolovat drobné písmo ohledně odpovědnosti."
+        },
+        {
+          "speaker": "B",
+          "text": "I noticed the governing law is Czech law.",
+          "text_cz": "Všiml jsem si, že rozhodným právem je české právo."
+        },
+        {
+          "speaker": "A",
+          "text": "Correct, it's applicable to all our contracts.",
+          "text_cz": "Přesně tak, platí to pro všechny naše smlouvy."
+        },
+        {
+          "speaker": "B",
+          "text": "Alright, I'll accept the terms now.",
+          "text_cz": "Dobře, teď podmínky přijmu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "terms and conditions",
+      "options": [
+        "obchodní podmínky",
+        "přijmout podmínky",
+        "odpovědnost / ručení"
+      ],
+      "correct": "obchodní podmínky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What is the ___?",
+      "answer": "cancellation policy",
+      "hint_cz": "storno podmínky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "terms and conditions",
+          "cz": "obchodní podmínky"
+        },
+        {
+          "target": "accept the terms",
+          "cz": "přijmout podmínky"
+        },
+        {
+          "target": "liability",
+          "cz": "odpovědnost / ručení"
+        },
+        {
+          "target": "cancellation policy",
+          "cz": "storno podmínky"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "You are entitled to a refund within 14 days.",
+      "tts_text": "You are entitled to a refund within 14 days."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is Czech law.",
+      "answer": "governing law",
+      "hint_cz": "rozhodné právo"
+    }
+  ]
+}

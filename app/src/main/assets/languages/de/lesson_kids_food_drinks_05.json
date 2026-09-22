@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_food_drinks_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Vegetables",
+  "title_cz": "Zelenina",
+  "vocabulary": [
+    {
+      "word": "die Karotte",
+      "translation_cz": "mrkev",
+      "example": "Hasen mögen Karotten.",
+      "example_cz": "Králíci mají rádi mrkev.",
+      "tts_text": "Hasen mögen Karotten."
+    },
+    {
+      "word": "die Kartoffel",
+      "translation_cz": "brambora",
+      "example": "Ich schäle die Kartoffel.",
+      "example_cz": "Loupu bramboru.",
+      "tts_text": "Ich schäle die Kartoffel."
+    },
+    {
+      "word": "die Tomate",
+      "translation_cz": "rajče",
+      "example": "Die Tomate ist rot.",
+      "example_cz": "Rajče je červené.",
+      "tts_text": "Die Tomate ist rot."
+    },
+    {
+      "word": "die Gurke",
+      "translation_cz": "okurka",
+      "example": "Ich esse Gurke im Salat.",
+      "example_cz": "Okurku jím v salátu.",
+      "tts_text": "Ich esse Gurke im Salat."
+    },
+    {
+      "word": "die Zwiebel",
+      "translation_cz": "cibule",
+      "example": "Die Zwiebel bringt mich zum Weinen.",
+      "example_cz": "Z cibule mi tečou slzy.",
+      "tts_text": "Die Zwiebel bringt mich zum Weinen."
+    },
+    {
+      "word": "der Brokkoli",
+      "translation_cz": "brokolice",
+      "example": "Brokkoli ist gut für dich.",
+      "example_cz": "Brokolice je pro tebe zdravá.",
+      "tts_text": "Brokkoli ist gut für dich."
+    },
+    {
+      "word": "die Paprika",
+      "translation_cz": "paprika",
+      "example": "Die Paprika ist grün.",
+      "example_cz": "Paprika je zelená.",
+      "tts_text": "Die Paprika ist grün."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Karotte",
+      "options": [
+        "mrkev",
+        "cibule",
+        "paprika"
+      ],
+      "correct": "mrkev"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die ___ ist rot.",
+      "answer": "Tomate",
+      "hint_cz": "rajče"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Kartoffel",
+          "cz": "brambora"
+        },
+        {
+          "target": "die Gurke",
+          "cz": "okurka"
+        },
+        {
+          "target": "die Zwiebel",
+          "cz": "cibule"
+        },
+        {
+          "target": "der Brokkoli",
+          "cz": "brokolice"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Hasen mögen Karotten.",
+      "tts_text": "Hasen mögen Karotten."
+    }
+  ]
+}

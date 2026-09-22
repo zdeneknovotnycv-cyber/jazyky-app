@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_phone_video_calls_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Making a phone call to a client",
+  "title_cz": "Telefonování klientovi",
+  "vocabulary": [
+    {
+      "word": "I'm calling about...",
+      "translation_cz": "volám ohledně...",
+      "example": "I'm calling about your recent order.",
+      "example_cz": "Volám ohledně vaší nedávné objednávky.",
+      "tts_text": "I'm calling about your recent order."
+    },
+    {
+      "word": "Is this a good time to talk?",
+      "translation_cz": "Hodí se vám teď mluvit?",
+      "example": "Hi, is this a good time to talk?",
+      "example_cz": "Dobrý den, hodí se vám teď mluvit?",
+      "tts_text": "Hi, is this a good time to talk?"
+    },
+    {
+      "word": "I just wanted to follow up on",
+      "translation_cz": "chtěl jsem jen navázat na",
+      "example": "I just wanted to follow up on our last conversation.",
+      "example_cz": "Chtěl jsem jen navázat na náš poslední rozhovor.",
+      "tts_text": "I just wanted to follow up on our last conversation."
+    },
+    {
+      "word": "to confirm",
+      "translation_cz": "potvrdit",
+      "example": "I'm calling to confirm your appointment.",
+      "example_cz": "Volám, abych potvrdil vaši schůzku.",
+      "tts_text": "I'm calling to confirm your appointment."
+    },
+    {
+      "word": "get back to someone",
+      "translation_cz": "ozvat se někomu zpět",
+      "example": "I'll get back to you by the end of the day.",
+      "example_cz": "Ozvu se vám do konce dne.",
+      "tts_text": "I'll get back to you by the end of the day."
+    },
+    {
+      "word": "at your earliest convenience",
+      "translation_cz": "co nejdříve vám to vyhovuje",
+      "example": "Please call me back at your earliest convenience.",
+      "example_cz": "Zavolejte mi prosím zpět, jakmile to bude možné.",
+      "tts_text": "Please call me back at your earliest convenience."
+    },
+    {
+      "word": "invoice",
+      "translation_cz": "faktura",
+      "example": "I'm calling regarding invoice number 4521.",
+      "example_cz": "Volám ohledně faktury číslo 4521.",
+      "tts_text": "I'm calling regarding invoice number 4521."
+    },
+    {
+      "word": "appreciate your time",
+      "translation_cz": "vážit si vašeho času",
+      "example": "Thank you, I really appreciate your time.",
+      "example_cz": "Děkuji, opravdu si vážím vašeho času.",
+      "tts_text": "Thank you, I really appreciate your time."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_calling_a_client",
+      "title": "Calling a client about an order",
+      "title_cz": "Volání klientovi ohledně objednávky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hello, this is Petra from Novak Solutions. Is this a good time to talk?",
+          "text_cz": "Dobrý den, tady je Petra ze společnosti Novak Solutions. Hodí se vám teď mluvit?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, sure. Go ahead.",
+          "text_cz": "Ano, jistě. Poslouchám."
+        },
+        {
+          "speaker": "A",
+          "text": "I'm calling about your recent order. I wanted to confirm the delivery date.",
+          "text_cz": "Volám ohledně vaší nedávné objednávky. Chtěla jsem potvrdit termín dodání."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you for calling. Next Tuesday works fine for us.",
+          "text_cz": "Děkuji za zavolání. Příští úterý nám vyhovuje."
+        },
+        {
+          "speaker": "A",
+          "text": "Perfect, I'll confirm everything by email. Thank you for your time.",
+          "text_cz": "Výborně, vše potvrdím e-mailem. Děkuji za váš čas."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Is this a good time to talk?",
+      "options": [
+        "Hodí se vám teď mluvit?",
+        "Volám ohledně faktury.",
+        "Ozvu se vám zpět."
+      ],
+      "correct": "Hodí se vám teď mluvit?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'm calling ___ your recent order.",
+      "answer": "about",
+      "hint_cz": "ohledně"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "to confirm", "cz": "potvrdit" },
+        { "target": "invoice", "cz": "faktura" },
+        { "target": "get back to someone", "cz": "ozvat se někomu zpět" },
+        { "target": "appreciate your time", "cz": "vážit si vašeho času" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I just wanted to follow up on our last conversation.",
+      "tts_text": "I just wanted to follow up on our last conversation."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'll get ___ to you by the end of the day.",
+      "answer": "back",
+      "hint_cz": "zpět"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please call me back at your earliest convenience.",
+      "tts_text": "Please call me back at your earliest convenience."
+    }
+  ]
+}

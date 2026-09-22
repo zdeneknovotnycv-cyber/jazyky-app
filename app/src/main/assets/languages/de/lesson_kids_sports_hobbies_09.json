@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_sports_hobbies_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Mannschaftssportarten",
+  "title_cz": "Kolektivní sporty",
+  "vocabulary": [
+    {
+      "word": "die Mannschaftssportart",
+      "translation_cz": "kolektivní sport",
+      "example": "Fußball ist eine Mannschaftssportart.",
+      "example_cz": "Fotbal je kolektivní sport.",
+      "tts_text": "Fußball ist eine Mannschaftssportart."
+    },
+    {
+      "word": "der Mitspieler",
+      "translation_cz": "spoluhráč",
+      "example": "Mein Mitspieler hat mir den Ball zugepasst.",
+      "example_cz": "Můj spoluhráč mi přihrál míč.",
+      "tts_text": "Mein Mitspieler hat mir den Ball zugepasst."
+    },
+    {
+      "word": "der Trainer",
+      "translation_cz": "trenér",
+      "example": "Unser Trainer ist sehr nett.",
+      "example_cz": "Náš trenér je velmi hodný.",
+      "tts_text": "Unser Trainer ist sehr nett."
+    },
+    {
+      "word": "das Training",
+      "translation_cz": "trénink",
+      "example": "Wir haben dienstags Training.",
+      "example_cz": "V úterý máme trénink.",
+      "tts_text": "Wir haben dienstags Training."
+    },
+    {
+      "word": "anfeuern",
+      "translation_cz": "fandit",
+      "example": "Wir feuern unser Team an.",
+      "example_cz": "Fandíme svému týmu.",
+      "tts_text": "Wir feuern unser Team an."
+    },
+    {
+      "word": "das Spiel",
+      "translation_cz": "zápas",
+      "example": "Das Spiel beginnt um vier.",
+      "example_cz": "Zápas začíná ve čtyři.",
+      "tts_text": "Das Spiel beginnt um vier."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Trainer",
+      "options": [
+        "trenér",
+        "spoluhráč",
+        "zápas"
+      ],
+      "correct": "trenér"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir haben dienstags ___.",
+      "answer": "Training",
+      "hint_cz": "trénink"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Mannschaftssportart",
+          "cz": "kolektivní sport"
+        },
+        {
+          "target": "der Mitspieler",
+          "cz": "spoluhráč"
+        },
+        {
+          "target": "anfeuern",
+          "cz": "fandit"
+        },
+        {
+          "target": "das Spiel",
+          "cz": "zápas"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Unser Trainer ist sehr nett.",
+      "tts_text": "Unser Trainer ist sehr nett."
+    }
+  ]
+}

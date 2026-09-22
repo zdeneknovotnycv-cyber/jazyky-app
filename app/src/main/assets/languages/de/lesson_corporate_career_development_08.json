@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_career_development_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Networking für die Karriere",
+  "title_cz": "Budování kontaktů pro kariérní růst",
+  "vocabulary": [
+    {
+      "word": "die Networking-Veranstaltung",
+      "translation_cz": "networkingová akce",
+      "example": "Nächsten Donnerstag gibt es eine Networking-Veranstaltung.",
+      "example_cz": "Příští čtvrtek je networkingová akce.",
+      "tts_text": "Nächsten Donnerstag gibt es eine Networking-Veranstaltung."
+    },
+    {
+      "word": "Kontakte knüpfen",
+      "translation_cz": "navázat kontakty",
+      "example": "Es ist eine tolle Gelegenheit, Kontakte zu knüpfen.",
+      "example_cz": "Je to skvělá příležitost navázat kontakty.",
+      "tts_text": "Es ist eine tolle Gelegenheit, Kontakte zu knüpfen."
+    },
+    {
+      "word": "Visitenkarten austauschen",
+      "translation_cz": "vyměnit si vizitky",
+      "example": "Wir haben nach dem Vortrag Visitenkarten ausgetauscht.",
+      "example_cz": "Po přednášce jsme si vyměnili vizitky.",
+      "tts_text": "Wir haben nach dem Vortrag Visitenkarten ausgetauscht."
+    },
+    {
+      "word": "der Branchenkontakt",
+      "translation_cz": "kontakt z oboru",
+      "example": "Er ist ein wertvoller Branchenkontakt.",
+      "example_cz": "Je to cenný kontakt z oboru.",
+      "tts_text": "Er ist ein wertvoller Branchenkontakt."
+    },
+    {
+      "word": "sich melden / nachfassen",
+      "translation_cz": "ozvat se znovu / navázat",
+      "example": "Ich werde mich morgen per E-Mail melden.",
+      "example_cz": "Zítra se ozvu e-mailem.",
+      "tts_text": "Ich werde mich morgen per E-Mail melden."
+    },
+    {
+      "word": "der Smalltalk",
+      "translation_cz": "konverzace na uvolnění",
+      "example": "Ehrlich gesagt bin ich nicht gut im Smalltalk.",
+      "example_cz": "Upřímně, v konverzaci na uvolnění moc nevynikám.",
+      "tts_text": "Ehrlich gesagt bin ich nicht gut im Smalltalk."
+    },
+    {
+      "word": "Beziehungen aufbauen",
+      "translation_cz": "budovat vztahy",
+      "example": "Beim Networking geht es darum, Beziehungen aufzubauen.",
+      "example_cz": "Networking je o budování vztahů.",
+      "tts_text": "Beim Networking geht es darum, Beziehungen aufzubauen."
+    },
+    {
+      "word": "das Netzwerk erweitern",
+      "translation_cz": "rozšířit síť kontaktů",
+      "example": "Diese Veranstaltung hat mir geholfen, mein Netzwerk zu erweitern.",
+      "example_cz": "Tato akce mi pomohla rozšířit síť kontaktů.",
+      "tts_text": "Diese Veranstaltung hat mir geholfen, mein Netzwerk zu erweitern."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_networking",
+      "title": "Bei einer Networking-Veranstaltung",
+      "title_cz": "Na networkingové akci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Nächsten Donnerstag gibt es eine Networking-Veranstaltung, gehst du hin?",
+          "text_cz": "Příští čtvrtek je networkingová akce, jdeš tam?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, es ist eine tolle Gelegenheit, Kontakte in unserer Branche zu knüpfen.",
+          "text_cz": "Ano, je to skvělá příležitost navázat kontakty v našem oboru."
+        },
+        {
+          "speaker": "A",
+          "text": "Ich habe letztes Mal einen wertvollen Branchenkontakt getroffen und wir haben Visitenkarten ausgetauscht.",
+          "text_cz": "Minule jsem potkal cenný kontakt z oboru a vyměnili jsme si vizitky."
+        },
+        {
+          "speaker": "B",
+          "text": "Schön. Hast du dich danach bei ihm gemeldet?",
+          "text_cz": "Pěkné. Ozval ses jim pak?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, ich habe am nächsten Tag eine E-Mail geschickt. Das hilft wirklich, mit der Zeit Beziehungen aufzubauen.",
+          "text_cz": "Ano, druhý den jsem poslal e-mail. Opravdu to pomáhá časem budovat vztahy."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Networking-Veranstaltung",
+      "options": [
+        "networkingová akce",
+        "kontakt z oboru",
+        "vizitky"
+      ],
+      "correct": "networkingová akce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich werde mich morgen per E-Mail ___.",
+      "answer": "melden",
+      "hint_cz": "ozvu se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Kontakte knüpfen",
+          "cz": "navázat kontakty"
+        },
+        {
+          "target": "der Smalltalk",
+          "cz": "konverzace na uvolnění"
+        },
+        {
+          "target": "Beziehungen aufbauen",
+          "cz": "budovat vztahy"
+        },
+        {
+          "target": "das Netzwerk erweitern",
+          "cz": "rozšířit síť kontaktů"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Beim Networking geht es darum, Beziehungen aufzubauen.",
+      "tts_text": "Beim Networking geht es darum, Beziehungen aufzubauen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir haben nach dem Vortrag Visitenkarten ___.",
+      "answer": "ausgetauscht",
+      "hint_cz": "vyměnili si"
+    }
+  ]
+}

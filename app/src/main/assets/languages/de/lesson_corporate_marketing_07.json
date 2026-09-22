@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_marketing_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Diskussion über das Marketingbudget",
+  "title_cz": "Diskuze o marketingovém rozpočtu",
+  "vocabulary": [
+    {
+      "word": "das Budget verteilen",
+      "translation_cz": "rozdělit rozpočet",
+      "example": "Wie sollen wir das Budget dieses Quartal verteilen?",
+      "example_cz": "Jak bychom měli rozdělit rozpočet toto čtvrtletí?",
+      "tts_text": "Wie sollen wir das Budget dieses Quartal verteilen?"
+    },
+    {
+      "word": "Kapitalrendite",
+      "translation_cz": "návratnost investice",
+      "example": "Wir brauchen eine gute Kapitalrendite.",
+      "example_cz": "Potřebujeme dobrou návratnost investice.",
+      "tts_text": "Wir brauchen eine gute Kapitalrendite."
+    },
+    {
+      "word": "Kosten pro Klick",
+      "translation_cz": "cena za proklik",
+      "example": "Die Kosten pro Klick sind zuletzt gestiegen.",
+      "example_cz": "Cena za proklik se nedávno zvýšila.",
+      "tts_text": "Die Kosten pro Klick sind zuletzt gestiegen."
+    },
+    {
+      "word": "das Budget überschreiten",
+      "translation_cz": "překročit rozpočet",
+      "example": "Wir dürfen das Budget für Anzeigen nicht überschreiten.",
+      "example_cz": "Nesmíme překročit rozpočet na reklamu.",
+      "tts_text": "Wir dürfen das Budget für Anzeigen nicht überschreiten."
+    },
+    {
+      "word": "Kosten senken",
+      "translation_cz": "snížit náklady",
+      "example": "Wir müssen vielleicht die Kosten für Druckmaterialien senken.",
+      "example_cz": "Možná budeme muset snížit náklady na tištěné materiály.",
+      "tts_text": "Wir müssen vielleicht die Kosten für Druckmaterialien senken."
+    },
+    {
+      "word": "das Budget genehmigen",
+      "translation_cz": "schválit rozpočet",
+      "example": "Der Direktor genehmigt das Budget morgen.",
+      "example_cz": "Ředitel rozpočet schválí zítra.",
+      "tts_text": "Der Direktor genehmigt das Budget morgen."
+    },
+    {
+      "word": "Ausgabenplan",
+      "translation_cz": "plán výdajů",
+      "example": "Bitte schicken Sie mir den aktualisierten Ausgabenplan.",
+      "example_cz": "Pošlete mi prosím aktualizovaný plán výdajů.",
+      "tts_text": "Bitte schicken Sie mir den aktualisierten Ausgabenplan."
+    },
+    {
+      "word": "kosteneffizient",
+      "translation_cz": "nákladově efektivní",
+      "example": "Werbung in sozialen Medien ist für uns kosteneffizienter.",
+      "example_cz": "Reklama na sociálních sítích je pro nás nákladově efektivnější.",
+      "tts_text": "Werbung in sozialen Medien ist für uns kosteneffizienter."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_07",
+      "title": "Das Marketingbudget für das nächste Quartal besprechen",
+      "title_cz": "Diskuze o marketingovém rozpočtu na příští čtvrtletí",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wie sollen wir das Budget dieses Quartal verteilen?",
+          "text_cz": "Jak bychom měli rozdělit rozpočet toto čtvrtletí?"
+        },
+        {
+          "speaker": "B",
+          "text": "Die Kosten pro Klick sind gestiegen, also sollten wir uns auf kosteneffizientere Kanäle konzentrieren.",
+          "text_cz": "Cena za proklik se zvýšila, tak se zaměřme více na nákladově efektivní kanály."
+        },
+        {
+          "speaker": "A",
+          "text": "Einverstanden, wir brauchen eine gute Kapitalrendite. Wir sollten die Kosten für Druckmaterialien senken.",
+          "text_cz": "Souhlasím, potřebujeme dobrou návratnost investice. Měli bychom snížit náklady na tištěné materiály."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich bereite den aktualisierten Ausgabenplan zur Genehmigung durch den Direktor vor.",
+          "text_cz": "Připravím aktualizovaný plán výdajů, aby ho ředitel schválil."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Kapitalrendite",
+      "options": [
+        "návratnost investice",
+        "cena za proklik",
+        "plán výdajů"
+      ],
+      "correct": "návratnost investice"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir dürfen das Budget für Anzeigen nicht ___.",
+      "answer": "überschreiten",
+      "hint_cz": "překročit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Kosten pro Klick",
+          "cz": "cena za proklik"
+        },
+        {
+          "target": "Kosten senken",
+          "cz": "snížit náklady"
+        },
+        {
+          "target": "das Budget genehmigen",
+          "cz": "schválit rozpočet"
+        },
+        {
+          "target": "kosteneffizient",
+          "cz": "nákladově efektivní"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wie sollen wir das Budget dieses Quartal verteilen?",
+      "tts_text": "Wie sollen wir das Budget dieses Quartal verteilen?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte schicken Sie mir den aktualisierten ___.",
+      "answer": "Ausgabenplan",
+      "hint_cz": "plán výdajů"
+    }
+  ]
+}

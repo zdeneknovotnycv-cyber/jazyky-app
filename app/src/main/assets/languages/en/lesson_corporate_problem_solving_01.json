@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_problem_solving_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Reporting a problem to a manager",
+  "title_cz": "Nahlášení problému nadřízenému",
+  "vocabulary": [
+    {
+      "word": "there's an issue with",
+      "translation_cz": "je problém s",
+      "example": "There's an issue with the server today.",
+      "example_cz": "Dnes je problém se serverem.",
+      "tts_text": "There's an issue with the server today."
+    },
+    {
+      "word": "I wanted to flag",
+      "translation_cz": "chtěl jsem upozornit na",
+      "example": "I wanted to flag a problem with the shipment.",
+      "example_cz": "Chtěl jsem upozornit na problém se zásilkou.",
+      "tts_text": "I wanted to flag a problem with the shipment."
+    },
+    {
+      "word": "it's affecting",
+      "translation_cz": "ovlivňuje to",
+      "example": "It's affecting our delivery schedule.",
+      "example_cz": "Ovlivňuje to náš plán dodávek.",
+      "tts_text": "It's affecting our delivery schedule."
+    },
+    {
+      "word": "urgent",
+      "translation_cz": "naléhavé",
+      "example": "This is quite urgent.",
+      "example_cz": "Tohle je docela naléhavé.",
+      "tts_text": "This is quite urgent."
+    },
+    {
+      "word": "could we discuss",
+      "translation_cz": "mohli bychom probrat",
+      "example": "Could we discuss this today?",
+      "example_cz": "Mohli bychom to dnes probrat?",
+      "tts_text": "Could we discuss this today?"
+    },
+    {
+      "word": "impact",
+      "translation_cz": "dopad",
+      "example": "The impact on the team is significant.",
+      "example_cz": "Dopad na tým je značný.",
+      "tts_text": "The impact on the team is significant."
+    },
+    {
+      "word": "I need your input",
+      "translation_cz": "potřebuji váš názor",
+      "example": "I need your input on this issue.",
+      "example_cz": "Potřebuji váš názor na tento problém.",
+      "tts_text": "I need your input on this issue."
+    },
+    {
+      "word": "as soon as possible",
+      "translation_cz": "co nejdříve",
+      "example": "Please respond as soon as possible.",
+      "example_cz": "Odpovězte prosím co nejdříve.",
+      "tts_text": "Please respond as soon as possible."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_01",
+      "title": "Reporting a problem",
+      "title_cz": "Nahlášení problému",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Do you have a minute? I wanted to flag a problem.",
+          "text_cz": "Máte chvilku? Chtěl jsem upozornit na problém."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, what's going on?",
+          "text_cz": "Jasně, co se děje?"
+        },
+        {
+          "speaker": "A",
+          "text": "There's an issue with the delivery system. It's affecting three clients.",
+          "text_cz": "Je problém s dodacím systémem. Ovlivňuje to tři klienty."
+        },
+        {
+          "speaker": "B",
+          "text": "How urgent is it?",
+          "text_cz": "Jak je to naléhavé?"
+        },
+        {
+          "speaker": "A",
+          "text": "Very urgent. I need your input as soon as possible.",
+          "text_cz": "Velmi naléhavé. Potřebuji váš názor co nejdříve."
+        },
+        {
+          "speaker": "B",
+          "text": "Let's discuss it right now.",
+          "text_cz": "Pojďme to probrat hned teď."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "there's an issue with",
+      "options": [
+        "je problém s",
+        "chtěl jsem upozornit na",
+        "ovlivňuje to"
+      ],
+      "correct": "je problém s"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This is quite ___.",
+      "answer": "urgent",
+      "hint_cz": "naléhavé"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "there's an issue with",
+          "cz": "je problém s"
+        },
+        {
+          "target": "I wanted to flag",
+          "cz": "chtěl jsem upozornit na"
+        },
+        {
+          "target": "it's affecting",
+          "cz": "ovlivňuje to"
+        },
+        {
+          "target": "urgent",
+          "cz": "naléhavé"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Could we discuss this today?",
+      "tts_text": "Could we discuss this today?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ on the team is significant.",
+      "answer": "impact",
+      "hint_cz": "dopad"
+    }
+  ]
+}

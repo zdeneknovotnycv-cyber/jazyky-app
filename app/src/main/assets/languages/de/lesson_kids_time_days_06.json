@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_time_days_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Die Vier Jahreszeiten",
+  "title_cz": "Čtyři roční období",
+  "vocabulary": [
+    {
+      "word": "der Frühling",
+      "translation_cz": "jaro",
+      "example": "Im Frühling blühen die Blumen.",
+      "example_cz": "Na jaře kvetou květiny.",
+      "tts_text": "Im Frühling blühen die Blumen."
+    },
+    {
+      "word": "der Sommer",
+      "translation_cz": "léto",
+      "example": "Im Sommer schwimmen wir.",
+      "example_cz": "V létě plaveme.",
+      "tts_text": "Im Sommer schwimmen wir."
+    },
+    {
+      "word": "der Herbst",
+      "translation_cz": "podzim",
+      "example": "Im Herbst fallen die Blätter.",
+      "example_cz": "Na podzim padá listí.",
+      "tts_text": "Im Herbst fallen die Blätter."
+    },
+    {
+      "word": "der Winter",
+      "translation_cz": "zima",
+      "example": "Im Winter schneit es.",
+      "example_cz": "V zimě sněží.",
+      "tts_text": "Im Winter schneit es."
+    },
+    {
+      "word": "die Jahreszeit",
+      "translation_cz": "roční období",
+      "example": "Meine liebste Jahreszeit ist der Sommer.",
+      "example_cz": "Mé oblíbené roční období je léto.",
+      "tts_text": "Meine liebste Jahreszeit ist der Sommer."
+    },
+    {
+      "word": "das Jahr",
+      "translation_cz": "rok",
+      "example": "Ein Jahr hat vier Jahreszeiten.",
+      "example_cz": "Rok má čtyři roční období.",
+      "tts_text": "Ein Jahr hat vier Jahreszeiten."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Winter",
+      "options": [
+        "zima",
+        "léto",
+        "jaro"
+      ],
+      "correct": "zima"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Im ___ blühen die Blumen.",
+      "answer": "Frühling",
+      "hint_cz": "jaro"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Sommer",
+          "cz": "léto"
+        },
+        {
+          "target": "der Herbst",
+          "cz": "podzim"
+        },
+        {
+          "target": "die Jahreszeit",
+          "cz": "roční období"
+        },
+        {
+          "target": "das Jahr",
+          "cz": "rok"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Im Sommer schwimmen wir.",
+      "tts_text": "Im Sommer schwimmen wir."
+    }
+  ]
+}

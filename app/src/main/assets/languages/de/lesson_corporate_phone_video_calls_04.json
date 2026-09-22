@@ -1,0 +1,138 @@
+{
+  "id": "de_adult_corporate_phone_video_calls_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "An einem Videoanruf teilnehmen",
+  "title_cz": "Připojení k videohovoru",
+  "vocabulary": [
+    {
+      "word": "am Meeting teilnehmen",
+      "translation_cz": "připojit se ke schůzce",
+      "example": "Bitte nehmen Sie über diesen Link am Meeting teil.",
+      "example_cz": "Připojte se prosím ke schůzce pomocí tohoto odkazu.",
+      "tts_text": "Bitte nehmen Sie über diesen Link am Meeting teil."
+    },
+    {
+      "word": "Kann jeder meinen Bildschirm sehen?",
+      "translation_cz": "Vidí všichni moji obrazovku?",
+      "example": "Kann jeder meinen Bildschirm jetzt sehen?",
+      "example_cz": "Vidí teď všichni moji obrazovku?",
+      "tts_text": "Kann jeder meinen Bildschirm jetzt sehen?"
+    },
+    {
+      "word": "die Kamera einschalten",
+      "translation_cz": "zapnout kameru",
+      "example": "Könnten Sie bitte Ihre Kamera einschalten?",
+      "example_cz": "Mohl byste prosím zapnout kameru?",
+      "tts_text": "Könnten Sie bitte Ihre Kamera einschalten?"
+    },
+    {
+      "word": "sich stummschalten",
+      "translation_cz": "ztlumit si mikrofon",
+      "example": "Bitte schalten Sie sich stumm, wenn Sie nicht sprechen.",
+      "example_cz": "Ztlumte si prosím mikrofon, když nemluvíte.",
+      "tts_text": "Bitte schalten Sie sich stumm, wenn Sie nicht sprechen."
+    },
+    {
+      "word": "fangen wir an",
+      "translation_cz": "začněme",
+      "example": "Alle sind da, also fangen wir an.",
+      "example_cz": "Všichni jsou tu, tak začněme.",
+      "tts_text": "Alle sind da, also fangen wir an."
+    },
+    {
+      "word": "der Warteraum",
+      "translation_cz": "čekárna (v aplikaci)",
+      "example": "Sie sind im Warteraum, bitte warten Sie einen Moment.",
+      "example_cz": "Jste v čekárně, prosím vydržte.",
+      "tts_text": "Sie sind im Warteraum, bitte warten Sie einen Moment."
+    },
+    {
+      "word": "den Bildschirm teilen",
+      "translation_cz": "sdílet obrazovku",
+      "example": "Ich teile meinen Bildschirm, um Ihnen die Präsentation zu zeigen.",
+      "example_cz": "Sdílím obrazovku, abych vám ukázala prezentaci.",
+      "tts_text": "Ich teile meinen Bildschirm, um Ihnen die Präsentation zu zeigen."
+    },
+    {
+      "word": "Entschuldigung, ich bin etwas spät dran",
+      "translation_cz": "promiňte, jdu trochu pozdě",
+      "example": "Entschuldigung, ich bin etwas spät dran, ich hatte ein anderes Gespräch.",
+      "example_cz": "Promiňte, jdu trochu pozdě, měla jsem jiný hovor.",
+      "tts_text": "Entschuldigung, ich bin etwas spät dran, ich hatte ein anderes Gespräch."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_videoanruf_beitreten",
+      "title": "Einem Videomeeting beitreten",
+      "title_cz": "Připojení k videokonferenci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hallo zusammen, Entschuldigung, ich bin etwas spät dran, ich hatte ein anderes Gespräch.",
+          "text_cz": "Dobrý den všem, promiňte, jdu trochu pozdě, měla jsem jiný hovor."
+        },
+        {
+          "speaker": "B",
+          "text": "Kein Problem. Kann jeder meinen Bildschirm jetzt sehen?",
+          "text_cz": "Žádný problém. Vidí teď všichni moji obrazovku?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, ich kann ihn sehen. Könnten Sie bitte auch Ihre Kamera einschalten?",
+          "text_cz": "Ano, vidím. Mohl byste prosím také zapnout kameru?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, einen Moment. Gut, alle sind da, also fangen wir an.",
+          "text_cz": "Jistě, moment. Dobře, všichni jsou tu, tak začněme."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Kann jeder meinen Bildschirm sehen?",
+      "options": [
+        "Vidí všichni moji obrazovku?",
+        "Ztlumte si mikrofon.",
+        "Připojte se ke schůzce."
+      ],
+      "correct": "Vidí všichni moji obrazovku?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte schalten Sie sich ___, wenn Sie nicht sprechen.",
+      "answer": "stumm",
+      "hint_cz": "ztlumte se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "den Bildschirm teilen", "cz": "sdílet obrazovku" },
+        { "target": "der Warteraum", "cz": "čekárna" },
+        { "target": "die Kamera einschalten", "cz": "zapnout kameru" },
+        { "target": "am Meeting teilnehmen", "cz": "připojit se ke schůzce" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Alle sind da, also fangen wir an.",
+      "tts_text": "Alle sind da, also fangen wir an."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Entschuldigung, ich bin etwas ___ dran.",
+      "answer": "spät",
+      "hint_cz": "pozdě"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich teile meinen Bildschirm, um Ihnen die Präsentation zu zeigen.",
+      "tts_text": "Ich teile meinen Bildschirm, um Ihnen die Präsentation zu zeigen."
+    }
+  ]
+}

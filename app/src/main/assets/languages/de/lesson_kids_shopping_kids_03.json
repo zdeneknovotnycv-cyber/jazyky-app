@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_shopping_kids_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Schulsachen kaufen",
+  "title_cz": "Nákup školních potřeb",
+  "vocabulary": [
+    {
+      "word": "die Schulsachen",
+      "translation_cz": "školní potřeby",
+      "example": "Wir kaufen im August Schulsachen.",
+      "example_cz": "Školní potřeby kupujeme v srpnu.",
+      "tts_text": "Wir kaufen im August Schulsachen."
+    },
+    {
+      "word": "das Heft",
+      "translation_cz": "sešit",
+      "example": "Ich brauche ein neues Heft.",
+      "example_cz": "Potřebuji nový sešit.",
+      "tts_text": "Ich brauche ein neues Heft."
+    },
+    {
+      "word": "das Federmäppchen",
+      "translation_cz": "penál",
+      "example": "Ich bewahre meine Stifte im Federmäppchen auf.",
+      "example_cz": "Pera mám v penálu.",
+      "tts_text": "Ich bewahre meine Stifte im Federmäppchen auf."
+    },
+    {
+      "word": "der Radiergummi",
+      "translation_cz": "guma",
+      "example": "Ich benutze einen Radiergummi für Fehler.",
+      "example_cz": "Chyby opravuji gumou.",
+      "tts_text": "Ich benutze einen Radiergummi für Fehler."
+    },
+    {
+      "word": "die Buntstifte",
+      "translation_cz": "pastelky",
+      "example": "Ich male mit bunten Buntstiften.",
+      "example_cz": "Kreslím barevnými pastelkami.",
+      "tts_text": "Ich male mit bunten Buntstiften."
+    },
+    {
+      "word": "das Lineal",
+      "translation_cz": "pravítko",
+      "example": "Ich ziehe eine Linie mit dem Lineal.",
+      "example_cz": "Kreslím čáru pravítkem.",
+      "tts_text": "Ich ziehe eine Linie mit dem Lineal."
+    },
+    {
+      "word": "die Liste",
+      "translation_cz": "seznam",
+      "example": "Mama hat eine Einkaufsliste.",
+      "example_cz": "Máma má nákupní seznam.",
+      "tts_text": "Mama hat eine Einkaufsliste."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Schulsachen",
+      "options": [
+        "školní potřeby",
+        "sešit",
+        "penál"
+      ],
+      "correct": "školní potřeby"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich brauche ein neues ___.",
+      "answer": "Heft",
+      "hint_cz": "sešit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Federmäppchen",
+          "cz": "penál"
+        },
+        {
+          "target": "der Radiergummi",
+          "cz": "guma"
+        },
+        {
+          "target": "die Buntstifte",
+          "cz": "pastelky"
+        },
+        {
+          "target": "das Lineal",
+          "cz": "pravítko"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Mama hat eine Einkaufsliste.",
+      "tts_text": "Mama hat eine Einkaufsliste."
+    }
+  ]
+}

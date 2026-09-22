@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_home_rooms_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The Garden",
+  "title_cz": "Zahrada",
+  "vocabulary": [
+    {
+      "word": "der Garten",
+      "translation_cz": "zahrada",
+      "example": "Wir spielen im Garten.",
+      "example_cz": "Hrajeme si na zahradě.",
+      "tts_text": "Wir spielen im Garten."
+    },
+    {
+      "word": "das Gras",
+      "translation_cz": "tráva",
+      "example": "Das Gras ist grün.",
+      "example_cz": "Tráva je zelená.",
+      "tts_text": "Das Gras ist grün."
+    },
+    {
+      "word": "die Blume",
+      "translation_cz": "květina",
+      "example": "Ich gieße die Blumen.",
+      "example_cz": "Zalévám květiny.",
+      "tts_text": "Ich gieße die Blumen."
+    },
+    {
+      "word": "der Baum",
+      "translation_cz": "strom",
+      "example": "Im Garten steht ein großer Baum.",
+      "example_cz": "Na zahradě je velký strom.",
+      "tts_text": "Im Garten steht ein großer Baum."
+    },
+    {
+      "word": "die Schaukel",
+      "translation_cz": "houpačka",
+      "example": "Ich liebe die Schaukel.",
+      "example_cz": "Mám ráda houpačku.",
+      "tts_text": "Ich liebe die Schaukel."
+    },
+    {
+      "word": "der Zaun",
+      "translation_cz": "plot",
+      "example": "Der Zaun ist weiß.",
+      "example_cz": "Plot je bílý.",
+      "tts_text": "Der Zaun ist weiß."
+    },
+    {
+      "word": "graben",
+      "translation_cz": "kopat / hrabat",
+      "example": "Ich grabe im Garten mit einer Schaufel.",
+      "example_cz": "Na zahradě kopu lopatkou.",
+      "tts_text": "Ich grabe im Garten mit einer Schaufel."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Garten",
+      "options": [
+        "zahrada",
+        "tráva",
+        "plot"
+      ],
+      "correct": "zahrada"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das ___ ist grün.",
+      "answer": "Gras",
+      "hint_cz": "tráva"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Blume",
+          "cz": "květina"
+        },
+        {
+          "target": "der Baum",
+          "cz": "strom"
+        },
+        {
+          "target": "die Schaukel",
+          "cz": "houpačka"
+        },
+        {
+          "target": "der Zaun",
+          "cz": "plot"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir spielen im Garten.",
+      "tts_text": "Wir spielen im Garten."
+    }
+  ]
+}

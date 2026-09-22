@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_performance_feedback_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Peer feedback",
+  "title_cz": "Zpětná vazba od kolegů",
+  "vocabulary": [
+    {
+      "word": "peer feedback",
+      "translation_cz": "zpětná vazba od kolegů",
+      "example": "We collect peer feedback twice a year.",
+      "example_cz": "Zpětnou vazbu od kolegů sbíráme dvakrát ročně.",
+      "tts_text": "We collect peer feedback twice a year."
+    },
+    {
+      "word": "collaborate well",
+      "translation_cz": "dobře spolupracovat",
+      "example": "You collaborate well with other teams.",
+      "example_cz": "Dobře spolupracuješ s ostatními týmy.",
+      "tts_text": "You collaborate well with other teams."
+    },
+    {
+      "word": "reliable",
+      "translation_cz": "spolehlivý",
+      "example": "He is very reliable when deadlines are tight.",
+      "example_cz": "Je velmi spolehlivý, když jsou termíny napjaté.",
+      "tts_text": "He is very reliable when deadlines are tight."
+    },
+    {
+      "word": "could communicate more",
+      "translation_cz": "mohl by více komunikovat",
+      "example": "She could communicate more with the design team.",
+      "example_cz": "Mohla by více komunikovat s designovým týmem.",
+      "tts_text": "She could communicate more with the design team."
+    },
+    {
+      "word": "anonymous survey",
+      "translation_cz": "anonymní dotazník",
+      "example": "Peer feedback is collected through an anonymous survey.",
+      "example_cz": "Zpětná vazba od kolegů se sbírá přes anonymní dotazník.",
+      "tts_text": "Peer feedback is collected through an anonymous survey."
+    },
+    {
+      "word": "team player",
+      "translation_cz": "týmový hráč",
+      "example": "You're a great team player.",
+      "example_cz": "Jsi skvělý týmový hráč.",
+      "tts_text": "You're a great team player."
+    },
+    {
+      "word": "respectful tone",
+      "translation_cz": "uctivý tón",
+      "example": "Please keep a respectful tone in your comments.",
+      "example_cz": "Prosím udržuj ve svých komentářích uctivý tón.",
+      "tts_text": "Please keep a respectful tone in your comments."
+    },
+    {
+      "word": "balanced feedback",
+      "translation_cz": "vyvážená zpětná vazba",
+      "example": "Try to give balanced feedback, positives and negatives.",
+      "example_cz": "Zkus dát vyváženou zpětnou vazbu, klady i zápory.",
+      "tts_text": "Try to give balanced feedback, positives and negatives."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_08",
+      "title": "Filling in peer feedback",
+      "title_cz": "Vyplňování zpětné vazby od kolegů",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "It's time to fill in peer feedback for the team.",
+          "text_cz": "Je čas vyplnit zpětnou vazbu od kolegů pro tým."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay, should I write about how we collaborate?",
+          "text_cz": "Dobře, mám psát o tom, jak spolupracujeme?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, and try to give balanced feedback, not only praise.",
+          "text_cz": "Ano, a zkus dát vyváženou zpětnou vazbu, ne jen chválu."
+        },
+        {
+          "speaker": "B",
+          "text": "Got it, I'll keep a respectful tone throughout.",
+          "text_cz": "Rozumím, udržím po celou dobu uctivý tón."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "peer feedback",
+      "options": [
+        "zpětná vazba od kolegů",
+        "dobře spolupracovat",
+        "spolehlivý"
+      ],
+      "correct": "zpětná vazba od kolegů"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You ___ well with other teams.",
+      "answer": "collaborate",
+      "hint_cz": "spolupracuješ"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "peer feedback",
+          "cz": "zpětná vazba od kolegů"
+        },
+        {
+          "target": "collaborate well",
+          "cz": "dobře spolupracovat"
+        },
+        {
+          "target": "reliable",
+          "cz": "spolehlivý"
+        },
+        {
+          "target": "could communicate more",
+          "cz": "mohl by více komunikovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "You collaborate well with other teams.",
+      "tts_text": "You collaborate well with other teams."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please keep a ___ tone in your comments.",
+      "answer": "respectful",
+      "hint_cz": "uctivý"
+    }
+  ]
+}

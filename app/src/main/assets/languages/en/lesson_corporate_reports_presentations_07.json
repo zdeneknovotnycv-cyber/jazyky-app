@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_reports_presentations_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Presenting to Management",
+  "title_cz": "Prezentace vedení",
+  "vocabulary": [
+    {
+      "word": "senior management",
+      "translation_cz": "vrcholové vedení",
+      "example": "Senior management will be in the room today.",
+      "example_cz": "Vrcholové vedení bude dnes v místnosti.",
+      "tts_text": "Senior management will be in the room today."
+    },
+    {
+      "word": "confident",
+      "translation_cz": "sebejistý",
+      "example": "Try to sound confident during the presentation.",
+      "example_cz": "Snažte se během prezentace znít sebejistě.",
+      "tts_text": "Try to sound confident during the presentation."
+    },
+    {
+      "word": "straight to the point",
+      "translation_cz": "rovnou k věci",
+      "example": "Management prefers you to get straight to the point.",
+      "example_cz": "Vedení preferuje, když jdete rovnou k věci.",
+      "tts_text": "Management prefers you to get straight to the point."
+    },
+    {
+      "word": "justify",
+      "translation_cz": "zdůvodnit",
+      "example": "You need to justify this investment.",
+      "example_cz": "Musíte tuto investici zdůvodnit.",
+      "tts_text": "You need to justify this investment."
+    },
+    {
+      "word": "business case",
+      "translation_cz": "obchodní případ / zdůvodnění",
+      "example": "We prepared a strong business case.",
+      "example_cz": "Připravili jsme silné zdůvodnění projektu.",
+      "tts_text": "We prepared a strong business case."
+    },
+    {
+      "word": "return on investment",
+      "translation_cz": "návratnost investice",
+      "example": "What is the expected return on investment?",
+      "example_cz": "Jaká je očekávaná návratnost investice?",
+      "tts_text": "What is the expected return on investment?"
+    },
+    {
+      "word": "push back",
+      "translation_cz": "namítat / oponovat",
+      "example": "Management might push back on the budget.",
+      "example_cz": "Vedení může proti rozpočtu namítat.",
+      "tts_text": "Management might push back on the budget."
+    },
+    {
+      "word": "approval",
+      "translation_cz": "schválení",
+      "example": "We are seeking approval for the next phase.",
+      "example_cz": "Žádáme o schválení další fáze.",
+      "tts_text": "We are seeking approval for the next phase."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_present_management",
+      "title": "Presenting an investment case",
+      "title_cz": "Prezentace investičního záměru",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Senior management wants us to get straight to the point today.",
+          "text_cz": "Vrcholové vedení chce, abychom dnes šli rovnou k věci."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay, I prepared a strong business case with the expected return on investment.",
+          "text_cz": "Dobře, připravil jsem silné zdůvodnění s očekávanou návratností investice."
+        },
+        {
+          "speaker": "A",
+          "text": "Good, they might still push back on the budget, so justify every number.",
+          "text_cz": "Dobře, přesto mohou namítat proti rozpočtu, tak zdůvodněte každé číslo."
+        },
+        {
+          "speaker": "B",
+          "text": "Understood, I'll stay confident and clear.",
+          "text_cz": "Rozumím, zůstanu sebejistý a jasný."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "senior management",
+      "options": [
+        "vrcholové vedení",
+        "rovnou k věci",
+        "zdůvodnit"
+      ],
+      "correct": "vrcholové vedení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Try to sound ___ during the presentation.",
+      "answer": "confident",
+      "hint_cz": "sebejistý"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We prepared a strong ___.",
+      "answer": "business case",
+      "hint_cz": "obchodní případ / zdůvodnění"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "return on investment",
+          "cz": "návratnost investice"
+        },
+        {
+          "target": "push back",
+          "cz": "namítat / oponovat"
+        },
+        {
+          "target": "approval",
+          "cz": "schválení"
+        },
+        {
+          "target": "straight to the point",
+          "cz": "rovnou k věci"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Senior management wants us to get straight to the point today.",
+      "tts_text": "Senior management wants us to get straight to the point today."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Okay, I prepared a strong business case with the expected return on investment.",
+      "tts_text": "Okay, I prepared a strong business case with the expected return on investment."
+    }
+  ]
+}

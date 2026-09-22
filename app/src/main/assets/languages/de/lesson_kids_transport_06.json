@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_transport_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Zu Fuß zur Schule",
+  "title_cz": "Cesta do školy pěšky",
+  "vocabulary": [
+    {
+      "word": "der Gehweg",
+      "translation_cz": "chodník",
+      "example": "Ich gehe auf dem Gehweg.",
+      "example_cz": "Jdu po chodníku.",
+      "tts_text": "Ich gehe auf dem Gehweg."
+    },
+    {
+      "word": "der Zebrastreifen",
+      "translation_cz": "přechod pro chodce",
+      "example": "Ich gehe über den Zebrastreifen.",
+      "example_cz": "Přecházím na přechodu pro chodce.",
+      "tts_text": "Ich gehe über den Zebrastreifen."
+    },
+    {
+      "word": "der Schulranzen",
+      "translation_cz": "školní batoh",
+      "example": "Ich trage meinen Schulranzen zur Schule.",
+      "example_cz": "Nesu si školní batoh do školy.",
+      "tts_text": "Ich trage meinen Schulranzen zur Schule."
+    },
+    {
+      "word": "früh",
+      "translation_cz": "brzy",
+      "example": "Ich verlasse das Haus früh.",
+      "example_cz": "Odcházím z domu brzy.",
+      "tts_text": "Ich verlasse das Haus früh."
+    },
+    {
+      "word": "nach beiden Seiten schauen",
+      "translation_cz": "podívat se na obě strany",
+      "example": "Ich schaue nach beiden Seiten, bevor ich gehe.",
+      "example_cz": "Před přecházením se dívám na obě strany.",
+      "tts_text": "Ich schaue nach beiden Seiten, bevor ich gehe."
+    },
+    {
+      "word": "zusammen",
+      "translation_cz": "společně",
+      "example": "Wir gehen zusammen zur Schule.",
+      "example_cz": "Jdeme do školy společně.",
+      "tts_text": "Wir gehen zusammen zur Schule."
+    },
+    {
+      "word": "die Straße",
+      "translation_cz": "ulice",
+      "example": "Unsere Schule ist in dieser Straße.",
+      "example_cz": "Naše škola je v této ulici.",
+      "tts_text": "Unsere Schule ist in dieser Straße."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Gehweg",
+      "options": [
+        "chodník",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "chodník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich trage meinen ___ zur Schule.",
+      "answer": "der Schulranzen",
+      "hint_cz": "školní batoh"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Zebrastreifen",
+          "cz": "přechod pro chodce"
+        },
+        {
+          "target": "der Schulranzen",
+          "cz": "školní batoh"
+        },
+        {
+          "target": "früh",
+          "cz": "brzy"
+        },
+        {
+          "target": "nach beiden Seiten schauen",
+          "cz": "podívat se na obě strany"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich schaue nach beiden Seiten, bevor ich gehe.",
+      "tts_text": "Ich schaue nach beiden Seiten, bevor ich gehe."
+    }
+  ]
+}

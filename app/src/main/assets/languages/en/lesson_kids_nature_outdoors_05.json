@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_nature_outdoors_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Mountains",
+  "title_cz": "Hory",
+  "vocabulary": [
+    {
+      "word": "mountain",
+      "translation_cz": "hora",
+      "example": "We climb a high mountain.",
+      "example_cz": "Lezeme na vysokou horu.",
+      "tts_text": "We climb a high mountain."
+    },
+    {
+      "word": "hill",
+      "translation_cz": "kopec",
+      "example": "We roll down the hill.",
+      "example_cz": "Kutálíme se dolů z kopce.",
+      "tts_text": "We roll down the hill."
+    },
+    {
+      "word": "peak",
+      "translation_cz": "vrchol",
+      "example": "Snow covers the peak.",
+      "example_cz": "Vrchol pokrývá sníh.",
+      "tts_text": "Snow covers the peak."
+    },
+    {
+      "word": "path",
+      "translation_cz": "stezka",
+      "example": "We follow the path up.",
+      "example_cz": "Jdeme po stezce nahoru.",
+      "tts_text": "We follow the path up."
+    },
+    {
+      "word": "hike",
+      "translation_cz": "turistika",
+      "example": "We hike every summer.",
+      "example_cz": "Každé léto chodíme na turistiku.",
+      "tts_text": "We hike every summer."
+    },
+    {
+      "word": "view",
+      "translation_cz": "výhled",
+      "example": "The view from the top is amazing.",
+      "example_cz": "Výhled z vrcholu je úžasný.",
+      "tts_text": "The view from the top is amazing."
+    },
+    {
+      "word": "rock",
+      "translation_cz": "skála",
+      "example": "We sit on a big rock.",
+      "example_cz": "Sedíme na velké skále.",
+      "tts_text": "We sit on a big rock."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "mountain",
+      "options": [
+        "hora",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "hora"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We climb a high ___.",
+      "answer": "mountain",
+      "hint_cz": "hora"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "hill",
+          "cz": "kopec"
+        },
+        {
+          "target": "peak",
+          "cz": "vrchol"
+        },
+        {
+          "target": "path",
+          "cz": "stezka"
+        },
+        {
+          "target": "hike",
+          "cz": "turistika"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We hike every summer.",
+      "tts_text": "We hike every summer."
+    }
+  ]
+}

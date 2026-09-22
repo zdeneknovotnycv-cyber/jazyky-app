@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_transport_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Walking to school",
+  "title_cz": "Cesta do školy pěšky",
+  "vocabulary": [
+    {
+      "word": "sidewalk",
+      "translation_cz": "chodník",
+      "example": "I walk on the sidewalk.",
+      "example_cz": "Jdu po chodníku.",
+      "tts_text": "I walk on the sidewalk."
+    },
+    {
+      "word": "crosswalk",
+      "translation_cz": "přechod pro chodce",
+      "example": "I cross at the crosswalk.",
+      "example_cz": "Přecházím na přechodu pro chodce.",
+      "tts_text": "I cross at the crosswalk."
+    },
+    {
+      "word": "backpack",
+      "translation_cz": "školní batoh",
+      "example": "I carry my backpack to school.",
+      "example_cz": "Nesu si školní batoh do školy.",
+      "tts_text": "I carry my backpack to school."
+    },
+    {
+      "word": "early",
+      "translation_cz": "brzy",
+      "example": "I leave home early.",
+      "example_cz": "Odcházím z domu brzy.",
+      "tts_text": "I leave home early."
+    },
+    {
+      "word": "look both ways",
+      "translation_cz": "podívat se na obě strany",
+      "example": "I look both ways before crossing.",
+      "example_cz": "Před přecházením se dívám na obě strany.",
+      "tts_text": "I look both ways before crossing."
+    },
+    {
+      "word": "together",
+      "translation_cz": "společně",
+      "example": "We walk to school together.",
+      "example_cz": "Jdeme do školy společně.",
+      "tts_text": "We walk to school together."
+    },
+    {
+      "word": "street",
+      "translation_cz": "ulice",
+      "example": "Our school is on this street.",
+      "example_cz": "Naše škola je v této ulici.",
+      "tts_text": "Our school is on this street."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sidewalk",
+      "options": [
+        "chodník",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "chodník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I carry my ___ to school.",
+      "answer": "backpack",
+      "hint_cz": "školní batoh"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "crosswalk",
+          "cz": "přechod pro chodce"
+        },
+        {
+          "target": "backpack",
+          "cz": "školní batoh"
+        },
+        {
+          "target": "early",
+          "cz": "brzy"
+        },
+        {
+          "target": "look both ways",
+          "cz": "podívat se na obě strany"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I look both ways before crossing.",
+      "tts_text": "I look both ways before crossing."
+    }
+  ]
+}

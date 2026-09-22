@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_town_places_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Das Kino",
+  "title_cz": "Kino",
+  "vocabulary": [
+    {
+      "word": "das Kino",
+      "translation_cz": "kino",
+      "example": "Wir gehen am Freitag ins Kino.",
+      "example_cz": "Jdeme v pátek do kina.",
+      "tts_text": "Wir gehen am Freitag ins Kino."
+    },
+    {
+      "word": "der Film",
+      "translation_cz": "film",
+      "example": "Wir schauen einen lustigen Film.",
+      "example_cz": "Díváme se na vtipný film.",
+      "tts_text": "Wir schauen einen lustigen Film."
+    },
+    {
+      "word": "das Popcorn",
+      "translation_cz": "popcorn",
+      "example": "Ich esse im Kino immer Popcorn.",
+      "example_cz": "V kině vždy jím popcorn.",
+      "tts_text": "Ich esse im Kino immer Popcorn."
+    },
+    {
+      "word": "die Leinwand",
+      "translation_cz": "plátno",
+      "example": "Das Bild ist groß auf der Leinwand.",
+      "example_cz": "Obraz je na plátně velký.",
+      "tts_text": "Das Bild ist groß auf der Leinwand."
+    },
+    {
+      "word": "die Kinokarte",
+      "translation_cz": "lístek do kina",
+      "example": "Papa kauft die Kinokarten.",
+      "example_cz": "Táta kupuje lístky do kina.",
+      "tts_text": "Papa kauft die Kinokarten."
+    },
+    {
+      "word": "leise",
+      "translation_cz": "tiše",
+      "example": "Wir sind während des Films leise.",
+      "example_cz": "Během filmu jsme tiše.",
+      "tts_text": "Wir sind während des Films leise."
+    },
+    {
+      "word": "der Kinosessel",
+      "translation_cz": "sedadlo v kině",
+      "example": "Mein Kinosessel ist sehr bequem.",
+      "example_cz": "Moje sedadlo je moc pohodlné.",
+      "tts_text": "Mein Kinosessel ist sehr bequem."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Kino",
+      "options": [
+        "kino",
+        "park",
+        "škola"
+      ],
+      "correct": "kino"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir schauen einen lustigen ___.",
+      "answer": "der Film",
+      "hint_cz": "film"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Film",
+          "cz": "film"
+        },
+        {
+          "target": "das Popcorn",
+          "cz": "popcorn"
+        },
+        {
+          "target": "die Leinwand",
+          "cz": "plátno"
+        },
+        {
+          "target": "die Kinokarte",
+          "cz": "lístek do kina"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich esse im Kino immer Popcorn.",
+      "tts_text": "Ich esse im Kino immer Popcorn."
+    }
+  ]
+}

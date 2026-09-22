@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_negotiation_sales_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Mit Einwänden umgehen",
+  "title_cz": "Reakce na námitky",
+  "vocabulary": [
+    {
+      "word": "der Einwand",
+      "translation_cz": "námitka",
+      "example": "Das ist ein berechtigter Einwand.",
+      "example_cz": "To je oprávněná námitka.",
+      "tts_text": "Das ist ein berechtigter Einwand."
+    },
+    {
+      "word": "das Bedenken",
+      "translation_cz": "obava",
+      "example": "Ich verstehe Ihr Bedenken wegen des Preises.",
+      "example_cz": "Chápu vaši obavu ohledně ceny.",
+      "tts_text": "Ich verstehe Ihr Bedenken wegen des Preises."
+    },
+    {
+      "word": "beruhigen",
+      "translation_cz": "ujistit",
+      "example": "Lassen Sie mich Sie bezüglich der Qualität beruhigen.",
+      "example_cz": "Dovolte mi vás ujistit ohledně kvality.",
+      "tts_text": "Lassen Sie mich Sie bezüglich der Qualität beruhigen."
+    },
+    {
+      "word": "Ihre Sichtweise verstehen",
+      "translation_cz": "chápat váš pohled",
+      "example": "Ich verstehe Ihre Sichtweise dazu.",
+      "example_cz": "Chápu váš pohled na tuto věc.",
+      "tts_text": "Ich verstehe Ihre Sichtweise dazu."
+    },
+    {
+      "word": "eingehen auf",
+      "translation_cz": "vypořádat se s",
+      "example": "Lassen Sie mich direkt auf dieses Bedenken eingehen.",
+      "example_cz": "Dovolte mi se s touto obavou přímo vypořádat.",
+      "tts_text": "Lassen Sie mich direkt auf dieses Bedenken eingehen."
+    },
+    {
+      "word": "das Zögern",
+      "translation_cz": "váhání",
+      "example": "Ich spüre etwas Zögern auf Ihrer Seite.",
+      "example_cz": "Cítím na vaší straně jisté váhání.",
+      "tts_text": "Ich spüre etwas Zögern auf Ihrer Seite."
+    },
+    {
+      "word": "das verbreitete Missverständnis",
+      "translation_cz": "častý mylný předpoklad",
+      "example": "Das ist ein verbreitetes Missverständnis über unsere Preise.",
+      "example_cz": "To je častý mylný předpoklad o naší cenové politice.",
+      "tts_text": "Das ist ein verbreitetes Missverständnis über unsere Preise."
+    },
+    {
+      "word": "die Garantie",
+      "translation_cz": "záruka",
+      "example": "Wir bieten eine vollständige Geld-zurück-Garantie.",
+      "example_cz": "Nabízíme plnou záruku vrácení peněz.",
+      "tts_text": "Wir bieten eine vollständige Geld-zurück-Garantie."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_handle_objection",
+      "title": "Auf einen Preiseinwand reagieren",
+      "title_cz": "Reakce na námitku ohledně ceny",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ehrlich gesagt, das scheint teurer als bei Ihrer Konkurrenz.",
+          "text_cz": "Upřímně, tohle se zdá dražší než u vaší konkurence."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich verstehe Ihr Bedenken wegen des Preises. Lassen Sie mich direkt darauf eingehen.",
+          "text_cz": "Chápu vaši obavu ohledně ceny. Dovolte mi se s tím rovnou vypořádat."
+        },
+        {
+          "speaker": "A",
+          "text": "Bitte, gerne.",
+          "text_cz": "Prosím, povídejte."
+        },
+        {
+          "speaker": "B",
+          "text": "Wir bieten Support und eine vollständige Geld-zurück-Garantie, was die meisten Wettbewerber nicht anbieten.",
+          "text_cz": "Zahrnujeme podporu a plnou záruku vrácení peněz, což většina konkurentů nenabízí."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Einwand",
+      "options": [
+        "námitka",
+        "ujistit",
+        "chápat váš pohled"
+      ],
+      "correct": "námitka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich verstehe Ihr Bedenken wegen des Preises.",
+      "answer": "das Bedenken",
+      "hint_cz": "obava"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lassen Sie mich direkt auf dieses Bedenken eingehen.",
+      "answer": "eingehen auf",
+      "hint_cz": "vypořádat se s"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Zögern",
+          "cz": "váhání"
+        },
+        {
+          "target": "das verbreitete Missverständnis",
+          "cz": "častý mylný předpoklad"
+        },
+        {
+          "target": "die Garantie",
+          "cz": "záruka"
+        },
+        {
+          "target": "beruhigen",
+          "cz": "ujistit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ehrlich gesagt, das scheint teurer als bei Ihrer Konkurrenz.",
+      "tts_text": "Ehrlich gesagt, das scheint teurer als bei Ihrer Konkurrenz."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich verstehe Ihr Bedenken wegen des Preises. Lassen Sie mich direkt darauf eingehen.",
+      "tts_text": "Ich verstehe Ihr Bedenken wegen des Preises. Lassen Sie mich direkt darauf eingehen."
+    }
+  ]
+}

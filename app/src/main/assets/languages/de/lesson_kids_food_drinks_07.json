@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_food_drinks_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Drinks",
+  "title_cz": "Nápoje",
+  "vocabulary": [
+    {
+      "word": "das Wasser",
+      "translation_cz": "voda",
+      "example": "Ich trinke Wasser, wenn ich Durst habe.",
+      "example_cz": "Když mám žízeň, piju vodu.",
+      "tts_text": "Ich trinke Wasser, wenn ich Durst habe."
+    },
+    {
+      "word": "der Saft",
+      "translation_cz": "džus",
+      "example": "Ich mag Apfelsaft.",
+      "example_cz": "Mám rád jablečný džus.",
+      "tts_text": "Ich mag Apfelsaft."
+    },
+    {
+      "word": "die Milch",
+      "translation_cz": "mléko",
+      "example": "Ich trinke Milch zum Frühstück.",
+      "example_cz": "K snídani piju mléko.",
+      "tts_text": "Ich trinke Milch zum Frühstück."
+    },
+    {
+      "word": "der Tee",
+      "translation_cz": "čaj",
+      "example": "Oma macht mir Tee.",
+      "example_cz": "Babička mi dělá čaj.",
+      "tts_text": "Oma macht mir Tee."
+    },
+    {
+      "word": "die Limonade",
+      "translation_cz": "limonáda",
+      "example": "Wir trinken im Sommer Limonade.",
+      "example_cz": "V létě pijeme limonádu.",
+      "tts_text": "Wir trinken im Sommer Limonade."
+    },
+    {
+      "word": "durstig",
+      "translation_cz": "žíznivý",
+      "example": "Ich bin jetzt durstig.",
+      "example_cz": "Teď mám žízeň.",
+      "tts_text": "Ich bin jetzt durstig."
+    },
+    {
+      "word": "die Tasse",
+      "translation_cz": "hrneček",
+      "example": "Meine Tasse ist rot.",
+      "example_cz": "Můj hrneček je červený.",
+      "tts_text": "Meine Tasse ist rot."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Wasser",
+      "options": [
+        "voda",
+        "džus",
+        "čaj"
+      ],
+      "correct": "voda"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bin jetzt ___.",
+      "answer": "durstig",
+      "hint_cz": "žíznivý"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Saft",
+          "cz": "džus"
+        },
+        {
+          "target": "der Tee",
+          "cz": "čaj"
+        },
+        {
+          "target": "die Limonade",
+          "cz": "limonáda"
+        },
+        {
+          "target": "die Tasse",
+          "cz": "hrneček"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich trinke Wasser, wenn ich Durst habe.",
+      "tts_text": "Ich trinke Wasser, wenn ich Durst habe."
+    }
+  ]
+}

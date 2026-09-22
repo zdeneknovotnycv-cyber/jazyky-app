@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_animals_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Animal Sounds",
+  "title_cz": "Zvuky zvířat",
+  "vocabulary": [
+    {
+      "word": "bark",
+      "translation_cz": "štěkat",
+      "example": "The dog barks loudly.",
+      "example_cz": "Pes hlasitě štěká.",
+      "tts_text": "The dog barks loudly."
+    },
+    {
+      "word": "meow",
+      "translation_cz": "mňoukat",
+      "example": "The cat meows at night.",
+      "example_cz": "Kočka mňouká v noci.",
+      "tts_text": "The cat meows at night."
+    },
+    {
+      "word": "moo",
+      "translation_cz": "bučet",
+      "example": "The cow says moo.",
+      "example_cz": "Kráva dělá bú.",
+      "tts_text": "The cow says moo."
+    },
+    {
+      "word": "roar",
+      "translation_cz": "řvát",
+      "example": "The lion roars in the jungle.",
+      "example_cz": "Lev řve v džungli.",
+      "tts_text": "The lion roars in the jungle."
+    },
+    {
+      "word": "quack",
+      "translation_cz": "kejhat",
+      "example": "The duck says quack.",
+      "example_cz": "Kachna dělá kvak.",
+      "tts_text": "The duck says quack."
+    },
+    {
+      "word": "tweet",
+      "translation_cz": "cvrlikat",
+      "example": "The little bird tweets.",
+      "example_cz": "Malý ptáček cvrliká.",
+      "tts_text": "The little bird tweets."
+    },
+    {
+      "word": "neigh",
+      "translation_cz": "ržát",
+      "example": "The horse neighs happily.",
+      "example_cz": "Kůň šťastně řehtá.",
+      "tts_text": "The horse neighs happily."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "roar",
+      "options": [
+        "řvát",
+        "štěkat",
+        "bučet"
+      ],
+      "correct": "řvát"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The dog ___ loudly.",
+      "answer": "barks",
+      "hint_cz": "štěká"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "meow",
+          "cz": "mňoukat"
+        },
+        {
+          "target": "moo",
+          "cz": "bučet"
+        },
+        {
+          "target": "quack",
+          "cz": "kejhat"
+        },
+        {
+          "target": "tweet",
+          "cz": "cvrlikat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The lion roars in the jungle.",
+      "tts_text": "The lion roars in the jungle."
+    }
+  ]
+}

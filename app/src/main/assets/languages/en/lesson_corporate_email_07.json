@@ -1,0 +1,138 @@
+{
+  "id": "en_adult_corporate_email_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Email subject lines",
+  "title_cz": "Předmět e-mailu",
+  "vocabulary": [
+    {
+      "word": "subject line",
+      "translation_cz": "předmět e-mailu",
+      "example": "Make sure the subject line is clear.",
+      "example_cz": "Ujistěte se, že předmět e-mailu je jasný.",
+      "tts_text": "Make sure the subject line is clear."
+    },
+    {
+      "word": "concise",
+      "translation_cz": "stručný",
+      "example": "Keep the subject line concise.",
+      "example_cz": "Předmět e-mailu udržujte stručný.",
+      "tts_text": "Keep the subject line concise."
+    },
+    {
+      "word": "action required",
+      "translation_cz": "vyžaduje se akce",
+      "example": "I wrote 'Action required' in the subject.",
+      "example_cz": "Do předmětu jsem napsal 'Vyžaduje se akce'.",
+      "tts_text": "I wrote 'Action required' in the subject."
+    },
+    {
+      "word": "reference number",
+      "translation_cz": "referenční číslo",
+      "example": "Include the reference number in the subject.",
+      "example_cz": "Do předmětu uveďte referenční číslo.",
+      "tts_text": "Include the reference number in the subject."
+    },
+    {
+      "word": "catch attention",
+      "translation_cz": "upoutat pozornost",
+      "example": "A good subject line catches attention.",
+      "example_cz": "Dobrý předmět e-mailu upoutá pozornost.",
+      "tts_text": "A good subject line catches attention."
+    },
+    {
+      "word": "misleading",
+      "translation_cz": "zavádějící",
+      "example": "Avoid a misleading subject line.",
+      "example_cz": "Vyhněte se zavádějícímu předmětu.",
+      "tts_text": "Avoid a misleading subject line."
+    },
+    {
+      "word": "summarize the content",
+      "translation_cz": "shrnout obsah",
+      "example": "The subject should summarize the content.",
+      "example_cz": "Předmět by měl shrnout obsah.",
+      "tts_text": "The subject should summarize the content."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_subject_line",
+      "title": "Choosing a clear subject line",
+      "title_cz": "Výběr jasného předmětu e-mailu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "What subject line should I use for this urgent request?",
+          "text_cz": "Jaký předmět mám použít pro tuto naléhavou žádost?"
+        },
+        {
+          "speaker": "B",
+          "text": "Keep it concise and write 'Action required' at the start.",
+          "text_cz": "Udrž ho stručný a na začátek napiš 'Vyžaduje se akce'."
+        },
+        {
+          "speaker": "A",
+          "text": "Should I include the reference number too?",
+          "text_cz": "Mám do něj přidat i referenční číslo?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, that helps the subject summarize the content clearly.",
+          "text_cz": "Ano, to pomůže, aby předmět jasně shrnul obsah."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "concise",
+      "options": [
+        "stručný",
+        "zavádějící",
+        "referenční"
+      ],
+      "correct": "stručný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Make sure the subject ___ is clear.",
+      "answer": "line",
+      "hint_cz": "řádek"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "action required",
+          "cz": "vyžaduje se akce"
+        },
+        {
+          "target": "misleading",
+          "cz": "zavádějící"
+        },
+        {
+          "target": "catch attention",
+          "cz": "upoutat pozornost"
+        },
+        {
+          "target": "reference number",
+          "cz": "referenční číslo"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Keep the subject line concise.",
+      "tts_text": "Keep the subject line concise."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The subject should ___ the content.",
+      "answer": "summarize",
+      "hint_cz": "shrnout"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_family_people_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Describing People",
+  "title_cz": "Popis lidí",
+  "vocabulary": [
+    {
+      "word": "groß",
+      "translation_cz": "vysoký",
+      "example": "Mein Bruder ist groß.",
+      "example_cz": "Můj bratr je vysoký.",
+      "tts_text": "Mein Bruder ist groß."
+    },
+    {
+      "word": "klein",
+      "translation_cz": "malý (postavou)",
+      "example": "Der kleine Junge ist klein.",
+      "example_cz": "Ten malý chlapec je malý postavou.",
+      "tts_text": "Der kleine Junge ist klein."
+    },
+    {
+      "word": "die Haare",
+      "translation_cz": "vlasy",
+      "example": "Ihre Haare sind lang.",
+      "example_cz": "Její vlasy jsou dlouhé.",
+      "tts_text": "Ihre Haare sind lang."
+    },
+    {
+      "word": "blond",
+      "translation_cz": "blonďatý",
+      "example": "Meine Schwester hat blonde Haare.",
+      "example_cz": "Moje sestra má blond vlasy.",
+      "tts_text": "Meine Schwester hat blonde Haare."
+    },
+    {
+      "word": "braune Augen",
+      "translation_cz": "hnědé oči",
+      "example": "Er hat braune Augen.",
+      "example_cz": "Má hnědé oči.",
+      "tts_text": "Er hat braune Augen."
+    },
+    {
+      "word": "jung",
+      "translation_cz": "mladý",
+      "example": "Die Lehrerin ist jung.",
+      "example_cz": "Ta učitelka je mladá.",
+      "tts_text": "Die Lehrerin ist jung."
+    },
+    {
+      "word": "alt",
+      "translation_cz": "starý",
+      "example": "Mein Großvater ist alt.",
+      "example_cz": "Můj dědeček je starý.",
+      "tts_text": "Mein Großvater ist alt."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "groß",
+      "options": [
+        "vysoký",
+        "malý",
+        "starý"
+      ],
+      "correct": "vysoký"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Meine Schwester hat ___ Haare.",
+      "answer": "blonde",
+      "hint_cz": "blonďaté"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "klein",
+          "cz": "malý (postavou)"
+        },
+        {
+          "target": "die Haare",
+          "cz": "vlasy"
+        },
+        {
+          "target": "jung",
+          "cz": "mladý"
+        },
+        {
+          "target": "alt",
+          "cz": "starý"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Er hat braune Augen.",
+      "tts_text": "Er hat braune Augen."
+    }
+  ]
+}

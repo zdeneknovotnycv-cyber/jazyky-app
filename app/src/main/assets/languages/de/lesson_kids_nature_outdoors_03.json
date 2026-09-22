@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_nature_outdoors_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Die Sonne und der Mond",
+  "title_cz": "Slunce a měsíc",
+  "vocabulary": [
+    {
+      "word": "die Sonne",
+      "translation_cz": "slunce",
+      "example": "Die Sonne ist sehr hell.",
+      "example_cz": "Slunce je moc jasné.",
+      "tts_text": "Die Sonne ist sehr hell."
+    },
+    {
+      "word": "der Mond",
+      "translation_cz": "měsíc",
+      "example": "Der Mond scheint in der Nacht.",
+      "example_cz": "Měsíc svítí v noci.",
+      "tts_text": "Der Mond scheint in der Nacht."
+    },
+    {
+      "word": "der Himmel",
+      "translation_cz": "obloha",
+      "example": "Der Himmel ist heute blau.",
+      "example_cz": "Obloha je dnes modrá.",
+      "tts_text": "Der Himmel ist heute blau."
+    },
+    {
+      "word": "der Sonnenaufgang",
+      "translation_cz": "východ slunce",
+      "example": "Wir schauen uns zusammen den Sonnenaufgang an.",
+      "example_cz": "Sledujeme spolu východ slunce.",
+      "tts_text": "Wir schauen uns zusammen den Sonnenaufgang an."
+    },
+    {
+      "word": "der Sonnenuntergang",
+      "translation_cz": "západ slunce",
+      "example": "Der Sonnenuntergang ist orange und rosa.",
+      "example_cz": "Západ slunce je oranžový a růžový.",
+      "tts_text": "Der Sonnenuntergang ist orange und rosa."
+    },
+    {
+      "word": "scheinen",
+      "translation_cz": "svítit",
+      "example": "Die Sonne scheint jeden Morgen.",
+      "example_cz": "Slunce svítí každé ráno.",
+      "tts_text": "Die Sonne scheint jeden Morgen."
+    },
+    {
+      "word": "die Nacht",
+      "translation_cz": "noc",
+      "example": "Der Mond kommt in der Nacht heraus.",
+      "example_cz": "Měsíc vychází v noci.",
+      "tts_text": "Der Mond kommt in der Nacht heraus."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Sonne",
+      "options": [
+        "slunce",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "slunce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die ___ ist sehr hell.",
+      "answer": "die Sonne",
+      "hint_cz": "slunce"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Mond",
+          "cz": "měsíc"
+        },
+        {
+          "target": "der Himmel",
+          "cz": "obloha"
+        },
+        {
+          "target": "der Sonnenaufgang",
+          "cz": "východ slunce"
+        },
+        {
+          "target": "der Sonnenuntergang",
+          "cz": "západ slunce"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Mond scheint in der Nacht.",
+      "tts_text": "Der Mond scheint in der Nacht."
+    }
+  ]
+}

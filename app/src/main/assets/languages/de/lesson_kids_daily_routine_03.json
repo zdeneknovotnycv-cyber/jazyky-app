@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_daily_routine_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Frühstücksroutine",
+  "title_cz": "Snídaňový rituál",
+  "vocabulary": [
+    {
+      "word": "das Frühstück",
+      "translation_cz": "snídaně",
+      "example": "Ich esse Frühstück in der Küche.",
+      "example_cz": "Snídám v kuchyni.",
+      "tts_text": "Ich esse Frühstück in der Küche."
+    },
+    {
+      "word": "das Müsli",
+      "translation_cz": "cereálie",
+      "example": "Ich mag Müsli mit Milch.",
+      "example_cz": "Mám rád cereálie s mlékem.",
+      "tts_text": "Ich mag Müsli mit Milch."
+    },
+    {
+      "word": "der Toast",
+      "translation_cz": "topinka",
+      "example": "Meine Schwester isst Toast mit Marmelade.",
+      "example_cz": "Moje sestra jí topinku s marmeládou.",
+      "tts_text": "Meine Schwester isst Toast mit Marmelade."
+    },
+    {
+      "word": "die Milch",
+      "translation_cz": "mléko",
+      "example": "Ich trinke ein Glas Milch.",
+      "example_cz": "Piju sklenici mléka.",
+      "tts_text": "Ich trinke ein Glas Milch."
+    },
+    {
+      "word": "das Ei",
+      "translation_cz": "vejce",
+      "example": "Papa kocht ein Ei zum Frühstück.",
+      "example_cz": "Táta k snídani uvaří vejce.",
+      "tts_text": "Papa kocht ein Ei zum Frühstück."
+    },
+    {
+      "word": "hungrig",
+      "translation_cz": "hladový",
+      "example": "Ich bin morgens hungrig.",
+      "example_cz": "Ráno mám hlad.",
+      "tts_text": "Ich bin morgens hungrig."
+    },
+    {
+      "word": "der Tisch",
+      "translation_cz": "stůl",
+      "example": "Wir sitzen zusammen am Tisch.",
+      "example_cz": "Sedíme spolu u stolu.",
+      "tts_text": "Wir sitzen zusammen am Tisch."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Frühstück",
+      "options": [
+        "snídaně",
+        "cereálie",
+        "topinka"
+      ],
+      "correct": "snídaně"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich mag ___ mit Milch.",
+      "answer": "Müsli",
+      "hint_cz": "cereálie"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Toast",
+          "cz": "topinka"
+        },
+        {
+          "target": "die Milch",
+          "cz": "mléko"
+        },
+        {
+          "target": "das Ei",
+          "cz": "vejce"
+        },
+        {
+          "target": "hungrig",
+          "cz": "hladový"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir sitzen zusammen am Tisch.",
+      "tts_text": "Wir sitzen zusammen am Tisch."
+    }
+  ]
+}

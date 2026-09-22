@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_nature_outdoors_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Recycling und Natur",
+  "title_cz": "Recyklace a příroda",
+  "vocabulary": [
+    {
+      "word": "recyceln",
+      "translation_cz": "recyklovat",
+      "example": "Wir recyceln Papier und Plastik.",
+      "example_cz": "Recyklujeme papír a plast.",
+      "tts_text": "Wir recyceln Papier und Plastik."
+    },
+    {
+      "word": "der Mülleimer",
+      "translation_cz": "popelnice",
+      "example": "Ich werfe die Flasche in den Mülleimer.",
+      "example_cz": "Dávám lahev do popelnice.",
+      "tts_text": "Ich werfe die Flasche in den Mülleimer."
+    },
+    {
+      "word": "das Plastik",
+      "translation_cz": "plast",
+      "example": "Plastik ist schlecht für das Meer.",
+      "example_cz": "Plast škodí moři.",
+      "tts_text": "Plastik ist schlecht für das Meer."
+    },
+    {
+      "word": "das Papier",
+      "translation_cz": "papír",
+      "example": "Wir sortieren Papier in eine blaue Tonne.",
+      "example_cz": "Papír třídíme do modrého kontejneru.",
+      "tts_text": "Wir sortieren Papier in eine blaue Tonne."
+    },
+    {
+      "word": "schützen",
+      "translation_cz": "chránit",
+      "example": "Wir müssen die Natur schützen.",
+      "example_cz": "Musíme chránit přírodu.",
+      "tts_text": "Wir müssen die Natur schützen."
+    },
+    {
+      "word": "sauber",
+      "translation_cz": "čistý",
+      "example": "Wir halten den Wald sauber.",
+      "example_cz": "Udržujeme les čistý.",
+      "tts_text": "Wir halten den Wald sauber."
+    },
+    {
+      "word": "der Planet",
+      "translation_cz": "planeta",
+      "example": "Wir kümmern uns um unseren Planeten.",
+      "example_cz": "Staráme se o naši planetu.",
+      "tts_text": "Wir kümmern uns um unseren Planeten."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "recyceln",
+      "options": [
+        "recyklovat",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "recyklovat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir ___ Papier und Plastik.",
+      "answer": "recyceln",
+      "hint_cz": "recyklovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Mülleimer",
+          "cz": "popelnice"
+        },
+        {
+          "target": "das Plastik",
+          "cz": "plast"
+        },
+        {
+          "target": "das Papier",
+          "cz": "papír"
+        },
+        {
+          "target": "schützen",
+          "cz": "chránit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir müssen die Natur schützen.",
+      "tts_text": "Wir müssen die Natur schützen."
+    }
+  ]
+}

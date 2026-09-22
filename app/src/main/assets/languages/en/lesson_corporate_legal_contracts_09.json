@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_legal_contracts_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Compliance training reminder",
+  "title_cz": "Připomínka školení o dodržování předpisů",
+  "vocabulary": [
+    {
+      "word": "mandatory training",
+      "translation_cz": "povinné školení",
+      "example": "This is mandatory training for all staff.",
+      "example_cz": "Toto je povinné školení pro všechny zaměstnance.",
+      "tts_text": "This is mandatory training for all staff."
+    },
+    {
+      "word": "complete the module",
+      "translation_cz": "dokončit modul",
+      "example": "Please complete the module by Friday.",
+      "example_cz": "Prosím dokončete modul do pátku.",
+      "tts_text": "Please complete the module by Friday."
+    },
+    {
+      "word": "code of conduct",
+      "translation_cz": "etický kodex",
+      "example": "Everyone must follow the code of conduct.",
+      "example_cz": "Všichni musí dodržovat etický kodex.",
+      "tts_text": "Everyone must follow the code of conduct."
+    },
+    {
+      "word": "deadline for completion",
+      "translation_cz": "termín pro dokončení",
+      "example": "The deadline for completion is next week.",
+      "example_cz": "Termín pro dokončení je příští týden.",
+      "tts_text": "The deadline for completion is next week."
+    },
+    {
+      "word": "certificate",
+      "translation_cz": "certifikát",
+      "example": "You'll receive a certificate after passing.",
+      "example_cz": "Po úspěšném absolvování obdržíte certifikát.",
+      "tts_text": "You'll receive a certificate after passing."
+    },
+    {
+      "word": "policy update",
+      "translation_cz": "aktualizace zásad",
+      "example": "This covers the latest policy update.",
+      "example_cz": "Toto zahrnuje nejnovější aktualizaci zásad.",
+      "tts_text": "This covers the latest policy update."
+    },
+    {
+      "word": "reminder email",
+      "translation_cz": "připomínkový e-mail",
+      "example": "I sent a reminder email yesterday.",
+      "example_cz": "Včera jsem poslal připomínkový e-mail.",
+      "tts_text": "I sent a reminder email yesterday."
+    },
+    {
+      "word": "non-compliance",
+      "translation_cz": "nedodržení předpisů",
+      "example": "Non-compliance may result in a warning.",
+      "example_cz": "Nedodržení předpisů může vést k varování.",
+      "tts_text": "Non-compliance may result in a warning."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_09",
+      "title": "Compliance training reminder",
+      "title_cz": "Připomínka školení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you completed the mandatory training yet?",
+          "text_cz": "Už jste dokončil povinné školení?"
+        },
+        {
+          "speaker": "B",
+          "text": "Not yet. What's the deadline for completion?",
+          "text_cz": "Ještě ne. Jaký je termín pro dokončení?"
+        },
+        {
+          "speaker": "A",
+          "text": "Next week. I already sent a reminder email.",
+          "text_cz": "Příští týden. Už jsem poslal připomínkový e-mail."
+        },
+        {
+          "speaker": "B",
+          "text": "Okay, I'll complete the module today. Does it cover the policy update?",
+          "text_cz": "Dobře, modul dnes dokončím. Zahrnuje to aktualizaci zásad?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, and the code of conduct too.",
+          "text_cz": "Ano, a také etický kodex."
+        },
+        {
+          "speaker": "B",
+          "text": "Got it. I'll get my certificate this afternoon.",
+          "text_cz": "Rozumím. Dnes odpoledne získám certifikát."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "mandatory training",
+      "options": [
+        "povinné školení",
+        "dokončit modul",
+        "etický kodex"
+      ],
+      "correct": "povinné školení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is next week.",
+      "answer": "deadline for completion",
+      "hint_cz": "termín pro dokončení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "mandatory training",
+          "cz": "povinné školení"
+        },
+        {
+          "target": "complete the module",
+          "cz": "dokončit modul"
+        },
+        {
+          "target": "code of conduct",
+          "cz": "etický kodex"
+        },
+        {
+          "target": "deadline for completion",
+          "cz": "termín pro dokončení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "You'll receive a certificate after passing.",
+      "tts_text": "You'll receive a certificate after passing."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This covers the latest ___.",
+      "answer": "policy update",
+      "hint_cz": "aktualizace zásad"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_reports_presentations_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Zusammenfassung für die Geschäftsleitung",
+  "title_cz": "Manažerské shrnutí",
+  "vocabulary": [
+    {
+      "word": "die Zusammenfassung für die Geschäftsleitung",
+      "translation_cz": "manažerské shrnutí",
+      "example": "Bitte lesen Sie zuerst die Zusammenfassung für die Geschäftsleitung.",
+      "example_cz": "Přečtěte si prosím nejprve manažerské shrnutí.",
+      "tts_text": "Bitte lesen Sie zuerst die Zusammenfassung für die Geschäftsleitung."
+    },
+    {
+      "word": "übergeordnet",
+      "translation_cz": "na obecné/vysoké úrovni",
+      "example": "Halten Sie diesen Abschnitt übergeordnet und kurz.",
+      "example_cz": "Tuto sekci udržte na obecné úrovni a stručnou.",
+      "tts_text": "Halten Sie diesen Abschnitt übergeordnet und kurz."
+    },
+    {
+      "word": "der Entscheidungsträger",
+      "translation_cz": "osoba s rozhodovací pravomocí",
+      "example": "Diese Zusammenfassung ist für Entscheidungsträger geschrieben.",
+      "example_cz": "Toto shrnutí je napsáno pro osoby s rozhodovací pravomocí.",
+      "tts_text": "Diese Zusammenfassung ist für Entscheidungsträger geschrieben."
+    },
+    {
+      "word": "das Wesentliche",
+      "translation_cz": "podstata / výsledek",
+      "example": "Das Wesentliche ist, dass der Umsatz wächst.",
+      "example_cz": "Podstatou je, že příjmy rostou.",
+      "tts_text": "Das Wesentliche ist, dass der Umsatz wächst."
+    },
+    {
+      "word": "prägnant",
+      "translation_cz": "stručný",
+      "example": "Halten Sie die Zusammenfassung prägnant, maximal eine Seite.",
+      "example_cz": "Udržte shrnutí stručné, maximálně jedna stránka.",
+      "tts_text": "Halten Sie die Zusammenfassung prägnant, maximal eine Seite."
+    },
+    {
+      "word": "der Aktionspunkt",
+      "translation_cz": "úkol k realizaci",
+      "example": "Jeder Aktionspunkt hat einen Verantwortlichen und eine Frist.",
+      "example_cz": "Každý úkol k realizaci má vlastníka a termín.",
+      "tts_text": "Jeder Aktionspunkt hat einen Verantwortlichen und eine Frist."
+    },
+    {
+      "word": "auf einen Blick",
+      "translation_cz": "na první pohled",
+      "example": "Sie sehen die Ergebnisse auf einen Blick.",
+      "example_cz": "Výsledky vidíte na první pohled.",
+      "tts_text": "Sie sehen die Ergebnisse auf einen Blick."
+    },
+    {
+      "word": "die unterstützenden Daten",
+      "translation_cz": "podpůrná data",
+      "example": "Die unterstützenden Daten stehen im vollständigen Bericht.",
+      "example_cz": "Podpůrná data jsou v celé zprávě.",
+      "tts_text": "Die unterstützenden Daten stehen im vollständigen Bericht."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_exec_summary",
+      "title": "Eine Zusammenfassung für die Geschäftsleitung vorbereiten",
+      "title_cz": "Příprava manažerského shrnutí",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Können Sie eine Zusammenfassung für die Geschäftsleitung vorbereiten?",
+          "text_cz": "Můžete připravit manažerské shrnutí pro vedení?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, ich halte sie prägnant, maximal eine Seite.",
+          "text_cz": "Jasně, udržím ho stručné, maximálně na jednu stránku."
+        },
+        {
+          "speaker": "A",
+          "text": "Gut, denken Sie daran, dass sie für Entscheidungsträger ist, also übergeordnet halten.",
+          "text_cz": "Dobře, pamatujte, že je pro osoby s rozhodovací pravomocí, tak ať je na obecné úrovni."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden, ich setze das Wesentliche nach oben und füge Aktionspunkte hinzu.",
+          "text_cz": "Rozumím, podstatu dám nahoru a přidám úkoly k realizaci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Zusammenfassung für die Geschäftsleitung",
+      "options": [
+        "manažerské shrnutí",
+        "osoba s rozhodovací pravomocí",
+        "podstata / výsledek"
+      ],
+      "correct": "manažerské shrnutí"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Halten Sie diesen Abschnitt ___ und kurz.",
+      "answer": "übergeordnet",
+      "hint_cz": "na obecné/vysoké úrovni"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Halten Sie die Zusammenfassung ___, maximal eine Seite.",
+      "answer": "prägnant",
+      "hint_cz": "stručný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Aktionspunkt",
+          "cz": "úkol k realizaci"
+        },
+        {
+          "target": "auf einen Blick",
+          "cz": "na první pohled"
+        },
+        {
+          "target": "die unterstützenden Daten",
+          "cz": "podpůrná data"
+        },
+        {
+          "target": "der Entscheidungsträger",
+          "cz": "osoba s rozhodovací pravomocí"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Können Sie eine Zusammenfassung für die Geschäftsleitung vorbereiten?",
+      "tts_text": "Können Sie eine Zusammenfassung für die Geschäftsleitung vorbereiten?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Klar, ich halte sie prägnant, maximal eine Seite.",
+      "tts_text": "Klar, ich halte sie prägnant, maximal eine Seite."
+    }
+  ]
+}

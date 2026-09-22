@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_performance_feedback_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing a promotion",
+  "title_cz": "Diskuse o povýšení",
+  "vocabulary": [
+    {
+      "word": "promotion",
+      "translation_cz": "povýšení",
+      "example": "I would like to discuss a possible promotion.",
+      "example_cz": "Rád bych probral možné povýšení.",
+      "tts_text": "I would like to discuss a possible promotion."
+    },
+    {
+      "word": "next level",
+      "translation_cz": "další úroveň",
+      "example": "What do I need to reach the next level?",
+      "example_cz": "Co potřebuji, abych dosáhl další úrovně?",
+      "tts_text": "What do I need to reach the next level?"
+    },
+    {
+      "word": "job responsibilities",
+      "translation_cz": "pracovní povinnosti",
+      "example": "The new role has more job responsibilities.",
+      "example_cz": "Nová role má více pracovních povinností.",
+      "tts_text": "The new role has more job responsibilities."
+    },
+    {
+      "word": "track record",
+      "translation_cz": "výsledky, historie",
+      "example": "You have a strong track record this year.",
+      "example_cz": "Máš letos silné výsledky.",
+      "tts_text": "You have a strong track record this year."
+    },
+    {
+      "word": "readiness",
+      "translation_cz": "připravenost",
+      "example": "Let's talk about your readiness for the role.",
+      "example_cz": "Pojďme probrat tvou připravenost na tuto roli.",
+      "tts_text": "Let's talk about your readiness for the role."
+    },
+    {
+      "word": "timeline",
+      "translation_cz": "časový harmonogram",
+      "example": "What's a realistic timeline for this?",
+      "example_cz": "Jaký je pro to reálný časový harmonogram?",
+      "tts_text": "What's a realistic timeline for this?"
+    },
+    {
+      "word": "increase in responsibility",
+      "translation_cz": "zvýšení odpovědnosti",
+      "example": "A promotion usually means an increase in responsibility.",
+      "example_cz": "Povýšení obvykle znamená zvýšení odpovědnosti.",
+      "tts_text": "A promotion usually means an increase in responsibility."
+    },
+    {
+      "word": "HR process",
+      "translation_cz": "HR proces",
+      "example": "The promotion has to go through the HR process.",
+      "example_cz": "Povýšení musí projít HR procesem.",
+      "tts_text": "The promotion has to go through the HR process."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_05",
+      "title": "Talking about career progress",
+      "title_cz": "Rozhovor o kariérním postupu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'd like to discuss a possible promotion this year.",
+          "text_cz": "Rád bych letos probral možné povýšení."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, you have a strong track record. Let's talk about the next level.",
+          "text_cz": "Jasně, máš silné výsledky. Pojďme probrat další úroveň."
+        },
+        {
+          "speaker": "A",
+          "text": "What job responsibilities would come with it?",
+          "text_cz": "Jaké pracovní povinnosti by s tím přišly?"
+        },
+        {
+          "speaker": "B",
+          "text": "More project ownership, and it goes through the HR process.",
+          "text_cz": "Více odpovědnosti za projekty a jde to přes HR proces."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "promotion",
+      "options": [
+        "povýšení",
+        "další úroveň",
+        "pracovní povinnosti"
+      ],
+      "correct": "povýšení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You have a strong ___ this year.",
+      "answer": "track record",
+      "hint_cz": "výsledky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "promotion",
+          "cz": "povýšení"
+        },
+        {
+          "target": "next level",
+          "cz": "další úroveň"
+        },
+        {
+          "target": "job responsibilities",
+          "cz": "pracovní povinnosti"
+        },
+        {
+          "target": "track record",
+          "cz": "výsledky, historie"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I would like to discuss a possible promotion.",
+      "tts_text": "I would like to discuss a possible promotion."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The promotion has to go through the HR ___.",
+      "answer": "process",
+      "hint_cz": "proces"
+    }
+  ]
+}

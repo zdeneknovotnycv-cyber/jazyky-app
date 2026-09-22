@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_family_people_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Where People Live",
+  "title_cz": "Kde lidé bydlí",
+  "vocabulary": [
+    {
+      "word": "wohnen",
+      "translation_cz": "bydlet",
+      "example": "Ich wohne in einer kleinen Stadt.",
+      "example_cz": "Bydlím v malém městě.",
+      "tts_text": "Ich wohne in einer kleinen Stadt."
+    },
+    {
+      "word": "das Haus",
+      "translation_cz": "dům",
+      "example": "Wir wohnen in einem Haus.",
+      "example_cz": "Bydlíme v domě.",
+      "tts_text": "Wir wohnen in einem Haus."
+    },
+    {
+      "word": "die Wohnung",
+      "translation_cz": "byt",
+      "example": "Mein Freund wohnt in einer Wohnung.",
+      "example_cz": "Můj kamarád bydlí v bytě.",
+      "tts_text": "Mein Freund wohnt in einer Wohnung."
+    },
+    {
+      "word": "die Großstadt",
+      "translation_cz": "město (velké)",
+      "example": "Mein Onkel wohnt in einer Großstadt.",
+      "example_cz": "Můj strýc bydlí ve velkém městě.",
+      "tts_text": "Mein Onkel wohnt in einer Großstadt."
+    },
+    {
+      "word": "das Dorf",
+      "translation_cz": "vesnice",
+      "example": "Meine Großeltern wohnen in einem Dorf.",
+      "example_cz": "Moji prarodiče bydlí na vesnici.",
+      "tts_text": "Meine Großeltern wohnen in einem Dorf."
+    },
+    {
+      "word": "die Straße",
+      "translation_cz": "ulice",
+      "example": "Unsere Straße ist ruhig.",
+      "example_cz": "Naše ulice je klidná.",
+      "tts_text": "Unsere Straße ist ruhig."
+    },
+    {
+      "word": "der Nachbar",
+      "translation_cz": "soused",
+      "example": "Unser Nachbar ist freundlich.",
+      "example_cz": "Náš soused je přátelský.",
+      "tts_text": "Unser Nachbar ist freundlich."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "wohnen",
+      "options": [
+        "bydlet",
+        "hrát",
+        "jíst"
+      ],
+      "correct": "bydlet"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir wohnen in einem ___.",
+      "answer": "Haus",
+      "hint_cz": "dům"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Wohnung",
+          "cz": "byt"
+        },
+        {
+          "target": "die Großstadt",
+          "cz": "město (velké)"
+        },
+        {
+          "target": "das Dorf",
+          "cz": "vesnice"
+        },
+        {
+          "target": "der Nachbar",
+          "cz": "soused"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich wohne in einer kleinen Stadt.",
+      "tts_text": "Ich wohne in einer kleinen Stadt."
+    }
+  ]
+}

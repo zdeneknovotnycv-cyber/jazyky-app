@@ -1,0 +1,50 @@
+{
+  "id": "en_corporate_hr_recruitment_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Describing Your Experience",
+  "title_cz": "Popis vlastních zkušeností",
+  "vocabulary": [
+    {"word": "experience", "translation_cz": "zkušenost", "example": "I have five years of experience in sales.", "example_cz": "Mám pět let zkušeností v prodeji.", "tts_text": "I have five years of experience in sales."},
+    {"word": "responsibility", "translation_cz": "odpovědnost", "example": "My main responsibility was managing the team.", "example_cz": "Mou hlavní odpovědností bylo vedení týmu.", "tts_text": "My main responsibility was managing the team."},
+    {"word": "achievement", "translation_cz": "úspěch (pracovní)", "example": "My biggest achievement was increasing sales by 20 percent.", "example_cz": "Mým největším úspěchem bylo zvýšení prodeje o 20 procent.", "tts_text": "My biggest achievement was increasing sales by 20 percent."},
+    {"word": "previous employer", "translation_cz": "předchozí zaměstnavatel", "example": "At my previous employer, I worked in finance.", "example_cz": "U předchozího zaměstnavatele jsem pracoval ve financích.", "tts_text": "At my previous employer, I worked in finance."},
+    {"word": "skill set", "translation_cz": "soubor dovedností", "example": "My skill set includes project management and analysis.", "example_cz": "Mezi mé dovednosti patří projektové řízení a analýza.", "tts_text": "My skill set includes project management and analysis."},
+    {"word": "promotion", "translation_cz": "povýšení", "example": "I received a promotion after two years.", "example_cz": "Po dvou letech jsem dostal povýšení.", "tts_text": "I received a promotion after two years."},
+    {"word": "background", "translation_cz": "profesní zázemí", "example": "I have a background in engineering.", "example_cz": "Mám inženýrské vzdělání a zázemí.", "tts_text": "I have a background in engineering."},
+    {"word": "career path", "translation_cz": "kariérní dráha", "example": "My career path led me from support to management.", "example_cz": "Moje kariérní dráha mě zavedla z podpory až k vedení.", "tts_text": "My career path led me from support to management."},
+    {"word": "led a team", "translation_cz": "vedl(a) tým", "example": "I led a team of eight people.", "example_cz": "Vedl jsem tým osmi lidí.", "tts_text": "I led a team of eight people."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_experience_summary",
+      "title": "Summarizing work experience",
+      "title_cz": "Shrnutí pracovních zkušeností",
+      "lines": [
+        {"speaker": "A", "text": "Could you walk me through your experience?", "text_cz": "Mohl byste mi shrnout své zkušenosti?"},
+        {"speaker": "B", "text": "Sure. I worked in customer service for three years, then moved into sales.", "text_cz": "Jistě. Tři roky jsem pracoval v zákaznickém servisu, poté jsem přešel do prodeje."},
+        {"speaker": "A", "text": "What was your main responsibility there?", "text_cz": "Jaká byla vaše hlavní odpovědnost?"},
+        {"speaker": "B", "text": "I led a small team and handled the biggest accounts.", "text_cz": "Vedl jsem malý tým a měl jsem na starosti největší klienty."}
+      ]
+    },
+    {
+      "id": "conv_achievements",
+      "title": "Talking about achievements",
+      "title_cz": "Rozhovor o úspěších",
+      "lines": [
+        {"speaker": "A", "text": "What would you say is your biggest achievement?", "text_cz": "Co byste označil za svůj největší úspěch?"},
+        {"speaker": "B", "text": "At my previous employer, I helped increase sales by twenty percent.", "text_cz": "U předchozího zaměstnavatele jsem pomohl zvýšit prodej o dvacet procent."},
+        {"speaker": "A", "text": "That's impressive. Did that lead to a promotion?", "text_cz": "To je působivé. Vedlo to k povýšení?"},
+        {"speaker": "B", "text": "Yes, I was promoted to team leader the following year.", "text_cz": "Ano, následující rok jsem byl povýšen na vedoucího týmu."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "achievement", "options": ["úspěch", "odpovědnost", "povýšení"], "correct": "úspěch"},
+    {"type": "fill_gap", "sentence": "My main ___ was managing the team.", "answer": "responsibility", "hint_cz": "odpovědnost"},
+    {"type": "match_pairs", "pairs": [{"target": "experience", "cz": "zkušenost"}, {"target": "promotion", "cz": "povýšení"}, {"target": "background", "cz": "zázemí"}, {"target": "skill set", "cz": "dovednosti"}]},
+    {"type": "speak_and_check", "target_phrase": "I led a team of eight people.", "tts_text": "I led a team of eight people."},
+    {"type": "fill_gap", "sentence": "I received a ___ after two years.", "answer": "promotion", "hint_cz": "povýšení"}
+  ]
+}

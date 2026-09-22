@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_animals_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Insects",
+  "title_cz": "Hmyz",
+  "vocabulary": [
+    {
+      "word": "insect",
+      "translation_cz": "hmyz",
+      "example": "A bee is an insect.",
+      "example_cz": "Včela je hmyz.",
+      "tts_text": "A bee is an insect."
+    },
+    {
+      "word": "bee",
+      "translation_cz": "včela",
+      "example": "The bee makes honey.",
+      "example_cz": "Včela dělá med.",
+      "tts_text": "The bee makes honey."
+    },
+    {
+      "word": "butterfly",
+      "translation_cz": "motýl",
+      "example": "The butterfly is colorful.",
+      "example_cz": "Motýl je barevný.",
+      "tts_text": "The butterfly is colorful."
+    },
+    {
+      "word": "ant",
+      "translation_cz": "mravenec",
+      "example": "The ant is very small.",
+      "example_cz": "Mravenec je velmi malý.",
+      "tts_text": "The ant is very small."
+    },
+    {
+      "word": "spider",
+      "translation_cz": "pavouk",
+      "example": "The spider makes a web.",
+      "example_cz": "Pavouk dělá pavučinu.",
+      "tts_text": "The spider makes a web."
+    },
+    {
+      "word": "ladybug",
+      "translation_cz": "beruška",
+      "example": "The ladybug has red wings.",
+      "example_cz": "Beruška má červená křídla.",
+      "tts_text": "The ladybug has red wings."
+    },
+    {
+      "word": "fly",
+      "translation_cz": "moucha",
+      "example": "The fly is annoying.",
+      "example_cz": "Moucha je otravná.",
+      "tts_text": "The fly is annoying."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "butterfly",
+      "options": [
+        "motýl",
+        "včela",
+        "mravenec"
+      ],
+      "correct": "motýl"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ makes a web.",
+      "answer": "spider",
+      "hint_cz": "pavouk"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bee",
+          "cz": "včela"
+        },
+        {
+          "target": "ant",
+          "cz": "mravenec"
+        },
+        {
+          "target": "ladybug",
+          "cz": "beruška"
+        },
+        {
+          "target": "fly",
+          "cz": "moucha"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The butterfly is colorful.",
+      "tts_text": "The butterfly is colorful."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_school_classroom_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The Library",
+  "title_cz": "Knihovna",
+  "vocabulary": [
+    {
+      "word": "die Bibliothek",
+      "translation_cz": "knihovna",
+      "example": "Ich gehe nach der Schule in die Bibliothek.",
+      "example_cz": "Po škole jdu do knihovny.",
+      "tts_text": "Ich gehe nach der Schule in die Bibliothek."
+    },
+    {
+      "word": "ausleihen",
+      "translation_cz": "půjčit si",
+      "example": "Ich leihe jede Woche ein Buch aus.",
+      "example_cz": "Každý týden si půjčím knihu.",
+      "tts_text": "Ich leihe jede Woche ein Buch aus."
+    },
+    {
+      "word": "zurückbringen",
+      "translation_cz": "vrátit",
+      "example": "Ich bringe das Buch rechtzeitig zurück.",
+      "example_cz": "Vracím knihu včas.",
+      "tts_text": "Ich bringe das Buch rechtzeitig zurück."
+    },
+    {
+      "word": "leise",
+      "translation_cz": "tichý",
+      "example": "Bitte sei leise in der Bibliothek.",
+      "example_cz": "V knihovně buď prosím tichý.",
+      "tts_text": "Bitte sei leise in der Bibliothek."
+    },
+    {
+      "word": "das Regal",
+      "translation_cz": "police",
+      "example": "Die Bücher stehen im Regal.",
+      "example_cz": "Knihy jsou na polici.",
+      "tts_text": "Die Bücher stehen im Regal."
+    },
+    {
+      "word": "der Bibliothekar",
+      "translation_cz": "knihovník",
+      "example": "Der Bibliothekar hilft mir, ein Buch zu finden.",
+      "example_cz": "Knihovník mi pomáhá najít knihu.",
+      "tts_text": "Der Bibliothekar hilft mir, ein Buch zu finden."
+    },
+    {
+      "word": "die Geschichte",
+      "translation_cz": "příběh",
+      "example": "Ich liebe diese Abenteuergeschichte.",
+      "example_cz": "Miluji tento dobrodružný příběh.",
+      "tts_text": "Ich liebe diese Abenteuergeschichte."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Bibliothekar",
+      "options": [
+        "knihovník",
+        "police",
+        "tichý"
+      ],
+      "correct": "knihovník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ jede Woche ein Buch aus.",
+      "answer": "leihe",
+      "hint_cz": "půjčím si"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Bibliothek",
+          "cz": "knihovna"
+        },
+        {
+          "target": "zurückbringen",
+          "cz": "vrátit"
+        },
+        {
+          "target": "leise",
+          "cz": "tichý"
+        },
+        {
+          "target": "das Regal",
+          "cz": "police"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich liebe diese Abenteuergeschichte.",
+      "tts_text": "Ich liebe diese Abenteuergeschichte."
+    }
+  ]
+}

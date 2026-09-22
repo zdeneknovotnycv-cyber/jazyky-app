@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_legal_contracts_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Grundlagen des Datenschutzes am Arbeitsplatz",
+  "title_cz": "Základy ochrany osobních údajů v práci",
+  "vocabulary": [
+    {
+      "word": "personenbezogene Daten",
+      "translation_cz": "osobní údaje",
+      "example": "Wir müssen personenbezogene Daten schützen.",
+      "example_cz": "Musíme chránit osobní údaje.",
+      "tts_text": "Wir müssen personenbezogene Daten schützen."
+    },
+    {
+      "word": "die DSGVO",
+      "translation_cz": "GDPR (obecné nařízení o ochraně osobních údajů)",
+      "example": "Das ist laut DSGVO erforderlich.",
+      "example_cz": "Toto je vyžadováno podle GDPR.",
+      "tts_text": "Das ist laut DSGVO erforderlich."
+    },
+    {
+      "word": "die Zustimmung",
+      "translation_cz": "souhlas",
+      "example": "Wir brauchen die Zustimmung des Kunden.",
+      "example_cz": "Potřebujeme souhlas zákazníka.",
+      "tts_text": "Wir brauchen die Zustimmung des Kunden."
+    },
+    {
+      "word": "die Datenpanne",
+      "translation_cz": "únik dat",
+      "example": "Wir müssen jede Datenpanne melden.",
+      "example_cz": "Musíme nahlásit jakýkoli únik dat.",
+      "tts_text": "Wir müssen jede Datenpanne melden."
+    },
+    {
+      "word": "Daten verarbeiten",
+      "translation_cz": "zpracovávat data",
+      "example": "Wir verarbeiten Daten nur zu diesem Zweck.",
+      "example_cz": "Data zpracováváme pouze za tímto účelem.",
+      "tts_text": "Wir verarbeiten Daten nur zu diesem Zweck."
+    },
+    {
+      "word": "die Zugriffsrechte",
+      "translation_cz": "přístupová práva",
+      "example": "Die Mitarbeiter haben eingeschränkte Zugriffsrechte.",
+      "example_cz": "Zaměstnanci mají omezená přístupová práva.",
+      "tts_text": "Die Mitarbeiter haben eingeschränkte Zugriffsrechte."
+    },
+    {
+      "word": "sicher speichern",
+      "translation_cz": "bezpečně uchovávat",
+      "example": "Alle Dateien müssen sicher gespeichert werden.",
+      "example_cz": "Všechny soubory musí být bezpečně uchovávány.",
+      "tts_text": "Alle Dateien müssen sicher gespeichert werden."
+    },
+    {
+      "word": "der Datenschutzbeauftragte",
+      "translation_cz": "pověřenec pro ochranu osobních údajů",
+      "example": "Wenden Sie sich bei Fragen an den Datenschutzbeauftragten.",
+      "example_cz": "S dotazy kontaktujte pověřence pro ochranu osobních údajů.",
+      "tts_text": "Wenden Sie sich bei Fragen an den Datenschutzbeauftragten."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_08",
+      "title": "Datenschutz am Arbeitsplatz",
+      "title_cz": "Ochrana osobních údajů v práci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Haben wir die Zustimmung des Kunden, diese Daten zu verarbeiten?",
+          "text_cz": "Máme souhlas zákazníka se zpracováním těchto dat?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, das ist dokumentiert, wie es die DSGVO verlangt.",
+          "text_cz": "Ano, je to zdokumentováno, jak vyžaduje GDPR."
+        },
+        {
+          "speaker": "A",
+          "text": "Gut. Denken Sie daran, alle personenbezogenen Daten müssen sicher gespeichert werden.",
+          "text_cz": "Dobře. Nezapomeňte, veškeré osobní údaje musí být bezpečně uchovávány."
+        },
+        {
+          "speaker": "B",
+          "text": "Verstanden. Und die Zugriffsrechte sind nur auf dieses Team beschränkt.",
+          "text_cz": "Rozumím. A přístupová práva má pouze tento tým."
+        },
+        {
+          "speaker": "A",
+          "text": "Wenn es je eine Datenpanne gibt, wen kontaktieren wir?",
+          "text_cz": "Pokud by někdy došlo k úniku dat, koho kontaktujeme?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sofort den Datenschutzbeauftragten.",
+          "text_cz": "Okamžitě pověřence pro ochranu osobních údajů."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "personenbezogene Daten",
+      "options": [
+        "osobní údaje",
+        "GDPR (obecné nařízení o ochraně osobních údajů)",
+        "souhlas"
+      ],
+      "correct": "osobní údaje"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir müssen jede Datenpanne ___",
+      "answer": "melden",
+      "hint_cz": "únik dat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "personenbezogene Daten",
+          "cz": "osobní údaje"
+        },
+        {
+          "target": "die DSGVO",
+          "cz": "GDPR (obecné nařízení o ochraně osobních údajů)"
+        },
+        {
+          "target": "die Zustimmung",
+          "cz": "souhlas"
+        },
+        {
+          "target": "die Datenpanne",
+          "cz": "únik dat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir verarbeiten Daten nur zu diesem Zweck.",
+      "tts_text": "Wir verarbeiten Daten nur zu diesem Zweck."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Mitarbeiter haben eingeschränkte ___",
+      "answer": "Zugriffsrechte",
+      "hint_cz": "přístupová práva"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_phone_video_calls_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Answering a business call",
+  "title_cz": "Přijetí pracovního hovoru",
+  "vocabulary": [
+    {
+      "word": "Good morning, this is...",
+      "translation_cz": "Dobré ráno, tady je...",
+      "example": "Good morning, this is Jana from customer support.",
+      "example_cz": "Dobré ráno, tady je Jana ze zákaznické podpory.",
+      "tts_text": "Good morning, this is Jana from customer support."
+    },
+    {
+      "word": "How can I help you?",
+      "translation_cz": "Jak vám mohu pomoci?",
+      "example": "Good afternoon, how can I help you today?",
+      "example_cz": "Dobré odpoledne, jak vám dnes mohu pomoci?",
+      "tts_text": "Good afternoon, how can I help you today?"
+    },
+    {
+      "word": "speaking",
+      "translation_cz": "u telefonu",
+      "example": "Yes, speaking. How can I help?",
+      "example_cz": "Ano, u telefonu. Jak mohu pomoci?",
+      "tts_text": "Yes, speaking. How can I help?"
+    },
+    {
+      "word": "to put someone through",
+      "translation_cz": "přepojit někoho",
+      "example": "I'll put you through to the sales department.",
+      "example_cz": "Přepojím vás na obchodní oddělení.",
+      "tts_text": "I'll put you through to the sales department."
+    },
+    {
+      "word": "May I ask who's calling?",
+      "translation_cz": "Mohu se zeptat, kdo volá?",
+      "example": "May I ask who's calling, please?",
+      "example_cz": "Mohu se zeptat, kdo prosím volá?",
+      "tts_text": "May I ask who's calling, please?"
+    },
+    {
+      "word": "hold the line",
+      "translation_cz": "vydržet na lince",
+      "example": "Could you hold the line for a moment?",
+      "example_cz": "Mohl byste chvíli vydržet na lince?",
+      "tts_text": "Could you hold the line for a moment?"
+    },
+    {
+      "word": "department",
+      "translation_cz": "oddělení",
+      "example": "Which department are you calling for?",
+      "example_cz": "Na které oddělení voláte?",
+      "tts_text": "Which department are you calling for?"
+    },
+    {
+      "word": "extension",
+      "translation_cz": "klapka / linka",
+      "example": "You can reach me on extension two-one-five.",
+      "example_cz": "Můžete mě zastihnout na lince dvě jedna pět.",
+      "tts_text": "You can reach me on extension two-one-five."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_answering_business_call",
+      "title": "Answering a call at the front desk",
+      "title_cz": "Přijetí hovoru na recepci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Good morning, this is Jana from Novak Solutions. How can I help you?",
+          "text_cz": "Dobré ráno, tady je Jana ze společnosti Novak Solutions. Jak vám mohu pomoci?"
+        },
+        {
+          "speaker": "B",
+          "text": "Hello, I'd like to speak to someone in the sales department.",
+          "text_cz": "Dobrý den, chtěl bych mluvit s někým z obchodního oddělení."
+        },
+        {
+          "speaker": "A",
+          "text": "Of course. May I ask who's calling?",
+          "text_cz": "Samozřejmě. Mohu se zeptat, kdo volá?"
+        },
+        {
+          "speaker": "B",
+          "text": "This is Tomas Dvorak from ABC Trading.",
+          "text_cz": "Tady je Tomáš Dvořák z ABC Trading."
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you, Mr. Dvorak. Please hold the line, I'll put you through.",
+          "text_cz": "Děkuji, pane Dvořáku. Vydržte prosím na lince, přepojím vás."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "May I ask who's calling?",
+      "options": [
+        "Mohu se zeptat, kdo volá?",
+        "Vydržte na lince.",
+        "Jak vám mohu pomoci?"
+      ],
+      "correct": "Mohu se zeptat, kdo volá?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Good morning, this ___ Jana from customer support.",
+      "answer": "is",
+      "hint_cz": "je"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "hold the line", "cz": "vydržet na lince" },
+        { "target": "extension", "cz": "klapka / linka" },
+        { "target": "department", "cz": "oddělení" },
+        { "target": "speaking", "cz": "u telefonu" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Good afternoon, how can I help you today?",
+      "tts_text": "Good afternoon, how can I help you today?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'll put you ___ to the sales department.",
+      "answer": "through",
+      "hint_cz": "přepojím"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Could you hold the line for a moment?",
+      "tts_text": "Could you hold the line for a moment?"
+    }
+  ]
+}

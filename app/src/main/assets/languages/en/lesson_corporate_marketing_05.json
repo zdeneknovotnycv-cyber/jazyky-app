@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_marketing_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing a website update",
+  "title_cz": "Diskuze o aktualizaci webu",
+  "vocabulary": [
+    {
+      "word": "user experience",
+      "translation_cz": "uživatelský zážitek",
+      "example": "We want to improve the user experience.",
+      "example_cz": "Chceme zlepšit uživatelský zážitek.",
+      "tts_text": "We want to improve the user experience."
+    },
+    {
+      "word": "landing page",
+      "translation_cz": "vstupní stránka",
+      "example": "The new landing page loads much faster.",
+      "example_cz": "Nová vstupní stránka se načítá mnohem rychleji.",
+      "tts_text": "The new landing page loads much faster."
+    },
+    {
+      "word": "redesign",
+      "translation_cz": "předělat, redesign",
+      "example": "We decided to redesign the homepage.",
+      "example_cz": "Rozhodli jsme se předělat domovskou stránku.",
+      "tts_text": "We decided to redesign the homepage."
+    },
+    {
+      "word": "mobile-friendly",
+      "translation_cz": "přizpůsobený mobilům",
+      "example": "The site must be mobile-friendly.",
+      "example_cz": "Web musí být přizpůsobený mobilům.",
+      "tts_text": "The site must be mobile-friendly."
+    },
+    {
+      "word": "navigation menu",
+      "translation_cz": "navigační menu",
+      "example": "Let's simplify the navigation menu.",
+      "example_cz": "Pojďme zjednodušit navigační menu.",
+      "tts_text": "Let's simplify the navigation menu."
+    },
+    {
+      "word": "loading speed",
+      "translation_cz": "rychlost načítání",
+      "example": "The loading speed affects our rankings.",
+      "example_cz": "Rychlost načítání ovlivňuje naše umístění ve výsledcích.",
+      "tts_text": "The loading speed affects our rankings."
+    },
+    {
+      "word": "update the content",
+      "translation_cz": "aktualizovat obsah",
+      "example": "We need to update the content on the About page.",
+      "example_cz": "Musíme aktualizovat obsah na stránce O nás.",
+      "tts_text": "We need to update the content on the About page."
+    },
+    {
+      "word": "go live",
+      "translation_cz": "spustit ostrý provoz",
+      "example": "The new website will go live on Monday.",
+      "example_cz": "Nový web se spustí do ostrého provozu v pondělí.",
+      "tts_text": "The new website will go live on Monday."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_05",
+      "title": "Planning a website redesign",
+      "title_cz": "Plánování redesignu webu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "We want to improve the user experience on our website.",
+          "text_cz": "Chceme zlepšit uživatelský zážitek na našem webu."
+        },
+        {
+          "speaker": "B",
+          "text": "I agree. The navigation menu is confusing and the loading speed is slow.",
+          "text_cz": "Souhlasím. Navigační menu je matoucí a rychlost načítání je pomalá."
+        },
+        {
+          "speaker": "A",
+          "text": "Let's redesign the landing page first, and make sure it's mobile-friendly.",
+          "text_cz": "Pojďme nejdřív předělat vstupní stránku a ujistit se, že je přizpůsobená mobilům."
+        },
+        {
+          "speaker": "B",
+          "text": "Sounds good. When can we go live with the new version?",
+          "text_cz": "Zní to dobře. Kdy můžeme spustit novou verzi do ostrého provozu?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "user experience",
+      "options": [
+        "uživatelský zážitek",
+        "navigační menu",
+        "rychlost načítání"
+      ],
+      "correct": "uživatelský zážitek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The site must be ___.",
+      "answer": "mobile-friendly",
+      "hint_cz": "přizpůsobený mobilům"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "landing page",
+          "cz": "vstupní stránka"
+        },
+        {
+          "target": "redesign",
+          "cz": "předělat, redesign"
+        },
+        {
+          "target": "loading speed",
+          "cz": "rychlost načítání"
+        },
+        {
+          "target": "go live",
+          "cz": "spustit ostrý provoz"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We want to improve the user experience.",
+      "tts_text": "We want to improve the user experience."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We need to ___ the content on the About page.",
+      "answer": "update",
+      "hint_cz": "aktualizovat"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "en_adult_corporate_email_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Out-of-office reply",
+  "title_cz": "Automatická odpověď mimo kancelář",
+  "vocabulary": [
+    {
+      "word": "out of office",
+      "translation_cz": "mimo kancelář",
+      "example": "I am out of office until Monday.",
+      "example_cz": "Jsem mimo kancelář do pondělí.",
+      "tts_text": "I am out of office until Monday."
+    },
+    {
+      "word": "limited access to email",
+      "translation_cz": "omezený přístup k e-mailu",
+      "example": "I will have limited access to email.",
+      "example_cz": "Budu mít omezený přístup k e-mailu.",
+      "tts_text": "I will have limited access to email."
+    },
+    {
+      "word": "urgent matters",
+      "translation_cz": "naléhavé záležitosti",
+      "example": "For urgent matters, please contact my colleague.",
+      "example_cz": "V naléhavých záležitostech kontaktujte prosím mého kolegu.",
+      "tts_text": "For urgent matters, please contact my colleague."
+    },
+    {
+      "word": "return date",
+      "translation_cz": "datum návratu",
+      "example": "My return date is next Monday.",
+      "example_cz": "Datum mého návratu je příští pondělí.",
+      "tts_text": "My return date is next Monday."
+    },
+    {
+      "word": "upon my return",
+      "translation_cz": "po mém návratu",
+      "example": "I will reply upon my return.",
+      "example_cz": "Odpovím po svém návratu.",
+      "tts_text": "I will reply upon my return."
+    },
+    {
+      "word": "delayed response",
+      "translation_cz": "zpožděná odpověď",
+      "example": "Please expect a delayed response.",
+      "example_cz": "Očekávejte prosím zpožděnou odpověď.",
+      "tts_text": "Please expect a delayed response."
+    },
+    {
+      "word": "annual leave",
+      "translation_cz": "dovolená",
+      "example": "I'm currently on annual leave.",
+      "example_cz": "Aktuálně jsem na dovolené.",
+      "tts_text": "I'm currently on annual leave."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_ooo",
+      "title": "Setting up an out-of-office message",
+      "title_cz": "Nastavení automatické odpovědi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm setting up my out-of-office reply for next week.",
+          "text_cz": "Nastavuji si automatickou odpověď na příští týden."
+        },
+        {
+          "speaker": "B",
+          "text": "Good idea. What should it say?",
+          "text_cz": "Dobrý nápad. Co by mělo obsahovat?"
+        },
+        {
+          "speaker": "A",
+          "text": "That I'm on annual leave with limited access to email, and my return date is next Monday.",
+          "text_cz": "Že jsem na dovolené s omezeným přístupem k e-mailu a datum mého návratu je příští pondělí."
+        },
+        {
+          "speaker": "B",
+          "text": "Don't forget to add who to contact for urgent matters.",
+          "text_cz": "Nezapomeň dodat, na koho se obrátit v naléhavých záležitostech."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "urgent matters",
+      "options": [
+        "naléhavé záležitosti",
+        "datum návratu",
+        "dovolená"
+      ],
+      "correct": "naléhavé záležitosti"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am out of ___ until Monday.",
+      "answer": "office",
+      "hint_cz": "kanceláře"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "return date",
+          "cz": "datum návratu"
+        },
+        {
+          "target": "annual leave",
+          "cz": "dovolená"
+        },
+        {
+          "target": "delayed response",
+          "cz": "zpožděná odpověď"
+        },
+        {
+          "target": "upon my return",
+          "cz": "po mém návratu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I will have limited access to email.",
+      "tts_text": "I will have limited access to email."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I will reply ___ my return.",
+      "answer": "upon",
+      "hint_cz": "po"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_business_travel_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Packing for a business trip",
+  "title_cz": "Balení na služební cestu",
+  "vocabulary": [
+    {
+      "word": "pack a suitcase",
+      "translation_cz": "sbalit kufr",
+      "example": "I still need to pack my suitcase.",
+      "example_cz": "Ještě musím sbalit kufr.",
+      "tts_text": "I still need to pack my suitcase."
+    },
+    {
+      "word": "business attire",
+      "translation_cz": "obchodní oblečení",
+      "example": "Don't forget your business attire.",
+      "example_cz": "Nezapomeň na obchodní oblečení.",
+      "tts_text": "Don't forget your business attire."
+    },
+    {
+      "word": "laptop charger",
+      "translation_cz": "nabíječka k notebooku",
+      "example": "I always double-check my laptop charger.",
+      "example_cz": "Vždycky si znovu zkontroluji nabíječku k notebooku.",
+      "tts_text": "I always double-check my laptop charger."
+    },
+    {
+      "word": "travel adapter",
+      "translation_cz": "cestovní adaptér",
+      "example": "You'll need a travel adapter for that country.",
+      "example_cz": "Do té země budeš potřebovat cestovní adaptér.",
+      "tts_text": "You'll need a travel adapter for that country."
+    },
+    {
+      "word": "presentation materials",
+      "translation_cz": "prezentační materiály",
+      "example": "Have you packed the presentation materials?",
+      "example_cz": "Zabalil jsi prezentační materiály?",
+      "tts_text": "Have you packed the presentation materials?"
+    },
+    {
+      "word": "carry important documents",
+      "translation_cz": "mít u sebe důležité dokumenty",
+      "example": "Always carry your important documents with you.",
+      "example_cz": "Vždy měj u sebe důležité dokumenty.",
+      "tts_text": "Always carry your important documents with you."
+    },
+    {
+      "word": "weather forecast",
+      "translation_cz": "předpověď počasí",
+      "example": "Check the weather forecast before packing.",
+      "example_cz": "Před balením zkontroluj předpověď počasí.",
+      "tts_text": "Check the weather forecast before packing."
+    },
+    {
+      "word": "hand luggage restrictions",
+      "translation_cz": "omezení pro příruční zavazadlo",
+      "example": "Remember the hand luggage restrictions.",
+      "example_cz": "Pamatuj na omezení pro příruční zavazadlo.",
+      "tts_text": "Remember the hand luggage restrictions."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_packing_trip",
+      "title": "Packing for a business trip",
+      "title_cz": "Balení na služební cestu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you packed the presentation materials yet?",
+          "text_cz": "Zabalil jsi už prezentační materiály?"
+        },
+        {
+          "speaker": "B",
+          "text": "Not yet. I still need to pack my suitcase.",
+          "text_cz": "Ještě ne. Ještě musím sbalit kufr."
+        },
+        {
+          "speaker": "A",
+          "text": "Don't forget your business attire and a travel adapter.",
+          "text_cz": "Nezapomeň na obchodní oblečení a cestovní adaptér."
+        },
+        {
+          "speaker": "B",
+          "text": "Right, and I should double-check my laptop charger too.",
+          "text_cz": "Máš pravdu, měl bych taky znovu zkontrolovat nabíječku k notebooku."
+        },
+        {
+          "speaker": "A",
+          "text": "Good idea. Also, remember the hand luggage restrictions.",
+          "text_cz": "Dobrý nápad. A taky pamatuj na omezení pro příruční zavazadlo."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "travel adapter",
+      "options": [
+        "cestovní adaptér",
+        "obchodní oblečení",
+        "prezentační materiály"
+      ],
+      "correct": "cestovní adaptér"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I still need to ___ my suitcase.",
+      "answer": "pack",
+      "hint_cz": "sbalit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Remember the hand luggage ___.",
+      "answer": "restrictions",
+      "hint_cz": "omezení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "business attire",
+          "cz": "obchodní oblečení"
+        },
+        {
+          "target": "laptop charger",
+          "cz": "nabíječka k notebooku"
+        },
+        {
+          "target": "carry important documents",
+          "cz": "mít u sebe důležité dokumenty"
+        },
+        {
+          "target": "weather forecast",
+          "cz": "předpověď počasí"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Have you packed the presentation materials yet?",
+      "tts_text": "Have you packed the presentation materials yet?"
+    }
+  ]
+}

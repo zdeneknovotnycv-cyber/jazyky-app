@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_office_life_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Fehlerbehebung bei Bürogeräten",
+  "title_cz": "Řešení problémů s kancelářským vybavením",
+  "vocabulary": [
+    {
+      "word": "funktioniert nicht",
+      "translation_cz": "nefunguje",
+      "example": "Mein Monitor funktioniert nicht.",
+      "example_cz": "Můj monitor nefunguje.",
+      "tts_text": "Mein Monitor funktioniert nicht."
+    },
+    {
+      "word": "den Computer neu starten",
+      "translation_cz": "restartovat počítač",
+      "example": "Versuch zuerst, den Computer neu zu starten.",
+      "example_cz": "Zkus nejprve restartovat počítač.",
+      "tts_text": "Versuch zuerst, den Computer neu zu starten."
+    },
+    {
+      "word": "der IT-Support",
+      "translation_cz": "IT podpora",
+      "example": "Bitte kontaktiere den IT-Support wegen des Druckers.",
+      "example_cz": "Kontaktuj prosím IT podporu ohledně tiskárny.",
+      "tts_text": "Bitte kontaktiere den IT-Support wegen des Druckers."
+    },
+    {
+      "word": "der Papierstau",
+      "translation_cz": "zaseknutý papír",
+      "example": "Es gibt schon wieder einen Papierstau im Drucker.",
+      "example_cz": "V tiskárně je zase zaseknutý papír.",
+      "tts_text": "Es gibt schon wieder einen Papierstau im Drucker."
+    },
+    {
+      "word": "ein Ticket einreichen",
+      "translation_cz": "podat tiket",
+      "example": "Du kannst ein Ticket im IT-Portal einreichen.",
+      "example_cz": "Tiket můžeš podat na IT portálu.",
+      "tts_text": "Du kannst ein Ticket im IT-Portal einreichen."
+    },
+    {
+      "word": "das Kabel prüfen",
+      "translation_cz": "zkontrolovat kabel",
+      "example": "Hast du die Kabelverbindung geprüft?",
+      "example_cz": "Zkontroloval jsi připojení kabelu?",
+      "tts_text": "Hast du die Kabelverbindung geprüft?"
+    },
+    {
+      "word": "außer Betrieb",
+      "translation_cz": "mimo provoz",
+      "example": "Der Kopierer ist heute außer Betrieb.",
+      "example_cz": "Kopírka je dnes mimo provoz.",
+      "tts_text": "Der Kopierer ist heute außer Betrieb."
+    },
+    {
+      "word": "die Batterie wechseln",
+      "translation_cz": "vyměnit baterii",
+      "example": "Versuch die Batterie in der Maus zu wechseln.",
+      "example_cz": "Zkus vyměnit baterii v myši.",
+      "tts_text": "Versuch die Batterie in der Maus zu wechseln."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_10",
+      "title": "Einen kaputten Monitor reparieren",
+      "title_cz": "Oprava rozbitého monitoru",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Mein Monitor funktioniert heute Morgen nicht.",
+          "text_cz": "Můj monitor dnes ráno nefunguje."
+        },
+        {
+          "speaker": "B",
+          "text": "Hast du die Kabelverbindung geprüft?",
+          "text_cz": "Zkontroloval jsi připojení kabelu?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, habe ich. Ich glaube, ich muss ein Ticket einreichen.",
+          "text_cz": "Ano, zkontroloval. Myslím, že musím podat tiket."
+        },
+        {
+          "speaker": "B",
+          "text": "Gute Idee, kontaktiere den IT-Support und erkläre das Problem.",
+          "text_cz": "Dobrý nápad, kontaktuj IT podporu a vysvětli problém."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "funktioniert nicht",
+      "options": [
+        "nefunguje",
+        "restartovat počítač",
+        "IT podpora"
+      ],
+      "correct": "nefunguje"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte kontaktiere den ___ wegen des Druckers.",
+      "answer": "IT-Support",
+      "hint_cz": "IT podporu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "funktioniert nicht",
+          "cz": "nefunguje"
+        },
+        {
+          "target": "den Computer neu starten",
+          "cz": "restartovat počítač"
+        },
+        {
+          "target": "der IT-Support",
+          "cz": "IT podpora"
+        },
+        {
+          "target": "der Papierstau",
+          "cz": "zaseknutý papír"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Mein Monitor funktioniert heute Morgen nicht.",
+      "tts_text": "Mein Monitor funktioniert heute Morgen nicht."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Hast du die ___ geprüft?",
+      "answer": "Kabelverbindung",
+      "hint_cz": "kabel"
+    }
+  ]
+}

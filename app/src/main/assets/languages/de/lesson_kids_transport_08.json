@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_transport_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Boote und Schiffe",
+  "title_cz": "Lodě",
+  "vocabulary": [
+    {
+      "word": "das Boot",
+      "translation_cz": "loďka",
+      "example": "Wir rudern ein kleines Boot.",
+      "example_cz": "Veslujeme na malé loďce.",
+      "tts_text": "Wir rudern ein kleines Boot."
+    },
+    {
+      "word": "das Schiff",
+      "translation_cz": "loď",
+      "example": "Das große Schiff fährt auf dem Meer.",
+      "example_cz": "Velká loď pluje po moři.",
+      "tts_text": "Das große Schiff fährt auf dem Meer."
+    },
+    {
+      "word": "das Segel",
+      "translation_cz": "plachta",
+      "example": "Der Wind füllt das Segel.",
+      "example_cz": "Vítr napíná plachtu.",
+      "tts_text": "Der Wind füllt das Segel."
+    },
+    {
+      "word": "der Kapitän",
+      "translation_cz": "kapitán",
+      "example": "Der Kapitän steuert das Schiff.",
+      "example_cz": "Kapitán řídí loď.",
+      "tts_text": "Der Kapitän steuert das Schiff."
+    },
+    {
+      "word": "der Hafen",
+      "translation_cz": "přístav",
+      "example": "Das Schiff hält im Hafen.",
+      "example_cz": "Loď zastavuje v přístavu.",
+      "tts_text": "Das Schiff hält im Hafen."
+    },
+    {
+      "word": "schwimmen",
+      "translation_cz": "plavat na hladině",
+      "example": "Boote schwimmen auf dem Wasser.",
+      "example_cz": "Loďky plavou na hladině.",
+      "tts_text": "Boote schwimmen auf dem Wasser."
+    },
+    {
+      "word": "die Schwimmweste",
+      "translation_cz": "záchranná vesta",
+      "example": "Ich trage eine Schwimmweste auf dem Boot.",
+      "example_cz": "Na lodi nosím záchrannou vestu.",
+      "tts_text": "Ich trage eine Schwimmweste auf dem Boot."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Boot",
+      "options": [
+        "loďka",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "loďka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das große ___ fährt auf dem Meer.",
+      "answer": "das Schiff",
+      "hint_cz": "loď"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Schiff",
+          "cz": "loď"
+        },
+        {
+          "target": "das Segel",
+          "cz": "plachta"
+        },
+        {
+          "target": "der Kapitän",
+          "cz": "kapitán"
+        },
+        {
+          "target": "der Hafen",
+          "cz": "přístav"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Kapitän steuert das Schiff.",
+      "tts_text": "Der Kapitän steuert das Schiff."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_time_days_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Being Late or Early",
+  "title_cz": "Pozdě a včas",
+  "vocabulary": [
+    {
+      "word": "late",
+      "translation_cz": "pozdě",
+      "example": "I am late for school.",
+      "example_cz": "Jdu pozdě do školy.",
+      "tts_text": "I am late for school."
+    },
+    {
+      "word": "early",
+      "translation_cz": "brzy",
+      "example": "I woke up early today.",
+      "example_cz": "Dnes jsem se probudil brzy.",
+      "tts_text": "I woke up early today."
+    },
+    {
+      "word": "on time",
+      "translation_cz": "včas",
+      "example": "Please come on time.",
+      "example_cz": "Přijď prosím včas.",
+      "tts_text": "Please come on time."
+    },
+    {
+      "word": "hurry up",
+      "translation_cz": "pospěš si",
+      "example": "Hurry up, the bus is coming!",
+      "example_cz": "Pospěš si, jede autobus!",
+      "tts_text": "Hurry up, the bus is coming!"
+    },
+    {
+      "word": "wait",
+      "translation_cz": "čekat",
+      "example": "Please wait for me.",
+      "example_cz": "Počkej na mě, prosím.",
+      "tts_text": "Please wait for me."
+    },
+    {
+      "word": "I'm late!",
+      "translation_cz": "Jdu pozdě!",
+      "example": "Oh no, I'm late!",
+      "example_cz": "Ach ne, jdu pozdě!",
+      "tts_text": "Oh no, I'm late!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "late",
+      "options": [
+        "pozdě",
+        "brzy",
+        "včas"
+      ],
+      "correct": "pozdě"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please come on ___.",
+      "answer": "time",
+      "hint_cz": "včas"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "early",
+          "cz": "brzy"
+        },
+        {
+          "target": "hurry up",
+          "cz": "pospěš si"
+        },
+        {
+          "target": "wait",
+          "cz": "čekat"
+        },
+        {
+          "target": "I'm late!",
+          "cz": "Jdu pozdě!"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I am late for school.",
+      "tts_text": "I am late for school."
+    }
+  ]
+}

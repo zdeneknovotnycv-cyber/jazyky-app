@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_shopping_kids_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Pocket money",
+  "title_cz": "Kapesné",
+  "vocabulary": [
+    {
+      "word": "pocket money",
+      "translation_cz": "kapesné",
+      "example": "I save my pocket money.",
+      "example_cz": "Šetřím si kapesné.",
+      "tts_text": "I save my pocket money."
+    },
+    {
+      "word": "save",
+      "translation_cz": "šetřit",
+      "example": "I save money for a new toy.",
+      "example_cz": "Šetřím peníze na novou hračku.",
+      "tts_text": "I save money for a new toy."
+    },
+    {
+      "word": "coin",
+      "translation_cz": "mince",
+      "example": "I have a shiny coin.",
+      "example_cz": "Mám lesklou minci.",
+      "tts_text": "I have a shiny coin."
+    },
+    {
+      "word": "piggy bank",
+      "translation_cz": "prasátko, pokladnička",
+      "example": "I keep money in a piggy bank.",
+      "example_cz": "Peníze si dávám do prasátka.",
+      "tts_text": "I keep money in a piggy bank."
+    },
+    {
+      "word": "spend",
+      "translation_cz": "utratit",
+      "example": "I do not want to spend it all.",
+      "example_cz": "Nechci to všechno utratit.",
+      "tts_text": "I do not want to spend it all."
+    },
+    {
+      "word": "earn",
+      "translation_cz": "vydělat",
+      "example": "I earn money by helping at home.",
+      "example_cz": "Peníze vydělávám pomocí doma.",
+      "tts_text": "I earn money by helping at home."
+    },
+    {
+      "word": "enough",
+      "translation_cz": "dost",
+      "example": "I don't have enough money yet.",
+      "example_cz": "Ještě nemám dost peněz.",
+      "tts_text": "I don't have enough money yet."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "pocket money",
+      "options": [
+        "kapesné",
+        "šetřit",
+        "mince"
+      ],
+      "correct": "kapesné"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ money for a new toy.",
+      "answer": "save",
+      "hint_cz": "šetřit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "coin",
+          "cz": "mince"
+        },
+        {
+          "target": "piggy bank",
+          "cz": "prasátko, pokladnička"
+        },
+        {
+          "target": "spend",
+          "cz": "utratit"
+        },
+        {
+          "target": "earn",
+          "cz": "vydělat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I don't have enough money yet.",
+      "tts_text": "I don't have enough money yet."
+    }
+  ]
+}

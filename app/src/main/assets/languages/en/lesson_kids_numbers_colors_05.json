@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_numbers_colors_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Shapes",
+  "title_cz": "Tvary",
+  "vocabulary": [
+    {
+      "word": "circle",
+      "translation_cz": "kruh",
+      "example": "The ball is a circle.",
+      "example_cz": "Míč je kruh.",
+      "tts_text": "The ball is a circle."
+    },
+    {
+      "word": "square",
+      "translation_cz": "čtverec",
+      "example": "The window is a square.",
+      "example_cz": "Okno je čtverec.",
+      "tts_text": "The window is a square."
+    },
+    {
+      "word": "triangle",
+      "translation_cz": "trojúhelník",
+      "example": "The roof looks like a triangle.",
+      "example_cz": "Střecha vypadá jako trojúhelník.",
+      "tts_text": "The roof looks like a triangle."
+    },
+    {
+      "word": "rectangle",
+      "translation_cz": "obdélník",
+      "example": "The door is a rectangle.",
+      "example_cz": "Dveře jsou obdélník.",
+      "tts_text": "The door is a rectangle."
+    },
+    {
+      "word": "star",
+      "translation_cz": "hvězda",
+      "example": "I drew a star.",
+      "example_cz": "Nakreslil jsem hvězdu.",
+      "tts_text": "I drew a star."
+    },
+    {
+      "word": "heart",
+      "translation_cz": "srdce",
+      "example": "I drew a heart for mom.",
+      "example_cz": "Nakreslil jsem srdce pro mámu.",
+      "tts_text": "I drew a heart for mom."
+    },
+    {
+      "word": "shape",
+      "translation_cz": "tvar",
+      "example": "What shape is this?",
+      "example_cz": "Jaký je to tvar?",
+      "tts_text": "What shape is this?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "triangle",
+      "options": [
+        "trojúhelník",
+        "kruh",
+        "čtverec"
+      ],
+      "correct": "trojúhelník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ball is a ___.",
+      "answer": "circle",
+      "hint_cz": "kruh"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "square",
+          "cz": "čtverec"
+        },
+        {
+          "target": "rectangle",
+          "cz": "obdélník"
+        },
+        {
+          "target": "star",
+          "cz": "hvězda"
+        },
+        {
+          "target": "heart",
+          "cz": "srdce"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "What shape is this?",
+      "tts_text": "What shape is this?"
+    }
+  ]
+}

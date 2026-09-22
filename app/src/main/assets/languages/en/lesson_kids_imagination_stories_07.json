@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_imagination_stories_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "A castle and a dragon",
+  "title_cz": "Hrad a drak",
+  "vocabulary": [
+    {
+      "word": "castle",
+      "translation_cz": "hrad",
+      "example": "A big castle stands on the hill.",
+      "example_cz": "Na kopci stojí velký hrad.",
+      "tts_text": "A big castle stands on the hill."
+    },
+    {
+      "word": "dragon",
+      "translation_cz": "drak",
+      "example": "A dragon guards the castle.",
+      "example_cz": "Drak hlídá hrad.",
+      "tts_text": "A dragon guards the castle."
+    },
+    {
+      "word": "knight",
+      "translation_cz": "rytíř",
+      "example": "A brave knight rides a horse.",
+      "example_cz": "Statečný rytíř jede na koni.",
+      "tts_text": "A brave knight rides a horse."
+    },
+    {
+      "word": "tower",
+      "translation_cz": "věž",
+      "example": "A princess lives in the tower.",
+      "example_cz": "Ve věži žije princezna.",
+      "tts_text": "A princess lives in the tower."
+    },
+    {
+      "word": "fire",
+      "translation_cz": "oheň",
+      "example": "The dragon breathes fire.",
+      "example_cz": "Drak chrlí oheň.",
+      "tts_text": "The dragon breathes fire."
+    },
+    {
+      "word": "sword",
+      "translation_cz": "meč",
+      "example": "The knight holds a shiny sword.",
+      "example_cz": "Rytíř drží lesklý meč.",
+      "tts_text": "The knight holds a shiny sword."
+    },
+    {
+      "word": "brave",
+      "translation_cz": "odvážný",
+      "example": "You must be brave to enter the castle.",
+      "example_cz": "Musíš být odvážný, abys vešel do hradu.",
+      "tts_text": "You must be brave to enter the castle."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "castle",
+      "options": [
+        "hrad",
+        "drak",
+        "rytíř"
+      ],
+      "correct": "hrad"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "A ___ guards the castle.",
+      "answer": "dragon",
+      "hint_cz": "drak"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "knight",
+          "cz": "rytíř"
+        },
+        {
+          "target": "tower",
+          "cz": "věž"
+        },
+        {
+          "target": "fire",
+          "cz": "oheň"
+        },
+        {
+          "target": "sword",
+          "cz": "meč"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "You must be brave to enter the castle.",
+      "tts_text": "You must be brave to enter the castle."
+    }
+  ]
+}

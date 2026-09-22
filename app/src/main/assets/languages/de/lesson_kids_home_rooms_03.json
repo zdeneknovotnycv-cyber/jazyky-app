@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_home_rooms_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Kitchen Items",
+  "title_cz": "Věci v kuchyni",
+  "vocabulary": [
+    {
+      "word": "der Teller",
+      "translation_cz": "talíř",
+      "example": "Leg das Essen auf den Teller.",
+      "example_cz": "Dej jídlo na talíř.",
+      "tts_text": "Leg das Essen auf den Teller."
+    },
+    {
+      "word": "der Löffel",
+      "translation_cz": "lžíce",
+      "example": "Ich esse Suppe mit einem Löffel.",
+      "example_cz": "Polévku jím lžící.",
+      "tts_text": "Ich esse Suppe mit einem Löffel."
+    },
+    {
+      "word": "die Gabel",
+      "translation_cz": "vidlička",
+      "example": "Ich benutze eine Gabel für Nudeln.",
+      "example_cz": "Na těstoviny používám vidličku.",
+      "tts_text": "Ich benutze eine Gabel für Nudeln."
+    },
+    {
+      "word": "das Glas",
+      "translation_cz": "sklenice",
+      "example": "Das Glas ist voller Saft.",
+      "example_cz": "Sklenice je plná džusu.",
+      "tts_text": "Das Glas ist voller Saft."
+    },
+    {
+      "word": "der Kühlschrank",
+      "translation_cz": "lednička",
+      "example": "Die Milch ist im Kühlschrank.",
+      "example_cz": "Mléko je v ledničce.",
+      "tts_text": "Die Milch ist im Kühlschrank."
+    },
+    {
+      "word": "der Topf",
+      "translation_cz": "hrnec",
+      "example": "Mama kocht Suppe in einem Topf.",
+      "example_cz": "Maminka vaří polévku v hrnci.",
+      "tts_text": "Mama kocht Suppe in einem Topf."
+    },
+    {
+      "word": "der Tisch",
+      "translation_cz": "stůl",
+      "example": "Wir essen am Tisch.",
+      "example_cz": "Jíme u stolu.",
+      "tts_text": "Wir essen am Tisch."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Teller",
+      "options": [
+        "talíř",
+        "sklenice",
+        "vidlička"
+      ],
+      "correct": "talíř"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich esse Suppe mit einem ___.",
+      "answer": "Löffel",
+      "hint_cz": "lžíce"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Gabel",
+          "cz": "vidlička"
+        },
+        {
+          "target": "der Kühlschrank",
+          "cz": "lednička"
+        },
+        {
+          "target": "der Topf",
+          "cz": "hrnec"
+        },
+        {
+          "target": "der Tisch",
+          "cz": "stůl"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Die Milch ist im Kühlschrank.",
+      "tts_text": "Die Milch ist im Kühlschrank."
+    }
+  ]
+}

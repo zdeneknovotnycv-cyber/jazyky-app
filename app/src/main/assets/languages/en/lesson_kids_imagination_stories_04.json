@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_imagination_stories_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Under the sea adventure",
+  "title_cz": "Dobrodružství pod mořem",
+  "vocabulary": [
+    {
+      "word": "sea",
+      "translation_cz": "moře",
+      "example": "I swim deep into the sea.",
+      "example_cz": "Plavu hluboko do moře.",
+      "tts_text": "I swim deep into the sea."
+    },
+    {
+      "word": "fish",
+      "translation_cz": "ryba",
+      "example": "A colorful fish swims by me.",
+      "example_cz": "Kolem mě proplouvá barevná ryba.",
+      "tts_text": "A colorful fish swims by me."
+    },
+    {
+      "word": "mermaid",
+      "translation_cz": "mořská víla",
+      "example": "I meet a friendly mermaid.",
+      "example_cz": "Potkávám přátelskou mořskou vílu.",
+      "tts_text": "I meet a friendly mermaid."
+    },
+    {
+      "word": "coral reef",
+      "translation_cz": "korálový útes",
+      "example": "We explore a bright coral reef.",
+      "example_cz": "Prozkoumáváme jasný korálový útes.",
+      "tts_text": "We explore a bright coral reef."
+    },
+    {
+      "word": "treasure",
+      "translation_cz": "poklad",
+      "example": "I find a hidden treasure.",
+      "example_cz": "Nacházím skrytý poklad.",
+      "tts_text": "I find a hidden treasure."
+    },
+    {
+      "word": "shark",
+      "translation_cz": "žralok",
+      "example": "A big shark swims past.",
+      "example_cz": "Kolem proplave velký žralok.",
+      "tts_text": "A big shark swims past."
+    },
+    {
+      "word": "bubble",
+      "translation_cz": "bublina",
+      "example": "Bubbles float up to the surface.",
+      "example_cz": "Bubliny stoupají k hladině.",
+      "tts_text": "Bubbles float up to the surface."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sea",
+      "options": [
+        "moře",
+        "ryba",
+        "mořská víla"
+      ],
+      "correct": "moře"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "A colorful ___ swims by me.",
+      "answer": "fish",
+      "hint_cz": "ryba"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "mermaid",
+          "cz": "mořská víla"
+        },
+        {
+          "target": "coral reef",
+          "cz": "korálový útes"
+        },
+        {
+          "target": "treasure",
+          "cz": "poklad"
+        },
+        {
+          "target": "shark",
+          "cz": "žralok"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bubbles float up to the surface.",
+      "tts_text": "Bubbles float up to the surface."
+    }
+  ]
+}

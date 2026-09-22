@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_clothes_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "School Uniform",
+  "title_cz": "Školní uniforma",
+  "vocabulary": [
+    {
+      "word": "uniform",
+      "translation_cz": "uniforma",
+      "example": "I wear a school uniform.",
+      "example_cz": "Nosím školní uniformu.",
+      "tts_text": "I wear a school uniform."
+    },
+    {
+      "word": "shirt",
+      "translation_cz": "košile",
+      "example": "The shirt is white.",
+      "example_cz": "Košile je bílá.",
+      "tts_text": "The shirt is white."
+    },
+    {
+      "word": "tie",
+      "translation_cz": "kravata",
+      "example": "He wears a small tie.",
+      "example_cz": "Nosí malou kravatu.",
+      "tts_text": "He wears a small tie."
+    },
+    {
+      "word": "skirt",
+      "translation_cz": "sukně",
+      "example": "The girls wear a blue skirt.",
+      "example_cz": "Dívky nosí modrou sukni.",
+      "tts_text": "The girls wear a blue skirt."
+    },
+    {
+      "word": "badge",
+      "translation_cz": "odznak",
+      "example": "Our badge has the school name.",
+      "example_cz": "Náš odznak má název školy.",
+      "tts_text": "Our badge has the school name."
+    },
+    {
+      "word": "neat",
+      "translation_cz": "upravený",
+      "example": "My uniform is always neat.",
+      "example_cz": "Moje uniforma je vždy upravená.",
+      "tts_text": "My uniform is always neat."
+    },
+    {
+      "word": "wear",
+      "translation_cz": "nosit",
+      "example": "We wear our uniform every day.",
+      "example_cz": "Nosíme uniformu každý den.",
+      "tts_text": "We wear our uniform every day."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "badge",
+      "options": [
+        "odznak",
+        "kravata",
+        "sukně"
+      ],
+      "correct": "odznak"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "He wears a small ___.",
+      "answer": "tie",
+      "hint_cz": "kravatu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "shirt",
+          "cz": "košile"
+        },
+        {
+          "target": "skirt",
+          "cz": "sukně"
+        },
+        {
+          "target": "neat",
+          "cz": "upravený"
+        },
+        {
+          "target": "wear",
+          "cz": "nosit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My uniform is always neat.",
+      "tts_text": "My uniform is always neat."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "de_adult_corporate_email_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Sich per E-Mail entschuldigen",
+  "title_cz": "Omluva e-mailem",
+  "vocabulary": [
+    {
+      "word": "ich entschuldige mich für",
+      "translation_cz": "omlouvám se za",
+      "example": "Ich entschuldige mich für die Verzögerung meiner Antwort.",
+      "example_cz": "Omlouvám se za zpoždění mé odpovědi.",
+      "tts_text": "Ich entschuldige mich für die Verzögerung meiner Antwort."
+    },
+    {
+      "word": "die Unannehmlichkeit",
+      "translation_cz": "nepříjemnost / potíže",
+      "example": "Es tut mir leid für die entstandene Unannehmlichkeit.",
+      "example_cz": "Omlouvám se za potíže, které to způsobilo.",
+      "tts_text": "Es tut mir leid für die entstandene Unannehmlichkeit."
+    },
+    {
+      "word": "mein Fehler",
+      "translation_cz": "moje chyba",
+      "example": "Das war mein Fehler, und ich werde es sofort beheben.",
+      "example_cz": "Byla to moje chyba a hned to napravím.",
+      "tts_text": "Das war mein Fehler, und ich werde es sofort beheben."
+    },
+    {
+      "word": "die volle Verantwortung übernehmen",
+      "translation_cz": "přijmout plnou odpovědnost",
+      "example": "Ich übernehme die volle Verantwortung für den Fehler.",
+      "example_cz": "Přijímám plnou odpovědnost za tu chybu.",
+      "tts_text": "Ich übernehme die volle Verantwortung für den Fehler."
+    },
+    {
+      "word": "beheben",
+      "translation_cz": "napravit",
+      "example": "Wir werden die Situation sofort beheben.",
+      "example_cz": "Situaci okamžitě napravíme.",
+      "tts_text": "Wir werden die Situation sofort beheben."
+    },
+    {
+      "word": "unbeabsichtigt",
+      "translation_cz": "nezáměrný",
+      "example": "Der Fehler war unbeabsichtigt.",
+      "example_cz": "Chyba byla nezáměrná.",
+      "tts_text": "Der Fehler war unbeabsichtigt."
+    },
+    {
+      "word": "Ihnen versichern",
+      "translation_cz": "ujistit vás",
+      "example": "Ich kann Ihnen versichern, dass es nicht wieder vorkommt.",
+      "example_cz": "Mohu vás ujistit, že se to už nestane.",
+      "tts_text": "Ich kann Ihnen versichern, dass es nicht wieder vorkommt."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_apology_email",
+      "title": "Sich für einen Rechnungsfehler entschuldigen",
+      "title_cz": "Omluva za chybu ve fakturaci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich entschuldige mich für den Fehler in Ihrer letzten Rechnung.",
+          "text_cz": "Omlouvám se za chybu ve vaší poslední faktuře."
+        },
+        {
+          "speaker": "A",
+          "text": "Das war mein Fehler, und ich übernehme die volle Verantwortung dafür.",
+          "text_cz": "Byla to moje chyba a přijímám za ni plnou odpovědnost."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke, dass Sie mich informiert haben. Wie geht es weiter?",
+          "text_cz": "Děkuji, že jste mě informoval. Co bude dál?"
+        },
+        {
+          "speaker": "A",
+          "text": "Wir werden die Situation heute beheben, und ich kann Ihnen versichern, dass es nicht wieder vorkommt.",
+          "text_cz": "Situaci dnes napravíme a mohu vás ujistit, že se to už nestane."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Unannehmlichkeit",
+      "options": [
+        "nepříjemnost",
+        "chyba",
+        "odpovědnost"
+      ],
+      "correct": "nepříjemnost"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich übernehme die volle ___ für den Fehler.",
+      "answer": "Verantwortung",
+      "hint_cz": "odpovědnost"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "mein Fehler",
+          "cz": "moje chyba"
+        },
+        {
+          "target": "beheben",
+          "cz": "napravit"
+        },
+        {
+          "target": "unbeabsichtigt",
+          "cz": "nezáměrný"
+        },
+        {
+          "target": "Ihnen versichern",
+          "cz": "ujistit vás"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich entschuldige mich für die Verzögerung meiner Antwort.",
+      "tts_text": "Ich entschuldige mich für die Verzögerung meiner Antwort."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir werden die Situation sofort ___.",
+      "answer": "beheben",
+      "hint_cz": "napravit"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_daily_routine_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Wochenendroutine",
+  "title_cz": "Víkendový program",
+  "vocabulary": [
+    {
+      "word": "das Wochenende",
+      "translation_cz": "víkend",
+      "example": "Ich liebe das Wochenende.",
+      "example_cz": "Mám rád víkend.",
+      "tts_text": "Ich liebe das Wochenende."
+    },
+    {
+      "word": "ausschlafen",
+      "translation_cz": "přispat si",
+      "example": "Ich schlafe am Samstag aus.",
+      "example_cz": "V sobotu si přispím.",
+      "tts_text": "Ich schlafe am Samstag aus."
+    },
+    {
+      "word": "die Großeltern besuchen",
+      "translation_cz": "navštívit prarodiče",
+      "example": "Wir besuchen sonntags die Großeltern.",
+      "example_cz": "V neděli navštěvujeme prarodiče.",
+      "tts_text": "Wir besuchen sonntags die Großeltern."
+    },
+    {
+      "word": "der Ausflug",
+      "translation_cz": "výlet",
+      "example": "Wir machen einen Ausflug in den Wald.",
+      "example_cz": "Jedeme na výlet do lesa.",
+      "tts_text": "Wir machen einen Ausflug in den Wald."
+    },
+    {
+      "word": "die Zeichentrickfilme",
+      "translation_cz": "kreslené filmy",
+      "example": "Ich schaue morgens Zeichentrickfilme.",
+      "example_cz": "Ráno se dívám na kreslené filmy.",
+      "tts_text": "Ich schaue morgens Zeichentrickfilme."
+    },
+    {
+      "word": "sich entspannen",
+      "translation_cz": "odpočívat",
+      "example": "Am Wochenende entspanne ich mich gern.",
+      "example_cz": "O víkendech si rád odpočinu.",
+      "tts_text": "Am Wochenende entspanne ich mich gern."
+    },
+    {
+      "word": "die Freizeit",
+      "translation_cz": "volný čas",
+      "example": "Ich habe viel Freizeit.",
+      "example_cz": "Mám hodně volného času.",
+      "tts_text": "Ich habe viel Freizeit."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Wochenende",
+      "options": [
+        "víkend",
+        "přispat si",
+        "navštívit prarodiče"
+      ],
+      "correct": "víkend"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich schlafe am Samstag ___.",
+      "answer": "aus",
+      "hint_cz": "přispat si (schlafe...aus)"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Großeltern besuchen",
+          "cz": "navštívit prarodiče"
+        },
+        {
+          "target": "der Ausflug",
+          "cz": "výlet"
+        },
+        {
+          "target": "die Zeichentrickfilme",
+          "cz": "kreslené filmy"
+        },
+        {
+          "target": "sich entspannen",
+          "cz": "odpočívat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe viel Freizeit.",
+      "tts_text": "Ich habe viel Freizeit."
+    }
+  ]
+}

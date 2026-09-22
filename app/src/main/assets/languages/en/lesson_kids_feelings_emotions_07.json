@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_feelings_emotions_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Surprised",
+  "title_cz": "Překvapený",
+  "vocabulary": [
+    {
+      "word": "surprised",
+      "translation_cz": "překvapený",
+      "example": "I am surprised by the gift.",
+      "example_cz": "Jsem překvapený tím dárkem.",
+      "tts_text": "I am surprised by the gift."
+    },
+    {
+      "word": "wow",
+      "translation_cz": "páni",
+      "example": "Wow, this is amazing!",
+      "example_cz": "Páni, to je úžasné!",
+      "tts_text": "Wow, this is amazing!"
+    },
+    {
+      "word": "unexpected",
+      "translation_cz": "nečekaný",
+      "example": "It was a totally unexpected visit.",
+      "example_cz": "Byla to úplně nečekaná návštěva.",
+      "tts_text": "It was a totally unexpected visit."
+    },
+    {
+      "word": "jump",
+      "translation_cz": "poskočit",
+      "example": "I jump when I get surprised.",
+      "example_cz": "Když jsem překvapený, poskočím.",
+      "tts_text": "I jump when I get surprised."
+    },
+    {
+      "word": "gasp",
+      "translation_cz": "lapnout po dechu",
+      "example": "She gasped when she saw the puppy.",
+      "example_cz": "Když uviděla štěně, lapla po dechu.",
+      "tts_text": "She gasped when she saw the puppy."
+    },
+    {
+      "word": "guess",
+      "translation_cz": "hádat",
+      "example": "Can you guess my surprise?",
+      "example_cz": "Uhádneš moje překvapení?",
+      "tts_text": "Can you guess my surprise?"
+    },
+    {
+      "word": "eyes wide open",
+      "translation_cz": "s vykulenýma očima",
+      "example": "He looked at me with eyes wide open.",
+      "example_cz": "Díval se na mě s vykulenýma očima.",
+      "tts_text": "He looked at me with eyes wide open."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "surprised",
+      "options": [
+        "překvapený",
+        "smutný",
+        "radost"
+      ],
+      "correct": "překvapený"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am ___ by the gift.",
+      "answer": "surprised",
+      "hint_cz": "překvapený"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "wow",
+          "cz": "páni"
+        },
+        {
+          "target": "unexpected",
+          "cz": "nečekaný"
+        },
+        {
+          "target": "jump",
+          "cz": "poskočit"
+        },
+        {
+          "target": "gasp",
+          "cz": "lapnout po dechu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wow, this is amazing!",
+      "tts_text": "Wow, this is amazing!"
+    }
+  ]
+}

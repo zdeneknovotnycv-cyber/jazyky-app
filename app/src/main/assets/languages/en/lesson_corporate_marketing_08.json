@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_marketing_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Analyzing marketing results",
+  "title_cz": "Analýza marketingových výsledků",
+  "vocabulary": [
+    {
+      "word": "conversion rate",
+      "translation_cz": "míra konverze",
+      "example": "Our conversion rate improved after the new landing page.",
+      "example_cz": "Naše míra konverze se po nové vstupní stránce zlepšila.",
+      "tts_text": "Our conversion rate improved after the new landing page."
+    },
+    {
+      "word": "key performance indicator",
+      "translation_cz": "klíčový ukazatel výkonnosti",
+      "example": "Website traffic is a key performance indicator for us.",
+      "example_cz": "Návštěvnost webu je pro nás klíčovým ukazatelem výkonnosti.",
+      "tts_text": "Website traffic is a key performance indicator for us."
+    },
+    {
+      "word": "data-driven decision",
+      "translation_cz": "rozhodnutí založené na datech",
+      "example": "We always try to make data-driven decisions.",
+      "example_cz": "Vždy se snažíme dělat rozhodnutí založená na datech.",
+      "tts_text": "We always try to make data-driven decisions."
+    },
+    {
+      "word": "bounce rate",
+      "translation_cz": "míra opuštění",
+      "example": "The bounce rate on that page is too high.",
+      "example_cz": "Míra opuštění na té stránce je příliš vysoká.",
+      "tts_text": "The bounce rate on that page is too high."
+    },
+    {
+      "word": "A/B testing",
+      "translation_cz": "A/B testování",
+      "example": "We used A/B testing to compare two headlines.",
+      "example_cz": "Použili jsme A/B testování k porovnání dvou nadpisů.",
+      "tts_text": "We used A/B testing to compare two headlines."
+    },
+    {
+      "word": "report the results",
+      "translation_cz": "reportovat výsledky",
+      "example": "I will report the results at the meeting.",
+      "example_cz": "Výsledky nareportuji na schůzce.",
+      "tts_text": "I will report the results at the meeting."
+    },
+    {
+      "word": "underperform",
+      "translation_cz": "podávat slabší výkon",
+      "example": "This channel is underperforming compared to others.",
+      "example_cz": "Tento kanál podává slabší výkon ve srovnání s ostatními.",
+      "tts_text": "This channel is underperforming compared to others."
+    },
+    {
+      "word": "insights",
+      "translation_cz": "poznatky, přehledy",
+      "example": "These insights will help us plan the next campaign.",
+      "example_cz": "Tyto poznatky nám pomohou naplánovat další kampaň.",
+      "tts_text": "These insights will help us plan the next campaign."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_08",
+      "title": "Reviewing last month's campaign performance",
+      "title_cz": "Kontrola výkonu kampaně za minulý měsíc",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Our conversion rate improved after the new landing page.",
+          "text_cz": "Naše míra konverze se po nové vstupní stránce zlepšila."
+        },
+        {
+          "speaker": "B",
+          "text": "That's great. What about the bounce rate?",
+          "text_cz": "To je skvělé. A co míra opuštění?"
+        },
+        {
+          "speaker": "A",
+          "text": "It dropped too. The A/B testing really helped us make a data-driven decision.",
+          "text_cz": "Také klesla. A/B testování nám opravdu pomohlo udělat rozhodnutí založené na datech."
+        },
+        {
+          "speaker": "B",
+          "text": "Good, let's report the results at Friday's meeting.",
+          "text_cz": "Dobře, pojďme výsledky nareportovat na páteční schůzce."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "conversion rate",
+      "options": [
+        "míra konverze",
+        "míra opuštění",
+        "poznatky, přehledy"
+      ],
+      "correct": "míra konverze"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We always try to make ___ decisions.",
+      "answer": "data-driven",
+      "hint_cz": "založená na datech"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "key performance indicator",
+          "cz": "klíčový ukazatel výkonnosti"
+        },
+        {
+          "target": "bounce rate",
+          "cz": "míra opuštění"
+        },
+        {
+          "target": "A/B testing",
+          "cz": "A/B testování"
+        },
+        {
+          "target": "underperform",
+          "cz": "podávat slabší výkon"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I will report the results at the meeting.",
+      "tts_text": "I will report the results at the meeting."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "These ___ will help us plan the next campaign.",
+      "answer": "insights",
+      "hint_cz": "poznatky"
+    }
+  ]
+}

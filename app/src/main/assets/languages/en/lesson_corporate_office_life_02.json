@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_office_life_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Booking a desk (hot-desking)",
+  "title_cz": "Rezervace stolu (hot-desking)",
+  "vocabulary": [
+    {
+      "word": "hot-desking",
+      "translation_cz": "hot-desking (sdílené stoly)",
+      "example": "Our office uses hot-desking now.",
+      "example_cz": "Naše kancelář teď používá hot-desking.",
+      "tts_text": "Our office uses hot-desking now."
+    },
+    {
+      "word": "book a desk",
+      "translation_cz": "rezervovat stůl",
+      "example": "You need to book a desk in advance.",
+      "example_cz": "Musíš si stůl rezervovat předem.",
+      "tts_text": "You need to book a desk in advance."
+    },
+    {
+      "word": "available",
+      "translation_cz": "volný, dostupný",
+      "example": "Is desk twelve available tomorrow?",
+      "example_cz": "Je stůl číslo dvanáct zítra volný?",
+      "tts_text": "Is desk twelve available tomorrow?"
+    },
+    {
+      "word": "floor plan",
+      "translation_cz": "plánek podlaží",
+      "example": "Check the floor plan for free spots.",
+      "example_cz": "Podívej se do plánku podlaží na volná místa.",
+      "tts_text": "Check the floor plan for free spots."
+    },
+    {
+      "word": "booking app",
+      "translation_cz": "rezervační aplikace",
+      "example": "Use the booking app to reserve a seat.",
+      "example_cz": "Použij rezervační aplikaci k rezervaci místa.",
+      "tts_text": "Use the booking app to reserve a seat."
+    },
+    {
+      "word": "shared workspace",
+      "translation_cz": "sdílený pracovní prostor",
+      "example": "We work in a shared workspace three days a week.",
+      "example_cz": "Pracujeme ve sdíleném prostoru tři dny v týdnu.",
+      "tts_text": "We work in a shared workspace three days a week."
+    },
+    {
+      "word": "cancel a booking",
+      "translation_cz": "zrušit rezervaci",
+      "example": "Please cancel your booking if you're not coming in.",
+      "example_cz": "Prosím zruš rezervaci, pokud nepřijdeš.",
+      "tts_text": "Please cancel your booking if you're not coming in."
+    },
+    {
+      "word": "check in",
+      "translation_cz": "přihlásit se (na místě)",
+      "example": "Don't forget to check in when you arrive.",
+      "example_cz": "Nezapomeň se po příchodu přihlásit.",
+      "tts_text": "Don't forget to check in when you arrive."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_02",
+      "title": "Reserving a hot desk",
+      "title_cz": "Rezervace hot-desku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you booked a desk for tomorrow?",
+          "text_cz": "Zarezervoval sis zítra stůl?"
+        },
+        {
+          "speaker": "B",
+          "text": "Not yet. Is there anything available near the window?",
+          "text_cz": "Ještě ne. Je něco volného u okna?"
+        },
+        {
+          "speaker": "A",
+          "text": "Check the floor plan in the booking app.",
+          "text_cz": "Podívej se do plánku podlaží v rezervační aplikaci."
+        },
+        {
+          "speaker": "B",
+          "text": "Great, I'll book it now and check in when I arrive.",
+          "text_cz": "Skvělé, hned si to zarezervuji a po příchodu se přihlásím."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "hot-desking",
+      "options": [
+        "hot-desking (sdílené stoly)",
+        "rezervovat stůl",
+        "volný, dostupný"
+      ],
+      "correct": "hot-desking (sdílené stoly)"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You need to ___ a desk in advance.",
+      "answer": "book",
+      "hint_cz": "rezervovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "hot-desking",
+          "cz": "hot-desking (sdílené stoly)"
+        },
+        {
+          "target": "book a desk",
+          "cz": "rezervovat stůl"
+        },
+        {
+          "target": "available",
+          "cz": "volný, dostupný"
+        },
+        {
+          "target": "floor plan",
+          "cz": "plánek podlaží"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Is desk twelve available tomorrow?",
+      "tts_text": "Is desk twelve available tomorrow?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please ___ your booking if you're not coming.",
+      "answer": "cancel",
+      "hint_cz": "zrušit"
+    }
+  ]
+}

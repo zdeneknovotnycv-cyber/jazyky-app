@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_reports_presentations_03",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Bericht zusammenfassen",
+  "title_cz": "Shrnutí zprávy",
+  "vocabulary": [
+    {
+      "word": "zusammenfassend",
+      "translation_cz": "shrnuto",
+      "example": "Zusammenfassend lässt sich sagen, dass das Projekt gut voranschreitet.",
+      "example_cz": "Shrnuto, projekt postupuje dobře.",
+      "tts_text": "Zusammenfassend lässt sich sagen, dass das Projekt gut voranschreitet."
+    },
+    {
+      "word": "die Kernaussage",
+      "translation_cz": "klíčové zjištění",
+      "example": "Die Kernaussage ist ein Anstieg der Kundenzufriedenheit.",
+      "example_cz": "Klíčovým zjištěním je nárůst spokojenosti zákazníků.",
+      "tts_text": "Die Kernaussage ist ein Anstieg der Kundenzufriedenheit."
+    },
+    {
+      "word": "der Überblick",
+      "translation_cz": "přehled",
+      "example": "Lassen Sie mich Ihnen einen kurzen Überblick geben.",
+      "example_cz": "Dovolte mi podat rychlý přehled.",
+      "tts_text": "Lassen Sie mich Ihnen einen kurzen Überblick geben."
+    },
+    {
+      "word": "das Fazit",
+      "translation_cz": "závěr",
+      "example": "Das Fazit des Berichts ist positiv.",
+      "example_cz": "Závěr zprávy je pozitivní.",
+      "tts_text": "Das Fazit des Berichts ist positiv."
+    },
+    {
+      "word": "die Empfehlung",
+      "translation_cz": "doporučení",
+      "example": "Unsere Empfehlung ist, das Budget zu erhöhen.",
+      "example_cz": "Naším doporučením je navýšit rozpočet.",
+      "tts_text": "Unsere Empfehlung ist, das Budget zu erhöhen."
+    },
+    {
+      "word": "kurz gesagt",
+      "translation_cz": "krátce řečeno",
+      "example": "Kurz gesagt, wir haben alle unsere Ziele erreicht.",
+      "example_cz": "Krátce řečeno, splnili jsme všechny cíle.",
+      "tts_text": "Kurz gesagt, wir haben alle unsere Ziele erreicht."
+    },
+    {
+      "word": "der Hauptpunkt",
+      "translation_cz": "hlavní bod",
+      "example": "Der Hauptpunkt ist, dass die Kosten gesunken sind.",
+      "example_cz": "Hlavním bodem je, že náklady klesly.",
+      "tts_text": "Der Hauptpunkt ist, dass die Kosten gesunken sind."
+    },
+    {
+      "word": "abschließend",
+      "translation_cz": "na závěr",
+      "example": "Abschließend danke ich Ihnen für Ihre Aufmerksamkeit.",
+      "example_cz": "Na závěr, děkuji za pozornost.",
+      "tts_text": "Abschließend danke ich Ihnen für Ihre Aufmerksamkeit."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_summary_report",
+      "title": "Wichtige Ergebnisse zusammenfassen",
+      "title_cz": "Shrnutí klíčových zjištění",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Lassen Sie mich Ihnen einen kurzen Überblick über den Bericht geben.",
+          "text_cz": "Dovolte mi podat rychlý přehled zprávy."
+        },
+        {
+          "speaker": "B",
+          "text": "Bitte, was ist die Kernaussage?",
+          "text_cz": "Prosím, jaké je klíčové zjištění?"
+        },
+        {
+          "speaker": "A",
+          "text": "Die Kernaussage ist ein Anstieg der Kundenzufriedenheit. Zusammenfassend haben wir alle Ziele erreicht.",
+          "text_cz": "Klíčovým zjištěním je nárůst spokojenosti zákazníků. Shrnuto, splnili jsme všechny cíle."
+        },
+        {
+          "speaker": "B",
+          "text": "Toll, und was ist die Empfehlung?",
+          "text_cz": "Skvělé, a jaké je doporučení?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "zusammenfassend",
+      "options": [
+        "shrnuto",
+        "přehled",
+        "závěr"
+      ],
+      "correct": "shrnuto"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Kernaussage ist ein Anstieg der Kundenzufriedenheit.",
+      "answer": "die Kernaussage",
+      "hint_cz": "klíčové zjištění"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Unsere Empfehlung ist, das Budget zu erhöhen.",
+      "answer": "die Empfehlung",
+      "hint_cz": "doporučení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "kurz gesagt",
+          "cz": "krátce řečeno"
+        },
+        {
+          "target": "der Hauptpunkt",
+          "cz": "hlavní bod"
+        },
+        {
+          "target": "abschließend",
+          "cz": "na závěr"
+        },
+        {
+          "target": "der Überblick",
+          "cz": "přehled"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lassen Sie mich Ihnen einen kurzen Überblick über den Bericht geben.",
+      "tts_text": "Lassen Sie mich Ihnen einen kurzen Überblick über den Bericht geben."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte, was ist die Kernaussage?",
+      "tts_text": "Bitte, was ist die Kernaussage?"
+    }
+  ]
+}

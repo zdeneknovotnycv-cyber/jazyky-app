@@ -1,0 +1,47 @@
+{
+  "id": "en_corporate_hr_recruitment_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Sick Leave Notification",
+  "title_cz": "Nahlášení nemocenské",
+  "vocabulary": [
+    {"word": "sick leave", "translation_cz": "nemocenská", "example": "I need to take sick leave today.", "example_cz": "Dnes musím zůstat na nemocenské.", "tts_text": "I need to take sick leave today."},
+    {"word": "doctor's note", "translation_cz": "lékařské potvrzení", "example": "I'll bring a doctor's note tomorrow.", "example_cz": "Zítra přinesu lékařské potvrzení.", "tts_text": "I'll bring a doctor's note tomorrow."},
+    {"word": "feel unwell", "translation_cz": "necítit se dobře", "example": "I feel unwell and won't come to the office.", "example_cz": "Necítím se dobře a do kanceláře nepřijdu.", "tts_text": "I feel unwell and won't come to the office."},
+    {"word": "notify", "translation_cz": "informovat", "example": "Please notify your manager as soon as possible.", "example_cz": "Prosím informujte svého nadřízeného co nejdříve.", "tts_text": "Please notify your manager as soon as possible."},
+    {"word": "recover", "translation_cz": "zotavit se", "example": "I hope you recover soon.", "example_cz": "Doufám, že se brzy zotavíš.", "tts_text": "I hope you recover soon."},
+    {"word": "urgent tasks", "translation_cz": "naléhavé úkoly", "example": "Are there any urgent tasks I should hand over?", "example_cz": "Jsou nějaké naléhavé úkoly, které bych měl předat?", "tts_text": "Are there any urgent tasks I should hand over?"},
+    {"word": "return to work", "translation_cz": "návrat do práce", "example": "I expect to return to work on Thursday.", "example_cz": "Předpokládám, že se do práce vrátím ve čtvrtek.", "tts_text": "I expect to return to work on Thursday."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_sick_call",
+      "title": "Calling in sick",
+      "title_cz": "Telefonické nahlášení nemoci",
+      "lines": [
+        {"speaker": "A", "text": "Hi, I wanted to let you know I feel unwell and won't come in today.", "text_cz": "Ahoj, chtěl jsem ti dát vědět, že se necítím dobře a dnes nepřijdu."},
+        {"speaker": "B", "text": "Thanks for letting me know. Will you see a doctor?", "text_cz": "Díky za informaci. Půjdeš k lékaři?"},
+        {"speaker": "A", "text": "Yes, and I'll send a doctor's note if needed.", "text_cz": "Ano, a pokud bude potřeba, pošlu lékařské potvrzení."},
+        {"speaker": "B", "text": "Okay, get well soon and rest.", "text_cz": "Dobře, brzy se uzdrav a odpočiň si."}
+      ]
+    },
+    {
+      "id": "conv_handover_tasks",
+      "title": "Handing over urgent tasks",
+      "title_cz": "Předání naléhavých úkolů",
+      "lines": [
+        {"speaker": "A", "text": "Before I go, are there any urgent tasks I should hand over?", "text_cz": "Než odejdu, jsou tu nějaké naléhavé úkoly, které bych měl předat?"},
+        {"speaker": "B", "text": "Just the client call at eleven. I'll take care of it.", "text_cz": "Jen ten hovor s klientem v jedenáct. Já to zařídím."},
+        {"speaker": "A", "text": "Thank you. I hope to return to work by Thursday.", "text_cz": "Děkuji. Doufám, že se do práce vrátím do čtvrtka."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "sick leave", "options": ["nemocenská", "volno", "svátek"], "correct": "nemocenská"},
+    {"type": "fill_gap", "sentence": "I'll bring a ___ tomorrow.", "answer": "doctor's note", "hint_cz": "lékařské potvrzení"},
+    {"type": "match_pairs", "pairs": [{"target": "feel unwell", "cz": "necítit se dobře"}, {"target": "recover", "cz": "zotavit se"}, {"target": "notify", "cz": "informovat"}, {"target": "return to work", "cz": "návrat do práce"}]},
+    {"type": "speak_and_check", "target_phrase": "I need to take sick leave today.", "tts_text": "I need to take sick leave today."},
+    {"type": "fill_gap", "sentence": "Please ___ your manager as soon as possible.", "answer": "notify", "hint_cz": "informovat"}
+  ]
+}

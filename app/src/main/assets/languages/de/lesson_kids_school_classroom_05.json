@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_school_classroom_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Homework",
+  "title_cz": "Domácí úkoly",
+  "vocabulary": [
+    {
+      "word": "die Hausaufgabe",
+      "translation_cz": "domácí úkol",
+      "example": "Ich mache meine Hausaufgabe nach der Schule.",
+      "example_cz": "Domácí úkol dělám po škole.",
+      "tts_text": "Ich mache meine Hausaufgabe nach der Schule."
+    },
+    {
+      "word": "schreiben",
+      "translation_cz": "psát",
+      "example": "Ich schreibe in mein Heft.",
+      "example_cz": "Píšu do svého sešitu.",
+      "tts_text": "Ich schreibe in mein Heft."
+    },
+    {
+      "word": "das Heft",
+      "translation_cz": "sešit",
+      "example": "Mein Heft ist voller Zeichnungen.",
+      "example_cz": "Můj sešit je plný kreseb.",
+      "tts_text": "Mein Heft ist voller Zeichnungen."
+    },
+    {
+      "word": "schwierig",
+      "translation_cz": "obtížný",
+      "example": "Diese Übung ist schwierig.",
+      "example_cz": "Toto cvičení je obtížné.",
+      "tts_text": "Diese Übung ist schwierig."
+    },
+    {
+      "word": "leicht",
+      "translation_cz": "snadný",
+      "example": "Die Matheaufgabe ist heute leicht.",
+      "example_cz": "Domácí úkol z matiky je dnes snadný.",
+      "tts_text": "Die Matheaufgabe ist heute leicht."
+    },
+    {
+      "word": "fertig machen",
+      "translation_cz": "dokončit",
+      "example": "Ich mache meine Hausaufgabe vor dem Abendessen fertig.",
+      "example_cz": "Domácí úkol dokončím před večeří.",
+      "tts_text": "Ich mache meine Hausaufgabe vor dem Abendessen fertig."
+    },
+    {
+      "word": "kontrollieren",
+      "translation_cz": "zkontrolovat",
+      "example": "Mama kontrolliert meine Hausaufgabe.",
+      "example_cz": "Máma kontroluje můj domácí úkol.",
+      "tts_text": "Mama kontrolliert meine Hausaufgabe."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "schwierig",
+      "options": [
+        "obtížný",
+        "snadný",
+        "sešit"
+      ],
+      "correct": "obtížný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die Matheaufgabe ist heute ___.",
+      "answer": "leicht",
+      "hint_cz": "snadný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Hausaufgabe",
+          "cz": "domácí úkol"
+        },
+        {
+          "target": "schreiben",
+          "cz": "psát"
+        },
+        {
+          "target": "das Heft",
+          "cz": "sešit"
+        },
+        {
+          "target": "kontrollieren",
+          "cz": "zkontrolovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich mache meine Hausaufgabe vor dem Abendessen fertig.",
+      "tts_text": "Ich mache meine Hausaufgabe vor dem Abendessen fertig."
+    }
+  ]
+}

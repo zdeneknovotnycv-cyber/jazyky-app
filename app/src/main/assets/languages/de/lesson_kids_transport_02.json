@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_transport_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Busse",
+  "title_cz": "Autobusy",
+  "vocabulary": [
+    {
+      "word": "der Bus",
+      "translation_cz": "autobus",
+      "example": "Wir fahren mit dem Bus zur Schule.",
+      "example_cz": "Jezdíme autobusem do školy.",
+      "tts_text": "Wir fahren mit dem Bus zur Schule."
+    },
+    {
+      "word": "die Bushaltestelle",
+      "translation_cz": "autobusová zastávka",
+      "example": "Ich warte an der Bushaltestelle.",
+      "example_cz": "Čekám na autobusové zastávce.",
+      "tts_text": "Ich warte an der Bushaltestelle."
+    },
+    {
+      "word": "der Fahrschein",
+      "translation_cz": "jízdenka",
+      "example": "Ich kaufe einen Fahrschein für den Bus.",
+      "example_cz": "Kupuji si jízdenku na autobus.",
+      "tts_text": "Ich kaufe einen Fahrschein für den Bus."
+    },
+    {
+      "word": "der Busfahrer",
+      "translation_cz": "řidič autobusu",
+      "example": "Der Busfahrer sagt hallo.",
+      "example_cz": "Řidič autobusu zdraví.",
+      "tts_text": "Der Busfahrer sagt hallo."
+    },
+    {
+      "word": "der Sitzplatz",
+      "translation_cz": "sedadlo",
+      "example": "Ich sitze auf einem Sitzplatz am Fenster.",
+      "example_cz": "Sedím na sedadle u okna.",
+      "tts_text": "Ich sitze auf einem Sitzplatz am Fenster."
+    },
+    {
+      "word": "einsteigen",
+      "translation_cz": "nastoupit",
+      "example": "Wir steigen schnell in den Bus ein.",
+      "example_cz": "Rychle nastupujeme do autobusu.",
+      "tts_text": "Wir steigen schnell in den Bus ein."
+    },
+    {
+      "word": "aussteigen",
+      "translation_cz": "vystoupit",
+      "example": "Ich steige an der nächsten Haltestelle aus.",
+      "example_cz": "Vystupuji na příští zastávce.",
+      "tts_text": "Ich steige an der nächsten Haltestelle aus."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Bus",
+      "options": [
+        "autobus",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "autobus"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir fahren mit dem ___ zur Schule.",
+      "answer": "der Bus",
+      "hint_cz": "autobus"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Bushaltestelle",
+          "cz": "autobusová zastávka"
+        },
+        {
+          "target": "der Fahrschein",
+          "cz": "jízdenka"
+        },
+        {
+          "target": "der Busfahrer",
+          "cz": "řidič autobusu"
+        },
+        {
+          "target": "der Sitzplatz",
+          "cz": "sedadlo"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich warte an der Bushaltestelle.",
+      "tts_text": "Ich warte an der Bushaltestelle."
+    }
+  ]
+}

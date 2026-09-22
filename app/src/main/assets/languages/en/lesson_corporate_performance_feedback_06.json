@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_performance_feedback_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Self-evaluation basics",
+  "title_cz": "Základy sebehodnocení",
+  "vocabulary": [
+    {
+      "word": "self-evaluation",
+      "translation_cz": "sebehodnocení",
+      "example": "Please complete your self-evaluation by Friday.",
+      "example_cz": "Prosím dokonči své sebehodnocení do pátku.",
+      "tts_text": "Please complete your self-evaluation by Friday."
+    },
+    {
+      "word": "achievements",
+      "translation_cz": "úspěchy",
+      "example": "List your main achievements this year.",
+      "example_cz": "Vyjmenuj své hlavní úspěchy za tento rok.",
+      "tts_text": "List your main achievements this year."
+    },
+    {
+      "word": "challenges faced",
+      "translation_cz": "výzvy, kterým jsem čelil",
+      "example": "Describe the challenges faced during the project.",
+      "example_cz": "Popiš výzvy, kterým jsi čelil během projektu.",
+      "tts_text": "Describe the challenges faced during the project."
+    },
+    {
+      "word": "honest assessment",
+      "translation_cz": "upřímné zhodnocení",
+      "example": "Give an honest assessment of your performance.",
+      "example_cz": "Podej upřímné zhodnocení svého výkonu.",
+      "tts_text": "Give an honest assessment of your performance."
+    },
+    {
+      "word": "rate yourself",
+      "translation_cz": "ohodnoť sám sebe",
+      "example": "Rate yourself from one to five on teamwork.",
+      "example_cz": "Ohodnoť sám sebe od jedné do pěti v týmové práci.",
+      "tts_text": "Rate yourself from one to five on teamwork."
+    },
+    {
+      "word": "lessons learned",
+      "translation_cz": "poučení",
+      "example": "What lessons learned would you share?",
+      "example_cz": "Jaké poučení bys sdílel?",
+      "tts_text": "What lessons learned would you share?"
+    },
+    {
+      "word": "skills developed",
+      "translation_cz": "rozvinuté dovednosti",
+      "example": "Mention the skills developed this quarter.",
+      "example_cz": "Zmíň dovednosti, které jsi tento kvartál rozvinul.",
+      "tts_text": "Mention the skills developed this quarter."
+    },
+    {
+      "word": "supporting evidence",
+      "translation_cz": "podpůrné důkazy",
+      "example": "Add supporting evidence for your achievements.",
+      "example_cz": "Přidej podpůrné důkazy ke svým úspěchům.",
+      "tts_text": "Add supporting evidence for your achievements."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_06",
+      "title": "Writing a self-evaluation",
+      "title_cz": "Psaní sebehodnocení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you started your self-evaluation yet?",
+          "text_cz": "Už jsi začal se svým sebehodnocením?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, I'm listing my main achievements this year.",
+          "text_cz": "Ano, vypisuji si své hlavní úspěchy za tento rok."
+        },
+        {
+          "speaker": "A",
+          "text": "Don't forget the challenges faced during the launch.",
+          "text_cz": "Nezapomeň na výzvy, kterým jsi čelil během spuštění."
+        },
+        {
+          "speaker": "B",
+          "text": "Right, and I'll add some supporting evidence too.",
+          "text_cz": "Přesně tak, a přidám také nějaké podpůrné důkazy."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "self-evaluation",
+      "options": [
+        "sebehodnocení",
+        "úspěchy",
+        "výzvy, kterým jsem čelil"
+      ],
+      "correct": "sebehodnocení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "List your main ___ this year.",
+      "answer": "achievements",
+      "hint_cz": "úspěchy"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "self-evaluation",
+          "cz": "sebehodnocení"
+        },
+        {
+          "target": "achievements",
+          "cz": "úspěchy"
+        },
+        {
+          "target": "challenges faced",
+          "cz": "výzvy, kterým jsem čelil"
+        },
+        {
+          "target": "honest assessment",
+          "cz": "upřímné zhodnocení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please complete your self-evaluation by Friday.",
+      "tts_text": "Please complete your self-evaluation by Friday."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Give an honest ___ of your performance.",
+      "answer": "assessment",
+      "hint_cz": "zhodnocení"
+    }
+  ]
+}

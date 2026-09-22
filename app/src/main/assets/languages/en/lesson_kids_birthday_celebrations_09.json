@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_birthday_celebrations_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Party games",
+  "title_cz": "Hry na oslavě",
+  "vocabulary": [
+    {
+      "word": "game",
+      "translation_cz": "hra",
+      "example": "We play a fun game at the party.",
+      "example_cz": "Na oslavě hrajeme zábavnou hru.",
+      "tts_text": "We play a fun game at the party."
+    },
+    {
+      "word": "winner",
+      "translation_cz": "vítěz",
+      "example": "The winner gets a small prize.",
+      "example_cz": "Vítěz dostane malou cenu.",
+      "tts_text": "The winner gets a small prize."
+    },
+    {
+      "word": "hide and seek",
+      "translation_cz": "schovávaná",
+      "example": "We play hide and seek in the garden.",
+      "example_cz": "Na zahradě hrajeme schovávanou.",
+      "tts_text": "We play hide and seek in the garden."
+    },
+    {
+      "word": "prize",
+      "translation_cz": "cena",
+      "example": "Everyone gets a small prize.",
+      "example_cz": "Každý dostane malou cenu.",
+      "tts_text": "Everyone gets a small prize."
+    },
+    {
+      "word": "team",
+      "translation_cz": "tým",
+      "example": "We split into two teams.",
+      "example_cz": "Rozdělíme se do dvou týmů.",
+      "tts_text": "We split into two teams."
+    },
+    {
+      "word": "laugh",
+      "translation_cz": "smát se",
+      "example": "We laugh a lot during the game.",
+      "example_cz": "Během hry se hodně smějeme.",
+      "tts_text": "We laugh a lot during the game."
+    },
+    {
+      "word": "music",
+      "translation_cz": "hudba",
+      "example": "We dance to fun music.",
+      "example_cz": "Tančíme na veselou hudbu.",
+      "tts_text": "We dance to fun music."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "game",
+      "options": [
+        "hra",
+        "vítěz",
+        "schovávaná"
+      ],
+      "correct": "hra"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ gets a small prize.",
+      "answer": "winner",
+      "hint_cz": "vítěz"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "hide and seek",
+          "cz": "schovávaná"
+        },
+        {
+          "target": "prize",
+          "cz": "cena"
+        },
+        {
+          "target": "team",
+          "cz": "tým"
+        },
+        {
+          "target": "laugh",
+          "cz": "smát se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We dance to fun music.",
+      "tts_text": "We dance to fun music."
+    }
+  ]
+}

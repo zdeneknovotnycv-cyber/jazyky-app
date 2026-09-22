@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_family_people_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Extended Family",
+  "title_cz": "Širší rodina",
+  "vocabulary": [
+    {
+      "word": "grandmother",
+      "translation_cz": "babička",
+      "example": "My grandmother bakes cookies.",
+      "example_cz": "Moje babička peče sušenky.",
+      "tts_text": "My grandmother bakes cookies."
+    },
+    {
+      "word": "grandfather",
+      "translation_cz": "dědeček",
+      "example": "My grandfather tells stories.",
+      "example_cz": "Můj dědeček vypráví příběhy.",
+      "tts_text": "My grandfather tells stories."
+    },
+    {
+      "word": "cousin",
+      "translation_cz": "bratranec / sestřenice",
+      "example": "My cousin is my age.",
+      "example_cz": "Můj bratranec je stejně starý jako já.",
+      "tts_text": "My cousin is my age."
+    },
+    {
+      "word": "aunt",
+      "translation_cz": "teta",
+      "example": "My aunt lives near us.",
+      "example_cz": "Moje teta bydlí blízko nás.",
+      "tts_text": "My aunt lives near us."
+    },
+    {
+      "word": "uncle",
+      "translation_cz": "strýc",
+      "example": "My uncle has a car.",
+      "example_cz": "Můj strýc má auto.",
+      "tts_text": "My uncle has a car."
+    },
+    {
+      "word": "grandparents",
+      "translation_cz": "prarodiče",
+      "example": "I visit my grandparents on Sundays.",
+      "example_cz": "V neděli navštěvuji své prarodiče.",
+      "tts_text": "I visit my grandparents on Sundays."
+    },
+    {
+      "word": "relatives",
+      "translation_cz": "příbuzní",
+      "example": "All my relatives came to the party.",
+      "example_cz": "Na oslavu přišli všichni moji příbuzní.",
+      "tts_text": "All my relatives came to the party."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "grandmother",
+      "options": [
+        "babička",
+        "teta",
+        "sestřenice"
+      ],
+      "correct": "babička"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My ___ tells stories.",
+      "answer": "grandfather",
+      "hint_cz": "dědeček"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "aunt",
+          "cz": "teta"
+        },
+        {
+          "target": "uncle",
+          "cz": "strýc"
+        },
+        {
+          "target": "cousin",
+          "cz": "bratranec / sestřenice"
+        },
+        {
+          "target": "relatives",
+          "cz": "příbuzní"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My grandmother bakes cookies.",
+      "tts_text": "My grandmother bakes cookies."
+    }
+  ]
+}

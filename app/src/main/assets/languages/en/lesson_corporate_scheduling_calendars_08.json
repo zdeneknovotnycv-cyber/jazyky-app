@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_scheduling_calendars_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Cancelling a meeting",
+  "title_cz": "Zrušení schůzky",
+  "vocabulary": [
+    {
+      "word": "I'm afraid we need to cancel",
+      "translation_cz": "bohužel musíme zrušit",
+      "example": "I'm afraid we need to cancel tomorrow's meeting.",
+      "example_cz": "Bohužel musíme zrušit zítřejší schůzku.",
+      "tts_text": "I'm afraid we need to cancel tomorrow's meeting."
+    },
+    {
+      "word": "it's no longer necessary",
+      "translation_cz": "už to není nutné",
+      "example": "The meeting is no longer necessary, the issue is resolved.",
+      "example_cz": "Schůzka už není nutná, problém je vyřešen.",
+      "tts_text": "The meeting is no longer necessary, the issue is resolved."
+    },
+    {
+      "word": "sorry for the short notice",
+      "translation_cz": "omlouvám se za pozdní oznámení",
+      "example": "Sorry for the short notice about the cancellation.",
+      "example_cz": "Omlouvám se za pozdní oznámení o zrušení.",
+      "tts_text": "Sorry for the short notice about the cancellation."
+    },
+    {
+      "word": "we'll reschedule soon",
+      "translation_cz": "brzy to znovu naplánujeme",
+      "example": "We'll reschedule soon, once things settle down.",
+      "example_cz": "Brzy to znovu naplánujeme, jakmile se věci ustálí.",
+      "tts_text": "We'll reschedule soon, once things settle down."
+    },
+    {
+      "word": "please remove it from your calendar",
+      "translation_cz": "odstraňte si to prosím z kalendáře",
+      "example": "Please remove it from your calendar for now.",
+      "example_cz": "Prosím zatím si to odstraňte z kalendáře.",
+      "tts_text": "Please remove it from your calendar for now."
+    },
+    {
+      "word": "I'll send a cancellation notice",
+      "translation_cz": "pošlu oznámení o zrušení",
+      "example": "I'll send a cancellation notice to everyone.",
+      "example_cz": "Pošlu oznámení o zrušení všem.",
+      "tts_text": "I'll send a cancellation notice to everyone."
+    },
+    {
+      "word": "no worries at all",
+      "translation_cz": "žádné starosti",
+      "example": "No worries at all, thanks for letting us know.",
+      "example_cz": "Žádné starosti, děkujeme za informování.",
+      "tts_text": "No worries at all, thanks for letting us know."
+    },
+    {
+      "word": "we can pick it up later",
+      "translation_cz": "můžeme na to navázat později",
+      "example": "We can pick it up later this month.",
+      "example_cz": "Můžeme na to navázat později tento měsíc.",
+      "tts_text": "We can pick it up later this month."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_cancelling_meeting",
+      "title": "Cancelling a meeting on short notice",
+      "title_cz": "Zrušení schůzky na poslední chvíli",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'm afraid we need to cancel tomorrow's meeting. Sorry for the short notice.",
+          "text_cz": "Bohužel musíme zrušit zítřejší schůzku. Omlouvám se za pozdní oznámení."
+        },
+        {
+          "speaker": "B",
+          "text": "No worries at all, thanks for letting us know.",
+          "text_cz": "Žádné starosti, děkujeme za informování."
+        },
+        {
+          "speaker": "A",
+          "text": "The topic is no longer necessary, the issue is resolved.",
+          "text_cz": "Téma už není nutné, problém je vyřešen."
+        },
+        {
+          "speaker": "B",
+          "text": "Great news. Please remove it from your calendar as well.",
+          "text_cz": "Skvělá zpráva. Odstraňte si to prosím také z kalendáře."
+        },
+        {
+          "speaker": "A",
+          "text": "Will do. I'll send a cancellation notice to everyone.",
+          "text_cz": "Udělám to. Pošlu oznámení o zrušení všem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "I'm afraid we need to cancel tomorrow's meeting.",
+      "options": [
+        "Bohužel musíme zrušit zítřejší schůzku.",
+        "Žádné starosti.",
+        "Můžeme na to navázat později."
+      ],
+      "correct": "Bohužel musíme zrušit zítřejší schůzku."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Sorry for the short ___ about the cancellation.",
+      "answer": "notice",
+      "hint_cz": "oznámení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "it's no longer necessary", "cz": "už to není nutné" },
+        { "target": "we'll reschedule soon", "cz": "brzy to znovu naplánujeme" },
+        { "target": "no worries at all", "cz": "žádné starosti" },
+        { "target": "we can pick it up later", "cz": "můžeme na to navázat později" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please remove it from your calendar for now.",
+      "tts_text": "Please remove it from your calendar for now."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'll send a cancellation ___ to everyone.",
+      "answer": "notice",
+      "hint_cz": "oznámení"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We'll reschedule soon, once things settle down.",
+      "tts_text": "We'll reschedule soon, once things settle down."
+    }
+  ]
+}

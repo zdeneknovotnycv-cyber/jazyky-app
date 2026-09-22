@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_marketing_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Planung einer Produkteinführung",
+  "title_cz": "Plánování uvedení produktu na trh",
+  "vocabulary": [
+    {
+      "word": "Produkteinführung",
+      "translation_cz": "uvedení produktu na trh",
+      "example": "Die Produkteinführung ist für Juni geplant.",
+      "example_cz": "Uvedení produktu na trh je naplánováno na červen.",
+      "tts_text": "Die Produkteinführung ist für Juni geplant."
+    },
+    {
+      "word": "Pressemitteilung",
+      "translation_cz": "tisková zpráva",
+      "example": "Wir müssen eine Pressemitteilung vorbereiten.",
+      "example_cz": "Musíme připravit tiskovou zprávu.",
+      "tts_text": "Wir müssen eine Pressemitteilung vorbereiten."
+    },
+    {
+      "word": "Launch-Event",
+      "translation_cz": "spouštěcí akce",
+      "example": "Das Launch-Event findet in Prag statt.",
+      "example_cz": "Spouštěcí akce se bude konat v Praze.",
+      "tts_text": "Das Launch-Event findet in Prag statt."
+    },
+    {
+      "word": "früher Zugang",
+      "translation_cz": "předčasný přístup",
+      "example": "Treue Kunden bekommen früheren Zugang.",
+      "example_cz": "Věrní zákazníci dostanou předčasný přístup.",
+      "tts_text": "Treue Kunden bekommen früheren Zugang."
+    },
+    {
+      "word": "Werbematerialien",
+      "translation_cz": "propagační materiály",
+      "example": "Die Werbematerialien sind fast fertig.",
+      "example_cz": "Propagační materiály jsou téměř hotové.",
+      "tts_text": "Die Werbematerialien sind fast fertig."
+    },
+    {
+      "word": "Countdown",
+      "translation_cz": "odpočet",
+      "example": "Wir haben auf Social Media einen Countdown gestartet.",
+      "example_cz": "Na sociálních sítích jsme spustili odpočet.",
+      "tts_text": "Wir haben auf Social Media einen Countdown gestartet."
+    },
+    {
+      "word": "Stakeholder",
+      "translation_cz": "zúčastněné strany",
+      "example": "Alle Stakeholder müssen den Plan genehmigen.",
+      "example_cz": "Všechny zúčastněné strany musí plán schválit.",
+      "tts_text": "Alle Stakeholder müssen den Plan genehmigen."
+    },
+    {
+      "word": "Markteinführungsstrategie",
+      "translation_cz": "strategie uvedení na trh",
+      "example": "Unsere Markteinführungsstrategie konzentriert sich zuerst auf den Online-Verkauf.",
+      "example_cz": "Naše strategie uvedení na trh se nejprve zaměřuje na online prodej.",
+      "tts_text": "Unsere Markteinführungsstrategie konzentriert sich zuerst auf den Online-Verkauf."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_06",
+      "title": "Das Launch-Event für ein neues Produkt planen",
+      "title_cz": "Plánování spouštěcí akce pro nový produkt",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Die Produkteinführung ist für Juni geplant. Ist die Pressemitteilung fertig?",
+          "text_cz": "Uvedení produktu na trh je naplánováno na červen. Je tisková zpráva hotová?"
+        },
+        {
+          "speaker": "B",
+          "text": "Fast. Die Werbematerialien sind auch fertig.",
+          "text_cz": "Skoro. Propagační materiály jsou také hotové."
+        },
+        {
+          "speaker": "A",
+          "text": "Sehr gut. Geben wir treuen Kunden früheren Zugang vor dem Launch-Event.",
+          "text_cz": "Skvělé. Dejme věrným zákazníkům předčasný přístup před spouštěcí akcí."
+        },
+        {
+          "speaker": "B",
+          "text": "Gute Idee, ich bitte die Stakeholder, die Markteinführungsstrategie zu bestätigen.",
+          "text_cz": "Dobrý nápad, požádám zúčastněné strany, aby potvrdily strategii uvedení na trh."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Produkteinführung",
+      "options": [
+        "uvedení produktu na trh",
+        "tisková zpráva",
+        "odpočet"
+      ],
+      "correct": "uvedení produktu na trh"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir müssen eine Presse___ vorbereiten.",
+      "answer": "mitteilung",
+      "hint_cz": "zprávu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Launch-Event",
+          "cz": "spouštěcí akce"
+        },
+        {
+          "target": "früher Zugang",
+          "cz": "předčasný přístup"
+        },
+        {
+          "target": "Stakeholder",
+          "cz": "zúčastněné strany"
+        },
+        {
+          "target": "Countdown",
+          "cz": "odpočet"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Die Produkteinführung ist für Juni geplant.",
+      "tts_text": "Die Produkteinführung ist für Juni geplant."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Unsere Markteinführungs___ konzentriert sich zuerst auf den Online-Verkauf.",
+      "answer": "strategie",
+      "hint_cz": "strategie"
+    }
+  ]
+}

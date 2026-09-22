@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_feelings_emotions_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Proud",
+  "title_cz": "Hrdý",
+  "vocabulary": [
+    {
+      "word": "proud",
+      "translation_cz": "hrdý",
+      "example": "I am proud of my drawing.",
+      "example_cz": "Jsem hrdý na svůj obrázek.",
+      "tts_text": "I am proud of my drawing."
+    },
+    {
+      "word": "achievement",
+      "translation_cz": "úspěch",
+      "example": "Learning to swim is a great achievement.",
+      "example_cz": "Naučit se plavat je velký úspěch.",
+      "tts_text": "Learning to swim is a great achievement."
+    },
+    {
+      "word": "well done",
+      "translation_cz": "výborně",
+      "example": "Well done, you did it!",
+      "example_cz": "Výborně, dokázal jsi to!",
+      "tts_text": "Well done, you did it!"
+    },
+    {
+      "word": "medal",
+      "translation_cz": "medaile",
+      "example": "I won a medal at the race.",
+      "example_cz": "Vyhrál jsem na závodě medaili.",
+      "tts_text": "I won a medal at the race."
+    },
+    {
+      "word": "hard work",
+      "translation_cz": "tvrdá práce",
+      "example": "It took hard work to finish.",
+      "example_cz": "Dokončit to vyžadovalo tvrdou práci.",
+      "tts_text": "It took hard work to finish."
+    },
+    {
+      "word": "parents",
+      "translation_cz": "rodiče",
+      "example": "My parents are proud of me.",
+      "example_cz": "Moji rodiče jsou na mě hrdí.",
+      "tts_text": "My parents are proud of me."
+    },
+    {
+      "word": "succeed",
+      "translation_cz": "uspět",
+      "example": "I finally succeeded at the puzzle.",
+      "example_cz": "Konečně jsem uspěl se skládačkou.",
+      "tts_text": "I finally succeeded at the puzzle."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "proud",
+      "options": [
+        "hrdý",
+        "smutný",
+        "radost"
+      ],
+      "correct": "hrdý"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am ___ of my drawing.",
+      "answer": "proud",
+      "hint_cz": "hrdý"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "achievement",
+          "cz": "úspěch"
+        },
+        {
+          "target": "well done",
+          "cz": "výborně"
+        },
+        {
+          "target": "medal",
+          "cz": "medaile"
+        },
+        {
+          "target": "hard work",
+          "cz": "tvrdá práce"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I won a medal at the race.",
+      "tts_text": "I won a medal at the race."
+    }
+  ]
+}

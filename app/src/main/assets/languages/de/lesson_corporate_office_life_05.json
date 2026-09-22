@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_office_life_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Gebäudezugang und Ausweise",
+  "title_cz": "Přístup do budovy a identifikační karty",
+  "vocabulary": [
+    {
+      "word": "der Zugangsausweis",
+      "translation_cz": "přístupová karta",
+      "example": "Du brauchst einen Zugangsausweis für das Gebäude.",
+      "example_cz": "Pro budovu potřebuješ přístupovou kartu.",
+      "tts_text": "Du brauchst einen Zugangsausweis für das Gebäude."
+    },
+    {
+      "word": "die Karte durchziehen",
+      "translation_cz": "přejet kartou",
+      "example": "Zieh deine Karte am Drehkreuz durch.",
+      "example_cz": "Přejeď kartou u turniketu.",
+      "tts_text": "Zieh deine Karte am Drehkreuz durch."
+    },
+    {
+      "word": "der Empfang",
+      "translation_cz": "recepce",
+      "example": "Besucher müssen sich am Empfang anmelden.",
+      "example_cz": "Návštěvníci se musí zapsat na recepci.",
+      "tts_text": "Besucher müssen sich am Empfang anmelden."
+    },
+    {
+      "word": "der Besucherausweis",
+      "translation_cz": "návštěvnická karta",
+      "example": "Ich organisiere einen Besucherausweis für dich.",
+      "example_cz": "Zařídím ti návštěvnickou kartu.",
+      "tts_text": "Ich organisiere einen Besucherausweis für dich."
+    },
+    {
+      "word": "meinen Ausweis verloren",
+      "translation_cz": "ztratil jsem kartu",
+      "example": "Ich habe gestern meinen Ausweis verloren.",
+      "example_cz": "Včera jsem ztratil kartu.",
+      "tts_text": "Ich habe gestern meinen Ausweis verloren."
+    },
+    {
+      "word": "der Sicherheitsdienst",
+      "translation_cz": "bezpečnostní pracovník",
+      "example": "Frag den Sicherheitsdienst nach einem temporären Ausweis.",
+      "example_cz": "Zeptej se bezpečnostního pracovníka na dočasnou kartu.",
+      "tts_text": "Frag den Sicherheitsdienst nach einem temporären Ausweis."
+    },
+    {
+      "word": "der Sperrbereich",
+      "translation_cz": "vyhrazená oblast",
+      "example": "Der Serverraum ist ein Sperrbereich.",
+      "example_cz": "Serverovna je vyhrazená oblast.",
+      "tts_text": "Der Serverraum ist ein Sperrbereich."
+    },
+    {
+      "word": "sofort melden",
+      "translation_cz": "okamžitě to nahlásit",
+      "example": "Wenn dein Ausweis weg ist, melde es sofort.",
+      "example_cz": "Pokud ti chybí karta, okamžitě to nahlas.",
+      "tts_text": "Wenn dein Ausweis weg ist, melde es sofort."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_05",
+      "title": "Mit einem verlorenen Ausweis umgehen",
+      "title_cz": "Řešení ztracené karty",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich glaube, ich habe meinen Ausweis irgendwo verloren.",
+          "text_cz": "Myslím, že jsem někde ztratil svou kartu."
+        },
+        {
+          "speaker": "B",
+          "text": "Du solltest das sofort dem Sicherheitsdienst melden.",
+          "text_cz": "Měl bys to okamžitě nahlásit bezpečnostnímu pracovníkovi."
+        },
+        {
+          "speaker": "A",
+          "text": "Kann ich heute einen temporären Besucherausweis bekommen?",
+          "text_cz": "Můžu dnes dostat dočasnou návštěvnickou kartu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, melde dich nur zuerst am Empfang an.",
+          "text_cz": "Ano, stačí se nejprve zapsat na recepci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Zugangsausweis",
+      "options": [
+        "přístupová karta",
+        "přejet kartou",
+        "recepce"
+      ],
+      "correct": "přístupová karta"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Du brauchst einen ___, um das Gebäude zu betreten.",
+      "answer": "Zugangsausweis",
+      "hint_cz": "přístupovou kartu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Zugangsausweis",
+          "cz": "přístupová karta"
+        },
+        {
+          "target": "die Karte durchziehen",
+          "cz": "přejet kartou"
+        },
+        {
+          "target": "der Empfang",
+          "cz": "recepce"
+        },
+        {
+          "target": "der Besucherausweis",
+          "cz": "návštěvnická karta"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Zieh bitte deine Karte am Drehkreuz durch.",
+      "tts_text": "Zieh bitte deine Karte am Drehkreuz durch."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wenn dein Ausweis weg ist, melde es ___.",
+      "answer": "sofort",
+      "hint_cz": "okamžitě"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_smalltalk_networking_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Small Talk am Kaffeeautomaten",
+  "title_cz": "Společenská konverzace u kávovaru",
+  "vocabulary": [
+    {
+      "word": "Wie geht's?",
+      "translation_cz": "Jak to jde?",
+      "example": "Hallo, wie geht's dir heute?",
+      "example_cz": "Ahoj, jak to dneska jde?",
+      "tts_text": "Hallo, wie geht's dir heute?"
+    },
+    {
+      "word": "die Kaffeepause",
+      "translation_cz": "přestávka na kávu",
+      "example": "Machen wir eine Kaffeepause.",
+      "example_cz": "Dáme si přestávku na kávu.",
+      "tts_text": "Machen wir eine Kaffeepause."
+    },
+    {
+      "word": "Hattest du ein schönes Wochenende?",
+      "translation_cz": "Měl jsi hezký víkend?",
+      "example": "Hattest du ein schönes Wochenende?",
+      "example_cz": "Měl jsi hezký víkend?",
+      "tts_text": "Hattest du ein schönes Wochenende?"
+    },
+    {
+      "word": "ein anstrengender Tag",
+      "translation_cz": "náročný den",
+      "example": "Es war bisher ein anstrengender Tag.",
+      "example_cz": "Zatím to byl náročný den.",
+      "tts_text": "Es war bisher ein anstrengender Tag."
+    },
+    {
+      "word": "einen Kaffee trinken gehen",
+      "translation_cz": "dát si kávu",
+      "example": "Willst du einen Kaffee trinken gehen?",
+      "example_cz": "Chceš si dát kávu?",
+      "tts_text": "Willst du einen Kaffee trinken gehen?"
+    },
+    {
+      "word": "Wie trinkst du deinen Kaffee?",
+      "translation_cz": "Jak piješ kávu?",
+      "example": "Wie trinkst du deinen Kaffee, schwarz oder mit Milch?",
+      "example_cz": "Jak piješ kávu, černou nebo s mlékem?",
+      "tts_text": "Wie trinkst du deinen Kaffee, schwarz oder mit Milch?"
+    },
+    {
+      "word": "sich austauschen",
+      "translation_cz": "pokecat si",
+      "example": "Es ist schön, sich mal auszutauschen.",
+      "example_cz": "Je fajn si takhle pokecat.",
+      "tts_text": "Es ist schön, sich mal auszutauschen."
+    },
+    {
+      "word": "wieder an die Arbeit gehen",
+      "translation_cz": "vrátit se do práce",
+      "example": "Ich sollte bald wieder an die Arbeit gehen.",
+      "example_cz": "Měl bych se brzy vrátit do práce.",
+      "tts_text": "Ich sollte bald wieder an die Arbeit gehen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_kaffeeautomat",
+      "title": "Gespräch am Kaffeeautomaten",
+      "title_cz": "Povídání u kávovaru",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hallo, wie geht's?",
+          "text_cz": "Ahoj, jak to jde?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ganz gut, danke. Nur ein anstrengender Tag.",
+          "text_cz": "Docela dobře, díky. Jen náročný den."
+        },
+        {
+          "speaker": "A",
+          "text": "Hattest du ein schönes Wochenende?",
+          "text_cz": "Měl jsi hezký víkend?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, sehr entspannt. Wie trinkst du deinen Kaffee?",
+          "text_cz": "Ano, moc odpočinkový. Jak piješ kávu?"
+        },
+        {
+          "speaker": "A",
+          "text": "Mit Milch, bitte. Es ist schön, sich auszutauschen.",
+          "text_cz": "S mlékem, prosím. Je fajn si takhle pokecat."
+        },
+        {
+          "speaker": "B",
+          "text": "Auf jeden Fall. Ich sollte jetzt wieder an die Arbeit gehen.",
+          "text_cz": "Jasně. Teď se musím vrátit do práce."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Kaffeepause",
+      "options": [
+        "přestávka na kávu",
+        "náročný den",
+        "vrátit se do práce"
+      ],
+      "correct": "přestávka na kávu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Hattest du ein schönes ___?",
+      "answer": "Wochenende",
+      "hint_cz": "víkend"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich sollte wieder an die ___ gehen.",
+      "answer": "Arbeit",
+      "hint_cz": "práce"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Kaffeepause",
+          "cz": "přestávka na kávu"
+        },
+        {
+          "target": "ein anstrengender Tag",
+          "cz": "náročný den"
+        },
+        {
+          "target": "sich austauschen",
+          "cz": "pokecat si"
+        },
+        {
+          "target": "einen Kaffee trinken gehen",
+          "cz": "dát si kávu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Willst du einen Kaffee trinken gehen?",
+      "tts_text": "Willst du einen Kaffee trinken gehen?"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_business_travel_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Delayed flight communication",
+  "title_cz": "Komunikace při zpoždění letu",
+  "vocabulary": [
+    {
+      "word": "delayed flight",
+      "translation_cz": "zpožděný let",
+      "example": "Our flight has been delayed by two hours.",
+      "example_cz": "Náš let byl zpožděn o dvě hodiny.",
+      "tts_text": "Our flight has been delayed by two hours."
+    },
+    {
+      "word": "I'm afraid I'll be late",
+      "translation_cz": "Obávám se, že přijdu pozdě",
+      "example": "I'm afraid I'll be late for the meeting.",
+      "example_cz": "Obávám se, že přijdu na schůzku pozdě.",
+      "tts_text": "I'm afraid I'll be late for the meeting."
+    },
+    {
+      "word": "reschedule the meeting",
+      "translation_cz": "přeložit schůzku",
+      "example": "Could we reschedule the meeting to later?",
+      "example_cz": "Mohli bychom přeložit schůzku na později?",
+      "tts_text": "Could we reschedule the meeting to later?"
+    },
+    {
+      "word": "keep you updated",
+      "translation_cz": "informovat vás o novinkách",
+      "example": "I'll keep you updated on the situation.",
+      "example_cz": "Budu vás o situaci informovat.",
+      "tts_text": "I'll keep you updated on the situation."
+    },
+    {
+      "word": "missed connection",
+      "translation_cz": "zmeškaný přípoj",
+      "example": "I might have a missed connection now.",
+      "example_cz": "Teď mi možná ujel přípoj.",
+      "tts_text": "I might have a missed connection now."
+    },
+    {
+      "word": "alternative flight",
+      "translation_cz": "náhradní let",
+      "example": "The airline offered an alternative flight.",
+      "example_cz": "Aviolinky nabídly náhradní let.",
+      "tts_text": "The airline offered an alternative flight."
+    },
+    {
+      "word": "apologize for the inconvenience",
+      "translation_cz": "omluvit se za nepříjemnosti",
+      "example": "I apologize for the inconvenience.",
+      "example_cz": "Omlouvám se za způsobené nepříjemnosti.",
+      "tts_text": "I apologize for the inconvenience."
+    },
+    {
+      "word": "estimated arrival",
+      "translation_cz": "předpokládaný přílet",
+      "example": "The estimated arrival is now 9 PM.",
+      "example_cz": "Předpokládaný přílet je teď v 21 hodin.",
+      "tts_text": "The estimated arrival is now 9 PM."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_delayed_flight",
+      "title": "Communicating about a flight delay",
+      "title_cz": "Komunikace o zpoždění letu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi, I'm calling because our flight has been delayed by two hours.",
+          "text_cz": "Dobrý den, volám, protože náš let byl zpožděn o dvě hodiny."
+        },
+        {
+          "speaker": "B",
+          "text": "Thanks for letting me know. Should we reschedule the meeting?",
+          "text_cz": "Díky za informaci. Máme přeložit schůzku?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, please. I'm afraid I'll be late. The estimated arrival is now 9 PM.",
+          "text_cz": "Ano, prosím. Obávám se, že přijdu pozdě. Předpokládaný přílet je teď v 21 hodin."
+        },
+        {
+          "speaker": "B",
+          "text": "No problem, I understand. I'll wait for your update.",
+          "text_cz": "Žádný problém, chápu. Počkám na tvou zprávu."
+        },
+        {
+          "speaker": "A",
+          "text": "Thank you, I'll keep you updated.",
+          "text_cz": "Děkuji, budu tě informovat."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "delayed flight",
+      "options": [
+        "zpožděný let",
+        "náhradní let",
+        "zmeškaný přípoj"
+      ],
+      "correct": "zpožděný let"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Could we ___ the meeting to later?",
+      "answer": "reschedule",
+      "hint_cz": "přeložit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'll keep you ___ on the situation.",
+      "answer": "updated",
+      "hint_cz": "informovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "missed connection",
+          "cz": "zmeškaný přípoj"
+        },
+        {
+          "target": "alternative flight",
+          "cz": "náhradní let"
+        },
+        {
+          "target": "estimated arrival",
+          "cz": "předpokládaný přílet"
+        },
+        {
+          "target": "apologize for the inconvenience",
+          "cz": "omluvit se za nepříjemnosti"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Our flight has been delayed by two hours.",
+      "tts_text": "Our flight has been delayed by two hours."
+    }
+  ]
+}

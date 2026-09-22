@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_home_rooms_02",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Furniture in the Bedroom",
+  "title_cz": "Nábytek v ložnici",
+  "vocabulary": [
+    {
+      "word": "das Bett",
+      "translation_cz": "postel",
+      "example": "Mein Bett ist weich.",
+      "example_cz": "Moje postel je měkká.",
+      "tts_text": "Mein Bett ist weich."
+    },
+    {
+      "word": "der Kleiderschrank",
+      "translation_cz": "skříň",
+      "example": "Meine Kleidung ist im Kleiderschrank.",
+      "example_cz": "Moje oblečení je ve skříni.",
+      "tts_text": "Meine Kleidung ist im Kleiderschrank."
+    },
+    {
+      "word": "das Kissen",
+      "translation_cz": "polštář",
+      "example": "Ich habe ein großes Kissen.",
+      "example_cz": "Mám velký polštář.",
+      "tts_text": "Ich habe ein großes Kissen."
+    },
+    {
+      "word": "die Decke",
+      "translation_cz": "deka",
+      "example": "Die Decke ist warm.",
+      "example_cz": "Deka je teplá.",
+      "tts_text": "Die Decke ist warm."
+    },
+    {
+      "word": "der Schreibtisch",
+      "translation_cz": "psací stůl",
+      "example": "Ich mache Hausaufgaben am Schreibtisch.",
+      "example_cz": "Úkoly dělám u psacího stolu.",
+      "tts_text": "Ich mache Hausaufgaben am Schreibtisch."
+    },
+    {
+      "word": "die Lampe",
+      "translation_cz": "lampa",
+      "example": "Ich schalte die Lampe abends ein.",
+      "example_cz": "V noci rozsvěcím lampu.",
+      "tts_text": "Ich schalte die Lampe abends ein."
+    },
+    {
+      "word": "das Regal",
+      "translation_cz": "polička",
+      "example": "Meine Bücher sind im Regal.",
+      "example_cz": "Moje knížky jsou na poličce.",
+      "tts_text": "Meine Bücher sind im Regal."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Bett",
+      "options": [
+        "postel",
+        "skříň",
+        "polička"
+      ],
+      "correct": "postel"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Meine Kleidung ist im ___.",
+      "answer": "Kleiderschrank",
+      "hint_cz": "skříň"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Kissen",
+          "cz": "polštář"
+        },
+        {
+          "target": "die Decke",
+          "cz": "deka"
+        },
+        {
+          "target": "der Schreibtisch",
+          "cz": "psací stůl"
+        },
+        {
+          "target": "die Lampe",
+          "cz": "lampa"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Mein Bett ist weich.",
+      "tts_text": "Mein Bett ist weich."
+    }
+  ]
+}

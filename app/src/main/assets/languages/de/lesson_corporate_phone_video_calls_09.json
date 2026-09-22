@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_phone_video_calls_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Sich am Telefon vorstellen",
+  "title_cz": "Představení se v hovoru",
+  "vocabulary": [
+    {
+      "word": "Mein Name ist... und ich arbeite als...",
+      "translation_cz": "Jmenuji se... a pracuji jako...",
+      "example": "Mein Name ist Eva und ich arbeite als Projektmanagerin.",
+      "example_cz": "Jmenuji se Eva a pracuji jako projektová manažerka.",
+      "tts_text": "Mein Name ist Eva und ich arbeite als Projektmanagerin."
+    },
+    {
+      "word": "ich rufe im Namen von... an",
+      "translation_cz": "volám jménem",
+      "example": "Ich rufe im Namen des Marketingteams an.",
+      "example_cz": "Volám jménem marketingového týmu.",
+      "tts_text": "Ich rufe im Namen des Marketingteams an."
+    },
+    {
+      "word": "freut mich, auch wenn es nur am Telefon ist",
+      "translation_cz": "těší mě (i po telefonu)",
+      "example": "Freut mich, auch wenn es nur am Telefon ist.",
+      "example_cz": "Těší mě, i když je to jen po telefonu.",
+      "tts_text": "Freut mich, auch wenn es nur am Telefon ist."
+    },
+    {
+      "word": "ich bin zuständig für",
+      "translation_cz": "mám na starosti",
+      "example": "Ich bin zuständig für den deutschen Markt.",
+      "example_cz": "Mám na starosti německý trh.",
+      "tts_text": "Ich bin zuständig für den deutschen Markt."
+    },
+    {
+      "word": "ich glaube, wir haben noch nicht gesprochen",
+      "translation_cz": "myslím, že jsme spolu ještě nemluvili",
+      "example": "Ich glaube, wir haben noch nicht gesprochen, also stelle ich mich vor.",
+      "example_cz": "Myslím, že jsme spolu ještě nemluvili, tak se představím.",
+      "tts_text": "Ich glaube, wir haben noch nicht gesprochen, also stelle ich mich vor."
+    },
+    {
+      "word": "der Kollege / die Kollegin",
+      "translation_cz": "kolega/kolegyně",
+      "example": "Das ist mein Kollege Petr aus dem Finanzteam.",
+      "example_cz": "Toto je můj kolega Petr z finančního týmu.",
+      "tts_text": "Das ist mein Kollege Petr aus dem Finanzteam."
+    },
+    {
+      "word": "könnten Sie mir etwas über sich erzählen?",
+      "translation_cz": "mohl byste mi o sobě něco říct?",
+      "example": "Könnten Sie mir etwas über sich und Ihre Rolle erzählen?",
+      "example_cz": "Mohl byste mi o sobě a své roli něco říct?",
+      "tts_text": "Könnten Sie mir etwas über sich und Ihre Rolle erzählen?"
+    },
+    {
+      "word": "ich freue mich auf die Zusammenarbeit",
+      "translation_cz": "rád s vámi budu spolupracovat",
+      "example": "Ich freue mich auf die Zusammenarbeit mit Ihnen bei diesem Projekt.",
+      "example_cz": "Jsem rád, že s vámi budu spolupracovat na tomto projektu.",
+      "tts_text": "Ich freue mich auf die Zusammenarbeit mit Ihnen bei diesem Projekt."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_sich_vorstellen",
+      "title": "Erstes Telefonat mit einem neuen Kollegen",
+      "title_cz": "První hovor s novým kolegou",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Guten Tag, mein Name ist Eva und ich arbeite als Projektmanagerin.",
+          "text_cz": "Dobrý den, jmenuji se Eva a pracuji jako projektová manažerka."
+        },
+        {
+          "speaker": "B",
+          "text": "Freut mich, auch wenn es nur am Telefon ist. Ich bin David.",
+          "text_cz": "Těší mě, i když je to jen po telefonu. Já jsem David."
+        },
+        {
+          "speaker": "A",
+          "text": "Ich bin zuständig für den deutschen Markt. Könnten Sie mir etwas über Ihre Rolle erzählen?",
+          "text_cz": "Mám na starosti německý trh. Mohl byste mi o své roli něco říct?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, ich rufe im Namen des Logistikteams an.",
+          "text_cz": "Jistě, volám jménem logistického týmu."
+        },
+        {
+          "speaker": "A",
+          "text": "Sehr gut, ich freue mich auf die Zusammenarbeit mit Ihnen bei diesem Projekt.",
+          "text_cz": "Skvělé, jsem ráda, že s vámi budu spolupracovat na tomto projektu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Freut mich, auch wenn es nur am Telefon ist.",
+      "options": [
+        "Těší mě, i když je to jen po telefonu.",
+        "Mám na starosti německý trh.",
+        "Volám jménem týmu."
+      ],
+      "correct": "Těší mě, i když je to jen po telefonu."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich rufe im ___ des Marketingteams an.",
+      "answer": "Namen",
+      "hint_cz": "jménem"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "ich bin zuständig für", "cz": "mám na starosti" },
+        { "target": "der Kollege", "cz": "kolega" },
+        { "target": "ich freue mich auf die Zusammenarbeit", "cz": "rád s vámi budu spolupracovat" },
+        { "target": "könnten Sie mir etwas über sich erzählen?", "cz": "mohl byste mi o sobě něco říct?" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Mein Name ist Eva und ich arbeite als Projektmanagerin.",
+      "tts_text": "Mein Name ist Eva und ich arbeite als Projektmanagerin."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich glaube, wir haben noch nicht ___, also stelle ich mich vor.",
+      "answer": "gesprochen",
+      "hint_cz": "mluvili"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das ist mein Kollege Petr aus dem Finanzteam.",
+      "tts_text": "Das ist mein Kollege Petr aus dem Finanzteam."
+    }
+  ]
+}

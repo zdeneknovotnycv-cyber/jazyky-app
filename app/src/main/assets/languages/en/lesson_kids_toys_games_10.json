@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_toys_games_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Puzzles",
+  "title_cz": "Skládačky (puzzle)",
+  "vocabulary": [
+    {
+      "word": "puzzle",
+      "translation_cz": "skládačka, puzzle",
+      "example": "I like to do a puzzle.",
+      "example_cz": "Rád skládám puzzle.",
+      "tts_text": "I like to do a puzzle."
+    },
+    {
+      "word": "piece",
+      "translation_cz": "dílek",
+      "example": "This piece doesn't fit.",
+      "example_cz": "Tento dílek nesedí.",
+      "tts_text": "This piece doesn't fit."
+    },
+    {
+      "word": "picture",
+      "translation_cz": "obrázek",
+      "example": "The puzzle shows a picture of animals.",
+      "example_cz": "Puzzle zobrazuje obrázek zvířat.",
+      "tts_text": "The puzzle shows a picture of animals."
+    },
+    {
+      "word": "finish",
+      "translation_cz": "dokončit",
+      "example": "We finished the puzzle together.",
+      "example_cz": "Puzzle jsme dokončili společně.",
+      "tts_text": "We finished the puzzle together."
+    },
+    {
+      "word": "difficult",
+      "translation_cz": "těžký",
+      "example": "This puzzle is difficult.",
+      "example_cz": "Tato skládačka je těžká.",
+      "tts_text": "This puzzle is difficult."
+    },
+    {
+      "word": "easy",
+      "translation_cz": "snadný",
+      "example": "This puzzle is easy for me.",
+      "example_cz": "Tato skládačka je pro mě snadná.",
+      "tts_text": "This puzzle is easy for me."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "piece",
+      "options": [
+        "dílek",
+        "obrázek",
+        "puzzle"
+      ],
+      "correct": "dílek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This ___ doesn't fit.",
+      "answer": "piece",
+      "hint_cz": "dílek"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "puzzle",
+          "cz": "skládačka, puzzle"
+        },
+        {
+          "target": "picture",
+          "cz": "obrázek"
+        },
+        {
+          "target": "difficult",
+          "cz": "těžký"
+        },
+        {
+          "target": "easy",
+          "cz": "snadný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We finished the puzzle together.",
+      "tts_text": "We finished the puzzle together."
+    }
+  ]
+}

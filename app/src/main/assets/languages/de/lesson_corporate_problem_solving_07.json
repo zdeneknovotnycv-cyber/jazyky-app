@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_problem_solving_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Sich für einen Fehler bei der Arbeit entschuldigen",
+  "title_cz": "Omluva za chybu v práci",
+  "vocabulary": [
+    {
+      "word": "ich habe einen Fehler gemacht",
+      "translation_cz": "udělal jsem chybu",
+      "example": "Ich habe einen Fehler im Bericht gemacht.",
+      "example_cz": "Udělal jsem chybu v reportu.",
+      "tts_text": "Ich habe einen Fehler im Bericht gemacht."
+    },
+    {
+      "word": "es tut mir leid für",
+      "translation_cz": "omlouvám se za",
+      "example": "Es tut mir leid für die Verwirrung.",
+      "example_cz": "Omlouvám se za ten zmatek.",
+      "tts_text": "Es tut mir leid für die Verwirrung."
+    },
+    {
+      "word": "die Verantwortung übernehmen",
+      "translation_cz": "převzít odpovědnost",
+      "example": "Ich übernehme die volle Verantwortung.",
+      "example_cz": "Přebírám plnou odpovědnost.",
+      "tts_text": "Ich übernehme die volle Verantwortung."
+    },
+    {
+      "word": "das wird nicht wieder vorkommen",
+      "translation_cz": "už se to nebude opakovat",
+      "example": "Ich verspreche, das wird nicht wieder vorkommen.",
+      "example_cz": "Slibuji, že už se to nebude opakovat.",
+      "tts_text": "Ich verspreche, das wird nicht wieder vorkommen."
+    },
+    {
+      "word": "den Fehler korrigieren",
+      "translation_cz": "opravit chybu",
+      "example": "Ich werde den Fehler heute korrigieren.",
+      "example_cz": "Chybu dnes opravím.",
+      "tts_text": "Ich werde den Fehler heute korrigieren."
+    },
+    {
+      "word": "daraus lernen",
+      "translation_cz": "poučit se z toho",
+      "example": "Ich möchte daraus lernen.",
+      "example_cz": "Chci se z toho poučit.",
+      "tts_text": "Ich möchte daraus lernen."
+    },
+    {
+      "word": "Ihre Ehrlichkeit schätzen",
+      "translation_cz": "cenit si vaší upřímnosti",
+      "example": "Ich schätze Ihre Ehrlichkeit.",
+      "example_cz": "Vážím si vaší upřímnosti.",
+      "tts_text": "Ich schätze Ihre Ehrlichkeit."
+    },
+    {
+      "word": "es sofort beheben",
+      "translation_cz": "opravit to hned",
+      "example": "Ich werde es sofort beheben.",
+      "example_cz": "Opravím to hned.",
+      "tts_text": "Ich werde es sofort beheben."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_07",
+      "title": "Sich für einen Fehler entschuldigen",
+      "title_cz": "Omluva za chybu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich habe einen Fehler in der Rechnung gemacht. Es tut mir leid für die Umstände.",
+          "text_cz": "Udělal jsem chybu ve faktuře. Omlouvám se za ty potíže."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke, dass Sie es mir sagen. Was ist passiert?",
+          "text_cz": "Děkuji, že jste mi to řekl. Co se stalo?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ich übernehme die volle Verantwortung. Ich werde den Fehler heute korrigieren.",
+          "text_cz": "Přebírám plnou odpovědnost. Chybu dnes opravím."
+        },
+        {
+          "speaker": "B",
+          "text": "Bitte beheben Sie es sofort.",
+          "text_cz": "Prosím opravte to hned."
+        },
+        {
+          "speaker": "A",
+          "text": "Natürlich. Das wird nicht wieder vorkommen. Ich möchte daraus lernen.",
+          "text_cz": "Samozřejmě. Už se to nebude opakovat. Chci se z toho poučit."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich schätze Ihre Ehrlichkeit.",
+          "text_cz": "Vážím si vaší upřímnosti."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "ich habe einen Fehler gemacht",
+      "options": [
+        "udělal jsem chybu",
+        "omlouvám se za",
+        "převzít odpovědnost"
+      ],
+      "correct": "udělal jsem chybu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich verspreche, ___.",
+      "answer": "das wird nicht wieder vorkommen",
+      "hint_cz": "už se to nebude opakovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "ich habe einen Fehler gemacht",
+          "cz": "udělal jsem chybu"
+        },
+        {
+          "target": "es tut mir leid für",
+          "cz": "omlouvám se za"
+        },
+        {
+          "target": "die Verantwortung übernehmen",
+          "cz": "převzít odpovědnost"
+        },
+        {
+          "target": "das wird nicht wieder vorkommen",
+          "cz": "už se to nebude opakovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich werde den Fehler heute korrigieren.",
+      "tts_text": "Ich werde den Fehler heute korrigieren."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich möchte ___.",
+      "answer": "daraus lernen",
+      "hint_cz": "poučit se z toho"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_birthday_celebrations_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Birthday party",
+  "title_cz": "Narozeninová oslava",
+  "vocabulary": [
+    {
+      "word": "birthday",
+      "translation_cz": "narozeniny",
+      "example": "Today is my birthday.",
+      "example_cz": "Dnes mám narozeniny.",
+      "tts_text": "Today is my birthday."
+    },
+    {
+      "word": "party",
+      "translation_cz": "oslava, párty",
+      "example": "We have a party at home.",
+      "example_cz": "Máme oslavu doma.",
+      "tts_text": "We have a party at home."
+    },
+    {
+      "word": "balloon",
+      "translation_cz": "balónek",
+      "example": "I blow up a balloon.",
+      "example_cz": "Nafukuji balónek.",
+      "tts_text": "I blow up a balloon."
+    },
+    {
+      "word": "guest",
+      "translation_cz": "host",
+      "example": "Every guest brings a smile.",
+      "example_cz": "Každý host přináší úsměv.",
+      "tts_text": "Every guest brings a smile."
+    },
+    {
+      "word": "decoration",
+      "translation_cz": "výzdoba",
+      "example": "We hang colorful decorations.",
+      "example_cz": "Věšíme barevnou výzdobu.",
+      "tts_text": "We hang colorful decorations."
+    },
+    {
+      "word": "celebrate",
+      "translation_cz": "oslavovat",
+      "example": "We celebrate together with friends.",
+      "example_cz": "Oslavujeme společně s kamarády.",
+      "tts_text": "We celebrate together with friends."
+    },
+    {
+      "word": "happy",
+      "translation_cz": "šťastný",
+      "example": "I feel happy on my birthday.",
+      "example_cz": "Na narozeniny se cítím šťastný.",
+      "tts_text": "I feel happy on my birthday."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "birthday",
+      "options": [
+        "narozeniny",
+        "oslava, párty",
+        "balónek"
+      ],
+      "correct": "narozeniny"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We have a ___ at home.",
+      "answer": "party",
+      "hint_cz": "oslava, párty"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "balloon",
+          "cz": "balónek"
+        },
+        {
+          "target": "guest",
+          "cz": "host"
+        },
+        {
+          "target": "decoration",
+          "cz": "výzdoba"
+        },
+        {
+          "target": "celebrate",
+          "cz": "oslavovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I feel happy on my birthday.",
+      "tts_text": "I feel happy on my birthday."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_transport_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Öffentliche Verkehrsmittel für Kinder",
+  "title_cz": "Hromadná doprava pro děti",
+  "vocabulary": [
+    {
+      "word": "die Straßenbahn",
+      "translation_cz": "tramvaj",
+      "example": "Die Straßenbahn hält in der Nähe meines Hauses.",
+      "example_cz": "Tramvaj zastavuje blízko mého domu.",
+      "tts_text": "Die Straßenbahn hält in der Nähe meines Hauses."
+    },
+    {
+      "word": "die U-Bahn",
+      "translation_cz": "metro",
+      "example": "Wir fahren mit der U-Bahn ins Zentrum.",
+      "example_cz": "Jezdíme metrem do centra.",
+      "tts_text": "Wir fahren mit der U-Bahn ins Zentrum."
+    },
+    {
+      "word": "die Haltestelle",
+      "translation_cz": "zastávka",
+      "example": "Das ist meine Haltestelle.",
+      "example_cz": "To je moje zastávka.",
+      "tts_text": "Das ist meine Haltestelle."
+    },
+    {
+      "word": "der Fahrkartenautomat",
+      "translation_cz": "automat na jízdenky",
+      "example": "Mama kauft Fahrkarten am Fahrkartenautomat.",
+      "example_cz": "Máma kupuje jízdenky v automatu.",
+      "tts_text": "Mama kauft Fahrkarten am Fahrkartenautomat."
+    },
+    {
+      "word": "der Fahrplan",
+      "translation_cz": "jízdní řád",
+      "example": "Wir schauen im Fahrplan nach unserer Route.",
+      "example_cz": "Podíváme se do jízdního řádu na naši trasu.",
+      "tts_text": "Wir schauen im Fahrplan nach unserer Route."
+    },
+    {
+      "word": "einen Platz anbieten",
+      "translation_cz": "uvolnit místo",
+      "example": "Ich biete meinen Platz einem alten Mann an.",
+      "example_cz": "Uvolním své místo starému pánovi.",
+      "tts_text": "Ich biete meinen Platz einem alten Mann an."
+    },
+    {
+      "word": "leise",
+      "translation_cz": "tiše",
+      "example": "Wir sind leise in der Straßenbahn.",
+      "example_cz": "V tramvaji jsme tiše.",
+      "tts_text": "Wir sind leise in der Straßenbahn."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Straßenbahn",
+      "options": [
+        "tramvaj",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "tramvaj"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das ist meine ___.",
+      "answer": "die Haltestelle",
+      "hint_cz": "zastávka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die U-Bahn",
+          "cz": "metro"
+        },
+        {
+          "target": "die Haltestelle",
+          "cz": "zastávka"
+        },
+        {
+          "target": "der Fahrkartenautomat",
+          "cz": "automat na jízdenky"
+        },
+        {
+          "target": "der Fahrplan",
+          "cz": "jízdní řád"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich biete meinen Platz einem alten Mann an.",
+      "tts_text": "Ich biete meinen Platz einem alten Mann an."
+    }
+  ]
+}

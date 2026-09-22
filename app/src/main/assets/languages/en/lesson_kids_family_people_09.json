@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_family_people_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Family Pets",
+  "title_cz": "Domácí mazlíčci",
+  "vocabulary": [
+    {
+      "word": "pet",
+      "translation_cz": "domácí mazlíček",
+      "example": "Our pet is a dog.",
+      "example_cz": "Náš mazlíček je pes.",
+      "tts_text": "Our pet is a dog."
+    },
+    {
+      "word": "dog",
+      "translation_cz": "pes",
+      "example": "Our dog is called Rex.",
+      "example_cz": "Náš pes se jmenuje Rex.",
+      "tts_text": "Our dog is called Rex."
+    },
+    {
+      "word": "cat",
+      "translation_cz": "kočka",
+      "example": "The cat sleeps a lot.",
+      "example_cz": "Ta kočka hodně spí.",
+      "tts_text": "The cat sleeps a lot."
+    },
+    {
+      "word": "feed",
+      "translation_cz": "krmit",
+      "example": "I feed the dog every morning.",
+      "example_cz": "Krmím psa každé ráno.",
+      "tts_text": "I feed the dog every morning."
+    },
+    {
+      "word": "walk the dog",
+      "translation_cz": "venčit psa",
+      "example": "We walk the dog in the park.",
+      "example_cz": "Venčíme psa v parku.",
+      "tts_text": "We walk the dog in the park."
+    },
+    {
+      "word": "fish",
+      "translation_cz": "ryba",
+      "example": "We have a fish in a bowl.",
+      "example_cz": "Máme rybu v míse.",
+      "tts_text": "We have a fish in a bowl."
+    },
+    {
+      "word": "love",
+      "translation_cz": "mít rád",
+      "example": "I love our family pet.",
+      "example_cz": "Mám rád našeho mazlíčka.",
+      "tts_text": "I love our family pet."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "pet",
+      "options": [
+        "mazlíček",
+        "soused",
+        "dárek"
+      ],
+      "correct": "mazlíček"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ the dog every morning.",
+      "answer": "feed",
+      "hint_cz": "krmit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "dog",
+          "cz": "pes"
+        },
+        {
+          "target": "cat",
+          "cz": "kočka"
+        },
+        {
+          "target": "fish",
+          "cz": "ryba"
+        },
+        {
+          "target": "walk the dog",
+          "cz": "venčit psa"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Our dog is called Rex.",
+      "tts_text": "Our dog is called Rex."
+    }
+  ]
+}

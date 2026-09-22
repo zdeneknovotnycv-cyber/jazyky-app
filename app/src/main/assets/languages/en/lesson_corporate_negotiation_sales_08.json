@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_negotiation_sales_08",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing a Contract",
+  "title_cz": "Diskuze o smlouvě",
+  "vocabulary": [
+    {
+      "word": "clause",
+      "translation_cz": "doložka / klauzule",
+      "example": "This clause needs to be reviewed by legal.",
+      "example_cz": "Tuto doložku musí zkontrolovat právní oddělení.",
+      "tts_text": "This clause needs to be reviewed by legal."
+    },
+    {
+      "word": "liability",
+      "translation_cz": "odpovědnost",
+      "example": "The liability section limits our exposure.",
+      "example_cz": "Sekce o odpovědnosti omezuje naše riziko.",
+      "tts_text": "The liability section limits our exposure."
+    },
+    {
+      "word": "draft",
+      "translation_cz": "návrh (smlouvy)",
+      "example": "Please send me the latest draft of the contract.",
+      "example_cz": "Pošlete mi prosím nejnovější návrh smlouvy.",
+      "tts_text": "Please send me the latest draft of the contract."
+    },
+    {
+      "word": "amend",
+      "translation_cz": "upravit / pozměnit",
+      "example": "We would like to amend section three.",
+      "example_cz": "Rádi bychom upravili sekci tři.",
+      "tts_text": "We would like to amend section three."
+    },
+    {
+      "word": "termination clause",
+      "translation_cz": "výpovědní doložka",
+      "example": "The termination clause allows a thirty-day notice.",
+      "example_cz": "Výpovědní doložka umožňuje třicetidenní výpovědní lhůtu.",
+      "tts_text": "The termination clause allows a thirty-day notice."
+    },
+    {
+      "word": "binding agreement",
+      "translation_cz": "závazná dohoda",
+      "example": "Once signed, this becomes a binding agreement.",
+      "example_cz": "Po podpisu se z toho stává závazná dohoda.",
+      "tts_text": "Once signed, this becomes a binding agreement."
+    },
+    {
+      "word": "legal review",
+      "translation_cz": "právní kontrola",
+      "example": "The contract is currently under legal review.",
+      "example_cz": "Smlouva je aktuálně v procesu právní kontroly.",
+      "tts_text": "The contract is currently under legal review."
+    },
+    {
+      "word": "effective date",
+      "translation_cz": "datum účinnosti",
+      "example": "The effective date of the contract is the first of March.",
+      "example_cz": "Datum účinnosti smlouvy je první březen.",
+      "tts_text": "The effective date of the contract is the first of March."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_contract_discussion",
+      "title": "Discussing a contract draft",
+      "title_cz": "Diskuze o návrhu smlouvy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "We would like to amend the liability clause in section three.",
+          "text_cz": "Rádi bychom upravili doložku o odpovědnosti v sekci tři."
+        },
+        {
+          "speaker": "B",
+          "text": "Understood, I'll send the updated draft after legal review.",
+          "text_cz": "Rozumím, pošlu upravený návrh po právní kontrole."
+        },
+        {
+          "speaker": "A",
+          "text": "And what's the effective date once we sign?",
+          "text_cz": "A jaké je datum účinnosti po podpisu?"
+        },
+        {
+          "speaker": "B",
+          "text": "It would become a binding agreement on the first of March.",
+          "text_cz": "Stala by se závaznou dohodou k prvnímu březnu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "clause",
+      "options": [
+        "doložka / klauzule",
+        "návrh (smlouvy)",
+        "upravit / pozměnit"
+      ],
+      "correct": "doložka / klauzule"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ section limits our exposure.",
+      "answer": "liability",
+      "hint_cz": "odpovědnost"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ allows a thirty-day notice.",
+      "answer": "termination clause",
+      "hint_cz": "výpovědní doložka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "binding agreement",
+          "cz": "závazná dohoda"
+        },
+        {
+          "target": "legal review",
+          "cz": "právní kontrola"
+        },
+        {
+          "target": "effective date",
+          "cz": "datum účinnosti"
+        },
+        {
+          "target": "draft",
+          "cz": "návrh (smlouvy)"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We would like to amend the liability clause in section three.",
+      "tts_text": "We would like to amend the liability clause in section three."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Understood, I'll send the updated draft after legal review.",
+      "tts_text": "Understood, I'll send the updated draft after legal review."
+    }
+  ]
+}

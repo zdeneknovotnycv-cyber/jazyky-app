@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_feelings_emotions_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Über Gefühle sprechen",
+  "title_cz": "Mluvení o pocitech",
+  "vocabulary": [
+    {
+      "word": "fühlen",
+      "translation_cz": "cítit se",
+      "example": "Wie fühlst du dich heute?",
+      "example_cz": "Jak se dnes cítíš?",
+      "tts_text": "Wie fühlst du dich heute?"
+    },
+    {
+      "word": "darüber sprechen",
+      "translation_cz": "mluvit o tom",
+      "example": "Es hilft, darüber zu sprechen.",
+      "example_cz": "Pomáhá o tom mluvit.",
+      "tts_text": "Es hilft, darüber zu sprechen."
+    },
+    {
+      "word": "zuhören",
+      "translation_cz": "naslouchat",
+      "example": "Ich höre zu, wenn mein Freund traurig ist.",
+      "example_cz": "Naslouchám, když je můj kamarád smutný.",
+      "tts_text": "Ich höre zu, wenn mein Freund traurig ist."
+    },
+    {
+      "word": "verstehen",
+      "translation_cz": "rozumět",
+      "example": "Ich versuche, deine Gefühle zu verstehen.",
+      "example_cz": "Snažím se rozumět tvým pocitům.",
+      "tts_text": "Ich versuche, deine Gefühle zu verstehen."
+    },
+    {
+      "word": "ehrlich",
+      "translation_cz": "upřímný",
+      "example": "Es ist gut, bei Gefühlen ehrlich zu sein.",
+      "example_cz": "Je dobré být upřímný ohledně pocitů.",
+      "tts_text": "Es ist gut, bei Gefühlen ehrlich zu sein."
+    },
+    {
+      "word": "trösten",
+      "translation_cz": "utěšit",
+      "example": "Ich tröste meine Schwester, wenn sie weint.",
+      "example_cz": "Utěšuji sestru, když pláče.",
+      "tts_text": "Ich tröste meine Schwester, wenn sie weint."
+    },
+    {
+      "word": "besser",
+      "translation_cz": "lépe",
+      "example": "Nach dem Gespräch fühle ich mich besser.",
+      "example_cz": "Po rozhovoru se cítím lépe.",
+      "tts_text": "Nach dem Gespräch fühle ich mich besser."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "fühlen",
+      "options": [
+        "cítit se",
+        "smutný",
+        "radost"
+      ],
+      "correct": "cítit se"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich versuche, deine Gefühle zu ___.",
+      "answer": "verstehen",
+      "hint_cz": "rozumět"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "darüber sprechen",
+          "cz": "mluvit o tom"
+        },
+        {
+          "target": "zuhören",
+          "cz": "naslouchat"
+        },
+        {
+          "target": "verstehen",
+          "cz": "rozumět"
+        },
+        {
+          "target": "ehrlich",
+          "cz": "upřímný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Es hilft, darüber zu sprechen.",
+      "tts_text": "Es hilft, darüber zu sprechen."
+    }
+  ]
+}

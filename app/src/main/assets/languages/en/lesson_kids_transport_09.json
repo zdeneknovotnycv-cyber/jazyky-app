@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_transport_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Getting a ride from parents",
+  "title_cz": "Odvoz od rodičů",
+  "vocabulary": [
+    {
+      "word": "ride",
+      "translation_cz": "odvoz",
+      "example": "Mom gives me a ride to school.",
+      "example_cz": "Máma mě sveze do školy.",
+      "tts_text": "Mom gives me a ride to school."
+    },
+    {
+      "word": "pick up",
+      "translation_cz": "vyzvednout",
+      "example": "Dad picks me up after school.",
+      "example_cz": "Táta mě vyzvedne po škole.",
+      "tts_text": "Dad picks me up after school."
+    },
+    {
+      "word": "car seat",
+      "translation_cz": "autosedačka",
+      "example": "I sit in my car seat.",
+      "example_cz": "Sedím ve své autosedačce.",
+      "tts_text": "I sit in my car seat."
+    },
+    {
+      "word": "wait",
+      "translation_cz": "čekat",
+      "example": "I wait by the door for mom.",
+      "example_cz": "Čekám u dveří na mámu.",
+      "tts_text": "I wait by the door for mom."
+    },
+    {
+      "word": "thank you",
+      "translation_cz": "děkuji",
+      "example": "I say thank you for the ride.",
+      "example_cz": "Děkuji za odvoz.",
+      "tts_text": "I say thank you for the ride."
+    },
+    {
+      "word": "buckle up",
+      "translation_cz": "připoutat se",
+      "example": "I buckle up before we drive.",
+      "example_cz": "Připoutám se, než vyrazíme.",
+      "tts_text": "I buckle up before we drive."
+    },
+    {
+      "word": "on time",
+      "translation_cz": "včas",
+      "example": "We arrive on time.",
+      "example_cz": "Přijedeme včas.",
+      "tts_text": "We arrive on time."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "ride",
+      "options": [
+        "odvoz",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "odvoz"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mom gives me a ___ to school.",
+      "answer": "ride",
+      "hint_cz": "odvoz"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "pick up",
+          "cz": "vyzvednout"
+        },
+        {
+          "target": "car seat",
+          "cz": "autosedačka"
+        },
+        {
+          "target": "wait",
+          "cz": "čekat"
+        },
+        {
+          "target": "thank you",
+          "cz": "děkuji"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I sit in my car seat.",
+      "tts_text": "I sit in my car seat."
+    }
+  ]
+}

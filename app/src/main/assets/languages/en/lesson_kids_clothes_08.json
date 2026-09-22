@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_clothes_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Clothes for Rain",
+  "title_cz": "Oblečení do deště",
+  "vocabulary": [
+    {
+      "word": "raincoat",
+      "translation_cz": "pláštěnka",
+      "example": "I wear a raincoat when it rains.",
+      "example_cz": "Když prší, nosím pláštěnku.",
+      "tts_text": "I wear a raincoat when it rains."
+    },
+    {
+      "word": "umbrella",
+      "translation_cz": "deštník",
+      "example": "I take my umbrella to school.",
+      "example_cz": "Beru si deštník do školy.",
+      "tts_text": "I take my umbrella to school."
+    },
+    {
+      "word": "rain boots",
+      "translation_cz": "holínky",
+      "example": "My rain boots are yellow.",
+      "example_cz": "Mé holínky jsou žluté.",
+      "tts_text": "My rain boots are yellow."
+    },
+    {
+      "word": "puddle",
+      "translation_cz": "louže",
+      "example": "I jump in a puddle.",
+      "example_cz": "Skáču do louže.",
+      "tts_text": "I jump in a puddle."
+    },
+    {
+      "word": "wet",
+      "translation_cz": "mokrý",
+      "example": "My hair is wet.",
+      "example_cz": "Mám mokré vlasy.",
+      "tts_text": "My hair is wet."
+    },
+    {
+      "word": "hood",
+      "translation_cz": "kapuce",
+      "example": "I put on my hood.",
+      "example_cz": "Nasadím si kapuci.",
+      "tts_text": "I put on my hood."
+    },
+    {
+      "word": "rain",
+      "translation_cz": "déšť",
+      "example": "The rain is falling.",
+      "example_cz": "Padá déšť.",
+      "tts_text": "The rain is falling."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "umbrella",
+      "options": [
+        "deštník",
+        "pláštěnka",
+        "holínky"
+      ],
+      "correct": "deštník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I wear a ___ when it rains.",
+      "answer": "raincoat",
+      "hint_cz": "pláštěnku"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "rain boots",
+          "cz": "holínky"
+        },
+        {
+          "target": "puddle",
+          "cz": "louže"
+        },
+        {
+          "target": "wet",
+          "cz": "mokrý"
+        },
+        {
+          "target": "hood",
+          "cz": "kapuce"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The rain is falling.",
+      "tts_text": "The rain is falling."
+    }
+  ]
+}

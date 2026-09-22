@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_negotiation_sales_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Produkt präsentieren",
+  "title_cz": "Prezentace produktu",
+  "vocabulary": [
+    {
+      "word": "die Funktion",
+      "translation_cz": "funkce / vlastnost",
+      "example": "Diese Funktion spart Ihnen viel Zeit.",
+      "example_cz": "Tato funkce vám ušetří spoustu času.",
+      "tts_text": "Diese Funktion spart Ihnen viel Zeit."
+    },
+    {
+      "word": "der Vorteil",
+      "translation_cz": "přínos",
+      "example": "Der Hauptvorteil sind niedrigere Kosten.",
+      "example_cz": "Hlavním přínosem jsou nižší náklady.",
+      "tts_text": "Der Hauptvorteil sind niedrigere Kosten."
+    },
+    {
+      "word": "demonstrieren",
+      "translation_cz": "předvést",
+      "example": "Lassen Sie mich demonstrieren, wie es funktioniert.",
+      "example_cz": "Dovolte mi předvést, jak to funguje.",
+      "tts_text": "Lassen Sie mich demonstrieren, wie es funktioniert."
+    },
+    {
+      "word": "die maßgeschneiderte Lösung",
+      "translation_cz": "řešení na míru",
+      "example": "Wir bieten eine maßgeschneiderte Lösung für Ihre Bedürfnisse.",
+      "example_cz": "Nabízíme řešení na míru pro vaše potřeby.",
+      "tts_text": "Wir bieten eine maßgeschneiderte Lösung für Ihre Bedürfnisse."
+    },
+    {
+      "word": "der Wettbewerbsvorteil",
+      "translation_cz": "konkurenční výhoda",
+      "example": "Das verschafft Ihnen einen echten Wettbewerbsvorteil.",
+      "example_cz": "To vám dává skutečnou konkurenční výhodu.",
+      "tts_text": "Das verschafft Ihnen einen echten Wettbewerbsvorteil."
+    },
+    {
+      "word": "die Fallstudie",
+      "translation_cz": "případová studie",
+      "example": "Lassen Sie mich eine passende Fallstudie teilen.",
+      "example_cz": "Dovolte mi sdílet relevantní případovou studii.",
+      "tts_text": "Lassen Sie mich eine passende Fallstudie teilen."
+    },
+    {
+      "word": "sich abheben",
+      "translation_cz": "vyniknout",
+      "example": "Diese Funktion hilft Ihnen, sich von der Konkurrenz abzuheben.",
+      "example_cz": "Tato funkce vám pomáhá vyniknout nad konkurencí.",
+      "tts_text": "Diese Funktion hilft Ihnen, sich von der Konkurrenz abzuheben."
+    },
+    {
+      "word": "angepasst",
+      "translation_cz": "přizpůsobený",
+      "example": "Das Paket kann an Ihr Budget angepasst werden.",
+      "example_cz": "Balíček lze přizpůsobit vašemu rozpočtu.",
+      "tts_text": "Das Paket kann an Ihr Budget angepasst werden."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_product_demo",
+      "title": "Eine Produktfunktion demonstrieren",
+      "title_cz": "Předvedení funkce produktu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Lassen Sie mich demonstrieren, wie diese Funktion funktioniert.",
+          "text_cz": "Dovolte mi předvést, jak tato funkce funguje."
+        },
+        {
+          "speaker": "B",
+          "text": "Das sieht nützlich aus. Was ist der Hauptvorteil für uns?",
+          "text_cz": "To vypadá užitečně. Jaký je pro nás hlavní přínos?"
+        },
+        {
+          "speaker": "A",
+          "text": "Es verschafft Ihnen einen echten Wettbewerbsvorteil, indem es Bearbeitungszeit spart.",
+          "text_cz": "Dává vám to skutečnou konkurenční výhodu tím, že šetří čas zpracování."
+        },
+        {
+          "speaker": "B",
+          "text": "Kann das an unseren spezifischen Arbeitsablauf angepasst werden?",
+          "text_cz": "Dá se to přizpůsobit našemu konkrétnímu pracovnímu postupu?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Funktion",
+      "options": [
+        "funkce / vlastnost",
+        "předvést",
+        "řešení na míru"
+      ],
+      "correct": "funkce / vlastnost"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der Hauptvorteil sind niedrigere Kosten.",
+      "answer": "der Vorteil",
+      "hint_cz": "přínos"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das verschafft Ihnen einen echten Wettbewerbsvorteil.",
+      "answer": "der Wettbewerbsvorteil",
+      "hint_cz": "konkurenční výhoda"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Fallstudie",
+          "cz": "případová studie"
+        },
+        {
+          "target": "sich abheben",
+          "cz": "vyniknout"
+        },
+        {
+          "target": "angepasst",
+          "cz": "přizpůsobený"
+        },
+        {
+          "target": "demonstrieren",
+          "cz": "předvést"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lassen Sie mich demonstrieren, wie diese Funktion funktioniert.",
+      "tts_text": "Lassen Sie mich demonstrieren, wie diese Funktion funktioniert."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das sieht nützlich aus. Was ist der Hauptvorteil für uns?",
+      "tts_text": "Das sieht nützlich aus. Was ist der Hauptvorteil für uns?"
+    }
+  ]
+}

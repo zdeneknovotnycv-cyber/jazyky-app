@@ -1,0 +1,48 @@
+{
+  "id": "en_corporate_hr_recruitment_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Performance Review Basics",
+  "title_cz": "Základy hodnocení výkonu",
+  "vocabulary": [
+    {"word": "performance review", "translation_cz": "hodnocení výkonu", "example": "Your performance review is scheduled for next week.", "example_cz": "Vaše hodnocení výkonu je naplánováno na příští týden.", "tts_text": "Your performance review is scheduled for next week."},
+    {"word": "strengths and weaknesses", "translation_cz": "silné a slabé stránky", "example": "Let's discuss your strengths and weaknesses.", "example_cz": "Pojďme probrat vaše silné a slabé stránky.", "tts_text": "Let's discuss your strengths and weaknesses."},
+    {"word": "goals", "translation_cz": "cíle", "example": "Did you meet your goals this quarter?", "example_cz": "Splnil jste své cíle za toto čtvrtletí?", "tts_text": "Did you meet your goals this quarter?"},
+    {"word": "feedback", "translation_cz": "zpětná vazba", "example": "I appreciate your honest feedback.", "example_cz": "Vážím si vaší upřímné zpětné vazby.", "tts_text": "I appreciate your honest feedback."},
+    {"word": "improvement", "translation_cz": "zlepšení", "example": "There is room for improvement in time management.", "example_cz": "V oblasti time managementu je prostor pro zlepšení.", "tts_text": "There is room for improvement in time management."},
+    {"word": "rating", "translation_cz": "hodnocení / známka", "example": "You received a strong rating this year.", "example_cz": "Letos jste dostal velmi dobré hodnocení.", "tts_text": "You received a strong rating this year."},
+    {"word": "development plan", "translation_cz": "rozvojový plán", "example": "Let's create a development plan for next year.", "example_cz": "Vytvořme si rozvojový plán na příští rok.", "tts_text": "Let's create a development plan for next year."},
+    {"word": "self-assessment", "translation_cz": "sebehodnocení", "example": "Please complete your self-assessment first.", "example_cz": "Nejprve prosím vyplňte své sebehodnocení.", "tts_text": "Please complete your self-assessment first."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_review_meeting",
+      "title": "Starting a performance review",
+      "title_cz": "Zahájení hodnocení výkonu",
+      "lines": [
+        {"speaker": "A", "text": "Let's start your performance review. How do you think this year went?", "text_cz": "Pojďme začít vaše hodnocení výkonu. Jak myslíte, že šel letošní rok?"},
+        {"speaker": "B", "text": "Overall well. I met most of my goals.", "text_cz": "Celkově dobře. Většinu svých cílů jsem splnil."},
+        {"speaker": "A", "text": "I agree, and I have some feedback about time management.", "text_cz": "Souhlasím, a mám pro vás zpětnou vazbu ohledně time managementu."},
+        {"speaker": "B", "text": "I understand. I'm open to any suggestions for improvement.", "text_cz": "Rozumím. Jsem otevřený jakýmkoliv návrhům na zlepšení."}
+      ]
+    },
+    {
+      "id": "conv_development_plan",
+      "title": "Creating a development plan",
+      "title_cz": "Tvorba rozvojového plánu",
+      "lines": [
+        {"speaker": "A", "text": "Based on your self-assessment, let's build a development plan.", "text_cz": "Na základě vašeho sebehodnocení sestavme rozvojový plán."},
+        {"speaker": "B", "text": "I'd like to focus on my presentation skills.", "text_cz": "Chtěl bych se zaměřit na své prezentační dovednosti."},
+        {"speaker": "A", "text": "Good idea. We'll add a training course for that.", "text_cz": "Dobrý nápad. Přidáme na to školení."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "feedback", "options": ["zpětná vazba", "hodnocení", "cíle"], "correct": "zpětná vazba"},
+    {"type": "fill_gap", "sentence": "There is room for ___ in time management.", "answer": "improvement", "hint_cz": "zlepšení"},
+    {"type": "match_pairs", "pairs": [{"target": "goals", "cz": "cíle"}, {"target": "rating", "cz": "hodnocení"}, {"target": "self-assessment", "cz": "sebehodnocení"}, {"target": "development plan", "cz": "rozvojový plán"}]},
+    {"type": "speak_and_check", "target_phrase": "I appreciate your honest feedback.", "tts_text": "I appreciate your honest feedback."},
+    {"type": "fill_gap", "sentence": "Did you meet your ___ this quarter?", "answer": "goals", "hint_cz": "cíle"}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_sports_hobbies_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Drawing and Painting",
+  "title_cz": "Kreslení a malování",
+  "vocabulary": [
+    {
+      "word": "draw",
+      "translation_cz": "kreslit",
+      "example": "I like to draw animals.",
+      "example_cz": "Rád kreslím zvířata.",
+      "tts_text": "I like to draw animals."
+    },
+    {
+      "word": "paint",
+      "translation_cz": "malovat",
+      "example": "We paint with colors.",
+      "example_cz": "Malujeme barvami.",
+      "tts_text": "We paint with colors."
+    },
+    {
+      "word": "crayon",
+      "translation_cz": "pastelka",
+      "example": "I have twelve crayons.",
+      "example_cz": "Mám dvanáct pastelek.",
+      "tts_text": "I have twelve crayons."
+    },
+    {
+      "word": "paper",
+      "translation_cz": "papír",
+      "example": "Give me a piece of paper.",
+      "example_cz": "Dej mi kus papíru.",
+      "tts_text": "Give me a piece of paper."
+    },
+    {
+      "word": "brush",
+      "translation_cz": "štětec",
+      "example": "I hold the brush carefully.",
+      "example_cz": "Držím štětec opatrně.",
+      "tts_text": "I hold the brush carefully."
+    },
+    {
+      "word": "picture",
+      "translation_cz": "obrázek",
+      "example": "I drew a picture of my family.",
+      "example_cz": "Nakreslil jsem obrázek své rodiny.",
+      "tts_text": "I drew a picture of my family."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "brush",
+      "options": [
+        "štětec",
+        "pastelka",
+        "papír"
+      ],
+      "correct": "štětec"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I like to ___ animals.",
+      "answer": "draw",
+      "hint_cz": "kreslit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "paint",
+          "cz": "malovat"
+        },
+        {
+          "target": "crayon",
+          "cz": "pastelka"
+        },
+        {
+          "target": "paper",
+          "cz": "papír"
+        },
+        {
+          "target": "picture",
+          "cz": "obrázek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I drew a picture of my family.",
+      "tts_text": "I drew a picture of my family."
+    }
+  ]
+}

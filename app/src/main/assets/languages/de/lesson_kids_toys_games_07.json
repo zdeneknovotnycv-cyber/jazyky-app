@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_toys_games_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Spielen Mit Freunden",
+  "title_cz": "Hraní si s kamarády",
+  "vocabulary": [
+    {
+      "word": "der Freund",
+      "translation_cz": "kamarád",
+      "example": "Ich spiele mit meinem Freund.",
+      "example_cz": "Hraji si se svým kamarádem.",
+      "tts_text": "Ich spiele mit meinem Freund."
+    },
+    {
+      "word": "zusammen",
+      "translation_cz": "společně",
+      "example": "Wir spielen jeden Tag zusammen.",
+      "example_cz": "Hrajeme si spolu každý den.",
+      "tts_text": "Wir spielen jeden Tag zusammen."
+    },
+    {
+      "word": "Darf ich auch mitspielen?",
+      "translation_cz": "Můžu si hrát taky?",
+      "example": "Darf ich auch mitspielen, bitte?",
+      "example_cz": "Můžu si hrát taky, prosím?",
+      "tts_text": "Darf ich auch mitspielen, bitte?"
+    },
+    {
+      "word": "das Team",
+      "translation_cz": "tým",
+      "example": "Wir sind im gleichen Team.",
+      "example_cz": "Jsme ve stejném týmu.",
+      "tts_text": "Wir sind im gleichen Team."
+    },
+    {
+      "word": "der Spaß",
+      "translation_cz": "zábava",
+      "example": "Zusammen spielen macht Spaß.",
+      "example_cz": "Hraní si spolu je zábava.",
+      "tts_text": "Zusammen spielen macht Spaß."
+    },
+    {
+      "word": "abwechseln",
+      "translation_cz": "střídat se",
+      "example": "Lass uns uns mit dem Ball abwechseln.",
+      "example_cz": "Střídejme se u míče.",
+      "tts_text": "Lass uns uns mit dem Ball abwechseln."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Freund",
+      "options": [
+        "kamarád",
+        "tým",
+        "zábava"
+      ],
+      "correct": "kamarád"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir spielen jeden Tag ___.",
+      "answer": "zusammen",
+      "hint_cz": "spolu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Darf ich auch mitspielen?",
+          "cz": "Můžu si hrát taky?"
+        },
+        {
+          "target": "das Team",
+          "cz": "tým"
+        },
+        {
+          "target": "der Spaß",
+          "cz": "zábava"
+        },
+        {
+          "target": "abwechseln",
+          "cz": "střídat se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Darf ich auch mitspielen, bitte?",
+      "tts_text": "Darf ich auch mitspielen, bitte?"
+    }
+  ]
+}

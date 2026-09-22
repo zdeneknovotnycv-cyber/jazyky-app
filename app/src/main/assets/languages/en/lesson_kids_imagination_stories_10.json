@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_imagination_stories_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "My dream vacation",
+  "title_cz": "Moje vysněná dovolená",
+  "vocabulary": [
+    {
+      "word": "dream",
+      "translation_cz": "sen",
+      "example": "This is my dream vacation.",
+      "example_cz": "Toto je moje vysněná dovolená.",
+      "tts_text": "This is my dream vacation."
+    },
+    {
+      "word": "beach",
+      "translation_cz": "pláž",
+      "example": "I play on a sunny beach.",
+      "example_cz": "Hraju si na slunečné pláži.",
+      "tts_text": "I play on a sunny beach."
+    },
+    {
+      "word": "mountain",
+      "translation_cz": "hora",
+      "example": "We climb a tall mountain.",
+      "example_cz": "Šplháme na vysokou horu.",
+      "tts_text": "We climb a tall mountain."
+    },
+    {
+      "word": "imagine",
+      "translation_cz": "představit si",
+      "example": "I imagine a trip around the world.",
+      "example_cz": "Představuji si cestu kolem světa.",
+      "tts_text": "I imagine a trip around the world."
+    },
+    {
+      "word": "airplane",
+      "translation_cz": "letadlo",
+      "example": "We fly there on an airplane.",
+      "example_cz": "Letíme tam letadlem.",
+      "tts_text": "We fly there on an airplane."
+    },
+    {
+      "word": "adventure",
+      "translation_cz": "dobrodružství",
+      "example": "It would be a great adventure.",
+      "example_cz": "Bylo by to skvělé dobrodružství.",
+      "tts_text": "It would be a great adventure."
+    },
+    {
+      "word": "amazing",
+      "translation_cz": "úžasný",
+      "example": "My dream vacation is amazing.",
+      "example_cz": "Moje vysněná dovolená je úžasná.",
+      "tts_text": "My dream vacation is amazing."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "dream",
+      "options": [
+        "sen",
+        "pláž",
+        "hora"
+      ],
+      "correct": "sen"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I play on a sunny ___.",
+      "answer": "beach",
+      "hint_cz": "pláž"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "mountain",
+          "cz": "hora"
+        },
+        {
+          "target": "imagine",
+          "cz": "představit si"
+        },
+        {
+          "target": "airplane",
+          "cz": "letadlo"
+        },
+        {
+          "target": "adventure",
+          "cz": "dobrodružství"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My dream vacation is amazing.",
+      "tts_text": "My dream vacation is amazing."
+    }
+  ]
+}

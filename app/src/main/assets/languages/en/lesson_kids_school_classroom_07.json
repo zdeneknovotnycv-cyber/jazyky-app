@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_school_classroom_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "School Lunch",
+  "title_cz": "Školní oběd",
+  "vocabulary": [
+    {
+      "word": "lunch",
+      "translation_cz": "oběd",
+      "example": "We eat lunch at noon.",
+      "example_cz": "Oběd jíme v poledne.",
+      "tts_text": "We eat lunch at noon."
+    },
+    {
+      "word": "canteen",
+      "translation_cz": "jídelna",
+      "example": "The canteen is downstairs.",
+      "example_cz": "Jídelna je dole.",
+      "tts_text": "The canteen is downstairs."
+    },
+    {
+      "word": "tray",
+      "translation_cz": "tác",
+      "example": "I carry my tray carefully.",
+      "example_cz": "Nosím svůj tác opatrně.",
+      "tts_text": "I carry my tray carefully."
+    },
+    {
+      "word": "soup",
+      "translation_cz": "polévka",
+      "example": "The soup is hot.",
+      "example_cz": "Polévka je horká.",
+      "tts_text": "The soup is hot."
+    },
+    {
+      "word": "hungry",
+      "translation_cz": "hladový",
+      "example": "I am hungry before lunch.",
+      "example_cz": "Před obědem jsem hladový.",
+      "tts_text": "I am hungry before lunch."
+    },
+    {
+      "word": "delicious",
+      "translation_cz": "výborný",
+      "example": "The lunch is delicious today.",
+      "example_cz": "Dnešní oběd je výborný.",
+      "tts_text": "The lunch is delicious today."
+    },
+    {
+      "word": "share",
+      "translation_cz": "sdílet",
+      "example": "I share my snack with a friend.",
+      "example_cz": "Sdílím svou svačinu s kamarádem.",
+      "tts_text": "I share my snack with a friend."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "canteen",
+      "options": [
+        "jídelna",
+        "tác",
+        "polévka"
+      ],
+      "correct": "jídelna"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am ___ before lunch.",
+      "answer": "hungry",
+      "hint_cz": "hladový"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "lunch",
+          "cz": "oběd"
+        },
+        {
+          "target": "tray",
+          "cz": "tác"
+        },
+        {
+          "target": "soup",
+          "cz": "polévka"
+        },
+        {
+          "target": "delicious",
+          "cz": "výborný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I share my snack with a friend.",
+      "tts_text": "I share my snack with a friend."
+    }
+  ]
+}

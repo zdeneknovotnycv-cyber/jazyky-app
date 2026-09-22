@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_problem_solving_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Grundlagen der Krisenkommunikation",
+  "title_cz": "Základy krizové komunikace",
+  "vocabulary": [
+    {
+      "word": "ruhig bleiben",
+      "translation_cz": "zůstat klidný",
+      "example": "Es ist wichtig, ruhig zu bleiben.",
+      "example_cz": "Je důležité zůstat klidný.",
+      "tts_text": "Es ist wichtig, ruhig zu bleiben."
+    },
+    {
+      "word": "die offizielle Erklärung",
+      "translation_cz": "oficiální prohlášení",
+      "example": "Wir müssen eine offizielle Erklärung vorbereiten.",
+      "example_cz": "Musíme připravit oficiální prohlášení.",
+      "tts_text": "Wir müssen eine offizielle Erklärung vorbereiten."
+    },
+    {
+      "word": "Fehlinformationen verbreiten",
+      "translation_cz": "šířit dezinformace",
+      "example": "Gerüchte dürfen keine Fehlinformationen verbreiten.",
+      "example_cz": "Fámy nesmí šířit dezinformace.",
+      "tts_text": "Gerüchte dürfen keine Fehlinformationen verbreiten."
+    },
+    {
+      "word": "transparent",
+      "translation_cz": "transparentní",
+      "example": "Wir sollten mit unserem Team transparent sein.",
+      "example_cz": "Měli bychom být transparentní k našemu týmu.",
+      "tts_text": "Wir sollten mit unserem Team transparent sein."
+    },
+    {
+      "word": "die zentrale Ansprechperson",
+      "translation_cz": "jediné kontaktní místo",
+      "example": "Es sollte eine zentrale Ansprechperson geben.",
+      "example_cz": "Mělo by existovat jediné kontaktní místo.",
+      "tts_text": "Es sollte eine zentrale Ansprechperson geben."
+    },
+    {
+      "word": "die Situation bewältigen",
+      "translation_cz": "zvládnout situaci",
+      "example": "Wir können die Situation gemeinsam bewältigen.",
+      "example_cz": "Situaci můžeme zvládnout společně.",
+      "tts_text": "Wir können die Situation gemeinsam bewältigen."
+    },
+    {
+      "word": "regelmäßig informieren",
+      "translation_cz": "pravidelně informovat",
+      "example": "Wir werden alle regelmäßig informieren.",
+      "example_cz": "Budeme všechny pravidelně informovat.",
+      "tts_text": "Wir werden alle regelmäßig informieren."
+    },
+    {
+      "word": "beruhigen",
+      "translation_cz": "uklidnit / ujistit",
+      "example": "Lassen Sie uns das Team beruhigen.",
+      "example_cz": "Pojďme uklidnit tým.",
+      "tts_text": "Lassen Sie uns das Team beruhigen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_10",
+      "title": "Krisenkommunikation",
+      "title_cz": "Krizová komunikace",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wir müssen ruhig bleiben und eine offizielle Erklärung vorbereiten.",
+          "text_cz": "Musíme zůstat klidní a připravit oficiální prohlášení."
+        },
+        {
+          "speaker": "B",
+          "text": "Einverstanden. Wer wird die zentrale Ansprechperson sein?",
+          "text_cz": "Souhlasím. Kdo bude jediné kontaktní místo?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ich übernehme diese Rolle. Wir müssen gegenüber allen transparent sein.",
+          "text_cz": "Tu roli převezmu já. Musíme být transparentní ke všem."
+        },
+        {
+          "speaker": "B",
+          "text": "Gut, das verhindert, dass Gerüchte Fehlinformationen verbreiten.",
+          "text_cz": "Dobře, to zabrání šíření dezinformací."
+        },
+        {
+          "speaker": "A",
+          "text": "Lassen Sie uns das Team regelmäßig informieren und beruhigen.",
+          "text_cz": "Pojďme tým pravidelně informovat a uklidnit ho."
+        },
+        {
+          "speaker": "B",
+          "text": "Wir können diese Situation gemeinsam bewältigen.",
+          "text_cz": "Tuto situaci můžeme zvládnout společně."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "ruhig bleiben",
+      "options": [
+        "zůstat klidný",
+        "oficiální prohlášení",
+        "šířit dezinformace"
+      ],
+      "correct": "zůstat klidný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir sollten mit unserem Team ___ sein.",
+      "answer": "transparent",
+      "hint_cz": "transparentní"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "ruhig bleiben",
+          "cz": "zůstat klidný"
+        },
+        {
+          "target": "die offizielle Erklärung",
+          "cz": "oficiální prohlášení"
+        },
+        {
+          "target": "Fehlinformationen verbreiten",
+          "cz": "šířit dezinformace"
+        },
+        {
+          "target": "transparent",
+          "cz": "transparentní"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Es sollte eine zentrale Ansprechperson geben.",
+      "tts_text": "Es sollte eine zentrale Ansprechperson geben."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir können die Situation gemeinsam ___",
+      "answer": "bewältigen",
+      "hint_cz": "zvládnout situaci"
+    }
+  ]
+}

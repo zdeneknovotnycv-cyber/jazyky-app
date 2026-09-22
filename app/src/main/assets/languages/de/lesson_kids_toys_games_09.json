@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_toys_games_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Geburtstagsgeschenke",
+  "title_cz": "Narozeninové dárky",
+  "vocabulary": [
+    {
+      "word": "das Geschenk",
+      "translation_cz": "dárek",
+      "example": "Ich habe ein schönes Geschenk bekommen.",
+      "example_cz": "Dostal jsem hezký dárek.",
+      "tts_text": "Ich habe ein schönes Geschenk bekommen."
+    },
+    {
+      "word": "einpacken",
+      "translation_cz": "zabalit",
+      "example": "Mama packt das Geschenk ein.",
+      "example_cz": "Máma balí dárek.",
+      "tts_text": "Mama packt das Geschenk ein."
+    },
+    {
+      "word": "öffnen",
+      "translation_cz": "otevřít",
+      "example": "Darf ich mein Geschenk jetzt öffnen?",
+      "example_cz": "Můžu si teď otevřít dárek?",
+      "tts_text": "Darf ich mein Geschenk jetzt öffnen?"
+    },
+    {
+      "word": "die Überraschung",
+      "translation_cz": "překvapení",
+      "example": "Das ist eine große Überraschung!",
+      "example_cz": "To je velké překvapení!",
+      "tts_text": "Das ist eine große Überraschung!"
+    },
+    {
+      "word": "Danke!",
+      "translation_cz": "Děkuji!",
+      "example": "Danke für das Geschenk!",
+      "example_cz": "Děkuji za dárek!",
+      "tts_text": "Danke für das Geschenk!"
+    },
+    {
+      "word": "die Schleife",
+      "translation_cz": "stuha",
+      "example": "Die Schleife ist rosa.",
+      "example_cz": "Stuha je růžová.",
+      "tts_text": "Die Schleife ist rosa."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Geschenk",
+      "options": [
+        "dárek",
+        "překvapení",
+        "stuha"
+      ],
+      "correct": "dárek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Darf ich mein Geschenk jetzt ___?",
+      "answer": "öffnen",
+      "hint_cz": "otevřít"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "einpacken",
+          "cz": "zabalit"
+        },
+        {
+          "target": "die Überraschung",
+          "cz": "překvapení"
+        },
+        {
+          "target": "Danke!",
+          "cz": "Děkuji!"
+        },
+        {
+          "target": "die Schleife",
+          "cz": "stuha"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Danke für das Geschenk!",
+      "tts_text": "Danke für das Geschenk!"
+    }
+  ]
+}

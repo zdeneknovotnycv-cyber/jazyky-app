@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_feelings_emotions_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Stolz",
+  "title_cz": "Hrdý",
+  "vocabulary": [
+    {
+      "word": "stolz",
+      "translation_cz": "hrdý",
+      "example": "Ich bin stolz auf mein Bild.",
+      "example_cz": "Jsem hrdý na svůj obrázek.",
+      "tts_text": "Ich bin stolz auf mein Bild."
+    },
+    {
+      "word": "die Leistung",
+      "translation_cz": "úspěch",
+      "example": "Schwimmen zu lernen ist eine tolle Leistung.",
+      "example_cz": "Naučit se plavat je velký úspěch.",
+      "tts_text": "Schwimmen zu lernen ist eine tolle Leistung."
+    },
+    {
+      "word": "gut gemacht",
+      "translation_cz": "výborně",
+      "example": "Gut gemacht, du hast es geschafft!",
+      "example_cz": "Výborně, dokázal jsi to!",
+      "tts_text": "Gut gemacht, du hast es geschafft!"
+    },
+    {
+      "word": "die Medaille",
+      "translation_cz": "medaile",
+      "example": "Ich habe bei dem Rennen eine Medaille gewonnen.",
+      "example_cz": "Vyhrál jsem na závodě medaili.",
+      "tts_text": "Ich habe bei dem Rennen eine Medaille gewonnen."
+    },
+    {
+      "word": "die harte Arbeit",
+      "translation_cz": "tvrdá práce",
+      "example": "Es brauchte harte Arbeit, um es zu schaffen.",
+      "example_cz": "Dokončit to vyžadovalo tvrdou práci.",
+      "tts_text": "Es brauchte harte Arbeit, um es zu schaffen."
+    },
+    {
+      "word": "die Eltern",
+      "translation_cz": "rodiče",
+      "example": "Meine Eltern sind stolz auf mich.",
+      "example_cz": "Moji rodiče jsou na mě hrdí.",
+      "tts_text": "Meine Eltern sind stolz auf mich."
+    },
+    {
+      "word": "erfolgreich sein",
+      "translation_cz": "uspět",
+      "example": "Ich war endlich mit dem Puzzle erfolgreich.",
+      "example_cz": "Konečně jsem uspěl se skládačkou.",
+      "tts_text": "Ich war endlich mit dem Puzzle erfolgreich."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "stolz",
+      "options": [
+        "hrdý",
+        "smutný",
+        "radost"
+      ],
+      "correct": "hrdý"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bin ___ auf mein Bild.",
+      "answer": "stolz",
+      "hint_cz": "hrdý"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Leistung",
+          "cz": "úspěch"
+        },
+        {
+          "target": "gut gemacht",
+          "cz": "výborně"
+        },
+        {
+          "target": "die Medaille",
+          "cz": "medaile"
+        },
+        {
+          "target": "die harte Arbeit",
+          "cz": "tvrdá práce"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe bei dem Rennen eine Medaille gewonnen.",
+      "tts_text": "Ich habe bei dem Rennen eine Medaille gewonnen."
+    }
+  ]
+}

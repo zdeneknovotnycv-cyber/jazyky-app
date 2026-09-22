@@ -1,0 +1,48 @@
+{
+  "id": "de_corporate_hr_recruitment_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Urlaub beantragen",
+  "title_cz": "Žádost o dovolenou",
+  "vocabulary": [
+    {"word": "der freie Tag", "translation_cz": "volno", "example": "Ich möchte nächste Woche einen freien Tag beantragen.", "example_cz": "Rád bych si příští týden vzal volno.", "tts_text": "Ich möchte nächste Woche einen freien Tag beantragen."},
+    {"word": "die Urlaubstage", "translation_cz": "dny dovolené", "example": "Wie viele Urlaubstage habe ich noch?", "example_cz": "Kolik dní dovolené mi ještě zbývá?", "tts_text": "Wie viele Urlaubstage habe ich noch?"},
+    {"word": "genehmigen", "translation_cz": "schválit", "example": "Mein Vorgesetzter muss den Antrag genehmigen.", "example_cz": "Můj nadřízený musí žádost schválit.", "tts_text": "Mein Vorgesetzter muss den Antrag genehmigen."},
+    {"word": "der Urlaubsantrag", "translation_cz": "žádost o volno", "example": "Ich habe einen Urlaubsantrag im System eingereicht.", "example_cz": "Podal jsem žádost o volno v systému.", "tts_text": "Ich habe einen Urlaubsantrag im System eingereicht."},
+    {"word": "mich vertreten", "translation_cz": "zastoupit mě", "example": "Kann mich jemand vertreten, während ich weg bin?", "example_cz": "Může mě někdo zastoupit, když budu pryč?", "tts_text": "Kann mich jemand vertreten, während ich weg bin?"},
+    {"word": "im Voraus", "translation_cz": "předem", "example": "Bitte beantragen Sie Urlaub zwei Wochen im Voraus.", "example_cz": "Volno prosím žádejte dva týdny předem.", "tts_text": "Bitte beantragen Sie Urlaub zwei Wochen im Voraus."},
+    {"word": "der Feiertag", "translation_cz": "státní svátek", "example": "Montag ist ein Feiertag.", "example_cz": "Pondělí je státní svátek.", "tts_text": "Montag ist ein Feiertag."},
+    {"word": "der unbezahlte Urlaub", "translation_cz": "neplacené volno", "example": "Er hat zwei Tage unbezahlten Urlaub genommen.", "example_cz": "Vzal si dva dny neplaceného volna.", "tts_text": "Er hat zwei Tage unbezahlten Urlaub genommen."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_request_time_off",
+      "title": "Eine Woche Urlaub beantragen",
+      "title_cz": "Žádost o týden volna",
+      "lines": [
+        {"speaker": "A", "text": "Ich möchte vom fünften bis neunten Urlaub nehmen.", "text_cz": "Rád bych si vzal volno od pátého do devátého."},
+        {"speaker": "B", "text": "Klar, haben Sie noch genug Urlaubstage übrig?", "text_cz": "Jasně, máte ještě dostatek dní dovolené?"},
+        {"speaker": "A", "text": "Ja, mir bleiben dieses Jahr noch sechs Tage.", "text_cz": "Ano, letos mi zbývá šest dní."},
+        {"speaker": "B", "text": "Gut, ich genehmige den Antrag im System.", "text_cz": "Dobře, žádost v systému schválím."}
+      ]
+    },
+    {
+      "id": "conv_cover_duties",
+      "title": "Vertretung organisieren",
+      "title_cz": "Domluva zastoupení",
+      "lines": [
+        {"speaker": "A", "text": "Wer kann mich vertreten, während ich im Urlaub bin?", "text_cz": "Kdo mě může zastoupit, když budu na dovolené?"},
+        {"speaker": "B", "text": "Ich kann mich um deine E-Mails und Anrufe kümmern.", "text_cz": "Můžu se postarat o tvoje e-maily a hovory."},
+        {"speaker": "A", "text": "Danke. Ich habe den Urlaubsantrag im Voraus eingereicht.", "text_cz": "Děkuji. Žádost o volno jsem podal předem."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "genehmigen", "options": ["schválit", "volno", "svátek"], "correct": "schválit"},
+    {"type": "fill_gap", "sentence": "Ich habe einen ___ im System eingereicht.", "answer": "Urlaubsantrag", "hint_cz": "žádost o volno"},
+    {"type": "match_pairs", "pairs": [{"target": "die Urlaubstage", "cz": "dny dovolené"}, {"target": "der Feiertag", "cz": "státní svátek"}, {"target": "der unbezahlte Urlaub", "cz": "neplacené volno"}, {"target": "im Voraus", "cz": "předem"}]},
+    {"type": "speak_and_check", "target_phrase": "Kann mich jemand vertreten, während ich weg bin?", "tts_text": "Kann mich jemand vertreten, während ich weg bin?"},
+    {"type": "fill_gap", "sentence": "Wie viele ___ habe ich noch?", "answer": "Urlaubstage", "hint_cz": "dny dovolené"}
+  ]
+}

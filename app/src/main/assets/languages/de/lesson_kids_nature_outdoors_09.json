@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_nature_outdoors_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ein Spaziergang in der Natur",
+  "title_cz": "Procházka v přírodě",
+  "vocabulary": [
+    {
+      "word": "der Spaziergang",
+      "translation_cz": "procházka",
+      "example": "Wir machen einen Spaziergang in der Natur.",
+      "example_cz": "Jdeme na procházku do přírody.",
+      "tts_text": "Wir machen einen Spaziergang in der Natur."
+    },
+    {
+      "word": "die Natur",
+      "translation_cz": "příroda",
+      "example": "Ich verbringe gern Zeit in der Natur.",
+      "example_cz": "Rád trávím čas v přírodě.",
+      "tts_text": "Ich verbringe gern Zeit in der Natur."
+    },
+    {
+      "word": "die frische Luft",
+      "translation_cz": "čerstvý vzduch",
+      "example": "Die frische Luft tut gut.",
+      "example_cz": "Čerstvý vzduch je příjemný.",
+      "tts_text": "Die frische Luft tut gut."
+    },
+    {
+      "word": "die Fußspur",
+      "translation_cz": "stopa",
+      "example": "Wir finden eine Fußspur im Schlamm.",
+      "example_cz": "Najdeme stopu v bahně.",
+      "tts_text": "Wir finden eine Fußspur im Schlamm."
+    },
+    {
+      "word": "zuhören",
+      "translation_cz": "poslouchat",
+      "example": "Wir hören den Vögeln beim Singen zu.",
+      "example_cz": "Posloucháme zpěv ptáků.",
+      "tts_text": "Wir hören den Vögeln beim Singen zu."
+    },
+    {
+      "word": "sammeln",
+      "translation_cz": "sbírat",
+      "example": "Ich sammle schöne Steine.",
+      "example_cz": "Sbírám hezké kamínky.",
+      "tts_text": "Ich sammle schöne Steine."
+    },
+    {
+      "word": "ruhig",
+      "translation_cz": "klidný",
+      "example": "Hier ist es ruhig und friedlich.",
+      "example_cz": "Tady je klid a pohoda.",
+      "tts_text": "Hier ist es ruhig und friedlich."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Spaziergang",
+      "options": [
+        "procházka",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "procházka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir machen einen ___ in der Natur.",
+      "answer": "der Spaziergang",
+      "hint_cz": "procházka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Natur",
+          "cz": "příroda"
+        },
+        {
+          "target": "die frische Luft",
+          "cz": "čerstvý vzduch"
+        },
+        {
+          "target": "die Fußspur",
+          "cz": "stopa"
+        },
+        {
+          "target": "zuhören",
+          "cz": "poslouchat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich verbringe gern Zeit in der Natur.",
+      "tts_text": "Ich verbringe gern Zeit in der Natur."
+    }
+  ]
+}

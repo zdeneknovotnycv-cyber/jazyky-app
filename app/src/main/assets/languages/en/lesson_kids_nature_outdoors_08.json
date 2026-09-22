@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_nature_outdoors_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Camping",
+  "title_cz": "Kempování",
+  "vocabulary": [
+    {
+      "word": "tent",
+      "translation_cz": "stan",
+      "example": "We sleep in a tent.",
+      "example_cz": "Spíme ve stanu.",
+      "tts_text": "We sleep in a tent."
+    },
+    {
+      "word": "campfire",
+      "translation_cz": "táborák",
+      "example": "We sit around the campfire.",
+      "example_cz": "Sedíme kolem táboráku.",
+      "tts_text": "We sit around the campfire."
+    },
+    {
+      "word": "sleeping bag",
+      "translation_cz": "spací pytel",
+      "example": "I zip up my sleeping bag.",
+      "example_cz": "Zapínám si spací pytel.",
+      "tts_text": "I zip up my sleeping bag."
+    },
+    {
+      "word": "flashlight",
+      "translation_cz": "baterka",
+      "example": "I use a flashlight at night.",
+      "example_cz": "V noci používám baterku.",
+      "tts_text": "I use a flashlight at night."
+    },
+    {
+      "word": "backpack",
+      "translation_cz": "batoh",
+      "example": "I pack my backpack for the trip.",
+      "example_cz": "Balím si batoh na výlet.",
+      "tts_text": "I pack my backpack for the trip."
+    },
+    {
+      "word": "marshmallow",
+      "translation_cz": "marshmallow",
+      "example": "We roast marshmallows on the fire.",
+      "example_cz": "Opékáme marshmallow nad ohněm.",
+      "tts_text": "We roast marshmallows on the fire."
+    },
+    {
+      "word": "stars",
+      "translation_cz": "hvězdy",
+      "example": "We look at the stars from the tent.",
+      "example_cz": "Ze stanu se díváme na hvězdy.",
+      "tts_text": "We look at the stars from the tent."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "tent",
+      "options": [
+        "stan",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "stan"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We sleep in a ___.",
+      "answer": "tent",
+      "hint_cz": "stan"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "campfire",
+          "cz": "táborák"
+        },
+        {
+          "target": "sleeping bag",
+          "cz": "spací pytel"
+        },
+        {
+          "target": "flashlight",
+          "cz": "baterka"
+        },
+        {
+          "target": "backpack",
+          "cz": "batoh"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We sit around the campfire.",
+      "tts_text": "We sit around the campfire."
+    }
+  ]
+}

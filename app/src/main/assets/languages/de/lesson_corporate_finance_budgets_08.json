@@ -1,0 +1,47 @@
+{
+  "id": "de_corporate_finance_budgets_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Finanzbericht erklären",
+  "title_cz": "Vysvětlení finanční zprávy",
+  "vocabulary": [
+    {"word": "der Finanzbericht", "translation_cz": "finanční zpráva", "example": "Ich führe Sie durch den Finanzbericht.", "example_cz": "Provedu vás finanční zprávou.", "tts_text": "Ich führe Sie durch den Finanzbericht."},
+    {"word": "die Bilanz", "translation_cz": "rozvaha", "example": "Die Bilanz zeigt unser Gesamtvermögen.", "example_cz": "Rozvaha ukazuje naše celková aktiva.", "tts_text": "Die Bilanz zeigt unser Gesamtvermögen."},
+    {"word": "der Cashflow", "translation_cz": "peněžní tok", "example": "Unser Cashflow hat sich diesen Monat verbessert.", "example_cz": "Náš peněžní tok se tento měsíc zlepšil.", "tts_text": "Unser Cashflow hat sich diesen Monat verbessert."},
+    {"word": "das Vermögen", "translation_cz": "aktiva", "example": "Das Gesamtvermögen ist durch neue Ausrüstung gestiegen.", "example_cz": "Celková aktiva vzrostla díky novému vybavení.", "tts_text": "Das Gesamtvermögen ist durch neue Ausrüstung gestiegen."},
+    {"word": "die Verbindlichkeiten", "translation_cz": "závazky", "example": "Die Verbindlichkeiten blieben dieses Quartal stabil.", "example_cz": "Závazky zůstaly toto čtvrtletí stabilní.", "tts_text": "Die Verbindlichkeiten blieben dieses Quartal stabil."},
+    {"word": "die Gewinn- und Verlustrechnung", "translation_cz": "výkaz zisku a ztráty", "example": "Die Gewinn- und Verlustrechnung steht auf Seite zwei.", "example_cz": "Výkaz zisku a ztráty je na straně dvě.", "tts_text": "Die Gewinn- und Verlustrechnung steht auf Seite zwei."},
+    {"word": "die Zahlen", "translation_cz": "čísla / údaje", "example": "Diese Zahlen spiegeln das letzte Quartal wider.", "example_cz": "Tato čísla odrážejí poslední čtvrtletí.", "tts_text": "Diese Zahlen spiegeln das letzte Quartal wider."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_explain_report",
+      "title": "Durch den Bericht führen",
+      "title_cz": "Procházka finanční zprávou",
+      "lines": [
+        {"speaker": "A", "text": "Lassen Sie mich Sie durch den Finanzbericht führen.", "text_cz": "Dovolte mi provést vás finanční zprávou."},
+        {"speaker": "B", "text": "Bitte beginnen Sie mit der Bilanz.", "text_cz": "Začněte prosím rozvahou."},
+        {"speaker": "A", "text": "Gerne. Das Gesamtvermögen ist gestiegen, während die Verbindlichkeiten stabil blieben.", "text_cz": "Jistě. Celková aktiva vzrostla, zatímco závazky zůstaly stabilní."},
+        {"speaker": "B", "text": "Und wie sieht der Cashflow aus?", "text_cz": "A jak vypadá peněžní tok?"},
+        {"speaker": "A", "text": "Er hat sich im Vergleich zum letzten Quartal verbessert.", "text_cz": "Ve srovnání s minulým čtvrtletím se zlepšil."}
+      ]
+    },
+    {
+      "id": "conv_profit_loss",
+      "title": "Die Gewinn- und Verlustrechnung prüfen",
+      "title_cz": "Kontrola výkazu zisku a ztráty",
+      "lines": [
+        {"speaker": "A", "text": "Können Sie die Zahlen in der Gewinn- und Verlustrechnung prüfen?", "text_cz": "Můžete zkontrolovat čísla ve výkazu zisku a ztráty?"},
+        {"speaker": "B", "text": "Ja, sie stimmen mit unserer Prognose überein.", "text_cz": "Ano, odpovídají naší prognóze."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "das Vermögen", "options": ["aktiva", "závazky", "zpráva"], "correct": "aktiva"},
+    {"type": "fill_gap", "sentence": "Die ___ zeigt unser Gesamtvermögen.", "answer": "Bilanz", "hint_cz": "rozvaha"},
+    {"type": "match_pairs", "pairs": [{"target": "der Cashflow", "cz": "peněžní tok"}, {"target": "die Verbindlichkeiten", "cz": "závazky"}, {"target": "die Zahlen", "cz": "čísla"}, {"target": "der Finanzbericht", "cz": "finanční zpráva"}]},
+    {"type": "speak_and_check", "target_phrase": "Unser Cashflow hat sich diesen Monat verbessert.", "tts_text": "Unser Cashflow hat sich diesen Monat verbessert."},
+    {"type": "fill_gap", "sentence": "Die Gewinn- und Verlust___ steht auf Seite zwei.", "answer": "rechnung", "hint_cz": "výkaz"}
+  ]
+}

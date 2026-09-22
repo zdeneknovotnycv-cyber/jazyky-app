@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_clothes_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Summer Clothes",
+  "title_cz": "Letní oblečení",
+  "vocabulary": [
+    {
+      "word": "shorts",
+      "translation_cz": "kraťasy",
+      "example": "I wear shorts when it is hot.",
+      "example_cz": "Když je horko, nosím kraťasy.",
+      "tts_text": "I wear shorts when it is hot."
+    },
+    {
+      "word": "sandals",
+      "translation_cz": "sandály",
+      "example": "My sandals are comfortable.",
+      "example_cz": "Mé sandály jsou pohodlné.",
+      "tts_text": "My sandals are comfortable."
+    },
+    {
+      "word": "sunglasses",
+      "translation_cz": "sluneční brýle",
+      "example": "I need sunglasses on the beach.",
+      "example_cz": "Na pláži potřebuji sluneční brýle.",
+      "tts_text": "I need sunglasses on the beach."
+    },
+    {
+      "word": "swimsuit",
+      "translation_cz": "plavky",
+      "example": "I bring my swimsuit to the pool.",
+      "example_cz": "Beru si plavky do bazénu.",
+      "tts_text": "I bring my swimsuit to the pool."
+    },
+    {
+      "word": "cap",
+      "translation_cz": "kšiltovka",
+      "example": "The cap protects me from the sun.",
+      "example_cz": "Kšiltovka mě chrání před sluncem.",
+      "tts_text": "The cap protects me from the sun."
+    },
+    {
+      "word": "skirt",
+      "translation_cz": "sukně",
+      "example": "She wears a light skirt.",
+      "example_cz": "Nosí lehkou sukni.",
+      "tts_text": "She wears a light skirt."
+    },
+    {
+      "word": "hot",
+      "translation_cz": "horko",
+      "example": "It is very hot in summer.",
+      "example_cz": "V létě je velké horko.",
+      "tts_text": "It is very hot in summer."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "swimsuit",
+      "options": [
+        "plavky",
+        "kraťasy",
+        "sandály"
+      ],
+      "correct": "plavky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I wear ___ when it is hot.",
+      "answer": "shorts",
+      "hint_cz": "kraťasy"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sandals",
+          "cz": "sandály"
+        },
+        {
+          "target": "sunglasses",
+          "cz": "sluneční brýle"
+        },
+        {
+          "target": "cap",
+          "cz": "kšiltovka"
+        },
+        {
+          "target": "skirt",
+          "cz": "sukně"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It is very hot in summer.",
+      "tts_text": "It is very hot in summer."
+    }
+  ]
+}

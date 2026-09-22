@@ -1,0 +1,157 @@
+{
+  "id": "de_adult_corporate_meetings_intros_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Sich bei der Arbeit vorstellen",
+  "title_cz": "Představení v práci",
+  "vocabulary": [
+    {
+      "word": "sich vorstellen",
+      "translation_cz": "představit se",
+      "example": "Darf ich mich kurz vorstellen?",
+      "example_cz": "Smím se krátce představit?",
+      "tts_text": "Darf ich mich kurz vorstellen?"
+    },
+    {
+      "word": "die Position",
+      "translation_cz": "pozice",
+      "example": "Meine Position ist Projektmanager.",
+      "example_cz": "Moje pozice je projektový manažer.",
+      "tts_text": "Meine Position ist Projektmanager."
+    },
+    {
+      "word": "die Abteilung",
+      "translation_cz": "oddělení",
+      "example": "Ich arbeite in der Marketingabteilung.",
+      "example_cz": "Pracuji v marketingovém oddělení.",
+      "tts_text": "Ich arbeite in der Marketingabteilung."
+    },
+    {
+      "word": "der Kollege",
+      "translation_cz": "kolega",
+      "example": "Ich bin ein neuer Kollege im Team.",
+      "example_cz": "Jsem nový kolega v týmu.",
+      "tts_text": "Ich bin ein neuer Kollege im Team."
+    },
+    {
+      "word": "die Erfahrung",
+      "translation_cz": "zkušenosti",
+      "example": "Ich habe fünf Jahre Erfahrung.",
+      "example_cz": "Mám pět let zkušeností.",
+      "tts_text": "Ich habe fünf Jahre Erfahrung."
+    },
+    {
+      "word": "zuständig sein für",
+      "translation_cz": "zodpovědný za",
+      "example": "Ich bin für den Vertrieb in dieser Region zuständig.",
+      "example_cz": "Jsem zodpovědný za prodej v tomto regionu.",
+      "tts_text": "Ich bin für den Vertrieb in dieser Region zuständig."
+    },
+    {
+      "word": "dem Team beitreten",
+      "translation_cz": "přidat se k týmu",
+      "example": "Ich bin letzten Monat dem Team beigetreten.",
+      "example_cz": "K týmu jsem se přidal minulý měsíc.",
+      "tts_text": "Ich bin letzten Monat dem Team beigetreten."
+    },
+    {
+      "word": "der Werdegang",
+      "translation_cz": "profesní zázemí",
+      "example": "Mein Werdegang liegt im Finanzbereich.",
+      "example_cz": "Moje zázemí je ve financích.",
+      "tts_text": "Mein Werdegang liegt im Finanzbereich."
+    },
+    {
+      "word": "sehr erfreut",
+      "translation_cz": "těší mě",
+      "example": "Sehr erfreut, Sie kennenzulernen.",
+      "example_cz": "Těší mě, že vás poznávám.",
+      "tts_text": "Sehr erfreut, Sie kennenzulernen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_intro_new_hire",
+      "title": "Eine neue Kollegin stellt sich vor",
+      "title_cz": "Nová kolegyně se představuje",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Guten Morgen. Darf ich mich vorstellen, ich bin Klara, die neue Kollegin in der Finanzabteilung.",
+          "text_cz": "Dobré ráno. Dovolte, abych se představila, jsem Klára, nová kolegyně z finančního oddělení."
+        },
+        {
+          "speaker": "B",
+          "text": "Sehr erfreut, Klara. Ich bin Tomas, ich leite das Buchhaltungsteam.",
+          "text_cz": "Těší mě, Kláro. Jsem Tomáš, vedu tým účetnictví."
+        },
+        {
+          "speaker": "A",
+          "text": "Mich auch. Ich habe drei Jahre Erfahrung im Finanzreporting.",
+          "text_cz": "Mě také těší. Mám tři roky zkušeností s finančním reportingem."
+        },
+        {
+          "speaker": "B",
+          "text": "Sehr gut, willkommen im Team. Bei Fragen können Sie sich jederzeit melden.",
+          "text_cz": "Skvělé, vítejte v týmu. Pokud budete mít otázky, klidně se ptejte."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Abteilung",
+      "options": [
+        "oddělení",
+        "kolega",
+        "zkušenosti"
+      ],
+      "correct": "oddělení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bin für den Vertrieb ___ zuständig.",
+      "answer": "zuständig",
+      "hint_cz": "zodpovědný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sich vorstellen",
+          "cz": "představit se"
+        },
+        {
+          "target": "die Position",
+          "cz": "pozice"
+        },
+        {
+          "target": "die Erfahrung",
+          "cz": "zkušenosti"
+        },
+        {
+          "target": "der Kollege",
+          "cz": "kolega"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sehr erfreut, Sie kennenzulernen.",
+      "tts_text": "Sehr erfreut, Sie kennenzulernen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bin letzten Monat dem ___ beigetreten.",
+      "answer": "Team",
+      "hint_cz": "tým"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Mein Werdegang liegt im Finanzbereich.",
+      "tts_text": "Mein Werdegang liegt im Finanzbereich."
+    }
+  ]
+}

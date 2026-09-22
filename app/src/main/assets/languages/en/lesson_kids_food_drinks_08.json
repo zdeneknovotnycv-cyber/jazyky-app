@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_food_drinks_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "At a Restaurant (Kids Menu)",
+  "title_cz": "V restauraci (dětské menu)",
+  "vocabulary": [
+    {
+      "word": "menu",
+      "translation_cz": "jídelní lístek",
+      "example": "Can I see the menu?",
+      "example_cz": "Můžu vidět jídelní lístek?",
+      "tts_text": "Can I see the menu?"
+    },
+    {
+      "word": "waiter",
+      "translation_cz": "číšník",
+      "example": "The waiter brings our food.",
+      "example_cz": "Číšník nám nese jídlo.",
+      "tts_text": "The waiter brings our food."
+    },
+    {
+      "word": "order",
+      "translation_cz": "objednat si",
+      "example": "I order chicken and fries.",
+      "example_cz": "Objednávám si kuře a hranolky.",
+      "tts_text": "I order chicken and fries."
+    },
+    {
+      "word": "fries",
+      "translation_cz": "hranolky",
+      "example": "I like fries with ketchup.",
+      "example_cz": "Mám rád hranolky s kečupem.",
+      "tts_text": "I like fries with ketchup."
+    },
+    {
+      "word": "please",
+      "translation_cz": "prosím",
+      "example": "Water, please.",
+      "example_cz": "Vodu, prosím.",
+      "tts_text": "Water, please."
+    },
+    {
+      "word": "thank you",
+      "translation_cz": "děkuji",
+      "example": "Thank you for the food.",
+      "example_cz": "Děkuji za jídlo.",
+      "tts_text": "Thank you for the food."
+    },
+    {
+      "word": "bill",
+      "translation_cz": "účet",
+      "example": "Dad pays the bill.",
+      "example_cz": "Tatínek platí účet.",
+      "tts_text": "Dad pays the bill."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "menu",
+      "options": [
+        "jídelní lístek",
+        "účet",
+        "číšník"
+      ],
+      "correct": "jídelní lístek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I like ___ with ketchup.",
+      "answer": "fries",
+      "hint_cz": "hranolky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "waiter",
+          "cz": "číšník"
+        },
+        {
+          "target": "order",
+          "cz": "objednat si"
+        },
+        {
+          "target": "please",
+          "cz": "prosím"
+        },
+        {
+          "target": "bill",
+          "cz": "účet"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I order chicken and fries.",
+      "tts_text": "I order chicken and fries."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_reports_presentations_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Bericht strukturieren",
+  "title_cz": "Struktura zprávy",
+  "vocabulary": [
+    {
+      "word": "die Einleitung",
+      "translation_cz": "úvod",
+      "example": "Die Einleitung erklärt den Zweck des Berichts.",
+      "example_cz": "Úvod vysvětluje účel zprávy.",
+      "tts_text": "Die Einleitung erklärt den Zweck des Berichts."
+    },
+    {
+      "word": "der Abschnitt",
+      "translation_cz": "sekce",
+      "example": "Dieser Abschnitt behandelt die Marktanalyse.",
+      "example_cz": "Tato sekce pokrývá analýzu trhu.",
+      "tts_text": "Dieser Abschnitt behandelt die Marktanalyse."
+    },
+    {
+      "word": "der Anhang",
+      "translation_cz": "příloha",
+      "example": "Die Rohdaten finden Sie im Anhang.",
+      "example_cz": "Surová data naleznete v příloze.",
+      "tts_text": "Die Rohdaten finden Sie im Anhang."
+    },
+    {
+      "word": "der Hauptteil",
+      "translation_cz": "hlavní část",
+      "example": "Der Hauptteil des Berichts enthält die ausführliche Analyse.",
+      "example_cz": "Hlavní část zprávy obsahuje podrobnou analýzu.",
+      "tts_text": "Der Hauptteil des Berichts enthält die ausführliche Analyse."
+    },
+    {
+      "word": "die Überschrift",
+      "translation_cz": "nadpis",
+      "example": "Jeder Abschnitt hat eine klare Überschrift.",
+      "example_cz": "Každá sekce má jasný nadpis.",
+      "tts_text": "Jeder Abschnitt hat eine klare Überschrift."
+    },
+    {
+      "word": "der Stichpunkt",
+      "translation_cz": "odrážka",
+      "example": "Ich habe die wichtigsten Fakten in Stichpunkte gegliedert.",
+      "example_cz": "Klíčová fakta jsem uspořádal do odrážek.",
+      "tts_text": "Ich habe die wichtigsten Fakten in Stichpunkte gegliedert."
+    },
+    {
+      "word": "die logische Reihenfolge",
+      "translation_cz": "logický pořádek",
+      "example": "Halten Sie die Informationen in einer logischen Reihenfolge.",
+      "example_cz": "Udržujte informace v logickém pořádku.",
+      "tts_text": "Halten Sie die Informationen in einer logischen Reihenfolge."
+    },
+    {
+      "word": "die Vorlage",
+      "translation_cz": "šablona",
+      "example": "Wir verwenden für alle Berichte eine Standardvorlage.",
+      "example_cz": "Pro všechny zprávy používáme standardní šablonu.",
+      "tts_text": "Wir verwenden für alle Berichte eine Standardvorlage."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_report_structure",
+      "title": "Über die Struktur des Berichts sprechen",
+      "title_cz": "Diskuze o struktuře zprávy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wie sollten wir diesen Bericht strukturieren?",
+          "text_cz": "Jak bychom měli tuto zprávu strukturovat?"
+        },
+        {
+          "speaker": "B",
+          "text": "Beginnen Sie mit einer Einleitung, dann der Hauptteil mit der ausführlichen Analyse.",
+          "text_cz": "Začněte úvodem, pak hlavní část s podrobnou analýzou."
+        },
+        {
+          "speaker": "A",
+          "text": "Und die Rohdaten kommen in den Anhang?",
+          "text_cz": "A surová data patří do přílohy?"
+        },
+        {
+          "speaker": "B",
+          "text": "Genau, und verwenden Sie unsere Standardvorlage, damit alles logisch geordnet ist.",
+          "text_cz": "Přesně tak, a použijte naši standardní šablonu, aby to bylo v logickém pořádku."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Einleitung",
+      "options": [
+        "úvod",
+        "příloha",
+        "hlavní část"
+      ],
+      "correct": "úvod"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Dieser Abschnitt behandelt die Marktanalyse.",
+      "answer": "der Abschnitt",
+      "hint_cz": "sekce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Jeder Abschnitt hat eine klare Überschrift.",
+      "answer": "die Überschrift",
+      "hint_cz": "nadpis"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Stichpunkt",
+          "cz": "odrážka"
+        },
+        {
+          "target": "die logische Reihenfolge",
+          "cz": "logický pořádek"
+        },
+        {
+          "target": "die Vorlage",
+          "cz": "šablona"
+        },
+        {
+          "target": "der Anhang",
+          "cz": "příloha"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wie sollten wir diesen Bericht strukturieren?",
+      "tts_text": "Wie sollten wir diesen Bericht strukturieren?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Beginnen Sie mit einer Einleitung, dann der Hauptteil mit der ausführlichen Analyse.",
+      "tts_text": "Beginnen Sie mit einer Einleitung, dann der Hauptteil mit der ausführlichen Analyse."
+    }
+  ]
+}

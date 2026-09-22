@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_transport_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Flugzeuge",
+  "title_cz": "Letadla",
+  "vocabulary": [
+    {
+      "word": "das Flugzeug",
+      "translation_cz": "letadlo",
+      "example": "Das Flugzeug fliegt am Himmel.",
+      "example_cz": "Letadlo letí na obloze.",
+      "tts_text": "Das Flugzeug fliegt am Himmel."
+    },
+    {
+      "word": "der Flughafen",
+      "translation_cz": "letiště",
+      "example": "Wir warten am Flughafen.",
+      "example_cz": "Čekáme na letišti.",
+      "tts_text": "Wir warten am Flughafen."
+    },
+    {
+      "word": "der Pilot",
+      "translation_cz": "pilot",
+      "example": "Der Pilot fliegt das Flugzeug.",
+      "example_cz": "Pilot řídí letadlo.",
+      "tts_text": "Der Pilot fliegt das Flugzeug."
+    },
+    {
+      "word": "der Flügel",
+      "translation_cz": "křídlo",
+      "example": "Das Flugzeug hat zwei Flügel.",
+      "example_cz": "Letadlo má dvě křídla.",
+      "tts_text": "Das Flugzeug hat zwei Flügel."
+    },
+    {
+      "word": "der Koffer",
+      "translation_cz": "kufr",
+      "example": "Ich packe meinen Koffer für die Reise.",
+      "example_cz": "Balím si kufr na cestu.",
+      "tts_text": "Ich packe meinen Koffer für die Reise."
+    },
+    {
+      "word": "starten",
+      "translation_cz": "vzlétnout",
+      "example": "Das Flugzeug startet von der Startbahn.",
+      "example_cz": "Letadlo vzlétá z ranveje.",
+      "tts_text": "Das Flugzeug startet von der Startbahn."
+    },
+    {
+      "word": "landen",
+      "translation_cz": "přistát",
+      "example": "Das Flugzeug wird bald landen.",
+      "example_cz": "Letadlo brzy přistane.",
+      "tts_text": "Das Flugzeug wird bald landen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Flugzeug",
+      "options": [
+        "letadlo",
+        "kolo",
+        "řidič"
+      ],
+      "correct": "letadlo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das ___ fliegt am Himmel.",
+      "answer": "das Flugzeug",
+      "hint_cz": "letadlo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Flughafen",
+          "cz": "letiště"
+        },
+        {
+          "target": "der Pilot",
+          "cz": "pilot"
+        },
+        {
+          "target": "der Flügel",
+          "cz": "křídlo"
+        },
+        {
+          "target": "der Koffer",
+          "cz": "kufr"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Pilot fliegt das Flugzeug.",
+      "tts_text": "Der Pilot fliegt das Flugzeug."
+    }
+  ]
+}

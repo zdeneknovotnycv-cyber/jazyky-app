@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_nature_outdoors_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Bäume und Wälder",
+  "title_cz": "Stromy a lesy",
+  "vocabulary": [
+    {
+      "word": "der Baum",
+      "translation_cz": "strom",
+      "example": "Der Baum ist sehr hoch.",
+      "example_cz": "Ten strom je velmi vysoký.",
+      "tts_text": "Der Baum ist sehr hoch."
+    },
+    {
+      "word": "der Wald",
+      "translation_cz": "les",
+      "example": "Wir gehen im Wald spazieren.",
+      "example_cz": "Procházíme se v lese.",
+      "tts_text": "Wir gehen im Wald spazieren."
+    },
+    {
+      "word": "das Blatt",
+      "translation_cz": "list",
+      "example": "Ein grünes Blatt fällt herunter.",
+      "example_cz": "Padá zelený list.",
+      "tts_text": "Ein grünes Blatt fällt herunter."
+    },
+    {
+      "word": "der Ast",
+      "translation_cz": "větev",
+      "example": "Ein Vogel sitzt auf einem Ast.",
+      "example_cz": "Na větvi sedí pták.",
+      "tts_text": "Ein Vogel sitzt auf einem Ast."
+    },
+    {
+      "word": "die Wurzeln",
+      "translation_cz": "kořeny",
+      "example": "Wurzeln wachsen unter der Erde.",
+      "example_cz": "Kořeny rostou pod zemí.",
+      "tts_text": "Wurzeln wachsen unter der Erde."
+    },
+    {
+      "word": "das Eichhörnchen",
+      "translation_cz": "veverka",
+      "example": "Ein Eichhörnchen klettert auf den Baum.",
+      "example_cz": "Veverka leze na strom.",
+      "tts_text": "Ein Eichhörnchen klettert auf den Baum."
+    },
+    {
+      "word": "der Schatten",
+      "translation_cz": "stín",
+      "example": "Wir ruhen uns im Schatten aus.",
+      "example_cz": "Odpočíváme ve stínu.",
+      "tts_text": "Wir ruhen uns im Schatten aus."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Baum",
+      "options": [
+        "strom",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "strom"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der ___ ist sehr hoch.",
+      "answer": "der Baum",
+      "hint_cz": "strom"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Wald",
+          "cz": "les"
+        },
+        {
+          "target": "das Blatt",
+          "cz": "list"
+        },
+        {
+          "target": "der Ast",
+          "cz": "větev"
+        },
+        {
+          "target": "die Wurzeln",
+          "cz": "kořeny"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wir gehen im Wald spazieren.",
+      "tts_text": "Wir gehen im Wald spazieren."
+    }
+  ]
+}

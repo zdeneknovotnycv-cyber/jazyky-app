@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_daily_routine_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Bedtime routine",
+  "title_cz": "Rituál před spaním",
+  "vocabulary": [
+    {
+      "word": "bedtime",
+      "translation_cz": "čas jít spát",
+      "example": "Bedtime is at eight o'clock.",
+      "example_cz": "Čas jít spát je v osm hodin.",
+      "tts_text": "Bedtime is at eight o'clock."
+    },
+    {
+      "word": "pajamas",
+      "translation_cz": "pyžamo",
+      "example": "I put on my pajamas.",
+      "example_cz": "Oblékám si pyžamo.",
+      "tts_text": "I put on my pajamas."
+    },
+    {
+      "word": "brush teeth",
+      "translation_cz": "vyčistit si zuby",
+      "example": "I brush my teeth before bed.",
+      "example_cz": "Před spaním si čistím zuby.",
+      "tts_text": "I brush my teeth before bed."
+    },
+    {
+      "word": "story",
+      "translation_cz": "pohádka",
+      "example": "Mom reads me a story.",
+      "example_cz": "Máma mi čte pohádku.",
+      "tts_text": "Mom reads me a story."
+    },
+    {
+      "word": "good night",
+      "translation_cz": "dobrou noc",
+      "example": "I say good night to my parents.",
+      "example_cz": "Přeju rodičům dobrou noc.",
+      "tts_text": "I say good night to my parents."
+    },
+    {
+      "word": "blanket",
+      "translation_cz": "deka",
+      "example": "I pull the blanket over me.",
+      "example_cz": "Přetahuju si přes sebe deku.",
+      "tts_text": "I pull the blanket over me."
+    },
+    {
+      "word": "sleep",
+      "translation_cz": "spát",
+      "example": "I sleep all night long.",
+      "example_cz": "Spím celou noc.",
+      "tts_text": "I sleep all night long."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "bedtime",
+      "options": [
+        "čas jít spát",
+        "pyžamo",
+        "vyčistit si zuby"
+      ],
+      "correct": "čas jít spát"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I put on my ___.",
+      "answer": "pajamas",
+      "hint_cz": "pyžamo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "brush teeth",
+          "cz": "vyčistit si zuby"
+        },
+        {
+          "target": "story",
+          "cz": "pohádka"
+        },
+        {
+          "target": "good night",
+          "cz": "dobrou noc"
+        },
+        {
+          "target": "blanket",
+          "cz": "deka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I sleep all night long.",
+      "tts_text": "I sleep all night long."
+    }
+  ]
+}

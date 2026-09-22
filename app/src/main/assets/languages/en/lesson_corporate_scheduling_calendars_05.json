@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_scheduling_calendars_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Time zones in scheduling",
+  "title_cz": "Časová pásma při plánování schůzek",
+  "vocabulary": [
+    {
+      "word": "what time zone are you in?",
+      "translation_cz": "v jakém jste časovém pásmu?",
+      "example": "Sorry, what time zone are you in?",
+      "example_cz": "Promiňte, v jakém jste časovém pásmu?",
+      "tts_text": "Sorry, what time zone are you in?"
+    },
+    {
+      "word": "that's nine a.m. your time",
+      "translation_cz": "to je u vás devět ráno",
+      "example": "Three p.m. here is nine a.m. your time.",
+      "example_cz": "Tři odpoledne u nás je u vás devět ráno.",
+      "tts_text": "Three p.m. here is nine a.m. your time."
+    },
+    {
+      "word": "there's a six-hour difference",
+      "translation_cz": "je tam šestihodinový rozdíl",
+      "example": "There's a six-hour difference between our offices.",
+      "example_cz": "Mezi našimi kancelářemi je šestihodinový rozdíl.",
+      "tts_text": "There's a six-hour difference between our offices."
+    },
+    {
+      "word": "let's use Central European Time",
+      "translation_cz": "použijme středoevropský čas",
+      "example": "Let's use Central European Time to avoid confusion.",
+      "example_cz": "Použijme středoevropský čas, abychom předešli zmatkům.",
+      "tts_text": "Let's use Central European Time to avoid confusion."
+    },
+    {
+      "word": "could you double-check the conversion?",
+      "translation_cz": "mohl byste zkontrolovat převod?",
+      "example": "Could you double-check the time conversion, please?",
+      "example_cz": "Mohl byste prosím zkontrolovat převod času?",
+      "tts_text": "Could you double-check the time conversion, please?"
+    },
+    {
+      "word": "daylight saving time",
+      "translation_cz": "letní čas",
+      "example": "Remember that daylight saving time starts next week.",
+      "example_cz": "Nezapomeňte, že příští týden začíná letní čas.",
+      "tts_text": "Remember that daylight saving time starts next week."
+    },
+    {
+      "word": "the invite will show your local time",
+      "translation_cz": "pozvánka zobrazí váš místní čas",
+      "example": "The calendar invite will show your local time automatically.",
+      "example_cz": "Pozvánka do kalendáře automaticky zobrazí váš místní čas.",
+      "tts_text": "The calendar invite will show your local time automatically."
+    },
+    {
+      "word": "early morning works better for us",
+      "translation_cz": "brzké ráno nám vyhovuje lépe",
+      "example": "Early morning works better for us because of the time difference.",
+      "example_cz": "Brzké ráno nám kvůli časovému rozdílu vyhovuje lépe.",
+      "tts_text": "Early morning works better for us because of the time difference."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_time_zones",
+      "title": "Coordinating a call across time zones",
+      "title_cz": "Koordinace hovoru napříč časovými pásmy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Sorry, what time zone are you in? We need to plan the call carefully.",
+          "text_cz": "Promiňte, v jakém jste časovém pásmu? Musíme hovor pečlivě naplánovat."
+        },
+        {
+          "speaker": "B",
+          "text": "We're in New York, so there's a six-hour difference between our offices.",
+          "text_cz": "Jsme v New Yorku, takže mezi našimi kancelářemi je šestihodinový rozdíl."
+        },
+        {
+          "speaker": "A",
+          "text": "Okay, so three p.m. here is nine a.m. your time. Let's use that.",
+          "text_cz": "Dobře, takže tři odpoledne u nás je u vás devět ráno. Použijme tento čas."
+        },
+        {
+          "speaker": "B",
+          "text": "Sounds good. Early morning works better for us anyway.",
+          "text_cz": "Zní to dobře. Brzké ráno nám stejně vyhovuje lépe."
+        },
+        {
+          "speaker": "A",
+          "text": "Great, the invite will show your local time automatically.",
+          "text_cz": "Skvělé, pozvánka automaticky zobrazí váš místní čas."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "What time zone are you in?",
+      "options": [
+        "V jakém jste časovém pásmu?",
+        "Použijme středoevropský čas.",
+        "Začíná letní čas."
+      ],
+      "correct": "V jakém jste časovém pásmu?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "There's a six-hour ___ between our offices.",
+      "answer": "difference",
+      "hint_cz": "rozdíl"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "daylight saving time", "cz": "letní čas" },
+        { "target": "could you double-check the conversion?", "cz": "mohl byste zkontrolovat převod?" },
+        { "target": "let's use Central European Time", "cz": "použijme středoevropský čas" },
+        { "target": "early morning works better for us", "cz": "brzké ráno nám vyhovuje lépe" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Three p.m. here is nine a.m. your time.",
+      "tts_text": "Three p.m. here is nine a.m. your time."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The invite will show your ___ time automatically.",
+      "answer": "local",
+      "hint_cz": "místní"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Remember that daylight saving time starts next week.",
+      "tts_text": "Remember that daylight saving time starts next week."
+    }
+  ]
+}

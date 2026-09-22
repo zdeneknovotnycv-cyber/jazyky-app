@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_sports_hobbies_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Musikunterricht",
+  "title_cz": "Hudební kroužek",
+  "vocabulary": [
+    {
+      "word": "der Musikunterricht",
+      "translation_cz": "hudební hodina",
+      "example": "Ich habe heute Musikunterricht.",
+      "example_cz": "Dnes mám hudební hodinu.",
+      "tts_text": "Ich habe heute Musikunterricht."
+    },
+    {
+      "word": "das Klavier",
+      "translation_cz": "klavír",
+      "example": "Ich lerne Klavier spielen.",
+      "example_cz": "Učím se hrát na klavír.",
+      "tts_text": "Ich lerne Klavier spielen."
+    },
+    {
+      "word": "die Gitarre",
+      "translation_cz": "kytara",
+      "example": "Mein Bruder spielt Gitarre.",
+      "example_cz": "Můj bratr hraje na kytaru.",
+      "tts_text": "Mein Bruder spielt Gitarre."
+    },
+    {
+      "word": "singen",
+      "translation_cz": "zpívat",
+      "example": "Ich singe gern Lieder.",
+      "example_cz": "Ráda zpívám písničky.",
+      "tts_text": "Ich singe gern Lieder."
+    },
+    {
+      "word": "üben",
+      "translation_cz": "cvičit",
+      "example": "Ich übe jeden Tag.",
+      "example_cz": "Cvičím každý den.",
+      "tts_text": "Ich übe jeden Tag."
+    },
+    {
+      "word": "das Lied",
+      "translation_cz": "písnička",
+      "example": "Das ist mein Lieblingslied.",
+      "example_cz": "Toto je moje oblíbená písnička.",
+      "tts_text": "Das ist mein Lieblingslied."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Klavier",
+      "options": [
+        "klavír",
+        "kytara",
+        "písnička"
+      ],
+      "correct": "klavír"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ jeden Tag.",
+      "answer": "übe",
+      "hint_cz": "cvičím"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Musikunterricht",
+          "cz": "hudební hodina"
+        },
+        {
+          "target": "die Gitarre",
+          "cz": "kytara"
+        },
+        {
+          "target": "singen",
+          "cz": "zpívat"
+        },
+        {
+          "target": "das Lied",
+          "cz": "písnička"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich lerne Klavier spielen.",
+      "tts_text": "Ich lerne Klavier spielen."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_imagination_stories_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "A talking animal story",
+  "title_cz": "Příběh o mluvícím zvířeti",
+  "vocabulary": [
+    {
+      "word": "talking animal",
+      "translation_cz": "mluvící zvíře",
+      "example": "I meet a talking animal in the woods.",
+      "example_cz": "V lese potkávám mluvící zvíře.",
+      "tts_text": "I meet a talking animal in the woods."
+    },
+    {
+      "word": "fox",
+      "translation_cz": "liška",
+      "example": "A clever fox tells me a secret.",
+      "example_cz": "Chytrá liška mi prozradí tajemství.",
+      "tts_text": "A clever fox tells me a secret."
+    },
+    {
+      "word": "wise",
+      "translation_cz": "moudrý",
+      "example": "The owl is very wise.",
+      "example_cz": "Sova je velmi moudrá.",
+      "tts_text": "The owl is very wise."
+    },
+    {
+      "word": "adventure",
+      "translation_cz": "dobrodružství",
+      "example": "We go on an adventure together.",
+      "example_cz": "Vydáváme se společně na dobrodružství.",
+      "tts_text": "We go on an adventure together."
+    },
+    {
+      "word": "friend",
+      "translation_cz": "přítel",
+      "example": "The animal becomes my best friend.",
+      "example_cz": "Zvíře se stává mým nejlepším přítelem.",
+      "tts_text": "The animal becomes my best friend."
+    },
+    {
+      "word": "listen",
+      "translation_cz": "poslouchat",
+      "example": "I listen to the animal's story.",
+      "example_cz": "Poslouchám příběh zvířete.",
+      "tts_text": "I listen to the animal's story."
+    },
+    {
+      "word": "magical",
+      "translation_cz": "kouzelný",
+      "example": "It is a magical story.",
+      "example_cz": "Je to kouzelný příběh.",
+      "tts_text": "It is a magical story."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "talking animal",
+      "options": [
+        "mluvící zvíře",
+        "liška",
+        "moudrý"
+      ],
+      "correct": "mluvící zvíře"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "A clever ___ tells me a secret.",
+      "answer": "fox",
+      "hint_cz": "liška"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "wise",
+          "cz": "moudrý"
+        },
+        {
+          "target": "adventure",
+          "cz": "dobrodružství"
+        },
+        {
+          "target": "friend",
+          "cz": "přítel"
+        },
+        {
+          "target": "listen",
+          "cz": "poslouchat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It is a magical story.",
+      "tts_text": "It is a magical story."
+    }
+  ]
+}

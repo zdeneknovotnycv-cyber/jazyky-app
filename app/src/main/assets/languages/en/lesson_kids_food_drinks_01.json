@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_food_drinks_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Breakfast Foods",
+  "title_cz": "Snídaně",
+  "vocabulary": [
+    {
+      "word": "breakfast",
+      "translation_cz": "snídaně",
+      "example": "I eat breakfast at seven.",
+      "example_cz": "Snídám v sedm hodin.",
+      "tts_text": "I eat breakfast at seven."
+    },
+    {
+      "word": "bread",
+      "translation_cz": "chléb",
+      "example": "I eat bread with butter.",
+      "example_cz": "Jím chleba s máslem.",
+      "tts_text": "I eat bread with butter."
+    },
+    {
+      "word": "egg",
+      "translation_cz": "vejce",
+      "example": "I like a boiled egg.",
+      "example_cz": "Mám rád vařené vejce.",
+      "tts_text": "I like a boiled egg."
+    },
+    {
+      "word": "milk",
+      "translation_cz": "mléko",
+      "example": "I drink a glass of milk.",
+      "example_cz": "Piju sklenici mléka.",
+      "tts_text": "I drink a glass of milk."
+    },
+    {
+      "word": "cereal",
+      "translation_cz": "cereálie",
+      "example": "I eat cereal with milk.",
+      "example_cz": "Jím cereálie s mlékem.",
+      "tts_text": "I eat cereal with milk."
+    },
+    {
+      "word": "jam",
+      "translation_cz": "džem",
+      "example": "I put jam on my bread.",
+      "example_cz": "Dávám si džem na chleba.",
+      "tts_text": "I put jam on my bread."
+    },
+    {
+      "word": "butter",
+      "translation_cz": "máslo",
+      "example": "The butter is on the table.",
+      "example_cz": "Máslo je na stole.",
+      "tts_text": "The butter is on the table."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "breakfast",
+      "options": [
+        "snídaně",
+        "oběd",
+        "večeře"
+      ],
+      "correct": "snídaně"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I drink a glass of ___.",
+      "answer": "milk",
+      "hint_cz": "mléko"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bread",
+          "cz": "chléb"
+        },
+        {
+          "target": "egg",
+          "cz": "vejce"
+        },
+        {
+          "target": "cereal",
+          "cz": "cereálie"
+        },
+        {
+          "target": "jam",
+          "cz": "džem"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I eat breakfast at seven.",
+      "tts_text": "I eat breakfast at seven."
+    }
+  ]
+}

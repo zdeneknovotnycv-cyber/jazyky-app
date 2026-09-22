@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_weather_seasons_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Sonnig und Regnerisch",
+  "title_cz": "Slunečné a deštivé počasí",
+  "vocabulary": [
+    {
+      "word": "sonnig",
+      "translation_cz": "slunečno",
+      "example": "Heute ist es sonnig.",
+      "example_cz": "Dnes je slunečno.",
+      "tts_text": "Heute ist es sonnig."
+    },
+    {
+      "word": "regnerisch",
+      "translation_cz": "deštivo",
+      "example": "Draußen ist es regnerisch.",
+      "example_cz": "Venku je deštivo.",
+      "tts_text": "Draußen ist es regnerisch."
+    },
+    {
+      "word": "der Regen",
+      "translation_cz": "déšť",
+      "example": "Der Regen fällt.",
+      "example_cz": "Padá déšť.",
+      "tts_text": "Der Regen fällt."
+    },
+    {
+      "word": "die Sonne",
+      "translation_cz": "slunce",
+      "example": "Die Sonne scheint.",
+      "example_cz": "Slunce svítí.",
+      "tts_text": "Die Sonne scheint."
+    },
+    {
+      "word": "der Regenschirm",
+      "translation_cz": "deštník",
+      "example": "Nimm deinen Regenschirm mit.",
+      "example_cz": "Vezmi si deštník.",
+      "tts_text": "Nimm deinen Regenschirm mit."
+    },
+    {
+      "word": "die Wolke",
+      "translation_cz": "mrak",
+      "example": "Am Himmel ist eine große Wolke.",
+      "example_cz": "Na obloze je velký mrak.",
+      "tts_text": "Am Himmel ist eine große Wolke."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "regnerisch",
+      "options": [
+        "deštivo",
+        "slunečno",
+        "mrak"
+      ],
+      "correct": "deštivo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Heute ist es ___.",
+      "answer": "sonnig",
+      "hint_cz": "slunečno"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Regen",
+          "cz": "déšť"
+        },
+        {
+          "target": "die Sonne",
+          "cz": "slunce"
+        },
+        {
+          "target": "der Regenschirm",
+          "cz": "deštník"
+        },
+        {
+          "target": "die Wolke",
+          "cz": "mrak"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Heute ist es sonnig.",
+      "tts_text": "Heute ist es sonnig."
+    }
+  ]
+}

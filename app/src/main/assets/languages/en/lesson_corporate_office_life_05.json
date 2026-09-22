@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_office_life_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Building access and badges",
+  "title_cz": "Přístup do budovy a identifikační karty",
+  "vocabulary": [
+    {
+      "word": "access badge",
+      "translation_cz": "přístupová karta",
+      "example": "You need an access badge to enter the building.",
+      "example_cz": "Pro vstup do budovy potřebuješ přístupovou kartu.",
+      "tts_text": "You need an access badge to enter the building."
+    },
+    {
+      "word": "swipe your card",
+      "translation_cz": "přejet kartou",
+      "example": "Swipe your card at the turnstile.",
+      "example_cz": "Přejeď kartou u turniketu.",
+      "tts_text": "Swipe your card at the turnstile."
+    },
+    {
+      "word": "reception desk",
+      "translation_cz": "recepce",
+      "example": "Visitors must sign in at the reception desk.",
+      "example_cz": "Návštěvníci se musí zapsat na recepci.",
+      "tts_text": "Visitors must sign in at the reception desk."
+    },
+    {
+      "word": "visitor pass",
+      "translation_cz": "návštěvnická karta",
+      "example": "I'll arrange a visitor pass for you.",
+      "example_cz": "Zařídím ti návštěvnickou kartu.",
+      "tts_text": "I'll arrange a visitor pass for you."
+    },
+    {
+      "word": "lost my badge",
+      "translation_cz": "ztratil jsem kartu",
+      "example": "I lost my badge yesterday.",
+      "example_cz": "Včera jsem ztratil kartu.",
+      "tts_text": "I lost my badge yesterday."
+    },
+    {
+      "word": "security guard",
+      "translation_cz": "bezpečnostní pracovník",
+      "example": "Ask the security guard for a temporary pass.",
+      "example_cz": "Zeptej se bezpečnostního pracovníka na dočasnou kartu.",
+      "tts_text": "Ask the security guard for a temporary pass."
+    },
+    {
+      "word": "restricted area",
+      "translation_cz": "vyhrazená oblast",
+      "example": "The server room is a restricted area.",
+      "example_cz": "Serverovna je vyhrazená oblast.",
+      "tts_text": "The server room is a restricted area."
+    },
+    {
+      "word": "report it immediately",
+      "translation_cz": "okamžitě to nahlásit",
+      "example": "If your badge is lost, report it immediately.",
+      "example_cz": "Pokud ztratíš kartu, okamžitě to nahlas.",
+      "tts_text": "If your badge is lost, report it immediately."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_05",
+      "title": "Dealing with a lost badge",
+      "title_cz": "Řešení ztracené karty",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I think I lost my badge somewhere.",
+          "text_cz": "Myslím, že jsem někde ztratil svou kartu."
+        },
+        {
+          "speaker": "B",
+          "text": "You should report it immediately to the security guard.",
+          "text_cz": "Měl bys to okamžitě nahlásit bezpečnostnímu pracovníkovi."
+        },
+        {
+          "speaker": "A",
+          "text": "Can I get a temporary visitor pass for today?",
+          "text_cz": "Můžu dnes dostat dočasnou návštěvnickou kartu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, just sign in at the reception desk first.",
+          "text_cz": "Ano, nejprve se stačí zapsat na recepci."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "access badge",
+      "options": [
+        "přístupová karta",
+        "přejet kartou",
+        "recepce"
+      ],
+      "correct": "přístupová karta"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You need an access ___ to enter the building.",
+      "answer": "badge",
+      "hint_cz": "kartu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "access badge",
+          "cz": "přístupová karta"
+        },
+        {
+          "target": "swipe your card",
+          "cz": "přejet kartou"
+        },
+        {
+          "target": "reception desk",
+          "cz": "recepce"
+        },
+        {
+          "target": "visitor pass",
+          "cz": "návštěvnická karta"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Swipe your card at the turnstile, please.",
+      "tts_text": "Swipe your card at the turnstile, please."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "If your badge is lost, ___ it immediately.",
+      "answer": "report",
+      "hint_cz": "nahlas"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "de_corporate_hr_recruitment_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Krankmeldung",
+  "title_cz": "Nahlášení nemocenské",
+  "vocabulary": [
+    {"word": "die Krankmeldung", "translation_cz": "nemocenská", "example": "Ich muss mich heute krankmelden.", "example_cz": "Dnes se musím omluvit z důvodu nemoci.", "tts_text": "Ich muss mich heute krankmelden."},
+    {"word": "die ärztliche Bescheinigung", "translation_cz": "lékařské potvrzení", "example": "Ich bringe morgen eine ärztliche Bescheinigung mit.", "example_cz": "Zítra přinesu lékařské potvrzení.", "tts_text": "Ich bringe morgen eine ärztliche Bescheinigung mit."},
+    {"word": "sich unwohl fühlen", "translation_cz": "necítit se dobře", "example": "Ich fühle mich unwohl und komme nicht ins Büro.", "example_cz": "Necítím se dobře a do kanceláře nepřijdu.", "tts_text": "Ich fühle mich unwohl und komme nicht ins Büro."},
+    {"word": "benachrichtigen", "translation_cz": "informovat", "example": "Bitte benachrichtigen Sie Ihren Vorgesetzten so schnell wie möglich.", "example_cz": "Prosím informujte svého nadřízeného co nejdříve.", "tts_text": "Bitte benachrichtigen Sie Ihren Vorgesetzten so schnell wie möglich."},
+    {"word": "sich erholen", "translation_cz": "zotavit se", "example": "Ich hoffe, du erholst dich bald.", "example_cz": "Doufám, že se brzy zotavíš.", "tts_text": "Ich hoffe, du erholst dich bald."},
+    {"word": "dringende Aufgaben", "translation_cz": "naléhavé úkoly", "example": "Gibt es dringende Aufgaben, die ich übergeben sollte?", "example_cz": "Jsou nějaké naléhavé úkoly, které bych měl předat?", "tts_text": "Gibt es dringende Aufgaben, die ich übergeben sollte?"},
+    {"word": "zur Arbeit zurückkehren", "translation_cz": "návrat do práce", "example": "Ich rechne damit, am Donnerstag zurückzukehren.", "example_cz": "Předpokládám, že se do práce vrátím ve čtvrtek.", "tts_text": "Ich rechne damit, am Donnerstag zurückzukehren."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_sick_call",
+      "title": "Sich krankmelden",
+      "title_cz": "Telefonické nahlášení nemoci",
+      "lines": [
+        {"speaker": "A", "text": "Hallo, ich wollte dir sagen, dass ich mich unwohl fühle und heute nicht komme.", "text_cz": "Ahoj, chtěla jsem ti dát vědět, že se necítím dobře a dnes nepřijdu."},
+        {"speaker": "B", "text": "Danke für die Info. Gehst du zum Arzt?", "text_cz": "Díky za informaci. Půjdeš k lékaři?"},
+        {"speaker": "A", "text": "Ja, und ich schicke bei Bedarf eine ärztliche Bescheinigung.", "text_cz": "Ano, a pokud bude potřeba, pošlu lékařské potvrzení."},
+        {"speaker": "B", "text": "Okay, gute Besserung und ruh dich aus.", "text_cz": "Dobře, brzy se uzdrav a odpočiň si."}
+      ]
+    },
+    {
+      "id": "conv_handover_tasks",
+      "title": "Dringende Aufgaben übergeben",
+      "title_cz": "Předání naléhavých úkolů",
+      "lines": [
+        {"speaker": "A", "text": "Bevor ich gehe, gibt es dringende Aufgaben, die ich übergeben sollte?", "text_cz": "Než odejdu, jsou tu nějaké naléhavé úkoly, které bych měl předat?"},
+        {"speaker": "B", "text": "Nur der Kundenanruf um elf Uhr. Ich kümmere mich darum.", "text_cz": "Jen ten hovor s klientem v jedenáct. Já to zařídím."},
+        {"speaker": "A", "text": "Danke. Ich hoffe, bis Donnerstag wieder da zu sein.", "text_cz": "Děkuji. Doufám, že se do čtvrtka vrátím."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "die Krankmeldung", "options": ["nemocenská", "volno", "svátek"], "correct": "nemocenská"},
+    {"type": "fill_gap", "sentence": "Ich bringe morgen eine ___ mit.", "answer": "ärztliche Bescheinigung", "hint_cz": "lékařské potvrzení"},
+    {"type": "match_pairs", "pairs": [{"target": "sich unwohl fühlen", "cz": "necítit se dobře"}, {"target": "sich erholen", "cz": "zotavit se"}, {"target": "benachrichtigen", "cz": "informovat"}, {"target": "zur Arbeit zurückkehren", "cz": "návrat do práce"}]},
+    {"type": "speak_and_check", "target_phrase": "Ich muss mich heute krankmelden.", "tts_text": "Ich muss mich heute krankmelden."},
+    {"type": "fill_gap", "sentence": "Bitte ___ Sie Ihren Vorgesetzten so schnell wie möglich.", "answer": "benachrichtigen", "hint_cz": "informovat"}
+  ]
+}

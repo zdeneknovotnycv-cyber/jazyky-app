@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_negotiation_sales_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einem Kunden für das Geschäft danken",
+  "title_cz": "Poděkování klientovi za obchod",
+  "vocabulary": [
+    {
+      "word": "danke für Ihr Geschäft",
+      "translation_cz": "děkuji za vaši přízeň",
+      "example": "Danke für Ihr Geschäft in diesem Jahr.",
+      "example_cz": "Děkuji za vaši přízeň v tomto roce.",
+      "tts_text": "Danke für Ihr Geschäft in diesem Jahr."
+    },
+    {
+      "word": "der geschätzte Kunde",
+      "translation_cz": "vážený zákazník",
+      "example": "Sie sind für uns ein geschätzter Kunde.",
+      "example_cz": "Jste pro nás váženým zákazníkem.",
+      "tts_text": "Sie sind für uns ein geschätzter Kunde."
+    },
+    {
+      "word": "Ihr Vertrauen schätzen",
+      "translation_cz": "vážit si vaší důvěry",
+      "example": "Wir schätzen Ihr Vertrauen in unser Unternehmen.",
+      "example_cz": "Vážíme si vaší důvěry v naši společnost.",
+      "tts_text": "Wir schätzen Ihr Vertrauen in unser Unternehmen."
+    },
+    {
+      "word": "sich freuen auf",
+      "translation_cz": "těšit se na",
+      "example": "Wir freuen uns auf die Fortsetzung unserer Partnerschaft.",
+      "example_cz": "Těšíme se na pokračování naší spolupráce.",
+      "tts_text": "Wir freuen uns auf die Fortsetzung unserer Partnerschaft."
+    },
+    {
+      "word": "die langfristige Partnerschaft",
+      "translation_cz": "dlouhodobé partnerství",
+      "example": "Wir hoffen, dies ist der Beginn einer langfristigen Partnerschaft.",
+      "example_cz": "Doufáme, že toto je začátek dlouhodobého partnerství.",
+      "tts_text": "Wir hoffen, dies ist der Beginn einer langfristigen Partnerschaft."
+    },
+    {
+      "word": "das kleine Dankeschön",
+      "translation_cz": "projev vděku",
+      "example": "Bitte nehmen Sie dieses kleine Dankeschön an.",
+      "example_cz": "Přijměte prosím tento malý projev vděku.",
+      "tts_text": "Bitte nehmen Sie dieses kleine Dankeschön an."
+    },
+    {
+      "word": "der treue Kunde",
+      "translation_cz": "věrný zákazník",
+      "example": "Als treuer Kunde erhalten Sie bevorzugten Zugang.",
+      "example_cz": "Jako věrný zákazník máte přednostní přístup.",
+      "tts_text": "Als treuer Kunde erhalten Sie bevorzugten Zugang."
+    },
+    {
+      "word": "die Freude an der Zusammenarbeit",
+      "translation_cz": "potěšení z obchodní spolupráce",
+      "example": "Es war eine Freude, mit Ihnen zusammenzuarbeiten.",
+      "example_cz": "Bylo mi potěšením s vámi obchodovat.",
+      "tts_text": "Es war eine Freude, mit Ihnen zusammenzuarbeiten."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_thank_client",
+      "title": "Einem langjährigen Kunden danken",
+      "title_cz": "Poděkování dlouhodobému klientovi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich wollte nur Danke sagen für Ihr Geschäft in diesem Jahr.",
+          "text_cz": "Chtěl jsem jen říct děkuji za vaši přízeň v letošním roce."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke, es war auch für uns eine Freude, mit Ihnen zusammenzuarbeiten.",
+          "text_cz": "Děkuji, i pro nás bylo potěšením s vámi obchodovat."
+        },
+        {
+          "speaker": "A",
+          "text": "Wir schätzen Ihr Vertrauen und freuen uns auf eine langfristige Partnerschaft.",
+          "text_cz": "Vážíme si vaší důvěry a těšíme se na dlouhodobé partnerství."
+        },
+        {
+          "speaker": "B",
+          "text": "Ebenso, wir freuen uns auf nächstes Jahr.",
+          "text_cz": "Podobně, těšíme se na příští rok."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "danke für Ihr Geschäft",
+      "options": [
+        "děkuji za vaši přízeň",
+        "vážit si vaší důvěry",
+        "těšit se na"
+      ],
+      "correct": "děkuji za vaši přízeň"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Sie sind für uns ein geschätzter Kunde.",
+      "answer": "der geschätzte Kunde",
+      "hint_cz": "vážený zákazník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir hoffen, dies ist der Beginn einer langfristigen Partnerschaft.",
+      "answer": "die langfristige Partnerschaft",
+      "hint_cz": "dlouhodobé partnerství"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das kleine Dankeschön",
+          "cz": "projev vděku"
+        },
+        {
+          "target": "der treue Kunde",
+          "cz": "věrný zákazník"
+        },
+        {
+          "target": "die Freude an der Zusammenarbeit",
+          "cz": "potěšení z obchodní spolupráce"
+        },
+        {
+          "target": "Ihr Vertrauen schätzen",
+          "cz": "vážit si vaší důvěry"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich wollte nur Danke sagen für Ihr Geschäft in diesem Jahr.",
+      "tts_text": "Ich wollte nur Danke sagen für Ihr Geschäft in diesem Jahr."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Danke, es war auch für uns eine Freude, mit Ihnen zusammenzuarbeiten.",
+      "tts_text": "Danke, es war auch für uns eine Freude, mit Ihnen zusammenzuarbeiten."
+    }
+  ]
+}

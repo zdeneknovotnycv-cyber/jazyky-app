@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_customer_service_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Offering a solution",
+  "title_cz": "Nabídnutí řešení",
+  "vocabulary": [
+    {
+      "word": "Here is what I can offer",
+      "translation_cz": "Toto vám mohu nabídnout",
+      "example": "Here is what I can offer you as a solution.",
+      "example_cz": "Toto vám mohu nabídnout jako řešení.",
+      "tts_text": "Here is what I can offer you as a solution."
+    },
+    {
+      "word": "full refund",
+      "translation_cz": "plná vrácená částka",
+      "example": "We can give you a full refund.",
+      "example_cz": "Můžeme vám vrátit celou částku.",
+      "tts_text": "We can give you a full refund."
+    },
+    {
+      "word": "replacement",
+      "translation_cz": "náhrada, výměna",
+      "example": "Would you prefer a replacement instead?",
+      "example_cz": "Chtěl byste raději náhradu?",
+      "tts_text": "Would you prefer a replacement instead?"
+    },
+    {
+      "word": "store credit",
+      "translation_cz": "kredit do obchodu",
+      "example": "We can also offer store credit.",
+      "example_cz": "Můžeme vám také nabídnout kredit do obchodu.",
+      "tts_text": "We can also offer store credit."
+    },
+    {
+      "word": "free of charge",
+      "translation_cz": "zdarma",
+      "example": "We will fix it free of charge.",
+      "example_cz": "Opravíme to zdarma.",
+      "tts_text": "We will fix it free of charge."
+    },
+    {
+      "word": "Would that work for you?",
+      "translation_cz": "Vyhovovalo by vám to?",
+      "example": "Would that work for you?",
+      "example_cz": "Vyhovovalo by vám to?",
+      "tts_text": "Would that work for you?"
+    },
+    {
+      "word": "alternative option",
+      "translation_cz": "alternativní možnost",
+      "example": "Let me suggest an alternative option.",
+      "example_cz": "Dovolte mi navrhnout alternativní možnost.",
+      "tts_text": "Let me suggest an alternative option."
+    },
+    {
+      "word": "upgrade",
+      "translation_cz": "vylepšení, upgrade",
+      "example": "We can offer you a free upgrade.",
+      "example_cz": "Můžeme vám nabídnout bezplatný upgrade.",
+      "tts_text": "We can offer you a free upgrade."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_05",
+      "title": "Offering solutions for a defective product",
+      "title_cz": "Nabídnutí řešení pro vadný produkt",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Here is what I can offer: a full refund or a replacement.",
+          "text_cz": "Toto vám mohu nabídnout: plnou vrácenou částku nebo náhradu."
+        },
+        {
+          "speaker": "B",
+          "text": "I'd prefer a replacement, if possible.",
+          "text_cz": "Raději bych volil náhradu, pokud je to možné."
+        },
+        {
+          "speaker": "A",
+          "text": "Of course, and we will send it free of charge with express shipping.",
+          "text_cz": "Samozřejmě, a pošleme ji zdarma s expresním doručením."
+        },
+        {
+          "speaker": "B",
+          "text": "That sounds great, thank you.",
+          "text_cz": "To zní skvěle, děkuji."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "full refund",
+      "options": [
+        "plná vrácená částka",
+        "kredit do obchodu",
+        "zdarma"
+      ],
+      "correct": "plná vrácená částka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Would that ___ for you?",
+      "answer": "work",
+      "hint_cz": "vyhovovalo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "replacement",
+          "cz": "náhrada, výměna"
+        },
+        {
+          "target": "store credit",
+          "cz": "kredit do obchodu"
+        },
+        {
+          "target": "free of charge",
+          "cz": "zdarma"
+        },
+        {
+          "target": "alternative option",
+          "cz": "alternativní možnost"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Here is what I can offer you as a solution.",
+      "tts_text": "Here is what I can offer you as a solution."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We can also offer store ___.",
+      "answer": "credit",
+      "hint_cz": "kredit"
+    }
+  ]
+}

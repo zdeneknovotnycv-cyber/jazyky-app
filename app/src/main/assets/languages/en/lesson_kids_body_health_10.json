@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_body_health_10",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "First Aid Basics",
+  "title_cz": "Základy první pomoci",
+  "vocabulary": [
+    {
+      "word": "band-aid",
+      "translation_cz": "náplast",
+      "example": "Put a band-aid on the cut.",
+      "example_cz": "Dej si náplast na to říznutí.",
+      "tts_text": "Put a band-aid on the cut."
+    },
+    {
+      "word": "cut",
+      "translation_cz": "říznutí / šrám",
+      "example": "I have a small cut.",
+      "example_cz": "Mám malé říznutí.",
+      "tts_text": "I have a small cut."
+    },
+    {
+      "word": "bandage",
+      "translation_cz": "obvaz",
+      "example": "The nurse puts on a bandage.",
+      "example_cz": "Zdravotní sestra dává obvaz.",
+      "tts_text": "The nurse puts on a bandage."
+    },
+    {
+      "word": "ice pack",
+      "translation_cz": "studený obklad",
+      "example": "Put an ice pack on it.",
+      "example_cz": "Dej na to studený obklad.",
+      "tts_text": "Put an ice pack on it."
+    },
+    {
+      "word": "help",
+      "translation_cz": "pomoc",
+      "example": "Call for help.",
+      "example_cz": "Zavolej pomoc.",
+      "tts_text": "Call for help."
+    },
+    {
+      "word": "fall down",
+      "translation_cz": "spadnout",
+      "example": "I fell down and hurt my knee.",
+      "example_cz": "Spadl jsem a poranil si koleno.",
+      "tts_text": "I fell down and hurt my knee."
+    },
+    {
+      "word": "careful",
+      "translation_cz": "opatrný",
+      "example": "Be careful on the stairs.",
+      "example_cz": "Buď opatrný na schodech.",
+      "tts_text": "Be careful on the stairs."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "band-aid",
+      "options": [
+        "náplast",
+        "obvaz",
+        "pomoc"
+      ],
+      "correct": "náplast"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Call for ___.",
+      "answer": "help",
+      "hint_cz": "pomoc"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "cut",
+          "cz": "říznutí / šrám"
+        },
+        {
+          "target": "bandage",
+          "cz": "obvaz"
+        },
+        {
+          "target": "ice pack",
+          "cz": "studený obklad"
+        },
+        {
+          "target": "careful",
+          "cz": "opatrný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Put a band-aid on the cut.",
+      "tts_text": "Put a band-aid on the cut."
+    }
+  ]
+}

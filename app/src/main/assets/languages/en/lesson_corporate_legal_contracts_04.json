@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_legal_contracts_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Signing a document",
+  "title_cz": "Podpis dokumentu",
+  "vocabulary": [
+    {
+      "word": "sign here",
+      "translation_cz": "podepište zde",
+      "example": "Please sign here and date it.",
+      "example_cz": "Prosím podepište zde a uveďte datum.",
+      "tts_text": "Please sign here and date it."
+    },
+    {
+      "word": "initial each page",
+      "translation_cz": "parafovat každou stránku",
+      "example": "Please initial each page.",
+      "example_cz": "Prosím parafujte každou stránku.",
+      "tts_text": "Please initial each page."
+    },
+    {
+      "word": "witness",
+      "translation_cz": "svědek",
+      "example": "We need a witness for this signature.",
+      "example_cz": "Pro tento podpis potřebujeme svědka.",
+      "tts_text": "We need a witness for this signature."
+    },
+    {
+      "word": "legally valid",
+      "translation_cz": "právně platný",
+      "example": "The document is legally valid once signed.",
+      "example_cz": "Dokument je po podpisu právně platný.",
+      "tts_text": "The document is legally valid once signed."
+    },
+    {
+      "word": "electronic signature",
+      "translation_cz": "elektronický podpis",
+      "example": "We accept an electronic signature.",
+      "example_cz": "Přijímáme elektronický podpis.",
+      "tts_text": "We accept an electronic signature."
+    },
+    {
+      "word": "date of signing",
+      "translation_cz": "datum podpisu",
+      "example": "Please add the date of signing.",
+      "example_cz": "Prosím doplňte datum podpisu.",
+      "tts_text": "Please add the date of signing."
+    },
+    {
+      "word": "sign on behalf of",
+      "translation_cz": "podepsat jménem",
+      "example": "I'm signing on behalf of the company.",
+      "example_cz": "Podepisuji jménem společnosti.",
+      "tts_text": "I'm signing on behalf of the company."
+    },
+    {
+      "word": "counterpart",
+      "translation_cz": "vyhotovení / kopie smlouvy",
+      "example": "Each party keeps one counterpart.",
+      "example_cz": "Každá strana si ponechá jedno vyhotovení.",
+      "tts_text": "Each party keeps one counterpart."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_04",
+      "title": "Signing a document",
+      "title_cz": "Podpis dokumentu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Please sign here and initial each page.",
+          "text_cz": "Prosím podepište zde a parafujte každou stránku."
+        },
+        {
+          "speaker": "B",
+          "text": "Do you need a witness for this?",
+          "text_cz": "Potřebujete k tomu svědka?"
+        },
+        {
+          "speaker": "A",
+          "text": "Not necessary, an electronic signature is legally valid.",
+          "text_cz": "Není to nutné, elektronický podpis je právně platný."
+        },
+        {
+          "speaker": "B",
+          "text": "I'm signing on behalf of the company. Should I add the date of signing?",
+          "text_cz": "Podepisuji jménem společnosti. Mám doplnit datum podpisu?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, please. Each party keeps one counterpart.",
+          "text_cz": "Ano, prosím. Každá strana si ponechá jedno vyhotovení."
+        },
+        {
+          "speaker": "B",
+          "text": "Understood, all done.",
+          "text_cz": "Rozumím, hotovo."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sign here",
+      "options": [
+        "podepište zde",
+        "parafovat každou stránku",
+        "svědek"
+      ],
+      "correct": "podepište zde"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The document is ___ once signed.",
+      "answer": "legally valid",
+      "hint_cz": "právně platný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "sign here",
+          "cz": "podepište zde"
+        },
+        {
+          "target": "initial each page",
+          "cz": "parafovat každou stránku"
+        },
+        {
+          "target": "witness",
+          "cz": "svědek"
+        },
+        {
+          "target": "legally valid",
+          "cz": "právně platný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We accept an electronic signature.",
+      "tts_text": "We accept an electronic signature."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please add the ___.",
+      "answer": "date of signing",
+      "hint_cz": "datum podpisu"
+    }
+  ]
+}

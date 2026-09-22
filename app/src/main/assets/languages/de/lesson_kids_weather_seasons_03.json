@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_weather_seasons_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Frühling und Blumen",
+  "title_cz": "Jaro a květiny",
+  "vocabulary": [
+    {
+      "word": "der Frühling",
+      "translation_cz": "jaro",
+      "example": "Der Frühling ist meine liebste Jahreszeit.",
+      "example_cz": "Jaro je mé oblíbené roční období.",
+      "tts_text": "Der Frühling ist meine liebste Jahreszeit."
+    },
+    {
+      "word": "die Blume",
+      "translation_cz": "květina",
+      "example": "Die Blume ist hübsch.",
+      "example_cz": "Ta květina je hezká.",
+      "tts_text": "Die Blume ist hübsch."
+    },
+    {
+      "word": "die Tulpe",
+      "translation_cz": "tulipán",
+      "example": "Die Tulpe ist rot.",
+      "example_cz": "Tulipán je červený.",
+      "tts_text": "Die Tulpe ist rot."
+    },
+    {
+      "word": "wachsen",
+      "translation_cz": "růst",
+      "example": "Im Frühling wachsen die Pflanzen.",
+      "example_cz": "Na jaře rostliny rostou.",
+      "tts_text": "Im Frühling wachsen die Pflanzen."
+    },
+    {
+      "word": "grün",
+      "translation_cz": "zelený",
+      "example": "Das Gras ist grün.",
+      "example_cz": "Tráva je zelená.",
+      "tts_text": "Das Gras ist grün."
+    },
+    {
+      "word": "der Schmetterling",
+      "translation_cz": "motýl",
+      "example": "Ein Schmetterling fliegt über die Blumen.",
+      "example_cz": "Motýl létá nad květinami.",
+      "tts_text": "Ein Schmetterling fliegt über die Blumen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Blume",
+      "options": [
+        "květina",
+        "tulipán",
+        "motýl"
+      ],
+      "correct": "květina"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die ___ ist rot.",
+      "answer": "Tulpe",
+      "hint_cz": "tulipán"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Frühling",
+          "cz": "jaro"
+        },
+        {
+          "target": "wachsen",
+          "cz": "růst"
+        },
+        {
+          "target": "grün",
+          "cz": "zelený"
+        },
+        {
+          "target": "der Schmetterling",
+          "cz": "motýl"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Die Blume ist hübsch.",
+      "tts_text": "Die Blume ist hübsch."
+    }
+  ]
+}

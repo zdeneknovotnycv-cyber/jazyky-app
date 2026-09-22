@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_customer_service_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Handling a complaint",
+  "title_cz": "Vyřizování stížnosti",
+  "vocabulary": [
+    {
+      "word": "I understand your frustration",
+      "translation_cz": "Chápu vaši frustraci",
+      "example": "I understand your frustration, let's fix this.",
+      "example_cz": "Chápu vaši frustraci, pojďme to napravit.",
+      "tts_text": "I understand your frustration, let's fix this."
+    },
+    {
+      "word": "file a complaint",
+      "translation_cz": "podat stížnost",
+      "example": "You can file a complaint at the front desk.",
+      "example_cz": "Stížnost můžete podat u recepce.",
+      "tts_text": "You can file a complaint at the front desk."
+    },
+    {
+      "word": "What seems to be the problem?",
+      "translation_cz": "V čem je problém?",
+      "example": "What seems to be the problem with your order?",
+      "example_cz": "V čem je problém s vaší objednávkou?",
+      "tts_text": "What seems to be the problem with your order?"
+    },
+    {
+      "word": "I'll look into it",
+      "translation_cz": "Prověřím to",
+      "example": "I'll look into it right away.",
+      "example_cz": "Prověřím to hned.",
+      "tts_text": "I'll look into it right away."
+    },
+    {
+      "word": "compensation",
+      "translation_cz": "odškodnění, náhrada",
+      "example": "We can offer you compensation for the inconvenience.",
+      "example_cz": "Můžeme vám nabídnout náhradu za způsobené nepříjemnosti.",
+      "tts_text": "We can offer you compensation for the inconvenience."
+    },
+    {
+      "word": "inconvenience",
+      "translation_cz": "nepříjemnost, obtíž",
+      "example": "We apologize for the inconvenience.",
+      "example_cz": "Omlouváme se za nepříjemnosti.",
+      "tts_text": "We apologize for the inconvenience."
+    },
+    {
+      "word": "resolve the issue",
+      "translation_cz": "vyřešit problém",
+      "example": "We want to resolve the issue as soon as possible.",
+      "example_cz": "Chceme problém vyřešit co nejdříve.",
+      "tts_text": "We want to resolve the issue as soon as possible."
+    },
+    {
+      "word": "escalate",
+      "translation_cz": "eskalovat, předat výše",
+      "example": "If needed, I will escalate this to my manager.",
+      "example_cz": "V případě potřeby to předám svému nadřízenému.",
+      "tts_text": "If needed, I will escalate this to my manager."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_customer_service_02",
+      "title": "A customer complains about a late order",
+      "title_cz": "Zákazník si stěžuje na pozdní objednávku",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hello, I'd like to file a complaint. My order is three days late.",
+          "text_cz": "Dobrý den, chtěl bych podat stížnost. Moje objednávka má tři dny zpoždění."
+        },
+        {
+          "speaker": "B",
+          "text": "I'm sorry to hear that. What seems to be the problem exactly?",
+          "text_cz": "Je mi líto, že to slyším. V čem je přesně problém?"
+        },
+        {
+          "speaker": "A",
+          "text": "I understand your frustration. I'll look into it right away.",
+          "text_cz": "Chápu vaši frustraci. Prověřím to hned."
+        },
+        {
+          "speaker": "B",
+          "text": "Thank you, I would also appreciate some compensation.",
+          "text_cz": "Děkuji, ocenil bych také nějaké odškodnění."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "I understand your frustration",
+      "options": [
+        "Chápu vaši frustraci",
+        "Prověřím to",
+        "Podat stížnost"
+      ],
+      "correct": "Chápu vaši frustraci"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I'll ___ into it right away.",
+      "answer": "look",
+      "hint_cz": "podívám se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "compensation",
+          "cz": "odškodnění, náhrada"
+        },
+        {
+          "target": "inconvenience",
+          "cz": "nepříjemnost, obtíž"
+        },
+        {
+          "target": "resolve the issue",
+          "cz": "vyřešit problém"
+        },
+        {
+          "target": "escalate",
+          "cz": "eskalovat, předat výše"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I understand your frustration, let's fix this.",
+      "tts_text": "I understand your frustration, let's fix this."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We want to ___ the issue as soon as possible.",
+      "answer": "resolve",
+      "hint_cz": "vyřešit"
+    }
+  ]
+}

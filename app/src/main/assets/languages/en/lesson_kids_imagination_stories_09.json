@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_imagination_stories_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "An invented machine",
+  "title_cz": "Vynalezený stroj",
+  "vocabulary": [
+    {
+      "word": "machine",
+      "translation_cz": "stroj",
+      "example": "I build a strange machine.",
+      "example_cz": "Sestrojuji zvláštní stroj.",
+      "tts_text": "I build a strange machine."
+    },
+    {
+      "word": "invent",
+      "translation_cz": "vynalézt",
+      "example": "I invent a flying bicycle.",
+      "example_cz": "Vynalézám létající kolo.",
+      "tts_text": "I invent a flying bicycle."
+    },
+    {
+      "word": "robot",
+      "translation_cz": "robot",
+      "example": "My robot helps me clean my room.",
+      "example_cz": "Můj robot mi pomáhá uklízet pokoj.",
+      "tts_text": "My robot helps me clean my room."
+    },
+    {
+      "word": "button",
+      "translation_cz": "tlačítko",
+      "example": "I press a green button.",
+      "example_cz": "Mačkám zelené tlačítko.",
+      "tts_text": "I press a green button."
+    },
+    {
+      "word": "wheel",
+      "translation_cz": "kolo, kolečko",
+      "example": "The machine has a big wheel.",
+      "example_cz": "Stroj má velké kolo.",
+      "tts_text": "The machine has a big wheel."
+    },
+    {
+      "word": "amazing",
+      "translation_cz": "úžasný",
+      "example": "My machine is truly amazing.",
+      "example_cz": "Můj stroj je opravdu úžasný.",
+      "tts_text": "My machine is truly amazing."
+    },
+    {
+      "word": "idea",
+      "translation_cz": "nápad",
+      "example": "I have a great idea for a machine.",
+      "example_cz": "Mám skvělý nápad na stroj.",
+      "tts_text": "I have a great idea for a machine."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "machine",
+      "options": [
+        "stroj",
+        "vynalézt",
+        "robot"
+      ],
+      "correct": "stroj"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I ___ a flying bicycle.",
+      "answer": "invent",
+      "hint_cz": "vynalézt"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "robot",
+          "cz": "robot"
+        },
+        {
+          "target": "button",
+          "cz": "tlačítko"
+        },
+        {
+          "target": "wheel",
+          "cz": "kolo, kolečko"
+        },
+        {
+          "target": "amazing",
+          "cz": "úžasný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I have a great idea for a machine.",
+      "tts_text": "I have a great idea for a machine."
+    }
+  ]
+}

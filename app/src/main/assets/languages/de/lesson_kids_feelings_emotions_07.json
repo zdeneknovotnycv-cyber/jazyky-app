@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_feelings_emotions_07",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Überrascht",
+  "title_cz": "Překvapený",
+  "vocabulary": [
+    {
+      "word": "überrascht",
+      "translation_cz": "překvapený",
+      "example": "Ich bin überrascht von dem Geschenk.",
+      "example_cz": "Jsem překvapený tím dárkem.",
+      "tts_text": "Ich bin überrascht von dem Geschenk."
+    },
+    {
+      "word": "wow",
+      "translation_cz": "páni",
+      "example": "Wow, das ist toll!",
+      "example_cz": "Páni, to je úžasné!",
+      "tts_text": "Wow, das ist toll!"
+    },
+    {
+      "word": "unerwartet",
+      "translation_cz": "nečekaný",
+      "example": "Es war ein völlig unerwarteter Besuch.",
+      "example_cz": "Byla to úplně nečekaná návštěva.",
+      "tts_text": "Es war ein völlig unerwarteter Besuch."
+    },
+    {
+      "word": "hüpfen",
+      "translation_cz": "poskočit",
+      "example": "Ich hüpfe, wenn ich überrascht werde.",
+      "example_cz": "Když jsem překvapený, poskočím.",
+      "tts_text": "Ich hüpfe, wenn ich überrascht werde."
+    },
+    {
+      "word": "nach Luft schnappen",
+      "translation_cz": "lapnout po dechu",
+      "example": "Sie schnappte nach Luft, als sie den Welpen sah.",
+      "example_cz": "Když uviděla štěně, lapla po dechu.",
+      "tts_text": "Sie schnappte nach Luft, als sie den Welpen sah."
+    },
+    {
+      "word": "raten",
+      "translation_cz": "hádat",
+      "example": "Kannst du mein Geheimnis erraten?",
+      "example_cz": "Uhádneš moje překvapení?",
+      "tts_text": "Kannst du mein Geheimnis erraten?"
+    },
+    {
+      "word": "mit großen Augen",
+      "translation_cz": "s vykulenýma očima",
+      "example": "Er sah mich mit großen Augen an.",
+      "example_cz": "Díval se na mě s vykulenýma očima.",
+      "tts_text": "Er sah mich mit großen Augen an."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "überrascht",
+      "options": [
+        "překvapený",
+        "smutný",
+        "radost"
+      ],
+      "correct": "překvapený"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bin ___ von dem Geschenk.",
+      "answer": "überrascht",
+      "hint_cz": "překvapený"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "wow",
+          "cz": "páni"
+        },
+        {
+          "target": "unerwartet",
+          "cz": "nečekaný"
+        },
+        {
+          "target": "hüpfen",
+          "cz": "poskočit"
+        },
+        {
+          "target": "nach Luft schnappen",
+          "cz": "lapnout po dechu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wow, das ist toll!",
+      "tts_text": "Wow, das ist toll!"
+    }
+  ]
+}

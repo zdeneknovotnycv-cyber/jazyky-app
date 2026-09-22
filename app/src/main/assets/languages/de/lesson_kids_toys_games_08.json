@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_toys_games_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Spielzeug Teilen",
+  "title_cz": "Půjčování hraček",
+  "vocabulary": [
+    {
+      "word": "teilen",
+      "translation_cz": "sdílet / půjčit",
+      "example": "Bitte teile dein Spielzeug.",
+      "example_cz": "Prosím, půjč své hračky.",
+      "tts_text": "Bitte teile dein Spielzeug."
+    },
+    {
+      "word": "ausleihen",
+      "translation_cz": "půjčit si",
+      "example": "Kann ich mir dein Auto ausleihen?",
+      "example_cz": "Můžu si půjčit tvoje autíčko?",
+      "tts_text": "Kann ich mir dein Auto ausleihen?"
+    },
+    {
+      "word": "meins",
+      "translation_cz": "moje",
+      "example": "Dieses Spielzeug ist meins.",
+      "example_cz": "Tato hračka je moje.",
+      "tts_text": "Dieses Spielzeug ist meins."
+    },
+    {
+      "word": "deins",
+      "translation_cz": "tvoje",
+      "example": "Dieses Spielzeug ist deins.",
+      "example_cz": "Ta hračka je tvoje.",
+      "tts_text": "Dieses Spielzeug ist deins."
+    },
+    {
+      "word": "nett",
+      "translation_cz": "hodný, laskavý",
+      "example": "Es ist nett zu teilen.",
+      "example_cz": "Je hezké se dělit.",
+      "tts_text": "Es ist nett zu teilen."
+    },
+    {
+      "word": "zurückgeben",
+      "translation_cz": "vrátit",
+      "example": "Bitte gib es zurück, wenn du fertig bist.",
+      "example_cz": "Vrať to prosím, až budeš hotový.",
+      "tts_text": "Bitte gib es zurück, wenn du fertig bist."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "ausleihen",
+      "options": [
+        "půjčit si",
+        "moje",
+        "vrátit"
+      ],
+      "correct": "půjčit si"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Kann ich mir dein Auto ___?",
+      "answer": "ausleihen",
+      "hint_cz": "půjčit si"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "teilen",
+          "cz": "sdílet / půjčit"
+        },
+        {
+          "target": "meins",
+          "cz": "moje"
+        },
+        {
+          "target": "deins",
+          "cz": "tvoje"
+        },
+        {
+          "target": "zurückgeben",
+          "cz": "vrátit"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte teile dein Spielzeug.",
+      "tts_text": "Bitte teile dein Spielzeug."
+    }
+  ]
+}

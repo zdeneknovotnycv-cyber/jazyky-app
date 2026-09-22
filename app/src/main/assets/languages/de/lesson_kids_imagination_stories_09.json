@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_imagination_stories_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Eine erfundene Maschine",
+  "title_cz": "Vynalezený stroj",
+  "vocabulary": [
+    {
+      "word": "die Maschine",
+      "translation_cz": "stroj",
+      "example": "Ich baue eine seltsame Maschine.",
+      "example_cz": "Sestrojuji zvláštní stroj.",
+      "tts_text": "Ich baue eine seltsame Maschine."
+    },
+    {
+      "word": "erfinden",
+      "translation_cz": "vynalézt",
+      "example": "Ich erfinde ein fliegendes Fahrrad.",
+      "example_cz": "Vynalézám létající kolo.",
+      "tts_text": "Ich erfinde ein fliegendes Fahrrad."
+    },
+    {
+      "word": "der Roboter",
+      "translation_cz": "robot",
+      "example": "Mein Roboter hilft mir, mein Zimmer aufzuräumen.",
+      "example_cz": "Můj robot mi pomáhá uklízet pokoj.",
+      "tts_text": "Mein Roboter hilft mir, mein Zimmer aufzuräumen."
+    },
+    {
+      "word": "der Knopf",
+      "translation_cz": "tlačítko",
+      "example": "Ich drücke einen grünen Knopf.",
+      "example_cz": "Mačkám zelené tlačítko.",
+      "tts_text": "Ich drücke einen grünen Knopf."
+    },
+    {
+      "word": "das Rad",
+      "translation_cz": "kolo, kolečko",
+      "example": "Die Maschine hat ein großes Rad.",
+      "example_cz": "Stroj má velké kolo.",
+      "tts_text": "Die Maschine hat ein großes Rad."
+    },
+    {
+      "word": "erstaunlich",
+      "translation_cz": "úžasný",
+      "example": "Meine Maschine ist wirklich erstaunlich.",
+      "example_cz": "Můj stroj je opravdu úžasný.",
+      "tts_text": "Meine Maschine ist wirklich erstaunlich."
+    },
+    {
+      "word": "die Idee",
+      "translation_cz": "nápad",
+      "example": "Ich habe eine tolle Idee für eine Maschine.",
+      "example_cz": "Mám skvělý nápad na stroj.",
+      "tts_text": "Ich habe eine tolle Idee für eine Maschine."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Maschine",
+      "options": [
+        "stroj",
+        "vynalézt",
+        "robot"
+      ],
+      "correct": "stroj"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ ein fliegendes Fahrrad.",
+      "answer": "erfinde",
+      "hint_cz": "vynalézt"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Roboter",
+          "cz": "robot"
+        },
+        {
+          "target": "der Knopf",
+          "cz": "tlačítko"
+        },
+        {
+          "target": "das Rad",
+          "cz": "kolo, kolečko"
+        },
+        {
+          "target": "erstaunlich",
+          "cz": "úžasný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe eine tolle Idee für eine Maschine.",
+      "tts_text": "Ich habe eine tolle Idee für eine Maschine."
+    }
+  ]
+}

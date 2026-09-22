@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_problem_solving_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Handling a client complaint internally",
+  "title_cz": "Interní řešení klientovy stížnosti",
+  "vocabulary": [
+    {
+      "word": "the client complained about",
+      "translation_cz": "klient si stěžoval na",
+      "example": "The client complained about the delay.",
+      "example_cz": "Klient si stěžoval na zpoždění.",
+      "tts_text": "The client complained about the delay."
+    },
+    {
+      "word": "dissatisfied",
+      "translation_cz": "nespokojený",
+      "example": "The client is dissatisfied with the service.",
+      "example_cz": "Klient je nespokojený se službou.",
+      "tts_text": "The client is dissatisfied with the service."
+    },
+    {
+      "word": "resolve the complaint",
+      "translation_cz": "vyřešit stížnost",
+      "example": "We need to resolve the complaint quickly.",
+      "example_cz": "Musíme stížnost rychle vyřešit.",
+      "tts_text": "We need to resolve the complaint quickly."
+    },
+    {
+      "word": "compensate",
+      "translation_cz": "kompenzovat",
+      "example": "We could compensate them with a discount.",
+      "example_cz": "Mohli bychom je kompenzovat slevou.",
+      "tts_text": "We could compensate them with a discount."
+    },
+    {
+      "word": "follow up with",
+      "translation_cz": "kontaktovat / navázat s",
+      "example": "Please follow up with the client tomorrow.",
+      "example_cz": "Prosím zítra kontaktujte klienta.",
+      "tts_text": "Please follow up with the client tomorrow."
+    },
+    {
+      "word": "damage control",
+      "translation_cz": "zmírnění škod",
+      "example": "This is important for damage control.",
+      "example_cz": "Tohle je důležité pro zmírnění škod.",
+      "tts_text": "This is important for damage control."
+    },
+    {
+      "word": "keep the client informed",
+      "translation_cz": "informovat klienta",
+      "example": "Let's keep the client informed.",
+      "example_cz": "Informujme klienta o vývoji.",
+      "tts_text": "Let's keep the client informed."
+    },
+    {
+      "word": "regain trust",
+      "translation_cz": "znovu získat důvěru",
+      "example": "We need to regain their trust.",
+      "example_cz": "Musíme znovu získat jejich důvěru.",
+      "tts_text": "We need to regain their trust."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_09",
+      "title": "A client complaint",
+      "title_cz": "Stížnost klienta",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "The client complained about the late delivery. They're quite dissatisfied.",
+          "text_cz": "Klient si stěžoval na pozdní dodání. Je docela nespokojený."
+        },
+        {
+          "speaker": "B",
+          "text": "Let's resolve the complaint today.",
+          "text_cz": "Vyřešme tu stížnost dnes."
+        },
+        {
+          "speaker": "A",
+          "text": "I suggest we compensate them with a discount.",
+          "text_cz": "Navrhuji, abychom je kompenzovali slevou."
+        },
+        {
+          "speaker": "B",
+          "text": "Good idea, for damage control. Can you follow up with the client?",
+          "text_cz": "Dobrý nápad, kvůli zmírnění škod. Můžete kontaktovat klienta?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, I'll keep them informed every step.",
+          "text_cz": "Ano, budu je informovat o každém kroku."
+        },
+        {
+          "speaker": "B",
+          "text": "We really need to regain their trust.",
+          "text_cz": "Opravdu musíme znovu získat jejich důvěru."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "the client complained about",
+      "options": [
+        "klient si stěžoval na",
+        "nespokojený",
+        "vyřešit stížnost"
+      ],
+      "correct": "klient si stěžoval na"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We could ___ them with a discount.",
+      "answer": "compensate",
+      "hint_cz": "kompenzovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "the client complained about",
+          "cz": "klient si stěžoval na"
+        },
+        {
+          "target": "dissatisfied",
+          "cz": "nespokojený"
+        },
+        {
+          "target": "resolve the complaint",
+          "cz": "vyřešit stížnost"
+        },
+        {
+          "target": "compensate",
+          "cz": "kompenzovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please follow up with the client tomorrow.",
+      "tts_text": "Please follow up with the client tomorrow."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This is important for ___.",
+      "answer": "damage control",
+      "hint_cz": "zmírnění škod"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "de_corporate_hr_recruitment_04",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einarbeitung eines neuen Mitarbeiters",
+  "title_cz": "Zaškolení nového zaměstnance",
+  "vocabulary": [
+    {"word": "die Einarbeitung", "translation_cz": "zaškolení / onboarding", "example": "Die Einarbeitung dauert meist eine Woche.", "example_cz": "Zaškolení obvykle trvá jeden týden.", "tts_text": "Die Einarbeitung dauert meist eine Woche."},
+    {"word": "die Einführung", "translation_cz": "úvodní seznámení", "example": "Die Einführung behandelt die Firmenrichtlinien.", "example_cz": "Úvodní seznámení zahrnuje firemní pravidla.", "tts_text": "Die Einführung behandelt die Firmenrichtlinien."},
+    {"word": "der IT-Zugang", "translation_cz": "přístup do IT systémů", "example": "Sie erhalten Ihren IT-Zugang am ersten Tag.", "example_cz": "Přístup do IT systémů získáte první den.", "tts_text": "Sie erhalten Ihren IT-Zugang am ersten Tag."},
+    {"word": "der Mentor", "translation_cz": "mentor", "example": "Ihr Mentor hilft Ihnen im ersten Monat.", "example_cz": "Váš mentor vám pomůže během prvního měsíce.", "tts_text": "Ihr Mentor hilft Ihnen im ersten Monat."},
+    {"word": "das Mitarbeiterhandbuch", "translation_cz": "příručka pro zaměstnance", "example": "Bitte lesen Sie das Mitarbeiterhandbuch.", "example_cz": "Přečtěte si prosím příručku pro zaměstnance.", "tts_text": "Bitte lesen Sie das Mitarbeiterhandbuch."},
+    {"word": "die Probezeit", "translation_cz": "zkušební doba", "example": "Die Probezeit beträgt drei Monate.", "example_cz": "Zkušební doba je tři měsíce.", "tts_text": "Die Probezeit beträgt drei Monate."},
+    {"word": "der Arbeitsplatz", "translation_cz": "pracovní místo / stanice", "example": "Ihr Arbeitsplatz ist im dritten Stock eingerichtet.", "example_cz": "Vaše pracovní místo je připraveno ve třetím patře.", "tts_text": "Ihr Arbeitsplatz ist im dritten Stock eingerichtet."},
+    {"word": "das Willkommenspaket", "translation_cz": "uvítací balíček", "example": "Sie erhalten am ersten Tag ein Willkommenspaket.", "example_cz": "První den obdržíte uvítací balíček.", "tts_text": "Sie erhalten am ersten Tag ein Willkommenspaket."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_first_day",
+      "title": "Der erste Tag im Büro",
+      "title_cz": "První den v kanceláři",
+      "lines": [
+        {"speaker": "A", "text": "Willkommen im Unternehmen! Hier ist Ihr Willkommenspaket.", "text_cz": "Vítejte ve společnosti! Zde je váš uvítací balíček."},
+        {"speaker": "B", "text": "Vielen Dank. Wann bekomme ich meinen IT-Zugang?", "text_cz": "Děkuji mnohokrát. Kdy dostanu přístup do IT systémů?"},
+        {"speaker": "A", "text": "Heute Nachmittag. Ihr Mentor zeigt Ihnen auch Ihren Arbeitsplatz.", "text_cz": "Dnes odpoledne. Váš mentor vám také ukáže vaše pracovní místo."},
+        {"speaker": "B", "text": "Super, ich freue mich, endlich anzufangen.", "text_cz": "Skvělé, těším se, až konečně začnu."}
+      ]
+    },
+    {
+      "id": "conv_orientation",
+      "title": "Den Ablauf der Einführung erklären",
+      "title_cz": "Vysvětlení plánu úvodního seznámení",
+      "lines": [
+        {"speaker": "A", "text": "Die Einführung beginnt um neun Uhr und dauert etwa zwei Stunden.", "text_cz": "Úvodní seznámení začíná v devět a trvá zhruba dvě hodiny."},
+        {"speaker": "B", "text": "Sprechen wir auch über die Probezeit?", "text_cz": "Budeme mluvit i o zkušební době?"},
+        {"speaker": "A", "text": "Ja, und bitte lesen Sie vorher das Mitarbeiterhandbuch.", "text_cz": "Ano, a přečtěte si prosím předem příručku pro zaměstnance."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "der Mentor", "options": ["mentor", "zaškolení", "přístup"], "correct": "mentor"},
+    {"type": "fill_gap", "sentence": "Bitte lesen Sie das Mitarbeiter___.", "answer": "handbuch", "hint_cz": "příručka"},
+    {"type": "match_pairs", "pairs": [{"target": "die Einarbeitung", "cz": "zaškolení"}, {"target": "der Arbeitsplatz", "cz": "pracovní místo"}, {"target": "die Probezeit", "cz": "zkušební doba"}, {"target": "die Einführung", "cz": "úvodní seznámení"}]},
+    {"type": "speak_and_check", "target_phrase": "Ihr Mentor hilft Ihnen im ersten Monat.", "tts_text": "Ihr Mentor hilft Ihnen im ersten Monat."},
+    {"type": "fill_gap", "sentence": "Die ___ beträgt drei Monate.", "answer": "Probezeit", "hint_cz": "zkušební doba"}
+  ]
+}

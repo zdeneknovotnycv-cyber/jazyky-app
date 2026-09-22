@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_body_health_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Healthy Food vs. Junk Food",
+  "title_cz": "Zdravé jídlo a nezdravé jídlo",
+  "vocabulary": [
+    {
+      "word": "healthy food",
+      "translation_cz": "zdravé jídlo",
+      "example": "Fruit is healthy food.",
+      "example_cz": "Ovoce je zdravé jídlo.",
+      "tts_text": "Fruit is healthy food."
+    },
+    {
+      "word": "junk food",
+      "translation_cz": "nezdravé jídlo",
+      "example": "Chips are junk food.",
+      "example_cz": "Chipsy jsou nezdravé jídlo.",
+      "tts_text": "Chips are junk food."
+    },
+    {
+      "word": "vegetables",
+      "translation_cz": "zelenina",
+      "example": "I eat vegetables every day.",
+      "example_cz": "Jím zeleninu každý den.",
+      "tts_text": "I eat vegetables every day."
+    },
+    {
+      "word": "sugar",
+      "translation_cz": "cukr",
+      "example": "Too much sugar is bad.",
+      "example_cz": "Moc cukru je špatné.",
+      "tts_text": "Too much sugar is bad."
+    },
+    {
+      "word": "candy",
+      "translation_cz": "bonbon",
+      "example": "Candy is sweet but not healthy.",
+      "example_cz": "Bonbon je sladký, ale není zdravý.",
+      "tts_text": "Candy is sweet but not healthy."
+    },
+    {
+      "word": "water",
+      "translation_cz": "voda",
+      "example": "I drink water instead of soda.",
+      "example_cz": "Piju vodu místo limonády.",
+      "tts_text": "I drink water instead of soda."
+    },
+    {
+      "word": "balanced diet",
+      "translation_cz": "vyvážená strava",
+      "example": "A balanced diet keeps me strong.",
+      "example_cz": "Vyvážená strava mě udržuje silného.",
+      "tts_text": "A balanced diet keeps me strong."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "healthy food",
+      "options": [
+        "zdravé jídlo",
+        "nezdravé jídlo",
+        "bonbon"
+      ],
+      "correct": "zdravé jídlo"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Chips are ___ food.",
+      "answer": "junk",
+      "hint_cz": "nezdravé"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "vegetables",
+          "cz": "zelenina"
+        },
+        {
+          "target": "sugar",
+          "cz": "cukr"
+        },
+        {
+          "target": "candy",
+          "cz": "bonbon"
+        },
+        {
+          "target": "water",
+          "cz": "voda"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Fruit is healthy food.",
+      "tts_text": "Fruit is healthy food."
+    }
+  ]
+}

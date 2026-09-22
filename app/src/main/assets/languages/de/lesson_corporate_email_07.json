@@ -1,0 +1,138 @@
+{
+  "id": "de_adult_corporate_email_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Betreffzeilen von E-Mails",
+  "title_cz": "Předmět e-mailu",
+  "vocabulary": [
+    {
+      "word": "die Betreffzeile",
+      "translation_cz": "předmět e-mailu",
+      "example": "Achten Sie darauf, dass die Betreffzeile klar ist.",
+      "example_cz": "Ujistěte se, že předmět e-mailu je jasný.",
+      "tts_text": "Achten Sie darauf, dass die Betreffzeile klar ist."
+    },
+    {
+      "word": "prägnant",
+      "translation_cz": "stručný",
+      "example": "Halten Sie die Betreffzeile prägnant.",
+      "example_cz": "Předmět e-mailu udržujte stručný.",
+      "tts_text": "Halten Sie die Betreffzeile prägnant."
+    },
+    {
+      "word": "Handlung erforderlich",
+      "translation_cz": "vyžaduje se akce",
+      "example": "Ich habe 'Handlung erforderlich' in den Betreff geschrieben.",
+      "example_cz": "Do předmětu jsem napsal 'Vyžaduje se akce'.",
+      "tts_text": "Ich habe 'Handlung erforderlich' in den Betreff geschrieben."
+    },
+    {
+      "word": "die Referenznummer",
+      "translation_cz": "referenční číslo",
+      "example": "Geben Sie die Referenznummer im Betreff an.",
+      "example_cz": "Do předmětu uveďte referenční číslo.",
+      "tts_text": "Geben Sie die Referenznummer im Betreff an."
+    },
+    {
+      "word": "Aufmerksamkeit erregen",
+      "translation_cz": "upoutat pozornost",
+      "example": "Eine gute Betreffzeile erregt Aufmerksamkeit.",
+      "example_cz": "Dobrý předmět e-mailu upoutá pozornost.",
+      "tts_text": "Eine gute Betreffzeile erregt Aufmerksamkeit."
+    },
+    {
+      "word": "irreführend",
+      "translation_cz": "zavádějící",
+      "example": "Vermeiden Sie eine irreführende Betreffzeile.",
+      "example_cz": "Vyhněte se zavádějícímu předmětu.",
+      "tts_text": "Vermeiden Sie eine irreführende Betreffzeile."
+    },
+    {
+      "word": "den Inhalt zusammenfassen",
+      "translation_cz": "shrnout obsah",
+      "example": "Der Betreff sollte den Inhalt zusammenfassen.",
+      "example_cz": "Předmět by měl shrnout obsah.",
+      "tts_text": "Der Betreff sollte den Inhalt zusammenfassen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_subject_line",
+      "title": "Eine klare Betreffzeile wählen",
+      "title_cz": "Výběr jasného předmětu e-mailu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Welche Betreffzeile soll ich für diese dringende Anfrage verwenden?",
+          "text_cz": "Jaký předmět mám použít pro tuto naléhavou žádost?"
+        },
+        {
+          "speaker": "B",
+          "text": "Halte sie prägnant und schreibe am Anfang 'Handlung erforderlich'.",
+          "text_cz": "Udrž ho stručný a na začátek napiš 'Vyžaduje se akce'."
+        },
+        {
+          "speaker": "A",
+          "text": "Soll ich auch die Referenznummer einfügen?",
+          "text_cz": "Mám do něj přidat i referenční číslo?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, das hilft, dass der Betreff den Inhalt klar zusammenfasst.",
+          "text_cz": "Ano, to pomůže, aby předmět jasně shrnul obsah."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "prägnant",
+      "options": [
+        "stručný",
+        "zavádějící",
+        "referenční"
+      ],
+      "correct": "stručný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Achten Sie darauf, dass die Betreff___ klar ist.",
+      "answer": "zeile",
+      "hint_cz": "řádek"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Handlung erforderlich",
+          "cz": "vyžaduje se akce"
+        },
+        {
+          "target": "irreführend",
+          "cz": "zavádějící"
+        },
+        {
+          "target": "Aufmerksamkeit erregen",
+          "cz": "upoutat pozornost"
+        },
+        {
+          "target": "die Referenznummer",
+          "cz": "referenční číslo"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Halten Sie die Betreffzeile prägnant.",
+      "tts_text": "Halten Sie die Betreffzeile prägnant."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der Betreff sollte den Inhalt ___.",
+      "answer": "zusammenfassen",
+      "hint_cz": "shrnout"
+    }
+  ]
+}

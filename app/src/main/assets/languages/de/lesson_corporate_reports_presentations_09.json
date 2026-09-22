@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_reports_presentations_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Folien effektiv nutzen",
+  "title_cz": "Efektivní používání slidů",
+  "vocabulary": [
+    {
+      "word": "die Folie",
+      "translation_cz": "slide / snímek",
+      "example": "Gehen wir zur nächsten Folie.",
+      "example_cz": "Přejděme na další slide.",
+      "tts_text": "Gehen wir zur nächsten Folie."
+    },
+    {
+      "word": "die Aufzählung",
+      "translation_cz": "seznam s odrážkami",
+      "example": "Halten Sie Aufzählungen kurz und klar.",
+      "example_cz": "Udržujte seznamy s odrážkami krátké a jasné.",
+      "tts_text": "Halten Sie Aufzählungen kurz und klar."
+    },
+    {
+      "word": "das Bildmaterial",
+      "translation_cz": "vizuální prvek",
+      "example": "Gutes Bildmaterial ist mehr wert als Text.",
+      "example_cz": "Dobrý vizuální prvek má větší hodnotu než text.",
+      "tts_text": "Gutes Bildmaterial ist mehr wert als Text."
+    },
+    {
+      "word": "die Schriftgröße",
+      "translation_cz": "velikost písma",
+      "example": "Die Schriftgröße sollte auch von hinten lesbar sein.",
+      "example_cz": "Velikost písma by měla být čitelná i vzadu.",
+      "tts_text": "Die Schriftgröße sollte auch von hinten lesbar sein."
+    },
+    {
+      "word": "es einfach halten",
+      "translation_cz": "udržet to jednoduché",
+      "example": "Halten Sie es einfach, eine Idee pro Folie.",
+      "example_cz": "Udržte to jednoduché, jedna myšlenka na slide.",
+      "tts_text": "Halten Sie es einfach, eine Idee pro Folie."
+    },
+    {
+      "word": "der Übergang",
+      "translation_cz": "přechod",
+      "example": "Nutzen Sie einen sanften Übergang zwischen den Folien.",
+      "example_cz": "Použijte plynulý přechod mezi slidy.",
+      "tts_text": "Nutzen Sie einen sanften Übergang zwischen den Folien."
+    },
+    {
+      "word": "die Unordnung",
+      "translation_cz": "chaos / nepřehlednost",
+      "example": "Vermeiden Sie Unordnung auf Ihren Folien.",
+      "example_cz": "Vyhněte se chaosu na svých slidech.",
+      "tts_text": "Vermeiden Sie Unordnung auf Ihren Folien."
+    },
+    {
+      "word": "die visuelle Hilfe",
+      "translation_cz": "vizuální pomůcka",
+      "example": "Das Diagramm ist hier eine großartige visuelle Hilfe.",
+      "example_cz": "Graf je zde skvělou vizuální pomůckou.",
+      "tts_text": "Das Diagramm ist hier eine großartige visuelle Hilfe."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_slides_feedback",
+      "title": "Folien vor der Präsentation prüfen",
+      "title_cz": "Kontrola slidů před prezentací",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Kannst du dir meine Folien vor dem Meeting ansehen?",
+          "text_cz": "Můžeš se podívat na mé slidy před schůzkou?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar. Diese hat zu viel Text, es herrscht viel Unordnung.",
+          "text_cz": "Jasně. Tento má moc textu, je tam hodně chaosu."
+        },
+        {
+          "speaker": "A",
+          "text": "Du hast recht, ich sollte es einfach halten, eine Idee pro Folie.",
+          "text_cz": "Máš pravdu, měl bych to udržet jednoduché, jedna myšlenka na slide."
+        },
+        {
+          "speaker": "B",
+          "text": "Vergrößere auch die Schriftgröße, damit sie von hinten lesbar ist.",
+          "text_cz": "Také zvětši velikost písma, ať je to čitelné i vzadu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Folie",
+      "options": [
+        "slide / snímek",
+        "vizuální prvek",
+        "velikost písma"
+      ],
+      "correct": "slide / snímek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Halten Sie Aufzählungen kurz und klar.",
+      "answer": "die Aufzählung",
+      "hint_cz": "seznam s odrážkami"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Halten Sie es einfach, eine Idee pro Folie.",
+      "answer": "es einfach halten",
+      "hint_cz": "udržet to jednoduché"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Übergang",
+          "cz": "přechod"
+        },
+        {
+          "target": "die Unordnung",
+          "cz": "chaos / nepřehlednost"
+        },
+        {
+          "target": "die visuelle Hilfe",
+          "cz": "vizuální pomůcka"
+        },
+        {
+          "target": "das Bildmaterial",
+          "cz": "vizuální prvek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Kannst du dir meine Folien vor dem Meeting ansehen?",
+      "tts_text": "Kannst du dir meine Folien vor dem Meeting ansehen?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Klar. Diese hat zu viel Text, es herrscht viel Unordnung.",
+      "tts_text": "Klar. Diese hat zu viel Text, es herrscht viel Unordnung."
+    }
+  ]
+}

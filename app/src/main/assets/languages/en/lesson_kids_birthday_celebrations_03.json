@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_birthday_celebrations_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Easter",
+  "title_cz": "Velikonoce",
+  "vocabulary": [
+    {
+      "word": "Easter",
+      "translation_cz": "Velikonoce",
+      "example": "We paint eggs for Easter.",
+      "example_cz": "Na Velikonoce malujeme vajíčka.",
+      "tts_text": "We paint eggs for Easter."
+    },
+    {
+      "word": "egg",
+      "translation_cz": "vajíčko",
+      "example": "I paint a colorful egg.",
+      "example_cz": "Maluji barevné vajíčko.",
+      "tts_text": "I paint a colorful egg."
+    },
+    {
+      "word": "bunny",
+      "translation_cz": "zajíček",
+      "example": "The Easter bunny brings sweets.",
+      "example_cz": "Velikonoční zajíček nosí sladkosti.",
+      "tts_text": "The Easter bunny brings sweets."
+    },
+    {
+      "word": "basket",
+      "translation_cz": "košík",
+      "example": "I put eggs in a basket.",
+      "example_cz": "Dávám vajíčka do košíku.",
+      "tts_text": "I put eggs in a basket."
+    },
+    {
+      "word": "spring",
+      "translation_cz": "jaro",
+      "example": "Easter comes in the spring.",
+      "example_cz": "Velikonoce přicházejí na jaře.",
+      "tts_text": "Easter comes in the spring."
+    },
+    {
+      "word": "flower",
+      "translation_cz": "květina",
+      "example": "Flowers bloom at Easter time.",
+      "example_cz": "O Velikonocích kvetou květiny.",
+      "tts_text": "Flowers bloom at Easter time."
+    },
+    {
+      "word": "chocolate",
+      "translation_cz": "čokoláda",
+      "example": "I get a chocolate egg.",
+      "example_cz": "Dostávám čokoládové vajíčko.",
+      "tts_text": "I get a chocolate egg."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Easter",
+      "options": [
+        "Velikonoce",
+        "vajíčko",
+        "zajíček"
+      ],
+      "correct": "Velikonoce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I paint a colorful ___.",
+      "answer": "egg",
+      "hint_cz": "vajíčko"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bunny",
+          "cz": "zajíček"
+        },
+        {
+          "target": "basket",
+          "cz": "košík"
+        },
+        {
+          "target": "spring",
+          "cz": "jaro"
+        },
+        {
+          "target": "flower",
+          "cz": "květina"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I get a chocolate egg.",
+      "tts_text": "I get a chocolate egg."
+    }
+  ]
+}

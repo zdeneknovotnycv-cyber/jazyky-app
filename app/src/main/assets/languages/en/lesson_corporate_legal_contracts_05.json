@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_legal_contracts_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Requesting legal review",
+  "title_cz": "Žádost o právní kontrolu",
+  "vocabulary": [
+    {
+      "word": "legal department",
+      "translation_cz": "právní oddělení",
+      "example": "Please send this to the legal department.",
+      "example_cz": "Prosím zašlete toto právnímu oddělení.",
+      "tts_text": "Please send this to the legal department."
+    },
+    {
+      "word": "have this reviewed",
+      "translation_cz": "nechat toto zkontrolovat",
+      "example": "We need to have this reviewed.",
+      "example_cz": "Musíme to nechat zkontrolovat.",
+      "tts_text": "We need to have this reviewed."
+    },
+    {
+      "word": "risk assessment",
+      "translation_cz": "posouzení rizik",
+      "example": "Legal will do a risk assessment.",
+      "example_cz": "Právní oddělení provede posouzení rizik.",
+      "tts_text": "Legal will do a risk assessment."
+    },
+    {
+      "word": "before we proceed",
+      "translation_cz": "než budeme pokračovat",
+      "example": "Let's wait for approval before we proceed.",
+      "example_cz": "Počkejme na schválení, než budeme pokračovat.",
+      "tts_text": "Let's wait for approval before we proceed."
+    },
+    {
+      "word": "flag any concerns",
+      "translation_cz": "upozornit na obavy",
+      "example": "Please flag any concerns you find.",
+      "example_cz": "Prosím upozorněte na jakékoli obavy, které najdete.",
+      "tts_text": "Please flag any concerns you find."
+    },
+    {
+      "word": "turnaround time",
+      "translation_cz": "doba vyřízení",
+      "example": "What is the turnaround time for review?",
+      "example_cz": "Jaká je doba vyřízení kontroly?",
+      "tts_text": "What is the turnaround time for review?"
+    },
+    {
+      "word": "legally sound",
+      "translation_cz": "právně v pořádku",
+      "example": "We want to make sure it's legally sound.",
+      "example_cz": "Chceme se ujistit, že je to právně v pořádku.",
+      "tts_text": "We want to make sure it's legally sound."
+    },
+    {
+      "word": "get sign-off",
+      "translation_cz": "získat schválení",
+      "example": "We need to get sign-off from legal.",
+      "example_cz": "Musíme získat schválení od právního oddělení.",
+      "tts_text": "We need to get sign-off from legal."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_05",
+      "title": "Requesting legal review",
+      "title_cz": "Žádost o právní kontrolu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Can you have this contract reviewed by the legal department?",
+          "text_cz": "Můžete nechat tuto smlouvu zkontrolovat právním oddělením?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. What's the turnaround time you need?",
+          "text_cz": "Jasně. Jakou dobu vyřízení potřebujete?"
+        },
+        {
+          "speaker": "A",
+          "text": "Before Friday, if possible. We can't proceed without their sign-off.",
+          "text_cz": "Pokud možno do pátku. Bez jejich schválení nemůžeme pokračovat."
+        },
+        {
+          "speaker": "B",
+          "text": "I'll ask them to flag any concerns quickly.",
+          "text_cz": "Požádám je, aby rychle upozornili na jakékoli obavy."
+        },
+        {
+          "speaker": "A",
+          "text": "We just want to make sure it's legally sound.",
+          "text_cz": "Jen chceme mít jistotu, že je to právně v pořádku."
+        },
+        {
+          "speaker": "B",
+          "text": "I'll request a risk assessment too.",
+          "text_cz": "Vyžádám si také posouzení rizik."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "legal department",
+      "options": [
+        "právní oddělení",
+        "nechat toto zkontrolovat",
+        "posouzení rizik"
+      ],
+      "correct": "právní oddělení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's wait for approval ___.",
+      "answer": "before we proceed",
+      "hint_cz": "než budeme pokračovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "legal department",
+          "cz": "právní oddělení"
+        },
+        {
+          "target": "have this reviewed",
+          "cz": "nechat toto zkontrolovat"
+        },
+        {
+          "target": "risk assessment",
+          "cz": "posouzení rizik"
+        },
+        {
+          "target": "before we proceed",
+          "cz": "než budeme pokračovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please flag any concerns you find.",
+      "tts_text": "Please flag any concerns you find."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What is the ___ for review?",
+      "answer": "turnaround time",
+      "hint_cz": "doba vyřízení"
+    }
+  ]
+}

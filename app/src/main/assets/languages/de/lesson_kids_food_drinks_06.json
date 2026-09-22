@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_food_drinks_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Sweets and Desserts",
+  "title_cz": "Sladkosti a dezerty",
+  "vocabulary": [
+    {
+      "word": "die Schokolade",
+      "translation_cz": "čokoláda",
+      "example": "Ich liebe Schokolade.",
+      "example_cz": "Miluji čokoládu.",
+      "tts_text": "Ich liebe Schokolade."
+    },
+    {
+      "word": "das Eis",
+      "translation_cz": "zmrzlina",
+      "example": "Ich esse im Sommer Eis.",
+      "example_cz": "V létě jím zmrzlinu.",
+      "tts_text": "Ich esse im Sommer Eis."
+    },
+    {
+      "word": "der Keks",
+      "translation_cz": "sušenka",
+      "example": "Ich habe mit Mama Kekse gebacken.",
+      "example_cz": "Upekl jsem sušenky s maminkou.",
+      "tts_text": "Ich habe mit Mama Kekse gebacken."
+    },
+    {
+      "word": "der Kuchen",
+      "translation_cz": "dort / koláč",
+      "example": "Der Kuchen ist lecker.",
+      "example_cz": "Ten dort je výborný.",
+      "tts_text": "Der Kuchen ist lecker."
+    },
+    {
+      "word": "das Bonbon",
+      "translation_cz": "bonbon",
+      "example": "Ich habe auf der Party ein Bonbon bekommen.",
+      "example_cz": "Na oslavě jsem dostal bonbon.",
+      "tts_text": "Ich habe auf der Party ein Bonbon bekommen."
+    },
+    {
+      "word": "süß",
+      "translation_cz": "sladký",
+      "example": "Dieses Dessert ist sehr süß.",
+      "example_cz": "Tenhle dezert je velmi sladký.",
+      "tts_text": "Dieses Dessert ist sehr süß."
+    },
+    {
+      "word": "der Pudding",
+      "translation_cz": "puding",
+      "example": "Ich mag Vanillepudding.",
+      "example_cz": "Mám rád vanilkový puding.",
+      "tts_text": "Ich mag Vanillepudding."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Schokolade",
+      "options": [
+        "čokoláda",
+        "zmrzlina",
+        "puding"
+      ],
+      "correct": "čokoláda"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich esse im Sommer ___.",
+      "answer": "Eis",
+      "hint_cz": "zmrzlinu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Keks",
+          "cz": "sušenka"
+        },
+        {
+          "target": "der Kuchen",
+          "cz": "dort / koláč"
+        },
+        {
+          "target": "das Bonbon",
+          "cz": "bonbon"
+        },
+        {
+          "target": "süß",
+          "cz": "sladký"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich liebe Schokolade.",
+      "tts_text": "Ich liebe Schokolade."
+    }
+  ]
+}

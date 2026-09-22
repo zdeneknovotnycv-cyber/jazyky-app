@@ -1,0 +1,46 @@
+{
+  "id": "de_corporate_finance_budgets_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Spesenabrechnungen",
+  "title_cz": "Výkazy výdajů",
+  "vocabulary": [
+    {"word": "die Spesenabrechnung", "translation_cz": "výkaz výdajů", "example": "Bitte reichen Sie Ihre Spesenabrechnung bis Freitag ein.", "example_cz": "Odevzdejte prosím svůj výkaz výdajů do pátku.", "tts_text": "Bitte reichen Sie Ihre Spesenabrechnung bis Freitag ein."},
+    {"word": "die Geschäftsreise", "translation_cz": "služební cesta", "example": "Diese Ausgaben stammen von meiner Geschäftsreise.", "example_cz": "Tyto výdaje jsou z mé služební cesty.", "tts_text": "Diese Ausgaben stammen von meiner Geschäftsreise."},
+    {"word": "einzeln aufführen", "translation_cz": "rozepsat položky", "example": "Bitte führen Sie alle Ausgaben einzeln auf.", "example_cz": "Prosím rozepište všechny své výdaje.", "tts_text": "Bitte führen Sie alle Ausgaben einzeln auf."},
+    {"word": "das Tagegeld", "translation_cz": "denní diety", "example": "Das Tagegeld deckt die Mahlzeiten während der Reise.", "example_cz": "Denní diety pokrývají stravu během cesty.", "tts_text": "Das Tagegeld deckt die Mahlzeiten während der Reise."},
+    {"word": "die Kilometerpauschale", "translation_cz": "kilometrovné", "example": "Sie können die Kilometerpauschale für Ihr eigenes Auto geltend machen.", "example_cz": "Za použití vlastního auta si můžete nárokovat kilometrovné.", "tts_text": "Sie können die Kilometerpauschale für Ihr eigenes Auto geltend machen."},
+    {"word": "zur Genehmigung einreichen", "translation_cz": "předložit ke schválení", "example": "Ich habe die Spesenabrechnung gestern zur Genehmigung eingereicht.", "example_cz": "Včera jsem předložil výkaz výdajů ke schválení.", "tts_text": "Ich habe die Spesenabrechnung gestern zur Genehmigung eingereicht."},
+    {"word": "die Belege", "translation_cz": "podpůrné doklady", "example": "Bitte fügen Sie alle Belege bei.", "example_cz": "Přiložte prosím všechny podpůrné doklady.", "tts_text": "Bitte fügen Sie alle Belege bei."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_expense_report",
+      "title": "Eine Spesenabrechnung einreichen",
+      "title_cz": "Odevzdání výkazu výdajů",
+      "lines": [
+        {"speaker": "A", "text": "Ich muss meine Spesenabrechnung von der Geschäftsreise einreichen.", "text_cz": "Musím odevzdat výkaz výdajů ze své služební cesty."},
+        {"speaker": "B", "text": "Bitte führen Sie die Kosten einzeln auf und fügen Sie Belege bei.", "text_cz": "Rozepište prosím náklady a přiložte podpůrné doklady."},
+        {"speaker": "A", "text": "Soll ich die Kilometerpauschale für mein eigenes Auto einschließen?", "text_cz": "Mám zahrnout kilometrovné za vlastní auto?"},
+        {"speaker": "B", "text": "Ja, und vergessen Sie nicht das Tagegeld für Mahlzeiten.", "text_cz": "Ano, a nezapomeňte na denní diety za stravu."}
+      ]
+    },
+    {
+      "id": "conv_submit_approval",
+      "title": "Zur Genehmigung einreichen",
+      "title_cz": "Předložení ke schválení",
+      "lines": [
+        {"speaker": "A", "text": "Ich habe den Bericht heute Morgen zur Genehmigung eingereicht.", "text_cz": "Dnes ráno jsem předložil zprávu ke schválení."},
+        {"speaker": "B", "text": "Gut, ich prüfe ihn noch heute.", "text_cz": "Skvěle, projdu si ji ještě dnes."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "die Kilometerpauschale", "options": ["kilometrovné", "diety", "doklady"], "correct": "kilometrovné"},
+    {"type": "fill_gap", "sentence": "Bitte führen Sie alle Ausgaben ___ auf.", "answer": "einzeln", "hint_cz": "rozepište"},
+    {"type": "match_pairs", "pairs": [{"target": "das Tagegeld", "cz": "denní diety"}, {"target": "die Belege", "cz": "podpůrné doklady"}, {"target": "die Geschäftsreise", "cz": "služební cesta"}, {"target": "die Spesenabrechnung", "cz": "výkaz výdajů"}]},
+    {"type": "speak_and_check", "target_phrase": "Bitte reichen Sie Ihre Spesenabrechnung bis Freitag ein.", "tts_text": "Bitte reichen Sie Ihre Spesenabrechnung bis Freitag ein."},
+    {"type": "fill_gap", "sentence": "Ich habe die Spesenabrechnung gestern zur ___ eingereicht.", "answer": "Genehmigung", "hint_cz": "schválení"}
+  ]
+}

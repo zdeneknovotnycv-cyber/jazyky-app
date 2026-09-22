@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_negotiation_sales_05",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Closing a Deal",
+  "title_cz": "Uzavření obchodu",
+  "vocabulary": [
+    {
+      "word": "close the deal",
+      "translation_cz": "uzavřít obchod",
+      "example": "Let's close the deal today.",
+      "example_cz": "Uzavřeme obchod ještě dnes.",
+      "tts_text": "Let's close the deal today."
+    },
+    {
+      "word": "sign the contract",
+      "translation_cz": "podepsat smlouvu",
+      "example": "When can you sign the contract?",
+      "example_cz": "Kdy můžete podepsat smlouvu?",
+      "tts_text": "When can you sign the contract?"
+    },
+    {
+      "word": "move forward",
+      "translation_cz": "postoupit dál",
+      "example": "Are you ready to move forward?",
+      "example_cz": "Jste připraveni postoupit dál?",
+      "tts_text": "Are you ready to move forward?"
+    },
+    {
+      "word": "final approval",
+      "translation_cz": "konečné schválení",
+      "example": "We just need final approval from our board.",
+      "example_cz": "Potřebujeme jen konečné schválení naší rady.",
+      "tts_text": "We just need final approval from our board."
+    },
+    {
+      "word": "commitment",
+      "translation_cz": "závazek",
+      "example": "This shows a strong commitment on both sides.",
+      "example_cz": "To ukazuje silný závazek na obou stranách.",
+      "tts_text": "This shows a strong commitment on both sides."
+    },
+    {
+      "word": "terms are agreed",
+      "translation_cz": "podmínky jsou dohodnuty",
+      "example": "I believe the terms are agreed now.",
+      "example_cz": "Věřím, že podmínky jsou nyní dohodnuty.",
+      "tts_text": "I believe the terms are agreed now."
+    },
+    {
+      "word": "official order",
+      "translation_cz": "oficiální objednávka",
+      "example": "Please confirm the official order by email.",
+      "example_cz": "Potvrďte prosím oficiální objednávku e-mailem.",
+      "tts_text": "Please confirm the official order by email."
+    },
+    {
+      "word": "congratulations on the deal",
+      "translation_cz": "gratulace k obchodu",
+      "example": "Congratulations on the deal, we look forward to working with you.",
+      "example_cz": "Gratulace k obchodu, těšíme se na spolupráci.",
+      "tts_text": "Congratulations on the deal, we look forward to working with you."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_closing_deal",
+      "title": "Closing the negotiation",
+      "title_cz": "Uzavření jednání",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I believe the terms are agreed now. Are you ready to move forward?",
+          "text_cz": "Věřím, že podmínky jsou nyní dohodnuté. Jste připraveni postoupit dál?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, we just need final approval from our board, but that's a formality.",
+          "text_cz": "Ano, potřebujeme jen konečné schválení naší rady, ale to je formalita."
+        },
+        {
+          "speaker": "A",
+          "text": "Great, please confirm the official order by email and we'll send the contract.",
+          "text_cz": "Skvělé, potvrďte prosím oficiální objednávku e-mailem a my pošleme smlouvu."
+        },
+        {
+          "speaker": "B",
+          "text": "Perfect, thank you.",
+          "text_cz": "Perfektní, děkujeme."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "close the deal",
+      "options": [
+        "uzavřít obchod",
+        "postoupit dál",
+        "konečné schválení"
+      ],
+      "correct": "uzavřít obchod"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "When can you ___?",
+      "answer": "sign the contract",
+      "hint_cz": "podepsat smlouvu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "This shows a strong ___ on both sides.",
+      "answer": "commitment",
+      "hint_cz": "závazek"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "terms are agreed",
+          "cz": "podmínky jsou dohodnuty"
+        },
+        {
+          "target": "official order",
+          "cz": "oficiální objednávka"
+        },
+        {
+          "target": "congratulations on the deal",
+          "cz": "gratulace k obchodu"
+        },
+        {
+          "target": "move forward",
+          "cz": "postoupit dál"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I believe the terms are agreed now. Are you ready to move forward?",
+      "tts_text": "I believe the terms are agreed now. Are you ready to move forward?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Yes, we just need final approval from our board, but that's a formality.",
+      "tts_text": "Yes, we just need final approval from our board, but that's a formality."
+    }
+  ]
+}

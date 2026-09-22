@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_home_rooms_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Bathroom Items",
+  "title_cz": "Věci v koupelně",
+  "vocabulary": [
+    {
+      "word": "toothbrush",
+      "translation_cz": "kartáček na zuby",
+      "example": "My toothbrush is blue.",
+      "example_cz": "Můj kartáček na zuby je modrý.",
+      "tts_text": "My toothbrush is blue."
+    },
+    {
+      "word": "towel",
+      "translation_cz": "ručník",
+      "example": "I use a clean towel.",
+      "example_cz": "Používám čistý ručník.",
+      "tts_text": "I use a clean towel."
+    },
+    {
+      "word": "bathtub",
+      "translation_cz": "vana",
+      "example": "I take a bath in the bathtub.",
+      "example_cz": "Koupu se ve vaně.",
+      "tts_text": "I take a bath in the bathtub."
+    },
+    {
+      "word": "sink",
+      "translation_cz": "umyvadlo",
+      "example": "I wash my hands in the sink.",
+      "example_cz": "Ruce si myji u umyvadla.",
+      "tts_text": "I wash my hands in the sink."
+    },
+    {
+      "word": "mirror",
+      "translation_cz": "zrcadlo",
+      "example": "I look in the mirror.",
+      "example_cz": "Dívám se do zrcadla.",
+      "tts_text": "I look in the mirror."
+    },
+    {
+      "word": "shampoo",
+      "translation_cz": "šampon",
+      "example": "I wash my hair with shampoo.",
+      "example_cz": "Vlasy si myji šamponem.",
+      "tts_text": "I wash my hair with shampoo."
+    },
+    {
+      "word": "toilet",
+      "translation_cz": "záchod",
+      "example": "The toilet is next to the sink.",
+      "example_cz": "Záchod je vedle umyvadla.",
+      "tts_text": "The toilet is next to the sink."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "toothbrush",
+      "options": [
+        "kartáček na zuby",
+        "ručník",
+        "zrcadlo"
+      ],
+      "correct": "kartáček na zuby"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I look in the ___.",
+      "answer": "mirror",
+      "hint_cz": "zrcadlo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "bathtub",
+          "cz": "vana"
+        },
+        {
+          "target": "sink",
+          "cz": "umyvadlo"
+        },
+        {
+          "target": "shampoo",
+          "cz": "šampon"
+        },
+        {
+          "target": "toilet",
+          "cz": "záchod"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I take a bath in the bathtub.",
+      "tts_text": "I take a bath in the bathtub."
+    }
+  ]
+}

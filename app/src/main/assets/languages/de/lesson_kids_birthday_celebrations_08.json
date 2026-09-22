@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_birthday_celebrations_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Geburtstagskuchen",
+  "title_cz": "Narozeninový dort",
+  "vocabulary": [
+    {
+      "word": "der Kuchen",
+      "translation_cz": "dort",
+      "example": "Der Kuchen sieht lecker aus.",
+      "example_cz": "Dort vypadá výborně.",
+      "tts_text": "Der Kuchen sieht lecker aus."
+    },
+    {
+      "word": "die Kerze",
+      "translation_cz": "svíčka",
+      "example": "Ich stecke Kerzen auf den Kuchen.",
+      "example_cz": "Dávám na dort svíčky.",
+      "tts_text": "Ich stecke Kerzen auf den Kuchen."
+    },
+    {
+      "word": "auspusten",
+      "translation_cz": "sfouknout",
+      "example": "Ich puste alle Kerzen aus.",
+      "example_cz": "Sfouknu všechny svíčky.",
+      "tts_text": "Ich puste alle Kerzen aus."
+    },
+    {
+      "word": "das Stück",
+      "translation_cz": "krajíc, kousek",
+      "example": "Ich möchte ein Stück Kuchen.",
+      "example_cz": "Chci kousek dortu.",
+      "tts_text": "Ich möchte ein Stück Kuchen."
+    },
+    {
+      "word": "die Glasur",
+      "translation_cz": "poleva",
+      "example": "Die Glasur ist süß und rosa.",
+      "example_cz": "Poleva je sladká a růžová.",
+      "tts_text": "Die Glasur ist süß und rosa."
+    },
+    {
+      "word": "singen",
+      "translation_cz": "zpívat",
+      "example": "Wir singen ein Geburtstagslied.",
+      "example_cz": "Zpíváme narozeninovou píseň.",
+      "tts_text": "Wir singen ein Geburtstagslied."
+    },
+    {
+      "word": "süß",
+      "translation_cz": "sladký",
+      "example": "Der Kuchen ist sehr süß.",
+      "example_cz": "Dort je velmi sladký.",
+      "tts_text": "Der Kuchen ist sehr süß."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Kuchen",
+      "options": [
+        "dort",
+        "svíčka",
+        "sfouknout"
+      ],
+      "correct": "dort"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich stecke ___n auf den Kuchen.",
+      "answer": "Kerze",
+      "hint_cz": "svíčka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "auspusten",
+          "cz": "sfouknout"
+        },
+        {
+          "target": "das Stück",
+          "cz": "krajíc, kousek"
+        },
+        {
+          "target": "die Glasur",
+          "cz": "poleva"
+        },
+        {
+          "target": "singen",
+          "cz": "zpívat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Kuchen ist sehr süß.",
+      "tts_text": "Der Kuchen ist sehr süß."
+    }
+  ]
+}

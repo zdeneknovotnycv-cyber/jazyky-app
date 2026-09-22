@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_feelings_emotions_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Angry and calm",
+  "title_cz": "Naštvaný a klidný",
+  "vocabulary": [
+    {
+      "word": "angry",
+      "translation_cz": "naštvaný",
+      "example": "He is angry about the broken toy.",
+      "example_cz": "Je naštvaný kvůli rozbité hračce.",
+      "tts_text": "He is angry about the broken toy."
+    },
+    {
+      "word": "calm",
+      "translation_cz": "klidný",
+      "example": "Take a deep breath and stay calm.",
+      "example_cz": "Zhluboka se nadechni a zůstaň klidný.",
+      "tts_text": "Take a deep breath and stay calm."
+    },
+    {
+      "word": "shout",
+      "translation_cz": "křičet",
+      "example": "Please don't shout.",
+      "example_cz": "Prosím nekřič.",
+      "tts_text": "Please don't shout."
+    },
+    {
+      "word": "deep breath",
+      "translation_cz": "hluboký nádech",
+      "example": "I take a deep breath when I am upset.",
+      "example_cz": "Když se rozčílím, zhluboka se nadechnu.",
+      "tts_text": "I take a deep breath when I am upset."
+    },
+    {
+      "word": "frustrated",
+      "translation_cz": "frustrovaný",
+      "example": "I feel frustrated with the puzzle.",
+      "example_cz": "Cítím se frustrovaný z té skládačky.",
+      "tts_text": "I feel frustrated with the puzzle."
+    },
+    {
+      "word": "cool down",
+      "translation_cz": "zklidnit se",
+      "example": "Let's cool down and talk.",
+      "example_cz": "Pojďme se zklidnit a promluvit si.",
+      "tts_text": "Let's cool down and talk."
+    },
+    {
+      "word": "patient",
+      "translation_cz": "trpělivý",
+      "example": "Try to be patient with your brother.",
+      "example_cz": "Zkus být trpělivý na svého bratra.",
+      "tts_text": "Try to be patient with your brother."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "angry",
+      "options": [
+        "naštvaný",
+        "smutný",
+        "radost"
+      ],
+      "correct": "naštvaný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Take a deep breath and stay ___.",
+      "answer": "calm",
+      "hint_cz": "klidný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "calm",
+          "cz": "klidný"
+        },
+        {
+          "target": "shout",
+          "cz": "křičet"
+        },
+        {
+          "target": "deep breath",
+          "cz": "hluboký nádech"
+        },
+        {
+          "target": "frustrated",
+          "cz": "frustrovaný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "He is angry about the broken toy.",
+      "tts_text": "He is angry about the broken toy."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_performance_feedback_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über eine Gehaltserhöhung sprechen",
+  "title_cz": "Diskuse o navýšení platu",
+  "vocabulary": [
+    {
+      "word": "die Gehaltserhöhung",
+      "translation_cz": "navýšení platu",
+      "example": "Ich möchte über eine Gehaltserhöhung sprechen.",
+      "example_cz": "Rád bych probral navýšení platu.",
+      "tts_text": "Ich möchte über eine Gehaltserhöhung sprechen."
+    },
+    {
+      "word": "der Marktdurchschnitt",
+      "translation_cz": "tržní sazba",
+      "example": "Mein Gehalt liegt unter dem Marktdurchschnitt für diese Rolle.",
+      "example_cz": "Můj plat je pod tržní sazbou pro tuto roli.",
+      "tts_text": "Mein Gehalt liegt unter dem Marktdurchschnitt für diese Rolle."
+    },
+    {
+      "word": "die Leistungsergebnisse",
+      "translation_cz": "výsledky výkonu",
+      "example": "Meine Leistungsergebnisse unterstützen diese Bitte.",
+      "example_cz": "Moje výsledky výkonu tento požadavek podporují.",
+      "tts_text": "Meine Leistungsergebnisse unterstützen diese Bitte."
+    },
+    {
+      "word": "die Budgetbeschränkungen",
+      "translation_cz": "rozpočtová omezení",
+      "example": "Es gibt dieses Jahr einige Budgetbeschränkungen.",
+      "example_cz": "Letos jsou určitá rozpočtová omezení.",
+      "tts_text": "Es gibt dieses Jahr einige Budgetbeschränkungen."
+    },
+    {
+      "word": "verhandeln",
+      "translation_cz": "vyjednávat",
+      "example": "Es ist normal, über sein Gehalt zu verhandeln.",
+      "example_cz": "Je normální vyjednávat o platu.",
+      "tts_text": "Es ist normal, über sein Gehalt zu verhandeln."
+    },
+    {
+      "word": "der jährliche Beurteilungszyklus",
+      "translation_cz": "roční hodnoticí cyklus",
+      "example": "Gehaltserhöhungen werden meist im jährlichen Beurteilungszyklus besprochen.",
+      "example_cz": "Navýšení se obvykle probírají v ročním hodnoticím cyklu.",
+      "tts_text": "Gehaltserhöhungen werden meist im jährlichen Beurteilungszyklus besprochen."
+    },
+    {
+      "word": "das Vergütungspaket",
+      "translation_cz": "mzdový balíček",
+      "example": "Schauen wir uns dein gesamtes Vergütungspaket an.",
+      "example_cz": "Podívejme se na celý tvůj mzdový balíček.",
+      "tts_text": "Schauen wir uns dein gesamtes Vergütungspaket an."
+    },
+    {
+      "word": "darauf zurückkommen",
+      "translation_cz": "vrátit se k tomu",
+      "example": "Lass uns nächsten Monat darauf zurückkommen.",
+      "example_cz": "Vraťme se k tomu příští měsíc.",
+      "tts_text": "Lass uns nächsten Monat darauf zurückkommen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_10",
+      "title": "Um eine Gehaltserhöhung bitten",
+      "title_cz": "Žádost o navýšení platu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich möchte, wenn möglich, über eine Gehaltserhöhung sprechen.",
+          "text_cz": "Rád bych probral navýšení platu, pokud je to možné."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, sag mir, warum du das für gerechtfertigt hältst.",
+          "text_cz": "Jasně, řekni mi, proč si myslíš, že je to oprávněné."
+        },
+        {
+          "speaker": "A",
+          "text": "Meine Leistungsergebnisse dieses Jahr unterstützen die Bitte.",
+          "text_cz": "Moje letošní výsledky výkonu tento požadavek podporují."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich verstehe, aber wir haben Budgetbeschränkungen. Lass uns nächsten Monat darauf zurückkommen.",
+          "text_cz": "Chápu, ale máme rozpočtová omezení. Vraťme se k tomu příští měsíc."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Gehaltserhöhung",
+      "options": [
+        "navýšení platu",
+        "tržní sazba",
+        "výsledky výkonu"
+      ],
+      "correct": "navýšení platu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein Gehalt liegt unter dem ___ für diese Rolle.",
+      "answer": "Marktdurchschnitt",
+      "hint_cz": "tržní sazbou"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Gehaltserhöhung",
+          "cz": "navýšení platu"
+        },
+        {
+          "target": "der Marktdurchschnitt",
+          "cz": "tržní sazba"
+        },
+        {
+          "target": "die Leistungsergebnisse",
+          "cz": "výsledky výkonu"
+        },
+        {
+          "target": "die Budgetbeschränkungen",
+          "cz": "rozpočtová omezení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich möchte über eine Gehaltserhöhung sprechen.",
+      "tts_text": "Ich möchte über eine Gehaltserhöhung sprechen."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es gibt dieses Jahr einige ___.",
+      "answer": "Budgetbeschränkungen",
+      "hint_cz": "rozpočtová omezení"
+    }
+  ]
+}

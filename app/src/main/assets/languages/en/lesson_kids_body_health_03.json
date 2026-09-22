@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_body_health_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Feeling Sick",
+  "title_cz": "Když je mi špatně",
+  "vocabulary": [
+    {
+      "word": "sick",
+      "translation_cz": "nemocný",
+      "example": "I feel sick today.",
+      "example_cz": "Dnes je mi špatně.",
+      "tts_text": "I feel sick today."
+    },
+    {
+      "word": "fever",
+      "translation_cz": "horečka",
+      "example": "I have a fever.",
+      "example_cz": "Mám horečku.",
+      "tts_text": "I have a fever."
+    },
+    {
+      "word": "headache",
+      "translation_cz": "bolení hlavy",
+      "example": "I have a headache.",
+      "example_cz": "Bolí mě hlava.",
+      "tts_text": "I have a headache."
+    },
+    {
+      "word": "cough",
+      "translation_cz": "kašlat",
+      "example": "I cough a lot.",
+      "example_cz": "Hodně kašlu.",
+      "tts_text": "I cough a lot."
+    },
+    {
+      "word": "stomachache",
+      "translation_cz": "bolení bříška",
+      "example": "My stomach hurts.",
+      "example_cz": "Bolí mě bříško.",
+      "tts_text": "My stomach hurts."
+    },
+    {
+      "word": "tired",
+      "translation_cz": "unavený",
+      "example": "I am very tired.",
+      "example_cz": "Jsem hodně unavený.",
+      "tts_text": "I am very tired."
+    },
+    {
+      "word": "rest",
+      "translation_cz": "odpočívat",
+      "example": "I need to rest in bed.",
+      "example_cz": "Potřebuji odpočívat v posteli.",
+      "tts_text": "I need to rest in bed."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sick",
+      "options": [
+        "nemocný",
+        "šťastný",
+        "unavený"
+      ],
+      "correct": "nemocný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I have a ___.",
+      "answer": "fever",
+      "hint_cz": "horečka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "headache",
+          "cz": "bolení hlavy"
+        },
+        {
+          "target": "cough",
+          "cz": "kašlat"
+        },
+        {
+          "target": "stomachache",
+          "cz": "bolení bříška"
+        },
+        {
+          "target": "rest",
+          "cz": "odpočívat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I feel sick today.",
+      "tts_text": "I feel sick today."
+    }
+  ]
+}

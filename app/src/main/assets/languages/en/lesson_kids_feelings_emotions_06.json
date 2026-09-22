@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_feelings_emotions_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Bored",
+  "title_cz": "Znuděný",
+  "vocabulary": [
+    {
+      "word": "bored",
+      "translation_cz": "znuděný",
+      "example": "I am bored at home.",
+      "example_cz": "Doma se nudím.",
+      "tts_text": "I am bored at home."
+    },
+    {
+      "word": "boring",
+      "translation_cz": "nudný",
+      "example": "This game is a bit boring.",
+      "example_cz": "Tahle hra je trochu nudná.",
+      "tts_text": "This game is a bit boring."
+    },
+    {
+      "word": "nothing to do",
+      "translation_cz": "nic na práci",
+      "example": "I have nothing to do today.",
+      "example_cz": "Dnes nemám nic na práci.",
+      "tts_text": "I have nothing to do today."
+    },
+    {
+      "word": "idea",
+      "translation_cz": "nápad",
+      "example": "I need a fun idea.",
+      "example_cz": "Potřebuji zábavný nápad.",
+      "tts_text": "I need a fun idea."
+    },
+    {
+      "word": "play a game",
+      "translation_cz": "zahrát si hru",
+      "example": "Let's play a game together.",
+      "example_cz": "Pojďme si spolu zahrát hru.",
+      "tts_text": "Let's play a game together."
+    },
+    {
+      "word": "restless",
+      "translation_cz": "neposedný",
+      "example": "I feel restless when I am bored.",
+      "example_cz": "Když se nudím, jsem neposedný.",
+      "tts_text": "I feel restless when I am bored."
+    },
+    {
+      "word": "draw",
+      "translation_cz": "kreslit",
+      "example": "I draw pictures when I am bored.",
+      "example_cz": "Když se nudím, kreslím obrázky.",
+      "tts_text": "I draw pictures when I am bored."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "bored",
+      "options": [
+        "znuděný",
+        "smutný",
+        "radost"
+      ],
+      "correct": "znuděný"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I am ___ at home.",
+      "answer": "bored",
+      "hint_cz": "znuděný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "boring",
+          "cz": "nudný"
+        },
+        {
+          "target": "nothing to do",
+          "cz": "nic na práci"
+        },
+        {
+          "target": "idea",
+          "cz": "nápad"
+        },
+        {
+          "target": "play a game",
+          "cz": "zahrát si hru"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I feel restless when I am bored.",
+      "tts_text": "I feel restless when I am bored."
+    }
+  ]
+}

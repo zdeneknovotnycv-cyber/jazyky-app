@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_time_days_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Days of the Week",
+  "title_cz": "Dny v týdnu",
+  "vocabulary": [
+    {
+      "word": "Monday",
+      "translation_cz": "pondělí",
+      "example": "On Monday I go to school.",
+      "example_cz": "V pondělí jdu do školy.",
+      "tts_text": "On Monday I go to school."
+    },
+    {
+      "word": "Tuesday",
+      "translation_cz": "úterý",
+      "example": "On Tuesday we have music class.",
+      "example_cz": "V úterý máme hudební výchovu.",
+      "tts_text": "On Tuesday we have music class."
+    },
+    {
+      "word": "Wednesday",
+      "translation_cz": "středa",
+      "example": "Wednesday is in the middle of the week.",
+      "example_cz": "Středa je uprostřed týdne.",
+      "tts_text": "Wednesday is in the middle of the week."
+    },
+    {
+      "word": "Thursday",
+      "translation_cz": "čtvrtek",
+      "example": "On Thursday I visit my grandma.",
+      "example_cz": "Ve čtvrtek navštěvuji babičku.",
+      "tts_text": "On Thursday I visit my grandma."
+    },
+    {
+      "word": "Friday",
+      "translation_cz": "pátek",
+      "example": "I love Friday because school is almost over.",
+      "example_cz": "Mám rád pátek, protože škola je skoro u konce.",
+      "tts_text": "I love Friday because school is almost over."
+    },
+    {
+      "word": "Saturday",
+      "translation_cz": "sobota",
+      "example": "On Saturday I play all day.",
+      "example_cz": "V sobotu si celý den hraji.",
+      "tts_text": "On Saturday I play all day."
+    },
+    {
+      "word": "Sunday",
+      "translation_cz": "neděle",
+      "example": "On Sunday we visit family.",
+      "example_cz": "V neděli navštěvujeme rodinu.",
+      "tts_text": "On Sunday we visit family."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Monday",
+      "options": [
+        "pondělí",
+        "úterý",
+        "sobota"
+      ],
+      "correct": "pondělí"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "On ___ I go to school.",
+      "answer": "Monday",
+      "hint_cz": "pondělí"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Tuesday",
+          "cz": "úterý"
+        },
+        {
+          "target": "Wednesday",
+          "cz": "středa"
+        },
+        {
+          "target": "Thursday",
+          "cz": "čtvrtek"
+        },
+        {
+          "target": "Friday",
+          "cz": "pátek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "On Monday I go to school.",
+      "tts_text": "On Monday I go to school."
+    }
+  ]
+}

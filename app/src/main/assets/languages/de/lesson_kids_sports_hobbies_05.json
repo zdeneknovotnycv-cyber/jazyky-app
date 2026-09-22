@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_sports_hobbies_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Malen und Zeichnen",
+  "title_cz": "Kreslení a malování",
+  "vocabulary": [
+    {
+      "word": "zeichnen",
+      "translation_cz": "kreslit",
+      "example": "Ich zeichne gern Tiere.",
+      "example_cz": "Rád kreslím zvířata.",
+      "tts_text": "Ich zeichne gern Tiere."
+    },
+    {
+      "word": "malen",
+      "translation_cz": "malovat",
+      "example": "Wir malen mit Farben.",
+      "example_cz": "Malujeme barvami.",
+      "tts_text": "Wir malen mit Farben."
+    },
+    {
+      "word": "der Buntstift",
+      "translation_cz": "pastelka",
+      "example": "Ich habe zwölf Buntstifte.",
+      "example_cz": "Mám dvanáct pastelek.",
+      "tts_text": "Ich habe zwölf Buntstifte."
+    },
+    {
+      "word": "das Papier",
+      "translation_cz": "papír",
+      "example": "Gib mir ein Stück Papier.",
+      "example_cz": "Dej mi kus papíru.",
+      "tts_text": "Gib mir ein Stück Papier."
+    },
+    {
+      "word": "der Pinsel",
+      "translation_cz": "štětec",
+      "example": "Ich halte den Pinsel vorsichtig.",
+      "example_cz": "Držím štětec opatrně.",
+      "tts_text": "Ich halte den Pinsel vorsichtig."
+    },
+    {
+      "word": "das Bild",
+      "translation_cz": "obrázek",
+      "example": "Ich habe ein Bild von meiner Familie gemalt.",
+      "example_cz": "Nakreslil jsem obrázek své rodiny.",
+      "tts_text": "Ich habe ein Bild von meiner Familie gemalt."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Pinsel",
+      "options": [
+        "štětec",
+        "pastelka",
+        "papír"
+      ],
+      "correct": "štětec"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ gern Tiere.",
+      "answer": "zeichne",
+      "hint_cz": "kreslím"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "malen",
+          "cz": "malovat"
+        },
+        {
+          "target": "der Buntstift",
+          "cz": "pastelka"
+        },
+        {
+          "target": "das Papier",
+          "cz": "papír"
+        },
+        {
+          "target": "das Bild",
+          "cz": "obrázek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe ein Bild von meiner Familie gemalt.",
+      "tts_text": "Ich habe ein Bild von meiner Familie gemalt."
+    }
+  ]
+}

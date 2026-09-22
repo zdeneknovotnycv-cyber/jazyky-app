@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_home_rooms_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "My Own Room",
+  "title_cz": "Můj vlastní pokoj",
+  "vocabulary": [
+    {
+      "word": "my room",
+      "translation_cz": "můj pokoj",
+      "example": "This is my room.",
+      "example_cz": "Tohle je můj pokoj.",
+      "tts_text": "This is my room."
+    },
+    {
+      "word": "toys",
+      "translation_cz": "hračky",
+      "example": "My toys are on the shelf.",
+      "example_cz": "Moje hračky jsou na poličce.",
+      "tts_text": "My toys are on the shelf."
+    },
+    {
+      "word": "poster",
+      "translation_cz": "plakát",
+      "example": "I have a poster on the wall.",
+      "example_cz": "Na zdi mám plakát.",
+      "tts_text": "I have a poster on the wall."
+    },
+    {
+      "word": "window",
+      "translation_cz": "okno",
+      "example": "My window looks at the garden.",
+      "example_cz": "Moje okno vede do zahrady.",
+      "tts_text": "My window looks at the garden."
+    },
+    {
+      "word": "door",
+      "translation_cz": "dveře",
+      "example": "I close the door at night.",
+      "example_cz": "V noci zavírám dveře.",
+      "tts_text": "I close the door at night."
+    },
+    {
+      "word": "mess",
+      "translation_cz": "nepořádek",
+      "example": "My room is a mess today.",
+      "example_cz": "Dnes je v mém pokoji nepořádek.",
+      "tts_text": "My room is a mess today."
+    },
+    {
+      "word": "favorite corner",
+      "translation_cz": "oblíbený koutek",
+      "example": "This is my favorite corner.",
+      "example_cz": "Tohle je můj oblíbený koutek.",
+      "tts_text": "This is my favorite corner."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "my room",
+      "options": [
+        "můj pokoj",
+        "kuchyně",
+        "zahrada"
+      ],
+      "correct": "můj pokoj"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I have a ___ on the wall.",
+      "answer": "poster",
+      "hint_cz": "plakát"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "toys",
+          "cz": "hračky"
+        },
+        {
+          "target": "window",
+          "cz": "okno"
+        },
+        {
+          "target": "door",
+          "cz": "dveře"
+        },
+        {
+          "target": "mess",
+          "cz": "nepořádek"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "This is my room.",
+      "tts_text": "This is my room."
+    }
+  ]
+}

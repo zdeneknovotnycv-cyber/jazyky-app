@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_negotiation_sales_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Opening a Sales Call",
+  "title_cz": "Zahájení obchodního hovoru",
+  "vocabulary": [
+    {
+      "word": "prospect",
+      "translation_cz": "potenciální zákazník",
+      "example": "Our prospect is interested in a demo.",
+      "example_cz": "Náš potenciální zákazník má zájem o ukázku.",
+      "tts_text": "Our prospect is interested in a demo."
+    },
+    {
+      "word": "build rapport",
+      "translation_cz": "navázat vztah",
+      "example": "Let's build rapport before discussing the offer.",
+      "example_cz": "Navažme vztah, než probereme nabídku.",
+      "tts_text": "Let's build rapport before discussing the offer."
+    },
+    {
+      "word": "needs analysis",
+      "translation_cz": "analýza potřeb",
+      "example": "We start every call with a needs analysis.",
+      "example_cz": "Každý hovor začínáme analýzou potřeb.",
+      "tts_text": "We start every call with a needs analysis."
+    },
+    {
+      "word": "value proposition",
+      "translation_cz": "hodnotová nabídka",
+      "example": "Our value proposition is speed and reliability.",
+      "example_cz": "Naší hodnotovou nabídkou je rychlost a spolehlivost.",
+      "tts_text": "Our value proposition is speed and reliability."
+    },
+    {
+      "word": "pain point",
+      "translation_cz": "problémový bod",
+      "example": "What is your biggest pain point right now?",
+      "example_cz": "Jaký je váš momentálně největší problémový bod?",
+      "tts_text": "What is your biggest pain point right now?"
+    },
+    {
+      "word": "introduce the company",
+      "translation_cz": "představit společnost",
+      "example": "Let me briefly introduce our company.",
+      "example_cz": "Dovolte mi krátce představit naši společnost.",
+      "tts_text": "Let me briefly introduce our company."
+    },
+    {
+      "word": "set expectations",
+      "translation_cz": "stanovit očekávání",
+      "example": "Let's set expectations for this call.",
+      "example_cz": "Stanovme si očekávání pro tento hovor.",
+      "tts_text": "Let's set expectations for this call."
+    },
+    {
+      "word": "warm lead",
+      "translation_cz": "vřelý kontakt / zájemce",
+      "example": "This is a warm lead from the website.",
+      "example_cz": "Toto je vřelý kontakt z webových stránek.",
+      "tts_text": "This is a warm lead from the website."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_sales_open",
+      "title": "Opening a call with a prospect",
+      "title_cz": "Zahájení hovoru s potenciálním zákazníkem",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi, thanks for taking the time. Let me briefly introduce our company.",
+          "text_cz": "Dobrý den, děkuji za váš čas. Dovolte mi krátce představit naši společnost."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, go ahead.",
+          "text_cz": "Jistě, pokračujte."
+        },
+        {
+          "speaker": "A",
+          "text": "Before that, could you tell me your biggest pain point right now?",
+          "text_cz": "Než to udělám, mohl byste mi říct, jaký je váš momentálně největší problémový bod?"
+        },
+        {
+          "speaker": "B",
+          "text": "Mainly slow delivery times from our current supplier.",
+          "text_cz": "Hlavně pomalé dodací lhůty od našeho současného dodavatele."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "prospect",
+      "options": [
+        "potenciální zákazník",
+        "analýza potřeb",
+        "hodnotová nabídka"
+      ],
+      "correct": "potenciální zákazník"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's ___ before discussing the offer.",
+      "answer": "build rapport",
+      "hint_cz": "navázat vztah"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What is your biggest ___ right now?",
+      "answer": "pain point",
+      "hint_cz": "problémový bod"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "introduce the company",
+          "cz": "představit společnost"
+        },
+        {
+          "target": "set expectations",
+          "cz": "stanovit očekávání"
+        },
+        {
+          "target": "warm lead",
+          "cz": "vřelý kontakt / zájemce"
+        },
+        {
+          "target": "needs analysis",
+          "cz": "analýza potřeb"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Hi, thanks for taking the time. Let me briefly introduce our company.",
+      "tts_text": "Hi, thanks for taking the time. Let me briefly introduce our company."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sure, go ahead.",
+      "tts_text": "Sure, go ahead."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "de_adult_corporate_meetings_intros_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Smalltalk vor einem Meeting",
+  "title_cz": "Konverzace před schůzkou",
+  "vocabulary": [
+    {
+      "word": "Wie war dein Wochenende?",
+      "translation_cz": "Jaký jsi měl víkend?",
+      "example": "Wie war dein Wochenende, Anna?",
+      "example_cz": "Jaký jsi měla víkend, Anno?",
+      "tts_text": "Wie war dein Wochenende, Anna?"
+    },
+    {
+      "word": "der Verkehr",
+      "translation_cz": "provoz / doprava",
+      "example": "Der Verkehr war heute Morgen furchtbar.",
+      "example_cz": "Doprava byla dnes ráno hrozná.",
+      "tts_text": "Der Verkehr war heute Morgen furchtbar."
+    },
+    {
+      "word": "einen Kaffee holen",
+      "translation_cz": "dát si kávu",
+      "example": "Lasst uns einen Kaffee holen, bevor wir anfangen.",
+      "example_cz": "Dejme si kávu, než začneme.",
+      "tts_text": "Lasst uns einen Kaffee holen, bevor wir anfangen."
+    },
+    {
+      "word": "eine anstrengende Woche",
+      "translation_cz": "náročný týden",
+      "example": "Es war eine anstrengende Woche für alle.",
+      "example_cz": "Byl to náročný týden pro všechny.",
+      "tts_text": "Es war eine anstrengende Woche für alle."
+    },
+    {
+      "word": "sich austauschen",
+      "translation_cz": "pokecat si / doplnit se",
+      "example": "Wir sollten uns bald austauschen.",
+      "example_cz": "Měli bychom si brzy pokecat.",
+      "tts_text": "Wir sollten uns bald austauschen."
+    },
+    {
+      "word": "der Urlaub",
+      "translation_cz": "dovolená",
+      "example": "Wie war dein Urlaub letzte Woche?",
+      "example_cz": "Jaká byla vaše dovolená minulý týden?",
+      "tts_text": "Wie war dein Urlaub letzte Woche?"
+    },
+    {
+      "word": "sich freuen auf",
+      "translation_cz": "těšit se na",
+      "example": "Ich freue mich auf die Präsentation.",
+      "example_cz": "Těším se na prezentaci.",
+      "tts_text": "Ich freue mich auf die Präsentation."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_smalltalk_meeting",
+      "title": "Gespräch vor dem Meeting",
+      "title_cz": "Povídání před začátkem schůzky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hallo Anna, wie war dein Wochenende?",
+          "text_cz": "Ahoj Anno, jaký jsi měla víkend?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ganz gut, danke. Der Verkehr heute Morgen war aber furchtbar.",
+          "text_cz": "Docela dobrý, díky. Ale doprava byla dnes ráno hrozná."
+        },
+        {
+          "speaker": "A",
+          "text": "Bei mir auch. Willst du vor dem Start einen Kaffee holen?",
+          "text_cz": "Tady taky. Chceš si dát kávu, než začneme?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, ich freue mich sowieso auf die heutige Präsentation.",
+          "text_cz": "Jasně, na dnešní prezentaci se tak jako tak těším."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Verkehr",
+      "options": [
+        "doprava",
+        "dovolená",
+        "týden"
+      ],
+      "correct": "doprava"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lasst uns einen Kaffee ___, bevor wir anfangen.",
+      "answer": "holen",
+      "hint_cz": "dát si"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "eine anstrengende Woche",
+          "cz": "náročný týden"
+        },
+        {
+          "target": "der Urlaub",
+          "cz": "dovolená"
+        },
+        {
+          "target": "sich austauschen",
+          "cz": "pokecat si"
+        },
+        {
+          "target": "sich freuen auf",
+          "cz": "těšit se na"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wie war dein Wochenende, Anna?",
+      "tts_text": "Wie war dein Wochenende, Anna?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich freue mich auf die ___.",
+      "answer": "Präsentation",
+      "hint_cz": "prezentace"
+    }
+  ]
+}

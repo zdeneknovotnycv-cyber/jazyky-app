@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_business_travel_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Besprechung des Reiseplans",
+  "title_cz": "Diskuze o cestovním plánu",
+  "vocabulary": [
+    {
+      "word": "den Reiseplan durchgehen",
+      "translation_cz": "projít cestovní plán",
+      "example": "Lass uns den Reiseplan gemeinsam durchgehen.",
+      "example_cz": "Pojďme si společně projít cestovní plán.",
+      "tts_text": "Lass uns den Reiseplan gemeinsam durchgehen."
+    },
+    {
+      "word": "der Zwischenstopp",
+      "translation_cz": "mezipřistání",
+      "example": "Wir haben einen zweistündigen Zwischenstopp in Wien.",
+      "example_cz": "Máme dvouhodinové mezipřistání ve Vídni.",
+      "tts_text": "Wir haben einen zweistündigen Zwischenstopp in Wien."
+    },
+    {
+      "word": "die Umsteigezeit",
+      "translation_cz": "čas na přestup",
+      "example": "Reicht die Umsteigezeit aus?",
+      "example_cz": "Je tam dost času na přestup?",
+      "tts_text": "Reicht die Umsteigezeit aus?"
+    },
+    {
+      "word": "die Ankunftszeit",
+      "translation_cz": "čas příletu",
+      "example": "Wie ist unsere Ankunftszeit in Prag?",
+      "example_cz": "Jaký je náš čas příletu do Prahy?",
+      "tts_text": "Wie ist unsere Ankunftszeit in Prag?"
+    },
+    {
+      "word": "geplantes Treffen",
+      "translation_cz": "naplánovaná schůzka",
+      "example": "Wir haben direkt nach der Ankunft ein geplantes Treffen.",
+      "example_cz": "Hned po příletu máme naplánovanou schůzku.",
+      "tts_text": "Wir haben direkt nach der Ankunft ein geplantes Treffen."
+    },
+    {
+      "word": "die Freizeit",
+      "translation_cz": "volný čas",
+      "example": "Haben wir am Donnerstag etwas Freizeit?",
+      "example_cz": "Máme ve čtvrtek nějaký volný čas?",
+      "tts_text": "Haben wir am Donnerstag etwas Freizeit?"
+    },
+    {
+      "word": "den Zeitplan aktualisieren",
+      "translation_cz": "aktualizovat harmonogram",
+      "example": "Wir müssen vielleicht den Zeitplan aktualisieren.",
+      "example_cz": "Možná budeme muset aktualizovat harmonogram.",
+      "tts_text": "Wir müssen vielleicht den Zeitplan aktualisieren."
+    },
+    {
+      "word": "die Details noch einmal prüfen",
+      "translation_cz": "zkontrolovat detaily",
+      "example": "Bitte prüfen Sie alle Details noch einmal.",
+      "example_cz": "Prosím zkontrolujte všechny detaily.",
+      "tts_text": "Bitte prüfen Sie alle Details noch einmal."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_reiseplan_besprechen",
+      "title": "Den Reiseplan besprechen",
+      "title_cz": "Diskuze o cestovním plánu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Lass uns den Reiseplan gemeinsam durchgehen.",
+          "text_cz": "Pojďme si společně projít cestovní plán."
+        },
+        {
+          "speaker": "B",
+          "text": "Klar. Wir haben einen zweistündigen Zwischenstopp in Wien. Reicht die Umsteigezeit aus?",
+          "text_cz": "Jistě. Máme dvouhodinové mezipřistání ve Vídni. Je to dost času na přestup?"
+        },
+        {
+          "speaker": "A",
+          "text": "Das sollte reichen. Wie ist unsere Ankunftszeit in Prag?",
+          "text_cz": "Mělo by to stačit. Jaký je náš čas příletu do Prahy?"
+        },
+        {
+          "speaker": "B",
+          "text": "Gegen 18 Uhr. Wir haben direkt nach der Ankunft ein geplantes Treffen.",
+          "text_cz": "Kolem 18 hodiny. Hned po příletu máme naplánovanou schůzku."
+        },
+        {
+          "speaker": "A",
+          "text": "Okay, lass uns die Details noch einmal prüfen, bevor wir losfahren.",
+          "text_cz": "Dobře, zkontrolujme detaily, než odjedeme."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Zwischenstopp",
+      "options": [
+        "mezipřistání",
+        "volný čas",
+        "harmonogram"
+      ],
+      "correct": "mezipřistání"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Reicht die ___ aus?",
+      "answer": "Umsteigezeit",
+      "hint_cz": "na přestup"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wie ist unsere ___ in Prag?",
+      "answer": "Ankunftszeit",
+      "hint_cz": "příletu"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "geplantes Treffen",
+          "cz": "naplánovaná schůzka"
+        },
+        {
+          "target": "die Freizeit",
+          "cz": "volný čas"
+        },
+        {
+          "target": "den Zeitplan aktualisieren",
+          "cz": "aktualizovat harmonogram"
+        },
+        {
+          "target": "die Details noch einmal prüfen",
+          "cz": "zkontrolovat detaily"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lass uns den Reiseplan gemeinsam durchgehen.",
+      "tts_text": "Lass uns den Reiseplan gemeinsam durchgehen."
+    }
+  ]
+}

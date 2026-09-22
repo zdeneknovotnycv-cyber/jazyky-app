@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_problem_solving_05",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Ein Problem eskalieren",
+  "title_cz": "Eskalace problému",
+  "vocabulary": [
+    {
+      "word": "eskalieren",
+      "translation_cz": "eskalovat",
+      "example": "Ich muss dieses Problem eskalieren.",
+      "example_cz": "Musím tento problém eskalovat.",
+      "tts_text": "Ich muss dieses Problem eskalieren."
+    },
+    {
+      "word": "außerhalb meiner Befugnis",
+      "translation_cz": "mimo mou pravomoc",
+      "example": "Diese Entscheidung liegt außerhalb meiner Befugnis.",
+      "example_cz": "Toto rozhodnutí je mimo mou pravomoc.",
+      "tts_text": "Diese Entscheidung liegt außerhalb meiner Befugnis."
+    },
+    {
+      "word": "jemanden einbeziehen",
+      "translation_cz": "zapojit někoho",
+      "example": "Wir sollten die Abteilungsleitung einbeziehen.",
+      "example_cz": "Měli bychom zapojit vedoucího oddělení.",
+      "tts_text": "Wir sollten die Abteilungsleitung einbeziehen."
+    },
+    {
+      "word": "der Dienstweg",
+      "translation_cz": "hierarchie velení",
+      "example": "Lassen Sie uns den Dienstweg einhalten.",
+      "example_cz": "Dodržujme hierarchii velení.",
+      "tts_text": "Lassen Sie uns den Dienstweg einhalten."
+    },
+    {
+      "word": "kritisch",
+      "translation_cz": "kritický",
+      "example": "Die Situation ist kritisch.",
+      "example_cz": "Situace je kritická.",
+      "tts_text": "Die Situation ist kritisch."
+    },
+    {
+      "word": "dies ansprechen bei",
+      "translation_cz": "vznést to u",
+      "example": "Ich werde das heute beim Management ansprechen.",
+      "example_cz": "Vznesu to dnes u vedení.",
+      "tts_text": "Ich werde das heute beim Management ansprechen."
+    },
+    {
+      "word": "die nächsten Schritte",
+      "translation_cz": "další kroky",
+      "example": "Was sind die nächsten Schritte?",
+      "example_cz": "Jaké jsou další kroky?",
+      "tts_text": "Was sind die nächsten Schritte?"
+    },
+    {
+      "word": "mich auf dem Laufenden halten",
+      "translation_cz": "informujte mě",
+      "example": "Bitte halten Sie mich auf dem Laufenden.",
+      "example_cz": "Prosím informujte mě o vývoji.",
+      "tts_text": "Bitte halten Sie mich auf dem Laufenden."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_05",
+      "title": "Ein Problem eskalieren",
+      "title_cz": "Eskalace problému",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Dieses Problem ist kritisch und liegt außerhalb meiner Befugnis.",
+          "text_cz": "Tento problém je kritický a je mimo mou pravomoc."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich stimme zu, wir sollten es eskalieren.",
+          "text_cz": "Souhlasím, měli bychom to eskalovat."
+        },
+        {
+          "speaker": "A",
+          "text": "Ich werde das heute beim Management ansprechen.",
+          "text_cz": "Dnes to vznesu u vedení."
+        },
+        {
+          "speaker": "B",
+          "text": "Gut. Lassen Sie uns auch die IT einbeziehen, laut Dienstweg.",
+          "text_cz": "Dobře. Zapojme také IT, podle hierarchie velení."
+        },
+        {
+          "speaker": "A",
+          "text": "Was sind die nächsten Schritte?",
+          "text_cz": "Jaké jsou další kroky?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich organisiere ein Treffen. Halten Sie mich auf dem Laufenden.",
+          "text_cz": "Zařídím schůzku. Informujte mě o vývoji."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "eskalieren",
+      "options": [
+        "eskalovat",
+        "mimo mou pravomoc",
+        "zapojit někoho"
+      ],
+      "correct": "eskalovat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lassen Sie uns den Dienstweg ___",
+      "answer": "einhalten",
+      "hint_cz": "hierarchie velení"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "eskalieren",
+          "cz": "eskalovat"
+        },
+        {
+          "target": "außerhalb meiner Befugnis",
+          "cz": "mimo mou pravomoc"
+        },
+        {
+          "target": "jemanden einbeziehen",
+          "cz": "zapojit někoho"
+        },
+        {
+          "target": "der Dienstweg",
+          "cz": "hierarchie velení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Die Situation ist kritisch.",
+      "tts_text": "Die Situation ist kritisch."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich werde das heute beim Management ___",
+      "answer": "ansprechen",
+      "hint_cz": "vznést to u"
+    }
+  ]
+}

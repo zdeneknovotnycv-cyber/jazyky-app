@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_office_life_09",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Antrag auf Homeoffice",
+  "title_cz": "Žádost o práci z domova",
+  "vocabulary": [
+    {
+      "word": "im Homeoffice arbeiten",
+      "translation_cz": "pracovat z domova",
+      "example": "Kann ich am Donnerstag im Homeoffice arbeiten?",
+      "example_cz": "Mohu ve čtvrtek pracovat z domova?",
+      "tts_text": "Kann ich am Donnerstag im Homeoffice arbeiten?"
+    },
+    {
+      "word": "der Homeoffice-Tag",
+      "translation_cz": "den práce na dálku",
+      "example": "Ich möchte nächste Woche einen Homeoffice-Tag nehmen.",
+      "example_cz": "Rád bych si příští týden vzal den práce na dálku.",
+      "tts_text": "Ich möchte nächste Woche einen Homeoffice-Tag nehmen."
+    },
+    {
+      "word": "die Zustimmung des Vorgesetzten",
+      "translation_cz": "souhlas manažera",
+      "example": "Du brauchst zuerst die Zustimmung deines Vorgesetzten.",
+      "example_cz": "Nejprve potřebuješ souhlas svého manažera.",
+      "tts_text": "Du brauchst zuerst die Zustimmung deines Vorgesetzten."
+    },
+    {
+      "word": "erreichbar bleiben",
+      "translation_cz": "být dostupný",
+      "example": "Bitte bleib während der Arbeitszeit erreichbar.",
+      "example_cz": "Prosím buď dostupný v pracovní době.",
+      "tts_text": "Bitte bleib während der Arbeitszeit erreichbar."
+    },
+    {
+      "word": "die Homeoffice-Ausstattung",
+      "translation_cz": "vybavení domácí kanceláře",
+      "example": "Die Firma stellt eine Homeoffice-Ausstattung bereit.",
+      "example_cz": "Firma poskytuje vybavení domácí kanceláře.",
+      "tts_text": "Die Firma stellt eine Homeoffice-Ausstattung bereit."
+    },
+    {
+      "word": "die Internetverbindung",
+      "translation_cz": "internetové připojení",
+      "example": "Achte auf eine stabile Internetverbindung.",
+      "example_cz": "Ujisti se, že máš stabilní internetové připojení.",
+      "tts_text": "Achte auf eine stabile Internetverbindung."
+    },
+    {
+      "word": "das persönliche Treffen",
+      "translation_cz": "osobní schůzka",
+      "example": "Am Freitag gibt es ein persönliches Treffen, also komm ins Büro.",
+      "example_cz": "V pátek je osobní schůzka, tak přijď do kanceláře.",
+      "tts_text": "Am Freitag gibt es ein persönliches Treffen, also komm ins Büro."
+    },
+    {
+      "word": "das hybride Modell",
+      "translation_cz": "hybridní rozvrh",
+      "example": "Wir folgen einem hybriden Modell, drei Tage im Büro.",
+      "example_cz": "Máme hybridní rozvrh, tři dny v kanceláři.",
+      "tts_text": "Wir folgen einem hybriden Modell, drei Tage im Büro."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_office_life_09",
+      "title": "Um Homeoffice bitten",
+      "title_cz": "Žádost o práci z domova",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Könnte ich diesen Donnerstag im Homeoffice arbeiten?",
+          "text_cz": "Mohl bych tento čtvrtek pracovat z domova?"
+        },
+        {
+          "speaker": "B",
+          "text": "Klar, denk nur daran, du brauchst die Zustimmung deines Vorgesetzten.",
+          "text_cz": "Jasně, jen pamatuj, potřebuješ souhlas svého manažera."
+        },
+        {
+          "speaker": "A",
+          "text": "Ich habe ihn schon gefragt, er sagte, es passt.",
+          "text_cz": "Už jsem se ho ptal, řekl, že je to v pořádku."
+        },
+        {
+          "speaker": "B",
+          "text": "Super, bleib nur während der Arbeitszeit erreichbar.",
+          "text_cz": "Skvělé, jen buď dostupný v pracovní době."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "im Homeoffice arbeiten",
+      "options": [
+        "pracovat z domova",
+        "den práce na dálku",
+        "souhlas manažera"
+      ],
+      "correct": "pracovat z domova"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Du brauchst zuerst die ___ deines Vorgesetzten.",
+      "answer": "Zustimmung",
+      "hint_cz": "souhlas"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "im Homeoffice arbeiten",
+          "cz": "pracovat z domova"
+        },
+        {
+          "target": "der Homeoffice-Tag",
+          "cz": "den práce na dálku"
+        },
+        {
+          "target": "die Zustimmung des Vorgesetzten",
+          "cz": "souhlas manažera"
+        },
+        {
+          "target": "erreichbar bleiben",
+          "cz": "být dostupný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Könnte ich diesen Donnerstag im Homeoffice arbeiten?",
+      "tts_text": "Könnte ich diesen Donnerstag im Homeoffice arbeiten?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Bitte bleib während der Arbeitszeit ___.",
+      "answer": "erreichbar",
+      "hint_cz": "dostupný"
+    }
+  ]
+}

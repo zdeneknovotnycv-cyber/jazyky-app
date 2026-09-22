@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_email_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Replying to an email",
+  "title_cz": "Odpovídání na e-mail",
+  "vocabulary": [
+    {
+      "word": "thank you for your email",
+      "translation_cz": "děkuji za váš e-mail",
+      "example": "Thank you for your email yesterday.",
+      "example_cz": "Děkuji za váš včerejší e-mail.",
+      "tts_text": "Thank you for your email yesterday."
+    },
+    {
+      "word": "in response to",
+      "translation_cz": "v reakci na",
+      "example": "In response to your question, yes we can help.",
+      "example_cz": "V reakci na váš dotaz, ano, můžeme pomoci.",
+      "tts_text": "In response to your question, yes we can help."
+    },
+    {
+      "word": "as requested",
+      "translation_cz": "jak jste žádal/a",
+      "example": "As requested, I've attached the file.",
+      "example_cz": "Jak jste žádal, přiložil jsem soubor.",
+      "tts_text": "As requested, I've attached the file."
+    },
+    {
+      "word": "answer your question",
+      "translation_cz": "odpovědět na váš dotaz",
+      "example": "Let me answer your question directly.",
+      "example_cz": "Dovolte mi přímo odpovědět na váš dotaz.",
+      "tts_text": "Let me answer your question directly."
+    },
+    {
+      "word": "get back to you",
+      "translation_cz": "ozvat se vám",
+      "example": "I will get back to you by Friday.",
+      "example_cz": "Ozvu se vám do pátku.",
+      "tts_text": "I will get back to you by Friday."
+    },
+    {
+      "word": "further information",
+      "translation_cz": "další informace",
+      "example": "Please let me know if you need further information.",
+      "example_cz": "Dejte mi vědět, pokud potřebujete další informace.",
+      "tts_text": "Please let me know if you need further information."
+    },
+    {
+      "word": "promptly",
+      "translation_cz": "neprodleně",
+      "example": "I will reply promptly.",
+      "example_cz": "Odpovím neprodleně.",
+      "tts_text": "I will reply promptly."
+    },
+    {
+      "word": "appreciate your patience",
+      "translation_cz": "vážím si vaší trpělivosti",
+      "example": "I appreciate your patience with this matter.",
+      "example_cz": "Vážím si vaší trpělivosti v této záležitosti.",
+      "tts_text": "I appreciate your patience with this matter."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_reply_email",
+      "title": "Replying with the requested information",
+      "title_cz": "Odpověď s požadovanými informacemi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Thank you for your email. As requested, I've attached the updated file.",
+          "text_cz": "Děkuji za váš e-mail. Jak jste žádal, přiložil jsem aktualizovaný soubor."
+        },
+        {
+          "speaker": "A",
+          "text": "In response to your question, the price includes shipping.",
+          "text_cz": "V reakci na váš dotaz, cena zahrnuje dopravu."
+        },
+        {
+          "speaker": "B",
+          "text": "Thanks, that answers my question. Do you need anything else from me?",
+          "text_cz": "Díky, to zodpovídá mou otázku. Potřebujete ode mě ještě něco?"
+        },
+        {
+          "speaker": "A",
+          "text": "No, that's all for now. I appreciate your patience.",
+          "text_cz": "Ne, to je pro teď všechno. Vážím si vaší trpělivosti."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "as requested",
+      "options": [
+        "jak jste žádal",
+        "neprodleně",
+        "další informace"
+      ],
+      "correct": "jak jste žádal"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I will get ___ to you by Friday.",
+      "answer": "back",
+      "hint_cz": "ozvu se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "promptly",
+          "cz": "neprodleně"
+        },
+        {
+          "target": "further information",
+          "cz": "další informace"
+        },
+        {
+          "target": "in response to",
+          "cz": "v reakci na"
+        },
+        {
+          "target": "appreciate your patience",
+          "cz": "vážím si vaší trpělivosti"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Thank you for your email yesterday.",
+      "tts_text": "Thank you for your email yesterday."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let me ___ your question directly.",
+      "answer": "answer",
+      "hint_cz": "odpovědět"
+    }
+  ]
+}

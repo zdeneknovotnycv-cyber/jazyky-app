@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_shopping_kids_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Ein Geburtstagsgeschenk aussuchen",
+  "title_cz": "Výběr narozeninového dárku",
+  "vocabulary": [
+    {
+      "word": "der Geschenkeladen",
+      "translation_cz": "obchod s dárky",
+      "example": "Wir suchen ein Geschenk im Geschenkeladen.",
+      "example_cz": "V obchodě s dárky hledáme dárek.",
+      "tts_text": "Wir suchen ein Geschenk im Geschenkeladen."
+    },
+    {
+      "word": "die Idee",
+      "translation_cz": "nápad",
+      "example": "Ich habe eine gute Idee für ein Geschenk.",
+      "example_cz": "Mám dobrý nápad na dárek.",
+      "tts_text": "Ich habe eine gute Idee für ein Geschenk."
+    },
+    {
+      "word": "die Lieblingsfarbe",
+      "translation_cz": "oblíbená barva",
+      "example": "Ich kenne ihre Lieblingsfarbe.",
+      "example_cz": "Znám její oblíbenou barvu.",
+      "tts_text": "Ich kenne ihre Lieblingsfarbe."
+    },
+    {
+      "word": "perfekt",
+      "translation_cz": "dokonalý",
+      "example": "Dieses Geschenk ist perfekt für ihn.",
+      "example_cz": "Tento dárek je pro něj dokonalý.",
+      "tts_text": "Dieses Geschenk ist perfekt für ihn."
+    },
+    {
+      "word": "vergleichen",
+      "translation_cz": "porovnat",
+      "example": "Ich vergleiche zwei verschiedene Spielsachen.",
+      "example_cz": "Porovnávám dvě různé hračky.",
+      "tts_text": "Ich vergleiche zwei verschiedene Spielsachen."
+    },
+    {
+      "word": "das Budget",
+      "translation_cz": "rozpočet",
+      "example": "Ich habe ein kleines Budget für das Geschenk.",
+      "example_cz": "Mám na dárek malý rozpočet.",
+      "tts_text": "Ich habe ein kleines Budget für das Geschenk."
+    },
+    {
+      "word": "sich entscheiden",
+      "translation_cz": "rozhodnout se",
+      "example": "Ich entscheide mich schließlich für ein Buch.",
+      "example_cz": "Nakonec se rozhodnu pro knihu.",
+      "tts_text": "Ich entscheide mich schließlich für ein Buch."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Geschenkeladen",
+      "options": [
+        "obchod s dárky",
+        "nápad",
+        "oblíbená barva"
+      ],
+      "correct": "obchod s dárky"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich habe eine gute ___ für ein Geschenk.",
+      "answer": "Idee",
+      "hint_cz": "nápad"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Lieblingsfarbe",
+          "cz": "oblíbená barva"
+        },
+        {
+          "target": "perfekt",
+          "cz": "dokonalý"
+        },
+        {
+          "target": "vergleichen",
+          "cz": "porovnat"
+        },
+        {
+          "target": "das Budget",
+          "cz": "rozpočet"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich entscheide mich schließlich für ein Buch.",
+      "tts_text": "Ich entscheide mich schließlich für ein Buch."
+    }
+  ]
+}

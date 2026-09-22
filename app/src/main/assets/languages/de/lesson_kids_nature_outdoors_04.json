@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_nature_outdoors_04",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Sterne und Himmel",
+  "title_cz": "Hvězdy a obloha",
+  "vocabulary": [
+    {
+      "word": "der Stern",
+      "translation_cz": "hvězda",
+      "example": "Ich sehe einen hellen Stern.",
+      "example_cz": "Vidím jasnou hvězdu.",
+      "tts_text": "Ich sehe einen hellen Stern."
+    },
+    {
+      "word": "der Himmel",
+      "translation_cz": "obloha",
+      "example": "Der Himmel ist voller Sterne.",
+      "example_cz": "Obloha je plná hvězd.",
+      "tts_text": "Der Himmel ist voller Sterne."
+    },
+    {
+      "word": "die Wolke",
+      "translation_cz": "mrak",
+      "example": "Eine Wolke bedeckt den Mond.",
+      "example_cz": "Mrak zakrývá měsíc.",
+      "tts_text": "Eine Wolke bedeckt den Mond."
+    },
+    {
+      "word": "dunkel",
+      "translation_cz": "tma",
+      "example": "Draußen ist es jetzt dunkel.",
+      "example_cz": "Venku je teď tma.",
+      "tts_text": "Draußen ist es jetzt dunkel."
+    },
+    {
+      "word": "der Wunsch",
+      "translation_cz": "přání",
+      "example": "Ich mache einen Wunsch bei einem Stern.",
+      "example_cz": "Přeju si přání u hvězdy.",
+      "tts_text": "Ich mache einen Wunsch bei einem Stern."
+    },
+    {
+      "word": "das Teleskop",
+      "translation_cz": "dalekohled",
+      "example": "Wir schauen mit einem Teleskop in den Himmel.",
+      "example_cz": "Díváme se na oblohu dalekohledem.",
+      "tts_text": "Wir schauen mit einem Teleskop in den Himmel."
+    },
+    {
+      "word": "die Sternschnuppe",
+      "translation_cz": "padající hvězda",
+      "example": "Ich habe eine Sternschnuppe gesehen!",
+      "example_cz": "Viděl jsem padající hvězdu!",
+      "tts_text": "Ich habe eine Sternschnuppe gesehen!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Stern",
+      "options": [
+        "hvězda",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "hvězda"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich sehe einen hellen ___.",
+      "answer": "der Stern",
+      "hint_cz": "hvězda"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Himmel",
+          "cz": "obloha"
+        },
+        {
+          "target": "die Wolke",
+          "cz": "mrak"
+        },
+        {
+          "target": "dunkel",
+          "cz": "tma"
+        },
+        {
+          "target": "der Wunsch",
+          "cz": "přání"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe eine Sternschnuppe gesehen!",
+      "tts_text": "Ich habe eine Sternschnuppe gesehen!"
+    }
+  ]
+}

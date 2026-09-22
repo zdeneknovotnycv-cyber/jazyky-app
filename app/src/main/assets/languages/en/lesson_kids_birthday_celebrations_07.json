@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_birthday_celebrations_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Presents and wishes",
+  "title_cz": "Dárky a přání",
+  "vocabulary": [
+    {
+      "word": "present",
+      "translation_cz": "dárek",
+      "example": "I choose a present for my friend.",
+      "example_cz": "Vybírám dárek pro kamaráda.",
+      "tts_text": "I choose a present for my friend."
+    },
+    {
+      "word": "wish",
+      "translation_cz": "přání",
+      "example": "Make a wish before you blow the candles.",
+      "example_cz": "Přej si přání, než sfoukneš svíčky.",
+      "tts_text": "Make a wish before you blow the candles."
+    },
+    {
+      "word": "wrap",
+      "translation_cz": "zabalit",
+      "example": "I wrap the present in paper.",
+      "example_cz": "Balím dárek do papíru.",
+      "tts_text": "I wrap the present in paper."
+    },
+    {
+      "word": "ribbon",
+      "translation_cz": "stuha",
+      "example": "I tie a ribbon on the box.",
+      "example_cz": "Vážu stuhu na krabičku.",
+      "tts_text": "I tie a ribbon on the box."
+    },
+    {
+      "word": "card",
+      "translation_cz": "přání, kartička",
+      "example": "I write a nice card.",
+      "example_cz": "Píšu pěkné přání.",
+      "tts_text": "I write a nice card."
+    },
+    {
+      "word": "surprise",
+      "translation_cz": "překvapení",
+      "example": "It is a big surprise for her.",
+      "example_cz": "Je to pro ni velké překvapení.",
+      "tts_text": "It is a big surprise for her."
+    },
+    {
+      "word": "thank you",
+      "translation_cz": "děkuji",
+      "example": "I say thank you for the present.",
+      "example_cz": "Děkuji za dárek.",
+      "tts_text": "I say thank you for the present."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "present",
+      "options": [
+        "dárek",
+        "přání",
+        "zabalit"
+      ],
+      "correct": "dárek"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Make a ___ before you blow the candles.",
+      "answer": "wish",
+      "hint_cz": "přání"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "wrap",
+          "cz": "zabalit"
+        },
+        {
+          "target": "ribbon",
+          "cz": "stuha"
+        },
+        {
+          "target": "card",
+          "cz": "přání, kartička"
+        },
+        {
+          "target": "surprise",
+          "cz": "překvapení"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I say thank you for the present.",
+      "tts_text": "I say thank you for the present."
+    }
+  ]
+}

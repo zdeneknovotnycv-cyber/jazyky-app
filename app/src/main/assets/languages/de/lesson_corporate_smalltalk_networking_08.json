@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_smalltalk_networking_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen neuen Kollegen willkommen heißen",
+  "title_cz": "Přivítání nového kolegy",
+  "vocabulary": [
+    {
+      "word": "Willkommen im Team",
+      "translation_cz": "Vítej v týmu",
+      "example": "Willkommen im Team!",
+      "example_cz": "Vítej v týmu!",
+      "tts_text": "Willkommen im Team!"
+    },
+    {
+      "word": "dir das Büro zeigen",
+      "translation_cz": "provést tě po firmě",
+      "example": "Lass mich dir das Büro zeigen.",
+      "example_cz": "Nech mě tě provést po kanceláři.",
+      "tts_text": "Lass mich dir das Büro zeigen."
+    },
+    {
+      "word": "der erste Tag",
+      "translation_cz": "první den",
+      "example": "Wie läuft dein erster Tag?",
+      "example_cz": "Jak ti jde první den?",
+      "tts_text": "Wie läuft dein erster Tag?"
+    },
+    {
+      "word": "Wenn du Fragen hast",
+      "translation_cz": "Pokud budeš mít nějaké dotazy",
+      "example": "Wenn du Fragen hast, frag einfach.",
+      "example_cz": "Pokud budeš mít nějaké dotazy, klidně se zeptej.",
+      "tts_text": "Wenn du Fragen hast, frag einfach."
+    },
+    {
+      "word": "sich einleben",
+      "translation_cz": "zabydlet se",
+      "example": "Ich hoffe, du lebst dich schnell ein.",
+      "example_cz": "Doufám, že se rychle zabydlíš.",
+      "tts_text": "Ich hoffe, du lebst dich schnell ein."
+    },
+    {
+      "word": "das Teammitglied",
+      "translation_cz": "člen týmu",
+      "example": "Du bist jetzt offiziell Teammitglied.",
+      "example_cz": "Teď jsi oficiálním členem týmu.",
+      "tts_text": "Du bist jetzt offiziell Teammitglied."
+    },
+    {
+      "word": "sich gegenseitig kennenlernen",
+      "translation_cz": "poznat se navzájem",
+      "example": "Wir werden Zeit haben, uns gegenseitig kennenzulernen.",
+      "example_cz": "Budeme mít čas se navzájem poznat.",
+      "tts_text": "Wir werden Zeit haben, uns gegenseitig kennenzulernen."
+    },
+    {
+      "word": "Frag ruhig",
+      "translation_cz": "Neváhej se zeptat",
+      "example": "Frag mich ruhig alles.",
+      "example_cz": "Neváhej se mě na cokoliv zeptat.",
+      "tts_text": "Frag mich ruhig alles."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_willkommen",
+      "title": "Einen neuen Kollegen willkommen heißen",
+      "title_cz": "Přivítání nového kolegy",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Willkommen im Team! Wie läuft dein erster Tag?",
+          "text_cz": "Vítej v týmu! Jak ti jde první den?"
+        },
+        {
+          "speaker": "B",
+          "text": "Super, danke. Alle sind sehr freundlich.",
+          "text_cz": "Skvěle, děkuji. Všichni jsou moc milí."
+        },
+        {
+          "speaker": "A",
+          "text": "Lass mich dir das Büro zeigen. Wenn du Fragen hast, frag einfach.",
+          "text_cz": "Nech mě tě provést po kanceláři. Pokud budeš mít nějaké dotazy, klidně se zeptej."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke, ich hoffe, ich lebe mich schnell ein.",
+          "text_cz": "Děkuji, doufám, že se rychle zabydlím."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Willkommen im Team",
+      "options": [
+        "Vítej v týmu",
+        "První den",
+        "Zabydlet se"
+      ],
+      "correct": "Vítej v týmu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Lass mich dir das Büro ___.",
+      "answer": "zeigen",
+      "hint_cz": "ukázat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wenn du ___ hast, frag einfach.",
+      "answer": "Fragen",
+      "hint_cz": "dotazy"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der erste Tag",
+          "cz": "první den"
+        },
+        {
+          "target": "sich einleben",
+          "cz": "zabydlet se"
+        },
+        {
+          "target": "das Teammitglied",
+          "cz": "člen týmu"
+        },
+        {
+          "target": "sich gegenseitig kennenlernen",
+          "cz": "poznat se navzájem"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Willkommen im Team!",
+      "tts_text": "Willkommen im Team!"
+    }
+  ]
+}

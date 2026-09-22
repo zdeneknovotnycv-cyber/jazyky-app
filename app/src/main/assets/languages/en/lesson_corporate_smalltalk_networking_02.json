@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_smalltalk_networking_02",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Networking at a conference",
+  "title_cz": "Networking na konferenci",
+  "vocabulary": [
+    {
+      "word": "Nice to meet you",
+      "translation_cz": "Těší mě",
+      "example": "Nice to meet you, I'm Tomas.",
+      "example_cz": "Těší mě, já jsem Tomáš.",
+      "tts_text": "Nice to meet you, I'm Tomas."
+    },
+    {
+      "word": "What brings you here?",
+      "translation_cz": "Co vás sem přivádí?",
+      "example": "So, what brings you to this conference?",
+      "example_cz": "Tak co vás přivádí na tuhle konferenci?",
+      "tts_text": "So, what brings you to this conference?"
+    },
+    {
+      "word": "keynote speech",
+      "translation_cz": "hlavní projev",
+      "example": "The keynote speech was really inspiring.",
+      "example_cz": "Hlavní projev byl opravdu inspirativní.",
+      "tts_text": "The keynote speech was really inspiring."
+    },
+    {
+      "word": "stay in touch",
+      "translation_cz": "zůstat v kontaktu",
+      "example": "Let's stay in touch after the event.",
+      "example_cz": "Zůstaňme v kontaktu i po akci.",
+      "tts_text": "Let's stay in touch after the event."
+    },
+    {
+      "word": "field of work",
+      "translation_cz": "obor činnosti",
+      "example": "What's your field of work?",
+      "example_cz": "V jakém oboru pracujete?",
+      "tts_text": "What's your field of work?"
+    },
+    {
+      "word": "attend a session",
+      "translation_cz": "zúčastnit se přednášky",
+      "example": "I attended a great session this morning.",
+      "example_cz": "Dnes ráno jsem se zúčastnil skvělé přednášky.",
+      "tts_text": "I attended a great session this morning."
+    },
+    {
+      "word": "panel discussion",
+      "translation_cz": "panelová diskuze",
+      "example": "The panel discussion covered AI trends.",
+      "example_cz": "Panelová diskuze se týkala trendů v AI.",
+      "tts_text": "The panel discussion covered AI trends."
+    },
+    {
+      "word": "exchange contacts",
+      "translation_cz": "vyměnit si kontakty",
+      "example": "Shall we exchange contacts?",
+      "example_cz": "Vyměníme si kontakty?",
+      "tts_text": "Shall we exchange contacts?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_conference_networking",
+      "title": "Meeting someone at a conference",
+      "title_cz": "Seznámení na konferenci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hi, nice to meet you. I'm Anna.",
+          "text_cz": "Ahoj, těší mě. Jsem Anna."
+        },
+        {
+          "speaker": "B",
+          "text": "Nice to meet you too. What brings you here?",
+          "text_cz": "Mě taky těší. Co vás sem přivádí?"
+        },
+        {
+          "speaker": "A",
+          "text": "I work in marketing. What's your field of work?",
+          "text_cz": "Pracuji v marketingu. V jakém oboru pracujete vy?"
+        },
+        {
+          "speaker": "B",
+          "text": "I'm in software development. The keynote speech was inspiring, wasn't it?",
+          "text_cz": "Já v softwarovém vývoji. Ten hlavní projev byl inspirativní, že?"
+        },
+        {
+          "speaker": "A",
+          "text": "Definitely. Shall we exchange contacts?",
+          "text_cz": "Rozhodně. Vyměníme si kontakty?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, let's stay in touch.",
+          "text_cz": "Jasně, zůstaňme v kontaktu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "keynote speech",
+      "options": [
+        "hlavní projev",
+        "panelová diskuze",
+        "obor činnosti"
+      ],
+      "correct": "hlavní projev"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What ___ you here?",
+      "answer": "brings",
+      "hint_cz": "přivádí"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Shall we ___ contacts?",
+      "answer": "exchange",
+      "hint_cz": "vyměnit"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "stay in touch",
+          "cz": "zůstat v kontaktu"
+        },
+        {
+          "target": "field of work",
+          "cz": "obor činnosti"
+        },
+        {
+          "target": "panel discussion",
+          "cz": "panelová diskuze"
+        },
+        {
+          "target": "attend a session",
+          "cz": "zúčastnit se přednášky"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Nice to meet you.",
+      "tts_text": "Nice to meet you."
+    }
+  ]
+}

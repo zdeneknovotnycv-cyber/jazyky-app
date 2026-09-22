@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_shopping_kids_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "At the candy shop",
+  "title_cz": "V cukrárně, obchodě se sladkostmi",
+  "vocabulary": [
+    {
+      "word": "candy shop",
+      "translation_cz": "obchod se sladkostmi",
+      "example": "The candy shop smells so sweet.",
+      "example_cz": "V obchodě se sladkostmi to krásně voní.",
+      "tts_text": "The candy shop smells so sweet."
+    },
+    {
+      "word": "lollipop",
+      "translation_cz": "lízátko",
+      "example": "I choose a red lollipop.",
+      "example_cz": "Vybírám si červené lízátko.",
+      "tts_text": "I choose a red lollipop."
+    },
+    {
+      "word": "jar",
+      "translation_cz": "sklenice",
+      "example": "The candy is in a big jar.",
+      "example_cz": "Sladkosti jsou ve velké sklenici.",
+      "tts_text": "The candy is in a big jar."
+    },
+    {
+      "word": "gummy bear",
+      "translation_cz": "medvídek gumový",
+      "example": "I love gummy bears.",
+      "example_cz": "Mám rád gumové medvídky.",
+      "tts_text": "I love gummy bears."
+    },
+    {
+      "word": "sweet",
+      "translation_cz": "sladký",
+      "example": "The candy tastes very sweet.",
+      "example_cz": "Sladkost chutná velmi sladce.",
+      "tts_text": "The candy tastes very sweet."
+    },
+    {
+      "word": "bag",
+      "translation_cz": "sáček",
+      "example": "I fill a bag with candy.",
+      "example_cz": "Plním sáček sladkostmi.",
+      "tts_text": "I fill a bag with candy."
+    },
+    {
+      "word": "how much",
+      "translation_cz": "kolik to stojí",
+      "example": "How much does this candy cost?",
+      "example_cz": "Kolik stojí tato sladkost?",
+      "tts_text": "How much does this candy cost?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "candy shop",
+      "options": [
+        "obchod se sladkostmi",
+        "lízátko",
+        "sklenice"
+      ],
+      "correct": "obchod se sladkostmi"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I choose a red ___.",
+      "answer": "lollipop",
+      "hint_cz": "lízátko"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "jar",
+          "cz": "sklenice"
+        },
+        {
+          "target": "gummy bear",
+          "cz": "medvídek gumový"
+        },
+        {
+          "target": "sweet",
+          "cz": "sladký"
+        },
+        {
+          "target": "bag",
+          "cz": "sáček"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "How much does this candy cost?",
+      "tts_text": "How much does this candy cost?"
+    }
+  ]
+}

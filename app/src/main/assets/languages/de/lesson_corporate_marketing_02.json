@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_marketing_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Social-Media-Strategie",
+  "title_cz": "Strategie sociálních sítí",
+  "vocabulary": [
+    {
+      "word": "Social-Media-Plattform",
+      "translation_cz": "platforma sociálních sítí",
+      "example": "Welche Social-Media-Plattform funktioniert für uns am besten?",
+      "example_cz": "Která platforma sociálních sítí funguje pro nás nejlépe?",
+      "tts_text": "Welche Social-Media-Plattform funktioniert für uns am besten?"
+    },
+    {
+      "word": "Interaktionsrate",
+      "translation_cz": "míra zapojení",
+      "example": "Unsere Interaktionsrate ist letzten Monat gestiegen.",
+      "example_cz": "Naše míra zapojení se minulý měsíc zvýšila.",
+      "tts_text": "Unsere Interaktionsrate ist letzten Monat gestiegen."
+    },
+    {
+      "word": "regelmäßig posten",
+      "translation_cz": "pravidelně přidávat příspěvky",
+      "example": "Wir müssen regelmäßig posten, um sichtbar zu bleiben.",
+      "example_cz": "Musíme pravidelně přidávat příspěvky, abychom zůstali viditelní.",
+      "tts_text": "Wir müssen regelmäßig posten, um sichtbar zu bleiben."
+    },
+    {
+      "word": "Hashtag",
+      "translation_cz": "hashtag",
+      "example": "Wählen Sie einen Hashtag, der zu unserer Marke passt.",
+      "example_cz": "Vyberte hashtag, který odpovídá naší značce.",
+      "tts_text": "Wählen Sie einen Hashtag, der zu unserer Marke passt."
+    },
+    {
+      "word": "Follower",
+      "translation_cz": "sledující",
+      "example": "Wir haben diese Woche tausend neue Follower gewonnen.",
+      "example_cz": "Tento týden jsme získali tisíc nových sledujících.",
+      "tts_text": "Wir haben diese Woche tausend neue Follower gewonnen."
+    },
+    {
+      "word": "Content-Strategie",
+      "translation_cz": "obsahová strategie",
+      "example": "Unsere Content-Strategie konzentriert sich auf kurze Videos.",
+      "example_cz": "Naše obsahová strategie se zaměřuje na krátká videa.",
+      "tts_text": "Unsere Content-Strategie konzentriert sich auf kurze Videos."
+    },
+    {
+      "word": "Influencer",
+      "translation_cz": "influencer",
+      "example": "Wir arbeiten für den Launch mit einem Influencer zusammen.",
+      "example_cz": "Na spuštění spolupracujeme s influencerem.",
+      "tts_text": "Wir arbeiten für den Launch mit einem Influencer zusammen."
+    },
+    {
+      "word": "viral gehen",
+      "translation_cz": "stát se virálním",
+      "example": "Dieses Video hat das Potenzial, viral zu gehen.",
+      "example_cz": "Toto video má potenciál stát se virálním.",
+      "tts_text": "Dieses Video hat das Potenzial, viral zu gehen."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_02",
+      "title": "Unsere Social-Media-Strategie planen",
+      "title_cz": "Plánování naší strategie sociálních sítí",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Welche Social-Media-Plattform funktioniert für uns am besten?",
+          "text_cz": "Která platforma sociálních sítí funguje pro nás nejlépe?"
+        },
+        {
+          "speaker": "B",
+          "text": "Instagram, dort haben wir die höchste Interaktionsrate.",
+          "text_cz": "Instagram, tam máme nejvyšší míru zapojení."
+        },
+        {
+          "speaker": "A",
+          "text": "Gut, lasst uns dort regelmäßig posten und einen starken Hashtag wählen.",
+          "text_cz": "Dobře, pojďme tam pravidelně přidávat příspěvky a vybrat silný hashtag."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich schlage auch vor, mit einem Influencer zusammenzuarbeiten, um mehr Follower zu erreichen.",
+          "text_cz": "Také navrhuji spolupracovat s influencerem, abychom oslovili více sledujících."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Interaktionsrate",
+      "options": [
+        "míra zapojení",
+        "hashtag",
+        "sledující"
+      ],
+      "correct": "míra zapojení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir müssen ___ posten, um sichtbar zu bleiben.",
+      "answer": "regelmäßig",
+      "hint_cz": "pravidelně"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "Hashtag",
+          "cz": "hashtag"
+        },
+        {
+          "target": "Follower",
+          "cz": "sledující"
+        },
+        {
+          "target": "Content-Strategie",
+          "cz": "obsahová strategie"
+        },
+        {
+          "target": "viral gehen",
+          "cz": "stát se virálním"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Welche Social-Media-Plattform funktioniert für uns am besten?",
+      "tts_text": "Welche Social-Media-Plattform funktioniert für uns am besten?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir arbeiten für den Launch mit einem ___ zusammen.",
+      "answer": "Influencer",
+      "hint_cz": "influencerem"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_time_days_03",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Die Uhrzeit",
+  "title_cz": "Kolik je hodin",
+  "vocabulary": [
+    {
+      "word": "Wie spät ist es?",
+      "translation_cz": "Kolik je hodin?",
+      "example": "Wie spät ist es jetzt?",
+      "example_cz": "Kolik je teď hodin?",
+      "tts_text": "Wie spät ist es jetzt?"
+    },
+    {
+      "word": "die Uhr",
+      "translation_cz": "hodina",
+      "example": "Es ist drei Uhr.",
+      "example_cz": "Jsou tři hodiny.",
+      "tts_text": "Es ist drei Uhr."
+    },
+    {
+      "word": "halb",
+      "translation_cz": "půl",
+      "example": "Es ist halb fünf.",
+      "example_cz": "Je půl páté.",
+      "tts_text": "Es ist halb fünf."
+    },
+    {
+      "word": "Viertel nach",
+      "translation_cz": "čtvrt po",
+      "example": "Es ist Viertel nach sechs.",
+      "example_cz": "Je čtvrt na sedm.",
+      "tts_text": "Es ist Viertel nach sechs."
+    },
+    {
+      "word": "Viertel vor",
+      "translation_cz": "za čtvrt",
+      "example": "Es ist Viertel vor acht.",
+      "example_cz": "Je za čtvrt osm.",
+      "tts_text": "Es ist Viertel vor acht."
+    },
+    {
+      "word": "die Minute",
+      "translation_cz": "minuta",
+      "example": "Warte bitte eine Minute.",
+      "example_cz": "Počkej prosím jednu minutu.",
+      "tts_text": "Warte bitte eine Minute."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Uhr",
+      "options": [
+        "hodina",
+        "minuta",
+        "půl"
+      ],
+      "correct": "hodina"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Es ist drei ___.",
+      "answer": "Uhr",
+      "hint_cz": "hodin"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "halb",
+          "cz": "půl"
+        },
+        {
+          "target": "Viertel nach",
+          "cz": "čtvrt po"
+        },
+        {
+          "target": "Viertel vor",
+          "cz": "za čtvrt"
+        },
+        {
+          "target": "die Minute",
+          "cz": "minuta"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Es ist halb fünf.",
+      "tts_text": "Es ist halb fünf."
+    }
+  ]
+}

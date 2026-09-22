@@ -1,0 +1,46 @@
+{
+  "id": "de_corporate_finance_budgets_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Gespräch über Kosteneinsparungen",
+  "title_cz": "Rozhovor o snižování nákladů",
+  "vocabulary": [
+    {"word": "die Kosteneinsparung", "translation_cz": "snižování nákladů", "example": "Wir müssen uns dieses Jahr auf Kosteneinsparungen konzentrieren.", "example_cz": "Letos se musíme zaměřit na snižování nákladů.", "tts_text": "Wir müssen uns dieses Jahr auf Kosteneinsparungen konzentrieren."},
+    {"word": "Ausgaben reduzieren", "translation_cz": "snížit výdaje", "example": "Wir planen, die Reisekosten zu reduzieren.", "example_cz": "Plánujeme snížit výdaje na cestování.", "tts_text": "Wir planen, die Reisekosten zu reduzieren."},
+    {"word": "die Effizienz", "translation_cz": "efektivita", "example": "Neue Software wird unsere Effizienz verbessern.", "example_cz": "Nový software zlepší naši efektivitu.", "tts_text": "Neue Software wird unsere Effizienz verbessern."},
+    {"word": "unnötige Kosten", "translation_cz": "zbytečné náklady", "example": "Wir sollten unnötige Kosten vermeiden.", "example_cz": "Měli bychom se vyhnout zbytečným nákladům.", "tts_text": "Wir sollten unnötige Kosten vermeiden."},
+    {"word": "der Liefervertrag", "translation_cz": "smlouva s dodavatelem", "example": "Wir haben den Liefervertrag neu verhandelt.", "example_cz": "Znovu jsme vyjednali smlouvu s dodavatelem.", "tts_text": "Wir haben den Liefervertrag neu verhandelt."},
+    {"word": "Prozesse optimieren", "translation_cz": "zefektivnit procesy", "example": "Wir wollen die Prozesse abteilungsübergreifend optimieren.", "example_cz": "Naším cílem je zefektivnit procesy napříč odděleními.", "tts_text": "Wir wollen die Prozesse abteilungsübergreifend optimieren."},
+    {"word": "die Einsparungen", "translation_cz": "úspory", "example": "Diese Änderung bringt erhebliche Einsparungen.", "example_cz": "Tato změna přinese výrazné úspory.", "tts_text": "Diese Änderung bringt erhebliche Einsparungen."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_cost_cutting",
+      "title": "Über Sparmaßnahmen sprechen",
+      "title_cz": "Rozhovor o opatřeních ke snížení nákladů",
+      "lines": [
+        {"speaker": "A", "text": "Wir müssen Wege finden, um dieses Quartal Ausgaben zu reduzieren.", "text_cz": "Musíme najít způsoby, jak toto čtvrtletí snížit výdaje."},
+        {"speaker": "B", "text": "Wir könnten mit unnötigen Kosten wie ungenutzten Abonnements beginnen.", "text_cz": "Mohli bychom začít zbytečnými náklady, jako jsou nevyužitá předplatná."},
+        {"speaker": "A", "text": "Guter Punkt. Schauen wir uns auch unsere Lieferverträge an.", "text_cz": "Dobrý postřeh. Projděme si také naše smlouvy s dodavateli."},
+        {"speaker": "B", "text": "Das könnte zu echten Einsparungen führen, ohne die Qualität zu beeinträchtigen.", "text_cz": "To by mohlo přinést skutečné úspory, aniž by to ovlivnilo kvalitu."}
+      ]
+    },
+    {
+      "id": "conv_efficiency",
+      "title": "Effizienz verbessern",
+      "title_cz": "Zlepšení efektivity",
+      "lines": [
+        {"speaker": "A", "text": "Wie können wir unsere Prozesse optimieren?", "text_cz": "Jak můžeme zefektivnit naše procesy?"},
+        {"speaker": "B", "text": "Neue Automatisierungssoftware sollte die Effizienz deutlich verbessern.", "text_cz": "Nový automatizační software by měl výrazně zlepšit efektivitu."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "die Einsparungen", "options": ["úspory", "náklady", "efektivita"], "correct": "úspory"},
+    {"type": "fill_gap", "sentence": "Wir sollten ___ Kosten vermeiden.", "answer": "unnötige", "hint_cz": "zbytečné"},
+    {"type": "match_pairs", "pairs": [{"target": "die Effizienz", "cz": "efektivita"}, {"target": "der Liefervertrag", "cz": "smlouva s dodavatelem"}, {"target": "die Kosteneinsparung", "cz": "snižování nákladů"}, {"target": "die Einsparungen", "cz": "úspory"}]},
+    {"type": "speak_and_check", "target_phrase": "Wir planen, die Reisekosten zu reduzieren.", "tts_text": "Wir planen, die Reisekosten zu reduzieren."},
+    {"type": "fill_gap", "sentence": "Wir wollen die Prozesse abteilungsübergreifend ___.", "answer": "optimieren", "hint_cz": "zefektivnit"}
+  ]
+}

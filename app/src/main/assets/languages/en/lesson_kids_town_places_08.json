@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_town_places_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The swimming pool",
+  "title_cz": "Bazén",
+  "vocabulary": [
+    {
+      "word": "swimming pool",
+      "translation_cz": "bazén",
+      "example": "We swim at the swimming pool.",
+      "example_cz": "Plaveme v bazénu.",
+      "tts_text": "We swim at the swimming pool."
+    },
+    {
+      "word": "swimsuit",
+      "translation_cz": "plavky",
+      "example": "I put on my swimsuit.",
+      "example_cz": "Oblékám si plavky.",
+      "tts_text": "I put on my swimsuit."
+    },
+    {
+      "word": "towel",
+      "translation_cz": "ručník",
+      "example": "I dry myself with a towel.",
+      "example_cz": "Utírám se ručníkem.",
+      "tts_text": "I dry myself with a towel."
+    },
+    {
+      "word": "swim",
+      "translation_cz": "plavat",
+      "example": "I can swim very well.",
+      "example_cz": "Umím velmi dobře plavat.",
+      "tts_text": "I can swim very well."
+    },
+    {
+      "word": "lifeguard",
+      "translation_cz": "plavčík",
+      "example": "The lifeguard watches the pool.",
+      "example_cz": "Plavčík hlídá bazén.",
+      "tts_text": "The lifeguard watches the pool."
+    },
+    {
+      "word": "diving board",
+      "translation_cz": "skokanské prkno",
+      "example": "I jump from the diving board.",
+      "example_cz": "Skáču ze skokanského prkna.",
+      "tts_text": "I jump from the diving board."
+    },
+    {
+      "word": "water wings",
+      "translation_cz": "rukávky",
+      "example": "My little sister wears water wings.",
+      "example_cz": "Moje malá sestra nosí rukávky.",
+      "tts_text": "My little sister wears water wings."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "swimming pool",
+      "options": [
+        "bazén",
+        "park",
+        "škola"
+      ],
+      "correct": "bazén"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I can ___ very well.",
+      "answer": "swim",
+      "hint_cz": "plavat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "swimsuit",
+          "cz": "plavky"
+        },
+        {
+          "target": "towel",
+          "cz": "ručník"
+        },
+        {
+          "target": "swim",
+          "cz": "plavat"
+        },
+        {
+          "target": "lifeguard",
+          "cz": "plavčík"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I put on my swimsuit.",
+      "tts_text": "I put on my swimsuit."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "en_adult_corporate_it_support_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Cybersecurity Basics at Work",
+  "title_cz": "Základy kybernetické bezpečnosti v práci",
+  "vocabulary": [
+    {
+      "word": "phishing email",
+      "translation_cz": "phishingový e-mail",
+      "example": "Never click links in a suspicious phishing email.",
+      "example_cz": "Nikdy neklikejte na odkazy v podezřelém phishingovém e-mailu.",
+      "tts_text": "Never click links in a suspicious phishing email."
+    },
+    {
+      "word": "suspicious",
+      "translation_cz": "podezřelý",
+      "example": "Report any suspicious message to the IT department.",
+      "example_cz": "Nahlaste jakoukoli podezřelou zprávu IT oddělení.",
+      "tts_text": "Report any suspicious message to the IT department."
+    },
+    {
+      "word": "strong password",
+      "translation_cz": "silné heslo",
+      "example": "Please use a strong password with numbers and symbols.",
+      "example_cz": "Používejte prosím silné heslo s čísly a symboly.",
+      "tts_text": "Please use a strong password with numbers and symbols."
+    },
+    {
+      "word": "malware",
+      "translation_cz": "malware / škodlivý software",
+      "example": "This attachment might contain malware.",
+      "example_cz": "Tato příloha může obsahovat malware.",
+      "tts_text": "This attachment might contain malware."
+    },
+    {
+      "word": "firewall",
+      "translation_cz": "firewall",
+      "example": "Our firewall blocks most dangerous websites.",
+      "example_cz": "Náš firewall blokuje většinu nebezpečných webových stránek.",
+      "tts_text": "Our firewall blocks most dangerous websites."
+    },
+    {
+      "word": "data protection",
+      "translation_cz": "ochrana dat",
+      "example": "Data protection rules apply to all employees.",
+      "example_cz": "Pravidla ochrany dat platí pro všechny zaměstnance.",
+      "tts_text": "Data protection rules apply to all employees."
+    },
+    {
+      "word": "lock your screen",
+      "translation_cz": "zamknout obrazovku",
+      "example": "Always lock your screen when you leave your desk.",
+      "example_cz": "Vždy si zamkněte obrazovku, když odcházíte od stolu.",
+      "tts_text": "Always lock your screen when you leave your desk."
+    },
+    {
+      "word": "report an incident",
+      "translation_cz": "nahlásit incident",
+      "example": "You should report an incident immediately, even a small one.",
+      "example_cz": "Incident byste měli nahlásit okamžitě, i ten malý.",
+      "tts_text": "You should report an incident immediately, even a small one."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_phishing",
+      "title": "Discussing a suspicious email",
+      "title_cz": "Rozhovor o podezřelém e-mailu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I received a strange email asking for my password. Is it safe?",
+          "text_cz": "Dostal jsem zvláštní e-mail, který chce moje heslo. Je to bezpečné?"
+        },
+        {
+          "speaker": "B",
+          "text": "No, that sounds like a phishing email. Please don't click any links.",
+          "text_cz": "Ne, to zní jako phishingový e-mail. Prosím, neklikejte na žádné odkazy."
+        },
+        {
+          "speaker": "A",
+          "text": "Should I report it?",
+          "text_cz": "Mám to nahlásit?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, please report the incident to IT security right away.",
+          "text_cz": "Ano, nahlaste prosím ten incident ihned bezpečnostnímu oddělení IT."
+        }
+      ]
+    },
+    {
+      "id": "conv_security_habits",
+      "title": "Everyday security habits",
+      "title_cz": "Každodenní bezpečnostní návyky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "What are the basic rules for cybersecurity at the office?",
+          "text_cz": "Jaká jsou základní pravidla kybernetické bezpečnosti v kanceláři?"
+        },
+        {
+          "speaker": "B",
+          "text": "Use a strong password, lock your screen, and never open unknown attachments.",
+          "text_cz": "Používejte silné heslo, zamykejte obrazovku a nikdy neotevírejte neznámé přílohy."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "phishing email",
+      "options": [
+        "phishingový e-mail",
+        "silné heslo",
+        "firewall"
+      ],
+      "correct": "phishingový e-mail"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Always ___ your screen when you leave your desk.",
+      "answer": "lock",
+      "hint_cz": "zamkněte"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "malware",
+          "cz": "malware"
+        },
+        {
+          "target": "data protection",
+          "cz": "ochrana dat"
+        },
+        {
+          "target": "suspicious",
+          "cz": "podezřelý"
+        },
+        {
+          "target": "report an incident",
+          "cz": "nahlásit incident"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Please use a strong password with numbers and symbols.",
+      "tts_text": "Please use a strong password with numbers and symbols."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Our ___ blocks most dangerous websites.",
+      "answer": "firewall",
+      "hint_cz": "firewall"
+    }
+  ]
+}

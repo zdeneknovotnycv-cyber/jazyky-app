@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_body_health_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Parts of the Body",
+  "title_cz": "Části těla",
+  "vocabulary": [
+    {
+      "word": "hand",
+      "translation_cz": "ruka",
+      "example": "Wash your hands.",
+      "example_cz": "Umyj si ruce.",
+      "tts_text": "Wash your hands."
+    },
+    {
+      "word": "leg",
+      "translation_cz": "noha",
+      "example": "My leg hurts.",
+      "example_cz": "Bolí mě noha.",
+      "tts_text": "My leg hurts."
+    },
+    {
+      "word": "head",
+      "translation_cz": "hlava",
+      "example": "My head is big.",
+      "example_cz": "Mám velkou hlavu.",
+      "tts_text": "My head is big."
+    },
+    {
+      "word": "eye",
+      "translation_cz": "oko",
+      "example": "I have two eyes.",
+      "example_cz": "Mám dvě oči.",
+      "tts_text": "I have two eyes."
+    },
+    {
+      "word": "ear",
+      "translation_cz": "ucho",
+      "example": "I can hear with my ears.",
+      "example_cz": "Slyším ušima.",
+      "tts_text": "I can hear with my ears."
+    },
+    {
+      "word": "nose",
+      "translation_cz": "nos",
+      "example": "My nose is small.",
+      "example_cz": "Mám malý nos.",
+      "tts_text": "My nose is small."
+    },
+    {
+      "word": "mouth",
+      "translation_cz": "ústa",
+      "example": "Open your mouth.",
+      "example_cz": "Otevři pusu.",
+      "tts_text": "Open your mouth."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "hand",
+      "options": [
+        "ruka",
+        "noha",
+        "hlava"
+      ],
+      "correct": "ruka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My ___ hurts.",
+      "answer": "leg",
+      "hint_cz": "noha"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "eye",
+          "cz": "oko"
+        },
+        {
+          "target": "ear",
+          "cz": "ucho"
+        },
+        {
+          "target": "nose",
+          "cz": "nos"
+        },
+        {
+          "target": "mouth",
+          "cz": "ústa"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wash your hands.",
+      "tts_text": "Wash your hands."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_performance_feedback_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "360-degree review basics",
+  "title_cz": "Základy 360stupňového hodnocení",
+  "vocabulary": [
+    {
+      "word": "360-degree review",
+      "translation_cz": "360stupňové hodnocení",
+      "example": "Our company runs a 360-degree review every year.",
+      "example_cz": "Naše firma provádí každoročně 360stupňové hodnocení.",
+      "tts_text": "Our company runs a 360-degree review every year."
+    },
+    {
+      "word": "multiple perspectives",
+      "translation_cz": "více pohledů",
+      "example": "It gathers feedback from multiple perspectives.",
+      "example_cz": "Shromažďuje zpětnou vazbu z více pohledů.",
+      "tts_text": "It gathers feedback from multiple perspectives."
+    },
+    {
+      "word": "direct reports",
+      "translation_cz": "podřízení",
+      "example": "Direct reports also give feedback to their manager.",
+      "example_cz": "Podřízení také dávají zpětnou vazbu svému manažerovi.",
+      "tts_text": "Direct reports also give feedback to their manager."
+    },
+    {
+      "word": "confidential",
+      "translation_cz": "důvěrné",
+      "example": "All answers in the review are confidential.",
+      "example_cz": "Všechny odpovědi v hodnocení jsou důvěrné.",
+      "tts_text": "All answers in the review are confidential."
+    },
+    {
+      "word": "summary report",
+      "translation_cz": "souhrnná zpráva",
+      "example": "You'll receive a summary report after the review.",
+      "example_cz": "Po hodnocení dostaneš souhrnnou zprávu.",
+      "tts_text": "You'll receive a summary report after the review."
+    },
+    {
+      "word": "blind spots",
+      "translation_cz": "slepá místa",
+      "example": "The review can reveal blind spots you didn't notice.",
+      "example_cz": "Hodnocení může odhalit slepá místa, kterých sis nevšiml.",
+      "tts_text": "The review can reveal blind spots you didn't notice."
+    },
+    {
+      "word": "cross-functional colleague",
+      "translation_cz": "kolega z jiného oddělení",
+      "example": "A cross-functional colleague also rates your teamwork.",
+      "example_cz": "Kolega z jiného oddělení také hodnotí tvou týmovou práci.",
+      "tts_text": "A cross-functional colleague also rates your teamwork."
+    },
+    {
+      "word": "rating scale",
+      "translation_cz": "hodnoticí škála",
+      "example": "The rating scale goes from one to five.",
+      "example_cz": "Hodnoticí škála jde od jedné do pěti.",
+      "tts_text": "The rating scale goes from one to five."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_performance_feedback_09",
+      "title": "Talking about a 360-degree review",
+      "title_cz": "Rozhovor o 360stupňovém hodnocení",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Have you completed your 360-degree review yet?",
+          "text_cz": "Už jsi dokončil své 360stupňové hodnocení?"
+        },
+        {
+          "speaker": "B",
+          "text": "Almost, it's interesting to get multiple perspectives.",
+          "text_cz": "Skoro, je zajímavé získat více pohledů."
+        },
+        {
+          "speaker": "A",
+          "text": "Remember, all the answers are confidential.",
+          "text_cz": "Pamatuj, všechny odpovědi jsou důvěrné."
+        },
+        {
+          "speaker": "B",
+          "text": "Good, and I heard we get a summary report afterward.",
+          "text_cz": "Dobře, a slyšel jsem, že pak dostaneme souhrnnou zprávu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "360-degree review",
+      "options": [
+        "360stupňové hodnocení",
+        "více pohledů",
+        "podřízení"
+      ],
+      "correct": "360stupňové hodnocení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "It gathers feedback from multiple ___.",
+      "answer": "perspectives",
+      "hint_cz": "pohledů"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "360-degree review",
+          "cz": "360stupňové hodnocení"
+        },
+        {
+          "target": "multiple perspectives",
+          "cz": "více pohledů"
+        },
+        {
+          "target": "direct reports",
+          "cz": "podřízení"
+        },
+        {
+          "target": "confidential",
+          "cz": "důvěrné"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Our company runs a 360-degree review every year.",
+      "tts_text": "Our company runs a 360-degree review every year."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "All answers in the review are ___.",
+      "answer": "confidential",
+      "hint_cz": "důvěrné"
+    }
+  ]
+}

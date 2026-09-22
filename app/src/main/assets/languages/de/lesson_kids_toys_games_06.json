@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_toys_games_06",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Puppen und Actionfiguren",
+  "title_cz": "Panenky a akční figurky",
+  "vocabulary": [
+    {
+      "word": "die Puppe",
+      "translation_cz": "panenka",
+      "example": "Meine Puppe hat lange Haare.",
+      "example_cz": "Moje panenka má dlouhé vlasy.",
+      "tts_text": "Meine Puppe hat lange Haare."
+    },
+    {
+      "word": "die Actionfigur",
+      "translation_cz": "akční figurka",
+      "example": "Mein Bruder sammelt Actionfiguren.",
+      "example_cz": "Můj bratr sbírá akční figurky.",
+      "tts_text": "Mein Bruder sammelt Actionfiguren."
+    },
+    {
+      "word": "der Superheld",
+      "translation_cz": "superhrdina",
+      "example": "Diese Figur ist mein Lieblingssuperheld.",
+      "example_cz": "Tato figurka je můj oblíbený superhrdina.",
+      "tts_text": "Diese Figur ist mein Lieblingssuperheld."
+    },
+    {
+      "word": "das Puppenhaus",
+      "translation_cz": "domeček pro panenky",
+      "example": "Das Puppenhaus hat drei Zimmer.",
+      "example_cz": "Domeček pro panenky má tři pokoje.",
+      "tts_text": "Das Puppenhaus hat drei Zimmer."
+    },
+    {
+      "word": "anziehen",
+      "translation_cz": "obléknout",
+      "example": "Ich ziehe meine Puppe an.",
+      "example_cz": "Oblékám svou panenku.",
+      "tts_text": "Ich ziehe meine Puppe an."
+    },
+    {
+      "word": "der Held",
+      "translation_cz": "hrdina",
+      "example": "Der Held rettet den Tag.",
+      "example_cz": "Hrdina zachrání den.",
+      "tts_text": "Der Held rettet den Tag."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Puppe",
+      "options": [
+        "panenka",
+        "akční figurka",
+        "superhrdina"
+      ],
+      "correct": "panenka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Mein Bruder sammelt Action___.",
+      "answer": "figuren",
+      "hint_cz": "figurky"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Actionfigur",
+          "cz": "akční figurka"
+        },
+        {
+          "target": "der Superheld",
+          "cz": "superhrdina"
+        },
+        {
+          "target": "das Puppenhaus",
+          "cz": "domeček pro panenky"
+        },
+        {
+          "target": "der Held",
+          "cz": "hrdina"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Meine Puppe hat lange Haare.",
+      "tts_text": "Meine Puppe hat lange Haare."
+    }
+  ]
+}

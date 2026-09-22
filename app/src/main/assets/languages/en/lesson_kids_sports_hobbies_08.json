@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_sports_hobbies_08",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Running and Playing Outside",
+  "title_cz": "Běhání a hraní venku",
+  "vocabulary": [
+    {
+      "word": "run",
+      "translation_cz": "běhat",
+      "example": "I like to run in the park.",
+      "example_cz": "Rád běhám v parku.",
+      "tts_text": "I like to run in the park."
+    },
+    {
+      "word": "outside",
+      "translation_cz": "venku",
+      "example": "Let's play outside today.",
+      "example_cz": "Pojďme si dnes hrát venku.",
+      "tts_text": "Let's play outside today."
+    },
+    {
+      "word": "jump",
+      "translation_cz": "skákat",
+      "example": "I can jump very high.",
+      "example_cz": "Umím skákat velmi vysoko.",
+      "tts_text": "I can jump very high."
+    },
+    {
+      "word": "fast",
+      "translation_cz": "rychle",
+      "example": "My friend runs fast.",
+      "example_cz": "Můj kamarád běhá rychle.",
+      "tts_text": "My friend runs fast."
+    },
+    {
+      "word": "fresh air",
+      "translation_cz": "čerstvý vzduch",
+      "example": "Fresh air is good for us.",
+      "example_cz": "Čerstvý vzduch je pro nás dobrý.",
+      "tts_text": "Fresh air is good for us."
+    },
+    {
+      "word": "energy",
+      "translation_cz": "energie",
+      "example": "I have a lot of energy.",
+      "example_cz": "Mám hodně energie.",
+      "tts_text": "I have a lot of energy."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "jump",
+      "options": [
+        "skákat",
+        "běhat",
+        "venku"
+      ],
+      "correct": "skákat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Let's play ___ today.",
+      "answer": "outside",
+      "hint_cz": "venku"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "run",
+          "cz": "běhat"
+        },
+        {
+          "target": "fast",
+          "cz": "rychle"
+        },
+        {
+          "target": "fresh air",
+          "cz": "čerstvý vzduch"
+        },
+        {
+          "target": "energy",
+          "cz": "energie"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I like to run in the park.",
+      "tts_text": "I like to run in the park."
+    }
+  ]
+}

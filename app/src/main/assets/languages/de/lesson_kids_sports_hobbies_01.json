@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_sports_hobbies_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Fußball",
+  "title_cz": "Fotbal",
+  "vocabulary": [
+    {
+      "word": "der Fußball",
+      "translation_cz": "fotbal",
+      "example": "Ich spiele Fußball mit meinen Freunden.",
+      "example_cz": "Hraji fotbal se svými kamarády.",
+      "tts_text": "Ich spiele Fußball mit meinen Freunden."
+    },
+    {
+      "word": "der Ball",
+      "translation_cz": "míč",
+      "example": "Schieß mir den Ball zu.",
+      "example_cz": "Kopni mi míč.",
+      "tts_text": "Schieß mir den Ball zu."
+    },
+    {
+      "word": "das Tor",
+      "translation_cz": "gól",
+      "example": "Er hat ein Tor geschossen!",
+      "example_cz": "Vstřelil gól!",
+      "tts_text": "Er hat ein Tor geschossen!"
+    },
+    {
+      "word": "das Team",
+      "translation_cz": "tým",
+      "example": "Wir sind im gleichen Team.",
+      "example_cz": "Jsme ve stejném týmu.",
+      "tts_text": "Wir sind im gleichen Team."
+    },
+    {
+      "word": "der Spieler",
+      "translation_cz": "hráč",
+      "example": "Mein Lieblingsspieler ist sehr schnell.",
+      "example_cz": "Můj oblíbený hráč je velmi rychlý.",
+      "tts_text": "Mein Lieblingsspieler ist sehr schnell."
+    },
+    {
+      "word": "gewinnen",
+      "translation_cz": "vyhrát",
+      "example": "Unser Team will gewinnen.",
+      "example_cz": "Náš tým chce vyhrát.",
+      "tts_text": "Unser Team will gewinnen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Tor",
+      "options": [
+        "gól",
+        "míč",
+        "hráč"
+      ],
+      "correct": "gól"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Schieß mir den ___ zu.",
+      "answer": "Ball",
+      "hint_cz": "míč"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Fußball",
+          "cz": "fotbal"
+        },
+        {
+          "target": "das Team",
+          "cz": "tým"
+        },
+        {
+          "target": "der Spieler",
+          "cz": "hráč"
+        },
+        {
+          "target": "gewinnen",
+          "cz": "vyhrát"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Er hat ein Tor geschossen!",
+      "tts_text": "Er hat ein Tor geschossen!"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_scheduling_calendars_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Besprechungsraum buchen",
+  "title_cz": "Rezervace zasedací místnosti",
+  "vocabulary": [
+    {
+      "word": "Ist der Besprechungsraum frei?",
+      "translation_cz": "Je zasedací místnost volná?",
+      "example": "Ist der Besprechungsraum um zehn Uhr frei?",
+      "example_cz": "Je zasedací místnost volná v deset hodin?",
+      "tts_text": "Ist der Besprechungsraum um zehn Uhr frei?"
+    },
+    {
+      "word": "einen Raum buchen",
+      "translation_cz": "rezervovat místnost",
+      "example": "Ich muss einen Raum für das Kundentreffen buchen.",
+      "example_cz": "Potřebuji rezervovat místnost na schůzku s klientem.",
+      "tts_text": "Ich muss einen Raum für das Kundentreffen buchen."
+    },
+    {
+      "word": "er ist schon belegt",
+      "translation_cz": "je už obsazená",
+      "example": "Entschuldigung, der Raum ist zu dieser Zeit schon belegt.",
+      "example_cz": "Promiňte, ta místnost je v tu dobu už obsazená.",
+      "tts_text": "Entschuldigung, der Raum ist zu dieser Zeit schon belegt."
+    },
+    {
+      "word": "für wie viele Personen?",
+      "translation_cz": "pro kolik lidí?",
+      "example": "Der Raum ist frei, für wie viele Personen brauchen Sie ihn?",
+      "example_cz": "Místnost je volná, pro kolik lidí ji potřebujete?",
+      "tts_text": "Der Raum ist frei, für wie viele Personen brauchen Sie ihn?"
+    },
+    {
+      "word": "der Beamer",
+      "translation_cz": "projektor",
+      "example": "Hat der Raum einen Beamer?",
+      "example_cz": "Má ta místnost projektor?",
+      "tts_text": "Hat der Raum einen Beamer?"
+    },
+    {
+      "word": "ich reserviere ihn für Sie",
+      "translation_cz": "zarezervuji ji pro vás",
+      "example": "Gut, ich reserviere ihn für Sie bis Mittag.",
+      "example_cz": "Dobře, zarezervuji ji pro vás do poledne.",
+      "tts_text": "Gut, ich reserviere ihn für Sie bis Mittag."
+    },
+    {
+      "word": "die Buchung stornieren",
+      "translation_cz": "zrušit rezervaci",
+      "example": "Könnten Sie die Buchung für Raum B stornieren?",
+      "example_cz": "Mohl byste zrušit rezervaci místnosti B?",
+      "tts_text": "Könnten Sie die Buchung für Raum B stornieren?"
+    },
+    {
+      "word": "im zweiten Stock",
+      "translation_cz": "druhé patro",
+      "example": "Der kleine Besprechungsraum ist im zweiten Stock.",
+      "example_cz": "Malá zasedací místnost je ve druhém patře.",
+      "tts_text": "Der kleine Besprechungsraum ist im zweiten Stock."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_besprechungsraum_buchen",
+      "title": "Einen Raum für ein Kundentreffen buchen",
+      "title_cz": "Rezervace místnosti na schůzku s klientem",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ist der Besprechungsraum morgen um zehn Uhr frei?",
+          "text_cz": "Je zasedací místnost zítra volná v deset hodin?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ich schaue nach. Ja, er ist frei. Für wie viele Personen brauchen Sie ihn?",
+          "text_cz": "Zkontroluji to. Ano, je volná. Pro kolik lidí ji potřebujete?"
+        },
+        {
+          "speaker": "A",
+          "text": "Für fünf Personen. Hat der Raum einen Beamer?",
+          "text_cz": "Pro pět lidí. Má ta místnost projektor?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, das hat er. Ich reserviere ihn für Sie bis Mittag.",
+          "text_cz": "Ano, má. Zarezervuji ji pro vás do poledne."
+        },
+        {
+          "speaker": "A",
+          "text": "Super, vielen Dank.",
+          "text_cz": "Skvělé, mnohokrát děkuji."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Ist der Besprechungsraum um zehn Uhr frei?",
+      "options": [
+        "Je zasedací místnost volná v deset hodin?",
+        "Zrušte rezervaci.",
+        "Pro kolik lidí ji potřebujete?"
+      ],
+      "correct": "Je zasedací místnost volná v deset hodin?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich muss einen Raum für das Kundentreffen ___.",
+      "answer": "buchen",
+      "hint_cz": "rezervovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "er ist schon belegt", "cz": "je už obsazená" },
+        { "target": "die Buchung stornieren", "cz": "zrušit rezervaci" },
+        { "target": "im zweiten Stock", "cz": "druhé patro" },
+        { "target": "der Beamer", "cz": "projektor" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Raum ist frei, für wie viele Personen brauchen Sie ihn?",
+      "tts_text": "Der Raum ist frei, für wie viele Personen brauchen Sie ihn?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Gut, ich ___ ihn für Sie bis Mittag.",
+      "answer": "reserviere",
+      "hint_cz": "zarezervuji"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Könnten Sie die Buchung für Raum B stornieren?",
+      "tts_text": "Könnten Sie die Buchung für Raum B stornieren?"
+    }
+  ]
+}

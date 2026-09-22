@@ -1,0 +1,48 @@
+{
+  "id": "en_corporate_hr_recruitment_03",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing Salary Expectations",
+  "title_cz": "Rozhovor o platových požadavcích",
+  "vocabulary": [
+    {"word": "salary", "translation_cz": "plat", "example": "What salary are you expecting?", "example_cz": "Jaký plat očekáváte?", "tts_text": "What salary are you expecting?"},
+    {"word": "salary range", "translation_cz": "platové rozpětí", "example": "The salary range for this position is quite wide.", "example_cz": "Platové rozpětí pro tuto pozici je poměrně široké.", "tts_text": "The salary range for this position is quite wide."},
+    {"word": "negotiate", "translation_cz": "vyjednávat", "example": "Can we negotiate the starting salary?", "example_cz": "Můžeme vyjednávat o nástupním platu?", "tts_text": "Can we negotiate the starting salary?"},
+    {"word": "gross salary", "translation_cz": "hrubá mzda", "example": "The gross salary is stated in the contract.", "example_cz": "Hrubá mzda je uvedena ve smlouvě.", "tts_text": "The gross salary is stated in the contract."},
+    {"word": "bonus", "translation_cz": "prémie / bonus", "example": "There is an annual performance bonus.", "example_cz": "Existuje roční výkonnostní bonus.", "tts_text": "There is an annual performance bonus."},
+    {"word": "benefits package", "translation_cz": "balíček benefitů", "example": "The benefits package includes health insurance.", "example_cz": "Balíček benefitů zahrnuje zdravotní pojištění.", "tts_text": "The benefits package includes health insurance."},
+    {"word": "current salary", "translation_cz": "současný plat", "example": "May I ask about your current salary?", "example_cz": "Mohu se zeptat na váš současný plat?", "tts_text": "May I ask about your current salary?"},
+    {"word": "expectations", "translation_cz": "očekávání", "example": "Please share your salary expectations.", "example_cz": "Sdělte nám prosím vaše platové očekávání.", "tts_text": "Please share your salary expectations."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_salary_question",
+      "title": "Asking about salary expectations",
+      "title_cz": "Dotaz na platové očekávání",
+      "lines": [
+        {"speaker": "A", "text": "What are your salary expectations for this role?", "text_cz": "Jaké jsou vaše platové očekávání pro tuto pozici?"},
+        {"speaker": "B", "text": "I'm looking for something in the range of forty to forty-five thousand a year.", "text_cz": "Hledám něco v rozmezí čtyřiceti až čtyřiceti pěti tisíc ročně."},
+        {"speaker": "A", "text": "That's within our budget. Are you flexible on this?", "text_cz": "To je v rámci našeho rozpočtu. Jste v tomto flexibilní?"},
+        {"speaker": "B", "text": "Yes, depending on the full benefits package.", "text_cz": "Ano, v závislosti na kompletním balíčku benefitů."}
+      ]
+    },
+    {
+      "id": "conv_negotiate_offer",
+      "title": "Negotiating an offer",
+      "title_cz": "Vyjednávání o nabídce",
+      "lines": [
+        {"speaker": "A", "text": "We would like to offer you the position with a starting gross salary of thirty-eight thousand.", "text_cz": "Rádi bychom vám nabídli pozici s nástupní hrubou mzdou třicet osm tisíc."},
+        {"speaker": "B", "text": "Thank you. Is there room to negotiate that number?", "text_cz": "Děkuji. Je prostor tuto částku ještě vyjednat?"},
+        {"speaker": "A", "text": "We can consider a small increase plus an annual bonus.", "text_cz": "Můžeme zvážit mírné navýšení plus roční bonus."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "negotiate", "options": ["vyjednávat", "plat", "bonus"], "correct": "vyjednávat"},
+    {"type": "fill_gap", "sentence": "Please share your salary ___.", "answer": "expectations", "hint_cz": "očekávání"},
+    {"type": "match_pairs", "pairs": [{"target": "salary", "cz": "plat"}, {"target": "bonus", "cz": "bonus"}, {"target": "benefits package", "cz": "balíček benefitů"}, {"target": "gross salary", "cz": "hrubá mzda"}]},
+    {"type": "speak_and_check", "target_phrase": "Can we negotiate the starting salary?", "tts_text": "Can we negotiate the starting salary?"},
+    {"type": "fill_gap", "sentence": "The ___ for this position is quite wide.", "answer": "salary range", "hint_cz": "platové rozpětí"}
+  ]
+}

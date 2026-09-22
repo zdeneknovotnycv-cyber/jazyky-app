@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_food_drinks_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Dinner Foods",
+  "title_cz": "Večeře",
+  "vocabulary": [
+    {
+      "word": "dinner",
+      "translation_cz": "večeře",
+      "example": "We eat dinner together.",
+      "example_cz": "Večeříme společně.",
+      "tts_text": "We eat dinner together."
+    },
+    {
+      "word": "potatoes",
+      "translation_cz": "brambory",
+      "example": "I eat potatoes with meat.",
+      "example_cz": "Jím brambory s masem.",
+      "tts_text": "I eat potatoes with meat."
+    },
+    {
+      "word": "meat",
+      "translation_cz": "maso",
+      "example": "Dad cooks meat on the grill.",
+      "example_cz": "Tatínek peče maso na grilu.",
+      "tts_text": "Dad cooks meat on the grill."
+    },
+    {
+      "word": "fish",
+      "translation_cz": "ryba",
+      "example": "We sometimes eat fish.",
+      "example_cz": "Někdy jíme rybu.",
+      "tts_text": "We sometimes eat fish."
+    },
+    {
+      "word": "vegetables",
+      "translation_cz": "zelenina",
+      "example": "I eat vegetables with dinner.",
+      "example_cz": "K večeři jím zeleninu.",
+      "tts_text": "I eat vegetables with dinner."
+    },
+    {
+      "word": "bread roll",
+      "translation_cz": "houska",
+      "example": "I eat a bread roll with soup.",
+      "example_cz": "K polévce jím housku.",
+      "tts_text": "I eat a bread roll with soup."
+    },
+    {
+      "word": "family dinner",
+      "translation_cz": "rodinná večeře",
+      "example": "We have family dinner every evening.",
+      "example_cz": "Každý večer máme rodinnou večeři.",
+      "tts_text": "We have family dinner every evening."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "dinner",
+      "options": [
+        "večeře",
+        "oběd",
+        "snídaně"
+      ],
+      "correct": "večeře"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I eat ___ with meat.",
+      "answer": "potatoes",
+      "hint_cz": "brambory"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "meat",
+          "cz": "maso"
+        },
+        {
+          "target": "fish",
+          "cz": "ryba"
+        },
+        {
+          "target": "bread roll",
+          "cz": "houska"
+        },
+        {
+          "target": "family dinner",
+          "cz": "rodinná večeře"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We eat dinner together.",
+      "tts_text": "We eat dinner together."
+    }
+  ]
+}

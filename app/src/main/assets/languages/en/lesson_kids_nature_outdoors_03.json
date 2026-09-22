@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_nature_outdoors_03",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The sun and the moon",
+  "title_cz": "Slunce a měsíc",
+  "vocabulary": [
+    {
+      "word": "sun",
+      "translation_cz": "slunce",
+      "example": "The sun is very bright.",
+      "example_cz": "Slunce je moc jasné.",
+      "tts_text": "The sun is very bright."
+    },
+    {
+      "word": "moon",
+      "translation_cz": "měsíc",
+      "example": "The moon shines at night.",
+      "example_cz": "Měsíc svítí v noci.",
+      "tts_text": "The moon shines at night."
+    },
+    {
+      "word": "sky",
+      "translation_cz": "obloha",
+      "example": "The sky is blue today.",
+      "example_cz": "Obloha je dnes modrá.",
+      "tts_text": "The sky is blue today."
+    },
+    {
+      "word": "sunrise",
+      "translation_cz": "východ slunce",
+      "example": "We watch the sunrise together.",
+      "example_cz": "Sledujeme spolu východ slunce.",
+      "tts_text": "We watch the sunrise together."
+    },
+    {
+      "word": "sunset",
+      "translation_cz": "západ slunce",
+      "example": "The sunset is orange and pink.",
+      "example_cz": "Západ slunce je oranžový a růžový.",
+      "tts_text": "The sunset is orange and pink."
+    },
+    {
+      "word": "shine",
+      "translation_cz": "svítit",
+      "example": "The sun shines every morning.",
+      "example_cz": "Slunce svítí každé ráno.",
+      "tts_text": "The sun shines every morning."
+    },
+    {
+      "word": "night",
+      "translation_cz": "noc",
+      "example": "The moon comes out at night.",
+      "example_cz": "Měsíc vychází v noci.",
+      "tts_text": "The moon comes out at night."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "sun",
+      "options": [
+        "slunce",
+        "kámen",
+        "déšť"
+      ],
+      "correct": "slunce"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is very bright.",
+      "answer": "sun",
+      "hint_cz": "slunce"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "moon",
+          "cz": "měsíc"
+        },
+        {
+          "target": "sky",
+          "cz": "obloha"
+        },
+        {
+          "target": "sunrise",
+          "cz": "východ slunce"
+        },
+        {
+          "target": "sunset",
+          "cz": "západ slunce"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "The moon shines at night.",
+      "tts_text": "The moon shines at night."
+    }
+  ]
+}

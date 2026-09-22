@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_animals_01",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Pets",
+  "title_cz": "Domácí mazlíčci",
+  "vocabulary": [
+    {
+      "word": "der Hund",
+      "translation_cz": "pes",
+      "example": "Mein Hund ist freundlich.",
+      "example_cz": "Můj pes je přátelský.",
+      "tts_text": "Mein Hund ist freundlich."
+    },
+    {
+      "word": "die Katze",
+      "translation_cz": "kočka",
+      "example": "Die Katze schläft.",
+      "example_cz": "Kočka spí.",
+      "tts_text": "Die Katze schläft."
+    },
+    {
+      "word": "der Fisch",
+      "translation_cz": "ryba",
+      "example": "Ich habe einen Fisch im Glas.",
+      "example_cz": "Mám rybu v misce.",
+      "tts_text": "Ich habe einen Fisch im Glas."
+    },
+    {
+      "word": "der Vogel",
+      "translation_cz": "pták",
+      "example": "Der Vogel singt am Morgen.",
+      "example_cz": "Pták zpívá ráno.",
+      "tts_text": "Der Vogel singt am Morgen."
+    },
+    {
+      "word": "der Hamster",
+      "translation_cz": "křeček",
+      "example": "Mein Hamster läuft im Rad.",
+      "example_cz": "Můj křeček běhá na kolečku.",
+      "tts_text": "Mein Hamster läuft im Rad."
+    },
+    {
+      "word": "das Kaninchen",
+      "translation_cz": "králík",
+      "example": "Das Kaninchen mag Karotten.",
+      "example_cz": "Králík má rád mrkev.",
+      "tts_text": "Das Kaninchen mag Karotten."
+    },
+    {
+      "word": "das Haustier",
+      "translation_cz": "domácí mazlíček",
+      "example": "Jedes Haustier braucht Liebe.",
+      "example_cz": "Každý mazlíček potřebuje lásku.",
+      "tts_text": "Jedes Haustier braucht Liebe."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Hund",
+      "options": [
+        "pes",
+        "kočka",
+        "pták"
+      ],
+      "correct": "pes"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die ___ schläft.",
+      "answer": "Katze",
+      "hint_cz": "kočka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Fisch",
+          "cz": "ryba"
+        },
+        {
+          "target": "der Vogel",
+          "cz": "pták"
+        },
+        {
+          "target": "der Hamster",
+          "cz": "křeček"
+        },
+        {
+          "target": "das Kaninchen",
+          "cz": "králík"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Mein Hund ist freundlich.",
+      "tts_text": "Mein Hund ist freundlich."
+    }
+  ]
+}

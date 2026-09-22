@@ -1,0 +1,145 @@
+{
+  "id": "en_adult_corporate_marketing_10",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Competitor analysis basics",
+  "title_cz": "Základy analýzy konkurence",
+  "vocabulary": [
+    {
+      "word": "competitor analysis",
+      "translation_cz": "analýza konkurence",
+      "example": "We do a competitor analysis every quarter.",
+      "example_cz": "Analýzu konkurence provádíme každé čtvrtletí.",
+      "tts_text": "We do a competitor analysis every quarter."
+    },
+    {
+      "word": "market share",
+      "translation_cz": "podíl na trhu",
+      "example": "Our biggest competitor has a large market share.",
+      "example_cz": "Náš největší konkurent má velký podíl na trhu.",
+      "tts_text": "Our biggest competitor has a large market share."
+    },
+    {
+      "word": "unique selling point",
+      "translation_cz": "jedinečná prodejní výhoda",
+      "example": "What is our unique selling point?",
+      "example_cz": "Jaká je naše jedinečná prodejní výhoda?",
+      "tts_text": "What is our unique selling point?"
+    },
+    {
+      "word": "benchmark",
+      "translation_cz": "srovnávací měřítko",
+      "example": "We use their prices as a benchmark.",
+      "example_cz": "Jejich ceny používáme jako srovnávací měřítko.",
+      "tts_text": "We use their prices as a benchmark."
+    },
+    {
+      "word": "strengths and weaknesses",
+      "translation_cz": "silné a slabé stránky",
+      "example": "Let's list their strengths and weaknesses.",
+      "example_cz": "Pojďme sepsat jejich silné a slabé stránky.",
+      "tts_text": "Let's list their strengths and weaknesses."
+    },
+    {
+      "word": "pricing strategy",
+      "translation_cz": "cenová strategie",
+      "example": "Their pricing strategy is more aggressive than ours.",
+      "example_cz": "Jejich cenová strategie je agresivnější než naše.",
+      "tts_text": "Their pricing strategy is more aggressive than ours."
+    },
+    {
+      "word": "differentiate",
+      "translation_cz": "odlišit se",
+      "example": "We need to differentiate ourselves in the market.",
+      "example_cz": "Musíme se na trhu odlišit.",
+      "tts_text": "We need to differentiate ourselves in the market."
+    },
+    {
+      "word": "industry trends",
+      "translation_cz": "trendy v odvětví",
+      "example": "It's important to follow industry trends closely.",
+      "example_cz": "Je důležité pečlivě sledovat trendy v odvětví.",
+      "tts_text": "It's important to follow industry trends closely."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_marketing_10",
+      "title": "Analyzing our main competitor",
+      "title_cz": "Analýza našeho hlavního konkurenta",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I finished the competitor analysis for this quarter.",
+          "text_cz": "Dokončil jsem analýzu konkurence na toto čtvrtletí."
+        },
+        {
+          "speaker": "B",
+          "text": "Great, what is their market share compared to ours?",
+          "text_cz": "Skvělé, jaký je jejich podíl na trhu ve srovnání s naším?"
+        },
+        {
+          "speaker": "A",
+          "text": "They are slightly ahead, mostly because of their pricing strategy. But our unique selling point is quality.",
+          "text_cz": "Jsou mírně napřed, hlavně kvůli jejich cenové strategii. Ale naše jedinečná prodejní výhoda je kvalita."
+        },
+        {
+          "speaker": "B",
+          "text": "Good, let's list their strengths and weaknesses and see how we can differentiate.",
+          "text_cz": "Dobře, pojďme sepsat jejich silné a slabé stránky a podívat se, jak se můžeme odlišit."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "market share",
+      "options": [
+        "podíl na trhu",
+        "cenová strategie",
+        "trendy v odvětví"
+      ],
+      "correct": "podíl na trhu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What is our unique selling ___?",
+      "answer": "point",
+      "hint_cz": "výhoda"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "benchmark",
+          "cz": "srovnávací měřítko"
+        },
+        {
+          "target": "strengths and weaknesses",
+          "cz": "silné a slabé stránky"
+        },
+        {
+          "target": "differentiate",
+          "cz": "odlišit se"
+        },
+        {
+          "target": "industry trends",
+          "cz": "trendy v odvětví"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We do a competitor analysis every quarter.",
+      "tts_text": "We do a competitor analysis every quarter."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Their pricing ___ is more aggressive than ours.",
+      "answer": "strategy",
+      "hint_cz": "strategie"
+    }
+  ]
+}

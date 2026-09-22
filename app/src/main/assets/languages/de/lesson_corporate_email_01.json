@@ -1,0 +1,145 @@
+{
+  "id": "de_adult_corporate_email_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Eine förmliche E-Mail schreiben",
+  "title_cz": "Napsání formálního e-mailu",
+  "vocabulary": [
+    {
+      "word": "Sehr geehrte/r Herr/Frau",
+      "translation_cz": "Vážený pane / Vážená paní",
+      "example": "Sehr geehrte Frau Novak, vielen Dank für Ihre Nachricht.",
+      "example_cz": "Vážená paní Nováková, děkuji za váš vzkaz.",
+      "tts_text": "Sehr geehrte Frau Novak, vielen Dank für Ihre Nachricht."
+    },
+    {
+      "word": "ich schreibe Ihnen, um",
+      "translation_cz": "píši vám ohledně",
+      "example": "Ich schreibe Ihnen, um unseren Termin zu bestätigen.",
+      "example_cz": "Píši vám ohledně potvrzení naší schůzky.",
+      "tts_text": "Ich schreibe Ihnen, um unseren Termin zu bestätigen."
+    },
+    {
+      "word": "bezüglich",
+      "translation_cz": "ohledně",
+      "example": "Ich kontaktiere Sie bezüglich des Vertrags.",
+      "example_cz": "Kontaktuji vás ohledně smlouvy.",
+      "tts_text": "Ich kontaktiere Sie bezüglich des Vertrags."
+    },
+    {
+      "word": "freundlicherweise",
+      "translation_cz": "laskavě",
+      "example": "Freundlicherweise finden Sie die Details unten.",
+      "example_cz": "Laskavě naleznete podrobnosti níže.",
+      "tts_text": "Freundlicherweise finden Sie die Details unten."
+    },
+    {
+      "word": "ich freue mich auf Ihre Antwort",
+      "translation_cz": "těším se na vaši odpověď",
+      "example": "Ich freue mich auf Ihre Antwort.",
+      "example_cz": "Těším se na vaši odpověď.",
+      "tts_text": "Ich freue mich auf Ihre Antwort."
+    },
+    {
+      "word": "mit freundlichen Grüßen",
+      "translation_cz": "s pozdravem",
+      "example": "Mit freundlichen Grüßen, Petra.",
+      "example_cz": "S pozdravem, Petra.",
+      "tts_text": "Mit freundlichen Grüßen, Petra."
+    },
+    {
+      "word": "der förmliche Ton",
+      "translation_cz": "formální tón",
+      "example": "Bei neuen Kunden verwenden wir einen förmlichen Ton.",
+      "example_cz": "S novými klienty používáme formální tón.",
+      "tts_text": "Bei neuen Kunden verwenden wir einen förmlichen Ton."
+    },
+    {
+      "word": "klarstellen",
+      "translation_cz": "objasnit",
+      "example": "Könnten Sie bitte die Frist klarstellen?",
+      "example_cz": "Mohli byste prosím objasnit termín?",
+      "tts_text": "Könnten Sie bitte die Frist klarstellen?"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_formal_email",
+      "title": "Gemeinsam eine förmliche E-Mail verfassen",
+      "title_cz": "Společné psaní formálního e-mailu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Wie sollte ich eine förmliche E-Mail an einen neuen Kunden beginnen?",
+          "text_cz": "Jak mám začít formální e-mail novému klientovi?"
+        },
+        {
+          "speaker": "B",
+          "text": "Beginne mit 'Sehr geehrte/r Herr/Frau' und erkläre dann, warum du schreibst.",
+          "text_cz": "Začni oslovením 'Vážený pane / Vážená paní' a pak vysvětli, proč píšeš."
+        },
+        {
+          "speaker": "A",
+          "text": "Also so etwas wie 'Ich schreibe Ihnen, um unseren Termin zu bestätigen'?",
+          "text_cz": "Takže něco jako 'Píši vám ohledně potvrzení naší schůzky'?"
+        },
+        {
+          "speaker": "B",
+          "text": "Genau. Und schließe mit 'Mit freundlichen Grüßen' und deinem Namen.",
+          "text_cz": "Přesně. A ukonči 'S pozdravem' a svým jménem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "bezüglich",
+      "options": [
+        "ohledně",
+        "laskavě",
+        "objasnit"
+      ],
+      "correct": "ohledně"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich schreibe Ihnen, ___ unseren Termin zu bestätigen.",
+      "answer": "um",
+      "hint_cz": "abych"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "mit freundlichen Grüßen",
+          "cz": "s pozdravem"
+        },
+        {
+          "target": "freundlicherweise",
+          "cz": "laskavě"
+        },
+        {
+          "target": "klarstellen",
+          "cz": "objasnit"
+        },
+        {
+          "target": "der förmliche Ton",
+          "cz": "formální tón"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich freue mich auf Ihre Antwort.",
+      "tts_text": "Ich freue mich auf Ihre Antwort."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Könnten Sie bitte die Frist ___?",
+      "answer": "klarstellen",
+      "hint_cz": "objasnit"
+    }
+  ]
+}

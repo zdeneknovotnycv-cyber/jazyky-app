@@ -1,0 +1,48 @@
+{
+  "id": "de_corporate_hr_recruitment_10",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Regeln am Arbeitsplatz",
+  "title_cz": "Pracovní pravidla",
+  "vocabulary": [
+    {"word": "die Richtlinie", "translation_cz": "pravidlo / směrnice", "example": "Bitte lesen Sie die neue Homeoffice-Richtlinie.", "example_cz": "Přečtěte si prosím novou směrnici o práci na dálku.", "tts_text": "Bitte lesen Sie die neue Homeoffice-Richtlinie."},
+    {"word": "die Kleiderordnung", "translation_cz": "dress code", "example": "Unsere Kleiderordnung ist business casual.", "example_cz": "Náš dress code je business casual.", "tts_text": "Unsere Kleiderordnung ist business casual."},
+    {"word": "die Arbeitszeit", "translation_cz": "pracovní doba", "example": "Die Arbeitszeit ist von neun bis siebzehn Uhr.", "example_cz": "Pracovní doba je od devíti do sedmnácti hodin.", "tts_text": "Die Arbeitszeit ist von neun bis siebzehn Uhr."},
+    {"word": "der Verhaltenskodex", "translation_cz": "etický kodex", "example": "Alle Mitarbeiter müssen den Verhaltenskodex befolgen.", "example_cz": "Všichni zaměstnanci musí dodržovat etický kodex.", "tts_text": "Alle Mitarbeiter müssen den Verhaltenskodex befolgen."},
+    {"word": "die Vertraulichkeit", "translation_cz": "mlčenlivost", "example": "Bei Kundendaten ist Vertraulichkeit erforderlich.", "example_cz": "U dat klientů je vyžadována mlčenlivost.", "tts_text": "Bei Kundendaten ist Vertraulichkeit erforderlich."},
+    {"word": "die Compliance", "translation_cz": "dodržování předpisů", "example": "Die Compliance-Schulung ist für alle verpflichtend.", "example_cz": "Školení o dodržování předpisů je povinné pro všechny.", "tts_text": "Die Compliance-Schulung ist für alle verpflichtend."},
+    {"word": "die Richtlinie gegen Belästigung", "translation_cz": "pravidla proti obtěžování", "example": "Unsere Richtlinie gegen Belästigung gilt für alle Mitarbeiter.", "example_cz": "Naše pravidla proti obtěžování platí pro všechny zaměstnance.", "tts_text": "Unsere Richtlinie gegen Belästigung gilt für alle Mitarbeiter."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_policy_intro",
+      "title": "Regeln am Arbeitsplatz erklären",
+      "title_cz": "Vysvětlení pracovních pravidel",
+      "lines": [
+        {"speaker": "A", "text": "Gehen wir ein paar Regeln am Arbeitsplatz durch.", "text_cz": "Projděme si pár pracovních pravidel."},
+        {"speaker": "B", "text": "Gut. Wie sind unsere offiziellen Arbeitszeiten?", "text_cz": "Dobře. Jaká je naše oficiální pracovní doba?"},
+        {"speaker": "A", "text": "Neun bis siebzehn Uhr, mit Flexibilität für Homeoffice-Tage.", "text_cz": "Od devíti do sedmnácti, s flexibilitou pro dny práce na dálku."},
+        {"speaker": "B", "text": "Und gibt es eine bestimmte Kleiderordnung?", "text_cz": "A je nějaká konkrétní kleiderordnung – dress code?"},
+        {"speaker": "A", "text": "Ja, an normalen Tagen business casual.", "text_cz": "Ano, v běžné dny business casual."}
+      ]
+    },
+    {
+      "id": "conv_compliance_training",
+      "title": "Über Compliance-Schulungen sprechen",
+      "title_cz": "Rozhovor o školení dodržování předpisů",
+      "lines": [
+        {"speaker": "A", "text": "Alle müssen diesen Monat die Compliance-Schulung abschließen.", "text_cz": "Každý musí do konce tohoto měsíce absolvovat školení o dodržování předpisů."},
+        {"speaker": "B", "text": "Deckt das auch die Vertraulichkeitsregeln ab?", "text_cz": "Zahrnuje to i pravidla mlčenlivosti?"},
+        {"speaker": "A", "text": "Ja, sowie den Verhaltenskodex.", "text_cz": "Ano, a také etický kodex."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "die Vertraulichkeit", "options": ["mlčenlivost", "dress code", "pracovní doba"], "correct": "mlčenlivost"},
+    {"type": "fill_gap", "sentence": "Unsere ___ ist business casual.", "answer": "Kleiderordnung", "hint_cz": "dress code"},
+    {"type": "match_pairs", "pairs": [{"target": "die Richtlinie", "cz": "směrnice"}, {"target": "die Compliance", "cz": "dodržování předpisů"}, {"target": "der Verhaltenskodex", "cz": "etický kodex"}, {"target": "die Arbeitszeit", "cz": "pracovní doba"}]},
+    {"type": "speak_and_check", "target_phrase": "Alle Mitarbeiter müssen den Verhaltenskodex befolgen.", "tts_text": "Alle Mitarbeiter müssen den Verhaltenskodex befolgen."},
+    {"type": "fill_gap", "sentence": "Die ___-Schulung ist für alle verpflichtend.", "answer": "Compliance", "hint_cz": "dodržování předpisů"}
+  ]
+}

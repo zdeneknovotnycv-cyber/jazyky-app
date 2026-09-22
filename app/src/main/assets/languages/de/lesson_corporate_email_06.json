@@ -1,0 +1,138 @@
+{
+  "id": "de_adult_corporate_email_06",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Abwesenheitsnotiz",
+  "title_cz": "Automatická odpověď mimo kancelář",
+  "vocabulary": [
+    {
+      "word": "außer Haus",
+      "translation_cz": "mimo kancelář",
+      "example": "Ich bin bis Montag außer Haus.",
+      "example_cz": "Jsem mimo kancelář do pondělí.",
+      "tts_text": "Ich bin bis Montag außer Haus."
+    },
+    {
+      "word": "eingeschränkter E-Mail-Zugang",
+      "translation_cz": "omezený přístup k e-mailu",
+      "example": "Ich habe nur eingeschränkten E-Mail-Zugang.",
+      "example_cz": "Budu mít omezený přístup k e-mailu.",
+      "tts_text": "Ich habe nur eingeschränkten E-Mail-Zugang."
+    },
+    {
+      "word": "dringende Angelegenheiten",
+      "translation_cz": "naléhavé záležitosti",
+      "example": "Bei dringenden Angelegenheiten wenden Sie sich bitte an meinen Kollegen.",
+      "example_cz": "V naléhavých záležitostech kontaktujte prosím mého kolegu.",
+      "tts_text": "Bei dringenden Angelegenheiten wenden Sie sich bitte an meinen Kollegen."
+    },
+    {
+      "word": "das Rückkehrdatum",
+      "translation_cz": "datum návratu",
+      "example": "Mein Rückkehrdatum ist nächsten Montag.",
+      "example_cz": "Datum mého návratu je příští pondělí.",
+      "tts_text": "Mein Rückkehrdatum ist nächsten Montag."
+    },
+    {
+      "word": "nach meiner Rückkehr",
+      "translation_cz": "po mém návratu",
+      "example": "Ich antworte nach meiner Rückkehr.",
+      "example_cz": "Odpovím po svém návratu.",
+      "tts_text": "Ich antworte nach meiner Rückkehr."
+    },
+    {
+      "word": "verzögerte Antwort",
+      "translation_cz": "zpožděná odpověď",
+      "example": "Bitte rechnen Sie mit einer verzögerten Antwort.",
+      "example_cz": "Očekávejte prosím zpožděnou odpověď.",
+      "tts_text": "Bitte rechnen Sie mit einer verzögerten Antwort."
+    },
+    {
+      "word": "der Jahresurlaub",
+      "translation_cz": "dovolená",
+      "example": "Ich befinde mich derzeit im Jahresurlaub.",
+      "example_cz": "Aktuálně jsem na dovolené.",
+      "tts_text": "Ich befinde mich derzeit im Jahresurlaub."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_ooo",
+      "title": "Eine Abwesenheitsnotiz einrichten",
+      "title_cz": "Nastavení automatické odpovědi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich richte meine Abwesenheitsnotiz für nächste Woche ein.",
+          "text_cz": "Nastavuji si automatickou odpověď na příští týden."
+        },
+        {
+          "speaker": "B",
+          "text": "Gute Idee. Was sollte sie enthalten?",
+          "text_cz": "Dobrý nápad. Co by mělo obsahovat?"
+        },
+        {
+          "speaker": "A",
+          "text": "Dass ich im Jahresurlaub bin mit eingeschränktem E-Mail-Zugang und mein Rückkehrdatum nächsten Montag ist.",
+          "text_cz": "Že jsem na dovolené s omezeným přístupem k e-mailu a datum mého návratu je příští pondělí."
+        },
+        {
+          "speaker": "B",
+          "text": "Vergiss nicht anzugeben, wen man bei dringenden Angelegenheiten kontaktieren soll.",
+          "text_cz": "Nezapomeň dodat, na koho se obrátit v naléhavých záležitostech."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "dringende Angelegenheiten",
+      "options": [
+        "naléhavé záležitosti",
+        "datum návratu",
+        "dovolená"
+      ],
+      "correct": "naléhavé záležitosti"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich bin bis Montag ___ Haus.",
+      "answer": "außer",
+      "hint_cz": "mimo"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Rückkehrdatum",
+          "cz": "datum návratu"
+        },
+        {
+          "target": "der Jahresurlaub",
+          "cz": "dovolená"
+        },
+        {
+          "target": "verzögerte Antwort",
+          "cz": "zpožděná odpověď"
+        },
+        {
+          "target": "nach meiner Rückkehr",
+          "cz": "po mém návratu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich habe nur eingeschränkten E-Mail-Zugang.",
+      "tts_text": "Ich habe nur eingeschränkten E-Mail-Zugang."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich antworte ___ meiner Rückkehr.",
+      "answer": "nach",
+      "hint_cz": "po"
+    }
+  ]
+}

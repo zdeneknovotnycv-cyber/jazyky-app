@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_legal_contracts_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über einen Vertrag sprechen",
+  "title_cz": "Diskuze o smlouvě",
+  "vocabulary": [
+    {
+      "word": "im Vertrag steht",
+      "translation_cz": "smlouva uvádí",
+      "example": "Im Vertrag stehen die Zahlungsbedingungen.",
+      "example_cz": "Smlouva uvádí platební podmínky.",
+      "tts_text": "Im Vertrag stehen die Zahlungsbedingungen."
+    },
+    {
+      "word": "die Bedingungen prüfen",
+      "translation_cz": "zkontrolovat podmínky",
+      "example": "Bitte prüfen Sie die Bedingungen sorgfältig.",
+      "example_cz": "Prosím pečlivě zkontrolujte podmínky.",
+      "tts_text": "Bitte prüfen Sie die Bedingungen sorgfältig."
+    },
+    {
+      "word": "verbindliche Vereinbarung",
+      "translation_cz": "závazná dohoda",
+      "example": "Das ist eine rechtlich verbindliche Vereinbarung.",
+      "example_cz": "Toto je právně závazná dohoda.",
+      "tts_text": "Das ist eine rechtlich verbindliche Vereinbarung."
+    },
+    {
+      "word": "die Vertragspartei",
+      "translation_cz": "smluvní strana",
+      "example": "Beide Vertragsparteien müssen zustimmen.",
+      "example_cz": "Obě smluvní strany musí souhlasit.",
+      "tts_text": "Beide Vertragsparteien müssen zustimmen."
+    },
+    {
+      "word": "die Pflichten",
+      "translation_cz": "povinnosti",
+      "example": "Der Vertrag listet unsere Pflichten auf.",
+      "example_cz": "Smlouva uvádí naše povinnosti.",
+      "tts_text": "Der Vertrag listet unsere Pflichten auf."
+    },
+    {
+      "word": "ändern",
+      "translation_cz": "změnit / upravit",
+      "example": "Wir können den Vertrag später ändern.",
+      "example_cz": "Smlouvu můžeme později upravit.",
+      "tts_text": "Wir können den Vertrag später ändern."
+    },
+    {
+      "word": "im Einklang mit",
+      "translation_cz": "v souladu s",
+      "example": "Diese Klausel steht im Einklang mit dem örtlichen Recht.",
+      "example_cz": "Tato doložka je v souladu s místním právem.",
+      "tts_text": "Diese Klausel steht im Einklang mit dem örtlichen Recht."
+    },
+    {
+      "word": "der Entwurf",
+      "translation_cz": "návrh verze",
+      "example": "Bitte senden Sie mir den Entwurf.",
+      "example_cz": "Prosím zašlete mi návrh verze.",
+      "tts_text": "Bitte senden Sie mir den Entwurf."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_01",
+      "title": "Über einen Vertrag sprechen",
+      "title_cz": "Diskuze o smlouvě",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Haben Sie die Bedingungen des Vertrags geprüft?",
+          "text_cz": "Zkontroloval jste podmínky smlouvy?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, im Vertrag stehen klare Zahlungspflichten für beide Parteien.",
+          "text_cz": "Ano, smlouva uvádí jasné platební povinnosti pro obě strany."
+        },
+        {
+          "speaker": "A",
+          "text": "Ist das ab der Unterschrift eine verbindliche Vereinbarung?",
+          "text_cz": "Je to závazná dohoda od okamžiku podpisu?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja. Wir können ihn später trotzdem ändern.",
+          "text_cz": "Ano. Pokud bude potřeba, můžeme ji později upravit."
+        },
+        {
+          "speaker": "A",
+          "text": "Bitte senden Sie mir noch einmal den Entwurf.",
+          "text_cz": "Prosím pošlete mi ještě jednou návrh verze."
+        },
+        {
+          "speaker": "B",
+          "text": "Mache ich, und ich prüfe, ob er im Einklang mit dem örtlichen Recht steht.",
+          "text_cz": "Udělám to a zkontroluji, že je v souladu s místním právem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "im Vertrag steht",
+      "options": [
+        "smlouva uvádí",
+        "zkontrolovat podmínky",
+        "závazná dohoda"
+      ],
+      "correct": "smlouva uvádí"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Beide Vertragsparteien müssen ___",
+      "answer": "zustimmen",
+      "hint_cz": "smluvní strana"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "im Vertrag steht",
+          "cz": "smlouva uvádí"
+        },
+        {
+          "target": "die Bedingungen prüfen",
+          "cz": "zkontrolovat podmínky"
+        },
+        {
+          "target": "verbindliche Vereinbarung",
+          "cz": "závazná dohoda"
+        },
+        {
+          "target": "die Vertragspartei",
+          "cz": "smluvní strana"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Vertrag listet unsere Pflichten auf.",
+      "tts_text": "Der Vertrag listet unsere Pflichten auf."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Wir können den Vertrag später ___.",
+      "answer": "ändern",
+      "hint_cz": "změnit / upravit"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_numbers_colors_08",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Simple Addition in Conversation",
+  "title_cz": "Jednoduché sčítání v rozhovoru",
+  "vocabulary": [
+    {
+      "word": "plus",
+      "translation_cz": "plus",
+      "example": "Zwei plus zwei ist vier.",
+      "example_cz": "Dva plus dva jsou čtyři.",
+      "tts_text": "Zwei plus zwei ist vier."
+    },
+    {
+      "word": "ist gleich",
+      "translation_cz": "rovná se",
+      "example": "Drei plus eins ist gleich vier.",
+      "example_cz": "Tři plus jedna se rovná čtyřem.",
+      "tts_text": "Drei plus eins ist gleich vier."
+    },
+    {
+      "word": "addieren",
+      "translation_cz": "přičíst",
+      "example": "Lass uns diese Zahlen addieren.",
+      "example_cz": "Pojďme sečíst tato čísla.",
+      "tts_text": "Lass uns diese Zahlen addieren."
+    },
+    {
+      "word": "die Summe",
+      "translation_cz": "součet",
+      "example": "Wie hoch ist die Summe?",
+      "example_cz": "Jaký je součet?",
+      "tts_text": "Wie hoch ist die Summe?"
+    },
+    {
+      "word": "die Zahl",
+      "translation_cz": "číslo",
+      "example": "Wähle eine Zahl von eins bis zehn.",
+      "example_cz": "Vyber si číslo od jedné do deseti.",
+      "tts_text": "Wähle eine Zahl von eins bis zehn."
+    },
+    {
+      "word": "zusammen",
+      "translation_cz": "dohromady",
+      "example": "Wir haben zusammen fünf Äpfel.",
+      "example_cz": "Máme dohromady pět jablek.",
+      "tts_text": "Wir haben zusammen fünf Äpfel."
+    },
+    {
+      "word": "das Ergebnis",
+      "translation_cz": "výsledek",
+      "example": "Das Ergebnis ist sechs.",
+      "example_cz": "Výsledek je šest.",
+      "tts_text": "Das Ergebnis ist sechs."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "die Summe",
+      "options": [
+        "součet",
+        "číslo",
+        "výsledek"
+      ],
+      "correct": "součet"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Drei plus eins ___ vier.",
+      "answer": "ist gleich",
+      "hint_cz": "rovná se"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "plus",
+          "cz": "plus"
+        },
+        {
+          "target": "addieren",
+          "cz": "přičíst"
+        },
+        {
+          "target": "die Zahl",
+          "cz": "číslo"
+        },
+        {
+          "target": "zusammen",
+          "cz": "dohromady"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Das Ergebnis ist sechs.",
+      "tts_text": "Das Ergebnis ist sechs."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_clothes_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Winter Clothes",
+  "title_cz": "Zimní oblečení",
+  "vocabulary": [
+    {
+      "word": "coat",
+      "translation_cz": "kabát",
+      "example": "I wear a warm coat in winter.",
+      "example_cz": "V zimě nosím teplý kabát.",
+      "tts_text": "I wear a warm coat in winter."
+    },
+    {
+      "word": "scarf",
+      "translation_cz": "šála",
+      "example": "The scarf keeps my neck warm.",
+      "example_cz": "Šála mi hřeje krk.",
+      "tts_text": "The scarf keeps my neck warm."
+    },
+    {
+      "word": "gloves",
+      "translation_cz": "rukavice",
+      "example": "I put on my gloves.",
+      "example_cz": "Obleču si rukavice.",
+      "tts_text": "I put on my gloves."
+    },
+    {
+      "word": "hat",
+      "translation_cz": "čepice",
+      "example": "My hat is very warm.",
+      "example_cz": "Moje čepice je velmi teplá.",
+      "tts_text": "My hat is very warm."
+    },
+    {
+      "word": "boots",
+      "translation_cz": "boty",
+      "example": "I wear boots in the snow.",
+      "example_cz": "Ve sněhu nosím boty.",
+      "tts_text": "I wear boots in the snow."
+    },
+    {
+      "word": "snowsuit",
+      "translation_cz": "kombinéza",
+      "example": "The baby wears a snowsuit.",
+      "example_cz": "Miminko má na sobě kombinézu.",
+      "tts_text": "The baby wears a snowsuit."
+    },
+    {
+      "word": "cold",
+      "translation_cz": "zima",
+      "example": "It is very cold outside.",
+      "example_cz": "Venku je velká zima.",
+      "tts_text": "It is very cold outside."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "scarf",
+      "options": [
+        "šála",
+        "kabát",
+        "rukavice"
+      ],
+      "correct": "šála"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I wear a warm ___ in winter.",
+      "answer": "coat",
+      "hint_cz": "kabát"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "gloves",
+          "cz": "rukavice"
+        },
+        {
+          "target": "hat",
+          "cz": "čepice"
+        },
+        {
+          "target": "boots",
+          "cz": "boty"
+        },
+        {
+          "target": "snowsuit",
+          "cz": "kombinéza"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It is very cold outside.",
+      "tts_text": "It is very cold outside."
+    }
+  ]
+}

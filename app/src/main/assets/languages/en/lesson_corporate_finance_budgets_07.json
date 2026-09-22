@@ -1,0 +1,46 @@
+{
+  "id": "en_corporate_finance_budgets_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Requesting a Purchase Order",
+  "title_cz": "Žádost o objednávku",
+  "vocabulary": [
+    {"word": "purchase order", "translation_cz": "objednávka", "example": "Please create a purchase order for the new laptops.", "example_cz": "Vytvořte prosím objednávku na nové notebooky.", "tts_text": "Please create a purchase order for the new laptops."},
+    {"word": "vendor", "translation_cz": "dodavatel", "example": "The vendor requires a signed purchase order.", "example_cz": "Dodavatel vyžaduje podepsanou objednávku.", "tts_text": "The vendor requires a signed purchase order."},
+    {"word": "quote", "translation_cz": "cenová nabídka", "example": "We received a quote from the supplier.", "example_cz": "Od dodavatele jsme obdrželi cenovou nabídku.", "tts_text": "We received a quote from the supplier."},
+    {"word": "unit price", "translation_cz": "jednotková cena", "example": "What is the unit price for this item?", "example_cz": "Jaká je jednotková cena tohoto zboží?", "tts_text": "What is the unit price for this item?"},
+    {"word": "delivery time", "translation_cz": "dodací lhůta", "example": "The delivery time is about two weeks.", "example_cz": "Dodací lhůta je zhruba dva týdny.", "tts_text": "The delivery time is about two weeks."},
+    {"word": "sign off", "translation_cz": "odsouhlasit / schválit", "example": "I need management to sign off on this order.", "example_cz": "Potřebuji, aby tuto objednávku schválilo vedení.", "tts_text": "I need management to sign off on this order."},
+    {"word": "quantity", "translation_cz": "množství", "example": "Please confirm the quantity before ordering.", "example_cz": "Před objednáním prosím potvrďte množství.", "tts_text": "Please confirm the quantity before ordering."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_purchase_order",
+      "title": "Requesting a purchase order",
+      "title_cz": "Žádost o vystavení objednávky",
+      "lines": [
+        {"speaker": "A", "text": "Could you create a purchase order for ten new laptops?", "text_cz": "Mohl byste vytvořit objednávku na deset nových notebooků?"},
+        {"speaker": "B", "text": "Sure. Did you get a quote from the vendor already?", "text_cz": "Jistě. Máte již cenovou nabídku od dodavatele?"},
+        {"speaker": "A", "text": "Yes, the unit price is six hundred euros each.", "text_cz": "Ano, jednotková cena je šest set eur za kus."},
+        {"speaker": "B", "text": "Good, I'll ask management to sign off on it today.", "text_cz": "Dobře, dnes to nechám schválit vedením."}
+      ]
+    },
+    {
+      "id": "conv_delivery_time",
+      "title": "Checking delivery time",
+      "title_cz": "Kontrola dodací lhůty",
+      "lines": [
+        {"speaker": "A", "text": "What's the expected delivery time for this order?", "text_cz": "Jaká je očekávaná dodací lhůta pro tuto objednávku?"},
+        {"speaker": "B", "text": "About two weeks, once we confirm the quantity.", "text_cz": "Zhruba dva týdny, jakmile potvrdíme množství."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "vendor", "options": ["dodavatel", "objednávka", "množství"], "correct": "dodavatel"},
+    {"type": "fill_gap", "sentence": "What is the ___ price for this item?", "answer": "unit", "hint_cz": "jednotková"},
+    {"type": "match_pairs", "pairs": [{"target": "purchase order", "cz": "objednávka"}, {"target": "quote", "cz": "cenová nabídka"}, {"target": "delivery time", "cz": "dodací lhůta"}, {"target": "quantity", "cz": "množství"}]},
+    {"type": "speak_and_check", "target_phrase": "I need management to sign off on this order.", "tts_text": "I need management to sign off on this order."},
+    {"type": "fill_gap", "sentence": "The delivery ___ is about two weeks.", "answer": "time", "hint_cz": "lhůta"}
+  ]
+}

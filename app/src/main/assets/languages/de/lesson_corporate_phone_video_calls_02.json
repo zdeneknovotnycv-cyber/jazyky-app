@@ -1,0 +1,143 @@
+{
+  "id": "de_adult_corporate_phone_video_calls_02",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Einen Kunden anrufen",
+  "title_cz": "Telefonování klientovi",
+  "vocabulary": [
+    {
+      "word": "Ich rufe wegen... an",
+      "translation_cz": "volám ohledně...",
+      "example": "Ich rufe wegen Ihrer letzten Bestellung an.",
+      "example_cz": "Volám ohledně vaší nedávné objednávky.",
+      "tts_text": "Ich rufe wegen Ihrer letzten Bestellung an."
+    },
+    {
+      "word": "Passt es Ihnen gerade zu sprechen?",
+      "translation_cz": "Hodí se vám teď mluvit?",
+      "example": "Guten Tag, passt es Ihnen gerade zu sprechen?",
+      "example_cz": "Dobrý den, hodí se vám teď mluvit?",
+      "tts_text": "Guten Tag, passt es Ihnen gerade zu sprechen?"
+    },
+    {
+      "word": "ich wollte nur nachfragen",
+      "translation_cz": "chtěl jsem se jen zeptat / navázat",
+      "example": "Ich wollte nur nachfragen, wie es mit dem Projekt aussieht.",
+      "example_cz": "Chtěl jsem se jen zeptat, jak to vypadá s projektem.",
+      "tts_text": "Ich wollte nur nachfragen, wie es mit dem Projekt aussieht."
+    },
+    {
+      "word": "bestätigen",
+      "translation_cz": "potvrdit",
+      "example": "Ich rufe an, um Ihren Termin zu bestätigen.",
+      "example_cz": "Volám, abych potvrdil vaši schůzku.",
+      "tts_text": "Ich rufe an, um Ihren Termin zu bestätigen."
+    },
+    {
+      "word": "sich bei jemandem melden",
+      "translation_cz": "ozvat se někomu zpět",
+      "example": "Ich melde mich bis Ende des Tages bei Ihnen.",
+      "example_cz": "Ozvu se vám do konce dne.",
+      "tts_text": "Ich melde mich bis Ende des Tages bei Ihnen."
+    },
+    {
+      "word": "sobald es Ihnen passt",
+      "translation_cz": "co nejdříve vám to vyhovuje",
+      "example": "Bitte rufen Sie mich zurück, sobald es Ihnen passt.",
+      "example_cz": "Zavolejte mi prosím zpět, jakmile to bude možné.",
+      "tts_text": "Bitte rufen Sie mich zurück, sobald es Ihnen passt."
+    },
+    {
+      "word": "die Rechnung",
+      "translation_cz": "faktura",
+      "example": "Ich rufe wegen der Rechnung Nummer viertausendfünfhunderteinundzwanzig an.",
+      "example_cz": "Volám ohledně faktury číslo 4521.",
+      "tts_text": "Ich rufe wegen der Rechnung Nummer viertausendfünfhunderteinundzwanzig an."
+    },
+    {
+      "word": "Ihre Zeit schätzen",
+      "translation_cz": "vážit si vašeho času",
+      "example": "Danke, ich schätze Ihre Zeit wirklich sehr.",
+      "example_cz": "Děkuji, opravdu si vážím vašeho času.",
+      "tts_text": "Danke, ich schätze Ihre Zeit wirklich sehr."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_kunden_anrufen",
+      "title": "Einen Kunden wegen einer Bestellung anrufen",
+      "title_cz": "Volání klientovi ohledně objednávky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Guten Tag, hier ist Petra von Novak Solutions. Passt es Ihnen gerade zu sprechen?",
+          "text_cz": "Dobrý den, tady je Petra ze společnosti Novak Solutions. Hodí se vám teď mluvit?"
+        },
+        {
+          "speaker": "B",
+          "text": "Ja, natürlich. Ich höre zu.",
+          "text_cz": "Ano, jistě. Poslouchám."
+        },
+        {
+          "speaker": "A",
+          "text": "Ich rufe wegen Ihrer letzten Bestellung an. Ich wollte den Liefertermin bestätigen.",
+          "text_cz": "Volám ohledně vaší nedávné objednávky. Chtěla jsem potvrdit termín dodání."
+        },
+        {
+          "speaker": "B",
+          "text": "Danke für den Anruf. Nächsten Dienstag passt uns gut.",
+          "text_cz": "Děkuji za zavolání. Příští úterý nám vyhovuje."
+        },
+        {
+          "speaker": "A",
+          "text": "Perfekt, ich bestätige alles per E-Mail. Danke für Ihre Zeit.",
+          "text_cz": "Výborně, vše potvrdím e-mailem. Děkuji za váš čas."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "Passt es Ihnen gerade zu sprechen?",
+      "options": [
+        "Hodí se vám teď mluvit?",
+        "Volám ohledně faktury.",
+        "Ozvu se vám zpět."
+      ],
+      "correct": "Hodí se vám teď mluvit?"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich rufe ___ Ihrer letzten Bestellung an.",
+      "answer": "wegen",
+      "hint_cz": "ohledně"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "bestätigen", "cz": "potvrdit" },
+        { "target": "die Rechnung", "cz": "faktura" },
+        { "target": "sich bei jemandem melden", "cz": "ozvat se někomu zpět" },
+        { "target": "Ihre Zeit schätzen", "cz": "vážit si vašeho času" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich wollte nur nachfragen, wie es mit dem Projekt aussieht.",
+      "tts_text": "Ich wollte nur nachfragen, wie es mit dem Projekt aussieht."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich melde mich bis Ende des Tages bei ___.",
+      "answer": "Ihnen",
+      "hint_cz": "vám"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Bitte rufen Sie mich zurück, sobald es Ihnen passt.",
+      "tts_text": "Bitte rufen Sie mich zurück, sobald es Ihnen passt."
+    }
+  ]
+}

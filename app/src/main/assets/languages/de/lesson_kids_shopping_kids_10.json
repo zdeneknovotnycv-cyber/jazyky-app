@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_shopping_kids_10",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Preise vergleichen (einfach)",
+  "title_cz": "Porovnávání cen (jednoduše)",
+  "vocabulary": [
+    {
+      "word": "der Preis",
+      "translation_cz": "cena",
+      "example": "Was kostet dieses Spielzeug?",
+      "example_cz": "Jaká je cena této hračky?",
+      "tts_text": "Was kostet dieses Spielzeug?"
+    },
+    {
+      "word": "billig",
+      "translation_cz": "levný",
+      "example": "Dieser Ball ist billig.",
+      "example_cz": "Tento míč je levný.",
+      "tts_text": "Dieser Ball ist billig."
+    },
+    {
+      "word": "teuer",
+      "translation_cz": "drahý",
+      "example": "Dieses Fahrrad ist teuer.",
+      "example_cz": "To kolo je drahé.",
+      "tts_text": "Dieses Fahrrad ist teuer."
+    },
+    {
+      "word": "der Rabatt",
+      "translation_cz": "sleva",
+      "example": "Es gibt einen Rabatt auf dieses Spielzeug.",
+      "example_cz": "Na tuto hračku je sleva.",
+      "tts_text": "Es gibt einen Rabatt auf dieses Spielzeug."
+    },
+    {
+      "word": "vergleichen",
+      "translation_cz": "porovnat",
+      "example": "Ich vergleiche zwei Preise.",
+      "example_cz": "Porovnávám dvě ceny.",
+      "tts_text": "Ich vergleiche zwei Preise."
+    },
+    {
+      "word": "gleich",
+      "translation_cz": "stejný",
+      "example": "Beide Spielsachen haben den gleichen Preis.",
+      "example_cz": "Obě hračky mají stejnou cenu.",
+      "tts_text": "Beide Spielsachen haben den gleichen Preis."
+    },
+    {
+      "word": "das beste Angebot",
+      "translation_cz": "nejlepší poměr ceny",
+      "example": "Dieses hier hat das beste Angebot.",
+      "example_cz": "Tato má nejlepší poměr ceny.",
+      "tts_text": "Dieses hier hat das beste Angebot."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Preis",
+      "options": [
+        "cena",
+        "levný",
+        "drahý"
+      ],
+      "correct": "cena"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Dieser Ball ist ___.",
+      "answer": "billig",
+      "hint_cz": "levný"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "teuer",
+          "cz": "drahý"
+        },
+        {
+          "target": "der Rabatt",
+          "cz": "sleva"
+        },
+        {
+          "target": "vergleichen",
+          "cz": "porovnat"
+        },
+        {
+          "target": "gleich",
+          "cz": "stejný"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Dieses hier hat das beste Angebot.",
+      "tts_text": "Dieses hier hat das beste Angebot."
+    }
+  ]
+}

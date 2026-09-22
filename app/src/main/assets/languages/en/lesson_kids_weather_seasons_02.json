@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_weather_seasons_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Snow and Winter",
+  "title_cz": "Sníh a zima",
+  "vocabulary": [
+    {
+      "word": "snow",
+      "translation_cz": "sníh",
+      "example": "The snow is white.",
+      "example_cz": "Sníh je bílý.",
+      "tts_text": "The snow is white."
+    },
+    {
+      "word": "snowman",
+      "translation_cz": "sněhulák",
+      "example": "We built a snowman.",
+      "example_cz": "Postavili jsme sněhuláka.",
+      "tts_text": "We built a snowman."
+    },
+    {
+      "word": "cold",
+      "translation_cz": "zima (chladno)",
+      "example": "It is very cold today.",
+      "example_cz": "Dnes je velká zima.",
+      "tts_text": "It is very cold today."
+    },
+    {
+      "word": "snowflake",
+      "translation_cz": "sněhová vločka",
+      "example": "A snowflake landed on my hand.",
+      "example_cz": "Sněhová vločka mi dopadla na ruku.",
+      "tts_text": "A snowflake landed on my hand."
+    },
+    {
+      "word": "sledge",
+      "translation_cz": "saně",
+      "example": "I ride a sledge down the hill.",
+      "example_cz": "Jezdím na saních z kopce.",
+      "tts_text": "I ride a sledge down the hill."
+    },
+    {
+      "word": "ice",
+      "translation_cz": "led",
+      "example": "The pond is covered with ice.",
+      "example_cz": "Rybník je pokrytý ledem.",
+      "tts_text": "The pond is covered with ice."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "snow",
+      "options": [
+        "sníh",
+        "led",
+        "sněhulák"
+      ],
+      "correct": "sníh"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We built a ___.",
+      "answer": "snowman",
+      "hint_cz": "sněhuláka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "cold",
+          "cz": "zima (chladno)"
+        },
+        {
+          "target": "snowflake",
+          "cz": "sněhová vločka"
+        },
+        {
+          "target": "sledge",
+          "cz": "saně"
+        },
+        {
+          "target": "ice",
+          "cz": "led"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "We built a snowman.",
+      "tts_text": "We built a snowman."
+    }
+  ]
+}

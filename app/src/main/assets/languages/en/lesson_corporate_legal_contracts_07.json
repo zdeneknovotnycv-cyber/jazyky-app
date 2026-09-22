@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_legal_contracts_07",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Explaining a clause",
+  "title_cz": "Vysvětlení doložky",
+  "vocabulary": [
+    {
+      "word": "clause",
+      "translation_cz": "doložka / ustanovení",
+      "example": "Let me explain this clause.",
+      "example_cz": "Nechte mě vysvětlit tuto doložku.",
+      "tts_text": "Let me explain this clause."
+    },
+    {
+      "word": "in simple terms",
+      "translation_cz": "jednoduše řečeno",
+      "example": "In simple terms, it means you can cancel anytime.",
+      "example_cz": "Jednoduše řečeno to znamená, že můžete kdykoli zrušit.",
+      "tts_text": "In simple terms, it means you can cancel anytime."
+    },
+    {
+      "word": "means that",
+      "translation_cz": "znamená to, že",
+      "example": "This means that both sides must agree.",
+      "example_cz": "Znamená to, že obě strany musí souhlasit.",
+      "tts_text": "This means that both sides must agree."
+    },
+    {
+      "word": "exception",
+      "translation_cz": "výjimka",
+      "example": "There is one exception to this rule.",
+      "example_cz": "Z tohoto pravidla existuje jedna výjimka.",
+      "tts_text": "There is one exception to this rule."
+    },
+    {
+      "word": "applies to",
+      "translation_cz": "vztahuje se na",
+      "example": "This clause applies to all employees.",
+      "example_cz": "Tato doložka se vztahuje na všechny zaměstnance.",
+      "tts_text": "This clause applies to all employees."
+    },
+    {
+      "word": "subject to",
+      "translation_cz": "podléhající / za podmínky",
+      "example": "The offer is subject to approval.",
+      "example_cz": "Nabídka podléhá schválení.",
+      "tts_text": "The offer is subject to approval."
+    },
+    {
+      "word": "for example",
+      "translation_cz": "například",
+      "example": "For example, this covers late payments.",
+      "example_cz": "Například se to vztahuje na pozdní platby.",
+      "tts_text": "For example, this covers late payments."
+    },
+    {
+      "word": "unless otherwise agreed",
+      "translation_cz": "pokud není dohodnuto jinak",
+      "example": "Unless otherwise agreed, the price stays the same.",
+      "example_cz": "Pokud není dohodnuto jinak, cena zůstává stejná.",
+      "tts_text": "Unless otherwise agreed, the price stays the same."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_legal_contracts_07",
+      "title": "Explaining a clause",
+      "title_cz": "Vysvětlení doložky",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Could you explain this clause to me?",
+          "text_cz": "Mohl byste mi vysvětlit tuto doložku?"
+        },
+        {
+          "speaker": "B",
+          "text": "Sure. In simple terms, it means that prices won't change unless otherwise agreed.",
+          "text_cz": "Jasně. Jednoduše řečeno to znamená, že ceny se nezmění, pokud není dohodnuto jinak."
+        },
+        {
+          "speaker": "A",
+          "text": "Does it apply to all our orders?",
+          "text_cz": "Vztahuje se to na všechny naše objednávky?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, except for one exception - custom orders.",
+          "text_cz": "Ano, kromě jedné výjimky - zakázkových objednávek."
+        },
+        {
+          "speaker": "A",
+          "text": "For example?",
+          "text_cz": "Například?"
+        },
+        {
+          "speaker": "B",
+          "text": "For example, a special production run is subject to a separate agreement.",
+          "text_cz": "Například speciální výrobní dávka podléhá samostatné dohodě."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "clause",
+      "options": [
+        "doložka / ustanovení",
+        "jednoduše řečeno",
+        "znamená to, že"
+      ],
+      "correct": "doložka / ustanovení"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "There is one ___ to this rule.",
+      "answer": "exception",
+      "hint_cz": "výjimka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "clause",
+          "cz": "doložka / ustanovení"
+        },
+        {
+          "target": "in simple terms",
+          "cz": "jednoduše řečeno"
+        },
+        {
+          "target": "means that",
+          "cz": "znamená to, že"
+        },
+        {
+          "target": "exception",
+          "cz": "výjimka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "This clause applies to all employees.",
+      "tts_text": "This clause applies to all employees."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The offer is ___ approval.",
+      "answer": "subject to",
+      "hint_cz": "podléhající / za podmínky"
+    }
+  ]
+}

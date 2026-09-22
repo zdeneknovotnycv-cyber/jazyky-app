@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_toys_games_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Video Games",
+  "title_cz": "Videohry",
+  "vocabulary": [
+    {
+      "word": "video game",
+      "translation_cz": "videohra",
+      "example": "I play a video game after school.",
+      "example_cz": "Po škole hraji videohru.",
+      "tts_text": "I play a video game after school."
+    },
+    {
+      "word": "screen",
+      "translation_cz": "obrazovka",
+      "example": "Don't sit too close to the screen.",
+      "example_cz": "Nesedej si moc blízko obrazovce.",
+      "tts_text": "Don't sit too close to the screen."
+    },
+    {
+      "word": "controller",
+      "translation_cz": "ovladač",
+      "example": "I hold the controller with both hands.",
+      "example_cz": "Ovladač držím oběma rukama.",
+      "tts_text": "I hold the controller with both hands."
+    },
+    {
+      "word": "level",
+      "translation_cz": "úroveň",
+      "example": "I passed the first level.",
+      "example_cz": "Prošel jsem první úrovní.",
+      "tts_text": "I passed the first level."
+    },
+    {
+      "word": "play time",
+      "translation_cz": "herní čas",
+      "example": "My play time is thirty minutes.",
+      "example_cz": "Můj herní čas je třicet minut.",
+      "tts_text": "My play time is thirty minutes."
+    },
+    {
+      "word": "computer",
+      "translation_cz": "počítač",
+      "example": "The video game is on the computer.",
+      "example_cz": "Videohra je na počítači.",
+      "tts_text": "The video game is on the computer."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "controller",
+      "options": [
+        "ovladač",
+        "obrazovka",
+        "úroveň"
+      ],
+      "correct": "ovladač"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I passed the first ___.",
+      "answer": "level",
+      "hint_cz": "úroveň"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "video game",
+          "cz": "videohra"
+        },
+        {
+          "target": "screen",
+          "cz": "obrazovka"
+        },
+        {
+          "target": "play time",
+          "cz": "herní čas"
+        },
+        {
+          "target": "computer",
+          "cz": "počítač"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I play a video game after school.",
+      "tts_text": "I play a video game after school."
+    }
+  ]
+}

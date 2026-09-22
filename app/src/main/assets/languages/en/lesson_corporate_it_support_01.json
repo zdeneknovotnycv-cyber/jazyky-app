@@ -1,0 +1,47 @@
+{
+  "id": "en_corporate_it_support_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Reporting a Technical Problem",
+  "title_cz": "Nahlášení technického problému",
+  "vocabulary": [
+    {"word": "technical problem", "translation_cz": "technický problém", "example": "I'm having a technical problem with my laptop.", "example_cz": "Mám technický problém s notebookem.", "tts_text": "I'm having a technical problem with my laptop."},
+    {"word": "crash", "translation_cz": "spadnout (o programu)", "example": "The application keeps crashing.", "example_cz": "Aplikace pořád padá.", "tts_text": "The application keeps crashing."},
+    {"word": "error message", "translation_cz": "chybová hláška", "example": "I got an error message on the screen.", "example_cz": "Zobrazila se mi na obrazovce chybová hláška.", "tts_text": "I got an error message on the screen."},
+    {"word": "freeze", "translation_cz": "zaseknout se", "example": "My screen froze during the video call.", "example_cz": "Obrazovka se mi zasekla během videohovoru.", "tts_text": "My screen froze during the video call."},
+    {"word": "restart", "translation_cz": "restartovat", "example": "Have you tried to restart the computer?", "example_cz": "Zkusil jste restartovat počítač?", "tts_text": "Have you tried to restart the computer?"},
+    {"word": "ticket", "translation_cz": "tiket / hlášení", "example": "I opened a ticket in the IT system.", "example_cz": "Otevřel jsem tiket v IT systému.", "tts_text": "I opened a ticket in the IT system."},
+    {"word": "not responding", "translation_cz": "nereaguje", "example": "The program is not responding at all.", "example_cz": "Program vůbec nereaguje.", "tts_text": "The program is not responding at all."},
+    {"word": "slow connection", "translation_cz": "pomalé připojení", "example": "I have a very slow internet connection today.", "example_cz": "Dnes mám velmi pomalé připojení k internetu.", "tts_text": "I have a very slow internet connection today."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_report_problem",
+      "title": "Reporting a laptop issue",
+      "title_cz": "Nahlášení problému s notebookem",
+      "lines": [
+        {"speaker": "A", "text": "I'm having a technical problem with my laptop. It keeps freezing.", "text_cz": "Mám technický problém s notebookem. Pořád se mi zasekává."},
+        {"speaker": "B", "text": "Have you tried to restart it?", "text_cz": "Zkusil jste ho restartovat?"},
+        {"speaker": "A", "text": "Yes, but I still get the same error message.", "text_cz": "Ano, ale pořád se mi objevuje stejná chybová hláška."},
+        {"speaker": "B", "text": "Okay, I'll open a ticket and someone will contact you shortly.", "text_cz": "Dobře, otevřu tiket a někdo se vám brzy ozve."}
+      ]
+    },
+    {
+      "id": "conv_slow_connection",
+      "title": "Reporting a slow connection",
+      "title_cz": "Nahlášení pomalého připojení",
+      "lines": [
+        {"speaker": "A", "text": "I have a very slow connection this morning.", "text_cz": "Dnes ráno mám velmi pomalé připojení."},
+        {"speaker": "B", "text": "We're aware of it, the network team is already checking it.", "text_cz": "Víme o tom, síťový tým už to prověřuje."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "crash", "options": ["spadnout", "restartovat", "tiket"], "correct": "spadnout"},
+    {"type": "fill_gap", "sentence": "My screen ___ during the video call.", "answer": "froze", "hint_cz": "zaseklo se"},
+    {"type": "match_pairs", "pairs": [{"target": "error message", "cz": "chybová hláška"}, {"target": "ticket", "cz": "tiket"}, {"target": "restart", "cz": "restartovat"}, {"target": "not responding", "cz": "nereaguje"}]},
+    {"type": "speak_and_check", "target_phrase": "I'm having a technical problem with my laptop.", "tts_text": "I'm having a technical problem with my laptop."},
+    {"type": "fill_gap", "sentence": "I have a very slow internet ___ today.", "answer": "connection", "hint_cz": "připojení"}
+  ]
+}

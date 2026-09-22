@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_animals_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Insects",
+  "title_cz": "Hmyz",
+  "vocabulary": [
+    {
+      "word": "das Insekt",
+      "translation_cz": "hmyz",
+      "example": "Eine Biene ist ein Insekt.",
+      "example_cz": "Včela je hmyz.",
+      "tts_text": "Eine Biene ist ein Insekt."
+    },
+    {
+      "word": "die Biene",
+      "translation_cz": "včela",
+      "example": "Die Biene macht Honig.",
+      "example_cz": "Včela dělá med.",
+      "tts_text": "Die Biene macht Honig."
+    },
+    {
+      "word": "der Schmetterling",
+      "translation_cz": "motýl",
+      "example": "Der Schmetterling ist bunt.",
+      "example_cz": "Motýl je barevný.",
+      "tts_text": "Der Schmetterling ist bunt."
+    },
+    {
+      "word": "die Ameise",
+      "translation_cz": "mravenec",
+      "example": "Die Ameise ist sehr klein.",
+      "example_cz": "Mravenec je velmi malý.",
+      "tts_text": "Die Ameise ist sehr klein."
+    },
+    {
+      "word": "die Spinne",
+      "translation_cz": "pavouk",
+      "example": "Die Spinne macht ein Netz.",
+      "example_cz": "Pavouk dělá pavučinu.",
+      "tts_text": "Die Spinne macht ein Netz."
+    },
+    {
+      "word": "der Marienkäfer",
+      "translation_cz": "beruška",
+      "example": "Der Marienkäfer hat rote Flügel.",
+      "example_cz": "Beruška má červená křídla.",
+      "tts_text": "Der Marienkäfer hat rote Flügel."
+    },
+    {
+      "word": "die Fliege",
+      "translation_cz": "moucha",
+      "example": "Die Fliege ist nervig.",
+      "example_cz": "Moucha je otravná.",
+      "tts_text": "Die Fliege ist nervig."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Schmetterling",
+      "options": [
+        "motýl",
+        "včela",
+        "mravenec"
+      ],
+      "correct": "motýl"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die ___ macht ein Netz.",
+      "answer": "Spinne",
+      "hint_cz": "pavouk"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Biene",
+          "cz": "včela"
+        },
+        {
+          "target": "die Ameise",
+          "cz": "mravenec"
+        },
+        {
+          "target": "der Marienkäfer",
+          "cz": "beruška"
+        },
+        {
+          "target": "die Fliege",
+          "cz": "moucha"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Schmetterling ist bunt.",
+      "tts_text": "Der Schmetterling ist bunt."
+    }
+  ]
+}

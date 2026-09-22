@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_food_drinks_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Cooking with Parents",
+  "title_cz": "Vaření s rodiči",
+  "vocabulary": [
+    {
+      "word": "kochen",
+      "translation_cz": "vařit",
+      "example": "Ich koche gern mit Mama.",
+      "example_cz": "Ráda vařím s maminkou.",
+      "tts_text": "Ich koche gern mit Mama."
+    },
+    {
+      "word": "das Rezept",
+      "translation_cz": "recept",
+      "example": "Wir folgen einem Rezept.",
+      "example_cz": "Řídíme se podle receptu.",
+      "tts_text": "Wir folgen einem Rezept."
+    },
+    {
+      "word": "mischen",
+      "translation_cz": "míchat",
+      "example": "Ich mische die Eier und das Mehl.",
+      "example_cz": "Míchám vejce a mouku.",
+      "tts_text": "Ich mische die Eier und das Mehl."
+    },
+    {
+      "word": "backen",
+      "translation_cz": "péct",
+      "example": "Wir backen zusammen einen Kuchen.",
+      "example_cz": "Společně pečeme dort.",
+      "tts_text": "Wir backen zusammen einen Kuchen."
+    },
+    {
+      "word": "der Ofen",
+      "translation_cz": "trouba",
+      "example": "Der Kuchen ist im Ofen.",
+      "example_cz": "Dort je v troubě.",
+      "tts_text": "Der Kuchen ist im Ofen."
+    },
+    {
+      "word": "umrühren",
+      "translation_cz": "míchat (vařečkou)",
+      "example": "Ich rühre die Suppe langsam um.",
+      "example_cz": "Pomalu míchám polévku.",
+      "tts_text": "Ich rühre die Suppe langsam um."
+    },
+    {
+      "word": "probieren",
+      "translation_cz": "ochutnat",
+      "example": "Kann ich es probieren?",
+      "example_cz": "Můžu to ochutnat?",
+      "tts_text": "Kann ich es probieren?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "kochen",
+      "options": [
+        "vařit",
+        "péct",
+        "míchat"
+      ],
+      "correct": "vařit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Der Kuchen ist im ___.",
+      "answer": "Ofen",
+      "hint_cz": "trouba"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "das Rezept",
+          "cz": "recept"
+        },
+        {
+          "target": "mischen",
+          "cz": "míchat"
+        },
+        {
+          "target": "backen",
+          "cz": "péct"
+        },
+        {
+          "target": "probieren",
+          "cz": "ochutnat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich koche gern mit Mama.",
+      "tts_text": "Ich koche gern mit Mama."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "en_corporate_finance_budgets_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing a Budget",
+  "title_cz": "Rozhovor o rozpočtu",
+  "vocabulary": [
+    {"word": "budget", "translation_cz": "rozpočet", "example": "We need to review the marketing budget.", "example_cz": "Musíme zkontrolovat marketingový rozpočet.", "tts_text": "We need to review the marketing budget."},
+    {"word": "allocate funds", "translation_cz": "přidělit finanční prostředky", "example": "We plan to allocate more funds to research.", "example_cz": "Plánujeme přidělit více finančních prostředků na výzkum.", "tts_text": "We plan to allocate more funds to research."},
+    {"word": "overspend", "translation_cz": "utratit více než plánováno", "example": "We overspent on advertising this quarter.", "example_cz": "Toto čtvrtletí jsme utratili více na reklamu, než jsme plánovali.", "tts_text": "We overspent on advertising this quarter."},
+    {"word": "under budget", "translation_cz": "pod rozpočtem", "example": "The project finished under budget.", "example_cz": "Projekt skončil pod rozpočtem.", "tts_text": "The project finished under budget."},
+    {"word": "forecast", "translation_cz": "prognóza", "example": "Our financial forecast looks positive.", "example_cz": "Naše finanční prognóza vypadá pozitivně.", "tts_text": "Our financial forecast looks positive."},
+    {"word": "cost estimate", "translation_cz": "odhad nákladů", "example": "Please prepare a cost estimate for the project.", "example_cz": "Připravte prosím odhad nákladů na projekt.", "tts_text": "Please prepare a cost estimate for the project."},
+    {"word": "fiscal year", "translation_cz": "fiskální rok", "example": "The new budget starts in the next fiscal year.", "example_cz": "Nový rozpočet začíná v příštím fiskálním roce.", "tts_text": "The new budget starts in the next fiscal year."},
+    {"word": "revenue", "translation_cz": "výnosy / tržby", "example": "Revenue increased by ten percent.", "example_cz": "Tržby vzrostly o deset procent.", "tts_text": "Revenue increased by ten percent."},
+    {"word": "expenses", "translation_cz": "výdaje", "example": "We need to reduce our monthly expenses.", "example_cz": "Musíme snížit naše měsíční výdaje.", "tts_text": "We need to reduce our monthly expenses."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_budget_review",
+      "title": "Reviewing the department budget",
+      "title_cz": "Kontrola oddělení rozpočtu",
+      "lines": [
+        {"speaker": "A", "text": "Let's review the marketing budget for this quarter.", "text_cz": "Pojďme zkontrolovat marketingový rozpočet pro toto čtvrtletí."},
+        {"speaker": "B", "text": "We slightly overspent on advertising.", "text_cz": "Na reklamu jsme utratili trochu více, než jsme plánovali."},
+        {"speaker": "A", "text": "That's fine, since the project finished under budget overall.", "text_cz": "To je v pořádku, protože projekt celkově skončil pod rozpočtem."},
+        {"speaker": "B", "text": "I'll update the forecast for next quarter.", "text_cz": "Aktualizuji prognózu pro příští čtvrtletí."}
+      ]
+    },
+    {
+      "id": "conv_allocate_funds",
+      "title": "Allocating funds for a new project",
+      "title_cz": "Přidělení prostředků na nový projekt",
+      "lines": [
+        {"speaker": "A", "text": "Can we allocate additional funds for the new project?", "text_cz": "Můžeme přidělit dodatečné finanční prostředky na nový projekt?"},
+        {"speaker": "B", "text": "It depends on our current expenses versus revenue.", "text_cz": "Záleží to na našich aktuálních výdajích v porovnání s tržbami."},
+        {"speaker": "A", "text": "I'll prepare a cost estimate by Friday.", "text_cz": "Do pátku připravím odhad nákladů."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "budget", "options": ["rozpočet", "výnosy", "prognóza"], "correct": "rozpočet"},
+    {"type": "fill_gap", "sentence": "The project finished under ___.", "answer": "budget", "hint_cz": "rozpočet"},
+    {"type": "match_pairs", "pairs": [{"target": "revenue", "cz": "výnosy"}, {"target": "expenses", "cz": "výdaje"}, {"target": "forecast", "cz": "prognóza"}, {"target": "fiscal year", "cz": "fiskální rok"}]},
+    {"type": "speak_and_check", "target_phrase": "Please prepare a cost estimate for the project.", "tts_text": "Please prepare a cost estimate for the project."},
+    {"type": "fill_gap", "sentence": "We plan to ___ more funds to research.", "answer": "allocate", "hint_cz": "přidělit"}
+  ]
+}

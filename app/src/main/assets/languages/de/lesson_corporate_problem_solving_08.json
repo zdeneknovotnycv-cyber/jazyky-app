@@ -1,0 +1,155 @@
+{
+  "id": "de_adult_corporate_problem_solving_08",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über eine Prozessverbesserung sprechen",
+  "title_cz": "Zlepšení pracovního procesu",
+  "vocabulary": [
+    {
+      "word": "vereinfachen",
+      "translation_cz": "zjednodušit / zefektivnit",
+      "example": "Wir sollten diesen Prozess vereinfachen.",
+      "example_cz": "Měli bychom tento proces zefektivnit.",
+      "tts_text": "Wir sollten diesen Prozess vereinfachen."
+    },
+    {
+      "word": "Zeit sparen",
+      "translation_cz": "ušetřit čas",
+      "example": "Diese Änderung würde Zeit sparen.",
+      "example_cz": "Tato změna by ušetřila čas.",
+      "tts_text": "Diese Änderung würde Zeit sparen."
+    },
+    {
+      "word": "der aktuelle Arbeitsablauf",
+      "translation_cz": "současný pracovní postup",
+      "example": "Der aktuelle Arbeitsablauf ist zu langsam.",
+      "example_cz": "Současný pracovní postup je moc pomalý.",
+      "tts_text": "Der aktuelle Arbeitsablauf ist zu langsam."
+    },
+    {
+      "word": "automatisieren",
+      "translation_cz": "automatizovat",
+      "example": "Können wir diesen Schritt automatisieren?",
+      "example_cz": "Můžeme tento krok automatizovat?",
+      "tts_text": "Können wir diesen Schritt automatisieren?"
+    },
+    {
+      "word": "der Engpass",
+      "translation_cz": "úzké místo",
+      "example": "Der Genehmigungsschritt ist ein Engpass.",
+      "example_cz": "Krok schvalování je úzké místo.",
+      "tts_text": "Der Genehmigungsschritt ist ein Engpass."
+    },
+    {
+      "word": "die Effizienz",
+      "translation_cz": "efektivita",
+      "example": "Das wird die Effizienz verbessern.",
+      "example_cz": "Tohle zlepší efektivitu.",
+      "tts_text": "Das wird die Effizienz verbessern."
+    },
+    {
+      "word": "die Änderung testen",
+      "translation_cz": "vyzkoušet změnu nanečisto",
+      "example": "Lassen Sie uns die Änderung zuerst testen.",
+      "example_cz": "Nejdřív si tu změnu vyzkoušejme.",
+      "tts_text": "Lassen Sie uns die Änderung zuerst testen."
+    },
+    {
+      "word": "messbare Ergebnisse",
+      "translation_cz": "měřitelné výsledky",
+      "example": "Wir brauchen messbare Ergebnisse.",
+      "example_cz": "Potřebujeme měřitelné výsledky.",
+      "tts_text": "Wir brauchen messbare Ergebnisse."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_problem_solving_08",
+      "title": "Eine Prozessverbesserung",
+      "title_cz": "Zlepšení procesu",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich denke, der aktuelle Arbeitsablauf hat einen Engpass bei der Genehmigung.",
+          "text_cz": "Myslím, že současný pracovní postup má úzké místo u schvalování."
+        },
+        {
+          "speaker": "B",
+          "text": "Stimmt. Können wir einen Teil automatisieren?",
+          "text_cz": "Souhlasím. Můžeme tu část automatizovat?"
+        },
+        {
+          "speaker": "A",
+          "text": "Ja, das würde den Prozess vereinfachen und Zeit sparen.",
+          "text_cz": "Ano, to by zefektivnilo proces a ušetřilo čas."
+        },
+        {
+          "speaker": "B",
+          "text": "Lassen Sie uns die Änderung zuerst mit einem Team testen.",
+          "text_cz": "Nejdřív si tu změnu vyzkoušejme s jedním týmem."
+        },
+        {
+          "speaker": "A",
+          "text": "Gute Idee. Wir brauchen messbare Ergebnisse, um die Effizienz zu belegen.",
+          "text_cz": "Dobrý nápad. Budeme potřebovat měřitelné výsledky, abychom prokázali zlepšení efektivity."
+        },
+        {
+          "speaker": "B",
+          "text": "Ich richte nächste Woche einen kleinen Test ein.",
+          "text_cz": "Příští týden zařídím malý test."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "vereinfachen",
+      "options": [
+        "zjednodušit / zefektivnit",
+        "ušetřit čas",
+        "současný pracovní postup"
+      ],
+      "correct": "zjednodušit / zefektivnit"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Können wir diesen Schritt ___?",
+      "answer": "automatisieren",
+      "hint_cz": "automatizovat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "vereinfachen",
+          "cz": "zjednodušit / zefektivnit"
+        },
+        {
+          "target": "Zeit sparen",
+          "cz": "ušetřit čas"
+        },
+        {
+          "target": "der aktuelle Arbeitsablauf",
+          "cz": "současný pracovní postup"
+        },
+        {
+          "target": "automatisieren",
+          "cz": "automatizovat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Der Genehmigungsschritt ist ein Engpass.",
+      "tts_text": "Der Genehmigungsschritt ist ein Engpass."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Das wird ___ verbessern.",
+      "answer": "die Effizienz",
+      "hint_cz": "efektivita"
+    }
+  ]
+}

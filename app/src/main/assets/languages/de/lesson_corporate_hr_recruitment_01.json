@@ -1,0 +1,52 @@
+{
+  "id": "de_corporate_hr_recruitment_01",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Fragen im Vorstellungsgespräch",
+  "title_cz": "Otázky u pracovního pohovoru",
+  "vocabulary": [
+    {"word": "das Vorstellungsgespräch", "translation_cz": "pohovor", "example": "Das Vorstellungsgespräch ist am Montag.", "example_cz": "Pohovor je v pondělí.", "tts_text": "Das Vorstellungsgespräch ist am Montag."},
+    {"word": "der Bewerber", "translation_cz": "uchazeč", "example": "Wir haben drei Bewerber für diese Stelle.", "example_cz": "Na tuto pozici máme tři uchazeče.", "tts_text": "Wir haben drei Bewerber für diese Stelle."},
+    {"word": "die Stärken", "translation_cz": "silné stránky", "example": "Was sind Ihre Stärken?", "example_cz": "Jaké jsou vaše silné stránky?", "tts_text": "Was sind Ihre Stärken?"},
+    {"word": "die Schwächen", "translation_cz": "slabé stránky", "example": "Jeder hat auch Schwächen.", "example_cz": "Každý má i slabé stránky.", "tts_text": "Jeder hat auch Schwächen."},
+    {"word": "die Qualifikation", "translation_cz": "kvalifikace", "example": "Bitte nennen Sie Ihre Qualifikationen.", "example_cz": "Uveďte prosím svou kvalifikaci.", "tts_text": "Bitte nennen Sie Ihre Qualifikationen."},
+    {"word": "die Stelle", "translation_cz": "pozice", "example": "Diese Stelle erfordert Teamarbeit.", "example_cz": "Tato pozice vyžaduje týmovou práci.", "tts_text": "Diese Stelle erfordert Teamarbeit."},
+    {"word": "einstellen", "translation_cz": "přijmout (zaměstnat)", "example": "Wir planen, zwei Entwickler einzustellen.", "example_cz": "Plánujeme přijmout dva vývojáře.", "tts_text": "Wir planen, zwei Entwickler einzustellen."},
+    {"word": "der Lebenslauf", "translation_cz": "životopis", "example": "Bitte senden Sie uns Ihren Lebenslauf.", "example_cz": "Zašlete nám prosím svůj životopis.", "tts_text": "Bitte senden Sie uns Ihren Lebenslauf."},
+    {"word": "die Motivation", "translation_cz": "motivace", "example": "Was ist Ihre Motivation für diese Stelle?", "example_cz": "Jaká je vaše motivace pro tuto práci?", "tts_text": "Was ist Ihre Motivation für diese Stelle?"},
+    {"word": "teamfähig", "translation_cz": "schopný týmové práce", "example": "Ich halte mich für sehr teamfähig.", "example_cz": "Považuji se za člověka schopného dobré týmové práce.", "tts_text": "Ich halte mich für sehr teamfähig."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_interview_basics",
+      "title": "Eine typische Frage im Gespräch",
+      "title_cz": "Standardní otázka na pohovoru",
+      "lines": [
+        {"speaker": "A", "text": "Danke, dass Sie gekommen sind. Erzählen Sie mir etwas über sich.", "text_cz": "Děkuji, že jste přišel. Řekněte mi něco o sobě."},
+        {"speaker": "B", "text": "Gerne. Ich habe fünf Jahre Erfahrung im Marketing.", "text_cz": "Ráda. Mám pět let zkušeností v marketingu."},
+        {"speaker": "A", "text": "Was würden Sie als Ihre größten Stärken bezeichnen?", "text_cz": "Co byste označila za vaše hlavní silné stránky?"},
+        {"speaker": "B", "text": "Ich bin gut organisiert und arbeite gut unter Druck.", "text_cz": "Jsem dobře organizovaná a dobře zvládám práci pod tlakem."}
+      ]
+    },
+    {
+      "id": "conv_motivation_question",
+      "title": "Über Motivation sprechen",
+      "title_cz": "Rozhovor o motivaci",
+      "lines": [
+        {"speaker": "A", "text": "Warum möchten Sie bei unserem Unternehmen arbeiten?", "text_cz": "Proč chcete pracovat pro naši společnost?"},
+        {"speaker": "B", "text": "Ich schätze Ihre Produkte und möchte mich beruflich weiterentwickeln.", "text_cz": "Vážím si vašich produktů a chci se profesně rozvíjet."},
+        {"speaker": "A", "text": "Das freut uns zu hören. Haben Sie noch Fragen an uns?", "text_cz": "To nás těší slyšet. Máte nějaké otázky vy na nás?"},
+        {"speaker": "B", "text": "Ja, wie sieht ein typischer Arbeitstag auf dieser Stelle aus?", "text_cz": "Ano, jak vypadá typický pracovní den na této pozici?"}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "der Bewerber", "options": ["uchazeč", "pozice", "životopis"], "correct": "uchazeč"},
+    {"type": "fill_gap", "sentence": "Was sind Ihre wichtigsten ___?", "answer": "Stärken", "hint_cz": "silné stránky"},
+    {"type": "match_pairs", "pairs": [{"target": "das Vorstellungsgespräch", "cz": "pohovor"}, {"target": "der Lebenslauf", "cz": "životopis"}, {"target": "einstellen", "cz": "přijmout"}, {"target": "die Stelle", "cz": "pozice"}]},
+    {"type": "speak_and_check", "target_phrase": "Ich halte mich für sehr teamfähig.", "tts_text": "Ich halte mich für sehr teamfähig."},
+    {"type": "fill_gap", "sentence": "Bitte senden Sie uns Ihren ___.", "answer": "Lebenslauf", "hint_cz": "životopis"},
+    {"type": "speak_and_check", "target_phrase": "Was ist Ihre Motivation für diese Stelle?", "tts_text": "Was ist Ihre Motivation für diese Stelle?"}
+  ]
+}

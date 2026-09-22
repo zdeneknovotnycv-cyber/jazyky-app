@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_body_health_02",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Face and Head",
+  "title_cz": "Obličej a hlava",
+  "vocabulary": [
+    {
+      "word": "face",
+      "translation_cz": "obličej",
+      "example": "I wash my face.",
+      "example_cz": "Myji si obličej.",
+      "tts_text": "I wash my face."
+    },
+    {
+      "word": "hair",
+      "translation_cz": "vlasy",
+      "example": "My hair is short.",
+      "example_cz": "Mám krátké vlasy.",
+      "tts_text": "My hair is short."
+    },
+    {
+      "word": "teeth",
+      "translation_cz": "zuby",
+      "example": "I brush my teeth.",
+      "example_cz": "Čistím si zuby.",
+      "tts_text": "I brush my teeth."
+    },
+    {
+      "word": "cheek",
+      "translation_cz": "tvář",
+      "example": "The baby has round cheeks.",
+      "example_cz": "Miminko má kulaté tváře.",
+      "tts_text": "The baby has round cheeks."
+    },
+    {
+      "word": "chin",
+      "translation_cz": "brada",
+      "example": "He has a small chin.",
+      "example_cz": "Má malou bradu.",
+      "tts_text": "He has a small chin."
+    },
+    {
+      "word": "eyebrow",
+      "translation_cz": "obočí",
+      "example": "Her eyebrows are dark.",
+      "example_cz": "Její obočí je tmavé.",
+      "tts_text": "Her eyebrows are dark."
+    },
+    {
+      "word": "forehead",
+      "translation_cz": "čelo",
+      "example": "My forehead is hot.",
+      "example_cz": "Mám horké čelo.",
+      "tts_text": "My forehead is hot."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "face",
+      "options": [
+        "obličej",
+        "vlasy",
+        "zuby"
+      ],
+      "correct": "obličej"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I brush my ___.",
+      "answer": "teeth",
+      "hint_cz": "zuby"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "cheek",
+          "cz": "tvář"
+        },
+        {
+          "target": "chin",
+          "cz": "brada"
+        },
+        {
+          "target": "eyebrow",
+          "cz": "obočí"
+        },
+        {
+          "target": "forehead",
+          "cz": "čelo"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I wash my face.",
+      "tts_text": "I wash my face."
+    }
+  ]
+}

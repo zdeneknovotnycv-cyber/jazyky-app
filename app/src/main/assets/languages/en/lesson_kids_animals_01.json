@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_animals_01",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Pets",
+  "title_cz": "Domácí mazlíčci",
+  "vocabulary": [
+    {
+      "word": "dog",
+      "translation_cz": "pes",
+      "example": "My dog is friendly.",
+      "example_cz": "Můj pes je přátelský.",
+      "tts_text": "My dog is friendly."
+    },
+    {
+      "word": "cat",
+      "translation_cz": "kočka",
+      "example": "The cat is sleeping.",
+      "example_cz": "Kočka spí.",
+      "tts_text": "The cat is sleeping."
+    },
+    {
+      "word": "fish",
+      "translation_cz": "ryba",
+      "example": "I have a fish in a bowl.",
+      "example_cz": "Mám rybu v misce.",
+      "tts_text": "I have a fish in a bowl."
+    },
+    {
+      "word": "bird",
+      "translation_cz": "pták",
+      "example": "The bird sings in the morning.",
+      "example_cz": "Pták zpívá ráno.",
+      "tts_text": "The bird sings in the morning."
+    },
+    {
+      "word": "hamster",
+      "translation_cz": "křeček",
+      "example": "My hamster runs on a wheel.",
+      "example_cz": "Můj křeček běhá na kolečku.",
+      "tts_text": "My hamster runs on a wheel."
+    },
+    {
+      "word": "rabbit",
+      "translation_cz": "králík",
+      "example": "The rabbit likes carrots.",
+      "example_cz": "Králík má rád mrkev.",
+      "tts_text": "The rabbit likes carrots."
+    },
+    {
+      "word": "pet",
+      "translation_cz": "domácí mazlíček",
+      "example": "Every pet needs love.",
+      "example_cz": "Každý mazlíček potřebuje lásku.",
+      "tts_text": "Every pet needs love."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "dog",
+      "options": [
+        "pes",
+        "kočka",
+        "pták"
+      ],
+      "correct": "pes"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "The ___ is sleeping.",
+      "answer": "cat",
+      "hint_cz": "kočka"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "fish",
+          "cz": "ryba"
+        },
+        {
+          "target": "bird",
+          "cz": "pták"
+        },
+        {
+          "target": "hamster",
+          "cz": "křeček"
+        },
+        {
+          "target": "rabbit",
+          "cz": "králík"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My dog is friendly.",
+      "tts_text": "My dog is friendly."
+    }
+  ]
+}

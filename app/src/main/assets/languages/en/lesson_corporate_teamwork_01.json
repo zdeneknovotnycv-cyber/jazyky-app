@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_teamwork_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Delegating a task",
+  "title_cz": "Delegování úkolu",
+  "vocabulary": [
+    {
+      "word": "to delegate",
+      "translation_cz": "delegovat / pověřit úkolem",
+      "example": "I'd like to delegate this task to you.",
+      "example_cz": "Rád bych ti delegoval tento úkol.",
+      "tts_text": "I'd like to delegate this task to you."
+    },
+    {
+      "word": "to take over",
+      "translation_cz": "převzít",
+      "example": "Could you take over the client report?",
+      "example_cz": "Mohl bys převzít zprávu pro klienta?",
+      "tts_text": "Could you take over the client report?"
+    },
+    {
+      "word": "by the deadline",
+      "translation_cz": "do termínu",
+      "example": "Please finish it by the deadline on Friday.",
+      "example_cz": "Prosím dokonči to do termínu v pátek.",
+      "tts_text": "Please finish it by the deadline on Friday."
+    },
+    {
+      "word": "point of contact",
+      "translation_cz": "kontaktní osoba",
+      "example": "I'll be your point of contact for this project.",
+      "example_cz": "Budu tvou kontaktní osobou pro tento projekt.",
+      "tts_text": "I'll be your point of contact for this project."
+    },
+    {
+      "word": "to update me on",
+      "translation_cz": "informovat mě o",
+      "example": "Please update me on your progress tomorrow.",
+      "example_cz": "Prosím informuj mě zítra o svém pokroku.",
+      "tts_text": "Please update me on your progress tomorrow."
+    },
+    {
+      "word": "feel free to ask",
+      "translation_cz": "klidně se zeptej",
+      "example": "Feel free to ask if anything is unclear.",
+      "example_cz": "Klidně se zeptej, pokud je něco nejasné.",
+      "tts_text": "Feel free to ask if anything is unclear."
+    },
+    {
+      "word": "to prioritize",
+      "translation_cz": "stanovit priority",
+      "example": "We need to prioritize the most urgent tasks.",
+      "example_cz": "Musíme stanovit priority nejnaléhavějších úkolů.",
+      "tts_text": "We need to prioritize the most urgent tasks."
+    },
+    {
+      "word": "to hand off",
+      "translation_cz": "předat",
+      "example": "I'll hand off the files to you this afternoon.",
+      "example_cz": "Dnes odpoledne ti předám soubory.",
+      "tts_text": "I'll hand off the files to you this afternoon."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_delegating_task",
+      "title": "Delegating a task to a colleague",
+      "title_cz": "Delegování úkolu kolegovi",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I'd like to delegate the client report to you this week.",
+          "text_cz": "Rád bych ti tento týden delegoval zprávu pro klienta."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, no problem. When is the deadline?",
+          "text_cz": "Jasně, žádný problém. Kdy je termín?"
+        },
+        {
+          "speaker": "A",
+          "text": "Please finish it by the deadline on Friday. I'll be your point of contact if you have questions.",
+          "text_cz": "Prosím dokonči to do pátku. Budu tvá kontaktní osoba, kdyby ses na něco chtěl zeptat."
+        },
+        {
+          "speaker": "B",
+          "text": "Great, thank you. Can you send me the files now?",
+          "text_cz": "Skvělé, díky. Můžeš mi teď poslat ty soubory?"
+        },
+        {
+          "speaker": "A",
+          "text": "I'll hand off the files to you this afternoon. Feel free to ask if anything is unclear.",
+          "text_cz": "Dnes odpoledne ti předám soubory. Klidně se zeptej, kdyby něco nebylo jasné."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "to delegate",
+      "options": [
+        "delegovat / pověřit úkolem",
+        "převzít",
+        "předat"
+      ],
+      "correct": "delegovat / pověřit úkolem"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please finish it ___ the deadline on Friday.",
+      "answer": "by",
+      "hint_cz": "do"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "to take over",
+          "cz": "převzít"
+        },
+        {
+          "target": "point of contact",
+          "cz": "kontaktní osoba"
+        },
+        {
+          "target": "to prioritize",
+          "cz": "stanovit priority"
+        },
+        {
+          "target": "to hand off",
+          "cz": "předat"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Feel free to ask if anything is unclear.",
+      "tts_text": "Feel free to ask if anything is unclear."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Please ___ me on your progress tomorrow.",
+      "answer": "update",
+      "hint_cz": "informuj"
+    }
+  ]
+}

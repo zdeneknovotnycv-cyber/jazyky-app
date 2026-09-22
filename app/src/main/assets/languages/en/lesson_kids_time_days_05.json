@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_time_days_05",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Yesterday, Today, Tomorrow",
+  "title_cz": "Včera, dnes, zítra",
+  "vocabulary": [
+    {
+      "word": "yesterday",
+      "translation_cz": "včera",
+      "example": "Yesterday I played football.",
+      "example_cz": "Včera jsem hrál fotbal.",
+      "tts_text": "Yesterday I played football."
+    },
+    {
+      "word": "today",
+      "translation_cz": "dnes",
+      "example": "Today is a sunny day.",
+      "example_cz": "Dnes je slunečný den.",
+      "tts_text": "Today is a sunny day."
+    },
+    {
+      "word": "tomorrow",
+      "translation_cz": "zítra",
+      "example": "Tomorrow we go to the zoo.",
+      "example_cz": "Zítra jdeme do zoo.",
+      "tts_text": "Tomorrow we go to the zoo."
+    },
+    {
+      "word": "now",
+      "translation_cz": "teď",
+      "example": "I am hungry now.",
+      "example_cz": "Teď mám hlad.",
+      "tts_text": "I am hungry now."
+    },
+    {
+      "word": "the day after tomorrow",
+      "translation_cz": "pozítří",
+      "example": "We will visit grandpa the day after tomorrow.",
+      "example_cz": "Pozítří navštívíme dědu.",
+      "tts_text": "We will visit grandpa the day after tomorrow."
+    },
+    {
+      "word": "the day before yesterday",
+      "translation_cz": "předevčírem",
+      "example": "It snowed the day before yesterday.",
+      "example_cz": "Předevčírem sněžilo.",
+      "tts_text": "It snowed the day before yesterday."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "tomorrow",
+      "options": [
+        "zítra",
+        "včera",
+        "dnes"
+      ],
+      "correct": "zítra"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "___ we go to the zoo.",
+      "answer": "Tomorrow",
+      "hint_cz": "zítra"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "yesterday",
+          "cz": "včera"
+        },
+        {
+          "target": "today",
+          "cz": "dnes"
+        },
+        {
+          "target": "now",
+          "cz": "teď"
+        },
+        {
+          "target": "the day after tomorrow",
+          "cz": "pozítří"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Today is a sunny day.",
+      "tts_text": "Today is a sunny day."
+    }
+  ]
+}

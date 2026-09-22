@@ -1,0 +1,150 @@
+{
+  "id": "de_adult_corporate_career_development_07",
+  "language": "de",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Über Weiterbildung sprechen",
+  "title_cz": "Diskuze o dalším vzdělávání",
+  "vocabulary": [
+    {
+      "word": "die Weiterbildung",
+      "translation_cz": "další vzdělávání",
+      "example": "Ich denke nächstes Jahr über eine Weiterbildung nach.",
+      "example_cz": "Příští rok zvažuji další vzdělávání.",
+      "tts_text": "Ich denke nächstes Jahr über eine Weiterbildung nach."
+    },
+    {
+      "word": "der Abschluss",
+      "translation_cz": "titul",
+      "example": "Sie macht ihren Masterabschluss berufsbegleitend.",
+      "example_cz": "Dokončuje si magisterský titul při zaměstnání.",
+      "tts_text": "Sie macht ihren Masterabschluss berufsbegleitend."
+    },
+    {
+      "word": "das berufsbegleitende Studium",
+      "translation_cz": "studium při zaměstnání",
+      "example": "Ein berufsbegleitendes Studium passt gut zu meinem Job.",
+      "example_cz": "Studium při zaměstnání se dobře slučuje s mou prací.",
+      "tts_text": "Ein berufsbegleitendes Studium passt gut zu meinem Job."
+    },
+    {
+      "word": "die Studiengebühr",
+      "translation_cz": "školné",
+      "example": "Die Studiengebühr ist dieses Jahr ziemlich hoch.",
+      "example_cz": "Školné je letos poměrně vysoké.",
+      "tts_text": "Die Studiengebühr ist dieses Jahr ziemlich hoch."
+    },
+    {
+      "word": "das Stipendium",
+      "translation_cz": "stipendium",
+      "example": "Ich habe mich um ein Stipendium beworben, um die Kosten zu decken.",
+      "example_cz": "Zažádal jsem o stipendium na pokrytí nákladů.",
+      "tts_text": "Ich habe mich um ein Stipendium beworben, um die Kosten zu decken."
+    },
+    {
+      "word": "sich einschreiben",
+      "translation_cz": "zapsat se",
+      "example": "Ich plane, mich im Herbstsemester einzuschreiben.",
+      "example_cz": "Plánuji se zapsat na podzimní semestr.",
+      "tts_text": "Ich plane, mich im Herbstsemester einzuschreiben."
+    },
+    {
+      "word": "Arbeit und Studium vereinbaren",
+      "translation_cz": "skloubit práci a studium",
+      "example": "Es ist nicht leicht, Arbeit und Studium zu vereinbaren.",
+      "example_cz": "Není snadné skloubit práci a studium.",
+      "tts_text": "Es ist nicht leicht, Arbeit und Studium zu vereinbaren."
+    },
+    {
+      "word": "der Onlinekurs",
+      "translation_cz": "online kurz",
+      "example": "Ich mache außerdem einen Onlinekurs im Marketing.",
+      "example_cz": "Zároveň dělám online kurz z marketingu.",
+      "tts_text": "Ich mache außerdem einen Onlinekurs im Marketing."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_further_education",
+      "title": "Über Weiterbildung sprechen",
+      "title_cz": "Rozhovor o dalším vzdělávání",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Ich denke nächstes Jahr über eine Weiterbildung nach, vielleicht einen berufsbegleitenden Masterabschluss.",
+          "text_cz": "Příští rok zvažuji další vzdělávání, možná magisterský titul při zaměstnání."
+        },
+        {
+          "speaker": "B",
+          "text": "Das klingt interessant. Ist die Studiengebühr aber nicht ziemlich hoch?",
+          "text_cz": "To zní zajímavě. Není ale to školné poměrně vysoké?"
+        },
+        {
+          "speaker": "A",
+          "text": "Doch, deshalb habe ich mich um ein Stipendium beworben. Ich plane, mich im Herbstsemester einzuschreiben.",
+          "text_cz": "Je, tak jsem zažádal o stipendium. Plánuji se zapsat na podzimní semestr."
+        },
+        {
+          "speaker": "B",
+          "text": "Es wird nicht leicht, Arbeit und Studium zu vereinbaren.",
+          "text_cz": "Nebude snadné skloubit práci a studium."
+        },
+        {
+          "speaker": "A",
+          "text": "Stimmt, aber ich mache gerade auch einen kurzen Onlinekurs, also habe ich schon eine gewisse Routine.",
+          "text_cz": "Pravda, ale teď dělám i krátký online kurz, takže už mám určitý režim."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "das Stipendium",
+      "options": [
+        "stipendium",
+        "titul",
+        "školné"
+      ],
+      "correct": "stipendium"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Die ___ ist dieses Jahr ziemlich hoch.",
+      "answer": "Studiengebühr",
+      "hint_cz": "školné"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Weiterbildung",
+          "cz": "další vzdělávání"
+        },
+        {
+          "target": "das berufsbegleitende Studium",
+          "cz": "studium při zaměstnání"
+        },
+        {
+          "target": "sich einschreiben",
+          "cz": "zapsat se"
+        },
+        {
+          "target": "der Onlinekurs",
+          "cz": "online kurz"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Es ist nicht leicht, Arbeit und Studium zu vereinbaren.",
+      "tts_text": "Es ist nicht leicht, Arbeit und Studium zu vereinbaren."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich plane, mich im Herbstsemester ___.",
+      "answer": "einzuschreiben",
+      "hint_cz": "zapsat se"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "en_kids_time_days_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Calendar and Dates",
+  "title_cz": "Kalendář a data",
+  "vocabulary": [
+    {
+      "word": "calendar",
+      "translation_cz": "kalendář",
+      "example": "I have a calendar on my wall.",
+      "example_cz": "Mám na zdi kalendář.",
+      "tts_text": "I have a calendar on my wall."
+    },
+    {
+      "word": "date",
+      "translation_cz": "datum",
+      "example": "What's the date today?",
+      "example_cz": "Jaké je dnes datum?",
+      "tts_text": "What's the date today?"
+    },
+    {
+      "word": "week",
+      "translation_cz": "týden",
+      "example": "There are seven days in a week.",
+      "example_cz": "Týden má sedm dní.",
+      "tts_text": "There are seven days in a week."
+    },
+    {
+      "word": "day off",
+      "translation_cz": "volný den",
+      "example": "Sunday is a day off.",
+      "example_cz": "Neděle je volný den.",
+      "tts_text": "Sunday is a day off."
+    },
+    {
+      "word": "today's date",
+      "translation_cz": "dnešní datum",
+      "example": "Do you know today's date?",
+      "example_cz": "Znáš dnešní datum?",
+      "tts_text": "Do you know today's date?"
+    },
+    {
+      "word": "birthday",
+      "translation_cz": "narozeniny",
+      "example": "My birthday is on the fifth of May.",
+      "example_cz": "Mám narozeniny pátého května.",
+      "tts_text": "My birthday is on the fifth of May."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "calendar",
+      "options": [
+        "kalendář",
+        "týden",
+        "datum"
+      ],
+      "correct": "kalendář"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "What's the ___ today?",
+      "answer": "date",
+      "hint_cz": "datum"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "week",
+          "cz": "týden"
+        },
+        {
+          "target": "day off",
+          "cz": "volný den"
+        },
+        {
+          "target": "today's date",
+          "cz": "dnešní datum"
+        },
+        {
+          "target": "birthday",
+          "cz": "narozeniny"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "What's the date today?",
+      "tts_text": "What's the date today?"
+    }
+  ]
+}

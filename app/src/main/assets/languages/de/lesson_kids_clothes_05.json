@@ -1,0 +1,103 @@
+{
+  "id": "de_kids_clothes_05",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Getting Dressed",
+  "title_cz": "Oblékání",
+  "vocabulary": [
+    {
+      "word": "sich anziehen",
+      "translation_cz": "obléknout se",
+      "example": "Ich ziehe mich jeden Morgen an.",
+      "example_cz": "Každé ráno se obléknu.",
+      "tts_text": "Ich ziehe mich jeden Morgen an."
+    },
+    {
+      "word": "anziehen",
+      "translation_cz": "obléct si",
+      "example": "Ich ziehe mein Hemd an.",
+      "example_cz": "Obleču si košili.",
+      "tts_text": "Ich ziehe mein Hemd an."
+    },
+    {
+      "word": "ausziehen",
+      "translation_cz": "svléknout si",
+      "example": "Ich ziehe zu Hause meine Schuhe aus.",
+      "example_cz": "Doma si svléknu boty.",
+      "tts_text": "Ich ziehe zu Hause meine Schuhe aus."
+    },
+    {
+      "word": "der Knopf",
+      "translation_cz": "knoflík",
+      "example": "Dieser Knopf ist klein.",
+      "example_cz": "Tento knoflík je malý.",
+      "tts_text": "Dieser Knopf ist klein."
+    },
+    {
+      "word": "der Reißverschluss",
+      "translation_cz": "zip",
+      "example": "Mach bitte deine Jacke zu.",
+      "example_cz": "Zapni si bundu na zip.",
+      "tts_text": "Mach bitte deine Jacke zu."
+    },
+    {
+      "word": "der Spiegel",
+      "translation_cz": "zrcadlo",
+      "example": "Ich schaue in den Spiegel.",
+      "example_cz": "Dívám se do zrcadla.",
+      "tts_text": "Ich schaue in den Spiegel."
+    },
+    {
+      "word": "fertig",
+      "translation_cz": "připravený",
+      "example": "Ich bin fertig für die Schule.",
+      "example_cz": "Jsem připraven do školy.",
+      "tts_text": "Ich bin fertig für die Schule."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "ausziehen",
+      "options": [
+        "svléknout si",
+        "obléct si",
+        "zip"
+      ],
+      "correct": "svléknout si"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Ich ___ mein Hemd an.",
+      "answer": "ziehe",
+      "hint_cz": "oblékám"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "der Knopf",
+          "cz": "knoflík"
+        },
+        {
+          "target": "der Reißverschluss",
+          "cz": "zip"
+        },
+        {
+          "target": "der Spiegel",
+          "cz": "zrcadlo"
+        },
+        {
+          "target": "fertig",
+          "cz": "připravený"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich schaue in den Spiegel.",
+      "tts_text": "Ich schaue in den Spiegel."
+    }
+  ]
+}

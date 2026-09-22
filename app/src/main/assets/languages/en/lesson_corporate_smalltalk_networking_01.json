@@ -1,0 +1,155 @@
+{
+  "id": "en_adult_corporate_smalltalk_networking_01",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Small talk at the coffee machine",
+  "title_cz": "Společenská konverzace u kávovaru",
+  "vocabulary": [
+    {
+      "word": "How's it going?",
+      "translation_cz": "Jak to jde?",
+      "example": "Hey, how's it going today?",
+      "example_cz": "Ahoj, jak to dneska jde?",
+      "tts_text": "Hey, how's it going today?"
+    },
+    {
+      "word": "coffee break",
+      "translation_cz": "přestávka na kávu",
+      "example": "Let's take a coffee break.",
+      "example_cz": "Dáme si přestávku na kávu.",
+      "tts_text": "Let's take a coffee break."
+    },
+    {
+      "word": "Did you have a good weekend?",
+      "translation_cz": "Měl jsi hezký víkend?",
+      "example": "Did you have a good weekend?",
+      "example_cz": "Měl jsi hezký víkend?",
+      "tts_text": "Did you have a good weekend?"
+    },
+    {
+      "word": "busy day",
+      "translation_cz": "náročný den",
+      "example": "It's been a busy day so far.",
+      "example_cz": "Zatím je to náročný den.",
+      "tts_text": "It's been a busy day so far."
+    },
+    {
+      "word": "grab a coffee",
+      "translation_cz": "dát si kávu",
+      "example": "Want to grab a coffee?",
+      "example_cz": "Chceš si dát kávu?",
+      "tts_text": "Want to grab a coffee?"
+    },
+    {
+      "word": "How do you take your coffee?",
+      "translation_cz": "Jak piješ kávu?",
+      "example": "How do you take your coffee, black or with milk?",
+      "example_cz": "Jak piješ kávu, černou nebo s mlékem?",
+      "tts_text": "How do you take your coffee, black or with milk?"
+    },
+    {
+      "word": "catch up",
+      "translation_cz": "pokecat si, dohnat novinky",
+      "example": "It's nice to catch up.",
+      "example_cz": "Je fajn si takhle pokecat.",
+      "tts_text": "It's nice to catch up."
+    },
+    {
+      "word": "get back to work",
+      "translation_cz": "vrátit se do práce",
+      "example": "I should get back to work soon.",
+      "example_cz": "Měl bych se brzy vrátit do práce.",
+      "tts_text": "I should get back to work soon."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_coffee_machine",
+      "title": "Chatting by the coffee machine",
+      "title_cz": "Povídání u kávovaru",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "Hey, how's it going?",
+          "text_cz": "Ahoj, jak to jde?"
+        },
+        {
+          "speaker": "B",
+          "text": "Pretty good, thanks. Just a busy day.",
+          "text_cz": "Docela dobře, díky. Jen náročný den."
+        },
+        {
+          "speaker": "A",
+          "text": "Did you have a good weekend?",
+          "text_cz": "Měl jsi hezký víkend?"
+        },
+        {
+          "speaker": "B",
+          "text": "Yes, very relaxing. How do you take your coffee?",
+          "text_cz": "Ano, moc odpočinkový. Jak piješ kávu?"
+        },
+        {
+          "speaker": "A",
+          "text": "With milk, please. It's nice to catch up.",
+          "text_cz": "S mlékem, prosím. Je fajn si takhle pokecat."
+        },
+        {
+          "speaker": "B",
+          "text": "Definitely. I should get back to work now.",
+          "text_cz": "Jasně. Teď se musím vrátit do práce."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "coffee break",
+      "options": [
+        "přestávka na kávu",
+        "náročný den",
+        "vrátit se do práce"
+      ],
+      "correct": "přestávka na kávu"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Did you have a good ___?",
+      "answer": "weekend",
+      "hint_cz": "víkend"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I should get back ___ work.",
+      "answer": "to",
+      "hint_cz": "do"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "coffee break",
+          "cz": "přestávka na kávu"
+        },
+        {
+          "target": "busy day",
+          "cz": "náročný den"
+        },
+        {
+          "target": "catch up",
+          "cz": "pokecat si"
+        },
+        {
+          "target": "grab a coffee",
+          "cz": "dát si kávu"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Want to grab a coffee?",
+      "tts_text": "Want to grab a coffee?"
+    }
+  ]
+}

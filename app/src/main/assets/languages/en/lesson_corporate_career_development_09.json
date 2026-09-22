@@ -1,0 +1,150 @@
+{
+  "id": "en_adult_corporate_career_development_09",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Discussing work-life balance",
+  "title_cz": "Diskuze o rovnováze mezi prací a životem",
+  "vocabulary": [
+    {
+      "word": "work-life balance",
+      "translation_cz": "rovnováha mezi prací a životem",
+      "example": "I've been thinking about my work-life balance.",
+      "example_cz": "Přemýšlel jsem o své rovnováze mezi prací a životem.",
+      "tts_text": "I've been thinking about my work-life balance."
+    },
+    {
+      "word": "overtime",
+      "translation_cz": "přesčas",
+      "example": "I've been doing a lot of overtime lately.",
+      "example_cz": "V poslední době dělám hodně přesčasů.",
+      "tts_text": "I've been doing a lot of overtime lately."
+    },
+    {
+      "word": "burnout",
+      "translation_cz": "vyhoření",
+      "example": "I'm worried about burnout.",
+      "example_cz": "Mám obavy z vyhoření.",
+      "tts_text": "I'm worried about burnout."
+    },
+    {
+      "word": "flexible hours",
+      "translation_cz": "flexibilní pracovní doba",
+      "example": "Flexible hours would really help me.",
+      "example_cz": "Flexibilní pracovní doba by mi opravdu pomohla.",
+      "tts_text": "Flexible hours would really help me."
+    },
+    {
+      "word": "to take time off",
+      "translation_cz": "vzít si volno",
+      "example": "You should take some time off soon.",
+      "example_cz": "Měl bys brzy vzít si volno.",
+      "tts_text": "You should take some time off soon."
+    },
+    {
+      "word": "to set boundaries",
+      "translation_cz": "stanovit hranice",
+      "example": "It's important to set boundaries at work.",
+      "example_cz": "Je důležité stanovit si hranice v práci.",
+      "tts_text": "It's important to set boundaries at work."
+    },
+    {
+      "word": "to prioritize",
+      "translation_cz": "stanovit priority",
+      "example": "I need to prioritize my well-being too.",
+      "example_cz": "Musím si stanovit priority i pro své duševní pohodu.",
+      "tts_text": "I need to prioritize my well-being too."
+    },
+    {
+      "word": "to recharge",
+      "translation_cz": "nabrat síly",
+      "example": "A short break helps me recharge.",
+      "example_cz": "Krátká přestávka mi pomáhá nabrat síly.",
+      "tts_text": "A short break helps me recharge."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_work_life_balance",
+      "title": "Talking about work-life balance",
+      "title_cz": "Rozhovor o rovnováze mezi prací a životem",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I've been thinking about my work-life balance lately.",
+          "text_cz": "V poslední době přemýšlím o své rovnováze mezi prací a životem."
+        },
+        {
+          "speaker": "B",
+          "text": "Are you doing a lot of overtime again?",
+          "text_cz": "Zase děláš hodně přesčasů?"
+        },
+        {
+          "speaker": "A",
+          "text": "Yes, and I'm honestly worried about burnout.",
+          "text_cz": "Ano, a upřímně mám obavy z vyhoření."
+        },
+        {
+          "speaker": "B",
+          "text": "You should take some time off. Maybe ask about flexible hours too.",
+          "text_cz": "Měl bys si vzít volno. Možná se zeptej i na flexibilní pracovní dobu."
+        },
+        {
+          "speaker": "A",
+          "text": "You're right, I need to set boundaries and prioritize my well-being.",
+          "text_cz": "Máš pravdu, musím si stanovit hranice a priority pro svou duševní pohodu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "burnout",
+      "options": [
+        "vyhoření",
+        "přesčas",
+        "flexibilní pracovní doba"
+      ],
+      "correct": "vyhoření"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "You should ___ some time off soon.",
+      "answer": "take",
+      "hint_cz": "vzít si"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "overtime",
+          "cz": "přesčas"
+        },
+        {
+          "target": "flexible hours",
+          "cz": "flexibilní pracovní doba"
+        },
+        {
+          "target": "to set boundaries",
+          "cz": "stanovit hranice"
+        },
+        {
+          "target": "to recharge",
+          "cz": "nabrat síly"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It's important to set boundaries at work.",
+      "tts_text": "It's important to set boundaries at work."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "A short break helps me ___.",
+      "answer": "recharge",
+      "hint_cz": "nabrat síly"
+    }
+  ]
+}

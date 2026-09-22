@@ -1,0 +1,143 @@
+{
+  "id": "en_adult_corporate_scheduling_calendars_06",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Blocking time in a calendar",
+  "title_cz": "Blokování času v kalendáři",
+  "vocabulary": [
+    {
+      "word": "I'll block off this time",
+      "translation_cz": "zablokuji si tento čas",
+      "example": "I'll block off this time so nobody else can book it.",
+      "example_cz": "Zablokuji si tento čas, aby si ho nikdo jiný nerezervoval.",
+      "tts_text": "I'll block off this time so nobody else can book it."
+    },
+    {
+      "word": "focus time",
+      "translation_cz": "čas na soustředěnou práci",
+      "example": "I need two hours of focus time in the morning.",
+      "example_cz": "Potřebuji dvě hodiny na soustředěnou práci dopoledne.",
+      "tts_text": "I need two hours of focus time in the morning."
+    },
+    {
+      "word": "mark it as busy",
+      "translation_cz": "označit jako obsazeno",
+      "example": "Please mark that slot as busy in the shared calendar.",
+      "example_cz": "Označte prosím to okénko ve sdíleném kalendáři jako obsazené.",
+      "tts_text": "Please mark that slot as busy in the shared calendar."
+    },
+    {
+      "word": "no meetings before ten",
+      "translation_cz": "žádné schůzky před desátou",
+      "example": "I try to keep no meetings before ten.",
+      "example_cz": "Snažím se nemít žádné schůzky před desátou.",
+      "tts_text": "I try to keep no meetings before ten."
+    },
+    {
+      "word": "reserve some time for preparation",
+      "translation_cz": "vyhradit si čas na přípravu",
+      "example": "Let's reserve some time for preparation before the call.",
+      "example_cz": "Vyhraďme si čas na přípravu před hovorem.",
+      "tts_text": "Let's reserve some time for preparation before the call."
+    },
+    {
+      "word": "keep that slot open",
+      "translation_cz": "ponechat to okénko volné",
+      "example": "Could you keep that slot open for now?",
+      "example_cz": "Mohl byste to okénko zatím ponechat volné?",
+      "tts_text": "Could you keep that slot open for now?"
+    },
+    {
+      "word": "shared calendar",
+      "translation_cz": "sdílený kalendář",
+      "example": "Everyone can see your availability on the shared calendar.",
+      "example_cz": "Vaši dostupnost vidí všichni ve sdíleném kalendáři.",
+      "tts_text": "Everyone can see your availability on the shared calendar."
+    },
+    {
+      "word": "lunch break",
+      "translation_cz": "obědová pauza",
+      "example": "I always block my lunch break from twelve to one.",
+      "example_cz": "Vždy si blokuji obědovou pauzu od dvanácti do jedné.",
+      "tts_text": "I always block my lunch break from twelve to one."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_blocking_time",
+      "title": "Blocking focus time in a calendar",
+      "title_cz": "Blokování času na soustředěnou práci",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "I need two hours of focus time in the morning this week.",
+          "text_cz": "Tento týden potřebuji dvě hodiny na soustředěnou práci dopoledne."
+        },
+        {
+          "speaker": "B",
+          "text": "Sure, I'll block off this time so nobody else can book it.",
+          "text_cz": "Jistě, zablokuji si tento čas, aby si ho nikdo jiný nerezervoval."
+        },
+        {
+          "speaker": "A",
+          "text": "Thanks. Could you also mark it as busy in the shared calendar?",
+          "text_cz": "Díky. Mohl byste to také označit jako obsazeno ve sdíleném kalendáři?"
+        },
+        {
+          "speaker": "B",
+          "text": "Done. I try to keep no meetings before ten anyway.",
+          "text_cz": "Hotovo. Snažím se stejně nemít žádné schůzky před desátou."
+        },
+        {
+          "speaker": "A",
+          "text": "That's a good habit. Don't forget your lunch break too.",
+          "text_cz": "To je dobrý zvyk. Nezapomeňte také na obědovou pauzu."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "I'll block off this time so nobody else can book it.",
+      "options": [
+        "Zablokuji si tento čas, aby si ho nikdo jiný nerezervoval.",
+        "Vždy si blokuji obědovou pauzu.",
+        "Vyhraďme si čas na přípravu."
+      ],
+      "correct": "Zablokuji si tento čas, aby si ho nikdo jiný nerezervoval."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I need two hours of ___ time in the morning.",
+      "answer": "focus",
+      "hint_cz": "soustředěnou práci"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        { "target": "mark it as busy", "cz": "označit jako obsazeno" },
+        { "target": "shared calendar", "cz": "sdílený kalendář" },
+        { "target": "lunch break", "cz": "obědová pauza" },
+        { "target": "keep that slot open", "cz": "ponechat to okénko volné" }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Let's reserve some time for preparation before the call.",
+      "tts_text": "Let's reserve some time for preparation before the call."
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I always ___ my lunch break from twelve to one.",
+      "answer": "block",
+      "hint_cz": "blokuji"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Everyone can see your availability on the shared calendar.",
+      "tts_text": "Everyone can see your availability on the shared calendar."
+    }
+  ]
+}

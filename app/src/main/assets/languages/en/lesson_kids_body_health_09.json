@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_body_health_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Exercise for Kids",
+  "title_cz": "Cvičení pro děti",
+  "vocabulary": [
+    {
+      "word": "exercise",
+      "translation_cz": "cvičit",
+      "example": "I exercise every morning.",
+      "example_cz": "Cvičím každé ráno.",
+      "tts_text": "I exercise every morning."
+    },
+    {
+      "word": "run",
+      "translation_cz": "běhat",
+      "example": "I like to run in the park.",
+      "example_cz": "Rád běhám v parku.",
+      "tts_text": "I like to run in the park."
+    },
+    {
+      "word": "jump",
+      "translation_cz": "skákat",
+      "example": "I can jump very high.",
+      "example_cz": "Umím skákat velmi vysoko.",
+      "tts_text": "I can jump very high."
+    },
+    {
+      "word": "stretch",
+      "translation_cz": "protahovat se",
+      "example": "We stretch before sports.",
+      "example_cz": "Před sportem se protahujeme.",
+      "tts_text": "We stretch before sports."
+    },
+    {
+      "word": "strong",
+      "translation_cz": "silný",
+      "example": "Exercise makes me strong.",
+      "example_cz": "Cvičení mě dělá silným.",
+      "tts_text": "Exercise makes me strong."
+    },
+    {
+      "word": "play outside",
+      "translation_cz": "hrát si venku",
+      "example": "I play outside after school.",
+      "example_cz": "Po škole si hraji venku.",
+      "tts_text": "I play outside after school."
+    },
+    {
+      "word": "energy",
+      "translation_cz": "energie",
+      "example": "Exercise gives me energy.",
+      "example_cz": "Cvičení mi dává energii.",
+      "tts_text": "Exercise gives me energy."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "run",
+      "options": [
+        "běhat",
+        "spát",
+        "jíst"
+      ],
+      "correct": "běhat"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I can ___ very high.",
+      "answer": "jump",
+      "hint_cz": "skákat"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "stretch",
+          "cz": "protahovat se"
+        },
+        {
+          "target": "strong",
+          "cz": "silný"
+        },
+        {
+          "target": "play outside",
+          "cz": "hrát si venku"
+        },
+        {
+          "target": "energy",
+          "cz": "energie"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I exercise every morning.",
+      "tts_text": "I exercise every morning."
+    }
+  ]
+}

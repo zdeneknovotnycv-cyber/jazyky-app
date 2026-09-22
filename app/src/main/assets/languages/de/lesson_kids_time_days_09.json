@@ -1,0 +1,96 @@
+{
+  "id": "de_kids_time_days_09",
+  "language": "de",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Kalender und Datum",
+  "title_cz": "Kalendář a data",
+  "vocabulary": [
+    {
+      "word": "der Kalender",
+      "translation_cz": "kalendář",
+      "example": "Ich habe einen Kalender an der Wand.",
+      "example_cz": "Mám na zdi kalendář.",
+      "tts_text": "Ich habe einen Kalender an der Wand."
+    },
+    {
+      "word": "das Datum",
+      "translation_cz": "datum",
+      "example": "Welches Datum haben wir heute?",
+      "example_cz": "Jaké je dnes datum?",
+      "tts_text": "Welches Datum haben wir heute?"
+    },
+    {
+      "word": "die Woche",
+      "translation_cz": "týden",
+      "example": "Eine Woche hat sieben Tage.",
+      "example_cz": "Týden má sedm dní.",
+      "tts_text": "Eine Woche hat sieben Tage."
+    },
+    {
+      "word": "der freie Tag",
+      "translation_cz": "volný den",
+      "example": "Sonntag ist ein freier Tag.",
+      "example_cz": "Neděle je volný den.",
+      "tts_text": "Sonntag ist ein freier Tag."
+    },
+    {
+      "word": "das heutige Datum",
+      "translation_cz": "dnešní datum",
+      "example": "Kennst du das heutige Datum?",
+      "example_cz": "Znáš dnešní datum?",
+      "tts_text": "Kennst du das heutige Datum?"
+    },
+    {
+      "word": "der Geburtstag",
+      "translation_cz": "narozeniny",
+      "example": "Mein Geburtstag ist am fünften Mai.",
+      "example_cz": "Mám narozeniny pátého května.",
+      "tts_text": "Mein Geburtstag ist am fünften Mai."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "der Kalender",
+      "options": [
+        "kalendář",
+        "týden",
+        "datum"
+      ],
+      "correct": "kalendář"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "Welches ___ haben wir heute?",
+      "answer": "Datum",
+      "hint_cz": "datum"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "die Woche",
+          "cz": "týden"
+        },
+        {
+          "target": "der freie Tag",
+          "cz": "volný den"
+        },
+        {
+          "target": "das heutige Datum",
+          "cz": "dnešní datum"
+        },
+        {
+          "target": "der Geburtstag",
+          "cz": "narozeniny"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Welches Datum haben wir heute?",
+      "tts_text": "Welches Datum haben wir heute?"
+    }
+  ]
+}

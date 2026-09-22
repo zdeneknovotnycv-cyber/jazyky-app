@@ -1,0 +1,48 @@
+{
+  "id": "en_corporate_hr_recruitment_04",
+  "language": "en",
+  "audience": "adult_corporate",
+  "level": "beginner",
+  "title": "Onboarding a New Employee",
+  "title_cz": "Zaškolení nového zaměstnance",
+  "vocabulary": [
+    {"word": "onboarding", "translation_cz": "zaškolení / onboarding", "example": "Onboarding usually takes one week.", "example_cz": "Zaškolení obvykle trvá jeden týden.", "tts_text": "Onboarding usually takes one week."},
+    {"word": "orientation", "translation_cz": "úvodní seznámení", "example": "The orientation covers company policies.", "example_cz": "Úvodní seznámení zahrnuje firemní pravidla.", "tts_text": "The orientation covers company policies."},
+    {"word": "IT access", "translation_cz": "přístup do IT systémů", "example": "You will get your IT access on the first day.", "example_cz": "Přístup do IT systémů získáte první den.", "tts_text": "You will get your IT access on the first day."},
+    {"word": "mentor", "translation_cz": "mentor", "example": "Your mentor will help you during the first month.", "example_cz": "Váš mentor vám pomůže během prvního měsíce.", "tts_text": "Your mentor will help you during the first month."},
+    {"word": "employee handbook", "translation_cz": "příručka pro zaměstnance", "example": "Please read the employee handbook.", "example_cz": "Přečtěte si prosím příručku pro zaměstnance.", "tts_text": "Please read the employee handbook."},
+    {"word": "probation period", "translation_cz": "zkušební doba", "example": "The probation period is three months.", "example_cz": "Zkušební doba je tři měsíce.", "tts_text": "The probation period is three months."},
+    {"word": "workstation", "translation_cz": "pracovní místo / stanice", "example": "Your workstation is set up on the third floor.", "example_cz": "Vaše pracovní místo je připraveno ve třetím patře.", "tts_text": "Your workstation is set up on the third floor."},
+    {"word": "welcome package", "translation_cz": "uvítací balíček", "example": "You'll receive a welcome package on your first day.", "example_cz": "První den obdržíte uvítací balíček.", "tts_text": "You'll receive a welcome package on your first day."}
+  ],
+  "conversations": [
+    {
+      "id": "conv_first_day",
+      "title": "First day at the office",
+      "title_cz": "První den v kanceláři",
+      "lines": [
+        {"speaker": "A", "text": "Welcome to the company! Here is your welcome package.", "text_cz": "Vítejte ve společnosti! Zde je váš uvítací balíček."},
+        {"speaker": "B", "text": "Thank you. When will I get my IT access?", "text_cz": "Děkuji. Kdy dostanu přístup do IT systémů?"},
+        {"speaker": "A", "text": "This afternoon. Your mentor will also show you your workstation.", "text_cz": "Dnes odpoledne. Váš mentor vám také ukáže vaše pracovní místo."},
+        {"speaker": "B", "text": "Great, I'm looking forward to getting started.", "text_cz": "Skvělé, těším se, až začnu."}
+      ]
+    },
+    {
+      "id": "conv_orientation",
+      "title": "Explaining the orientation schedule",
+      "title_cz": "Vysvětlení plánu úvodního seznámení",
+      "lines": [
+        {"speaker": "A", "text": "The orientation starts at nine and lasts about two hours.", "text_cz": "Úvodní seznámení začíná v devět a trvá zhruba dvě hodiny."},
+        {"speaker": "B", "text": "Will we also talk about the probation period?", "text_cz": "Budeme mluvit i o zkušební době?"},
+        {"speaker": "A", "text": "Yes, and please read the employee handbook beforehand.", "text_cz": "Ano, a přečtěte si prosím předem příručku pro zaměstnance."}
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "listen_and_choose", "prompt_tts": "mentor", "options": ["mentor", "zaškolení", "přístup"], "correct": "mentor"},
+    {"type": "fill_gap", "sentence": "Please read the employee ___.", "answer": "handbook", "hint_cz": "příručka"},
+    {"type": "match_pairs", "pairs": [{"target": "onboarding", "cz": "zaškolení"}, {"target": "workstation", "cz": "pracovní místo"}, {"target": "probation period", "cz": "zkušební doba"}, {"target": "orientation", "cz": "úvodní seznámení"}]},
+    {"type": "speak_and_check", "target_phrase": "Your mentor will help you during the first month.", "tts_text": "Your mentor will help you during the first month."},
+    {"type": "fill_gap", "sentence": "The ___ period is three months.", "answer": "probation", "hint_cz": "zkušební"}
+  ]
+}

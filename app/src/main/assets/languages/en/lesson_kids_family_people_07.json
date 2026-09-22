@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_family_people_07",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Jobs of Parents",
+  "title_cz": "Zaměstnání rodičů",
+  "vocabulary": [
+    {
+      "word": "job",
+      "translation_cz": "zaměstnání",
+      "example": "My mother has an important job.",
+      "example_cz": "Moje maminka má důležité zaměstnání.",
+      "tts_text": "My mother has an important job."
+    },
+    {
+      "word": "doctor",
+      "translation_cz": "doktor / doktorka",
+      "example": "My mother is a doctor.",
+      "example_cz": "Moje maminka je doktorka.",
+      "tts_text": "My mother is a doctor."
+    },
+    {
+      "word": "teacher",
+      "translation_cz": "učitel / učitelka",
+      "example": "My father is a teacher.",
+      "example_cz": "Můj tatínek je učitel.",
+      "tts_text": "My father is a teacher."
+    },
+    {
+      "word": "driver",
+      "translation_cz": "řidič",
+      "example": "My uncle is a bus driver.",
+      "example_cz": "Můj strýc je řidič autobusu.",
+      "tts_text": "My uncle is a bus driver."
+    },
+    {
+      "word": "cook",
+      "translation_cz": "kuchař / kuchařka",
+      "example": "My aunt is a cook.",
+      "example_cz": "Moje teta je kuchařka.",
+      "tts_text": "My aunt is a cook."
+    },
+    {
+      "word": "work",
+      "translation_cz": "pracovat",
+      "example": "My parents work every day.",
+      "example_cz": "Moji rodiče pracují každý den.",
+      "tts_text": "My parents work every day."
+    },
+    {
+      "word": "office",
+      "translation_cz": "kancelář",
+      "example": "My father works in an office.",
+      "example_cz": "Můj tatínek pracuje v kanceláři.",
+      "tts_text": "My father works in an office."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "doctor",
+      "options": [
+        "doktorka",
+        "učitelka",
+        "kuchařka"
+      ],
+      "correct": "doktorka"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "My father is a ___.",
+      "answer": "teacher",
+      "hint_cz": "učitel"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "driver",
+          "cz": "řidič"
+        },
+        {
+          "target": "cook",
+          "cz": "kuchař / kuchařka"
+        },
+        {
+          "target": "work",
+          "cz": "pracovat"
+        },
+        {
+          "target": "office",
+          "cz": "kancelář"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "My mother is a doctor.",
+      "tts_text": "My mother is a doctor."
+    }
+  ]
+}

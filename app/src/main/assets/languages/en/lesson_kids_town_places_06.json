@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_town_places_06",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "The post office",
+  "title_cz": "Pošta",
+  "vocabulary": [
+    {
+      "word": "post office",
+      "translation_cz": "pošta",
+      "example": "We send a letter at the post office.",
+      "example_cz": "Posíláme dopis na poště.",
+      "tts_text": "We send a letter at the post office."
+    },
+    {
+      "word": "letter",
+      "translation_cz": "dopis",
+      "example": "I write a letter to my grandma.",
+      "example_cz": "Píšu dopis babičce.",
+      "tts_text": "I write a letter to my grandma."
+    },
+    {
+      "word": "stamp",
+      "translation_cz": "známka",
+      "example": "I stick a stamp on the envelope.",
+      "example_cz": "Nalepím známku na obálku.",
+      "tts_text": "I stick a stamp on the envelope."
+    },
+    {
+      "word": "package",
+      "translation_cz": "balík",
+      "example": "We send a package to my cousin.",
+      "example_cz": "Posíláme balík mému bratranci.",
+      "tts_text": "We send a package to my cousin."
+    },
+    {
+      "word": "mailbox",
+      "translation_cz": "poštovní schránka",
+      "example": "I put the letter in the mailbox.",
+      "example_cz": "Vhodím dopis do poštovní schránky.",
+      "tts_text": "I put the letter in the mailbox."
+    },
+    {
+      "word": "postman",
+      "translation_cz": "pošťák",
+      "example": "The postman brings our mail.",
+      "example_cz": "Pošťák nám nosí poštu.",
+      "tts_text": "The postman brings our mail."
+    },
+    {
+      "word": "address",
+      "translation_cz": "adresa",
+      "example": "I write the address clearly.",
+      "example_cz": "Píšu adresu čitelně.",
+      "tts_text": "I write the address clearly."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "post office",
+      "options": [
+        "pošta",
+        "park",
+        "škola"
+      ],
+      "correct": "pošta"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I write a ___ to my grandma.",
+      "answer": "letter",
+      "hint_cz": "dopis"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "letter",
+          "cz": "dopis"
+        },
+        {
+          "target": "stamp",
+          "cz": "známka"
+        },
+        {
+          "target": "package",
+          "cz": "balík"
+        },
+        {
+          "target": "mailbox",
+          "cz": "poštovní schránka"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I stick a stamp on the envelope.",
+      "tts_text": "I stick a stamp on the envelope."
+    }
+  ]
+}

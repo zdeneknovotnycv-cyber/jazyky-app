@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_family_people_04",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Friends",
+  "title_cz": "Přátelé",
+  "vocabulary": [
+    {
+      "word": "friend",
+      "translation_cz": "kamarád / kamarádka",
+      "example": "She is my best friend.",
+      "example_cz": "Ona je moje nejlepší kamarádka.",
+      "tts_text": "She is my best friend."
+    },
+    {
+      "word": "best friend",
+      "translation_cz": "nejlepší kamarád",
+      "example": "He is my best friend at school.",
+      "example_cz": "Je to můj nejlepší kamarád ve škole.",
+      "tts_text": "He is my best friend at school."
+    },
+    {
+      "word": "play together",
+      "translation_cz": "hrát si spolu",
+      "example": "We play together every day.",
+      "example_cz": "Hrajeme si spolu každý den.",
+      "tts_text": "We play together every day."
+    },
+    {
+      "word": "share",
+      "translation_cz": "sdílet / půjčit",
+      "example": "I share my toys with friends.",
+      "example_cz": "Půjčuji hračky kamarádům.",
+      "tts_text": "I share my toys with friends."
+    },
+    {
+      "word": "kind",
+      "translation_cz": "hodný / milý",
+      "example": "My friend is very kind.",
+      "example_cz": "Můj kamarád je moc hodný.",
+      "tts_text": "My friend is very kind."
+    },
+    {
+      "word": "classmate",
+      "translation_cz": "spolužák",
+      "example": "My classmate sits next to me.",
+      "example_cz": "Můj spolužák sedí vedle mě.",
+      "tts_text": "My classmate sits next to me."
+    },
+    {
+      "word": "smile",
+      "translation_cz": "usmívat se",
+      "example": "My friend always smiles.",
+      "example_cz": "Můj kamarád se vždycky usmívá.",
+      "tts_text": "My friend always smiles."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "friend",
+      "options": [
+        "kamarád",
+        "učitel",
+        "bratr"
+      ],
+      "correct": "kamarád"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "We ___ together every day.",
+      "answer": "play",
+      "hint_cz": "hrát si"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "share",
+          "cz": "sdílet / půjčit"
+        },
+        {
+          "target": "kind",
+          "cz": "hodný / milý"
+        },
+        {
+          "target": "classmate",
+          "cz": "spolužák"
+        },
+        {
+          "target": "smile",
+          "cz": "usmívat se"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "She is my best friend.",
+      "tts_text": "She is my best friend."
+    }
+  ]
+}

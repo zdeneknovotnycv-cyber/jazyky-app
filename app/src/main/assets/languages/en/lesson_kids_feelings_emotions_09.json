@@ -1,0 +1,103 @@
+{
+  "id": "en_kids_feelings_emotions_09",
+  "language": "en",
+  "audience": "kids",
+  "level": "beginner",
+  "title": "Shy",
+  "title_cz": "Stydlivý",
+  "vocabulary": [
+    {
+      "word": "shy",
+      "translation_cz": "stydlivý",
+      "example": "I feel shy in front of new people.",
+      "example_cz": "Před novými lidmi jsem stydlivý.",
+      "tts_text": "I feel shy in front of new people."
+    },
+    {
+      "word": "quiet",
+      "translation_cz": "tichý",
+      "example": "He is quiet at first.",
+      "example_cz": "Zpočátku je tichý.",
+      "tts_text": "He is quiet at first."
+    },
+    {
+      "word": "blush",
+      "translation_cz": "červenat se",
+      "example": "I blush when everyone looks at me.",
+      "example_cz": "Červenám se, když se na mě všichni dívají.",
+      "tts_text": "I blush when everyone looks at me."
+    },
+    {
+      "word": "hide",
+      "translation_cz": "schovat se",
+      "example": "I want to hide behind mom.",
+      "example_cz": "Chci se schovat za maminku.",
+      "tts_text": "I want to hide behind mom."
+    },
+    {
+      "word": "new friend",
+      "translation_cz": "nový kamarád",
+      "example": "It's hard to talk to a new friend.",
+      "example_cz": "Je těžké mluvit s novým kamarádem.",
+      "tts_text": "It's hard to talk to a new friend."
+    },
+    {
+      "word": "brave step",
+      "translation_cz": "statečný krok",
+      "example": "Saying hello is a brave step.",
+      "example_cz": "Pozdravit je statečný krok.",
+      "tts_text": "Saying hello is a brave step."
+    },
+    {
+      "word": "smile back",
+      "translation_cz": "usmát se zpět",
+      "example": "I smile back at my new classmate.",
+      "example_cz": "Usměju se zpět na svého nového spolužáka.",
+      "tts_text": "I smile back at my new classmate."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen_and_choose",
+      "prompt_tts": "shy",
+      "options": [
+        "stydlivý",
+        "smutný",
+        "radost"
+      ],
+      "correct": "stydlivý"
+    },
+    {
+      "type": "fill_gap",
+      "sentence": "I feel ___ in front of new people.",
+      "answer": "shy",
+      "hint_cz": "stydlivý"
+    },
+    {
+      "type": "match_pairs",
+      "pairs": [
+        {
+          "target": "quiet",
+          "cz": "tichý"
+        },
+        {
+          "target": "blush",
+          "cz": "červenat se"
+        },
+        {
+          "target": "hide",
+          "cz": "schovat se"
+        },
+        {
+          "target": "new friend",
+          "cz": "nový kamarád"
+        }
+      ]
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I want to hide behind mom.",
+      "tts_text": "I want to hide behind mom."
+    }
+  ]
+}
