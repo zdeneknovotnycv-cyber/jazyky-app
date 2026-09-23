@@ -16,9 +16,34 @@ android {
         versionName = "0.1.0"
     }
 
+    // Podepisovani release verze (potrebne pro Google Play).
+    // Heslo a soubor keystore se NIKDY nedavaji primo do kodu/gitu -
+    // ctou se z environment promennych, ktere nastavi GitHub Actions
+    // (ze zabezpecenych "secrets") nebo si je clovek nastavi sam
+    // lokalne, kdyz chce release build udelat rucne v Android Studiu.
+    val releaseKeystorePath = System.getenv("RELEASE_KEYSTORE_PATH")
+    val releaseStorePassword = System.getenv("RELEASE_STORE_PASSWORD")
+    val releaseKeyAlias = System.getenv("RELEASE_KEY_ALIAS")
+    val releaseKeyPassword = System.getenv("RELEASE_KEY_PASSWORD")
+    val hasReleaseSigning = !releaseKeystorePath.isNullOrBlank()
+
+    signingConfigs {
+        if (hasReleaseSigning) {
+            create("release") {
+                storeFile = file(releaseKeystorePath!!)
+                storePassword = releaseStorePassword
+                keyAlias = releaseKeyAlias
+                keyPassword = releaseKeyPassword
+            }
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
+            if (hasReleaseSigning) {
+                signingConfig = signingConfigs.getByName("release")
+            }
         }
     }
 
