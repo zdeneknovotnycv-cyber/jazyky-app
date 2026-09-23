@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I make the bed after I get up.",
       "tts_text": "I make the bed after I get up."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wake up",
+      "tts_text": "wake up"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "alarm clock",
+      "tts_text": "alarm clock"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stretch",
+      "tts_text": "stretch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "get up",
+      "tts_text": "get up"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "yawn",
+      "tts_text": "yawn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sleepy",
+      "tts_text": "sleepy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "make the bed",
+      "tts_text": "make the bed"
     }
   ]
 }

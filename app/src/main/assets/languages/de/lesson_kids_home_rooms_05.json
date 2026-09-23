@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir schauen zusammen fern.",
       "tts_text": "Wir schauen zusammen fern."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Sofa",
+      "tts_text": "das Sofa"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fernseher",
+      "tts_text": "der Fernseher"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Fernbedienung",
+      "tts_text": "die Fernbedienung"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Zeichentrickfilm",
+      "tts_text": "der Zeichentrickfilm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Teppich",
+      "tts_text": "der Teppich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Vorhänge",
+      "tts_text": "die Vorhänge"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "einschalten",
+      "tts_text": "einschalten"
     }
   ]
 }

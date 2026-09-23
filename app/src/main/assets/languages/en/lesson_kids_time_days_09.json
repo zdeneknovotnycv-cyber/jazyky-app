@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "What's the date today?",
       "tts_text": "What's the date today?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "calendar",
+      "tts_text": "calendar"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "date",
+      "tts_text": "date"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "week",
+      "tts_text": "week"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "day off",
+      "tts_text": "day off"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "today's date",
+      "tts_text": "today's date"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "birthday",
+      "tts_text": "birthday"
     }
   ]
 }

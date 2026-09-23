@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "It is a magical story.",
       "tts_text": "It is a magical story."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "talking animal",
+      "tts_text": "talking animal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fox",
+      "tts_text": "fox"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wise",
+      "tts_text": "wise"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "adventure",
+      "tts_text": "adventure"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "friend",
+      "tts_text": "friend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "listen",
+      "tts_text": "listen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "magical",
+      "tts_text": "magical"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The monkey climbs trees.",
       "tts_text": "The monkey climbs trees."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lion",
+      "tts_text": "lion"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tiger",
+      "tts_text": "tiger"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "elephant",
+      "tts_text": "elephant"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bear",
+      "tts_text": "bear"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wolf",
+      "tts_text": "wolf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fox",
+      "tts_text": "fox"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "monkey",
+      "tts_text": "monkey"
     }
   ]
 }

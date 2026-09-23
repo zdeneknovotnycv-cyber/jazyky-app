@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I need to rest for a while.",
       "tts_text": "I need to rest for a while."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tired",
+      "tts_text": "tired"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "yawn",
+      "tts_text": "yawn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sleepy",
+      "tts_text": "sleepy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rest",
+      "tts_text": "rest"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "exhausted",
+      "tts_text": "exhausted"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nap",
+      "tts_text": "nap"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "energy",
+      "tts_text": "energy"
     }
   ]
 }

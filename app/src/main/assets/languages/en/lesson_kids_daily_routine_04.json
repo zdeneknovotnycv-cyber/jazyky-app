@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I eat a snack after school.",
       "tts_text": "I eat a snack after school."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "after school",
+      "tts_text": "after school"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swimming lesson",
+      "tts_text": "swimming lesson"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "music class",
+      "tts_text": "music class"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "club",
+      "tts_text": "club"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "friend",
+      "tts_text": "friend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tired",
+      "tts_text": "tired"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "snack",
+      "tts_text": "snack"
     }
   ]
 }

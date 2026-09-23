@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Setz deine Mütze auf.",
       "tts_text": "Setz deine Mütze auf."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Jacke",
+      "tts_text": "die Jacke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Mütze",
+      "tts_text": "die Mütze"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Handschuhe",
+      "tts_text": "die Handschuhe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Sonnenbrille",
+      "tts_text": "die Sonnenbrille"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die kurze Hose",
+      "tts_text": "die kurze Hose"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Regenmantel",
+      "tts_text": "der Regenmantel"
     }
   ]
 }

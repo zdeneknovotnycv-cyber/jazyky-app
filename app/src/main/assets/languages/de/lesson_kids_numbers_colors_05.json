@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Welche Form ist das?",
       "tts_text": "Welche Form ist das?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kreis",
+      "tts_text": "der Kreis"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Quadrat",
+      "tts_text": "das Quadrat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Dreieck",
+      "tts_text": "das Dreieck"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Rechteck",
+      "tts_text": "das Rechteck"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Stern",
+      "tts_text": "der Stern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Herz",
+      "tts_text": "das Herz"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Form",
+      "tts_text": "die Form"
     }
   ]
 }

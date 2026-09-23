@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich baue jeden Tag eine Sandburg.",
       "tts_text": "Ich baue jeden Tag eine Sandburg."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Meer",
+      "tts_text": "das Meer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Strand",
+      "tts_text": "der Strand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Sand",
+      "tts_text": "der Sand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Welle",
+      "tts_text": "die Welle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Muschel",
+      "tts_text": "die Muschel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schwimmen",
+      "tts_text": "schwimmen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Sandburg",
+      "tts_text": "die Sandburg"
     }
   ]
 }

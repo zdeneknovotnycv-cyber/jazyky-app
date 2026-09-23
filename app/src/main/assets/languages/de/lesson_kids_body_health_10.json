@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Klebe ein Pflaster auf die Wunde.",
       "tts_text": "Klebe ein Pflaster auf die Wunde."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Pflaster",
+      "tts_text": "das Pflaster"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schnittwunde",
+      "tts_text": "die Schnittwunde"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Verband",
+      "tts_text": "der Verband"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Eisbeutel",
+      "tts_text": "der Eisbeutel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Hilfe",
+      "tts_text": "die Hilfe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hinfallen",
+      "tts_text": "hinfallen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vorsichtig",
+      "tts_text": "vorsichtig"
     }
   ]
 }

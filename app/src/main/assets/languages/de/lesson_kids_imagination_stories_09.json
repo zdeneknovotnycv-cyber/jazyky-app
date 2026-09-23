@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich habe eine tolle Idee für eine Maschine.",
       "tts_text": "Ich habe eine tolle Idee für eine Maschine."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Maschine",
+      "tts_text": "die Maschine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "erfinden",
+      "tts_text": "erfinden"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Roboter",
+      "tts_text": "der Roboter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Knopf",
+      "tts_text": "der Knopf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Rad",
+      "tts_text": "das Rad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "erstaunlich",
+      "tts_text": "erstaunlich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Idee",
+      "tts_text": "die Idee"
     }
   ]
 }

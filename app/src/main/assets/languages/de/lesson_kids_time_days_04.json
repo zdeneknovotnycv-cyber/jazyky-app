@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Am Abend schauen wir fern.",
       "tts_text": "Am Abend schauen wir fern."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Morgen",
+      "tts_text": "der Morgen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Nachmittag",
+      "tts_text": "der Nachmittag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Abend",
+      "tts_text": "der Abend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Nacht",
+      "tts_text": "die Nacht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Guten Morgen!",
+      "tts_text": "Guten Morgen!"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Gute Nacht!",
+      "tts_text": "Gute Nacht!"
     }
   ]
 }

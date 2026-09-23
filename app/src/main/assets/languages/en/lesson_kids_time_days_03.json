@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "It's half past four.",
       "tts_text": "It's half past four."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "What time is it?",
+      "tts_text": "What time is it?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "o'clock",
+      "tts_text": "o'clock"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "half past",
+      "tts_text": "half past"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "quarter past",
+      "tts_text": "quarter past"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "quarter to",
+      "tts_text": "quarter to"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "minute",
+      "tts_text": "minute"
     }
   ]
 }

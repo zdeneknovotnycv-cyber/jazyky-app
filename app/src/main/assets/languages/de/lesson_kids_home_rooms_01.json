@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir kochen in der Küche.",
       "tts_text": "Wir kochen in der Küche."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Küche",
+      "tts_text": "die Küche"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schlafzimmer",
+      "tts_text": "das Schlafzimmer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Badezimmer",
+      "tts_text": "das Badezimmer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Wohnzimmer",
+      "tts_text": "das Wohnzimmer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Flur",
+      "tts_text": "der Flur"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Garage",
+      "tts_text": "die Garage"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Treppe",
+      "tts_text": "die Treppe"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Alles beginnt zu funkeln.",
       "tts_text": "Alles beginnt zu funkeln."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wald",
+      "tts_text": "der Wald"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Magie",
+      "tts_text": "die Magie"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Fee",
+      "tts_text": "die Fee"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Pfad",
+      "tts_text": "der Pfad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Baum",
+      "tts_text": "der Baum"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Geheimnis",
+      "tts_text": "das Geheimnis"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "funkeln",
+      "tts_text": "funkeln"
     }
   ]
 }

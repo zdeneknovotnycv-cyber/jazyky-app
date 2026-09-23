@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I love my pet very much.",
       "tts_text": "I love my pet very much."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "feed",
+      "tts_text": "feed"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "water bowl",
+      "tts_text": "water bowl"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "walk",
+      "tts_text": "walk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brush",
+      "tts_text": "brush"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vet",
+      "tts_text": "vet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "clean",
+      "tts_text": "clean"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "love",
+      "tts_text": "love"
     }
   ]
 }

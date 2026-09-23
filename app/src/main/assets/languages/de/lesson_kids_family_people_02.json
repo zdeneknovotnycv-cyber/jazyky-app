@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Meine Großmutter backt Kekse.",
       "tts_text": "Meine Großmutter backt Kekse."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Großmutter",
+      "tts_text": "die Großmutter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Großvater",
+      "tts_text": "der Großvater"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Cousin / die Cousine",
+      "tts_text": "der Cousin / die Cousine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Tante",
+      "tts_text": "die Tante"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Onkel",
+      "tts_text": "der Onkel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Großeltern",
+      "tts_text": "die Großeltern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Verwandten",
+      "tts_text": "die Verwandten"
     }
   ]
 }

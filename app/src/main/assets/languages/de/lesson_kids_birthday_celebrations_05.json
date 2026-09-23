@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Im Herbst wird es früh dunkel.",
       "tts_text": "Im Herbst wird es früh dunkel."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Halloween",
+      "tts_text": "Halloween"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Kostüm",
+      "tts_text": "das Kostüm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kürbis",
+      "tts_text": "der Kürbis"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Gespenst",
+      "tts_text": "das Gespenst"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Süßigkeit",
+      "tts_text": "die Süßigkeit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Süßes oder Saures",
+      "tts_text": "Süßes oder Saures"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dunkel",
+      "tts_text": "dunkel"
     }
   ]
 }

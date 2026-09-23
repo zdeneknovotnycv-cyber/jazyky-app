@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Löwe brüllt im Dschungel.",
       "tts_text": "Der Löwe brüllt im Dschungel."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bellen",
+      "tts_text": "bellen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "miauen",
+      "tts_text": "miauen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "muhen",
+      "tts_text": "muhen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brüllen",
+      "tts_text": "brüllen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "quaken",
+      "tts_text": "quaken"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zwitschern",
+      "tts_text": "zwitschern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wiehern",
+      "tts_text": "wiehern"
     }
   ]
 }

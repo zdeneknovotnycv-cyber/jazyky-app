@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich trinke Wasser, wenn ich Durst habe.",
       "tts_text": "Ich trinke Wasser, wenn ich Durst habe."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Wasser",
+      "tts_text": "das Wasser"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Saft",
+      "tts_text": "der Saft"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Milch",
+      "tts_text": "die Milch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Tee",
+      "tts_text": "der Tee"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Limonade",
+      "tts_text": "die Limonade"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "durstig",
+      "tts_text": "durstig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Tasse",
+      "tts_text": "die Tasse"
     }
   ]
 }

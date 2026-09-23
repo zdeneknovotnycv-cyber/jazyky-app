@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "My doll has long hair.",
       "tts_text": "My doll has long hair."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "doll",
+      "tts_text": "doll"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "action figure",
+      "tts_text": "action figure"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "superhero",
+      "tts_text": "superhero"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dollhouse",
+      "tts_text": "dollhouse"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dress up",
+      "tts_text": "dress up"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hero",
+      "tts_text": "hero"
     }
   ]
 }

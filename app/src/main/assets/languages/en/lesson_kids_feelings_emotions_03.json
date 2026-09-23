@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "You were very brave at the doctor.",
       "tts_text": "You were very brave at the doctor."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "scared",
+      "tts_text": "scared"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brave",
+      "tts_text": "brave"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "afraid",
+      "tts_text": "afraid"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "monster",
+      "tts_text": "monster"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "safe",
+      "tts_text": "safe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "courage",
+      "tts_text": "courage"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shaking",
+      "tts_text": "shaking"
     }
   ]
 }

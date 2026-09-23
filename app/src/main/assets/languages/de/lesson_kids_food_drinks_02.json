@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir essen in der Schule zu Mittag.",
       "tts_text": "Wir essen in der Schule zu Mittag."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Mittagessen",
+      "tts_text": "das Mittagessen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Suppe",
+      "tts_text": "die Suppe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Sandwich",
+      "tts_text": "das Sandwich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Reis",
+      "tts_text": "der Reis"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Hähnchen",
+      "tts_text": "das Hähnchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Salat",
+      "tts_text": "der Salat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Nudeln",
+      "tts_text": "die Nudeln"
     }
   ]
 }

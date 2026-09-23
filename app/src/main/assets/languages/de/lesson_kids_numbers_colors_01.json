@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Eine Woche hat sieben Tage.",
       "tts_text": "Eine Woche hat sieben Tage."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "eins",
+      "tts_text": "eins"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zwei",
+      "tts_text": "zwei"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "drei",
+      "tts_text": "drei"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fünf",
+      "tts_text": "fünf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sieben",
+      "tts_text": "sieben"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "neun",
+      "tts_text": "neun"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zehn",
+      "tts_text": "zehn"
     }
   ]
 }

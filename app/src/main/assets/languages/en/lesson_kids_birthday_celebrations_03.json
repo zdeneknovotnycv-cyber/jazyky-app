@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I get a chocolate egg.",
       "tts_text": "I get a chocolate egg."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Easter",
+      "tts_text": "Easter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "egg",
+      "tts_text": "egg"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bunny",
+      "tts_text": "bunny"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "basket",
+      "tts_text": "basket"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "spring",
+      "tts_text": "spring"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "flower",
+      "tts_text": "flower"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "chocolate",
+      "tts_text": "chocolate"
     }
   ]
 }

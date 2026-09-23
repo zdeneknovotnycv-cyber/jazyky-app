@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We play in the park.",
       "tts_text": "We play in the park."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "park",
+      "tts_text": "park"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bench",
+      "tts_text": "bench"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swing",
+      "tts_text": "swing"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grass",
+      "tts_text": "grass"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "duck",
+      "tts_text": "duck"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "path",
+      "tts_text": "path"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "picnic",
+      "tts_text": "picnic"
     }
   ]
 }

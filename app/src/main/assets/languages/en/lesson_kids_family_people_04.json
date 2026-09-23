@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "She is my best friend.",
       "tts_text": "She is my best friend."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "friend",
+      "tts_text": "friend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "best friend",
+      "tts_text": "best friend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "play together",
+      "tts_text": "play together"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "share",
+      "tts_text": "share"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "kind",
+      "tts_text": "kind"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "classmate",
+      "tts_text": "classmate"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "smile",
+      "tts_text": "smile"
     }
   ]
 }

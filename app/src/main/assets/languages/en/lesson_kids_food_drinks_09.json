@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I like to cook with mom.",
       "tts_text": "I like to cook with mom."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cook",
+      "tts_text": "cook"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "recipe",
+      "tts_text": "recipe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mix",
+      "tts_text": "mix"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bake",
+      "tts_text": "bake"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "oven",
+      "tts_text": "oven"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stir",
+      "tts_text": "stir"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "taste",
+      "tts_text": "taste"
     }
   ]
 }

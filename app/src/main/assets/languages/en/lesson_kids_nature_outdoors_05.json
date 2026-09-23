@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We hike every summer.",
       "tts_text": "We hike every summer."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mountain",
+      "tts_text": "mountain"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hill",
+      "tts_text": "hill"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "peak",
+      "tts_text": "peak"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "path",
+      "tts_text": "path"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hike",
+      "tts_text": "hike"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "view",
+      "tts_text": "view"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rock",
+      "tts_text": "rock"
     }
   ]
 }

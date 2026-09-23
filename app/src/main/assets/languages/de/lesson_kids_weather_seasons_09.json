@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Heute ist es sehr heiß.",
       "tts_text": "Heute ist es sehr heiß."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "heiß",
+      "tts_text": "heiß"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "kalt",
+      "tts_text": "kalt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "warm",
+      "tts_text": "warm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "kühl",
+      "tts_text": "kühl"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "eiskalt",
+      "tts_text": "eiskalt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Thermometer",
+      "tts_text": "das Thermometer"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I ride my bicycle every day.",
       "tts_text": "I ride my bicycle every day."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bicycle",
+      "tts_text": "bicycle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "helmet",
+      "tts_text": "helmet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pedal",
+      "tts_text": "pedal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "handlebar",
+      "tts_text": "handlebar"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bell",
+      "tts_text": "bell"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bike path",
+      "tts_text": "bike path"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fall down",
+      "tts_text": "fall down"
     }
   ]
 }

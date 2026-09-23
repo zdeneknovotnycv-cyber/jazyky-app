@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We sit around the campfire.",
       "tts_text": "We sit around the campfire."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tent",
+      "tts_text": "tent"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "campfire",
+      "tts_text": "campfire"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sleeping bag",
+      "tts_text": "sleeping bag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "flashlight",
+      "tts_text": "flashlight"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "backpack",
+      "tts_text": "backpack"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "marshmallow",
+      "tts_text": "marshmallow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stars",
+      "tts_text": "stars"
     }
   ]
 }

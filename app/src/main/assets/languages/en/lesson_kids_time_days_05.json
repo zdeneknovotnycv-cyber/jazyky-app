@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Today is a sunny day.",
       "tts_text": "Today is a sunny day."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "yesterday",
+      "tts_text": "yesterday"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "today",
+      "tts_text": "today"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tomorrow",
+      "tts_text": "tomorrow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "now",
+      "tts_text": "now"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "the day after tomorrow",
+      "tts_text": "the day after tomorrow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "the day before yesterday",
+      "tts_text": "the day before yesterday"
     }
   ]
 }

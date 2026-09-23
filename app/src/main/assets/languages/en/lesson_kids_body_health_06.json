@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Fruit is healthy food.",
       "tts_text": "Fruit is healthy food."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "healthy food",
+      "tts_text": "healthy food"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "junk food",
+      "tts_text": "junk food"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vegetables",
+      "tts_text": "vegetables"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sugar",
+      "tts_text": "sugar"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "candy",
+      "tts_text": "candy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "water",
+      "tts_text": "water"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "balanced diet",
+      "tts_text": "balanced diet"
     }
   ]
 }

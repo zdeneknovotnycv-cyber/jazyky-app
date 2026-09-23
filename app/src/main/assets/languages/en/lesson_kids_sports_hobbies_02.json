@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "I can swim well.",
       "tts_text": "I can swim well."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swim",
+      "tts_text": "swim"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swimming pool",
+      "tts_text": "swimming pool"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "water",
+      "tts_text": "water"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dive",
+      "tts_text": "dive"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "float",
+      "tts_text": "float"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swimming lessons",
+      "tts_text": "swimming lessons"
     }
   ]
 }

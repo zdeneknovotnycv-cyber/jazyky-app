@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The nurse is very kind.",
       "tts_text": "The nurse is very kind."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hospital",
+      "tts_text": "hospital"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "doctor",
+      "tts_text": "doctor"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nurse",
+      "tts_text": "nurse"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bed",
+      "tts_text": "bed"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ambulance",
+      "tts_text": "ambulance"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bandage",
+      "tts_text": "bandage"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "get better",
+      "tts_text": "get better"
     }
   ]
 }

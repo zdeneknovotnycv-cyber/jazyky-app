@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich schlafe acht Stunden.",
       "tts_text": "Ich schlafe acht Stunden."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schlafen",
+      "tts_text": "schlafen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Bett",
+      "tts_text": "das Bett"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schlafanzug",
+      "tts_text": "der Schlafanzug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gute Nacht",
+      "tts_text": "gute Nacht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Traum",
+      "tts_text": "der Traum"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Teddybär",
+      "tts_text": "der Teddybär"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Gutenachtgeschichte",
+      "tts_text": "die Gutenachtgeschichte"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The butterfly is colorful.",
       "tts_text": "The butterfly is colorful."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "insect",
+      "tts_text": "insect"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bee",
+      "tts_text": "bee"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "butterfly",
+      "tts_text": "butterfly"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ant",
+      "tts_text": "ant"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "spider",
+      "tts_text": "spider"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ladybug",
+      "tts_text": "ladybug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fly",
+      "tts_text": "fly"
     }
   ]
 }

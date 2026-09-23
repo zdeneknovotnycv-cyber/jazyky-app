@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich lecke langsam an meinem Eis.",
       "tts_text": "Ich lecke langsam an meinem Eis."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Eisladen",
+      "tts_text": "der Eisladen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kugel",
+      "tts_text": "die Kugel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Geschmacksrichtung",
+      "tts_text": "die Geschmacksrichtung"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Waffel",
+      "tts_text": "die Waffel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Vanille",
+      "tts_text": "die Vanille"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schmelzen",
+      "tts_text": "schmelzen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lecken",
+      "tts_text": "lecken"
     }
   ]
 }

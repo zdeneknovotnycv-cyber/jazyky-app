@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich schaue in den Spiegel.",
       "tts_text": "Ich schaue in den Spiegel."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich anziehen",
+      "tts_text": "sich anziehen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "anziehen",
+      "tts_text": "anziehen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ausziehen",
+      "tts_text": "ausziehen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Knopf",
+      "tts_text": "der Knopf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Reißverschluss",
+      "tts_text": "der Reißverschluss"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Spiegel",
+      "tts_text": "der Spiegel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fertig",
+      "tts_text": "fertig"
     }
   ]
 }

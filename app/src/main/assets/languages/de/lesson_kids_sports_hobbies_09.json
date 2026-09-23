@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Unser Trainer ist sehr nett.",
       "tts_text": "Unser Trainer ist sehr nett."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Mannschaftssportart",
+      "tts_text": "die Mannschaftssportart"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Mitspieler",
+      "tts_text": "der Mitspieler"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Trainer",
+      "tts_text": "der Trainer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Training",
+      "tts_text": "das Training"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "anfeuern",
+      "tts_text": "anfeuern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Spiel",
+      "tts_text": "das Spiel"
     }
   ]
 }

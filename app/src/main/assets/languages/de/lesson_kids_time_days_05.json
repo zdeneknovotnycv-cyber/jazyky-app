@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Heute ist ein sonniger Tag.",
       "tts_text": "Heute ist ein sonniger Tag."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gestern",
+      "tts_text": "gestern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "heute",
+      "tts_text": "heute"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "morgen",
+      "tts_text": "morgen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "jetzt",
+      "tts_text": "jetzt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "übermorgen",
+      "tts_text": "übermorgen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vorgestern",
+      "tts_text": "vorgestern"
     }
   ]
 }

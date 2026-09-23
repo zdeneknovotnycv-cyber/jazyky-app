@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "My mission starts now.",
       "tts_text": "My mission starts now."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "superhero",
+      "tts_text": "superhero"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cape",
+      "tts_text": "cape"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "power",
+      "tts_text": "power"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "save",
+      "tts_text": "save"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fly",
+      "tts_text": "fly"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brave",
+      "tts_text": "brave"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mission",
+      "tts_text": "mission"
     }
   ]
 }

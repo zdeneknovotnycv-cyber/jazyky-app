@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I carry the shopping bag.",
       "tts_text": "I carry the shopping bag."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "checkout",
+      "tts_text": "checkout"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pay",
+      "tts_text": "pay"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "receipt",
+      "tts_text": "receipt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "change",
+      "tts_text": "change"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "card",
+      "tts_text": "card"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cash",
+      "tts_text": "cash"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bag",
+      "tts_text": "bag"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich mache mein Bett nach dem Aufstehen.",
       "tts_text": "Ich mache mein Bett nach dem Aufstehen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "aufwachen",
+      "tts_text": "aufwachen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wecker",
+      "tts_text": "der Wecker"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich strecken",
+      "tts_text": "sich strecken"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "aufstehen",
+      "tts_text": "aufstehen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gähnen",
+      "tts_text": "gähnen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "müde",
+      "tts_text": "müde"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Bett machen",
+      "tts_text": "das Bett machen"
     }
   ]
 }

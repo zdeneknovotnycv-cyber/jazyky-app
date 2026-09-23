@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I sleep all night long.",
       "tts_text": "I sleep all night long."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bedtime",
+      "tts_text": "bedtime"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pajamas",
+      "tts_text": "pajamas"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brush teeth",
+      "tts_text": "brush teeth"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "story",
+      "tts_text": "story"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "good night",
+      "tts_text": "good night"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "blanket",
+      "tts_text": "blanket"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sleep",
+      "tts_text": "sleep"
     }
   ]
 }

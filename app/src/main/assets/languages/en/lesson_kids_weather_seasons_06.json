@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Put on your hat.",
       "tts_text": "Put on your hat."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "jacket",
+      "tts_text": "jacket"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hat",
+      "tts_text": "hat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gloves",
+      "tts_text": "gloves"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sunglasses",
+      "tts_text": "sunglasses"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shorts",
+      "tts_text": "shorts"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "raincoat",
+      "tts_text": "raincoat"
     }
   ]
 }

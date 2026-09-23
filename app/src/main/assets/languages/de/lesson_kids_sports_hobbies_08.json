@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Ich laufe gern im Park.",
       "tts_text": "Ich laufe gern im Park."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "laufen",
+      "tts_text": "laufen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "draußen",
+      "tts_text": "draußen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "springen",
+      "tts_text": "springen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schnell",
+      "tts_text": "schnell"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die frische Luft",
+      "tts_text": "die frische Luft"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Energie",
+      "tts_text": "die Energie"
     }
   ]
 }

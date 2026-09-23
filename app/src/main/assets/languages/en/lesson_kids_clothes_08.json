@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The rain is falling.",
       "tts_text": "The rain is falling."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "raincoat",
+      "tts_text": "raincoat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "umbrella",
+      "tts_text": "umbrella"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rain boots",
+      "tts_text": "rain boots"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "puddle",
+      "tts_text": "puddle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wet",
+      "tts_text": "wet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hood",
+      "tts_text": "hood"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rain",
+      "tts_text": "rain"
     }
   ]
 }

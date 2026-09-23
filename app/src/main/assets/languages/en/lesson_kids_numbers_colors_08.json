@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The result is six.",
       "tts_text": "The result is six."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "plus",
+      "tts_text": "plus"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "equals",
+      "tts_text": "equals"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "add",
+      "tts_text": "add"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "total",
+      "tts_text": "total"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "number",
+      "tts_text": "number"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "together",
+      "tts_text": "together"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "result",
+      "tts_text": "result"
     }
   ]
 }

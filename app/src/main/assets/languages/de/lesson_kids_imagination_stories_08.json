@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Es ist eine magische Geschichte.",
       "tts_text": "Es ist eine magische Geschichte."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das sprechende Tier",
+      "tts_text": "das sprechende Tier"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fuchs",
+      "tts_text": "der Fuchs"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "weise",
+      "tts_text": "weise"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Abenteuer",
+      "tts_text": "das Abenteuer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Freund",
+      "tts_text": "der Freund"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zuhören",
+      "tts_text": "zuhören"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "magisch",
+      "tts_text": "magisch"
     }
   ]
 }

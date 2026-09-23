@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I feel restless when I am bored.",
       "tts_text": "I feel restless when I am bored."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bored",
+      "tts_text": "bored"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "boring",
+      "tts_text": "boring"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nothing to do",
+      "tts_text": "nothing to do"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "idea",
+      "tts_text": "idea"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "play a game",
+      "tts_text": "play a game"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "restless",
+      "tts_text": "restless"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "draw",
+      "tts_text": "draw"
     }
   ]
 }

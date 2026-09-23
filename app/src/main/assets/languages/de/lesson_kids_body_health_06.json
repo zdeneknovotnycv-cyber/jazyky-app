@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Obst ist gesundes Essen.",
       "tts_text": "Obst ist gesundes Essen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gesundes Essen",
+      "tts_text": "gesundes Essen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ungesundes Essen",
+      "tts_text": "ungesundes Essen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Gemüse",
+      "tts_text": "das Gemüse"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Zucker",
+      "tts_text": "der Zucker"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Bonbon",
+      "tts_text": "das Bonbon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Wasser",
+      "tts_text": "das Wasser"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die ausgewogene Ernährung",
+      "tts_text": "die ausgewogene Ernährung"
     }
   ]
 }

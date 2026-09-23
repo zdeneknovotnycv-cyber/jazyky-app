@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The captain steers the ship.",
       "tts_text": "The captain steers the ship."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "boat",
+      "tts_text": "boat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ship",
+      "tts_text": "ship"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sail",
+      "tts_text": "sail"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "captain",
+      "tts_text": "captain"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "harbor",
+      "tts_text": "harbor"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "float",
+      "tts_text": "float"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "life jacket",
+      "tts_text": "life jacket"
     }
   ]
 }

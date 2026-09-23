@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich frühstücke um sieben Uhr.",
       "tts_text": "Ich frühstücke um sieben Uhr."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Frühstück",
+      "tts_text": "das Frühstück"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Brot",
+      "tts_text": "das Brot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Ei",
+      "tts_text": "das Ei"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Milch",
+      "tts_text": "die Milch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Cornflakes",
+      "tts_text": "die Cornflakes"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Marmelade",
+      "tts_text": "die Marmelade"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Butter",
+      "tts_text": "die Butter"
     }
   ]
 }

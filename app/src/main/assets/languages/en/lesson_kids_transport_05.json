@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The pilot flies the airplane.",
       "tts_text": "The pilot flies the airplane."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "airplane",
+      "tts_text": "airplane"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "airport",
+      "tts_text": "airport"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pilot",
+      "tts_text": "pilot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wing",
+      "tts_text": "wing"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "suitcase",
+      "tts_text": "suitcase"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "take off",
+      "tts_text": "take off"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "land",
+      "tts_text": "land"
     }
   ]
 }

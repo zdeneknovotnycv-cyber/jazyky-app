@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir tanzen zu fröhlicher Musik.",
       "tts_text": "Wir tanzen zu fröhlicher Musik."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Spiel",
+      "tts_text": "das Spiel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Gewinner",
+      "tts_text": "der Gewinner"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Verstecken spielen",
+      "tts_text": "Verstecken spielen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Preis",
+      "tts_text": "der Preis"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Team",
+      "tts_text": "das Team"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lachen",
+      "tts_text": "lachen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Musik",
+      "tts_text": "die Musik"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Es hilft, darüber zu sprechen.",
       "tts_text": "Es hilft, darüber zu sprechen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fühlen",
+      "tts_text": "fühlen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "darüber sprechen",
+      "tts_text": "darüber sprechen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zuhören",
+      "tts_text": "zuhören"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "verstehen",
+      "tts_text": "verstehen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ehrlich",
+      "tts_text": "ehrlich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "trösten",
+      "tts_text": "trösten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "besser",
+      "tts_text": "besser"
     }
   ]
 }

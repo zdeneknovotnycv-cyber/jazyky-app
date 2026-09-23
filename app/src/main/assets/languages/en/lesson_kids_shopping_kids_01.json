@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The cashier gives me the receipt.",
       "tts_text": "The cashier gives me the receipt."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "toy store",
+      "tts_text": "toy store"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shelf",
+      "tts_text": "shelf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "doll",
+      "tts_text": "doll"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "puzzle",
+      "tts_text": "puzzle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "expensive",
+      "tts_text": "expensive"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "choose",
+      "tts_text": "choose"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cashier",
+      "tts_text": "cashier"
     }
   ]
 }

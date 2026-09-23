@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We give grandma a big hug.",
       "tts_text": "We give grandma a big hug."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "celebration",
+      "tts_text": "celebration"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "anniversary",
+      "tts_text": "anniversary"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grandparents",
+      "tts_text": "grandparents"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "toast",
+      "tts_text": "toast"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gather",
+      "tts_text": "gather"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "special day",
+      "tts_text": "special day"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hug",
+      "tts_text": "hug"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Diese Blume riecht so schön.",
       "tts_text": "Diese Blume riecht so schön."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Blume",
+      "tts_text": "die Blume"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Pflanze",
+      "tts_text": "die Pflanze"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Blütenblatt",
+      "tts_text": "das Blütenblatt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Samen",
+      "tts_text": "der Samen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wachsen",
+      "tts_text": "wachsen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Biene",
+      "tts_text": "die Biene"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Garten",
+      "tts_text": "der Garten"
     }
   ]
 }

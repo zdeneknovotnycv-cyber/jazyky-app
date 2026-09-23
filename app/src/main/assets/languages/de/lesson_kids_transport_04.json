@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich fahre jeden Tag mit meinem Fahrrad.",
       "tts_text": "Ich fahre jeden Tag mit meinem Fahrrad."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Fahrrad",
+      "tts_text": "das Fahrrad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Helm",
+      "tts_text": "der Helm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Pedal",
+      "tts_text": "das Pedal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Lenker",
+      "tts_text": "der Lenker"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Klingel",
+      "tts_text": "die Klingel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Radweg",
+      "tts_text": "der Radweg"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hinfallen",
+      "tts_text": "hinfallen"
     }
   ]
 }

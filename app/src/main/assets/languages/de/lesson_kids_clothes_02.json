@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Draußen ist es sehr kalt.",
       "tts_text": "Draußen ist es sehr kalt."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Mantel",
+      "tts_text": "der Mantel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schal",
+      "tts_text": "der Schal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Handschuhe",
+      "tts_text": "die Handschuhe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Mütze",
+      "tts_text": "die Mütze"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Stiefel",
+      "tts_text": "die Stiefel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schneeanzug",
+      "tts_text": "der Schneeanzug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "kalt",
+      "tts_text": "kalt"
     }
   ]
 }

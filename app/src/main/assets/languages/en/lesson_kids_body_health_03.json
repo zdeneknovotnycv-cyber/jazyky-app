@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I feel sick today.",
       "tts_text": "I feel sick today."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sick",
+      "tts_text": "sick"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fever",
+      "tts_text": "fever"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "headache",
+      "tts_text": "headache"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cough",
+      "tts_text": "cough"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stomachache",
+      "tts_text": "stomachache"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tired",
+      "tts_text": "tired"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rest",
+      "tts_text": "rest"
     }
   ]
 }

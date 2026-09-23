@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I lick my ice cream slowly.",
       "tts_text": "I lick my ice cream slowly."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ice cream shop",
+      "tts_text": "ice cream shop"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "scoop",
+      "tts_text": "scoop"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "flavor",
+      "tts_text": "flavor"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cone",
+      "tts_text": "cone"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vanilla",
+      "tts_text": "vanilla"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "melt",
+      "tts_text": "melt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lick",
+      "tts_text": "lick"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir wohnen in einer Wohnung.",
       "tts_text": "Wir wohnen in einer Wohnung."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Wohnung",
+      "tts_text": "die Wohnung"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Haus",
+      "tts_text": "das Haus"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Stock",
+      "tts_text": "der Stock"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Aufzug",
+      "tts_text": "der Aufzug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Balkon",
+      "tts_text": "der Balkon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Hof / Garten",
+      "tts_text": "der Hof / Garten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Treppe",
+      "tts_text": "die Treppe"
     }
   ]
 }

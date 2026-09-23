@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I try on new shoes.",
       "tts_text": "I try on new shoes."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shoes",
+      "tts_text": "shoes"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sneakers",
+      "tts_text": "sneakers"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "slippers",
+      "tts_text": "slippers"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "laces",
+      "tts_text": "laces"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "size",
+      "tts_text": "size"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rain boots",
+      "tts_text": "rain boots"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "try on",
+      "tts_text": "try on"
     }
   ]
 }

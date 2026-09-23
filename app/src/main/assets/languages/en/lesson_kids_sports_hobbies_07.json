@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "I am reading a new book.",
       "tts_text": "I am reading a new book."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "book",
+      "tts_text": "book"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "story",
+      "tts_text": "story"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "page",
+      "tts_text": "page"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "read",
+      "tts_text": "read"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "library",
+      "tts_text": "library"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "character",
+      "tts_text": "character"
     }
   ]
 }

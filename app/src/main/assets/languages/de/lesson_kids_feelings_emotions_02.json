@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Er ist wütend wegen des kaputten Spielzeugs.",
       "tts_text": "Er ist wütend wegen des kaputten Spielzeugs."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wütend",
+      "tts_text": "wütend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ruhig",
+      "tts_text": "ruhig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schreien",
+      "tts_text": "schreien"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der tiefe Atemzug",
+      "tts_text": "der tiefe Atemzug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "frustriert",
+      "tts_text": "frustriert"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich beruhigen",
+      "tts_text": "sich beruhigen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "geduldig",
+      "tts_text": "geduldig"
     }
   ]
 }

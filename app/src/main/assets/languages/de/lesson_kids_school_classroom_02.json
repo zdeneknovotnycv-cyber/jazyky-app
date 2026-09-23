@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Was ist dein Lieblingsfach?",
       "tts_text": "Was ist dein Lieblingsfach?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Mathe",
+      "tts_text": "Mathe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Englisch",
+      "tts_text": "Englisch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Kunst",
+      "tts_text": "Kunst"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Musik",
+      "tts_text": "Musik"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sachkunde",
+      "tts_text": "Sachkunde"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sport",
+      "tts_text": "Sport"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Lieblingsfach",
+      "tts_text": "das Lieblingsfach"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "My grandmother bakes cookies.",
       "tts_text": "My grandmother bakes cookies."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grandmother",
+      "tts_text": "grandmother"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grandfather",
+      "tts_text": "grandfather"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cousin",
+      "tts_text": "cousin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "aunt",
+      "tts_text": "aunt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "uncle",
+      "tts_text": "uncle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grandparents",
+      "tts_text": "grandparents"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "relatives",
+      "tts_text": "relatives"
     }
   ]
 }

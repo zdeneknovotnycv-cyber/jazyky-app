@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich kann den Ausflug kaum erwarten.",
       "tts_text": "Ich kann den Ausflug kaum erwarten."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "aufgeregt",
+      "tts_text": "aufgeregt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "es kaum erwarten können",
+      "tts_text": "es kaum erwarten können"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vor Freude springen",
+      "tts_text": "vor Freude springen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Überraschungsparty",
+      "tts_text": "die Überraschungsparty"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "begeistert",
+      "tts_text": "begeistert"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Energie",
+      "tts_text": "die Energie"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Spaß",
+      "tts_text": "der Spaß"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Zahnarzt untersucht meine Zähne.",
       "tts_text": "Der Zahnarzt untersucht meine Zähne."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Zahnarzt",
+      "tts_text": "der Zahnarzt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Zahn",
+      "tts_text": "der Zahn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Zahnbürste",
+      "tts_text": "die Zahnbürste"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Zahnpasta",
+      "tts_text": "die Zahnpasta"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Loch im Zahn",
+      "tts_text": "das Loch im Zahn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "den Mund weit öffnen",
+      "tts_text": "den Mund weit öffnen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mutig",
+      "tts_text": "mutig"
     }
   ]
 }

@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "What's the weather like today?",
       "tts_text": "What's the weather like today?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "What's the weather like?",
+      "tts_text": "What's the weather like?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It's nice outside.",
+      "tts_text": "It's nice outside."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It's raining.",
+      "tts_text": "It's raining."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "It's snowing.",
+      "tts_text": "It's snowing."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sky",
+      "tts_text": "sky"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "weather",
+      "tts_text": "weather"
     }
   ]
 }

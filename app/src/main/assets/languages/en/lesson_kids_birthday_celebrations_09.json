@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We dance to fun music.",
       "tts_text": "We dance to fun music."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "game",
+      "tts_text": "game"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "winner",
+      "tts_text": "winner"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hide and seek",
+      "tts_text": "hide and seek"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "prize",
+      "tts_text": "prize"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "team",
+      "tts_text": "team"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "laugh",
+      "tts_text": "laugh"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "music",
+      "tts_text": "music"
     }
   ]
 }

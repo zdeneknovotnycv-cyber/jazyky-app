@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I feel happy on my birthday.",
       "tts_text": "I feel happy on my birthday."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "birthday",
+      "tts_text": "birthday"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "party",
+      "tts_text": "party"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "balloon",
+      "tts_text": "balloon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "guest",
+      "tts_text": "guest"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "decoration",
+      "tts_text": "decoration"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "celebrate",
+      "tts_text": "celebrate"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "happy",
+      "tts_text": "happy"
     }
   ]
 }

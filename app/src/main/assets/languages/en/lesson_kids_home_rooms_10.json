@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We live in an apartment.",
       "tts_text": "We live in an apartment."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "apartment",
+      "tts_text": "apartment"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "house",
+      "tts_text": "house"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "floor",
+      "tts_text": "floor"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "elevator",
+      "tts_text": "elevator"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "balcony",
+      "tts_text": "balcony"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "yard",
+      "tts_text": "yard"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stairs",
+      "tts_text": "stairs"
     }
   ]
 }

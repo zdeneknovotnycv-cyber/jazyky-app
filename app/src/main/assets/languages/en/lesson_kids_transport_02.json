@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I wait at the bus stop.",
       "tts_text": "I wait at the bus stop."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bus",
+      "tts_text": "bus"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bus stop",
+      "tts_text": "bus stop"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ticket",
+      "tts_text": "ticket"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "driver",
+      "tts_text": "driver"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "seat",
+      "tts_text": "seat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "get on",
+      "tts_text": "get on"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "get off",
+      "tts_text": "get off"
     }
   ]
 }

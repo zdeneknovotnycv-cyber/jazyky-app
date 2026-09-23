@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Always stop and look.",
       "tts_text": "Always stop and look."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "traffic light",
+      "tts_text": "traffic light"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "red",
+      "tts_text": "red"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "green",
+      "tts_text": "green"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stop",
+      "tts_text": "stop"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "danger",
+      "tts_text": "danger"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "careful",
+      "tts_text": "careful"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hold hands",
+      "tts_text": "hold hands"
     }
   ]
 }

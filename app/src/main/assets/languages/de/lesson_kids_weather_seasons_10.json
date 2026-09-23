@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Wie ist das Wetter heute?",
       "tts_text": "Wie ist das Wetter heute?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wie ist das Wetter?",
+      "tts_text": "Wie ist das Wetter?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Es ist schön draußen.",
+      "tts_text": "Es ist schön draußen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Es regnet.",
+      "tts_text": "Es regnet."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Es schneit.",
+      "tts_text": "Es schneit."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Himmel",
+      "tts_text": "der Himmel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Wetter",
+      "tts_text": "das Wetter"
     }
   ]
 }

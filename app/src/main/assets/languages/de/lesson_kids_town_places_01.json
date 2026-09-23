@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir spielen im Park.",
       "tts_text": "Wir spielen im Park."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Park",
+      "tts_text": "der Park"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Bank",
+      "tts_text": "die Bank"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schaukel",
+      "tts_text": "die Schaukel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Gras",
+      "tts_text": "das Gras"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Ente",
+      "tts_text": "die Ente"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Weg",
+      "tts_text": "der Weg"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Picknick",
+      "tts_text": "das Picknick"
     }
   ]
 }

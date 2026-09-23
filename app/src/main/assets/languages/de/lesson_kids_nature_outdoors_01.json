@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir gehen im Wald spazieren.",
       "tts_text": "Wir gehen im Wald spazieren."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Baum",
+      "tts_text": "der Baum"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wald",
+      "tts_text": "der Wald"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Blatt",
+      "tts_text": "das Blatt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Ast",
+      "tts_text": "der Ast"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Wurzeln",
+      "tts_text": "die Wurzeln"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Eichhörnchen",
+      "tts_text": "das Eichhörnchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schatten",
+      "tts_text": "der Schatten"
     }
   ]
 }

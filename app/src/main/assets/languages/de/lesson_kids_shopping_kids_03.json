@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Mama hat eine Einkaufsliste.",
       "tts_text": "Mama hat eine Einkaufsliste."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schulsachen",
+      "tts_text": "die Schulsachen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Heft",
+      "tts_text": "das Heft"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Federmäppchen",
+      "tts_text": "das Federmäppchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Radiergummi",
+      "tts_text": "der Radiergummi"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Buntstifte",
+      "tts_text": "die Buntstifte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Lineal",
+      "tts_text": "das Lineal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Liste",
+      "tts_text": "die Liste"
     }
   ]
 }

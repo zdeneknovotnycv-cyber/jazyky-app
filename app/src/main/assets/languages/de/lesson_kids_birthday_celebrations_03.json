@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich bekomme ein Schokoladenei.",
       "tts_text": "Ich bekomme ein Schokoladenei."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ostern",
+      "tts_text": "Ostern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Ei",
+      "tts_text": "das Ei"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Osterhase",
+      "tts_text": "der Osterhase"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Korb",
+      "tts_text": "der Korb"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Frühling",
+      "tts_text": "der Frühling"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Blume",
+      "tts_text": "die Blume"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schokolade",
+      "tts_text": "die Schokolade"
     }
   ]
 }

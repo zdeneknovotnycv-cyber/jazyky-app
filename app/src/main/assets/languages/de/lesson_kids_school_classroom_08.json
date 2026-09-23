@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich hoffe, ich bestehe den Test.",
       "tts_text": "Ich hoffe, ich bestehe den Test."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Test",
+      "tts_text": "der Test"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lernen",
+      "tts_text": "lernen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Frage",
+      "tts_text": "die Frage"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Antwort",
+      "tts_text": "die Antwort"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nervös",
+      "tts_text": "nervös"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Note",
+      "tts_text": "die Note"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bestehen",
+      "tts_text": "bestehen"
     }
   ]
 }

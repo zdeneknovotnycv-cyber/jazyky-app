@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Affe klettert auf Bäume.",
       "tts_text": "Der Affe klettert auf Bäume."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Löwe",
+      "tts_text": "der Löwe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Tiger",
+      "tts_text": "der Tiger"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Elefant",
+      "tts_text": "der Elefant"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bär",
+      "tts_text": "der Bär"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wolf",
+      "tts_text": "der Wolf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fuchs",
+      "tts_text": "der Fuchs"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Affe",
+      "tts_text": "der Affe"
     }
   ]
 }

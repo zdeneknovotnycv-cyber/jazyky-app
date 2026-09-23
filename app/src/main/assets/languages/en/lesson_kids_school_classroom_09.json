@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I love this adventure story.",
       "tts_text": "I love this adventure story."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "library",
+      "tts_text": "library"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "borrow",
+      "tts_text": "borrow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "return",
+      "tts_text": "return"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "quiet",
+      "tts_text": "quiet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shelf",
+      "tts_text": "shelf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "librarian",
+      "tts_text": "librarian"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "story",
+      "tts_text": "story"
     }
   ]
 }

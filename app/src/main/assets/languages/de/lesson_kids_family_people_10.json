@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Das ist ein Foto von meiner Familie.",
       "tts_text": "Das ist ein Foto von meiner Familie."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Foto",
+      "tts_text": "das Foto"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Album",
+      "tts_text": "das Album"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Erinnerung",
+      "tts_text": "die Erinnerung"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich erinnern",
+      "tts_text": "sich erinnern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Urlaub",
+      "tts_text": "der Urlaub"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "für das Foto lächeln",
+      "tts_text": "für das Foto lächeln"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "altes Foto",
+      "tts_text": "altes Foto"
     }
   ]
 }

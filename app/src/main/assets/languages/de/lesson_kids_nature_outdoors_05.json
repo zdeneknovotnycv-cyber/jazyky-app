@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir wandern jeden Sommer.",
       "tts_text": "Wir wandern jeden Sommer."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Berg",
+      "tts_text": "der Berg"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Hügel",
+      "tts_text": "der Hügel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Gipfel",
+      "tts_text": "der Gipfel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Pfad",
+      "tts_text": "der Pfad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wandern",
+      "tts_text": "wandern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Aussicht",
+      "tts_text": "die Aussicht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Felsen",
+      "tts_text": "der Felsen"
     }
   ]
 }

@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "I drew a picture of my family.",
       "tts_text": "I drew a picture of my family."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "draw",
+      "tts_text": "draw"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "paint",
+      "tts_text": "paint"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "crayon",
+      "tts_text": "crayon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "paper",
+      "tts_text": "paper"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brush",
+      "tts_text": "brush"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "picture",
+      "tts_text": "picture"
     }
   ]
 }

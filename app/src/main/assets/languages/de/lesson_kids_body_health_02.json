@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich wasche mein Gesicht.",
       "tts_text": "Ich wasche mein Gesicht."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Gesicht",
+      "tts_text": "das Gesicht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Haare",
+      "tts_text": "die Haare"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Zähne",
+      "tts_text": "die Zähne"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Wange",
+      "tts_text": "die Wange"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Kinn",
+      "tts_text": "das Kinn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Augenbraue",
+      "tts_text": "die Augenbraue"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Stirn",
+      "tts_text": "die Stirn"
     }
   ]
 }

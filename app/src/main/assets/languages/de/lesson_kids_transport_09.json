@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich sitze in meinem Kindersitz.",
       "tts_text": "Ich sitze in meinem Kindersitz."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Mitfahrt",
+      "tts_text": "die Mitfahrt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "abholen",
+      "tts_text": "abholen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kindersitz",
+      "tts_text": "der Kindersitz"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "warten",
+      "tts_text": "warten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "danke",
+      "tts_text": "danke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "anschnallen",
+      "tts_text": "anschnallen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pünktlich",
+      "tts_text": "pünktlich"
     }
   ]
 }

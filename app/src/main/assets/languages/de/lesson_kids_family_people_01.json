@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich liebe meine Familie.",
       "tts_text": "Ich liebe meine Familie."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Mutter",
+      "tts_text": "die Mutter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Vater",
+      "tts_text": "der Vater"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schwester",
+      "tts_text": "die Schwester"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bruder",
+      "tts_text": "der Bruder"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Eltern",
+      "tts_text": "die Eltern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Familie",
+      "tts_text": "die Familie"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Baby",
+      "tts_text": "das Baby"
     }
   ]
 }

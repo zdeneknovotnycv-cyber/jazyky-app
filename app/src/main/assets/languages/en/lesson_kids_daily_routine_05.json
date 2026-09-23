@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I try to focus on my work.",
       "tts_text": "I try to focus on my work."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "homework",
+      "tts_text": "homework"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pencil",
+      "tts_text": "pencil"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "notebook",
+      "tts_text": "notebook"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "difficult",
+      "tts_text": "difficult"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "help",
+      "tts_text": "help"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "finish",
+      "tts_text": "finish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "focus",
+      "tts_text": "focus"
     }
   ]
 }

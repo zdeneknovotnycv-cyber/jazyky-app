@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Lass uns Verstecken spielen.",
       "tts_text": "Lass uns Verstecken spielen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Verstecken",
+      "tts_text": "Verstecken"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Fangen",
+      "tts_text": "Fangen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Seilspringen",
+      "tts_text": "das Seilspringen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schaukel",
+      "tts_text": "die Schaukel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Rutsche",
+      "tts_text": "die Rutsche"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rennen",
+      "tts_text": "rennen"
     }
   ]
 }

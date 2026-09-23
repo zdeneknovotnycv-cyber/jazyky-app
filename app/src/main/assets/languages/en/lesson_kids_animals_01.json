@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "My dog is friendly.",
       "tts_text": "My dog is friendly."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dog",
+      "tts_text": "dog"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cat",
+      "tts_text": "cat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fish",
+      "tts_text": "fish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bird",
+      "tts_text": "bird"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hamster",
+      "tts_text": "hamster"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rabbit",
+      "tts_text": "rabbit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pet",
+      "tts_text": "pet"
     }
   ]
 }

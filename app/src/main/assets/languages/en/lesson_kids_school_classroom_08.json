@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I hope I pass the test.",
       "tts_text": "I hope I pass the test."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "test",
+      "tts_text": "test"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "study",
+      "tts_text": "study"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "question",
+      "tts_text": "question"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "answer",
+      "tts_text": "answer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nervous",
+      "tts_text": "nervous"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grade",
+      "tts_text": "grade"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pass",
+      "tts_text": "pass"
     }
   ]
 }

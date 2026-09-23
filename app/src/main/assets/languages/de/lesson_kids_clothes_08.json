@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Regen fällt.",
       "tts_text": "Der Regen fällt."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Regenmantel",
+      "tts_text": "der Regenmantel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Regenschirm",
+      "tts_text": "der Regenschirm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Gummistiefel",
+      "tts_text": "die Gummistiefel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Pfütze",
+      "tts_text": "die Pfütze"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nass",
+      "tts_text": "nass"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kapuze",
+      "tts_text": "die Kapuze"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Regen",
+      "tts_text": "der Regen"
     }
   ]
 }

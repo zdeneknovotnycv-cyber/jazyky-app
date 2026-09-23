@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Roll the dice!",
       "tts_text": "Roll the dice!"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "board game",
+      "tts_text": "board game"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dice",
+      "tts_text": "dice"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "chess",
+      "tts_text": "chess"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "your turn",
+      "tts_text": "your turn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "win",
+      "tts_text": "win"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lose",
+      "tts_text": "lose"
     }
   ]
 }

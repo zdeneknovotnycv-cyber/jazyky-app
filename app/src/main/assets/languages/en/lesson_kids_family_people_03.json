@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "He has brown eyes.",
       "tts_text": "He has brown eyes."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tall",
+      "tts_text": "tall"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "short",
+      "tts_text": "short"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hair",
+      "tts_text": "hair"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "blonde",
+      "tts_text": "blonde"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brown eyes",
+      "tts_text": "brown eyes"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "young",
+      "tts_text": "young"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "old",
+      "tts_text": "old"
     }
   ]
 }

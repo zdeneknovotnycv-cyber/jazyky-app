@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich liebe Schokolade.",
       "tts_text": "Ich liebe Schokolade."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schokolade",
+      "tts_text": "die Schokolade"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Eis",
+      "tts_text": "das Eis"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Keks",
+      "tts_text": "der Keks"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kuchen",
+      "tts_text": "der Kuchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Bonbon",
+      "tts_text": "das Bonbon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "süß",
+      "tts_text": "süß"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Pudding",
+      "tts_text": "der Pudding"
     }
   ]
 }

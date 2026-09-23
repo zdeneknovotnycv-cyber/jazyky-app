@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I love chocolate.",
       "tts_text": "I love chocolate."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "chocolate",
+      "tts_text": "chocolate"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ice cream",
+      "tts_text": "ice cream"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cookie",
+      "tts_text": "cookie"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cake",
+      "tts_text": "cake"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "candy",
+      "tts_text": "candy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sweet",
+      "tts_text": "sweet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pudding",
+      "tts_text": "pudding"
     }
   ]
 }

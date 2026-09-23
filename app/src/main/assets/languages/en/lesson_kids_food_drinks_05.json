@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Rabbits like carrots.",
       "tts_text": "Rabbits like carrots."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "carrot",
+      "tts_text": "carrot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "potato",
+      "tts_text": "potato"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tomato",
+      "tts_text": "tomato"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cucumber",
+      "tts_text": "cucumber"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "onion",
+      "tts_text": "onion"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "broccoli",
+      "tts_text": "broccoli"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pepper",
+      "tts_text": "pepper"
     }
   ]
 }

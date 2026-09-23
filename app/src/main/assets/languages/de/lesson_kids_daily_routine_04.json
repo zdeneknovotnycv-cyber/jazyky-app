@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich esse einen Snack nach der Schule.",
       "tts_text": "Ich esse einen Snack nach der Schule."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nach der Schule",
+      "tts_text": "nach der Schule"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schwimmstunde",
+      "tts_text": "die Schwimmstunde"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Musikunterricht",
+      "tts_text": "der Musikunterricht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Klub",
+      "tts_text": "der Klub"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Freund",
+      "tts_text": "der Freund"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "müde",
+      "tts_text": "müde"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Snack",
+      "tts_text": "der Snack"
     }
   ]
 }

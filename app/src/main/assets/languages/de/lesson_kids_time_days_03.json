@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Es ist halb fünf.",
       "tts_text": "Es ist halb fünf."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wie spät ist es?",
+      "tts_text": "Wie spät ist es?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Uhr",
+      "tts_text": "die Uhr"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "halb",
+      "tts_text": "halb"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Viertel nach",
+      "tts_text": "Viertel nach"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Viertel vor",
+      "tts_text": "Viertel vor"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Minute",
+      "tts_text": "die Minute"
     }
   ]
 }

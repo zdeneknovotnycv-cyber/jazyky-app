@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Mein Bett ist weich.",
       "tts_text": "Mein Bett ist weich."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Bett",
+      "tts_text": "das Bett"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kleiderschrank",
+      "tts_text": "der Kleiderschrank"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Kissen",
+      "tts_text": "das Kissen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Decke",
+      "tts_text": "die Decke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schreibtisch",
+      "tts_text": "der Schreibtisch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Lampe",
+      "tts_text": "die Lampe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Regal",
+      "tts_text": "das Regal"
     }
   ]
 }

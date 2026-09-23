@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich trainiere jeden Morgen.",
       "tts_text": "Ich trainiere jeden Morgen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "trainieren",
+      "tts_text": "trainieren"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "laufen",
+      "tts_text": "laufen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "springen",
+      "tts_text": "springen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich dehnen",
+      "tts_text": "sich dehnen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stark",
+      "tts_text": "stark"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "draußen spielen",
+      "tts_text": "draußen spielen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Energie",
+      "tts_text": "die Energie"
     }
   ]
 }

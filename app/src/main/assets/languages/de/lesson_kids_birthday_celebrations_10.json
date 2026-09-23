@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich bin aufgeregt wegen der Party.",
       "tts_text": "Ich bin aufgeregt wegen der Party."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "einladen",
+      "tts_text": "einladen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Einladung",
+      "tts_text": "die Einladung"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Gästeliste",
+      "tts_text": "die Gästeliste"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "kommen",
+      "tts_text": "kommen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bestätigen",
+      "tts_text": "bestätigen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Datum",
+      "tts_text": "das Datum"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "aufgeregt",
+      "tts_text": "aufgeregt"
     }
   ]
 }

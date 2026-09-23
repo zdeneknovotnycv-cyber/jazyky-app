@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Kapitän steuert das Schiff.",
       "tts_text": "Der Kapitän steuert das Schiff."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Boot",
+      "tts_text": "das Boot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schiff",
+      "tts_text": "das Schiff"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Segel",
+      "tts_text": "das Segel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kapitän",
+      "tts_text": "der Kapitän"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Hafen",
+      "tts_text": "der Hafen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schwimmen",
+      "tts_text": "schwimmen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schwimmweste",
+      "tts_text": "die Schwimmweste"
     }
   ]
 }

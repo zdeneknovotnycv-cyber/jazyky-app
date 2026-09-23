@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Das Schwein ist rosa.",
       "tts_text": "Das Schwein ist rosa."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kuh",
+      "tts_text": "die Kuh"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Pferd",
+      "tts_text": "das Pferd"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schwein",
+      "tts_text": "das Schwein"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schaf",
+      "tts_text": "das Schaf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Huhn",
+      "tts_text": "das Huhn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Ente",
+      "tts_text": "die Ente"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bauernhof",
+      "tts_text": "der Bauernhof"
     }
   ]
 }

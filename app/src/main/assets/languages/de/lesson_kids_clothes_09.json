@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich tue so, als wäre ich ein Pirat.",
       "tts_text": "Ich tue so, als wäre ich ein Pirat."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Kostüm",
+      "tts_text": "das Kostüm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Maske",
+      "tts_text": "die Maske"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Umhang",
+      "tts_text": "der Umhang"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Krone",
+      "tts_text": "die Krone"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Perücke",
+      "tts_text": "die Perücke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "so tun als ob",
+      "tts_text": "so tun als ob"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kostümparty",
+      "tts_text": "die Kostümparty"
     }
   ]
 }

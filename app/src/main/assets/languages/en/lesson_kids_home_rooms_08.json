@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I like our new home.",
       "tts_text": "I like our new home."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "move",
+      "tts_text": "move"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "box",
+      "tts_text": "box"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "new home",
+      "tts_text": "new home"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "truck",
+      "tts_text": "truck"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "unpack",
+      "tts_text": "unpack"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "new room",
+      "tts_text": "new room"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "say goodbye",
+      "tts_text": "say goodbye"
     }
   ]
 }

@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "I wear a watch on my wrist.",
       "tts_text": "I wear a watch on my wrist."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "clock",
+      "tts_text": "clock"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "watch",
+      "tts_text": "watch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hour hand",
+      "tts_text": "hour hand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "minute hand",
+      "tts_text": "minute hand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "alarm clock",
+      "tts_text": "alarm clock"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tick-tock",
+      "tts_text": "tick-tock"
     }
   ]
 }

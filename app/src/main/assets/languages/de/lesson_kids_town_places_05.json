@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Die Krankenschwester ist sehr nett.",
       "tts_text": "Die Krankenschwester ist sehr nett."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Krankenhaus",
+      "tts_text": "das Krankenhaus"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Arzt",
+      "tts_text": "der Arzt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Krankenschwester",
+      "tts_text": "die Krankenschwester"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Bett",
+      "tts_text": "das Bett"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Krankenwagen",
+      "tts_text": "der Krankenwagen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Verband",
+      "tts_text": "der Verband"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gesund werden",
+      "tts_text": "gesund werden"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich trage immer meinen Sicherheitsgurt.",
       "tts_text": "Ich trage immer meinen Sicherheitsgurt."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Auto",
+      "tts_text": "das Auto"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Rad",
+      "tts_text": "das Rad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Sicherheitsgurt",
+      "tts_text": "der Sicherheitsgurt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Straße",
+      "tts_text": "die Straße"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schnell",
+      "tts_text": "schnell"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Garage",
+      "tts_text": "die Garage"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fahrer",
+      "tts_text": "der Fahrer"
     }
   ]
 }

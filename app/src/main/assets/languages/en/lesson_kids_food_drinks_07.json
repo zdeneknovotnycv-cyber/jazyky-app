@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I drink water when I am thirsty.",
       "tts_text": "I drink water when I am thirsty."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "water",
+      "tts_text": "water"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "juice",
+      "tts_text": "juice"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "milk",
+      "tts_text": "milk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tea",
+      "tts_text": "tea"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lemonade",
+      "tts_text": "lemonade"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "thirsty",
+      "tts_text": "thirsty"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cup",
+      "tts_text": "cup"
     }
   ]
 }

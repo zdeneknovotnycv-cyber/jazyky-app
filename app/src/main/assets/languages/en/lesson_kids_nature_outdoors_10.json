@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We must protect nature.",
       "tts_text": "We must protect nature."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "recycle",
+      "tts_text": "recycle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "trash can",
+      "tts_text": "trash can"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "plastic",
+      "tts_text": "plastic"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "paper",
+      "tts_text": "paper"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "protect",
+      "tts_text": "protect"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "clean",
+      "tts_text": "clean"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "planet",
+      "tts_text": "planet"
     }
   ]
 }

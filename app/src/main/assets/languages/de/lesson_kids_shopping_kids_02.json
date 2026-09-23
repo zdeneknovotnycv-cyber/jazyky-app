@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wie viel kostet diese Süßigkeit?",
       "tts_text": "Wie viel kostet diese Süßigkeit?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Süßwarenladen",
+      "tts_text": "der Süßwarenladen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Lutscher",
+      "tts_text": "der Lutscher"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Glas",
+      "tts_text": "das Glas"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Gummibär",
+      "tts_text": "der Gummibär"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "süß",
+      "tts_text": "süß"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Tüte",
+      "tts_text": "die Tüte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wie viel kostet das",
+      "tts_text": "wie viel kostet das"
     }
   ]
 }

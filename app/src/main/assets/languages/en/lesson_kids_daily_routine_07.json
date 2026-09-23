@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We talk about our day.",
       "tts_text": "We talk about our day."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dinner",
+      "tts_text": "dinner"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "plate",
+      "tts_text": "plate"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "soup",
+      "tts_text": "soup"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fork",
+      "tts_text": "fork"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "family",
+      "tts_text": "family"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "delicious",
+      "tts_text": "delicious"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "talk",
+      "tts_text": "talk"
     }
   ]
 }

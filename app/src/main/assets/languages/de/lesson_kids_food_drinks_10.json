@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich mag Pizza.",
       "tts_text": "Ich mag Pizza."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ich mag",
+      "tts_text": "ich mag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ich mag nicht",
+      "tts_text": "ich mag nicht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Lieblingsessen",
+      "tts_text": "das Lieblingsessen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lecker",
+      "tts_text": "lecker"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "eklig",
+      "tts_text": "eklig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "probieren",
+      "tts_text": "probieren"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hungrig",
+      "tts_text": "hungrig"
     }
   ]
 }

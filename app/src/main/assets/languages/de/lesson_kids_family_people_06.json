@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich wohne in einer kleinen Stadt.",
       "tts_text": "Ich wohne in einer kleinen Stadt."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wohnen",
+      "tts_text": "wohnen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Haus",
+      "tts_text": "das Haus"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Wohnung",
+      "tts_text": "die Wohnung"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Großstadt",
+      "tts_text": "die Großstadt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Dorf",
+      "tts_text": "das Dorf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Straße",
+      "tts_text": "die Straße"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Nachbar",
+      "tts_text": "der Nachbar"
     }
   ]
 }

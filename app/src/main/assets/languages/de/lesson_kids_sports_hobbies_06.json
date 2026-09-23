@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Ich lerne Klavier spielen.",
       "tts_text": "Ich lerne Klavier spielen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Musikunterricht",
+      "tts_text": "der Musikunterricht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Klavier",
+      "tts_text": "das Klavier"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Gitarre",
+      "tts_text": "die Gitarre"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "singen",
+      "tts_text": "singen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "üben",
+      "tts_text": "üben"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Lied",
+      "tts_text": "das Lied"
     }
   ]
 }

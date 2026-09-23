@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I want more candies.",
       "tts_text": "I want more candies."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "count",
+      "tts_text": "count"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "how many",
+      "tts_text": "how many"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "apples",
+      "tts_text": "apples"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "toys",
+      "tts_text": "toys"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "all",
+      "tts_text": "all"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "none",
+      "tts_text": "none"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "more",
+      "tts_text": "more"
     }
   ]
 }

@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Die Blume ist hübsch.",
       "tts_text": "Die Blume ist hübsch."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Frühling",
+      "tts_text": "der Frühling"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Blume",
+      "tts_text": "die Blume"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Tulpe",
+      "tts_text": "die Tulpe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wachsen",
+      "tts_text": "wachsen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grün",
+      "tts_text": "grün"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schmetterling",
+      "tts_text": "der Schmetterling"
     }
   ]
 }

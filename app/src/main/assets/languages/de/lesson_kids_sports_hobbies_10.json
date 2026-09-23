@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Mein Hobby ist Malen.",
       "tts_text": "Mein Hobby ist Malen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Hobby",
+      "tts_text": "das Hobby"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Lieblings-",
+      "tts_text": "Lieblings-"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Freizeit",
+      "tts_text": "die Freizeit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "genießen",
+      "tts_text": "genießen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sammeln",
+      "tts_text": "sammeln"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "interessant",
+      "tts_text": "interessant"
     }
   ]
 }

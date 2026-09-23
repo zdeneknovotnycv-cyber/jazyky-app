@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich fühle mich an meinem Geburtstag glücklich.",
       "tts_text": "Ich fühle mich an meinem Geburtstag glücklich."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Geburtstag",
+      "tts_text": "der Geburtstag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Feier",
+      "tts_text": "die Feier"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Luftballon",
+      "tts_text": "der Luftballon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Gast",
+      "tts_text": "der Gast"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Dekoration",
+      "tts_text": "die Dekoration"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "feiern",
+      "tts_text": "feiern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "glücklich",
+      "tts_text": "glücklich"
     }
   ]
 }

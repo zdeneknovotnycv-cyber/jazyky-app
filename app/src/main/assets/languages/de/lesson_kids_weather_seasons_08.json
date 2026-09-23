@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Draußen ist ein Gewitter.",
       "tts_text": "Draußen ist ein Gewitter."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Gewitter",
+      "tts_text": "das Gewitter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Donner",
+      "tts_text": "der Donner"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Blitz",
+      "tts_text": "der Blitz"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ängstlich",
+      "tts_text": "ängstlich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "drinnen bleiben",
+      "tts_text": "drinnen bleiben"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Sturm",
+      "tts_text": "der Sturm"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich ziehe meinen Badeanzug an.",
       "tts_text": "Ich ziehe meinen Badeanzug an."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schwimmbad",
+      "tts_text": "das Schwimmbad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Badeanzug",
+      "tts_text": "der Badeanzug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Handtuch",
+      "tts_text": "das Handtuch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schwimmen",
+      "tts_text": "schwimmen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bademeister",
+      "tts_text": "der Bademeister"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Sprungbrett",
+      "tts_text": "das Sprungbrett"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schwimmflügel",
+      "tts_text": "die Schwimmflügel"
     }
   ]
 }

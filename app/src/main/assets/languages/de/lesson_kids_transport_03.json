@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich liebe einen Fensterplatz im Zug.",
       "tts_text": "Ich liebe einen Fensterplatz im Zug."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Zug",
+      "tts_text": "der Zug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bahnhof",
+      "tts_text": "der Bahnhof"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bahnsteig",
+      "tts_text": "der Bahnsteig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Gleis",
+      "tts_text": "das Gleis"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schaffner",
+      "tts_text": "der Schaffner"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fensterplatz",
+      "tts_text": "der Fensterplatz"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schnellzug",
+      "tts_text": "der Schnellzug"
     }
   ]
 }

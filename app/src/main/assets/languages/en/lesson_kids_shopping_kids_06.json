@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I finally decide on a book.",
       "tts_text": "I finally decide on a book."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gift shop",
+      "tts_text": "gift shop"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "idea",
+      "tts_text": "idea"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "favorite",
+      "tts_text": "favorite"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "perfect",
+      "tts_text": "perfect"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "compare",
+      "tts_text": "compare"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "budget",
+      "tts_text": "budget"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "decide",
+      "tts_text": "decide"
     }
   ]
 }

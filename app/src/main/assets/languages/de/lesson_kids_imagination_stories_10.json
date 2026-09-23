@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Mein Traumurlaub ist erstaunlich.",
       "tts_text": "Mein Traumurlaub ist erstaunlich."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Traum",
+      "tts_text": "der Traum"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Strand",
+      "tts_text": "der Strand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Berg",
+      "tts_text": "der Berg"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich vorstellen",
+      "tts_text": "sich vorstellen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Flugzeug",
+      "tts_text": "das Flugzeug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Abenteuer",
+      "tts_text": "das Abenteuer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "erstaunlich",
+      "tts_text": "erstaunlich"
     }
   ]
 }

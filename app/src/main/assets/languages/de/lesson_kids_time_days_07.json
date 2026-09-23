@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Ich wache um sieben Uhr auf.",
       "tts_text": "Ich wache um sieben Uhr auf."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "aufwachen",
+      "tts_text": "aufwachen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zur Schule gehen",
+      "tts_text": "zur Schule gehen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zu Mittag essen",
+      "tts_text": "zu Mittag essen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Hausaufgaben machen",
+      "tts_text": "Hausaufgaben machen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ins Bett gehen",
+      "tts_text": "ins Bett gehen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Tagesablauf",
+      "tts_text": "der Tagesablauf"
     }
   ]
 }

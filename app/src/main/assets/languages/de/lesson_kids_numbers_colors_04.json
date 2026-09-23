@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Himmel ist blau.",
       "tts_text": "Der Himmel ist blau."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rot",
+      "tts_text": "rot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "blau",
+      "tts_text": "blau"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gelb",
+      "tts_text": "gelb"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grün",
+      "tts_text": "grün"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "orange",
+      "tts_text": "orange"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lila",
+      "tts_text": "lila"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rosa",
+      "tts_text": "rosa"
     }
   ]
 }

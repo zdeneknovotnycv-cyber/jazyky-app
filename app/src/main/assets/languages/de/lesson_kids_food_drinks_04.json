@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich esse jeden Tag einen Apfel.",
       "tts_text": "Ich esse jeden Tag einen Apfel."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Apfel",
+      "tts_text": "der Apfel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Banane",
+      "tts_text": "die Banane"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Orange",
+      "tts_text": "die Orange"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Erdbeere",
+      "tts_text": "die Erdbeere"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Trauben",
+      "tts_text": "die Trauben"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Birne",
+      "tts_text": "die Birne"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Obstsalat",
+      "tts_text": "der Obstsalat"
     }
   ]
 }

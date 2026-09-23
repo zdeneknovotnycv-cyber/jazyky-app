@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich teile mein Spielzeug mit Freunden.",
       "tts_text": "Ich teile mein Spielzeug mit Freunden."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "spielen",
+      "tts_text": "spielen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Spielzeug",
+      "tts_text": "das Spielzeug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "draußen",
+      "tts_text": "draußen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Ball",
+      "tts_text": "der Ball"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schaukel",
+      "tts_text": "die Schaukel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Spaß",
+      "tts_text": "der Spaß"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "teilen",
+      "tts_text": "teilen"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir geben Oma eine große Umarmung.",
       "tts_text": "Wir geben Oma eine große Umarmung."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Feier",
+      "tts_text": "die Feier"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Jahrestag",
+      "tts_text": "der Jahrestag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Großeltern",
+      "tts_text": "die Großeltern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Trinkspruch",
+      "tts_text": "der Trinkspruch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich versammeln",
+      "tts_text": "sich versammeln"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der besondere Tag",
+      "tts_text": "der besondere Tag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Umarmung",
+      "tts_text": "die Umarmung"
     }
   ]
 }

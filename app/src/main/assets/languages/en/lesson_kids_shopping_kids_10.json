@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "This one has the best value.",
       "tts_text": "This one has the best value."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "price",
+      "tts_text": "price"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cheap",
+      "tts_text": "cheap"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "expensive",
+      "tts_text": "expensive"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "discount",
+      "tts_text": "discount"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "compare",
+      "tts_text": "compare"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "same",
+      "tts_text": "same"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "best value",
+      "tts_text": "best value"
     }
   ]
 }

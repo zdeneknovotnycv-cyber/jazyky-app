@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "We play on the beach.",
       "tts_text": "We play on the beach."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "beach",
+      "tts_text": "beach"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sea",
+      "tts_text": "sea"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swimsuit",
+      "tts_text": "swimsuit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sand",
+      "tts_text": "sand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hot",
+      "tts_text": "hot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ice cream",
+      "tts_text": "ice cream"
     }
   ]
 }

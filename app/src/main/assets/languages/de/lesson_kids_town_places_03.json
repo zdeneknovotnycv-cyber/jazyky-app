@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich möchte ein Croissant zum Frühstück.",
       "tts_text": "Ich möchte ein Croissant zum Frühstück."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Bäckerei",
+      "tts_text": "die Bäckerei"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Brot",
+      "tts_text": "das Brot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Croissant",
+      "tts_text": "das Croissant"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bäcker",
+      "tts_text": "der Bäcker"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kuchen",
+      "tts_text": "der Kuchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Ofen",
+      "tts_text": "der Ofen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "frisch",
+      "tts_text": "frisch"
     }
   ]
 }

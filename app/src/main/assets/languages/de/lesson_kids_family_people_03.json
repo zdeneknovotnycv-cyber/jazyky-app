@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Er hat braune Augen.",
       "tts_text": "Er hat braune Augen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "groß",
+      "tts_text": "groß"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "klein",
+      "tts_text": "klein"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Haare",
+      "tts_text": "die Haare"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "blond",
+      "tts_text": "blond"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "braune Augen",
+      "tts_text": "braune Augen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "jung",
+      "tts_text": "jung"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "alt",
+      "tts_text": "alt"
     }
   ]
 }

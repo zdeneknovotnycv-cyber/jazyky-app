@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I finish my homework before dinner.",
       "tts_text": "I finish my homework before dinner."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "homework",
+      "tts_text": "homework"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "write",
+      "tts_text": "write"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "notebook",
+      "tts_text": "notebook"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "difficult",
+      "tts_text": "difficult"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "easy",
+      "tts_text": "easy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "finish",
+      "tts_text": "finish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "check",
+      "tts_text": "check"
     }
   ]
 }

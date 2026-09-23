@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "It is sunny today.",
       "tts_text": "It is sunny today."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sunny",
+      "tts_text": "sunny"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rainy",
+      "tts_text": "rainy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rain",
+      "tts_text": "rain"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sun",
+      "tts_text": "sun"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "umbrella",
+      "tts_text": "umbrella"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cloud",
+      "tts_text": "cloud"
     }
   ]
 }

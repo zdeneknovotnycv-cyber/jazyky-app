@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I want to be on time for school.",
       "tts_text": "I want to be on time for school."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "get dressed",
+      "tts_text": "get dressed"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "uniform",
+      "tts_text": "uniform"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "backpack",
+      "tts_text": "backpack"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brush your hair",
+      "tts_text": "brush your hair"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shoes",
+      "tts_text": "shoes"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hurry up",
+      "tts_text": "hurry up"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "on time",
+      "tts_text": "on time"
     }
   ]
 }

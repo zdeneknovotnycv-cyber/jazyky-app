@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Ich tanze gern zur Musik.",
       "tts_text": "Ich tanze gern zur Musik."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tanzen",
+      "tts_text": "tanzen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Musik",
+      "tts_text": "die Musik"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich bewegen",
+      "tts_text": "sich bewegen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Tanzkurs",
+      "tts_text": "der Tanzkurs"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Rhythmus",
+      "tts_text": "der Rhythmus"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich drehen",
+      "tts_text": "sich drehen"
     }
   ]
 }

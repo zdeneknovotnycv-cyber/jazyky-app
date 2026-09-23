@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The doctor checks my ears.",
       "tts_text": "The doctor checks my ears."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "doctor",
+      "tts_text": "doctor"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nurse",
+      "tts_text": "nurse"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "appointment",
+      "tts_text": "appointment"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "medicine",
+      "tts_text": "medicine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "temperature",
+      "tts_text": "temperature"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "healthy",
+      "tts_text": "healthy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "waiting room",
+      "tts_text": "waiting room"
     }
   ]
 }

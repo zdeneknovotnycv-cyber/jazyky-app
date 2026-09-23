@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I look in the mirror.",
       "tts_text": "I look in the mirror."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "get dressed",
+      "tts_text": "get dressed"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "put on",
+      "tts_text": "put on"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "take off",
+      "tts_text": "take off"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "button",
+      "tts_text": "button"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zip",
+      "tts_text": "zip"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mirror",
+      "tts_text": "mirror"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ready",
+      "tts_text": "ready"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich wasche meine Hände vor dem Essen.",
       "tts_text": "Ich wasche meine Hände vor dem Essen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Hände waschen",
+      "tts_text": "Hände waschen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Seife",
+      "tts_text": "die Seife"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "duschen",
+      "tts_text": "duschen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Handtuch",
+      "tts_text": "das Handtuch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Haare kämmen",
+      "tts_text": "die Haare kämmen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sauber",
+      "tts_text": "sauber"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Zähne putzen",
+      "tts_text": "Zähne putzen"
     }
   ]
 }

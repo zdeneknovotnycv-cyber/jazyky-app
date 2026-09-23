@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich klebe eine Briefmarke auf den Umschlag.",
       "tts_text": "Ich klebe eine Briefmarke auf den Umschlag."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Post",
+      "tts_text": "die Post"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Brief",
+      "tts_text": "der Brief"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Briefmarke",
+      "tts_text": "die Briefmarke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Paket",
+      "tts_text": "das Paket"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Briefkasten",
+      "tts_text": "der Briefkasten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Postbote",
+      "tts_text": "der Postbote"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Adresse",
+      "tts_text": "die Adresse"
     }
   ]
 }

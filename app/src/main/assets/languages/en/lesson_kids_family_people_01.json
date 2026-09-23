@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I love my family.",
       "tts_text": "I love my family."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mother",
+      "tts_text": "mother"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "father",
+      "tts_text": "father"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sister",
+      "tts_text": "sister"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brother",
+      "tts_text": "brother"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "parents",
+      "tts_text": "parents"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "family",
+      "tts_text": "family"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "baby",
+      "tts_text": "baby"
     }
   ]
 }

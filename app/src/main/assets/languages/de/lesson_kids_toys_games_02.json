@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Wirf den Würfel!",
       "tts_text": "Wirf den Würfel!"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Brettspiel",
+      "tts_text": "das Brettspiel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Würfel",
+      "tts_text": "der Würfel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schach",
+      "tts_text": "das Schach"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Du bist dran.",
+      "tts_text": "Du bist dran."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gewinnen",
+      "tts_text": "gewinnen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "verlieren",
+      "tts_text": "verlieren"
     }
   ]
 }

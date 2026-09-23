@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I have a lot of free time.",
       "tts_text": "I have a lot of free time."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "weekend",
+      "tts_text": "weekend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sleep in",
+      "tts_text": "sleep in"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "visit grandparents",
+      "tts_text": "visit grandparents"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "trip",
+      "tts_text": "trip"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cartoons",
+      "tts_text": "cartoons"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "relax",
+      "tts_text": "relax"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "free time",
+      "tts_text": "free time"
     }
   ]
 }

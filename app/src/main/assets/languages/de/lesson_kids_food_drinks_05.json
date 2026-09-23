@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Hasen mögen Karotten.",
       "tts_text": "Hasen mögen Karotten."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Karotte",
+      "tts_text": "die Karotte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kartoffel",
+      "tts_text": "die Kartoffel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Tomate",
+      "tts_text": "die Tomate"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Gurke",
+      "tts_text": "die Gurke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Zwiebel",
+      "tts_text": "die Zwiebel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Brokkoli",
+      "tts_text": "der Brokkoli"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Paprika",
+      "tts_text": "die Paprika"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir öffnen eine Schatztruhe.",
       "tts_text": "Wir öffnen eine Schatztruhe."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Pirat",
+      "tts_text": "der Pirat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schiff",
+      "tts_text": "das Schiff"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schatzkarte",
+      "tts_text": "die Schatzkarte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Insel",
+      "tts_text": "die Insel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schwert",
+      "tts_text": "das Schwert"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Flagge",
+      "tts_text": "die Flagge"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Truhe",
+      "tts_text": "die Truhe"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "My classmate helps me with math.",
       "tts_text": "My classmate helps me with math."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "teacher",
+      "tts_text": "teacher"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "classmate",
+      "tts_text": "classmate"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "friend",
+      "tts_text": "friend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "headmaster",
+      "tts_text": "headmaster"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "raise hand",
+      "tts_text": "raise hand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "listen",
+      "tts_text": "listen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "help",
+      "tts_text": "help"
     }
   ]
 }

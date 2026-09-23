@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich habe bei dem Rennen eine Medaille gewonnen.",
       "tts_text": "Ich habe bei dem Rennen eine Medaille gewonnen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stolz",
+      "tts_text": "stolz"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Leistung",
+      "tts_text": "die Leistung"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gut gemacht",
+      "tts_text": "gut gemacht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Medaille",
+      "tts_text": "die Medaille"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die harte Arbeit",
+      "tts_text": "die harte Arbeit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Eltern",
+      "tts_text": "die Eltern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "erfolgreich sein",
+      "tts_text": "erfolgreich sein"
     }
   ]
 }

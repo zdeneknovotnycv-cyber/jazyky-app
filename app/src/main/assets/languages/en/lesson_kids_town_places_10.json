@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The elephant is very big.",
       "tts_text": "The elephant is very big."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zoo",
+      "tts_text": "zoo"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lion",
+      "tts_text": "lion"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "elephant",
+      "tts_text": "elephant"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cage",
+      "tts_text": "cage"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "feed",
+      "tts_text": "feed"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "monkey",
+      "tts_text": "monkey"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ticket",
+      "tts_text": "ticket"
     }
   ]
 }

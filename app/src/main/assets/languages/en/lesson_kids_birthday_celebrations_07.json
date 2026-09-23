@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I say thank you for the present.",
       "tts_text": "I say thank you for the present."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "present",
+      "tts_text": "present"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wish",
+      "tts_text": "wish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wrap",
+      "tts_text": "wrap"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ribbon",
+      "tts_text": "ribbon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "card",
+      "tts_text": "card"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "surprise",
+      "tts_text": "surprise"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "thank you",
+      "tts_text": "thank you"
     }
   ]
 }

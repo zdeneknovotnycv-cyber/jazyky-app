@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich bade in der Badewanne.",
       "tts_text": "Ich bade in der Badewanne."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Zahnbürste",
+      "tts_text": "die Zahnbürste"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Handtuch",
+      "tts_text": "das Handtuch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Badewanne",
+      "tts_text": "die Badewanne"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Waschbecken",
+      "tts_text": "das Waschbecken"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Spiegel",
+      "tts_text": "der Spiegel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Shampoo",
+      "tts_text": "das Shampoo"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Toilette",
+      "tts_text": "die Toilette"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I wash my face.",
       "tts_text": "I wash my face."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "face",
+      "tts_text": "face"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hair",
+      "tts_text": "hair"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "teeth",
+      "tts_text": "teeth"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cheek",
+      "tts_text": "cheek"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "chin",
+      "tts_text": "chin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "eyebrow",
+      "tts_text": "eyebrow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "forehead",
+      "tts_text": "forehead"
     }
   ]
 }

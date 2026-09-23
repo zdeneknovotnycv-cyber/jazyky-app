@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir sitzen um das Lagerfeuer.",
       "tts_text": "Wir sitzen um das Lagerfeuer."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Zelt",
+      "tts_text": "das Zelt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Lagerfeuer",
+      "tts_text": "das Lagerfeuer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schlafsack",
+      "tts_text": "der Schlafsack"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Taschenlampe",
+      "tts_text": "die Taschenlampe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Rucksack",
+      "tts_text": "der Rucksack"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Marshmallow",
+      "tts_text": "das Marshmallow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Sterne",
+      "tts_text": "die Sterne"
     }
   ]
 }

@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "There is a thunderstorm outside.",
       "tts_text": "There is a thunderstorm outside."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "thunderstorm",
+      "tts_text": "thunderstorm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "thunder",
+      "tts_text": "thunder"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lightning",
+      "tts_text": "lightning"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "scared",
+      "tts_text": "scared"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stay inside",
+      "tts_text": "stay inside"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "storm",
+      "tts_text": "storm"
     }
   ]
 }

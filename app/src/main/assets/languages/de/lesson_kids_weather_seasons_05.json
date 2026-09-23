@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Ein Blatt ist auf den Boden gefallen.",
       "tts_text": "Ein Blatt ist auf den Boden gefallen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Herbst",
+      "tts_text": "der Herbst"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Blatt",
+      "tts_text": "das Blatt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wind",
+      "tts_text": "der Wind"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Pilz",
+      "tts_text": "der Pilz"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "orange",
+      "tts_text": "orange"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Regenschirm",
+      "tts_text": "der Regenschirm"
     }
   ]
 }

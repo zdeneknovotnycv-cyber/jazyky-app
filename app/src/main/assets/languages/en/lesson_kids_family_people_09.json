@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Our dog is called Rex.",
       "tts_text": "Our dog is called Rex."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pet",
+      "tts_text": "pet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dog",
+      "tts_text": "dog"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cat",
+      "tts_text": "cat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "feed",
+      "tts_text": "feed"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "walk the dog",
+      "tts_text": "walk the dog"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fish",
+      "tts_text": "fish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "love",
+      "tts_text": "love"
     }
   ]
 }

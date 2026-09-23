@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich entscheide mich schließlich für ein Buch.",
       "tts_text": "Ich entscheide mich schließlich für ein Buch."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Geschenkeladen",
+      "tts_text": "der Geschenkeladen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Idee",
+      "tts_text": "die Idee"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Lieblingsfarbe",
+      "tts_text": "die Lieblingsfarbe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "perfekt",
+      "tts_text": "perfekt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vergleichen",
+      "tts_text": "vergleichen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Budget",
+      "tts_text": "das Budget"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich entscheiden",
+      "tts_text": "sich entscheiden"
     }
   ]
 }

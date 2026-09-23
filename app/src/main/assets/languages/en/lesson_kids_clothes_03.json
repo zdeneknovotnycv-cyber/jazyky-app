@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "It is very hot in summer.",
       "tts_text": "It is very hot in summer."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shorts",
+      "tts_text": "shorts"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sandals",
+      "tts_text": "sandals"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sunglasses",
+      "tts_text": "sunglasses"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swimsuit",
+      "tts_text": "swimsuit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cap",
+      "tts_text": "cap"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "skirt",
+      "tts_text": "skirt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hot",
+      "tts_text": "hot"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The penguin cannot fly.",
       "tts_text": "The penguin cannot fly."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bird",
+      "tts_text": "bird"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "owl",
+      "tts_text": "owl"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "parrot",
+      "tts_text": "parrot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "eagle",
+      "tts_text": "eagle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "penguin",
+      "tts_text": "penguin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nest",
+      "tts_text": "nest"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wing",
+      "tts_text": "wing"
     }
   ]
 }

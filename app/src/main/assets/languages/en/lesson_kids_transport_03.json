@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I love a window seat on the train.",
       "tts_text": "I love a window seat on the train."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "train",
+      "tts_text": "train"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "train station",
+      "tts_text": "train station"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "platform",
+      "tts_text": "platform"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "track",
+      "tts_text": "track"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "conductor",
+      "tts_text": "conductor"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "window seat",
+      "tts_text": "window seat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fast train",
+      "tts_text": "fast train"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Kuchen ist sehr süß.",
       "tts_text": "Der Kuchen ist sehr süß."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kuchen",
+      "tts_text": "der Kuchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kerze",
+      "tts_text": "die Kerze"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "auspusten",
+      "tts_text": "auspusten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Stück",
+      "tts_text": "das Stück"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Glasur",
+      "tts_text": "die Glasur"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "singen",
+      "tts_text": "singen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "süß",
+      "tts_text": "süß"
     }
   ]
 }

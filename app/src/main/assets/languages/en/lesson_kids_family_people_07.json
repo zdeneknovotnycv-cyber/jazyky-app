@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "My mother is a doctor.",
       "tts_text": "My mother is a doctor."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "job",
+      "tts_text": "job"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "doctor",
+      "tts_text": "doctor"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "teacher",
+      "tts_text": "teacher"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "driver",
+      "tts_text": "driver"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cook",
+      "tts_text": "cook"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "work",
+      "tts_text": "work"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "office",
+      "tts_text": "office"
     }
   ]
 }

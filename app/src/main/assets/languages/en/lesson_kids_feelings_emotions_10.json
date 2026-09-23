@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "It helps to talk about it.",
       "tts_text": "It helps to talk about it."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "feel",
+      "tts_text": "feel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "talk about it",
+      "tts_text": "talk about it"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "listen",
+      "tts_text": "listen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "understand",
+      "tts_text": "understand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "honest",
+      "tts_text": "honest"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "comfort",
+      "tts_text": "comfort"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "better",
+      "tts_text": "better"
     }
   ]
 }

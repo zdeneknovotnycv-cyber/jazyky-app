@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "What shape is this?",
       "tts_text": "What shape is this?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "circle",
+      "tts_text": "circle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "square",
+      "tts_text": "square"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "triangle",
+      "tts_text": "triangle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rectangle",
+      "tts_text": "rectangle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "star",
+      "tts_text": "star"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "heart",
+      "tts_text": "heart"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shape",
+      "tts_text": "shape"
     }
   ]
 }

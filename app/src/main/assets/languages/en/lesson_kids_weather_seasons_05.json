@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "A leaf fell on the ground.",
       "tts_text": "A leaf fell on the ground."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "autumn",
+      "tts_text": "autumn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "leaf",
+      "tts_text": "leaf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wind",
+      "tts_text": "wind"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mushroom",
+      "tts_text": "mushroom"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "orange",
+      "tts_text": "orange"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "umbrella",
+      "tts_text": "umbrella"
     }
   ]
 }

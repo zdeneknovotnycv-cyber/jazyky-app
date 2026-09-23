@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Bitte teile dein Spielzeug.",
       "tts_text": "Bitte teile dein Spielzeug."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "teilen",
+      "tts_text": "teilen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ausleihen",
+      "tts_text": "ausleihen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "meins",
+      "tts_text": "meins"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "deins",
+      "tts_text": "deins"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nett",
+      "tts_text": "nett"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zurückgeben",
+      "tts_text": "zurückgeben"
     }
   ]
 }

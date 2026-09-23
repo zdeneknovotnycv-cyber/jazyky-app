@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich helfe meiner Mutter mit dem Baby.",
       "tts_text": "Ich helfe meiner Mutter mit dem Baby."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Brüderchen",
+      "tts_text": "das Brüderchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schwesterchen",
+      "tts_text": "das Schwesterchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "weinen",
+      "tts_text": "weinen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Kinderbett",
+      "tts_text": "das Kinderbett"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Flasche",
+      "tts_text": "die Flasche"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kinderwagen",
+      "tts_text": "der Kinderwagen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "helfen",
+      "tts_text": "helfen"
     }
   ]
 }

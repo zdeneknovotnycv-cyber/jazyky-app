@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We clean the house on Saturday.",
       "tts_text": "We clean the house on Saturday."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "clean",
+      "tts_text": "clean"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vacuum cleaner",
+      "tts_text": "vacuum cleaner"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "broom",
+      "tts_text": "broom"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tidy up",
+      "tts_text": "tidy up"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dust",
+      "tts_text": "dust"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "trash",
+      "tts_text": "trash"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wash the dishes",
+      "tts_text": "wash the dishes"
     }
   ]
 }

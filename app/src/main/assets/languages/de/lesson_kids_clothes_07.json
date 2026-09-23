@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Meine Uniform ist immer ordentlich.",
       "tts_text": "Meine Uniform ist immer ordentlich."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schuluniform",
+      "tts_text": "die Schuluniform"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Hemd",
+      "tts_text": "das Hemd"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Krawatte",
+      "tts_text": "die Krawatte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Rock",
+      "tts_text": "der Rock"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Abzeichen",
+      "tts_text": "das Abzeichen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ordentlich",
+      "tts_text": "ordentlich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tragen",
+      "tts_text": "tragen"
     }
   ]
 }

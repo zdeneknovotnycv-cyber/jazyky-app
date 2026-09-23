@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Die Glocke klingelt laut.",
       "tts_text": "Die Glocke klingelt laut."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Unterricht beginnt",
+      "tts_text": "der Unterricht beginnt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Pause",
+      "tts_text": "die Pause"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Stunde",
+      "tts_text": "die Stunde"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Glocke",
+      "tts_text": "die Glocke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Stundenplan",
+      "tts_text": "der Stundenplan"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "enden",
+      "tts_text": "enden"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nach Hause gehen",
+      "tts_text": "nach Hause gehen"
     }
   ]
 }

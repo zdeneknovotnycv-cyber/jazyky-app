@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich spiele mit meinen Freunden.",
       "tts_text": "Ich spiele mit meinen Freunden."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Spielplatz",
+      "tts_text": "der Spielplatz"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schaukel",
+      "tts_text": "die Schaukel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Rutsche",
+      "tts_text": "die Rutsche"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rennen",
+      "tts_text": "rennen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Ball",
+      "tts_text": "der Ball"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Sandkasten",
+      "tts_text": "der Sandkasten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Freunde",
+      "tts_text": "die Freunde"
     }
   ]
 }

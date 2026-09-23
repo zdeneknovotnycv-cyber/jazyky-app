@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Meine Mission beginnt jetzt.",
       "tts_text": "Meine Mission beginnt jetzt."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Superheld",
+      "tts_text": "der Superheld"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Umhang",
+      "tts_text": "der Umhang"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kraft",
+      "tts_text": "die Kraft"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "retten",
+      "tts_text": "retten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fliegen",
+      "tts_text": "fliegen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mutig",
+      "tts_text": "mutig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Mission",
+      "tts_text": "die Mission"
     }
   ]
 }

@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Darf ich auch mitspielen, bitte?",
       "tts_text": "Darf ich auch mitspielen, bitte?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Freund",
+      "tts_text": "der Freund"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zusammen",
+      "tts_text": "zusammen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Darf ich auch mitspielen?",
+      "tts_text": "Darf ich auch mitspielen?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Team",
+      "tts_text": "das Team"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Spaß",
+      "tts_text": "der Spaß"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "abwechseln",
+      "tts_text": "abwechseln"
     }
   ]
 }

@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "We finished the puzzle together.",
       "tts_text": "We finished the puzzle together."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "puzzle",
+      "tts_text": "puzzle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "piece",
+      "tts_text": "piece"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "picture",
+      "tts_text": "picture"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "finish",
+      "tts_text": "finish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "difficult",
+      "tts_text": "difficult"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "easy",
+      "tts_text": "easy"
     }
   ]
 }

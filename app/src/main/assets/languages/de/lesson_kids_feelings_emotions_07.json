@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wow, das ist toll!",
       "tts_text": "Wow, das ist toll!"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "überrascht",
+      "tts_text": "überrascht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wow",
+      "tts_text": "wow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "unerwartet",
+      "tts_text": "unerwartet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hüpfen",
+      "tts_text": "hüpfen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nach Luft schnappen",
+      "tts_text": "nach Luft schnappen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "raten",
+      "tts_text": "raten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mit großen Augen",
+      "tts_text": "mit großen Augen"
     }
   ]
 }

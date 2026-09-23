@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir erkunden die Welt der Dinosaurier.",
       "tts_text": "Wir erkunden die Welt der Dinosaurier."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Dinosaurier",
+      "tts_text": "der Dinosaurier"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Dschungel",
+      "tts_text": "der Dschungel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brüllen",
+      "tts_text": "brüllen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Ei",
+      "tts_text": "das Ei"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fußabdruck",
+      "tts_text": "der Fußabdruck"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "uralt",
+      "tts_text": "uralt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "erkunden",
+      "tts_text": "erkunden"
     }
   ]
 }

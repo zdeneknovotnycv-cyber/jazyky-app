@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich habe viel Freizeit.",
       "tts_text": "Ich habe viel Freizeit."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Wochenende",
+      "tts_text": "das Wochenende"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ausschlafen",
+      "tts_text": "ausschlafen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Großeltern besuchen",
+      "tts_text": "die Großeltern besuchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Ausflug",
+      "tts_text": "der Ausflug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Zeichentrickfilme",
+      "tts_text": "die Zeichentrickfilme"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich entspannen",
+      "tts_text": "sich entspannen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Freizeit",
+      "tts_text": "die Freizeit"
     }
   ]
 }

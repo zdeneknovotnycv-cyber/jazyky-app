@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The bell rings loudly.",
       "tts_text": "The bell rings loudly."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "class starts",
+      "tts_text": "class starts"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "break",
+      "tts_text": "break"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lesson",
+      "tts_text": "lesson"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bell",
+      "tts_text": "bell"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "timetable",
+      "tts_text": "timetable"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "finish",
+      "tts_text": "finish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "go home",
+      "tts_text": "go home"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I play with my friends.",
       "tts_text": "I play with my friends."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "playground",
+      "tts_text": "playground"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swing",
+      "tts_text": "swing"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "slide",
+      "tts_text": "slide"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "run",
+      "tts_text": "run"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ball",
+      "tts_text": "ball"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sandbox",
+      "tts_text": "sandbox"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "friends",
+      "tts_text": "friends"
     }
   ]
 }

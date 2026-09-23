@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I always eat popcorn at the cinema.",
       "tts_text": "I always eat popcorn at the cinema."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cinema",
+      "tts_text": "cinema"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "movie",
+      "tts_text": "movie"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "popcorn",
+      "tts_text": "popcorn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "screen",
+      "tts_text": "screen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ticket",
+      "tts_text": "ticket"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "quiet",
+      "tts_text": "quiet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "seat",
+      "tts_text": "seat"
     }
   ]
 }

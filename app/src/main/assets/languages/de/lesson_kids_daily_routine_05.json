@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich versuche, mich zu konzentrieren.",
       "tts_text": "Ich versuche, mich zu konzentrieren."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Hausaufgabe",
+      "tts_text": "die Hausaufgabe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bleistift",
+      "tts_text": "der Bleistift"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Heft",
+      "tts_text": "das Heft"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schwierig",
+      "tts_text": "schwierig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Hilfe",
+      "tts_text": "die Hilfe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fertig machen",
+      "tts_text": "fertig machen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich konzentrieren",
+      "tts_text": "sich konzentrieren"
     }
   ]
 }

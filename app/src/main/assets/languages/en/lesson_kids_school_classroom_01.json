@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "My pencil is sharp.",
       "tts_text": "My pencil is sharp."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "desk",
+      "tts_text": "desk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "chair",
+      "tts_text": "chair"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "book",
+      "tts_text": "book"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pencil",
+      "tts_text": "pencil"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "board",
+      "tts_text": "board"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bag",
+      "tts_text": "bag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "eraser",
+      "tts_text": "eraser"
     }
   ]
 }

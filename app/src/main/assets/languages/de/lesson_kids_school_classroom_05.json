@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich mache meine Hausaufgabe vor dem Abendessen fertig.",
       "tts_text": "Ich mache meine Hausaufgabe vor dem Abendessen fertig."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Hausaufgabe",
+      "tts_text": "die Hausaufgabe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schreiben",
+      "tts_text": "schreiben"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Heft",
+      "tts_text": "das Heft"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schwierig",
+      "tts_text": "schwierig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "leicht",
+      "tts_text": "leicht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fertig machen",
+      "tts_text": "fertig machen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "kontrollieren",
+      "tts_text": "kontrollieren"
     }
   ]
 }

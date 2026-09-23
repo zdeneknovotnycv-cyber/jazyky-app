@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I live in a small town.",
       "tts_text": "I live in a small town."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "live",
+      "tts_text": "live"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "house",
+      "tts_text": "house"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "apartment",
+      "tts_text": "apartment"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "city",
+      "tts_text": "city"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "village",
+      "tts_text": "village"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "street",
+      "tts_text": "street"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "neighbor",
+      "tts_text": "neighbor"
     }
   ]
 }

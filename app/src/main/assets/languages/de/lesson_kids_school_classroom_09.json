@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich liebe diese Abenteuergeschichte.",
       "tts_text": "Ich liebe diese Abenteuergeschichte."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Bibliothek",
+      "tts_text": "die Bibliothek"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ausleihen",
+      "tts_text": "ausleihen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zurückbringen",
+      "tts_text": "zurückbringen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "leise",
+      "tts_text": "leise"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Regal",
+      "tts_text": "das Regal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bibliothekar",
+      "tts_text": "der Bibliothekar"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Geschichte",
+      "tts_text": "die Geschichte"
     }
   ]
 }

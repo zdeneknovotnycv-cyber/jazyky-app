@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir müssen wilde Tiere schützen.",
       "tts_text": "Wir müssen wilde Tiere schützen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bedroht",
+      "tts_text": "bedroht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schützen",
+      "tts_text": "schützen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wald",
+      "tts_text": "der Wald"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Tiger",
+      "tts_text": "der Tiger"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Nashorn",
+      "tts_text": "das Nashorn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Natur",
+      "tts_text": "die Natur"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "retten",
+      "tts_text": "retten"
     }
   ]
 }

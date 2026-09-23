@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "The flower is pretty.",
       "tts_text": "The flower is pretty."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "spring",
+      "tts_text": "spring"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "flower",
+      "tts_text": "flower"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tulip",
+      "tts_text": "tulip"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grow",
+      "tts_text": "grow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "green",
+      "tts_text": "green"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "butterfly",
+      "tts_text": "butterfly"
     }
   ]
 }

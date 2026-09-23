@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We must protect wild animals.",
       "tts_text": "We must protect wild animals."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "endangered",
+      "tts_text": "endangered"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "protect",
+      "tts_text": "protect"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "forest",
+      "tts_text": "forest"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tiger",
+      "tts_text": "tiger"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rhino",
+      "tts_text": "rhino"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nature",
+      "tts_text": "nature"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "save",
+      "tts_text": "save"
     }
   ]
 }

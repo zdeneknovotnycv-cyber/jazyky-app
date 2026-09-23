@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich bin aufgeregt wegen des Ausflugs.",
       "tts_text": "Ich bin aufgeregt wegen des Ausflugs."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schulausflug",
+      "tts_text": "der Schulausflug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bus",
+      "tts_text": "der Bus"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Museum",
+      "tts_text": "das Museum"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Reiseführer",
+      "tts_text": "der Reiseführer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Karte",
+      "tts_text": "die Karte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "aufgeregt",
+      "tts_text": "aufgeregt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Picknick",
+      "tts_text": "das Picknick"
     }
   ]
 }

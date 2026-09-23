@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir bezahlen an der Kasse.",
       "tts_text": "Wir bezahlen an der Kasse."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Supermarkt",
+      "tts_text": "der Supermarkt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Einkaufswagen",
+      "tts_text": "der Einkaufswagen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Regal",
+      "tts_text": "das Regal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Einkaufsliste",
+      "tts_text": "die Einkaufsliste"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kassiererin",
+      "tts_text": "die Kassiererin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bezahlen",
+      "tts_text": "bezahlen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Korb",
+      "tts_text": "der Korb"
     }
   ]
 }

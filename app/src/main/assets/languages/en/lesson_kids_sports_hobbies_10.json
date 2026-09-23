@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "My hobby is painting.",
       "tts_text": "My hobby is painting."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hobby",
+      "tts_text": "hobby"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "favorite",
+      "tts_text": "favorite"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "free time",
+      "tts_text": "free time"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "enjoy",
+      "tts_text": "enjoy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "collect",
+      "tts_text": "collect"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "interesting",
+      "tts_text": "interesting"
     }
   ]
 }

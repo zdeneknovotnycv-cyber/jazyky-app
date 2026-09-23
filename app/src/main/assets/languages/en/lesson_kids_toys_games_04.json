@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "I play a video game after school.",
       "tts_text": "I play a video game after school."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "video game",
+      "tts_text": "video game"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "screen",
+      "tts_text": "screen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "controller",
+      "tts_text": "controller"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "level",
+      "tts_text": "level"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "play time",
+      "tts_text": "play time"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "computer",
+      "tts_text": "computer"
     }
   ]
 }

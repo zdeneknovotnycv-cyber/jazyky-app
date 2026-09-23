@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich warte an der Bushaltestelle.",
       "tts_text": "Ich warte an der Bushaltestelle."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bus",
+      "tts_text": "der Bus"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Bushaltestelle",
+      "tts_text": "die Bushaltestelle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fahrschein",
+      "tts_text": "der Fahrschein"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Busfahrer",
+      "tts_text": "der Busfahrer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Sitzplatz",
+      "tts_text": "der Sitzplatz"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "einsteigen",
+      "tts_text": "einsteigen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "aussteigen",
+      "tts_text": "aussteigen"
     }
   ]
 }

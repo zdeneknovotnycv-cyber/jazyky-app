@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "My bed is soft.",
       "tts_text": "My bed is soft."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bed",
+      "tts_text": "bed"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wardrobe",
+      "tts_text": "wardrobe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pillow",
+      "tts_text": "pillow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "blanket",
+      "tts_text": "blanket"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "desk",
+      "tts_text": "desk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lamp",
+      "tts_text": "lamp"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shelf",
+      "tts_text": "shelf"
     }
   ]
 }

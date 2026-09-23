@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We cook in the kitchen.",
       "tts_text": "We cook in the kitchen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "kitchen",
+      "tts_text": "kitchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bedroom",
+      "tts_text": "bedroom"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bathroom",
+      "tts_text": "bathroom"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "living room",
+      "tts_text": "living room"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hallway",
+      "tts_text": "hallway"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "garage",
+      "tts_text": "garage"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stairs",
+      "tts_text": "stairs"
     }
   ]
 }

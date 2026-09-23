@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The milk is in the fridge.",
       "tts_text": "The milk is in the fridge."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "plate",
+      "tts_text": "plate"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "spoon",
+      "tts_text": "spoon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fork",
+      "tts_text": "fork"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "glass",
+      "tts_text": "glass"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fridge",
+      "tts_text": "fridge"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pot",
+      "tts_text": "pot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "table",
+      "tts_text": "table"
     }
   ]
 }

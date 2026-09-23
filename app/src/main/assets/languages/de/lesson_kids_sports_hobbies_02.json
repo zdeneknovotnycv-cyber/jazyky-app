@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Ich kann gut schwimmen.",
       "tts_text": "Ich kann gut schwimmen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schwimmen",
+      "tts_text": "schwimmen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schwimmbad",
+      "tts_text": "das Schwimmbad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Wasser",
+      "tts_text": "das Wasser"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tauchen",
+      "tts_text": "tauchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schweben",
+      "tts_text": "schweben"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schwimmkurs",
+      "tts_text": "der Schwimmkurs"
     }
   ]
 }

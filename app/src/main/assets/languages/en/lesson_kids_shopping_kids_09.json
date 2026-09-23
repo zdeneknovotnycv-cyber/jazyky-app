@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I tie my shoe laces.",
       "tts_text": "I tie my shoe laces."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shoe shop",
+      "tts_text": "shoe shop"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "size",
+      "tts_text": "size"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "try on",
+      "tts_text": "try on"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "comfortable",
+      "tts_text": "comfortable"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tight",
+      "tts_text": "tight"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "color",
+      "tts_text": "color"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "laces",
+      "tts_text": "laces"
     }
   ]
 }

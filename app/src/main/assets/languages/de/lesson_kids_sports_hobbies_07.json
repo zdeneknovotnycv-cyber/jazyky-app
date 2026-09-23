@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Ich lese ein neues Buch.",
       "tts_text": "Ich lese ein neues Buch."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Buch",
+      "tts_text": "das Buch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Geschichte",
+      "tts_text": "die Geschichte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Seite",
+      "tts_text": "die Seite"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lesen",
+      "tts_text": "lesen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Bücherei",
+      "tts_text": "die Bücherei"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Figur",
+      "tts_text": "die Figur"
     }
   ]
 }

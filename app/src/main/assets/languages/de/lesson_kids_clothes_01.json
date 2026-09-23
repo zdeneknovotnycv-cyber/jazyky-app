@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich ziehe meine Jacke an.",
       "tts_text": "Ich ziehe meine Jacke an."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das T-Shirt",
+      "tts_text": "das T-Shirt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Hose",
+      "tts_text": "die Hose"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Pullover",
+      "tts_text": "der Pullover"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Kleid",
+      "tts_text": "das Kleid"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Socken",
+      "tts_text": "die Socken"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Jacke",
+      "tts_text": "die Jacke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kleidung",
+      "tts_text": "die Kleidung"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Pilot fliegt das Flugzeug.",
       "tts_text": "Der Pilot fliegt das Flugzeug."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Flugzeug",
+      "tts_text": "das Flugzeug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Flughafen",
+      "tts_text": "der Flughafen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Pilot",
+      "tts_text": "der Pilot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Flügel",
+      "tts_text": "der Flügel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Koffer",
+      "tts_text": "der Koffer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "starten",
+      "tts_text": "starten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "landen",
+      "tts_text": "landen"
     }
   ]
 }

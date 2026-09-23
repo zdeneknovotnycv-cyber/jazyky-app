@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Let's play hide and seek.",
       "tts_text": "Let's play hide and seek."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hide and seek",
+      "tts_text": "hide and seek"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tag",
+      "tts_text": "tag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "jump rope",
+      "tts_text": "jump rope"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swing",
+      "tts_text": "swing"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "slide",
+      "tts_text": "slide"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "run",
+      "tts_text": "run"
     }
   ]
 }

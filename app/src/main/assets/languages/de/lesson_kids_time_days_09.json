@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Welches Datum haben wir heute?",
       "tts_text": "Welches Datum haben wir heute?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kalender",
+      "tts_text": "der Kalender"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Datum",
+      "tts_text": "das Datum"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Woche",
+      "tts_text": "die Woche"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der freie Tag",
+      "tts_text": "der freie Tag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das heutige Datum",
+      "tts_text": "das heutige Datum"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Geburtstag",
+      "tts_text": "der Geburtstag"
     }
   ]
 }

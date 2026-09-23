@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I want to hide behind mom.",
       "tts_text": "I want to hide behind mom."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shy",
+      "tts_text": "shy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "quiet",
+      "tts_text": "quiet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "blush",
+      "tts_text": "blush"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hide",
+      "tts_text": "hide"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "new friend",
+      "tts_text": "new friend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brave step",
+      "tts_text": "brave step"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "smile back",
+      "tts_text": "smile back"
     }
   ]
 }

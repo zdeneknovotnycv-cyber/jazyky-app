@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Die Kassiererin gibt mir die Quittung.",
       "tts_text": "Die Kassiererin gibt mir die Quittung."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Spielzeugladen",
+      "tts_text": "der Spielzeugladen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Regal",
+      "tts_text": "das Regal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Puppe",
+      "tts_text": "die Puppe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Puzzle",
+      "tts_text": "das Puzzle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "teuer",
+      "tts_text": "teuer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "auswählen",
+      "tts_text": "auswählen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kassiererin",
+      "tts_text": "die Kassiererin"
     }
   ]
 }

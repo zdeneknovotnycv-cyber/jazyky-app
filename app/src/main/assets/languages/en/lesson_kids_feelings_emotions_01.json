@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "He has a big smile.",
       "tts_text": "He has a big smile."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "happy",
+      "tts_text": "happy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sad",
+      "tts_text": "sad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "smile",
+      "tts_text": "smile"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cry",
+      "tts_text": "cry"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "laugh",
+      "tts_text": "laugh"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "feeling",
+      "tts_text": "feeling"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hug",
+      "tts_text": "hug"
     }
   ]
 }

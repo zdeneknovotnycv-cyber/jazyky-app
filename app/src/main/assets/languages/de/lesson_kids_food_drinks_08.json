@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich bestelle Hähnchen mit Pommes.",
       "tts_text": "Ich bestelle Hähnchen mit Pommes."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Speisekarte",
+      "tts_text": "die Speisekarte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kellner",
+      "tts_text": "der Kellner"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bestellen",
+      "tts_text": "bestellen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Pommes",
+      "tts_text": "die Pommes"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bitte",
+      "tts_text": "bitte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "danke",
+      "tts_text": "danke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Rechnung",
+      "tts_text": "die Rechnung"
     }
   ]
 }

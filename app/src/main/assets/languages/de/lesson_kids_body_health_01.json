@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wasch deine Hände.",
       "tts_text": "Wasch deine Hände."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Hand",
+      "tts_text": "die Hand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Bein",
+      "tts_text": "das Bein"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kopf",
+      "tts_text": "der Kopf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Auge",
+      "tts_text": "das Auge"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Ohr",
+      "tts_text": "das Ohr"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Nase",
+      "tts_text": "die Nase"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Mund",
+      "tts_text": "der Mund"
     }
   ]
 }

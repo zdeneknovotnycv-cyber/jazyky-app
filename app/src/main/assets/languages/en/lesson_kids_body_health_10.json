@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Put a band-aid on the cut.",
       "tts_text": "Put a band-aid on the cut."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "band-aid",
+      "tts_text": "band-aid"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cut",
+      "tts_text": "cut"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bandage",
+      "tts_text": "bandage"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ice pack",
+      "tts_text": "ice pack"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "help",
+      "tts_text": "help"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fall down",
+      "tts_text": "fall down"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "careful",
+      "tts_text": "careful"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir reden über unseren Tag.",
       "tts_text": "Wir reden über unseren Tag."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Abendessen",
+      "tts_text": "das Abendessen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Teller",
+      "tts_text": "der Teller"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Suppe",
+      "tts_text": "die Suppe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Gabel",
+      "tts_text": "die Gabel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Familie",
+      "tts_text": "die Familie"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lecker",
+      "tts_text": "lecker"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "reden",
+      "tts_text": "reden"
     }
   ]
 }

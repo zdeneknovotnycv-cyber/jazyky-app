@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Dieses hier hat das beste Angebot.",
       "tts_text": "Dieses hier hat das beste Angebot."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Preis",
+      "tts_text": "der Preis"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "billig",
+      "tts_text": "billig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "teuer",
+      "tts_text": "teuer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Rabatt",
+      "tts_text": "der Rabatt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vergleichen",
+      "tts_text": "vergleichen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gleich",
+      "tts_text": "gleich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das beste Angebot",
+      "tts_text": "das beste Angebot"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We sit at the table together.",
       "tts_text": "We sit at the table together."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "breakfast",
+      "tts_text": "breakfast"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cereal",
+      "tts_text": "cereal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "toast",
+      "tts_text": "toast"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "milk",
+      "tts_text": "milk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "egg",
+      "tts_text": "egg"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hungry",
+      "tts_text": "hungry"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "table",
+      "tts_text": "table"
     }
   ]
 }

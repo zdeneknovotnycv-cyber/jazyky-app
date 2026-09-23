@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich mag meine schwarzen Schuhe.",
       "tts_text": "Ich mag meine schwarzen Schuhe."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das rote Hemd",
+      "tts_text": "das rote Hemd"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die blaue Jeans",
+      "tts_text": "die blaue Jeans"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das gelbe Kleid",
+      "tts_text": "das gelbe Kleid"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die grüne Mütze",
+      "tts_text": "die grüne Mütze"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die weißen Socken",
+      "tts_text": "die weißen Socken"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die schwarzen Schuhe",
+      "tts_text": "die schwarzen Schuhe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Lieblingsfarbe",
+      "tts_text": "die Lieblingsfarbe"
     }
   ]
 }

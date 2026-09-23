@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I wash my hands before eating.",
       "tts_text": "I wash my hands before eating."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wash hands",
+      "tts_text": "wash hands"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "soap",
+      "tts_text": "soap"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shower",
+      "tts_text": "shower"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "towel",
+      "tts_text": "towel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "comb hair",
+      "tts_text": "comb hair"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "clean",
+      "tts_text": "clean"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brush teeth",
+      "tts_text": "brush teeth"
     }
   ]
 }

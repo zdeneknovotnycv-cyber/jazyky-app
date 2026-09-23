@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich helfe, die Kleidung zu falten.",
       "tts_text": "Ich helfe, die Kleidung zu falten."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Waschmaschine",
+      "tts_text": "die Waschmaschine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schmutzig",
+      "tts_text": "schmutzig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sauber",
+      "tts_text": "sauber"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "aufhängen",
+      "tts_text": "aufhängen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wäschekorb",
+      "tts_text": "der Wäschekorb"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Bügeleisen",
+      "tts_text": "das Bügeleisen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "falten",
+      "tts_text": "falten"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Christmas is a family gathering.",
       "tts_text": "Christmas is a family gathering."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Christmas",
+      "tts_text": "Christmas"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Christmas tree",
+      "tts_text": "Christmas tree"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "present",
+      "tts_text": "present"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "snow",
+      "tts_text": "snow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "carol",
+      "tts_text": "carol"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "candle",
+      "tts_text": "candle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "family gathering",
+      "tts_text": "family gathering"
     }
   ]
 }

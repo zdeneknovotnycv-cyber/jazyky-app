@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We walk in the forest.",
       "tts_text": "We walk in the forest."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tree",
+      "tts_text": "tree"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "forest",
+      "tts_text": "forest"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "leaf",
+      "tts_text": "leaf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "branch",
+      "tts_text": "branch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "roots",
+      "tts_text": "roots"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "squirrel",
+      "tts_text": "squirrel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shade",
+      "tts_text": "shade"
     }
   ]
 }

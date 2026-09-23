@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I eat an apple every day.",
       "tts_text": "I eat an apple every day."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "apple",
+      "tts_text": "apple"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "banana",
+      "tts_text": "banana"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "orange",
+      "tts_text": "orange"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "strawberry",
+      "tts_text": "strawberry"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grapes",
+      "tts_text": "grapes"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pear",
+      "tts_text": "pear"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fruit salad",
+      "tts_text": "fruit salad"
     }
   ]
 }

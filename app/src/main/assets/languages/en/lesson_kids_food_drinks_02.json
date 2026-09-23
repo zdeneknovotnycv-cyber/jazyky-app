@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We eat lunch at school.",
       "tts_text": "We eat lunch at school."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lunch",
+      "tts_text": "lunch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "soup",
+      "tts_text": "soup"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sandwich",
+      "tts_text": "sandwich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rice",
+      "tts_text": "rice"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "chicken",
+      "tts_text": "chicken"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "salad",
+      "tts_text": "salad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pasta",
+      "tts_text": "pasta"
     }
   ]
 }

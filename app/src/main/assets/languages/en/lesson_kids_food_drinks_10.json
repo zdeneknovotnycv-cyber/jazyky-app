@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "My favorite food is pasta.",
       "tts_text": "My favorite food is pasta."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I like",
+      "tts_text": "I like"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "I don't like",
+      "tts_text": "I don't like"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "favorite food",
+      "tts_text": "favorite food"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "delicious",
+      "tts_text": "delicious"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "yucky",
+      "tts_text": "yucky"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "try",
+      "tts_text": "try"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hungry",
+      "tts_text": "hungry"
     }
   ]
 }

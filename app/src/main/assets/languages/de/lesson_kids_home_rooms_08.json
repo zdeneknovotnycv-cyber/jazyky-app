@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich mag unser neues Zuhause.",
       "tts_text": "Ich mag unser neues Zuhause."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "umziehen",
+      "tts_text": "umziehen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Karton",
+      "tts_text": "der Karton"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das neue Zuhause",
+      "tts_text": "das neue Zuhause"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Lastwagen",
+      "tts_text": "der Lastwagen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "auspacken",
+      "tts_text": "auspacken"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das neue Zimmer",
+      "tts_text": "das neue Zimmer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich verabschieden",
+      "tts_text": "sich verabschieden"
     }
   ]
 }

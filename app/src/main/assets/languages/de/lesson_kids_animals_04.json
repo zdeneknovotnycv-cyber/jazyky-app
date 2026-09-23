@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Panda frisst Bambus.",
       "tts_text": "Der Panda frisst Bambus."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Zoo",
+      "tts_text": "der Zoo"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Giraffe",
+      "tts_text": "die Giraffe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Zebra",
+      "tts_text": "das Zebra"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Panda",
+      "tts_text": "der Panda"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Krokodil",
+      "tts_text": "das Krokodil"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Käfig",
+      "tts_text": "der Käfig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Tierpfleger",
+      "tts_text": "der Tierpfleger"
     }
   ]
 }

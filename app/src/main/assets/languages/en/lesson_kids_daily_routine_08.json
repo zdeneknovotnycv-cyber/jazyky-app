@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "After the bath I feel clean.",
       "tts_text": "After the bath I feel clean."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bath",
+      "tts_text": "bath"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "soap",
+      "tts_text": "soap"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "towel",
+      "tts_text": "towel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "warm water",
+      "tts_text": "warm water"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shampoo",
+      "tts_text": "shampoo"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "duck toy",
+      "tts_text": "duck toy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "clean",
+      "tts_text": "clean"
     }
   ]
 }

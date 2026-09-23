@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Ich baue einen Turm aus Bausteinen.",
       "tts_text": "Ich baue einen Turm aus Bausteinen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Bausteine",
+      "tts_text": "die Bausteine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Turm",
+      "tts_text": "der Turm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bauen",
+      "tts_text": "bauen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Stein",
+      "tts_text": "der Stein"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "umfallen",
+      "tts_text": "umfallen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schloss",
+      "tts_text": "das Schloss"
     }
   ]
 }

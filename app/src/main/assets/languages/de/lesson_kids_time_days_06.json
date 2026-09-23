@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Im Sommer schwimmen wir.",
       "tts_text": "Im Sommer schwimmen wir."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Frühling",
+      "tts_text": "der Frühling"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Sommer",
+      "tts_text": "der Sommer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Herbst",
+      "tts_text": "der Herbst"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Winter",
+      "tts_text": "der Winter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Jahreszeit",
+      "tts_text": "die Jahreszeit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Jahr",
+      "tts_text": "das Jahr"
     }
   ]
 }

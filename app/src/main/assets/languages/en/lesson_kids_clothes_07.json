@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "My uniform is always neat.",
       "tts_text": "My uniform is always neat."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "uniform",
+      "tts_text": "uniform"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shirt",
+      "tts_text": "shirt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tie",
+      "tts_text": "tie"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "skirt",
+      "tts_text": "skirt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "badge",
+      "tts_text": "badge"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "neat",
+      "tts_text": "neat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wear",
+      "tts_text": "wear"
     }
   ]
 }

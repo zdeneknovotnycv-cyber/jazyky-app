@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We swim in the lake.",
       "tts_text": "We swim in the lake."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "river",
+      "tts_text": "river"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lake",
+      "tts_text": "lake"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bridge",
+      "tts_text": "bridge"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fish",
+      "tts_text": "fish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "boat trip",
+      "tts_text": "boat trip"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "frog",
+      "tts_text": "frog"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "clear water",
+      "tts_text": "clear water"
     }
   ]
 }

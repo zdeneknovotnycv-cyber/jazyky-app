@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich verbringe gern Zeit in der Natur.",
       "tts_text": "Ich verbringe gern Zeit in der Natur."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Spaziergang",
+      "tts_text": "der Spaziergang"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Natur",
+      "tts_text": "die Natur"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die frische Luft",
+      "tts_text": "die frische Luft"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Fußspur",
+      "tts_text": "die Fußspur"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zuhören",
+      "tts_text": "zuhören"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sammeln",
+      "tts_text": "sammeln"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ruhig",
+      "tts_text": "ruhig"
     }
   ]
 }

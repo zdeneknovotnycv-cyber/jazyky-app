@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I like my black shoes.",
       "tts_text": "I like my black shoes."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "red shirt",
+      "tts_text": "red shirt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "blue jeans",
+      "tts_text": "blue jeans"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "yellow dress",
+      "tts_text": "yellow dress"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "green hat",
+      "tts_text": "green hat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "white socks",
+      "tts_text": "white socks"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "black shoes",
+      "tts_text": "black shoes"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "favorite color",
+      "tts_text": "favorite color"
     }
   ]
 }

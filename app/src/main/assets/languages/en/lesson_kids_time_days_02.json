@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "My birthday is in January.",
       "tts_text": "My birthday is in January."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "January",
+      "tts_text": "January"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "April",
+      "tts_text": "April"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "July",
+      "tts_text": "July"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "October",
+      "tts_text": "October"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "December",
+      "tts_text": "December"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "month",
+      "tts_text": "month"
     }
   ]
 }

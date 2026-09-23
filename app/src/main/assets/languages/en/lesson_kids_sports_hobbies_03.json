@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "I ride my bicycle to the park.",
       "tts_text": "I ride my bicycle to the park."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bicycle",
+      "tts_text": "bicycle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "helmet",
+      "tts_text": "helmet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pedal",
+      "tts_text": "pedal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wheel",
+      "tts_text": "wheel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fall off",
+      "tts_text": "fall off"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "training wheels",
+      "tts_text": "training wheels"
     }
   ]
 }

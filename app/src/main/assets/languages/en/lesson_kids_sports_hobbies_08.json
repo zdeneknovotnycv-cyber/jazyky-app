@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "I like to run in the park.",
       "tts_text": "I like to run in the park."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "run",
+      "tts_text": "run"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "outside",
+      "tts_text": "outside"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "jump",
+      "tts_text": "jump"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fast",
+      "tts_text": "fast"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fresh air",
+      "tts_text": "fresh air"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "energy",
+      "tts_text": "energy"
     }
   ]
 }

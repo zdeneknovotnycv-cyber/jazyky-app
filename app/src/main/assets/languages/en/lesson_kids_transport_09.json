@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I sit in my car seat.",
       "tts_text": "I sit in my car seat."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ride",
+      "tts_text": "ride"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pick up",
+      "tts_text": "pick up"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "car seat",
+      "tts_text": "car seat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wait",
+      "tts_text": "wait"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "thank you",
+      "tts_text": "thank you"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "buckle up",
+      "tts_text": "buckle up"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "on time",
+      "tts_text": "on time"
     }
   ]
 }

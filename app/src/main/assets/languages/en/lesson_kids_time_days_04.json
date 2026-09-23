@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "We watch TV in the evening.",
       "tts_text": "We watch TV in the evening."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "morning",
+      "tts_text": "morning"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "afternoon",
+      "tts_text": "afternoon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "evening",
+      "tts_text": "evening"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "night",
+      "tts_text": "night"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Good morning!",
+      "tts_text": "Good morning!"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Good night!",
+      "tts_text": "Good night!"
     }
   ]
 }

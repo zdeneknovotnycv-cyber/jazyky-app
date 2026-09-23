@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I eat breakfast at seven.",
       "tts_text": "I eat breakfast at seven."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "breakfast",
+      "tts_text": "breakfast"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bread",
+      "tts_text": "bread"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "egg",
+      "tts_text": "egg"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "milk",
+      "tts_text": "milk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cereal",
+      "tts_text": "cereal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "jam",
+      "tts_text": "jam"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "butter",
+      "tts_text": "butter"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Elefant ist sehr groß.",
       "tts_text": "Der Elefant ist sehr groß."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Zoo",
+      "tts_text": "der Zoo"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Löwe",
+      "tts_text": "der Löwe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Elefant",
+      "tts_text": "der Elefant"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Käfig",
+      "tts_text": "der Käfig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "füttern",
+      "tts_text": "füttern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Affe",
+      "tts_text": "der Affe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Eintrittskarte",
+      "tts_text": "die Eintrittskarte"
     }
   ]
 }

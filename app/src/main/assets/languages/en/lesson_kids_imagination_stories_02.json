@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Everything starts to sparkle.",
       "tts_text": "Everything starts to sparkle."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "forest",
+      "tts_text": "forest"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "magic",
+      "tts_text": "magic"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fairy",
+      "tts_text": "fairy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "path",
+      "tts_text": "path"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tree",
+      "tts_text": "tree"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "secret",
+      "tts_text": "secret"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sparkle",
+      "tts_text": "sparkle"
     }
   ]
 }

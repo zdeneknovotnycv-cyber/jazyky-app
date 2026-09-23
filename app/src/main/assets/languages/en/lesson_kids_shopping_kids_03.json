@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Mom has a shopping list.",
       "tts_text": "Mom has a shopping list."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "school supplies",
+      "tts_text": "school supplies"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "notebook",
+      "tts_text": "notebook"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pencil case",
+      "tts_text": "pencil case"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "eraser",
+      "tts_text": "eraser"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "crayons",
+      "tts_text": "crayons"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ruler",
+      "tts_text": "ruler"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "list",
+      "tts_text": "list"
     }
   ]
 }

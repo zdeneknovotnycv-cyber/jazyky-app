@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich habe eine Sternschnuppe gesehen!",
       "tts_text": "Ich habe eine Sternschnuppe gesehen!"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Stern",
+      "tts_text": "der Stern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Himmel",
+      "tts_text": "der Himmel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Wolke",
+      "tts_text": "die Wolke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dunkel",
+      "tts_text": "dunkel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wunsch",
+      "tts_text": "der Wunsch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Teleskop",
+      "tts_text": "das Teleskop"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Sternschnuppe",
+      "tts_text": "die Sternschnuppe"
     }
   ]
 }

@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Wir spielen am Strand.",
       "tts_text": "Wir spielen am Strand."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Strand",
+      "tts_text": "der Strand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Meer",
+      "tts_text": "das Meer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Badeanzug",
+      "tts_text": "der Badeanzug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Sand",
+      "tts_text": "der Sand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "heiß",
+      "tts_text": "heiß"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Eis",
+      "tts_text": "das Eis"
     }
   ]
 }

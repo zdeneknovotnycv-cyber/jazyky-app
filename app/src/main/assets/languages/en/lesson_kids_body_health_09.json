@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I exercise every morning.",
       "tts_text": "I exercise every morning."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "exercise",
+      "tts_text": "exercise"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "run",
+      "tts_text": "run"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "jump",
+      "tts_text": "jump"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stretch",
+      "tts_text": "stretch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "strong",
+      "tts_text": "strong"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "play outside",
+      "tts_text": "play outside"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "energy",
+      "tts_text": "energy"
     }
   ]
 }

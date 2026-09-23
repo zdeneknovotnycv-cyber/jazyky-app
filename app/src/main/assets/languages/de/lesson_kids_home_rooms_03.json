@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Die Milch ist im Kühlschrank.",
       "tts_text": "Die Milch ist im Kühlschrank."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Teller",
+      "tts_text": "der Teller"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Löffel",
+      "tts_text": "der Löffel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Gabel",
+      "tts_text": "die Gabel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Glas",
+      "tts_text": "das Glas"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kühlschrank",
+      "tts_text": "der Kühlschrank"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Topf",
+      "tts_text": "der Topf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Tisch",
+      "tts_text": "der Tisch"
     }
   ]
 }

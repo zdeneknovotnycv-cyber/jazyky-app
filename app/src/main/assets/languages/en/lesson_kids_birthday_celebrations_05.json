@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "It gets dark early in autumn.",
       "tts_text": "It gets dark early in autumn."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Halloween",
+      "tts_text": "Halloween"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "costume",
+      "tts_text": "costume"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pumpkin",
+      "tts_text": "pumpkin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ghost",
+      "tts_text": "ghost"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "candy",
+      "tts_text": "candy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "trick or treat",
+      "tts_text": "trick or treat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dark",
+      "tts_text": "dark"
     }
   ]
 }

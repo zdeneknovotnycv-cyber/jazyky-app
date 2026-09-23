@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Schmetterling ist bunt.",
       "tts_text": "Der Schmetterling ist bunt."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Insekt",
+      "tts_text": "das Insekt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Biene",
+      "tts_text": "die Biene"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schmetterling",
+      "tts_text": "der Schmetterling"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Ameise",
+      "tts_text": "die Ameise"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Spinne",
+      "tts_text": "die Spinne"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Marienkäfer",
+      "tts_text": "der Marienkäfer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Fliege",
+      "tts_text": "die Fliege"
     }
   ]
 }

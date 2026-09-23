@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The sky is blue.",
       "tts_text": "The sky is blue."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "red",
+      "tts_text": "red"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "blue",
+      "tts_text": "blue"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "yellow",
+      "tts_text": "yellow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "green",
+      "tts_text": "green"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "orange",
+      "tts_text": "orange"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "purple",
+      "tts_text": "purple"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pink",
+      "tts_text": "pink"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Blasen steigen zur Oberfläche auf.",
       "tts_text": "Blasen steigen zur Oberfläche auf."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Meer",
+      "tts_text": "das Meer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fisch",
+      "tts_text": "der Fisch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Meerjungfrau",
+      "tts_text": "die Meerjungfrau"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Korallenriff",
+      "tts_text": "das Korallenriff"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schatz",
+      "tts_text": "der Schatz"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Hai",
+      "tts_text": "der Hai"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Blase",
+      "tts_text": "die Blase"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I pretend to be a pirate.",
       "tts_text": "I pretend to be a pirate."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "costume",
+      "tts_text": "costume"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mask",
+      "tts_text": "mask"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cape",
+      "tts_text": "cape"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "crown",
+      "tts_text": "crown"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wig",
+      "tts_text": "wig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pretend",
+      "tts_text": "pretend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dress-up party",
+      "tts_text": "dress-up party"
     }
   ]
 }

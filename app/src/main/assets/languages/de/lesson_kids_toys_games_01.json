@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Das ist mein Lieblingsspielzeug.",
       "tts_text": "Das ist mein Lieblingsspielzeug."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Spielzeug",
+      "tts_text": "das Spielzeug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Teddybär",
+      "tts_text": "der Teddybär"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Ball",
+      "tts_text": "der Ball"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Auto",
+      "tts_text": "das Auto"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Roboter",
+      "tts_text": "der Roboter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "spielen",
+      "tts_text": "spielen"
     }
   ]
 }

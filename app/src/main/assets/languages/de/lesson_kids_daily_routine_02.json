@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich möchte pünktlich in der Schule sein.",
       "tts_text": "Ich möchte pünktlich in der Schule sein."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich anziehen",
+      "tts_text": "sich anziehen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schuluniform",
+      "tts_text": "die Schuluniform"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schulranzen",
+      "tts_text": "der Schulranzen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Haare kämmen",
+      "tts_text": "die Haare kämmen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schuhe",
+      "tts_text": "die Schuhe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich beeilen",
+      "tts_text": "sich beeilen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pünktlich",
+      "tts_text": "pünktlich"
     }
   ]
 }

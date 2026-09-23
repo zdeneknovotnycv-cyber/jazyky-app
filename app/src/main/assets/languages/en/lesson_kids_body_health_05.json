@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The dentist checks my teeth.",
       "tts_text": "The dentist checks my teeth."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dentist",
+      "tts_text": "dentist"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tooth",
+      "tts_text": "tooth"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "toothbrush",
+      "tts_text": "toothbrush"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "toothpaste",
+      "tts_text": "toothpaste"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cavity",
+      "tts_text": "cavity"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "open wide",
+      "tts_text": "open wide"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brave",
+      "tts_text": "brave"
     }
   ]
 }

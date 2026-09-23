@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir putzen das Haus am Samstag.",
       "tts_text": "Wir putzen das Haus am Samstag."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "putzen",
+      "tts_text": "putzen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Staubsauger",
+      "tts_text": "der Staubsauger"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Besen",
+      "tts_text": "der Besen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "aufräumen",
+      "tts_text": "aufräumen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Staub",
+      "tts_text": "der Staub"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Müll",
+      "tts_text": "der Müll"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Geschirr spülen",
+      "tts_text": "Geschirr spülen"
     }
   ]
 }

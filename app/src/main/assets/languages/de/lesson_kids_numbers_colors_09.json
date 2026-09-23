@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir stehen in einer Reihe.",
       "tts_text": "Wir stehen in einer Reihe."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "erster",
+      "tts_text": "erster"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zweiter",
+      "tts_text": "zweiter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dritter",
+      "tts_text": "dritter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vierter",
+      "tts_text": "vierter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fünfter",
+      "tts_text": "fünfter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "letzter",
+      "tts_text": "letzter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Reihe",
+      "tts_text": "die Reihe"
     }
   ]
 }

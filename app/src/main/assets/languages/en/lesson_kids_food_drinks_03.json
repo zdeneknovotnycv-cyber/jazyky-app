@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We eat dinner together.",
       "tts_text": "We eat dinner together."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dinner",
+      "tts_text": "dinner"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "potatoes",
+      "tts_text": "potatoes"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "meat",
+      "tts_text": "meat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fish",
+      "tts_text": "fish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vegetables",
+      "tts_text": "vegetables"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bread roll",
+      "tts_text": "bread roll"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "family dinner",
+      "tts_text": "family dinner"
     }
   ]
 }

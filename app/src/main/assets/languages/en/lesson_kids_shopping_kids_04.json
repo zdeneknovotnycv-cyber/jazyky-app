@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I don't have enough money yet.",
       "tts_text": "I don't have enough money yet."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pocket money",
+      "tts_text": "pocket money"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "save",
+      "tts_text": "save"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "coin",
+      "tts_text": "coin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "piggy bank",
+      "tts_text": "piggy bank"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "spend",
+      "tts_text": "spend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "earn",
+      "tts_text": "earn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "enough",
+      "tts_text": "enough"
     }
   ]
 }

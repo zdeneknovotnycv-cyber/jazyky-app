@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "What is your favorite subject?",
       "tts_text": "What is your favorite subject?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "math",
+      "tts_text": "math"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "English",
+      "tts_text": "English"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "art",
+      "tts_text": "art"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "music",
+      "tts_text": "music"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "science",
+      "tts_text": "science"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "physical education",
+      "tts_text": "physical education"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "favorite subject",
+      "tts_text": "favorite subject"
     }
   ]
 }

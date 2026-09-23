@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich schlafe die ganze Nacht.",
       "tts_text": "Ich schlafe die ganze Nacht."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schlafenszeit",
+      "tts_text": "die Schlafenszeit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schlafanzug",
+      "tts_text": "der Schlafanzug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Zähne putzen",
+      "tts_text": "Zähne putzen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Geschichte",
+      "tts_text": "die Geschichte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gute Nacht",
+      "tts_text": "gute Nacht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Decke",
+      "tts_text": "die Decke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schlafen",
+      "tts_text": "schlafen"
     }
   ]
 }

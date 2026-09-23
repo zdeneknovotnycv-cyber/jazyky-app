@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Welche Größe hat diese Kiste?",
       "tts_text": "Welche Größe hat diese Kiste?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "groß",
+      "tts_text": "groß"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "klein",
+      "tts_text": "klein"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hoch",
+      "tts_text": "hoch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "niedrig",
+      "tts_text": "niedrig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schwer",
+      "tts_text": "schwer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "leicht",
+      "tts_text": "leicht"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Größe",
+      "tts_text": "die Größe"
     }
   ]
 }

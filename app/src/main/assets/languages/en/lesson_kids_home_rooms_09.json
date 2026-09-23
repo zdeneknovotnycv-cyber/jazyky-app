@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "This is my room.",
       "tts_text": "This is my room."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "my room",
+      "tts_text": "my room"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "toys",
+      "tts_text": "toys"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "poster",
+      "tts_text": "poster"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "window",
+      "tts_text": "window"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "door",
+      "tts_text": "door"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mess",
+      "tts_text": "mess"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "favorite corner",
+      "tts_text": "favorite corner"
     }
   ]
 }

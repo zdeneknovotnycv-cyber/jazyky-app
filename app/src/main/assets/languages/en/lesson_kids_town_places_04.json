@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We build castles in the sandbox.",
       "tts_text": "We build castles in the sandbox."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "playground",
+      "tts_text": "playground"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "slide",
+      "tts_text": "slide"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sandbox",
+      "tts_text": "sandbox"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "climb",
+      "tts_text": "climb"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "seesaw",
+      "tts_text": "seesaw"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "friend",
+      "tts_text": "friend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "have fun",
+      "tts_text": "have fun"
     }
   ]
 }

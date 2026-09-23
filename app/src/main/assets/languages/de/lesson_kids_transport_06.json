@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich schaue nach beiden Seiten, bevor ich gehe.",
       "tts_text": "Ich schaue nach beiden Seiten, bevor ich gehe."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Gehweg",
+      "tts_text": "der Gehweg"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Zebrastreifen",
+      "tts_text": "der Zebrastreifen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schulranzen",
+      "tts_text": "der Schulranzen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "früh",
+      "tts_text": "früh"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nach beiden Seiten schauen",
+      "tts_text": "nach beiden Seiten schauen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zusammen",
+      "tts_text": "zusammen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Straße",
+      "tts_text": "die Straße"
     }
   ]
 }

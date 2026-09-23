@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "He is angry about the broken toy.",
       "tts_text": "He is angry about the broken toy."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "angry",
+      "tts_text": "angry"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "calm",
+      "tts_text": "calm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shout",
+      "tts_text": "shout"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "deep breath",
+      "tts_text": "deep breath"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "frustrated",
+      "tts_text": "frustrated"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cool down",
+      "tts_text": "cool down"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "patient",
+      "tts_text": "patient"
     }
   ]
 }

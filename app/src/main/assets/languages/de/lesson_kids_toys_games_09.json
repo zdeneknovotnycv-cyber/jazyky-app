@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Danke für das Geschenk!",
       "tts_text": "Danke für das Geschenk!"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Geschenk",
+      "tts_text": "das Geschenk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "einpacken",
+      "tts_text": "einpacken"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "öffnen",
+      "tts_text": "öffnen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Überraschung",
+      "tts_text": "die Überraschung"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Danke!",
+      "tts_text": "Danke!"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schleife",
+      "tts_text": "die Schleife"
     }
   ]
 }

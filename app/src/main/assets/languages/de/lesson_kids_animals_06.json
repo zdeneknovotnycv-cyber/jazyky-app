@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Pinguin kann nicht fliegen.",
       "tts_text": "Der Pinguin kann nicht fliegen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Vogel",
+      "tts_text": "der Vogel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Eule",
+      "tts_text": "die Eule"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Papagei",
+      "tts_text": "der Papagei"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Adler",
+      "tts_text": "der Adler"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Pinguin",
+      "tts_text": "der Pinguin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Nest",
+      "tts_text": "das Nest"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Flügel",
+      "tts_text": "der Flügel"
     }
   ]
 }

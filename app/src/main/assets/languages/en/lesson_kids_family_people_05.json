@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "My birthday is in May.",
       "tts_text": "My birthday is in May."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "How old are you?",
+      "tts_text": "How old are you?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "years old",
+      "tts_text": "years old"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "birthday",
+      "tts_text": "birthday"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cake",
+      "tts_text": "cake"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "candles",
+      "tts_text": "candles"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "present",
+      "tts_text": "present"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "celebrate",
+      "tts_text": "celebrate"
     }
   ]
 }

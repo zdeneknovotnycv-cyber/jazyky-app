@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich sage danke für das Geschenk.",
       "tts_text": "Ich sage danke für das Geschenk."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Geschenk",
+      "tts_text": "das Geschenk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wunsch",
+      "tts_text": "der Wunsch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "einpacken",
+      "tts_text": "einpacken"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schleife",
+      "tts_text": "die Schleife"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Karte",
+      "tts_text": "die Karte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Überraschung",
+      "tts_text": "die Überraschung"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "danke",
+      "tts_text": "danke"
     }
   ]
 }

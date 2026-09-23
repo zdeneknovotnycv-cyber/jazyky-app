@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich möchte mehr Süßigkeiten.",
       "tts_text": "Ich möchte mehr Süßigkeiten."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zählen",
+      "tts_text": "zählen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wie viele",
+      "tts_text": "wie viele"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Äpfel",
+      "tts_text": "die Äpfel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Spielsachen",
+      "tts_text": "die Spielsachen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "alle",
+      "tts_text": "alle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "keine",
+      "tts_text": "keine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mehr",
+      "tts_text": "mehr"
     }
   ]
 }

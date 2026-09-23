@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Ich trage eine Armbanduhr am Handgelenk.",
       "tts_text": "Ich trage eine Armbanduhr am Handgelenk."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Wanduhr",
+      "tts_text": "die Wanduhr"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Armbanduhr",
+      "tts_text": "die Armbanduhr"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Stundenzeiger",
+      "tts_text": "der Stundenzeiger"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Minutenzeiger",
+      "tts_text": "der Minutenzeiger"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wecker",
+      "tts_text": "der Wecker"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Tick-Tack",
+      "tts_text": "Tick-Tack"
     }
   ]
 }

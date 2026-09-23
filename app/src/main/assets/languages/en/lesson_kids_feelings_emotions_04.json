@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I can't wait for the trip.",
       "tts_text": "I can't wait for the trip."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "excited",
+      "tts_text": "excited"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "can't wait",
+      "tts_text": "can't wait"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "jump for joy",
+      "tts_text": "jump for joy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "surprise party",
+      "tts_text": "surprise party"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "thrilled",
+      "tts_text": "thrilled"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "energy",
+      "tts_text": "energy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fun",
+      "tts_text": "fun"
     }
   ]
 }

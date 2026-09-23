@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich habe noch nicht genug Geld.",
       "tts_text": "Ich habe noch nicht genug Geld."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Taschengeld",
+      "tts_text": "das Taschengeld"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sparen",
+      "tts_text": "sparen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Münze",
+      "tts_text": "die Münze"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Sparschwein",
+      "tts_text": "das Sparschwein"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ausgeben",
+      "tts_text": "ausgeben"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "verdienen",
+      "tts_text": "verdienen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "genug",
+      "tts_text": "genug"
     }
   ]
 }

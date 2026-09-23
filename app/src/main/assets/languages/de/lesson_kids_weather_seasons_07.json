@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Schauen wir uns die Wettervorhersage an.",
       "tts_text": "Schauen wir uns die Wettervorhersage an."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Wettervorhersage",
+      "tts_text": "die Wettervorhersage"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "morgen regnet es",
+      "tts_text": "morgen regnet es"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Temperatur",
+      "tts_text": "die Temperatur"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Grad",
+      "tts_text": "das Grad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "windig",
+      "tts_text": "windig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bewölkt",
+      "tts_text": "bewölkt"
     }
   ]
 }

@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Ich komme zu spät zur Schule.",
       "tts_text": "Ich komme zu spät zur Schule."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "spät",
+      "tts_text": "spät"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "früh",
+      "tts_text": "früh"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pünktlich",
+      "tts_text": "pünktlich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Beeil dich!",
+      "tts_text": "Beeil dich!"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "warten",
+      "tts_text": "warten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Ich bin spät dran!",
+      "tts_text": "Ich bin spät dran!"
     }
   ]
 }

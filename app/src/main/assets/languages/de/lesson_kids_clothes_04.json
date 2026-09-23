@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich probiere neue Schuhe an.",
       "tts_text": "Ich probiere neue Schuhe an."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schuhe",
+      "tts_text": "die Schuhe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Turnschuhe",
+      "tts_text": "die Turnschuhe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Hausschuhe",
+      "tts_text": "die Hausschuhe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schnürsenkel",
+      "tts_text": "die Schnürsenkel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Größe",
+      "tts_text": "die Größe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Gummistiefel",
+      "tts_text": "die Gummistiefel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "anprobieren",
+      "tts_text": "anprobieren"
     }
   ]
 }

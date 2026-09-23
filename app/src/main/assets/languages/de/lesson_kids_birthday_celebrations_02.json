@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Weihnachten ist ein Familientreffen.",
       "tts_text": "Weihnachten ist ein Familientreffen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Weihnachten",
+      "tts_text": "Weihnachten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Weihnachtsbaum",
+      "tts_text": "der Weihnachtsbaum"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Geschenk",
+      "tts_text": "das Geschenk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schnee",
+      "tts_text": "der Schnee"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Weihnachtslied",
+      "tts_text": "das Weihnachtslied"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kerze",
+      "tts_text": "die Kerze"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Familientreffen",
+      "tts_text": "das Familientreffen"
     }
   ]
 }

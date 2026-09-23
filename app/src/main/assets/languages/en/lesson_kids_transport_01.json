@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I always wear my seatbelt.",
       "tts_text": "I always wear my seatbelt."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "car",
+      "tts_text": "car"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wheel",
+      "tts_text": "wheel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "seatbelt",
+      "tts_text": "seatbelt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "road",
+      "tts_text": "road"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fast",
+      "tts_text": "fast"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "garage",
+      "tts_text": "garage"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "driver",
+      "tts_text": "driver"
     }
   ]
 }

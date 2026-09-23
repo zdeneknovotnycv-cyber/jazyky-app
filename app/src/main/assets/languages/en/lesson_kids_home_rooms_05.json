@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We watch television together.",
       "tts_text": "We watch television together."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sofa",
+      "tts_text": "sofa"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "television",
+      "tts_text": "television"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "remote control",
+      "tts_text": "remote control"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cartoon",
+      "tts_text": "cartoon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "carpet",
+      "tts_text": "carpet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "curtains",
+      "tts_text": "curtains"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "turn on",
+      "tts_text": "turn on"
     }
   ]
 }

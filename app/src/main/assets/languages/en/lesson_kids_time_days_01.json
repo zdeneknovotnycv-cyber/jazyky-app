@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "On Monday I go to school.",
       "tts_text": "On Monday I go to school."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Monday",
+      "tts_text": "Monday"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Tuesday",
+      "tts_text": "Tuesday"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Wednesday",
+      "tts_text": "Wednesday"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Thursday",
+      "tts_text": "Thursday"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Friday",
+      "tts_text": "Friday"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Saturday",
+      "tts_text": "Saturday"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Sunday",
+      "tts_text": "Sunday"
     }
   ]
 }

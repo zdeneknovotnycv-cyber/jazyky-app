@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We explore the dinosaur world.",
       "tts_text": "We explore the dinosaur world."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dinosaur",
+      "tts_text": "dinosaur"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "jungle",
+      "tts_text": "jungle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "roar",
+      "tts_text": "roar"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "egg",
+      "tts_text": "egg"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "footprint",
+      "tts_text": "footprint"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ancient",
+      "tts_text": "ancient"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "explore",
+      "tts_text": "explore"
     }
   ]
 }

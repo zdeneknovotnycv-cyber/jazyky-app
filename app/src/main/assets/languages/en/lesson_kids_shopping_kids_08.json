@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I help mom carry the bags.",
       "tts_text": "I help mom carry the bags."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shopping list",
+      "tts_text": "shopping list"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "basket",
+      "tts_text": "basket"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bread",
+      "tts_text": "bread"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fruit",
+      "tts_text": "fruit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "forget",
+      "tts_text": "forget"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "aisle",
+      "tts_text": "aisle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "help",
+      "tts_text": "help"
     }
   ]
 }

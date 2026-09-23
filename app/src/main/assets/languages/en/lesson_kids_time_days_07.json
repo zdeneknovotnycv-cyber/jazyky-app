@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "I wake up at seven o'clock.",
       "tts_text": "I wake up at seven o'clock."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wake up",
+      "tts_text": "wake up"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "go to school",
+      "tts_text": "go to school"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "have lunch",
+      "tts_text": "have lunch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "do homework",
+      "tts_text": "do homework"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "go to bed",
+      "tts_text": "go to bed"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schedule",
+      "tts_text": "schedule"
     }
   ]
 }

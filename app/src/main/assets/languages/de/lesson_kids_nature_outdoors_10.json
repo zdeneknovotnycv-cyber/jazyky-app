@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir müssen die Natur schützen.",
       "tts_text": "Wir müssen die Natur schützen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "recyceln",
+      "tts_text": "recyceln"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Mülleimer",
+      "tts_text": "der Mülleimer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Plastik",
+      "tts_text": "das Plastik"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Papier",
+      "tts_text": "das Papier"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schützen",
+      "tts_text": "schützen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sauber",
+      "tts_text": "sauber"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Planet",
+      "tts_text": "der Planet"
     }
   ]
 }

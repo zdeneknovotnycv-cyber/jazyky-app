@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Mein Bleistift ist spitz.",
       "tts_text": "Mein Bleistift ist spitz."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schulbank",
+      "tts_text": "die Schulbank"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Stuhl",
+      "tts_text": "der Stuhl"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Buch",
+      "tts_text": "das Buch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bleistift",
+      "tts_text": "der Bleistift"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Tafel",
+      "tts_text": "die Tafel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schultasche",
+      "tts_text": "die Schultasche"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Radiergummi",
+      "tts_text": "der Radiergummi"
     }
   ]
 }

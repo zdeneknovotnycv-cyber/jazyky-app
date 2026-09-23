@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Our coach is very kind.",
       "tts_text": "Our coach is very kind."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "team sport",
+      "tts_text": "team sport"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "teammate",
+      "tts_text": "teammate"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "coach",
+      "tts_text": "coach"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "practice",
+      "tts_text": "practice"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cheer",
+      "tts_text": "cheer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "match",
+      "tts_text": "match"
     }
   ]
 }

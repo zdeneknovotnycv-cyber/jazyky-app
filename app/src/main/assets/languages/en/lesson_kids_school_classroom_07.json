@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I share my snack with a friend.",
       "tts_text": "I share my snack with a friend."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lunch",
+      "tts_text": "lunch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "canteen",
+      "tts_text": "canteen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tray",
+      "tts_text": "tray"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "soup",
+      "tts_text": "soup"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hungry",
+      "tts_text": "hungry"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "delicious",
+      "tts_text": "delicious"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "share",
+      "tts_text": "share"
     }
   ]
 }

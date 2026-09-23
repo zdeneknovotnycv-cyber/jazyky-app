@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I help my mom with the baby.",
       "tts_text": "I help my mom with the baby."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "baby brother",
+      "tts_text": "baby brother"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "baby sister",
+      "tts_text": "baby sister"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cry",
+      "tts_text": "cry"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "crib",
+      "tts_text": "crib"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bottle",
+      "tts_text": "bottle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stroller",
+      "tts_text": "stroller"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "help",
+      "tts_text": "help"
     }
   ]
 }

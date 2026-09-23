@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich esse im Kino immer Popcorn.",
       "tts_text": "Ich esse im Kino immer Popcorn."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Kino",
+      "tts_text": "das Kino"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Film",
+      "tts_text": "der Film"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Popcorn",
+      "tts_text": "das Popcorn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Leinwand",
+      "tts_text": "die Leinwand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kinokarte",
+      "tts_text": "die Kinokarte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "leise",
+      "tts_text": "leise"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kinosessel",
+      "tts_text": "der Kinosessel"
     }
   ]
 }

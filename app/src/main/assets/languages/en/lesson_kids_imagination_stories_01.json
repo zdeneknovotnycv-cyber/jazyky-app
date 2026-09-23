@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I meet a friendly alien.",
       "tts_text": "I meet a friendly alien."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "spaceship",
+      "tts_text": "spaceship"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "astronaut",
+      "tts_text": "astronaut"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "star",
+      "tts_text": "star"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "planet",
+      "tts_text": "planet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "float",
+      "tts_text": "float"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "moon",
+      "tts_text": "moon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "alien",
+      "tts_text": "alien"
     }
   ]
 }

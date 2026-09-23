@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Meine Mutter ist Ärztin.",
       "tts_text": "Meine Mutter ist Ärztin."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Beruf",
+      "tts_text": "der Beruf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Arzt / die Ärztin",
+      "tts_text": "der Arzt / die Ärztin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Lehrer / die Lehrerin",
+      "tts_text": "der Lehrer / die Lehrerin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fahrer",
+      "tts_text": "der Fahrer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Koch / die Köchin",
+      "tts_text": "der Koch / die Köchin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "arbeiten",
+      "tts_text": "arbeiten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Büro",
+      "tts_text": "das Büro"
     }
   ]
 }

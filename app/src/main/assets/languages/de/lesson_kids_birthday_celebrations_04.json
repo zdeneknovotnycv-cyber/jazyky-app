@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Konfetti fällt auf den Boden.",
       "tts_text": "Konfetti fällt auf den Boden."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Neujahr",
+      "tts_text": "das Neujahr"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Feuerwerk",
+      "tts_text": "das Feuerwerk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Countdown",
+      "tts_text": "der Countdown"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wunsch",
+      "tts_text": "der Wunsch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Uhr",
+      "tts_text": "die Uhr"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "anstoßen",
+      "tts_text": "anstoßen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Konfetti",
+      "tts_text": "das Konfetti"
     }
   ]
 }

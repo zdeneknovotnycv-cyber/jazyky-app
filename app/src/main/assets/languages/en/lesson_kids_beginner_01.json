@@ -67,7 +67,11 @@
     {
       "type": "listen_and_choose",
       "prompt_tts": "mother",
-      "options": ["maminka", "tatínek", "sestra"],
+      "options": [
+        "maminka",
+        "tatínek",
+        "sestra"
+      ],
       "correct": "maminka"
     },
     {
@@ -79,16 +83,68 @@
     {
       "type": "match_pairs",
       "pairs": [
-        {"target": "dog", "cz": "pes"},
-        {"target": "cat", "cz": "kočka"},
-        {"target": "happy", "cz": "šťastný"},
-        {"target": "big", "cz": "velký"}
+        {
+          "target": "dog",
+          "cz": "pes"
+        },
+        {
+          "target": "cat",
+          "cz": "kočka"
+        },
+        {
+          "target": "happy",
+          "cz": "šťastný"
+        },
+        {
+          "target": "big",
+          "cz": "velký"
+        }
       ]
     },
     {
       "type": "speak_and_check",
       "target_phrase": "I have one sister.",
       "tts_text": "I have one sister."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mother",
+      "tts_text": "mother"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "father",
+      "tts_text": "father"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sister",
+      "tts_text": "sister"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brother",
+      "tts_text": "brother"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dog",
+      "tts_text": "dog"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cat",
+      "tts_text": "cat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "happy",
+      "tts_text": "happy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "big",
+      "tts_text": "big"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "What size is this box?",
       "tts_text": "What size is this box?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "big",
+      "tts_text": "big"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "small",
+      "tts_text": "small"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tall",
+      "tts_text": "tall"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "short",
+      "tts_text": "short"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "heavy",
+      "tts_text": "heavy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "light",
+      "tts_text": "light"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "size",
+      "tts_text": "size"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I live on a quiet street.",
       "tts_text": "I live on a quiet street."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "neighborhood",
+      "tts_text": "neighborhood"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "neighbor",
+      "tts_text": "neighbor"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "street",
+      "tts_text": "street"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "building",
+      "tts_text": "building"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "corner shop",
+      "tts_text": "corner shop"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "square",
+      "tts_text": "square"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "familiar",
+      "tts_text": "familiar"
     }
   ]
 }

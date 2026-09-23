@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich möchte mich hinter Mama verstecken.",
       "tts_text": "Ich möchte mich hinter Mama verstecken."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schüchtern",
+      "tts_text": "schüchtern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "still",
+      "tts_text": "still"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "erröten",
+      "tts_text": "erröten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich verstecken",
+      "tts_text": "sich verstecken"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der neue Freund",
+      "tts_text": "der neue Freund"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der mutige Schritt",
+      "tts_text": "der mutige Schritt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zurücklächeln",
+      "tts_text": "zurücklächeln"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Du warst beim Arzt sehr mutig.",
       "tts_text": "Du warst beim Arzt sehr mutig."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ängstlich",
+      "tts_text": "ängstlich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mutig",
+      "tts_text": "mutig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Angst haben",
+      "tts_text": "Angst haben"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Monster",
+      "tts_text": "das Monster"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sicher",
+      "tts_text": "sicher"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Mut",
+      "tts_text": "der Mut"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zittern",
+      "tts_text": "zittern"
     }
   ]
 }

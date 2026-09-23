@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "This is my favorite toy.",
       "tts_text": "This is my favorite toy."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "toy",
+      "tts_text": "toy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "teddy bear",
+      "tts_text": "teddy bear"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ball",
+      "tts_text": "ball"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "car",
+      "tts_text": "car"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "robot",
+      "tts_text": "robot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "play",
+      "tts_text": "play"
     }
   ]
 }

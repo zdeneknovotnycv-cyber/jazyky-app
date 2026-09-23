@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Die Zimmernummer ist sechzehn.",
       "tts_text": "Die Zimmernummer ist sechzehn."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "elf",
+      "tts_text": "elf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zwölf",
+      "tts_text": "zwölf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dreizehn",
+      "tts_text": "dreizehn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fünfzehn",
+      "tts_text": "fünfzehn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "achtzehn",
+      "tts_text": "achtzehn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zwanzig",
+      "tts_text": "zwanzig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sechzehn",
+      "tts_text": "sechzehn"
     }
   ]
 }

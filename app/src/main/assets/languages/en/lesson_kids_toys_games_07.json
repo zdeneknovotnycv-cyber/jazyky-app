@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Can I play too, please?",
       "tts_text": "Can I play too, please?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "friend",
+      "tts_text": "friend"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "together",
+      "tts_text": "together"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Can I play too?",
+      "tts_text": "Can I play too?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "team",
+      "tts_text": "team"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fun",
+      "tts_text": "fun"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "take turns",
+      "tts_text": "take turns"
     }
   ]
 }

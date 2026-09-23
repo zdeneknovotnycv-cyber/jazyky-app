@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich trage die Einkaufstasche.",
       "tts_text": "Ich trage die Einkaufstasche."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kasse",
+      "tts_text": "die Kasse"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bezahlen",
+      "tts_text": "bezahlen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Quittung",
+      "tts_text": "die Quittung"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Wechselgeld",
+      "tts_text": "das Wechselgeld"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Karte",
+      "tts_text": "die Karte"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Bargeld",
+      "tts_text": "das Bargeld"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Tasche",
+      "tts_text": "die Tasche"
     }
   ]
 }

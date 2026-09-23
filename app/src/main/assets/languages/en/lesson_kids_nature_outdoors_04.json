@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I saw a shooting star!",
       "tts_text": "I saw a shooting star!"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "star",
+      "tts_text": "star"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sky",
+      "tts_text": "sky"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cloud",
+      "tts_text": "cloud"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dark",
+      "tts_text": "dark"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wish",
+      "tts_text": "wish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "telescope",
+      "tts_text": "telescope"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shooting star",
+      "tts_text": "shooting star"
     }
   ]
 }

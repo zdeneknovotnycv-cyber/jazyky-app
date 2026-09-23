@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Man muss mutig sein, um das Schloss zu betreten.",
       "tts_text": "Man muss mutig sein, um das Schloss zu betreten."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schloss",
+      "tts_text": "das Schloss"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Drache",
+      "tts_text": "der Drache"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Ritter",
+      "tts_text": "der Ritter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Turm",
+      "tts_text": "der Turm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Feuer",
+      "tts_text": "das Feuer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schwert",
+      "tts_text": "das Schwert"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mutig",
+      "tts_text": "mutig"
     }
   ]
 }

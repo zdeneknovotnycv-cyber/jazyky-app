@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich wohne in einer ruhigen Straße.",
       "tts_text": "Ich wohne in einer ruhigen Straße."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Nachbarschaft",
+      "tts_text": "die Nachbarschaft"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Nachbar",
+      "tts_text": "der Nachbar"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Straße",
+      "tts_text": "die Straße"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Gebäude",
+      "tts_text": "das Gebäude"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Kiosk",
+      "tts_text": "der Kiosk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Platz",
+      "tts_text": "der Platz"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vertraut",
+      "tts_text": "vertraut"
     }
   ]
 }

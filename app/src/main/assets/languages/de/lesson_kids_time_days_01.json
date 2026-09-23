@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Am Montag gehe ich zur Schule.",
       "tts_text": "Am Montag gehe ich zur Schule."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Montag",
+      "tts_text": "der Montag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Dienstag",
+      "tts_text": "der Dienstag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Mittwoch",
+      "tts_text": "der Mittwoch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Donnerstag",
+      "tts_text": "der Donnerstag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Freitag",
+      "tts_text": "der Freitag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Samstag",
+      "tts_text": "der Samstag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Sonntag",
+      "tts_text": "der Sonntag"
     }
   ]
 }

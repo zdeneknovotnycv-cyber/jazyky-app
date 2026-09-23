@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Er hat ein großes Lächeln.",
       "tts_text": "Er hat ein großes Lächeln."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fröhlich",
+      "tts_text": "fröhlich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "traurig",
+      "tts_text": "traurig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Lächeln",
+      "tts_text": "das Lächeln"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "weinen",
+      "tts_text": "weinen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lachen",
+      "tts_text": "lachen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Gefühl",
+      "tts_text": "das Gefühl"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Umarmung",
+      "tts_text": "die Umarmung"
     }
   ]
 }

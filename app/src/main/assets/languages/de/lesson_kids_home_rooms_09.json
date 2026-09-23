@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Das ist mein Zimmer.",
       "tts_text": "Das ist mein Zimmer."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mein Zimmer",
+      "tts_text": "mein Zimmer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Spielsachen",
+      "tts_text": "die Spielsachen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Poster",
+      "tts_text": "das Poster"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Fenster",
+      "tts_text": "das Fenster"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Tür",
+      "tts_text": "die Tür"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Durcheinander",
+      "tts_text": "das Durcheinander"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Lieblingsecke",
+      "tts_text": "die Lieblingsecke"
     }
   ]
 }

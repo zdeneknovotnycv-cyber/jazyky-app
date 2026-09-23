@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I won a medal at the race.",
       "tts_text": "I won a medal at the race."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "proud",
+      "tts_text": "proud"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "achievement",
+      "tts_text": "achievement"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "well done",
+      "tts_text": "well done"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "medal",
+      "tts_text": "medal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hard work",
+      "tts_text": "hard work"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "parents",
+      "tts_text": "parents"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "succeed",
+      "tts_text": "succeed"
     }
   ]
 }

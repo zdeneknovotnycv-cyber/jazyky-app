@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "We swim in summer.",
       "tts_text": "We swim in summer."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "spring",
+      "tts_text": "spring"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "summer",
+      "tts_text": "summer"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "autumn",
+      "tts_text": "autumn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "winter",
+      "tts_text": "winter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "season",
+      "tts_text": "season"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "year",
+      "tts_text": "year"
     }
   ]
 }

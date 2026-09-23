@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich binde meine Schnürsenkel.",
       "tts_text": "Ich binde meine Schnürsenkel."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Schuhgeschäft",
+      "tts_text": "das Schuhgeschäft"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Größe",
+      "tts_text": "die Größe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "anprobieren",
+      "tts_text": "anprobieren"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bequem",
+      "tts_text": "bequem"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "eng",
+      "tts_text": "eng"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Farbe",
+      "tts_text": "die Farbe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schnürsenkel",
+      "tts_text": "die Schnürsenkel"
     }
   ]
 }

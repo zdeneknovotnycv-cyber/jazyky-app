@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I give up my seat for an old man.",
       "tts_text": "I give up my seat for an old man."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tram",
+      "tts_text": "tram"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "subway",
+      "tts_text": "subway"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stop",
+      "tts_text": "stop"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ticket machine",
+      "tts_text": "ticket machine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "map",
+      "tts_text": "map"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "give up a seat",
+      "tts_text": "give up a seat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "quiet",
+      "tts_text": "quiet"
     }
   ]
 }

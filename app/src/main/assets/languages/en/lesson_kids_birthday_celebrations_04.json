@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Confetti falls on the floor.",
       "tts_text": "Confetti falls on the floor."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "New Year",
+      "tts_text": "New Year"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fireworks",
+      "tts_text": "fireworks"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "countdown",
+      "tts_text": "countdown"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wish",
+      "tts_text": "wish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "clock",
+      "tts_text": "clock"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "toast",
+      "tts_text": "toast"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "confetti",
+      "tts_text": "confetti"
     }
   ]
 }

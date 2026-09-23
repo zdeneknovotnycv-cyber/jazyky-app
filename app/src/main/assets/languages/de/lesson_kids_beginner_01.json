@@ -67,7 +67,11 @@
     {
       "type": "listen_and_choose",
       "prompt_tts": "die Mutter",
-      "options": ["maminka", "tatínek", "sestra"],
+      "options": [
+        "maminka",
+        "tatínek",
+        "sestra"
+      ],
       "correct": "maminka"
     },
     {
@@ -79,16 +83,68 @@
     {
       "type": "match_pairs",
       "pairs": [
-        {"target": "der Hund", "cz": "pes"},
-        {"target": "die Katze", "cz": "kočka"},
-        {"target": "glücklich", "cz": "šťastný"},
-        {"target": "groß", "cz": "velký"}
+        {
+          "target": "der Hund",
+          "cz": "pes"
+        },
+        {
+          "target": "die Katze",
+          "cz": "kočka"
+        },
+        {
+          "target": "glücklich",
+          "cz": "šťastný"
+        },
+        {
+          "target": "groß",
+          "cz": "velký"
+        }
       ]
     },
     {
       "type": "speak_and_check",
       "target_phrase": "Ich habe eine Schwester.",
       "tts_text": "Ich habe eine Schwester."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Mutter",
+      "tts_text": "die Mutter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Vater",
+      "tts_text": "der Vater"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schwester",
+      "tts_text": "die Schwester"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bruder",
+      "tts_text": "der Bruder"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Hund",
+      "tts_text": "der Hund"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Katze",
+      "tts_text": "die Katze"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "glücklich",
+      "tts_text": "glücklich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "groß",
+      "tts_text": "groß"
     }
   ]
 }

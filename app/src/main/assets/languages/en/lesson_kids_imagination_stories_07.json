@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "You must be brave to enter the castle.",
       "tts_text": "You must be brave to enter the castle."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "castle",
+      "tts_text": "castle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dragon",
+      "tts_text": "dragon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "knight",
+      "tts_text": "knight"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tower",
+      "tts_text": "tower"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fire",
+      "tts_text": "fire"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sword",
+      "tts_text": "sword"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brave",
+      "tts_text": "brave"
     }
   ]
 }

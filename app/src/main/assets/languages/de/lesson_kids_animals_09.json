@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich liebe mein Haustier sehr.",
       "tts_text": "Ich liebe mein Haustier sehr."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "füttern",
+      "tts_text": "füttern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wassernapf",
+      "tts_text": "der Wassernapf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Gassi gehen",
+      "tts_text": "Gassi gehen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bürsten",
+      "tts_text": "bürsten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Tierarzt",
+      "tts_text": "der Tierarzt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "putzen",
+      "tts_text": "putzen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lieben",
+      "tts_text": "lieben"
     }
   ]
 }

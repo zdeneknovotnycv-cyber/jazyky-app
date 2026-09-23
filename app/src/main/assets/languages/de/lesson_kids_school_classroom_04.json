@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Mein Mitschüler hilft mir bei Mathe.",
       "tts_text": "Mein Mitschüler hilft mir bei Mathe."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Lehrer / die Lehrerin",
+      "tts_text": "der Lehrer / die Lehrerin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Mitschüler",
+      "tts_text": "der Mitschüler"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Freund / die Freundin",
+      "tts_text": "der Freund / die Freundin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schulleiter",
+      "tts_text": "der Schulleiter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Hand heben",
+      "tts_text": "die Hand heben"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zuhören",
+      "tts_text": "zuhören"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "helfen",
+      "tts_text": "helfen"
     }
   ]
 }

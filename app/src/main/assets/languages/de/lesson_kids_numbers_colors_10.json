@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich habe einen bunten Regenbogen gesehen.",
       "tts_text": "Ich habe einen bunten Regenbogen gesehen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grüne Blätter",
+      "tts_text": "grüne Blätter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "blauer Himmel",
+      "tts_text": "blauer Himmel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brauner Baum",
+      "tts_text": "brauner Baum"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gelbe Sonne",
+      "tts_text": "gelbe Sonne"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "orange Blätter",
+      "tts_text": "orange Blätter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "weißer Schnee",
+      "tts_text": "weißer Schnee"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Regenbogen",
+      "tts_text": "der Regenbogen"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The pig is pink.",
       "tts_text": "The pig is pink."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cow",
+      "tts_text": "cow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "horse",
+      "tts_text": "horse"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pig",
+      "tts_text": "pig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sheep",
+      "tts_text": "sheep"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "chicken",
+      "tts_text": "chicken"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "duck",
+      "tts_text": "duck"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "farm",
+      "tts_text": "farm"
     }
   ]
 }

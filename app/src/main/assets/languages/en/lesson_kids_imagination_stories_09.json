@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I have a great idea for a machine.",
       "tts_text": "I have a great idea for a machine."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "machine",
+      "tts_text": "machine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "invent",
+      "tts_text": "invent"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "robot",
+      "tts_text": "robot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "button",
+      "tts_text": "button"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wheel",
+      "tts_text": "wheel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "amazing",
+      "tts_text": "amazing"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "idea",
+      "tts_text": "idea"
     }
   ]
 }

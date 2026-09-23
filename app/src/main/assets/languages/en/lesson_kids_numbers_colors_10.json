@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I saw a colorful rainbow.",
       "tts_text": "I saw a colorful rainbow."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "green leaves",
+      "tts_text": "green leaves"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "blue sky",
+      "tts_text": "blue sky"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brown tree",
+      "tts_text": "brown tree"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "yellow sun",
+      "tts_text": "yellow sun"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "orange leaves",
+      "tts_text": "orange leaves"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "white snow",
+      "tts_text": "white snow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rainbow",
+      "tts_text": "rainbow"
     }
   ]
 }

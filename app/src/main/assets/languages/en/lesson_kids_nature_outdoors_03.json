@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The moon shines at night.",
       "tts_text": "The moon shines at night."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sun",
+      "tts_text": "sun"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "moon",
+      "tts_text": "moon"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sky",
+      "tts_text": "sky"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sunrise",
+      "tts_text": "sunrise"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sunset",
+      "tts_text": "sunset"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shine",
+      "tts_text": "shine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "night",
+      "tts_text": "night"
     }
   ]
 }

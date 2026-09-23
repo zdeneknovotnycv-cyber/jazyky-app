@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I love spending time in nature.",
       "tts_text": "I love spending time in nature."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "walk",
+      "tts_text": "walk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nature",
+      "tts_text": "nature"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fresh air",
+      "tts_text": "fresh air"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "footprint",
+      "tts_text": "footprint"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "listen",
+      "tts_text": "listen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "collect",
+      "tts_text": "collect"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "quiet",
+      "tts_text": "quiet"
     }
   ]
 }

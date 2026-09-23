@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "I am learning to play the piano.",
       "tts_text": "I am learning to play the piano."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "music lesson",
+      "tts_text": "music lesson"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "piano",
+      "tts_text": "piano"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "guitar",
+      "tts_text": "guitar"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sing",
+      "tts_text": "sing"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "practice",
+      "tts_text": "practice"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "song",
+      "tts_text": "song"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir spielen im Garten.",
       "tts_text": "Wir spielen im Garten."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Garten",
+      "tts_text": "der Garten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Gras",
+      "tts_text": "das Gras"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Blume",
+      "tts_text": "die Blume"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Baum",
+      "tts_text": "der Baum"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schaukel",
+      "tts_text": "die Schaukel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Zaun",
+      "tts_text": "der Zaun"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "graben",
+      "tts_text": "graben"
     }
   ]
 }

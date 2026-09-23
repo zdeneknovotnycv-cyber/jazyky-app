@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Mein Geburtstag ist im Januar.",
       "tts_text": "Mein Geburtstag ist im Januar."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Januar",
+      "tts_text": "der Januar"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der April",
+      "tts_text": "der April"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Juli",
+      "tts_text": "der Juli"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Oktober",
+      "tts_text": "der Oktober"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Dezember",
+      "tts_text": "der Dezember"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Monat",
+      "tts_text": "der Monat"
     }
   ]
 }

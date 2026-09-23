@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We open a treasure chest.",
       "tts_text": "We open a treasure chest."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pirate",
+      "tts_text": "pirate"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ship",
+      "tts_text": "ship"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "treasure map",
+      "tts_text": "treasure map"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "island",
+      "tts_text": "island"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sword",
+      "tts_text": "sword"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "flag",
+      "tts_text": "flag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "chest",
+      "tts_text": "chest"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Das Ergebnis ist sechs.",
       "tts_text": "Das Ergebnis ist sechs."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "plus",
+      "tts_text": "plus"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ist gleich",
+      "tts_text": "ist gleich"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "addieren",
+      "tts_text": "addieren"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Summe",
+      "tts_text": "die Summe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Zahl",
+      "tts_text": "die Zahl"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zusammen",
+      "tts_text": "zusammen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Ergebnis",
+      "tts_text": "das Ergebnis"
     }
   ]
 }

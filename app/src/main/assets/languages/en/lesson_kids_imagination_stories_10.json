@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "My dream vacation is amazing.",
       "tts_text": "My dream vacation is amazing."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dream",
+      "tts_text": "dream"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "beach",
+      "tts_text": "beach"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mountain",
+      "tts_text": "mountain"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "imagine",
+      "tts_text": "imagine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "airplane",
+      "tts_text": "airplane"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "adventure",
+      "tts_text": "adventure"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "amazing",
+      "tts_text": "amazing"
     }
   ]
 }

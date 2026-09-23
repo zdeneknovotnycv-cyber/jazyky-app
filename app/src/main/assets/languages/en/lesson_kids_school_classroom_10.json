@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I am excited about the trip.",
       "tts_text": "I am excited about the trip."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "school trip",
+      "tts_text": "school trip"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bus",
+      "tts_text": "bus"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "museum",
+      "tts_text": "museum"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "guide",
+      "tts_text": "guide"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "map",
+      "tts_text": "map"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "excited",
+      "tts_text": "excited"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "picnic",
+      "tts_text": "picnic"
     }
   ]
 }

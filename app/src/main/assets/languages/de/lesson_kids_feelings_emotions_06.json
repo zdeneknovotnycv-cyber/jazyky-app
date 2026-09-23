@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich fühle mich unruhig, wenn mir langweilig ist.",
       "tts_text": "Ich fühle mich unruhig, wenn mir langweilig ist."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gelangweilt",
+      "tts_text": "gelangweilt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "langweilig",
+      "tts_text": "langweilig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nichts zu tun",
+      "tts_text": "nichts zu tun"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Idee",
+      "tts_text": "die Idee"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ein Spiel spielen",
+      "tts_text": "ein Spiel spielen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "unruhig",
+      "tts_text": "unruhig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "malen",
+      "tts_text": "malen"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Im Sommer ist es sehr heiß.",
       "tts_text": "Im Sommer ist es sehr heiß."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Shorts",
+      "tts_text": "die Shorts"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Sandalen",
+      "tts_text": "die Sandalen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Sonnenbrille",
+      "tts_text": "die Sonnenbrille"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Badeanzug",
+      "tts_text": "der Badeanzug"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kappe",
+      "tts_text": "die Kappe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Rock",
+      "tts_text": "der Rock"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "heiß",
+      "tts_text": "heiß"
     }
   ]
 }

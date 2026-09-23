@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich muss mich eine Weile ausruhen.",
       "tts_text": "Ich muss mich eine Weile ausruhen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "müde",
+      "tts_text": "müde"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gähnen",
+      "tts_text": "gähnen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schläfrig",
+      "tts_text": "schläfrig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich ausruhen",
+      "tts_text": "sich ausruhen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "erschöpft",
+      "tts_text": "erschöpft"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Nickerchen",
+      "tts_text": "das Nickerchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Energie",
+      "tts_text": "die Energie"
     }
   ]
 }

@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Er hat ein Tor geschossen!",
       "tts_text": "Er hat ein Tor geschossen!"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fußball",
+      "tts_text": "der Fußball"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Ball",
+      "tts_text": "der Ball"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Tor",
+      "tts_text": "das Tor"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Team",
+      "tts_text": "das Team"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Spieler",
+      "tts_text": "der Spieler"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gewinnen",
+      "tts_text": "gewinnen"
     }
   ]
 }

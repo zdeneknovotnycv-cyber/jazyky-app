@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Let's check the weather forecast.",
       "tts_text": "Let's check the weather forecast."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "weather forecast",
+      "tts_text": "weather forecast"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tomorrow it will rain",
+      "tts_text": "tomorrow it will rain"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "temperature",
+      "tts_text": "temperature"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "degree",
+      "tts_text": "degree"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "windy",
+      "tts_text": "windy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cloudy",
+      "tts_text": "cloudy"
     }
   ]
 }

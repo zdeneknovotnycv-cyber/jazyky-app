@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The cake is very sweet.",
       "tts_text": "The cake is very sweet."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cake",
+      "tts_text": "cake"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "candle",
+      "tts_text": "candle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "blow out",
+      "tts_text": "blow out"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "slice",
+      "tts_text": "slice"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "icing",
+      "tts_text": "icing"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sing",
+      "tts_text": "sing"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sweet",
+      "tts_text": "sweet"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I look both ways before crossing.",
       "tts_text": "I look both ways before crossing."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sidewalk",
+      "tts_text": "sidewalk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "crosswalk",
+      "tts_text": "crosswalk"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "backpack",
+      "tts_text": "backpack"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "early",
+      "tts_text": "early"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "look both ways",
+      "tts_text": "look both ways"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "together",
+      "tts_text": "together"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "street",
+      "tts_text": "street"
     }
   ]
 }

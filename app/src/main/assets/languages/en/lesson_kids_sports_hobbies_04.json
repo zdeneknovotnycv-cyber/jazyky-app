@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "I like to dance to music.",
       "tts_text": "I like to dance to music."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dance",
+      "tts_text": "dance"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "music",
+      "tts_text": "music"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "move",
+      "tts_text": "move"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dance class",
+      "tts_text": "dance class"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rhythm",
+      "tts_text": "rhythm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "spin",
+      "tts_text": "spin"
     }
   ]
 }

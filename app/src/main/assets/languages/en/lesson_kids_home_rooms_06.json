@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We play in the garden.",
       "tts_text": "We play in the garden."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "garden",
+      "tts_text": "garden"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grass",
+      "tts_text": "grass"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "flower",
+      "tts_text": "flower"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tree",
+      "tts_text": "tree"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swing",
+      "tts_text": "swing"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fence",
+      "tts_text": "fence"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dig",
+      "tts_text": "dig"
     }
   ]
 }

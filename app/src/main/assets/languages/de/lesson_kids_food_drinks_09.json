@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich koche gern mit Mama.",
       "tts_text": "Ich koche gern mit Mama."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "kochen",
+      "tts_text": "kochen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Rezept",
+      "tts_text": "das Rezept"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mischen",
+      "tts_text": "mischen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "backen",
+      "tts_text": "backen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Ofen",
+      "tts_text": "der Ofen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "umrühren",
+      "tts_text": "umrühren"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "probieren",
+      "tts_text": "probieren"
     }
   ]
 }

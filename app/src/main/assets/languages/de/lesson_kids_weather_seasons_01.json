@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Heute ist es sonnig.",
       "tts_text": "Heute ist es sonnig."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sonnig",
+      "tts_text": "sonnig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "regnerisch",
+      "tts_text": "regnerisch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Regen",
+      "tts_text": "der Regen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Sonne",
+      "tts_text": "die Sonne"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Regenschirm",
+      "tts_text": "der Regenschirm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Wolke",
+      "tts_text": "die Wolke"
     }
   ]
 }

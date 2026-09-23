@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I put on my swimsuit.",
       "tts_text": "I put on my swimsuit."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swimming pool",
+      "tts_text": "swimming pool"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swimsuit",
+      "tts_text": "swimsuit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "towel",
+      "tts_text": "towel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swim",
+      "tts_text": "swim"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lifeguard",
+      "tts_text": "lifeguard"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "diving board",
+      "tts_text": "diving board"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "water wings",
+      "tts_text": "water wings"
     }
   ]
 }

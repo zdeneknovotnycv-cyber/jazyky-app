@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I stick a stamp on the envelope.",
       "tts_text": "I stick a stamp on the envelope."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "post office",
+      "tts_text": "post office"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "letter",
+      "tts_text": "letter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "stamp",
+      "tts_text": "stamp"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "package",
+      "tts_text": "package"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mailbox",
+      "tts_text": "mailbox"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "postman",
+      "tts_text": "postman"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "address",
+      "tts_text": "address"
     }
   ]
 }

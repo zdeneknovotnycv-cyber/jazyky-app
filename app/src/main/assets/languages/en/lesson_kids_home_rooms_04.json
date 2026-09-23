@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I take a bath in the bathtub.",
       "tts_text": "I take a bath in the bathtub."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "toothbrush",
+      "tts_text": "toothbrush"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "towel",
+      "tts_text": "towel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bathtub",
+      "tts_text": "bathtub"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sink",
+      "tts_text": "sink"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mirror",
+      "tts_text": "mirror"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shampoo",
+      "tts_text": "shampoo"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "toilet",
+      "tts_text": "toilet"
     }
   ]
 }

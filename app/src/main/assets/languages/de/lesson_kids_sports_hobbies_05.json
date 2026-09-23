@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Ich habe ein Bild von meiner Familie gemalt.",
       "tts_text": "Ich habe ein Bild von meiner Familie gemalt."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zeichnen",
+      "tts_text": "zeichnen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "malen",
+      "tts_text": "malen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Buntstift",
+      "tts_text": "der Buntstift"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Papier",
+      "tts_text": "das Papier"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Pinsel",
+      "tts_text": "der Pinsel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Bild",
+      "tts_text": "das Bild"
     }
   ]
 }

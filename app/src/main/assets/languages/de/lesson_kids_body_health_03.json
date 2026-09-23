@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich fühle mich heute krank.",
       "tts_text": "Ich fühle mich heute krank."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "krank",
+      "tts_text": "krank"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Fieber",
+      "tts_text": "das Fieber"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kopfschmerzen",
+      "tts_text": "die Kopfschmerzen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "husten",
+      "tts_text": "husten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Bauchschmerzen",
+      "tts_text": "die Bauchschmerzen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "müde",
+      "tts_text": "müde"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sich ausruhen",
+      "tts_text": "sich ausruhen"
     }
   ]
 }

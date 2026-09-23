@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Bubbles float up to the surface.",
       "tts_text": "Bubbles float up to the surface."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sea",
+      "tts_text": "sea"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fish",
+      "tts_text": "fish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mermaid",
+      "tts_text": "mermaid"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "coral reef",
+      "tts_text": "coral reef"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "treasure",
+      "tts_text": "treasure"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shark",
+      "tts_text": "shark"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bubble",
+      "tts_text": "bubble"
     }
   ]
 }

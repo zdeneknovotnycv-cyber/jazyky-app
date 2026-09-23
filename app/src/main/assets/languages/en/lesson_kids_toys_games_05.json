@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "I build a tower with building blocks.",
       "tts_text": "I build a tower with building blocks."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "building blocks",
+      "tts_text": "building blocks"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tower",
+      "tts_text": "tower"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "build",
+      "tts_text": "build"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "brick",
+      "tts_text": "brick"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fall down",
+      "tts_text": "fall down"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "castle",
+      "tts_text": "castle"
     }
   ]
 }

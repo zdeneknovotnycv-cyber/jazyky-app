@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Nach dem Bad fühle ich mich sauber.",
       "tts_text": "Nach dem Bad fühle ich mich sauber."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Bad",
+      "tts_text": "das Bad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Seife",
+      "tts_text": "die Seife"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Handtuch",
+      "tts_text": "das Handtuch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "warmes Wasser",
+      "tts_text": "warmes Wasser"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Shampoo",
+      "tts_text": "das Shampoo"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Gummiente",
+      "tts_text": "die Gummiente"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sauber",
+      "tts_text": "sauber"
     }
   ]
 }

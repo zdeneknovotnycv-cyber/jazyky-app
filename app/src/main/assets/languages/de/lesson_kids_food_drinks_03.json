@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir essen zusammen zu Abend.",
       "tts_text": "Wir essen zusammen zu Abend."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Abendessen",
+      "tts_text": "das Abendessen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Kartoffeln",
+      "tts_text": "die Kartoffeln"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Fleisch",
+      "tts_text": "das Fleisch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fisch",
+      "tts_text": "der Fisch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Gemüse",
+      "tts_text": "das Gemüse"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Brötchen",
+      "tts_text": "das Brötchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Familienabendessen",
+      "tts_text": "das Familienabendessen"
     }
   ]
 }

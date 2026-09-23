@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I share my toys with friends.",
       "tts_text": "I share my toys with friends."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "play",
+      "tts_text": "play"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "toy",
+      "tts_text": "toy"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "outside",
+      "tts_text": "outside"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ball",
+      "tts_text": "ball"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swing",
+      "tts_text": "swing"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fun",
+      "tts_text": "fun"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "share",
+      "tts_text": "share"
     }
   ]
 }

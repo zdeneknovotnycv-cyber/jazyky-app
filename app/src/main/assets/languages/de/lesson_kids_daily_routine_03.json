@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir sitzen zusammen am Tisch.",
       "tts_text": "Wir sitzen zusammen am Tisch."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Frühstück",
+      "tts_text": "das Frühstück"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Müsli",
+      "tts_text": "das Müsli"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Toast",
+      "tts_text": "der Toast"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Milch",
+      "tts_text": "die Milch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Ei",
+      "tts_text": "das Ei"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hungrig",
+      "tts_text": "hungrig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Tisch",
+      "tts_text": "der Tisch"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "There are seven days in a week.",
       "tts_text": "There are seven days in a week."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "one",
+      "tts_text": "one"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "two",
+      "tts_text": "two"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "three",
+      "tts_text": "three"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "five",
+      "tts_text": "five"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "seven",
+      "tts_text": "seven"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nine",
+      "tts_text": "nine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ten",
+      "tts_text": "ten"
     }
   ]
 }

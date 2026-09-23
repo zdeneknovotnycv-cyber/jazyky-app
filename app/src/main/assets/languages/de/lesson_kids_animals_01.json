@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Mein Hund ist freundlich.",
       "tts_text": "Mein Hund ist freundlich."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Hund",
+      "tts_text": "der Hund"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Katze",
+      "tts_text": "die Katze"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fisch",
+      "tts_text": "der Fisch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Vogel",
+      "tts_text": "der Vogel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Hamster",
+      "tts_text": "der Hamster"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Kaninchen",
+      "tts_text": "das Kaninchen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Haustier",
+      "tts_text": "das Haustier"
     }
   ]
 }

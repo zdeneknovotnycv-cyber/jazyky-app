@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "He scored a goal!",
       "tts_text": "He scored a goal!"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "football",
+      "tts_text": "football"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ball",
+      "tts_text": "ball"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "goal",
+      "tts_text": "goal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "team",
+      "tts_text": "team"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "player",
+      "tts_text": "player"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "win",
+      "tts_text": "win"
     }
   ]
 }

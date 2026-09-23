@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Mond scheint in der Nacht.",
       "tts_text": "Der Mond scheint in der Nacht."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Sonne",
+      "tts_text": "die Sonne"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Mond",
+      "tts_text": "der Mond"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Himmel",
+      "tts_text": "der Himmel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Sonnenaufgang",
+      "tts_text": "der Sonnenaufgang"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Sonnenuntergang",
+      "tts_text": "der Sonnenuntergang"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "scheinen",
+      "tts_text": "scheinen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Nacht",
+      "tts_text": "die Nacht"
     }
   ]
 }

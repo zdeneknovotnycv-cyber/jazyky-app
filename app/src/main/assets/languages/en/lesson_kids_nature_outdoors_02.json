@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "This flower smells so nice.",
       "tts_text": "This flower smells so nice."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "flower",
+      "tts_text": "flower"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "plant",
+      "tts_text": "plant"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "petal",
+      "tts_text": "petal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "seed",
+      "tts_text": "seed"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grow",
+      "tts_text": "grow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bee",
+      "tts_text": "bee"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "garden",
+      "tts_text": "garden"
     }
   ]
 }

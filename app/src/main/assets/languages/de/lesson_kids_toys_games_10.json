@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Wir haben das Puzzle zusammen fertig gemacht.",
       "tts_text": "Wir haben das Puzzle zusammen fertig gemacht."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Puzzle",
+      "tts_text": "das Puzzle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Teil",
+      "tts_text": "das Teil"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Bild",
+      "tts_text": "das Bild"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fertig machen",
+      "tts_text": "fertig machen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "schwierig",
+      "tts_text": "schwierig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "einfach",
+      "tts_text": "einfach"
     }
   ]
 }

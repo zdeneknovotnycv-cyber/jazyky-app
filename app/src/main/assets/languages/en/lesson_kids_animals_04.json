@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The panda eats bamboo.",
       "tts_text": "The panda eats bamboo."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zoo",
+      "tts_text": "zoo"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "giraffe",
+      "tts_text": "giraffe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zebra",
+      "tts_text": "zebra"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "panda",
+      "tts_text": "panda"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "crocodile",
+      "tts_text": "crocodile"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cage",
+      "tts_text": "cage"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "keeper",
+      "tts_text": "keeper"
     }
   ]
 }

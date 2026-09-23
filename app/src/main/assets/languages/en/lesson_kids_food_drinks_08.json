@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I order chicken and fries.",
       "tts_text": "I order chicken and fries."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "menu",
+      "tts_text": "menu"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "waiter",
+      "tts_text": "waiter"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "order",
+      "tts_text": "order"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fries",
+      "tts_text": "fries"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "please",
+      "tts_text": "please"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "thank you",
+      "tts_text": "thank you"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bill",
+      "tts_text": "bill"
     }
   ]
 }

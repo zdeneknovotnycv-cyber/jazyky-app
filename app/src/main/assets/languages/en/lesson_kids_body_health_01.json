@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wash your hands.",
       "tts_text": "Wash your hands."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hand",
+      "tts_text": "hand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "leg",
+      "tts_text": "leg"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "head",
+      "tts_text": "head"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "eye",
+      "tts_text": "eye"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ear",
+      "tts_text": "ear"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nose",
+      "tts_text": "nose"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mouth",
+      "tts_text": "mouth"
     }
   ]
 }

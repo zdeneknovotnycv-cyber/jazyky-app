@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "How much does this candy cost?",
       "tts_text": "How much does this candy cost?"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "candy shop",
+      "tts_text": "candy shop"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lollipop",
+      "tts_text": "lollipop"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "jar",
+      "tts_text": "jar"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gummy bear",
+      "tts_text": "gummy bear"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sweet",
+      "tts_text": "sweet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bag",
+      "tts_text": "bag"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "how much",
+      "tts_text": "how much"
     }
   ]
 }

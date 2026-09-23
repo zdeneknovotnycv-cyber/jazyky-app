@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Please share your toys.",
       "tts_text": "Please share your toys."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "share",
+      "tts_text": "share"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "borrow",
+      "tts_text": "borrow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "mine",
+      "tts_text": "mine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "yours",
+      "tts_text": "yours"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "kind",
+      "tts_text": "kind"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "give back",
+      "tts_text": "give back"
     }
   ]
 }

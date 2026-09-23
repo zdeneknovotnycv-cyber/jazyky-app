@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I help fold the clothes.",
       "tts_text": "I help fold the clothes."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "washing machine",
+      "tts_text": "washing machine"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dirty",
+      "tts_text": "dirty"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "clean",
+      "tts_text": "clean"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hang up",
+      "tts_text": "hang up"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "laundry basket",
+      "tts_text": "laundry basket"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "iron",
+      "tts_text": "iron"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fold",
+      "tts_text": "fold"
     }
   ]
 }

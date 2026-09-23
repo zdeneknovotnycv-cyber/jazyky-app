@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I am excited about the party.",
       "tts_text": "I am excited about the party."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "invite",
+      "tts_text": "invite"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "invitation",
+      "tts_text": "invitation"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "guest list",
+      "tts_text": "guest list"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "come",
+      "tts_text": "come"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "confirm",
+      "tts_text": "confirm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "date",
+      "tts_text": "date"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "excited",
+      "tts_text": "excited"
     }
   ]
 }

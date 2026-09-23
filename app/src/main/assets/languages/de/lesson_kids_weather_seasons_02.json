@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Wir haben einen Schneemann gebaut.",
       "tts_text": "Wir haben einen Schneemann gebaut."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schnee",
+      "tts_text": "der Schnee"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schneemann",
+      "tts_text": "der Schneemann"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "kalt",
+      "tts_text": "kalt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Schneeflocke",
+      "tts_text": "die Schneeflocke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Schlitten",
+      "tts_text": "der Schlitten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Eis",
+      "tts_text": "das Eis"
     }
   ]
 }

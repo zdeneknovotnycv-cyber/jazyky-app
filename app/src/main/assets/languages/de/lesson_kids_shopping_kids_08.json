@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich helfe Mama, die Taschen zu tragen.",
       "tts_text": "Ich helfe Mama, die Taschen zu tragen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Einkaufsliste",
+      "tts_text": "die Einkaufsliste"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Einkaufskorb",
+      "tts_text": "der Einkaufskorb"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Brot",
+      "tts_text": "das Brot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Obst",
+      "tts_text": "das Obst"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vergessen",
+      "tts_text": "vergessen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Gang",
+      "tts_text": "der Gang"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "helfen",
+      "tts_text": "helfen"
     }
   ]
 }

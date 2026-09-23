@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The lion roars in the jungle.",
       "tts_text": "The lion roars in the jungle."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bark",
+      "tts_text": "bark"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "meow",
+      "tts_text": "meow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "moo",
+      "tts_text": "moo"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "roar",
+      "tts_text": "roar"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "quack",
+      "tts_text": "quack"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "tweet",
+      "tts_text": "tweet"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "neigh",
+      "tts_text": "neigh"
     }
   ]
 }

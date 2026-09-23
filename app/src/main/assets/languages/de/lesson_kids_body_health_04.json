@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Arzt untersucht meine Ohren.",
       "tts_text": "Der Arzt untersucht meine Ohren."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Arzt",
+      "tts_text": "der Arzt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Krankenschwester",
+      "tts_text": "die Krankenschwester"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Termin",
+      "tts_text": "der Termin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Medizin",
+      "tts_text": "die Medizin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Temperatur",
+      "tts_text": "die Temperatur"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gesund",
+      "tts_text": "gesund"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Wartezimmer",
+      "tts_text": "das Wartezimmer"
     }
   ]
 }

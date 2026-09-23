@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Sie ist meine beste Freundin.",
       "tts_text": "Sie ist meine beste Freundin."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Freund / die Freundin",
+      "tts_text": "der Freund / die Freundin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der beste Freund",
+      "tts_text": "der beste Freund"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "zusammen spielen",
+      "tts_text": "zusammen spielen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "teilen",
+      "tts_text": "teilen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "nett",
+      "tts_text": "nett"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Mitschüler",
+      "tts_text": "der Mitschüler"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lächeln",
+      "tts_text": "lächeln"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Let's compare our stickers.",
       "tts_text": "Let's compare our stickers."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "more",
+      "tts_text": "more"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "less",
+      "tts_text": "less"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "same",
+      "tts_text": "same"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "full",
+      "tts_text": "full"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "empty",
+      "tts_text": "empty"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "enough",
+      "tts_text": "enough"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "compare",
+      "tts_text": "compare"
     }
   ]
 }

@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Nach der Schule spiele ich ein Videospiel.",
       "tts_text": "Nach der Schule spiele ich ein Videospiel."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Videospiel",
+      "tts_text": "das Videospiel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Bildschirm",
+      "tts_text": "der Bildschirm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Controller",
+      "tts_text": "der Controller"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Level",
+      "tts_text": "das Level"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Spielzeit",
+      "tts_text": "die Spielzeit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Computer",
+      "tts_text": "der Computer"
     }
   ]
 }

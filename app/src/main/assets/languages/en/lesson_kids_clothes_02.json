@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "It is very cold outside.",
       "tts_text": "It is very cold outside."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "coat",
+      "tts_text": "coat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "scarf",
+      "tts_text": "scarf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "gloves",
+      "tts_text": "gloves"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hat",
+      "tts_text": "hat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "boots",
+      "tts_text": "boots"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "snowsuit",
+      "tts_text": "snowsuit"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cold",
+      "tts_text": "cold"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I build a sandcastle every day.",
       "tts_text": "I build a sandcastle every day."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sea",
+      "tts_text": "sea"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "beach",
+      "tts_text": "beach"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sand",
+      "tts_text": "sand"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "wave",
+      "tts_text": "wave"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shell",
+      "tts_text": "shell"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "swim",
+      "tts_text": "swim"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sandcastle",
+      "tts_text": "sandcastle"
     }
   ]
 }

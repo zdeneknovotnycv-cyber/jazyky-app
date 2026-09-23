@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "This is a photo of my family.",
       "tts_text": "This is a photo of my family."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "photo",
+      "tts_text": "photo"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "album",
+      "tts_text": "album"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "memory",
+      "tts_text": "memory"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "remember",
+      "tts_text": "remember"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vacation",
+      "tts_text": "vacation"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "smile for the camera",
+      "tts_text": "smile for the camera"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "old photo",
+      "tts_text": "old photo"
     }
   ]
 }

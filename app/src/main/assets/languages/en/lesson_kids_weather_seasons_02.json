@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "We built a snowman.",
       "tts_text": "We built a snowman."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "snow",
+      "tts_text": "snow"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "snowman",
+      "tts_text": "snowman"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cold",
+      "tts_text": "cold"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "snowflake",
+      "tts_text": "snowflake"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sledge",
+      "tts_text": "sledge"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "ice",
+      "tts_text": "ice"
     }
   ]
 }

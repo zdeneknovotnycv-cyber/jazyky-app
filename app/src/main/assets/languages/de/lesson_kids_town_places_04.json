@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir bauen Schlösser im Sandkasten.",
       "tts_text": "Wir bauen Schlösser im Sandkasten."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Spielplatz",
+      "tts_text": "der Spielplatz"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Rutsche",
+      "tts_text": "die Rutsche"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Sandkasten",
+      "tts_text": "der Sandkasten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "klettern",
+      "tts_text": "klettern"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Wippe",
+      "tts_text": "die Wippe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Freund",
+      "tts_text": "der Freund"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Spaß haben",
+      "tts_text": "Spaß haben"
     }
   ]
 }

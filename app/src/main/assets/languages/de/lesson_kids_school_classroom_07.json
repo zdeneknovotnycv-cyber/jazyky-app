@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich teile meinen Snack mit einem Freund.",
       "tts_text": "Ich teile meinen Snack mit einem Freund."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Mittagessen",
+      "tts_text": "das Mittagessen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Mensa",
+      "tts_text": "die Mensa"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Tablett",
+      "tts_text": "das Tablett"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Suppe",
+      "tts_text": "die Suppe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hungrig",
+      "tts_text": "hungrig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "lecker",
+      "tts_text": "lecker"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "teilen",
+      "tts_text": "teilen"
     }
   ]
 }

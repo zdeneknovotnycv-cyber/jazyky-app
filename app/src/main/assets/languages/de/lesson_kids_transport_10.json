@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Ich biete meinen Platz einem alten Mann an.",
       "tts_text": "Ich biete meinen Platz einem alten Mann an."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Straßenbahn",
+      "tts_text": "die Straßenbahn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die U-Bahn",
+      "tts_text": "die U-Bahn"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Haltestelle",
+      "tts_text": "die Haltestelle"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fahrkartenautomat",
+      "tts_text": "der Fahrkartenautomat"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fahrplan",
+      "tts_text": "der Fahrplan"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "einen Platz anbieten",
+      "tts_text": "einen Platz anbieten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "leise",
+      "tts_text": "leise"
     }
   ]
 }

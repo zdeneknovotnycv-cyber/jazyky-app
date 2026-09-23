@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Wir schwimmen im See.",
       "tts_text": "Wir schwimmen im See."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fluss",
+      "tts_text": "der Fluss"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der See",
+      "tts_text": "der See"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Brücke",
+      "tts_text": "die Brücke"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fisch",
+      "tts_text": "der Fisch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Bootsfahrt",
+      "tts_text": "die Bootsfahrt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Frosch",
+      "tts_text": "der Frosch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das klare Wasser",
+      "tts_text": "das klare Wasser"
     }
   ]
 }

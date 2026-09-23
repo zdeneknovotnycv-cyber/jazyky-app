@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The room number is sixteen.",
       "tts_text": "The room number is sixteen."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "eleven",
+      "tts_text": "eleven"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "twelve",
+      "tts_text": "twelve"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "thirteen",
+      "tts_text": "thirteen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fifteen",
+      "tts_text": "fifteen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "eighteen",
+      "tts_text": "eighteen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "twenty",
+      "tts_text": "twenty"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sixteen",
+      "tts_text": "sixteen"
     }
   ]
 }

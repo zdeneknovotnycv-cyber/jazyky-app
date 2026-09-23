@@ -91,6 +91,36 @@
       "type": "speak_and_check",
       "target_phrase": "Ich fahre mit dem Fahrrad in den Park.",
       "tts_text": "Ich fahre mit dem Fahrrad in den Park."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Fahrrad",
+      "tts_text": "das Fahrrad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Helm",
+      "tts_text": "der Helm"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "treten",
+      "tts_text": "treten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "das Rad",
+      "tts_text": "das Rad"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "hinfallen",
+      "tts_text": "hinfallen"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Stützräder",
+      "tts_text": "die Stützräder"
     }
   ]
 }

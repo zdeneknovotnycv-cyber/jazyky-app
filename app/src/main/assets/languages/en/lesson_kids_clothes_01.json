@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I put on my jacket.",
       "tts_text": "I put on my jacket."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "T-shirt",
+      "tts_text": "T-shirt"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "trousers",
+      "tts_text": "trousers"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sweater",
+      "tts_text": "sweater"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dress",
+      "tts_text": "dress"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "socks",
+      "tts_text": "socks"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "jacket",
+      "tts_text": "jacket"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "clothes",
+      "tts_text": "clothes"
     }
   ]
 }

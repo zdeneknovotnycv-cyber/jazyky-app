@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Der Delfin ist sehr klug.",
       "tts_text": "Der Delfin ist sehr klug."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Fisch",
+      "tts_text": "der Fisch"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Hai",
+      "tts_text": "der Hai"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Delfin",
+      "tts_text": "der Delfin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Wal",
+      "tts_text": "der Wal"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Oktopus",
+      "tts_text": "der Oktopus"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Krabbe",
+      "tts_text": "die Krabbe"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "der Seestern",
+      "tts_text": "der Seestern"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "Halte immer an und schau.",
       "tts_text": "Halte immer an und schau."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Ampel",
+      "tts_text": "die Ampel"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "rot",
+      "tts_text": "rot"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "grün",
+      "tts_text": "grün"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "anhalten",
+      "tts_text": "anhalten"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "die Gefahr",
+      "tts_text": "die Gefahr"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "vorsichtig",
+      "tts_text": "vorsichtig"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "Händchen halten",
+      "tts_text": "Händchen halten"
     }
   ]
 }

@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "The dolphin is very smart.",
       "tts_text": "The dolphin is very smart."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fish",
+      "tts_text": "fish"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shark",
+      "tts_text": "shark"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dolphin",
+      "tts_text": "dolphin"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "whale",
+      "tts_text": "whale"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "octopus",
+      "tts_text": "octopus"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "crab",
+      "tts_text": "crab"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "starfish",
+      "tts_text": "starfish"
     }
   ]
 }

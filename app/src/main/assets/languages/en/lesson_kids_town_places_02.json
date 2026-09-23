@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We pay at the checkout.",
       "tts_text": "We pay at the checkout."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "supermarket",
+      "tts_text": "supermarket"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shopping cart",
+      "tts_text": "shopping cart"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shelf",
+      "tts_text": "shelf"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "shopping list",
+      "tts_text": "shopping list"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cashier",
+      "tts_text": "cashier"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pay",
+      "tts_text": "pay"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "basket",
+      "tts_text": "basket"
     }
   ]
 }

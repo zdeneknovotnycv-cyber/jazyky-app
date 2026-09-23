@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "We stand in a line.",
       "tts_text": "We stand in a line."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "first",
+      "tts_text": "first"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "second",
+      "tts_text": "second"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "third",
+      "tts_text": "third"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fourth",
+      "tts_text": "fourth"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fifth",
+      "tts_text": "fifth"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "last",
+      "tts_text": "last"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "line",
+      "tts_text": "line"
     }
   ]
 }

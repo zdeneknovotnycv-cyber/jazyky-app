@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I sleep eight hours.",
       "tts_text": "I sleep eight hours."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "sleep",
+      "tts_text": "sleep"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bed",
+      "tts_text": "bed"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "pajamas",
+      "tts_text": "pajamas"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "goodnight",
+      "tts_text": "goodnight"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "dream",
+      "tts_text": "dream"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "teddy bear",
+      "tts_text": "teddy bear"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bedtime story",
+      "tts_text": "bedtime story"
     }
   ]
 }

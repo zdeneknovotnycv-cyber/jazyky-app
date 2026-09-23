@@ -98,6 +98,41 @@
       "type": "speak_and_check",
       "target_phrase": "I want a croissant for breakfast.",
       "tts_text": "I want a croissant for breakfast."
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bakery",
+      "tts_text": "bakery"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "bread",
+      "tts_text": "bread"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "croissant",
+      "tts_text": "croissant"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "baker",
+      "tts_text": "baker"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "cake",
+      "tts_text": "cake"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "oven",
+      "tts_text": "oven"
+    },
+    {
+      "type": "speak_and_check",
+      "target_phrase": "fresh",
+      "tts_text": "fresh"
     }
   ]
 }
