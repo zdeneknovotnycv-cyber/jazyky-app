@@ -101,6 +101,7 @@ private fun categoryIconAndLabel(audience: String, slug: String): Pair<String, S
  * Lekce jsou rozdělené do dvou záložek (Děti / Dospělí) a v rámci záložky
  * seskupené podle tématu, aby uživatel nemusel rolovat přes stovky položek.
  */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LessonListScreen(
     languageCode: String,
